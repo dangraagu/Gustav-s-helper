@@ -1,0 +1,440 @@
+{
+  "_source": "https://ironman.guide/guide/after-barrows-gloves",
+  "_attribution": "Route by Oziris (@OzirisLoL) / ironman.guide. See NOTICE.",
+  "section": "After Barrows Gloves",
+  "steps": [
+    {
+      "id": "abg-001",
+      "title": "Get autoweed perk from Tithe farm …",
+      "text": "Get autoweed perk from Tithe farm (if 54 farming), herb sack IMO isn't even w...\nLocation: Hosidius",
+      "manual": true
+    },
+    {
+      "id": "abg-002",
+      "title": "Start doing farming contracts as soon …",
+      "text": "Start doing farming contracts as soon as you can do medium contracts, very im...\nLocation: Farming Guild",
+      "manual": true
+    },
+    {
+      "id": "abg-003",
+      "title": "If you ever need something AFK …",
+      "text": "If you ever need something AFK to do, just go to ammonite crabs with either b...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-004",
+      "title": "Get 61 Crafting",
+      "text": "Get 61 Crafting\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 61,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-005",
+      "title": "Go to the desert quarry and …",
+      "text": "Go to the desert quarry and mine sandstone for 1.2k buckets of sand\nLocation: Desert Quarry",
+      "manual": true
+    },
+    {
+      "id": "abg-006",
+      "title": "Go to rogues' den and burn …",
+      "text": "Go to rogues' den and burn giant seaweed on the fire, 4 seaweed at a time\nLocation: Rogues' Den",
+      "manual": true
+    },
+    {
+      "id": "abg-007",
+      "title": "Make molten glass at Edgeville furnace",
+      "text": "Make molten glass at Edgeville furnace\nLocation: Edgeville",
+      "manual": true
+    },
+    {
+      "id": "abg-008",
+      "title": "Blow glass lenses, might as well …",
+      "text": "Blow glass lenses, might as well do it underwater again for more seaweed spores\nLocation: Fossil Island",
+      "manual": true
+    },
+    {
+      "id": "abg-009",
+      "title": "Get 70 mining and do Lunar's …",
+      "text": "Get 70 mining and do Lunar's diplomacy\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-010",
+      "title": "Get a helm of neitiznot",
+      "text": "Get a helm of neitiznot\nLocation: Rellekka",
+      "manual": true
+    },
+    {
+      "id": "abg-011",
+      "title": "Get a fighter torso from BA",
+      "text": "Get a fighter torso from BA\nLocation: Barbarian Assault",
+      "manual": true
+    },
+    {
+      "id": "abg-012",
+      "title": "Strength amulet is as good as …",
+      "text": "Strength amulet is as good as a glory ammy for melee slayer (sometimes even b...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-013",
+      "title": "Do slayer until 65 attack and …",
+      "text": "Do slayer until 65 attack and 65 str, if you don't have them already\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 65,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-014",
+      "title": "Get a dragon defender",
+      "text": "Get a dragon defender\nLocation: Warriors Guild",
+      "manual": true
+    },
+    {
+      "id": "abg-015",
+      "title": "Prioritize STR training during slayer, I …",
+      "text": "Prioritize STR training during slayer, I like to go for 65/80/65 melee stats ...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-016",
+      "title": "If you completed Defender of Varrock …",
+      "text": "If you completed Defender of Varrock in section 1.5 and have 65 Attack, the Z...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-017",
+      "title": "Get 58 slayer, make sure you're …",
+      "text": "Get 58 slayer, make sure you're consistent with all your farming and birdhouses\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 58,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-018",
+      "title": "I recommend doing hard clues, they're …",
+      "text": "I recommend doing hard clues, they're good gp/h at this point of the account....\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-019",
+      "title": "Prioritize slayer points on: Superior slayer …",
+      "text": "Prioritize slayer points on: Superior slayer > Blocklist > Extend your favori...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-020",
+      "title": "At 58 slayer: Camp Cave horrors …",
+      "text": "At 58 slayer: Camp Cave horrors for mask\nLocation: Mos Le'Harmless",
+      "manual": true
+    },
+    {
+      "id": "abg-021",
+      "title": "If you have around 65/80/65 melee …",
+      "text": "If you have around 65/80/65 melee stats now, do Making friends with my arm qu...\nLocation: Weiss",
+      "manual": true
+    },
+    {
+      "id": "abg-022",
+      "title": "Do Fremmy hard diary, get 70 …",
+      "text": "Do Fremmy hard diary, get 70 agility and make few agility pots to use the sho...\nLocation: Rellekka",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-023",
+      "title": "Do dream mentor and imbue your …",
+      "text": "Do dream mentor and imbue your mask\nLocation: Lunar Isle",
+      "manual": true
+    },
+    {
+      "id": "abg-024",
+      "title": "Get crafting level for slayer rings …",
+      "text": "Get crafting level for slayer rings at some point\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-025",
+      "title": "Keep doing slayer until level 75",
+      "text": "Keep doing slayer until level 75\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-026",
+      "title": "Do Mage arena 2",
+      "text": "Do Mage arena 2\nLocation: Mage Arena",
+      "manual": true
+    },
+    {
+      "id": "abg-027",
+      "title": "Get 77 herblore, you should have …",
+      "text": "Get 77 herblore, you should have it banked by now if you've been farming, if ...\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 77,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-028",
+      "title": "Get 70 agility if you didn't …",
+      "text": "Get 70 agility if you didn't get it for the herb patch shortcut earlier\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-029",
+      "title": "Cut and bank 2.2k teak logs …",
+      "text": "Cut and bank 2.2k teak logs at fossil island, from the farming patch teaks\nLocation: Fossil Island",
+      "manual": true
+    },
+    {
+      "id": "abg-030",
+      "title": "Do Mahogany homes with teak planks …",
+      "text": "Do Mahogany homes with teak planks for 70 construction\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-031",
+      "title": "Finish 70 woodcutting with any method",
+      "text": "Finish 70 woodcutting with any method\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-032",
+      "title": "Get 60 range with bone crossbow …",
+      "text": "Get 60 range with bone crossbow at pest control if you haven't already got 60\nLocation: Pest Control",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-033",
+      "title": "Get 70 smithing",
+      "text": "Get 70 smithing\nLocation: Keldagrim",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-034",
+      "title": "Make botanical pies and +4 herblore …",
+      "text": "Make botanical pies and +4 herblore boost for sara brews\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-035",
+      "title": "Do Song of the elves",
+      "text": "Do Song of the elves\nLocation: Prifddinas",
+      "manual": true
+    },
+    {
+      "id": "abg-036",
+      "title": "Hunt 15k red chins at the …",
+      "text": "Hunt 15k red chins at the Prif hunter area\nLocation: Prifddinas",
+      "manual": true
+    },
+    {
+      "id": "abg-037",
+      "title": "Get range void from PC",
+      "text": "Get range void from PC\nLocation: Pest Control",
+      "manual": true
+    },
+    {
+      "id": "abg-038",
+      "title": "Unlock MM2 chinning area and chin …",
+      "text": "Unlock MM2 chinning area and chin to at least 87 range\nLocation: Ape Atoll",
+      "manual": true
+    },
+    {
+      "id": "abg-039",
+      "title": "Do Dragon slayer 2",
+      "text": "Do Dragon slayer 2\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "abg-040",
+      "title": "Start using kingdom again now that …",
+      "text": "Start using kingdom again now that you'll be getting constant GP easily, put ...\nLocation: Miscellania",
+      "manual": true
+    },
+    {
+      "id": "abg-041",
+      "title": "Ending the guide here, you can …",
+      "text": "Ending the guide here, you can pretty much do whatever you want from here\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-042",
+      "title": "Moons of Peril: Farm Blue Moon …",
+      "text": "Moons of Peril: Farm Blue Moon boss first for its magic-oriented hybrid armou...\nLocation: Varlamore",
+      "manual": true
+    },
+    {
+      "id": "abg-043",
+      "title": "Farm Royal Titans for Twinflame Staff, …",
+      "text": "Farm Royal Titans for Twinflame Staff, Deadeye and Mystic Vigour prayer scrol...\nLocation: Royal Titans",
+      "manual": true
+    },
+    {
+      "id": "abg-044",
+      "title": "By far the best thing to …",
+      "text": "By far the best thing to do next is to camp Corrupted Gauntlet until 2 enhanc...\nLocation: Prifddinas",
+      "manual": true
+    },
+    {
+      "id": "abg-045",
+      "title": "Phase 2 Complete: Post-Bowfa progression begins …",
+      "text": "Phase 2 Complete: Post-Bowfa progression begins here\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-046",
+      "title": "Resume Slayer with Bowfa - push …",
+      "text": "Resume Slayer with Bowfa - push to 85+ Slayer for boss tasks and Abyssal Demons\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-047",
+      "title": "Do Mastering Mixology at 60+ Herblore …",
+      "text": "Do Mastering Mixology at 60+ Herblore (requires Children of the Sun)\nLocation: Varlamore",
+      "manual": true
+    },
+    {
+      "id": "abg-048",
+      "title": "Start ToA at Entry Mode, push …",
+      "text": "Start ToA at Entry Mode, push to 150 invocations for unique drops\nLocation: Tombs of Amascut",
+      "manual": true
+    },
+    {
+      "id": "abg-049",
+      "title": "Farm ToA for Osmumten's Fang and …",
+      "text": "Farm ToA for Osmumten's Fang and Lightbearer as priority drops\nLocation: Tombs of Amascut",
+      "manual": true
+    },
+    {
+      "id": "abg-050",
+      "title": "Complete While Guthix Sleeps quest (requires …",
+      "text": "Complete While Guthix Sleeps quest (requires many prerequisites including Def...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-051",
+      "title": "Complete Secrets of the North quest …",
+      "text": "Complete Secrets of the North quest and farm Phantom Muspah\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-052",
+      "title": "Get 77 Herblore for Stamina Potions …",
+      "text": "Get 77 Herblore for Stamina Potions (if not already from WGS lamps)\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 77,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "abg-053",
+      "title": "Complete Desert Treasure II quest",
+      "text": "Complete Desert Treasure II quest\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-054",
+      "title": "Farm DT2 bosses: Vardorvis first for …",
+      "text": "Farm DT2 bosses: Vardorvis first for Ultor Ring + Soulreaper Axe\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "abg-055",
+      "title": "GWD: Farm Bandos for melee armour, …",
+      "text": "GWD: Farm Bandos for melee armour, Armadyl for ranged armour\nLocation: God Wars Dungeon",
+      "manual": true
+    },
+    {
+      "id": "abg-056",
+      "title": "Craft the Purging Staff from Tormented …",
+      "text": "Craft the Purging Staff from Tormented Demons (requires WGS completion)\nLocation: Tormented Demons",
+      "manual": true
+    },
+    {
+      "id": "abg-057",
+      "title": "Fortis Colosseum for Dizana's Quiver (BIS …",
+      "text": "Fortis Colosseum for Dizana's Quiver (BIS ranged cape)\nLocation: Fortis Colosseum",
+      "manual": true
+    },
+    {
+      "id": "abg-058",
+      "title": "Nex masses for Torva armour",
+      "text": "Nex masses for Torva armour\nLocation: Nex",
+      "manual": true
+    },
+    {
+      "id": "abg-059",
+      "title": "Chambers of Xeric for Twisted Bow, …",
+      "text": "Chambers of Xeric for Twisted Bow, Dragon Hunter Crossbow, and other uniques\nLocation: Chambers of Xeric",
+      "manual": true
+    },
+    {
+      "id": "abg-060",
+      "title": "Theatre of Blood for Scythe of …",
+      "text": "Theatre of Blood for Scythe of Vitur, Rapier, and Sanguinesti Staff\nLocation: Theatre of Blood",
+      "manual": true
+    },
+    {
+      "id": "abg-061",
+      "title": "Begin Yama farming for Oathplate armour …",
+      "text": "Begin Yama farming for Oathplate armour (duo recommended, Surge potions are a...\nLocation: Yama",
+      "manual": true
+    },
+    {
+      "id": "abg-062",
+      "title": "Farm Doom of Mokhaiotl delves for …",
+      "text": "Farm Doom of Mokhaiotl delves for Eye of Ayak and Avernic Treads (requires Th...\nLocation: Doom of Mokhaiotl",
+      "manual": true
+    },
+    {
+      "id": "abg-063",
+      "title": "Continue ToA for Masori armour and …",
+      "text": "Continue ToA for Masori armour and Tumeken's Shadow\nLocation: Tombs of Amascut",
+      "manual": true
+    }
+  ]
+}

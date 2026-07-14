@@ -1,0 +1,29 @@
+Osiris Guide (RuneLite plugin)
+==============================
+
+Route content
+-------------
+The progression route this plugin follows is based on the Ironman guide
+originally written by Oziris (@OzirisLoL on X/Twitter) and the community that
+maintains https://ironman.guide/ . All credit for the route, ordering, and
+strategy belongs to them. This plugin is an unofficial companion and is not
+affiliated with, endorsed by, or produced by Oziris, ironman.guide, or Jagex.
+
+Game facts (skill levels, item names/ids, quest requirements, coordinates) are
+factual data about Old School RuneScape and are not claimed as original work.
+The specific curated ordering and any guide wording remain the work of their
+authors and are used here for a companion tool; if you are a rights holder and
+want a change, open an issue on the repository.
+
+Adapted source code
+-------------------
+Direction-arrow rendering (world + minimap arrows and arrow heads) and the
+requirement display model are adapted from RuneLite Quest Helper:
+
+    Quest Helper - https://github.com/Zoinkwiz/quest-helper
+    Copyright (c) 2019-2024, Zoinkwiz and contributors
+    Licensed under the BSD 2-Clause License
+
+The original BSD 2-Clause copyright headers are retained in the adapted files.
+
+Not affiliated with Jagex Ltd. Old School RuneScape is a trademark of Jagex Ltd.

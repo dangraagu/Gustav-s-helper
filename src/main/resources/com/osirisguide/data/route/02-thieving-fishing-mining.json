@@ -1,0 +1,220 @@
+{
+  "_source": "https://ironman.guide/guide/thieving-fishing-mining",
+  "_attribution": "Route by Oziris (@OzirisLoL) / ironman.guide. See NOTICE.",
+  "section": "Thieving, Fishing & Mining",
+  "steps": [
+    {
+      "id": "tfm-001",
+      "title": "Start the Feud at Ali Morrisane",
+      "text": "Start the Feud at Ali Morrisane\nLocation: Al Kharid",
+      "manual": true
+    },
+    {
+      "id": "tfm-002",
+      "title": "From Ali Morrisane, buy the desert …",
+      "text": "From Ali Morrisane, buy the desert disguise for The Feud quest\nLocation: Al Kharid",
+      "manual": true
+    },
+    {
+      "id": "tfm-003",
+      "title": "Smelt the 5 silver, make a …",
+      "text": "Smelt the 5 silver, make a sickle and unstrung holy symbol, keep 3 bars\nLocation: Al Kharid",
+      "manual": true
+    },
+    {
+      "id": "tfm-004",
+      "title": "Give the key imprint and bronze …",
+      "text": "Give the key imprint and bronze bar to Osman for Prince ali rescue quest\nLocation: Al Kharid",
+      "manual": true
+    },
+    {
+      "id": "tfm-005",
+      "title": "Do the Feud",
+      "text": "Do the Feud\nLocation: Pollnivneach",
+      "manual": true
+    },
+    {
+      "id": "tfm-006",
+      "title": "Blackjack until 50 thieving, you can …",
+      "text": "Blackjack until 50 thieving, you can buy wines from the bar to use as food\nLocation: Pollnivneach",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "tfm-007",
+      "title": "IF you're planning on 3-tick fishing …",
+      "text": "IF you're planning on 3-tick fishing then home tele to lumby and pick up 15+ ...\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "tfm-008",
+      "title": "Ardy cloak tele and take the …",
+      "text": "Ardy cloak tele and take the boat from Ardy to brimhaven\nLocation: Ardougne",
+      "manual": true
+    },
+    {
+      "id": "tfm-009",
+      "title": "Take the cart to Shilo Village",
+      "text": "Take the cart to Shilo Village\nLocation: Shilo Village",
+      "manual": true
+    },
+    {
+      "id": "tfm-010",
+      "title": "Cut uncut gems until level 32 …",
+      "text": "Cut uncut gems until level 32 crafting\nLocation: Shilo Village",
+      "manual": true
+    },
+    {
+      "id": "tfm-011",
+      "title": "Buy 20k feathers from shilo village …",
+      "text": "Buy 20k feathers from shilo village fishing shop\nLocation: Shilo Village",
+      "manual": true
+    },
+    {
+      "id": "tfm-012",
+      "title": "Get 58 fishing with trout and …",
+      "text": "Get 58 fishing with trout and salmon\nLocation: Shilo Village",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 58,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "tfm-013",
+      "title": "Minigame tele to Burthrope games' room",
+      "text": "Minigame tele to Burthrope games' room\nLocation: Burthorpe",
+      "manual": true
+    },
+    {
+      "id": "tfm-014",
+      "title": "Cook all of your trout, don't …",
+      "text": "Cook all of your trout, don't cook salmon yet\nLocation: Burthorpe",
+      "manual": true
+    },
+    {
+      "id": "tfm-015",
+      "title": "Minigame tele to Barb assault",
+      "text": "Minigame tele to Barb assault\nLocation: Barbarian Assault",
+      "manual": true
+    },
+    {
+      "id": "tfm-016",
+      "title": "Get 50 agility from barb fishing, …",
+      "text": "Get 50 agility from barb fishing, should be at 74 fishing\nLocation: Barbarian Fishing",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "tfm-017",
+      "title": "Now that you're 74 Fishing, do …",
+      "text": "Now that you're 74 Fishing, do a few Tempoross kills for the Fish Barrel and ...\nLocation: Tempoross Cove",
+      "manual": true
+    },
+    {
+      "id": "tfm-018",
+      "title": "After 50 agility, minigame tele to …",
+      "text": "After 50 agility, minigame tele to Burthrope\nLocation: Burthorpe",
+      "manual": true
+    },
+    {
+      "id": "tfm-019",
+      "title": "Do the rogue's den minigame for …",
+      "text": "Do the rogue's den minigame for full rogue outfit\nLocation: Rogues' Den",
+      "manual": true
+    },
+    {
+      "id": "tfm-020",
+      "title": "Equip the set and go back …",
+      "text": "Equip the set and go back to blackjacking until you have 2.4m GP (around 83 t...\nLocation: Pollnivneach",
+      "manual": true
+    },
+    {
+      "id": "tfm-021",
+      "title": "Carpet back to Shantay pass",
+      "text": "Carpet back to Shantay pass\nLocation: Shantay Pass",
+      "manual": true
+    },
+    {
+      "id": "tfm-022",
+      "title": "If you got any cosmic runes …",
+      "text": "If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the...\nLocation: Al Kharid",
+      "manual": true
+    },
+    {
+      "id": "tfm-023",
+      "title": "Start the Golem",
+      "text": "Start the Golem\nLocation: Uzer",
+      "manual": true
+    },
+    {
+      "id": "tfm-024",
+      "title": "Finish The Golem, get the gems …",
+      "text": "Finish The Golem, get the gems with chisel and hammer\nLocation: Uzer",
+      "manual": true
+    },
+    {
+      "id": "tfm-025",
+      "title": "Do Shadow of the storm (should …",
+      "text": "Do Shadow of the storm (should have priest gown and black wizard hat in bank ...\nLocation: Uzer",
+      "manual": true
+    },
+    {
+      "id": "tfm-026",
+      "title": "Go to Edgeville and talk to …",
+      "text": "Go to Edgeville and talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
+      "manual": true
+    },
+    {
+      "id": "tfm-027",
+      "title": "Go to mage bank and buy …",
+      "text": "Go to mage bank and buy 6k nats, all of the cosmics you can get while buying ...\nLocation: Mage Bank",
+      "manual": true
+    },
+    {
+      "id": "tfm-028",
+      "title": "Teleport to Falador",
+      "text": "Teleport to Falador\nLocation: Falador",
+      "manual": true
+    },
+    {
+      "id": "tfm-029",
+      "title": "Get 2 buckets of sap from …",
+      "text": "Get 2 buckets of sap from this tree near falador east bank\nLocation: Falador",
+      "manual": true
+    },
+    {
+      "id": "tfm-030",
+      "title": "Buy addy and rune picks from …",
+      "text": "Buy addy and rune picks from the pickaxe shop in the mines\nLocation: Falador",
+      "manual": true
+    },
+    {
+      "id": "tfm-031",
+      "title": "Complete Varrock easy diary for the …",
+      "text": "Complete Varrock easy diary for the armour, makes next step a bit faster\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "tfm-032",
+      "title": "Buy a Celestial Ring from Dusuri's …",
+      "text": "Buy a Celestial Ring from Dusuri's Star Shop in Falador (2,000 stardust) for ...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "tfm-033",
+      "title": "Mine 2300 iron ore at ardy …",
+      "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba...\nLocation: Ardougne Monastery",
+      "manual": true
+    }
+  ]
+}

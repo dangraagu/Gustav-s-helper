@@ -1,0 +1,15 @@
+.gradle
+build
+out/
+.idea/
+*.iml
+.project
+.settings/
+.classpath
+nbactions.xml
+nb-configuration.xml
+nbproject/
+# local tooling / harvested sources (not part of the plugin)
+/tools/.venv/
+/tools/__pycache__/
+/_vendor-src/

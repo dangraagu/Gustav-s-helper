@@ -1,0 +1,148 @@
+{
+  "_source": "https://ironman.guide/guide/diaries-rfd",
+  "_attribution": "Route by Oziris (@OzirisLoL) / ironman.guide. See NOTICE.",
+  "section": "Diaries & RFD",
+  "steps": [
+    {
+      "id": "dr-001",
+      "title": "Do all of the RFD subquests",
+      "text": "Do all of the RFD subquests\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-002",
+      "title": "Buy a bunch of chocolate dust …",
+      "text": "Buy a bunch of chocolate dust from the chest and make energy pots\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "dr-003",
+      "title": "Plant some Toadflax seeds, agility potion …",
+      "text": "Plant some Toadflax seeds, agility potion is needed soon for a quest\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-004",
+      "title": "Make a mithril grapple",
+      "text": "Make a mithril grapple\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-005",
+      "title": "Do these quests for QP and …",
+      "text": "Do these quests for QP and diaries: A soul's bane, Another slice of H.A.M, Ic...\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-006",
+      "title": "Complete Perilous Moons quest when you …",
+      "text": "Complete Perilous Moons quest when you reach 48 Slayer (requires Twilight's P...\nLocation: Varlamore",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 48,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "dr-007",
+      "title": "Complete Defender of Varrock quest (55 …",
+      "text": "Complete Defender of Varrock quest (55 Smithing, 52 Hunter + prerequisites)\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-008",
+      "title": "Complete Beneath Cursed Sands when you …",
+      "text": "Complete Beneath Cursed Sands when you reach 62 Agility (requires Contact! done)\nLocation: Sophanem",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 62,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "dr-009",
+      "title": "Complete At First Light quest (now …",
+      "text": "Complete At First Light quest (now that Eagles' Peak is done; also needs 46 H...\nLocation: Varlamore",
+      "manual": true
+    },
+    {
+      "id": "dr-010",
+      "title": "Rum deal (Req 42 slayer, you …",
+      "text": "Rum deal (Req 42 slayer, you should be close to it. Get a task from Mazchna f...\nLocation: Braindeath Island",
+      "manual": true
+    },
+    {
+      "id": "dr-011",
+      "title": "Cabin fever",
+      "text": "Cabin fever\nLocation: Mos Le'Harmless",
+      "manual": true
+    },
+    {
+      "id": "dr-012",
+      "title": "One small favour",
+      "text": "One small favour\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-013",
+      "title": "Watchtower quest",
+      "text": "Watchtower quest\nLocation: Yanille",
+      "manual": true
+    },
+    {
+      "id": "dr-014",
+      "title": "Do all easy and medium diaries",
+      "text": "Do all easy and medium diaries\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-015",
+      "title": "For Lumby 50 range req I'd …",
+      "text": "For Lumby 50 range req I'd recommend ranging at pest control with bone cbow\nLocation: Pest Control",
+      "manual": true
+    },
+    {
+      "id": "dr-016",
+      "title": "Do Slayer until 60 attack",
+      "text": "Do Slayer until 60 attack\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "dr-017",
+      "title": "Buy Dragon scim",
+      "text": "Buy Dragon scim\nLocation: Ape Atoll",
+      "manual": true
+    },
+    {
+      "id": "dr-018",
+      "title": "Do Eadgar's ruse",
+      "text": "Do Eadgar's ruse\nLocation: Trollheim",
+      "manual": true
+    },
+    {
+      "id": "dr-019",
+      "title": "Do My arm's big adventure",
+      "text": "Do My arm's big adventure\nLocation: Trollheim",
+      "manual": true
+    },
+    {
+      "id": "dr-020",
+      "title": "Do Desert Treasure",
+      "text": "Do Desert Treasure\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "dr-021",
+      "title": "Finish RFD, buy B gloves",
+      "text": "Finish RFD, buy B gloves\nLocation: Lumbridge",
+      "manual": true
+    }
+  ]
+}

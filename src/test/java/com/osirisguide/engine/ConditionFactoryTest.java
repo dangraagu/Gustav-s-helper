@@ -1,0 +1,110 @@
+/*
+ * Copyright (c) 2026, dangraagu
+ * Licensed under the BSD 2-Clause License. See LICENSE.
+ */
+package com.osirisguide.engine;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+import com.osirisguide.engine.condition.Condition;
+import org.junit.Test;
+import net.runelite.api.Client;
+import net.runelite.api.InventoryID;
+import net.runelite.api.ItemContainer;
+import net.runelite.api.Skill;
+
+public class ConditionFactoryTest
+{
+	private static Condition parse(String json)
+	{
+		JsonElement el = new JsonParser().parse(json);
+		return ConditionFactory.parse(el, "test");
+	}
+
+	@Test
+	public void skillConditionMet()
+	{
+		Client client = mock(Client.class);
+		when(client.getRealSkillLevel(Skill.PRAYER)).thenReturn(45);
+		ConditionContext ctx = new ConditionContext(client);
+
+		assertTrue(parse("{\"op\":\"skill\",\"skill\":\"PRAYER\",\"level\":43}").isMet(ctx));
+		assertFalse(parse("{\"op\":\"skill\",\"skill\":\"PRAYER\",\"level\":50}").isMet(ctx));
+	}
+
+	@Test
+	public void itemConditionMet()
+	{
+		Client client = mock(Client.class);
+		ItemContainer inv = mock(ItemContainer.class);
+		when(client.getItemContainer(InventoryID.INVENTORY)).thenReturn(inv);
+		when(inv.count(1059)).thenReturn(2);
+		ConditionContext ctx = new ConditionContext(client);
+
+		assertTrue(parse("{\"op\":\"item\",\"id\":1059,\"qty\":2,\"scope\":\"INVENTORY\"}").isMet(ctx));
+		assertFalse(parse("{\"op\":\"item\",\"id\":1059,\"qty\":3,\"scope\":\"INVENTORY\"}").isMet(ctx));
+	}
+
+	@Test
+	public void varbitCondition()
+	{
+		Client client = mock(Client.class);
+		when(client.getVarbitValue(1234)).thenReturn(5);
+		ConditionContext ctx = new ConditionContext(client);
+
+		assertTrue(parse("{\"op\":\"varbit\",\"id\":1234,\"value\":5,\"cmp\":\"=\"}").isMet(ctx));
+		assertTrue(parse("{\"op\":\"varbit\",\"id\":1234,\"value\":3,\"cmp\":\">=\"}").isMet(ctx));
+		assertFalse(parse("{\"op\":\"varbit\",\"id\":1234,\"value\":6,\"cmp\":\"=\"}").isMet(ctx));
+	}
+
+	@Test
+	public void andOrNotCombinators()
+	{
+		Client client = mock(Client.class);
+		when(client.getRealSkillLevel(Skill.ATTACK)).thenReturn(60);
+		when(client.getVarbitValue(10)).thenReturn(1);
+		ConditionContext ctx = new ConditionContext(client);
+
+		String skill = "{\"op\":\"skill\",\"skill\":\"ATTACK\",\"level\":40}";
+		String badSkill = "{\"op\":\"skill\",\"skill\":\"ATTACK\",\"level\":99}";
+		String varbit = "{\"op\":\"varbit\",\"id\":10,\"value\":1,\"cmp\":\"=\"}";
+
+		assertTrue(parse("{\"op\":\"and\",\"of\":[" + skill + "," + varbit + "]}").isMet(ctx));
+		assertFalse(parse("{\"op\":\"and\",\"of\":[" + badSkill + "," + varbit + "]}").isMet(ctx));
+		assertTrue(parse("{\"op\":\"or\",\"of\":[" + badSkill + "," + varbit + "]}").isMet(ctx));
+		assertTrue(parse("{\"op\":\"not\",\"of\":" + badSkill + "}").isMet(ctx));
+		assertFalse(parse("{\"op\":\"not\",\"of\":" + skill + "}").isMet(ctx));
+	}
+
+	@Test
+	public void unknownOpAndNullDegradeToManual()
+	{
+		ConditionContext ctx = new ConditionContext(mock(Client.class));
+		// unknown op -> MANUAL (never auto-completes)
+		assertFalse(parse("{\"op\":\"frobnicate\"}").isMet(ctx));
+		// explicit manual
+		assertFalse(parse("{\"op\":\"manual\"}").isMet(ctx));
+		// null element -> MANUAL
+		assertFalse(ConditionFactory.parse(null, "test").isMet(ctx));
+		// always -> true
+		assertTrue(parse("{\"op\":\"always\"}").isMet(ctx));
+	}
+
+	@Test
+	public void varbitVarpMissingIdDegradesToManual()
+	{
+		// A missing/invalid id would index the varps array out of range at eval; the factory must
+		// degrade these to MANUAL at parse time instead of building a throwing condition.
+		assertEquals("manual", parse("{\"op\":\"varbit\"}").describe());
+		assertEquals("manual", parse("{\"op\":\"varp\",\"id\":-5,\"value\":1}").describe());
+		// A valid id still builds a real condition.
+		assertNotEquals("manual", parse("{\"op\":\"varbit\",\"id\":100,\"value\":1}").describe());
+	}
+}

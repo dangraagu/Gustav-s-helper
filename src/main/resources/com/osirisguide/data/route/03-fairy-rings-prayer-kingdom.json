@@ -1,0 +1,713 @@
+{
+  "_source": "https://ironman.guide/guide/fairy-rings-prayer-kingdom",
+  "_attribution": "Route by Oziris (@OzirisLoL) / ironman.guide. See NOTICE.",
+  "section": "Fairy Rings, Prayer & Kingdom",
+  "steps": [
+    {
+      "id": "frp-001",
+      "title": "Buy a bronze sword from Varrock …",
+      "text": "Buy a bronze sword from Varrock sword shop (for Horror from the deep quest)\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-002",
+      "title": "Smith 3 bronze wire",
+      "text": "Smith 3 bronze wire\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-003",
+      "title": "Buy an oak longbow and a …",
+      "text": "Buy an oak longbow and a regular shortbow from Lowe\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-004",
+      "title": "Start Priest in peril",
+      "text": "Start Priest in peril\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-005",
+      "title": "Buy 400 steel nails at the …",
+      "text": "Buy 400 steel nails at the sawmill, if every world is bought out then don't b...\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-006",
+      "title": "Start Rag and bone man on …",
+      "text": "Start Rag and bone man on the way to the temple\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-007",
+      "title": "Do priest in peril",
+      "text": "Do priest in peril\nLocation: Morytania",
+      "manual": true
+    },
+    {
+      "id": "frp-008",
+      "title": "Do Nature spirit",
+      "text": "Do Nature spirit\nLocation: Morytania",
+      "manual": true
+    },
+    {
+      "id": "frp-009",
+      "title": "Buy 1 raw shark from Canifis …",
+      "text": "Buy 1 raw shark from Canifis food shop\nLocation: Canifis",
+      "manual": true
+    },
+    {
+      "id": "frp-010",
+      "title": "Do Creature of Fenkenstrain",
+      "text": "Do Creature of Fenkenstrain\nLocation: Canifis",
+      "manual": true
+    },
+    {
+      "id": "frp-011",
+      "title": "Use Chronicle tele",
+      "text": "Use Chronicle tele\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-012",
+      "title": "Go champion's guild and continue Dragon …",
+      "text": "Go champion's guild and continue Dragon slayer, ask every question\nLocation: Champions Guild",
+      "manual": true
+    },
+    {
+      "id": "frp-013",
+      "title": "Kill the nearby ram, bear and …",
+      "text": "Kill the nearby ram, bear and unicorn for their bones (Rag and bone man quest)\nLocation: Champions Guild",
+      "manual": true
+    },
+    {
+      "id": "frp-014",
+      "title": "Camelot tele",
+      "text": "Camelot tele\nLocation: Camelot",
+      "manual": true
+    },
+    {
+      "id": "frp-015",
+      "title": "Kill a giant bat (Rag and …",
+      "text": "Kill a giant bat (Rag and bone man) south west of Catherby\nLocation: Catherby",
+      "manual": true
+    },
+    {
+      "id": "frp-016",
+      "title": "Do Elemental workshop 2",
+      "text": "Do Elemental workshop 2\nLocation: Seers Village",
+      "manual": true
+    },
+    {
+      "id": "frp-017",
+      "title": "Lumby",
+      "text": "Lumby\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-018",
+      "title": "Get anti-dragon shield from the duke",
+      "text": "Get anti-dragon shield from the duke\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-019",
+      "title": "Kill a goblin for the bone …",
+      "text": "Kill a goblin for the bone for rag and bone man\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-020",
+      "title": "Get big frog leg (you need …",
+      "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r...\nLocation: Lumbridge Swamp",
+      "manual": true
+    },
+    {
+      "id": "frp-021",
+      "title": "Start Lost city",
+      "text": "Start Lost city\nLocation: Lumbridge Swamp",
+      "manual": true
+    },
+    {
+      "id": "frp-022",
+      "title": "Go to Draynor manor",
+      "text": "Go to Draynor manor\nLocation: Draynor Manor",
+      "manual": true
+    },
+    {
+      "id": "frp-023",
+      "title": "Do Ernest the chicken, finish vampire …",
+      "text": "Do Ernest the chicken, finish vampire slayer\nLocation: Draynor Manor",
+      "manual": true
+    },
+    {
+      "id": "frp-024",
+      "title": "Dig up the skull for fairytale …",
+      "text": "Dig up the skull for fairytale part 1 while you're in the area to save some t...\nLocation: Draynor Manor",
+      "manual": true
+    },
+    {
+      "id": "frp-025",
+      "title": "Bank at Draynor",
+      "text": "Bank at Draynor\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-026",
+      "title": "Talk to the high priest for …",
+      "text": "Talk to the high priest for Holy grail\nLocation: Entrana",
+      "manual": true
+    },
+    {
+      "id": "frp-027",
+      "title": "Get at least 5 Dramen branches, …",
+      "text": "Get at least 5 Dramen branches, make 2 staffs\nLocation: Entrana",
+      "manual": true
+    },
+    {
+      "id": "frp-028",
+      "title": "Finish Lost city",
+      "text": "Finish Lost city\nLocation: Entrana",
+      "manual": true
+    },
+    {
+      "id": "frp-029",
+      "title": "Start Fairytale part 1",
+      "text": "Start Fairytale part 1\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-030",
+      "title": "Flinch Tanglefoot in this spot",
+      "text": "Flinch Tanglefoot in this spot\nLocation: Zanaris",
+      "manual": true
+    },
+    {
+      "id": "frp-031",
+      "title": "Talk to martin to start Fairytale2",
+      "text": "Talk to martin to start Fairytale2\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-032",
+      "title": "Buy 35 jugs of vinegar",
+      "text": "Buy 35 jugs of vinegar\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-033",
+      "title": "Buy 1 marigold seed, 3 cabbage …",
+      "text": "Buy 1 marigold seed, 3 cabbage seeds, 3 onion seeds from Draynor seed market\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-034",
+      "title": "Rescue prince ali from the jail",
+      "text": "Rescue prince ali from the jail\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-035",
+      "title": "While you wait for Martin's crops …",
+      "text": "While you wait for Martin's crops for FT2, tele to Lumby\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-036",
+      "title": "Start Evil Dave subquest for RFD",
+      "text": "Start Evil Dave subquest for RFD\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-037",
+      "title": "Kill 2 cows and make 1 …",
+      "text": "Kill 2 cows and make 1 soft, 1 hard leather\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-038",
+      "title": "Smelt 1 inv of gold, should …",
+      "text": "Smelt 1 inv of gold, should have from wintertodt\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-039",
+      "title": "Speak to Martin for Fairytale 2",
+      "text": "Speak to Martin for Fairytale 2\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-040",
+      "title": "Go unlock fairy rings at Zanaris",
+      "text": "Go unlock fairy rings at Zanaris\nLocation: Zanaris",
+      "manual": true
+    },
+    {
+      "id": "frp-041",
+      "title": "Tele to POH and do Melzar's …",
+      "text": "Tele to POH and do Melzar's maze (Dragon slayer quest)\nLocation: Rimmington",
+      "manual": true
+    },
+    {
+      "id": "frp-042",
+      "title": "Walk to port Sarim jail and …",
+      "text": "Walk to port Sarim jail and telegrab 2nd map piece for Dragon Slayer\nLocation: Port Sarim",
+      "manual": true
+    },
+    {
+      "id": "frp-043",
+      "title": "Buy and repair the ship (dragon …",
+      "text": "Buy and repair the ship (dragon slayer)\nLocation: Port Sarim",
+      "manual": true
+    },
+    {
+      "id": "frp-044",
+      "title": "Tele to Fally",
+      "text": "Tele to Fally\nLocation: Falador",
+      "manual": true
+    },
+    {
+      "id": "frp-045",
+      "title": "Make unfired bowl at barb village",
+      "text": "Make unfired bowl at barb village\nLocation: Barbarian Village",
+      "manual": true
+    },
+    {
+      "id": "frp-046",
+      "title": "Talk to the oracle",
+      "text": "Talk to the oracle\nLocation: Ice Mountain",
+      "manual": true
+    },
+    {
+      "id": "frp-047",
+      "title": "Get the 3rd map piece for …",
+      "text": "Get the 3rd map piece for dragon slayer\nLocation: Ice Mountain",
+      "manual": true
+    },
+    {
+      "id": "frp-048",
+      "title": "Tele to Lumby",
+      "text": "Tele to Lumby\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-049",
+      "title": "Get Ned as your captain for …",
+      "text": "Get Ned as your captain for dragon slayer\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-050",
+      "title": "Go to Crandor and open the …",
+      "text": "Go to Crandor and open the shortcut to Karamja volcano\nLocation: Crandor",
+      "manual": true
+    },
+    {
+      "id": "frp-051",
+      "title": "Kill Elvarg, you can do as …",
+      "text": "Kill Elvarg, you can do as many trips as you want\nLocation: Crandor",
+      "manual": true
+    },
+    {
+      "id": "frp-052",
+      "title": "Finish dragon slayer and buy a …",
+      "text": "Finish dragon slayer and buy a green d'hide top from Oziach\nLocation: Edgeville",
+      "manual": true
+    },
+    {
+      "id": "frp-053",
+      "title": "Wear gloves and pick up 5 …",
+      "text": "Wear gloves and pick up 5 nettles at the yews\nLocation: Edgeville",
+      "manual": true
+    },
+    {
+      "id": "frp-054",
+      "title": "Make the stew for Evil Dave …",
+      "text": "Make the stew for Evil Dave while you're at Edgeville\nLocation: Edgeville",
+      "manual": true
+    },
+    {
+      "id": "frp-055",
+      "title": "Tele to Lumby",
+      "text": "Tele to Lumby\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-056",
+      "title": "Fill a bowl with water, put …",
+      "text": "Fill a bowl with water, put nettles in it and use it on a range (This is for ...\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-057",
+      "title": "Finish Evil Dave subquest",
+      "text": "Finish Evil Dave subquest\nLocation: Lumbridge",
+      "manual": true
+    },
+    {
+      "id": "frp-058",
+      "title": "Do Death to the Dorgeshuun. While …",
+      "text": "Do Death to the Dorgeshuun. While getting the robes, keep buttons (If you did...\nLocation: Dorgesh-Kaan",
+      "manual": true
+    },
+    {
+      "id": "frp-059",
+      "title": "Buy dorgeshuun crossbow and 4000 bone …",
+      "text": "Buy dorgeshuun crossbow and 4000 bone bolts\nLocation: Dorgesh-Kaan",
+      "manual": true
+    },
+    {
+      "id": "frp-060",
+      "title": "Buy a Bullseye lantern (empty) from …",
+      "text": "Buy a Bullseye lantern (empty) from Miltog at the market in Dorgeshkaan\nLocation: Dorgesh-Kaan",
+      "manual": true
+    },
+    {
+      "id": "frp-061",
+      "title": "Use swamp tar on the lamp …",
+      "text": "Use swamp tar on the lamp still next to Miltog, use your empty lantern on the...\nLocation: Dorgesh-Kaan",
+      "manual": true
+    },
+    {
+      "id": "frp-062",
+      "title": "Finish Holy grail",
+      "text": "Finish Holy grail\nLocation: Fisher King Realm",
+      "manual": true
+    },
+    {
+      "id": "frp-063",
+      "title": "Do Horror from the deep quest",
+      "text": "Do Horror from the deep quest\nLocation: Lighthouse",
+      "manual": true
+    },
+    {
+      "id": "frp-064",
+      "title": "Do Turael slayer with dorg cbow …",
+      "text": "Do Turael slayer with dorg cbow until 37 Range and 18 slayer\nLocation: Burthorpe",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 37,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-065",
+      "title": "Complete Twilight's Promise quest (requires Children …",
+      "text": "Complete Twilight's Promise quest (requires Children of the Sun; ~40 combat r...\nLocation: Varlamore",
+      "manual": true
+    },
+    {
+      "id": "frp-066",
+      "title": "Try Calcified Rocks for Mining XP …",
+      "text": "Try Calcified Rocks for Mining XP plus bankable Prayer shards (41 Mining, Var...\nLocation: Varlamore",
+      "manual": true
+    },
+    {
+      "id": "frp-067",
+      "title": "Kill tree spirits with fire strike …",
+      "text": "Kill tree spirits with fire strike for a mithril axe AND either another mith ...\nLocation: Enchanted Valley",
+      "manual": true
+    },
+    {
+      "id": "frp-068",
+      "title": "Do Animal magnetism",
+      "text": "Do Animal magnetism\nLocation: Draynor Manor",
+      "manual": true
+    },
+    {
+      "id": "frp-069",
+      "title": "Buy mithril platebody from Horvik in …",
+      "text": "Buy mithril platebody from Horvik in Varrock\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-070",
+      "title": "Buy mithril platelegs from al-kharid",
+      "text": "Buy mithril platelegs from al-kharid\nLocation: Al Kharid",
+      "manual": true
+    },
+    {
+      "id": "frp-071",
+      "title": "Do Spirits of the Elid quest",
+      "text": "Do Spirits of the Elid quest\nLocation: Nardah",
+      "manual": true
+    },
+    {
+      "id": "frp-072",
+      "title": "Do the Underground pass quest",
+      "text": "Do the Underground pass quest\nLocation: Underground Pass",
+      "manual": true
+    },
+    {
+      "id": "frp-073",
+      "title": "Upgrade the iban staff",
+      "text": "Upgrade the iban staff\nLocation: Underground Pass",
+      "manual": true
+    },
+    {
+      "id": "frp-074",
+      "title": "Get 50 attack doing more Turael …",
+      "text": "Get 50 attack doing more Turael slayer, remember to get every 10th task from ...\nLocation: Burthorpe",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-075",
+      "title": "Make an amulet of magic",
+      "text": "Make an amulet of magic\nLocation: Edgeville",
+      "manual": true
+    },
+    {
+      "id": "frp-076",
+      "title": "Kill blue dragons with iban's blast …",
+      "text": "Kill blue dragons with iban's blast for 43 prayer\nLocation: Taverley Dungeon",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 43,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-077",
+      "title": "Minigame tele to fishing trawler",
+      "text": "Minigame tele to fishing trawler\nLocation: Port Khazard",
+      "manual": true
+    },
+    {
+      "id": "frp-078",
+      "title": "Buy however many buckets of slime …",
+      "text": "Buy however many buckets of slime you need for the bones\nLocation: Port Khazard",
+      "manual": true
+    },
+    {
+      "id": "frp-079",
+      "title": "Equip Ghostspeak amulet",
+      "text": "Equip Ghostspeak amulet\nLocation: Port Khazard",
+      "manual": true
+    },
+    {
+      "id": "frp-080",
+      "title": "If you didn't prepare the nettle …",
+      "text": "If you didn't prepare the nettle water earlier, do it now\nLocation: Port Khazard",
+      "manual": true
+    },
+    {
+      "id": "frp-081",
+      "title": "Make sure you have all ghosts …",
+      "text": "Make sure you have all ghosts ahoy items\nLocation: Port Khazard",
+      "manual": true
+    },
+    {
+      "id": "frp-082",
+      "title": "Charter to port Phasmatys",
+      "text": "Charter to port Phasmatys\nLocation: Port Phasmatys",
+      "manual": true
+    },
+    {
+      "id": "frp-083",
+      "title": "Start ghosts ahoy",
+      "text": "Start ghosts ahoy\nLocation: Port Phasmatys",
+      "manual": true
+    },
+    {
+      "id": "frp-084",
+      "title": "Grind 9 d bones and offer …",
+      "text": "Grind 9 d bones and offer them, get ecto tokens\nLocation: Port Phasmatys",
+      "manual": true
+    },
+    {
+      "id": "frp-085",
+      "title": "Finish ghosts ahoy",
+      "text": "Finish ghosts ahoy\nLocation: Port Phasmatys",
+      "manual": true
+    },
+    {
+      "id": "frp-086",
+      "title": "Grind the rest of your bones …",
+      "text": "Grind the rest of your bones to get 43 prayer\nLocation: Port Phasmatys",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 43,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-087",
+      "title": "Do Monkey madness, focus the reward …",
+      "text": "Do Monkey madness, focus the reward on attack and defense\nLocation: Ape Atoll",
+      "manual": true
+    },
+    {
+      "id": "frp-088",
+      "title": "Do Wanted! quest",
+      "text": "Do Wanted! quest\nLocation: Falador",
+      "manual": true
+    },
+    {
+      "id": "frp-089",
+      "title": "Get 40 slayer, Turael slay",
+      "text": "Get 40 slayer, Turael slay\nLocation: Burthorpe",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 40,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-090",
+      "title": "Do Shades of morton quest",
+      "text": "Do Shades of morton quest\nLocation: Mort'ton",
+      "manual": true
+    },
+    {
+      "id": "frp-091",
+      "title": "Get 25 herblore if you don't …",
+      "text": "Get 25 herblore if you don't have yet\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 25,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-092",
+      "title": "Do Heroes' quest",
+      "text": "Do Heroes' quest\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "frp-093",
+      "title": "Do Fremennik trials",
+      "text": "Do Fremennik trials\nLocation: Rellekka",
+      "manual": true
+    },
+    {
+      "id": "frp-094",
+      "title": "Do Throne of miscellania",
+      "text": "Do Throne of miscellania\nLocation: Miscellania",
+      "manual": true
+    },
+    {
+      "id": "frp-095",
+      "title": "Do Royal Trouble",
+      "text": "Do Royal Trouble\nLocation: Miscellania",
+      "manual": true
+    },
+    {
+      "id": "frp-096",
+      "title": "Put at least 750k gp to …",
+      "text": "Put at least 750k gp to kingdom, set it on 10 maples and 5 herbs\nLocation: Miscellania",
+      "manual": true
+    },
+    {
+      "id": "frp-097",
+      "title": "Go back to blackjacking for a …",
+      "text": "Go back to blackjacking for a few hours and put more money to kingdom so that...\nLocation: Pollnivneach",
+      "manual": true
+    },
+    {
+      "id": "frp-098",
+      "title": "Clean finds at the museum until …",
+      "text": "Clean finds at the museum until you've found all 5 of the items you can get f...\nLocation: Varrock Museum",
+      "manual": true
+    },
+    {
+      "id": "frp-099",
+      "title": "Do Bone Voyage quest",
+      "text": "Do Bone Voyage quest\nLocation: Varrock",
+      "manual": true
+    },
+    {
+      "id": "frp-100",
+      "title": "Set up your first bird houses",
+      "text": "Set up your first bird houses\nLocation: Fossil Island",
+      "manual": true
+    },
+    {
+      "id": "frp-101",
+      "title": "Do birdhouse runs every 50mins",
+      "text": "Do birdhouse runs every 50mins\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "frp-102",
+      "title": "AFTER your first hunter levels from …",
+      "text": "AFTER your first hunter levels from a birdhouse run, RC should be your lowest...\nLocation: Lumbridge Swamp",
+      "manual": true
+    },
+    {
+      "id": "frp-103",
+      "title": "Do Tears of guthix quest, do …",
+      "text": "Do Tears of guthix quest, do the minigame weekly it's very worth it\nLocation: Lumbridge Swamp",
+      "manual": true
+    },
+    {
+      "id": "frp-104",
+      "title": "Start The Giant Dwarf quest to …",
+      "text": "Start The Giant Dwarf quest to unlock Keldagrim\nLocation: Keldagrim",
+      "manual": true
+    },
+    {
+      "id": "frp-105",
+      "title": "Buy 2 inventories of gold ore …",
+      "text": "Buy 2 inventories of gold ore from the blast furnace shop\nLocation: Keldagrim",
+      "manual": true
+    },
+    {
+      "id": "frp-106",
+      "title": "Go Edgeville furnace and make plenty …",
+      "text": "Go Edgeville furnace and make plenty of digsite pendants\nLocation: Edgeville",
+      "manual": true
+    },
+    {
+      "id": "frp-107",
+      "title": "Make molten glass and cut gems …",
+      "text": "Make molten glass and cut gems until 45 crafting. You'll need 45 for maple bi...\nLocation: Various",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 45,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-108",
+      "title": "Buy more seeds from Olivia at …",
+      "text": "Buy more seeds from Olivia at Draynor for birdhouses if needed\nLocation: Draynor",
+      "manual": true
+    },
+    {
+      "id": "frp-109",
+      "title": "Move your house to Pollnivneach so …",
+      "text": "Move your house to Pollnivneach so you can do a birdhouse run every 50 mins a...\nLocation: Pollnivneach",
+      "manual": true
+    },
+    {
+      "id": "frp-110",
+      "title": "Get 88 thieving with blackjacking, should …",
+      "text": "Get 88 thieving with blackjacking, should get you about 1.4m GP\nLocation: Pollnivneach",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 88,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "frp-111",
+      "title": "REMINDER to take out GP from …",
+      "text": "REMINDER to take out GP from kingdom after the 7th day. This thieving grind c...\nLocation: Miscellania",
+      "manual": true
+    }
+  ]
+}

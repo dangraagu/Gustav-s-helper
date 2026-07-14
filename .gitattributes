@@ -1,0 +1,13 @@
+# Normalize line endings so Linux/Plugin-Hub builds work regardless of author OS.
+* text=auto eol=lf
+
+# Windows launcher scripts must keep CRLF.
+*.bat text eol=crlf
+
+# The Gradle wrapper script must stay LF or it breaks on Unix.
+gradlew text eol=lf
+
+# Binary assets — never touch line endings.
+*.jar binary
+*.png binary
+*.woff2 binary
