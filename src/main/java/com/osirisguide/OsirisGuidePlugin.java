@@ -6,6 +6,10 @@ package com.osirisguide;
 
 import com.google.gson.Gson;
 import com.google.inject.Provides;
+import com.questhelper.QuestHelperPlugin;
+import com.questhelper.managers.QuestManager;
+import com.questhelper.questhelpers.QuestHelper;
+import com.questhelper.questinfo.QuestHelperQuest;
 import com.osirisguide.engine.ConditionContext;
 import com.osirisguide.engine.Progression;
 import com.osirisguide.engine.Route;
@@ -40,6 +44,7 @@ import net.runelite.api.ItemComposition;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.NPC;
 import net.runelite.api.Player;
+import net.runelite.api.Quest;
 import net.runelite.api.Scene;
 import net.runelite.api.Tile;
 import net.runelite.api.TileObject;
@@ -58,6 +63,7 @@ import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.client.plugins.PluginManager;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.ui.overlay.OverlayManager;
@@ -102,6 +108,8 @@ public class OsirisGuidePlugin extends Plugin
 	private ItemManager itemManager;
 	@Inject
 	private WorldMapPointManager worldMapPointManager;
+	@Inject
+	private PluginManager pluginManager;
 
 	private Route route;
 	private Progression progression;
@@ -110,6 +118,7 @@ public class OsirisGuidePlugin extends Plugin
 	private NavigationButton navButton;
 	private BufferedImage pluginIcon;
 	private WorldMapPoint worldMapPoint;
+	private QuestHelper drivenHelper;   // the QH quest WE activated (only ever clear our own)
 
 	private boolean pendingReconcile;
 	private boolean ledgerDirty;
@@ -171,6 +180,7 @@ public class OsirisGuidePlugin extends Plugin
 		overlayManager.remove(minimapOverlay);
 		overlayManager.remove(itemOverlay);
 		clearWorldMapPoint();
+		stopDrivingQuestHelper();
 		if (navButton != null)
 		{
 			clientToolbar.removeNavigation(navButton);
@@ -500,6 +510,16 @@ public class OsirisGuidePlugin extends Plugin
 		wantedObjectId = -1;
 		wantedNpcId = -1;
 		updateWorldMapPoint(current);
+		// Quest step -> let Quest Helper drive its walkthrough; otherwise release any we drove.
+		Quest quest = current == null ? null : current.getQuest();
+		if (quest != null)
+		{
+			driveQuestHelper(quest);
+		}
+		else
+		{
+			stopDrivingQuestHelper();
+		}
 		if (current == null)
 		{
 			return;
@@ -668,6 +688,50 @@ public class OsirisGuidePlugin extends Plugin
 			worldMapPointManager.remove(worldMapPoint);
 			worldMapPoint = null;
 		}
+	}
+
+	// ---- Quest Helper drive (fork only) -------------------------------------
+	// When the current route step is a quest, hand it to the vendored Quest Helper so IT renders the
+	// click-blue walkthrough (arrow + highlights + step text) and auto-advances on varbit progress.
+
+	private QuestManager questManager()
+	{
+		for (Plugin p : pluginManager.getPlugins())
+		{
+			if (p instanceof QuestHelperPlugin && pluginManager.isPluginEnabled(p))
+			{
+				return ((QuestHelperPlugin) p).getQuestManager();
+			}
+		}
+		return null; // Quest Helper not present/enabled — quest steps just won't get a walkthrough
+	}
+
+	/** Activate QH's walkthrough for this quest (client thread). Switching quest auto-tears the prior. */
+	private void driveQuestHelper(Quest quest)
+	{
+		QuestManager qm = questManager();
+		if (qm == null || quest == null)
+		{
+			return;
+		}
+		QuestHelper helper = QuestHelperQuest.getByName(quest.getName()); // QH keys on display name
+		if (helper == null || helper == qm.getSelectedQuest())
+		{
+			return;
+		}
+		qm.startUpQuest(helper, false); // false = don't force QH's sidebar open
+		drivenHelper = helper;
+	}
+
+	/** Release the quest WE drove — never a quest the user selected manually themselves. */
+	private void stopDrivingQuestHelper()
+	{
+		QuestManager qm = questManager();
+		if (qm != null && drivenHelper != null && qm.getSelectedQuest() == drivenHelper)
+		{
+			qm.shutDownQuest(true);
+		}
+		drivenHelper = null;
 	}
 
 	// ---- Ledger view --------------------------------------------------------
