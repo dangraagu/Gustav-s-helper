@@ -22,6 +22,9 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok:1.18.30'
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
+	// Required by the vendored Quest Helper source (fork/questhelper branch).
+	compileOnly 'org.jetbrains:annotations:23.0.0'
+
 	testImplementation 'junit:junit:4.12'
 	testImplementation group: 'net.runelite', name:'client', version: runeLiteVersion
 	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
