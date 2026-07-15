@@ -19,20 +19,14 @@ import com.osirisguide.engine.ledger.ItemLedger;
 import com.osirisguide.overlay.OsirisItemOverlay;
 import com.osirisguide.overlay.OsirisMinimapOverlay;
 import com.osirisguide.overlay.OsirisWorldOverlay;
-import com.osirisguide.panel.LedgerModel;
+import com.osirisguide.overlay.WorldMapMarker;
 import com.osirisguide.panel.OsirisGuidePanel;
 import com.osirisguide.panel.PanelActions;
-import com.osirisguide.panel.PanelModel;
-import com.osirisguide.requirement.Requirement;
+import com.osirisguide.panel.PanelPresenter;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-import java.util.Set;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
@@ -40,7 +34,6 @@ import net.runelite.api.GameObject;
 import net.runelite.api.GameState;
 import net.runelite.api.InventoryID;
 import net.runelite.api.Item;
-import net.runelite.api.ItemComposition;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.NPC;
 import net.runelite.api.Player;
@@ -67,7 +60,6 @@ import net.runelite.client.plugins.PluginManager;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.ui.overlay.OverlayManager;
-import net.runelite.client.ui.overlay.worldmap.WorldMapPoint;
 import net.runelite.client.ui.overlay.worldmap.WorldMapPointManager;
 import net.runelite.client.util.ImageUtil;
 
@@ -79,7 +71,6 @@ import net.runelite.client.util.ImageUtil;
 )
 public class OsirisGuidePlugin extends Plugin
 {
-	private static final int UPCOMING_COUNT = 5;
 	private static final int PANEL_REFRESH_TICKS = 5;
 
 	@Inject
@@ -111,21 +102,26 @@ public class OsirisGuidePlugin extends Plugin
 	@Inject
 	private PluginManager pluginManager;
 
+	// Loaded guide state (rebuilt by loadGuide()).
 	private Route route;
 	private Progression progression;
 	private ItemLedger ledger;
+
+	// UI + collaborators (built in startUp()).
 	private OsirisGuidePanel panel;
+	private PanelPresenter presenter;
 	private NavigationButton navButton;
 	private BufferedImage pluginIcon;
-	private WorldMapPoint worldMapPoint;
+	private WorldMapMarker worldMapMarker;
+	private GuideStorage storage;
 	private QuestHelper drivenHelper;   // the QH quest WE activated (only ever clear our own)
 
+	// Transient bookkeeping.
 	private boolean pendingReconcile;
 	private boolean ledgerDirty;
 	private boolean ledgerViewDirty;
 	private String loadedGuideId;
 	private String accountKey;
-	private String lastLedgerSignature;
 	private String lastCurrentStepId;
 	private int wantedObjectId = -1;
 	private int wantedNpcId = -1;
@@ -140,9 +136,12 @@ public class OsirisGuidePlugin extends Plugin
 	@Override
 	protected void startUp()
 	{
+		storage = new GuideStorage(configManager);
+		worldMapMarker = new WorldMapMarker(worldMapPointManager);
 		loadGuide();
 
 		panel = new OsirisGuidePanel(new Actions());
+		presenter = new PanelPresenter(panel, itemManager);
 		pluginIcon = ImageUtil.loadImageResource(getClass(), "/com/osirisguide/icon.png");
 		navButton = NavigationButton.builder()
 			.tooltip("Gustav's Helper")
@@ -212,7 +211,10 @@ public class OsirisGuidePlugin extends Plugin
 		progression = new Progression(route, config.mode());
 		ledger = new ItemLedger();
 		ledger.setItemsOfInterest(route.referencedItemIds());
-		lastLedgerSignature = null;
+		if (presenter != null) // built after the first loadGuide(); a fresh presenter already starts clean
+		{
+			presenter.invalidate();
+		}
 		lastCurrentStepId = null;
 		if (accountKey != null)
 		{
@@ -534,13 +536,10 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			if (wantedNpcId >= 0)
 			{
-				for (NPC npc : client.getNpcs())
+				NPC npc = findNpc(wantedNpcId);
+				if (npc != null)
 				{
-					if (npc != null && npc.getId() == wantedNpcId)
-					{
-						state.setTargetNpc(npc);
-						break;
-					}
+					state.setTargetNpc(npc);
 				}
 			}
 			if (wantedObjectId >= 0)
@@ -556,6 +555,19 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			log.debug("Gustav's Helper: target scan failed", ex);
 		}
+	}
+
+	/** First loaded NPC with the given id, or null if none is in the scene. */
+	private NPC findNpc(int id)
+	{
+		for (NPC npc : client.getNpcs())
+		{
+			if (npc != null && npc.getId() == id)
+			{
+				return npc;
+			}
+		}
+		return null;
 	}
 
 	private TileObject findObject(int id)
@@ -611,82 +623,21 @@ public class OsirisGuidePlugin extends Plugin
 
 	private void refreshPanel(ConditionContext ctx)
 	{
-		if (panel == null || progression == null || route == null)
-		{
-			return;
-		}
-		PanelModel m = new PanelModel();
-		m.mode = progression.getMode().getDisplayName();
-		m.routeEmpty = route.isEmpty();
-		m.loggedIn = ctx != null;
-		m.completed = progression.completedCount();
-		m.total = progression.applicableCount();
-		m.percent = progression.progressPercent();
-
-		RouteStep current = progression.getCurrentStep();
-		m.finished = current == null && !route.isEmpty();
-
-		if (current != null && ctx != null)
-		{
-			m.section = current.getSection();
-			m.title = current.getTitle();
-			m.text = current.getText();
-			m.wikiUrl = current.getWikiUrl();
-			m.currentIsManual = current.isManual();
-			for (Requirement r : current.getRequirements())
-			{
-				m.requirements.add(new PanelModel.ReqView(r.getText(), r.check(ctx)));
-			}
-			m.upcoming = upcomingTitles(current, UPCOMING_COUNT);
-		}
-		panel.update(m);
-	}
-
-	private List<String> upcomingTitles(RouteStep current, int count)
-	{
-		List<String> out = new java.util.ArrayList<>();
-		int start = route.indexOf(current.getId());
-		if (start < 0)
-		{
-			return out;
-		}
-		for (int i = start + 1; i < route.size() && out.size() < count; i++)
-		{
-			RouteStep s = route.get(i);
-			if (s.appliesTo(progression.getMode()) && !progression.isComplete(s))
-			{
-				out.add(s.getTitle());
-			}
-		}
-		return out;
+		presenter.showProgress(progression, route, ctx);
 	}
 
 	private void updateWorldMapPoint(RouteStep step)
 	{
-		clearWorldMapPoint();
-		WorldPoint wp = step == null ? null : step.getWorldPoint();
-		if (wp == null || pluginIcon == null)
-		{
-			return;
-		}
-		worldMapPoint = new WorldMapPoint(wp, pluginIcon);
-		// setName is REQUIRED whenever jumpOnClick is set: WorldMapOverlay asserts a non-null name on
-		// hover, and with -ea (RuneLite dev mode) a null name throws an AssertionError that escapes the
-		// render loop and freezes the client. This is the fix for the world-map-open freeze.
-		worldMapPoint.setName("Gustav's Helper");
-		worldMapPoint.setTooltip(step.getTitle());
-		worldMapPoint.setTarget(wp);
-		worldMapPoint.setJumpOnClick(true);
-		worldMapPoint.setSnapToEdge(true);
-		worldMapPointManager.add(worldMapPoint);
+		WorldPoint target = step == null ? null : step.getWorldPoint();
+		String tooltip = step == null ? null : step.getTitle();
+		worldMapMarker.show(target, pluginIcon, tooltip);
 	}
 
 	private void clearWorldMapPoint()
 	{
-		if (worldMapPoint != null)
+		if (worldMapMarker != null)
 		{
-			worldMapPointManager.remove(worldMapPoint);
-			worldMapPoint = null;
+			worldMapMarker.clear();
 		}
 	}
 
@@ -738,73 +689,7 @@ public class OsirisGuidePlugin extends Plugin
 
 	private void refreshLedger()
 	{
-		if (panel == null || ledger == null)
-		{
-			return;
-		}
-		LedgerModel m = new LedgerModel();
-		m.loggedIn = client.getGameState() == GameState.LOGGED_IN;
-		int invId = InventoryID.INVENTORY.getId();
-		int bankId = InventoryID.BANK.getId();
-		int equipId = InventoryID.EQUIPMENT.getId();
-		Set<Integer> ids = ledger.ledgerItems();
-		List<LedgerModel.Row> rows = new ArrayList<>();
-		for (int id : ids)
-		{
-			int acquired = ledger.acquired(id);
-			int carrying = ledger.ownedIn(invId, id) + ledger.ownedIn(equipId, id);
-			int banked = ledger.ownedIn(bankId, id);
-			int usedDropped = ledger.spent(id);
-			if (acquired == 0 && carrying == 0 && banked == 0)
-			{
-				continue; // referenced but never observed yet — don't clutter the ledger
-			}
-			rows.add(new LedgerModel.Row(id, itemName(id), acquired, carrying, banked, usedDropped));
-			m.totalAcquired += acquired;
-			m.totalBanked += banked;
-			m.totalUsedDropped += usedDropped;
-		}
-		rows.sort((a, b) -> Integer.compare(b.acquired, a.acquired));
-		m.rows = rows;
-		m.empty = rows.isEmpty();
-
-		// Coalesce: only rebuild the Swing rows when the numbers actually changed.
-		String sig = ledgerSignature(m);
-		if (sig.equals(lastLedgerSignature))
-		{
-			return;
-		}
-		lastLedgerSignature = sig;
-		panel.updateLedger(m);
-	}
-
-	private static String ledgerSignature(LedgerModel m)
-	{
-		StringBuilder sb = new StringBuilder();
-		sb.append(m.loggedIn).append(';').append(m.empty).append(';');
-		for (LedgerModel.Row r : m.rows)
-		{
-			sb.append(r.itemId).append(':').append(r.acquired).append(',').append(r.carrying)
-				.append(',').append(r.banked).append(',').append(r.usedDropped).append('|');
-		}
-		return sb.toString();
-	}
-
-	private String itemName(int id)
-	{
-		try
-		{
-			ItemComposition comp = itemManager.getItemComposition(id);
-			if (comp != null && comp.getName() != null && !comp.getName().isEmpty())
-			{
-				return comp.getName();
-			}
-		}
-		catch (RuntimeException ex)
-		{
-			log.debug("Gustav's Helper: item name lookup failed for {}", id, ex);
-		}
-		return "Item " + id;
+		presenter.showLedger(ledger, client.getGameState() == GameState.LOGGED_IN);
 	}
 
 	// ---- Persistence --------------------------------------------------------
@@ -815,19 +700,12 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			return;
 		}
-		String value = String.join(",", progression.getCompletedIds());
-		configManager.setConfiguration(OsirisGuideConfig.GROUP, "progress_" + guideId() + "_" + accountKey, value);
+		storage.saveProgress(guideId(), accountKey, progression);
 	}
 
 	private void loadPersisted(String key)
 	{
-		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "progress_" + guideId() + "_" + key);
-		if (value == null || value.isEmpty())
-		{
-			progression.setCompletedIds(Collections.emptyList());
-			return;
-		}
-		progression.setCompletedIds(Arrays.asList(value.split(",")));
+		storage.loadProgress(guideId(), key, progression);
 	}
 
 	private void persistLedger()
@@ -836,8 +714,7 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			return;
 		}
-		configManager.setConfiguration(OsirisGuideConfig.GROUP, "ledger_" + guideId() + "_" + accountKey,
-			ledger.acquiredToString());
+		storage.saveLedger(guideId(), accountKey, ledger);
 	}
 
 	private void loadLedger(String key)
@@ -846,10 +723,8 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			return;
 		}
-		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "ledger_" + guideId() + "_" + key);
-		ledger.acquiredFromString(value);
-		// Re-seed live tracking against this login's containers (owned/spent rebuild from live state).
-		ledger.clearSnapshots();
+		// loadLedger also re-seeds live tracking so owned/spent rebuild from this login's containers.
+		storage.loadLedger(guideId(), key, ledger);
 	}
 
 	// ---- Panel actions (Swing thread -> client thread) ----------------------
