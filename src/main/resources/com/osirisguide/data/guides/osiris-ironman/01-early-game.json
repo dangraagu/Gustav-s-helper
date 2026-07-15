@@ -7,7 +7,12 @@
       "id": "eg-001",
       "title": "Start as a female character, don't …",
       "text": "Start as a female character, don't forget to make yourself an ironman before ...",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "eg-002",
@@ -234,12 +239,12 @@
       "title": "Start Restless ghost by talking to …",
       "text": "Start Restless ghost by talking to Father Aereck\nLocation: Lumbridge",
       "manual": true,
+      "npc": 2812,
       "world": [
         3244,
         3210,
         0
-      ],
-      "npc": 2812
+      ]
     },
     {
       "id": "eg-020",
@@ -306,12 +311,12 @@
       "title": "Talk to Father Urhney to get …",
       "text": "Talk to Father Urhney to get the ghostspeak amulet, equip it\nLocation: Lumbridge Swamp",
       "manual": true,
+      "npc": 923,
       "world": [
         3147,
         3175,
         0
-      ],
-      "npc": 923
+      ]
     },
     {
       "id": "eg-025",
@@ -371,24 +376,24 @@
         ]
       },
       "item": 1985,
+      "npc": 4284,
       "world": [
         3086,
         3258,
         0
-      ],
-      "npc": 4284
+      ]
     },
     {
       "id": "eg-029",
       "title": "Buy 5 wine from Fortunato, use …",
       "text": "Buy 5 wine from Fortunato, use as emergency food if needed\nLocation: Draynor Village",
       "manual": true,
+      "npc": 1260,
       "world": [
         3085,
         3251,
         0
-      ],
-      "npc": 1260
+      ]
     },
     {
       "id": "eg-030",
@@ -566,12 +571,12 @@
         ]
       },
       "item": 1941,
+      "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ],
-      "npc": 1209
+      ]
     },
     {
       "id": "eg-040",
@@ -784,12 +789,12 @@
       "title": "Buy greenman's ale from Rasolo",
       "text": "Buy greenman's ale from Rasolo\nLocation: North of Ardougne",
       "manual": true,
+      "npc": 679,
       "world": [
         2531,
         3420,
         0
-      ],
-      "npc": 679
+      ]
     },
     {
       "id": "eg-054",
@@ -886,12 +891,12 @@
       "title": "Buy a drink from Blurberry for …",
       "text": "Buy a drink from Blurberry for the Barcrawl miniquest\nLocation: Gnome Stronghold",
       "manual": true,
+      "npc": 6531,
       "world": [
         2482,
         3491,
         1
-      ],
-      "npc": 6531
+      ]
     },
     {
       "id": "eg-061",
@@ -914,12 +919,12 @@
         ]
       },
       "item": 2114,
+      "npc": 6531,
       "world": [
         2482,
         3491,
         1
-      ],
-      "npc": 6531
+      ]
     },
     {
       "id": "eg-062",
@@ -1004,12 +1009,12 @@
       "title": "Sell the 8 bolts of cloth …",
       "text": "Sell the 8 bolts of cloth from the quest reward back to the sawmill\nLocation: Varrock",
       "manual": true,
+      "npc": 3101,
       "world": [
         3302,
         3492,
         0
-      ],
-      "npc": 3101
+      ]
     },
     {
       "id": "eg-069",
@@ -1032,12 +1037,12 @@
         ]
       },
       "item": 4819,
+      "npc": 3101,
       "world": [
         3302,
         3492,
         0
-      ],
-      "npc": 3101
+      ]
     },
     {
       "id": "eg-070",
@@ -1180,12 +1185,12 @@
         ]
       },
       "item": 314,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-080",
@@ -1300,36 +1305,36 @@
       "title": "Walk north to Fred's farm",
       "text": "Walk north to Fred's farm\nLocation: Fred's Farm",
       "manual": true,
+      "npc": 732,
       "world": [
         3189,
         3273,
         0
-      ],
-      "npc": 732
+      ]
     },
     {
       "id": "eg-089",
       "title": "Kill a chicken with wind strike …",
       "text": "Kill a chicken with wind strike for it's meat at Fred's farm\nLocation: Fred's Farm",
       "manual": true,
+      "npc": 732,
       "world": [
         3189,
         3273,
         0
-      ],
-      "npc": 732
+      ]
     },
     {
       "id": "eg-090",
       "title": "Pick up egg north of Fred",
       "text": "Pick up egg north of Fred\nLocation: Fred's Farm",
       "manual": true,
+      "npc": 732,
       "world": [
         3189,
         3273,
         0
-      ],
-      "npc": 732
+      ]
     },
     {
       "id": "eg-091",
@@ -1358,12 +1363,12 @@
       "title": "Walk to Barbarian village (you can …",
       "text": "Walk to Barbarian village (you can walk east of draynor manor by the river, d...\nLocation: Barbarian Village",
       "manual": true,
+      "object": 134,
       "world": [
         3108,
         3353,
         0
-      ],
-      "object": 134
+      ]
     },
     {
       "id": "eg-094",
@@ -1632,24 +1637,24 @@
       "title": "Steal tea from the tea stall",
       "text": "Steal tea from the tea stall\nLocation: Varrock",
       "manual": true,
+      "object": 635,
       "world": [
         3270,
         3411,
         0
-      ],
-      "object": 635
+      ]
     },
     {
       "id": "eg-110",
       "title": "Give the package to Aubury, talk …",
       "text": "Give the package to Aubury, talk to him again for the notes\nLocation: Varrock",
       "manual": true,
+      "npc": 11434,
       "world": [
         3253,
         3401,
         0
-      ],
-      "npc": 11434
+      ]
     },
     {
       "id": "eg-111",
@@ -1705,12 +1710,12 @@
       "title": "Cut a dying tree at the …",
       "text": "Cut a dying tree at the sawmill and make 1 regular plank for diary tasks\nLocation: Varrock Sawmill",
       "manual": true,
+      "npc": 3101,
       "world": [
         3302,
         3492,
         0
-      ],
-      "npc": 3101
+      ]
     },
     {
       "id": "eg-115",
@@ -1802,12 +1807,12 @@
       "title": "Talk to juliet",
       "text": "Talk to juliet\nLocation: Varrock",
       "manual": true,
+      "npc": 5035,
       "world": [
         3158,
         3427,
         1
-      ],
-      "npc": 5035
+      ]
     },
     {
       "id": "eg-123",
@@ -2060,12 +2065,12 @@
       "title": "Run to port sarim",
       "text": "Run to port sarim\nLocation: Port Sarim",
       "manual": true,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-139",
@@ -2083,24 +2088,24 @@
       "title": "Get a security book from the …",
       "text": "Get a security book from the Security guard upstairs in port sarim jail for a...\nLocation: Port Sarim",
       "manual": true,
+      "npc": 820,
       "world": [
         3015,
         3195,
         0
-      ],
-      "npc": 820
+      ]
     },
     {
       "id": "eg-141",
       "title": "Give the pie to Thurgo, and …",
       "text": "Give the pie to Thurgo, and ask about Knight's sword\nLocation: Mudskipper Point",
       "manual": true,
+      "npc": 4733,
       "world": [
         3000,
         3145,
         0
-      ],
-      "npc": 4733
+      ]
     },
     {
       "id": "eg-142",
@@ -2118,24 +2123,24 @@
       "title": "Use the falador teletab, talk to …",
       "text": "Use the falador teletab, talk to the squire and get the portrait from sir Vyv...\nLocation: Falador",
       "manual": true,
+      "npc": 4737,
       "world": [
         2978,
         3341,
         0
-      ],
-      "npc": 4737
+      ]
     },
     {
       "id": "eg-144",
       "title": "Use house tab and run back …",
       "text": "Use house tab and run back to thurgo for the sword, run back to Falador\nLocation: Mudskipper Point",
       "manual": true,
+      "npc": 4733,
       "world": [
         3000,
         3145,
         0
-      ],
-      "npc": 4733
+      ]
     },
     {
       "id": "eg-145",
@@ -2252,12 +2257,12 @@
         ]
       },
       "item": 2349,
+      "npc": 4642,
       "world": [
         3303,
         3122,
         0
-      ],
-      "npc": 4642
+      ]
     },
     {
       "id": "eg-152",
@@ -2267,7 +2272,12 @@
         "op": "quest",
         "quest": "THE_TOURIST_TRAP",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3304,
+        3112,
+        0
+      ]
     },
     {
       "id": "eg-153",
@@ -2366,12 +2376,12 @@
       "title": "Mine 15 clay south of Khazard",
       "text": "Mine 15 clay south of Khazard\nLocation: South of Khazard",
       "manual": true,
+      "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ],
-      "npc": 1209
+      ]
     },
     {
       "id": "eg-159",
@@ -2423,24 +2433,24 @@
       "title": "Use the spirit tree and go …",
       "text": "Use the spirit tree and go to battlefield of khazard\nLocation: Khazard Battlefield",
       "manual": true,
+      "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ],
-      "npc": 1209
+      ]
     },
     {
       "id": "eg-163",
       "title": "Run to ZMI bank and safespot …",
       "text": "Run to ZMI bank and safespot the zamorak warrior until you get a rune scimitar\nLocation: ZMI Bank",
       "manual": true,
+      "npc": 1158,
       "world": [
         3151,
         3207,
         0
-      ],
-      "npc": 1158
+      ]
     },
     {
       "id": "eg-164",
@@ -2511,12 +2521,12 @@
       "title": "Get a drink for the barcrawl …",
       "text": "Get a drink for the barcrawl quest from brimhaven bar\nLocation: Brimhaven",
       "manual": true,
+      "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ],
-      "object": 10805
+      ]
     },
     {
       "id": "eg-169",
@@ -2586,24 +2596,24 @@
       "title": "Charter to port sarim",
       "text": "Charter to port sarim\nLocation: Port Sarim",
       "manual": true,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-175",
       "title": "Go to Zeah and get 100 …",
       "text": "Go to Zeah and get 100 compost and saltpetre\nLocation: Great Kourend",
       "manual": true,
+      "object": 27436,
       "world": [
         1703,
         3526,
         0
-      ],
-      "object": 27436
+      ]
     },
     {
       "id": "eg-176",
@@ -2625,12 +2635,12 @@
       "title": "Train 42 thieving at the fruit …",
       "text": "Train 42 thieving at the fruit stall in a house east of the hosidius marketpl...\nLocation: Hosidius",
       "manual": true,
+      "object": 28823,
       "world": [
         1767,
         3597,
         0
-      ],
-      "object": 28823
+      ]
     },
     {
       "id": "eg-178",
@@ -2754,12 +2764,12 @@
         ]
       },
       "item": 1957,
+      "npc": 732,
       "world": [
         3189,
         3273,
         0
-      ],
-      "npc": 732
+      ]
     },
     {
       "id": "eg-186",
@@ -2934,12 +2944,12 @@
         ]
       },
       "item": 1101,
+      "npc": 2882,
       "world": [
         3229,
         3436,
         0
-      ],
-      "npc": 2882
+      ]
     },
     {
       "id": "eg-199",
@@ -2957,12 +2967,12 @@
       "title": "Return to Varrock, talk to the …",
       "text": "Return to Varrock, talk to the Mage of Zamorak at the Chaos Temple to get the...\nLocation: Varrock",
       "manual": true,
+      "npc": 2582,
       "world": [
         3259,
         3383,
         0
-      ],
-      "npc": 2582
+      ]
     },
     {
       "id": "eg-201",
@@ -3054,12 +3064,12 @@
       "title": "Get a drink for barcrawl from …",
       "text": "Get a drink for barcrawl from Yanille pub\nLocation: Yanille",
       "manual": true,
+      "object": 17047,
       "world": [
         2556,
         3072,
         0
-      ],
-      "object": 17047
+      ]
     },
     {
       "id": "eg-209",
@@ -3108,36 +3118,36 @@
       "title": "From Karamja shipyard, charter to Karamja, …",
       "text": "From Karamja shipyard, charter to Karamja, Musa point\nLocation: Karamja",
       "manual": true,
+      "object": 4458,
       "world": [
         2466,
         3495,
         0
-      ],
-      "object": 4458
+      ]
     },
     {
       "id": "eg-212",
       "title": "Take boat to Port Sarim",
       "text": "Take boat to Port Sarim\nLocation: Port Sarim",
       "manual": true,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-213",
       "title": "Get a drink from the port …",
       "text": "Get a drink from the port sarim bar for barcrawl\nLocation: Port Sarim",
       "manual": true,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-214",
@@ -3330,12 +3340,12 @@
       "title": "Get the touch paper from chemist …",
       "text": "Get the touch paper from chemist and give the 3 potions to the guys outside\nLocation: Rimmington",
       "manual": true,
+      "npc": 1146,
       "world": [
         2933,
         3210,
         0
-      ],
-      "npc": 1146
+      ]
     },
     {
       "id": "eg-229",
@@ -3553,12 +3563,12 @@
       "title": "Go under the mountain and speak …",
       "text": "Go under the mountain and speak to Lady of the lake in Taverly\nLocation: Taverley",
       "manual": true,
+      "npc": 3530,
       "world": [
         2924,
         3404,
         0
-      ],
-      "npc": 3530
+      ]
     },
     {
       "id": "eg-243",
@@ -3632,48 +3642,48 @@
       "title": "Run south to Port sarim",
       "text": "Run south to Port sarim\nLocation: Port Sarim",
       "manual": true,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-249",
       "title": "Trade Sarah's farming shop for a …",
       "text": "Trade Sarah's farming shop for a falador diary task\nLocation: Port Sarim",
       "manual": true,
+      "npc": 501,
       "world": [
         3039,
         3292,
         0
-      ],
-      "npc": 501
+      ]
     },
     {
       "id": "eg-250",
       "title": "Buy a black wizards hat from …",
       "text": "Buy a black wizards hat from Betty at port sarim magic store\nLocation: Port Sarim",
       "manual": true,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-251",
       "title": "Port Sarim jewellery store, give the …",
       "text": "Port Sarim jewellery store, give the bread to the beggar to get the excalibur\nLocation: Port Sarim",
       "manual": true,
+      "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "npc": 3648
+      ]
     },
     {
       "id": "eg-252",
@@ -3769,12 +3779,12 @@
       "title": "Continue Lost tribe until you need …",
       "text": "Continue Lost tribe until you need to go to the goblin village\nLocation: Varrock",
       "manual": true,
+      "object": 23,
       "world": [
         2962,
         3506,
         0
-      ],
-      "object": 23
+      ]
     },
     {
       "id": "eg-260",
@@ -3871,12 +3881,12 @@
       "title": "Use the G.E spirit tree and …",
       "text": "Use the G.E spirit tree and go to battlefield of khazard\nLocation: Khazard Battlefield",
       "manual": true,
+      "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ],
-      "npc": 1209
+      ]
     },
     {
       "id": "eg-268",
@@ -4024,12 +4034,12 @@
       "title": "Do Elemental workshop 1",
       "text": "Do Elemental workshop 1\nLocation: Seers Village",
       "manual": true,
+      "object": 3415,
       "world": [
         2711,
         3498,
         0
-      ],
-      "object": 3415
+      ]
     },
     {
       "id": "eg-280",

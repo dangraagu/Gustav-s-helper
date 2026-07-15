@@ -40,7 +40,12 @@
         "skill": "CRAFTING",
         "level": 61,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-005",
@@ -58,24 +63,24 @@
       "title": "Go to rogues' den and burn …",
       "text": "Go to rogues' den and burn giant seaweed on the fire, 4 seaweed at a time\nLocation: Rogues' Den",
       "manual": true,
+      "object": 7257,
       "world": [
         2905,
         3537,
         0
-      ],
-      "object": 7257
+      ]
     },
     {
       "id": "abg-007",
       "title": "Make molten glass at Edgeville furnace",
       "text": "Make molten glass at Edgeville furnace\nLocation: Edgeville",
       "manual": true,
+      "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "object": 1581
+      ]
     },
     {
       "id": "abg-008",
@@ -97,19 +102,24 @@
         "skill": "MINING",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-010",
       "title": "Get a helm of neitiznot",
       "text": "Get a helm of neitiznot\nLocation: Rellekka",
       "manual": true,
+      "npc": 1883,
       "world": [
         2644,
         3710,
         0
-      ],
-      "npc": 1883
+      ]
     },
     {
       "id": "abg-011",
@@ -164,7 +174,12 @@
         "op": "quest",
         "quest": "DEFENDER_OF_VARROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3283,
+        3501,
+        0
+      ]
     },
     {
       "id": "abg-017",
@@ -175,7 +190,12 @@
         "skill": "SLAYER",
         "level": 58,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-018",
@@ -250,7 +270,12 @@
       "id": "abg-024",
       "title": "Get crafting level for slayer rings …",
       "text": "Get crafting level for slayer rings at some point\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-025",
@@ -278,7 +303,12 @@
         "skill": "HERBLORE",
         "level": 77,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-028",
@@ -289,7 +319,12 @@
         "skill": "AGILITY",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-029",
@@ -529,7 +564,12 @@
         "op": "quest",
         "quest": "WHILE_GUTHIX_SLEEPS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2907,
+        3450,
+        0
+      ]
     },
     {
       "id": "abg-051",
@@ -539,7 +579,12 @@
         "op": "quest",
         "quest": "SECRETS_OF_THE_NORTH",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2570,
+        3276,
+        0
+      ]
     },
     {
       "id": "abg-052",
@@ -550,7 +595,12 @@
         "skill": "HERBLORE",
         "level": 77,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-053",
@@ -614,12 +664,12 @@
       "title": "Chambers of Xeric for Twisted Bow, …",
       "text": "Chambers of Xeric for Twisted Bow, Dragon Hunter Crossbow, and other uniques\nLocation: Chambers of Xeric",
       "manual": true,
+      "object": 29777,
       "world": [
         1232,
         3573,
         0
-      ],
-      "object": 29777
+      ]
     },
     {
       "id": "abg-060",

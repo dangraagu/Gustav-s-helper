@@ -33,7 +33,12 @@
         "op": "quest",
         "quest": "PERILOUS_MOONS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1435,
+        3124,
+        0
+      ]
     },
     {
       "id": "e11-003",
@@ -55,7 +60,12 @@
         "op": "quest",
         "quest": "CONTACT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3281,
+        2772,
+        0
+      ]
     },
     {
       "id": "e11-005",
@@ -85,7 +95,12 @@
       "id": "e11-007",
       "title": "Order of points usage: Bigger & …",
       "text": "Order of points usage: Bigger & Badder, Blocking Tasks, Slayer Helmet, Ring Bling, Broad Arrows",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-008",
@@ -97,7 +112,12 @@
       "id": "e11-009",
       "title": "Withdraw: Bow of Faerdhinen, Crystal Armour …",
       "text": "Withdraw: Bow of Faerdhinen, Crystal Armour & combat gear.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-010",
@@ -125,7 +145,12 @@
         "op": "quest",
         "quest": "DEFENDER_OF_VARROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3283,
+        3501,
+        0
+      ]
     },
     {
       "id": "e11-013",
@@ -135,7 +160,12 @@
         "op": "quest",
         "quest": "WHILE_GUTHIX_SLEEPS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2907,
+        3450,
+        0
+      ]
     },
     {
       "id": "e11-014",
@@ -181,7 +211,12 @@
           }
         ]
       },
-      "item": 2355
+      "item": 2355,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-018",
@@ -209,25 +244,45 @@
         "op": "quest",
         "quest": "HAUNTED_MINE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3443,
+        3258,
+        0
+      ]
     },
     {
       "id": "e11-021",
       "title": "Mine a Mithril Deposit [Morytania Hard …",
       "text": "Mine a Mithril Deposit [Morytania Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e11-022",
       "title": "Teleport to POH -> Kharyrll Portal …",
       "text": "Teleport to POH -> Kharyrll Portal [Morytania Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e11-023",
       "title": "Head to the Slayer Tower and …",
       "text": "Head to the Slayer Tower and climb both of the Spike climbs [Morytania Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e11-024",
@@ -245,7 +300,12 @@
       "id": "e11-026",
       "title": "Use the Garlic on the Restore …",
       "text": "Use the Garlic on the Restore Potion, then the crushed Silver to make a Guthix Balanace [Morytania Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e11-027",
@@ -293,7 +353,12 @@
       "id": "e11-032",
       "title": "Talk to Le Sabre and complete …",
       "text": "Talk to Le Sabre and complete Morytania Medium & Hard Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e11-033",
@@ -363,7 +428,12 @@
           }
         ]
       },
-      "item": 954
+      "item": 954,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-040",
@@ -421,7 +491,12 @@
           }
         ]
       },
-      "item": 449
+      "item": 449,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-046",
@@ -433,13 +508,23 @@
       "id": "e11-047",
       "title": "Change Spellbook to Lunars on Occult …",
       "text": "Change Spellbook to Lunars on Occult Altar",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-048",
       "title": "Teleport to Kourend Woodland",
       "text": "Teleport to Kourend Woodland",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-049",
@@ -457,7 +542,12 @@
       "id": "e11-050",
       "title": "Cast Monster Examine on a Troll …",
       "text": "Cast Monster Examine on a Troll [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-051",
@@ -469,7 +559,12 @@
       "id": "e11-052",
       "title": "Mine a Lovakite Ore [Kourend Hard …",
       "text": "Mine a Lovakite Ore [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-053",
@@ -523,7 +618,12 @@
       "id": "e11-058",
       "title": "Plant a Logavano Seed at the …",
       "text": "Plant a Logavano Seed at the Tithe Farm [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-059",
@@ -541,13 +641,23 @@
       "id": "e11-060",
       "title": "Enter the Woodcut Guild [Kourend Hard …",
       "text": "Enter the Woodcut Guild [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-061",
       "title": "Teleport to Shayzien",
       "text": "Teleport to Shayzien",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-062",
@@ -559,13 +669,23 @@
       "id": "e11-063",
       "title": "Kill a Zombie in the Shayzien …",
       "text": "Kill a Zombie in the Shayzien Crypts [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-064",
       "title": "Teleport to Shayzien",
       "text": "Teleport to Shayzien",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-065",
@@ -589,7 +709,12 @@
       "id": "e11-068",
       "title": "Change back to Regular Spellbook",
       "text": "Change back to Regular Spellbook",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-069",
@@ -601,7 +726,12 @@
       "id": "e11-070",
       "title": "Bank at Shayzien Chest",
       "text": "Bank at Shayzien Chest",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-071",
@@ -623,19 +753,34 @@
           }
         ]
       },
-      "item": 1379
+      "item": 1379,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-072",
       "title": "Head North and kill a Lizardmen …",
       "text": "Head North and kill a Lizardmen until you get a Xerics Talisman Drop. Take all Fangs. Wear the Crystal",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-073",
       "title": "Head West and kill 1 Lizardman …",
       "text": "Head West and kill 1 Lizardman Shaman (Wear the Shayzien armour. You can just stand still by a wall if you want you only need 1 kill) [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-074",
@@ -653,25 +798,45 @@
       "id": "e11-076",
       "title": "Buy Brimstone boots and kill 1 …",
       "text": "Buy Brimstone boots and kill 1 Wyrm [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-077",
       "title": "Teleport to Xerics Heart on Xerics …",
       "text": "Teleport to Xerics Heart on Xerics Talisman [Kourend Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-078",
       "title": "Talk to Tyss to complete Kourend …",
       "text": "Talk to Tyss to complete Kourend Hard Diary (Lamp on Herblore)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e11-079",
       "title": "Now we have the Bone Crusher, …",
       "text": "Now we have the Bone Crusher, Ash Sanctifier & Soul Bearer we can begin the slayer grind towards Raids. This is where we can detour towards the Noxious Halberd if you did not get the Blade of Saeldor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-080",
@@ -699,19 +864,34 @@
         "op": "quest",
         "quest": "CONTACT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3281,
+        2772,
+        0
+      ]
     },
     {
       "id": "e11-083",
       "title": "Ankou (Barrage in Catacombs, no alt …",
       "text": "Ankou (Barrage in Catacombs, no alt needed)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-084",
       "title": "Bloodvelds (Barrage with Alts in Catacombs …",
       "text": "Bloodvelds (Barrage with Alts in Catacombs or Saeldor them. Extend if barraging)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-085",
@@ -747,13 +927,23 @@
       "id": "e11-088",
       "title": "Dust Devils (Ice Barrage in Catacombs. …",
       "text": "Dust Devils (Ice Barrage in Catacombs. Extend ASAP)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-089",
       "title": "Nechryaeel (Ice Barrage in Catacombs. Extend …",
       "text": "Nechryaeel (Ice Barrage in Catacombs. Extend Asap)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-090",
@@ -763,7 +953,12 @@
         "op": "quest",
         "quest": "CONTACT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3281,
+        2772,
+        0
+      ]
     },
     {
       "id": "e11-091",
@@ -781,7 +976,12 @@
       "id": "e11-093",
       "title": "Tormented Synapse Order: Purging Staff -> …",
       "text": "Tormented Synapse Order: Purging Staff -> Scorching Bow -> Emberlight (Revert the Purging Staff to Scorching Bow when your Arclight has 0 charges)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-094",
@@ -793,13 +993,23 @@
       "id": "e11-095",
       "title": "If you obtain 87 Slayer, the …",
       "text": "If you obtain 87 Slayer, the trident is optional depending if you plan to kill Doom of Mokhaiotl for Eye of Ayak (very dangerous for HCIM for accessable)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1309,
+        3104,
+        0
+      ]
     },
     {
       "id": "e11-096",
       "title": "If you skipped Blade of Saeldor …",
       "text": "If you skipped Blade of Saeldor you can get Kraken Whip which is decent before Nox Hally.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     }
   ]
 }

@@ -11,7 +11,12 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "bs-002",

@@ -23,19 +23,34 @@
           }
         ]
       },
-      "item": 1929
+      "item": 1929,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e6-002",
       "title": "Blessing -> Minecart (North-East) -> Farming …",
       "text": "Blessing -> Minecart (North-East) -> Farming Guild (2)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1249,
+        3737,
+        0
+      ]
     },
     {
       "id": "e6-003",
       "title": "Head North & cut a Mahogany …",
       "text": "Head North & cut a Mahogany Log [Kourend Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e6-004",
@@ -77,7 +92,12 @@
       "id": "e6-008",
       "title": "Run north and then east towards …",
       "text": "Run north and then east towards bloodvelds and Kill a greater demon with Darklight (2 CA points) (Don't get alfie'd by the iron dragons)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e6-009",
@@ -101,7 +121,12 @@
       "id": "e6-012",
       "title": "Wintertodt 13 points",
       "text": "Wintertodt 13 points",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
     },
     {
       "id": "e6-013",
@@ -113,7 +138,12 @@
       "id": "e6-014",
       "title": "CoX 4 points",
       "text": "CoX 4 points",
-      "manual": true
+      "manual": true,
+      "world": [
+        1245,
+        3557,
+        0
+      ]
     },
     {
       "id": "e6-015",
@@ -179,7 +209,12 @@
       "id": "e6-024",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e6-025",
@@ -189,7 +224,12 @@
         "op": "quest",
         "quest": "TEMPLE_OF_THE_EYE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
     },
     {
       "id": "e6-026",
@@ -199,7 +239,12 @@
         "op": "quest",
         "quest": "TEMPLE_OF_THE_EYE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
     },
     {
       "id": "e6-027",
@@ -217,7 +262,12 @@
       "id": "e6-028",
       "title": "Accept being teleported to the Abyss",
       "text": "Accept being teleported to the Abyss",
-      "manual": true
+      "manual": true,
+      "world": [
+        3104,
+        3560,
+        0
+      ]
     },
     {
       "id": "e6-029",
@@ -253,19 +303,34 @@
       "id": "e6-032",
       "title": "Enter Fire Altar",
       "text": "Enter Fire Altar",
-      "manual": true
+      "manual": true,
+      "world": [
+        3312,
+        3254,
+        0
+      ]
     },
     {
       "id": "e6-033",
       "title": "Use Earth Runes on Fire Altar …",
       "text": "Use Earth Runes on Fire Altar [Lumbridge Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3312,
+        3254,
+        0
+      ]
     },
     {
       "id": "e6-034",
       "title": "Leave Fire Altar",
       "text": "Leave Fire Altar",
-      "manual": true
+      "manual": true,
+      "world": [
+        3312,
+        3254,
+        0
+      ]
     },
     {
       "id": "e6-035",
@@ -287,7 +352,12 @@
         "op": "quest",
         "quest": "TEMPLE_OF_THE_EYE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
     },
     {
       "id": "e6-037",
@@ -314,7 +384,12 @@
         "op": "quest",
         "quest": "WANTED",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2997,
+        3373,
+        0
+      ]
     },
     {
       "id": "e6-040",
@@ -373,7 +448,12 @@
       "id": "e6-047",
       "title": "Gear: Ancient Staff, Amulet of Strength, …",
       "text": "Gear: Ancient Staff, Amulet of Strength, Barrows Gloves, Climbing Boots, Berserker Helmet",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e6-048",
@@ -395,13 +475,23 @@
           }
         ]
       },
-      "item": 952
+      "item": 952,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e6-049",
       "title": "Ardy Cloak -> DKS",
       "text": "Ardy Cloak -> DKS",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e6-050",
@@ -419,13 +509,23 @@
       "id": "e6-052",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e6-053",
       "title": "Head to Varlamore",
       "text": "Head to Varlamore",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e6-054",
@@ -463,7 +563,12 @@
         "op": "quest",
         "quest": "PERILOUS_MOONS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1435,
+        3124,
+        0
+      ]
     },
     {
       "id": "e6-057",
@@ -541,7 +646,12 @@
         "op": "quest",
         "quest": "RUM_DEAL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3680,
+        3537,
+        0
+      ]
     },
     {
       "id": "e6-062",
@@ -551,7 +661,12 @@
         "op": "quest",
         "quest": "CABIN_FEVER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3678,
+        3494,
+        0
+      ]
     },
     {
       "id": "e6-063",
@@ -591,13 +706,23 @@
           }
         ]
       },
-      "item": 3204
+      "item": 3204,
+      "world": [
+        3663,
+        3219,
+        0
+      ]
     },
     {
       "id": "e6-066",
       "title": "Fight Caves Veteran",
       "text": "Fight Caves Veteran",
-      "manual": true
+      "manual": true,
+      "world": [
+        2856,
+        3168,
+        0
+      ]
     },
     {
       "id": "e6-067",
@@ -644,7 +769,12 @@
       "id": "e6-073",
       "title": "Teleport to Kourend. Enter Catacombs. Head …",
       "text": "Teleport to Kourend. Enter Catacombs. Head West & climb the Vine for Giants Pit",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e6-074",

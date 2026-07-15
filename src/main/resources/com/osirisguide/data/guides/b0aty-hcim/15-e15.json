@@ -7,25 +7,45 @@
       "id": "e15-001",
       "title": "To be updated as I haven’t …",
       "text": "To be updated as I haven’t done Yama yet on HCIM",
-      "manual": true
+      "manual": true,
+      "world": [
+        1435,
+        3668,
+        0
+      ]
     },
     {
       "id": "e15-002",
       "title": "Theatre of Blood",
       "text": "Theatre of Blood",
-      "manual": true
+      "manual": true,
+      "world": [
+        3663,
+        3219,
+        0
+      ]
     },
     {
       "id": "e15-003",
       "title": "Rapier -> TOA",
       "text": "Rapier -> TOA",
-      "manual": true
+      "manual": true,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
     },
     {
       "id": "e15-004",
       "title": "Sang -> CoX until Prayer Scrolls",
       "text": "Sang -> CoX until Prayer Scrolls",
-      "manual": true
+      "manual": true,
+      "world": [
+        1245,
+        3557,
+        0
+      ]
     },
     {
       "id": "e15-005",
@@ -35,7 +55,12 @@
         "op": "quest",
         "quest": "WHILE_GUTHIX_SLEEPS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2907,
+        3450,
+        0
+      ]
     }
   ]
 }

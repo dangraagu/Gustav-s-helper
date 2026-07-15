@@ -7,7 +7,12 @@
       "id": "boss-001",
       "title": "Kill the Royal Titans for prayers",
       "text": "Kill the Royal Titans for prayers",
-      "manual": true
+      "manual": true,
+      "world": [
+        3008,
+        3150,
+        0
+      ]
     },
     {
       "id": "boss-002",

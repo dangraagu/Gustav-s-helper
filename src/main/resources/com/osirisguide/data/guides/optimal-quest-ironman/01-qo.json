@@ -146,19 +146,24 @@
         "op": "quest",
         "quest": "PIRATES_TREASURE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2904,
+        3162,
+        0
+      ]
     },
     {
       "id": "qo-011",
       "title": "Unlock: Stronghold of Security",
       "text": "Unlock: Stronghold of Security\nLocation: Barbarian Village",
       "manual": true,
+      "object": 20790,
       "world": [
         3081,
         3420,
         0
-      ],
-      "object": 20790
+      ]
     },
     {
       "id": "qo-012",
@@ -284,7 +289,12 @@
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2455,
+        3301,
+        0
+      ]
     },
     {
       "id": "qo-021",
@@ -396,12 +406,12 @@
       "title": "Easy Ardougne Diary",
       "text": "Easy Ardougne Diary\nLocation: Ardougne",
       "manual": true,
+      "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "npc": 8764
+      ]
     },
     {
       "id": "qo-029",
@@ -441,7 +451,12 @@
         "op": "quest",
         "quest": "DWARF_CANNON",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
     },
     {
       "id": "qo-032",
@@ -481,7 +496,12 @@
         "op": "quest",
         "quest": "MURDER_MYSTERY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2741,
+        3561,
+        0
+      ]
     },
     {
       "id": "qo-035",
@@ -566,7 +586,12 @@
         "op": "quest",
         "quest": "DWARF_CANNON",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
     },
     {
       "id": "qo-041",
@@ -576,7 +601,12 @@
         "op": "quest",
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
     },
     {
       "id": "qo-042",
@@ -646,7 +676,12 @@
         "op": "quest",
         "quest": "PRIEST_IN_PERIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3222,
+        3473,
+        0
+      ]
     },
     {
       "id": "qo-047",
@@ -656,7 +691,12 @@
         "op": "quest",
         "quest": "RAG_AND_BONE_MAN_I",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3362,
+        3502,
+        0
+      ]
     },
     {
       "id": "qo-048",
@@ -666,7 +706,12 @@
         "op": "quest",
         "quest": "NATURE_SPIRIT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3405,
+        3507,
+        0
+      ]
     },
     {
       "id": "qo-049",
@@ -702,7 +747,12 @@
       "id": "qo-051",
       "title": "Unlock: Anti-dragon shield",
       "text": "Unlock: Anti-dragon shield\nLocation: Champions' Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        3191,
+        3357,
+        0
+      ]
     },
     {
       "id": "qo-052",
@@ -714,7 +764,7 @@
         "state": "FINISHED"
       },
       "world": [
-        2725,
+        2710,
         3485,
         0
       ]
@@ -727,7 +777,12 @@
         "op": "quest",
         "quest": "JUNGLE_POTION",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2795,
+        3065,
+        0
+      ]
     },
     {
       "id": "qo-054",
@@ -767,7 +822,12 @@
         "op": "quest",
         "quest": "RAG_AND_BONE_MAN_I",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3362,
+        3502,
+        0
+      ]
     },
     {
       "id": "qo-057",
@@ -777,7 +837,12 @@
         "op": "quest",
         "quest": "RAG_AND_BONE_MAN_II",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3169,
+        3172,
+        0
+      ]
     },
     {
       "id": "qo-058",
@@ -813,7 +878,12 @@
         "op": "quest",
         "quest": "THE_QUEEN_OF_THIEVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1803,
+        3752,
+        0
+      ]
     },
     {
       "id": "qo-061",
@@ -997,7 +1067,7 @@
         "state": "FINISHED"
       },
       "world": [
-        2725,
+        2710,
         3485,
         0
       ]
@@ -1046,7 +1116,12 @@
         "op": "quest",
         "quest": "PRYING_TIMES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3050,
+        2966,
+        0
+      ]
     },
     {
       "id": "qo-078",
@@ -1056,7 +1131,12 @@
         "op": "quest",
         "quest": "IMP_CATCHER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3109,
+        3160,
+        0
+      ]
     },
     {
       "id": "qo-079",
@@ -1079,7 +1159,7 @@
         "state": "FINISHED"
       },
       "world": [
-        2725,
+        2710,
         3485,
         0
       ]
@@ -1215,7 +1295,12 @@
         "op": "quest",
         "quest": "SLEEPING_GIANTS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3362,
+        3148,
+        0
+      ]
     },
     {
       "id": "qo-091",
@@ -1341,7 +1426,12 @@
         "op": "quest",
         "quest": "MAKING_HISTORY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2436,
+        3346,
+        0
+      ]
     },
     {
       "id": "qo-100",
@@ -1393,12 +1483,12 @@
       "title": "Unlock: Varrock Museum Kudos",
       "text": "Unlock: Varrock Museum Kudos\nLocation: Varrock",
       "manual": true,
+      "npc": 5214,
       "world": [
         3257,
         3449,
         0
-      ],
-      "npc": 5214
+      ]
     },
     {
       "id": "qo-104",
@@ -1479,7 +1569,12 @@
         "op": "quest",
         "quest": "TROLL_ROMANCE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2839,
+        3690,
+        0
+      ]
     },
     {
       "id": "qo-110",
@@ -1565,7 +1660,12 @@
         "skill": "RANGED",
         "level": 37,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "qo-116",
@@ -1575,7 +1675,12 @@
         "op": "quest",
         "quest": "SPIRITS_OF_THE_ELID",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "qo-117",
@@ -1630,7 +1735,12 @@
         "op": "quest",
         "quest": "DEATH_ON_THE_ISLE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1391,
+        2935,
+        0
+      ]
     },
     {
       "id": "qo-121",
@@ -1655,7 +1765,12 @@
         "op": "quest",
         "quest": "THE_GARDEN_OF_DEATH",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1314,
+        3470,
+        0
+      ]
     },
     {
       "id": "qo-123",
@@ -1699,12 +1814,12 @@
       "title": "Unlock: Balloon transport system to Crafting …",
       "text": "Unlock: Balloon transport system to Crafting Guild\nLocation: Entrana",
       "manual": true,
+      "object": 14910,
       "world": [
         2933,
         3289,
         0
-      ],
-      "object": 14910
+      ]
     },
     {
       "id": "qo-127",
@@ -1750,7 +1865,12 @@
         "op": "quest",
         "quest": "FISHING_CONTEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
     },
     {
       "id": "qo-131",
@@ -1857,7 +1977,12 @@
         "op": "quest",
         "quest": "BIG_CHOMPY_BIRD_HUNTING",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2515,
+        2954,
+        0
+      ]
     },
     {
       "id": "qo-139",
@@ -1867,7 +1992,12 @@
         "op": "quest",
         "quest": "ZOGRE_FLESH_EATERS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2515,
+        2954,
+        0
+      ]
     },
     {
       "id": "qo-140",
@@ -1884,7 +2014,12 @@
       "id": "qo-141",
       "title": "Easy Varrock Diary",
       "text": "Easy Varrock Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "qo-142",
@@ -1900,7 +2035,12 @@
         "op": "quest",
         "quest": "DARKNESS_OF_HALLOWVALE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3491,
+        3230,
+        0
+      ]
     },
     {
       "id": "qo-144",
@@ -1936,7 +2076,12 @@
       "id": "qo-146",
       "title": "Easy Falador Diary",
       "text": "Easy Falador Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "qo-147",
@@ -1961,7 +2106,12 @@
         "op": "quest",
         "quest": "THE_TOURIST_TRAP",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "qo-149",
@@ -1982,7 +2132,12 @@
         "op": "quest",
         "quest": "EADGARS_RUSE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2899,
+        3429,
+        0
+      ]
     },
     {
       "id": "qo-151",
@@ -1992,7 +2147,12 @@
         "op": "quest",
         "quest": "MY_ARMS_BIG_ADVENTURE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2839,
+        3690,
+        0
+      ]
     },
     {
       "id": "qo-152",
@@ -2002,7 +2162,12 @@
         "op": "quest",
         "quest": "THE_FREMENNIK_TRIALS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2658,
+        3669,
+        0
+      ]
     },
     {
       "id": "qo-153",
@@ -2045,7 +2210,12 @@
         "op": "quest",
         "quest": "THE_FREMENNIK_ISLES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2644,
+        3709,
+        0
+      ]
     },
     {
       "id": "qo-157",
@@ -2055,7 +2225,12 @@
         "op": "quest",
         "quest": "GETTING_AHEAD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1248,
+        3686,
+        0
+      ]
     },
     {
       "id": "qo-158",
@@ -2106,7 +2281,12 @@
         "op": "quest",
         "quest": "HAUNTED_MINE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3443,
+        3258,
+        0
+      ]
     },
     {
       "id": "qo-162",
@@ -2123,7 +2303,12 @@
       "id": "qo-163",
       "title": "Easy Karamja Diary",
       "text": "Easy Karamja Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "qo-164",
@@ -2226,7 +2411,12 @@
         "op": "quest",
         "quest": "OLAFS_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2722,
+        3727,
+        0
+      ]
     },
     {
       "id": "qo-172",
@@ -2263,7 +2453,12 @@
         "skill": "RANGED",
         "level": 40,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "qo-175",
@@ -2303,7 +2498,12 @@
         "op": "quest",
         "quest": "A_TAIL_OF_TWO_CATS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "qo-178",
@@ -2402,7 +2602,12 @@
         "op": "quest",
         "quest": "COLD_WAR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2597,
+        3266,
+        0
+      ]
     },
     {
       "id": "qo-186",
@@ -2449,7 +2654,12 @@
         "op": "quest",
         "quest": "EAGLES_PEAK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2332,
+        3683,
+        0
+      ]
     },
     {
       "id": "qo-190",
@@ -2500,7 +2710,12 @@
         "op": "quest",
         "quest": "RAG_AND_BONE_MAN_II",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3169,
+        3172,
+        0
+      ]
     },
     {
       "id": "qo-194",
@@ -2510,7 +2725,12 @@
         "op": "quest",
         "quest": "LAIR_OF_TARN_RAZORLOR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3186,
+        4619,
+        0
+      ]
     },
     {
       "id": "qo-195",
@@ -2676,7 +2896,12 @@
         "op": "quest",
         "quest": "ENAKHRAS_LAMENT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "qo-208",
@@ -2801,7 +3026,12 @@
         "op": "quest",
         "quest": "DESERT_TREASURE_I",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "qo-218",
@@ -2844,7 +3074,12 @@
         "op": "quest",
         "quest": "A_TASTE_OF_HOPE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3668,
+        3217,
+        0
+      ]
     },
     {
       "id": "qo-222",
@@ -2899,7 +3134,12 @@
         "op": "quest",
         "quest": "CURSE_OF_THE_EMPTY_LORD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2556,
+        3445,
+        0
+      ]
     },
     {
       "id": "qo-226",
@@ -2949,13 +3189,23 @@
       "id": "qo-230",
       "title": "Medium Falador Diary",
       "text": "Medium Falador Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "qo-231",
       "title": "Medium Varrock Diary",
       "text": "Medium Varrock Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "qo-232",
@@ -3086,7 +3336,12 @@
         "op": "quest",
         "quest": "PERILOUS_MOONS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1435,
+        3124,
+        0
+      ]
     },
     {
       "id": "qo-243",
@@ -3133,7 +3388,12 @@
         "op": "quest",
         "quest": "REGICIDE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2572,
+        3296,
+        0
+      ]
     },
     {
       "id": "qo-247",
@@ -3143,7 +3403,12 @@
         "op": "quest",
         "quest": "ROVING_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2207,
+        3159,
+        0
+      ]
     },
     {
       "id": "qo-248",
@@ -3154,7 +3419,12 @@
         "skill": "RANGED",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "qo-249",
@@ -3164,7 +3434,12 @@
         "op": "quest",
         "quest": "MOURNINGS_END_PART_I",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2207,
+        3159,
+        0
+      ]
     },
     {
       "id": "qo-250",
@@ -3174,7 +3449,12 @@
         "op": "quest",
         "quest": "MOURNINGS_END_PART_II",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2354,
+        3170,
+        0
+      ]
     },
     {
       "id": "qo-251",
@@ -3306,7 +3586,12 @@
         "op": "quest",
         "quest": "SWAN_SONG",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2332,
+        3683,
+        0
+      ]
     },
     {
       "id": "qo-262",
@@ -3453,19 +3738,34 @@
       "id": "qo-273",
       "title": "Medium Wilderness Diary",
       "text": "Medium Wilderness Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3522,
+        0
+      ]
     },
     {
       "id": "qo-274",
       "title": "Medium Karamja Diary",
       "text": "Medium Karamja Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "qo-275",
       "title": "Medium Kourend & Kebos Diary",
       "text": "Medium Kourend & Kebos Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "qo-276",
@@ -3483,7 +3783,12 @@
       "id": "qo-277",
       "title": "Medium Morytania Diary",
       "text": "Medium Morytania Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "qo-278",
@@ -3515,7 +3820,12 @@
         "op": "quest",
         "quest": "DEVIOUS_MINDS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3406,
+        3494,
+        0
+      ]
     },
     {
       "id": "qo-281",
@@ -3621,7 +3931,12 @@
         "op": "quest",
         "quest": "THE_PATH_OF_GLOUPHRIE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2455,
+        3301,
+        0
+      ]
     },
     {
       "id": "qo-290",
@@ -3675,7 +3990,12 @@
         "op": "quest",
         "quest": "THE_FREMENNIK_EXILES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2658,
+        3669,
+        0
+      ]
     },
     {
       "id": "qo-295",
@@ -3696,7 +4016,12 @@
         "op": "quest",
         "quest": "SINS_OF_THE_FATHER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3729,
+        3318,
+        0
+      ]
     },
     {
       "id": "qo-297",
@@ -3728,7 +4053,12 @@
         "op": "quest",
         "quest": "BENEATH_CURSED_SANDS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "qo-300",
@@ -3750,7 +4080,12 @@
         "skill": "RANGED",
         "level": 62,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "qo-302",
@@ -3819,7 +4154,12 @@
         "op": "quest",
         "quest": "MAKING_FRIENDS_WITH_MY_ARM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2839,
+        3690,
+        0
+      ]
     },
     {
       "id": "qo-308",
@@ -3846,7 +4186,12 @@
         "op": "quest",
         "quest": "TROUBLED_TORTUGANS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2962,
+        2605,
+        0
+      ]
     },
     {
       "id": "qo-311",
@@ -3862,7 +4207,12 @@
         "op": "quest",
         "quest": "THE_RED_REEF",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3186,
+        2405,
+        0
+      ]
     },
     {
       "id": "qo-313",
@@ -3926,7 +4276,12 @@
         "op": "quest",
         "quest": "A_NIGHT_AT_THE_THEATRE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3673,
+        3223,
+        0
+      ]
     },
     {
       "id": "qo-319",
@@ -3958,7 +4313,12 @@
         "op": "quest",
         "quest": "DRAGON_SLAYER_II",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2515,
+        2954,
+        0
+      ]
     },
     {
       "id": "qo-322",
@@ -4064,7 +4424,12 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "qo-331",
@@ -4096,7 +4461,12 @@
         "op": "quest",
         "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "qo-334",

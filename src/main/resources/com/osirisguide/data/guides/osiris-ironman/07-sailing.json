@@ -37,7 +37,12 @@
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
     },
     {
       "id": "sail-004",
@@ -53,7 +58,12 @@
         "op": "quest",
         "quest": "CURRENT_AFFAIRS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2803,
+        3430,
+        0
+      ]
     },
     {
       "id": "sail-006",
@@ -69,7 +79,12 @@
         "op": "quest",
         "quest": "TROUBLED_TORTUGANS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2962,
+        2605,
+        0
+      ]
     },
     {
       "id": "sail-008",
@@ -79,7 +94,12 @@
         "op": "quest",
         "quest": "THE_RED_REEF",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3186,
+        2405,
+        0
+      ]
     },
     {
       "id": "sail-009",

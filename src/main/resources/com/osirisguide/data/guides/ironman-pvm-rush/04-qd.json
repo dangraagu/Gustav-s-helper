@@ -11,7 +11,12 @@
         "op": "quest",
         "quest": "A_KINGDOM_DIVIDED",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1664,
+        3670,
+        0
+      ]
     },
     {
       "id": "qd-002",
