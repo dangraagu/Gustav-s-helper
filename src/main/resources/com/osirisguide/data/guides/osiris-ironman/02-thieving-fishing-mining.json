@@ -268,10 +268,11 @@
       "text": "Carpet back to Shantay pass\nLocation: Shantay Pass",
       "manual": true,
       "world": [
-        3304,
-        3123,
+        3303,
+        3122,
         0
-      ]
+      ],
+      "npc": 4642
     },
     {
       "id": "tfm-022",
@@ -335,10 +336,11 @@
       "text": "Go to Edgeville and talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3068,
+        3517,
         0
-      ]
+      ],
+      "npc": 822
     },
     {
       "id": "tfm-027",

@@ -31,11 +31,23 @@ public interface OsirisGuideConfig extends Config
 	String overlaySection = "overlays";
 
 	@ConfigItem(
+		keyName = "guide",
+		name = "Guide",
+		description = "Which guide to follow. Progress and the item ledger are tracked separately per guide.",
+		section = generalSection,
+		position = 0
+	)
+	default Guide guide()
+	{
+		return Guide.OSIRIS_IRONMAN;
+	}
+
+	@ConfigItem(
 		keyName = "mode",
 		name = "Ironman mode",
 		description = "Which account type to follow the route as. Filters mode-specific steps.",
 		section = generalSection,
-		position = 0
+		position = 1
 	)
 	default IronmanMode mode()
 	{

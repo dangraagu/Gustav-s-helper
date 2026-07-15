@@ -40,7 +40,7 @@ import net.runelite.api.coords.WorldPoint;
 @Slf4j
 public final class RouteLoader
 {
-	private static final String BASE = "/com/osirisguide/data/route/";
+	private static final String BASE = "/com/osirisguide/data/guides/";
 
 	private RouteLoader()
 	{
@@ -91,20 +91,21 @@ public final class RouteLoader
 
 	// ---- Public API ---------------------------------------------------------
 
-	/** Loads the full route from the classpath resources of this class. */
-	public static Route load(Gson gson)
+	/** Loads the bundled route for the given guide id (folder under {@code data/guides/<id>/}). */
+	public static Route load(Gson gson, String guideId)
 	{
-		IndexDto index = readResource(gson, BASE + "route-index.json", IndexDto.class);
+		String base = BASE + guideId + "/";
+		IndexDto index = readResource(gson, base + "route-index.json", IndexDto.class);
 		if (index == null || index.sections == null || index.sections.isEmpty())
 		{
-			log.warn("Osiris Guide: route index missing or empty; no route loaded");
+			log.warn("Osiris Guide: route index missing or empty for guide '{}'; no route loaded", guideId);
 			return new Route(new ArrayList<>());
 		}
 		List<RouteStep> steps = new ArrayList<>();
 		Set<String> seen = new HashSet<>();
 		for (String file : index.sections)
 		{
-			SectionDto section = readResource(gson, BASE + file, SectionDto.class);
+			SectionDto section = readResource(gson, base + file, SectionDto.class);
 			if (section == null || section.steps == null)
 			{
 				log.warn("Osiris Guide: section file '{}' missing or empty", file);
@@ -115,7 +116,8 @@ public final class RouteLoader
 				addUnique(steps, seen, convert(dto, section.section));
 			}
 		}
-		log.debug("Osiris Guide: loaded {} steps across {} sections", steps.size(), index.sections.size());
+		log.debug("Osiris Guide: guide '{}' loaded {} steps across {} sections",
+			guideId, steps.size(), index.sections.size());
 		return new Route(steps);
 	}
 

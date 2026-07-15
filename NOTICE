@@ -26,20 +26,25 @@ requirement display model are adapted from RuneLite Quest Helper:
 
 The original BSD 2-Clause copyright headers are retained in the adapted files.
 
+Reference data
+--------------
+Some route steps carry precise NPC/object IDs and tile coordinates. These are
+factual OSRS game data (not copyrightable) that were harvested at build time from
+Quest Helper's open source (BSD 2-Clause, credited above) to save re-mapping
+entities by hand. On the `main` branch, Quest Helper's own source code is NOT
+shipped — only the resulting factual IDs/coordinates are baked into the route
+data. The build-time extractor lives in tools/data/ (qh_extract.py + qh_entities.json).
+
 Vendored Quest Helper source (fork/questhelper branch only)
 -----------------------------------------------------------
-On the `fork/questhelper` branch, the entire Quest Helper source tree is
-vendored unmodified under `src/main/java/com/questhelper/` (and its resources),
-so that quest steps in the route can be driven by Quest Helper's own precise,
-per-quest guidance. This is a redistribution of Quest Helper under the BSD
-2-Clause License, with all original copyright notices retained in every file:
+On the `fork/questhelper` branch (personal / sideload use only, NOT submitted to
+the RuneLite Plugin Hub), the entire Quest Helper source tree is additionally
+vendored unmodified under `src/main/java/com/questhelper/` (and its resources) as
+a reference source, redistributed under the BSD 2-Clause License with all original
+copyright notices retained in every file:
 
     Quest Helper - https://github.com/Zoinkwiz/quest-helper
     Copyright (c) 2019-2024, Zoinkwiz and contributors
     Licensed under the BSD 2-Clause License (see LICENSE-questhelper)
-
-This branch is a fork intended for personal / sideload use; it is NOT the
-version submitted to the RuneLite Plugin Hub (the hub does not accept duplicate
-plugins). The Plugin-Hub-legit companion lives on the `main` branch.
 
 Not affiliated with Jagex Ltd. Old School RuneScape is a trademark of Jagex Ltd.

@@ -1,0 +1,10 @@
+{
+  "_comment": "Registry of bundled guides. Each id is a folder under data/guides/<id>/ with a route-index.json. Add a guide: drop its folder here, add an entry, and add a matching value to com.osirisguide.Guide.",
+  "guides": [
+    {
+      "id": "osiris-ironman",
+      "name": "Oziris Ironman Guide",
+      "description": "Efficient OSRS ironman progression route (ironman.guide, by Oziris)."
+    }
+  ]
+}

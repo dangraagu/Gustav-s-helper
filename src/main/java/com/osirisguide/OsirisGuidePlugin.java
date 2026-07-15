@@ -114,6 +114,7 @@ public class OsirisGuidePlugin extends Plugin
 	private boolean pendingReconcile;
 	private boolean ledgerDirty;
 	private boolean ledgerViewDirty;
+	private String loadedGuideId;
 	private String accountKey;
 	private String lastLedgerSignature;
 	private String lastCurrentStepId;
@@ -130,11 +131,7 @@ public class OsirisGuidePlugin extends Plugin
 	@Override
 	protected void startUp()
 	{
-		route = RouteLoader.load(gson);
-		progression = new Progression(route, config.mode());
-		ledger = new ItemLedger();
-		ledger.setItemsOfInterest(route.referencedItemIds());
-		lastLedgerSignature = null;
+		loadGuide();
 
 		panel = new OsirisGuidePanel(new Actions());
 		pluginIcon = ImageUtil.loadImageResource(getClass(), "/com/osirisguide/icon.png");
@@ -186,6 +183,33 @@ public class OsirisGuidePlugin extends Plugin
 		ledger = null;
 		lastCurrentStepId = null;
 		accountKey = null;
+	}
+
+	/** The guide actually loaded in memory. Persistence keys off THIS, not config.guide(), because
+	 *  onConfigChanged fires after the config already changed — so a flush of the outgoing guide must
+	 *  still use the outgoing guide's id. */
+	private String guideId()
+	{
+		return loadedGuideId;
+	}
+
+	/** (Re)loads the selected guide's route + a fresh progression/ledger, and this account's saved
+	 *  per-guide progress/ledger. Called at start-up and whenever the guide picker changes. */
+	private void loadGuide()
+	{
+		loadedGuideId = config.guide().getId();
+		route = RouteLoader.load(gson, loadedGuideId);
+		progression = new Progression(route, config.mode());
+		ledger = new ItemLedger();
+		ledger.setItemsOfInterest(route.referencedItemIds());
+		lastLedgerSignature = null;
+		lastCurrentStepId = null;
+		if (accountKey != null)
+		{
+			loadPersisted(accountKey);
+			loadLedger(accountKey);
+		}
+		pendingReconcile = true;
 	}
 
 	// ---- Events -------------------------------------------------------------
@@ -289,7 +313,17 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			return;
 		}
-		if ("mode".equals(e.getKey()))
+		if ("guide".equals(e.getKey()))
+		{
+			clientThread.invoke(() ->
+			{
+				persist();          // flush the old guide's progress/ledger before switching
+				persistLedger();
+				loadGuide();        // route + progression + ledger + saved state for the new guide
+				recompute(true);
+			});
+		}
+		else if ("mode".equals(e.getKey()))
 		{
 			clientThread.invoke(() ->
 			{
@@ -718,12 +752,12 @@ public class OsirisGuidePlugin extends Plugin
 			return;
 		}
 		String value = String.join(",", progression.getCompletedIds());
-		configManager.setConfiguration(OsirisGuideConfig.GROUP, "progress_" + accountKey, value);
+		configManager.setConfiguration(OsirisGuideConfig.GROUP, "progress_" + guideId() + "_" + accountKey, value);
 	}
 
 	private void loadPersisted(String key)
 	{
-		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "progress_" + key);
+		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "progress_" + guideId() + "_" + key);
 		if (value == null || value.isEmpty())
 		{
 			progression.setCompletedIds(Collections.emptyList());
@@ -738,7 +772,7 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			return;
 		}
-		configManager.setConfiguration(OsirisGuideConfig.GROUP, "ledger_" + accountKey,
+		configManager.setConfiguration(OsirisGuideConfig.GROUP, "ledger_" + guideId() + "_" + accountKey,
 			ledger.acquiredToString());
 	}
 
@@ -748,7 +782,7 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			return;
 		}
-		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "ledger_" + key);
+		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "ledger_" + guideId() + "_" + key);
 		ledger.acquiredFromString(value);
 		// Re-seed live tracking against this login's containers (owned/spent rebuild from live state).
 		ledger.clearSnapshots();
