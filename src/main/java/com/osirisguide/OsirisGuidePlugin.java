@@ -43,6 +43,7 @@ import net.runelite.api.Player;
 import net.runelite.api.Scene;
 import net.runelite.api.Tile;
 import net.runelite.api.TileObject;
+import net.runelite.api.coords.WorldPoint;
 import net.runelite.api.events.GameObjectDespawned;
 import net.runelite.api.events.GameObjectSpawned;
 import net.runelite.api.events.GameStateChanged;
@@ -60,6 +61,8 @@ import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.ui.overlay.OverlayManager;
+import net.runelite.client.ui.overlay.worldmap.WorldMapPoint;
+import net.runelite.client.ui.overlay.worldmap.WorldMapPointManager;
 import net.runelite.client.util.ImageUtil;
 
 @Slf4j
@@ -97,6 +100,8 @@ public class OsirisGuidePlugin extends Plugin
 	private OsirisItemOverlay itemOverlay;
 	@Inject
 	private ItemManager itemManager;
+	@Inject
+	private WorldMapPointManager worldMapPointManager;
 
 	private Route route;
 	private Progression progression;
@@ -104,6 +109,7 @@ public class OsirisGuidePlugin extends Plugin
 	private OsirisGuidePanel panel;
 	private NavigationButton navButton;
 	private BufferedImage pluginIcon;
+	private WorldMapPoint worldMapPoint;
 
 	private boolean pendingReconcile;
 	private boolean ledgerDirty;
@@ -167,6 +173,7 @@ public class OsirisGuidePlugin extends Plugin
 		overlayManager.remove(worldOverlay);
 		overlayManager.remove(minimapOverlay);
 		overlayManager.remove(itemOverlay);
+		clearWorldMapPoint();
 		if (navButton != null)
 		{
 			clientToolbar.removeNavigation(navButton);
@@ -458,6 +465,7 @@ public class OsirisGuidePlugin extends Plugin
 		state.clearTargets();
 		wantedObjectId = -1;
 		wantedNpcId = -1;
+		updateWorldMapPoint(current);
 		if (current == null)
 		{
 			return;
@@ -597,6 +605,35 @@ public class OsirisGuidePlugin extends Plugin
 			}
 		}
 		return out;
+	}
+
+	private void updateWorldMapPoint(RouteStep step)
+	{
+		clearWorldMapPoint();
+		WorldPoint wp = step == null ? null : step.getWorldPoint();
+		if (wp == null || pluginIcon == null)
+		{
+			return;
+		}
+		worldMapPoint = new WorldMapPoint(wp, pluginIcon);
+		// setName is REQUIRED whenever jumpOnClick is set: WorldMapOverlay asserts a non-null name on
+		// hover, and with -ea (RuneLite dev mode) a null name throws an AssertionError that escapes the
+		// render loop and freezes the client. This is the fix for the world-map-open freeze.
+		worldMapPoint.setName("Osiris Guide");
+		worldMapPoint.setTooltip(step.getTitle());
+		worldMapPoint.setTarget(wp);
+		worldMapPoint.setJumpOnClick(true);
+		worldMapPoint.setSnapToEdge(true);
+		worldMapPointManager.add(worldMapPoint);
+	}
+
+	private void clearWorldMapPoint()
+	{
+		if (worldMapPoint != null)
+		{
+			worldMapPointManager.remove(worldMapPoint);
+			worldMapPoint = null;
+		}
 	}
 
 	// ---- Ledger view --------------------------------------------------------

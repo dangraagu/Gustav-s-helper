@@ -6,6 +6,7 @@ package com.osirisguide.engine.ledger;
 
 import static org.junit.Assert.assertEquals;
 
+import com.google.gson.Gson;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -124,6 +125,32 @@ public class ItemLedgerTest
 		l.commit();
 		assertEquals(7, l.acquired(TAR));
 		assertEquals(7, l.owned(TAR));
+	}
+
+	@Test
+	public void gsonStateRoundTripPersistsAcquiredAndSnapshots()
+	{
+		// Mirrors how the plugin saves/loads the ledger: exportState -> gson json -> back.
+		ItemLedger l = new ItemLedger();
+		l.observe(INV, counts());
+		l.observe(BANK, counts());
+		l.commit();
+		l.observe(INV, counts(TAR, 5));            // acquire 5
+		l.commit();
+		l.observe(INV, counts(TAR, 2));            // move 3 to bank in one tick
+		l.observe(BANK, counts(TAR, 3));
+		l.commit();
+
+		Gson gson = new Gson();
+		String json = gson.toJson(l.exportState());
+		ItemLedger.State state = gson.fromJson(json, ItemLedger.State.class);
+
+		ItemLedger restored = new ItemLedger();
+		restored.importState(state);
+		assertEquals(5, restored.acquired(TAR));
+		assertEquals(2, restored.ownedIn(INV, TAR));
+		assertEquals(3, restored.ownedIn(BANK, TAR));
+		assertEquals(0, restored.spent(TAR));
 	}
 
 	@Test

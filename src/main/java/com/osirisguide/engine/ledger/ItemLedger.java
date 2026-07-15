@@ -4,6 +4,7 @@
  */
 package com.osirisguide.engine.ledger;
 
+import com.google.gson.annotations.Expose;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -182,8 +183,13 @@ public class ItemLedger
 	/** Serializable snapshot of the whole ledger (persisted per account via Gson). */
 	public static class State
 	{
+		// @Expose so the state still serializes if the injected Gson excludes un-exposed fields
+		// (harmless otherwise) — otherwise the ledger would save as "{}" and never persist.
+		@Expose
 		public Map<Integer, Integer> acquired = new HashMap<>();
+		@Expose
 		public Map<Integer, Map<Integer, Integer>> snapshots = new HashMap<>();
+		@Expose
 		public Set<Integer> seeded = new HashSet<>();
 	}
 
