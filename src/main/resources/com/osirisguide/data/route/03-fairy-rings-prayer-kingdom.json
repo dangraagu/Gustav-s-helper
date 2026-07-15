@@ -13,8 +13,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -24,8 +24,8 @@
       "text": "Smith 3 bronze wire\nLocation: Varrock",
       "manual": true,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -51,8 +51,8 @@
       },
       "item": 845,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -66,8 +66,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -93,8 +93,8 @@
       },
       "item": 1539,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -104,8 +104,8 @@
       "text": "Start Rag and bone man on the way to the temple\nLocation: Varrock",
       "manual": true,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -117,7 +117,12 @@
         "op": "quest",
         "quest": "PRIEST_IN_PERIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "frp-008",
@@ -127,7 +132,12 @@
         "op": "quest",
         "quest": "NATURE_SPIRIT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "frp-009",
@@ -151,7 +161,7 @@
       },
       "item": 383,
       "world": [
-        3495,
+        3493,
         3488,
         0
       ]
@@ -166,7 +176,7 @@
         "state": "FINISHED"
       },
       "world": [
-        3495,
+        3493,
         3488,
         0
       ]
@@ -177,8 +187,8 @@
       "text": "Use Chronicle tele\nLocation: Varrock",
       "manual": true,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -186,13 +196,23 @@
       "id": "frp-012",
       "title": "Go champion's guild and continue Dragon …",
       "text": "Go champion's guild and continue Dragon slayer, ask every question\nLocation: Champions Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        3191,
+        3357,
+        0
+      ]
     },
     {
       "id": "frp-013",
       "title": "Kill the nearby ram, bear and …",
       "text": "Kill the nearby ram, bear and unicorn for their bones (Rag and bone man quest)\nLocation: Champions Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        3191,
+        3357,
+        0
+      ]
     },
     {
       "id": "frp-014",
@@ -200,8 +220,8 @@
       "text": "Camelot tele\nLocation: Camelot",
       "manual": true,
       "world": [
-        2757,
-        3477,
+        2758,
+        3507,
         0
       ]
     },
@@ -211,8 +231,8 @@
       "text": "Kill a giant bat (Rag and bone man) south west of Catherby\nLocation: Catherby",
       "manual": true,
       "world": [
-        2805,
-        3433,
+        2814,
+        3443,
         0
       ]
     },
@@ -222,7 +242,7 @@
       "text": "Do Elemental workshop 2\nLocation: Seers Village",
       "manual": true,
       "world": [
-        2725,
+        2710,
         3485,
         0
       ]
@@ -266,8 +286,8 @@
       "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r...\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
-        3200,
-        3170,
+        3197,
+        3166,
         0
       ]
     },
@@ -281,8 +301,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3200,
-        3170,
+        3197,
+        3166,
         0
       ]
     },
@@ -293,7 +313,7 @@
       "manual": true,
       "world": [
         3108,
-        3352,
+        3358,
         0
       ]
     },
@@ -308,7 +328,7 @@
       },
       "world": [
         3108,
-        3352,
+        3358,
         0
       ]
     },
@@ -319,7 +339,7 @@
       "manual": true,
       "world": [
         3108,
-        3352,
+        3358,
         0
       ]
     },
@@ -329,8 +349,8 @@
       "text": "Bank at Draynor\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -342,13 +362,23 @@
         "op": "quest",
         "quest": "HOLY_GRAIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2840,
+        3358,
+        0
+      ]
     },
     {
       "id": "frp-027",
       "title": "Get at least 5 Dramen branches, …",
       "text": "Get at least 5 Dramen branches, make 2 staffs\nLocation: Entrana",
-      "manual": true
+      "manual": true,
+      "world": [
+        2840,
+        3358,
+        0
+      ]
     },
     {
       "id": "frp-028",
@@ -358,7 +388,12 @@
         "op": "quest",
         "quest": "LOST_CITY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2840,
+        3358,
+        0
+      ]
     },
     {
       "id": "frp-029",
@@ -366,8 +401,8 @@
       "text": "Start Fairytale part 1\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -375,7 +410,12 @@
       "id": "frp-030",
       "title": "Flinch Tanglefoot in this spot",
       "text": "Flinch Tanglefoot in this spot\nLocation: Zanaris",
-      "manual": true
+      "manual": true,
+      "world": [
+        3204,
+        3169,
+        0
+      ]
     },
     {
       "id": "frp-031",
@@ -383,8 +423,8 @@
       "text": "Talk to martin to start Fairytale2\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -394,8 +434,8 @@
       "text": "Buy 35 jugs of vinegar\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -421,8 +461,8 @@
       },
       "item": 5096,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -432,8 +472,8 @@
       "text": "Rescue prince ali from the jail\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -487,8 +527,8 @@
       "text": "Speak to Martin for Fairytale 2\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -496,7 +536,12 @@
       "id": "frp-040",
       "title": "Go unlock fairy rings at Zanaris",
       "text": "Go unlock fairy rings at Zanaris\nLocation: Zanaris",
-      "manual": true
+      "manual": true,
+      "world": [
+        3204,
+        3169,
+        0
+      ]
     },
     {
       "id": "frp-041",
@@ -504,8 +549,8 @@
       "text": "Tele to POH and do Melzar's maze (Dragon slayer quest)\nLocation: Rimmington",
       "manual": true,
       "world": [
-        2957,
-        3215,
+        2956,
+        3232,
         0
       ]
     },
@@ -515,8 +560,8 @@
       "text": "Walk to port Sarim jail and telegrab 2nd map piece for Dragon Slayer\nLocation: Port Sarim",
       "manual": true,
       "world": [
-        3050,
-        3245,
+        3029,
+        3221,
         0
       ]
     },
@@ -526,8 +571,8 @@
       "text": "Buy and repair the ship (dragon slayer)\nLocation: Port Sarim",
       "manual": true,
       "world": [
-        3050,
-        3245,
+        3029,
+        3221,
         0
       ]
     },
@@ -537,8 +582,8 @@
       "text": "Tele to Fally\nLocation: Falador",
       "manual": true,
       "world": [
-        2965,
-        3380,
+        3000,
+        3360,
         0
       ]
     },
@@ -548,8 +593,8 @@
       "text": "Make unfired bowl at barb village\nLocation: Barbarian Village",
       "manual": true,
       "world": [
-        3082,
-        3420,
+        3080,
+        3427,
         0
       ]
     },
@@ -557,13 +602,23 @@
       "id": "frp-046",
       "title": "Talk to the oracle",
       "text": "Talk to the oracle\nLocation: Ice Mountain",
-      "manual": true
+      "manual": true,
+      "world": [
+        3010,
+        3486,
+        0
+      ]
     },
     {
       "id": "frp-047",
       "title": "Get the 3rd map piece for …",
       "text": "Get the 3rd map piece for dragon slayer\nLocation: Ice Mountain",
-      "manual": true
+      "manual": true,
+      "world": [
+        3010,
+        3486,
+        0
+      ]
     },
     {
       "id": "frp-048",
@@ -582,8 +637,8 @@
       "text": "Get Ned as your captain for dragon slayer\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -591,13 +646,23 @@
       "id": "frp-050",
       "title": "Go to Crandor and open the …",
       "text": "Go to Crandor and open the shortcut to Karamja volcano\nLocation: Crandor",
-      "manual": true
+      "manual": true,
+      "world": [
+        2836,
+        3271,
+        0
+      ]
     },
     {
       "id": "frp-051",
       "title": "Kill Elvarg, you can do as …",
       "text": "Kill Elvarg, you can do as many trips as you want\nLocation: Crandor",
-      "manual": true
+      "manual": true,
+      "world": [
+        2836,
+        3271,
+        0
+      ]
     },
     {
       "id": "frp-052",
@@ -605,8 +670,8 @@
       "text": "Finish dragon slayer and buy a green d'hide top from Oziach\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3087,
-        3496,
+        3094,
+        3493,
         0
       ]
     },
@@ -616,8 +681,8 @@
       "text": "Wear gloves and pick up 5 nettles at the yews\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3087,
-        3496,
+        3094,
+        3493,
         0
       ]
     },
@@ -627,8 +692,8 @@
       "text": "Make the stew for Evil Dave while you're at Edgeville\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3087,
-        3496,
+        3094,
+        3493,
         0
       ]
     },
@@ -673,7 +738,12 @@
         "op": "quest",
         "quest": "DEATH_TO_THE_DORGESHUUN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3169,
+        3172,
+        0
+      ]
     },
     {
       "id": "frp-059",
@@ -695,7 +765,12 @@
           }
         ]
       },
-      "item": 8880
+      "item": 8880,
+      "world": [
+        3169,
+        3172,
+        0
+      ]
     },
     {
       "id": "frp-060",
@@ -717,13 +792,23 @@
           }
         ]
       },
-      "item": 4548
+      "item": 4548,
+      "world": [
+        3169,
+        3172,
+        0
+      ]
     },
     {
       "id": "frp-061",
       "title": "Use swamp tar on the lamp …",
       "text": "Use swamp tar on the lamp still next to Miltog, use your empty lantern on the...\nLocation: Dorgesh-Kaan",
-      "manual": true
+      "manual": true,
+      "world": [
+        3169,
+        3172,
+        0
+      ]
     },
     {
       "id": "frp-062",
@@ -743,7 +828,12 @@
         "op": "quest",
         "quest": "HORROR_FROM_THE_DEEP",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2509,
+        3641,
+        0
+      ]
     },
     {
       "id": "frp-064",
@@ -756,8 +846,8 @@
         "cmp": ">="
       },
       "world": [
-        2900,
-        3543,
+        2870,
+        3544,
         0
       ]
     },
@@ -769,19 +859,34 @@
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "frp-066",
       "title": "Try Calcified Rocks for Mining XP …",
       "text": "Try Calcified Rocks for Mining XP plus bankable Prayer shards (41 Mining, Var...\nLocation: Varlamore",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "frp-067",
       "title": "Kill tree spirits with fire strike …",
       "text": "Kill tree spirits with fire strike for a mithril axe AND either another mith ...\nLocation: Enchanted Valley",
-      "manual": true
+      "manual": true,
+      "world": [
+        3040,
+        4512,
+        0
+      ]
     },
     {
       "id": "frp-068",
@@ -794,7 +899,7 @@
       },
       "world": [
         3108,
-        3352,
+        3358,
         0
       ]
     },
@@ -820,8 +925,8 @@
       },
       "item": 1121,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -847,8 +952,8 @@
       },
       "item": 1071,
       "world": [
-        3293,
-        3184,
+        3290,
+        3185,
         0
       ]
     },
@@ -860,7 +965,12 @@
         "op": "quest",
         "quest": "SPIRITS_OF_THE_ELID",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3427,
+        2911,
+        0
+      ]
     },
     {
       "id": "frp-072",
@@ -870,13 +980,23 @@
         "op": "quest",
         "quest": "UNDERGROUND_PASS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2449,
+        3312,
+        0
+      ]
     },
     {
       "id": "frp-073",
       "title": "Upgrade the iban staff",
       "text": "Upgrade the iban staff\nLocation: Underground Pass",
-      "manual": true
+      "manual": true,
+      "world": [
+        2449,
+        3312,
+        0
+      ]
     },
     {
       "id": "frp-074",
@@ -889,8 +1009,8 @@
         "cmp": ">="
       },
       "world": [
-        2900,
-        3543,
+        2870,
+        3544,
         0
       ]
     },
@@ -900,8 +1020,8 @@
       "text": "Make an amulet of magic\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3087,
-        3496,
+        3094,
+        3493,
         0
       ]
     },
@@ -916,8 +1036,8 @@
         "cmp": ">="
       },
       "world": [
-        2895,
-        3443,
+        2884,
+        3398,
         0
       ]
     },
@@ -927,8 +1047,8 @@
       "text": "Minigame tele to fishing trawler\nLocation: Port Khazard",
       "manual": true,
       "world": [
-        2660,
-        3155,
+        2653,
+        3159,
         0
       ]
     },
@@ -954,8 +1074,8 @@
       },
       "item": 1925,
       "world": [
-        2660,
-        3155,
+        2653,
+        3159,
         0
       ]
     },
@@ -965,8 +1085,8 @@
       "text": "Equip Ghostspeak amulet\nLocation: Port Khazard",
       "manual": true,
       "world": [
-        2660,
-        3155,
+        2653,
+        3159,
         0
       ]
     },
@@ -976,8 +1096,8 @@
       "text": "If you didn't prepare the nettle water earlier, do it now\nLocation: Port Khazard",
       "manual": true,
       "world": [
-        2660,
-        3155,
+        2653,
+        3159,
         0
       ]
     },
@@ -991,8 +1111,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2660,
-        3155,
+        2653,
+        3159,
         0
       ]
     },
@@ -1002,8 +1122,8 @@
       "text": "Charter to port Phasmatys\nLocation: Port Phasmatys",
       "manual": true,
       "world": [
-        3685,
-        3475,
+        3679,
+        3486,
         0
       ]
     },
@@ -1017,8 +1137,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3685,
-        3475,
+        3679,
+        3486,
         0
       ]
     },
@@ -1028,8 +1148,8 @@
       "text": "Grind 9 d bones and offer them, get ecto tokens\nLocation: Port Phasmatys",
       "manual": true,
       "world": [
-        3685,
-        3475,
+        3679,
+        3486,
         0
       ]
     },
@@ -1043,8 +1163,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3685,
-        3475,
+        3679,
+        3486,
         0
       ]
     },
@@ -1059,8 +1179,8 @@
         "cmp": ">="
       },
       "world": [
-        3685,
-        3475,
+        3679,
+        3486,
         0
       ]
     },
@@ -1068,7 +1188,12 @@
       "id": "frp-087",
       "title": "Do Monkey madness, focus the reward …",
       "text": "Do Monkey madness, focus the reward on attack and defense\nLocation: Ape Atoll",
-      "manual": true
+      "manual": true,
+      "world": [
+        2750,
+        2750,
+        0
+      ]
     },
     {
       "id": "frp-088",
@@ -1080,8 +1205,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2965,
-        3380,
+        3000,
+        3360,
         0
       ]
     },
@@ -1096,8 +1221,8 @@
         "cmp": ">="
       },
       "world": [
-        2900,
-        3543,
+        2870,
+        3544,
         0
       ]
     },
@@ -1105,7 +1230,12 @@
       "id": "frp-090",
       "title": "Do Shades of morton quest",
       "text": "Do Shades of morton quest\nLocation: Mort'ton",
-      "manual": true
+      "manual": true,
+      "world": [
+        3487,
+        3288,
+        0
+      ]
     },
     {
       "id": "frp-091",
@@ -1134,8 +1264,8 @@
       "text": "Do Fremennik trials\nLocation: Rellekka",
       "manual": true,
       "world": [
-        2660,
-        3657,
+        2658,
+        3677,
         0
       ]
     },
@@ -1147,7 +1277,12 @@
         "op": "quest",
         "quest": "THRONE_OF_MISCELLANIA",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2560,
+        3870,
+        0
+      ]
     },
     {
       "id": "frp-095",
@@ -1157,19 +1292,34 @@
         "op": "quest",
         "quest": "ROYAL_TROUBLE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2560,
+        3870,
+        0
+      ]
     },
     {
       "id": "frp-096",
       "title": "Put at least 750k gp to …",
       "text": "Put at least 750k gp to kingdom, set it on 10 maples and 5 herbs\nLocation: Miscellania",
-      "manual": true
+      "manual": true,
+      "world": [
+        2560,
+        3870,
+        0
+      ]
     },
     {
       "id": "frp-097",
       "title": "Go back to blackjacking for a …",
       "text": "Go back to blackjacking for a few hours and put more money to kingdom so that...\nLocation: Pollnivneach",
-      "manual": true
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
     },
     {
       "id": "frp-098",
@@ -1177,8 +1327,8 @@
       "text": "Clean finds at the museum until you've found all 5 of the items you can get f...\nLocation: Varrock Museum",
       "manual": true,
       "world": [
-        3213,
-        3428,
+        3260,
+        3449,
         0
       ]
     },
@@ -1192,8 +1342,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -1201,7 +1351,12 @@
       "id": "frp-100",
       "title": "Set up your first bird houses",
       "text": "Set up your first bird houses\nLocation: Fossil Island",
-      "manual": true
+      "manual": true,
+      "world": [
+        3730,
+        3807,
+        0
+      ]
     },
     {
       "id": "frp-101",
@@ -1215,8 +1370,8 @@
       "text": "AFTER your first hunter levels from a birdhouse run, RC should be your lowest...\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
-        3200,
-        3170,
+        3197,
+        3166,
         0
       ]
     },
@@ -1230,8 +1385,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3200,
-        3170,
+        3197,
+        3166,
         0
       ]
     },
@@ -1243,7 +1398,12 @@
         "op": "quest",
         "quest": "THE_GIANT_DWARF",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2728,
+        3714,
+        0
+      ]
     },
     {
       "id": "frp-105",
@@ -1265,7 +1425,12 @@
           }
         ]
       },
-      "item": 444
+      "item": 444,
+      "world": [
+        2728,
+        3714,
+        0
+      ]
     },
     {
       "id": "frp-106",
@@ -1273,8 +1438,8 @@
       "text": "Go Edgeville furnace and make plenty of digsite pendants\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3087,
-        3496,
+        3094,
+        3493,
         0
       ]
     },
@@ -1295,8 +1460,8 @@
       "text": "Buy more seeds from Olivia at Draynor for birdhouses if needed\nLocation: Draynor",
       "manual": true,
       "world": [
-        3093,
-        3244,
+        3103,
+        3265,
         0
       ]
     },
@@ -1304,7 +1469,12 @@
       "id": "frp-109",
       "title": "Move your house to Pollnivneach so …",
       "text": "Move your house to Pollnivneach so you can do a birdhouse run every 50 mins a...\nLocation: Pollnivneach",
-      "manual": true
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
     },
     {
       "id": "frp-110",
@@ -1315,13 +1485,23 @@
         "skill": "THIEVING",
         "level": 88,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3358,
+        2974,
+        0
+      ]
     },
     {
       "id": "frp-111",
       "title": "REMINDER to take out GP from …",
       "text": "REMINDER to take out GP from kingdom after the 7th day. This thieving grind c...\nLocation: Miscellania",
-      "manual": true
+      "manual": true,
+      "world": [
+        2560,
+        3870,
+        0
+      ]
     }
   ]
 }

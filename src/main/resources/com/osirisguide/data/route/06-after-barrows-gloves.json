@@ -7,13 +7,23 @@
       "id": "abg-001",
       "title": "Get autoweed perk from Tithe farm …",
       "text": "Get autoweed perk from Tithe farm (if 54 farming), herb sack IMO isn't even w...\nLocation: Hosidius",
-      "manual": true
+      "manual": true,
+      "world": [
+        1762,
+        3598,
+        0
+      ]
     },
     {
       "id": "abg-002",
       "title": "Start doing farming contracts as soon …",
       "text": "Start doing farming contracts as soon as you can do medium contracts, very im...\nLocation: Farming Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        1249,
+        3737,
+        0
+      ]
     },
     {
       "id": "abg-003",
@@ -36,13 +46,23 @@
       "id": "abg-005",
       "title": "Go to the desert quarry and …",
       "text": "Go to the desert quarry and mine sandstone for 1.2k buckets of sand\nLocation: Desert Quarry",
-      "manual": true
+      "manual": true,
+      "world": [
+        3172,
+        2912,
+        0
+      ]
     },
     {
       "id": "abg-006",
       "title": "Go to rogues' den and burn …",
       "text": "Go to rogues' den and burn giant seaweed on the fire, 4 seaweed at a time\nLocation: Rogues' Den",
-      "manual": true
+      "manual": true,
+      "world": [
+        2906,
+        3537,
+        0
+      ]
     },
     {
       "id": "abg-007",
@@ -50,8 +70,8 @@
       "text": "Make molten glass at Edgeville furnace\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3087,
-        3496,
+        3094,
+        3493,
         0
       ]
     },
@@ -59,7 +79,12 @@
       "id": "abg-008",
       "title": "Blow glass lenses, might as well …",
       "text": "Blow glass lenses, might as well do it underwater again for more seaweed spores\nLocation: Fossil Island",
-      "manual": true
+      "manual": true,
+      "world": [
+        3730,
+        3807,
+        0
+      ]
     },
     {
       "id": "abg-009",
@@ -78,8 +103,8 @@
       "text": "Get a helm of neitiznot\nLocation: Rellekka",
       "manual": true,
       "world": [
-        2660,
-        3657,
+        2658,
+        3677,
         0
       ]
     },
@@ -87,7 +112,12 @@
       "id": "abg-011",
       "title": "Get a fighter torso from BA",
       "text": "Get a fighter torso from BA\nLocation: Barbarian Assault",
-      "manual": true
+      "manual": true,
+      "world": [
+        2533,
+        3571,
+        0
+      ]
     },
     {
       "id": "abg-012",
@@ -110,7 +140,12 @@
       "id": "abg-014",
       "title": "Get a dragon defender",
       "text": "Get a dragon defender\nLocation: Warriors Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        2856,
+        3546,
+        0
+      ]
     },
     {
       "id": "abg-015",
@@ -155,7 +190,12 @@
       "id": "abg-020",
       "title": "At 58 slayer: Camp Cave horrors …",
       "text": "At 58 slayer: Camp Cave horrors for mask\nLocation: Mos Le'Harmless",
-      "manual": true
+      "manual": true,
+      "world": [
+        3735,
+        2999,
+        0
+      ]
     },
     {
       "id": "abg-021",
@@ -165,7 +205,12 @@
         "op": "quest",
         "quest": "MAKING_FRIENDS_WITH_MY_ARM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2870,
+        3940,
+        0
+      ]
     },
     {
       "id": "abg-022",
@@ -178,8 +223,8 @@
         "cmp": ">="
       },
       "world": [
-        2660,
-        3657,
+        2658,
+        3677,
         0
       ]
     },
@@ -191,7 +236,12 @@
         "op": "quest",
         "quest": "DREAM_MENTOR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2117,
+        3903,
+        0
+      ]
     },
     {
       "id": "abg-024",
@@ -209,7 +259,12 @@
       "id": "abg-026",
       "title": "Do Mage arena 2",
       "text": "Do Mage arena 2\nLocation: Mage Arena",
-      "manual": true
+      "manual": true,
+      "world": [
+        3106,
+        3915,
+        0
+      ]
     },
     {
       "id": "abg-027",
@@ -237,7 +292,12 @@
       "id": "abg-029",
       "title": "Cut and bank 2.2k teak logs …",
       "text": "Cut and bank 2.2k teak logs at fossil island, from the farming patch teaks\nLocation: Fossil Island",
-      "manual": true
+      "manual": true,
+      "world": [
+        3730,
+        3807,
+        0
+      ]
     },
     {
       "id": "abg-030",
@@ -265,7 +325,12 @@
         "skill": "RANGED",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2656,
+        2656,
+        0
+      ]
     },
     {
       "id": "abg-033",
@@ -276,7 +341,12 @@
         "skill": "SMITHING",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2728,
+        3714,
+        0
+      ]
     },
     {
       "id": "abg-034",
@@ -292,25 +362,45 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3263,
+        6083,
+        0
+      ]
     },
     {
       "id": "abg-036",
       "title": "Hunt 15k red chins at the …",
       "text": "Hunt 15k red chins at the Prif hunter area\nLocation: Prifddinas",
-      "manual": true
+      "manual": true,
+      "world": [
+        3263,
+        6083,
+        0
+      ]
     },
     {
       "id": "abg-037",
       "title": "Get range void from PC",
       "text": "Get range void from PC\nLocation: Pest Control",
-      "manual": true
+      "manual": true,
+      "world": [
+        2656,
+        2656,
+        0
+      ]
     },
     {
       "id": "abg-038",
       "title": "Unlock MM2 chinning area and chin …",
       "text": "Unlock MM2 chinning area and chin to at least 87 range\nLocation: Ape Atoll",
-      "manual": true
+      "manual": true,
+      "world": [
+        2750,
+        2750,
+        0
+      ]
     },
     {
       "id": "abg-039",
@@ -318,8 +408,8 @@
       "text": "Do Dragon slayer 2\nLocation: Varrock",
       "manual": true,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -327,7 +417,12 @@
       "id": "abg-040",
       "title": "Start using kingdom again now that …",
       "text": "Start using kingdom again now that you'll be getting constant GP easily, put ...\nLocation: Miscellania",
-      "manual": true
+      "manual": true,
+      "world": [
+        2560,
+        3870,
+        0
+      ]
     },
     {
       "id": "abg-041",
@@ -339,19 +434,34 @@
       "id": "abg-042",
       "title": "Moons of Peril: Farm Blue Moon …",
       "text": "Moons of Peril: Farm Blue Moon boss first for its magic-oriented hybrid armou...\nLocation: Varlamore",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "abg-043",
       "title": "Farm Royal Titans for Twinflame Staff, …",
       "text": "Farm Royal Titans for Twinflame Staff, Deadeye and Mystic Vigour prayer scrol...\nLocation: Royal Titans",
-      "manual": true
+      "manual": true,
+      "world": [
+        3008,
+        3150,
+        0
+      ]
     },
     {
       "id": "abg-044",
       "title": "By far the best thing to …",
       "text": "By far the best thing to do next is to camp Corrupted Gauntlet until 2 enhanc...\nLocation: Prifddinas",
-      "manual": true
+      "manual": true,
+      "world": [
+        3263,
+        6083,
+        0
+      ]
     },
     {
       "id": "abg-045",
@@ -373,19 +483,34 @@
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "abg-048",
       "title": "Start ToA at Entry Mode, push …",
       "text": "Start ToA at Entry Mode, push to 150 invocations for unique drops\nLocation: Tombs of Amascut",
-      "manual": true
+      "manual": true,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
     },
     {
       "id": "abg-049",
       "title": "Farm ToA for Osmumten's Fang and …",
       "text": "Farm ToA for Osmumten's Fang and Lightbearer as priority drops\nLocation: Tombs of Amascut",
-      "manual": true
+      "manual": true,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
     },
     {
       "id": "abg-050",
@@ -434,7 +559,12 @@
       "id": "abg-055",
       "title": "GWD: Farm Bandos for melee armour, …",
       "text": "GWD: Farm Bandos for melee armour, Armadyl for ranged armour\nLocation: God Wars Dungeon",
-      "manual": true
+      "manual": true,
+      "world": [
+        2918,
+        3745,
+        0
+      ]
     },
     {
       "id": "abg-056",
@@ -446,43 +576,78 @@
       "id": "abg-057",
       "title": "Fortis Colosseum for Dizana's Quiver (BIS …",
       "text": "Fortis Colosseum for Dizana's Quiver (BIS ranged cape)\nLocation: Fortis Colosseum",
-      "manual": true
+      "manual": true,
+      "world": [
+        1824,
+        3107,
+        0
+      ]
     },
     {
       "id": "abg-058",
       "title": "Nex masses for Torva armour",
       "text": "Nex masses for Torva armour\nLocation: Nex",
-      "manual": true
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
     },
     {
       "id": "abg-059",
       "title": "Chambers of Xeric for Twisted Bow, …",
       "text": "Chambers of Xeric for Twisted Bow, Dragon Hunter Crossbow, and other uniques\nLocation: Chambers of Xeric",
-      "manual": true
+      "manual": true,
+      "world": [
+        1245,
+        3557,
+        0
+      ]
     },
     {
       "id": "abg-060",
       "title": "Theatre of Blood for Scythe of …",
       "text": "Theatre of Blood for Scythe of Vitur, Rapier, and Sanguinesti Staff\nLocation: Theatre of Blood",
-      "manual": true
+      "manual": true,
+      "world": [
+        3663,
+        3219,
+        0
+      ]
     },
     {
       "id": "abg-061",
       "title": "Begin Yama farming for Oathplate armour …",
       "text": "Begin Yama farming for Oathplate armour (duo recommended, Surge potions are a...\nLocation: Yama",
-      "manual": true
+      "manual": true,
+      "world": [
+        1435,
+        3668,
+        0
+      ]
     },
     {
       "id": "abg-062",
       "title": "Farm Doom of Mokhaiotl delves for …",
       "text": "Farm Doom of Mokhaiotl delves for Eye of Ayak and Avernic Treads (requires Th...\nLocation: Doom of Mokhaiotl",
-      "manual": true
+      "manual": true,
+      "world": [
+        1309,
+        3104,
+        0
+      ]
     },
     {
       "id": "abg-063",
       "title": "Continue ToA for Masori armour and …",
       "text": "Continue ToA for Masori armour and Tumeken's Shadow\nLocation: Tombs of Amascut",
-      "manual": true
+      "manual": true,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
     }
   ]
 }

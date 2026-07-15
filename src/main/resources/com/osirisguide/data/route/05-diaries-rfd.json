@@ -67,7 +67,12 @@
         "skill": "SLAYER",
         "level": 48,
         "cmp": ">="
-      }
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "dr-007",
@@ -88,7 +93,12 @@
         "skill": "AGILITY",
         "level": 62,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3297,
+        2783,
+        0
+      ]
     },
     {
       "id": "dr-009",
@@ -98,7 +108,12 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "dr-010",
@@ -108,7 +123,12 @@
         "op": "quest",
         "quest": "RUM_DEAL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2144,
+        5120,
+        0
+      ]
     },
     {
       "id": "dr-011",
@@ -118,7 +138,12 @@
         "op": "quest",
         "quest": "CABIN_FEVER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3735,
+        2999,
+        0
+      ]
     },
     {
       "id": "dr-012",
@@ -140,8 +165,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2605,
-        3095,
+        2577,
+        3090,
         0
       ]
     },
@@ -155,7 +180,12 @@
       "id": "dr-015",
       "title": "For Lumby 50 range req I'd …",
       "text": "For Lumby 50 range req I'd recommend ranging at pest control with bone cbow\nLocation: Pest Control",
-      "manual": true
+      "manual": true,
+      "world": [
+        2656,
+        2656,
+        0
+      ]
     },
     {
       "id": "dr-016",
@@ -172,7 +202,12 @@
       "id": "dr-017",
       "title": "Buy Dragon scim",
       "text": "Buy Dragon scim\nLocation: Ape Atoll",
-      "manual": true
+      "manual": true,
+      "world": [
+        2750,
+        2750,
+        0
+      ]
     },
     {
       "id": "dr-018",
@@ -182,7 +217,12 @@
         "op": "quest",
         "quest": "EADGARS_RUSE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2891,
+        3678,
+        0
+      ]
     },
     {
       "id": "dr-019",
@@ -192,7 +232,12 @@
         "op": "quest",
         "quest": "MY_ARMS_BIG_ADVENTURE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2891,
+        3678,
+        0
+      ]
     },
     {
       "id": "dr-020",
