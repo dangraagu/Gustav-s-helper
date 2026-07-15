@@ -1,0 +1,578 @@
+{
+  "_source": "https://umkyzn.github.io/BRUHsailer/",
+  "_license": "BRUHsailer community OSRS guide (umkyzn.github.io; Discord discord.gg/FXPUrUp) — no explicit content license stated; updatedOn 2026-06-08",
+  "section": "Chapter 2: Quests, so many quests — 2.2: Barbarian fishing, Green dragons and the Hallowed Sepulchre",
+  "steps": [
+    {
+      "id": "s22-001",
+      "title": "Do barbarian fishing to 65 agility …",
+      "text": "Do barbarian fishing to 65 agility (~88 fishing) at CoX (buy as many feathers as needed), make sure to do Barblore as much as possible. Cut-eat the fish for cooking xp, you will need at least level 70 cooking for RFD/Awowogei.",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 65,
+        "cmp": ">="
+      },
+      "object": 4771,
+      "world": [
+        2803,
+        2765,
+        0
+      ]
+    },
+    {
+      "id": "s22-002",
+      "title": "Swap to the standard spellbook. Use …",
+      "text": "Swap to the standard spellbook. Use your Fremennik boots to get to Rellekka. Do The Fremennik Isles (make a Fremennik shield, ‘Neitiznot shield’, along the way for the diary), putting the XP on attack (or defence if you are already level 60). Turn 5 mithril bars into 75 mithril nails at the Jatiszo anvils during the quest. Make a silvthrill rod at the Neitiznot furnace. Enchant your silvthrill rod. Sell your berserker helm back to Skulgrimen after you’ve obtained the Helm of Neitiznot.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_ISLES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3677,
+        0
+      ]
+    },
+    {
+      "id": "s22-003",
+      "title": "Start Lunar Diplomacy and continue the …",
+      "text": "Start Lunar Diplomacy and continue the quest until you have to use your dramen staff on the elemental altars to make a lunar staff (optional: make more than one lunar staff for cosmetic purposes). While on the Lady Zay, collect at least 45 swamp tar. Remember to do your hourlies and grow cats whenever convenient.",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s22-004",
+      "title": "Teleport to the mind altar, create …",
+      "text": "Teleport to the mind altar, create the special runestone for The Slug menace and a mind tiara for the diary. Fairy ring DKR to edgeville, continue RFD/Evil Dave. Visit the following four altars through the abyss: air altar, fire altar (carry 10+ pure essence, a full inv is fine, a binding necklace, your earth talisman and a stack of earth runes, then use the earth runes on the altar to make lava runes), water altar and earth altar in that order, creating your lunar staff/staves and the special runestones for The Slug menace.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_SLUG_MENACE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3094,
+        3493,
+        0
+      ]
+    },
+    {
+      "id": "s22-005",
+      "title": "Teleport to Ardougne (fairy ring BLR), …",
+      "text": "Teleport to Ardougne (fairy ring BLR), continue The Slug Menace and kill the Slug Prince. Get teleported to Falador and complete The Slug Menace, buy a full set of proselyte (it’s cheaper to buy it as a set than individually). Buy an adamant chainbody at the chainmail shop, then heat a bowl of water in Falador (range on the east side). Teleport to Rellekka (Fremennik boots/fairy ring AJR) and complete all of Lunar Diplomacy. Note: never bank your seal of passage. Wear it to prevent this!",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "s22-006",
+      "title": "Chronicle teleport, run east and start …",
+      "text": "Chronicle teleport, run east and start What Lies Below. Chronicle teleport again, run northwest and kill 5 outlaw’s for What Lies Below, then run to Barbarian Village. Continue One Small Favour (barbarian village, grab a cooked meat from the longhall, then dwarven mine). Keep going with One Small Favour until you have inspected Petra in the rock, taking any crystal keys and opening them if you happen to have any (you may want to rebank in Falador). Visit Thormac to complete Scorpion Catcher. Run to Wizard Cromperty in Ardougne for One Small Favour. Get 5 pigeon cages while you’re in Ardy.",
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      },
+      "world": [
+        3080,
+        3427,
+        0
+      ]
+    },
+    {
+      "id": "s22-007",
+      "title": "You should be at least level …",
+      "text": "You should be at least level 55 hunter by now. Have Barnaby take you to Rimmington, light your bullseye lantern (swap out the emerald for a lantern lens) at the chemist for the diary, return to Ardougne. Go to Jimmy Dazzler and continue Ratcatchers, complete that segment entirely. Start Cold War in the zoo (up to the step where you have to make the penguin suit). Catch a Snowy knight and a Sabre-toothed kyatt along the way for the diary.",
+      "complete": {
+        "op": "quest",
+        "quest": "RATCATCHERS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2956,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "s22-008",
+      "title": "Chronicle teleport, return the folder to …",
+      "text": "Chronicle teleport, return the folder to Rat Burgiss for What Lies Below, teleport to Varrock and resume that quest until you have to use the wand on the chaos runecrafting altar. Bank, grab Earth Blast runes, an axe, 23 raw karambwanji, coins, anti-dragon shield, the items needed for Tai Bwo Wannai Trio (make sure to save the 2-dose agility pot for Making Friends with My Arm) and some food, head to Brimhaven via Barnaby. If you did not previously make a karamjan rum with sliced banana in it, purchase both components and make it now (requires a knife, use the knife on the banana before adding it to the rum). Speak with Lubufu to continue Tai Bwo Wannai Trio (droptrick to get two karambwan vessels), kill snakes for Rag and Bone Man II, enter the Brimhaven dungeon. In there chop the vines, use the stepping stones, climb the stairs, kill fire giants for Rag and Bone Man II and mage a bronze dragon for diary steps.",
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2760,
+        3195,
+        0
+      ]
+    },
+    {
+      "id": "s22-009",
+      "title": "Then proceed to complete Tai Bwo …",
+      "text": "Then proceed to complete Tai Bwo Wannai Trio, killing Jogres for both the diary and Rag and Bone Man II along the way, catching a karambwan, exploring Cairn Isle and trapping a horned graahk also along the way and buying an opal (or better) machete from Safta Doc after for the diary. Don’t forget to claim the rewards from the three brothers, and buy a bronze spear (and cloth, clean it, for a scarecrow for Morytania easy diary and Falador medium diary, plant it on your next herb run. Leave it in whichever patch is second and plant sweetcorn for RFD/Sir Amik Varze).",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "s22-010",
+      "title": "Run to Brimhaven, do the Agility …",
+      "text": "Run to Brimhaven, do the Agility Arena for one ticket, claim the easy and medium Karamja diaries (lamps on Slayer).",
+      "manual": true,
+      "object": 10805,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
+    },
+    {
+      "id": "s22-011",
+      "title": "Minigame to Port Khazard (and rebank), …",
+      "text": "Minigame to Port Khazard (and rebank), continue One Small Favour, teleport to the Ardougne market and speak with Erin the silver merchant for Making History. Grab Fire Blast runes for the fight below.",
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2653,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "s22-012",
+      "title": "Dueling teleport, speak with Osman for …",
+      "text": "Dueling teleport, speak with Osman for Contact!. Camulet teleport to the quarry and head to Sophanem, speak with Simon Templeton, climb the agility pyramid and take the golden pyramid for the diary (hit spacebar after collecting it to complete the diary step, if not you’ll have to climb the pyramid again), sell your Pyramid Plunder artefact and golden pyramid to Simon Templeton, enter Sophanem and finish Contact! (pick up the Keris and kill a locust rider for the diary near the end), putting the lamp on Attack (unless you’ve already hit level 60, in which case you should put it on Defence). Speak with the Sphinx to progress A Tail of Two Cats. Games necklace to Burthorpe and progress A Tail of Two Cats, doing Bob’s chores including planting the potatoes (don’t wait for them to grow).",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2870,
+        3544,
+        0
+      ]
+    },
+    {
+      "id": "s22-013",
+      "title": "Dueling ring to Castle Wars, continue …",
+      "text": "Dueling ring to Castle Wars, continue One Small Favour until you have made the gnome glider landing strip (make sure to use the drop trick to buy extra gems of each type – 2 of each of the four types for 2k gp). Catch a spined larupia for the diary. Kill wolves for Rag and Bone Man II.",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "s22-014",
+      "title": "After completing the Rantz step of …",
+      "text": "After completing the Rantz step of OSF, teleport to Burthorpe and progress A Tail of Two Cats (the potatoes should be grown by now), then to Varrock (chronicle). Progress Ratcatchers at Hooknosed Jack, talk to the Apothecary for Ratcatchers and A Tail of Two Cats. Return to Hooknosed Jack to continue Ratcatchers.",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2870,
+        3544,
+        0
+      ]
+    },
+    {
+      "id": "s22-015",
+      "title": "Make the penguin suit (use an …",
+      "text": "Make the penguin suit (use an extra steel bar for the clockwork) after upgrading the workbench. Blast furnace minigame teleport and complete the Smokin’ Joe part of Ratcatchers, followed by giving the gold cannonball to Dondakan and collecting three of the four schematics for Between a Rock…",
+      "complete": {
+        "op": "quest",
+        "quest": "BETWEEN_A_ROCK",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s22-016",
+      "title": "Teleport to Burthorpe to progress A …",
+      "text": "Teleport to Burthorpe to progress A Tail of Two Cats, then minigame teleport to Port Khazard, continue OSF, when in Ardougne rebank and start Legends’ Quest, grind your sweetcorn into a pot of cornflour if you have the sweetcorn (if not you can just grind it later). Continue OSF then continue Cold War until after the raw cod/ring of charos(a) step (so next up you have to collect the ‘Intelligence’.). Make sure to pick up 5 papyrus during Legends’ Quest start",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2653,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "s22-017",
+      "title": "Continue One Small Favour, all the …",
+      "text": "Continue One Small Favour, all the way from Seers’ Village to Horvik in Varrock. When at the White Wolf Mountain speak with Khorvak under White Wolf Mountain for Between a Rock…, when in Barbarian Village make a second pot lid for Swan Song, enter the Stronghold of Security and collect an imbued skull sceptre and spend one charge to teleport for the diary, then run north and take the abyss to the chaos runecrafting altar with the wand and 15 chaos runes for What Lies Below. When at Horvik continue and complete What Lies Below. Collect (keep) the Dragon’hai history book for 5 kudos at the Varrock Museum at your own convenience.",
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2845,
+        3483,
+        0
+      ]
+    },
+    {
+      "id": "s22-018",
+      "title": "After solving Horvik’s problem go to …",
+      "text": "After solving Horvik’s problem go to the southeast corner of Varrock, make two eagle disguises for Eagles’ Peak (and the spottier cape if you had the hunter level). Next world hop at the west bank anvils until you find Bob again and complete A Tail of Two Cats (lamp on slayer).",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s22-019",
+      "title": "Get to Lumbridge, continue Cold War, …",
+      "text": "Get to Lumbridge, continue Cold War, complete RFD/Evil Dave, start RFD/Awowogei, RFD/Sir Amik Varze (speak with the cook to learn the recipe), RFD/Lumbridge Guide and RFD/Skrach. Buy black gloves.",
+      "complete": {
+        "op": "quest",
+        "quest": "COLD_WAR",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "s22-020",
+      "title": "Continue OSF (Misthalin steps), when in …",
+      "text": "Continue OSF (Misthalin steps), when in Draynor speak with the Wise Old Man for RFD/Varze then run to the Wizards’ Tower and speak with Wizard Traiborn for RFD/Lumbridge Guide. Run back, continue OSF. When in Port Sarim kill seagulls for Rag and Bone Man II then speak with The Face and Felkrash for Ratcatchers (until you need to go to the snake charmer).",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "s22-021",
+      "title": "Complete One Small Favour (charter to …",
+      "text": "Complete One Small Favour (charter to Brimhaven into the cart to Shilo Village, then leave the city, lamps on slayer). Complete Cold War. Complete Making History (teleport around a bit). If you don’t have a spare purple dye, pick one up while in Ardougne for Making History.",
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2849,
+        2972,
+        0
+      ]
+    },
+    {
+      "id": "s22-022",
+      "title": "Go to fairy ring BIQ, enter …",
+      "text": "Go to fairy ring BIQ, enter the Kalphite hive and collect 5 potato cacti for the diary, then return to the Shantay pass and collect the easy Desert diary (lamp on Slayer). Bank, grab your cat and quest items. Run/carpet to Pollnivneach and continue Ratcatchers. On any herb run complete Ratcatchers in Port Sarim, entering the rat pits for the diary.",
+      "complete": {
+        "op": "quest",
+        "quest": "RATCATCHERS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3358,
+        2974,
+        0
+      ]
+    },
+    {
+      "id": "s22-023",
+      "title": "After this step, continue and complete …",
+      "text": "After this step, continue and complete Between a Rock…, smithing the gold helmet in the Wilderness resource arena. While in the wilderness for that step run to the Demonic Ruins and restore a prayer point for the diary, then run to the Fountain of Rune to cast low alchemy on any junk (explorer’s ring alch works on any spellbook). Alch the rune pickaxe that you get as a reward at some point.",
+      "complete": {
+        "op": "quest",
+        "quest": "BETWEEN_A_ROCK",
+        "state": "FINISHED"
+      },
+      "world": [
+        3087,
+        3522,
+        0
+      ]
+    },
+    {
+      "id": "s22-024",
+      "title": "MLM for coal and gem bag …",
+      "text": "MLM for coal and gem bag (repair the strut along the way for the diary). Make sure not to use your celestial ring for this - it it bugged and reduces the amount of nuggets you get. Do low level group Volcanic Mine (this is a bit of a trek) for the prospector hat, and optionally for the rest of the gear as well. Check out https://discord.gg/FXPUrUp for finding teams. Complete the Falador hard diary step. Complete the Falador easy diary, putting the lamp on slayer.",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s22-025",
+      "title": "Start Swan Song, continue Eagles’ Peak …",
+      "text": "Start Swan Song, continue Eagles’ Peak until you need to report back to Charlie (last step). Visit the Wise Old Man in Draynor Village. Visit Charlie to complete Eagles’ Peak, use a necklace of passage to Eagles Eyrie and take multiple eagle rides (back and forth to each location, finishing in the desert) to progress three diaries. Run to the Shantay Pass to collect the Desert medium diary reward and put the lamp on Slayer. Take the fairy ring to the Piscatoris hunter area (AKQ), optional: when in the Piscatoris region box trap a ferret and then rabbit snare + ferret to catch a rabbit for a rabbit’s foot, then string it for extra eggs on future bird runs, run to Piscatoris and continue Swan Song. Complete Swan Song. Start and complete Making Friends with My Arm, boosting your agility level with an agility potion if necessary. Good herb runs start here.",
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "s22-026",
+      "title": "Do barbarian fishing to 99 fishing …",
+      "text": "Do barbarian fishing to 99 fishing at CoX (buy as many feathers as needed), make sure to do Barblore as much as possible. Cut-eat the fish for cooking xp, you will need at least level 70 cooking for RFD/Awowogei.",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 99,
+        "cmp": ">="
+      },
+      "object": 4771,
+      "world": [
+        2803,
+        2765,
+        0
+      ]
+    },
+    {
+      "id": "s22-027",
+      "title": "Swap to the regular spellbook. Complete …",
+      "text": "Swap to the regular spellbook. Complete Recipe for Disaster by following the steps below:",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s22-028",
+      "title": "If you cannot yet enter the …",
+      "text": "If you cannot yet enter the Warriors’ Guild (130 combined attack and strength), train your attack/strength with slayer tasks until you can (your goal is 60 atk 70 str). Enter the Warriors’ Guild, kill cyclopes to get a dragon defender (bank some black knives along the way). Your attack and defence should both be at least level 60, if they are not train attack to 60 first, then defence to 60. After this train defence as high as it will go during the defender grind.",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 60,
+        "cmp": ">="
+      },
+      "object": 24318,
+      "world": [
+        2877,
+        3546,
+        0
+      ]
+    },
+    {
+      "id": "s22-029",
+      "title": "Tackle organised crime for intelligence along …",
+      "text": "Tackle organised crime for intelligence along the way and hand it in at Captain Ginea for the diary. Catch a chinchompa in the Kourend Woodland. Collect T5 Shayzien outfit from the combat ring. Collect the medium Kourend & Kebos diary. Put the XP lamps on slayer. Do A Kingdom Divided (need to be on the normal spellbook, lamps on Slayer), using melee for the fights. Grab the skull near the Shayzien graveyard dungeon entrance and buy redberries in Kenelme’s Wares (Piscarilius) along the way. Minigame teleport to Mort’ton, start and complete His Faithful Servants miniquest, which includes doing a complete barrows run (all six brothers). It is recommended to complete the Defence? What Defence?, Can't Touch Me, Pray for Success and optionally also Just Like That tasks on this run, dds speccing Karil (and hoping for good hits or resetting on a failure), maging the four melee brothers and meleeing Ahrim.",
+      "complete": {
+        "op": "quest",
+        "quest": "HIS_FAITHFUL_SERVANTS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s22-030",
+      "title": "Kill green dragons with defensive melee …",
+      "text": "Kill green dragons with defensive melee and thralls until you reach level 65 defence. Do King’s Ransom (XP on herblore), then the Knight Waves Training Grounds. Set your spawn point to Camelot. Use the bones at the Chaos Altar to get to 60+ prayer. Return to the green dragons, killing 1.3k total with defensive melee (to 70 defence, swap to accurate, i.e. attack training, after) banking both bones and hides using a looting bag. Along the way kill one mammoth and an ent, chopping some yew logs from the ent for the diary.",
+      "complete": {
+        "op": "skill",
+        "skill": "DEFENCE",
+        "level": 70,
+        "cmp": ">="
+      },
+      "npc": 6604,
+      "world": [
+        3164,
+        3593,
+        0
+      ]
+    },
+    {
+      "id": "s22-031",
+      "title": "Cash in the prayer xp at …",
+      "text": "Cash in the prayer xp at the Chaos Altar when convenient (use the suicide method at off-peak hours in random worlds recommended). If you have spare red topazes you can make burning amulets.",
+      "manual": true,
+      "object": 411,
+      "world": [
+        2947,
+        3821,
+        0
+      ]
+    },
+    {
+      "id": "s22-032",
+      "title": "Tan your green dragonhides into green …",
+      "text": "Tan your green dragonhides into green dragon leather in Canifis. Make a green d’hide shield. Craft all remaining hides into green d’hide bodies. Alch the bodies (buying nature runes as necessary), e.g. during artefacts, underwater or afk. Cut your maple logs into arrow shafts (more artefacts), turning one into a maple shortbow for the diary while bankstanding at Seers. Also make a superantipoison potion there. Buy feathers (if you don’t have plenty of those already from bird runs) to get to level 60 and make all into headless arrows, ideally while afking underwater to get more seaweed spores. Skills/quests met?:",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1745,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1745,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1745,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "s22-033",
+      "title": "You should be level 51 (or …",
+      "text": "You should be level 51 (or higher) slayer. Make sure you have finished the Curse of the Empty Lord miniquest (if you haven’t, do it now, putting the lamp on slayer). Teleport to Varrock, make sure to grab the Dragon’hai history book from the Varrock Palace library if you don’t already have it, pray at the altar in the palace with smite active. Buy 20,000 air runes (if you already have these you can ignore this), then run through the east gate to the quetzal to go to Varlamore and do At First Light (note: the hunter rumours are currently not efficient, but if you want the rewards you can go for them at any time after this quest). During At First Light catch a Sunlight antelope (east end of the island, requires level 72 hunter, a teasing stick, knife and logs - grab a Trapper’s tipple or two at the hunter’s guild for a +2 boost if needed) and kill a jaguar for their fur. At the hunter’s guild buy two mixed hide bases, and either pay Pellem to have the furs made into mixed hide boots (your best ranged boots for now) and a mixed hide cape (your best melee cape for now) or boost your crafting level if you have a spare mushroom pie to do it yourself. After this start and complete Perilous Moons (for the fights your dragon scimitar is fine, even for ice. Use the moss lizards and moonlight potions for supplies) and The Heart of Darkness. At the end of the quest travel to Tal Teklan (e.g. with the quetzal system). Buy four willow longbows at Arcuani’s Archery Supplies. If you haven’t done Scrambled! yet, do it now. Travel to Auburnvale (e.g. using the boat system). Do the Vale Totems miniquest. Start and complete Shadows of Custodia. Teleport out. Slay a Brine rat to complete the Fremennik medium diary, putting the lamp on herblore. Grab a rope, salve teleport, dip your enchanted silvthrill rod in the well to make the Rod of Ivandis and complete In Aid of the Myreque, Darkness of Hallowvale, A Taste of Hope and Sins of the Father (all lamps on herblore). Use the Efaritay’s aid during the Vanstrom Klause fight in Sins of the Father - you should only need one ring, the second is spare in case you die or run out of charges.",
+      "complete": {
+        "op": "quest",
+        "quest": "CURSE_OF_THE_EMPTY_LORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "s22-034",
+      "title": "Explorer’s ring teleport and run to …",
+      "text": "Explorer’s ring teleport and run to Port Sarim to recruit Jobless Jim. You can set Jim to man the ship and trim the sails, reducing the xp from trimming by 50% but making sailing more convenient. Charter to the Pandemonium. Take your skiff to the starting point of Troubled Tortugans and start and complete the quest in full. While on the Great Conch collect the spyglass and strange apple tree charter on the isle. Next do port courier tasks to Summer Shore until level 50 sailing (Sailing training - OSRS Wiki), completing the charting of the Unquiet Ocean in the process (the Sea of Shells after level 47). You can collect the ocean completion xp bonus (6k xp) to get to level 50. Once you hit level 50 (optional: keep going to level 51/52/53 instead, to reduce or eliminate the need for boosting while salvaging), use a dueling ring and run south all the way to the desert mining camp, then run out and recruit Ex-Captain Siad (don’t forget the key to the camp). Next, book of the dead teleport to Piscarillius (or charter if you were at Pandemonium for the xp bonus), recover your skiff here and sail south to Chinchompa Island. Chart the charred remains of a table and open the lockbox to get (and read) the salvaging station schematic. Sail to Port Roberts and dock there.",
+      "complete": {
+        "op": "quest",
+        "quest": "TROUBLED_TORTUGANS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "s22-035",
+      "title": "Buy 80 lead ore. Steal from …",
+      "text": "Buy 80 lead ore. Steal from the silver stall to get a medallion fragment. Buy a sloop and build two kegs (fill one with whirlpool surprise and one with kraken ink stout), a salvaging station and two mithril salvaging hooks. Assign your two crewmembers to your boat. Sail your sloop to the large shipwrecks far south - do not go out of your way for charting with your slow sloop - north of the Isle of Serpents. Bring four empty beer glasses, a log basket and seed box (if you have them), and optionally methods to 1.5t the salvaging. Salvage until level 55 sailing, boosting sailing where necessary (it’s technically good to boost even if you have level 53 already). Your goal is to collect several hemp and cotton seeds for farming. Plant the hemp at your earliest convenience, making sure to have Attas up and using ultracompost to harvest at least 40 hemp in total.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 21483,
+            "qty": 53
+          },
+          {
+            "op": "item",
+            "id": 21483,
+            "qty": 53,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 21483
+    },
+    {
+      "id": "s22-036",
+      "title": "Catch ~1.5k grey chins for level …",
+      "text": "Catch ~1.5k grey chins for level 55 ranging (at Soul Wars - you can take an axe to chop the nearby teaks in case you mess up your knife-log). Catch ~1.5k red chins between Kastori and Tal Teklan (TalTeklanChinSpot.png). Follow this guide for catching chins: OSRS Easy 1t Hunter Guide (In-Depth) for the methods (regardless of location and chin type). Train your ranging in the MM1 tunnels (short fuse) to level 62 (55 with grey, 55-62 with red). Make sure to equip a salve amulet (ei).",
+      "manual": true
+    },
+    {
+      "id": "s22-037",
+      "title": "Read this step in its entirety …",
+      "text": "Read this step in its entirety carefully. This step contains the Hallowed Sepulchre grind to level 82 agility.",
+      "manual": true
+    },
+    {
+      "id": "s22-038",
+      "title": "Do Blast Mining https://streamable.com/l3ylry to get …",
+      "text": "Do Blast Mining https://streamable.com/l3ylry to get to 330 addy ore total, buying the dynamite from the shop as needed. Hybrid ore uim smelt (Hybrid ore UIM smelting) your mithril from MLM. Smelt your lead ore into bars. Smelt your gold ore from MLM. Use the UIM gold method (Lazy UIM Gold) to train your smithing to level 70, getting permission from the foreman to use the blast furnace for free at level 60. Go to Varrock west anvils, make 10 bars into 150 nails, make a mithril 2h sword for Devious Minds and ~5 bars into grapples. Turn the rest into mithril platebode and alch them (similar to before). Hybrid ore uim smelt your addy (buy coal as needed) into bars. Use UIM gold to train your smithing to (15,000 xp away from) level 74. Make sure to equip your ring of charos (a) until level 60 for reduced foreman costs. Start and complete Defender of Varrock (there’s a free 5k xp lamp after the quest at Historian Minas in the Varrock Museum, put it on slayer if you aren’t level 58 yet and herblore otherwise). Make 4950 adamant nails (make sure to save an adamantite bar) with your bars at Varrock west anvils.",
+      "complete": {
+        "op": "quest",
+        "quest": "DEFENDER_OF_VARROCK",
+        "state": "FINISHED"
+      },
+      "world": [
+        3260,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "s22-039",
+      "title": "Note: if you are not planning …",
+      "text": "Note: if you are not planning to max you can reduce this step, although the lack of prayer potions might prove to be an issue for slayer later. You will also need to obtain more planks and train construction at your own convenience if you do not go to at least level 96 agility during this step. That being said, 98 agility at Sepulchre is a loooong grind, so give serious consideration to reducing/splitting it. Read this step in its entirety carefully. This step contains a huge Hallowed Sepulchre grind.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 960,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 960,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 960
+    }
+  ]
+}

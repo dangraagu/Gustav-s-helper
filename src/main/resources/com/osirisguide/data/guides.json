@@ -20,6 +20,11 @@
       "id": "ironman-pvm-rush",
       "name": "Ironman PvM Rush",
       "description": "Ironman PvM rush guide (OSRS Wiki draft, CC BY-NC-SA 3.0)."
+    },
+    {
+      "id": "bruhsailer",
+      "name": "BRUHsailer Complete Guide",
+      "description": "BRUHsailer community sailing/ironman route (umkyzn.github.io/BRUHsailer)."
     }
   ]
 }

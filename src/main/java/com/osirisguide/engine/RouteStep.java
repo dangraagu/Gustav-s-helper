@@ -115,6 +115,15 @@ public class RouteStep
 		return complete;
 	}
 
+	/** The quest this step is about, if it's a quest step (top-level quest condition); else null.
+	 *  Used to drive Quest Helper's walkthrough (fork) and to look up the quest-start tile. */
+	public net.runelite.api.Quest getQuest()
+	{
+		return complete instanceof com.osirisguide.engine.condition.QuestCondition
+			? ((com.osirisguide.engine.condition.QuestCondition) complete).getQuest()
+			: null;
+	}
+
 	/** @return true if this step applies to the given account mode (empty modes = all). */
 	public boolean appliesTo(IronmanMode mode)
 	{

@@ -1,0 +1,246 @@
+{
+  "_source": "https://umkyzn.github.io/BRUHsailer/",
+  "_license": "BRUHsailer community OSRS guide (umkyzn.github.io; Discord discord.gg/FXPUrUp) — no explicit content license stated; updatedOn 2026-06-08",
+  "section": "Chapter 1: Get to da chopper earth staves — 1.2: Some fishing and thieving",
+  "steps": [
+    {
+      "id": "s12-001",
+      "title": "Grab your pickaxe and a POH …",
+      "text": "Grab your pickaxe and a POH tab, break it, mine 10 clay and 4 copper in the Rimmington mine. Run to Draynor, have Aggie make you 3 yellow dyes and 1 blue dye (you can use the ingredients on Aggie to skip the dialogue). Buy 10 chronicle cards. Grab your pie dish, a bucket, three pots of flour and three redberries.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1951,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 1951,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1951,
+      "npc": 4284,
+      "world": [
+        3086,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "s12-002",
+      "title": "Walk to Port Sarim, make 3 …",
+      "text": "Walk to Port Sarim, make 3 pastry doughs in the northern house with the water icon and one by one try to make them into a cooked redberry pie. Buy 16k feathers from Gerrant (for fly fishing later. If you do not have level 46 fletching yet, also buy feathers to get that level. You will gain 6.33 fletching xp per steel arrow made from scratch, or 6 xp per arrow made with the headless arrows already banked). Speak with Thurgo to progress The Knight’s Sword. Run to Betty and buy 1500 mind runes (pack), 500 air runes (pack), 1500 water runes (pack), 500 earth runes (pack), 500 fire runes (pack), 200 body runes (manual), 100 chaos runes (manual, 9396 gp vs 9950 gp), 150 death runes for Desert Treasure (manual). Talk to Veos to go to Zeah, talk to Veos again and complete the Client of Kourend (destroy the lamps and reclaim them later to put them on herblore), talk to Veos again to travel to Land’s End, grab 1-3 bird snares, five box traps and a butterfly net (https://imgur.com/a/bdU88Xo). Speak with Captain Magoro to return to Port Piscarilius.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "s12-003",
+      "title": "Run to Piscarilius, grab wind strike …",
+      "text": "Run to Piscarilius, grab wind strike runes and your stew, start The Queen of Thieves and continue the quest until you are asked to search Councillor Hughes’ home (browse the Warrens General Store in between for the diary). Head south and kill a Giant Rat northeast of Hosidius square for its meat and the giant rat bone, talk to the Estate Agent (this is needed to be able to move your POH to Kourend later). Buy a compost pack from Vannah. Pickpocket from the fruit stalls in the house on the east of Hosidius square to level 36 thieving. Bank one jangerberry (optionally: bank two as it’s a possible Fairytale pt. 1 item), all the strange fruit and the golovanova tops (you will need at least 2 tops). Run west and dig up a saltpetre for the diary, then run to Land’s End and charter a ship to Aldarin. There thieve the upstairs chest in the western villa (Chest (Aldarin Villas) - OSRS Wiki) to a bit over level 42 thieving (46,512 xp!).",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_QUEEN_OF_THIEVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        1762,
+        3598,
+        0
+      ]
+    },
+    {
+      "id": "s12-004",
+      "title": "Use your chronicle to teleport to …",
+      "text": "Use your chronicle to teleport to Varrock, buy one of each elemental staff from Zaff. Use clan chat “osrs soa” to find a partner. Collect the weapon store key from your Shield of Arrav partner and kill the Weaponsmaster to grab two Phoenix crossbows for Shield of Arrav (this fight may be tough, use magic and bread or cakes), take them to Katrine and collect the half of the Shield of Arrav. Finish the Shield of Arrav at the Varrock Museum (optional: do this earlier so you don’t make your partner wait). Grab your soda ash, sand, spade, leather gloves, strike runes and Falador tab. Take the quetzal to Varlamore, start and continue Ethically Acquired Antiquities until the step where you have to visit Port Sarim. Break your Falador tab, collect the portrait for The Knight’s Sword, speak with Sir Renitee for the diary, turn the soda ash and sand into molten glass. Kill a duck (with magic), complete Pirate’s Treasure. Now bank, grab raw beef, chicken and rat meat, an orange and blue dye (make the orange dye with red + yellow if needed), 2 iron ore, 4 copper ore, 6 clay, 2 cheese, your gp stack and a couple of food (3+ cakes or wines). Optional: swap one cheese for one cake/wine for Witch’s House. Run north, do Doric’s Quest. Go back east and start Below Ice Mountain at Wilow, safespot a bear on the trees north of Falador for the meat, fur and ribs. Complete Goblin Diplomacy, Witch’s House (there are safespots for all the forms of the Witch’s experiment!) and Druidic Ritual. Buy an eye of newt pack, an empty vial (not a pack) and a pestle and mortar from Jatix. Start Fishing Contest. Minigame teleport to clan wars and restore run energy at Ferox, bank and grab two iron bars, a POH tab, the portrait, a few (3-5) cakes and a pickaxe.",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3260,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "s12-005",
+      "title": "Break another POH tab and return …",
+      "text": "Break another POH tab and return to Thurgo. Mine two blurite ore. Go back to Thurgo and make the sword. Run to a trader crewmember in Port Sarim for Ethically Acquired Antiquities, then talk to Betty to progress that quest. Run to Falador east bank. Grab your coins, ghostspeak amulet and skull. Pay to move your house to Pollnivneach at the estate agent. Complete The Knight’s Sword. Smelt the blurite ore into a bar.",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3358,
+        2974,
+        0
+      ]
+    },
+    {
+      "id": "s12-006",
+      "title": "Ferox teleporting for run energy if …",
+      "text": "Ferox teleporting for run energy if necessary, chronicle teleport to Varrock. Speak with Curator Haig Halen in the Varrock Museum and continue Ethically Acquired Antiquities until you have his confession, then take the quetzal to Varlamore and speak with Curator Herminius to complete Ethically Acquired Antiquities. Home teleport to Lumbridge, bank, grab items for the step below. Shear a sheep, complete the Restless Ghost. Cross the gate to Al-Kharid and start The Feud (buy the desert disguise). Run south and buy one of each mould in Dommik’s Crafting Store shop including tiara but not bolt, plus a second necklace mould, along with 3 needles and 10 thread, then some mithril platelegs. Go east, start and complete Sleeping Giants. Buy 9 bronze bars in the Shantay Pass, along with two sets of desert clothes (one pair of boots only), 5 Shantay passes, 16 bucket packs, 20 buckets of water, 4 bowls of water and 10 waterskins. Make 4 soft clay while you’re at the bank chest. Make sure to bring 5 buckets for Ugthanki dung and wear leather gloves during the following quests. Note: the following quests can be multiquested, but for the sake of inventory space and convenience it is fine to do Tourist Trap completely, then do The Feud after.",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3260,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "s12-007",
+      "title": "Castle Wars minigame teleport. Withdraw 3 …",
+      "text": "Castle Wars minigame teleport. Withdraw 3 planks, 1 bronze bar and one molten glass. Run north, grab an inventory of superantipoisons (84 doses - 21 pots (4)-dose) by hopping, then start and complete the Observatory quest.",
+      "complete": {
+        "op": "quest",
+        "quest": "OBSERVATORY_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "s12-008",
+      "title": "Use the Fishing Trawler minigame to …",
+      "text": "Use the Fishing Trawler minigame to teleport to Port Khazard. Charter a ship Catherby (use the deposit box) or, if that shop is bought out, to Land’s end. Buy 1600 soda ash, 10/world at a time. Also at some point buy 10 buckets of slime (only 10 total). If you were at Land’s end, now charter a ship to Catherby. Buy steel arrowtips to round out 46 fletching (if you don’t have that level yet). We recommend buying 250 tips/world to save hopping but if you are low on gp you can buy 100/world instead to save some cash here. Take out a knife from the bank and a light source (grab a candle along the way and light it with a tinderbox if you don’t have any). Grab insect repellant, collect two buckets of wax and ten flax (five for the diary, but we need ten) and speak with Sherlock (diary). Enter the Temple of Ikov and grab some Boots of Lightness, then leave again. Start Merlin’s Crystal up to the step where you need to visit Arhein. Run to Seers, grab the fishing pass and other items for fishing contest from the bank. Spin the flax into ten linen yarn. Continue Fishing Contest to the step where you get the trophy. Fly fish north of Seers bank to 35 fishing, banking the fish. Complete Murder Mystery while training (start the quest, get all relevant clues in the mansion, fish an inv, bank, do the relevant steps in the village, resume the quest etc.). Home teleport to Lumbridge, cross the gate to Al-Kharid (costs 10gp), run south and speak with Hassan to start Prince Ali Rescue, then Osman to resume the quest. Run south and board Ferryman Sathwood’s ferry. Train fishing at mass world Tempoross to level 56. It is most efficient to cook the harpoonfish instead of using them raw. Make sure to only cash in the reward permits after you have hit level 50 fishing - this is a significant boost to your loot!",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 35,
+        "cmp": ">="
+      },
+      "npc": 11579,
+      "world": [
+        3123,
+        3240,
+        0
+      ]
+    },
+    {
+      "id": "s12-009",
+      "title": "Fishing trawler teleport, do the fishing …",
+      "text": "Fishing trawler teleport, do the fishing trawler minigame for a complete Angler’s outfit (48 games average, you can use an axe+hammer instead of needing swamp paste, bailing bucket optional for more activity. Chopping at tentacles/repairing railings is usually competitive so stay close to the railing and spam click). Make sure to collect a rusty sword along the way, and have the Tindel Marchant identify it. Also save polished buttons (if you get them). Note that once you hit 50 activity inside the minigame it will not go back down, so you can afk for the rest of the game and you will get the reward rolls. Buy two swamp paste, a hammer and four tinderboxes at the general store. Soul wars minigame teleport to get to Edgeville, speak with Marley for Below Ice Mountain. Cut 8 sapphires. Make a sapphire necklace and a silver sickle. Bring a knife and go to the Mage Arena, buy 200 cosmic runes (you won’t need these until later, so if it is very crowded you can stop at just 20). Enchant the sapphire necklace into a games necklace.",
+      "complete": {
+        "op": "quest",
+        "quest": "BELOW_ICE_MOUNTAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3010,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "s12-010",
+      "title": "Teleport to the barbarian outpost with …",
+      "text": "Teleport to the barbarian outpost with your games necklace. Unlock the minigame teleport (start the teleport animation to confirm it worked, then just click away to cancel it), start Alfred Grimhand’s Barcrawl, go south and do the Waterfall quest until the step where you need the pebble (bring your rope). Buy a greenman’s ale from Rasolo. Start Dwarf Cannon up to the step where you need to find Lollk.",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2549,
+        3558,
+        0
+      ]
+    },
+    {
+      "id": "s12-011",
+      "title": "Minigame teleport to Fishing Trawler, complete …",
+      "text": "Minigame teleport to Fishing Trawler, complete Fight Arena and enter the Tree Gnome Village maze. Collect Glarial’s pebble along the way (don’t drop it after the quest). Start and complete Tree Gnome village.",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2613,
+        3190,
+        0
+      ]
+    },
+    {
+      "id": "s12-012",
+      "title": "Take the spirit tree to the …",
+      "text": "Take the spirit tree to the Gnome Stronghold, start the Grand Tree. For the next shopping trip, make sure to leave 2586 GP. Grab your sacks from the bank and use them to reduce the amount of running. Buy dwellberries, 2 buckets of milk, 1 pineapple, 10 potatoes, 3 pots of flour, 4 cheese, 1 orange, 1 gnome spice and 120 produce items in any combination of the following (all of onion, potato, cabbage, tomato, cheese, lime, orange, lemon, pineapple and dwellberries work, cheapest in red) and 130 chocolate dust (2 for quests, 128 for energy potions) from the Grand Tree Groceries. Visit Blurberry’s bar for the barcrawl, buy a premade blurb’ sp. Collect two swamp toads and take off their legs.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "s12-013",
+      "title": "Minigame teleport to the barbarian outpost, …",
+      "text": "Minigame teleport to the barbarian outpost, grab a rope, Glarial’s pebble, some food, water strikes and the runes for Waterfall quest (optional: already bring your feathers). Complete Waterfall quest (you have to juggle some gear at Glarial’s Tomb) and kill a Fire Giant in the west room for the diary. Barb fish to 32 agility, keep your heavy fishing rod. Minigame teleport to Port Khazard, charter a ship to Aldarin, start and complete Death on the Isle. Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. If you only collected 2 iron bars earlier, collect 5 more upstairs in the Shields of Mistrock store. Minigame teleport back to Barbarian Assault and resume barbarian fishing to level 50 agility. Also start barbarian farming (if possible). Knife-log teak logs to tick manipulate.",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 32,
+        "cmp": ">="
+      },
+      "npc": 1209,
+      "world": [
+        2615,
+        3143,
+        0
+      ]
+    },
+    {
+      "id": "s12-014",
+      "title": "Minigame teleport to Burthorpe, buy 5 …",
+      "text": "Minigame teleport to Burthorpe, buy 5 Asgarnian ale, 39 Wizard’s mind bombs and 12 Dwarven stouts. Collect the Rogues outfit and crack a wall safe in the main area for the diary. Buy 75 lockpicks and 25 ropes. Cook fish (salmon, trout and all raw fish from Tempoross, but save at least one raw swordfish for making a swordchick at the Tower of Life later for the Ardougne medium diary) between the games to replenish run energy (you can 2t cook it). Make sure you have at least 10 trout for Death Plateau and 15 salmon for In Aid of the Myreque, and got to at least level 43 cooking. Grab your GP, blackjack and a POH tab (equip full rogues), run south and complete Fishing Contest.",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_AID_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2639,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "s12-015",
+      "title": "Break your last POH tab, enter …",
+      "text": "Break your last POH tab, enter your house for the diary, blackjack to 1.25m GP (level 77 thieving, lower if you did more wintertodt). OSRS blackjacking (270k xp/h). At lower thieving level the fail rate is significant, you just have to drink a bunch of wines (bought at the local shop) and power through the early levels. The progression is bearded bandits to level 55, unbearded bandits to level 65 and menaphite thugs at level 65 and up.",
+      "manual": true,
+      "npc": 3549,
+      "world": [
+        3347,
+        2955,
+        0
+      ]
+    }
+  ]
+}

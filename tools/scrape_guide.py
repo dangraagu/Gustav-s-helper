@@ -253,21 +253,24 @@ def gazetteer_lookup(loc):
 
 
 def load_location_coords():
-    """Merge finer, wiki-grounded coords from tools/data/location_coords.json over the built-in
-    gazetteer (more specific phrases win via the longest-key match in gazetteer_lookup)."""
-    p = Path(__file__).parent / "data" / "location_coords.json"
-    if not p.exists():
-        return 0
-    try:
-        data = json.loads(p.read_text(encoding="utf-8"))
-    except Exception as e:  # noqa: BLE001
-        print(f"[!] could not read location coords ({e})", file=sys.stderr)
-        return 0
+    """Merge wiki-grounded coords into the built-in gazetteer from, in order:
+      - data/gazetteer.json     (broad OSRS town/area centres, for step-text fallbacks)
+      - data/location_coords.json (finer per-phrase coords; loaded last so it wins ties)
+    More specific / later phrases win via the longest-key match in gazetteer_lookup."""
     n = 0
-    for phrase, xy in data.items():
-        if isinstance(xy, (list, tuple)) and len(xy) >= 2:
-            GAZETTEER[phrase.strip().lower()] = (int(xy[0]), int(xy[1]))
-            n += 1
+    for fname in ("gazetteer.json", "location_coords.json"):
+        p = Path(__file__).parent / "data" / fname
+        if not p.exists():
+            continue
+        try:
+            data = json.loads(p.read_text(encoding="utf-8"))
+        except Exception as e:  # noqa: BLE001
+            print(f"[!] could not read {fname} ({e})", file=sys.stderr)
+            continue
+        for phrase, xy in data.items():
+            if isinstance(xy, (list, tuple)) and len(xy) >= 2:
+                GAZETTEER[phrase.strip().lower()] = (int(xy[0]), int(xy[1]))
+                n += 1
     return n
 
 
@@ -363,11 +366,14 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
         step["manual"] = True
     if item_id is not None:
         step["item"] = item_id  # highlight it in inventory/bank
-    world = gazetteer_lookup(loc)
-    if world:
-        step["world"] = world
-    # Precise NPC/object id + tile from the QH reference table (overrides the town-level coord).
+    # Coordinate resolution, best-first: a precise NPC/object tile (from the QH reference table) wins;
+    # else the area centre from the loc field; else the area centre from any place named in the step
+    # text ("go to Falador" -> Falador centre). This fills the "no clickable spot" steps.
     enrich_entity(step, name, step.get("complete", {}).get("op"), item_id, entities)
+    if "world" not in step:
+        world = gazetteer_lookup(loc) or gazetteer_lookup(name)
+        if world:
+            step["world"] = world
     return step
 
 
