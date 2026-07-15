@@ -13,13 +13,23 @@
       "id": "e7-002",
       "title": "Complete a game of Trouble Brewing …",
       "text": "Complete a game of Trouble Brewing [Morytania Medium Diary] (can skip this if no alt/friend/active world and do later)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e7-003",
       "title": "Kill Cave Horrors until Black Mask …",
       "text": "Kill Cave Horrors until Black Mask drop. Train on Defensive until 680,000 Defence Experience. Once you get it head through the dungeon & cut & burn mahogany logs [Morytania Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e7-004",
@@ -52,7 +62,12 @@
         "op": "quest",
         "quest": "WHAT_LIES_BELOW",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3266,
+        3333,
+        0
+      ]
     },
     {
       "id": "e7-008",
@@ -62,13 +77,23 @@
         "op": "quest",
         "quest": "DEFENDER_OF_VARROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3283,
+        3501,
+        0
+      ]
     },
     {
       "id": "e7-009",
       "title": "OPTIONAL: If you are not & …",
       "text": "OPTIONAL: If you are not & want 70 Magic to burst Zombies and are confident going to DKS in Rune Armour, you can Iban Blast Rex for Berserker ring and some magic levels. Otherwise we do this after Barrows Gear. You can also alch at Rex waiting for them to spawn.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-010",
@@ -102,19 +127,34 @@
       "id": "e7-011",
       "title": "ANOTHER WARNING: DO NOT LOOK OVER …",
       "text": "ANOTHER WARNING: DO NOT LOOK OVER THE LEDGES OR THE INSTANCE IS OVER AND YOU CAN GET BAGGED UP BY PKERS",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-012",
       "title": "IT IS HIGHLY RECOMMENDED TO SCOUT …",
       "text": "IT IS HIGHLY RECOMMENDED TO SCOUT THE LADDER WITH AN ALT TO MAKE SURE YOU DON'T GET BAGGED UP IF DOING PVP WORLD METHOD.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-013",
       "title": "Also remember to change off PvP …",
       "text": "Also remember to change off PvP world if you bank but you can stay on 1 trip for 1,000+ KC (over drop rate)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-014",
@@ -125,7 +165,12 @@
         "skill": "MAGIC",
         "level": 78,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-015",
@@ -184,7 +229,12 @@
       "id": "e7-023",
       "title": "All Wintertodt",
       "text": "All Wintertodt",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
     },
     {
       "id": "e7-024",
@@ -220,7 +270,12 @@
       "id": "e7-028",
       "title": "Giant Mole; (No damage kill)",
       "text": "Giant Mole; (No damage kill)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-029",
@@ -238,7 +293,12 @@
       "id": "e7-031",
       "title": "Jad Challenges; (Second Challenge + only …",
       "text": "Jad Challenges; (Second Challenge + only melee) [This one is challenging so attempt for fun or skip]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-032",
@@ -256,13 +316,23 @@
       "id": "e7-033",
       "title": "Entry TOB has some easy CAs …",
       "text": "Entry TOB has some easy CAs otherwise the above is what I did. Medium before barrows IS NOT MANDATORY BUT IS COZY.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3663,
+        3219,
+        0
+      ]
     },
     {
       "id": "e7-034",
       "title": "We are now going to do …",
       "text": "We are now going to do some Barrows. There are many ways to get there so choose which you want or unlock it before starting. We are only after tank gear so probably don't need to do much more than 100 chests. Use Wind Wave. Morytania hard for more runes is locked behind 70 prayer so not worth doing at this stage. Kill 2 skeletons 1 bloodworm every run to maintain blood runes.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e7-035",
@@ -274,7 +344,12 @@
       "id": "e7-036",
       "title": "Salve Graveyard portal (Home teleport, recharge …",
       "text": "Salve Graveyard portal (Home teleport, recharge prayer on altar/pool, take salve graveyard portal->BKR fairy ring->Boat to barrows)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e7-037",

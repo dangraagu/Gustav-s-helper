@@ -63,7 +63,12 @@
       "id": "gear-005",
       "title": "Obtain the Mage Arena 2 (MA2) …",
       "text": "Obtain the Mage Arena 2 (MA2) cape",
-      "manual": true
+      "manual": true,
+      "world": [
+        3106,
+        3915,
+        0
+      ]
     },
     {
       "id": "gear-006",
@@ -75,7 +80,12 @@
       "id": "gear-007",
       "title": "Once you reach ToA, obtain a …",
       "text": "Once you reach ToA, obtain a Mage's book from the Mage Training Arena\nLocation: Mage Training Arena",
-      "manual": true
+      "manual": true,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
     }
   ]
 }

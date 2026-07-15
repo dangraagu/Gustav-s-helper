@@ -69,13 +69,23 @@
           }
         ]
       },
-      "item": 10029
+      "item": 10029,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e9-005",
       "title": "Teleport to Priffdinas",
       "text": "Teleport to Priffdinas",
-      "manual": true
+      "manual": true,
+      "world": [
+        3263,
+        6083,
+        0
+      ]
     },
     {
       "id": "e9-006",
@@ -93,7 +103,12 @@
       "id": "e9-008",
       "title": "Ardy Cloak -> AJP",
       "text": "Ardy Cloak -> AJP",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e9-009",
@@ -111,13 +126,23 @@
       "id": "e9-011",
       "title": "Ardy Cloak -> AJP",
       "text": "Ardy Cloak -> AJP",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e9-012",
       "title": "Head to Hunter Guild",
       "text": "Head to Hunter Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        1559,
+        3048,
+        0
+      ]
     },
     {
       "id": "e9-013",
@@ -129,7 +154,12 @@
       "id": "e9-014",
       "title": "Bank at Hunter Guild",
       "text": "Bank at Hunter Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        1559,
+        3048,
+        0
+      ]
     },
     {
       "id": "e9-015",
@@ -183,7 +213,12 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e9-018",
@@ -193,7 +228,12 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e9-019",
@@ -217,13 +257,23 @@
       "id": "e9-022",
       "title": "Throw the Chinchompas to get 75+ …",
       "text": "Throw the Chinchompas to get 75+ Range",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e9-023",
       "title": "Kill Royal Titans until both Prayer …",
       "text": "Kill Royal Titans until both Prayer Scrolls",
-      "manual": true
+      "manual": true,
+      "world": [
+        3008,
+        3150,
+        0
+      ]
     },
     {
       "id": "e9-024",
@@ -233,19 +283,34 @@
         "op": "quest",
         "quest": "PERILOUS_MOONS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1435,
+        3124,
+        0
+      ]
     },
     {
       "id": "e9-025",
       "title": "These are 0 damage if you …",
       "text": "These are 0 damage if you use Water/Fire Wave on the Elementals and kill both giants roughly at the same time so very safe on HCIM",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e9-026",
       "title": "This is now a comfortable point …",
       "text": "This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted Gauntlet with Tier 3 Preparation.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e9-027",

@@ -17,7 +17,12 @@
         "op": "quest",
         "quest": "WHILE_GUTHIX_SLEEPS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2907,
+        3450,
+        0
+      ]
     },
     {
       "id": "s32-003",
@@ -27,7 +32,12 @@
         "op": "quest",
         "quest": "BENEATH_CURSED_SANDS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3311,
+        2779,
+        0
+      ]
     },
     {
       "id": "s32-004",
@@ -66,13 +76,23 @@
       "id": "s32-006",
       "title": "Get a fire cape off task …",
       "text": "Get a fire cape off task (if you don’t have one yet).",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "s32-007",
       "title": "Get a dragon pickaxe (if you …",
       "text": "Get a dragon pickaxe (if you intend on going for at least partial completion of the Combat Achievements then just hop bosses while going for kc at each of them). If you plan on getting a Voidwaker later you will most likely get multiple dragon pickaxes along the way - the recommended bosses for that are Artio, Spindel and Vet’ion. Alternatively you may wish to postpone it for when you go for the Kq head, hoping to get one along the way.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "s32-008",
@@ -80,8 +100,8 @@
       "text": "Cash your banked herblore XP, using MOGs force spawning at Ardy. Make some staminas for future use.",
       "manual": true,
       "world": [
-        2662,
-        3305,
+        2624,
+        3300,
         0
       ]
     },

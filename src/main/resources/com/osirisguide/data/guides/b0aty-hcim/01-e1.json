@@ -59,7 +59,12 @@
           }
         ]
       },
-      "item": 1205
+      "item": 1205,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-006",
@@ -69,7 +74,12 @@
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
     },
     {
       "id": "e1-007",
@@ -91,7 +101,12 @@
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
     },
     {
       "id": "e1-009",
@@ -101,7 +116,12 @@
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
     },
     {
       "id": "e1-010",
@@ -123,7 +143,12 @@
         "op": "quest",
         "quest": "FAMILY_CREST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3280,
+        3402,
+        0
+      ]
     },
     {
       "id": "e1-012",
@@ -185,7 +210,12 @@
           }
         ]
       },
-      "item": 946
+      "item": 946,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "e1-016",
@@ -195,7 +225,12 @@
         "op": "quest",
         "quest": "MONKS_FRIEND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
     },
     {
       "id": "e1-017",
@@ -205,7 +240,12 @@
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
     },
     {
       "id": "e1-018",
@@ -215,13 +255,23 @@
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2925,
+        3486,
+        0
+      ]
     },
     {
       "id": "e1-019",
       "title": "Head West towards Draynor hugging the …",
       "text": "Head West towards Draynor hugging the fence to avoid the Jail Guards",
-      "manual": true
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
     },
     {
       "id": "e1-020",
@@ -245,7 +295,12 @@
       "id": "e1-022",
       "title": "Head to the Wizards Tower",
       "text": "Head to the Wizards Tower",
-      "manual": true
+      "manual": true,
+      "world": [
+        3109,
+        3160,
+        0
+      ]
     },
     {
       "id": "e1-023",
@@ -261,7 +316,12 @@
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
     },
     {
       "id": "e1-025",
@@ -271,7 +331,12 @@
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
     },
     {
       "id": "e1-026",
@@ -281,7 +346,12 @@
         "op": "quest",
         "quest": "CLIENT_OF_KOUREND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1824,
+        3690,
+        0
+      ]
     },
     {
       "id": "e1-027",
@@ -291,19 +361,34 @@
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
     },
     {
       "id": "e1-028",
       "title": "Head north to Draynor & talk …",
       "text": "Head north to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop and buy 1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
     },
     {
       "id": "e1-029",
       "title": "Bank at Draynor and Deposit all",
       "text": "Bank at Draynor and Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
     },
     {
       "id": "e1-030",
@@ -335,7 +420,12 @@
         "op": "quest",
         "quest": "WITCHS_HOUSE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
     },
     {
       "id": "e1-032",
@@ -345,7 +435,12 @@
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
     },
     {
       "id": "e1-033",
@@ -355,7 +450,12 @@
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3098,
+        3268,
+        0
+      ]
     },
     {
       "id": "e1-034",
@@ -387,7 +487,12 @@
         "op": "quest",
         "quest": "FISHING_CONTEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
     },
     {
       "id": "e1-036",
@@ -410,7 +515,12 @@
       "id": "e1-037",
       "title": "Bank at Draynor and deposit the …",
       "text": "Bank at Draynor and deposit the Garlic & Cheese",
-      "manual": true
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
     },
     {
       "id": "e1-038",
@@ -432,7 +542,12 @@
         "op": "quest",
         "quest": "A_PORCINE_OF_INTEREST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3086,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-040",
@@ -442,7 +557,12 @@
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
     },
     {
       "id": "e1-041",
@@ -452,7 +572,12 @@
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
     },
     {
       "id": "e1-042",
@@ -480,19 +605,34 @@
         "op": "quest",
         "quest": "CLIENT_OF_KOUREND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1824,
+        3690,
+        0
+      ]
     },
     {
       "id": "e1-045",
       "title": "Take the Minecart to Shayzien East …",
       "text": "Take the Minecart to Shayzien East (option B)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e1-046",
       "title": "Open Minimap & follow the path …",
       "text": "Open Minimap & follow the path South-West to Shayzien",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e1-047",
@@ -514,7 +654,12 @@
         "op": "quest",
         "quest": "CLIENT_OF_KOUREND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1824,
+        3690,
+        0
+      ]
     },
     {
       "id": "e1-050",
@@ -530,7 +675,12 @@
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3270,
+        3159,
+        0
+      ]
     },
     {
       "id": "e1-052",
@@ -606,13 +756,23 @@
       "id": "e1-058",
       "title": "On Floor 3, Spider max is …",
       "text": "On Floor 3, Spider max is 7 so if you take 3 or more damage, drink a wine before going through the door to avoid being stacked. Take the east doors.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-059",
       "title": "Catablepon Max is 9 so drink …",
       "text": "Catablepon Max is 9 so drink on any damage.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-060",
@@ -668,7 +828,12 @@
       "id": "e1-063",
       "title": "Head east and Talk to Gertude …",
       "text": "Head east and Talk to Gertude (1) [Gertrudes Cat]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-064",
@@ -686,7 +851,12 @@
       "id": "e1-065",
       "title": "Bank at Varrock West Bank and …",
       "text": "Bank at Varrock West Bank and deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3440,
+        0
+      ]
     },
     {
       "id": "e1-066",
@@ -752,7 +922,12 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-070",
@@ -818,7 +993,12 @@
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3098,
+        3268,
+        0
+      ]
     },
     {
       "id": "e1-074",
@@ -834,7 +1014,12 @@
         "op": "quest",
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3211,
+        3422,
+        0
+      ]
     },
     {
       "id": "e1-076",
@@ -862,7 +1047,12 @@
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3225,
+        3426,
+        0
+      ]
     },
     {
       "id": "e1-079",
@@ -872,7 +1062,12 @@
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3225,
+        3426,
+        0
+      ]
     },
     {
       "id": "e1-080",
@@ -882,7 +1077,12 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-081",
@@ -892,7 +1092,12 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-082",
@@ -958,7 +1163,12 @@
         "op": "quest",
         "quest": "PRIEST_IN_PERIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3222,
+        3473,
+        0
+      ]
     },
     {
       "id": "e1-088",
@@ -968,7 +1178,12 @@
         "op": "quest",
         "quest": "DADDYS_HOME",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-089",
@@ -984,7 +1199,12 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-091",
@@ -1007,7 +1227,12 @@
       "id": "e1-092",
       "title": "Bank at Varrock East bank and …",
       "text": "Bank at Varrock East bank and Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
     },
     {
       "id": "e1-093",
@@ -1045,7 +1270,12 @@
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
     },
     {
       "id": "e1-095",
@@ -1079,7 +1309,12 @@
         "op": "quest",
         "quest": "DADDYS_HOME",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-098",
@@ -1109,7 +1344,12 @@
       "id": "e1-102",
       "title": "Cut the Dying tree [Varrock Easy …",
       "text": "Cut the Dying tree [Varrock Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e1-103",
@@ -1185,7 +1425,12 @@
         "op": "quest",
         "quest": "DADDYS_HOME",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-107",
@@ -1235,7 +1480,12 @@
         "op": "quest",
         "quest": "DADDYS_HOME",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-111",
@@ -1247,7 +1497,12 @@
       "id": "e1-112",
       "title": "Bank at Varrock East bank",
       "text": "Bank at Varrock East bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
     },
     {
       "id": "e1-113",
@@ -1303,7 +1558,12 @@
         "op": "quest",
         "quest": "SKIPPY_AND_THE_MOGRES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2982,
+        3194,
+        0
+      ]
     },
     {
       "id": "e1-118",
@@ -1443,7 +1703,12 @@
       "id": "e1-128",
       "title": "Head South-West to Sunset Coast. Be …",
       "text": "Head South-West to Sunset Coast. Be careful of the aggressive NPC's along the way as they can kill you if you do not pay attention.",
-      "manual": true
+      "manual": true,
+      "world": [
+        1530,
+        2983,
+        0
+      ]
     },
     {
       "id": "e1-129",
@@ -1471,7 +1736,12 @@
       "id": "e1-130",
       "title": "Travel with Antonia to Aldarin",
       "text": "Travel with Antonia to Aldarin",
-      "manual": true
+      "manual": true,
+      "world": [
+        1391,
+        2935,
+        0
+      ]
     },
     {
       "id": "e1-131",
@@ -1505,7 +1775,12 @@
       "id": "e1-133",
       "title": "Pick a Cabbage [Black Knight's Fortress]",
       "text": "Pick a Cabbage [Black Knight's Fortress]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-134",
@@ -1545,7 +1820,12 @@
           }
         ]
       },
-      "item": 29415
+      "item": 29415,
+      "world": [
+        2884,
+        3398,
+        0
+      ]
     },
     {
       "id": "e1-138",
@@ -1567,7 +1847,12 @@
           }
         ]
       },
-      "item": 1623
+      "item": 1623,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-139",
@@ -1641,7 +1926,12 @@
       "id": "e1-144",
       "title": "Head to the Wizards Tower",
       "text": "Head to the Wizards Tower",
-      "manual": true
+      "manual": true,
+      "world": [
+        3109,
+        3160,
+        0
+      ]
     },
     {
       "id": "e1-145",
@@ -1663,7 +1953,12 @@
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
     },
     {
       "id": "e1-148",
@@ -1687,7 +1982,12 @@
       "id": "e1-150",
       "title": "Head North to Draynor and Deposit …",
       "text": "Head North to Draynor and Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
     },
     {
       "id": "e1-151",
@@ -1737,7 +2037,12 @@
       "id": "e1-153",
       "title": "Use Pages on Chronicle and wield",
       "text": "Use Pages on Chronicle and wield",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-154",
@@ -1747,7 +2052,12 @@
         "op": "quest",
         "quest": "PIRATES_TREASURE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-155",
@@ -1781,7 +2091,12 @@
       "id": "e1-157",
       "title": "Take Ship to Karamja (Seamen dressed …",
       "text": "Take Ship to Karamja (Seamen dressed in blue)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e1-158",
@@ -1793,7 +2108,12 @@
       "id": "e1-159",
       "title": "Fish Raw Shrimps [Karamja Easy Diary] …",
       "text": "Fish Raw Shrimps [Karamja Easy Diary] Drop Shrimps",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e1-160",
@@ -1805,13 +2125,23 @@
       "id": "e1-161",
       "title": "Buy Karamja Rum",
       "text": "Buy Karamja Rum",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e1-162",
       "title": "Fill Crate with bananas and use …",
       "text": "Fill Crate with bananas and use Karamja rum on the crate",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e1-163",
@@ -1861,7 +2191,12 @@
         "op": "quest",
         "quest": "PIRATES_TREASURE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-167",
@@ -1941,13 +2276,23 @@
       "id": "e1-171",
       "title": "Head South-West and complete Witches Potion …",
       "text": "Head South-West and complete Witches Potion (Beef twice on range to burn)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-172",
       "title": "Take 2x Logs when getting the …",
       "text": "Take 2x Logs when getting the rat tail",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-173",
@@ -1969,7 +2314,12 @@
           }
         ]
       },
-      "item": 1733
+      "item": 1733,
+      "world": [
+        2956,
+        3232,
+        0
+      ]
     },
     {
       "id": "e1-174",
@@ -2037,19 +2387,34 @@
       "id": "e1-178",
       "title": "Shear a sheep by the Makeover …",
       "text": "Shear a sheep by the Makeover Mage",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-179",
       "title": "Take Falador Crumbling wall Shortcut [Falador …",
       "text": "Take Falador Crumbling wall Shortcut [Falador Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-180",
       "title": "Bank at Falador West Bank and …",
       "text": "Bank at Falador West Bank and deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        2947,
+        3366,
+        0
+      ]
     },
     {
       "id": "e1-181",
@@ -2077,13 +2442,23 @@
       "id": "e1-182",
       "title": "Get a haircut North [Falador Easy …",
       "text": "Get a haircut North [Falador Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-183",
       "title": "Fill Bucket on Pump [Falador Easy …",
       "text": "Fill Bucket on Pump [Falador Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-184",
@@ -2113,7 +2488,12 @@
       "id": "e1-186",
       "title": "Kill a duck in Falador Park …",
       "text": "Kill a duck in Falador Park [Falador Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3003,
+        3380,
+        0
+      ]
     },
     {
       "id": "e1-187",
@@ -2163,7 +2543,12 @@
           }
         ]
       },
-      "item": 2136
+      "item": 2136,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-189",
@@ -2185,7 +2570,12 @@
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2925,
+        3486,
+        0
+      ]
     },
     {
       "id": "e1-191",
@@ -2241,13 +2631,23 @@
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2925,
+        3486,
+        0
+      ]
     },
     {
       "id": "e1-196",
       "title": "Chronicle to Varrock",
       "text": "Chronicle to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e1-197",
@@ -2257,7 +2657,12 @@
         "op": "quest",
         "quest": "PIRATES_TREASURE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-198",
@@ -2317,7 +2722,12 @@
         "op": "quest",
         "quest": "GERTRUDES_CAT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3148,
+        3413,
+        0
+      ]
     },
     {
       "id": "e1-203",
@@ -2327,7 +2737,12 @@
         "op": "quest",
         "quest": "GERTRUDES_CAT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3148,
+        3413,
+        0
+      ]
     },
     {
       "id": "e1-204",
@@ -2349,7 +2764,12 @@
           }
         ]
       },
-      "item": 560
+      "item": 560,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-205",
@@ -2359,7 +2779,12 @@
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
     },
     {
       "id": "e1-206",
@@ -2377,7 +2802,12 @@
       "id": "e1-207",
       "title": "Here I would recommend Private off …",
       "text": "Here I would recommend Private off and hop to avoid being bagged up.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-208",
@@ -2387,7 +2817,12 @@
         "op": "quest",
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
     },
     {
       "id": "e1-209",
@@ -2409,7 +2844,12 @@
         "op": "quest",
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-211",
@@ -2425,7 +2865,12 @@
         "op": "quest",
         "quest": "PLAGUE_CITY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2568,
+        3333,
+        0
+      ]
     },
     {
       "id": "e1-213",
@@ -2435,7 +2880,12 @@
         "op": "quest",
         "quest": "PLAGUE_CITY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2568,
+        3333,
+        0
+      ]
     },
     {
       "id": "e1-214",
@@ -2457,7 +2907,12 @@
         "op": "quest",
         "quest": "BIOHAZARD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2592,
+        3336,
+        0
+      ]
     },
     {
       "id": "e1-216",
@@ -2473,13 +2928,23 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "e1-218",
       "title": "Fill your inventory with Balls of …",
       "text": "Fill your inventory with Balls of wool when passing the general store",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-219",
@@ -2513,13 +2978,23 @@
         "op": "quest",
         "quest": "BIOHAZARD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2592,
+        3336,
+        0
+      ]
     },
     {
       "id": "e1-222",
       "title": "Take the boat to Rimmington",
       "text": "Take the boat to Rimmington",
-      "manual": true
+      "manual": true,
+      "world": [
+        2956,
+        3232,
+        0
+      ]
     },
     {
       "id": "e1-223",
@@ -2529,7 +3004,12 @@
         "op": "quest",
         "quest": "BIOHAZARD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2592,
+        3336,
+        0
+      ]
     },
     {
       "id": "e1-224",
@@ -2599,7 +3079,12 @@
       "id": "e1-229",
       "title": "Head into Asgarnia dungeon (Chronicle is …",
       "text": "Head into Asgarnia dungeon (Chronicle is emergency teleport if you gargle)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-230",
@@ -2611,7 +3096,12 @@
       "id": "e1-231",
       "title": "Teleport to Falador with Teletab",
       "text": "Teleport to Falador with Teletab",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-232",
@@ -2635,7 +3125,12 @@
       "id": "e1-234",
       "title": "Walk back to Falador after you …",
       "text": "Walk back to Falador after you get the sword.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-235",
@@ -2659,7 +3154,12 @@
       "id": "e1-237",
       "title": "Head to Al Kharid",
       "text": "Head to Al Kharid",
-      "manual": true
+      "manual": true,
+      "world": [
+        3290,
+        3185,
+        0
+      ]
     },
     {
       "id": "e1-238",
@@ -2669,7 +3169,12 @@
         "op": "quest",
         "quest": "PRINCE_ALI_RESCUE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3298,
+        3163,
+        0
+      ]
     },
     {
       "id": "e1-239",
@@ -2845,7 +3350,12 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-253",
@@ -2903,13 +3413,23 @@
       "id": "e1-258",
       "title": "Minigame teleport to Last Man Standing/Clan …",
       "text": "Minigame teleport to Last Man Standing/Clan Wars. Recharge Run Energy in the Free to Play portal by entering and leaving.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
     },
     {
       "id": "e1-259",
       "title": "Return to Minigame teleport location and …",
       "text": "Return to Minigame teleport location and take the green portal east to Castle Wars",
-      "manual": true
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
     },
     {
       "id": "e1-260",
@@ -2969,7 +3489,12 @@
         "op": "quest",
         "quest": "MONKS_FRIEND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
     },
     {
       "id": "e1-264",
@@ -3159,7 +3684,12 @@
         "op": "quest",
         "quest": "FIGHT_ARENA",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2565,
+        3199,
+        0
+      ]
     },
     {
       "id": "e1-278",
@@ -3193,13 +3723,23 @@
         "op": "quest",
         "quest": "CLOCK_TOWER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2570,
+        3245,
+        0
+      ]
     },
     {
       "id": "e1-282",
       "title": "Activate Thick Skin prayer & Head …",
       "text": "Activate Thick Skin prayer & Head North through the Ardy Zoo",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e1-283",
@@ -3209,7 +3749,12 @@
         "op": "quest",
         "quest": "SHEEP_HERDER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2615,
+        3298,
+        0
+      ]
     },
     {
       "id": "e1-284",
@@ -3243,7 +3788,12 @@
           }
         ]
       },
-      "item": 1737
+      "item": 1737,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-286",
@@ -3271,7 +3821,12 @@
         "op": "quest",
         "quest": "SHEEP_HERDER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2615,
+        3298,
+        0
+      ]
     },
     {
       "id": "e1-289",
@@ -3283,7 +3838,12 @@
       "id": "e1-290",
       "title": "Head North hugging the Fishing Guild …",
       "text": "Head North hugging the Fishing Guild to avoid Moss Giants",
-      "manual": true
+      "manual": true,
+      "world": [
+        2609,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-291",
@@ -3293,13 +3853,23 @@
         "op": "quest",
         "quest": "DWARF_CANNON",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
     },
     {
       "id": "e1-292",
       "title": "Head North to Barbarian Assault",
       "text": "Head North to Barbarian Assault",
-      "manual": true
+      "manual": true,
+      "world": [
+        2533,
+        3571,
+        0
+      ]
     },
     {
       "id": "e1-293",
@@ -3383,7 +3953,12 @@
         "op": "quest",
         "quest": "WATERFALL_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-300",
@@ -3423,7 +3998,12 @@
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
     },
     {
       "id": "e1-304",
@@ -3433,7 +4013,12 @@
         "op": "quest",
         "quest": "HAZEEL_CULT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2569,
+        3275,
+        0
+      ]
     },
     {
       "id": "e1-305",
@@ -3443,7 +4028,12 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e1-306",
@@ -3453,7 +4043,12 @@
         "op": "quest",
         "quest": "HAZEEL_CULT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2569,
+        3275,
+        0
+      ]
     },
     {
       "id": "e1-307",
@@ -3463,7 +4058,12 @@
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
     },
     {
       "id": "e1-308",
@@ -3473,7 +4073,12 @@
         "op": "quest",
         "quest": "WATERFALL_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-309",
@@ -3483,7 +4088,12 @@
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
     },
     {
       "id": "e1-310",
@@ -3505,13 +4115,23 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-312",
       "title": "Take Spirit Tree to Gnome Stronghold …",
       "text": "Take Spirit Tree to Gnome Stronghold (2) [Western Province Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2440,
+        3460,
+        0
+      ]
     },
     {
       "id": "e1-313",
@@ -3521,7 +4141,12 @@
         "op": "quest",
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-314",
@@ -3651,7 +4276,12 @@
           }
         ]
       },
-      "item": 2025
+      "item": 2025,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-324",
@@ -3661,7 +4291,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-325",
@@ -3727,7 +4362,12 @@
       "id": "e1-329",
       "title": "Minigame teleport to Castle Wars",
       "text": "Minigame teleport to Castle Wars",
-      "manual": true
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
     },
     {
       "id": "e1-330",
@@ -3803,7 +4443,12 @@
         "op": "quest",
         "quest": "TRIBAL_TOTEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-337",
@@ -3825,7 +4470,12 @@
         "op": "quest",
         "quest": "TRIBAL_TOTEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-339",
@@ -3915,7 +4565,12 @@
         "op": "quest",
         "quest": "TRIBAL_TOTEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-345",
@@ -3925,7 +4580,12 @@
         "op": "quest",
         "quest": "TRIBAL_TOTEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-346",
@@ -3947,7 +4607,12 @@
         "op": "quest",
         "quest": "TRIBAL_TOTEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-349",
@@ -3957,7 +4622,12 @@
         "op": "quest",
         "quest": "FAMILY_CREST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3280,
+        3402,
+        0
+      ]
     },
     {
       "id": "e1-350",
@@ -4023,7 +4693,12 @@
         "op": "quest",
         "quest": "SHEEP_HERDER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2615,
+        3298,
+        0
+      ]
     },
     {
       "id": "e1-354",
@@ -4033,7 +4708,12 @@
         "op": "quest",
         "quest": "OBSERVATORY_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2442,
+        3186,
+        0
+      ]
     },
     {
       "id": "e1-355",
@@ -4077,7 +4757,12 @@
         "op": "quest",
         "quest": "WATERFALL_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-358",
@@ -4087,19 +4772,34 @@
         "op": "quest",
         "quest": "WATERFALL_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-359",
       "title": "Kill a Fire Giant inside Baxtorian …",
       "text": "Kill a Fire Giant inside Baxtorian Falls (use water spells)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2513,
+        3483,
+        0
+      ]
     },
     {
       "id": "e1-360",
       "title": "Somebody will get Rune Scimitar on …",
       "text": "Somebody will get Rune Scimitar on this kill. I hope that's you.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-361",
@@ -4109,7 +4809,12 @@
         "op": "quest",
         "quest": "WATERFALL_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-362",

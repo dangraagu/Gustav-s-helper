@@ -23,13 +23,23 @@
           }
         ]
       },
-      "item": 10008
+      "item": 10008,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-002",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e12-003",
@@ -57,7 +67,12 @@
         "op": "quest",
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
     },
     {
       "id": "e12-007",
@@ -75,7 +90,12 @@
       "id": "e12-009",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e12-010",
@@ -85,7 +105,12 @@
         "op": "quest",
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
     },
     {
       "id": "e12-011",
@@ -107,7 +132,12 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e12-014",
@@ -117,7 +147,12 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e12-015",
@@ -133,7 +168,12 @@
         "op": "quest",
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
     },
     {
       "id": "e12-017",
@@ -143,13 +183,23 @@
         "op": "quest",
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
     },
     {
       "id": "e12-018",
       "title": "Teleport to Civitis Illa Fortis",
       "text": "Teleport to Civitis Illa Fortis",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e12-019",
@@ -189,7 +239,12 @@
         "op": "quest",
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
     },
     {
       "id": "e12-023",
@@ -205,7 +260,12 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e12-025",
@@ -215,7 +275,12 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e12-026",
@@ -231,19 +296,34 @@
         "op": "quest",
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e12-028",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e12-029",
       "title": "Take the Quetzal to Quetzacalli Gorge",
       "text": "Take the Quetzal to Quetzacalli Gorge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-030",
@@ -253,7 +333,12 @@
         "op": "quest",
         "quest": "THE_HEART_OF_DARKNESS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1454,
+        3173,
+        0
+      ]
     },
     {
       "id": "e12-031",
@@ -269,13 +354,23 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-033",
       "title": "Take the Quetzal to Quetzacalli Gorge",
       "text": "Take the Quetzal to Quetzacalli Gorge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-034",
@@ -293,13 +388,23 @@
       "id": "e12-036",
       "title": "Kill Frost Nagua’s until you get …",
       "text": "Kill Frost Nagua’s until you get Pendant of ates (OPTIONAL: Glacial Temotli’s)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-037",
       "title": "Recommended: Kill Amoxiatl instead for the …",
       "text": "Recommended: Kill Amoxiatl instead for the combat achievements; You may get it here passively. The 30 second one you may want to return for",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-038",
@@ -309,13 +414,23 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-039",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e12-040",
@@ -347,7 +462,12 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-042",
@@ -359,7 +479,12 @@
       "id": "e12-043",
       "title": "Withdraw: Combat Gear, Food & Potions",
       "text": "Withdraw: Combat Gear, Food & Potions",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-044",
@@ -369,7 +494,12 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-045",
@@ -379,13 +509,23 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-046",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e12-047",
@@ -401,7 +541,12 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-049",
@@ -429,7 +574,12 @@
           }
         ]
       },
-      "item": 960
+      "item": 960,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-051",
@@ -439,7 +589,12 @@
         "op": "quest",
         "quest": "SCRAMBLED",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1247,
+        3167,
+        0
+      ]
     },
     {
       "id": "e12-052",
@@ -449,7 +604,12 @@
         "op": "quest",
         "quest": "SCRAMBLED",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1247,
+        3167,
+        0
+      ]
     },
     {
       "id": "e12-053",
@@ -461,7 +621,12 @@
       "id": "e12-054",
       "title": "Head North over the bridge & …",
       "text": "Head North over the bridge & bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-055",
@@ -483,7 +648,12 @@
           }
         ]
       },
-      "item": 847
+      "item": 847,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-056",
@@ -499,7 +669,12 @@
         "op": "quest",
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
     },
     {
       "id": "e12-058",
@@ -509,7 +684,12 @@
         "op": "quest",
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
     },
     {
       "id": "e12-059",
@@ -519,7 +699,12 @@
         "op": "quest",
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
     },
     {
       "id": "e12-060",
@@ -535,7 +720,12 @@
         "op": "quest",
         "quest": "VALE_TOTEMS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1365,
+        3366,
+        0
+      ]
     },
     {
       "id": "e12-062",
@@ -545,7 +735,12 @@
         "op": "quest",
         "quest": "VALE_TOTEMS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1365,
+        3366,
+        0
+      ]
     },
     {
       "id": "e12-063",
@@ -567,7 +762,12 @@
         "op": "quest",
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
     },
     {
       "id": "e12-066",
@@ -577,7 +777,12 @@
         "op": "quest",
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
     },
     {
       "id": "e12-067",
@@ -589,7 +794,12 @@
       "id": "e12-068",
       "title": "Withdraw: Combat Gear (Melee & Range), …",
       "text": "Withdraw: Combat Gear (Melee & Range), Food & Potions, Teleport Runes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-069",
@@ -605,7 +815,12 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-071",
@@ -639,7 +854,12 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-076",
@@ -661,7 +881,12 @@
           }
         ]
       },
-      "item": 19544
+      "item": 19544,
+      "world": [
+        1309,
+        3104,
+        0
+      ]
     },
     {
       "id": "e12-077",
@@ -683,7 +908,12 @@
           }
         ]
       },
-      "item": 1775
+      "item": 1775,
+      "world": [
+        1435,
+        3668,
+        0
+      ]
     },
     {
       "id": "e12-078",
@@ -717,7 +947,12 @@
       "id": "e12-080",
       "title": "Camulet to inside. Upgrade to infinite …",
       "text": "Camulet to inside. Upgrade to infinite charges then camulet outside",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-081",
@@ -735,7 +970,12 @@
       "id": "e12-083",
       "title": "Blow all the glass until whatever …",
       "text": "Blow all the glass until whatever level you are after (I’d recommend 87 minimum for Zulrah or push 90 for Yama)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1435,
+        3668,
+        0
+      ]
     },
     {
       "id": "e12-084",
@@ -763,13 +1003,23 @@
           }
         ]
       },
-      "item": 19529
+      "item": 19529,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e12-086",
       "title": "Teleport to POH with the Tablet …",
       "text": "Teleport to POH with the Tablet & change to Regular Spellbook",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-087",
@@ -799,13 +1049,23 @@
       "id": "e12-090",
       "title": "Infuse the Zenyte’s and Onyx’s together",
       "text": "Infuse the Zenyte’s and Onyx’s together",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-091",
       "title": "Hunt Orange spices for +5 boosts …",
       "text": "Hunt Orange spices for +5 boosts as necessary and create your Zenyte Jewellry",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-092",
@@ -827,19 +1087,34 @@
           }
         ]
       },
-      "item": 19547
+      "item": 19547,
+      "world": [
+        2502,
+        3489,
+        0
+      ]
     },
     {
       "id": "e12-093",
       "title": "Gear: (Make sure Suffering is imbued …",
       "text": "Gear: (Make sure Suffering is imbued & recoil effect activated. Replace Inferno with Accumulator if you don’t have (I preferred a bit extra range defence for tanz phases). Rune pouch with ‘Cure Me’ missing",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-094",
       "title": "As we have no good way …",
       "text": "As we have no good way to cure venom right now we will use the ‘Cure Me’ Lunar spell. Using this we want to camp only range (which is very effective) until we get a Serpentine Visage drop or we unlock Antivenoms.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-095",

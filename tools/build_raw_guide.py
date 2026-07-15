@@ -72,7 +72,9 @@ def main():
     item_map = sg.fetch_item_map()
     quest_map = sg.load_quest_map()
     sg.load_location_coords()
+    nqs = sg.load_quest_start(quest_map)
     entities = sg.load_qh_entities()
+    print(f"  ({nqs} quest-start tiles, {len(sg.GAZETTEER)} locations bridged)")
     for f in files:
         build(f, item_map, quest_map, entities)
 

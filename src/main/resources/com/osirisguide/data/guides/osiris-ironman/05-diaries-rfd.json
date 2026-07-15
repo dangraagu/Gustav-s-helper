@@ -40,7 +40,12 @@
       "id": "dr-003",
       "title": "Plant some Toadflax seeds, agility potion …",
       "text": "Plant some Toadflax seeds, agility potion is needed soon for a quest\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
     },
     {
       "id": "dr-004",
@@ -56,7 +61,12 @@
         "op": "quest",
         "quest": "ANOTHER_SLICE_OF_HAM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
     },
     {
       "id": "dr-006",
@@ -82,7 +92,12 @@
         "op": "quest",
         "quest": "DEFENDER_OF_VARROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3283,
+        3501,
+        0
+      ]
     },
     {
       "id": "dr-008",
@@ -153,7 +168,12 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "dr-013",

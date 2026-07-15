@@ -13,8 +13,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3151,
-        3635,
+        3169,
+        3172,
         0
       ]
     },
@@ -28,8 +28,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2958,
-        3508,
+        3492,
+        3474,
         0
       ]
     },
@@ -43,8 +43,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3222,
-        3218,
+        3209,
+        3216,
         0
       ]
     },
@@ -58,8 +58,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3000,
-        3360,
+        3481,
+        3279,
         0
       ]
     },
@@ -73,8 +73,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3151,
-        3635,
+        3270,
+        3159,
         0
       ]
     },
@@ -88,8 +88,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3222,
-        3218,
+        1683,
+        2973,
         0
       ]
     },
@@ -103,8 +103,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2917,
-        3745,
+        2766,
+        3667,
         0
       ]
     },
@@ -118,8 +118,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2440,
-        3460,
+        2466,
+        3495,
         0
       ]
     },
@@ -127,7 +127,12 @@
       "id": "s14-009",
       "title": "Zeah:",
       "text": "Zeah:",
-      "manual": true
+      "manual": true,
+      "world": [
+        1538,
+        3475,
+        0
+      ]
     },
     {
       "id": "s14-010",
@@ -139,8 +144,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2758,
-        3507,
+        2763,
+        3513,
         0
       ]
     },
@@ -170,8 +175,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2440,
-        3460,
+        2404,
+        3419,
         0
       ]
     },
@@ -185,8 +190,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3210,
-        3448,
+        3230,
+        3478,
         0
       ]
     },
@@ -200,8 +205,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3108,
-        3358,
+        3230,
+        3478,
         0
       ]
     },
@@ -215,8 +220,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3080,
-        3427,
+        2955,
+        3339,
         0
       ]
     },
@@ -230,8 +235,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3087,
-        3522,
+        3230,
+        3478,
         0
       ]
     },
@@ -245,8 +250,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2910,
-        3451,
+        2404,
+        3419,
         0
       ]
     },
@@ -298,7 +303,12 @@
           }
         ]
       },
-      "item": 1913
+      "item": 1913,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
     },
     {
       "id": "s14-020",
@@ -310,8 +320,8 @@
         "state": "FINISHED"
       },
       "world": [
-        1630,
-        3938,
+        3230,
+        3478,
         0
       ]
     },
@@ -325,8 +335,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3210,
-        3448,
+        3316,
+        2849,
         0
       ]
     },
@@ -340,8 +350,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3222,
-        3218,
+        2899,
+        3429,
         0
       ]
     },
@@ -355,8 +365,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3087,
-        3522,
+        3280,
+        3402,
         0
       ]
     },
@@ -370,8 +380,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2639,
-        3218,
+        3481,
+        3279,
         0
       ]
     },
@@ -401,8 +411,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3210,
-        3448,
+        3047,
+        3236,
         0
       ]
     },
@@ -412,8 +422,8 @@
       "text": "Do arteglass to make 1580 unpowered orbs: Kharedst’s teleport to Piscarilius, do arteglass (Ferox every inventory to restore run energy, Shayzien teleport on the Kharedst’s to restore Kharedst’s charges) to make unpowered orbs. This also completes a diary task.",
       "manual": true,
       "world": [
-        3151,
-        3635,
+        1803,
+        3752,
         0
       ]
     },
@@ -427,8 +437,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2449,
-        3312,
+        2839,
+        3690,
         0
       ]
     },
@@ -469,8 +479,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2656,
-        2656,
+        3190,
+        3360,
         0
       ]
     },
@@ -484,8 +494,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2870,
-        3940,
+        2556,
+        3445,
         0
       ]
     },
@@ -505,8 +515,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3210,
-        3448,
+        3281,
+        3413,
         0
       ]
     },
@@ -518,7 +528,12 @@
         "op": "quest",
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2551,
+        3099,
+        0
+      ]
     }
   ]
 }

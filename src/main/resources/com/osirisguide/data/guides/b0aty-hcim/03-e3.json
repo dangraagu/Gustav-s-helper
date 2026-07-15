@@ -29,7 +29,12 @@
       "id": "e3-002",
       "title": "Head South of the Farming Guild",
       "text": "Head South of the Farming Guild",
-      "manual": true
+      "manual": true,
+      "world": [
+        1249,
+        3737,
+        0
+      ]
     },
     {
       "id": "e3-003",
@@ -39,7 +44,12 @@
         "op": "quest",
         "quest": "GETTING_AHEAD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1248,
+        3686,
+        0
+      ]
     },
     {
       "id": "e3-004",
@@ -83,7 +93,12 @@
         "op": "quest",
         "quest": "GETTING_AHEAD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1248,
+        3686,
+        0
+      ]
     },
     {
       "id": "e3-008",
@@ -105,7 +120,12 @@
         "op": "quest",
         "quest": "GETTING_AHEAD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1248,
+        3686,
+        0
+      ]
     },
     {
       "id": "e3-010",
@@ -115,7 +135,12 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e3-011",
@@ -127,7 +152,12 @@
       "id": "e3-012",
       "title": "Farming Guild - CIR Fairy Ring …",
       "text": "Farming Guild - CIR Fairy Ring (Garden Pie until 65) (Priority for contracts)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1249,
+        3737,
+        0
+      ]
     },
     {
       "id": "e3-013",
@@ -169,19 +199,34 @@
       "id": "e3-016",
       "title": "Falador Patch - Falador Teleport (Slower)",
       "text": "Falador Patch - Falador Teleport (Slower)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-017",
       "title": "Morytania Patch - ALQ Fairy Ring …",
       "text": "Morytania Patch - ALQ Fairy Ring (Slower)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e3-018",
       "title": "Varlamore Patch - AJP Fairy Ring …",
       "text": "Varlamore Patch - AJP Fairy Ring (Slow; only do if surplus seeds)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e3-019",
@@ -225,7 +270,12 @@
         "op": "quest",
         "quest": "FISHING_CONTEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
     },
     {
       "id": "e3-022",
@@ -241,7 +291,12 @@
         "op": "quest",
         "quest": "HOLY_GRAIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
     },
     {
       "id": "e3-024",
@@ -275,7 +330,12 @@
         "op": "quest",
         "quest": "WATCHTOWER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2548,
+        3119,
+        0
+      ]
     },
     {
       "id": "e3-028",
@@ -309,7 +369,12 @@
         "op": "quest",
         "quest": "HOLY_GRAIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
     },
     {
       "id": "e3-031",
@@ -355,19 +420,34 @@
           }
         ]
       },
-      "item": 401
+      "item": 401,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e3-034",
       "title": "Cross Rope Swing to Moss Giant …",
       "text": "Cross Rope Swing to Moss Giant Island [Karamja Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e3-035",
       "title": "Mine a Gold Ore to complete …",
       "text": "Mine a Gold Ore to complete Karamja Easy Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e3-036",
@@ -377,7 +457,12 @@
         "op": "quest",
         "quest": "HOLY_GRAIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
     },
     {
       "id": "e3-037",
@@ -399,7 +484,12 @@
         "op": "quest",
         "quest": "HOLY_GRAIL",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
     },
     {
       "id": "e3-040",
@@ -409,7 +499,12 @@
         "op": "quest",
         "quest": "FISHING_CONTEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
     },
     {
       "id": "e3-041",
@@ -419,13 +514,23 @@
         "op": "quest",
         "quest": "ENLIGHTENED_JOURNEY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3047,
+        3236,
+        0
+      ]
     },
     {
       "id": "e3-042",
       "title": "Bank at Camelot Bank",
       "text": "Bank at Camelot Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
     },
     {
       "id": "e3-043",
@@ -457,7 +562,12 @@
         "op": "quest",
         "quest": "FISHING_CONTEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
     },
     {
       "id": "e3-045",
@@ -491,13 +601,23 @@
           }
         ]
       },
-      "item": 1271
+      "item": 1271,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-047",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-048",
@@ -507,7 +627,12 @@
         "op": "quest",
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3211,
+        3422,
+        0
+      ]
     },
     {
       "id": "e3-049",
@@ -523,7 +648,12 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "e3-051",
@@ -539,7 +669,12 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "e3-053",
@@ -557,19 +692,34 @@
       "id": "e3-055",
       "title": "Head to Barbarian Village",
       "text": "Head to Barbarian Village",
-      "manual": true
+      "manual": true,
+      "world": [
+        3080,
+        3427,
+        0
+      ]
     },
     {
       "id": "e3-056",
       "title": "Fish a Trout [Varrock Easy Diary] …",
       "text": "Fish a Trout [Varrock Easy Diary] Drop this",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-057",
       "title": "Make a Bowl [Varrock Easy Diary] …",
       "text": "Make a Bowl [Varrock Easy Diary] Drop this",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-058",
@@ -585,7 +735,12 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "e3-060",
@@ -595,7 +750,12 @@
         "op": "quest",
         "quest": "DWARF_CANNON",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
     },
     {
       "id": "e3-061",
@@ -619,7 +779,12 @@
       "id": "e3-063",
       "title": "Take the shortcut back and forth[Falador …",
       "text": "Take the shortcut back and forth[Falador Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-064",
@@ -629,7 +794,12 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "e3-065",
@@ -657,7 +827,12 @@
           }
         ]
       },
-      "item": 233
+      "item": 233,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
     },
     {
       "id": "e3-067",
@@ -673,7 +848,12 @@
         "op": "quest",
         "quest": "PRINCE_ALI_RESCUE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3298,
+        3163,
+        0
+      ]
     },
     {
       "id": "e3-069",
@@ -683,7 +863,12 @@
         "op": "quest",
         "quest": "THE_GOLEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-070",
@@ -695,7 +880,12 @@
       "id": "e3-071",
       "title": "Digsite Pendant -> Digsite",
       "text": "Digsite Pendant -> Digsite",
-      "manual": true
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
     },
     {
       "id": "e3-072",
@@ -705,7 +895,12 @@
         "op": "quest",
         "quest": "THE_GOLEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-073",
@@ -715,13 +910,23 @@
         "op": "quest",
         "quest": "THE_GOLEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-074",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-075",
@@ -731,7 +936,12 @@
         "op": "quest",
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3211,
+        3422,
+        0
+      ]
     },
     {
       "id": "e3-076",
@@ -765,7 +975,12 @@
         "op": "quest",
         "quest": "THE_GOLEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-079",
@@ -793,7 +1008,12 @@
         "op": "quest",
         "quest": "UNDERGROUND_PASS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2572,
+        3296,
+        0
+      ]
     },
     {
       "id": "e3-082",
@@ -803,13 +1023,23 @@
         "op": "quest",
         "quest": "THE_GOLEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-083",
       "title": "Teleport & Bank at Camelot",
       "text": "Teleport & Bank at Camelot",
-      "manual": true
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
     },
     {
       "id": "e3-084",
@@ -870,7 +1100,12 @@
           }
         ]
       },
-      "item": 1139
+      "item": 1139,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-088",
@@ -898,7 +1133,12 @@
         "op": "quest",
         "quest": "HEROES_QUEST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2904,
+        3511,
+        0
+      ]
     },
     {
       "id": "e3-091",
@@ -932,7 +1172,12 @@
         "op": "quest",
         "quest": "THE_IDES_OF_MILK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3171,
+        3277,
+        0
+      ]
     },
     {
       "id": "e3-094",
@@ -944,7 +1189,12 @@
       "id": "e3-095",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-096",
@@ -954,19 +1204,34 @@
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
     },
     {
       "id": "e3-097",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-098",
       "title": "Head North-East of Falador",
       "text": "Head North-East of Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-099",
@@ -976,7 +1241,12 @@
         "op": "quest",
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
     },
     {
       "id": "e3-100",
@@ -1006,13 +1276,23 @@
       "id": "e3-102",
       "title": "Head West around Ice Mountain and …",
       "text": "Head West around Ice Mountain and go towards the Mind Altar",
-      "manual": true
+      "manual": true,
+      "world": [
+        3010,
+        3486,
+        0
+      ]
     },
     {
       "id": "e3-103",
       "title": "Telegrab a Skull from the Wilderness …",
       "text": "Telegrab a Skull from the Wilderness (Next to the Oak tree) [Mournings End Pt 2]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3522,
+        0
+      ]
     },
     {
       "id": "e3-104",
@@ -1034,7 +1314,12 @@
           }
         ]
       },
-      "item": 245
+      "item": 245,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-105",
@@ -1044,7 +1329,12 @@
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
     },
     {
       "id": "e3-106",
@@ -1054,7 +1344,12 @@
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
     },
     {
       "id": "e3-107",
@@ -1064,7 +1359,12 @@
         "op": "quest",
         "quest": "RECRUITMENT_DRIVE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
     },
     {
       "id": "e3-108",
@@ -1074,13 +1374,23 @@
         "op": "quest",
         "quest": "FAMILY_CREST",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3280,
+        3402,
+        0
+      ]
     },
     {
       "id": "e3-109",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-110",
@@ -1102,7 +1412,12 @@
         "op": "quest",
         "quest": "RECRUITMENT_DRIVE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
     },
     {
       "id": "e3-113",
@@ -1142,7 +1457,12 @@
           }
         ]
       },
-      "item": 29409
+      "item": 29409,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-116",
@@ -1154,7 +1474,12 @@
       "id": "e3-117",
       "title": "Head to Taverley Dungeon",
       "text": "Head to Taverley Dungeon",
-      "manual": true
+      "manual": true,
+      "world": [
+        2884,
+        3398,
+        0
+      ]
     },
     {
       "id": "e3-118",
@@ -1178,7 +1503,12 @@
       "id": "e3-121",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
     },
     {
       "id": "e3-122",
@@ -1240,7 +1570,12 @@
           }
         ]
       },
-      "item": 40
+      "item": 40,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
     },
     {
       "id": "e3-125",
@@ -1282,13 +1617,23 @@
       "id": "e3-131",
       "title": "Cabbage, potato and onion can be …",
       "text": "Cabbage, potato and onion can be harvested in Pontaks backyard",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-132",
       "title": "Do the tasks in this order …",
       "text": "Do the tasks in this order so you prevent walking back and fourth from Camelot multiple times.",
-      "manual": true
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
     },
     {
       "id": "e3-133",
@@ -1458,7 +1803,12 @@
           }
         ]
       },
-      "item": 359
+      "item": 359,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-147",
@@ -1514,7 +1864,12 @@
       "id": "e3-149",
       "title": "Teleport to Barbarian Assault",
       "text": "Teleport to Barbarian Assault",
-      "manual": true
+      "manual": true,
+      "world": [
+        2533,
+        3571,
+        0
+      ]
     },
     {
       "id": "e3-150",
@@ -1524,7 +1879,12 @@
         "op": "quest",
         "quest": "SCORPION_CATCHER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2701,
+        3408,
+        0
+      ]
     },
     {
       "id": "e3-151",
@@ -1540,13 +1900,23 @@
         "op": "quest",
         "quest": "DWARF_CANNON",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
     },
     {
       "id": "e3-153",
       "title": "Ardy Cloak -> DKS",
       "text": "Ardy Cloak -> DKS",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-154",
@@ -1562,7 +1932,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-156",
@@ -1606,13 +1981,23 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-159",
       "title": "Ardy Cloak -> CIR",
       "text": "Ardy Cloak -> CIR",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-160",
@@ -1640,7 +2025,12 @@
       "id": "e3-161",
       "title": "Mine an iron Ore [Kourend Easy …",
       "text": "Mine an iron Ore [Kourend Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e3-162",
@@ -1684,7 +2074,12 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e3-166",
@@ -1724,7 +2119,12 @@
       "id": "e3-169",
       "title": "Mould Order: Flamberge Blade -> Stiletto …",
       "text": "Mould Order: Flamberge Blade -> Stiletto Fortre -> Serpent Blade -> Defender Base -> Defenders Tip -> Claymore Blade -> Serrated Tip -> Juggernaut Forte -> Needle Point",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-170",
@@ -1820,7 +2220,12 @@
         "op": "quest",
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
     },
     {
       "id": "e3-178",
@@ -1830,7 +2235,12 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e3-179",
@@ -1858,7 +2268,12 @@
       "id": "e3-180",
       "title": "Teleport to Castle Wars",
       "text": "Teleport to Castle Wars",
-      "manual": true
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
     },
     {
       "id": "e3-181",
@@ -1882,7 +2297,12 @@
       "id": "e3-183",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-184",
@@ -1892,7 +2312,12 @@
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e3-185",
@@ -1930,7 +2355,12 @@
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3270,
+        3159,
+        0
+      ]
     },
     {
       "id": "e3-187",
@@ -2004,7 +2434,12 @@
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3270,
+        3159,
+        0
+      ]
     },
     {
       "id": "e3-194",
@@ -2060,7 +2495,12 @@
         "op": "quest",
         "quest": "THE_LOST_TRIBE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
     },
     {
       "id": "e3-199",
@@ -2100,7 +2540,12 @@
       "id": "e3-201",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-202",
@@ -2148,7 +2593,12 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "e3-205",
@@ -2170,7 +2620,12 @@
           }
         ]
       },
-      "item": 1891
+      "item": 1891,
+      "world": [
+        2958,
+        3508,
+        0
+      ]
     },
     {
       "id": "e3-206",
@@ -2210,7 +2665,12 @@
           }
         ]
       },
-      "item": 8880
+      "item": 8880,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-209",
@@ -2280,7 +2740,12 @@
       "id": "e3-214",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
     },
     {
       "id": "e3-215",
@@ -2314,7 +2779,12 @@
       "id": "e3-217",
       "title": "Check Recoil has over 20 charges. …",
       "text": "Check Recoil has over 20 charges. (Make sure you have a 2nd in inventory)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-218",
@@ -2324,13 +2794,23 @@
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
     },
     {
       "id": "e3-219",
       "title": "NOTE: Quest helper may be bugged …",
       "text": "NOTE: Quest helper may be bugged here, so follow these steps:",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-220",
@@ -2340,13 +2820,23 @@
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
     },
     {
       "id": "e3-221",
       "title": "WARNING (HCIM): Be careful crossing the …",
       "text": "WARNING (HCIM): Be careful crossing the bridge, if you weight more than 0kg, you will fall and take 20 hp damage",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-222",
@@ -2442,7 +2932,12 @@
       "id": "e3-233",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
     },
     {
       "id": "e3-234",
@@ -2474,7 +2969,12 @@
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
     },
     {
       "id": "e3-236",
@@ -2486,7 +2986,12 @@
       "id": "e3-237",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-238",
@@ -2524,7 +3029,12 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-241",
@@ -2540,13 +3050,23 @@
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
     },
     {
       "id": "e3-243",
       "title": "Bank at Grand Exchange",
       "text": "Bank at Grand Exchange",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-244",
@@ -2568,7 +3088,12 @@
           }
         ]
       },
-      "item": 560
+      "item": 560,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-245",
@@ -2590,7 +3115,12 @@
         "op": "quest",
         "quest": "BIG_CHOMPY_BIRD_HUNTING",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2631,
+        2982,
+        0
+      ]
     },
     {
       "id": "e3-247",
@@ -2612,13 +3142,23 @@
           }
         ]
       },
-      "item": 1133
+      "item": 1133,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-248",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-249",
@@ -2634,7 +3174,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-251",
@@ -2644,7 +3189,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-252",
@@ -2654,7 +3204,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-253",
@@ -2664,7 +3219,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-254",
@@ -2674,7 +3234,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-255",
@@ -2684,7 +3249,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-256",
@@ -2694,7 +3264,12 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
     },
     {
       "id": "e3-257",
@@ -2729,7 +3304,12 @@
         "skill": "SLAYER",
         "level": 18,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-261",
@@ -2763,7 +3343,12 @@
           }
         ]
       },
-      "item": 536
+      "item": 536,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-263",
@@ -2773,13 +3358,23 @@
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3093,
+        3357,
+        0
+      ]
     },
     {
       "id": "e3-264",
       "title": "Ardy Cloak -> ALQ",
       "text": "Ardy Cloak -> ALQ",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-265",
@@ -2795,7 +3390,12 @@
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3093,
+        3357,
+        0
+      ]
     },
     {
       "id": "e3-267",
@@ -2817,7 +3417,12 @@
         "op": "quest",
         "quest": "GHOSTS_AHOY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3660,
+        3508,
+        0
+      ]
     },
     {
       "id": "e3-269",
@@ -2851,7 +3456,12 @@
           }
         ]
       },
-      "item": 536
+      "item": 536,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-271",
@@ -2959,13 +3569,23 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-279",
       "title": "Get the Obsidian Star",
       "text": "Get the Obsidian Star",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-280",
@@ -2975,13 +3595,23 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-281",
       "title": "Cut a Hollow Tree [Morytania Medium …",
       "text": "Cut a Hollow Tree [Morytania Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e3-282",
@@ -2993,7 +3623,12 @@
       "id": "e3-283",
       "title": "Head to the wrecked ship and …",
       "text": "Head to the wrecked ship and dye the toy ship to match the wrecked ship (If you get bad rng here you may need a bad combination of dyes)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-284",
@@ -3027,7 +3662,12 @@
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3093,
+        3357,
+        0
+      ]
     },
     {
       "id": "e3-289",
@@ -3067,7 +3707,12 @@
       "id": "e3-291",
       "title": "Make cannonballs on the Furnance [Morytania …",
       "text": "Make cannonballs on the Furnance [Morytania Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e3-292",
@@ -3077,13 +3722,23 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-293",
       "title": "Head to Dragontooth Island [Morytania Medum …",
       "text": "Head to Dragontooth Island [Morytania Medum Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e3-294",
@@ -3161,7 +3816,12 @@
       "id": "e3-302",
       "title": "When getting the signatures, find 2 …",
       "text": "When getting the signatures, find 2 ghosts near each other and if they ask for Ectotokens or deny you, return the other and repeat until 10 signatures",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-303",
@@ -3171,7 +3831,12 @@
         "op": "quest",
         "quest": "MAKING_HISTORY",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2436,
+        3346,
+        0
+      ]
     },
     {
       "id": "e3-304",
@@ -3193,7 +3858,12 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-306",
@@ -3269,7 +3939,12 @@
       "id": "e3-312",
       "title": "Ectophial teleport [Morytania Medium Diary]",
       "text": "Ectophial teleport [Morytania Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e3-313",
@@ -3297,7 +3972,12 @@
           }
         ]
       },
-      "item": 10496
+      "item": 10496,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-315",
@@ -3307,7 +3987,12 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-316",
@@ -3323,19 +4008,34 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-318",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-319",
       "title": "Head to Barbarian Village",
       "text": "Head to Barbarian Village",
-      "manual": true
+      "manual": true,
+      "world": [
+        3080,
+        3427,
+        0
+      ]
     },
     {
       "id": "e3-320",
@@ -3345,7 +4045,12 @@
         "op": "quest",
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
     },
     {
       "id": "e3-321",
@@ -3355,7 +4060,12 @@
         "op": "quest",
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
     },
     {
       "id": "e3-322",
@@ -3387,7 +4097,12 @@
         "op": "quest",
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
     },
     {
       "id": "e3-324",
@@ -3397,7 +4112,12 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e3-325",
@@ -3407,7 +4127,12 @@
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3093,
+        3357,
+        0
+      ]
     },
     {
       "id": "e3-326",
@@ -3417,7 +4142,12 @@
         "op": "quest",
         "quest": "SCORPION_CATCHER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2701,
+        3408,
+        0
+      ]
     },
     {
       "id": "e3-327",
@@ -3433,7 +4163,12 @@
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3093,
+        3357,
+        0
+      ]
     },
     {
       "id": "e3-329",
@@ -3449,19 +4184,34 @@
         "op": "quest",
         "quest": "ROYAL_TROUBLE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2629,
+        3693,
+        0
+      ]
     },
     {
       "id": "e3-331",
       "title": "Get a task from Vannaka [Varrock …",
       "text": "Get a task from Vannaka [Varrock Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-332",
       "title": "Go through the pipe to Moss …",
       "text": "Go through the pipe to Moss Giants [Varrock Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-333",
@@ -3495,7 +4245,12 @@
       "id": "e3-335",
       "title": "OPTIONAL: You can Scurrius boost here …",
       "text": "OPTIONAL: You can Scurrius boost here but you will still need 60 range eventually",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-336",
@@ -3505,13 +4260,23 @@
         "op": "quest",
         "quest": "ROYAL_TROUBLE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2629,
+        3693,
+        0
+      ]
     },
     {
       "id": "e3-337",
       "title": "OPTIONAL: ^ AFK range at crabs",
       "text": "OPTIONAL: ^ AFK range at crabs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-338",
@@ -3521,7 +4286,12 @@
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e3-339",
@@ -3555,7 +4325,12 @@
       "id": "e3-340",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e3-341",
@@ -3573,7 +4348,12 @@
       "id": "e3-342",
       "title": "Ardy Cloak -> BIQ",
       "text": "Ardy Cloak -> BIQ",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-343",
@@ -3619,7 +4399,12 @@
       "id": "e3-347",
       "title": "Ardy Cloak -> DLQ",
       "text": "Ardy Cloak -> DLQ",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-348",
@@ -3641,7 +4426,12 @@
         "op": "quest",
         "quest": "SPIRITS_OF_THE_ELID",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3443,
+        2915,
+        0
+      ]
     },
     {
       "id": "e3-350",
@@ -3659,7 +4449,12 @@
       "id": "e3-351",
       "title": "IF 47 Hunter: Catch Orange Salamander …",
       "text": "IF 47 Hunter: Catch Orange Salamander while passing[Desert Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-352",
@@ -3681,7 +4476,12 @@
         "op": "quest",
         "quest": "SPIRITS_OF_THE_ELID",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3443,
+        2915,
+        0
+      ]
     },
     {
       "id": "e3-355",
@@ -3815,19 +4615,34 @@
           }
         ]
       },
-      "item": 1295
+      "item": 1295,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-368",
       "title": "Ardy Cloak -> CKS",
       "text": "Ardy Cloak -> CKS",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-369",
       "title": "Plant Bittercap Mushroom in the patch …",
       "text": "Plant Bittercap Mushroom in the patch (If this isn’t in your seed vault, return to this step when you get one from a contract). Keep 1x Weeds. Farm these and replant so you have 10 in the bank for MUCH later.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-370",
@@ -3845,7 +4660,12 @@
       "id": "e3-372",
       "title": "Head to Canifis",
       "text": "Head to Canifis",
-      "manual": true
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
     },
     {
       "id": "e3-373",
@@ -3863,7 +4683,12 @@
       "id": "e3-374",
       "title": "Ardy Cloak -> BIP",
       "text": "Ardy Cloak -> BIP",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-375",
@@ -3909,19 +4734,34 @@
           }
         ]
       },
-      "item": 952
+      "item": 952,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-379",
       "title": "Ardy Cloak -> BKR",
       "text": "Ardy Cloak -> BKR",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-380",
       "title": "Run South East and take the …",
       "text": "Run South East and take the Rowboat to Mort'ton",
-      "manual": true
+      "manual": true,
+      "world": [
+        3487,
+        3288,
+        0
+      ]
     },
     {
       "id": "e3-381",
@@ -3943,7 +4783,12 @@
         "op": "quest",
         "quest": "HIS_FAITHFUL_SERVANTS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3564,
+        3294,
+        0
+      ]
     },
     {
       "id": "e3-384",
@@ -3953,7 +4798,12 @@
         "op": "quest",
         "quest": "HIS_FAITHFUL_SERVANTS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3564,
+        3294,
+        0
+      ]
     },
     {
       "id": "e3-385",
@@ -3983,13 +4833,23 @@
       "id": "e3-389",
       "title": "Kill Ahrim with protect from magic, …",
       "text": "Kill Ahrim with protect from magic, bring jangerberries to restore 1 prayer point if you get drained and 1-tick/lazy flick.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-390",
       "title": "Find your tunnel (Enter a Melee …",
       "text": "Find your tunnel (Enter a Melee brother Mound, search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-391",
@@ -4001,7 +4861,12 @@
       "id": "e3-392",
       "title": "Turn NPC 'Attack' Options to 'Always …",
       "text": "Turn NPC 'Attack' Options to 'Always Right-click'",
-      "manual": true
+      "manual": true,
+      "world": [
+        2658,
+        2625,
+        0
+      ]
     },
     {
       "id": "e3-393",
@@ -4029,7 +4894,12 @@
         "op": "quest",
         "quest": "HIS_FAITHFUL_SERVANTS",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3564,
+        3294,
+        0
+      ]
     },
     {
       "id": "e3-397",

@@ -28,7 +28,12 @@
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
     },
     {
       "id": "s11-003",
@@ -40,8 +45,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3103,
-        3265,
+        3237,
+        3155,
         0
       ]
     },
@@ -81,7 +86,12 @@
         "op": "quest",
         "quest": "MONKS_FRIEND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
     },
     {
       "id": "s11-006",
@@ -91,7 +101,12 @@
         "op": "quest",
         "quest": "MONKS_FRIEND",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
     },
     {
       "id": "s11-007",
@@ -129,7 +144,12 @@
         "op": "quest",
         "quest": "SHEEP_HERDER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2615,
+        3298,
+        0
+      ]
     },
     {
       "id": "s11-009",
@@ -141,8 +161,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2760,
-        3195,
+        2794,
+        3182,
         0
       ]
     },
@@ -156,8 +176,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3216,
-        3219,
+        3243,
+        3206,
         0
       ]
     },
@@ -171,8 +191,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3029,
-        3221,
+        2955,
+        3339,
         0
       ]
     },
@@ -186,8 +206,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3130,
-        3622,
+        3225,
+        3426,
         0
       ]
     },
@@ -218,8 +238,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3306,
-        3503,
+        3362,
+        3502,
         0
       ]
     },
@@ -231,7 +251,12 @@
         "op": "quest",
         "quest": "WITCHS_POTION",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2968,
+        3205,
+        0
+      ]
     },
     {
       "id": "s11-016",
@@ -249,8 +274,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2639,
-        3218,
+        1824,
+        3690,
         0
       ]
     },

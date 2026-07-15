@@ -201,6 +201,35 @@ def load_quest_map():
     return {}
 
 
+# Quest-start tiles: RuneLite quest CONSTANT -> [x,y,z], "where to go to begin/continue the quest".
+# Fills the coord on quest steps, which never get a precise NPC/object highlight (enrich_entity skips them).
+QUEST_START_BY_CONST = {}
+
+
+def load_quest_start(quest_map):
+    """Bridge data/quest_start_coords.json (keyed by quest DISPLAY name) onto RuneLite quest CONSTANTS
+    via quest_map (display -> const). Normalises names on both sides so "Cook's Assistant" matches
+    "Cooks Assistant". Returns how many quests got a start tile."""
+    p = Path(__file__).parent / "data" / "quest_start_coords.json"
+    if not p.exists():
+        return 0
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read quest_start_coords ({e})", file=sys.stderr)
+        return 0
+    norm_to_const = {_norm(disp): const for disp, const in (quest_map or {}).items()}
+    n = 0
+    for disp, xy in data.items():
+        if not (isinstance(xy, (list, tuple)) and len(xy) >= 2):
+            continue
+        const = norm_to_const.get(_norm(disp))
+        if const:
+            QUEST_START_BY_CONST[const] = [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
+            n += 1
+    return n
+
+
 def detect_quest(text: str, quest_map):
     """
     If a quest's display name appears in the step, complete the step when that quest is FINISHED.
@@ -371,7 +400,15 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     # text ("go to Falador" -> Falador centre). This fills the "no clickable spot" steps.
     enrich_entity(step, name, step.get("complete", {}).get("op"), item_id, entities)
     if "world" not in step:
-        world = gazetteer_lookup(loc) or gazetteer_lookup(name)
+        # loc-hint (guide's own per-step location) > quest-start tile > any place named in the text.
+        world = gazetteer_lookup(loc)
+        cq = step.get("complete", {})
+        if not world and cq.get("op") == "quest":
+            qs = QUEST_START_BY_CONST.get(cq.get("quest"))
+            if qs:
+                world = list(qs)
+        if not world:
+            world = gazetteer_lookup(name)
         if world:
             step["world"] = world
     return step
@@ -382,9 +419,11 @@ def main():
     item_map = fetch_item_map()
     quest_map = load_quest_map()
     load_location_coords()
+    nqs = load_quest_start(quest_map)
     entities = load_qh_entities()
     print(f"loaded {len(item_map)} item names, {len(quest_map)} quest names, {len(GAZETTEER)} "
-          f"locations, {len(entities['npcs'])} npcs + {len(entities['objects'])} objects (QH refs)")
+          f"locations, {nqs} quest-start tiles, {len(entities['npcs'])} npcs + "
+          f"{len(entities['objects'])} objects (QH refs)")
 
     # Fetch every section first (need all steps to total the item needs before building).
     sections = []

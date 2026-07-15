@@ -106,12 +106,12 @@
       "title": "Ardy cloak tele and take the …",
       "text": "Ardy cloak tele and take the boat from Ardy to brimhaven\nLocation: Ardougne",
       "manual": true,
+      "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ],
-      "object": 10805
+      ]
     },
     {
       "id": "tfm-009",
@@ -268,12 +268,12 @@
       "title": "Carpet back to Shantay pass",
       "text": "Carpet back to Shantay pass\nLocation: Shantay Pass",
       "manual": true,
+      "npc": 4642,
       "world": [
         3303,
         3122,
         0
-      ],
-      "npc": 4642
+      ]
     },
     {
       "id": "tfm-022",
@@ -336,12 +336,12 @@
       "title": "Go to Edgeville and talk to …",
       "text": "Go to Edgeville and talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
       "manual": true,
+      "npc": 822,
       "world": [
         3068,
         3517,
         0
-      ],
-      "npc": 822
+      ]
     },
     {
       "id": "tfm-027",
@@ -402,7 +402,12 @@
       "id": "tfm-032",
       "title": "Buy a Celestial Ring from Dusuri's …",
       "text": "Buy a Celestial Ring from Dusuri's Star Shop in Falador (2,000 stardust) for ...\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "tfm-033",

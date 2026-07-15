@@ -51,7 +51,12 @@
           }
         ]
       },
-      "item": 6920
+      "item": 6920,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
     },
     {
       "id": "s31-003",
@@ -72,7 +77,12 @@
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "s31-005",
@@ -96,8 +106,8 @@
       },
       "item": 21177,
       "world": [
-        3493,
-        3488,
+        2605,
+        3115,
         0
       ]
     },
@@ -149,7 +159,12 @@
           }
         ]
       },
-      "item": 1704
+      "item": 1704,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "s31-008",
@@ -170,7 +185,12 @@
         "op": "quest",
         "quest": "A_NIGHT_AT_THE_THEATRE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3673,
+        3223,
+        0
+      ]
     },
     {
       "id": "s31-010",
@@ -207,7 +227,12 @@
         "op": "quest",
         "quest": "THE_RED_REEF",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3186,
+        2405,
+        0
+      ]
     },
     {
       "id": "s31-013",
@@ -253,7 +278,12 @@
       "id": "s31-015",
       "title": "Go to Guardians of the Rift, …",
       "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems.",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "s31-016",
@@ -275,7 +305,12 @@
           }
         ]
       },
-      "item": 1379
+      "item": 1379,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     }
   ]
 }

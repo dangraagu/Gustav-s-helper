@@ -19,12 +19,12 @@
       "title": "Get 100% hosidius favour, should have …",
       "text": "Get 100% hosidius favour, should have 300 compost in bank\nLocation: Hosidius",
       "manual": true,
+      "object": 28823,
       "world": [
         1767,
         3597,
         0
-      ],
-      "object": 28823
+      ]
     },
     {
       "id": "sg-003",
@@ -319,7 +319,12 @@
       "id": "sg-028",
       "title": "Start doing daily tree runs from …",
       "text": "Start doing daily tree runs from now on with the seeds you get from birdhouse...\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "sg-029",
@@ -467,12 +472,12 @@
       "title": "Go to Edgeville",
       "text": "Go to Edgeville\nLocation: Edgeville",
       "manual": true,
+      "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "object": 1581
+      ]
     },
     {
       "id": "sg-041",
@@ -534,18 +539,23 @@
       "title": "If you want a break from …",
       "text": "If you want a break from agility, fish 3k raw karambwans. Banking at Zanaris ...\nLocation: Karamja",
       "manual": true,
+      "object": 2406,
       "world": [
         3202,
         3169,
         0
-      ],
-      "object": 2406
+      ]
     },
     {
       "id": "sg-047",
       "title": "Should get to 70+ mage by …",
       "text": "Should get to 70+ mage by the time you're done with agility for now\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "sg-048",
