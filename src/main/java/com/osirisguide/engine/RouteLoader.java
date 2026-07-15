@@ -98,7 +98,7 @@ public final class RouteLoader
 		IndexDto index = readResource(gson, base + "route-index.json", IndexDto.class);
 		if (index == null || index.sections == null || index.sections.isEmpty())
 		{
-			log.warn("Osiris Guide: route index missing or empty for guide '{}'; no route loaded", guideId);
+			log.warn("Gustav's Helper: route index missing or empty for guide '{}'; no route loaded", guideId);
 			return new Route(new ArrayList<>());
 		}
 		List<RouteStep> steps = new ArrayList<>();
@@ -108,7 +108,7 @@ public final class RouteLoader
 			SectionDto section = readResource(gson, base + file, SectionDto.class);
 			if (section == null || section.steps == null)
 			{
-				log.warn("Osiris Guide: section file '{}' missing or empty", file);
+				log.warn("Gustav's Helper: section file '{}' missing or empty", file);
 				continue;
 			}
 			for (StepDto dto : section.steps)
@@ -116,7 +116,7 @@ public final class RouteLoader
 				addUnique(steps, seen, convert(dto, section.section));
 			}
 		}
-		log.debug("Osiris Guide: guide '{}' loaded {} steps across {} sections",
+		log.debug("Gustav's Helper: guide '{}' loaded {} steps across {} sections",
 			guideId, steps.size(), index.sections.size());
 		return new Route(steps);
 	}
@@ -151,7 +151,7 @@ public final class RouteLoader
 		}
 		if (!seen.add(step.getId()))
 		{
-			log.warn("Osiris Guide: duplicate step id '{}' ignored", step.getId());
+			log.warn("Gustav's Helper: duplicate step id '{}' ignored", step.getId());
 			return;
 		}
 		steps.add(step);
@@ -161,7 +161,7 @@ public final class RouteLoader
 	{
 		if (dto == null || dto.id == null || dto.id.isEmpty())
 		{
-			log.warn("Osiris Guide: skipping step with missing id in section '{}'", section);
+			log.warn("Gustav's Helper: skipping step with missing id in section '{}'", section);
 			return null;
 		}
 		boolean manual = dto.manual != null && dto.manual;
@@ -213,7 +213,7 @@ public final class RouteLoader
 			}
 			catch (IllegalArgumentException e)
 			{
-				log.warn("Osiris Guide: unknown quest '{}' in step '{}'", dto.quest, dto.id);
+				log.warn("Gustav's Helper: unknown quest '{}' in step '{}'", dto.quest, dto.id);
 			}
 		}
 		return ConstantCondition.MANUAL;
@@ -234,7 +234,7 @@ public final class RouteLoader
 			}
 			catch (IllegalArgumentException e)
 			{
-				log.warn("Osiris Guide: unknown mode '{}' in step '{}'", m, stepId);
+				log.warn("Gustav's Helper: unknown mode '{}' in step '{}'", m, stepId);
 			}
 		}
 		return modes;
@@ -279,13 +279,13 @@ public final class RouteLoader
 					return new QuestRequirement(Quest.valueOf(r.quest.toUpperCase()),
 						r.state != null ? QuestState.valueOf(r.state.toUpperCase()) : QuestState.FINISHED);
 				default:
-					log.warn("Osiris Guide: unknown requirement type '{}' in step '{}'", r.type, stepId);
+					log.warn("Gustav's Helper: unknown requirement type '{}' in step '{}'", r.type, stepId);
 					return null;
 			}
 		}
 		catch (IllegalArgumentException | NullPointerException e)
 		{
-			log.warn("Osiris Guide: bad requirement in step '{}': {}", stepId, e.getMessage());
+			log.warn("Gustav's Helper: bad requirement in step '{}': {}", stepId, e.getMessage());
 			return null;
 		}
 	}
@@ -305,7 +305,7 @@ public final class RouteLoader
 		}
 		catch (Exception e)
 		{
-			log.warn("Osiris Guide: failed to read resource '{}': {}", path, e.getMessage());
+			log.warn("Gustav's Helper: failed to read resource '{}': {}", path, e.getMessage());
 			return null;
 		}
 	}

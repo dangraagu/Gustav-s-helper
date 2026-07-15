@@ -59,7 +59,7 @@ public final class ConditionFactory
 		}
 		catch (Exception e)
 		{
-			log.warn("Osiris Guide: could not parse condition for step '{}': {}", stepId, e.getMessage());
+			log.warn("Gustav's Helper: could not parse condition for step '{}': {}", stepId, e.getMessage());
 			return ConstantCondition.MANUAL;
 		}
 	}
@@ -111,7 +111,7 @@ public final class ConditionFactory
 				int id = getInt(o, "id", -1);
 				if (id < 0)
 				{
-					log.warn("Osiris Guide: itemAcquired condition missing/invalid id in step '{}'", stepId);
+					log.warn("Gustav's Helper: itemAcquired condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new ItemAcquiredCondition(id, getInt(o, "qty", 1));
@@ -123,7 +123,7 @@ public final class ConditionFactory
 				int id = getInt(o, "id", -1);
 				if (id < 0)
 				{
-					log.warn("Osiris Guide: itemConsumed condition missing/invalid id in step '{}'", stepId);
+					log.warn("Gustav's Helper: itemConsumed condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new ItemConsumedCondition(id, getInt(o, "qty", 1));
@@ -133,7 +133,7 @@ public final class ConditionFactory
 				int id = getInt(o, "id", -1);
 				if (id < 0)
 				{
-					log.warn("Osiris Guide: varbit condition missing/invalid id in step '{}'", stepId);
+					log.warn("Gustav's Helper: varbit condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new VarbitCondition(id, getInt(o, "value", 0), Op.fromString(getString(o, "cmp", ">=")));
@@ -143,7 +143,7 @@ public final class ConditionFactory
 				int id = getInt(o, "id", -1);
 				if (id < 0)
 				{
-					log.warn("Osiris Guide: varp condition missing/invalid id in step '{}'", stepId);
+					log.warn("Gustav's Helper: varp condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new VarpCondition(id, getInt(o, "value", 0), Op.fromString(getString(o, "cmp", ">=")));
@@ -155,7 +155,7 @@ public final class ConditionFactory
 			case "not":
 				return new NotCondition(parseSingle(o, stepId));
 			default:
-				log.warn("Osiris Guide: unknown condition op '{}' in step '{}'", op, stepId);
+				log.warn("Gustav's Helper: unknown condition op '{}' in step '{}'", op, stepId);
 				return ConstantCondition.MANUAL;
 		}
 	}
