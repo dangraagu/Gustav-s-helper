@@ -739,7 +739,7 @@ public class OsirisGuidePlugin extends Plugin
 			return;
 		}
 		configManager.setConfiguration(OsirisGuideConfig.GROUP, "ledger_" + accountKey,
-			gson.toJson(ledger.exportState()));
+			ledger.acquiredToString());
 	}
 
 	private void loadLedger(String key)
@@ -749,20 +749,9 @@ public class OsirisGuidePlugin extends Plugin
 			return;
 		}
 		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "ledger_" + key);
-		if (value == null || value.isEmpty())
-		{
-			ledger.importState(null);
-			return;
-		}
-		try
-		{
-			ledger.importState(gson.fromJson(value, ItemLedger.State.class));
-		}
-		catch (RuntimeException ex)
-		{
-			log.warn("Osiris Guide: could not parse saved ledger; starting fresh", ex);
-			ledger.importState(null);
-		}
+		ledger.acquiredFromString(value);
+		// Re-seed live tracking against this login's containers (owned/spent rebuild from live state).
+		ledger.clearSnapshots();
 	}
 
 	// ---- Panel actions (Swing thread -> client thread) ----------------------

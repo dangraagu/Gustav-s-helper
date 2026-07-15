@@ -4,7 +4,6 @@
  */
 package com.osirisguide.engine.ledger;
 
-import com.google.gson.annotations.Expose;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -180,57 +179,63 @@ public class ItemLedger
 
 	// ---- persistence --------------------------------------------------------
 
-	/** Serializable snapshot of the whole ledger (persisted per account via Gson). */
-	public static class State
-	{
-		// @Expose so the state still serializes if the injected Gson excludes un-exposed fields
-		// (harmless otherwise) — otherwise the ledger would save as "{}" and never persist.
-		@Expose
-		public Map<Integer, Integer> acquired = new HashMap<>();
-		@Expose
-		public Map<Integer, Map<Integer, Integer>> snapshots = new HashMap<>();
-		@Expose
-		public Set<Integer> seeded = new HashSet<>();
-	}
+	// Only the monotonic 'acquired' totals persist across sessions, as a plain string (no Gson — the
+	// injected RuneLite Gson's field rules were silently dropping the state). Step completion itself
+	// is preserved separately by the saved completed-step ids, so this only keeps the ledger DISPLAY
+	// history; owned/spent recompute from live containers each session (re-seeded on login).
 
-	public State exportState()
+	/** Serialize acquired totals as "id:count;id:count". */
+	public String acquiredToString()
 	{
-		State s = new State();
-		s.acquired = new HashMap<>(acquired);
-		s.seeded = new HashSet<>(seeded);
-		s.snapshots = new HashMap<>();
-		for (Map.Entry<Integer, Map<Integer, Integer>> e : current.entrySet())
+		StringBuilder sb = new StringBuilder();
+		for (Map.Entry<Integer, Integer> e : acquired.entrySet())
 		{
-			s.snapshots.put(e.getKey(), new HashMap<>(e.getValue()));
+			if (sb.length() > 0)
+			{
+				sb.append(';');
+			}
+			sb.append(e.getKey()).append(':').append(e.getValue());
 		}
-		return s;
+		return sb.toString();
 	}
 
-	public void importState(State s)
+	/** Restore acquired totals from {@link #acquiredToString}. Leaves snapshots/seeded untouched. */
+	public void acquiredFromString(String s)
 	{
-		reset();
-		if (s == null)
+		acquired.clear();
+		if (s == null || s.isEmpty())
 		{
 			return;
 		}
-		if (s.acquired != null)
+		for (String part : s.split(";"))
 		{
-			acquired.putAll(s.acquired);
-		}
-		if (s.seeded != null)
-		{
-			seeded.addAll(s.seeded);
-		}
-		if (s.snapshots != null)
-		{
-			for (Map.Entry<Integer, Map<Integer, Integer>> e : s.snapshots.entrySet())
+			int c = part.indexOf(':');
+			if (c <= 0)
 			{
-				if (e.getValue() != null)
+				continue;
+			}
+			try
+			{
+				int id = Integer.parseInt(part.substring(0, c).trim());
+				int count = Integer.parseInt(part.substring(c + 1).trim());
+				if (count > 0)
 				{
-					current.put(e.getKey(), new HashMap<>(e.getValue()));
+					acquired.put(id, count);
 				}
 			}
+			catch (NumberFormatException ignored)
+			{
+				// skip malformed entry
+			}
 		}
+	}
+
+	/** Drops live snapshots + seeding (used on login so the ledger re-seeds against fresh containers). */
+	public void clearSnapshots()
+	{
+		current.clear();
+		seeded.clear();
+		pending.clear();
 	}
 
 	/** Clears everything (used on reset). */

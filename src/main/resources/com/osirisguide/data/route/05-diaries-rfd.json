@@ -14,9 +14,20 @@
       "title": "Buy a bunch of chocolate dust …",
       "text": "Buy a bunch of chocolate dust from the chest and make energy pots\nLocation: Lumbridge",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1975,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1975,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1975,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1975,
       "world": [
@@ -41,7 +52,11 @@
       "id": "dr-005",
       "title": "Do these quests for QP and …",
       "text": "Do these quests for QP and diaries: A soul's bane, Another slice of H.A.M, Ic...\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "ANOTHER_SLICE_OF_HAM",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-006",
@@ -58,7 +73,11 @@
       "id": "dr-007",
       "title": "Complete Defender of Varrock quest (55 …",
       "text": "Complete Defender of Varrock quest (55 Smithing, 52 Hunter + prerequisites)\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DEFENDER_OF_VARROCK",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-008",
@@ -75,31 +94,51 @@
       "id": "dr-009",
       "title": "Complete At First Light quest (now …",
       "text": "Complete At First Light quest (now that Eagles' Peak is done; also needs 46 H...\nLocation: Varlamore",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-010",
       "title": "Rum deal (Req 42 slayer, you …",
       "text": "Rum deal (Req 42 slayer, you should be close to it. Get a task from Mazchna f...\nLocation: Braindeath Island",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "RUM_DEAL",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-011",
       "title": "Cabin fever",
       "text": "Cabin fever\nLocation: Mos Le'Harmless",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "CABIN_FEVER",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-012",
       "title": "One small favour",
       "text": "One small favour\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-013",
       "title": "Watchtower quest",
       "text": "Watchtower quest\nLocation: Yanille",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "WATCHTOWER",
+        "state": "FINISHED"
+      },
       "world": [
         2605,
         3095,
@@ -139,13 +178,21 @@
       "id": "dr-018",
       "title": "Do Eadgar's ruse",
       "text": "Do Eadgar's ruse\nLocation: Trollheim",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "EADGARS_RUSE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-019",
       "title": "Do My arm's big adventure",
       "text": "Do My arm's big adventure\nLocation: Trollheim",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "MY_ARMS_BIG_ADVENTURE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "dr-020",

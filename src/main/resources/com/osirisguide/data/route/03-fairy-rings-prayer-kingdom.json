@@ -8,11 +8,10 @@
       "title": "Buy a bronze sword from Varrock …",
       "text": "Buy a bronze sword from Varrock sword shop (for Horror from the deep quest)\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1277,
-        "qty": 1
+        "op": "quest",
+        "quest": "HORROR_FROM_THE_DEEP",
+        "state": "FINISHED"
       },
-      "item": 1277,
       "world": [
         3213,
         3428,
@@ -35,9 +34,20 @@
       "title": "Buy an oak longbow and a …",
       "text": "Buy an oak longbow and a regular shortbow from Lowe\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 845,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 845,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 845,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 845,
       "world": [
@@ -50,7 +60,11 @@
       "id": "frp-004",
       "title": "Start Priest in peril",
       "text": "Start Priest in peril\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -62,9 +76,20 @@
       "title": "Buy 400 steel nails at the …",
       "text": "Buy 400 steel nails at the sawmill, if every world is bought out then don't b...\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1539,
-        "qty": 400
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1539,
+            "qty": 400
+          },
+          {
+            "op": "item",
+            "id": 1539,
+            "qty": 400,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1539,
       "world": [
@@ -88,22 +113,41 @@
       "id": "frp-007",
       "title": "Do priest in peril",
       "text": "Do priest in peril\nLocation: Morytania",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-008",
       "title": "Do Nature spirit",
       "text": "Do Nature spirit\nLocation: Morytania",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-009",
       "title": "Buy 1 raw shark from Canifis …",
       "text": "Buy 1 raw shark from Canifis food shop\nLocation: Canifis",
       "complete": {
-        "op": "itemAcquired",
-        "id": 383,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 383,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 383,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 383,
       "world": [
@@ -116,7 +160,11 @@
       "id": "frp-010",
       "title": "Do Creature of Fenkenstrain",
       "text": "Do Creature of Fenkenstrain\nLocation: Canifis",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "CREATURE_OF_FENKENSTRAIN",
+        "state": "FINISHED"
+      },
       "world": [
         3495,
         3488,
@@ -227,7 +275,11 @@
       "id": "frp-021",
       "title": "Start Lost city",
       "text": "Start Lost city\nLocation: Lumbridge Swamp",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
       "world": [
         3200,
         3170,
@@ -249,7 +301,11 @@
       "id": "frp-023",
       "title": "Do Ernest the chicken, finish vampire …",
       "text": "Do Ernest the chicken, finish vampire slayer\nLocation: Draynor Manor",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
       "world": [
         3108,
         3352,
@@ -282,7 +338,11 @@
       "id": "frp-026",
       "title": "Talk to the high priest for …",
       "text": "Talk to the high priest for Holy grail\nLocation: Entrana",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-027",
@@ -294,7 +354,11 @@
       "id": "frp-028",
       "title": "Finish Lost city",
       "text": "Finish Lost city\nLocation: Entrana",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-029",
@@ -340,9 +404,20 @@
       "title": "Buy 1 marigold seed, 3 cabbage …",
       "text": "Buy 1 marigold seed, 3 cabbage seeds, 3 onion seeds from Draynor seed market\nLocation: Draynor",
       "complete": {
-        "op": "itemAcquired",
-        "id": 5096,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5096,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 5096,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 5096,
       "world": [
@@ -594,16 +669,31 @@
       "id": "frp-058",
       "title": "Do Death to the Dorgeshuun. While …",
       "text": "Do Death to the Dorgeshuun. While getting the robes, keep buttons (If you did...\nLocation: Dorgesh-Kaan",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_TO_THE_DORGESHUUN",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-059",
       "title": "Buy dorgeshuun crossbow and 4000 bone …",
       "text": "Buy dorgeshuun crossbow and 4000 bone bolts\nLocation: Dorgesh-Kaan",
       "complete": {
-        "op": "itemAcquired",
-        "id": 8880,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 8880,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 8880,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 8880
     },
@@ -612,9 +702,20 @@
       "title": "Buy a Bullseye lantern (empty) from …",
       "text": "Buy a Bullseye lantern (empty) from Miltog at the market in Dorgeshkaan\nLocation: Dorgesh-Kaan",
       "complete": {
-        "op": "itemAcquired",
-        "id": 4548,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 4548,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 4548,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 4548
     },
@@ -628,13 +729,21 @@
       "id": "frp-062",
       "title": "Finish Holy grail",
       "text": "Finish Holy grail\nLocation: Fisher King Realm",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-063",
       "title": "Do Horror from the deep quest",
       "text": "Do Horror from the deep quest\nLocation: Lighthouse",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "HORROR_FROM_THE_DEEP",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-064",
@@ -656,7 +765,11 @@
       "id": "frp-065",
       "title": "Complete Twilight's Promise quest (requires Children …",
       "text": "Complete Twilight's Promise quest (requires Children of the Sun; ~40 combat r...\nLocation: Varlamore",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "CHILDREN_OF_THE_SUN",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-066",
@@ -674,7 +787,11 @@
       "id": "frp-068",
       "title": "Do Animal magnetism",
       "text": "Do Animal magnetism\nLocation: Draynor Manor",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ANIMAL_MAGNETISM",
+        "state": "FINISHED"
+      },
       "world": [
         3108,
         3352,
@@ -686,9 +803,20 @@
       "title": "Buy mithril platebody from Horvik in …",
       "text": "Buy mithril platebody from Horvik in Varrock\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1121,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1121,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1121,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1121,
       "world": [
@@ -702,9 +830,20 @@
       "title": "Buy mithril platelegs from al-kharid",
       "text": "Buy mithril platelegs from al-kharid\nLocation: Al Kharid",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1071,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1071,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1071,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1071,
       "world": [
@@ -717,13 +856,21 @@
       "id": "frp-071",
       "title": "Do Spirits of the Elid quest",
       "text": "Do Spirits of the Elid quest\nLocation: Nardah",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SPIRITS_OF_THE_ELID",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-072",
       "title": "Do the Underground pass quest",
       "text": "Do the Underground pass quest\nLocation: Underground Pass",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "UNDERGROUND_PASS",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-073",
@@ -790,9 +937,20 @@
       "title": "Buy however many buckets of slime …",
       "text": "Buy however many buckets of slime you need for the bones\nLocation: Port Khazard",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1925,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1925,
       "world": [
@@ -827,7 +985,11 @@
       "id": "frp-081",
       "title": "Make sure you have all ghosts …",
       "text": "Make sure you have all ghosts ahoy items\nLocation: Port Khazard",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "world": [
         2660,
         3155,
@@ -849,7 +1011,11 @@
       "id": "frp-083",
       "title": "Start ghosts ahoy",
       "text": "Start ghosts ahoy\nLocation: Port Phasmatys",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "world": [
         3685,
         3475,
@@ -871,7 +1037,11 @@
       "id": "frp-085",
       "title": "Finish ghosts ahoy",
       "text": "Finish ghosts ahoy\nLocation: Port Phasmatys",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "world": [
         3685,
         3475,
@@ -904,7 +1074,11 @@
       "id": "frp-088",
       "title": "Do Wanted! quest",
       "text": "Do Wanted! quest\nLocation: Falador",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "WANTED",
+        "state": "FINISHED"
+      },
       "world": [
         2965,
         3380,
@@ -948,7 +1122,11 @@
       "id": "frp-092",
       "title": "Do Heroes' quest",
       "text": "Do Heroes' quest\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "HEROES_QUEST",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-093",
@@ -965,13 +1143,21 @@
       "id": "frp-094",
       "title": "Do Throne of miscellania",
       "text": "Do Throne of miscellania\nLocation: Miscellania",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THRONE_OF_MISCELLANIA",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-095",
       "title": "Do Royal Trouble",
       "text": "Do Royal Trouble\nLocation: Miscellania",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "ROYAL_TROUBLE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-096",
@@ -1000,7 +1186,11 @@
       "id": "frp-099",
       "title": "Do Bone Voyage quest",
       "text": "Do Bone Voyage quest\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -1034,7 +1224,11 @@
       "id": "frp-103",
       "title": "Do Tears of guthix quest, do …",
       "text": "Do Tears of guthix quest, do the minigame weekly it's very worth it\nLocation: Lumbridge Swamp",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "TEARS_OF_GUTHIX",
+        "state": "FINISHED"
+      },
       "world": [
         3200,
         3170,
@@ -1045,16 +1239,31 @@
       "id": "frp-104",
       "title": "Start The Giant Dwarf quest to …",
       "text": "Start The Giant Dwarf quest to unlock Keldagrim\nLocation: Keldagrim",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "frp-105",
       "title": "Buy 2 inventories of gold ore …",
       "text": "Buy 2 inventories of gold ore from the blast furnace shop\nLocation: Keldagrim",
       "complete": {
-        "op": "itemAcquired",
-        "id": 444,
-        "qty": 2
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 444,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 444,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 444
     },

@@ -7,7 +7,11 @@
       "id": "sail-001",
       "title": "Unlock Sailing via the Pandemonium quest …",
       "text": "Unlock Sailing via the Pandemonium quest - this is main-guide step 1.1.78a (W...\nLocation: Port Sarim",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PANDEMONIUM",
+        "state": "FINISHED"
+      },
       "world": [
         3050,
         3245,
@@ -29,7 +33,11 @@
       "id": "sail-003",
       "title": "Complete Prying Times (Sailing 12, Smithing …",
       "text": "Complete Prying Times (Sailing 12, Smithing 30, The Knight's Sword)\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sail-004",
@@ -41,7 +49,11 @@
       "id": "sail-005",
       "title": "Complete Current Affairs (Sailing 22, Fishing …",
       "text": "Complete Current Affairs (Sailing 22, Fishing 10)\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "CURRENT_AFFAIRS",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sail-006",
@@ -53,13 +65,21 @@
       "id": "sail-007",
       "title": "Complete Troubled Tortugans (Sailing 45, plus …",
       "text": "Complete Troubled Tortugans (Sailing 45, plus 51 Slayer / 48 Construction / 4...\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "TROUBLED_TORTUGANS",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sail-008",
       "title": "Complete The Red Reef (Sailing 52, …",
       "text": "Complete The Red Reef (Sailing 52, Smithing 48)\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RED_REEF",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sail-009",
