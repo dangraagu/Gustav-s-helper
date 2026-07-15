@@ -9,6 +9,18 @@ maintains https://ironman.guide/ . All credit for the route, ordering, and
 strategy belongs to them. This plugin is an unofficial companion and is not
 affiliated with, endorsed by, or produced by Oziris, ironman.guide, or Jagex.
 
+Additional bundled guides (selectable in config) and their sources/licenses:
+  - "B0aty HCIM Guide V3" — Old School RuneScape Wiki, CC BY-NC-SA 3.0
+    https://oldschool.runescape.wiki/w/Guide:B0aty_HCIM_Guide_V3
+  - "Optimal Quest Guide (Ironman)" — Old School RuneScape Wiki, CC BY-NC-SA 3.0
+    https://oldschool.runescape.wiki/w/Optimal_quest_guide/Ironman
+  - "Ironman PvM Rush" — Old School RuneScape Wiki, CC BY-NC-SA 3.0
+    https://oldschool.runescape.wiki/w/User:AtelierLogic2/Guide:Ironman_PvM_Rush
+Each guide's route is the work of its authors, used here for a companion tool
+with attribution. OSRS Wiki content is licensed CC BY-NC-SA 3.0 (attribution,
+non-commercial, share-alike); the per-guide source + license are recorded in each
+guide's data files. If you are a rights holder and want a change, open an issue.
+
 Game facts (skill levels, item names/ids, quest requirements, coordinates) are
 factual data about Old School RuneScape and are not claimed as original work.
 The specific curated ordering and any guide wording remain the work of their

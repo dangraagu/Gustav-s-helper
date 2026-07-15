@@ -1,0 +1,4182 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Optimal_quest_guide/Ironman",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Questing Order",
+  "steps": [
+    {
+      "id": "qo-001",
+      "title": "Learning the Ropes",
+      "text": "Learning the Ropes\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "LEARNING_THE_ROPES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-002",
+      "title": "Cook's Assistant",
+      "text": "Cook's Assistant\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "COOKS_ASSISTANT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-003",
+      "title": "Sheep Shearer",
+      "text": "Sheep Shearer\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "SHEEP_SHEARER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-004",
+      "title": "Misthalin Mystery",
+      "text": "Misthalin Mystery\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "MISTHALIN_MYSTERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-005",
+      "title": "The Restless Ghost",
+      "text": "The Restless Ghost\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-006",
+      "title": "X Marks the Spot",
+      "text": "X Marks the Spot\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-007",
+      "title": "Witch's Potion",
+      "text": "Witch's Potion\nLocation: Rimmington",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_POTION",
+        "state": "FINISHED"
+      },
+      "world": [
+        2956,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "qo-008",
+      "title": "Client of Kourend",
+      "text": "Client of Kourend\nLocation: Great Kourend",
+      "complete": {
+        "op": "quest",
+        "quest": "CLIENT_OF_KOUREND",
+        "state": "FINISHED"
+      },
+      "world": [
+        1628,
+        3673,
+        0
+      ]
+    },
+    {
+      "id": "qo-009",
+      "title": "Pandemonium",
+      "text": "Pandemonium\nLocation: Port Sarim",
+      "complete": {
+        "op": "quest",
+        "quest": "PANDEMONIUM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "qo-010",
+      "title": "Partially complete: Pirate's Treasure",
+      "text": "Partially complete: Pirate's Treasure\nLocation: Musa Point",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-011",
+      "title": "Unlock: Stronghold of Security",
+      "text": "Unlock: Stronghold of Security\nLocation: Barbarian Village",
+      "manual": true,
+      "world": [
+        3081,
+        3420,
+        0
+      ],
+      "object": 20790
+    },
+    {
+      "id": "qo-012",
+      "title": "Children of the Sun",
+      "text": "Children of the Sun\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "CHILDREN_OF_THE_SUN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-013",
+      "title": "Romeo & Juliet",
+      "text": "Romeo & Juliet\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-014",
+      "title": "Gertrude's Cat",
+      "text": "Gertrude's Cat\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-015",
+      "title": "Daddy's Home (miniquest)",
+      "text": "Daddy's Home (miniquest)\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "DADDYS_HOME",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-016",
+      "title": "Natural history quiz (miniquest)",
+      "text": "Natural history quiz (miniquest)\nLocation: Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-017",
+      "title": "Partially complete: Demon Slayer",
+      "text": "Partially complete: Demon Slayer\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-018",
+      "title": "Rune Mysteries",
+      "text": "Rune Mysteries\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-019",
+      "title": "Partially complete: Enter the Abyss",
+      "text": "Partially complete: Enter the Abyss\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-020",
+      "title": "Tree Gnome Village",
+      "text": "Tree Gnome Village\nLocation: Tree Gnome Village",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-021",
+      "title": "Hazeel Cult",
+      "text": "Hazeel Cult\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "HAZEEL_CULT",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-022",
+      "title": "Clock Tower",
+      "text": "Clock Tower\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "CLOCK_TOWER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-023",
+      "title": "Monk's Friend",
+      "text": "Monk's Friend\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-024",
+      "title": "Plague City",
+      "text": "Plague City\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "PLAGUE_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-025",
+      "title": "Biohazard",
+      "text": "Biohazard\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "BIOHAZARD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-026",
+      "title": "Demon Slayer",
+      "text": "Demon Slayer\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-027",
+      "title": "Enter the Abyss (miniquest)",
+      "text": "Enter the Abyss (miniquest)\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-028",
+      "title": "Easy Ardougne Diary",
+      "text": "Easy Ardougne Diary\nLocation: Ardougne",
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ],
+      "npc": 8764
+    },
+    {
+      "id": "qo-029",
+      "title": "Fight Arena",
+      "text": "Fight Arena\nLocation: Fight Arena",
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2613,
+        3190,
+        0
+      ]
+    },
+    {
+      "id": "qo-030",
+      "title": "Sheep Herder",
+      "text": "Sheep Herder\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "SHEEP_HERDER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-031",
+      "title": "Partially complete: Dwarf Cannon",
+      "text": "Partially complete: Dwarf Cannon\nLocation: Coal Trucks",
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-032",
+      "title": "Unlock Barbarian Assault teleport; partially complete …",
+      "text": "Unlock Barbarian Assault teleport; partially complete Alfred Grimhand's Barcrawl\nLocation: Barbarian Outpost",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2549,
+        3558,
+        0
+      ]
+    },
+    {
+      "id": "qo-033",
+      "title": "Waterfall Quest",
+      "text": "Waterfall Quest\nLocation: Baxtorian Falls",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2513,
+        3483,
+        0
+      ]
+    },
+    {
+      "id": "qo-034",
+      "title": "Murder Mystery",
+      "text": "Murder Mystery\nLocation: Sinclair Mansion",
+      "complete": {
+        "op": "quest",
+        "quest": "MURDER_MYSTERY",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-035",
+      "title": "Merlin's Crystal",
+      "text": "Merlin's Crystal\nLocation: Camelot",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "qo-036",
+      "title": "Holy Grail",
+      "text": "Holy Grail\nLocation: Camelot",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "qo-037",
+      "title": "Doric's Quest",
+      "text": "Doric's Quest\nLocation: Taverley",
+      "complete": {
+        "op": "quest",
+        "quest": "DORICS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2910,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "qo-038",
+      "title": "Druidic Ritual",
+      "text": "Druidic Ritual\nLocation: Taverley",
+      "complete": {
+        "op": "quest",
+        "quest": "DRUIDIC_RITUAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2910,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "qo-039",
+      "title": "Witch's House",
+      "text": "Witch's House\nLocation: Taverley",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2910,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "qo-040",
+      "title": "Dwarf Cannon",
+      "text": "Dwarf Cannon\nLocation: Coal Trucks",
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-041",
+      "title": "Below Ice Mountain",
+      "text": "Below Ice Mountain\nLocation: Asgarnia",
+      "complete": {
+        "op": "quest",
+        "quest": "BELOW_ICE_MOUNTAIN",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-042",
+      "title": "Black Knights' Fortress",
+      "text": "Black Knights' Fortress\nLocation: Falador",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "qo-043",
+      "title": "Pirate's Treasure",
+      "text": "Pirate's Treasure\nLocation: Falador",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "qo-044",
+      "title": "The Ides of Milk",
+      "text": "The Ides of Milk\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_IDES_OF_MILK",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-045",
+      "title": "Observatory Quest",
+      "text": "Observatory Quest\nLocation: Observatory",
+      "complete": {
+        "op": "quest",
+        "quest": "OBSERVATORY_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2441,
+        3162,
+        0
+      ]
+    },
+    {
+      "id": "qo-046",
+      "title": "Priest in Peril",
+      "text": "Priest in Peril\nLocation: Paterdomus",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-047",
+      "title": "Partially complete: Rag and Bone Man …",
+      "text": "Partially complete: Rag and Bone Man I\nLocation: Paterdomus",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-048",
+      "title": "Nature Spirit",
+      "text": "Nature Spirit\nLocation: Paterdomus",
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-049",
+      "title": "Recruitment Drive",
+      "text": "Recruitment Drive\nLocation: Falador",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "qo-050",
+      "title": "Alfred Grimhand's Barcrawl (miniquest)",
+      "text": "Alfred Grimhand's Barcrawl (miniquest)\nLocation: Barbarian Outpost",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2549,
+        3558,
+        0
+      ]
+    },
+    {
+      "id": "qo-051",
+      "title": "Unlock: Anti-dragon shield",
+      "text": "Unlock: Anti-dragon shield\nLocation: Champions' Guild",
+      "manual": true
+    },
+    {
+      "id": "qo-052",
+      "title": "Scorpion Catcher",
+      "text": "Scorpion Catcher\nLocation: Seers' Village",
+      "complete": {
+        "op": "quest",
+        "quest": "SCORPION_CATCHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2725,
+        3485,
+        0
+      ]
+    },
+    {
+      "id": "qo-053",
+      "title": "Jungle Potion",
+      "text": "Jungle Potion\nLocation: Tai Bwo Wannai",
+      "complete": {
+        "op": "quest",
+        "quest": "JUNGLE_POTION",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-054",
+      "title": "Vampyre Slayer",
+      "text": "Vampyre Slayer\nLocation: Draynor Village",
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "qo-055",
+      "title": "A Porcine of Interest",
+      "text": "A Porcine of Interest\nLocation: Draynor Village",
+      "complete": {
+        "op": "quest",
+        "quest": "A_PORCINE_OF_INTEREST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "qo-056",
+      "title": "Rag and Bone Man I",
+      "text": "Rag and Bone Man I\nLocation: Paterdomus",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-057",
+      "title": "Partially complete: Rag and Bone Man …",
+      "text": "Partially complete: Rag and Bone Man II\nLocation: Paterdomus",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_II",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-058",
+      "title": "Train Cooking to 15",
+      "text": "Train Cooking to 15",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 15,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-059",
+      "title": "Death Plateau",
+      "text": "Death Plateau\nLocation: Burthorpe",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_PLATEAU",
+        "state": "FINISHED"
+      },
+      "world": [
+        2870,
+        3544,
+        0
+      ]
+    },
+    {
+      "id": "qo-060",
+      "title": "The Queen of Thieves",
+      "text": "The Queen of Thieves\nLocation: Port Piscarilius",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_QUEEN_OF_THIEVES",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-061",
+      "title": "Train Agility to 18",
+      "text": "Train Agility to 18",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 18,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-062",
+      "title": "The Depths of Despair",
+      "text": "The Depths of Despair\nLocation: Hosidius",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_DEPTHS_OF_DESPAIR",
+        "state": "FINISHED"
+      },
+      "world": [
+        1762,
+        3598,
+        0
+      ]
+    },
+    {
+      "id": "qo-063",
+      "title": "The Forsaken Tower",
+      "text": "The Forsaken Tower\nLocation: Great Kourend",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FORSAKEN_TOWER",
+        "state": "FINISHED"
+      },
+      "world": [
+        1628,
+        3673,
+        0
+      ]
+    },
+    {
+      "id": "qo-064",
+      "title": "Tale of the Righteous",
+      "text": "Tale of the Righteous\nLocation: Great Kourend",
+      "complete": {
+        "op": "quest",
+        "quest": "TALE_OF_THE_RIGHTEOUS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1628,
+        3673,
+        0
+      ]
+    },
+    {
+      "id": "qo-065",
+      "title": "Mountain Daughter",
+      "text": "Mountain Daughter\nLocation: Rellekka",
+      "complete": {
+        "op": "quest",
+        "quest": "MOUNTAIN_DAUGHTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3677,
+        0
+      ]
+    },
+    {
+      "id": "qo-066",
+      "title": "Train Agility to 25",
+      "text": "Train Agility to 25",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 25,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-067",
+      "title": "The Grand Tree",
+      "text": "The Grand Tree\nLocation: Tree Gnome Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "qo-068",
+      "title": "Tribal Totem",
+      "text": "Tribal Totem\nLocation: Brimhaven",
+      "complete": {
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2760,
+        3195,
+        0
+      ]
+    },
+    {
+      "id": "qo-069",
+      "title": "The Dig Site",
+      "text": "The Dig Site\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_DIG_SITE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-070",
+      "title": "The Golem",
+      "text": "The Golem\nLocation: Ruins of Uzer",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3480,
+        3095,
+        0
+      ]
+    },
+    {
+      "id": "qo-071",
+      "title": "Recipe for Disaster: Another Cook's Quest",
+      "text": "Recipe for Disaster: Another Cook's Quest\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-072",
+      "title": "The Knight's Sword",
+      "text": "The Knight's Sword\nLocation: Falador",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "qo-073",
+      "title": "Elemental Workshop I",
+      "text": "Elemental Workshop I\nLocation: Seers' Village",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2725,
+        3485,
+        0
+      ]
+    },
+    {
+      "id": "qo-074",
+      "title": "Prince Ali Rescue",
+      "text": "Prince Ali Rescue\nLocation: Al Kharid",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
+    },
+    {
+      "id": "qo-075",
+      "title": "Shadow of the Storm",
+      "text": "Shadow of the Storm\nLocation: Al Kharid",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOW_OF_THE_STORM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
+    },
+    {
+      "id": "qo-076",
+      "title": "Train Sailing to 12",
+      "text": "Train Sailing to 12",
+      "manual": true
+    },
+    {
+      "id": "qo-077",
+      "title": "Prying Times",
+      "text": "Prying Times\nLocation: The Pandemonium",
+      "complete": {
+        "op": "quest",
+        "quest": "PRYING_TIMES",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-078",
+      "title": "Imp Catcher",
+      "text": "Imp Catcher\nLocation: Wizards' Tower",
+      "complete": {
+        "op": "quest",
+        "quest": "IMP_CATCHER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-079",
+      "title": "Train Magic to 20",
+      "text": "Train Magic to 20",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 20,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-080",
+      "title": "Elemental Workshop II",
+      "text": "Elemental Workshop II\nLocation: Seers' Village",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2725,
+        3485,
+        0
+      ]
+    },
+    {
+      "id": "qo-081",
+      "title": "Train Woodcutting to 15",
+      "text": "Train Woodcutting to 15",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 15,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-082",
+      "title": "The Ribbiting Tale of a Lily …",
+      "text": "The Ribbiting Tale of a Lily Pad Labour Dispute\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-083",
+      "title": "Train Woodcutting to 36",
+      "text": "Train Woodcutting to 36",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 36,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-084",
+      "title": "Train Firemaking to 16",
+      "text": "Train Firemaking to 16",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 16,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-085",
+      "title": "Lost City",
+      "text": "Lost City\nLocation: Lumbridge Swamp",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3197,
+        3166,
+        0
+      ]
+    },
+    {
+      "id": "qo-086",
+      "title": "Fairytale I - Growing Pains",
+      "text": "Fairytale I - Growing Pains\nLocation: Draynor Village",
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_I__GROWING_PAINS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "qo-087",
+      "title": "Partially complete: Fairytale II - Cure …",
+      "text": "Partially complete: Fairytale II - Cure a Queen\nLocation: Draynor Village",
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_II__CURE_A_QUEEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "qo-088",
+      "title": "Goblin Diplomacy",
+      "text": "Goblin Diplomacy\nLocation: Goblin Village",
+      "complete": {
+        "op": "quest",
+        "quest": "GOBLIN_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2958,
+        3508,
+        0
+      ]
+    },
+    {
+      "id": "qo-089",
+      "title": "Recipe for Disaster: Goblin generals",
+      "text": "Recipe for Disaster: Goblin generals\nLocation: Goblin Village",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2958,
+        3508,
+        0
+      ]
+    },
+    {
+      "id": "qo-090",
+      "title": "Sleeping Giants",
+      "text": "Sleeping Giants\nLocation: Giants' Plateau",
+      "complete": {
+        "op": "quest",
+        "quest": "SLEEPING_GIANTS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-091",
+      "title": "Shield of Arrav",
+      "text": "Shield of Arrav\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-092",
+      "title": "Creature of Fenkenstrain",
+      "text": "Creature of Fenkenstrain\nLocation: Canifis",
+      "complete": {
+        "op": "quest",
+        "quest": "CREATURE_OF_FENKENSTRAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "qo-093",
+      "title": "A Soul's Bane",
+      "text": "A Soul's Bane\nLocation: Digsite",
+      "complete": {
+        "op": "quest",
+        "quest": "A_SOULS_BANE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "qo-094",
+      "title": "The Lost Tribe",
+      "text": "The Lost Tribe\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-095",
+      "title": "Death to the Dorgeshuun",
+      "text": "Death to the Dorgeshuun\nLocation: Lumbridge Swamp Caves",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_TO_THE_DORGESHUUN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3197,
+        3166,
+        0
+      ]
+    },
+    {
+      "id": "qo-096",
+      "title": "Train Magic to 33",
+      "text": "Train Magic to 33",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 33,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-097",
+      "title": "The Giant Dwarf",
+      "text": "The Giant Dwarf\nLocation: Keldagrim",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "FINISHED"
+      },
+      "world": [
+        2728,
+        3714,
+        0
+      ]
+    },
+    {
+      "id": "qo-098",
+      "title": "Another Slice of H.A.M.",
+      "text": "Another Slice of H.A.M.\nLocation: Dorgesh-Kaan",
+      "complete": {
+        "op": "quest",
+        "quest": "ANOTHER_SLICE_OF_HAM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3169,
+        3172,
+        0
+      ]
+    },
+    {
+      "id": "qo-099",
+      "title": "Making History",
+      "text": "Making History\nLocation: Outpost",
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_HISTORY",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-100",
+      "title": "In Search of the Myreque",
+      "text": "In Search of the Myreque\nLocation: Canifis",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_SEARCH_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "qo-101",
+      "title": "Shades of Mort'ton",
+      "text": "Shades of Mort'ton\nLocation: Mort'ton",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADES_OF_MORTTON",
+        "state": "FINISHED"
+      },
+      "world": [
+        3487,
+        3288,
+        0
+      ]
+    },
+    {
+      "id": "qo-102",
+      "title": "In Aid of the Myreque",
+      "text": "In Aid of the Myreque\nLocation: Canifis",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_AID_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "qo-103",
+      "title": "Unlock: Varrock Museum Kudos",
+      "text": "Unlock: Varrock Museum Kudos\nLocation: Varrock",
+      "manual": true,
+      "world": [
+        3257,
+        3449,
+        0
+      ],
+      "npc": 5214
+    },
+    {
+      "id": "qo-104",
+      "title": "Bone Voyage",
+      "text": "Bone Voyage\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-105",
+      "title": "Wanted!",
+      "text": "Wanted!\nLocation: Falador",
+      "complete": {
+        "op": "quest",
+        "quest": "WANTED",
+        "state": "FINISHED"
+      },
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "qo-106",
+      "title": "The Feud",
+      "text": "The Feud\nLocation: Al Kharid",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "FINISHED"
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
+    },
+    {
+      "id": "qo-107",
+      "title": "Troll Stronghold",
+      "text": "Troll Stronghold\nLocation: Burthorpe",
+      "complete": {
+        "op": "quest",
+        "quest": "TROLL_STRONGHOLD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2870,
+        3544,
+        0
+      ]
+    },
+    {
+      "id": "qo-108",
+      "title": "Train Woodcutting to 45",
+      "text": "Train Woodcutting to 45",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 45,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-109",
+      "title": "Troll Romance",
+      "text": "Troll Romance\nLocation: Troll Country",
+      "complete": {
+        "op": "quest",
+        "quest": "TROLL_ROMANCE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-110",
+      "title": "Dragon Slayer I",
+      "text": "Dragon Slayer I\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-111",
+      "title": "Horror from the Deep",
+      "text": "Horror from the Deep\nLocation: Lighthouse",
+      "complete": {
+        "op": "quest",
+        "quest": "HORROR_FROM_THE_DEEP",
+        "state": "FINISHED"
+      },
+      "world": [
+        2509,
+        3641,
+        0
+      ]
+    },
+    {
+      "id": "qo-112",
+      "title": "Ernest the Chicken",
+      "text": "Ernest the Chicken\nLocation: Draynor Manor",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3108,
+        3358,
+        0
+      ]
+    },
+    {
+      "id": "qo-113",
+      "title": "Animal Magnetism",
+      "text": "Animal Magnetism\nLocation: Draynor Manor",
+      "complete": {
+        "op": "quest",
+        "quest": "ANIMAL_MAGNETISM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3108,
+        3358,
+        0
+      ]
+    },
+    {
+      "id": "qo-114",
+      "title": "Shilo Village",
+      "text": "Shilo Village\nLocation: Karamja",
+      "complete": {
+        "op": "quest",
+        "quest": "SHILO_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "qo-115",
+      "title": "Train Ranged to 37",
+      "text": "Train Ranged to 37",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 37,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-116",
+      "title": "Spirits of the Elid",
+      "text": "Spirits of the Elid\nLocation: Kharidian Desert",
+      "complete": {
+        "op": "quest",
+        "quest": "SPIRITS_OF_THE_ELID",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-117",
+      "title": "Icthlarin's Little Helper",
+      "text": "Icthlarin's Little Helper\nLocation: Sophanem",
+      "complete": {
+        "op": "quest",
+        "quest": "ICTHLARINS_LITTLE_HELPER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3297,
+        2783,
+        0
+      ]
+    },
+    {
+      "id": "qo-118",
+      "title": "Ethically Acquired Antiquities",
+      "text": "Ethically Acquired Antiquities\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-119",
+      "title": "Twilight's Promise",
+      "text": "Twilight's Promise\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "TWILIGHTS_PROMISE",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-120",
+      "title": "Death on the Isle",
+      "text": "Death on the Isle\nLocation: Aldarin",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_ON_THE_ISLE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-121",
+      "title": "Ratcatchers",
+      "text": "Ratcatchers\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "RATCATCHERS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-122",
+      "title": "The Garden of Death",
+      "text": "The Garden of Death\nLocation: Kebos Lowlands",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GARDEN_OF_DEATH",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-123",
+      "title": "Train Firemaking to 20",
+      "text": "Train Firemaking to 20",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 20,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-124",
+      "title": "Enlightened Journey",
+      "text": "Enlightened Journey\nLocation: Entrana",
+      "complete": {
+        "op": "quest",
+        "quest": "ENLIGHTENED_JOURNEY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2840,
+        3358,
+        0
+      ]
+    },
+    {
+      "id": "qo-125",
+      "title": "Train Firemaking to 30",
+      "text": "Train Firemaking to 30",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 30,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-126",
+      "title": "Unlock: Balloon transport system to Crafting …",
+      "text": "Unlock: Balloon transport system to Crafting Guild\nLocation: Entrana",
+      "manual": true,
+      "world": [
+        2933,
+        3289,
+        0
+      ],
+      "object": 14910
+    },
+    {
+      "id": "qo-127",
+      "title": "Sea Slug",
+      "text": "Sea Slug\nLocation: Witchaven",
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
+      "world": [
+        2720,
+        3287,
+        0
+      ]
+    },
+    {
+      "id": "qo-128",
+      "title": "Train Sailing to 22",
+      "text": "Train Sailing to 22",
+      "manual": true
+    },
+    {
+      "id": "qo-129",
+      "title": "Current Affairs",
+      "text": "Current Affairs\nLocation: Catherby",
+      "complete": {
+        "op": "quest",
+        "quest": "CURRENT_AFFAIRS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2814,
+        3443,
+        0
+      ]
+    },
+    {
+      "id": "qo-130",
+      "title": "Fishing Contest",
+      "text": "Fishing Contest\nLocation: Hemenster",
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-131",
+      "title": "Recipe for Disaster: Freeing the Mountain …",
+      "text": "Recipe for Disaster: Freeing the Mountain Dwarf\nLocation: Falador",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "qo-132",
+      "title": "Train Cooking to 20 (consider training …",
+      "text": "Train Cooking to 20 (consider training to level 22 for efficiency)",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 20,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-133",
+      "title": "Ghosts Ahoy",
+      "text": "Ghosts Ahoy\nLocation: Port Phasmatys",
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3679,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "qo-134",
+      "title": "Train Cooking to 22",
+      "text": "Train Cooking to 22",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 22,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-135",
+      "title": "Forgettable Tale...",
+      "text": "Forgettable Tale...\nLocation: Keldagrim",
+      "complete": {
+        "op": "quest",
+        "quest": "FORGETTABLE_TALE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2728,
+        3714,
+        0
+      ]
+    },
+    {
+      "id": "qo-136",
+      "title": "Garden of Tranquillity",
+      "text": "Garden of Tranquillity\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-137",
+      "title": "Recipe for Disaster: Freeing Evil Dave",
+      "text": "Recipe for Disaster: Freeing Evil Dave\nLocation: Edgeville",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3094,
+        3493,
+        0
+      ]
+    },
+    {
+      "id": "qo-138",
+      "title": "Big Chompy Bird Hunting",
+      "text": "Big Chompy Bird Hunting\nLocation: Feldip Hills",
+      "complete": {
+        "op": "quest",
+        "quest": "BIG_CHOMPY_BIRD_HUNTING",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-139",
+      "title": "Zogre Flesh Eaters",
+      "text": "Zogre Flesh Eaters\nLocation: Feldip Hills",
+      "complete": {
+        "op": "quest",
+        "quest": "ZOGRE_FLESH_EATERS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-140",
+      "title": "Train Herblore to 30",
+      "text": "Train Herblore to 30",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 30,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-141",
+      "title": "Easy Varrock Diary",
+      "text": "Easy Varrock Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-142",
+      "title": "Easy Desert Diary",
+      "text": "Easy Desert Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-143",
+      "title": "Darkness of Hallowvale",
+      "text": "Darkness of Hallowvale\nLocation: Meiyerditch",
+      "complete": {
+        "op": "quest",
+        "quest": "DARKNESS_OF_HALLOWVALE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-144",
+      "title": "Tower of Life",
+      "text": "Tower of Life\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-145",
+      "title": "Recipe for Disaster: Freeing Pirate Pete",
+      "text": "Recipe for Disaster: Freeing Pirate Pete\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-146",
+      "title": "Easy Falador Diary",
+      "text": "Easy Falador Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-147",
+      "title": "Tai Bwo Wannai Trio",
+      "text": "Tai Bwo Wannai Trio\nLocation: Karamja",
+      "complete": {
+        "op": "quest",
+        "quest": "TAI_BWO_WANNAI_TRIO",
+        "state": "FINISHED"
+      },
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "qo-148",
+      "title": "The Tourist Trap",
+      "text": "The Tourist Trap\nLocation: Kharidian Desert",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_TOURIST_TRAP",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-149",
+      "title": "Train Fletching to 25",
+      "text": "Train Fletching to 25",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 25,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-150",
+      "title": "Eadgar's Ruse",
+      "text": "Eadgar's Ruse\nLocation: Troll Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "EADGARS_RUSE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-151",
+      "title": "My Arm's Big Adventure",
+      "text": "My Arm's Big Adventure\nLocation: Troll Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "MY_ARMS_BIG_ADVENTURE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-152",
+      "title": "The Fremennik Trials",
+      "text": "The Fremennik Trials\nLocation: Fremennik Province",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-153",
+      "title": "Train Construction to 20",
+      "text": "Train Construction to 20",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 20,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-154",
+      "title": "Train Woodcutting to 56",
+      "text": "Train Woodcutting to 56",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 56,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-155",
+      "title": "Train Crafting to 46",
+      "text": "Train Crafting to 46",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 46,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-156",
+      "title": "The Fremennik Isles",
+      "text": "The Fremennik Isles\nLocation: Fremennik Province",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_ISLES",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-157",
+      "title": "Getting Ahead",
+      "text": "Getting Ahead\nLocation: Kebos Lowlands",
+      "complete": {
+        "op": "quest",
+        "quest": "GETTING_AHEAD",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-158",
+      "title": "Train Cooking to 41",
+      "text": "Train Cooking to 41",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 41,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-159",
+      "title": "Recipe for Disaster: Freeing the Lumbridge …",
+      "text": "Recipe for Disaster: Freeing the Lumbridge Guide\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-160",
+      "title": "Recipe for Disaster: Freeing Skrach Uglogwee",
+      "text": "Recipe for Disaster: Freeing Skrach Uglogwee\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-161",
+      "title": "Haunted Mine",
+      "text": "Haunted Mine\nLocation: Abandoned Mine",
+      "complete": {
+        "op": "quest",
+        "quest": "HAUNTED_MINE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-162",
+      "title": "Train Mining to 40",
+      "text": "Train Mining to 40",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 40,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-163",
+      "title": "Easy Karamja Diary",
+      "text": "Easy Karamja Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-164",
+      "title": "Watchtower",
+      "text": "Watchtower\nLocation: Yanille",
+      "complete": {
+        "op": "quest",
+        "quest": "WATCHTOWER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2577,
+        3090,
+        0
+      ]
+    },
+    {
+      "id": "qo-165",
+      "title": "Contact!",
+      "text": "Contact!\nLocation: Al Kharid",
+      "complete": {
+        "op": "quest",
+        "quest": "CONTACT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
+    },
+    {
+      "id": "qo-166",
+      "title": "Train Magic to 46",
+      "text": "Train Magic to 46",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 46,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-167",
+      "title": "The Eyes of Glouphrie",
+      "text": "The Eyes of Glouphrie\nLocation: Tree Gnome Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_EYES_OF_GLOUPHRIE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "qo-168",
+      "title": "Temple of the Eye",
+      "text": "Temple of the Eye\nLocation: Al Kharid",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3290,
+        3185,
+        0
+      ]
+    },
+    {
+      "id": "qo-169",
+      "title": "Train Firemaking to 40 (consider training …",
+      "text": "Train Firemaking to 40 (consider training to level 50 for efficiency)",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 40,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-170",
+      "title": "Unlock: Balloon transport system to Varrock",
+      "text": "Unlock: Balloon transport system to Varrock\nLocation: Entrana",
+      "manual": true,
+      "world": [
+        2840,
+        3358,
+        0
+      ]
+    },
+    {
+      "id": "qo-171",
+      "title": "Olaf's Quest",
+      "text": "Olaf's Quest\nLocation: Fremennik Province",
+      "complete": {
+        "op": "quest",
+        "quest": "OLAFS_QUEST",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-172",
+      "title": "Train Firemaking to 50",
+      "text": "Train Firemaking to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-173",
+      "title": "Tears of Guthix",
+      "text": "Tears of Guthix\nLocation: Lumbridge Swamp Caves",
+      "complete": {
+        "op": "quest",
+        "quest": "TEARS_OF_GUTHIX",
+        "state": "FINISHED"
+      },
+      "world": [
+        3197,
+        3166,
+        0
+      ]
+    },
+    {
+      "id": "qo-174",
+      "title": "Train Ranged to 40",
+      "text": "Train Ranged to 40",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 40,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-175",
+      "title": "Temple of Ikov",
+      "text": "Temple of Ikov\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-176",
+      "title": "One Small Favour",
+      "text": "One Small Favour\nLocation: Karamja",
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "qo-177",
+      "title": "A Tail of Two Cats",
+      "text": "A Tail of Two Cats\nLocation: Kharidian Desert",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-178",
+      "title": "Train Smithing to 50",
+      "text": "Train Smithing to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-179",
+      "title": "Train Slayer to 30",
+      "text": "Train Slayer to 30",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 30,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-180",
+      "title": "The Slug Menace",
+      "text": "The Slug Menace\nLocation: Witchaven",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_SLUG_MENACE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2720,
+        3287,
+        0
+      ]
+    },
+    {
+      "id": "qo-181",
+      "title": "Between a Rock...",
+      "text": "Between a Rock...\nLocation: Keldagrim",
+      "complete": {
+        "op": "quest",
+        "quest": "BETWEEN_A_ROCK",
+        "state": "FINISHED"
+      },
+      "world": [
+        2728,
+        3714,
+        0
+      ]
+    },
+    {
+      "id": "qo-182",
+      "title": "Monkey Madness I",
+      "text": "Monkey Madness I\nLocation: Ape Atoll",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKEY_MADNESS_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2750,
+        2750,
+        0
+      ]
+    },
+    {
+      "id": "qo-183",
+      "title": "Train Construction to 34",
+      "text": "Train Construction to 34",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 34,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-184",
+      "title": "Train Hunter to 10 (consider training …",
+      "text": "Train Hunter to 10 (consider training to level 12 for efficiency)",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 10,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-185",
+      "title": "Cold War",
+      "text": "Cold War\nLocation: Fremennik Province",
+      "complete": {
+        "op": "quest",
+        "quest": "COLD_WAR",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-186",
+      "title": "Train Hunter to 12",
+      "text": "Train Hunter to 12",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 12,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-187",
+      "title": "The Ascent of Arceuus",
+      "text": "The Ascent of Arceuus\nLocation: Great Kourend",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_ASCENT_OF_ARCEUUS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1628,
+        3673,
+        0
+      ]
+    },
+    {
+      "id": "qo-188",
+      "title": "Train Hunter to 27",
+      "text": "Train Hunter to 27",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 27,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-189",
+      "title": "Eagles' Peak",
+      "text": "Eagles' Peak\nLocation: Piscatoris Hunter Area",
+      "complete": {
+        "op": "quest",
+        "quest": "EAGLES_PEAK",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-190",
+      "title": "Underground Pass",
+      "text": "Underground Pass\nLocation: Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "UNDERGROUND_PASS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-191",
+      "title": "Train Slayer to 42",
+      "text": "Train Slayer to 42",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 42,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-192",
+      "title": "Skippy and the Mogres (miniquest)",
+      "text": "Skippy and the Mogres (miniquest)\nLocation: Port Sarim",
+      "complete": {
+        "op": "quest",
+        "quest": "SKIPPY_AND_THE_MOGRES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "qo-193",
+      "title": "Rag and Bone Man II",
+      "text": "Rag and Bone Man II\nLocation: Paterdomus",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_II",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-194",
+      "title": "Lair of Tarn Razorlor (miniquest)",
+      "text": "Lair of Tarn Razorlor (miniquest)\nLocation: Abandoned Mine",
+      "complete": {
+        "op": "quest",
+        "quest": "LAIR_OF_TARN_RAZORLOR",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-195",
+      "title": "Train Fishing to 50",
+      "text": "Train Fishing to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-196",
+      "title": "Train Prayer to 47",
+      "text": "Train Prayer to 47",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 47,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-197",
+      "title": "Train Farming to 40",
+      "text": "Train Farming to 40",
+      "complete": {
+        "op": "skill",
+        "skill": "FARMING",
+        "level": 40,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-198",
+      "title": "Rum Deal",
+      "text": "Rum Deal\nLocation: Port Phasmatys",
+      "complete": {
+        "op": "quest",
+        "quest": "RUM_DEAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3679,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "qo-199",
+      "title": "Cabin Fever",
+      "text": "Cabin Fever\nLocation: Port Phasmatys",
+      "complete": {
+        "op": "quest",
+        "quest": "CABIN_FEVER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3679,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "qo-200",
+      "title": "His Faithful Servants (miniquest)",
+      "text": "His Faithful Servants (miniquest)\nLocation: Morytania",
+      "complete": {
+        "op": "quest",
+        "quest": "HIS_FAITHFUL_SERVANTS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "qo-201",
+      "title": "The Great Brain Robbery",
+      "text": "The Great Brain Robbery\nLocation: Mos Le'Harmless",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GREAT_BRAIN_ROBBERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3735,
+        2999,
+        0
+      ]
+    },
+    {
+      "id": "qo-202",
+      "title": "Train Construction to 38",
+      "text": "Train Construction to 38",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 38,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-203",
+      "title": "Scrambled!",
+      "text": "Scrambled!\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "SCRAMBLED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-204",
+      "title": "Train Crafting to 50",
+      "text": "Train Crafting to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-205",
+      "title": "The Hand in the Sand",
+      "text": "The Hand in the Sand\nLocation: Yanille",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_HAND_IN_THE_SAND",
+        "state": "FINISHED"
+      },
+      "world": [
+        2577,
+        3090,
+        0
+      ]
+    },
+    {
+      "id": "qo-206",
+      "title": "Train Mining to 45",
+      "text": "Train Mining to 45",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 45,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-207",
+      "title": "Enakhra's Lament",
+      "text": "Enakhra's Lament\nLocation: Kharidian Desert",
+      "complete": {
+        "op": "quest",
+        "quest": "ENAKHRAS_LAMENT",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-208",
+      "title": "Meat and Greet",
+      "text": "Meat and Greet\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "MEAT_AND_GREET",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-209",
+      "title": "Train Mining to 50",
+      "text": "Train Mining to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-210",
+      "title": "Train Cooking to 53",
+      "text": "Train Cooking to 53",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 53,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-211",
+      "title": "Train Fishing to 53",
+      "text": "Train Fishing to 53",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 53,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-212",
+      "title": "Heroes' Quest",
+      "text": "Heroes' Quest\nLocation: Burthorpe",
+      "complete": {
+        "op": "quest",
+        "quest": "HEROES_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2870,
+        3544,
+        0
+      ]
+    },
+    {
+      "id": "qo-213",
+      "title": "Throne of Miscellania",
+      "text": "Throne of Miscellania\nLocation: Miscellania",
+      "complete": {
+        "op": "quest",
+        "quest": "THRONE_OF_MISCELLANIA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2560,
+        3870,
+        0
+      ]
+    },
+    {
+      "id": "qo-214",
+      "title": "Royal Trouble",
+      "text": "Royal Trouble\nLocation: Miscellania",
+      "complete": {
+        "op": "quest",
+        "quest": "ROYAL_TROUBLE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2560,
+        3870,
+        0
+      ]
+    },
+    {
+      "id": "qo-215",
+      "title": "Train Magic to 50",
+      "text": "Train Magic to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-216",
+      "title": "Train Thieving to 53",
+      "text": "Train Thieving to 53",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 53,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-217",
+      "title": "Desert Treasure I",
+      "text": "Desert Treasure I\nLocation: Kharidian Desert",
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-218",
+      "title": "Train Magic to 59",
+      "text": "Train Magic to 59",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 59,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-219",
+      "title": "Train Mining to 52",
+      "text": "Train Mining to 52",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 52,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-220",
+      "title": "Train Agility to 50",
+      "text": "Train Agility to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-221",
+      "title": "A Taste of Hope",
+      "text": "A Taste of Hope\nLocation: Meiyerditch",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TASTE_OF_HOPE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-222",
+      "title": "Family Crest",
+      "text": "Family Crest\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "FAMILY_CREST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-223",
+      "title": "Legends' Quest",
+      "text": "Legends' Quest\nLocation: Karamja",
+      "complete": {
+        "op": "quest",
+        "quest": "LEGENDS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "qo-224",
+      "title": "Recipe for Disaster: Freeing Sir Amik …",
+      "text": "Recipe for Disaster: Freeing Sir Amik Varze\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-225",
+      "title": "Curse of the Empty Lord (miniquest)",
+      "text": "Curse of the Empty Lord (miniquest)\nLocation: Kandarin",
+      "complete": {
+        "op": "quest",
+        "quest": "CURSE_OF_THE_EMPTY_LORD",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-226",
+      "title": "The General's Shadow (miniquest)",
+      "text": "The General's Shadow (miniquest)\nLocation: Rellekka",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GENERALS_SHADOW",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3677,
+        0
+      ]
+    },
+    {
+      "id": "qo-227",
+      "title": "Train Farming to 44 (boost to …",
+      "text": "Train Farming to 44 (boost to 47)",
+      "complete": {
+        "op": "skill",
+        "skill": "FARMING",
+        "level": 44,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-228",
+      "title": "All Easy Achievement Diaries",
+      "text": "All Easy Achievement Diaries",
+      "manual": true
+    },
+    {
+      "id": "qo-229",
+      "title": "Medium Ardougne Diary",
+      "text": "Medium Ardougne Diary",
+      "manual": true,
+      "npc": 8764,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
+    },
+    {
+      "id": "qo-230",
+      "title": "Medium Falador Diary",
+      "text": "Medium Falador Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-231",
+      "title": "Medium Varrock Diary",
+      "text": "Medium Varrock Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-232",
+      "title": "Train Fletching to 50",
+      "text": "Train Fletching to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-233",
+      "title": "Medium Kandarin Diary",
+      "text": "Medium Kandarin Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-234",
+      "title": "Land of the Goblins",
+      "text": "Land of the Goblins\nLocation: Dorgesh-Kaan",
+      "complete": {
+        "op": "quest",
+        "quest": "LAND_OF_THE_GOBLINS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3169,
+        3172,
+        0
+      ]
+    },
+    {
+      "id": "qo-235",
+      "title": "Train Farming to 46 (boost to …",
+      "text": "Train Farming to 46 (boost to 49)",
+      "complete": {
+        "op": "skill",
+        "skill": "FARMING",
+        "level": 46,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-236",
+      "title": "Fairytale II - Cure a Queen",
+      "text": "Fairytale II - Cure a Queen\nLocation: Zanaris",
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_II__CURE_A_QUEEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3204,
+        3169,
+        0
+      ]
+    },
+    {
+      "id": "qo-237",
+      "title": "Train Agility to 54",
+      "text": "Train Agility to 54",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 54,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-238",
+      "title": "A Kingdom Divided",
+      "text": "A Kingdom Divided\nLocation: Great Kourend",
+      "complete": {
+        "op": "quest",
+        "quest": "A_KINGDOM_DIVIDED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1628,
+        3673,
+        0
+      ]
+    },
+    {
+      "id": "qo-239",
+      "title": "Train Slayer to 48",
+      "text": "Train Slayer to 48",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 48,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-240",
+      "title": "Train Mining to 55",
+      "text": "Train Mining to 55",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 55,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-241",
+      "title": "The Heart of Darkness",
+      "text": "The Heart of Darkness\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_HEART_OF_DARKNESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-242",
+      "title": "Perilous Moons",
+      "text": "Perilous Moons\nLocation: Cam Torum",
+      "complete": {
+        "op": "quest",
+        "quest": "PERILOUS_MOONS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-243",
+      "title": "Train Cooking to 65 (boost to …",
+      "text": "Train Cooking to 65 (boost to 70)",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 65,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-244",
+      "title": "Recipe for Disaster: Freeing King Awowogei",
+      "text": "Recipe for Disaster: Freeing King Awowogei\nLocation: Ape Atoll",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2750,
+        2750,
+        0
+      ]
+    },
+    {
+      "id": "qo-245",
+      "title": "Train Agility to 56",
+      "text": "Train Agility to 56",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 56,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-246",
+      "title": "Regicide",
+      "text": "Regicide\nLocation: Tirannwn",
+      "complete": {
+        "op": "quest",
+        "quest": "REGICIDE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-247",
+      "title": "Roving Elves",
+      "text": "Roving Elves\nLocation: Tirannwn",
+      "complete": {
+        "op": "quest",
+        "quest": "ROVING_ELVES",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-248",
+      "title": "Train Ranged to 60",
+      "text": "Train Ranged to 60",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-249",
+      "title": "Mourning's End Part I",
+      "text": "Mourning's End Part I\nLocation: Tirannwn",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_I",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-250",
+      "title": "Mourning's End Part II",
+      "text": "Mourning's End Part II\nLocation: Tirannwn",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_II",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-251",
+      "title": "Train Magic to 65",
+      "text": "Train Magic to 65",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 65,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-252",
+      "title": "Train Crafting to 61",
+      "text": "Train Crafting to 61",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 61,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-253",
+      "title": "Train Mining to 60",
+      "text": "Train Mining to 60",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-254",
+      "title": "Lunar Diplomacy",
+      "text": "Lunar Diplomacy\nLocation: Lunar Isle",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2117,
+        3903,
+        0
+      ]
+    },
+    {
+      "id": "qo-255",
+      "title": "What Lies Below",
+      "text": "What Lies Below\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "WHAT_LIES_BELOW",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-256",
+      "title": "Train Defence to 65",
+      "text": "Train Defence to 65",
+      "complete": {
+        "op": "skill",
+        "skill": "DEFENCE",
+        "level": 65,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-257",
+      "title": "King's Ransom",
+      "text": "King's Ransom\nLocation: Camelot",
+      "complete": {
+        "op": "quest",
+        "quest": "KINGS_RANSOM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "qo-258",
+      "title": "Knight Waves Training Grounds (miniquest)",
+      "text": "Knight Waves Training Grounds (miniquest)\nLocation: Camelot",
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "qo-259",
+      "title": "Train Magic to 66",
+      "text": "Train Magic to 66",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 66,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-260",
+      "title": "Train Fishing to 57 (boost to …",
+      "text": "Train Fishing to 57 (boost to 62 with admiral pie)",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 57,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-261",
+      "title": "Swan Song",
+      "text": "Swan Song\nLocation: Piscatoris Fishing Colony",
+      "complete": {
+        "op": "quest",
+        "quest": "SWAN_SONG",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-262",
+      "title": "Recipe for Disaster: The final battle …",
+      "text": "Recipe for Disaster: The final battle (Defeating the Culinaromancer)\nLocation: Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "qo-263",
+      "title": "Train Woodcutting to 71",
+      "text": "Train Woodcutting to 71",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 71,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-264",
+      "title": "Train Thieving to 58",
+      "text": "Train Thieving to 58",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 58,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-265",
+      "title": "Grim Tales",
+      "text": "Grim Tales\nLocation: Taverley",
+      "complete": {
+        "op": "quest",
+        "quest": "GRIM_TALES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2910,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "qo-266",
+      "title": "Train Combat to 85 (Use Slayer …",
+      "text": "Train Combat to 85 (Use Slayer to 69 for efficiency)",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 69,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-267",
+      "title": "Dream Mentor",
+      "text": "Dream Mentor\nLocation: Lunar Isle",
+      "complete": {
+        "op": "quest",
+        "quest": "DREAM_MENTOR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2117,
+        3903,
+        0
+      ]
+    },
+    {
+      "id": "qo-268",
+      "title": "Train Hunter to 46",
+      "text": "Train Hunter to 46",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 46,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-269",
+      "title": "At First Light",
+      "text": "At First Light\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-270",
+      "title": "Train Hunter to 52",
+      "text": "Train Hunter to 52",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 52,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-271",
+      "title": "Train Smithing to 55",
+      "text": "Train Smithing to 55",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 55,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-272",
+      "title": "Defender of Varrock",
+      "text": "Defender of Varrock\nLocation: Varrock",
+      "complete": {
+        "op": "quest",
+        "quest": "DEFENDER_OF_VARROCK",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "qo-273",
+      "title": "Medium Wilderness Diary",
+      "text": "Medium Wilderness Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-274",
+      "title": "Medium Karamja Diary",
+      "text": "Medium Karamja Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-275",
+      "title": "Medium Kourend & Kebos Diary",
+      "text": "Medium Kourend & Kebos Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-276",
+      "title": "Medium Lumbridge & Draynor Diary",
+      "text": "Medium Lumbridge & Draynor Diary",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "qo-277",
+      "title": "Medium Morytania Diary",
+      "text": "Medium Morytania Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-278",
+      "title": "Train Smithing to 65",
+      "text": "Train Smithing to 65",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 65,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-279",
+      "title": "Train Runecraft to 50",
+      "text": "Train Runecraft to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "RUNECRAFT",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-280",
+      "title": "Devious Minds",
+      "text": "Devious Minds\nLocation: Paterdomus",
+      "complete": {
+        "op": "quest",
+        "quest": "DEVIOUS_MINDS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-281",
+      "title": "Train Runecraft to 52",
+      "text": "Train Runecraft to 52",
+      "complete": {
+        "op": "skill",
+        "skill": "RUNECRAFT",
+        "level": 52,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-282",
+      "title": "Train Fletching to 52",
+      "text": "Train Fletching to 52",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 52,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-283",
+      "title": "Train Thieving to 66",
+      "text": "Train Thieving to 66",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 66,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-284",
+      "title": "The Final Dawn",
+      "text": "The Final Dawn\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-285",
+      "title": "Train Slayer to 54",
+      "text": "Train Slayer to 54",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 54,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-286",
+      "title": "Train Construction to 41",
+      "text": "Train Construction to 41",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 41,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-287",
+      "title": "Shadows of Custodia",
+      "text": "Shadows of Custodia\nLocation: Varlamore",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOWS_OF_CUSTODIA",
+        "state": "FINISHED"
+      },
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "qo-288",
+      "title": "Train Slayer to 56",
+      "text": "Train Slayer to 56",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 56,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-289",
+      "title": "The Path of Glouphrie",
+      "text": "The Path of Glouphrie\nLocation: Tree Gnome Village",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_PATH_OF_GLOUPHRIE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-290",
+      "title": "Train Crafting to 65",
+      "text": "Train Crafting to 65",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 65,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-291",
+      "title": "Train Slayer to 60",
+      "text": "Train Slayer to 60",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-292",
+      "title": "Train Runecraft to 55",
+      "text": "Train Runecraft to 55",
+      "complete": {
+        "op": "skill",
+        "skill": "RUNECRAFT",
+        "level": 55,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-293",
+      "title": "Train Fishing to 60",
+      "text": "Train Fishing to 60",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-294",
+      "title": "The Fremennik Exiles",
+      "text": "The Fremennik Exiles\nLocation: Fremennik Province",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_EXILES",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-295",
+      "title": "Train Fletching to 60",
+      "text": "Train Fletching to 60",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-296",
+      "title": "Sins of the Father",
+      "text": "Sins of the Father\nLocation: Meiyerditch",
+      "complete": {
+        "op": "quest",
+        "quest": "SINS_OF_THE_FATHER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-297",
+      "title": "Train Agility to 62",
+      "text": "Train Agility to 62",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 62,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-298",
+      "title": "Train Firemaking to 55",
+      "text": "Train Firemaking to 55",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 55,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-299",
+      "title": "Beneath Cursed Sands",
+      "text": "Beneath Cursed Sands\nLocation: Kharidian Desert",
+      "complete": {
+        "op": "quest",
+        "quest": "BENEATH_CURSED_SANDS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-300",
+      "title": "Train Mining to 64",
+      "text": "Train Mining to 64",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 64,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-301",
+      "title": "Train Ranged to 62",
+      "text": "Train Ranged to 62",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 62,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-302",
+      "title": "Train Strength to 58",
+      "text": "Train Strength to 58",
+      "complete": {
+        "op": "skill",
+        "skill": "STRENGTH",
+        "level": 58,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-303",
+      "title": "The Curse of Arrav",
+      "text": "The Curse of Arrav\nLocation: Uzer Oasis",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_CURSE_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3480,
+        3095,
+        0
+      ]
+    },
+    {
+      "id": "qo-304",
+      "title": "Train Agility to 68",
+      "text": "Train Agility to 68",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 68,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-305",
+      "title": "Train Mining to 70 (boost to …",
+      "text": "Train Mining to 70 (boost to 72)",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-306",
+      "title": "Train Firemaking to 66",
+      "text": "Train Firemaking to 66",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 66,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-307",
+      "title": "Making Friends with My Arm",
+      "text": "Making Friends with My Arm\nLocation: Troll Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-308",
+      "title": "Train Sailing to 45",
+      "text": "Train Sailing to 45",
+      "manual": true
+    },
+    {
+      "id": "qo-309",
+      "title": "Train Construction to 50",
+      "text": "Train Construction to 50",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 50,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-310",
+      "title": "Troubled Tortugans",
+      "text": "Troubled Tortugans\nLocation: Great Conch",
+      "complete": {
+        "op": "quest",
+        "quest": "TROUBLED_TORTUGANS",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-311",
+      "title": "Train Sailing to 52",
+      "text": "Train Sailing to 52",
+      "manual": true
+    },
+    {
+      "id": "qo-312",
+      "title": "The Red Reef",
+      "text": "The Red Reef\nLocation: Red Rock",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RED_REEF",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-313",
+      "title": "Train Crafting to 70",
+      "text": "Train Crafting to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-314",
+      "title": "Train Hunter to 60",
+      "text": "Train Hunter to 60",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-315",
+      "title": "Train Slayer to 69",
+      "text": "Train Slayer to 69",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 69,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-316",
+      "title": "Monkey Madness II",
+      "text": "Monkey Madness II\nLocation: Tree Gnome Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKEY_MADNESS_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "qo-317",
+      "title": "Medium Fremennik Diary",
+      "text": "Medium Fremennik Diary",
+      "manual": true
+    },
+    {
+      "id": "qo-318",
+      "title": "A Night at the Theatre",
+      "text": "A Night at the Theatre\nLocation: Meiyerditch",
+      "complete": {
+        "op": "quest",
+        "quest": "A_NIGHT_AT_THE_THEATRE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-319",
+      "title": "Train Magic to 75",
+      "text": "Train Magic to 75",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 75,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-320",
+      "title": "Train Smithing to 70",
+      "text": "Train Smithing to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-321",
+      "title": "Dragon Slayer II",
+      "text": "Dragon Slayer II\nLocation: Feldip Hills",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_II",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-322",
+      "title": "Secrets of the North",
+      "text": "Secrets of the North\nLocation: East Ardougne",
+      "complete": {
+        "op": "quest",
+        "quest": "SECRETS_OF_THE_NORTH",
+        "state": "FINISHED"
+      },
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "qo-323",
+      "title": "Train Farming to 65",
+      "text": "Train Farming to 65",
+      "complete": {
+        "op": "skill",
+        "skill": "FARMING",
+        "level": 65,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-324",
+      "title": "Train Thieving to 72",
+      "text": "Train Thieving to 72",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 72,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-325",
+      "title": "While Guthix Sleeps",
+      "text": "While Guthix Sleeps\nLocation: Taverley",
+      "complete": {
+        "op": "quest",
+        "quest": "WHILE_GUTHIX_SLEEPS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2910,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "qo-326",
+      "title": "Train Construction to 70",
+      "text": "Train Construction to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-327",
+      "title": "Train Farming to 70",
+      "text": "Train Farming to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "FARMING",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-328",
+      "title": "Train Herblore to 70",
+      "text": "Train Herblore to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-329",
+      "title": "Train Hunter to 70",
+      "text": "Train Hunter to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-330",
+      "title": "Song of the Elves",
+      "text": "Song of the Elves\nLocation: Tirannwn",
+      "complete": {
+        "op": "quest",
+        "quest": "SONG_OF_THE_ELVES",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-331",
+      "title": "Train Firemaking to 75",
+      "text": "Train Firemaking to 75",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 75,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-332",
+      "title": "Train Runecraft to 60",
+      "text": "Train Runecraft to 60",
+      "complete": {
+        "op": "skill",
+        "skill": "RUNECRAFT",
+        "level": 60,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-333",
+      "title": "Desert Treasure II - The Fallen …",
+      "text": "Desert Treasure II - The Fallen Empire\nLocation: Kharidian Desert",
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-334",
+      "title": "Train Slayer to 74",
+      "text": "Train Slayer to 74",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 74,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-335",
+      "title": "Train Woodcutting to 74",
+      "text": "Train Woodcutting to 74",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 74,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-336",
+      "title": "Train Smithing to 72",
+      "text": "Train Smithing to 72",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 72,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-337",
+      "title": "Train Cooking to 72",
+      "text": "Train Cooking to 72",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 72,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-338",
+      "title": "Train Fletching to 70",
+      "text": "Train Fletching to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 70,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "qo-339",
+      "title": "The Blood Moon Rises",
+      "text": "The Blood Moon Rises\nLocation: Meiyerditch",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_BLOOD_MOON_RISES",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qo-340",
+      "title": "The Corsair Curse",
+      "text": "The Corsair Curse\nLocation: Port Sarim",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_CORSAIR_CURSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    }
+  ]
+}

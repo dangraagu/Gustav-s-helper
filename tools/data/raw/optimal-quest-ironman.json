@@ -1,0 +1,1374 @@
+{
+  "id": "optimal-quest-ironman",
+  "name": "Optimal quest guide/Ironman",
+  "source": "https://oldschool.runescape.wiki/w/Optimal_quest_guide/Ironman",
+  "license": "CC BY-NC-SA 3.0",
+  "sections": [
+    {
+      "section": "Questing Order",
+      "prefix": "qo",
+      "steps": [
+        {
+          "name": "Learning the Ropes",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Cook's Assistant",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Sheep Shearer",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Misthalin Mystery",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "The Restless Ghost",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "X Marks the Spot",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Witch's Potion",
+          "loc": "Rimmington"
+        },
+        {
+          "name": "Client of Kourend",
+          "loc": "Great Kourend"
+        },
+        {
+          "name": "Pandemonium",
+          "loc": "Port Sarim"
+        },
+        {
+          "name": "Partially complete: Pirate's Treasure",
+          "loc": "Musa Point"
+        },
+        {
+          "name": "Unlock: Stronghold of Security",
+          "loc": "Barbarian Village"
+        },
+        {
+          "name": "Children of the Sun",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Romeo & Juliet",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Gertrude's Cat",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Daddy's Home (miniquest)",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Natural history quiz (miniquest)",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Partially complete: Demon Slayer",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Rune Mysteries",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Partially complete: Enter the Abyss",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Tree Gnome Village",
+          "loc": "Tree Gnome Village"
+        },
+        {
+          "name": "Hazeel Cult",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Clock Tower",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Monk's Friend",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Plague City",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Biohazard",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Demon Slayer",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Enter the Abyss (miniquest)",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Easy Ardougne Diary",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Fight Arena",
+          "loc": "Fight Arena"
+        },
+        {
+          "name": "Sheep Herder",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Partially complete: Dwarf Cannon",
+          "loc": "Coal Trucks"
+        },
+        {
+          "name": "Unlock Barbarian Assault teleport; partially complete Alfred Grimhand's Barcrawl",
+          "loc": "Barbarian Outpost"
+        },
+        {
+          "name": "Waterfall Quest",
+          "loc": "Baxtorian Falls"
+        },
+        {
+          "name": "Murder Mystery",
+          "loc": "Sinclair Mansion"
+        },
+        {
+          "name": "Merlin's Crystal",
+          "loc": "Camelot"
+        },
+        {
+          "name": "Holy Grail",
+          "loc": "Camelot"
+        },
+        {
+          "name": "Doric's Quest",
+          "loc": "Taverley"
+        },
+        {
+          "name": "Druidic Ritual",
+          "loc": "Taverley"
+        },
+        {
+          "name": "Witch's House",
+          "loc": "Taverley"
+        },
+        {
+          "name": "Dwarf Cannon",
+          "loc": "Coal Trucks"
+        },
+        {
+          "name": "Below Ice Mountain",
+          "loc": "Asgarnia"
+        },
+        {
+          "name": "Black Knights' Fortress",
+          "loc": "Falador"
+        },
+        {
+          "name": "Pirate's Treasure",
+          "loc": "Falador"
+        },
+        {
+          "name": "The Ides of Milk",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Observatory Quest",
+          "loc": "Observatory"
+        },
+        {
+          "name": "Priest in Peril",
+          "loc": "Paterdomus"
+        },
+        {
+          "name": "Partially complete: Rag and Bone Man I",
+          "loc": "Paterdomus"
+        },
+        {
+          "name": "Nature Spirit",
+          "loc": "Paterdomus"
+        },
+        {
+          "name": "Recruitment Drive",
+          "loc": "Falador"
+        },
+        {
+          "name": "Alfred Grimhand's Barcrawl (miniquest)",
+          "loc": "Barbarian Outpost"
+        },
+        {
+          "name": "Unlock: Anti-dragon shield",
+          "loc": "Champions' Guild"
+        },
+        {
+          "name": "Scorpion Catcher",
+          "loc": "Seers' Village"
+        },
+        {
+          "name": "Jungle Potion",
+          "loc": "Tai Bwo Wannai"
+        },
+        {
+          "name": "Vampyre Slayer",
+          "loc": "Draynor Village"
+        },
+        {
+          "name": "A Porcine of Interest",
+          "loc": "Draynor Village"
+        },
+        {
+          "name": "Rag and Bone Man I",
+          "loc": "Paterdomus"
+        },
+        {
+          "name": "Partially complete: Rag and Bone Man II",
+          "loc": "Paterdomus"
+        },
+        {
+          "name": "Train Cooking to 15",
+          "loc": null
+        },
+        {
+          "name": "Death Plateau",
+          "loc": "Burthorpe"
+        },
+        {
+          "name": "The Queen of Thieves",
+          "loc": "Port Piscarilius"
+        },
+        {
+          "name": "Train Agility to 18",
+          "loc": null
+        },
+        {
+          "name": "The Depths of Despair",
+          "loc": "Hosidius"
+        },
+        {
+          "name": "The Forsaken Tower",
+          "loc": "Great Kourend"
+        },
+        {
+          "name": "Tale of the Righteous",
+          "loc": "Great Kourend"
+        },
+        {
+          "name": "Mountain Daughter",
+          "loc": "Rellekka"
+        },
+        {
+          "name": "Train Agility to 25",
+          "loc": null
+        },
+        {
+          "name": "The Grand Tree",
+          "loc": "Tree Gnome Stronghold"
+        },
+        {
+          "name": "Tribal Totem",
+          "loc": "Brimhaven"
+        },
+        {
+          "name": "The Dig Site",
+          "loc": "Varrock"
+        },
+        {
+          "name": "The Golem",
+          "loc": "Ruins of Uzer"
+        },
+        {
+          "name": "Recipe for Disaster: Another Cook's Quest",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "The Knight's Sword",
+          "loc": "Falador"
+        },
+        {
+          "name": "Elemental Workshop I",
+          "loc": "Seers' Village"
+        },
+        {
+          "name": "Prince Ali Rescue",
+          "loc": "Al Kharid"
+        },
+        {
+          "name": "Shadow of the Storm",
+          "loc": "Al Kharid"
+        },
+        {
+          "name": "Train Sailing to 12",
+          "loc": null
+        },
+        {
+          "name": "Prying Times",
+          "loc": "The Pandemonium"
+        },
+        {
+          "name": "Imp Catcher",
+          "loc": "Wizards' Tower"
+        },
+        {
+          "name": "Train Magic to 20",
+          "loc": null
+        },
+        {
+          "name": "Elemental Workshop II",
+          "loc": "Seers' Village"
+        },
+        {
+          "name": "Train Woodcutting to 15",
+          "loc": null
+        },
+        {
+          "name": "The Ribbiting Tale of a Lily Pad Labour Dispute",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Train Woodcutting to 36",
+          "loc": null
+        },
+        {
+          "name": "Train Firemaking to 16",
+          "loc": null
+        },
+        {
+          "name": "Lost City",
+          "loc": "Lumbridge Swamp"
+        },
+        {
+          "name": "Fairytale I - Growing Pains",
+          "loc": "Draynor Village"
+        },
+        {
+          "name": "Partially complete: Fairytale II - Cure a Queen",
+          "loc": "Draynor Village"
+        },
+        {
+          "name": "Goblin Diplomacy",
+          "loc": "Goblin Village"
+        },
+        {
+          "name": "Recipe for Disaster: Goblin generals",
+          "loc": "Goblin Village"
+        },
+        {
+          "name": "Sleeping Giants",
+          "loc": "Giants' Plateau"
+        },
+        {
+          "name": "Shield of Arrav",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Creature of Fenkenstrain",
+          "loc": "Canifis"
+        },
+        {
+          "name": "A Soul's Bane",
+          "loc": "Digsite"
+        },
+        {
+          "name": "The Lost Tribe",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Death to the Dorgeshuun",
+          "loc": "Lumbridge Swamp Caves"
+        },
+        {
+          "name": "Train Magic to 33",
+          "loc": null
+        },
+        {
+          "name": "The Giant Dwarf",
+          "loc": "Keldagrim"
+        },
+        {
+          "name": "Another Slice of H.A.M.",
+          "loc": "Dorgesh-Kaan"
+        },
+        {
+          "name": "Making History",
+          "loc": "Outpost"
+        },
+        {
+          "name": "In Search of the Myreque",
+          "loc": "Canifis"
+        },
+        {
+          "name": "Shades of Mort'ton",
+          "loc": "Mort'ton"
+        },
+        {
+          "name": "In Aid of the Myreque",
+          "loc": "Canifis"
+        },
+        {
+          "name": "Unlock: Varrock Museum Kudos",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Bone Voyage",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Wanted!",
+          "loc": "Falador"
+        },
+        {
+          "name": "The Feud",
+          "loc": "Al Kharid"
+        },
+        {
+          "name": "Troll Stronghold",
+          "loc": "Burthorpe"
+        },
+        {
+          "name": "Train Woodcutting to 45",
+          "loc": null
+        },
+        {
+          "name": "Troll Romance",
+          "loc": "Troll Country"
+        },
+        {
+          "name": "Dragon Slayer I",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Horror from the Deep",
+          "loc": "Lighthouse"
+        },
+        {
+          "name": "Ernest the Chicken",
+          "loc": "Draynor Manor"
+        },
+        {
+          "name": "Animal Magnetism",
+          "loc": "Draynor Manor"
+        },
+        {
+          "name": "Shilo Village",
+          "loc": "Karamja"
+        },
+        {
+          "name": "Train Ranged to 37",
+          "loc": null
+        },
+        {
+          "name": "Spirits of the Elid",
+          "loc": "Kharidian Desert"
+        },
+        {
+          "name": "Icthlarin's Little Helper",
+          "loc": "Sophanem"
+        },
+        {
+          "name": "Ethically Acquired Antiquities",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Twilight's Promise",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Death on the Isle",
+          "loc": "Aldarin"
+        },
+        {
+          "name": "Ratcatchers",
+          "loc": "Varrock"
+        },
+        {
+          "name": "The Garden of Death",
+          "loc": "Kebos Lowlands"
+        },
+        {
+          "name": "Train Firemaking to 20",
+          "loc": null
+        },
+        {
+          "name": "Enlightened Journey",
+          "loc": "Entrana"
+        },
+        {
+          "name": "Train Firemaking to 30",
+          "loc": null
+        },
+        {
+          "name": "Unlock: Balloon transport system to Crafting Guild",
+          "loc": "Entrana"
+        },
+        {
+          "name": "Sea Slug",
+          "loc": "Witchaven"
+        },
+        {
+          "name": "Train Sailing to 22",
+          "loc": null
+        },
+        {
+          "name": "Current Affairs",
+          "loc": "Catherby"
+        },
+        {
+          "name": "Fishing Contest",
+          "loc": "Hemenster"
+        },
+        {
+          "name": "Recipe for Disaster: Freeing the Mountain Dwarf",
+          "loc": "Falador"
+        },
+        {
+          "name": "Train Cooking to 20 (consider training to level 22 for efficiency)",
+          "loc": null
+        },
+        {
+          "name": "Ghosts Ahoy",
+          "loc": "Port Phasmatys"
+        },
+        {
+          "name": "Train Cooking to 22",
+          "loc": null
+        },
+        {
+          "name": "Forgettable Tale...",
+          "loc": "Keldagrim"
+        },
+        {
+          "name": "Garden of Tranquillity",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Recipe for Disaster: Freeing Evil Dave",
+          "loc": "Edgeville"
+        },
+        {
+          "name": "Big Chompy Bird Hunting",
+          "loc": "Feldip Hills"
+        },
+        {
+          "name": "Zogre Flesh Eaters",
+          "loc": "Feldip Hills"
+        },
+        {
+          "name": "Train Herblore to 30",
+          "loc": null
+        },
+        {
+          "name": "Easy Varrock Diary",
+          "loc": null
+        },
+        {
+          "name": "Easy Desert Diary",
+          "loc": null
+        },
+        {
+          "name": "Darkness of Hallowvale",
+          "loc": "Meiyerditch"
+        },
+        {
+          "name": "Tower of Life",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Recipe for Disaster: Freeing Pirate Pete",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Easy Falador Diary",
+          "loc": null
+        },
+        {
+          "name": "Tai Bwo Wannai Trio",
+          "loc": "Karamja"
+        },
+        {
+          "name": "The Tourist Trap",
+          "loc": "Kharidian Desert"
+        },
+        {
+          "name": "Train Fletching to 25",
+          "loc": null
+        },
+        {
+          "name": "Eadgar's Ruse",
+          "loc": "Troll Stronghold"
+        },
+        {
+          "name": "My Arm's Big Adventure",
+          "loc": "Troll Stronghold"
+        },
+        {
+          "name": "The Fremennik Trials",
+          "loc": "Fremennik Province"
+        },
+        {
+          "name": "Train Construction to 20",
+          "loc": null
+        },
+        {
+          "name": "Train Woodcutting to 56",
+          "loc": null
+        },
+        {
+          "name": "Train Crafting to 46",
+          "loc": null
+        },
+        {
+          "name": "The Fremennik Isles",
+          "loc": "Fremennik Province"
+        },
+        {
+          "name": "Getting Ahead",
+          "loc": "Kebos Lowlands"
+        },
+        {
+          "name": "Train Cooking to 41",
+          "loc": null
+        },
+        {
+          "name": "Recipe for Disaster: Freeing the Lumbridge Guide",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Recipe for Disaster: Freeing Skrach Uglogwee",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Haunted Mine",
+          "loc": "Abandoned Mine"
+        },
+        {
+          "name": "Train Mining to 40",
+          "loc": null
+        },
+        {
+          "name": "Easy Karamja Diary",
+          "loc": null
+        },
+        {
+          "name": "Watchtower",
+          "loc": "Yanille"
+        },
+        {
+          "name": "Contact!",
+          "loc": "Al Kharid"
+        },
+        {
+          "name": "Train Magic to 46",
+          "loc": null
+        },
+        {
+          "name": "The Eyes of Glouphrie",
+          "loc": "Tree Gnome Stronghold"
+        },
+        {
+          "name": "Temple of the Eye",
+          "loc": "Al Kharid"
+        },
+        {
+          "name": "Train Firemaking to 40 (consider training to level 50 for efficiency)",
+          "loc": null
+        },
+        {
+          "name": "Unlock: Balloon transport system to Varrock",
+          "loc": "Entrana"
+        },
+        {
+          "name": "Olaf's Quest",
+          "loc": "Fremennik Province"
+        },
+        {
+          "name": "Train Firemaking to 50",
+          "loc": null
+        },
+        {
+          "name": "Tears of Guthix",
+          "loc": "Lumbridge Swamp Caves"
+        },
+        {
+          "name": "Train Ranged to 40",
+          "loc": null
+        },
+        {
+          "name": "Temple of Ikov",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "One Small Favour",
+          "loc": "Karamja"
+        },
+        {
+          "name": "A Tail of Two Cats",
+          "loc": "Kharidian Desert"
+        },
+        {
+          "name": "Train Smithing to 50",
+          "loc": null
+        },
+        {
+          "name": "Train Slayer to 30",
+          "loc": null
+        },
+        {
+          "name": "The Slug Menace",
+          "loc": "Witchaven"
+        },
+        {
+          "name": "Between a Rock...",
+          "loc": "Keldagrim"
+        },
+        {
+          "name": "Monkey Madness I",
+          "loc": "Ape Atoll"
+        },
+        {
+          "name": "Train Construction to 34",
+          "loc": null
+        },
+        {
+          "name": "Train Hunter to 10 (consider training to level 12 for efficiency)",
+          "loc": null
+        },
+        {
+          "name": "Cold War",
+          "loc": "Fremennik Province"
+        },
+        {
+          "name": "Train Hunter to 12",
+          "loc": null
+        },
+        {
+          "name": "The Ascent of Arceuus",
+          "loc": "Great Kourend"
+        },
+        {
+          "name": "Train Hunter to 27",
+          "loc": null
+        },
+        {
+          "name": "Eagles' Peak",
+          "loc": "Piscatoris Hunter Area"
+        },
+        {
+          "name": "Underground Pass",
+          "loc": "Ardougne"
+        },
+        {
+          "name": "Train Slayer to 42",
+          "loc": null
+        },
+        {
+          "name": "Skippy and the Mogres (miniquest)",
+          "loc": "Port Sarim"
+        },
+        {
+          "name": "Rag and Bone Man II",
+          "loc": "Paterdomus"
+        },
+        {
+          "name": "Lair of Tarn Razorlor (miniquest)",
+          "loc": "Abandoned Mine"
+        },
+        {
+          "name": "Train Fishing to 50",
+          "loc": null
+        },
+        {
+          "name": "Train Prayer to 47",
+          "loc": null
+        },
+        {
+          "name": "Train Farming to 40",
+          "loc": null
+        },
+        {
+          "name": "Rum Deal",
+          "loc": "Port Phasmatys"
+        },
+        {
+          "name": "Cabin Fever",
+          "loc": "Port Phasmatys"
+        },
+        {
+          "name": "His Faithful Servants (miniquest)",
+          "loc": "Morytania"
+        },
+        {
+          "name": "The Great Brain Robbery",
+          "loc": "Mos Le'Harmless"
+        },
+        {
+          "name": "Train Construction to 38",
+          "loc": null
+        },
+        {
+          "name": "Scrambled!",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Train Crafting to 50",
+          "loc": null
+        },
+        {
+          "name": "The Hand in the Sand",
+          "loc": "Yanille"
+        },
+        {
+          "name": "Train Mining to 45",
+          "loc": null
+        },
+        {
+          "name": "Enakhra's Lament",
+          "loc": "Kharidian Desert"
+        },
+        {
+          "name": "Meat and Greet",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Train Mining to 50",
+          "loc": null
+        },
+        {
+          "name": "Train Cooking to 53",
+          "loc": null
+        },
+        {
+          "name": "Train Fishing to 53",
+          "loc": null
+        },
+        {
+          "name": "Heroes' Quest",
+          "loc": "Burthorpe"
+        },
+        {
+          "name": "Throne of Miscellania",
+          "loc": "Miscellania"
+        },
+        {
+          "name": "Royal Trouble",
+          "loc": "Miscellania"
+        },
+        {
+          "name": "Train Magic to 50",
+          "loc": null
+        },
+        {
+          "name": "Train Thieving to 53",
+          "loc": null
+        },
+        {
+          "name": "Desert Treasure I",
+          "loc": "Kharidian Desert"
+        },
+        {
+          "name": "Train Magic to 59",
+          "loc": null
+        },
+        {
+          "name": "Train Mining to 52",
+          "loc": null
+        },
+        {
+          "name": "Train Agility to 50",
+          "loc": null
+        },
+        {
+          "name": "A Taste of Hope",
+          "loc": "Meiyerditch"
+        },
+        {
+          "name": "Family Crest",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Legends' Quest",
+          "loc": "Karamja"
+        },
+        {
+          "name": "Recipe for Disaster: Freeing Sir Amik Varze",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Curse of the Empty Lord (miniquest)",
+          "loc": "Kandarin"
+        },
+        {
+          "name": "The General's Shadow (miniquest)",
+          "loc": "Rellekka"
+        },
+        {
+          "name": "Train Farming to 44 (boost to 47)",
+          "loc": null
+        },
+        {
+          "name": "All Easy Achievement Diaries",
+          "loc": null
+        },
+        {
+          "name": "Medium Ardougne Diary",
+          "loc": null
+        },
+        {
+          "name": "Medium Falador Diary",
+          "loc": null
+        },
+        {
+          "name": "Medium Varrock Diary",
+          "loc": null
+        },
+        {
+          "name": "Train Fletching to 50",
+          "loc": null
+        },
+        {
+          "name": "Medium Kandarin Diary",
+          "loc": null
+        },
+        {
+          "name": "Land of the Goblins",
+          "loc": "Dorgesh-Kaan"
+        },
+        {
+          "name": "Train Farming to 46 (boost to 49)",
+          "loc": null
+        },
+        {
+          "name": "Fairytale II - Cure a Queen",
+          "loc": "Zanaris"
+        },
+        {
+          "name": "Train Agility to 54",
+          "loc": null
+        },
+        {
+          "name": "A Kingdom Divided",
+          "loc": "Great Kourend"
+        },
+        {
+          "name": "Train Slayer to 48",
+          "loc": null
+        },
+        {
+          "name": "Train Mining to 55",
+          "loc": null
+        },
+        {
+          "name": "The Heart of Darkness",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Perilous Moons",
+          "loc": "Cam Torum"
+        },
+        {
+          "name": "Train Cooking to 65 (boost to 70)",
+          "loc": null
+        },
+        {
+          "name": "Recipe for Disaster: Freeing King Awowogei",
+          "loc": "Ape Atoll"
+        },
+        {
+          "name": "Train Agility to 56",
+          "loc": null
+        },
+        {
+          "name": "Regicide",
+          "loc": "Tirannwn"
+        },
+        {
+          "name": "Roving Elves",
+          "loc": "Tirannwn"
+        },
+        {
+          "name": "Train Ranged to 60",
+          "loc": null
+        },
+        {
+          "name": "Mourning's End Part I",
+          "loc": "Tirannwn"
+        },
+        {
+          "name": "Mourning's End Part II",
+          "loc": "Tirannwn"
+        },
+        {
+          "name": "Train Magic to 65",
+          "loc": null
+        },
+        {
+          "name": "Train Crafting to 61",
+          "loc": null
+        },
+        {
+          "name": "Train Mining to 60",
+          "loc": null
+        },
+        {
+          "name": "Lunar Diplomacy",
+          "loc": "Lunar Isle"
+        },
+        {
+          "name": "What Lies Below",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Train Defence to 65",
+          "loc": null
+        },
+        {
+          "name": "King's Ransom",
+          "loc": "Camelot"
+        },
+        {
+          "name": "Knight Waves Training Grounds (miniquest)",
+          "loc": "Camelot"
+        },
+        {
+          "name": "Train Magic to 66",
+          "loc": null
+        },
+        {
+          "name": "Train Fishing to 57 (boost to 62 with admiral pie)",
+          "loc": null
+        },
+        {
+          "name": "Swan Song",
+          "loc": "Piscatoris Fishing Colony"
+        },
+        {
+          "name": "Recipe for Disaster: The final battle (Defeating the Culinaromancer)",
+          "loc": "Lumbridge"
+        },
+        {
+          "name": "Train Woodcutting to 71",
+          "loc": null
+        },
+        {
+          "name": "Train Thieving to 58",
+          "loc": null
+        },
+        {
+          "name": "Grim Tales",
+          "loc": "Taverley"
+        },
+        {
+          "name": "Train Combat to 85 (Use Slayer to 69 for efficiency)",
+          "loc": null
+        },
+        {
+          "name": "Dream Mentor",
+          "loc": "Lunar Isle"
+        },
+        {
+          "name": "Train Hunter to 46",
+          "loc": null
+        },
+        {
+          "name": "At First Light",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Train Hunter to 52",
+          "loc": null
+        },
+        {
+          "name": "Train Smithing to 55",
+          "loc": null
+        },
+        {
+          "name": "Defender of Varrock",
+          "loc": "Varrock"
+        },
+        {
+          "name": "Medium Wilderness Diary",
+          "loc": null
+        },
+        {
+          "name": "Medium Karamja Diary",
+          "loc": null
+        },
+        {
+          "name": "Medium Kourend & Kebos Diary",
+          "loc": null
+        },
+        {
+          "name": "Medium Lumbridge & Draynor Diary",
+          "loc": null
+        },
+        {
+          "name": "Medium Morytania Diary",
+          "loc": null
+        },
+        {
+          "name": "Train Smithing to 65",
+          "loc": null
+        },
+        {
+          "name": "Train Runecraft to 50",
+          "loc": null
+        },
+        {
+          "name": "Devious Minds",
+          "loc": "Paterdomus"
+        },
+        {
+          "name": "Train Runecraft to 52",
+          "loc": null
+        },
+        {
+          "name": "Train Fletching to 52",
+          "loc": null
+        },
+        {
+          "name": "Train Thieving to 66",
+          "loc": null
+        },
+        {
+          "name": "The Final Dawn",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Train Slayer to 54",
+          "loc": null
+        },
+        {
+          "name": "Train Construction to 41",
+          "loc": null
+        },
+        {
+          "name": "Shadows of Custodia",
+          "loc": "Varlamore"
+        },
+        {
+          "name": "Train Slayer to 56",
+          "loc": null
+        },
+        {
+          "name": "The Path of Glouphrie",
+          "loc": "Tree Gnome Village"
+        },
+        {
+          "name": "Train Crafting to 65",
+          "loc": null
+        },
+        {
+          "name": "Train Slayer to 60",
+          "loc": null
+        },
+        {
+          "name": "Train Runecraft to 55",
+          "loc": null
+        },
+        {
+          "name": "Train Fishing to 60",
+          "loc": null
+        },
+        {
+          "name": "The Fremennik Exiles",
+          "loc": "Fremennik Province"
+        },
+        {
+          "name": "Train Fletching to 60",
+          "loc": null
+        },
+        {
+          "name": "Sins of the Father",
+          "loc": "Meiyerditch"
+        },
+        {
+          "name": "Train Agility to 62",
+          "loc": null
+        },
+        {
+          "name": "Train Firemaking to 55",
+          "loc": null
+        },
+        {
+          "name": "Beneath Cursed Sands",
+          "loc": "Kharidian Desert"
+        },
+        {
+          "name": "Train Mining to 64",
+          "loc": null
+        },
+        {
+          "name": "Train Ranged to 62",
+          "loc": null
+        },
+        {
+          "name": "Train Strength to 58",
+          "loc": null
+        },
+        {
+          "name": "The Curse of Arrav",
+          "loc": "Uzer Oasis"
+        },
+        {
+          "name": "Train Agility to 68",
+          "loc": null
+        },
+        {
+          "name": "Train Mining to 70 (boost to 72)",
+          "loc": null
+        },
+        {
+          "name": "Train Firemaking to 66",
+          "loc": null
+        },
+        {
+          "name": "Making Friends with My Arm",
+          "loc": "Troll Stronghold"
+        },
+        {
+          "name": "Train Sailing to 45",
+          "loc": null
+        },
+        {
+          "name": "Train Construction to 50",
+          "loc": null
+        },
+        {
+          "name": "Troubled Tortugans",
+          "loc": "Great Conch"
+        },
+        {
+          "name": "Train Sailing to 52",
+          "loc": null
+        },
+        {
+          "name": "The Red Reef",
+          "loc": "Red Rock"
+        },
+        {
+          "name": "Train Crafting to 70",
+          "loc": null
+        },
+        {
+          "name": "Train Hunter to 60",
+          "loc": null
+        },
+        {
+          "name": "Train Slayer to 69",
+          "loc": null
+        },
+        {
+          "name": "Monkey Madness II",
+          "loc": "Tree Gnome Stronghold"
+        },
+        {
+          "name": "Medium Fremennik Diary",
+          "loc": null
+        },
+        {
+          "name": "A Night at the Theatre",
+          "loc": "Meiyerditch"
+        },
+        {
+          "name": "Train Magic to 75",
+          "loc": null
+        },
+        {
+          "name": "Train Smithing to 70",
+          "loc": null
+        },
+        {
+          "name": "Dragon Slayer II",
+          "loc": "Feldip Hills"
+        },
+        {
+          "name": "Secrets of the North",
+          "loc": "East Ardougne"
+        },
+        {
+          "name": "Train Farming to 65",
+          "loc": null
+        },
+        {
+          "name": "Train Thieving to 72",
+          "loc": null
+        },
+        {
+          "name": "While Guthix Sleeps",
+          "loc": "Taverley"
+        },
+        {
+          "name": "Train Construction to 70",
+          "loc": null
+        },
+        {
+          "name": "Train Farming to 70",
+          "loc": null
+        },
+        {
+          "name": "Train Herblore to 70",
+          "loc": null
+        },
+        {
+          "name": "Train Hunter to 70",
+          "loc": null
+        },
+        {
+          "name": "Song of the Elves",
+          "loc": "Tirannwn"
+        },
+        {
+          "name": "Train Firemaking to 75",
+          "loc": null
+        },
+        {
+          "name": "Train Runecraft to 60",
+          "loc": null
+        },
+        {
+          "name": "Desert Treasure II - The Fallen Empire",
+          "loc": "Kharidian Desert"
+        },
+        {
+          "name": "Train Slayer to 74",
+          "loc": null
+        },
+        {
+          "name": "Train Woodcutting to 74",
+          "loc": null
+        },
+        {
+          "name": "Train Smithing to 72",
+          "loc": null
+        },
+        {
+          "name": "Train Cooking to 72",
+          "loc": null
+        },
+        {
+          "name": "Train Fletching to 70",
+          "loc": null
+        },
+        {
+          "name": "The Blood Moon Rises",
+          "loc": "Meiyerditch"
+        },
+        {
+          "name": "The Corsair Curse",
+          "loc": "Port Sarim"
+        }
+      ]
+    }
+  ]
+}

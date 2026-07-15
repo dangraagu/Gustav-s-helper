@@ -10,6 +10,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import com.google.gson.Gson;
+import com.osirisguide.Guide;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
@@ -25,6 +26,18 @@ public class RouteLoaderTest
 	private Route load()
 	{
 		return RouteLoader.load(new Gson(), "osiris-ironman");
+	}
+
+	@Test
+	public void everyBundledGuideParses()
+	{
+		Gson gson = new Gson();
+		for (Guide g : Guide.values())
+		{
+			Route r = RouteLoader.load(gson, g.getId());
+			assertNotNull("route null for guide " + g.getId(), r);
+			assertTrue("guide '" + g.getId() + "' loaded no steps", r.size() > 0);
+		}
 	}
 
 	@Test

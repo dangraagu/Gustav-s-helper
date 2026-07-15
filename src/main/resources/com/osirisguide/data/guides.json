@@ -5,6 +5,21 @@
       "id": "osiris-ironman",
       "name": "Oziris Ironman Guide",
       "description": "Efficient OSRS ironman progression route (ironman.guide, by Oziris)."
+    },
+    {
+      "id": "b0aty-hcim",
+      "name": "B0aty HCIM Guide V3",
+      "description": "B0aty's hardcore ironman guide (OSRS Wiki, CC BY-NC-SA 3.0)."
+    },
+    {
+      "id": "optimal-quest-ironman",
+      "name": "Optimal Quest Guide (Ironman)",
+      "description": "OSRS Wiki optimal quest ordering for ironman (CC BY-NC-SA 3.0)."
+    },
+    {
+      "id": "ironman-pvm-rush",
+      "name": "Ironman PvM Rush",
+      "description": "Ironman PvM rush guide (OSRS Wiki draft, CC BY-NC-SA 3.0)."
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/User:AtelierLogic2/Guide:Ironman_PvM_Rush",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Raids",
+  "steps": [
+    {
+      "id": "raid-001",
+      "title": "Start the Theatre of Blood once …",
+      "text": "Start the Theatre of Blood once the minimum requirements above are met\nLocation: Theatre of Blood",
+      "manual": true,
+      "world": [
+        3663,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "raid-002",
+      "title": "Start Tombs of Amascut once the …",
+      "text": "Start Tombs of Amascut once the requirements are met and you own a Bowfa\nLocation: Tombs of Amascut",
+      "manual": true,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
+    }
+  ]
+}
