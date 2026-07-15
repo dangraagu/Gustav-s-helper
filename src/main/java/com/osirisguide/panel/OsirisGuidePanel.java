@@ -8,7 +8,6 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.GridLayout;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -16,6 +15,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
+import javax.swing.JTabbedPane;
 import javax.swing.SwingUtilities;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
@@ -23,13 +23,14 @@ import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.util.LinkBrowser;
 
 /**
- * Side panel: overall progress, the current step (with requirements and manual Done/Skip),
- * a short lookahead of upcoming steps, and a reset button.
+ * Two-tab side panel: <b>Guide</b> (overall progress, current step with requirements and manual
+ * Done/Skip, lookahead) and <b>Ledger</b> (per-item acquired / owned / spent, with totals).
  */
 public class OsirisGuidePanel extends PluginPanel
 {
 	private final PanelActions actions;
 
+	// Guide tab
 	private final JLabel progressLabel = new JLabel();
 	private final JProgressBar progressBar = new JProgressBar(0, 100);
 	private final JLabel sectionLabel = new JLabel();
@@ -42,23 +43,40 @@ public class OsirisGuidePanel extends PluginPanel
 	private final JButton skipButton = new JButton("Skip");
 	private final JButton wikiButton = new JButton("Wiki");
 	private final JButton resetButton = new JButton("Reset progress");
-
 	private String wikiUrl;
+
+	// Ledger tab
+	private final JLabel ledgerTotals = new JLabel();
+	private final JLabel ledgerEmpty = new JLabel();
+	private final JPanel ledgerRows = new JPanel();
 
 	public OsirisGuidePanel(PanelActions actions)
 	{
 		this.actions = actions;
 		setLayout(new BorderLayout());
-		setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
+		setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
 
-		add(buildNorth(), BorderLayout.NORTH);
-		add(buildCenter(), BorderLayout.CENTER);
-		add(buildSouth(), BorderLayout.SOUTH);
+		JTabbedPane tabs = new JTabbedPane();
+		tabs.addTab("Guide", buildGuideTab());
+		tabs.addTab("Ledger", buildLedgerTab());
+		add(tabs, BorderLayout.CENTER);
 
 		wireActions();
 	}
 
-	private JPanel buildNorth()
+	// ---- Guide tab ----------------------------------------------------------
+
+	private JPanel buildGuideTab()
+	{
+		JPanel tab = new JPanel(new BorderLayout());
+		tab.setBorder(BorderFactory.createEmptyBorder(6, 2, 2, 2));
+		tab.add(buildGuideNorth(), BorderLayout.NORTH);
+		tab.add(buildGuideCenter(), BorderLayout.CENTER);
+		tab.add(buildGuideSouth(), BorderLayout.SOUTH);
+		return tab;
+	}
+
+	private JPanel buildGuideNorth()
 	{
 		JPanel north = new JPanel();
 		north.setLayout(new BoxLayout(north, BoxLayout.Y_AXIS));
@@ -80,7 +98,7 @@ public class OsirisGuidePanel extends PluginPanel
 		return north;
 	}
 
-	private JPanel buildCenter()
+	private JPanel buildGuideCenter()
 	{
 		JPanel center = new JPanel();
 		center.setLayout(new BoxLayout(center, BoxLayout.Y_AXIS));
@@ -124,12 +142,45 @@ public class OsirisGuidePanel extends PluginPanel
 		return center;
 	}
 
-	private JPanel buildSouth()
+	private JPanel buildGuideSouth()
 	{
 		JPanel south = new JPanel(new BorderLayout());
 		south.setBorder(BorderFactory.createEmptyBorder(12, 0, 0, 0));
 		south.add(resetButton, BorderLayout.CENTER);
 		return south;
+	}
+
+	// ---- Ledger tab ---------------------------------------------------------
+
+	private JPanel buildLedgerTab()
+	{
+		JPanel tab = new JPanel(new BorderLayout());
+		tab.setBorder(BorderFactory.createEmptyBorder(8, 2, 2, 2));
+
+		JLabel header = new JLabel("Item ledger");
+		header.setFont(FontManager.getRunescapeBoldFont());
+
+		ledgerTotals.setForeground(Color.LIGHT_GRAY);
+		ledgerTotals.setBorder(BorderFactory.createEmptyBorder(2, 0, 8, 0));
+
+		ledgerEmpty.setForeground(Color.GRAY);
+		ledgerEmpty.setText("<html><body style='width:190px'>Items the guide references appear here as you"
+			+ " obtain and spend them. Nothing is tracked yet.</body></html>");
+
+		JPanel top = new JPanel();
+		top.setLayout(new BoxLayout(top, BoxLayout.Y_AXIS));
+		header.setAlignmentX(Component.LEFT_ALIGNMENT);
+		ledgerTotals.setAlignmentX(Component.LEFT_ALIGNMENT);
+		ledgerEmpty.setAlignmentX(Component.LEFT_ALIGNMENT);
+		top.add(header);
+		top.add(ledgerTotals);
+		top.add(ledgerEmpty);
+
+		ledgerRows.setLayout(new BoxLayout(ledgerRows, BoxLayout.Y_AXIS));
+
+		tab.add(top, BorderLayout.NORTH);
+		tab.add(ledgerRows, BorderLayout.CENTER);
+		return tab;
 	}
 
 	private void wireActions()
@@ -146,7 +197,9 @@ public class OsirisGuidePanel extends PluginPanel
 		});
 	}
 
-	/** Thread-safe: renders the given snapshot on the Swing thread. */
+	// ---- Updates (thread-safe) ---------------------------------------------
+
+	/** Renders the guide-tab snapshot on the Swing thread. */
 	public void update(PanelModel m)
 	{
 		if (!SwingUtilities.isEventDispatchThread())
@@ -218,6 +271,75 @@ public class OsirisGuidePanel extends PluginPanel
 
 		revalidate();
 		repaint();
+	}
+
+	/** Renders the ledger-tab snapshot on the Swing thread. */
+	public void updateLedger(LedgerModel m)
+	{
+		if (!SwingUtilities.isEventDispatchThread())
+		{
+			SwingUtilities.invokeLater(() -> updateLedger(m));
+			return;
+		}
+
+		ledgerRows.removeAll();
+
+		if (!m.loggedIn)
+		{
+			ledgerTotals.setText("Log in to track items.");
+			ledgerEmpty.setVisible(false);
+		}
+		else if (m.empty || m.rows.isEmpty())
+		{
+			ledgerTotals.setText("");
+			ledgerEmpty.setVisible(true);
+		}
+		else
+		{
+			ledgerEmpty.setVisible(false);
+			ledgerTotals.setText("Acquired " + m.totalAcquired + " • spent " + m.totalSpent);
+
+			JPanel headerRow = row("Item", "got", "have", "used");
+			headerRow.setBorder(BorderFactory.createEmptyBorder(0, 0, 3, 0));
+			for (Component c : headerRow.getComponents())
+			{
+				c.setForeground(Color.GRAY);
+			}
+			ledgerRows.add(headerRow);
+
+			for (LedgerModel.Row r : m.rows)
+			{
+				ledgerRows.add(row(r.name, String.valueOf(r.acquired), String.valueOf(r.owned),
+					String.valueOf(r.spent)));
+			}
+		}
+
+		revalidate();
+		repaint();
+	}
+
+	private JPanel row(String name, String got, String have, String used)
+	{
+		JPanel p = new JPanel(new BorderLayout(4, 0));
+		p.setMaximumSize(new Dimension(Integer.MAX_VALUE, 18));
+		JLabel n = new JLabel(name);
+		n.setFont(FontManager.getRunescapeSmallFont());
+		JPanel nums = new JPanel(new GridLayout(1, 3, 4, 0));
+		nums.add(rightLabel(got));
+		nums.add(rightLabel(have));
+		nums.add(rightLabel(used));
+		nums.setPreferredSize(new Dimension(78, 16));
+		p.add(n, BorderLayout.CENTER);
+		p.add(nums, BorderLayout.EAST);
+		return p;
+	}
+
+	private JLabel rightLabel(String s)
+	{
+		JLabel l = new JLabel(s);
+		l.setFont(FontManager.getRunescapeSmallFont());
+		l.setHorizontalAlignment(JLabel.RIGHT);
+		return l;
 	}
 
 	private static String escape(String s)

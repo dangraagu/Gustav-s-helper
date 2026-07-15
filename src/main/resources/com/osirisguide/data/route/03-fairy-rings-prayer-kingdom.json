@@ -7,7 +7,11 @@
       "id": "frp-001",
       "title": "Buy a bronze sword from Varrock …",
       "text": "Buy a bronze sword from Varrock sword shop (for Horror from the deep quest)\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1277,
+        "qty": 1
+      }
     },
     {
       "id": "frp-002",
@@ -19,7 +23,11 @@
       "id": "frp-003",
       "title": "Buy an oak longbow and a …",
       "text": "Buy an oak longbow and a regular shortbow from Lowe\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 845,
+        "qty": 1
+      }
     },
     {
       "id": "frp-004",
@@ -31,7 +39,11 @@
       "id": "frp-005",
       "title": "Buy 400 steel nails at the …",
       "text": "Buy 400 steel nails at the sawmill, if every world is bought out then don't b...\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1539,
+        "qty": 400
+      }
     },
     {
       "id": "frp-006",
@@ -55,7 +67,11 @@
       "id": "frp-009",
       "title": "Buy 1 raw shark from Canifis …",
       "text": "Buy 1 raw shark from Canifis food shop\nLocation: Canifis",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 383,
+        "qty": 1
+      }
     },
     {
       "id": "frp-010",
@@ -199,7 +215,11 @@
       "id": "frp-033",
       "title": "Buy 1 marigold seed, 3 cabbage …",
       "text": "Buy 1 marigold seed, 3 cabbage seeds, 3 onion seeds from Draynor seed market\nLocation: Draynor",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 5096,
+        "qty": 1
+      }
     },
     {
       "id": "frp-034",
@@ -355,13 +375,21 @@
       "id": "frp-059",
       "title": "Buy dorgeshuun crossbow and 4000 bone …",
       "text": "Buy dorgeshuun crossbow and 4000 bone bolts\nLocation: Dorgesh-Kaan",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 8880,
+        "qty": 1
+      }
     },
     {
       "id": "frp-060",
       "title": "Buy a Bullseye lantern (empty) from …",
       "text": "Buy a Bullseye lantern (empty) from Miltog at the market in Dorgeshkaan\nLocation: Dorgesh-Kaan",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 4548,
+        "qty": 1
+      }
     },
     {
       "id": "frp-061",
@@ -420,13 +448,21 @@
       "id": "frp-069",
       "title": "Buy mithril platebody from Horvik in …",
       "text": "Buy mithril platebody from Horvik in Varrock\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1121,
+        "qty": 1
+      }
     },
     {
       "id": "frp-070",
       "title": "Buy mithril platelegs from al-kharid",
       "text": "Buy mithril platelegs from al-kharid\nLocation: Al Kharid",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1071,
+        "qty": 1
+      }
     },
     {
       "id": "frp-071",
@@ -484,7 +520,11 @@
       "id": "frp-078",
       "title": "Buy however many buckets of slime …",
       "text": "Buy however many buckets of slime you need for the bones\nLocation: Port Khazard",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1925,
+        "qty": 1
+      }
     },
     {
       "id": "frp-079",
@@ -661,7 +701,11 @@
       "id": "frp-105",
       "title": "Buy 2 inventories of gold ore …",
       "text": "Buy 2 inventories of gold ore from the blast furnace shop\nLocation: Keldagrim",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 444,
+        "qty": 2
+      }
     },
     {
       "id": "frp-106",

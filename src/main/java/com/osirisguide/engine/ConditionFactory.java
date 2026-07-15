@@ -10,7 +10,9 @@ import com.google.gson.JsonObject;
 import com.osirisguide.engine.condition.AndCondition;
 import com.osirisguide.engine.condition.Condition;
 import com.osirisguide.engine.condition.ConstantCondition;
+import com.osirisguide.engine.condition.ItemAcquiredCondition;
 import com.osirisguide.engine.condition.ItemCondition;
+import com.osirisguide.engine.condition.ItemConsumedCondition;
 import com.osirisguide.engine.condition.NotCondition;
 import com.osirisguide.engine.condition.OrCondition;
 import com.osirisguide.engine.condition.QuestCondition;
@@ -103,6 +105,29 @@ public final class ConditionFactory
 				return new ItemCondition(getInt(o, "id", -1), getInt(o, "qty", 1), ItemScope.EQUIPMENT);
 			case "iteminventory":
 				return new ItemCondition(getInt(o, "id", -1), getInt(o, "qty", 1), ItemScope.INVENTORY);
+			case "itemacquired":
+			case "acquired":
+			{
+				int id = getInt(o, "id", -1);
+				if (id < 0)
+				{
+					log.warn("Osiris Guide: itemAcquired condition missing/invalid id in step '{}'", stepId);
+					return ConstantCondition.MANUAL;
+				}
+				return new ItemAcquiredCondition(id, getInt(o, "qty", 1));
+			}
+			case "itemconsumed":
+			case "itemspent":
+			case "consumed":
+			{
+				int id = getInt(o, "id", -1);
+				if (id < 0)
+				{
+					log.warn("Osiris Guide: itemConsumed condition missing/invalid id in step '{}'", stepId);
+					return ConstantCondition.MANUAL;
+				}
+				return new ItemConsumedCondition(id, getInt(o, "qty", 1));
+			}
 			case "varbit":
 			{
 				int id = getInt(o, "id", -1);

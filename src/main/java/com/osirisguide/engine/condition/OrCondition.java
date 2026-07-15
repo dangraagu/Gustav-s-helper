@@ -5,7 +5,9 @@
 package com.osirisguide.engine.condition;
 
 import com.osirisguide.engine.ConditionContext;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class OrCondition implements Condition
@@ -34,5 +36,16 @@ public class OrCondition implements Condition
 	public String describe()
 	{
 		return "(" + conditions.stream().map(Condition::describe).collect(Collectors.joining(" OR ")) + ")";
+	}
+
+	@Override
+	public Set<Integer> itemIds()
+	{
+		Set<Integer> ids = new HashSet<>();
+		for (Condition c : conditions)
+		{
+			ids.addAll(c.itemIds());
+		}
+		return ids;
 	}
 }

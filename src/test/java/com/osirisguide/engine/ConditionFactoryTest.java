@@ -14,6 +14,10 @@ import static org.mockito.Mockito.when;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.osirisguide.engine.condition.Condition;
+import com.osirisguide.engine.ledger.ItemLedger;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import org.junit.Test;
 import net.runelite.api.Client;
 import net.runelite.api.InventoryID;
@@ -95,6 +99,32 @@ public class ConditionFactoryTest
 		assertFalse(ConditionFactory.parse(null, "test").isMet(ctx));
 		// always -> true
 		assertTrue(parse("{\"op\":\"always\"}").isMet(ctx));
+	}
+
+	@Test
+	public void itemAcquiredAndConsumedUseLedger()
+	{
+		ItemLedger ledger = new ItemLedger();
+		ledger.observe(93, Collections.emptyMap());     // seed inventory
+		ledger.commit();
+		Map<Integer, Integer> five = new HashMap<>();
+		five.put(1939, 5);
+		ledger.observe(93, five);                        // acquire 5 swamp tar
+		ledger.commit();
+		ConditionContext ctx = new ConditionContext(mock(Client.class), ledger);
+
+		assertTrue(parse("{\"op\":\"itemAcquired\",\"id\":1939,\"qty\":5}").isMet(ctx));
+		assertFalse(parse("{\"op\":\"itemAcquired\",\"id\":1939,\"qty\":6}").isMet(ctx));
+
+		ledger.observe(93, Collections.emptyMap());      // use all 5
+		ledger.commit();
+		assertTrue(parse("{\"op\":\"itemConsumed\",\"id\":1939,\"qty\":5}").isMet(ctx));
+		// acquired stays sticky after spending
+		assertTrue(parse("{\"op\":\"itemAcquired\",\"id\":1939,\"qty\":5}").isMet(ctx));
+
+		// Without a ledger, acquired/consumed read as 0 (never met) rather than throwing.
+		ConditionContext noLedger = new ConditionContext(mock(Client.class));
+		assertFalse(parse("{\"op\":\"itemAcquired\",\"id\":1939,\"qty\":1}").isMet(noLedger));
 	}
 
 	@Test

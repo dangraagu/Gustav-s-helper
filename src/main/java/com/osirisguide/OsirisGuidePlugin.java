@@ -11,21 +11,32 @@ import com.osirisguide.engine.Progression;
 import com.osirisguide.engine.Route;
 import com.osirisguide.engine.RouteLoader;
 import com.osirisguide.engine.RouteStep;
+import com.osirisguide.engine.ledger.ItemLedger;
 import com.osirisguide.overlay.OsirisMinimapOverlay;
 import com.osirisguide.overlay.OsirisWorldOverlay;
+import com.osirisguide.panel.LedgerModel;
 import com.osirisguide.panel.OsirisGuidePanel;
 import com.osirisguide.panel.PanelActions;
 import com.osirisguide.panel.PanelModel;
 import com.osirisguide.requirement.Requirement;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
 import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
 import net.runelite.api.GameObject;
 import net.runelite.api.GameState;
+import net.runelite.api.InventoryID;
+import net.runelite.api.Item;
+import net.runelite.api.ItemComposition;
+import net.runelite.api.ItemContainer;
 import net.runelite.api.NPC;
 import net.runelite.api.Scene;
 import net.runelite.api.Tile;
@@ -34,12 +45,14 @@ import net.runelite.api.events.GameObjectDespawned;
 import net.runelite.api.events.GameObjectSpawned;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.GameTick;
+import net.runelite.api.events.ItemContainerChanged;
 import net.runelite.api.events.NpcDespawned;
 import net.runelite.api.events.NpcSpawned;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
+import net.runelite.client.game.ItemManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
@@ -78,13 +91,17 @@ public class OsirisGuidePlugin extends Plugin
 	private OsirisWorldOverlay worldOverlay;
 	@Inject
 	private OsirisMinimapOverlay minimapOverlay;
+	@Inject
+	private ItemManager itemManager;
 
 	private Route route;
 	private Progression progression;
+	private ItemLedger ledger;
 	private OsirisGuidePanel panel;
 	private NavigationButton navButton;
 
 	private boolean pendingReconcile;
+	private boolean ledgerDirty;
 	private long loadedAccountHash = -1L;
 	private String lastCurrentStepId;
 	private int wantedObjectId = -1;
@@ -102,6 +119,8 @@ public class OsirisGuidePlugin extends Plugin
 	{
 		route = RouteLoader.load(gson);
 		progression = new Progression(route, config.mode());
+		ledger = new ItemLedger();
+		ledger.setItemsOfInterest(route.referencedItemIds());
 
 		panel = new OsirisGuidePanel(new Actions());
 		BufferedImage icon = ImageUtil.loadImageResource(getClass(), "/com/osirisguide/icon.png");
@@ -135,6 +154,7 @@ public class OsirisGuidePlugin extends Plugin
 	protected void shutDown()
 	{
 		persist();
+		persistLedger();
 		overlayManager.remove(worldOverlay);
 		overlayManager.remove(minimapOverlay);
 		if (navButton != null)
@@ -146,6 +166,7 @@ public class OsirisGuidePlugin extends Plugin
 		panel = null;
 		progression = null;
 		route = null;
+		ledger = null;
 		lastCurrentStepId = null;
 		loadedAccountHash = -1L;
 	}
@@ -155,9 +176,17 @@ public class OsirisGuidePlugin extends Plugin
 	@Subscribe
 	public void onGameStateChanged(GameStateChanged e)
 	{
-		if (e.getGameState() == GameState.LOGGED_IN)
+		GameState gs = e.getGameState();
+		if (gs == GameState.LOGGED_IN)
 		{
 			onLogin();
+		}
+		else if (gs == GameState.LOGIN_SCREEN || gs == GameState.HOPPING || gs == GameState.CONNECTION_LOST)
+		{
+			// Flush before the account can switch, so last-second acquisitions aren't lost.
+			persist();
+			persistLedger();
+			ledgerDirty = false;
 		}
 	}
 
@@ -173,8 +202,14 @@ public class OsirisGuidePlugin extends Plugin
 			return;
 		}
 
+		// Fold this tick's observed container changes into the ledger before evaluating conditions.
+		if (ledger != null && ledger.commit())
+		{
+			ledgerDirty = true;
+		}
+
 		boolean didReconcile = pendingReconcile;
-		ConditionContext ctx = new ConditionContext(client);
+		ConditionContext ctx = new ConditionContext(client, ledger);
 		boolean changed = false;
 		try
 		{
@@ -203,8 +238,13 @@ public class OsirisGuidePlugin extends Plugin
 		}
 
 		tickCounter++;
-		boolean refresh = changed || didReconcile || (tickCounter % PANEL_REFRESH_TICKS == 0);
-		recompute(refresh);
+		boolean periodic = (tickCounter % PANEL_REFRESH_TICKS == 0);
+		if (ledgerDirty && periodic)
+		{
+			persistLedger();
+			ledgerDirty = false;
+		}
+		recompute(changed || didReconcile || periodic);
 	}
 
 	@Subscribe
@@ -266,6 +306,47 @@ public class OsirisGuidePlugin extends Plugin
 		}
 	}
 
+	@Subscribe
+	public void onItemContainerChanged(ItemContainerChanged e)
+	{
+		if (ledger == null)
+		{
+			return;
+		}
+		int id = e.getContainerId();
+		if (id != InventoryID.INVENTORY.getId()
+			&& id != InventoryID.BANK.getId()
+			&& id != InventoryID.EQUIPMENT.getId())
+		{
+			return;
+		}
+		ledger.observe(id, toCounts(e.getItemContainer()));
+	}
+
+	private static Map<Integer, Integer> toCounts(ItemContainer container)
+	{
+		Map<Integer, Integer> counts = new HashMap<>();
+		if (container == null)
+		{
+			return counts;
+		}
+		for (Item item : container.getItems())
+		{
+			if (item == null)
+			{
+				continue;
+			}
+			int id = item.getId();
+			int qty = item.getQuantity();
+			if (id < 0 || qty <= 0)
+			{
+				continue;
+			}
+			counts.merge(id, qty, Integer::sum);
+		}
+		return counts;
+	}
+
 	// ---- Core logic ---------------------------------------------------------
 
 	private void onLogin()
@@ -275,6 +356,7 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			loadedAccountHash = hash;
 			loadPersisted(hash);
+			loadLedger(hash);
 		}
 		pendingReconcile = true;
 	}
@@ -297,8 +379,10 @@ public class OsirisGuidePlugin extends Plugin
 		state.setCurrentStep(current);
 		if (refresh)
 		{
-			ConditionContext ctx = client.getGameState() == GameState.LOGGED_IN ? new ConditionContext(client) : null;
+			ConditionContext ctx = client.getGameState() == GameState.LOGGED_IN
+				? new ConditionContext(client, ledger) : null;
 			refreshPanel(ctx);
+			refreshLedger();
 		}
 	}
 
@@ -448,6 +532,54 @@ public class OsirisGuidePlugin extends Plugin
 		return out;
 	}
 
+	// ---- Ledger view --------------------------------------------------------
+
+	private void refreshLedger()
+	{
+		if (panel == null || ledger == null)
+		{
+			return;
+		}
+		LedgerModel m = new LedgerModel();
+		m.loggedIn = client.getGameState() == GameState.LOGGED_IN;
+		Set<Integer> ids = ledger.ledgerItems();
+		List<LedgerModel.Row> rows = new ArrayList<>();
+		for (int id : ids)
+		{
+			int acquired = ledger.acquired(id);
+			int owned = ledger.owned(id);
+			int spent = ledger.spent(id);
+			if (acquired == 0 && owned == 0)
+			{
+				continue; // referenced but never observed yet — don't clutter the ledger
+			}
+			rows.add(new LedgerModel.Row(id, itemName(id), acquired, owned, spent));
+			m.totalAcquired += acquired;
+			m.totalSpent += spent;
+		}
+		rows.sort((a, b) -> Integer.compare(b.acquired, a.acquired));
+		m.rows = rows;
+		m.empty = rows.isEmpty();
+		panel.updateLedger(m);
+	}
+
+	private String itemName(int id)
+	{
+		try
+		{
+			ItemComposition comp = itemManager.getItemComposition(id);
+			if (comp != null && comp.getName() != null && !comp.getName().isEmpty())
+			{
+				return comp.getName();
+			}
+		}
+		catch (RuntimeException ex)
+		{
+			log.debug("Osiris Guide: item name lookup failed for {}", id, ex);
+		}
+		return "Item " + id;
+	}
+
 	// ---- Persistence --------------------------------------------------------
 
 	private void persist()
@@ -475,6 +607,44 @@ public class OsirisGuidePlugin extends Plugin
 	private static String progressKey(long hash)
 	{
 		return "progress_" + Long.toUnsignedString(hash);
+	}
+
+	private void persistLedger()
+	{
+		if (ledger == null || loadedAccountHash == -1L)
+		{
+			return;
+		}
+		configManager.setConfiguration(OsirisGuideConfig.GROUP, ledgerKey(loadedAccountHash),
+			gson.toJson(ledger.exportState()));
+	}
+
+	private void loadLedger(long hash)
+	{
+		if (ledger == null)
+		{
+			return;
+		}
+		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, ledgerKey(hash));
+		if (value == null || value.isEmpty())
+		{
+			ledger.importState(null);
+			return;
+		}
+		try
+		{
+			ledger.importState(gson.fromJson(value, ItemLedger.State.class));
+		}
+		catch (RuntimeException ex)
+		{
+			log.warn("Osiris Guide: could not parse saved ledger; starting fresh", ex);
+			ledger.importState(null);
+		}
+	}
+
+	private static String ledgerKey(long hash)
+	{
+		return "ledger_" + Long.toUnsignedString(hash);
 	}
 
 	// ---- Panel actions (Swing thread -> client thread) ----------------------
@@ -517,6 +687,11 @@ public class OsirisGuidePlugin extends Plugin
 				}
 				progression.reset();
 				persist();
+				if (ledger != null)
+				{
+					ledger.reset();
+					persistLedger();
+				}
 				lastCurrentStepId = null;
 				recompute(true);
 			});

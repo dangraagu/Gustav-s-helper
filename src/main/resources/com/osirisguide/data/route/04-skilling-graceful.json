@@ -19,7 +19,11 @@
       "id": "sg-003",
       "title": "Buy pineapples for supercompost from charter …",
       "text": "Buy pineapples for supercompost from charter ships\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 6034,
+        "qty": 1
+      }
     },
     {
       "id": "sg-004",
@@ -239,7 +243,11 @@
       "id": "sg-038",
       "title": "Buy 2800 gold ore from blast …",
       "text": "Buy 2800 gold ore from blast furnace ore shop, 1 inv per world\nLocation: Keldagrim",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 444,
+        "qty": 2800
+      }
     },
     {
       "id": "sg-039",

@@ -72,7 +72,11 @@
       "id": "tfm-011",
       "title": "Buy 20k feathers from shilo village …",
       "text": "Buy 20k feathers from shilo village fishing shop\nLocation: Shilo Village",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 314,
+        "qty": 20
+      }
     },
     {
       "id": "tfm-012",

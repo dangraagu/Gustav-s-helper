@@ -5,33 +5,34 @@
 package com.osirisguide.engine.condition;
 
 import com.osirisguide.engine.ConditionContext;
-import com.osirisguide.engine.ItemScope;
 import java.util.Collections;
 import java.util.Set;
 
-public class ItemCondition implements Condition
+/**
+ * Met once the player has acquired then <b>spent/used</b> at least {@code quantity} of the item
+ * (ledger: acquired − owned). The signal for "use N of X on the quest" steps.
+ */
+public class ItemConsumedCondition implements Condition
 {
 	private final int itemId;
 	private final int quantity;
-	private final ItemScope scope;
 
-	public ItemCondition(int itemId, int quantity, ItemScope scope)
+	public ItemConsumedCondition(int itemId, int quantity)
 	{
 		this.itemId = itemId;
 		this.quantity = Math.max(1, quantity);
-		this.scope = scope;
 	}
 
 	@Override
 	public boolean isMet(ConditionContext ctx)
 	{
-		return ctx.itemCount(scope, itemId) >= quantity;
+		return ctx.itemSpent(itemId) >= quantity;
 	}
 
 	@Override
 	public String describe()
 	{
-		return "item " + itemId + " x" + quantity + " (" + scope + ")";
+		return "spent item " + itemId + " x" + quantity;
 	}
 
 	@Override

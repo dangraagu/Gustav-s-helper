@@ -13,7 +13,11 @@
       "id": "dr-002",
       "title": "Buy a bunch of chocolate dust …",
       "text": "Buy a bunch of chocolate dust from the chest and make energy pots\nLocation: Lumbridge",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1975,
+        "qty": 1
+      }
     },
     {
       "id": "dr-003",

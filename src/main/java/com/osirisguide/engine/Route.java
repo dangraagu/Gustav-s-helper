@@ -6,9 +6,11 @@ package com.osirisguide.engine;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * The full ordered route: a flat list of {@link RouteStep}s, grouped into ordered sections.
@@ -70,6 +72,20 @@ public class Route
 	{
 		Integer i = indexById.get(id);
 		return i == null ? -1 : i;
+	}
+
+	/** All item ids referenced by any step's completion condition — the ledger's items of interest. */
+	public Set<Integer> referencedItemIds()
+	{
+		Set<Integer> ids = new HashSet<>();
+		for (RouteStep s : steps)
+		{
+			if (s.getComplete() != null)
+			{
+				ids.addAll(s.getComplete().itemIds());
+			}
+		}
+		return ids;
 	}
 
 	public List<RouteStep> stepsInSection(String section)

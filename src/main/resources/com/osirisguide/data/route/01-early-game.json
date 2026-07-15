@@ -36,7 +36,11 @@
       "id": "eg-005",
       "title": "Buy a spade, start X marks …",
       "text": "Buy a spade, start X marks the spot quest\nLocation: Lumbridge",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 952,
+        "qty": 1
+      }
     },
     {
       "id": "eg-006",
@@ -124,7 +128,11 @@
       "id": "eg-018",
       "title": "Buy a steel axe",
       "text": "Buy a steel axe\nLocation: Lumbridge",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1353,
+        "qty": 1
+      }
     },
     {
       "id": "eg-019",
@@ -154,7 +162,11 @@
       "id": "eg-023",
       "title": "Pick up 5 swamp tar around …",
       "text": "Pick up 5 swamp tar around the swamp cave entrance\nLocation: Lumbridge Swamp",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1939,
+        "qty": 5
+      }
     },
     {
       "id": "eg-024",
@@ -184,7 +196,11 @@
       "id": "eg-028",
       "title": "Pick up 2 cheese at Aggie …",
       "text": "Pick up 2 cheese at Aggie in Draynor village\nLocation: Draynor Village",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1985,
+        "qty": 2
+      }
     },
     {
       "id": "eg-029",
@@ -208,7 +224,11 @@
       "id": "eg-032",
       "title": "Walk to rimmington, pick up 1 …",
       "text": "Walk to rimmington, pick up 1 snape grass near crafting guild at the hobgoblins\nLocation: Rimmington",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 231,
+        "qty": 1
+      }
     },
     {
       "id": "eg-033",
@@ -232,7 +252,11 @@
       "id": "eg-036",
       "title": "Pick up 2 iron bars just …",
       "text": "Pick up 2 iron bars just northwest of Ferox\nLocation: Ferox Enclave",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2351,
+        "qty": 2
+      }
     },
     {
       "id": "eg-037",
@@ -244,13 +268,21 @@
       "id": "eg-038",
       "title": "Walk to yanille, buy a pie …",
       "text": "Walk to yanille, buy a pie dish at Yanille cooking shop\nLocation: Yanille",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2313,
+        "qty": 1
+      }
     },
     {
       "id": "eg-039",
       "title": "Walk to port Khazard, buy 1 …",
       "text": "Walk to port Khazard, buy 1 swamp paste from the general store\nLocation: Port Khazard",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1941,
+        "qty": 1
+      }
     },
     {
       "id": "eg-040",
@@ -313,7 +345,11 @@
       "id": "eg-047",
       "title": "After the quest, buy however many …",
       "text": "After the quest, buy however many sardine you can fit in your inventory from ...\nLocation: Witchaven",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 325,
+        "qty": 1
+      }
     },
     {
       "id": "eg-048",
@@ -337,7 +373,11 @@
       "id": "eg-051",
       "title": "Buy 2 ropes, 5 vials, 30 …",
       "text": "Buy 2 ropes, 5 vials, 30 balls of wool and 7 papyrus from ardy general store\nLocation: Ardougne",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 970,
+        "qty": 7
+      }
     },
     {
       "id": "eg-052",
@@ -361,7 +401,11 @@
       "id": "eg-055",
       "title": "Pick up 130 planks north of …",
       "text": "Pick up 130 planks north of the Barb agility course\nLocation: Barbarian Outpost",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 960,
+        "qty": 130
+      }
     },
     {
       "id": "eg-056",
@@ -397,7 +441,11 @@
       "id": "eg-061",
       "title": "Buy these items from Heckel Funch …",
       "text": "Buy these items from Heckel Funch (east of Blurberry): 1 pineapple, 1 orange,...\nLocation: Gnome Stronghold",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2114,
+        "qty": 1
+      }
     },
     {
       "id": "eg-062",
@@ -445,7 +493,11 @@
       "id": "eg-069",
       "title": "From sawmill buy 500 bronze nails",
       "text": "From sawmill buy 500 bronze nails\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 4819,
+        "qty": 500
+      }
     },
     {
       "id": "eg-070",
@@ -492,7 +544,11 @@
       "id": "eg-076",
       "title": "Buy a chronicle and 2 teleport …",
       "text": "Buy a chronicle and 2 teleport cards from Diango\nLocation: Draynor Village",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 13658,
+        "qty": 2
+      }
     },
     {
       "id": "eg-077",
@@ -510,7 +566,11 @@
       "id": "eg-079",
       "title": "Walk to port sarim, buy 1000 …",
       "text": "Walk to port sarim, buy 1000 feathers from the fishing store\nLocation: Port Sarim",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 314,
+        "qty": 1000
+      }
     },
     {
       "id": "eg-080",
@@ -558,7 +618,11 @@
       "id": "eg-087",
       "title": "Buy 3 buckets and 1 bucket …",
       "text": "Buy 3 buckets and 1 bucket pack from the general store\nLocation: Lumbridge",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1925,
+        "qty": 3
+      }
     },
     {
       "id": "eg-088",
@@ -612,7 +676,11 @@
       "id": "eg-096",
       "title": "Start Gertrude's cat, pick up doogle …",
       "text": "Start Gertrude's cat, pick up doogle leaves, use the leaves on a sardine\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1573,
+        "qty": 1
+      }
     },
     {
       "id": "eg-097",
@@ -648,7 +716,11 @@
       "id": "eg-102",
       "title": "Buy a fire staff",
       "text": "Buy a fire staff\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1379,
+        "qty": 1
+      }
     },
     {
       "id": "eg-103",
@@ -660,13 +732,21 @@
       "id": "eg-104",
       "title": "Buy gloves and pink skirt from …",
       "text": "Buy gloves and pink skirt from clothes shop\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1013,
+        "qty": 1
+      }
     },
     {
       "id": "eg-105",
       "title": "Buy a rotten tomato from the …",
       "text": "Buy a rotten tomato from the crate near the achievement diary guy\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1982,
+        "qty": 1
+      }
     },
     {
       "id": "eg-106",
@@ -678,7 +758,11 @@
       "id": "eg-107",
       "title": "Buy 4 beers from the same …",
       "text": "Buy 4 beers from the same bar\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1917,
+        "qty": 4
+      }
     },
     {
       "id": "eg-108",
@@ -707,7 +791,11 @@
       "id": "eg-111",
       "title": "Buy 100 fire runes, 300 earth …",
       "text": "Buy 100 fire runes, 300 earth and water, 4000 mind, 8000 airs\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 554,
+        "qty": 100
+      }
     },
     {
       "id": "eg-112",
@@ -785,13 +873,21 @@
       "id": "eg-124",
       "title": "Walk to Barbarian Village via Edgeville, …",
       "text": "Walk to Barbarian Village via Edgeville, buy bronze med helm\nLocation: Barbarian Village",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1139,
+        "qty": 1
+      }
     },
     {
       "id": "eg-125",
       "title": "Pick up 1 cooked meat from …",
       "text": "Pick up 1 cooked meat from the table and burn it on the fire in the bar\nLocation: Barbarian Village",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2142,
+        "qty": 1
+      }
     },
     {
       "id": "eg-126",
@@ -826,7 +922,11 @@
       "id": "eg-130",
       "title": "Buy 8 woad leaves, offer 20gp …",
       "text": "Buy 8 woad leaves, offer 20gp to get 2 leaves\nLocation: Falador Park",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 6020,
+        "qty": 8
+      }
     },
     {
       "id": "eg-131",
@@ -850,7 +950,11 @@
       "id": "eg-134",
       "title": "Buy 1 PACK of eyes of …",
       "text": "Buy 1 PACK of eyes of newt and pestle and mortar in Taverly\nLocation: Taverley",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 233,
+        "qty": 1
+      }
     },
     {
       "id": "eg-135",
@@ -934,7 +1038,11 @@
       "id": "eg-148",
       "title": "Buy 50 thread, 3 needles and …",
       "text": "Buy 50 thread, 3 needles and all of the moulds from the crafting shop\nLocation: Al Kharid",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1733,
+        "qty": 3
+      }
     },
     {
       "id": "eg-149",
@@ -952,7 +1060,11 @@
       "id": "eg-151",
       "title": "Buy 1 inv of bronze bars …",
       "text": "Buy 1 inv of bronze bars for questing from shantay pass\nLocation: Shantay Pass",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2349,
+        "qty": 1
+      }
     },
     {
       "id": "eg-152",
@@ -981,7 +1093,11 @@
       "id": "eg-155",
       "title": "Buy 10 buckets of slime",
       "text": "Buy 10 buckets of slime\nLocation: Port Khazard",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1925,
+        "qty": 10
+      }
     },
     {
       "id": "eg-156",
@@ -993,7 +1109,11 @@
       "id": "eg-157",
       "title": "Buy buckets of sand and soda …",
       "text": "Buy buckets of sand and soda ash\nLocation: Port Khazard",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1781,
+        "qty": 1
+      }
     },
     {
       "id": "eg-158",
@@ -1041,7 +1161,11 @@
       "id": "eg-165",
       "title": "Buy 4 compost pack from the …",
       "text": "Buy 4 compost pack from the Ardy farming shop\nLocation: Ardougne",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 6032,
+        "qty": 4
+      }
     },
     {
       "id": "eg-166",
@@ -1143,7 +1267,11 @@
       "id": "eg-182",
       "title": "Buy 7 buckets of milk",
       "text": "Buy 7 buckets of milk\nLocation: Lumbridge",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1925,
+        "qty": 7
+      }
     },
     {
       "id": "eg-183",
@@ -1161,7 +1289,11 @@
       "id": "eg-185",
       "title": "Pick up 12 onion at Fred's …",
       "text": "Pick up 12 onion at Fred's farm\nLocation: Fred's Farm",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1957,
+        "qty": 12
+      }
     },
     {
       "id": "eg-186",
@@ -1239,7 +1371,11 @@
       "id": "eg-198",
       "title": "Buy iron chainbody from Horvik",
       "text": "Buy iron chainbody from Horvik\nLocation: Varrock",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1101,
+        "qty": 1
+      }
     },
     {
       "id": "eg-199",
@@ -1305,7 +1441,11 @@
       "id": "eg-209",
       "title": "Buy 2 bird snares, 2 butterfly …",
       "text": "Buy 2 bird snares, 2 butterfly jars and a butterfly net from the hunter shop\nLocation: Yanille",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 10012,
+        "qty": 2
+      }
     },
     {
       "id": "eg-210",
@@ -1389,7 +1529,11 @@
       "id": "eg-223",
       "title": "Buy a premade blurb' sp, 4 …",
       "text": "Buy a premade blurb' sp, 4 vodka, pineapple chunks\nLocation: Gnome Stronghold",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2116,
+        "qty": 4
+      }
     },
     {
       "id": "eg-224",
@@ -1449,13 +1593,21 @@
       "id": "eg-233",
       "title": "Buy candle, 2 fishing rods, lobster …",
       "text": "Buy candle, 2 fishing rods, lobster pot\nLocation: Catherby",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 307,
+        "qty": 2
+      }
     },
     {
       "id": "eg-234",
       "title": "Buy 15 pineapples from charters",
       "text": "Buy 15 pineapples from charters\nLocation: Catherby",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2114,
+        "qty": 15
+      }
     },
     {
       "id": "eg-235",
@@ -1467,7 +1619,11 @@
       "id": "eg-236",
       "title": "Buy 1 pack of normal compost …",
       "text": "Buy 1 pack of normal compost and all farming tools, store everything in lepre...\nLocation: Catherby",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 6032,
+        "qty": 1
+      }
     },
     {
       "id": "eg-237",
@@ -1736,7 +1892,11 @@
       "id": "eg-280",
       "title": "Buy 1 inv of stew from …",
       "text": "Buy 1 inv of stew from the Seers bar\nLocation: Seers Village",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 2003,
+        "qty": 1
+      }
     },
     {
       "id": "eg-281",

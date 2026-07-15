@@ -5,6 +5,8 @@
 package com.osirisguide.engine.condition;
 
 import com.osirisguide.engine.ConditionContext;
+import java.util.Collections;
+import java.util.Set;
 
 /**
  * A boolean predicate over game state that decides whether a route step is complete.
@@ -16,4 +18,13 @@ public interface Condition
 
 	/** Human-readable description, for the panel/debugging. */
 	String describe();
+
+	/**
+	 * Item ids this condition (and its children) reference. Used to build the ledger's
+	 * items-of-interest set. Defaults to none; item/combinator conditions override.
+	 */
+	default Set<Integer> itemIds()
+	{
+		return Collections.emptySet();
+	}
 }

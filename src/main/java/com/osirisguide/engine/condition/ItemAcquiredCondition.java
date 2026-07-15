@@ -5,33 +5,35 @@
 package com.osirisguide.engine.condition;
 
 import com.osirisguide.engine.ConditionContext;
-import com.osirisguide.engine.ItemScope;
 import java.util.Collections;
 import java.util.Set;
 
-public class ItemCondition implements Condition
+/**
+ * Met once the player has <b>ever acquired</b> at least {@code quantity} of the item (tracked by the
+ * ledger). Unlike {@link ItemCondition} (current ownership), this stays true after the item is used,
+ * which is the correct signal for "collect / buy / pick up N of X" steps.
+ */
+public class ItemAcquiredCondition implements Condition
 {
 	private final int itemId;
 	private final int quantity;
-	private final ItemScope scope;
 
-	public ItemCondition(int itemId, int quantity, ItemScope scope)
+	public ItemAcquiredCondition(int itemId, int quantity)
 	{
 		this.itemId = itemId;
 		this.quantity = Math.max(1, quantity);
-		this.scope = scope;
 	}
 
 	@Override
 	public boolean isMet(ConditionContext ctx)
 	{
-		return ctx.itemCount(scope, itemId) >= quantity;
+		return ctx.itemAcquired(itemId) >= quantity;
 	}
 
 	@Override
 	public String describe()
 	{
-		return "item " + itemId + " x" + quantity + " (" + scope + ")";
+		return "acquired item " + itemId + " x" + quantity;
 	}
 
 	@Override

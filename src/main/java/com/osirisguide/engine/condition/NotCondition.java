@@ -5,6 +5,7 @@
 package com.osirisguide.engine.condition;
 
 import com.osirisguide.engine.ConditionContext;
+import java.util.Set;
 
 public class NotCondition implements Condition
 {
@@ -25,5 +26,11 @@ public class NotCondition implements Condition
 	public String describe()
 	{
 		return "NOT " + inner.describe();
+	}
+
+	@Override
+	public Set<Integer> itemIds()
+	{
+		return inner.itemIds();
 	}
 }

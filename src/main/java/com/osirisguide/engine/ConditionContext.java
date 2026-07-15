@@ -4,6 +4,7 @@
  */
 package com.osirisguide.engine;
 
+import com.osirisguide.engine.ledger.ItemLedger;
 import net.runelite.api.Client;
 import net.runelite.api.InventoryID;
 import net.runelite.api.ItemContainer;
@@ -24,15 +25,34 @@ import net.runelite.api.gameval.VarPlayerID;
 public class ConditionContext
 {
 	private final Client client;
+	private final ItemLedger ledger;
 
 	public ConditionContext(Client client)
 	{
+		this(client, null);
+	}
+
+	public ConditionContext(Client client, ItemLedger ledger)
+	{
 		this.client = client;
+		this.ledger = ledger;
 	}
 
 	public Client getClient()
 	{
 		return client;
+	}
+
+	/** Cumulative count of an item ever acquired (from the ledger). 0 when no ledger is attached. */
+	public int itemAcquired(int itemId)
+	{
+		return ledger == null ? 0 : ledger.acquired(itemId);
+	}
+
+	/** Count of an item acquired then spent/used (from the ledger). 0 when no ledger is attached. */
+	public int itemSpent(int itemId)
+	{
+		return ledger == null ? 0 : ledger.spent(itemId);
 	}
 
 	public int skillLevel(Skill skill)

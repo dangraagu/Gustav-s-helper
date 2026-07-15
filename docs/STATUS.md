@@ -5,8 +5,14 @@
 ## ✅ Built, compiles, unit-tested (13 tests green)
 
 - **Condition engine** — data-driven boolean conditions: `skill`, `quest`, `item`/`itemBank`/`itemEquipped`,
-  `varbit`, `varp`, `qp`, and `and`/`or`/`not` combinators, plus `manual`. Fail-safe parsing (a bad
-  condition degrades to manual, never crashes, never false-completes).
+  **`itemAcquired`** / **`itemConsumed`** (ledger-backed), `varbit`, `varp`, `qp`, and `and`/`or`/`not`
+  combinators, plus `manual`. Fail-safe parsing (a bad condition degrades to manual, never crashes,
+  never false-completes).
+- **Item ledger** — passive, ToS-safe tracking over `ItemContainerChanged`: per (route-referenced)
+  item, a monotonic **acquired** total, current **owned**, and derived **spent**. Seeds a baseline on
+  first sight so held items aren't miscounted; persists per-account. Powers `itemAcquired`
+  ("ever collected N of X" — stays complete after you use them) and `itemConsumed`, plus a **Ledger
+  tab**. Read-only observation, exactly like Loot Tracker — see [`HUB.md`](HUB.md).
 - **Progression** — ordered route, current-step tracking, auto-advance, **sticky** completion,
   out-of-order completion, login **reconcile** (an existing account resumes at the right place),
   mode filtering (Regular/HCIM/UIM/GIM), progress %, **per-account persistence** via ConfigManager.
@@ -27,16 +33,18 @@
   Skilling/Graceful (50), Diaries & RFD (21), After Barrows Gloves (63), Sailing (11) = **575**.
 - Each step has the real instruction text, a location note where the guide gives one, and a wiki link
   where present.
+- **Auto-detection: 94 / 575** — 39 skill targets + 55 item-acquisition steps (conservatively mapped
+  from the guide text via the OSRS Wiki item list, exact-name only). The rest are manual-advance.
 
 ## ⚠️ Known limitations (the honest part)
 
-1. **Auto-detection is partial: 39 / 575 steps.** Only clear skill-training targets ("…until 77 herb")
-   are auto-detected so far. The other **536 steps are manual-advance** (tick them in the panel). The
-   guide's steps are very granular ("pick up 2 cheese", "bank 7 logs") and the source data exposes no
-   machine-checkable state for them, so reliable auto-completion needs per-step **enrichment** (mapping
-   quests → `net.runelite.api.Quest`, items → ids, adding varbits). This was the risk called out in the
-   design; it is expected, not a regression. Turn off "Auto-advance" in config if a heuristic ever
-   mis-fires.
+1. **Auto-detection is partial: 94 / 575 steps** (39 skill + 55 item-acquisition). The other **481 are
+   manual-advance** (tick them in the panel). The guide's steps are very granular ("bank 7 logs") and
+   the source exposes no machine-checkable state for many, so coverage grows via enrichment (mapping
+   quests → `net.runelite.api.Quest`, more items → ids, varbits). Item mapping is conservative but not
+   perfect — a few steps may map to a near-item or a wrong quantity; these fail toward *not*
+   auto-completing (you tick manually), and any mis-fire is fixable in the JSON. Turn off "Auto-advance"
+   in config if a heuristic ever mis-fires.
 2. **Arrows are dormant until steps get coordinates.** The guide gives location *names* ("Lumbridge"),
    not tile coordinates, so world/minimap arrows and object/NPC highlights only appear once a step is
    enriched with a `world` point / `npc` / `object` id. The overlay code is built and works when the
