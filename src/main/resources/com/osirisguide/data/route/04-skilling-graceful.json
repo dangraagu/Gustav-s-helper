@@ -7,7 +7,12 @@
       "id": "sg-001",
       "title": "Thieve master farmers for a couple …",
       "text": "Thieve master farmers for a couple of hours just to get some low level seeds ...\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "sg-002",
@@ -23,7 +28,8 @@
         "op": "itemAcquired",
         "id": 6034,
         "qty": 1
-      }
+      },
+      "item": 6034
     },
     {
       "id": "sg-004",
@@ -35,7 +41,12 @@
       "id": "sg-005",
       "title": "Buy ~200 chocolate from the grand …",
       "text": "Buy ~200 chocolate from the grand tree food shop, don't buy too much since it...\nLocation: Gnome Stronghold",
-      "manual": true
+      "manual": true,
+      "world": [
+        2445,
+        3424,
+        0
+      ]
     },
     {
       "id": "sg-006",
@@ -47,13 +58,23 @@
       "id": "sg-007",
       "title": "Camelot tele",
       "text": "Camelot tele\nLocation: Seers Village",
-      "manual": true
+      "manual": true,
+      "world": [
+        2725,
+        3485,
+        0
+      ]
     },
     {
       "id": "sg-008",
       "title": "Plant barley seeds at the hops …",
       "text": "Plant barley seeds at the hops patch northwest of Seers, pay the farmer 3 nor...\nLocation: Seers Village",
-      "manual": true
+      "manual": true,
+      "world": [
+        2725,
+        3485,
+        0
+      ]
     },
     {
       "id": "sg-009",
@@ -83,7 +104,12 @@
       "id": "sg-013",
       "title": "Garden of tranquility quest",
       "text": "Garden of tranquility quest\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "sg-014",
@@ -101,7 +127,12 @@
       "id": "sg-016",
       "title": "Do Eyes of glouphrie and Tower …",
       "text": "Do Eyes of glouphrie and Tower of life\nLocation: Gnome Stronghold",
-      "manual": true
+      "manual": true,
+      "world": [
+        2445,
+        3424,
+        0
+      ]
     },
     {
       "id": "sg-017",
@@ -143,19 +174,34 @@
       "id": "sg-023",
       "title": "Start at Castle wars, cut 65 …",
       "text": "Start at Castle wars, cut 65 willow logs and deposit them to the log storage ...\nLocation: Castle Wars",
-      "manual": true
+      "manual": true,
+      "world": [
+        2440,
+        3090,
+        0
+      ]
     },
     {
       "id": "sg-024",
       "title": "Balloon to Varrock, cut full inventory …",
       "text": "Balloon to Varrock, cut full inventory of oak logs and turn them into planks ...\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "sg-025",
       "title": "Teleport to Castle wars, repeat until …",
       "text": "Teleport to Castle wars, repeat until you have 50 construction banked\nLocation: Castle Wars",
-      "manual": true
+      "manual": true,
+      "world": [
+        2440,
+        3090,
+        0
+      ]
     },
     {
       "id": "sg-026",
@@ -166,7 +212,12 @@
         "skill": "CONSTRUCTION",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2957,
+        3215,
+        0
+      ]
     },
     {
       "id": "sg-027",
@@ -247,7 +298,8 @@
         "op": "itemAcquired",
         "id": 444,
         "qty": 2800
-      }
+      },
+      "item": 444
     },
     {
       "id": "sg-039",
@@ -264,13 +316,23 @@
       "id": "sg-040",
       "title": "Go to Edgeville",
       "text": "Go to Edgeville\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "sg-041",
       "title": "Craft the gold bars into gold …",
       "text": "Craft the gold bars into gold BRACELETS, leave like 30 bars for teleport jewe...\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "sg-042",
@@ -288,7 +350,12 @@
       "id": "sg-044",
       "title": "Do agility until full graceful, 50-60 …",
       "text": "Do agility until full graceful, 50-60 at Canifis, 60+ at Seers\nLocation: Canifis/Seers",
-      "manual": true
+      "manual": true,
+      "world": [
+        3495,
+        3488,
+        0
+      ]
     },
     {
       "id": "sg-045",
@@ -324,7 +391,12 @@
       "id": "sg-050",
       "title": "Do Hand in the sand quest",
       "text": "Do Hand in the sand quest\nLocation: Yanille",
-      "manual": true
+      "manual": true,
+      "world": [
+        2605,
+        3095,
+        0
+      ]
     }
   ]
 }

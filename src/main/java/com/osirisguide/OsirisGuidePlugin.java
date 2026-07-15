@@ -12,6 +12,7 @@ import com.osirisguide.engine.Route;
 import com.osirisguide.engine.RouteLoader;
 import com.osirisguide.engine.RouteStep;
 import com.osirisguide.engine.ledger.ItemLedger;
+import com.osirisguide.overlay.OsirisItemOverlay;
 import com.osirisguide.overlay.OsirisMinimapOverlay;
 import com.osirisguide.overlay.OsirisWorldOverlay;
 import com.osirisguide.panel.LedgerModel;
@@ -38,9 +39,11 @@ import net.runelite.api.Item;
 import net.runelite.api.ItemComposition;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.NPC;
+import net.runelite.api.Player;
 import net.runelite.api.Scene;
 import net.runelite.api.Tile;
 import net.runelite.api.TileObject;
+import net.runelite.api.coords.WorldPoint;
 import net.runelite.api.events.GameObjectDespawned;
 import net.runelite.api.events.GameObjectSpawned;
 import net.runelite.api.events.GameStateChanged;
@@ -58,6 +61,8 @@ import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.ui.overlay.OverlayManager;
+import net.runelite.client.ui.overlay.worldmap.WorldMapPoint;
+import net.runelite.client.ui.overlay.worldmap.WorldMapPointManager;
 import net.runelite.client.util.ImageUtil;
 
 @Slf4j
@@ -92,17 +97,24 @@ public class OsirisGuidePlugin extends Plugin
 	@Inject
 	private OsirisMinimapOverlay minimapOverlay;
 	@Inject
+	private OsirisItemOverlay itemOverlay;
+	@Inject
 	private ItemManager itemManager;
+	@Inject
+	private WorldMapPointManager worldMapPointManager;
 
 	private Route route;
 	private Progression progression;
 	private ItemLedger ledger;
 	private OsirisGuidePanel panel;
 	private NavigationButton navButton;
+	private BufferedImage pluginIcon;
+	private WorldMapPoint worldMapPoint;
 
 	private boolean pendingReconcile;
 	private boolean ledgerDirty;
-	private long loadedAccountHash = -1L;
+	private boolean ledgerViewDirty;
+	private String accountKey;
 	private String lastCurrentStepId;
 	private int wantedObjectId = -1;
 	private int wantedNpcId = -1;
@@ -123,10 +135,10 @@ public class OsirisGuidePlugin extends Plugin
 		ledger.setItemsOfInterest(route.referencedItemIds());
 
 		panel = new OsirisGuidePanel(new Actions());
-		BufferedImage icon = ImageUtil.loadImageResource(getClass(), "/com/osirisguide/icon.png");
+		pluginIcon = ImageUtil.loadImageResource(getClass(), "/com/osirisguide/icon.png");
 		navButton = NavigationButton.builder()
 			.tooltip("Osiris Guide")
-			.icon(icon)
+			.icon(pluginIcon)
 			.priority(7)
 			.panel(panel)
 			.build();
@@ -134,6 +146,7 @@ public class OsirisGuidePlugin extends Plugin
 
 		overlayManager.add(worldOverlay);
 		overlayManager.add(minimapOverlay);
+		overlayManager.add(itemOverlay);
 
 		if (client.getGameState() == GameState.LOGGED_IN)
 		{
@@ -157,6 +170,8 @@ public class OsirisGuidePlugin extends Plugin
 		persistLedger();
 		overlayManager.remove(worldOverlay);
 		overlayManager.remove(minimapOverlay);
+		overlayManager.remove(itemOverlay);
+		clearWorldMapPoint();
 		if (navButton != null)
 		{
 			clientToolbar.removeNavigation(navButton);
@@ -168,7 +183,7 @@ public class OsirisGuidePlugin extends Plugin
 		route = null;
 		ledger = null;
 		lastCurrentStepId = null;
-		loadedAccountHash = -1L;
+		accountKey = null;
 	}
 
 	// ---- Events -------------------------------------------------------------
@@ -183,10 +198,12 @@ public class OsirisGuidePlugin extends Plugin
 		}
 		else if (gs == GameState.LOGIN_SCREEN || gs == GameState.HOPPING || gs == GameState.CONNECTION_LOST)
 		{
-			// Flush before the account can switch, so last-second acquisitions aren't lost.
+			// Flush under the CURRENT account key, then clear it so nothing is ever written to a stale
+			// account after a switch. The next login re-resolves and reloads.
 			persist();
 			persistLedger();
 			ledgerDirty = false;
+			accountKey = null;
 		}
 	}
 
@@ -198,6 +215,13 @@ public class OsirisGuidePlugin extends Plugin
 			return;
 		}
 		if (client.getGameState() != GameState.LOGGED_IN)
+		{
+			return;
+		}
+
+		// Ensure the account is resolved (hash/name may lag the LOGGED_IN transition). Until it is,
+		// skip evaluation and persistence so one account's state is never written to another's slot.
+		if (!resolveAccount())
 		{
 			return;
 		}
@@ -244,7 +268,11 @@ public class OsirisGuidePlugin extends Plugin
 			persistLedger();
 			ledgerDirty = false;
 		}
-		recompute(changed || didReconcile || periodic);
+		// A container change (pickup / bank / drop / use) refreshes the ledger view promptly, even
+		// when 'acquired' didn't rise — so the used/dropped column updates the moment you drop an item.
+		boolean refresh = changed || didReconcile || periodic || ledgerViewDirty;
+		ledgerViewDirty = false;
+		recompute(refresh);
 	}
 
 	@Subscribe
@@ -321,6 +349,7 @@ public class OsirisGuidePlugin extends Plugin
 			return;
 		}
 		ledger.observe(id, toCounts(e.getItemContainer()));
+		ledgerViewDirty = true;
 	}
 
 	private static Map<Integer, Integer> toCounts(ItemContainer container)
@@ -351,14 +380,52 @@ public class OsirisGuidePlugin extends Plugin
 
 	private void onLogin()
 	{
-		long hash = client.getAccountHash();
-		if (hash != -1L && hash != loadedAccountHash)
+		resolveAccount();
+	}
+
+	/**
+	 * Loads the current account's saved progress + ledger once its key is resolvable. The account
+	 * hash / character name may not be populated at the exact LOGGED_IN transition, so this is retried
+	 * from {@link #onGameTick} until it resolves — and until then no evaluation or persistence runs,
+	 * so one account's state can never be written into another's slot.
+	 *
+	 * @return true if an account is resolved (safe to evaluate/persist this tick)
+	 */
+	private boolean resolveAccount()
+	{
+		if (accountKey != null)
 		{
-			loadedAccountHash = hash;
-			loadPersisted(hash);
-			loadLedger(hash);
+			return true;
 		}
+		String key = accountKeyFor();
+		if (key == null)
+		{
+			return false;
+		}
+		accountKey = key;
+		loadPersisted(key);
+		loadLedger(key);
 		pendingReconcile = true;
+		return true;
+	}
+
+	/**
+	 * Per-account storage key: the account hash (unique per RuneScape account) when available,
+	 * otherwise the logged-in character name — so progress and the ledger follow the current account.
+	 */
+	private String accountKeyFor()
+	{
+		long hash = client.getAccountHash();
+		if (hash != -1L)
+		{
+			return "acc_" + Long.toUnsignedString(hash);
+		}
+		Player p = client.getLocalPlayer();
+		if (p != null && p.getName() != null && !p.getName().isEmpty())
+		{
+			return "name_" + p.getName().toLowerCase().replaceAll("[^a-z0-9]", "_");
+		}
+		return null;
 	}
 
 	/** Recomputes the current step + targets and optionally refreshes the panel. Client thread. */
@@ -391,6 +458,7 @@ public class OsirisGuidePlugin extends Plugin
 		state.clearTargets();
 		wantedObjectId = -1;
 		wantedNpcId = -1;
+		updateWorldMapPoint(current);
 		if (current == null)
 		{
 			return;
@@ -532,6 +600,29 @@ public class OsirisGuidePlugin extends Plugin
 		return out;
 	}
 
+	private void updateWorldMapPoint(RouteStep step)
+	{
+		clearWorldMapPoint();
+		WorldPoint wp = step == null ? null : step.getWorldPoint();
+		if (wp == null || pluginIcon == null)
+		{
+			return;
+		}
+		worldMapPoint = new WorldMapPoint(wp, pluginIcon);
+		worldMapPoint.setSnapToEdge(true);
+		worldMapPoint.setJumpOnClick(true);
+		worldMapPointManager.add(worldMapPoint);
+	}
+
+	private void clearWorldMapPoint()
+	{
+		if (worldMapPoint != null)
+		{
+			worldMapPointManager.remove(worldMapPoint);
+			worldMapPoint = null;
+		}
+	}
+
 	// ---- Ledger view --------------------------------------------------------
 
 	private void refreshLedger()
@@ -589,48 +680,42 @@ public class OsirisGuidePlugin extends Plugin
 
 	private void persist()
 	{
-		if (progression == null || loadedAccountHash == -1L)
+		if (progression == null || accountKey == null)
 		{
 			return;
 		}
-		String key = progressKey(loadedAccountHash);
 		String value = String.join(",", progression.getCompletedIds());
-		configManager.setConfiguration(OsirisGuideConfig.GROUP, key, value);
+		configManager.setConfiguration(OsirisGuideConfig.GROUP, "progress_" + accountKey, value);
 	}
 
-	private void loadPersisted(long hash)
+	private void loadPersisted(String key)
 	{
-		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, progressKey(hash));
+		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "progress_" + key);
 		if (value == null || value.isEmpty())
 		{
-			progression.setCompletedIds(java.util.Collections.emptyList());
+			progression.setCompletedIds(Collections.emptyList());
 			return;
 		}
 		progression.setCompletedIds(Arrays.asList(value.split(",")));
 	}
 
-	private static String progressKey(long hash)
-	{
-		return "progress_" + Long.toUnsignedString(hash);
-	}
-
 	private void persistLedger()
 	{
-		if (ledger == null || loadedAccountHash == -1L)
+		if (ledger == null || accountKey == null)
 		{
 			return;
 		}
-		configManager.setConfiguration(OsirisGuideConfig.GROUP, ledgerKey(loadedAccountHash),
+		configManager.setConfiguration(OsirisGuideConfig.GROUP, "ledger_" + accountKey,
 			gson.toJson(ledger.exportState()));
 	}
 
-	private void loadLedger(long hash)
+	private void loadLedger(String key)
 	{
 		if (ledger == null)
 		{
 			return;
 		}
-		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, ledgerKey(hash));
+		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, "ledger_" + key);
 		if (value == null || value.isEmpty())
 		{
 			ledger.importState(null);
@@ -645,11 +730,6 @@ public class OsirisGuidePlugin extends Plugin
 			log.warn("Osiris Guide: could not parse saved ledger; starting fresh", ex);
 			ledger.importState(null);
 		}
-	}
-
-	private static String ledgerKey(long hash)
-	{
-		return "ledger_" + Long.toUnsignedString(hash);
 	}
 
 	// ---- Panel actions (Swing thread -> client thread) ----------------------

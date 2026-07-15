@@ -7,13 +7,23 @@
       "id": "sail-001",
       "title": "Unlock Sailing via the Pandemonium quest …",
       "text": "Unlock Sailing via the Pandemonium quest - this is main-guide step 1.1.78a (W...\nLocation: Port Sarim",
-      "manual": true
+      "manual": true,
+      "world": [
+        3050,
+        3245,
+        0
+      ]
     },
     {
       "id": "sail-002",
       "title": "Train Sailing to 12 via sea …",
       "text": "Train Sailing to 12 via sea charting + courier tasks (~20 min)\nLocation: Port Sarim",
-      "manual": true
+      "manual": true,
+      "world": [
+        3050,
+        3245,
+        0
+      ]
     },
     {
       "id": "sail-003",

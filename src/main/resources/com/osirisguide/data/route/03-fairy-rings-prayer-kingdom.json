@@ -11,13 +11,24 @@
         "op": "itemAcquired",
         "id": 1277,
         "qty": 1
-      }
+      },
+      "item": 1277,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-002",
       "title": "Smith 3 bronze wire",
       "text": "Smith 3 bronze wire\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-003",
@@ -27,13 +38,24 @@
         "op": "itemAcquired",
         "id": 845,
         "qty": 1
-      }
+      },
+      "item": 845,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-004",
       "title": "Start Priest in peril",
       "text": "Start Priest in peril\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-005",
@@ -43,13 +65,24 @@
         "op": "itemAcquired",
         "id": 1539,
         "qty": 400
-      }
+      },
+      "item": 1539,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-006",
       "title": "Start Rag and bone man on …",
       "text": "Start Rag and bone man on the way to the temple\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-007",
@@ -71,19 +104,35 @@
         "op": "itemAcquired",
         "id": 383,
         "qty": 1
-      }
+      },
+      "item": 383,
+      "world": [
+        3495,
+        3488,
+        0
+      ]
     },
     {
       "id": "frp-010",
       "title": "Do Creature of Fenkenstrain",
       "text": "Do Creature of Fenkenstrain\nLocation: Canifis",
-      "manual": true
+      "manual": true,
+      "world": [
+        3495,
+        3488,
+        0
+      ]
     },
     {
       "id": "frp-011",
       "title": "Use Chronicle tele",
       "text": "Use Chronicle tele\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-012",
@@ -101,73 +150,133 @@
       "id": "frp-014",
       "title": "Camelot tele",
       "text": "Camelot tele\nLocation: Camelot",
-      "manual": true
+      "manual": true,
+      "world": [
+        2757,
+        3477,
+        0
+      ]
     },
     {
       "id": "frp-015",
       "title": "Kill a giant bat (Rag and …",
       "text": "Kill a giant bat (Rag and bone man) south west of Catherby\nLocation: Catherby",
-      "manual": true
+      "manual": true,
+      "world": [
+        2805,
+        3433,
+        0
+      ]
     },
     {
       "id": "frp-016",
       "title": "Do Elemental workshop 2",
       "text": "Do Elemental workshop 2\nLocation: Seers Village",
-      "manual": true
+      "manual": true,
+      "world": [
+        2725,
+        3485,
+        0
+      ]
     },
     {
       "id": "frp-017",
       "title": "Lumby",
       "text": "Lumby\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-018",
       "title": "Get anti-dragon shield from the duke",
       "text": "Get anti-dragon shield from the duke\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-019",
       "title": "Kill a goblin for the bone …",
       "text": "Kill a goblin for the bone for rag and bone man\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-020",
       "title": "Get big frog leg (you need …",
       "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r...\nLocation: Lumbridge Swamp",
-      "manual": true
+      "manual": true,
+      "world": [
+        3200,
+        3170,
+        0
+      ]
     },
     {
       "id": "frp-021",
       "title": "Start Lost city",
       "text": "Start Lost city\nLocation: Lumbridge Swamp",
-      "manual": true
+      "manual": true,
+      "world": [
+        3200,
+        3170,
+        0
+      ]
     },
     {
       "id": "frp-022",
       "title": "Go to Draynor manor",
       "text": "Go to Draynor manor\nLocation: Draynor Manor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3108,
+        3352,
+        0
+      ]
     },
     {
       "id": "frp-023",
       "title": "Do Ernest the chicken, finish vampire …",
       "text": "Do Ernest the chicken, finish vampire slayer\nLocation: Draynor Manor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3108,
+        3352,
+        0
+      ]
     },
     {
       "id": "frp-024",
       "title": "Dig up the skull for fairytale …",
       "text": "Dig up the skull for fairytale part 1 while you're in the area to save some t...\nLocation: Draynor Manor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3108,
+        3352,
+        0
+      ]
     },
     {
       "id": "frp-025",
       "title": "Bank at Draynor",
       "text": "Bank at Draynor\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-026",
@@ -191,7 +300,12 @@
       "id": "frp-029",
       "title": "Start Fairytale part 1",
       "text": "Start Fairytale part 1\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-030",
@@ -203,13 +317,23 @@
       "id": "frp-031",
       "title": "Talk to martin to start Fairytale2",
       "text": "Talk to martin to start Fairytale2\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-032",
       "title": "Buy 35 jugs of vinegar",
       "text": "Buy 35 jugs of vinegar\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-033",
@@ -219,43 +343,79 @@
         "op": "itemAcquired",
         "id": 5096,
         "qty": 1
-      }
+      },
+      "item": 5096,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-034",
       "title": "Rescue prince ali from the jail",
       "text": "Rescue prince ali from the jail\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-035",
       "title": "While you wait for Martin's crops …",
       "text": "While you wait for Martin's crops for FT2, tele to Lumby\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-036",
       "title": "Start Evil Dave subquest for RFD",
       "text": "Start Evil Dave subquest for RFD\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-037",
       "title": "Kill 2 cows and make 1 …",
       "text": "Kill 2 cows and make 1 soft, 1 hard leather\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-038",
       "title": "Smelt 1 inv of gold, should …",
       "text": "Smelt 1 inv of gold, should have from wintertodt\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-039",
       "title": "Speak to Martin for Fairytale 2",
       "text": "Speak to Martin for Fairytale 2\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-040",
@@ -267,31 +427,56 @@
       "id": "frp-041",
       "title": "Tele to POH and do Melzar's …",
       "text": "Tele to POH and do Melzar's maze (Dragon slayer quest)\nLocation: Rimmington",
-      "manual": true
+      "manual": true,
+      "world": [
+        2957,
+        3215,
+        0
+      ]
     },
     {
       "id": "frp-042",
       "title": "Walk to port Sarim jail and …",
       "text": "Walk to port Sarim jail and telegrab 2nd map piece for Dragon Slayer\nLocation: Port Sarim",
-      "manual": true
+      "manual": true,
+      "world": [
+        3050,
+        3245,
+        0
+      ]
     },
     {
       "id": "frp-043",
       "title": "Buy and repair the ship (dragon …",
       "text": "Buy and repair the ship (dragon slayer)\nLocation: Port Sarim",
-      "manual": true
+      "manual": true,
+      "world": [
+        3050,
+        3245,
+        0
+      ]
     },
     {
       "id": "frp-044",
       "title": "Tele to Fally",
       "text": "Tele to Fally\nLocation: Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        2965,
+        3380,
+        0
+      ]
     },
     {
       "id": "frp-045",
       "title": "Make unfired bowl at barb village",
       "text": "Make unfired bowl at barb village\nLocation: Barbarian Village",
-      "manual": true
+      "manual": true,
+      "world": [
+        3082,
+        3420,
+        0
+      ]
     },
     {
       "id": "frp-046",
@@ -309,13 +494,23 @@
       "id": "frp-048",
       "title": "Tele to Lumby",
       "text": "Tele to Lumby\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-049",
       "title": "Get Ned as your captain for …",
       "text": "Get Ned as your captain for dragon slayer\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-050",
@@ -333,37 +528,67 @@
       "id": "frp-052",
       "title": "Finish dragon slayer and buy a …",
       "text": "Finish dragon slayer and buy a green d'hide top from Oziach\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "frp-053",
       "title": "Wear gloves and pick up 5 …",
       "text": "Wear gloves and pick up 5 nettles at the yews\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "frp-054",
       "title": "Make the stew for Evil Dave …",
       "text": "Make the stew for Evil Dave while you're at Edgeville\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "frp-055",
       "title": "Tele to Lumby",
       "text": "Tele to Lumby\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-056",
       "title": "Fill a bowl with water, put …",
       "text": "Fill a bowl with water, put nettles in it and use it on a range (This is for ...\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-057",
       "title": "Finish Evil Dave subquest",
       "text": "Finish Evil Dave subquest\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "frp-058",
@@ -379,7 +604,8 @@
         "op": "itemAcquired",
         "id": 8880,
         "qty": 1
-      }
+      },
+      "item": 8880
     },
     {
       "id": "frp-060",
@@ -389,7 +615,8 @@
         "op": "itemAcquired",
         "id": 4548,
         "qty": 1
-      }
+      },
+      "item": 4548
     },
     {
       "id": "frp-061",
@@ -418,7 +645,12 @@
         "skill": "RANGED",
         "level": 37,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2900,
+        3543,
+        0
+      ]
     },
     {
       "id": "frp-065",
@@ -442,7 +674,12 @@
       "id": "frp-068",
       "title": "Do Animal magnetism",
       "text": "Do Animal magnetism\nLocation: Draynor Manor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3108,
+        3352,
+        0
+      ]
     },
     {
       "id": "frp-069",
@@ -452,7 +689,13 @@
         "op": "itemAcquired",
         "id": 1121,
         "qty": 1
-      }
+      },
+      "item": 1121,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-070",
@@ -462,7 +705,13 @@
         "op": "itemAcquired",
         "id": 1071,
         "qty": 1
-      }
+      },
+      "item": 1071,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
     },
     {
       "id": "frp-071",
@@ -491,13 +740,23 @@
         "skill": "ATTACK",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2900,
+        3543,
+        0
+      ]
     },
     {
       "id": "frp-075",
       "title": "Make an amulet of magic",
       "text": "Make an amulet of magic\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "frp-076",
@@ -508,13 +767,23 @@
         "skill": "PRAYER",
         "level": 43,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2895,
+        3443,
+        0
+      ]
     },
     {
       "id": "frp-077",
       "title": "Minigame tele to fishing trawler",
       "text": "Minigame tele to fishing trawler\nLocation: Port Khazard",
-      "manual": true
+      "manual": true,
+      "world": [
+        2660,
+        3155,
+        0
+      ]
     },
     {
       "id": "frp-078",
@@ -524,49 +793,90 @@
         "op": "itemAcquired",
         "id": 1925,
         "qty": 1
-      }
+      },
+      "item": 1925,
+      "world": [
+        2660,
+        3155,
+        0
+      ]
     },
     {
       "id": "frp-079",
       "title": "Equip Ghostspeak amulet",
       "text": "Equip Ghostspeak amulet\nLocation: Port Khazard",
-      "manual": true
+      "manual": true,
+      "world": [
+        2660,
+        3155,
+        0
+      ]
     },
     {
       "id": "frp-080",
       "title": "If you didn't prepare the nettle …",
       "text": "If you didn't prepare the nettle water earlier, do it now\nLocation: Port Khazard",
-      "manual": true
+      "manual": true,
+      "world": [
+        2660,
+        3155,
+        0
+      ]
     },
     {
       "id": "frp-081",
       "title": "Make sure you have all ghosts …",
       "text": "Make sure you have all ghosts ahoy items\nLocation: Port Khazard",
-      "manual": true
+      "manual": true,
+      "world": [
+        2660,
+        3155,
+        0
+      ]
     },
     {
       "id": "frp-082",
       "title": "Charter to port Phasmatys",
       "text": "Charter to port Phasmatys\nLocation: Port Phasmatys",
-      "manual": true
+      "manual": true,
+      "world": [
+        3685,
+        3475,
+        0
+      ]
     },
     {
       "id": "frp-083",
       "title": "Start ghosts ahoy",
       "text": "Start ghosts ahoy\nLocation: Port Phasmatys",
-      "manual": true
+      "manual": true,
+      "world": [
+        3685,
+        3475,
+        0
+      ]
     },
     {
       "id": "frp-084",
       "title": "Grind 9 d bones and offer …",
       "text": "Grind 9 d bones and offer them, get ecto tokens\nLocation: Port Phasmatys",
-      "manual": true
+      "manual": true,
+      "world": [
+        3685,
+        3475,
+        0
+      ]
     },
     {
       "id": "frp-085",
       "title": "Finish ghosts ahoy",
       "text": "Finish ghosts ahoy\nLocation: Port Phasmatys",
-      "manual": true
+      "manual": true,
+      "world": [
+        3685,
+        3475,
+        0
+      ]
     },
     {
       "id": "frp-086",
@@ -577,7 +887,12 @@
         "skill": "PRAYER",
         "level": 43,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3685,
+        3475,
+        0
+      ]
     },
     {
       "id": "frp-087",
@@ -589,7 +904,12 @@
       "id": "frp-088",
       "title": "Do Wanted! quest",
       "text": "Do Wanted! quest\nLocation: Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        2965,
+        3380,
+        0
+      ]
     },
     {
       "id": "frp-089",
@@ -600,7 +920,12 @@
         "skill": "SLAYER",
         "level": 40,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2900,
+        3543,
+        0
+      ]
     },
     {
       "id": "frp-090",
@@ -629,7 +954,12 @@
       "id": "frp-093",
       "title": "Do Fremennik trials",
       "text": "Do Fremennik trials\nLocation: Rellekka",
-      "manual": true
+      "manual": true,
+      "world": [
+        2660,
+        3657,
+        0
+      ]
     },
     {
       "id": "frp-094",
@@ -659,13 +989,23 @@
       "id": "frp-098",
       "title": "Clean finds at the museum until …",
       "text": "Clean finds at the museum until you've found all 5 of the items you can get f...\nLocation: Varrock Museum",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-099",
       "title": "Do Bone Voyage quest",
       "text": "Do Bone Voyage quest\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "frp-100",
@@ -683,13 +1023,23 @@
       "id": "frp-102",
       "title": "AFTER your first hunter levels from …",
       "text": "AFTER your first hunter levels from a birdhouse run, RC should be your lowest...\nLocation: Lumbridge Swamp",
-      "manual": true
+      "manual": true,
+      "world": [
+        3200,
+        3170,
+        0
+      ]
     },
     {
       "id": "frp-103",
       "title": "Do Tears of guthix quest, do …",
       "text": "Do Tears of guthix quest, do the minigame weekly it's very worth it\nLocation: Lumbridge Swamp",
-      "manual": true
+      "manual": true,
+      "world": [
+        3200,
+        3170,
+        0
+      ]
     },
     {
       "id": "frp-104",
@@ -705,13 +1055,19 @@
         "op": "itemAcquired",
         "id": 444,
         "qty": 2
-      }
+      },
+      "item": 444
     },
     {
       "id": "frp-106",
       "title": "Go Edgeville furnace and make plenty …",
       "text": "Go Edgeville furnace and make plenty of digsite pendants\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "frp-107",
@@ -728,7 +1084,12 @@
       "id": "frp-108",
       "title": "Buy more seeds from Olivia at …",
       "text": "Buy more seeds from Olivia at Draynor for birdhouses if needed\nLocation: Draynor",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "frp-109",

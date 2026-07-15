@@ -48,7 +48,12 @@
       "id": "abg-007",
       "title": "Make molten glass at Edgeville furnace",
       "text": "Make molten glass at Edgeville furnace\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "abg-008",
@@ -71,7 +76,12 @@
       "id": "abg-010",
       "title": "Get a helm of neitiznot",
       "text": "Get a helm of neitiznot\nLocation: Rellekka",
-      "manual": true
+      "manual": true,
+      "world": [
+        2660,
+        3657,
+        0
+      ]
     },
     {
       "id": "abg-011",
@@ -158,7 +168,12 @@
         "skill": "AGILITY",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2660,
+        3657,
+        0
+      ]
     },
     {
       "id": "abg-023",
@@ -285,7 +300,12 @@
       "id": "abg-039",
       "title": "Do Dragon slayer 2",
       "text": "Do Dragon slayer 2\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "abg-040",

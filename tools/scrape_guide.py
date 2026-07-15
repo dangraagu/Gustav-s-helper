@@ -166,6 +166,36 @@ def detect_item(text: str, item_map):
     return {"op": "itemAcquired", "id": best_id, "qty": qty}
 
 
+# --- Location gazetteer (approximate area centres) ---------------------------
+# Maps a location phrase from the guide to an approximate WorldPoint so the world-map marker and
+# in-scene arrow point toward the right area. Deliberately conservative — only well-known places,
+# and only area-level accuracy (the step text still gives the precise spot). Longest key wins.
+GAZETTEER = {
+    "lumbridge swamp": (3200, 3170), "lumbridge castle": (3222, 3218), "lumbridge": (3222, 3218),
+    "draynor manor": (3108, 3352), "draynor": (3093, 3244),
+    "rimmington": (2957, 3215), "port sarim": (3050, 3245), "falador": (2965, 3380),
+    "wizard tower": (3110, 3167), "varrock": (3213, 3428), "grand exchange": (3164, 3486),
+    "edgeville": (3087, 3496), "al-kharid": (3293, 3184), "al kharid": (3293, 3184),
+    "barbarian village": (3082, 3420), "ferox": (3151, 3635),
+    "yanille": (2605, 3095), "khazard": (2660, 3155), "ardougne": (2662, 3305), "ardy": (2662, 3305),
+    "catherby": (2805, 3433), "seers": (2725, 3485), "camelot": (2757, 3477),
+    "taverley": (2895, 3443), "burthorpe": (2900, 3543), "canifis": (3495, 3488),
+    "gnome stronghold": (2445, 3424), "rellekka": (2660, 3657), "castle wars": (2440, 3090),
+    "phasmatys": (3685, 3475),
+}
+
+
+def gazetteer_lookup(loc):
+    if not loc:
+        return None
+    low = loc.lower()
+    best = None
+    for key, xy in GAZETTEER.items():
+        if key in low and (best is None or len(key) > len(best)):
+            best = key
+    return [GAZETTEER[best][0], GAZETTEER[best][1], 0] if best else None
+
+
 def heading(name: str, words: int = 6) -> str:
     parts = name.split()
     h = " ".join(parts[:words])
@@ -187,6 +217,13 @@ def build_step(prefix, position, name, loc, url, item_map):
         step["complete"] = cond
     else:
         step["manual"] = True
+    # Highlight the acquired item in the inventory/bank.
+    if cond and cond.get("op") == "itemAcquired":
+        step["item"] = cond["id"]
+    # Point the world-map marker / arrow at the step's area, when we know it.
+    world = gazetteer_lookup(loc)
+    if world:
+        step["world"] = world
     return step
 
 

@@ -47,10 +47,13 @@
    perfect — a few steps may map to a near-item or a wrong quantity; these fail toward *not*
    auto-completing (you tick manually), and any mis-fire is fixable in the JSON. Turn off "Auto-advance"
    in config if a heuristic ever mis-fires.
-2. **Arrows are dormant until steps get coordinates.** The guide gives location *names* ("Lumbridge"),
-   not tile coordinates, so world/minimap arrows and object/NPC highlights only appear once a step is
-   enriched with a `world` point / `npc` / `object` id. The overlay code is built and works when the
-   data has them.
+2. **Guidance overlays — partial, growing.** Working now: **336 steps** carry an approximate area
+   `world` point (from a location gazetteer), so each shows a **world-map marker** (snaps to the map
+   edge pointing toward the destination) and an in-scene arrow/tile when you're nearby; **55 item
+   steps** highlight the item in your inventory/bank (Quest-Helper style). Still needs per-step
+   enrichment: exact **object/NPC ids** to highlight the precise thing to click, and precise tile
+   coords (the gazetteer is town-level, not the exact NPC). The overlay code is done — it lights up as
+   steps gain `object`/`npc`/precise `world` data.
 3. **Not verified in-game.** Per RuneLite's own guidance, only a human can confirm in-game behaviour, and
    automating the game client is a bannable offence — so I did **not** and **will not** drive RuneScape.
    A clean build + passing unit tests is **not** a functional in-game test.

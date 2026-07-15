@@ -17,7 +17,13 @@
         "op": "itemAcquired",
         "id": 1975,
         "qty": 1
-      }
+      },
+      "item": 1975,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "dr-003",
@@ -93,7 +99,12 @@
       "id": "dr-013",
       "title": "Watchtower quest",
       "text": "Watchtower quest\nLocation: Yanille",
-      "manual": true
+      "manual": true,
+      "world": [
+        2605,
+        3095,
+        0
+      ]
     },
     {
       "id": "dr-014",
@@ -146,7 +157,12 @@
       "id": "dr-021",
       "title": "Finish RFD, buy B gloves",
       "text": "Finish RFD, buy B gloves\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     }
   ]
 }

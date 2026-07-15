@@ -126,6 +126,18 @@ public interface OsirisGuideConfig extends Config
 		return true;
 	}
 
+	@ConfigItem(
+		keyName = "highlightItems",
+		name = "Highlight items",
+		description = "Highlight the current step's item in your inventory/bank.",
+		section = overlaySection,
+		position = 6
+	)
+	default boolean highlightItems()
+	{
+		return true;
+	}
+
 	@Alpha
 	@ConfigItem(
 		keyName = "highlightColor",

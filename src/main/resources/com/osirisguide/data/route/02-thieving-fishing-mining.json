@@ -7,25 +7,45 @@
       "id": "tfm-001",
       "title": "Start the Feud at Ali Morrisane",
       "text": "Start the Feud at Ali Morrisane\nLocation: Al Kharid",
-      "manual": true
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
     },
     {
       "id": "tfm-002",
       "title": "From Ali Morrisane, buy the desert …",
       "text": "From Ali Morrisane, buy the desert disguise for The Feud quest\nLocation: Al Kharid",
-      "manual": true
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
     },
     {
       "id": "tfm-003",
       "title": "Smelt the 5 silver, make a …",
       "text": "Smelt the 5 silver, make a sickle and unstrung holy symbol, keep 3 bars\nLocation: Al Kharid",
-      "manual": true
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
     },
     {
       "id": "tfm-004",
       "title": "Give the key imprint and bronze …",
       "text": "Give the key imprint and bronze bar to Osman for Prince ali rescue quest\nLocation: Al Kharid",
-      "manual": true
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
     },
     {
       "id": "tfm-005",
@@ -48,13 +68,23 @@
       "id": "tfm-007",
       "title": "IF you're planning on 3-tick fishing …",
       "text": "IF you're planning on 3-tick fishing then home tele to lumby and pick up 15+ ...\nLocation: Lumbridge",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
     },
     {
       "id": "tfm-008",
       "title": "Ardy cloak tele and take the …",
       "text": "Ardy cloak tele and take the boat from Ardy to brimhaven\nLocation: Ardougne",
-      "manual": true
+      "manual": true,
+      "world": [
+        2662,
+        3305,
+        0
+      ]
     },
     {
       "id": "tfm-009",
@@ -76,7 +106,8 @@
         "op": "itemAcquired",
         "id": 314,
         "qty": 20
-      }
+      },
+      "item": 314
     },
     {
       "id": "tfm-012",
@@ -93,13 +124,23 @@
       "id": "tfm-013",
       "title": "Minigame tele to Burthrope games' room",
       "text": "Minigame tele to Burthrope games' room\nLocation: Burthorpe",
-      "manual": true
+      "manual": true,
+      "world": [
+        2900,
+        3543,
+        0
+      ]
     },
     {
       "id": "tfm-014",
       "title": "Cook all of your trout, don't …",
       "text": "Cook all of your trout, don't cook salmon yet\nLocation: Burthorpe",
-      "manual": true
+      "manual": true,
+      "world": [
+        2900,
+        3543,
+        0
+      ]
     },
     {
       "id": "tfm-015",
@@ -128,7 +169,12 @@
       "id": "tfm-018",
       "title": "After 50 agility, minigame tele to …",
       "text": "After 50 agility, minigame tele to Burthrope\nLocation: Burthorpe",
-      "manual": true
+      "manual": true,
+      "world": [
+        2900,
+        3543,
+        0
+      ]
     },
     {
       "id": "tfm-019",
@@ -152,7 +198,12 @@
       "id": "tfm-022",
       "title": "If you got any cosmic runes …",
       "text": "If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the...\nLocation: Al Kharid",
-      "manual": true
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
     },
     {
       "id": "tfm-023",
@@ -176,7 +227,12 @@
       "id": "tfm-026",
       "title": "Go to Edgeville and talk to …",
       "text": "Go to Edgeville and talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
-      "manual": true
+      "manual": true,
+      "world": [
+        3087,
+        3496,
+        0
+      ]
     },
     {
       "id": "tfm-027",
@@ -188,25 +244,45 @@
       "id": "tfm-028",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador\nLocation: Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        2965,
+        3380,
+        0
+      ]
     },
     {
       "id": "tfm-029",
       "title": "Get 2 buckets of sap from …",
       "text": "Get 2 buckets of sap from this tree near falador east bank\nLocation: Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        2965,
+        3380,
+        0
+      ]
     },
     {
       "id": "tfm-030",
       "title": "Buy addy and rune picks from …",
       "text": "Buy addy and rune picks from the pickaxe shop in the mines\nLocation: Falador",
-      "manual": true
+      "manual": true,
+      "world": [
+        2965,
+        3380,
+        0
+      ]
     },
     {
       "id": "tfm-031",
       "title": "Complete Varrock easy diary for the …",
       "text": "Complete Varrock easy diary for the armour, makes next step a bit faster\nLocation: Varrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3428,
+        0
+      ]
     },
     {
       "id": "tfm-032",
@@ -218,7 +294,12 @@
       "id": "tfm-033",
       "title": "Mine 2300 iron ore at ardy …",
       "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba...\nLocation: Ardougne Monastery",
-      "manual": true
+      "manual": true,
+      "world": [
+        2662,
+        3305,
+        0
+      ]
     }
   ]
 }
