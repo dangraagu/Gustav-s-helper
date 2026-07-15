@@ -901,7 +901,7 @@
           {
             "op": "item",
             "id": 2114,
-            "qty": 1,
+            "qty": 16,
             "scope": "ANY"
           }
         ]
@@ -1272,7 +1272,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 3,
+            "qty": 21,
             "scope": "ANY"
           }
         ]
@@ -2277,12 +2277,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 10
+            "qty": 13
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 10,
+            "qty": 21,
             "scope": "ANY"
           }
         ]
@@ -2436,7 +2436,7 @@
           {
             "op": "item",
             "id": 6032,
-            "qty": 4,
+            "qty": 5,
             "scope": "ANY"
           }
         ]
@@ -2654,12 +2654,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 7
+            "qty": 20
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 7,
+            "qty": 21,
             "scope": "ANY"
           }
         ]
@@ -3374,12 +3374,12 @@
           {
             "op": "itemAcquired",
             "id": 2114,
-            "qty": 15
+            "qty": 16
           },
           {
             "op": "item",
             "id": 2114,
-            "qty": 15,
+            "qty": 16,
             "scope": "ANY"
           }
         ]
@@ -3412,12 +3412,12 @@
           {
             "op": "itemAcquired",
             "id": 6032,
-            "qty": 1
+            "qty": 5
           },
           {
             "op": "item",
             "id": 6032,
-            "qty": 1,
+            "qty": 5,
             "scope": "ANY"
           }
         ]
