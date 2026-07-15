@@ -235,10 +235,11 @@
       "text": "Start Restless ghost by talking to Father Aereck\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3244,
+        3210,
         0
-      ]
+      ],
+      "npc": 2812
     },
     {
       "id": "eg-020",
@@ -306,10 +307,11 @@
       "text": "Talk to Father Urhney to get the ghostspeak amulet, equip it\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
-        3197,
-        3166,
+        3147,
+        3175,
         0
-      ]
+      ],
+      "npc": 923
     },
     {
       "id": "eg-025",
@@ -370,10 +372,11 @@
       },
       "item": 1985,
       "world": [
-        3103,
-        3265,
+        3086,
+        3258,
         0
-      ]
+      ],
+      "npc": 4284
     },
     {
       "id": "eg-029",
@@ -881,10 +884,11 @@
       "text": "Buy a drink from Blurberry for the Barcrawl miniquest\nLocation: Gnome Stronghold",
       "manual": true,
       "world": [
-        2440,
-        3460,
-        0
-      ]
+        2482,
+        3491,
+        1
+      ],
+      "npc": 6531
     },
     {
       "id": "eg-061",
@@ -908,10 +912,11 @@
       },
       "item": 2114,
       "world": [
-        2440,
-        3460,
-        0
-      ]
+        2482,
+        3491,
+        1
+      ],
+      "npc": 6531
     },
     {
       "id": "eg-062",
@@ -1410,7 +1415,11 @@
       "id": "eg-098",
       "title": "Talk to Romeo to start Romeo …",
       "text": "Talk to Romeo to start Romeo and Juliet quest\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
       "world": [
         3210,
         3448,
@@ -1614,10 +1623,11 @@
       "text": "Steal tea from the tea stall\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3270,
+        3411,
         0
-      ]
+      ],
+      "object": 635
     },
     {
       "id": "eg-110",
@@ -1781,10 +1791,11 @@
       "text": "Talk to juliet\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
-        0
-      ]
+        3158,
+        3427,
+        1
+      ],
+      "npc": 5035
     },
     {
       "id": "eg-123",
@@ -2071,10 +2082,11 @@
       "text": "Give the pie to Thurgo, and ask about Knight's sword\nLocation: Mudskipper Point",
       "manual": true,
       "world": [
-        2999,
-        3122,
+        3000,
+        3145,
         0
-      ]
+      ],
+      "npc": 4733
     },
     {
       "id": "eg-142",
@@ -2093,10 +2105,11 @@
       "text": "Use the falador teletab, talk to the squire and get the portrait from sir Vyv...\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2978,
+        3341,
         0
-      ]
+      ],
+      "npc": 4737
     },
     {
       "id": "eg-144",
@@ -2104,10 +2117,11 @@
       "text": "Use house tab and run back to thurgo for the sword, run back to Falador\nLocation: Mudskipper Point",
       "manual": true,
       "world": [
-        2999,
-        3122,
+        3000,
+        3145,
         0
-      ]
+      ],
+      "npc": 4733
     },
     {
       "id": "eg-145",
@@ -2225,10 +2239,11 @@
       },
       "item": 2349,
       "world": [
-        3304,
-        3123,
+        3303,
+        3122,
         0
-      ]
+      ],
+      "npc": 4642
     },
     {
       "id": "eg-152",
@@ -2955,7 +2970,11 @@
       "id": "eg-203",
       "title": "Finish romeo and juliet",
       "text": "Finish romeo and juliet\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
       "world": [
         3210,
         3448,
@@ -3284,10 +3303,11 @@
       "text": "Get the touch paper from chemist and give the 3 potions to the guys outside\nLocation: Rimmington",
       "manual": true,
       "world": [
-        2956,
-        3232,
+        2933,
+        3210,
         0
-      ]
+      ],
+      "npc": 1146
     },
     {
       "id": "eg-229",
@@ -3606,10 +3626,11 @@
       "text": "Buy a black wizards hat from Betty at port sarim magic store\nLocation: Port Sarim",
       "manual": true,
       "world": [
-        3029,
-        3221,
+        3014,
+        3258,
         0
-      ]
+      ],
+      "npc": 5905
     },
     {
       "id": "eg-251",

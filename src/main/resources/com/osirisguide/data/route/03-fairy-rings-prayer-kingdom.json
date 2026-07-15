@@ -604,10 +604,11 @@
       "text": "Talk to the oracle\nLocation: Ice Mountain",
       "manual": true,
       "world": [
-        3010,
-        3486,
+        3014,
+        3501,
         0
-      ]
+      ],
+      "npc": 821
     },
     {
       "id": "frp-047",
@@ -670,10 +671,11 @@
       "text": "Finish dragon slayer and buy a green d'hide top from Oziach\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3068,
+        3517,
         0
-      ]
+      ],
+      "npc": 822
     },
     {
       "id": "frp-053",

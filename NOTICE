@@ -26,4 +26,13 @@ requirement display model are adapted from RuneLite Quest Helper:
 
 The original BSD 2-Clause copyright headers are retained in the adapted files.
 
+Reference data
+--------------
+Some route steps carry precise NPC/object IDs and tile coordinates. These are
+factual OSRS game data (not copyrightable) that were harvested at build time from
+Quest Helper's open source (BSD 2-Clause, credited above) to save re-mapping
+entities by hand. Quest Helper's own source code is NOT shipped in this plugin —
+only the resulting factual IDs/coordinates are baked into the route data. The
+build-time extractor lives in tools/data/ (qh_extract.py + qh_entities.json).
+
 Not affiliated with Jagex Ltd. Old School RuneScape is a trademark of Jagex Ltd.
