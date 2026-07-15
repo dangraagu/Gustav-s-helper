@@ -11,7 +11,10 @@ package com.osirisguide;
  */
 public enum Guide
 {
-	OSIRIS_IRONMAN("osiris-ironman", "Oziris Ironman Guide");
+	OSIRIS_IRONMAN("osiris-ironman", "Oziris Ironman Guide"),
+	B0ATY_HCIM("b0aty-hcim", "B0aty HCIM Guide V3"),
+	OPTIMAL_QUEST_IRONMAN("optimal-quest-ironman", "Optimal Quest Guide (Ironman)"),
+	IRONMAN_PVM_RUSH("ironman-pvm-rush", "Ironman PvM Rush");
 
 	private final String id;
 	private final String displayName;

@@ -279,6 +279,9 @@ QH_STOP = {
     "boat", "ship", "sack", "bed", "pot", "pan", "log", "logs", "coin", "coins", "man", "woman",
     "guard", "sign", "box", "bar", "net", "cabbage", "potato", "wheat", "unicorn", "cow", "chicken",
     "rat", "spider", "bones", "food", "drink", "jug", "bowl", "monkey", "knight", "black knight",
+    # generic words that collide with skilling/spell/item terms, not the entity of that name:
+    "strike", "swamp", "house", "mage", "dragon", "wire", "bird", "hops", "willow", "abyss", "ghost",
+    "seaweed", "clay", "flour", "barley", "silver", "gold", "coal", "iron", "steel", "mithril",
 }
 
 

@@ -59,10 +59,11 @@
       "text": "Go to rogues' den and burn giant seaweed on the fire, 4 seaweed at a time\nLocation: Rogues' Den",
       "manual": true,
       "world": [
-        2906,
+        2905,
         3537,
         0
-      ]
+      ],
+      "object": 7257
     },
     {
       "id": "abg-007",
@@ -70,10 +71,11 @@
       "text": "Make molten glass at Edgeville furnace\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3097,
+        3468,
         0
-      ]
+      ],
+      "object": 1581
     },
     {
       "id": "abg-008",
@@ -103,10 +105,11 @@
       "text": "Get a helm of neitiznot\nLocation: Rellekka",
       "manual": true,
       "world": [
-        2658,
-        3677,
+        2644,
+        3710,
         0
-      ]
+      ],
+      "npc": 1883
     },
     {
       "id": "abg-011",
@@ -473,7 +476,13 @@
       "id": "abg-046",
       "title": "Resume Slayer with Bowfa - push …",
       "text": "Resume Slayer with Bowfa - push to 85+ Slayer for boss tasks and Abyssal Demons\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "npc": 415,
+      "world": [
+        3420,
+        3569,
+        2
+      ]
     },
     {
       "id": "abg-047",
@@ -570,7 +579,13 @@
       "id": "abg-056",
       "title": "Craft the Purging Staff from Tormented …",
       "text": "Craft the Purging Staff from Tormented Demons (requires WGS completion)\nLocation: Tormented Demons",
-      "manual": true
+      "manual": true,
+      "npc": 13599,
+      "world": [
+        4139,
+        4383,
+        0
+      ]
     },
     {
       "id": "abg-057",
@@ -600,10 +615,11 @@
       "text": "Chambers of Xeric for Twisted Bow, Dragon Hunter Crossbow, and other uniques\nLocation: Chambers of Xeric",
       "manual": true,
       "world": [
-        1245,
-        3557,
+        1232,
+        3573,
         0
-      ]
+      ],
+      "object": 29777
     },
     {
       "id": "abg-060",

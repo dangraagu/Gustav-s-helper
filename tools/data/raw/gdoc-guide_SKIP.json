@@ -1,0 +1,18 @@
+{
+  "id": "gdoc-guide",
+  "name": "BRUHsailer",
+  "source": "https://docs.google.com/document/d/1CBkFM70SnrW4hJXvHM2F1fYCuBF_fRnEXnTYgRnRkAE/edit",
+  "license": "BRUHsailer, an ironman guide by So Iron BRUH and ParasailerOSRS (Google Doc author; rights reserved to the authors)",
+  "sections": [
+    {
+      "section": "Arteglass east-guard lure (updated method) — NOTE: only actionable procedure in this index doc",
+      "prefix": "arte",
+      "steps": [
+        { "name": "Step under the guard.", "loc": null },
+        { "name": "Teleport to Fisher's Flute with your Kharedst's memoirs.", "loc": "Fisher's Flute" },
+        { "name": "Run to the south side of the guard so they face you (still aggro'd on you).", "loc": null },
+        { "name": "Teleport far away to reset aggro.", "loc": null }
+      ]
+    }
+  ]
+}

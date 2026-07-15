@@ -93,10 +93,11 @@
       },
       "item": 1539,
       "world": [
-        3210,
-        3448,
+        3302,
+        3492,
         0
-      ]
+      ],
+      "npc": 3101
     },
     {
       "id": "frp-006",
@@ -231,10 +232,11 @@
       "text": "Kill a giant bat (Rag and bone man) south west of Catherby\nLocation: Catherby",
       "manual": true,
       "world": [
-        2814,
-        3443,
+        2841,
+        3432,
         0
-      ]
+      ],
+      "npc": 1520
     },
     {
       "id": "frp-016",
@@ -242,10 +244,11 @@
       "text": "Do Elemental workshop 2\nLocation: Seers Village",
       "manual": true,
       "world": [
-        2710,
-        3485,
+        2711,
+        3498,
         0
-      ]
+      ],
+      "object": 3415
     },
     {
       "id": "frp-017",
@@ -313,9 +316,10 @@
       "manual": true,
       "world": [
         3108,
-        3358,
+        3353,
         0
-      ]
+      ],
+      "object": 134
     },
     {
       "id": "frp-023",
@@ -423,10 +427,11 @@
       "text": "Talk to martin to start Fairytale2\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3077,
+        3263,
         0
-      ]
+      ],
+      "npc": 5832
     },
     {
       "id": "frp-032",
@@ -472,10 +477,11 @@
       "text": "Rescue prince ali from the jail\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3123,
+        3240,
         0
-      ]
+      ],
+      "npc": 11579
     },
     {
       "id": "frp-035",
@@ -483,10 +489,11 @@
       "text": "While you wait for Martin's crops for FT2, tele to Lumby\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3077,
+        3263,
         0
-      ]
+      ],
+      "npc": 5832
     },
     {
       "id": "frp-036",
@@ -527,10 +534,11 @@
       "text": "Speak to Martin for Fairytale 2\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3077,
+        3263,
         0
-      ]
+      ],
+      "npc": 5832
     },
     {
       "id": "frp-040",
@@ -538,10 +546,11 @@
       "text": "Go unlock fairy rings at Zanaris\nLocation: Zanaris",
       "manual": true,
       "world": [
-        3204,
+        3202,
         3169,
         0
-      ]
+      ],
+      "object": 2406
     },
     {
       "id": "frp-041",
@@ -560,10 +569,11 @@
       "text": "Walk to port Sarim jail and telegrab 2nd map piece for Dragon Slayer\nLocation: Port Sarim",
       "manual": true,
       "world": [
-        3029,
-        3221,
+        3015,
+        3195,
         0
-      ]
+      ],
+      "npc": 820
     },
     {
       "id": "frp-043",
@@ -638,10 +648,11 @@
       "text": "Get Ned as your captain for dragon slayer\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
-        0
-      ]
+        2222,
+        3796,
+        2
+      ],
+      "npc": 6649
     },
     {
       "id": "frp-050",
@@ -649,10 +660,11 @@
       "text": "Go to Crandor and open the shortcut to Karamja volcano\nLocation: Crandor",
       "manual": true,
       "world": [
-        2836,
-        3271,
+        2857,
+        3169,
         0
-      ]
+      ],
+      "object": 11441
     },
     {
       "id": "frp-051",
@@ -848,10 +860,11 @@
         "cmp": ">="
       },
       "world": [
-        2870,
-        3544,
+        2931,
+        3536,
         0
-      ]
+      ],
+      "npc": 13433
     },
     {
       "id": "frp-065",
@@ -927,10 +940,11 @@
       },
       "item": 1121,
       "world": [
-        3210,
-        3448,
+        3229,
+        3436,
         0
-      ]
+      ],
+      "npc": 2882
     },
     {
       "id": "frp-070",
@@ -1011,10 +1025,11 @@
         "cmp": ">="
       },
       "world": [
-        2870,
-        3544,
+        2931,
+        3536,
         0
-      ]
+      ],
+      "npc": 13433
     },
     {
       "id": "frp-075",
@@ -1124,10 +1139,11 @@
       "text": "Charter to port Phasmatys\nLocation: Port Phasmatys",
       "manual": true,
       "world": [
-        3679,
-        3486,
+        3791,
+        3559,
         0
-      ]
+      ],
+      "npc": 3005
     },
     {
       "id": "frp-083",
@@ -1223,10 +1239,11 @@
         "cmp": ">="
       },
       "world": [
-        2870,
-        3544,
+        2931,
+        3536,
         0
-      ]
+      ],
+      "npc": 13433
     },
     {
       "id": "frp-090",
@@ -1440,10 +1457,11 @@
       "text": "Go Edgeville furnace and make plenty of digsite pendants\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3097,
+        3468,
         0
-      ]
+      ],
+      "object": 1581
     },
     {
       "id": "frp-107",
