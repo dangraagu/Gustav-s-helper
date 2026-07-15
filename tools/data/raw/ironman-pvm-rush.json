@@ -1,0 +1,108 @@
+{
+  "id": "ironman-pvm-rush",
+  "name": "Ironman PvM Rush",
+  "source": "https://oldschool.runescape.wiki/w/User:AtelierLogic2/Guide:Ironman_PvM_Rush",
+  "license": "CC BY-NC-SA 3.0",
+  "sections": [
+    {
+      "section": "Basic skilling",
+      "prefix": "bs",
+      "steps": [
+        { "name": "Complete the Song of the Elves quest (unlocks the Gauntlet, Bowfa and crystal armour; prioritise above all other quests)", "loc": null },
+        { "name": "Rush 99 Strength and roughly 90 Attack", "loc": null }
+      ]
+    },
+    {
+      "section": "Weapons to own",
+      "prefix": "wep",
+      "steps": [
+        { "name": "Obtain a Zombie axe", "loc": null },
+        { "name": "Obtain a Dragon scimitar", "loc": null },
+        { "name": "Obtain a Dragon dagger (DDS)", "loc": null },
+        { "name": "Obtain a Bone dagger", "loc": null },
+        { "name": "Obtain a Crystal halberd", "loc": null },
+        { "name": "Obtain one of: Sulphur blades, Glacial temotli, or Dual macuahuitl", "loc": null },
+        { "name": "Obtain a Magic shortbow", "loc": null },
+        { "name": "Obtain a Crystal bow", "loc": null },
+        { "name": "Obtain a Warped sceptre", "loc": null }
+      ]
+    },
+    {
+      "section": "Armour and accessories",
+      "prefix": "gear",
+      "steps": [
+        { "name": "Obtain all styles of Void Knight equipment and upgrade to Elite Void as fast as possible", "loc": null },
+        { "name": "Obtain a Berserker ring", "loc": null },
+        { "name": "Obtain an Amulet of glory", "loc": null },
+        { "name": "Obtain a Dragon defender", "loc": null },
+        { "name": "Obtain the Mage Arena 2 (MA2) cape", "loc": null },
+        { "name": "Obtain a green Ava's device (Ava's accumulator)", "loc": null },
+        { "name": "Once you reach ToA, obtain a Mage's book from the Mage Training Arena", "loc": "Mage Training Arena" }
+      ]
+    },
+    {
+      "section": "Remaining quests and diaries",
+      "prefix": "qd",
+      "steps": [
+        { "name": "Complete A Kingdom Divided", "loc": null },
+        { "name": "Complete Recipe for Disaster", "loc": null },
+        { "name": "Complete the hard Western Provinces Diary", "loc": null }
+      ]
+    },
+    {
+      "section": "Bare minimum gear (equipped)",
+      "prefix": "eq",
+      "steps": [
+        { "name": "Equip Void melee helm", "loc": null },
+        { "name": "Equip Fire cape", "loc": null },
+        { "name": "Equip Amulet of glory", "loc": null },
+        { "name": "Wield rune arrows", "loc": null },
+        { "name": "Equip Dragon scimitar", "loc": null },
+        { "name": "Equip Void knight top", "loc": null },
+        { "name": "Equip Void knight robe", "loc": null },
+        { "name": "Equip Dragon defender", "loc": null },
+        { "name": "Equip Void knight gloves", "loc": null },
+        { "name": "Equip Climbing boots", "loc": null },
+        { "name": "Equip Berserker ring (i)", "loc": null }
+      ]
+    },
+    {
+      "section": "Bare minimum gear (inventory)",
+      "prefix": "inv",
+      "steps": [
+        { "name": "Bring Dragon dagger(p++)", "loc": null },
+        { "name": "Bring Magic shortbow (i)", "loc": null },
+        { "name": "Bring Void ranger helm", "loc": null },
+        { "name": "Bring Imbued zamorak cape", "loc": null },
+        { "name": "Bring Salve amulet (e)", "loc": null },
+        { "name": "Bring Ava's accumulator", "loc": null },
+        { "name": "Bring Warped sceptre", "loc": null },
+        { "name": "Bring Void mage helm", "loc": null },
+        { "name": "Bring 7 Pineapple pizza (food)", "loc": null },
+        { "name": "Bring a Ranging potion", "loc": null },
+        { "name": "Bring 4 Prayer potion(4)", "loc": null },
+        { "name": "Bring 2 Super attack(4)", "loc": null },
+        { "name": "Bring 2 Super strength(4)", "loc": null },
+        { "name": "Bring 2 Super restore(4)", "loc": null },
+        { "name": "Bring a Rune pouch", "loc": null },
+        { "name": "Bring the Book of the dead", "loc": null }
+      ]
+    },
+    {
+      "section": "Bosses for gear upgrades",
+      "prefix": "boss",
+      "steps": [
+        { "name": "Kill the Royal Titans for prayers", "loc": null },
+        { "name": "Do Wilderness bosses for gear upgrades", "loc": "Wilderness" }
+      ]
+    },
+    {
+      "section": "Raids",
+      "prefix": "raid",
+      "steps": [
+        { "name": "Start the Theatre of Blood once the minimum requirements above are met", "loc": "Theatre of Blood" },
+        { "name": "Start Tombs of Amascut once the requirements are met and you own a Bowfa", "loc": "Tombs of Amascut" }
+      ]
+    }
+  ]
+}

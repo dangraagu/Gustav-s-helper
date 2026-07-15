@@ -107,10 +107,11 @@
       "text": "Ardy cloak tele and take the boat from Ardy to brimhaven\nLocation: Ardougne",
       "manual": true,
       "world": [
-        2624,
-        3300,
+        2789,
+        3174,
         0
-      ]
+      ],
+      "object": 10805
     },
     {
       "id": "tfm-009",

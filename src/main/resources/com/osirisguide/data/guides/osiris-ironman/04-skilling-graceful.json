@@ -20,10 +20,11 @@
       "text": "Get 100% hosidius favour, should have 300 compost in bank\nLocation: Hosidius",
       "manual": true,
       "world": [
-        1762,
-        3598,
+        1767,
+        3597,
         0
-      ]
+      ],
+      "object": 28823
     },
     {
       "id": "sg-003",
@@ -467,10 +468,11 @@
       "text": "Go to Edgeville\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3097,
+        3468,
         0
-      ]
+      ],
+      "object": 1581
     },
     {
       "id": "sg-041",
@@ -533,10 +535,11 @@
       "text": "If you want a break from agility, fish 3k raw karambwans. Banking at Zanaris ...\nLocation: Karamja",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        3202,
+        3169,
         0
-      ]
+      ],
+      "object": 2406
     },
     {
       "id": "sg-047",
