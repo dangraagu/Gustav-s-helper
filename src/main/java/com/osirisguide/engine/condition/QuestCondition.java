@@ -19,6 +19,12 @@ public class QuestCondition implements Condition
 		this.desired = desired;
 	}
 
+	/** The quest this condition gates on — used to drive Quest Helper / look up quest-start coords. */
+	public Quest getQuest()
+	{
+		return quest;
+	}
+
 	@Override
 	public boolean isMet(ConditionContext ctx)
 	{

@@ -1,0 +1,281 @@
+{
+  "_source": "https://umkyzn.github.io/BRUHsailer/",
+  "_license": "BRUHsailer community OSRS guide (umkyzn.github.io; Discord discord.gg/FXPUrUp) — no explicit content license stated; updatedOn 2026-06-08",
+  "section": "Chapter 3: The longest home stretch you’ve ever seen — 3.1: Slayer and the red prison",
+  "steps": [
+    {
+      "id": "s31-001",
+      "title": "If you are running low on/out …",
+      "text": "If you are running low on/out of (redirected) POH tabs collect more soft clay using the gravestone method in the prifddinas mine Gravestone Double Soft Clay (2400/hr). You will have to make soft clay bracelets first. Go to NMZ (optionally as an afk activity) to collect redirection scrolls as necessary. It is recommended to collect a good stack (i.e. 500 tabs and 250 scrolls). Also make Catherby tabs for herb runs.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1761,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1761,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1761,
+      "npc": 1520,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s31-002",
+      "title": "Optional but recommended: go to the …",
+      "text": "Optional but recommended: go to the Mage Training Arena and collect the Mage’s book and the infinity boots.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6920,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 6920,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6920
+    },
+    {
+      "id": "s31-003",
+      "title": "Using your mahogany logs from Miscellania, …",
+      "text": "Using your mahogany logs from Miscellania, train construction to level 75 (do not go higher for now and keep 20 mahogany planks for sailing). Build the following in your POH, boosting when necessary:",
+      "manual": true,
+      "world": [
+        2560,
+        3870,
+        0
+      ]
+    },
+    {
+      "id": "s31-004",
+      "title": "Now that you have daeyalt mining …",
+      "text": "Now that you have daeyalt mining https://streamable.com/it7kry unlocked, mine 28k daeyalt essence (you can also just afk mine this). Make 275 binding necklaces, 175 rings of dueling, a fire tiara, buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to 425,000 xp (level 64, midway to level 65). After this, start and complete The Final Dawn, putting the xp on prayer. The Arkan blade is now your default special attack weapon when meleeing. It is stronger than the dragon dagger. The Arkan blade is also sometimes better (typically against stab weak enemies) than the Dragon scimitar as a mainhand weapon.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s31-005",
+      "title": "Camp Cave Horrors off-task for a …",
+      "text": "Camp Cave Horrors off-task for a black mask (protect melee allows an amulet of strength, so use your regular slayer gear, proselyte hauberk versus torso is fine either way, use thralls, take your herb sack). Start and complete the Morytania Hard diary (lamp on herblore). Visit Robin twice a day with 13 bones each time to collect 130 ectotokens for bonecrusher charges (3250 charges per day - you will need 24k charges to complete step 12 of this chapter) – collect the bones on any slayer task (for example regular/big/baby dragon). Imbue your black mask at the PVP Arena (imbue scroll via pvp arena - losing method) or nightmare zone. An example setup (except for the black mask and expeditious bracelets, obviously) iscave-horrors.png. The recommended spot is cave-horrors.png(northwest from the entrance).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 21177,
+            "qty": 12
+          },
+          {
+            "op": "item",
+            "id": 21177,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 21177,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "s31-006",
+      "title": "Buy 2300 sand (the goal is …",
+      "text": "Buy 2300 sand (the goal is to get to level 70 crafting, each sand is approximately 88.1 xp) from the grinder (buy bucket packs as needed, e.g. at Alice’s farming shop near the ectofuntus). Superglass Make them into glass (18:3 no pickup). Blow all the glass into unpowered orbs doing artefacts, i.e. doing arteglass, to get to level 70 crafting. Do Pyramid Plunder for one (or two, it is recommended to get the second at/after level 91 thieving) sceptre(s) using the sceptre + xp method - all chests, sarcs in level 51+ rooms, urns in the level 81 room optional. Collect gold artefacts along the way - just bank them when your inv fills up, you’ll only need ~200 or so later.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 567,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 567,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 567,
+      "npc": 504,
+      "world": [
+        3627,
+        3526,
+        0
+      ]
+    },
+    {
+      "id": "s31-007",
+      "title": "Collect buckets of sand and giant …",
+      "text": "Collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass. Make an amulet of glory. Train slayer to get to 100cb. Your target stats are 78 Attack, 85 Strength, 75(+) Defence and 72(+) prayer, which should probably give you 78(+)Hitpoints and ~75 Slayer around the time you hit 100cb.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1704,
+            "qty": 75
+          },
+          {
+            "op": "item",
+            "id": 1704,
+            "qty": 75,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1704
+    },
+    {
+      "id": "s31-008",
+      "title": "Buy broad arrowhead packs with most …",
+      "text": "Buy broad arrowhead packs with most of your money, leaving 1250k in reserve. Buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower. Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
+      "manual": true,
+      "world": [
+        2656,
+        2656,
+        0
+      ]
+    },
+    {
+      "id": "s31-009",
+      "title": "Do the Fremennik Exiles, A Night …",
+      "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will. Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys).",
+      "complete": {
+        "op": "quest",
+        "quest": "A_NIGHT_AT_THE_THEATRE",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s31-010",
+      "title": "Catch 20k red chinchompas between Tal …",
+      "text": "Catch 20k red chinchompas between Tal Teklan and Kastori TalTeklanChinSpot.png or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Follow this guide for catching chins: OSRS Easy 1t Hunter Guide (In-Depth). If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), buy a crystal halberd, return and throw the chins to get to level 92 ranging.",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 92,
+        "cmp": ">="
+      },
+      "world": [
+        3263,
+        6083,
+        0
+      ]
+    },
+    {
+      "id": "s31-011",
+      "title": "The following steps 11-15 are best …",
+      "text": "The following steps 11-15 are best combined, to break up the CG grind with skilling activities. Read ahead to combine these steps at your convenience. Optional but recommended: with the Karamja Hard diary completed, 3t gem mine to level 97 mining (gems route), banking the uncut gems using the deposit box. This requires a charged amulet of glory. With multiskill cutting the gems (see below) this is more efficient than 3t4g. This requires a charged amulet of glory! If you make one here you won’t have to make one next step. You may skip this step if you don’t value multiskilling or efficiency enough to take such a long detour/don’t feel like it.",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "s31-012",
+      "title": "Make sure you have at least …",
+      "text": "Make sure you have at least 75 mining (if not, do some gem mining first). Take a charter ship to The Great Conch (Summer Shore) start The Red Reef and complete the steps until you are sent to the Red Rock. Charter to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 505 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 236 vouchers (and 269 logs), saving 2,500 gp each (590k gp total). Make 473 camphor planks. Build the following ship upgrades:",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RED_REEF",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s31-013",
+      "title": "Recruit Cabin Boy Jenkins (and Adventurer …",
+      "text": "Recruit Cabin Boy Jenkins (and Adventurer Ada while you’re at it) so you can get most xp out of multiskilling while charting. Use your skiff to chart the Sunset Ocean and Western Ocean in full, the lower level seas in the Shrouded Ocean along with all Miscellaneous charts in the same areas. Buy 5k mithril cannonballs at Port Roberts. Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 31910,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 31910,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 31910,
+      "npc": 3856,
+      "world": [
+        2225,
+        3789,
+        3
+      ]
+    },
+    {
+      "id": "s31-014",
+      "title": "Boost to build an adamant helm …",
+      "text": "Boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean by charting to Deepfin Point and following the following route Shrouded Ocean, part 2.png.",
+      "manual": true,
+      "object": 2097,
+      "world": [
+        3190,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "s31-015",
+      "title": "Go to Guardians of the Rift, …",
+      "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems.",
+      "manual": true
+    },
+    {
+      "id": "s31-016",
+      "title": "Do Corrupted Gauntlet for 6 armour …",
+      "text": "Do Corrupted Gauntlet for 6 armour seeds and one enhanced weapon seed (~70 hours) (tip: use longrange on staff hits for defence xp - alternatively you can use accurate for ~0.5% more accuracy, but we think the def xp is more valuable). Maintain hourlies as usual. You should be level 93 ranging after this step. On average, this will also give the following loot:",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 70
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 70,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379
+    }
+  ]
+}
