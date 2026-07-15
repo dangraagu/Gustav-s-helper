@@ -13,8 +13,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3050,
-        3245,
+        3029,
+        3221,
         0
       ]
     },
@@ -24,8 +24,8 @@
       "text": "Train Sailing to 12 via sea charting + courier tasks (~20 min)\nLocation: Port Sarim",
       "manual": true,
       "world": [
-        3050,
-        3245,
+        3029,
+        3221,
         0
       ]
     },

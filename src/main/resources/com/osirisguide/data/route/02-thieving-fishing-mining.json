@@ -13,8 +13,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3293,
-        3184,
+        3290,
+        3185,
         0
       ]
     },
@@ -28,8 +28,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3293,
-        3184,
+        3290,
+        3185,
         0
       ]
     },
@@ -39,8 +39,8 @@
       "text": "Smelt the 5 silver, make a sickle and unstrung holy symbol, keep 3 bars\nLocation: Al Kharid",
       "manual": true,
       "world": [
-        3293,
-        3184,
+        3290,
+        3185,
         0
       ]
     },
@@ -54,8 +54,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3293,
-        3184,
+        3290,
+        3185,
         0
       ]
     },
@@ -67,7 +67,12 @@
         "op": "quest",
         "quest": "THE_FEUD",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3358,
+        2974,
+        0
+      ]
     },
     {
       "id": "tfm-006",
@@ -78,7 +83,12 @@
         "skill": "THIEVING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3358,
+        2974,
+        0
+      ]
     },
     {
       "id": "tfm-007",
@@ -97,8 +107,8 @@
       "text": "Ardy cloak tele and take the boat from Ardy to brimhaven\nLocation: Ardougne",
       "manual": true,
       "world": [
-        2662,
-        3305,
+        2624,
+        3300,
         0
       ]
     },
@@ -110,13 +120,23 @@
         "op": "quest",
         "quest": "SHILO_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2849,
+        2972,
+        0
+      ]
     },
     {
       "id": "tfm-010",
       "title": "Cut uncut gems until level 32 …",
       "text": "Cut uncut gems until level 32 crafting\nLocation: Shilo Village",
-      "manual": true
+      "manual": true,
+      "world": [
+        2849,
+        2972,
+        0
+      ]
     },
     {
       "id": "tfm-011",
@@ -126,7 +146,12 @@
         "op": "quest",
         "quest": "SHILO_VILLAGE",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2849,
+        2972,
+        0
+      ]
     },
     {
       "id": "tfm-012",
@@ -137,7 +162,12 @@
         "skill": "FISHING",
         "level": 58,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2849,
+        2972,
+        0
+      ]
     },
     {
       "id": "tfm-013",
@@ -145,8 +175,8 @@
       "text": "Minigame tele to Burthrope games' room\nLocation: Burthorpe",
       "manual": true,
       "world": [
-        2900,
-        3543,
+        2870,
+        3544,
         0
       ]
     },
@@ -156,8 +186,8 @@
       "text": "Cook all of your trout, don't cook salmon yet\nLocation: Burthorpe",
       "manual": true,
       "world": [
-        2900,
-        3543,
+        2870,
+        3544,
         0
       ]
     },
@@ -165,7 +195,12 @@
       "id": "tfm-015",
       "title": "Minigame tele to Barb assault",
       "text": "Minigame tele to Barb assault\nLocation: Barbarian Assault",
-      "manual": true
+      "manual": true,
+      "world": [
+        2533,
+        3571,
+        0
+      ]
     },
     {
       "id": "tfm-016",
@@ -176,13 +211,23 @@
         "skill": "AGILITY",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2502,
+        3489,
+        0
+      ]
     },
     {
       "id": "tfm-017",
       "title": "Now that you're 74 Fishing, do …",
       "text": "Now that you're 74 Fishing, do a few Tempoross kills for the Fish Barrel and ...\nLocation: Tempoross Cove",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        2845,
+        0
+      ]
     },
     {
       "id": "tfm-018",
@@ -190,8 +235,8 @@
       "text": "After 50 agility, minigame tele to Burthrope\nLocation: Burthorpe",
       "manual": true,
       "world": [
-        2900,
-        3543,
+        2870,
+        3544,
         0
       ]
     },
@@ -199,19 +244,34 @@
       "id": "tfm-019",
       "title": "Do the rogue's den minigame for …",
       "text": "Do the rogue's den minigame for full rogue outfit\nLocation: Rogues' Den",
-      "manual": true
+      "manual": true,
+      "world": [
+        2906,
+        3537,
+        0
+      ]
     },
     {
       "id": "tfm-020",
       "title": "Equip the set and go back …",
       "text": "Equip the set and go back to blackjacking until you have 2.4m GP (around 83 t...\nLocation: Pollnivneach",
-      "manual": true
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
     },
     {
       "id": "tfm-021",
       "title": "Carpet back to Shantay pass",
       "text": "Carpet back to Shantay pass\nLocation: Shantay Pass",
-      "manual": true
+      "manual": true,
+      "world": [
+        3304,
+        3123,
+        0
+      ]
     },
     {
       "id": "tfm-022",
@@ -219,8 +279,8 @@
       "text": "If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the...\nLocation: Al Kharid",
       "manual": true,
       "world": [
-        3293,
-        3184,
+        3290,
+        3185,
         0
       ]
     },
@@ -232,7 +292,12 @@
         "op": "quest",
         "quest": "THE_GOLEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3480,
+        3095,
+        0
+      ]
     },
     {
       "id": "tfm-024",
@@ -242,7 +307,12 @@
         "op": "quest",
         "quest": "THE_GOLEM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3480,
+        3095,
+        0
+      ]
     },
     {
       "id": "tfm-025",
@@ -252,7 +322,12 @@
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3480,
+        3095,
+        0
+      ]
     },
     {
       "id": "tfm-026",
@@ -260,8 +335,8 @@
       "text": "Go to Edgeville and talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3087,
-        3496,
+        3094,
+        3493,
         0
       ]
     },
@@ -269,7 +344,12 @@
       "id": "tfm-027",
       "title": "Go to mage bank and buy …",
       "text": "Go to mage bank and buy 6k nats, all of the cosmics you can get while buying ...\nLocation: Mage Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3090,
+        3956,
+        0
+      ]
     },
     {
       "id": "tfm-028",
@@ -277,8 +357,8 @@
       "text": "Teleport to Falador\nLocation: Falador",
       "manual": true,
       "world": [
-        2965,
-        3380,
+        3000,
+        3360,
         0
       ]
     },
@@ -288,8 +368,8 @@
       "text": "Get 2 buckets of sap from this tree near falador east bank\nLocation: Falador",
       "manual": true,
       "world": [
-        2965,
-        3380,
+        3000,
+        3360,
         0
       ]
     },
@@ -299,8 +379,8 @@
       "text": "Buy addy and rune picks from the pickaxe shop in the mines\nLocation: Falador",
       "manual": true,
       "world": [
-        2965,
-        3380,
+        3000,
+        3360,
         0
       ]
     },
@@ -310,8 +390,8 @@
       "text": "Complete Varrock easy diary for the armour, makes next step a bit faster\nLocation: Varrock",
       "manual": true,
       "world": [
-        3213,
-        3428,
+        3210,
+        3448,
         0
       ]
     },
@@ -327,8 +407,8 @@
       "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba...\nLocation: Ardougne Monastery",
       "manual": true,
       "world": [
-        2662,
-        3305,
+        2606,
+        3211,
         0
       ]
     }
