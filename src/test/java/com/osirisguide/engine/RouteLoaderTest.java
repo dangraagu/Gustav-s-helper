@@ -24,7 +24,7 @@ public class RouteLoaderTest
 {
 	private Route load()
 	{
-		return RouteLoader.load(new Gson());
+		return RouteLoader.load(new Gson(), "osiris-ironman");
 	}
 
 	@Test

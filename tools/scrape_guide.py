@@ -18,6 +18,12 @@ import sys
 import urllib.request
 from pathlib import Path
 
+# --- Guide config -------------------------------------------------------------
+# To add a NEW guide: give it an id (folder name), a source-URL template, and its section list;
+# then also add a matching value to com.osirisguide.Guide and an entry in data/guides.json.
+GUIDE_ID = "osiris-ironman"
+GUIDE_URL = "https://ironman.guide/guide/{slug}"
+
 # order, slug, display name, id-prefix  (order follows the guide's own 1.1..2.0, S numbering)
 SECTIONS = [
     ("01", "early-game",                 "Early Game",                    "eg"),
@@ -29,7 +35,8 @@ SECTIONS = [
     ("07", "sailing",                    "Sailing (optional)",            "sail"),
 ]
 
-OUT_DIR = Path(__file__).resolve().parent.parent / "src" / "main" / "resources" / "com" / "osirisguide" / "data" / "route"
+_RES = Path(__file__).resolve().parent.parent / "src" / "main" / "resources" / "com" / "osirisguide"
+OUT_DIR = _RES / "data" / "guides" / GUIDE_ID
 
 # RuneLite net.runelite.api.Skill enum names, keyed by words that appear in guide text.
 SKILL_WORDS = {
@@ -373,7 +380,7 @@ def main():
     # Fetch every section first (need all steps to total the item needs before building).
     sections = []
     for order, slug, display, prefix in SECTIONS:
-        url = f"https://ironman.guide/guide/{slug}"
+        url = GUIDE_URL.format(slug=slug)
         try:
             html = fetch(url)
         except Exception as e:  # noqa: BLE001
