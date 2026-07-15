@@ -6,7 +6,6 @@ package com.osirisguide.engine.ledger;
 
 import static org.junit.Assert.assertEquals;
 
-import com.google.gson.Gson;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -128,29 +127,31 @@ public class ItemLedgerTest
 	}
 
 	@Test
-	public void gsonStateRoundTripPersistsAcquiredAndSnapshots()
+	public void acquiredStringRoundTrip()
 	{
-		// Mirrors how the plugin saves/loads the ledger: exportState -> gson json -> back.
+		// Mirrors how the plugin now saves/loads the ledger: a plain "id:count;..." string (no Gson).
 		ItemLedger l = new ItemLedger();
 		l.observe(INV, counts());
-		l.observe(BANK, counts());
 		l.commit();
-		l.observe(INV, counts(TAR, 5));            // acquire 5
-		l.commit();
-		l.observe(INV, counts(TAR, 2));            // move 3 to bank in one tick
-		l.observe(BANK, counts(TAR, 3));
+		l.observe(INV, counts(TAR, 5, COINS, 100));
 		l.commit();
 
-		Gson gson = new Gson();
-		String json = gson.toJson(l.exportState());
-		ItemLedger.State state = gson.fromJson(json, ItemLedger.State.class);
-
+		String saved = l.acquiredToString();
 		ItemLedger restored = new ItemLedger();
-		restored.importState(state);
+		restored.acquiredFromString(saved);
 		assertEquals(5, restored.acquired(TAR));
-		assertEquals(2, restored.ownedIn(INV, TAR));
-		assertEquals(3, restored.ownedIn(BANK, TAR));
-		assertEquals(0, restored.spent(TAR));
+		assertEquals(100, restored.acquired(COINS));
+	}
+
+	@Test
+	public void acquiredFromStringIgnoresMalformedAndEmpty()
+	{
+		ItemLedger l = new ItemLedger();
+		l.acquiredFromString(null);
+		assertEquals(0, l.acquired(TAR));
+		l.acquiredFromString("1939:5;garbage;:7;995:100");
+		assertEquals(5, l.acquired(1939));
+		assertEquals(100, l.acquired(995));
 	}
 
 	@Test
@@ -167,22 +168,24 @@ public class ItemLedgerTest
 	}
 
 	@Test
-	public void stateRoundTripPreservesAcquiredAndOwned()
+	public void reloginRestoresAcquiredWithoutDoubleCounting()
 	{
 		ItemLedger l = new ItemLedger();
 		l.observe(INV, counts());
 		l.commit();
-		l.observe(INV, counts(TAR, 5));
+		l.observe(INV, counts(TAR, 5)); // acquire 5
 		l.commit();
+		String saved = l.acquiredToString();
 
-		ItemLedger restored = new ItemLedger();
-		restored.importState(l.exportState());
-		assertEquals(5, restored.acquired(TAR));
-		assertEquals(5, restored.owned(TAR)); // owned survives via persisted snapshot
+		// New session = what loadLedger does: restore acquired string, then re-seed.
+		ItemLedger relogged = new ItemLedger();
+		relogged.acquiredFromString(saved);
+		relogged.clearSnapshots();
+		assertEquals(5, relogged.acquired(TAR)); // history restored across sessions
 
-		// Re-login re-observes the same inventory: must NOT double-count.
-		restored.observe(INV, counts(TAR, 5));
-		restored.commit();
-		assertEquals(5, restored.acquired(TAR));
+		// First observe after login seeds the held items — must NOT re-count them as acquired.
+		relogged.observe(INV, counts(TAR, 5));
+		relogged.commit();
+		assertEquals(5, relogged.acquired(TAR));
 	}
 }

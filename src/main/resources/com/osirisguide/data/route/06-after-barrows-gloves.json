@@ -122,7 +122,11 @@
       "id": "abg-016",
       "title": "If you completed Defender of Varrock …",
       "text": "If you completed Defender of Varrock in section 1.5 and have 65 Attack, the Z...\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DEFENDER_OF_VARROCK",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "abg-017",
@@ -157,7 +161,11 @@
       "id": "abg-021",
       "title": "If you have around 65/80/65 melee …",
       "text": "If you have around 65/80/65 melee stats now, do Making friends with my arm qu...\nLocation: Weiss",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_FRIENDS_WITH_MY_ARM",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "abg-022",
@@ -179,7 +187,11 @@
       "id": "abg-023",
       "title": "Do dream mentor and imbue your …",
       "text": "Do dream mentor and imbue your mask\nLocation: Lunar Isle",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DREAM_MENTOR",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "abg-024",
@@ -276,7 +288,11 @@
       "id": "abg-035",
       "title": "Do Song of the elves",
       "text": "Do Song of the elves\nLocation: Prifddinas",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SONG_OF_THE_ELVES",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "abg-036",
@@ -353,7 +369,11 @@
       "id": "abg-047",
       "title": "Do Mastering Mixology at 60+ Herblore …",
       "text": "Do Mastering Mixology at 60+ Herblore (requires Children of the Sun)\nLocation: Varlamore",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "CHILDREN_OF_THE_SUN",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "abg-048",
@@ -371,13 +391,21 @@
       "id": "abg-050",
       "title": "Complete While Guthix Sleeps quest (requires …",
       "text": "Complete While Guthix Sleeps quest (requires many prerequisites including Def...\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "WHILE_GUTHIX_SLEEPS",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "abg-051",
       "title": "Complete Secrets of the North quest …",
       "text": "Complete Secrets of the North quest and farm Phantom Muspah\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SECRETS_OF_THE_NORTH",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "abg-052",

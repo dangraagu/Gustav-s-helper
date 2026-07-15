@@ -7,7 +7,11 @@
       "id": "tfm-001",
       "title": "Start the Feud at Ali Morrisane",
       "text": "Start the Feud at Ali Morrisane\nLocation: Al Kharid",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "FINISHED"
+      },
       "world": [
         3293,
         3184,
@@ -18,7 +22,11 @@
       "id": "tfm-002",
       "title": "From Ali Morrisane, buy the desert …",
       "text": "From Ali Morrisane, buy the desert disguise for The Feud quest\nLocation: Al Kharid",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "FINISHED"
+      },
       "world": [
         3293,
         3184,
@@ -40,7 +48,11 @@
       "id": "tfm-004",
       "title": "Give the key imprint and bronze …",
       "text": "Give the key imprint and bronze bar to Osman for Prince ali rescue quest\nLocation: Al Kharid",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
       "world": [
         3293,
         3184,
@@ -51,7 +63,11 @@
       "id": "tfm-005",
       "title": "Do the Feud",
       "text": "Do the Feud\nLocation: Pollnivneach",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "tfm-006",
@@ -90,7 +106,11 @@
       "id": "tfm-009",
       "title": "Take the cart to Shilo Village",
       "text": "Take the cart to Shilo Village\nLocation: Shilo Village",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SHILO_VILLAGE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "tfm-010",
@@ -103,11 +123,10 @@
       "title": "Buy 20k feathers from shilo village …",
       "text": "Buy 20k feathers from shilo village fishing shop\nLocation: Shilo Village",
       "complete": {
-        "op": "itemAcquired",
-        "id": 314,
-        "qty": 20
-      },
-      "item": 314
+        "op": "quest",
+        "quest": "SHILO_VILLAGE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "tfm-012",
@@ -209,19 +228,31 @@
       "id": "tfm-023",
       "title": "Start the Golem",
       "text": "Start the Golem\nLocation: Uzer",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "tfm-024",
       "title": "Finish The Golem, get the gems …",
       "text": "Finish The Golem, get the gems with chisel and hammer\nLocation: Uzer",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "tfm-025",
       "title": "Do Shadow of the storm (should …",
       "text": "Do Shadow of the storm (should have priest gown and black wizard hat in bank ...\nLocation: Uzer",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOW_OF_THE_STORM",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "tfm-026",

@@ -163,7 +163,59 @@ def detect_item(text: str, item_map):
     ints = [(m.start(), int(m.group())) for m in _INT_RE.finditer(padded)]
     before = [v for (s, v) in ints if s < pos]
     qty = max(1, min(before[-1] if before else 1, 100000))
-    return {"op": "itemAcquired", "id": best_id, "qty": qty}
+    # Dynamic: complete if you've EVER acquired the qty (ledger) OR currently own it anywhere
+    # (inventory/bank/equipment) — so an existing account that already banked the items skips the step.
+    return {"op": "or", "of": [
+        {"op": "itemAcquired", "id": best_id, "qty": qty},
+        {"op": "item", "id": best_id, "qty": qty, "scope": "ANY"},
+    ]}
+
+
+# --- Quest detection ---------------------------------------------------------
+
+def load_quest_map():
+    """display-name -> RuneLite Quest enum constant, from tools/data/quest_names.json."""
+    p = Path(__file__).parent / "data" / "quest_names.json"
+    if p.exists():
+        try:
+            return json.loads(p.read_text(encoding="utf-8"))
+        except Exception as e:  # noqa: BLE001
+            print(f"[!] could not read quest map ({e})", file=sys.stderr)
+    return {}
+
+
+def detect_quest(text: str, quest_map):
+    """
+    If a quest's display name appears in the step, complete the step when that quest is FINISHED.
+    Dynamic: for an existing account this also auto-skips a quest AND its prep steps once it's done.
+    Longest name wins. Punctuation is normalised on both sides so "Cook's Assistant" matches.
+    """
+    if not quest_map:
+        return None
+    padded = _norm(text)
+    best_norm, best_const = None, None
+    for name, const in quest_map.items():
+        nn = _norm(name)  # e.g. " cook s assistant "
+        if len(nn.strip()) < 4:
+            continue
+        if nn in padded and (best_norm is None or len(nn) > len(best_norm)):
+            best_norm, best_const = nn, const
+    if best_const is None:
+        return None
+    return {"op": "quest", "quest": best_const, "state": "FINISHED"}
+
+
+def _acquire_item_id(cond):
+    """Item id to highlight, if the completion condition is (or contains) an itemAcquired."""
+    if not cond:
+        return None
+    if cond.get("op") == "itemAcquired":
+        return cond.get("id")
+    if cond.get("op") == "or":
+        for sub in cond.get("of", []):
+            if sub.get("op") == "itemAcquired":
+                return sub.get("id")
+    return None
 
 
 # --- Location gazetteer (approximate area centres) ---------------------------
@@ -196,6 +248,25 @@ def gazetteer_lookup(loc):
     return [GAZETTEER[best][0], GAZETTEER[best][1], 0] if best else None
 
 
+def load_location_coords():
+    """Merge finer, wiki-grounded coords from tools/data/location_coords.json over the built-in
+    gazetteer (more specific phrases win via the longest-key match in gazetteer_lookup)."""
+    p = Path(__file__).parent / "data" / "location_coords.json"
+    if not p.exists():
+        return 0
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read location coords ({e})", file=sys.stderr)
+        return 0
+    n = 0
+    for phrase, xy in data.items():
+        if isinstance(xy, (list, tuple)) and len(xy) >= 2:
+            GAZETTEER[phrase.strip().lower()] = (int(xy[0]), int(xy[1]))
+            n += 1
+    return n
+
+
 def heading(name: str, words: int = 6) -> str:
     parts = name.split()
     h = " ".join(parts[:words])
@@ -204,7 +275,7 @@ def heading(name: str, words: int = 6) -> str:
     return h[:70]
 
 
-def build_step(prefix, position, name, loc, url, item_map):
+def build_step(prefix, position, name, loc, url, item_map, quest_map):
     sid = f"{prefix}-{position:03d}" if isinstance(position, int) else f"{prefix}-{position}"
     text = name
     if loc:
@@ -212,14 +283,17 @@ def build_step(prefix, position, name, loc, url, item_map):
     step = {"id": sid, "title": heading(name), "text": text}
     if url and isinstance(url, str) and url.startswith("http"):
         step["wiki"] = url
-    cond = detect_skill(name) or detect_item(name, item_map)
+    # Precedence: skill target > quest completion > item acquisition. First match wins (they are
+    # different kinds of goal and must not be OR-ed together).
+    cond = detect_skill(name) or detect_quest(name, quest_map) or detect_item(name, item_map)
     if cond:
         step["complete"] = cond
     else:
         step["manual"] = True
     # Highlight the acquired item in the inventory/bank.
-    if cond and cond.get("op") == "itemAcquired":
-        step["item"] = cond["id"]
+    iid = _acquire_item_id(cond)
+    if iid is not None:
+        step["item"] = iid
     # Point the world-map marker / arrow at the step's area, when we know it.
     world = gazetteer_lookup(loc)
     if world:
@@ -230,12 +304,12 @@ def build_step(prefix, position, name, loc, url, item_map):
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     item_map = fetch_item_map()
-    print(f"loaded {len(item_map)} item names for enrichment")
+    quest_map = load_quest_map()
+    load_location_coords()
+    print(f"loaded {len(item_map)} item names, {len(quest_map)} quest names, {len(GAZETTEER)} locations")
     index = {"_comment": "Auto-generated by tools/scrape_guide.py. Ordered section files.",
              "sections": []}
-    grand_total = 0
-    grand_skill = 0
-    grand_item = 0
+    grand_total = grand_skill = grand_quest = grand_item = grand_world = 0
     for order, slug, display, prefix in SECTIONS:
         url = f"https://ironman.guide/guide/{slug}"
         try:
@@ -244,12 +318,20 @@ def main():
             print(f"[!] {slug}: fetch failed: {e}", file=sys.stderr)
             continue
         raw = extract_howto_steps(html)
-        steps = [build_step(prefix, pos, name, loc, u, item_map) for (pos, name, loc, u) in raw if name]
-        skill = sum(1 for s in steps if s.get("complete", {}).get("op") == "skill")
-        item = sum(1 for s in steps if s.get("complete", {}).get("op") == "itemAcquired")
+        steps = [build_step(prefix, pos, name, loc, u, item_map, quest_map)
+                 for (pos, name, loc, u) in raw if name]
+
+        def _kind(s):
+            return s.get("complete", {}).get("op")
+        skill = sum(1 for s in steps if _kind(s) == "skill")
+        quest = sum(1 for s in steps if _kind(s) == "quest")
+        item = sum(1 for s in steps if _kind(s) == "or")
+        world = sum(1 for s in steps if "world" in s)
         grand_total += len(steps)
         grand_skill += skill
+        grand_quest += quest
         grand_item += item
+        grand_world += world
         fname = f"{order}-{slug}.json"
         payload = {
             "_source": url,
@@ -259,12 +341,12 @@ def main():
         }
         (OUT_DIR / fname).write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
         index["sections"].append(fname)
-        print(f"  {fname:34s} {len(steps):4d} steps  ({skill} skill, {item} item)")
+        print(f"  {fname:34s} {len(steps):4d} steps  ({skill} skill, {quest} quest, {item} item, {world} loc)")
 
     (OUT_DIR / "route-index.json").write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
-    auto = grand_skill + grand_item
-    print(f"\nTOTAL: {grand_total} steps — {auto} auto ({grand_skill} skill + {grand_item} item), "
-          f"{grand_total - auto} manual")
+    auto = grand_skill + grand_quest + grand_item
+    print(f"\nTOTAL: {grand_total} steps — {auto} auto ({grand_skill} skill + {grand_quest} quest + "
+          f"{grand_item} item), {grand_total - auto} manual; {grand_world} have a location")
     print(f"Wrote {len(index['sections'])} section files + route-index.json to {OUT_DIR}")
 
 

@@ -42,11 +42,10 @@
       "title": "Buy a spade, start X marks …",
       "text": "Buy a spade, start X marks the spot quest\nLocation: Lumbridge",
       "complete": {
-        "op": "itemAcquired",
-        "id": 952,
-        "qty": 1
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
       },
-      "item": 952,
       "world": [
         3222,
         3218,
@@ -90,7 +89,11 @@
       "id": "eg-009",
       "title": "Talk to the duke to start …",
       "text": "Talk to the duke to start Rune mysteries quest\nLocation: Lumbridge Castle",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
       "world": [
         3222,
         3218,
@@ -161,7 +164,11 @@
       "id": "eg-015",
       "title": "Take out GP, Clue (x marks …",
       "text": "Take out GP, Clue (x marks the spot), air talisman, spade, mind/air runes, br...\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
       "world": [
         3222,
         3218,
@@ -200,9 +207,20 @@
       "title": "Buy a steel axe",
       "text": "Buy a steel axe\nLocation: Lumbridge",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1353,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1353,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1353,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1353,
       "world": [
@@ -260,9 +278,20 @@
       "title": "Pick up 5 swamp tar around …",
       "text": "Pick up 5 swamp tar around the swamp cave entrance\nLocation: Lumbridge Swamp",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1939,
-        "qty": 5
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1939,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 1939,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1939,
       "world": [
@@ -308,7 +337,11 @@
       "id": "eg-027",
       "title": "Dig the next clue for X …",
       "text": "Dig the next clue for X marks the spot\nLocation: Draynor Village",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
       "world": [
         3093,
         3244,
@@ -320,9 +353,20 @@
       "title": "Pick up 2 cheese at Aggie …",
       "text": "Pick up 2 cheese at Aggie in Draynor village\nLocation: Draynor Village",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1985,
-        "qty": 2
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1985,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1985,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1985,
       "world": [
@@ -357,7 +401,11 @@
       "id": "eg-031",
       "title": "Finish the X marks the spot …",
       "text": "Finish the X marks the spot quest by talking to Veos\nLocation: Draynor Village",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
       "world": [
         3093,
         3244,
@@ -369,9 +417,20 @@
       "title": "Walk to rimmington, pick up 1 …",
       "text": "Walk to rimmington, pick up 1 snape grass near crafting guild at the hobgoblins\nLocation: Rimmington",
       "complete": {
-        "op": "itemAcquired",
-        "id": 231,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 231,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 231,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 231,
       "world": [
@@ -395,7 +454,11 @@
       "id": "eg-034",
       "title": "Start The Knight's sword quest by …",
       "text": "Start The Knight's sword quest by talking to the squire\nLocation: Falador",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
         2965,
         3380,
@@ -413,9 +476,20 @@
       "title": "Pick up 2 iron bars just …",
       "text": "Pick up 2 iron bars just northwest of Ferox\nLocation: Ferox Enclave",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2351,
-        "qty": 2
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2351,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 2351,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2351,
       "world": [
@@ -440,9 +514,20 @@
       "title": "Walk to yanille, buy a pie …",
       "text": "Walk to yanille, buy a pie dish at Yanille cooking shop\nLocation: Yanille",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2313,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2313,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2313,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2313,
       "world": [
@@ -456,9 +541,20 @@
       "title": "Walk to port Khazard, buy 1 …",
       "text": "Walk to port Khazard, buy 1 swamp paste from the general store\nLocation: Port Khazard",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1941,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1941,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1941,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1941,
       "world": [
@@ -471,7 +567,11 @@
       "id": "eg-040",
       "title": "Do Monk's friend",
       "text": "Do Monk's friend\nLocation: Port Khazard",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
       "world": [
         2660,
         3155,
@@ -530,7 +630,11 @@
       "id": "eg-044",
       "title": "Do Sheep herder",
       "text": "Do Sheep herder\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "SHEEP_HERDER",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -552,7 +656,11 @@
       "id": "eg-046",
       "title": "Do Sea slug, fish shrimp while …",
       "text": "Do Sea slug, fish shrimp while doing quest for diary\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -564,9 +672,20 @@
       "title": "After the quest, buy however many …",
       "text": "After the quest, buy however many sardine you can fit in your inventory from ...\nLocation: Witchaven",
       "complete": {
-        "op": "itemAcquired",
-        "id": 325,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 325,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 325,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 325
     },
@@ -596,7 +715,11 @@
       "id": "eg-050",
       "title": "Use the xp lamp from X …",
       "text": "Use the xp lamp from X marks the spot on Construction\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -608,9 +731,20 @@
       "title": "Buy 2 ropes, 5 vials, 30 …",
       "text": "Buy 2 ropes, 5 vials, 30 balls of wool and 7 papyrus from ardy general store\nLocation: Ardougne",
       "complete": {
-        "op": "itemAcquired",
-        "id": 970,
-        "qty": 7
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 970,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 970,
+            "qty": 7,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 970,
       "world": [
@@ -645,7 +779,11 @@
       "id": "eg-054",
       "title": "Do Dwarf cannon until the part …",
       "text": "Do Dwarf cannon until the part where you have to go to Ice mountain\nLocation: North of Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -657,9 +795,20 @@
       "title": "Pick up 130 planks north of …",
       "text": "Pick up 130 planks north of the Barb agility course\nLocation: Barbarian Outpost",
       "complete": {
-        "op": "itemAcquired",
-        "id": 960,
-        "qty": 130
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 960,
+            "qty": 130
+          },
+          {
+            "op": "item",
+            "id": 960,
+            "qty": 130,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 960
     },
@@ -679,7 +828,11 @@
       "id": "eg-058",
       "title": "Do Waterfall quest until the part …",
       "text": "Do Waterfall quest until the part where you have to go to the gnome maze, rem...\nLocation: Baxtorian Falls",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-059",
@@ -708,9 +861,20 @@
       "title": "Buy these items from Heckel Funch …",
       "text": "Buy these items from Heckel Funch (east of Blurberry): 1 pineapple, 1 orange,...\nLocation: Gnome Stronghold",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2114,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2114,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2114,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2114,
       "world": [
@@ -734,7 +898,11 @@
       "id": "eg-063",
       "title": "Make the hangover cure for plague …",
       "text": "Make the hangover cure for plague city quest\nLocation: Gnome Stronghold",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PLAGUE_CITY",
+        "state": "FINISHED"
+      },
       "world": [
         2445,
         3424,
@@ -756,7 +924,11 @@
       "id": "eg-065",
       "title": "Do Plague city",
       "text": "Do Plague city\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PLAGUE_CITY",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -778,7 +950,11 @@
       "id": "eg-067",
       "title": "Complete Daddy's home miniquest",
       "text": "Complete Daddy's home miniquest\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DADDYS_HOME",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -801,9 +977,20 @@
       "title": "From sawmill buy 500 bronze nails",
       "text": "From sawmill buy 500 bronze nails\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 4819,
-        "qty": 500
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 4819,
+            "qty": 500
+          },
+          {
+            "op": "item",
+            "id": 4819,
+            "qty": 500,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 4819,
       "world": [
@@ -888,9 +1075,20 @@
       "title": "Buy a chronicle and 2 teleport …",
       "text": "Buy a chronicle and 2 teleport cards from Diango\nLocation: Draynor Village",
       "complete": {
-        "op": "itemAcquired",
-        "id": 13658,
-        "qty": 2
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 13658,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 13658,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 13658,
       "world": [
@@ -926,9 +1124,20 @@
       "title": "Walk to port sarim, buy 1000 …",
       "text": "Walk to port sarim, buy 1000 feathers from the fishing store\nLocation: Port Sarim",
       "complete": {
-        "op": "itemAcquired",
-        "id": 314,
-        "qty": 1000
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 314,
+            "qty": 1000
+          },
+          {
+            "op": "item",
+            "id": 314,
+            "qty": 1000,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 314,
       "world": [
@@ -941,7 +1150,11 @@
       "id": "eg-080",
       "title": "While at Port Sarim, complete the …",
       "text": "While at Port Sarim, complete the Pandemonium quest (start with Will & Anne o...\nLocation: Port Sarim",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PANDEMONIUM",
+        "state": "FINISHED"
+      },
       "world": [
         3050,
         3245,
@@ -999,9 +1212,20 @@
       "title": "Buy 3 buckets and 1 bucket …",
       "text": "Buy 3 buckets and 1 bucket pack from the general store\nLocation: Lumbridge",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1925,
-        "qty": 3
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1925,
       "world": [
@@ -1055,7 +1279,11 @@
       "id": "eg-094",
       "title": "Get ammo mould and the notes …",
       "text": "Get ammo mould and the notes for Dwarf cannon (Ice mountain northwest of Barb...\nLocation: Ice Mountain",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-095",
@@ -1073,11 +1301,10 @@
       "title": "Start Gertrude's cat, pick up doogle …",
       "text": "Start Gertrude's cat, pick up doogle leaves, use the leaves on a sardine\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1573,
-        "qty": 1
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
       },
-      "item": 1573,
       "world": [
         3213,
         3428,
@@ -1088,7 +1315,11 @@
       "id": "eg-097",
       "title": "Continue gertrude's cat, talk to the …",
       "text": "Continue gertrude's cat, talk to the kids at Varrock centre\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -1110,7 +1341,11 @@
       "id": "eg-099",
       "title": "Start Demon slayer, get the 2 …",
       "text": "Start Demon slayer, get the 2 keys in Varrock\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -1121,7 +1356,11 @@
       "id": "eg-100",
       "title": "Talk to Reldo for the Knight's …",
       "text": "Talk to Reldo for the Knight's sword quest\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -1132,7 +1371,11 @@
       "id": "eg-101",
       "title": "Do Shield of Arrav on any …",
       "text": "Do Shield of Arrav on any visit to Varrock\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -1144,9 +1387,20 @@
       "title": "Buy a fire staff",
       "text": "Buy a fire staff\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1379,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1379,
       "world": [
@@ -1171,9 +1425,20 @@
       "title": "Buy gloves and pink skirt from …",
       "text": "Buy gloves and pink skirt from clothes shop\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1013,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1013,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1013,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1013,
       "world": [
@@ -1187,9 +1452,20 @@
       "title": "Buy a rotten tomato from the …",
       "text": "Buy a rotten tomato from the crate near the achievement diary guy\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1982,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1982,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1982,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1982,
       "world": [
@@ -1214,9 +1490,20 @@
       "title": "Buy 4 beers from the same …",
       "text": "Buy 4 beers from the same bar\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1917,
-        "qty": 4
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1917,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 1917,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1917,
       "world": [
@@ -1268,9 +1555,20 @@
       "title": "Buy 100 fire runes, 300 earth …",
       "text": "Buy 100 fire runes, 300 earth and water, 4000 mind, 8000 airs\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 554,
-        "qty": 100
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 554,
+            "qty": 100
+          },
+          {
+            "op": "item",
+            "id": 554,
+            "qty": 100,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 554,
       "world": [
@@ -1316,7 +1614,11 @@
       "id": "eg-115",
       "title": "Continue Gertrude's cat at lumberyard",
       "text": "Continue Gertrude's cat at lumberyard\nLocation: Lumber Yard",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-116",
@@ -1377,7 +1679,11 @@
       "id": "eg-121",
       "title": "Finish Gertrude's cat, raise it with …",
       "text": "Finish Gertrude's cat, raise it with the sardine you bought\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -1411,9 +1717,20 @@
       "title": "Walk to Barbarian Village via Edgeville, …",
       "text": "Walk to Barbarian Village via Edgeville, buy bronze med helm\nLocation: Barbarian Village",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1139,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1139,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1139,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1139,
       "world": [
@@ -1427,9 +1744,20 @@
       "title": "Pick up 1 cooked meat from …",
       "text": "Pick up 1 cooked meat from the table and burn it on the fire in the bar\nLocation: Barbarian Village",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2142,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2142,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2142,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2142,
       "world": [
@@ -1487,9 +1815,20 @@
       "title": "Buy 8 woad leaves, offer 20gp …",
       "text": "Buy 8 woad leaves, offer 20gp to get 2 leaves\nLocation: Falador Park",
       "complete": {
-        "op": "itemAcquired",
-        "id": 6020,
-        "qty": 8
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6020,
+            "qty": 8
+          },
+          {
+            "op": "item",
+            "id": 6020,
+            "qty": 8,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 6020,
       "world": [
@@ -1513,7 +1852,11 @@
       "id": "eg-132",
       "title": "Do Witch's house",
       "text": "Do Witch's house\nLocation: Taverley",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
       "world": [
         2895,
         3443,
@@ -1524,7 +1867,11 @@
       "id": "eg-133",
       "title": "Do Druidic ritual",
       "text": "Do Druidic ritual\nLocation: Taverley",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRUIDIC_RITUAL",
+        "state": "FINISHED"
+      },
       "world": [
         2895,
         3443,
@@ -1536,9 +1883,20 @@
       "title": "Buy 1 PACK of eyes of …",
       "text": "Buy 1 PACK of eyes of newt and pestle and mortar in Taverly\nLocation: Taverley",
       "complete": {
-        "op": "itemAcquired",
-        "id": 233,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 233,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 233,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 233,
       "world": [
@@ -1568,7 +1926,11 @@
       "id": "eg-137",
       "title": "Complete witch's potion, onion is just …",
       "text": "Complete witch's potion, onion is just north of the town\nLocation: Rimmington",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_POTION",
+        "state": "FINISHED"
+      },
       "world": [
         2957,
         3215,
@@ -1641,7 +2003,11 @@
       "id": "eg-145",
       "title": "Finish the Knight's sword quest",
       "text": "Finish the Knight's sword quest\nLocation: Falador",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
         2965,
         3380,
@@ -1652,7 +2018,11 @@
       "id": "eg-146",
       "title": "Complete Sleeping Giants quest (15 Smithing …",
       "text": "Complete Sleeping Giants quest (15 Smithing required, you have 29)\nLocation: Giants' Foundry",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SLEEPING_GIANTS",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-147",
@@ -1670,9 +2040,20 @@
       "title": "Buy 50 thread, 3 needles and …",
       "text": "Buy 50 thread, 3 needles and all of the moulds from the crafting shop\nLocation: Al Kharid",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1733,
-        "qty": 3
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1733,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 1733,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1733,
       "world": [
@@ -1685,7 +2066,11 @@
       "id": "eg-149",
       "title": "Start prince ali rescue and talk …",
       "text": "Start prince ali rescue and talk to Osman\nLocation: Al Kharid",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
       "world": [
         3293,
         3184,
@@ -1708,9 +2093,20 @@
       "title": "Buy 1 inv of bronze bars …",
       "text": "Buy 1 inv of bronze bars for questing from shantay pass\nLocation: Shantay Pass",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2349,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2349,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2349,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2349
     },
@@ -1718,7 +2114,11 @@
       "id": "eg-152",
       "title": "Do the tourist trap",
       "text": "Do the tourist trap\nLocation: Desert",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_TOURIST_TRAP",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-153",
@@ -1752,9 +2152,20 @@
       "title": "Buy 10 buckets of slime",
       "text": "Buy 10 buckets of slime\nLocation: Port Khazard",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1925,
-        "qty": 10
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1925,
       "world": [
@@ -1779,9 +2190,20 @@
       "title": "Buy buckets of sand and soda …",
       "text": "Buy buckets of sand and soda ash\nLocation: Port Khazard",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1781,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1781,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1781,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1781,
       "world": [
@@ -1805,19 +2227,31 @@
       "id": "eg-159",
       "title": "Fire strike imps west of the …",
       "text": "Fire strike imps west of the tower of life for all 4 beads\nLocation: Tower of Life",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-160",
       "title": "Do Fight arena",
       "text": "Do Fight arena\nLocation: Fight Arena",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-161",
       "title": "Do Tree gnome village, get Glarial's …",
       "text": "Do Tree gnome village, get Glarial's pebble on the way for Waterfall\nLocation: Khazard Battlefield",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
       "world": [
         2660,
         3155,
@@ -1857,9 +2291,20 @@
       "title": "Buy 4 compost pack from the …",
       "text": "Buy 4 compost pack from the Ardy farming shop\nLocation: Ardougne",
       "complete": {
-        "op": "itemAcquired",
-        "id": 6032,
-        "qty": 4
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6032,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 6032,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 6032,
       "world": [
@@ -1878,7 +2323,11 @@
       "id": "eg-167",
       "title": "Do Hazeel cult",
       "text": "Do Hazeel cult\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "HAZEEL_CULT",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -1895,13 +2344,21 @@
       "id": "eg-169",
       "title": "Do Tribal totem",
       "text": "Do Tribal totem\nLocation: Brimhaven",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-170",
       "title": "Finish dwarf cannon",
       "text": "Finish dwarf cannon\nLocation: Baxtorian Falls",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-171",
@@ -1947,7 +2404,11 @@
       "id": "eg-176",
       "title": "While in the Kourend/Zeah region, complete …",
       "text": "While in the Kourend/Zeah region, complete Children of the Sun to unlock Varl...\nLocation: Varlamore",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "CHILDREN_OF_THE_SUN",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-177",
@@ -1970,7 +2431,11 @@
       "id": "eg-179",
       "title": "Do cook's assistant",
       "text": "Do cook's assistant\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "COOKS_ASSISTANT",
+        "state": "FINISHED"
+      },
       "world": [
         3222,
         3218,
@@ -2004,9 +2469,20 @@
       "title": "Buy 7 buckets of milk",
       "text": "Buy 7 buckets of milk\nLocation: Lumbridge",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1925,
-        "qty": 7
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 7,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1925,
       "world": [
@@ -2019,7 +2495,11 @@
       "id": "eg-183",
       "title": "Do sheep shearer",
       "text": "Do sheep shearer\nLocation: Fred's Farm",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SHEEP_SHEARER",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-184",
@@ -2032,9 +2512,20 @@
       "title": "Pick up 12 onion at Fred's …",
       "text": "Pick up 12 onion at Fred's farm\nLocation: Fred's Farm",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1957,
-        "qty": 12
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1957,
+            "qty": 12
+          },
+          {
+            "op": "item",
+            "id": 1957,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1957
     },
@@ -2053,7 +2544,11 @@
       "id": "eg-187",
       "title": "Get the key imprint, wig and …",
       "text": "Get the key imprint, wig and skin paste for Prince ali rescue\nLocation: Draynor Village",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
       "world": [
         3093,
         3244,
@@ -2108,7 +2603,11 @@
       "id": "eg-192",
       "title": "Finish Imp catcher",
       "text": "Finish Imp catcher\nLocation: Wizard Tower",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "IMP_CATCHER",
+        "state": "FINISHED"
+      },
       "world": [
         3110,
         3167,
@@ -2119,7 +2618,11 @@
       "id": "eg-193",
       "title": "Finish Rune mysteries",
       "text": "Finish Rune mysteries\nLocation: Wizard Tower",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
       "world": [
         3110,
         3167,
@@ -2141,7 +2644,11 @@
       "id": "eg-195",
       "title": "Kill 5 chicken/wizards, give 25 bones …",
       "text": "Kill 5 chicken/wizards, give 25 bones for demon slayer key\nLocation: Wizard Tower",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
       "world": [
         3110,
         3167,
@@ -2163,7 +2670,11 @@
       "id": "eg-197",
       "title": "Continue Romeo & Juliet, get cadava …",
       "text": "Continue Romeo & Juliet, get cadava potion\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -2175,9 +2686,20 @@
       "title": "Buy iron chainbody from Horvik",
       "text": "Buy iron chainbody from Horvik\nLocation: Varrock",
       "complete": {
-        "op": "itemAcquired",
-        "id": 1101,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1101,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1101,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 1101,
       "world": [
@@ -2207,7 +2729,11 @@
       "id": "eg-201",
       "title": "Finish demon slayer",
       "text": "Finish demon slayer\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -2296,9 +2822,20 @@
       "title": "Buy 2 bird snares, 2 butterfly …",
       "text": "Buy 2 bird snares, 2 butterfly jars and a butterfly net from the hunter shop\nLocation: Yanille",
       "complete": {
-        "op": "itemAcquired",
-        "id": 10012,
-        "qty": 2
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10012,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 10012,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 10012,
       "world": [
@@ -2311,7 +2848,11 @@
       "id": "eg-210",
       "title": "Go to Hazelmere and continue the …",
       "text": "Go to Hazelmere and continue the grand tree until you are at Karamja shipyard\nLocation: Hazelmere's Island",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-211",
@@ -2345,7 +2886,11 @@
       "id": "eg-214",
       "title": "Start Pirate's treasure",
       "text": "Start Pirate's treasure\nLocation: Port Sarim",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
       "world": [
         3050,
         3245,
@@ -2374,7 +2919,11 @@
       "id": "eg-218",
       "title": "Do Karamja and port sarim parts …",
       "text": "Do Karamja and port sarim parts of the Pirate's treasure quest\nLocation: Karamja",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-219",
@@ -2413,7 +2962,11 @@
       "id": "eg-222",
       "title": "Finish The Grand tree",
       "text": "Finish The Grand tree\nLocation: Gnome Stronghold",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
       "world": [
         2445,
         3424,
@@ -2425,9 +2978,20 @@
       "title": "Buy a premade blurb' sp, 4 …",
       "text": "Buy a premade blurb' sp, 4 vodka, pineapple chunks\nLocation: Gnome Stronghold",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2116,
-        "qty": 4
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2116,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 2116,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2116,
       "world": [
@@ -2462,7 +3026,11 @@
       "id": "eg-226",
       "title": "Start biohazard, get the plague sample …",
       "text": "Start biohazard, get the plague sample and 3 potions\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "BIOHAZARD",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -2528,7 +3096,11 @@
       "id": "eg-232",
       "title": "Start Merlin's crystal and talk to …",
       "text": "Start Merlin's crystal and talk to Gawain and Lancelot\nLocation: Camelot",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
       "world": [
         2757,
         3477,
@@ -2540,9 +3112,20 @@
       "title": "Buy candle, 2 fishing rods, lobster …",
       "text": "Buy candle, 2 fishing rods, lobster pot\nLocation: Catherby",
       "complete": {
-        "op": "itemAcquired",
-        "id": 307,
-        "qty": 2
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 307,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 307,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 307,
       "world": [
@@ -2556,9 +3139,20 @@
       "title": "Buy 15 pineapples from charters",
       "text": "Buy 15 pineapples from charters\nLocation: Catherby",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2114,
-        "qty": 15
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2114,
+            "qty": 15
+          },
+          {
+            "op": "item",
+            "id": 2114,
+            "qty": 15,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2114,
       "world": [
@@ -2583,9 +3177,20 @@
       "title": "Buy 1 pack of normal compost …",
       "text": "Buy 1 pack of normal compost and all farming tools, store everything in lepre...\nLocation: Catherby",
       "complete": {
-        "op": "itemAcquired",
-        "id": 6032,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6032,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 6032,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 6032,
       "world": [
@@ -2598,7 +3203,11 @@
       "id": "eg-237",
       "title": "Start Fishing contest",
       "text": "Start Fishing contest\nLocation: Catherby",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "FINISHED"
+      },
       "world": [
         2805,
         3433,
@@ -2609,13 +3218,21 @@
       "id": "eg-238",
       "title": "Kill Mordred and get bat bones/black …",
       "text": "Kill Mordred and get bat bones/black candle for Merlin's crystal\nLocation: Keep Le Faye",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-239",
       "title": "Do Murder mystery",
       "text": "Do Murder mystery\nLocation: Seers Village",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MURDER_MYSTERY",
+        "state": "FINISHED"
+      },
       "world": [
         2725,
         3485,
@@ -2637,7 +3254,11 @@
       "id": "eg-241",
       "title": "Finish Fishing contest",
       "text": "Finish Fishing contest\nLocation: Seers Village",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "FINISHED"
+      },
       "world": [
         2725,
         3485,
@@ -2659,7 +3280,11 @@
       "id": "eg-243",
       "title": "Do Doric's quest",
       "text": "Do Doric's quest\nLocation: Taverley",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DORICS_QUEST",
+        "state": "FINISHED"
+      },
       "world": [
         2895,
         3443,
@@ -2670,7 +3295,11 @@
       "id": "eg-244",
       "title": "Finish Pirate's Treasure",
       "text": "Finish Pirate's Treasure\nLocation: Falador",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
       "world": [
         2965,
         3380,
@@ -2703,7 +3332,11 @@
       "id": "eg-247",
       "title": "Do Recruitment drive",
       "text": "Do Recruitment drive\nLocation: Falador",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
       "world": [
         2965,
         3380,
@@ -2780,7 +3413,11 @@
       "id": "eg-254",
       "title": "Do the Observatory quest",
       "text": "Do the Observatory quest\nLocation: Observatory",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "OBSERVATORY_QUEST",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-255",
@@ -2797,7 +3434,11 @@
       "id": "eg-256",
       "title": "Finish The Restless ghost",
       "text": "Finish The Restless ghost\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
       "world": [
         3222,
         3218,
@@ -2808,7 +3449,11 @@
       "id": "eg-257",
       "title": "Start the Lost tribe, do until …",
       "text": "Start the Lost tribe, do until you need to go to Varrock\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
       "world": [
         3222,
         3218,
@@ -2879,7 +3524,11 @@
       "id": "eg-263",
       "title": "Get the magic words for Merlin's …",
       "text": "Get the magic words for Merlin's crystal at the altar\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -2890,7 +3539,11 @@
       "id": "eg-264",
       "title": "Continue Biohazard",
       "text": "Continue Biohazard\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "BIOHAZARD",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3428,
@@ -2924,7 +3577,11 @@
       "id": "eg-268",
       "title": "Finish Biohazard",
       "text": "Finish Biohazard\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "BIOHAZARD",
+        "state": "FINISHED"
+      },
       "world": [
         2662,
         3305,
@@ -2979,13 +3636,21 @@
       "id": "eg-273",
       "title": "Do Jungle potion",
       "text": "Do Jungle potion\nLocation: Karamja",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "JUNGLE_POTION",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-274",
       "title": "Do Shilo village",
       "text": "Do Shilo village\nLocation: Shilo Village",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SHILO_VILLAGE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-275",
@@ -3002,7 +3667,11 @@
       "id": "eg-276",
       "title": "Finish Merlin's crystal",
       "text": "Finish Merlin's crystal\nLocation: Camelot",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
       "world": [
         2757,
         3477,
@@ -3013,7 +3682,11 @@
       "id": "eg-277",
       "title": "Start Holy grail and talk to …",
       "text": "Start Holy grail and talk to Merlin\nLocation: Camelot",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
       "world": [
         2757,
         3477,
@@ -3042,9 +3715,20 @@
       "title": "Buy 1 inv of stew from …",
       "text": "Buy 1 inv of stew from the Seers bar\nLocation: Seers Village",
       "complete": {
-        "op": "itemAcquired",
-        "id": 2003,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2003,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2003,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 2003,
       "world": [
@@ -3068,7 +3752,11 @@
       "id": "eg-282",
       "title": "Do Goblin diplomacy",
       "text": "Do Goblin diplomacy\nLocation: Goblin Village",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GOBLIN_DIPLOMACY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "eg-283",

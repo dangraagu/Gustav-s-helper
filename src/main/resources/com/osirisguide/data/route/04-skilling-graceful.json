@@ -25,9 +25,20 @@
       "title": "Buy pineapples for supercompost from charter …",
       "text": "Buy pineapples for supercompost from charter ships\nLocation: Various",
       "complete": {
-        "op": "itemAcquired",
-        "id": 6034,
-        "qty": 1
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6034,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 6034,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 6034
     },
@@ -41,7 +52,11 @@
       "id": "sg-005",
       "title": "Buy ~200 chocolate from the grand …",
       "text": "Buy ~200 chocolate from the grand tree food shop, don't buy too much since it...\nLocation: Gnome Stronghold",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
       "world": [
         2445,
         3424,
@@ -86,7 +101,11 @@
       "id": "sg-010",
       "title": "Do the Giant Dwarf quest",
       "text": "Do the Giant Dwarf quest\nLocation: Keldagrim",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sg-011",
@@ -98,7 +117,11 @@
       "id": "sg-012",
       "title": "Forgettable tale of a drunken dwarf …",
       "text": "Forgettable tale of a drunken dwarf quest\nLocation: Keldagrim",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "FORGETTABLE_TALE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sg-013",
@@ -115,7 +138,11 @@
       "id": "sg-014",
       "title": "Start Enlightened journey quest",
       "text": "Start Enlightened journey quest\nLocation: Entrana",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "ENLIGHTENED_JOURNEY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sg-015",
@@ -127,7 +154,11 @@
       "id": "sg-016",
       "title": "Do Eyes of glouphrie and Tower …",
       "text": "Do Eyes of glouphrie and Tower of life\nLocation: Gnome Stronghold",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      },
       "world": [
         2445,
         3424,
@@ -156,13 +187,21 @@
       "id": "sg-020",
       "title": "Do Temple of Ikov quest",
       "text": "Do Temple of Ikov quest\nLocation: McGrubor's Wood",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sg-021",
       "title": "Finish Enlightened journey and unlock Varrock …",
       "text": "Finish Enlightened journey and unlock Varrock and Castle wars balloons\nLocation: Entrana",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "ENLIGHTENED_JOURNEY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sg-022",
@@ -253,7 +292,11 @@
       "id": "sg-032",
       "title": "Consider Vale Totems for Fletching training …",
       "text": "Consider Vale Totems for Fletching training (20+ Fletching, Varlamore access)\nLocation: Varlamore",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "VALE_TOTEMS",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sg-033",
@@ -295,9 +338,20 @@
       "title": "Buy 2800 gold ore from blast …",
       "text": "Buy 2800 gold ore from blast furnace ore shop, 1 inv per world\nLocation: Keldagrim",
       "complete": {
-        "op": "itemAcquired",
-        "id": 444,
-        "qty": 2800
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 444,
+            "qty": 2800
+          },
+          {
+            "op": "item",
+            "id": 444,
+            "qty": 2800,
+            "scope": "ANY"
+          }
+        ]
       },
       "item": 444
     },
@@ -385,7 +439,11 @@
       "id": "sg-049",
       "title": "Do the Regicide quest",
       "text": "Do the Regicide quest\nLocation: Isafdar",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "REGICIDE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "sg-050",
