@@ -90,6 +90,29 @@ public class ItemLedgerTest
 	}
 
 	@Test
+	public void distinguishesBankedFromUsedOrDropped()
+	{
+		ItemLedger l = new ItemLedger();
+		l.observe(INV, counts());
+		l.observe(BANK, counts());
+		l.commit();
+		l.observe(INV, counts(TAR, 5)); // acquire 5 in inventory
+		l.commit();
+		// one tick: move 3 to the bank
+		l.observe(INV, counts(TAR, 2));
+		l.observe(BANK, counts(TAR, 3));
+		l.commit();
+		// one tick: drop the remaining 2
+		l.observe(INV, counts());
+		l.commit();
+
+		assertEquals(5, l.acquired(TAR));       // total obtained
+		assertEquals(0, l.ownedIn(INV, TAR));   // none carried
+		assertEquals(3, l.ownedIn(BANK, TAR));  // moved to bank
+		assertEquals(2, l.spent(TAR));          // used/dropped
+	}
+
+	@Test
 	public void genuineGainsAcrossContainersAccrue()
 	{
 		ItemLedger l = new ItemLedger();

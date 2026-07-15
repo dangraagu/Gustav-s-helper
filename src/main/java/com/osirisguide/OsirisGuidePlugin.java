@@ -542,20 +542,25 @@ public class OsirisGuidePlugin extends Plugin
 		}
 		LedgerModel m = new LedgerModel();
 		m.loggedIn = client.getGameState() == GameState.LOGGED_IN;
+		int invId = InventoryID.INVENTORY.getId();
+		int bankId = InventoryID.BANK.getId();
+		int equipId = InventoryID.EQUIPMENT.getId();
 		Set<Integer> ids = ledger.ledgerItems();
 		List<LedgerModel.Row> rows = new ArrayList<>();
 		for (int id : ids)
 		{
 			int acquired = ledger.acquired(id);
-			int owned = ledger.owned(id);
-			int spent = ledger.spent(id);
-			if (acquired == 0 && owned == 0)
+			int carrying = ledger.ownedIn(invId, id) + ledger.ownedIn(equipId, id);
+			int banked = ledger.ownedIn(bankId, id);
+			int usedDropped = ledger.spent(id);
+			if (acquired == 0 && carrying == 0 && banked == 0)
 			{
 				continue; // referenced but never observed yet — don't clutter the ledger
 			}
-			rows.add(new LedgerModel.Row(id, itemName(id), acquired, owned, spent));
+			rows.add(new LedgerModel.Row(id, itemName(id), acquired, carrying, banked, usedDropped));
 			m.totalAcquired += acquired;
-			m.totalSpent += spent;
+			m.totalBanked += banked;
+			m.totalUsedDropped += usedDropped;
 		}
 		rows.sort((a, b) -> Integer.compare(b.acquired, a.acquired));
 		m.rows = rows;

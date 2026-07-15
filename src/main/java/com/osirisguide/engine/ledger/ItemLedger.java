@@ -153,6 +153,14 @@ public class ItemLedger
 		return total;
 	}
 
+	/** Current count of an item in one specific container (0 if that container is unseen). */
+	public int ownedIn(int containerId, int id)
+	{
+		Map<Integer, Integer> c = current.get(containerId);
+		return c == null ? 0 : c.getOrDefault(id, 0);
+	}
+
+	/** Acquired but no longer held in any observed container — i.e. used, dropped, sold, or consumed. */
 	public int spent(int id)
 	{
 		return Math.max(0, acquired(id) - owned(id));

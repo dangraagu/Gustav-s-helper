@@ -8,9 +8,11 @@
   **`itemAcquired`** / **`itemConsumed`** (ledger-backed), `varbit`, `varp`, `qp`, and `and`/`or`/`not`
   combinators, plus `manual`. Fail-safe parsing (a bad condition degrades to manual, never crashes,
   never false-completes).
-- **Item ledger** — passive, ToS-safe tracking over `ItemContainerChanged`: per (route-referenced)
-  item, a monotonic **acquired** total, current **owned**, and derived **spent**. Seeds a baseline on
-  first sight so held items aren't miscounted; persists per-account. Powers `itemAcquired`
+- **Item ledger** — passive, ToS-safe tracking over `ItemContainerChanged` (the plugin never moves
+  items). Per (route-referenced) item it shows the **disposition** of what you collected: **acquired**
+  (ever obtained), **carrying** (inventory+equipped), **banked**, and **used/dropped**. Per-tick net
+  accounting means moving an item to the bank is *not* miscounted as re-acquiring it; a baseline is
+  seeded on first sight so held items aren't counted; state persists per-account. Powers `itemAcquired`
   ("ever collected N of X" — stays complete after you use them) and `itemConsumed`, plus a **Ledger
   tab**. Read-only observation, exactly like Loot Tracker — see [`HUB.md`](HUB.md).
 - **Progression** — ordered route, current-step tracking, auto-advance, **sticky** completion,

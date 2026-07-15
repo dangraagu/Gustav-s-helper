@@ -297,20 +297,17 @@ public class OsirisGuidePanel extends PluginPanel
 		else
 		{
 			ledgerEmpty.setVisible(false);
-			ledgerTotals.setText("Acquired " + m.totalAcquired + " • spent " + m.totalSpent);
+			ledgerTotals.setText("<html>Acquired " + m.totalAcquired + " &bull; banked " + m.totalBanked
+				+ " &bull; used/dropped " + m.totalUsedDropped + "</html>");
 
-			JPanel headerRow = row("Item", "got", "have", "used");
+			JPanel headerRow = row("Item", "got", "carry", "bank", "used");
 			headerRow.setBorder(BorderFactory.createEmptyBorder(0, 0, 3, 0));
-			for (Component c : headerRow.getComponents())
-			{
-				c.setForeground(Color.GRAY);
-			}
 			ledgerRows.add(headerRow);
 
 			for (LedgerModel.Row r : m.rows)
 			{
-				ledgerRows.add(row(r.name, String.valueOf(r.acquired), String.valueOf(r.owned),
-					String.valueOf(r.spent)));
+				ledgerRows.add(row(r.name, String.valueOf(r.acquired), String.valueOf(r.carrying),
+					String.valueOf(r.banked), String.valueOf(r.usedDropped)));
 			}
 		}
 
@@ -318,17 +315,18 @@ public class OsirisGuidePanel extends PluginPanel
 		repaint();
 	}
 
-	private JPanel row(String name, String got, String have, String used)
+	private JPanel row(String name, String got, String carry, String bank, String used)
 	{
 		JPanel p = new JPanel(new BorderLayout(4, 0));
 		p.setMaximumSize(new Dimension(Integer.MAX_VALUE, 18));
 		JLabel n = new JLabel(name);
 		n.setFont(FontManager.getRunescapeSmallFont());
-		JPanel nums = new JPanel(new GridLayout(1, 3, 4, 0));
+		JPanel nums = new JPanel(new GridLayout(1, 4, 3, 0));
 		nums.add(rightLabel(got));
-		nums.add(rightLabel(have));
+		nums.add(rightLabel(carry));
+		nums.add(rightLabel(bank));
 		nums.add(rightLabel(used));
-		nums.setPreferredSize(new Dimension(78, 16));
+		nums.setPreferredSize(new Dimension(104, 16));
 		p.add(n, BorderLayout.CENTER);
 		p.add(nums, BorderLayout.EAST);
 		return p;

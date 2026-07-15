@@ -22,9 +22,10 @@ detects your skills, quests, items, and varbits changing.
   to the next incomplete step automatically.
 - Steps the game can't reliably detect are marked `"manual": true` and you tick them off.
 - An **item ledger** (a **Ledger** tab) passively tracks, per guide-relevant item, how many you've
-  **acquired**, **own**, and **spent** — read-only observation of `ItemContainerChanged`, exactly like
-  Loot Tracker. This powers `itemAcquired` conditions, so "collect 5 swamp tar" stays complete even
-  after you use them.
+  **acquired**, are **carrying**, **moved to the bank**, and **used/dropped** — so you can see what
+  became of everything you collected. It's read-only observation of `ItemContainerChanged`, exactly
+  like Loot Tracker (the plugin never moves or touches your items). This also powers `itemAcquired`
+  conditions, so "collect 5 swamp tar" stays complete even after you use them.
 - Progress and the ledger are saved **per account** and reconcile on login, so an existing account
   skips everything it has already done.
 
