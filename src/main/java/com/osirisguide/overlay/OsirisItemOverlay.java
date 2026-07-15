@@ -36,12 +36,20 @@ public class OsirisItemOverlay extends WidgetItemOverlay
 	@Override
 	public void renderItemOverlay(Graphics2D graphics, int itemId, WidgetItem widgetItem)
 	{
-		if (!config.highlightItems())
+		// This runs for EVERY item slot (inventory + bank + equipment) every frame. Keep the hot path
+		// to a volatile read + int compares; only touch the config proxy for the one matching item —
+		// otherwise a full bank at 50fps floods the client thread and freezes the game.
+		RouteStep step = state.getCurrentStep();
+		if (step == null)
 		{
 			return;
 		}
-		RouteStep step = state.getCurrentStep();
-		if (step == null || step.getHighlightItemId() != itemId)
+		int wantId = step.getHighlightItemId();
+		if (wantId < 0 || wantId != itemId)
+		{
+			return;
+		}
+		if (!config.highlightItems())
 		{
 			return;
 		}

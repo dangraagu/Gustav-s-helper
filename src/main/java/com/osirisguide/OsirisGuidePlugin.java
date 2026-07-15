@@ -115,6 +115,7 @@ public class OsirisGuidePlugin extends Plugin
 	private boolean ledgerDirty;
 	private boolean ledgerViewDirty;
 	private String accountKey;
+	private String lastLedgerSignature;
 	private String lastCurrentStepId;
 	private int wantedObjectId = -1;
 	private int wantedNpcId = -1;
@@ -133,6 +134,7 @@ public class OsirisGuidePlugin extends Plugin
 		progression = new Progression(route, config.mode());
 		ledger = new ItemLedger();
 		ledger.setItemsOfInterest(route.referencedItemIds());
+		lastLedgerSignature = null;
 
 		panel = new OsirisGuidePanel(new Actions());
 		pluginIcon = ImageUtil.loadImageResource(getClass(), "/com/osirisguide/icon.png");
@@ -204,6 +206,11 @@ public class OsirisGuidePlugin extends Plugin
 			persistLedger();
 			ledgerDirty = false;
 			accountKey = null;
+		}
+		else if (gs == GameState.LOADING)
+		{
+			// Region/scene swap: drop any tracked object/NPC so a stale reference is never drawn.
+			state.clearTargets();
 		}
 	}
 
@@ -656,7 +663,27 @@ public class OsirisGuidePlugin extends Plugin
 		rows.sort((a, b) -> Integer.compare(b.acquired, a.acquired));
 		m.rows = rows;
 		m.empty = rows.isEmpty();
+
+		// Coalesce: only rebuild the Swing rows when the numbers actually changed.
+		String sig = ledgerSignature(m);
+		if (sig.equals(lastLedgerSignature))
+		{
+			return;
+		}
+		lastLedgerSignature = sig;
 		panel.updateLedger(m);
+	}
+
+	private static String ledgerSignature(LedgerModel m)
+	{
+		StringBuilder sb = new StringBuilder();
+		sb.append(m.loggedIn).append(';').append(m.empty).append(';');
+		for (LedgerModel.Row r : m.rows)
+		{
+			sb.append(r.itemId).append(':').append(r.acquired).append(',').append(r.carrying)
+				.append(',').append(r.banked).append(',').append(r.usedDropped).append('|');
+		}
+		return sb.toString();
 	}
 
 	private String itemName(int id)
