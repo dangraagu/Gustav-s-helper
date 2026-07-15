@@ -81,7 +81,7 @@ public class OsirisGuidePanel extends PluginPanel
 		JPanel north = new JPanel();
 		north.setLayout(new BoxLayout(north, BoxLayout.Y_AXIS));
 
-		JLabel header = new JLabel("Osiris Guide");
+		JLabel header = new JLabel("Gustav's Helper");
 		header.setFont(FontManager.getRunescapeBoldFont());
 		header.setAlignmentX(Component.LEFT_ALIGNMENT);
 

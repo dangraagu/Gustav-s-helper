@@ -67,7 +67,7 @@ import net.runelite.client.util.ImageUtil;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Osiris Guide",
+	name = "Gustav's Helper",
 	description = "Step-by-step ironman progression helper following the ironman.guide route",
 	tags = {"ironman", "quest", "guide", "progression", "osiris", "efficiency"}
 )
@@ -136,7 +136,7 @@ public class OsirisGuidePlugin extends Plugin
 		panel = new OsirisGuidePanel(new Actions());
 		pluginIcon = ImageUtil.loadImageResource(getClass(), "/com/osirisguide/icon.png");
 		navButton = NavigationButton.builder()
-			.tooltip("Osiris Guide")
+			.tooltip("Gustav's Helper")
 			.icon(pluginIcon)
 			.priority(7)
 			.panel(panel)
@@ -159,7 +159,7 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			refreshPanel(null);
 		}
-		log.debug("Osiris Guide started: {} steps", route.size());
+		log.debug("Gustav's Helper started: {} steps", route.size());
 	}
 
 	@Override
@@ -280,7 +280,7 @@ public class OsirisGuidePlugin extends Plugin
 		catch (RuntimeException ex)
 		{
 			// Never let a bad evaluation wedge the tick loop or leave pendingReconcile stuck true.
-			log.warn("Osiris Guide: tick evaluation failed", ex);
+			log.warn("Gustav's Helper: tick evaluation failed", ex);
 		}
 		finally
 		{
@@ -534,7 +534,7 @@ public class OsirisGuidePlugin extends Plugin
 		}
 		catch (Exception ex)
 		{
-			log.debug("Osiris Guide: target scan failed", ex);
+			log.debug("Gustav's Helper: target scan failed", ex);
 		}
 	}
 
@@ -653,7 +653,7 @@ public class OsirisGuidePlugin extends Plugin
 		// setName is REQUIRED whenever jumpOnClick is set: WorldMapOverlay asserts a non-null name on
 		// hover, and with -ea (RuneLite dev mode) a null name throws an AssertionError that escapes the
 		// render loop and freezes the client. This is the fix for the world-map-open freeze.
-		worldMapPoint.setName("Osiris Guide");
+		worldMapPoint.setName("Gustav's Helper");
 		worldMapPoint.setTooltip(step.getTitle());
 		worldMapPoint.setTarget(wp);
 		worldMapPoint.setJumpOnClick(true);
@@ -738,7 +738,7 @@ public class OsirisGuidePlugin extends Plugin
 		}
 		catch (RuntimeException ex)
 		{
-			log.debug("Osiris Guide: item name lookup failed for {}", id, ex);
+			log.debug("Gustav's Helper: item name lookup failed for {}", id, ex);
 		}
 		return "Item " + id;
 	}
