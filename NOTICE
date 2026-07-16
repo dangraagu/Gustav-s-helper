@@ -49,4 +49,9 @@ entities by hand. Quest Helper's own source code is NOT shipped in this plugin â
 only the resulting factual IDs/coordinates are baked into the route data. The
 build-time extractor lives in tools/data/ (qh_extract.py + qh_entities.json).
 
+The expected NPC-dialogue options (which option to click) in
+data/qh_dialogue.json were likewise harvested at build time from Quest Helper's
+source (BSD 2-Clause, credited above); only the resulting option strings are
+shipped as data, not Quest Helper's code. Extractor: tools/data/qh_dialogue.py.
+
 Not affiliated with Jagex Ltd. Old School RuneScape is a trademark of Jagex Ltd.

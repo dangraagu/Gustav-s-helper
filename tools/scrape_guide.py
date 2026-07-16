@@ -495,6 +495,8 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
 
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    for old in OUT_DIR.glob("*.json"):
+        old.unlink()  # wipe stale section files so a renamed/removed section never lingers
     item_map = fetch_item_map()
     quest_map = load_quest_map()
     load_location_coords()

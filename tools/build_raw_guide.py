@@ -23,6 +23,8 @@ def build(raw_path, item_map, quest_map, entities):
     sections = raw.get("sections", [])
     out_dir = sg._RES / "data" / "guides" / gid
     out_dir.mkdir(parents=True, exist_ok=True)
+    for old in out_dir.glob("*.json"):
+        old.unlink()  # wipe stale section files so a renamed/removed section never lingers
 
     # Pass 1: total items needed (same skill>quest>item precedence + same atom split as build_step).
     total_needed = {}

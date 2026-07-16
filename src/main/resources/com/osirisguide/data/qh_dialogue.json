@@ -1,0 +1,6179 @@
+{
+  "_source": "Quest Helper (BSD-2-Clause) — dialogue choices extracted from source",
+  "byQuest": {
+    "ALFRED_GRIMHANDS_BARCRAWL": [
+      "I want to come through this gate.",
+      "Looks can be deceiving, I am in fact a barbarian.",
+      "I'm doing Alfred Grimhand's Barcrawl.",
+      "I'm doing Alfred Grimhands Barcrawl.",
+      "I'm doing Alfred Grimhand's barcrawl."
+    ],
+    "ANIMAL_MAGNETISM": [
+      "I would be happy to make your home a better place.",
+      "I'm here about a quest.",
+      "I'm here about the farmers east of here.",
+      "Okay, you need it more than I do, I suppose.",
+      "Could I buy those chickens now, then?",
+      "Could I buy 2 chickens?",
+      "Hello, I'm here about those trees again.",
+      "I'd love one, thanks."
+    ],
+    "ANOTHER_SLICE_OF_HAM": [
+      "What are you arguing about?",
+      "I'd love to help!",
+      "Yes"
+    ],
+    "AT_FIRST_LIGHT": [
+      "Can I help you with anything?",
+      "Yes."
+    ],
+    "A_KINGDOM_DIVIDED": [
+      "Yes.",
+      "Let's get going.",
+      "I've found something that might be useful.",
+      "'Jewellery of Jubilation' - Lovakengj",
+      "Had any councillors stay here recently?",
+      "So about the Councillor.",
+      "'The Fisher's Flute' - Piscarilius",
+      "I'm looking for a councillor.",
+      "Yes please!",
+      "Wintertodt Camp.",
+      "Climb through it.",
+      "Do you think you could help me find a mage?",
+      "So, about the key to that door...",
+      "So about the door over there...",
+      "'Lunch by the Lancalliums' - Hosidius",
+      "'History and Hearsay' - Shayzien",
+      "I need some help with Lady Lovakengj.",
+      "Evil only triumphs when the good do nothing.",
+      "'A Dark Disposition' - Arceuus",
+      "Let's do this.",
+      "Press it in.",
+      "Climb down",
+      "Climb up"
+    ],
+    "A_NIGHT_AT_THE_THEATRE": [
+      "What's all this really about?",
+      "What's this thing you need from me?",
+      "Yes.",
+      "I managed to recover Ranis' head.",
+      "So what are we doing with Ranis' head?",
+      "So about that memory...",
+      "Got any sulphuric acid?",
+      "I found some of those eggs.",
+      "That memory didn't tell us too much.",
+      "That memory seemed more useful.",
+      "I found a hespori.",
+      "Can we use this bark to find more memories?",
+      "Do you have any more memories for us to look at?",
+      "Did you manage to get any useful memories from Verzik?"
+    ],
+    "A_PORCINE_OF_INTEREST": [
+      "Yes.",
+      "Talk about the bounty.",
+      "I think that'll be all for now.",
+      "Yes"
+    ],
+    "A_SOULS_BANE": [
+      "Yes.",
+      "Would you like me to go down to look for your husband and son?"
+    ],
+    "A_TAIL_OF_TWO_CATS": [
+      "I'll help you.",
+      "Yes.",
+      "Ask about Bob's parents.",
+      "I have a cat related question.",
+      "Ask about Robert the Strong.",
+      "Ask the Sphinx for help for Bob.",
+      "Talk about A Tail of Two Cats."
+    ],
+    "A_TASTE_OF_HOPE": [
+      "Yes.",
+      "Fine, here's the money.",
+      "I do.",
+      "Anything to report?",
+      "Why?",
+      "Here you go.",
+      "I'm ready."
+    ],
+    "BARBARIAN_TRAINING": [
+      "Let's talk about my training.",
+      "I seek more knowledge.",
+      "You think so?",
+      "What can I learn about the use of a fishing rod?",
+      "I've fished with a barbarian rod!",
+      "Please teach me of your cunning with harpoons.",
+      "Barbarian Outpost.",
+      "I've fished with my hands!",
+      "I'm ready for your firemaking wisdom. Please instruct me.",
+      "I've set fire to logs with a bow!",
+      "I have completed firemaking with a bow. What follows this?",
+      "I've created a pyre ship!",
+      "How can I use my strength in the ways of agriculture?",
+      "I've planted seeds with my fists!",
+      "Are there any other fist related farming activities I can learn?",
+      "I've smashed a pot whilst farming!",
+      "Tell me more about the use of spears.",
+      "I've created a spear!",
+      "I've created a hasta!",
+      "What was that secret knowledge of herblore we talked of?",
+      "I've made a barbarian potion!"
+    ],
+    "BEAR_YOUR_SOUL": [
+      "I've been reading your book...",
+      "Yes please."
+    ],
+    "BELOW_ICE_MOUNTAIN": [
+      "Yes.",
+      "I was wondering if you'd be able to make me a Steak sandwich?",
+      "What ales are you serving?",
+      "One Asgarnian Ale, please.",
+      "Rock."
+    ],
+    "BENEATH_CURSED_SANDS": [
+      "What's this special item?",
+      "Yes.",
+      "About that special item...",
+      "Let's go."
+    ],
+    "BETWEEN_A_ROCK": [
+      "Yes please.",
+      "Why are you firing a cannon at a wall?",
+      "So why were you trying to get through the rock again?",
+      "Sounds interesting!",
+      "Yes.",
+      "I'll be back later.",
+      "Yes, I'm sure this will crack open the rock.",
+      "So you want to... fire me into the rock?",
+      "I can't argue with that, shoot me in!",
+      "Golden helmet.",
+      "No, I've had enough of buying drinks for people!",
+      "You may fire when ready!",
+      "Ready as I'll ever be."
+    ],
+    "BIG_CHOMPY_BIRD_HUNTING": [
+      "Yes.",
+      "Ok, I'll make you some 'stabbers'.",
+      "How do we make the chompys come?",
+      "Come on, let me have a go...",
+      "I'm actually quite strong... please let me try."
+    ],
+    "BIOHAZARD": [
+      "Yes.",
+      "Okay, lets do it.",
+      "Okay, let's do it.",
+      "Yes I do.",
+      "Your quest.",
+      "Do you have a spare Priest Gown?",
+      "Okay, let's see what you've got then.",
+      "I've come to ask your assistance in stopping a plague.",
+      "You give him the vial of sulphuric broline...",
+      "You give him the vial of liquid honey...",
+      "You give him the vial of ethenea..."
+    ],
+    "BLACK_KNIGHTS_FORTRESS": [
+      "I seek a quest!",
+      "I laugh in the face of danger!",
+      "Yes.",
+      "I don't care. I'm going in anyway."
+    ],
+    "BONE_VOYAGE": [
+      "Have you any interesting news?",
+      "Sign me up!",
+      "Yes.",
+      "I'm here on behalf of the museum archaeological team.",
+      "Can I go onto the barge?",
+      "Yep, that would be me.",
+      "No, what happened?",
+      "Ever made any cursed voyages?",
+      "Talk about lucky charms.",
+      "I'm making a cursed voyage.",
+      "Talk about something else.",
+      "Talk about Bone Voyage.",
+      "I'm ready, let's go."
+    ],
+    "CABIN_FEVER": [
+      "Yes.",
+      "Yes, I've always wanted to be a pirate!",
+      "Yes, I am a woman of my word.",
+      "Yes, I am a man of my word.",
+      "Let's go Cap'n!"
+    ],
+    "CHILDREN_OF_THE_SUN": [
+      "When will this delegation arrive?",
+      "Yes."
+    ],
+    "CLIENT_OF_KOUREND": [
+      "Sounds interesting! How can I help?",
+      "Can you take me to Great Kourend?",
+      "Have you got any quests for me?",
+      "Let's talk about your client...",
+      "I've lost something you've given me.",
+      "Yes.",
+      "Can I ask you about Port Piscarilius?",
+      "What is there to do in Port Piscarilius?",
+      "Can I ask you about Hosidius?",
+      "What is there to do in Hosidius?",
+      "Can I ask you about Shayzien?",
+      "What is there to do in Shayzien?",
+      "Can I ask you about Lovakengj?",
+      "What is there to do in Lovakengj?",
+      "Can I ask you about Arceuus?",
+      "What is there to do in Arceuus?"
+    ],
+    "CLOCK_TOWER": [
+      "Yes.",
+      "Climb down the stairs.",
+      "Climb up the stairs."
+    ],
+    "COLD_WAR": [
+      "Yes.",
+      "Okay, why not!",
+      "Yes, I have all the materials.",
+      "Yes",
+      "That's crazy!",
+      "Clockwork mechanism",
+      "Clockwork toy",
+      "Clockwork penguin",
+      "Yes, I have it.",
+      "It looks like a warning message to keep us away.",
+      "I need that phrase!",
+      "The penguins in Lumbridge refuse to talk to me.",
+      "I must have left the outpost before they gave out the phrase.",
+      "Sure!",
+      "I need to talk to you about penguins.",
+      "Bully Fred",
+      "The Farmer is harmless.",
+      "Yeah, I got it."
+    ],
+    "CONTACT": [
+      "Yes.",
+      "Sounds like a quest for me; I can't turn that down!",
+      "Is there any way into Menaphos from below?",
+      "Draynor Village.",
+      "Leela.",
+      "I want to talk to you about Sophanem.",
+      "It could drive a wedge between the Menaphite cities.",
+      "I know of a secret entrance to the north."
+    ],
+    "COOKS_ASSISTANT": [
+      "Climb Up.",
+      "Climb Down.",
+      "What's wrong?",
+      "Can I help?",
+      "Yes."
+    ],
+    "CREATURE_OF_FENKENSTRAIN": [
+      "I'll buy one.",
+      "Yes.",
+      "Braindead",
+      "Grave-digging",
+      "Handy Maggot Avoidance Techniques",
+      "The Joy of Gravedigging",
+      "What happened to your head?",
+      "I have some body parts for you.",
+      "Do you know where the key to the shed is?"
+    ],
+    "CURRENT_AFFAIRS": [
+      "What's with the duck?",
+      "Yes.",
+      "Pleasure.",
+      "Trade.",
+      "Piracy.",
+      "0",
+      "1",
+      "2+",
+      "Cargo spillage.",
+      "Theft.",
+      "Both.",
+      "No.",
+      "Partial.",
+      "Less than a month.",
+      "Less than a year.",
+      "A year or more.",
+      "Varrock.",
+      "Falador.",
+      "Edgeville.",
+      "Yes, I have it here.",
+      "I need to find the Mayor of Catherby.",
+      "I'm here about the mayor.",
+      "About the mayor...",
+      "The by-law has been changed!",
+      "About that duck...",
+      "I've charted the currents!"
+    ],
+    "CURSE_OF_THE_EMPTY_LORD": [
+      "Tell me your story"
+    ],
+    "DADDYS_HOME": [
+      "What kind of favour do you want me to do?",
+      "Tell me more about the job.",
+      "Tell me where he lives, and I'll do the job.",
+      "Skip Yarlo's lecture. He'll offer it later if you like.",
+      "I need some waxwood planks for Old Man Yarlo.",
+      "Yeah, what have you got for me?"
+    ],
+    "DARKNESS_OF_HALLOWVALE": [
+      "Is there something I can do to help out?",
+      "Yes.",
+      "(whisper) Do you know about the Myreque?",
+      "(whisper) I really need to meet the Myreque.",
+      "How can Old Man Ral help me?",
+      "Someone said you could help me.",
+      "Old Man Ral, the sage of Sanguinesti.",
+      "Talk to the king about Morytania.",
+      "What should I do now?",
+      "Yes thanks. I'll accept the free teleport.",
+      "Send me to the mines.",
+      "Send me to the mines! (Do a bit of menial work)",
+      "Do you have a spare pick?",
+      "Okay, lead the way."
+    ],
+    "DEATH_ON_THE_ISLE": [
+      "Yes.",
+      "I am.",
+      "I think I've found everything there is to find so far. What now?",
+      "I'm ready.",
+      "No.",
+      "Accuse Adala.",
+      "What can you tell me about the actors?",
+      "What's the crate of poison for?",
+      "It seems one of the costumes has a stain on it.",
+      "Did you know there was a hidden passage in here?",
+      "Naiatli.",
+      "Previous options..."
+    ],
+    "DEATH_PLATEAU": [
+      "Do you have any quests for me?",
+      "Yes.",
+      "I'm looking for the guard that was on last night.",
+      "You're the guard that was on duty last night?",
+      "Can I buy you a drink?",
+      "Would you like to gamble?",
+      "Do you know of another way up Death Plateau?",
+      "OK, I'll get those for you."
+    ],
+    "DEATH_TO_THE_DORGESHUUN": [
+      "Climb down the stairs.",
+      "Can you show me the way out of the mines?",
+      "Have you seen enough of Lumbridge yet?",
+      "Yes please!",
+      "Are you planning to do anything about the cave goblins?",
+      "Now!",
+      "Wait here.",
+      "Yes.",
+      "I don't know, what are you thinking?",
+      "Good idea.",
+      "What is this favour?",
+      "I'll act as a guide.",
+      "Yes, I have two sets of robes!",
+      "Let's go!"
+    ],
+    "DEFENDER_OF_VARROCK": [
+      "Yes.",
+      "Ready when you are.",
+      "Let's do it.",
+      "Climb up",
+      "I need your help with a shield.",
+      "Climb down",
+      "I need your help with the zombie invasion.",
+      "Other"
+    ],
+    "DEMON_SLAYER": [
+      "The Demon Slayer Quest",
+      "Yes.",
+      "Ok, here you go.",
+      "Okay, where is he? I'll kill him for you!",
+      "So how did Wally kill Delrith?",
+      "Aris said I should come and talk to you.",
+      "I need to find Silverlight.",
+      "He's back and unfortunately I've got to deal with him.",
+      "So give me the keys!",
+      "Can you give me your key?",
+      "Climb up",
+      "Yes I know, but this is important.",
+      "There's a demon who wants to invade this city.",
+      "Yes, very.",
+      "It's not them who are going to fight the demon, it's me.",
+      "Sir Prysin said you would give me the key.",
+      "Why did he give you one of the keys then?",
+      "Talk about Demon Slayer.",
+      "I need to get a key given to you by Sir Prysin.",
+      "Well, have you got any keys knocking around?",
+      "I'll get the bones for you."
+    ],
+    "DESERT_TREASURE_I": [
+      "Do you have any quests?",
+      "Yes.",
+      "Yes, I'll help you.",
+      "Ask about the Desert Treasure quest.",
+      "Don't read book",
+      "Help him",
+      "Buy a drink",
+      "Buy a beer",
+      "I heard about four diamonds...",
+      "Tell me of The four diamonds of Azzanadra",
+      "Yes",
+      "Ask about the Diamonds of Azzanadra",
+      "I am looking for a special Diamond...",
+      "How can I kill Dessous?",
+      "Actually, I don't need to know anything."
+    ],
+    "DESERT_TREASURE_II__THE_FALLEN_EMPIRE": [
+      "Yes.",
+      "Any thoughts on Vardorvis?",
+      "Any thoughts on Perseriya?",
+      "Any thoughts on Whisperer?",
+      "I hear you visited Lovakengj recently.",
+      "I'll be alright.",
+      "Attempt to open the chest.",
+      "Have you seen any archeologists around here?",
+      "The Plaza.",
+      "Western Residential District.",
+      "More options...",
+      "Take the Shadow Torch.",
+      "Northern Science District.",
+      "I have a schematic here.",
+      "Take it.",
+      "Southern Science District.",
+      "Take everything.",
+      "Take the Revitalising Idol.",
+      "Take the Superior Shadow Torch.",
+      "Take the Anima Portal.",
+      "Plaza.",
+      "Palace.",
+      "The Cathedral."
+    ],
+    "DEVIOUS_MINDS": [
+      "Sure thing, what do you need?",
+      "Yep, got it right here for you.",
+      "Devious Minds."
+    ],
+    "DORICS_QUEST": [
+      "I wanted to use your anvils.",
+      "Yes.",
+      "Yes, I will get you the materials."
+    ],
+    "DRAGON_SLAYER_I": [
+      "Can I have a quest?",
+      "Can you sell me a rune platebody?",
+      "The Guildmaster of the Champions' Guild told me.",
+      "I thought you were going to give me a quest.",
+      "A dragon, that sounds like fun.",
+      "About my quest to kill the dragon...",
+      "I talked to Oziach...",
+      "Where can I find the right ship?",
+      "How can I protect myself from the dragon's breath?",
+      "How can I find the route to Crandor?",
+      "Where is Melzar's map piece?",
+      "Where is Thalzar's map piece?",
+      "Where is Lozar's map piece?",
+      "I seek a piece of the map to the island of Crandor.",
+      "I believe you've got a piece of a map that I need.",
+      "I suppose I could pay you for the map piece...",
+      "Alright then, 10,000 it is.",
+      "I seek a shield that will protect me from dragonbreath.",
+      "Elvarg, the dragon of Crandor island!",
+      "Yes",
+      "So, are you going to give me the shield or not?",
+      "I'd like to buy her.",
+      "Yep, sounds good.",
+      "You're a sailor? Could you take me to Crandor?",
+      "Yes, let's go!"
+    ],
+    "DRAGON_SLAYER_II": [
+      "How can I gain access to the guild?",
+      "Yes.",
+      "Yes I know it well.",
+      "Ask about the island.",
+      "So how do we know which island to go to?",
+      "Let's talk about the investigation.",
+      "Let's do it!",
+      "I'm ready.",
+      "Ask the Sphinx for help with Bob's memories.",
+      "Bob's memories.",
+      "No thanks.",
+      "I'm looking for information on a Fourth Age hero.",
+      "Ask about Tristan.",
+      "About Tristan Corvo...",
+      "I need your help with a key piece.",
+      "Ask about the dragonkin fortress.",
+      "Yes please.",
+      "I'm sure.",
+      "I'm here to talk about dragons.",
+      "About the dragon threat...",
+      "Talk about the dragon threat",
+      "Ask about the dragon threat.",
+      "Talk about the dragon threat.",
+      "Let's talk about my quest.",
+      "Yes, I wish to enter the unknown."
+    ],
+    "DREAM_MENTOR": [
+      "Yes.",
+      "You're looking better now.",
+      "Well, you look and sound more lively.",
+      "Are you looking forward to getting out?",
+      "That's the spirit!",
+      "You seem like a nice guy.",
+      "Just being honest.",
+      "When we get out of here I'll buy you a drink!",
+      "Whatever and wherever you want - my treat.",
+      "I'm very impressed you managed to get into this cave.",
+      "I would have given up personally.",
+      "You'll survive this easily.",
+      "Think of all the places you can visit when you get out!",
+      "Just don't worry.",
+      "Of course.",
+      "What are you going to do when you get out of here?",
+      "That's up to you. You could travel with me!",
+      "It's a good thing you have me to look after you.",
+      "Not that I'm bragging or anything.",
+      "Not long now and you'll be back on your feet!",
+      "On whether you mind me helping you further.",
+      "You're sounding much better.",
+      "If you need anything, just let me know.",
+      "It's quite cosy in here.",
+      "The perfect environment for getting back on your feet!",
+      "You're very safe in this little cave.",
+      "The suqah will never fit through that tunnel.",
+      "Tell me a bit about yourself.",
+      "Fishing!",
+      "Cyrisus in the mine",
+      "Talk about the Armament",
+      "Cyrisus.",
+      "Yes, let's go!"
+    ],
+    "DRUIDIC_RITUAL": [
+      "I'm in search of a quest.",
+      "Yes.",
+      "I've been sent to help purify the Varrock stone circle.",
+      "Ok, I'll do that then."
+    ],
+    "DWARF_CANNON": [
+      "Yes.",
+      "Okay, I'll see what I can do.",
+      "Okay then, just for you!"
+    ],
+    "EADGARS_RUSE": [
+      "Ask general questions.",
+      "Have you any more work for me, to help reclaim the circle?",
+      "I'll do it.",
+      "Yes.",
+      "Can I buy some Climbing boots?",
+      "OK, sounds good.",
+      "I need to find some goutweed.",
+      "No thanks, Eadgar.",
+      "What do you feed them?",
+      "When did you add it?",
+      "Sanfew won't be happy...",
+      "So, where can I get some goutweed?"
+    ],
+    "EAGLES_PEAK": [
+      "Ah, you sound like someone who needs a quest doing!",
+      "Sure.  Any idea where I should start looking?",
+      "Yes.",
+      "The Outpost",
+      "The Ardougne zookeeper sent me to find you.",
+      "Well if you gave me a ferret I could take it back for you.",
+      "Could I help at all?",
+      "Well, specifically I'm after a couple of bird costumes.",
+      "I've got the feathers and materials you requested.",
+      "Okay, here are the materials. Eagle me up.",
+      "Taunt the kebbit.",
+      "Well I was originally sent to find you because of a ferret.",
+      "That sounds good to me."
+    ],
+    "ELEMENTAL_WORKSHOP_I": [
+      "Yes."
+    ],
+    "ELEMENTAL_WORKSHOP_II": [
+      "Yes.",
+      "Crane schematic",
+      "An elemental claw."
+    ],
+    "ENAKHRAS_LAMENT": [
+      "Yes.",
+      "Of course!",
+      "Okay, I'll get on with it.",
+      "Yes, I have more stone.",
+      "Here's a large 10 kg block.",
+      "Here's a medium 5 kg block.",
+      "Here's a small 2 kg block.",
+      "Here's a tiny 1 kg block.",
+      "I'll do it right away!",
+      "Remove the statue's left arm",
+      "Remove the statue's right arm",
+      "Remove the statue's left leg",
+      "Remove the statue's right leg",
+      "Do you know where the statue's head is?",
+      "Of course, I'll help you out.",
+      "Okay, I'll start building."
+    ],
+    "ENLIGHTENED_JOURNEY": [
+      "Yes! Sign me up.",
+      "Umm, yes. What's your point?",
+      "Yes.",
+      "Yes, I have them here.",
+      "Yes, I want to give you some items.",
+      "Dye.",
+      "Sandbags.",
+      "Silk.",
+      "Bowl.",
+      "Okay."
+    ],
+    "ENTER_THE_ABYSS": [
+      "Where do you get your runes from?",
+      "Maybe I could make it worth your while?",
+      "Yes, but I can still help you as well.",
+      "I did it so that I could then steal their secrets.",
+      "Deal.",
+      "But I'm a loyal servant of Zamorak as well!",
+      "Okay, fine. I don't really serve Zamorak.",
+      "Because I can still help you.",
+      "Can you teleport me to the Rune Essence Mine?",
+      "Wizard's Tower"
+    ],
+    "ERNEST_THE_CHICKEN": [
+      "Aha, sounds like a quest. I'll help.",
+      "I'm looking for a guy called Ernest.",
+      "Change him back this instant!"
+    ],
+    "ETHICALLY_ACQUIRED_ANTIQUITIES": [
+      "Yes.",
+      "Could you tell me more about that empty display?",
+      "Have you seen anybody suspicious around?",
+      "Have you seen a man with a case?",
+      "As long as it is just the one favour...",
+      "I was hoping for some help.",
+      "Go on then.",
+      "So about those sails...",
+      "So, about that man with the case.",
+      "Port Sarim (wily cats)",
+      "Have you seen a grey-haired man with a case?",
+      "I'm looking for Xerna's Diadem.",
+      "I found Xerna's Diadem...",
+      "Aren't you embarrassed to have stolen items in your collection?",
+      "Are you even a real historian, or just a petty criminal?",
+      "Did you know Varlamore sends thieves to the Colosseum?",
+      "How will Varlamorians learn their history now?",
+      "You're supposed to protect history, not steal it!",
+      "You're setting a terrible example",
+      "You've betrayed the trust of Varlamore.",
+      "You're not above the law! You stole this stuff!",
+      "Is everything here stolen from other museums?",
+      "You're a disgrace to your entire profession!",
+      "You're setting a terrible example.",
+      "Varlamore might never let you and your colleagues visit again!",
+      "Nobody wants to see stolen goods on display!",
+      "Look me in the eye and tell me you did the right thing.",
+      "Stealing is against the law!",
+      "You're a loose cannon.",
+      "If you're looking for stolen goods, I can get my hands on plenty.",
+      "A real historian would never steal!",
+      "Hand that artefact back this instant!",
+      "You can't justify theft by saying it's for preservation.",
+      "Do you really think you did the right thing?",
+      "I guess you were just in it for the glory, were you?",
+      "You've committed a crime.",
+      "You ought to be ashamed.",
+      "You're hoarding artefacts, but you should be 1sharing them!",
+      "Varlamore might close their lands again after this.",
+      "So can anyone just go around stealing and call it archaeology?",
+      "Stealing is stealing, no matter how you try to justify it.",
+      "Just give it back already!",
+      "Think of the Varlamorian children who won't get to see this artefact.",
+      "You should give Varlamore a chance before stealing their stuff.",
+      "This is stealing! Thieving! Taking what's not yours!",
+      "I thought archaeology was cool. I didn't realise it was just thieving!",
+      "How would you feel if someone came in here and stole all your stuff?",
+      "You're hoarding artefacts, but you should be sharing them!",
+      "About that empty display..."
+    ],
+    "FAIRYTALE_II__CURE_A_QUEEN": [
+      "Ask about the quest.",
+      "I suppose I'd better go and see what the problem is then.",
+      "Where is the Fairy Queen?",
+      "Where could she have been taken to?",
+      "Yes, okay."
+    ],
+    "FAIRYTALE_I__GROWING_PAINS": [
+      "Ask about the quest.",
+      "Anything I can help with?",
+      "Now that I think about it, you're right!",
+      "Are you a member of the Group of Advanced Gardeners?",
+      "Where's the Fairy Queen?",
+      "Climb up",
+      "I need help with fighting a Tanglefoot.",
+      "I was asking you about fighting a Tanglefoot..."
+    ],
+    "FAMILY_CREST": [
+      "Why would a nobleman live in a dump like this?",
+      "So where is this crest?",
+      "Ok, I will help you.",
+      "Are you Caleb Fitzharmon?",
+      "So can I have your bit?",
+      "Ok, I will get those.",
+      "Uh.. what happened to the rest of the crest?",
+      "I'm in search of a man named Avan Fitzharmon.",
+      "I'm looking for a man named Avan Fitzharmon.",
+      "Hello. I'm in search of very high quality gold."
+    ],
+    "FAMILY_PEST": [
+      "Have you got any quests for me?",
+      "Oh come on, however menial, I want to help!",
+      "Family Pest",
+      "Yes"
+    ],
+    "FIGHT_ARENA": [
+      "Yes.",
+      "I'd like a Khali Brew please."
+    ],
+    "FISHING_CONTEST": [
+      "I was wondering what was down those stairs?",
+      "Why not?",
+      "If you were my friend I wouldn't mind it.",
+      "Well, let's be friends!",
+      "And how am I meant to do that?",
+      "Yes.",
+      "Be careful of the Guard Dogs (level 44). They are aggressive!",
+      "Can I buy one of your fishing rods?",
+      "Very fair, I'll buy that rod!",
+      "I'll enter the competition please.",
+      "I have this big fish. Is it enough to win?",
+      "Ranging Guild"
+    ],
+    "FORGETTABLE_TALE": [
+      "Yes please.",
+      "Very interested!",
+      "Yes.",
+      "Sounds like just the job for me!",
+      "I need to know about the Red Axe...",
+      "I'd like to buy a ticket.",
+      "To White Wolf Mountain.",
+      "Buy.",
+      "What if I offer you a drink?",
+      "Do you have any spare ale yeast?",
+      "That's a good deal - please fill my pot with ale yeast for 25GP.",
+      "Ask about closed off tunnel.",
+      "Can you help me with a boarded up tunnel?"
+    ],
+    "GARDEN_OF_TRANQUILLITY": [
+      "I would be happy to help someone who is so in touch with the people.",
+      "How am I supposed to move statues all the way here?",
+      "Queen Ellamaria has sent me to seek your guidance.",
+      "I have returned to you with the Ring of Charos.",
+      "Can I retake the diplomacy test?",
+      "Do you have any delphinium seeds to spare?",
+      "[Charm] That is why I have come to an expert for advice.",
+      "[Charm] Not just AN expert, Elstan - they say you are THE expert.",
+      "[Charm] Oh no, I love listening to gardening stories...",
+      "[Charm] Millions? Ah, just what I wanted to hear...",
+      "Okay, I'll grow you some marigolds.",
+      "I have those marigolds for you.",
+      "Do you have any orchid seeds to spare?",
+      "[Charm] If you tell me your problems, I may be able to help you.",
+      "[Charm] Yes, I was wondering about that.",
+      "[Charm] Times must be very hard for you.",
+      "[Charm] Whatever you've done, I'm sure you had just cause.",
+      "[Charm] And what is the nature of this fee that you pay?",
+      "[Charm] If not yours, then whose blood are you offering?",
+      "[Charm] How can you deal with so much guilt?",
+      "That's a deal - I'll grow a patch of onions for you.",
+      "Okay, I've grown those onions like you asked.",
+      "Do you have any snowdrop seeds to spare?",
+      "[Charm] You seem to be a little irritable, my friend.",
+      "[Charm] I don't like to see a fellow human being so upset.",
+      "[Charm] So what ails you, my friend?",
+      "[Charm] Well, is there anything I can do for you?",
+      "[Charm] So what can I do for you?",
+      "That's a deal - I'll let you know when your cabbages are ready.",
+      "Okay, I've grown those cabbages like you asked.",
+      "Do you know how I could grow a White Tree?",
+      "[Charm] I think that there is something that you are not telling me.",
+      "[Charm] A secret is a dreadful burden to have to keep to yourself.",
+      "[Charm] Unless you allow me to do this she will die anyway.",
+      "[Charm] These are the most beautiful rosebushes I've ever seen.",
+      "[Charm] But it is the only way that these vines will be cured.",
+      "I accept the deal.",
+      "I need to ask you about strong plant cures.",
+      "Ask King Roald to follow me.",
+      "[Charm] Of course, your majesty - please forgive me.",
+      "[Charm] The Queen asked me to bring you.",
+      "Would you like to follow me for a minute?"
+    ],
+    "GERTRUDES_CAT": [
+      "Yes.",
+      "What will make you tell me?",
+      "Okay then, I'll pay."
+    ],
+    "GETTING_AHEAD": [
+      "Need a hand with anything?",
+      "Yes.",
+      "Take some red dye.",
+      "Take the nails."
+    ],
+    "GHOSTS_AHOY": [
+      "Top half",
+      "Bottom half",
+      "Skull emblem",
+      "Is this your toy boat?",
+      "Why, what is the matter?",
+      "Yes, I do. It is a very sad story.",
+      "Yes.",
+      "I'm here about Necrovarus.",
+      "You are doing so much for me - is there anything I can do for you?",
+      "I am afraid I have lost the boat you gave to me.",
+      "Okay, wait here - I'll get you your bow.",
+      "Yes, I'll give you a game.",
+      "Do you have any jobs I can do?",
+      "Yes, I'd be delighted.",
+      "After hearing Velorina's story I will be happy to help out.",
+      "Let any ghost who so wishes pass on into the next world."
+    ],
+    "GOBLIN_DIPLOMACY": [
+      "Do you want me to pick an armour colour for you?",
+      "What about a different colour?",
+      "Yes.",
+      "So how is life for the goblins?",
+      "Yes, Wartface looks fat",
+      "I have some orange armour here.",
+      "I have some blue armour here.",
+      "I have some brown armour here."
+    ],
+    "GRIM_TALES": [
+      "Yes.",
+      "I heard you were a great and mighty Griffin!",
+      "There once was a graveyard filled with undead.",
+      "There lived a skeleton named Skullrot.",
+      "Skullrot was insane!",
+      "Skullrot hungrily grabbed the gnome's hair.",
+      "Started to strangle the poor gnome.",
+      "He saw some bones lying in the corner.",
+      "I could try and climb up.",
+      "Is there anything up there that can help?",
+      "I see there is an embarrassed-looking dwarf...",
+      "Your second-cousin, twice removed?",
+      "I need a key for the house.",
+      "I should be off, I think."
+    ],
+    "HAUNTED_MINE": [
+      "And what sort of purpose would that be?",
+      "Yes.",
+      "Is there any other way into the mines?",
+      "I come seeking challenges and quests.",
+      "I follow the path of Saradomin.",
+      "What quest is that then?",
+      "Take it."
+    ],
+    "HAZEEL_CULT": [
+      "What's wrong?",
+      "Yes.",
+      "Alright, I've made my decision.",
+      "Actually, I have no questions.",
+      "I have no more questions.",
+      "What do you mean?",
+      "Turn it to the right.",
+      "Turn it to the left."
+    ],
+    "HEROES_QUEST": [
+      "I'm a hero, may I apply to join?",
+      "I'll start looking for all those things then.",
+      "I want to find out how to catch a lava eel.",
+      "So... do you know anywhere good to explore?",
+      "Is there any way I can get the rank of master thief?",
+      "Four leaved clover.",
+      "So can you help me get Scarface Pete's candlesticks?",
+      "I volunteer to undertake that mission!",
+      "So what do my duties involve?",
+      "Anything I can do now?",
+      "He won't notice me having a quick look.",
+      "I have a candlestick now.",
+      "Do you sell Gherkins?",
+      "I'm looking for a gherkin...",
+      "I want to steal Scarface Pete's candlesticks."
+    ],
+    "HIS_FAITHFUL_SERVANTS": [
+      "Yeah I'm fearless!"
+    ],
+    "HOLY_GRAIL": [
+      "Tell me of this quest.",
+      "Yes.",
+      "Ask about the Holy Grail Quest",
+      "Ok, I will go searching.",
+      "I seek an item from the realm of the Fisher King.",
+      "I'd like to go to Brimhaven.",
+      "Any idea how to get into the castle?",
+      "You don't look too well.",
+      "Come with me, I shall make you a king."
+    ],
+    "HOPESPEARS_WILL": [
+      "Yes.",
+      "Why are you here?",
+      "I visited Yu'biusk.",
+      "It was a wasteland.",
+      "What favour?",
+      "Snothead.",
+      "Snailfeet.",
+      "Mosschin.",
+      "Redeyes.",
+      "Strongbones."
+    ],
+    "HORROR_FROM_THE_DEEP": [
+      "Yes",
+      "With what?",
+      "But how can I help?",
+      "Okay, I'll help!",
+      "Climb up",
+      "Climb down"
+    ],
+    "ICTHLARINS_LITTLE_HELPER": [
+      "Yes.",
+      "Why? What's your problem with it?",
+      "Ok I'll get your supplies.",
+      "Yes. I have them all here.",
+      "I need help.",
+      "Okay, that sounds fair.",
+      "9.",
+      "Totally positive.",
+      "Sure, no problem.",
+      "Alright, I'll get the wood for you."
+    ],
+    "IMP_CATCHER": [
+      "Up",
+      "Give me a quest please.",
+      "Yes."
+    ],
+    "IN_AID_OF_THE_MYREQUE": [
+      "Yes.",
+      "Are there any 'out of the way' places here?",
+      "I'd like to help fix up the town.",
+      "What should I do now?",
+      "Veliaf told me about Ivandis.",
+      "Is there somewhere that I might get more information on Ivandis?",
+      "The lives of those pitiful few left in Morytania could rest on this!"
+    ],
+    "IN_SEARCH_OF_KNOWLEDGE": [
+      "Who are you?"
+    ],
+    "IN_SEARCH_OF_THE_MYREQUE": [
+      "Yes.",
+      "I'd better be off.",
+      "Well, I guess they'll just die without weapons.",
+      "Resourceful enough to get their own steel weapons?",
+      "If you don't tell me, their deaths are on your head!",
+      "What kind of a man are you to say that you don't care?",
+      "Here are some planks for you.",
+      "Yes. I'll pay the ten gold.",
+      "I've come to help the Myreque. I've brought weapons.",
+      "Sani Piliu.",
+      "Ivan Strom.",
+      "Veliaf Hurtz.",
+      "Cyreg Paddlehorn.",
+      "Drakan.",
+      "Polmafi Ferdygris.",
+      "Let's talk about the weapons.",
+      "Okay, thanks."
+    ],
+    "JUNGLE_POTION": [
+      "Of course!",
+      "It's a nice village, where is everyone?",
+      "Me? How can I help?",
+      "It sounds like just the challenge for me.",
+      "Yes.",
+      "Yes, I'll enter the cave."
+    ],
+    "KINGS_RANSOM": [
+      "Yes.",
+      "How curious. Maybe I should investigate it.",
+      "I have proof that the Sinclairs have left.",
+      "I have proof that links the Sinclairs to Camelot.",
+      "I have proof of foul play.",
+      "Okay, I guess I don't have much of a choice.",
+      "Yes, I'm ready.",
+      "Dog handler",
+      "Previous page",
+      "Ask about the poison",
+      "Butler",
+      "Ask about the dagger",
+      "Maid",
+      "Next page",
+      "Ask about the night of the murder",
+      "Ask about the thread",
+      "What do we do now?",
+      "Chat."
+    ],
+    "LAND_OF_THE_GOBLINS": [
+      "Can you show me the way to the mines?",
+      "Yes.",
+      "Follow me.",
+      "So why have you come to talk to Zanik?",
+      "What was this new dream?",
+      "It's just a dream. It doesn't mean anything.",
+      "I think it must mean something.",
+      "I don't know.",
+      "I'm ready.",
+      "Can you turn me into a goblin?",
+      "I need to slip past some goblin guards.",
+      "Can you turn me into a goblin or not?",
+      "Me want get into temple.",
+      "I understand Big High War God.",
+      "Big High War God commands it.",
+      "Goblins not mighty warriors before he chose us.",
+      "That one of the commandments.",
+      "Lead goblins to victory over whole world.",
+      "Me want to know about Yu'biusk.",
+      "Where is Yu'biusk?",
+      "Can I talk to old high priests?",
+      "Draynor Village",
+      "Can you make dyes for me, please?",
+      "Can you make black or white dye?",
+      "Thanks.",
+      "Ranging Guild",
+      "I need to catch a Hemenster Whitefish.",
+      "Could you remove the dye from this goblin mail?",
+      "Snailfeet.",
+      "Mosschin.",
+      "Redeyes.",
+      "Strongbones.",
+      "What was your predecessor's name?",
+      "True.",
+      "False."
+    ],
+    "LEGENDS_QUEST": [
+      "Can I speak to someone in charge?",
+      "Can I go on the quest?",
+      "Yes, I'd like to talk to Grand Vizier Erkle.",
+      "Yes actually, what's involved?",
+      "Yes, it sounds great!",
+      "Yes.",
+      "Start Mapping Kharazi Jungle.",
+      "Go ahead, make a copy!",
+      "I was hoping to attract the attention of a Kharazi tribe member.",
+      "I've been sent by the Legends' Guild.",
+      "Can you get everyone together?",
+      "Is there any way I could help?",
+      "How do we make the totem pole?",
+      "I'll go find Ungadulu.",
+      "Yes, I'll crawl through. I'm very athletic.",
+      "How can I extinguish the flames?",
+      "Where do I get pure water from?",
+      "I need some pure water to douse some magic flames.",
+      "What kind of vessel?",
+      "Where is this sacred pool of yours?",
+      "Yes please, I love crevices!",
+      "Yes, I'm very strong, I'll force them open.",
+      "Investigate the outline of the door.",
+      "Yes, I'll go through!",
+      "Yes, I'll read it.",
+      "Yes, I'd like you to bless my gold bowl.",
+      "Yes please!",
+      "I need to collect some Yommi tree seeds for Gujuo.",
+      "How do I grow the Yommi tree?",
+      "What will you do now?",
+      "Ok, thanks...",
+      "The water pool has dried up, but I need more water.",
+      "Where's the source of the pure water?",
+      "Yes, I'll bravely drink the Bravery Potion.",
+      "Yes, I'll shimmy down the rope into possible doom.",
+      "I'm not scared. Let's go!",
+      "Yes, I can think of nothing more exciting!",
+      "Yes, I want to climb over the rocks.",
+      "Who's asking?",
+      "Yes, I need it for my quest.",
+      "What can I do about that?",
+      "I'll do what I must to get the water.",
+      "Ok, I'll do it.",
+      "Yes, I'll train now."
+    ],
+    "LOST_CITY": [
+      "What are you camped out here for?",
+      "What makes you think it's out here?",
+      "If it's hidden how are you planning to find it?",
+      "Looks like you don't know either.",
+      "Yes.",
+      "I've been in that shed, I didn't see a city.",
+      "Well that is a risk I will have to take."
+    ],
+    "LUNAR_DIPLOMACY": [
+      "Suppose I may as well have a go.",
+      "Yes.",
+      "You've been away from these parts a while?",
+      "Why did you leave?",
+      "Why not, I've always wondered what the state of my innards are!",
+      "Ask about a Seal of Passage.",
+      "Arrr! Yar! Let's be on our way, yar!",
+      "Go now.",
+      "Can we sail to Lunar Isle now?",
+      "Perhaps it's the Navigator's fault?",
+      "Rub away!",
+      "The Oneiromancer told me you may be able to help...",
+      "Pauline?",
+      "Jane Blud-Hagic-Maid",
+      "I'm looking for a ring.",
+      "You know the ceremonial clothes?",
+      "That seems like a fair deal.",
+      "Of course. I'm ready.",
+      "Ok, let's go!",
+      "Ok.",
+      "Yes"
+    ],
+    "MAGE_ARENA_I": [
+      "Can I fight here?",
+      "Yes indeedy.",
+      "Okay, let's fight."
+    ],
+    "MAGE_ARENA_II": [
+      "Are there any more challenges available?",
+      "Great, I've been waiting for an improvement!",
+      "Saradomin",
+      "Guthix",
+      "Zamorak",
+      "Yes."
+    ],
+    "MAKING_FRIENDS_WITH_MY_ARM": [
+      "Yes, I'll take your quest.",
+      "Why in the heck would you choose My Arm?",
+      "I'm doing another quest for Burntmeat.",
+      "Wolfbone said we should go by sea.",
+      "Can I transport My Arm in your boat?",
+      "Never mind, I just need to borrow your boat.",
+      "Travel to Weiss.",
+      "Take rope",
+      "Take pickaxe",
+      "You only need to let My Arm in, not me.",
+      "I'll be back!",
+      "Let's move on with the chat.",
+      "Tell him goutweed is delicious.",
+      "Tell him how tough Stronghold trolls are.",
+      "Tell him to show respect to his daughter.",
+      "Tell him you love his daughter!",
+      "Odd Mushroom, why are you here with us?",
+      "Does Mother respect anything except fighting?",
+      "I did some fishing and fetched some stuff.",
+      "Ask about My Arm.",
+      "Can you pretend you're dead?",
+      "You owe me a favour after the Fishing Colony quest.",
+      "Talk about Making Friends with My Arm.",
+      "I'll never leave you.",
+      "So I can't teleport, and I may lose stuff? Okay.",
+      "Okay, I'll be back."
+    ],
+    "MAKING_HISTORY": [
+      "The Outpost",
+      "Tell me more.",
+      "Ok, I'll make a stand for history!",
+      "Ask about the outpost.",
+      "I'm after important answers.",
+      "Why, you're the famous warrior Dron!",
+      "An iron mace",
+      "Breakfast",
+      "Lunch",
+      "Bunnies",
+      "Red",
+      "36",
+      "8",
+      "Fifth and Fourth",
+      "North East side of town",
+      "Blanin",
+      "Fluffy",
+      "12, but what does that have to do with anything?",
+      "Talk about the outpost."
+    ],
+    "MEAT_AND_GREET": [
+      "Yes.",
+      "I'm here about a missing delivery.",
+      "Could I have a look at that locked box?",
+      "About that missing delivery...",
+      "I think that's perfect!",
+      "Sounds good to me.",
+      "I think so.",
+      "Adjust meat (currently at one portion).",
+      "Adjust meat (currently at two portions).",
+      "Adjust meat (currently at three portions).",
+      "Adjust salad (currently at one portion).",
+      "Adjust salad (currently at three portions).",
+      "Adjust salad (currently at four portions).",
+      "Adjust spice (currently at two portions).",
+      "Adjust spice (currently at three portions).",
+      "Adjust spice (currently at four portions).",
+      "Adjust sauce (currently at one portion).",
+      "Adjust sauce (currently at two portions).",
+      "Adjust sauce (currently at four portions).",
+      "Okay, I'm ready."
+    ],
+    "MERLINS_CRYSTAL": [
+      "Yes.",
+      "I want to become a Knight of the Round Table!",
+      "Do you know how Merlin got trapped?",
+      "Any ideas on how to get into Morgan Le Faye's stronghold?",
+      "Thank you for the information.",
+      "Tell me how to untrap Merlin and I might.",
+      "Ok I will do all that.",
+      "Have you got any black candles?",
+      "I seek the sword Excalibur.",
+      "Yes certainly.",
+      "Yes, here you go.",
+      "Snarthon Candtrick Termanto"
+    ],
+    "MISTHALIN_MYSTERY": [
+      "Yes."
+    ],
+    "MONKEY_MADNESS_I": [
+      "Yes.",
+      "I've lost my copy of the Royal Seal...",
+      "Climb Up.",
+      "Leave...",
+      "Who is it?",
+      "Yes",
+      "Talk about the 10th squad...",
+      "I cannot convince Lumdo to take us to the island...",
+      "Yes, I'm sure.",
+      "What do we need for the monkey amulet?",
+      "I'll be back later.",
+      "Well I'll be a monkey's uncle!",
+      "How many bananas did Aunty want?",
+      "Ok, I promise!",
+      "I've lost that toy you gave me...",
+      "Wow - can I borrow it?",
+      "What do we need for the monkey talisman?",
+      "Can you make another monkey talisman?"
+    ],
+    "MONKEY_MADNESS_II": [
+      "I'll help you look for Glough.",
+      "Yes",
+      "Talk about Assistant Le Smith.",
+      "Thanks for the information.",
+      "King Narnode has sent me.",
+      "It's worth a shot.",
+      "I'm here to discuss military strategies.",
+      "Of course, my king.",
+      "Talk about your mission.",
+      "I know about your deal with the monkeys.",
+      "You won't be around to crush anyone when I'm done with you.",
+      "I accept your challenge.",
+      "I offer to spare your life.",
+      "I was going to ask you the same question.",
+      "Why is that?",
+      "Awowogei has already informed me about the battleships.",
+      "Where is the fleet, currently?",
+      "What's going on here?",
+      "Construction platform?",
+      "Can I visit the platform?",
+      "I would like to go back to the construction platform.",
+      "Talk about Monkey Madness II.",
+      "Yes.",
+      "Yes, let's go.",
+      "What's wrong?",
+      "He might be in trouble, I could help.",
+      "Could you translate these notes?"
+    ],
+    "MONKS_FRIEND": [
+      "Why can't you sleep, what's wrong?",
+      "Yes.",
+      "Is there anything else I can help with?",
+      "Who's Brother Cedric?",
+      "Where should I look?",
+      "Yes, I'd be happy to!"
+    ],
+    "MOUNTAIN_DAUGHTER": [
+      "Why is everyone so hostile?",
+      "So what are you doing up here?",
+      "I will search for her!",
+      "Hello! Who are you?",
+      "So what exactly do you want from me?",
+      "That sounds like something I can do.",
+      "I'll get right on it.",
+      "Yes.",
+      "About the people of Rellekka...",
+      "Can't I persuade you to go in there somehow?",
+      "Ask about the mountain camp.",
+      "Did it look pretty?",
+      "About your food supplies...",
+      "It's just me, no one special.",
+      "You mean a sacrifice?",
+      "You look like a man in a bearsuit!",
+      "Can I see that corpse?",
+      "I humbly request to be given the remains.",
+      "I will kill you myself!",
+      "But he's not a god!",
+      "I will.",
+      "Thank you. I will make sure she's given a proper burial now."
+    ],
+    "MOURNINGS_END_PART_I": [
+      "I'm ready now.",
+      "I'm ready.",
+      "Yes.",
+      "Okay, let's begin.",
+      "Steal the soap.",
+      "Do you mend clothes?",
+      "I have all I need to mend my trousers.",
+      "You talked about toad crunchies and being tickled."
+    ],
+    "MOURNINGS_END_PART_II": [
+      "Yes.",
+      "Pull the lever.",
+      "Pull it.",
+      "Take everything.",
+      "Okay sure thing, what do you need?",
+      "I've got some of them with me.",
+      "Yeah sure."
+    ],
+    "MURDER_MYSTERY": [
+      "Yes.",
+      "Yes, it might be useful.",
+      "Who do you think was responsible?",
+      "Who did you sell Poison to at the house?",
+      "Talk about the Murder Mystery Quest",
+      "I have this pot I found at the murder scene...",
+      "I know who did it!",
+      "Why'd you buy poison the other day?"
+    ],
+    "MY_ARMS_BIG_ADVENTURE": [
+      "What do you want now?",
+      "Alright, I'll lend him a hand.",
+      "This is My Arm. We'd like to go to Karamja.",
+      "A troll called My Arm wants a favour...",
+      "I was asking you about goutweed...",
+      "I was asking you about hardy goutweed..."
+    ],
+    "NATURE_SPIRIT": [
+      "Well, what is it, I may be able to help?",
+      "Yes.",
+      "How long have you been a ghost?",
+      "How can I help?",
+      "Could I have another bloom scroll please?",
+      "I think I've solved the puzzle!"
+    ],
+    "OBSERVATORY_QUEST": [
+      "Talk about the Observatory quest.",
+      "An Observatory?",
+      "Yes.",
+      "Aquarius",
+      "~ previous ~",
+      "Capricorn",
+      "Sagittarius",
+      "Scorpio",
+      "Libra",
+      "Virgo",
+      "Leo",
+      "Cancer",
+      "Gemini",
+      "Taurus",
+      "Aries",
+      "~ next ~",
+      "Pisces"
+    ],
+    "OLAFS_QUEST": [
+      "Yes.",
+      "Alright, here, have some food. Now give me the map."
+    ],
+    "ONE_SMALL_FAVOUR": [
+      "Is there anything else interesting to do around here?",
+      "Yes.",
+      "I need to talk to you about red mahogany.",
+      "Okay, I'll take your axe to get it sharpened.",
+      "Do you sharpen axes?",
+      "Ok, ok, I'll do it! I'll go and see Aggie.",
+      "Could I ask you about being a character witness?",
+      "Let me guess, you're going to ask me to do you a favour?",
+      "Oh, okay, I'll see if I can find Jimmy.",
+      "I'm looking for Jimmy the Chisel.",
+      "And I suppose you need me to do you a favour?",
+      "Ok, Jimmy has to be worth more than a few scrawny chickens!",
+      "I need to talk to you about Jimmy.",
+      "Oh, ok! I guess it's not that much further to Varrock!",
+      "Hi, I need to talk to you about chicken cages!",
+      "Ok, I guess one good turn deserves another.",
+      "Talk about One Small Favour.",
+      "Oh, ok, I guess it's not that far to the Barbarian Village.",
+      "I guess I can go to the Barbarian Village.",
+      "Ok, I'll deal with Hammerspike!",
+      "Have you always been a gangster?",
+      "Ok, another favour...I think I can manage that.",
+      "Are you taking any new initiates?",
+      "A dwarf I know wants to become an initiate.",
+      "Yep, it's a deal.",
+      "I have a special tea here for you from Sanfew!",
+      "How was that tea?",
+      "Ok, I'll go and get you some T.R.A.S.H.",
+      "I need to talk T.R.A.S.H. to you.",
+      "Yes, Ok, I'll do it!",
+      "Hi, can you give me a weather forecast?",
+      "What can I do to help?",
+      "Yes, Ok, I'll do it.",
+      "Chat.",
+      "I need to talk to you about a girl stuck in some rock!",
+      "Oh! Ok, one more 'small favour' isn't going to kill me...I hope!",
+      "Wizard Cromperty sent me to get some iron oxide.",
+      "Ask about iron oxide.",
+      "Okay, I'll do it!",
+      "I need to talk to you about a mattress.",
+      "Ok, I'll see what I can do.",
+      "Rantz said I should help you finish this project.",
+      "Yes, I'll take a look at them.",
+      "I've fixed all the lights!",
+      "Ok, I've helped that Gnome, he shouldn't bother you anymore.",
+      "I have the mattress.",
+      "I have that iron oxide you asked for!",
+      "I've released Petra, she should have returned.",
+      "I'll run you through if you don't give me that weather report.",
+      "Which special Seers tools do you mean?",
+      "What do you mean, 'special combination of items'?",
+      "I've fixed the weather vane!",
+      "What did you want me to do again?",
+      "I have the weather report for you.",
+      "Hey there, did you get your T.R.A.S.H?",
+      "Hi there, the Gnome Pilot has agreed to take you to see the ogres!",
+      "I have the tincture and the breathing salts.",
+      "I have the five pigeon cages you asked for!",
+      "You're in luck, I've managed to swing that chicken deal for you.",
+      "Good news! Jimmy has been released!",
+      "I've returned with good news.",
+      "Good news, I have your sharpened axe!",
+      "Here's the red mahogany you asked for."
+    ],
+    "PANDEMONIUM": [
+      "Yes please.",
+      "I'd like to go to the Pandemonium.",
+      "Yes.",
+      "Okay.",
+      "No, tell me about him.",
+      "Now's not really the time for tales.",
+      "About Will and Anne...",
+      "Do you have any idea where Will and Anne might have gone?",
+      "I think I might have lost a cup here."
+    ],
+    "PERILOUS_MOONS": [
+      "Yes.",
+      "Can I be of any help with the dig?",
+      "What does the inscription say?",
+      "What do we do now?",
+      "Actually, I've been sent by Attala.",
+      "I need your help with these talismans.",
+      "Can you help?",
+      "Take herblore supplies.",
+      "Take fishing supplies.",
+      "Take hunting supplies."
+    ],
+    "PIRATES_TREASURE": [
+      "I'm in search of treasure.",
+      "Yes.",
+      "Ok thanks, I'll go and get it.",
+      "Yes please.",
+      "Could you offer me employment on your plantation?",
+      "Will you pay me for another crate full?",
+      "Thank you, I'll be on my way",
+      "Can I journey on this ship?",
+      "Search away, I have nothing to hide.",
+      "Ok.",
+      "Search away. I have nothing to hide.",
+      "Okay.",
+      "Well, can I get a job here?"
+    ],
+    "PLAGUE_CITY": [
+      "What's happened to her?",
+      "Yes.",
+      "Yes, I'll return it for you.",
+      "I fear not a mere plague.",
+      "I want to check anyway.",
+      "I need permission to enter a plague house.",
+      "This is urgent though! Someone's been kidnapped!",
+      "This is really important though!",
+      "Do you know what's in the cure?",
+      "They won't listen to me!"
+    ],
+    "PRIEST_IN_PERIL": [
+      "I'm looking for a quest!",
+      "Yes.",
+      "I'll get going.",
+      "Roald sent me to check on Drezel.",
+      "Sure. I'm a helpful person!",
+      "About that job I'm doing...",
+      "So, what now?",
+      "Yes, of course."
+    ],
+    "PRINCE_ALI_RESCUE": [
+      "Is there anything I can help you with?",
+      "Yes.",
+      "Could you make other things apart from rope?",
+      "How about some sort of wig?",
+      "I have them here. Please make me a wig.",
+      "Can you make skin paste?",
+      "Yes please. Mix me some skin paste.",
+      "Heard of you? You're famous in Gielinor!",
+      "What's your latest plan then?",
+      "How do you know someone won't try to free him?",
+      "Could I see the key please?",
+      "Could I touch the key for a moment please?",
+      "I have some beer here. Fancy one?"
+    ],
+    "PRYING_TIMES": [
+      "Any word from Old Grog?",
+      "Yes.",
+      "About that job you wanted doing...",
+      "I delivered that cargo for you.",
+      "I need some help with a 'special key'.",
+      "So, can you help me make a crowbar?",
+      "Can you help me make another crowbar?",
+      "I made that 'special key' you needed.",
+      "About that crate..."
+    ],
+    "RAG_AND_BONE_MAN_I": [
+      "Anything I can do to help?",
+      "Yes."
+    ],
+    "RAG_AND_BONE_MAN_II": [
+      "Yes",
+      "So... do you know anywhere good to explore?",
+      "Yes please!"
+    ],
+    "RATCATCHERS": [
+      "Yes.",
+      "Follow the directions to the house.",
+      "Talk about something else.",
+      "Talk about the Ratcatchers Quest.",
+      "Yes",
+      "Be careful in there, cat!",
+      "I just don't think Felkrash was that impressive.",
+      "I want to talk to you about animal charming.",
+      "What if I offered you some money?",
+      "Forget about it. I don't care that much.",
+      "Walk away slowly",
+      "Stop"
+    ],
+    "RECIPE_FOR_DISASTER": [
+      "Protecting the Pirate",
+      "Where do I get Ground Cod?",
+      "Where do I get Ground Kelp?",
+      "Where do I get Ground Giant Crab Meat?",
+      "Where do I get Breadcrumbs?",
+      "Ask about helping the Lumbridge Guide.",
+      "Okay. Let's start!",
+      "Okay. I'm ready!",
+      "Quiz me!",
+      "Unferth",
+      "Gertrude",
+      "King Lathas",
+      "Pirate Pete",
+      "Islwyn",
+      "Hetty",
+      "Observatory Professor Gronigen",
+      "Ali Morrisane",
+      "Velorina",
+      "Reldo",
+      "Bandit camp",
+      "Flour, Eggs and milk",
+      "20",
+      "Sand, bucket, soda ash, glass blowing pipe",
+      "16",
+      "North to South",
+      "46",
+      "2",
+      "Keep Le Faye",
+      "Dark Wizards'",
+      "Catherby",
+      "Legends'",
+      "Trout",
+      "Mind Talisman",
+      "Guthix Prayer Book, Magic Logs, Pike",
+      "10",
+      "Three",
+      "Two",
+      "Do you know anything about the King's favourite dish?",
+      "Yes, I'm as hard as nails.",
+      "What can you tell me about dwarves and ale?",
+      "I could offer you some in return, how about 200 gold?",
+      "What did you eat at the secret council meeting?",
+      "You've got to tell me because the magic requires it!",
+      "I need your help...",
+      "What do you need? Maybe I can get it for you.",
+      "I've got the charcoal you were after.",
+      "I've got the ingredients we need...",
+      "Yes, I'm sure I can make a cake.",
+      "Wizards' Tower",
+      "Talk about Recipe for Disaster.",
+      "Yes, Let's go diving.",
+      "More...",
+      "Protecting Sir Amik Varze",
+      "Draynor Village",
+      "I'd just like to ask you something.",
+      "Strange beasts",
+      "The Evil Chicken",
+      "Please flambe this creme brulee for me.",
+      "Yes, I'm sure I can get some Jubbly Chompy.",
+      "Oh Ok then, I guess I'll talk to Rantz.",
+      "I'm trying to free Skrach, can you help?",
+      "Ok, I'll do it.",
+      "Ok, here I am...I guess this is the watery place? What now?",
+      "Ok, the boat's ready, now tell me how to get a Jubbly?",
+      "Yes please, I'll get a lift back with you.",
+      "Ok, now tell me how to get Jubbly!",
+      "Do you have any other quests for me?",
+      "Angry! It makes me angry!",
+      "I don't really care to be honest.",
+      "What seems to be the problem?",
+      "YES",
+      "About those ingredients you wanted for the banquet..."
+    ],
+    "RECRUITMENT_DRIVE": [
+      "Take both vials.",
+      "YES",
+      "Take all three vials",
+      "The wolves.",
+      "Bucket A (32 degrees)",
+      "The number of false statements here is three.",
+      "Zero.",
+      "Yes.",
+      "Yes, let's go!",
+      "Can I have the clue for the door?"
+    ],
+    "REGICIDE": [
+      "I assume you have a plan?",
+      "I can handle it.",
+      "Yes.",
+      "Your quest.",
+      "Previous options...",
+      "I need some quicklime.",
+      "I need some naphtha.",
+      "I need some sulphur.",
+      "More options...",
+      "I need a barrel.",
+      "I need a fuse."
+    ],
+    "ROMEO__JULIET": [
+      "Yes, I have seen her actually!",
+      "Yes, ok, I'll let her know.",
+      "Yes.",
+      "Ok, thanks.",
+      "Talk about something else.",
+      "Talk about Romeo & Juliet."
+    ],
+    "ROVING_ELVES": [
+      "Yes."
+    ],
+    "ROYAL_TROUBLE": [
+      "Yes.",
+      "Has anything been happening in the kingdom recently?",
+      "Very well, I'll sort it out.",
+      "Right away, your Majesty.",
+      "Of course, it's my duty.",
+      "King Vargas asked me to talk to you.",
+      "I'm looking for a sailor...",
+      "Of course. Dealing with monsters is what I do best!"
+    ],
+    "RUM_DEAL": [
+      "Yes.",
+      "Yes!",
+      "Of course, I fear no demon!",
+      "Nonsense! Keep the money!",
+      "I've decided to help you for free.",
+      "Okay!",
+      "What exactly do you want me to do?"
+    ],
+    "RUNE_MYSTERIES": [
+      "Have you any quests for me?",
+      "Yes.",
+      "Climb down the stairs.",
+      "I'm looking for the head wizard.",
+      "Okay, here you are.",
+      "Go ahead.",
+      "Actually, I'm not interested.",
+      "Yes, certainly.",
+      "I've been sent here with a package for you."
+    ],
+    "SCORPION_CATCHER": [
+      "What do you need assistance with?",
+      "Yes.",
+      "I need to locate some scorpions.",
+      "Your friend Thormac sent me to speak to you.",
+      "So... do you know anywhere good to explore?",
+      "Yes please!",
+      "Well can I join your order?"
+    ],
+    "SCRAMBLED": [
+      "Yes.",
+      "Of course!",
+      "Are you the king?",
+      "I can talk to the blacksmith.",
+      "Take the nails.",
+      "I see. Well, maybe I can help out with that?",
+      "I can get you some tea."
+    ],
+    "SEA_SLUG": [
+      "Yes.",
+      "Will you take me there?"
+    ],
+    "SECRETS_OF_THE_NORTH": [
+      "Why would the killer come here?",
+      "What is this ritual you keep talking about?",
+      "Yes.",
+      "I think that's everything.",
+      "I think I've gone over everything.",
+      "Do you know anyone called Evelot?",
+      "Enter the passage.",
+      "Okay, I'm done asking questions. What now?",
+      "I'm done asking questions. What now?",
+      "Have you seen anything odd around here recently?",
+      "The window was broken from the outside.",
+      "Ceril was stabbed from behind.",
+      "A hidden room above us was broken into."
+    ],
+    "SHADES_OF_MORTTON": [
+      "What are all these shadowy creatures?",
+      "Yes, I'll dispatch those dark and evil creatures.",
+      "Can you open a store for me?",
+      "Can I see the building store please?",
+      "Can I see the general store please?",
+      "What can you tell me about that temple?"
+    ],
+    "SHADOWS_OF_CUSTODIA": [
+      "Yes.",
+      "About the missing people..."
+    ],
+    "SHADOW_OF_THE_STORM": [
+      "That's me!",
+      "Yes.",
+      "Uzer",
+      "Reen sent me.",
+      "So what do you want me to do?",
+      "How can I do that?",
+      "I want to join your group.",
+      "I'm evil!",
+      "What do I have to do?",
+      "Do you have the demonic sigil mould?",
+      "Do you know what happened to Josef?",
+      "Did you see anything happen last night?",
+      "You've got to get back to the throne room!",
+      "Oh, don't be so simple-minded!"
+    ],
+    "SHEEP_HERDER": [
+      "What's wrong?",
+      "Yes.",
+      "Okay, I'll take it."
+    ],
+    "SHEEP_SHEARER": [
+      "I'm looking for a quest.",
+      "Yes, okay. I can do that.",
+      "Yes.",
+      "Climb down the stairs.",
+      "I need to talk to you about shearing these sheep!"
+    ],
+    "SHIELD_OF_ARRAV": [
+      "I'm in search of a quest.",
+      "Yes.",
+      "Okay, I've read that book about the Shield of Arrav.",
+      "Is there anything down this alleyway?",
+      "I'm looking for the Black Arm Gang.",
+      "Do you think they would let me join?",
+      "I've heard you're the Black Arm Gang.",
+      "I'd rather not reveal my sources.",
+      "I want to become a member of your gang.",
+      "Well, you can give me a try can't you?",
+      "Ok, no problem.",
+      "Can you tell me where I can find the Phoenix Gang?",
+      "Okay. Have 20 gold coins.",
+      "I know who you are!",
+      "I'd like to offer you my services."
+    ],
+    "SHILO_VILLAGE": [
+      "Why do I need to run?",
+      "Rashiliyia? Who is she?",
+      "I'll go to see the Shaman.",
+      "Yes, I'm sure and I'll take the Wampum belt to Trufitus.",
+      "What can we do?",
+      "Mosol gave me something to show you.",
+      "Mosol Rei said something about a legend?",
+      "Why was it called Ah Za Rhoon?",
+      "I am going to search for Ah Za Rhoon!",
+      "Yes.",
+      "Yes",
+      "Yes, I'll give it a go!",
+      "Yes, I'll wriggle through.",
+      "Yes, I'll carefully move the rocks to see what's behind them.",
+      "Yes, I may find something else on the corpse.",
+      "Is there any sacred ground around here?",
+      "Yes please.",
+      "Yes please, I can think of nothing nicer!"
+    ],
+    "SINS_OF_THE_FATHER": [
+      "Yes.",
+      "I'd better get going.",
+      "Do you know how he fell ill?",
+      "Where do you get your Bloody Bracers from?",
+      "Continue the Sins of the Father quest.",
+      "Fair enough, so what now?",
+      "I see. So that's why you want to keep him safe, Veliaf?",
+      "I'm ready.",
+      "Icyene Graveyard.",
+      "Meiyerditch.",
+      "Shall we get going then?",
+      "Let's go.",
+      "I'll be back soon.",
+      "Sure. Here you go.",
+      "Okay. I'll see you soon.",
+      "Here you go.",
+      "Slepe.",
+      "Let's do this.",
+      "I'll see you there.",
+      "Send me to the mines."
+    ],
+    "SKIPPY_AND_THE_MOGRES": [
+      "Throw the water!"
+    ],
+    "SLEEPING_GIANTS": [
+      "Yes."
+    ],
+    "SONG_OF_THE_ELVES": [
+      "Yes.",
+      "Take everything.",
+      "Pull the lever.",
+      "Pull it.",
+      "Climb down.",
+      "Climb up.",
+      "How do I get this disguise?",
+      "I need another tabard.",
+      "The thick clear liquid.",
+      "Climb through it.",
+      "It's not good, but it might be our only option.",
+      "It's all in a day's work.",
+      "I am.",
+      "I'm here to tell you about some new taxes.",
+      "Could you help me tell people about some new taxes?",
+      "Are you sure you're okay with this Elena?",
+      "I'm ready.",
+      "We're done here, take him away.",
+      "It is. I'm here for you if you need me though.",
+      "Go ahead.",
+      "I don't know.",
+      "Now's not the time for stories, Elena.",
+      "How do I find Lord Amlodd?",
+      "I have a seed from Baxtorian that I think needs enchanting.",
+      "How do I find Lady Trahaearn?",
+      "How do I find Lord Crwys?",
+      "How do I find Lady Hefin?",
+      "That's fair. Anyway, I wanted to ask you about Ysgawyn.",
+      "So what have you been discussing?",
+      "What's Lady Ithell's clue?",
+      "What's Lady Meilyr's clue?",
+      "Baxtorian said you had an idea to help our defence.",
+      "Yes please."
+    ],
+    "SPIRITS_OF_THE_ELID": [
+      "I am an adventurer in search of quests.",
+      "Any idea how you got this curse?",
+      "Yes.",
+      "Ok I will have a look around and see what I can do.",
+      "I am trying to find out the cause of this town's curse.",
+      "River spirits, what are they?",
+      "I come as an emissary from the people of Nardah.",
+      "Is there anything they can do to get their fountain working again?",
+      "I'm after a statue that was thrown down here.",
+      "Maybe I can make a deal for it?",
+      "Ok I agree to the deal."
+    ],
+    "SWAN_SONG": [
+      "What's the rush?",
+      "Do you need any help?",
+      "I'm a brave adventurer! Can I try?",
+      "Yes.",
+      "Draynor Village",
+      "You used to be a famous adventurer, didn't you?",
+      "I'm ready to fight.",
+      "I'll see what the necromancer needs me to do.",
+      "I need help with saving a fishing colony.",
+      "Swan Song.",
+      "I've spoken to the master crafter...",
+      "I've lost the army!",
+      "I'm ready. Let's fight!",
+      "No, I'm ready to move on with the quest."
+    ],
+    "TAI_BWO_WANNAI_TRIO": [
+      "I am a roving adventurer.",
+      "I am a travelling explorer.",
+      "I am a wandering wayfarer.",
+      "Who me? Oh I'm just a nobody.",
+      "Trufitus sent me.",
+      "Your gratitude is all I deserve.",
+      "Well, some gold would be nice.",
+      "So far??",
+      "Yes.",
+      "Talk about him...",
+      "What do you do?",
+      "I could help collect the bait.",
+      "You sound like you could do with the help.",
+      "What do you use to catch Karambwan?",
+      "Yes!",
+      "Actually, I've lost my Karambwan vessel.",
+      "... a shark ate it!",
+      "Yes",
+      "When will you succeed?",
+      "Take me on your next hunt for the Shaikahan.",
+      "Oh it was nothing really.",
+      "I'd rather have some gold please.",
+      "You know your sons have serious issues...",
+      "Eternal gratitude accepted."
+    ],
+    "TALE_OF_THE_RIGHTEOUS": [
+      "Do you need help with anything?",
+      "Yes.",
+      "What do you need?",
+      "Yes please!",
+      "I have a question about King Shayzien VII.",
+      "Yes please."
+    ],
+    "TEARS_OF_GUTHIX": [
+      "Okay..."
+    ],
+    "TEMPLE_OF_IKOV": [
+      "I'm a mighty hero!",
+      "That sounds like a laugh!",
+      "I seek the Staff of Armadyl.",
+      "Lucien will give me a grand reward for it!",
+      "You're right, it's time for my yearly bath.",
+      "Ok! I'll help!",
+      "Yes! Here it is."
+    ],
+    "TEMPLE_OF_THE_EYE": [
+      "What's a wizard doing in Al Kharid?",
+      "Yes.",
+      "I need your help with an amulet.",
+      "Could I have a strong cup of tea?",
+      "Could you help me with that amulet now?",
+      "Could you teleport me to the Abyss?",
+      "About that incantation...",
+      "I need your help with an incantation.",
+      "Can you help me with that incantation?",
+      "I need your apprentices to help with an incantation.",
+      "I think I know what a thingummywut is!",
+      "Down",
+      "Let's do it.",
+      "So we're ready to perform the incantation?"
+    ],
+    "THE_ASCENT_OF_ARCEUUS": [
+      "What can I do to help?",
+      "We should let someone know about this.",
+      "Yes.",
+      "Of course I'll help.",
+      "There's been a death in Arceuus.",
+      "What should we do now?"
+    ],
+    "THE_CORSAIR_CURSE": [
+      "What kind of help do you need?",
+      "Sure, I'll try to help with your curse.",
+      "Okay, I'm ready go to Corsair Cove.",
+      "Let's go.",
+      "I hear you've been cursed.",
+      "Arsen says he gave you a sacred ogre relic.",
+      "About that sacred ogre relic...",
+      "I've come to return what Arsen stole.",
+      "Search for the possessed doll and face the consequences.",
+      "I've ruled out all the Corsairs' theories...",
+      "So what do I do now?",
+      "I hear it happened straight after dinner.",
+      "I hear Ithoi cooked the meal you ate that night.",
+      "I bet I can prove you're well enough to get up.",
+      "I know you've faked the curse.",
+      "I hear you cooked the meal they ate before getting sick.",
+      "Maybe because the Captain's thinking of firing you.",
+      "I've seen Ithoi running around. He's not sick at all.",
+      "I'll be back.",
+      "I've killed Ithoi for poisoning your crew."
+    ],
+    "THE_CURSE_OF_ARRAV": [
+      "Yes.",
+      "Ready when you are."
+    ],
+    "THE_DEPTHS_OF_DESPAIR": [
+      "Anything I can help you with?",
+      "Yes."
+    ],
+    "THE_DIG_SITE": [
+      "Can I take an exam?",
+      "Yes.",
+      "Yes, I certainly am.",
+      "The study of the earth, its contents and history.",
+      "All that have passed the appropriate Earth Sciences exam.",
+      "Gloves and boots to be worn at all times; proper tools must be used.",
+      "I am ready for the next exam.",
+      "Samples taken in rough form; kept only in sealed containers.",
+      "Finds must be carefully handled, and gloves worn.",
+      "Always handle with care; strike cleanly on its cleaving point.",
+      "I am ready for the last exam...",
+      "Samples cleaned, and carried only in specimen jars.",
+      "Brush carefully and slowly using short strokes.",
+      "Handle bones very carefully and keep them away from other samples.",
+      "I lost the letter you gave me.",
+      "How could I move a large pile of rocks?"
+    ],
+    "THE_EYES_OF_GLOUPHRIE": [
+      "What's that cute creature wandering around?",
+      "Yes, that sounds fascinating...",
+      "Oh, yes I love a bit of History.",
+      "Yes.",
+      "I've had a look in the other room now.",
+      "Of course, I'd love to!",
+      "I've visited Hazelmere, he told me all sorts of interesting things.",
+      "I think I've fixed the machine now!",
+      "I can't work out what to do with these discs!",
+      "Phew! I've got that machine working now. What do I need to do now?"
+    ],
+    "THE_FEUD": [
+      "Are you really the greatest salesman in the world?",
+      "I'd like to help you, but...",
+      "Yes.",
+      "Okay.",
+      "Pollnivneach",
+      "Are those camels around the side for sale?",
+      "What price do you want for both of them?",
+      "Would 500 gold coins for the pair of them do?",
+      "Yes, of course, those bandits should be taught a lesson.",
+      "Yeah, I could do with a bit of advice.",
+      "No thanks I'm ok.",
+      "Would you sell me that bottle of special kebab sauce?",
+      "No thanks, I'm good."
+    ],
+    "THE_FINAL_DAWN": [
+      "Yes.",
+      "Final.",
+      "Dawn.",
+      "Enter the passage.",
+      "Force open the window.",
+      "Climb up.",
+      "Climb down.",
+      "I'll get searching.",
+      "Yes, let's go.",
+      "Beer.",
+      "More options...",
+      "Steamforge brew.",
+      "Previous options...",
+      "Dwarven stout.",
+      "Wizard's mind bomb.",
+      "Pull it.",
+      "Can you go to an altar for me?",
+      "East.",
+      "North.",
+      "North west."
+    ],
+    "THE_FORSAKEN_TOWER": [
+      "Take both.",
+      "5-gallon jug.",
+      "Yes.",
+      "I'm looking for a quest.",
+      "I'll get going.",
+      "I've been sent to help you.",
+      "Start the generator.",
+      "Let's talk about my quest."
+    ],
+    "THE_FREMENNIK_EXILES": [
+      "Ask for a quest.",
+      "Yes.",
+      "Ask about the investigation.",
+      "Ask about the Jormungand.",
+      "Where can I find a Fremennik Shield?",
+      "Where can I get Lunar Glass?",
+      "How do I make the Polishing Rock?",
+      "How do I make V's Sigil?",
+      "I was wondering if you could help me make Lunar Glass?",
+      "Ask about V's Sigil.",
+      "It's for the good of the Province!"
+    ],
+    "THE_FREMENNIK_ISLES": [
+      "Can you ferry me to Jatizso?",
+      "Can you ferry me to Rellekka?",
+      "Free stuff please.",
+      "I am ready.",
+      "Take the jester's hat.",
+      "Take the jester's top.",
+      "Take the jester's tights.",
+      "Take the jester's boots.",
+      "Yes I have.",
+      "They will be ready in two days.",
+      "Seventeen militia have been trained.",
+      "There are two bridges to repair.",
+      "But rules are rules. Pay up!",
+      "But, rules are rules. Pay up!",
+      "Yes, I am.",
+      "They are in a secluded bay, near Etceteria.",
+      "They will be given some potions.",
+      "I have been helping Neitiznot."
+    ],
+    "THE_FREMENNIK_TRIALS": [
+      "Solve the riddle",
+      "Ask about anything else.",
+      "Do you have any quests?",
+      "Yes, I am interested.",
+      "I want to become a Fremennik!",
+      "Ask about becoming a Fremennik",
+      "Yes",
+      "Other human?",
+      "Talk about the Fremennik Trials",
+      "What's a Draugen?",
+      "Ask about the Merchant's trial",
+      "Read the riddle"
+    ],
+    "THE_GARDEN_OF_DEATH": [
+      "Yes.",
+      "Molch Island",
+      "Molch"
+    ],
+    "THE_GENERALS_SHADOW": [
+      "I just have one of those faces.",
+      "I'm a very trustworthy person.",
+      "Bribe",
+      "Here's the money.",
+      "Yes"
+    ],
+    "THE_GIANT_DWARF": [
+      "That's a deal!",
+      "Yes, I'm ready and don't mind it taking a few minutes.",
+      "Yes.",
+      "Yes, I will do this.",
+      "Yes, I'm looking for some special clothes.",
+      "Do you know anything about King Alvis' clothes?",
+      "Yes, about those special clothes again...",
+      "I'll pay.",
+      "Yes, I'm looking for a pair of special boots.",
+      "Yes, I'm looking for a particular battleaxe.",
+      "Blasidar the sculptor needs it for his statue.",
+      "Perhaps I can repair the axe?",
+      "Can you help me find an Imcando dwarf?",
+      "Ask about Imcando dwarves.",
+      "Something else.",
+      "Would you like a redberry pie?",
+      "Return to Keldagrim immediately.",
+      "Can you help me with this ancient axe?",
+      "Can you repair that axe now?",
+      "Is there anything I can help you with?",
+      "I'll take it.",
+      "Do you have another task for me?",
+      "Do you have any more tasks for me?",
+      "I'd like to officially join your company.",
+      "Blasidar the sculptor has sent me.",
+      "I would support you.",
+      "Yes! Long live the Blue Opal!",
+      "I'm ready."
+    ],
+    "THE_GOLEM": [
+      "Yes.",
+      "Eagle's Eyrie",
+      "I found a letter in the desert with your name on.",
+      "I'm looking for a statuette recovered from the city of Uzer."
+    ],
+    "THE_GRAND_TREE": [
+      "You seem worried, what's up?",
+      "I'd be happy to help!",
+      "I think so!",
+      "A man came to me with the King's seal.",
+      "I gave the man Daconia rocks.",
+      "And Daconia rocks will kill the tree!",
+      "Climb Up.",
+      "Climb Down.",
+      "Take me to Karamja please!",
+      "Glough sent me.",
+      "Ka.",
+      "Lu.",
+      "Min.",
+      "Sadly his wife is no longer with us!",
+      "He loves worm holes.",
+      "Anita.",
+      "I suppose so."
+    ],
+    "THE_GREAT_BRAIN_ROBBERY": [
+      "Yes.",
+      "Yes, please.",
+      "Monastery",
+      "Talk about the meat shipment",
+      "Wooden cat"
+    ],
+    "THE_HAND_IN_THE_SAND": [
+      "Eww a hand, in the sand! Why haven't you told the authorities?",
+      "Sure, I'll give you a hand.",
+      "Yes.",
+      "I have a rather sandy problem that I'd like to palm off on you.",
+      "Can you help me more?",
+      "Yes, that would be great!",
+      "Talk to Betty about the Hand in the Sand.",
+      "Why is Bert's rota different from the original?",
+      "Why doesn't Bert remember the change in his hours?",
+      "What happened to the wizard?"
+    ],
+    "THE_HEART_OF_DARKNESS": [
+      "Yes.",
+      "I'd like to rent the basement room.",
+      "I'll take it.",
+      "I hear you can offer help to those in need.",
+      "Could you remind me what Ximoua is?",
+      "Makt.",
+      "Takam.",
+      "Silam.",
+      "Thanks! Could you translate another?",
+      "About that passphrase...",
+      "Yes! I'm ready.",
+      "Proceed to the next trial.",
+      "Interrogate Tenoch.",
+      "Tell me about the Final Dawn.",
+      "Interrogate Silia.",
+      "Interrogate Adrius.",
+      "Interrogate Eleuia.",
+      "Choose Tenoch.",
+      "Choose Silia.",
+      "Choose Eleuia."
+    ],
+    "THE_IDES_OF_MILK": [
+      "Yes.",
+      "Can you share what makes your cows so productive?"
+    ],
+    "THE_KNIGHTS_SWORD": [
+      "And how is life as a squire?",
+      "I can make a new sword if you like...",
+      "So would these dwarves make another one?",
+      "Yes.",
+      "What do you know about the Imcando dwarves?",
+      "Would you like a redberry pie?",
+      "Can you make a special sword for me?",
+      "About that sword...",
+      "Can you make that replacement sword now?"
+    ],
+    "THE_LOST_TRIBE": [
+      "Climb down the stairs.",
+      "Can you show me the way out of the mines?",
+      "Do you have any quests for me?",
+      "Yes.",
+      "Do you know what happened in the cellar?",
+      "Do you know what happened in the castle cellar?",
+      "Hans says he saw something in the cellar",
+      "Bob says he saw something in the cellar",
+      "Father Aereck says he saw something in the cellar",
+      "The cook says he saw something in the cellar",
+      "I dug through the rubble...",
+      "Have you ever heard of the Dorgeshuun?",
+      "It doesn't really matter",
+      "Well either way they refused to fight",
+      "Well I found a brooch underground...",
+      "Well why not show me both greetings?",
+      "I've made contact with the cave goblins...",
+      "I found the missing silverware in the HAM cave!",
+      "Can you show me the way to the mines?",
+      "What was I doing again?"
+    ],
+    "THE_PATH_OF_GLOUPHRIE": [
+      "Yes.",
+      "Castle Wars Arena.",
+      "Climb Down.",
+      "I need your help finding a certain gnome.",
+      "I need your help with a device."
+    ],
+    "THE_QUEEN_OF_THIEVES": [
+      "I'm looking for a quest.",
+      "What are you investigating?",
+      "Yes.",
+      "Okay.",
+      "Nope, sounds good to me.",
+      "Let's talk about my quest."
+    ],
+    "THE_RED_REEF": [
+      "Yes.",
+      "Climb up.",
+      "Climb down.",
+      "Let's go.",
+      "Actually, I'd like to disembark."
+    ],
+    "THE_RESTLESS_GHOST": [
+      "I'm looking for a quest!",
+      "Yes.",
+      "Father Aereck sent me to talk to you.",
+      "He's got a ghost haunting his graveyard.",
+      "Yep, now tell me what the problem is.",
+      "Yep, clever aren't I?.",
+      "Yes, ok. Do you know WHY you're a ghost?",
+      "Yes, ok. Do you know why you're a ghost?"
+    ],
+    "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE": [
+      "Yes."
+    ],
+    "THE_SLUG_MENACE": [
+      "Do you have any jobs for me yet?",
+      "Who are the important people in Witchaven?",
+      "Nothing at the moment thanks.",
+      "That's enough for now.",
+      "I'm just looking around.",
+      "Translations",
+      "Slug Menace."
+    ],
+    "THE_TOURIST_TRAP": [
+      "What's the matter?",
+      "Is there a reward if I get her back?",
+      "I'll look for your daughter.",
+      "Okay Irena, calm down. I'll get your daughter back for you.",
+      "Yes, I'll go on this quest!",
+      "Wow! A real captain!",
+      "I'd love to work for a tough guy like you!",
+      "Can't I do something for a strong Captain like you?",
+      "Sorry Sir, I don't think I can do that.",
+      "It's a funny captain who can't fight his own battles!",
+      "I've just arrived.",
+      "Okay, you caught me out.",
+      "Oh yes, that sounds interesting.",
+      "What's that then?",
+      "I can try to undo them for you.",
+      "It's funny you should say that...",
+      "Yeah, okay, let's give it a go.",
+      "Yes, I'll trade.",
+      "I'd like to mine in a different area.",
+      "Yes sir, you're quite right sir.",
+      "Yes sir, we understand each other perfectly.",
+      "I am looking for a pineapple.",
+      "Yes, I'm interested.",
+      "I wanted to have a chat?",
+      "You seem to have a lot of books!",
+      "So, you're interested in sailing?",
+      "I could tell by the cut of your jib.",
+      "Yes, I'm very interested.",
+      "Yes, I'm kind of curious.",
+      "Yes. I'd like to try.",
+      "Yeah, cool!",
+      "Yes, of course.",
+      "Yes please.",
+      "I said you were very gregarious!",
+      "Nice cart.",
+      "One wagon wheel says to the other, 'I'll see you around'.",
+      "'One good turn deserves another'",
+      "Fired... no, shot perhaps!",
+      "In for a penny in for a pound.",
+      "Well, you see, it's like this...",
+      "Prison riot in ten minutes, get your cart out of here!",
+      "You can't leave me here, I'll get killed!",
+      "Yes, I'll get on."
+    ],
+    "THRONE_OF_MISCELLANIA": [
+      "Yes, please.",
+      "Yes.",
+      "If I may be so bold...",
+      "Archery is a noble art!",
+      "He's been very helpful.",
+      "Hahahaha!",
+      "What happened next?",
+      "That sounds like a good idea.",
+      "I'm quite fond of it myself.",
+      "It's a lovely little country.",
+      "I suppose you don't have much opportunity to.",
+      "And what a great bard he makes!",
+      "Yes",
+      "Be still, my heart.",
+      "You will be the greatest bard!",
+      "They don't understand your poetry as I do.",
+      "A much nobler pursuit, to be sure.",
+      "How inspiring!",
+      "How poetic.",
+      "I'm glad to hear it.",
+      "I wouldn't presume to have the skill...",
+      "That was lovely. I'm touched!",
+      "Climb down the stairs.",
+      "How do I make peace with Etceteria?",
+      "I have a slightly strange request..."
+    ],
+    "TOWER_OF_LIFE": [
+      "Sure, why not.",
+      "With the aid of 5 fire runes.",
+      "With the help of the magical dragonstones!",
+      "Runecraft, enchant jewellery, perform alchemy.",
+      "Turn them into bananas or peaches!",
+      "Depends where you are headed, but teleport spells are a safe bet.",
+      "Yes, you can make magic potions to boost your skills.",
+      "By harnessing the power of the gods!",
+      "Yep, you can use the Telekinetic Grab spell.",
+      "Through the power of alchemy.",
+      "You have special powers - no surprise seeing how you were created.",
+      "How about Magic and Runecrafting?",
+      "Can't see why not, anything is possible.",
+      "Your very existense speaks of mystical forces.",
+      "Magic.",
+      "Yes",
+      "Three",
+      "Torn curtains",
+      "10 clay pieces",
+      "Tea",
+      "Whistle for attention",
+      "Your legs are getting a bit cold",
+      "Carry on, it'll fix itself"
+    ],
+    "TREE_GNOME_VILLAGE": [
+      "Can I help at all?",
+      "I would be glad to help.",
+      "Yes.",
+      "Ok, I'll gather some wood.",
+      "I'll try my best.",
+      "0001",
+      "0002",
+      "0003",
+      "0004",
+      "Yes please.",
+      "I will find the warlord and bring back the orbs."
+    ],
+    "TRIBAL_TOTEM": [
+      "I'm in search of adventure!",
+      "Ok, I will get it back.",
+      "Yes.",
+      "So, when are you going to deliver this crate?",
+      "Chat.",
+      "So what have you invented?",
+      "Can I be teleported please?",
+      "Yes, that sounds good. Teleport me!"
+    ],
+    "TROLL_ROMANCE": [
+      "Awww, you poor troll. What seems to be the problem?",
+      "Don't worry now, I'll see what I can do.",
+      "So... how's your... um... love life?",
+      "Do you know where I can find Trollweiss?",
+      "What would I need to make such a sled?",
+      "Talk about a quest.",
+      "I need a sled!!",
+      "No.",
+      "I am here to kill you!"
+    ],
+    "TROLL_STRONGHOLD": [
+      "How goes your fight with the trolls?",
+      "Is there anything I can do to help?",
+      "I'll get Godric back!",
+      "Can I buy some Climbing boots?",
+      "OK, sounds good.",
+      "I accept your challenge!",
+      "I'll be going now."
+    ],
+    "TROUBLED_TORTUGANS": [
+      "Yes."
+    ],
+    "TWILIGHTS_PROMISE": [
+      "Let's do it!",
+      "Yes.",
+      "I'm meant to be meeting Prince Itzla here.",
+      "I'd better head down there.",
+      "I'm ready. Let's do this.",
+      "I was told to ask you about getting to the Teomat."
+    ],
+    "UNDERGROUND_PASS": [
+      "I am. What's our plan?",
+      "I'm ready.",
+      "Yes.",
+      "I'll take my chances.",
+      "Yes, I'll give it a go.",
+      "What happened to them?"
+    ],
+    "VALE_TOTEMS": [
+      "Yes."
+    ],
+    "VAMPYRE_SLAYER": [
+      "Yes.",
+      "Morgan needs your help!",
+      "A glass of your finest ale please.",
+      "Yes. Here you go."
+    ],
+    "WANTED": [
+      "Do you have any jobs for me yet?",
+      "Yes, I'm interested.",
+      "How will all that help?",
+      "No, not right now...",
+      "Sure, I'll help you!",
+      "Buy One",
+      "YES",
+      "Have One Made",
+      "NO",
+      "Current Assignment",
+      "Solus Dellagar"
+    ],
+    "WATCHTOWER": [
+      "Cur.",
+      "Gor.",
+      "Tanath.",
+      "Bidith.",
+      "What's the matter?",
+      "So how come the spell doesn't work?",
+      "Can I be of help?",
+      "What do you suggest I do?",
+      "So what do I do?",
+      "I seek entrance to the city of ogres.",
+      "Don't eat me; I can help you.",
+      "I could do something for you...",
+      "But I am a friend to ogres...",
+      "Okay, I'll pay it.",
+      "I seek passage into the skavid caves.",
+      "Okay, okay, I'm not going to hurt you.",
+      "I'll be fine without a tinderbox.",
+      "Ar.",
+      "Ig.",
+      "Nod."
+    ],
+    "WATERFALL_QUEST": [
+      "Yes."
+    ],
+    "WHAT_LIES_BELOW": [
+      "Yes.",
+      "Shall I get them back for you?",
+      "Of course! Tell me what you need me to do.",
+      "Go on, then!",
+      "Go on then!",
+      "I have the things you wanted!",
+      "Yes! I have a letter for you.",
+      "Rat Burgiss sent me!",
+      "Bring it on!"
+    ],
+    "WHILE_GUTHIX_SLEEPS": [
+      "1kg weight.",
+      "2kg weight.",
+      "5kg weight.",
+      "Remove the weights from the statue.",
+      "Yes.",
+      "Would 500 coins change your mind?",
+      "Do you think you could help me with broavs?",
+      "A creature to help track down a person.",
+      "Do you think you could train this broav for me?",
+      "Pull the lever.",
+      "Could I have that seed?",
+      "Sounds good to me.",
+      "Could you teleport me to Port Sarim?",
+      "Could you help me make some enriched snapdragon?",
+      "About that enriched snapdragon...",
+      "Sounds good.",
+      "I need to talk to you about Lucien.",
+      "Let's go.",
+      "I'm ready.",
+      "Tears of Guthix.",
+      "Travel into the chasm."
+    ],
+    "WITCHS_HOUSE": [
+      "What's the matter?",
+      "Ok, I'll see what I can do.",
+      "Yes."
+    ],
+    "WITCHS_POTION": [
+      "I am in search of a quest.",
+      "Yes."
+    ],
+    "X_MARKS_THE_SPOT": [
+      "I'm looking for a quest.",
+      "Sounds good, what should I do?",
+      "Can I help?",
+      "Yes.",
+      "Okay, thanks Veos."
+    ],
+    "ZOGRE_FLESH_EATERS": [
+      "Can I help in any way?",
+      "Ok, I'll check things out then and report back.",
+      "Yes, I'm really sure!",
+      "Yes, I want to help you out and find out about the zogres.",
+      "I'm here about the sicks...err Zogres",
+      "Do you mind if I look around?",
+      "I have some items that I'd like you to look at.",
+      "How do I remove the effects of the spell from the area?",
+      "How do I get rid of the undead ogres?",
+      "How do I get rid of the disease?",
+      "I found who's responsible for the Zogres being here.",
+      "There must be an easier way to kill these zogres!",
+      "Sorry, I have to go.",
+      "Yeah, I have them here!"
+    ]
+  },
+  "byNpc": {
+    "100 rantz": [
+      "Ok, here I am...I guess this is the watery place? What now?",
+      "Ok, the boat's ready, now tell me how to get a Jubbly?",
+      "Yes please, I'll get a lift back with you.",
+      "Ok, now tell me how to get Jubbly!"
+    ],
+    "achietties": [
+      "I'm a hero, may I apply to join?",
+      "I'll start looking for all those things then."
+    ],
+    "aemad": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "aggie": [
+      "Draynor Village",
+      "Can you make dyes for me, please?",
+      "Can you make black or white dye?",
+      "Thanks.",
+      "Could you remove the dye from this goblin mail?"
+    ],
+    "aggie 1op": [
+      "Could I ask you about being a character witness?",
+      "Let me guess, you're going to ask me to do you a favour?",
+      "Oh, okay, I'll see if I can find Jimmy.",
+      "Good news! Jimmy has been released!",
+      "Can you make skin paste?",
+      "Yes please. Mix me some skin paste."
+    ],
+    "agility pyramid simon": [
+      "Yes, show me the money."
+    ],
+    "agilityarena tickettrader 2ops": [
+      "I have a question about my Achievement Diary."
+    ],
+    "agrith badden": [
+      "Uzer",
+      "Reen sent me.",
+      "So what do you want me to do?",
+      "How can I do that?"
+    ],
+    "agrith dave": [
+      "I want to join your group.",
+      "I'm evil!",
+      "You've got to get back to the throne room!"
+    ],
+    "agrith denath": [
+      "What do I have to do?"
+    ],
+    "agrith jennifer": [
+      "Do you have the demonic sigil mould?"
+    ],
+    "agrith matthew": [
+      "Do you know what happened to Josef?",
+      "Yes."
+    ],
+    "agrith reen": [
+      "That's me!",
+      "Yes.",
+      "Oh, don't be so simple-minded!"
+    ],
+    "ahoy akharanu": [
+      "Okay, wait here - I'll get you your bow."
+    ],
+    "ahoy crone": [
+      "I'm here about the farmers east of here.",
+      "I'm here about Necrovarus.",
+      "You are doing so much for me - is there anything I can do for you?",
+      "I am afraid I have lost the boat you gave to me."
+    ],
+    "ahoy ghost innkeeper": [
+      "Do you have any jobs I can do?",
+      "Yes, I'd be delighted."
+    ],
+    "ahoy ghost protestor": [
+      "After hearing Velorina's story I will be happy to help out."
+    ],
+    "ahoy necrovarus": [
+      "Let any ghost who so wishes pass on into the next world."
+    ],
+    "ahoy oldman": [
+      "Is this your toy boat?"
+    ],
+    "ahoy robin": [
+      "Yes, I'll give you a game."
+    ],
+    "ahoy velorina": [
+      "Why, what is the matter?",
+      "Yes, I do. It is a very sad story.",
+      "Yes."
+    ],
+    "akd lydia fullore vis": [
+      "Let's get going.",
+      "'History and Hearsay' - Shayzien",
+      "I need some help with Lady Lovakengj.",
+      "Let's do this."
+    ],
+    "akd martin holt vis": [
+      "Wintertodt Camp.",
+      "'The Fisher's Flute' - Piscarilius"
+    ],
+    "akd martin holt vis protest": [
+      "Yes."
+    ],
+    "akd trobin arceuus vis": [
+      "'History and Hearsay' - Shayzien"
+    ],
+    "al shabim": [
+      "I am looking for a pineapple.",
+      "Yes, I'm interested.",
+      "Yes, I'm very interested.",
+      "Yes, I'm kind of curious."
+    ],
+    "alec kincade": [
+      "How can I gain access to the guild?",
+      "Yes.",
+      "Let's talk about my quest."
+    ],
+    "alfonse the waiter": [
+      "Do you sell Gherkins?"
+    ],
+    "almera waterfall quest": [
+      "Yes."
+    ],
+    "alrena": [
+      "Yes.",
+      "I need another tabard."
+    ],
+    "aluft gianne": [
+      "Okay then I'll give it a go."
+    ],
+    "aluft gnome delivery controller": [
+      "Yes, tell me more.",
+      "I'm ready to take a job on now.",
+      "I need your help finding a certain gnome."
+    ],
+    "anma assistant": [
+      "I would be happy to make your home a better place.",
+      "I need your help with a key piece."
+    ],
+    "anma ghost farmer": [
+      "Okay, you need it more than I do, I suppose."
+    ],
+    "anma ghost farmer amulet": [
+      "Could I buy those chickens now, then?",
+      "Could I buy 2 chickens?"
+    ],
+    "apothecary": [
+      "Can you make potions for me?",
+      "Talk about A Tail of Two Cats.",
+      "Talk about something else.",
+      "Talk about Bone Voyage.",
+      "Talk about Making Friends with My Arm.",
+      "Talk about One Small Favour.",
+      "Oh, ok, I guess it's not that far to the Barbarian Village.",
+      "I guess I can go to the Barbarian Village.",
+      "Talk about the Ratcatchers Quest.",
+      "Talk about Romeo & Juliet."
+    ],
+    "arceuus darkguardian": [
+      "Can I try the magicks myself?"
+    ],
+    "arceuus generalstore": [
+      "Can I ask you about Arceuus?",
+      "What is there to do in Arceuus?"
+    ],
+    "arceuus soulguardian": [
+      "I've been reading your book...",
+      "Yes please."
+    ],
+    "archaeological expert": [
+      "Ask about the Desert Treasure quest."
+    ],
+    "arcquest mori visible": [
+      "What can I do to help?",
+      "We should let someone know about this.",
+      "Yes.",
+      "Of course I'll help.",
+      "What should we do now?"
+    ],
+    "ardy twopints diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "arenamage1": [
+      "Can I fight here?",
+      "Yes indeedy.",
+      "Okay, let's fight.",
+      "Are there any more challenges available?",
+      "Great, I've been waiting for an improvement!",
+      "Yes."
+    ],
+    "arhein": [
+      "What's with the duck?",
+      "Yes.",
+      "I need to find the Mayor of Catherby.",
+      "About the mayor...",
+      "The by-law has been changed!",
+      "About that duck...",
+      "I've charted the currents!",
+      "I need to talk T.R.A.S.H. to you.",
+      "Yes, Ok, I'll do it!",
+      "What did you want me to do again?",
+      "I have the weather report for you."
+    ],
+    "aris": [
+      "The Demon Slayer Quest",
+      "Yes.",
+      "Ok, here you go.",
+      "Okay, where is he? I'll kill him for you!",
+      "So how did Wally kill Delrith?"
+    ],
+    "auburn bartender": [
+      "About the missing people..."
+    ],
+    "auburn general store": [
+      "About the missing people..."
+    ],
+    "aubury 2op": [
+      "I've been sent here with a package for you."
+    ],
+    "aubury 3op": [
+      "Can you teleport me to the Rune Essence Mine?"
+    ],
+    "avan fitzharmon avan 2ops": [
+      "Family Pest"
+    ],
+    "avan fitzharmon man": [
+      "I'm looking for a man named Avan Fitzharmon."
+    ],
+    "baker merchant ardougne": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "baker merchant ardougne2": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "ballboy": [
+      "What's the matter?",
+      "Ok, I'll see what I can do.",
+      "Yes."
+    ],
+    "baraek": [
+      "Can you tell me where I can find the Phoenix Gang?",
+      "Okay. Have 20 gold coins."
+    ],
+    "barbguard1 precrawl": [
+      "I want to come through this gate.",
+      "Looks can be deceiving, I am in fact a barbarian."
+    ],
+    "bcs maisa vis": [
+      "Let's go."
+    ],
+    "bernald": [
+      "[Charm] But it is the only way that these vines will be cured.",
+      "I accept the deal."
+    ],
+    "betty": [
+      "Talk to Betty about the Hand in the Sand.",
+      "Could you help me make some enriched snapdragon?"
+    ],
+    "bim atlas": [
+      "Yes."
+    ],
+    "bim burntof": [
+      "Rock."
+    ],
+    "bim willow": [
+      "Yes."
+    ],
+    "blandebir": [
+      "Do you have any spare ale yeast?",
+      "That's a good deal - please fill my pot with ale yeast for 25GP."
+    ],
+    "blast furnace instructor": [
+      "What?",
+      "Can I use the furnace to smelt ore?",
+      "I have level 60!"
+    ],
+    "bluemoon bartender": [
+      "I'm doing Alfred Grimhand's Barcrawl.",
+      "A glass of your finest ale please."
+    ],
+    "bob": [
+      "Do you know what happened in the castle cellar?"
+    ],
+    "bonzo": [
+      "I'll enter the competition please.",
+      "I have this big fish. Is it enough to win?"
+    ],
+    "boot the dwarf": [
+      "Hello. I'm in search of very high quality gold."
+    ],
+    "boulder legends": [
+      "Yes, I can think of nothing more exciting!",
+      "Yes, I want to climb over the rocks."
+    ],
+    "brain brother tranquility human": [
+      "Yes, please."
+    ],
+    "brain brother tranquility zombie": [
+      "Yes.",
+      "Yes, please."
+    ],
+    "bravek": [
+      "This is really important though!",
+      "Do you know what's in the cure?",
+      "They won't listen to me!"
+    ],
+    "brian": [
+      "Do you sharpen axes?",
+      "Ok, ok, I'll do it! I'll go and see Aggie.",
+      "I've returned with good news."
+    ],
+    "brimstail": [
+      "What's that cute creature wandering around?",
+      "Yes, that sounds fascinating...",
+      "Oh, yes I love a bit of History.",
+      "Yes.",
+      "I've had a look in the other room now.",
+      "Of course, I'd love to!",
+      "I've visited Hazelmere, he told me all sorts of interesting things.",
+      "I think I've fixed the machine now!",
+      "I can't work out what to do with these discs!",
+      "Phew! I've got that machine working now. What do I need to do now?"
+    ],
+    "brother althric": [
+      "[Charm] These are the most beautiful rosebushes I've ever seen."
+    ],
+    "brother cedric": [
+      "Yes, I'd be happy to!"
+    ],
+    "brother galahad": [
+      "Do you get lonely here on your own?",
+      "I seek an item from the realm of the Fisher King."
+    ],
+    "brother kojo": [
+      "Yes."
+    ],
+    "brother omad": [
+      "Why can't you sleep, what's wrong?",
+      "Yes.",
+      "Is there anything else I can help with?",
+      "Who's Brother Cedric?",
+      "Where should I look?"
+    ],
+    "brut otto": [
+      "You think so?",
+      "What can I learn about the use of a fishing rod?",
+      "I've fished with a barbarian rod!",
+      "Please teach me of your cunning with harpoons.",
+      "Barbarian Outpost.",
+      "I've fished with my hands!",
+      "I'm ready for your firemaking wisdom. Please instruct me.",
+      "I've set fire to logs with a bow!",
+      "I have completed firemaking with a bow. What follows this?",
+      "I've created a pyre ship!",
+      "How can I use my strength in the ways of agriculture?",
+      "I've planted seeds with my fists!",
+      "Are there any other fist related farming activities I can learn?",
+      "I've smashed a pot whilst farming!",
+      "Tell me more about the use of spears.",
+      "I've created a spear!",
+      "I've created a hasta!",
+      "What was that secret knowledge of herblore we talked of?",
+      "I've made a barbarian potion!"
+    ],
+    "burgh general store owner": [
+      "I'd like to help fix up the town.",
+      "What should I do now?"
+    ],
+    "burgh potential bank teller": [
+      "What should I do now?"
+    ],
+    "burgh vilager rat 2": [
+      "Are there any 'out of the way' places here?",
+      "What should I do now?"
+    ],
+    "cabin boy herbert pisc vis": [
+      "Can you take me somewhere?",
+      "Travel to Land's End.",
+      "'The Fisher's Flute' - Piscarilius",
+      "I'm looking for a councillor."
+    ],
+    "caleb fitzharmon 1op": [
+      "Are you Caleb Fitzharmon?",
+      "So can I have your bit?",
+      "Ok, I will get those.",
+      "Uh.. what happened to the rest of the crest?"
+    ],
+    "caleb fitzharmon 2ops": [
+      "Family Pest"
+    ],
+    "cam torum shop blacksmith": [
+      "I need your help with these talismans.",
+      "Can you help?"
+    ],
+    "cam torum shop magic": [
+      "Actually, I've been sent by Attala."
+    ],
+    "camzodaal ramarno entrance": [
+      "I need your help with a shield.",
+      "Have you seen any archeologists around here?"
+    ],
+    "candle maker": [
+      "Have you got any black candles?"
+    ],
+    "capt siad": [
+      "I wanted to have a chat?",
+      "You seem to have a lot of books!",
+      "So, you're interested in sailing?",
+      "I could tell by the cut of your jib."
+    ],
+    "captain rovin": [
+      "Yes I know, but this is important.",
+      "There's a demon who wants to invade this city.",
+      "Yes, very.",
+      "It's not them who are going to fight the demon, it's me.",
+      "Sir Prysin said you would give me the key.",
+      "Why did he give you one of the keys then?"
+    ],
+    "captain shanks": [
+      "Yes, I'll buy a ticket for the ship.",
+      "Khazard Port please."
+    ],
+    "caroline": [
+      "Yes."
+    ],
+    "caveguide vis": [
+      "I'll take my chances."
+    ],
+    "chadwell": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "charlie the cook": [
+      "I'm looking for a gherkin...",
+      "I want to steal Scarface Pete's candlesticks."
+    ],
+    "chemist": [
+      "Your quest."
+    ],
+    "city guard": [
+      "I seek passage into the skavid caves."
+    ],
+    "clerk": [
+      "I need permission to enter a plague house.",
+      "This is urgent though! Someone's been kidnapped!"
+    ],
+    "clivet hazeel cultist vis": [
+      "Alright, I've made my decision.",
+      "Actually, I have no questions.",
+      "I have no more questions.",
+      "What do you mean?"
+    ],
+    "commander montai": [
+      "Ok, I'll gather some wood.",
+      "I'll try my best."
+    ],
+    "con contractor varrock 1op": [
+      "What kind of favour do you want me to do?",
+      "Tell me more about the job.",
+      "Tell me where he lives, and I'll do the job.",
+      "Yeah, what have you got for me?"
+    ],
+    "contact maisa": [
+      "Draynor Village.",
+      "Leela."
+    ],
+    "contact market craft": [
+      "What's this special item?",
+      "Yes.",
+      "About that special item..."
+    ],
+    "contact osman desert multi": [
+      "I know of a secret entrance to the north."
+    ],
+    "contact osman multi": [
+      "I want to talk to you about Sophanem.",
+      "It could drive a wedge between the Menaphite cities."
+    ],
+    "cook": [
+      "What's wrong?",
+      "Can I help?",
+      "Yes.",
+      "Protecting the Pirate",
+      "Where do I get Ground Cod?",
+      "Where do I get Ground Kelp?",
+      "Where do I get Ground Giant Crab Meat?",
+      "Where do I get Breadcrumbs?",
+      "More...",
+      "Protecting Sir Amik Varze",
+      "Do you have any other quests for me?",
+      "Angry! It makes me angry!",
+      "I don't really care to be honest.",
+      "What seems to be the problem?",
+      "YES",
+      "About those ingredients you wanted for the banquet...",
+      "Do you know what happened in the castle cellar?"
+    ],
+    "corsair captain 1op": [
+      "What kind of help do you need?",
+      "Sure, I'll try to help with your curse.",
+      "Okay, I'm ready go to Corsair Cove."
+    ],
+    "corsair captain 2ops": [
+      "Let's go.",
+      "Arsen says he gave you a sacred ogre relic.",
+      "About that sacred ogre relic...",
+      "I've ruled out all the Corsairs' theories...",
+      "So what do I do now?",
+      "I've seen Ithoi running around. He's not sick at all.",
+      "I've killed Ithoi for poisoning your crew."
+    ],
+    "corscurs cabinboy": [
+      "I hear you've been cursed."
+    ],
+    "corscurs cook": [
+      "I hear you've been cursed.",
+      "I hear it happened straight after dinner."
+    ],
+    "corscurs navigator": [
+      "I hear you've been cursed.",
+      "I bet I can prove you're well enough to get up.",
+      "I know you've faked the curse.",
+      "I hear you cooked the meal they ate before getting sick.",
+      "Maybe because the Captain's thinking of firing you."
+    ],
+    "corscurs thief": [
+      "I hear you've been cursed.",
+      "I hear Ithoi cooked the meal you ate that night."
+    ],
+    "councillor halgrive vis": [
+      "What's wrong?",
+      "Yes."
+    ],
+    "count check": [
+      "Where can I learn more about security?",
+      "Yes"
+    ],
+    "cowboss farmer": [
+      "Yes."
+    ],
+    "cromperty pre diary": [
+      "Can you teleport me to the Rune Essence Mine?",
+      "Chat.",
+      "I need to talk to you about a girl stuck in some rock!",
+      "Oh! Ok, one more 'small favour' isn't going to kill me...I hope!",
+      "I have that iron oxide you asked for!",
+      "So what have you invented?",
+      "Can I be teleported please?",
+      "Yes, that sounds good. Teleport me!"
+    ],
+    "curator": [
+      "Have you any interesting news?",
+      "Sign me up!",
+      "Yes.",
+      "I need your help with the zombie invasion.",
+      "I'm looking for Xerna's Diadem.",
+      "I found Xerna's Diadem...",
+      "I'm looking for a statuette recovered from the city of Uzer."
+    ],
+    "current affairs councillor": [
+      "Yes, I have it here."
+    ],
+    "customs officer": [
+      "Thank you, I'll be on my way",
+      "Can I journey on this ship?",
+      "Search away, I have nothing to hide.",
+      "Ok.",
+      "Search away. I have nothing to hide.",
+      "Okay."
+    ],
+    "daddyshome daddy": [
+      "Skip Yarlo's lecture. He'll offer it later if you like."
+    ],
+    "dallas jones": [
+      "Yes I know it well.",
+      "Ask about the island.",
+      "So how do we know which island to go to?",
+      "Let's talk about the investigation.",
+      "Let's do it!",
+      "I'm ready."
+    ],
+    "dantaera": [
+      "Do you know how I could grow a White Tree?",
+      "[Charm] I think that there is something that you are not telling me.",
+      "[Charm] A secret is a dreadful burden to have to keep to yourself.",
+      "[Charm] Unless you allow me to do this she will die anyway."
+    ],
+    "deadmans bartender": [
+      "I'm doing Alfred Grimhand's Barcrawl."
+    ],
+    "deal pete": [
+      "Okay!",
+      "Yes.",
+      "Yes!",
+      "Of course, I fear no demon!",
+      "Nonsense! Keep the money!",
+      "I've decided to help you for free."
+    ],
+    "death growncat black child": [
+      "I'm ready."
+    ],
+    "death guard equiproom": [
+      "You're the guard that was on duty last night?",
+      "Can I buy you a drink?",
+      "Would you like to gamble?"
+    ],
+    "death headservant": [
+      "I'm looking for the guard that was on last night."
+    ],
+    "death hermit": [
+      "Do you know of another way up Death Plateau?"
+    ],
+    "death ig commander": [
+      "Do you have any quests for me?",
+      "Yes.",
+      "How goes your fight with the trolls?",
+      "Is there anything I can do to help?",
+      "I'll get Godric back!"
+    ],
+    "death sherpa": [
+      "OK, I'll get those for you.",
+      "Can I buy some Climbing boots?",
+      "OK, sounds good.",
+      "Do you know where I can find Trollweiss?",
+      "What would I need to make such a sled?"
+    ],
+    "death smithy": [
+      "Talk about a quest.",
+      "I need a sled!!",
+      "No."
+    ],
+    "desertminingcaptain": [
+      "Wow! A real captain!",
+      "I'd love to work for a tough guy like you!",
+      "Can't I do something for a strong Captain like you?",
+      "Sorry Sir, I don't think I can do that.",
+      "It's a funny captain who can't fight his own battles!"
+    ],
+    "devious monk hooded visable": [
+      "Sure thing, what do you need?",
+      "Yep, got it right here for you."
+    ],
+    "digworkman1": [
+      "I lost the letter you gave me."
+    ],
+    "digworkman2": [
+      "How could I move a large pile of rocks?"
+    ],
+    "dimintheis": [
+      "Have you got any quests for me?",
+      "Oh come on, however menial, I want to help!",
+      "Family Pest",
+      "Yes",
+      "Other",
+      "I need your help with the zombie invasion.",
+      "Why would a nobleman live in a dump like this?",
+      "So where is this crest?",
+      "Ok, I will help you."
+    ],
+    "doctor orbon": [
+      "Okay, I'll take it.",
+      "I'm here to tell you about some new taxes."
+    ],
+    "doric": [
+      "I wanted to use your anvils.",
+      "Yes.",
+      "Yes, I will get you the materials."
+    ],
+    "doti adala mask inside": [
+      "Accuse Adala."
+    ],
+    "doti constantinius": [
+      "No."
+    ],
+    "doti cozyac": [
+      "No."
+    ],
+    "doti headbutler core": [
+      "Yes.",
+      "I am."
+    ],
+    "doti patzi core": [
+      "Yes."
+    ],
+    "doti pavo": [
+      "No."
+    ],
+    "doti stradius": [
+      "I think I've found everything there is to find so far. What now?",
+      "I'm ready.",
+      "Naiatli.",
+      "Previous options..."
+    ],
+    "doti xocotla": [
+      "No."
+    ],
+    "dr harlow": [
+      "Morgan needs your help!",
+      "Yes. Here you go."
+    ],
+    "dragon bartender": [
+      "I'm doing Alfred Grimhand's Barcrawl."
+    ],
+    "dream birds eye jack": [
+      "Cyrisus in the mine"
+    ],
+    "dream cyrisus": [
+      "Talk about the Armament",
+      "You're looking better now.",
+      "Well, you look and sound more lively.",
+      "Are you looking forward to getting out?",
+      "That's the spirit!",
+      "You seem like a nice guy.",
+      "Just being honest.",
+      "When we get out of here I'll buy you a drink!",
+      "Whatever and wherever you want - my treat.",
+      "I'm very impressed you managed to get into this cave.",
+      "I would have given up personally.",
+      "You'll survive this easily.",
+      "Think of all the places you can visit when you get out!",
+      "Just don't worry.",
+      "Of course.",
+      "What are you going to do when you get out of here?",
+      "That's up to you. You could travel with me!",
+      "It's a good thing you have me to look after you.",
+      "Not that I'm bragging or anything.",
+      "Not long now and you'll be back on your feet!",
+      "On whether you mind me helping you further.",
+      "You're sounding much better.",
+      "If you need anything, just let me know.",
+      "It's quite cosy in here.",
+      "The perfect environment for getting back on your feet!",
+      "You're very safe in this little cave.",
+      "The suqah will never fit through that tunnel.",
+      "Tell me a bit about yourself.",
+      "Fishing!",
+      "Yes, let's go!"
+    ],
+    "dream cyrisus barely conscious": [
+      "You're looking better now.",
+      "Well, you look and sound more lively.",
+      "Are you looking forward to getting out?",
+      "That's the spirit!",
+      "You seem like a nice guy.",
+      "Just being honest.",
+      "When we get out of here I'll buy you a drink!",
+      "Whatever and wherever you want - my treat.",
+      "I'm very impressed you managed to get into this cave.",
+      "I would have given up personally.",
+      "You'll survive this easily.",
+      "Think of all the places you can visit when you get out!",
+      "Just don't worry.",
+      "Of course.",
+      "What are you going to do when you get out of here?",
+      "That's up to you. You could travel with me!",
+      "It's a good thing you have me to look after you.",
+      "Not that I'm bragging or anything.",
+      "Not long now and you'll be back on your feet!",
+      "On whether you mind me helping you further.",
+      "You're sounding much better.",
+      "If you need anything, just let me know.",
+      "It's quite cosy in here.",
+      "The perfect environment for getting back on your feet!",
+      "You're very safe in this little cave.",
+      "The suqah will never fit through that tunnel.",
+      "Tell me a bit about yourself.",
+      "Fishing!"
+    ],
+    "dream cyrisus sitting": [
+      "You're looking better now.",
+      "Well, you look and sound more lively.",
+      "Are you looking forward to getting out?",
+      "That's the spirit!",
+      "You seem like a nice guy.",
+      "Just being honest.",
+      "When we get out of here I'll buy you a drink!",
+      "Whatever and wherever you want - my treat.",
+      "I'm very impressed you managed to get into this cave.",
+      "I would have given up personally.",
+      "You'll survive this easily.",
+      "Think of all the places you can visit when you get out!",
+      "Just don't worry.",
+      "Of course.",
+      "What are you going to do when you get out of here?",
+      "That's up to you. You could travel with me!",
+      "It's a good thing you have me to look after you.",
+      "Not that I'm bragging or anything.",
+      "Not long now and you'll be back on your feet!",
+      "On whether you mind me helping you further.",
+      "You're sounding much better.",
+      "If you need anything, just let me know.",
+      "It's quite cosy in here.",
+      "The perfect environment for getting back on your feet!",
+      "You're very safe in this little cave.",
+      "The suqah will never fit through that tunnel.",
+      "Tell me a bit about yourself.",
+      "Fishing!"
+    ],
+    "dream cyrisus unconscious": [
+      "Yes."
+    ],
+    "dt2 banikan vis": [
+      "Any thoughts on Vardorvis?",
+      "Any thoughts on Perseriya?",
+      "Any thoughts on Whisperer?"
+    ],
+    "dt2 catalytic guardian 1op": [
+      "Yes."
+    ],
+    "dttd zanik follower": [
+      "Have you seen enough of Lumbridge yet?",
+      "Yes please!"
+    ],
+    "dttd zanik follower ham": [
+      "Now!",
+      "Wait here."
+    ],
+    "duke of lumbridge": [
+      "I seek a shield that will protect me from dragonbreath.",
+      "Elvarg, the dragon of Crandor island!",
+      "Yes",
+      "So, are you going to give me the shield or not?",
+      "Have you any quests for me?",
+      "Yes.",
+      "I dug through the rubble..."
+    ],
+    "dwarf city black guard leader": [
+      "Very interested!",
+      "Yes.",
+      "Sounds like just the job for me!",
+      "Yes, I will do this.",
+      "I'm ready."
+    ],
+    "dwarf city boatman mines postquest": [
+      "Yes, please take me."
+    ],
+    "dwarf city boatman mines prequest": [
+      "That's a deal!",
+      "Yes, I'm ready and don't mind it taking a few minutes.",
+      "Yes."
+    ],
+    "dwarf city director blue opal": [
+      "Do you have any more tasks for me?",
+      "I'll take it.",
+      "I'd like to officially join your company.",
+      "Blasidar the sculptor has sent me.",
+      "I would support you.",
+      "Yes! Long live the Blue Opal!"
+    ],
+    "dwarf city director brown engine": [
+      "Can you help me with a boarded up tunnel?"
+    ],
+    "dwarf city drunken dwarf": [
+      "I need to know about the Red Axe..."
+    ],
+    "dwarf city librarian": [
+      "Do you know anything about King Alvis' clothes?",
+      "Can you help me find an Imcando dwarf?"
+    ],
+    "dwarf city secretary blue opal": [
+      "Is there anything I can help you with?",
+      "I'll take it.",
+      "Do you have another task for me?"
+    ],
+    "dwarf city shop armour": [
+      "Yes, I'm looking for a pair of special boots."
+    ],
+    "dwarf city shop cloth poor": [
+      "Yes, I'm looking for some special clothes.",
+      "Yes, about those special clothes again...",
+      "I'll pay."
+    ],
+    "dwarf city shop sculpture": [
+      "Yes, I will do this."
+    ],
+    "dwarf city shop sculpture model": [
+      "Return to Keldagrim immediately."
+    ],
+    "dwarf city shop weapons": [
+      "Yes, I'm looking for a particular battleaxe.",
+      "Blasidar the sculptor needs it for his statue.",
+      "Perhaps I can repair the axe?"
+    ],
+    "dwarf city train conductor4": [
+      "I'd like to buy a ticket.",
+      "To White Wolf Mountain.",
+      "Buy."
+    ],
+    "dwarf city train conductor6": [
+      "I'd like to buy a ticket.",
+      "Buy."
+    ],
+    "dwarf city train conductor8": [
+      "Ask about closed off tunnel."
+    ],
+    "dwarfrock dondakan": [
+      "Why are you firing a cannon at a wall?",
+      "So why were you trying to get through the rock again?",
+      "Sounds interesting!",
+      "Yes.",
+      "Yes, I'm sure this will crack open the rock.",
+      "So you want to... fire me into the rock?",
+      "I can't argue with that, shoot me in!",
+      "You may fire when ready!",
+      "Ready as I'll ever be."
+    ],
+    "dwarfrock dondakan noaxe": [
+      "Can you shoot me into the rock again?"
+    ],
+    "dwarfrock engineer2": [
+      "No, I've had enough of buying drinks for people!",
+      "What if I offer you a drink?"
+    ],
+    "dwarfrock ferryman1": [
+      "Yes please."
+    ],
+    "dwarfrock rolad": [
+      "I'll be back later."
+    ],
+    "eadgar druid washing": [
+      "Sanfew won't be happy..."
+    ],
+    "eadgar troll chief cook": [
+      "So, where can I get some goutweed?",
+      "Yes, I'll take your quest.",
+      "Why in the heck would you choose My Arm?",
+      "What do you want now?"
+    ],
+    "eadgar zoo keeper aviary": [
+      "No thanks, Eadgar.",
+      "What do you feed them?",
+      "When did you add it?"
+    ],
+    "eaglepeak nickolaus normal": [
+      "Well I was originally sent to find you because of a ferret.",
+      "That sounds good to me."
+    ],
+    "eaglepeak nickolaus shout": [
+      "The Ardougne zookeeper sent me to find you.",
+      "Well if you gave me a ferret I could take it back for you.",
+      "Could I help at all?"
+    ],
+    "eaglepeak uber kebbit": [
+      "Taunt the kebbit."
+    ],
+    "eaglepeak zookeeper charlie": [
+      "Ah, you sound like someone who needs a quest doing!",
+      "Sure.  Any idea where I should start looking?",
+      "Yes."
+    ],
+    "echned zekin": [
+      "Who's asking?",
+      "Yes, I need it for my quest.",
+      "What can I do about that?",
+      "I'll do what I must to get the water.",
+      "Ok, I'll do it."
+    ],
+    "edmond": [
+      "What's happened to her?",
+      "Yes."
+    ],
+    "edmond top": [
+      "Yes.",
+      "How do I get this disguise?"
+    ],
+    "elemental wizard boss": [
+      "I need help with fighting a Tanglefoot.",
+      "I was asking you about fighting a Tanglefoot...",
+      "I need help with saving a fishing colony.",
+      "I've spoken to the master crafter..."
+    ],
+    "elena basement": [
+      "It's not good, but it might be our only option.",
+      "It's all in a day's work.",
+      "I am."
+    ],
+    "elena2 vis": [
+      "Yes."
+    ],
+    "elias white vis": [
+      "Yes.",
+      "Ready when you are."
+    ],
+    "elid genie": [
+      "I'm after a statue that was thrown down here.",
+      "Maybe I can make a deal for it?",
+      "Ok I agree to the deal."
+    ],
+    "elid ghaslor": [
+      "I am trying to find out the cause of this town's curse.",
+      "River spirits, what are they?"
+    ],
+    "elid herbalist": [
+      "Please clean all my herbs."
+    ],
+    "elid mayor": [
+      "I am an adventurer in search of quests.",
+      "Any idea how you got this curse?",
+      "Yes.",
+      "Ok I will have a look around and see what I can do."
+    ],
+    "elid waterspirit": [
+      "I come as an emissary from the people of Nardah.",
+      "Is there anything they can do to get their fountain working again?"
+    ],
+    "elise kourend kebos diary": [
+      "I have a question about my Achievement Diary"
+    ],
+    "elkoy 2ops": [
+      "Yes please."
+    ],
+    "elstan": [
+      "Are you a member of the Group of Advanced Gardeners?",
+      "Do you have any delphinium seeds to spare?",
+      "[Charm] That is why I have come to an expert for advice.",
+      "[Charm] Not just AN expert, Elstan - they say you are THE expert.",
+      "[Charm] Oh no, I love listening to gardening stories...",
+      "[Charm] Millions? Ah, just what I wanted to hear...",
+      "Okay, I'll grow you some marigolds.",
+      "I have those marigolds for you."
+    ],
+    "enakh lazim": [
+      "Yes.",
+      "Of course!",
+      "Okay, I'll get on with it.",
+      "Yes, I have more stone.",
+      "Here's a large 10 kg block.",
+      "Here's a medium 5 kg block.",
+      "Here's a small 2 kg block.",
+      "Here's a tiny 1 kg block.",
+      "I'll do it right away!",
+      "Do you know where the statue's head is?"
+    ],
+    "ent totems intro ranulph": [
+      "Yes."
+    ],
+    "examiner": [
+      "Can I take an exam?",
+      "Yes.",
+      "Yes, I certainly am.",
+      "The study of the earth, its contents and history.",
+      "All that have passed the appropriate Earth Sciences exam.",
+      "Gloves and boots to be worn at all times; proper tools must be used.",
+      "I am ready for the next exam.",
+      "Samples taken in rough form; kept only in sealed containers.",
+      "Finds must be carefully handled, and gloves worn.",
+      "Always handle with care; strike cleanly on its cleaving point.",
+      "I am ready for the last exam...",
+      "Samples cleaned, and carried only in specimen jars.",
+      "Brush carefully and slowly using short strokes.",
+      "Handle bones very carefully and keep them away from other samples."
+    ],
+    "fai varrock bluemoon chef": [
+      "I was wondering if you'd be able to make me a Steak sandwich?"
+    ],
+    "fairy godfather2": [
+      "Where's the Fairy Queen?",
+      "Where is the Fairy Queen?",
+      "Where could she have been taken to?",
+      "Yes, okay."
+    ],
+    "farming gardener calquat": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener calquat 2": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener calquat 3": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener farmguild t2": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener farmguild t3": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener fruit 1": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener fruit 2": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener fruit 4": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener fruit 7": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener fruit tree 5": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener hardwood tree 5": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener tree 1": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes.",
+      "I need to ask you about strong plant cures."
+    ],
+    "farming gardener tree 2": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener tree 3 02": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener tree 4": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener tree 7": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming gardener tree gnome": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "farming shopkeeper 1": [
+      "What are you selling?",
+      "Talk about the bounty."
+    ],
+    "farming shopkeeper 4": [
+      "I'm here about a quest."
+    ],
+    "father aereck": [
+      "I'm looking for a quest!",
+      "Yes."
+    ],
+    "father lawrence": [
+      "Ok, thanks."
+    ],
+    "father urhney": [
+      "Father Aereck sent me to talk to you.",
+      "He's got a ghost haunting his graveyard."
+    ],
+    "favour hammerspike stoutbeard": [
+      "Have you always been a gangster?",
+      "Ok, another favour...I think I can manage that."
+    ],
+    "favour johanhus ulsbrecht": [
+      "Are you planning to do anything about the cave goblins?",
+      "I'm looking for Jimmy the Chisel.",
+      "And I suppose you need me to do you a favour?",
+      "Ok, Jimmy has to be worth more than a few scrawny chickens!",
+      "You're in luck, I've managed to swing that chicken deal for you."
+    ],
+    "favour phantuwti farsight": [
+      "Hi, can you give me a weather forecast?",
+      "What can I do to help?",
+      "Yes, Ok, I'll do it.",
+      "I've released Petra, she should have returned.",
+      "I'll run you through if you don't give me that weather report.",
+      "Which special Seers tools do you mean?",
+      "What do you mean, 'special combination of items'?",
+      "I've fixed the weather vane!"
+    ],
+    "favour seth groats": [
+      "Oh, ok! I guess it's not that much further to Varrock!"
+    ],
+    "favour tassie slipcast": [
+      "Ok, I'll deal with Hammerspike!"
+    ],
+    "fd elder village": [
+      "Tell me of The four diamonds of Azzanadra",
+      "Yes"
+    ],
+    "fenk fenkenstrain model": [
+      "Yes.",
+      "Braindead",
+      "Grave-digging",
+      "I have some body parts for you."
+    ],
+    "fenk gardener": [
+      "What happened to your head?",
+      "Do you know where the key to the shed is?"
+    ],
+    "feud ali m": [
+      "Are you really the greatest salesman in the world?",
+      "I'd like to help you, but...",
+      "Yes.",
+      "Okay."
+    ],
+    "feud ali the barman": [
+      "No thanks I'm ok."
+    ],
+    "feud ali the discount camel seller": [
+      "Are those camels around the side for sale?",
+      "What price do you want for both of them?",
+      "Would 500 gold coins for the pair of them do?"
+    ],
+    "feud egyptian minder": [
+      "Yes, of course, those bandits should be taught a lesson.",
+      "Yeah, I could do with a bit of advice."
+    ],
+    "feud kebabman": [
+      "Would you sell me that bottle of special kebab sauce?",
+      "No thanks, I'm good."
+    ],
+    "fever teach": [
+      "Yes.",
+      "Yes, I've always wanted to be a pirate!",
+      "Yes, I am a woman of my word.",
+      "Yes, I am a man of my word.",
+      "Let's go Cap'n!"
+    ],
+    "filliman tarlock spirit": [
+      "How long have you been a ghost?",
+      "How can I help?",
+      "I think I've solved the puzzle!"
+    ],
+    "fisher king": [
+      "You don't look too well."
+    ],
+    "fishing npc angler": [
+      "Could I have a go with your bird?"
+    ],
+    "flyinghorse bartender": [
+      "I'm doing Alfred Grimhand's Barcrawl."
+    ],
+    "foresters bartender": [
+      "What do you have?",
+      "Could I have some stew please?",
+      "I'm doing Alfred Grimhand's Barcrawl."
+    ],
+    "fortis museum curator": [
+      "Could you tell me more about that empty display?",
+      "About that empty display..."
+    ],
+    "fortis shop crafting": [
+      "I was hoping for some help.",
+      "Go on then.",
+      "So about those sails..."
+    ],
+    "fortis shop spices": [
+      "I'm here about a missing delivery.",
+      "Could I have a look at that locked box?",
+      "About that missing delivery..."
+    ],
+    "fossil squirrel gardener1": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "fossil squirrel gardener2": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "fossil squirrel gardener3": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "fossilquest barge guard port prequest": [
+      "Can I go onto the barge?"
+    ],
+    "fossilquest lead navigator quest": [
+      "Yep, that would be me.",
+      "No, what happened?",
+      "I'm ready, let's go."
+    ],
+    "fourdiamonds bartender": [
+      "Buy a drink",
+      "Buy a beer",
+      "I heard about four diamonds..."
+    ],
+    "fourdiamonds indiana vis": [
+      "Do you have any quests?",
+      "Yes.",
+      "Yes, I'll help you.",
+      "Don't read book",
+      "Help him"
+    ],
+    "fourdiamonds troll child okay": [
+      "Yes"
+    ],
+    "fourdiamonds vampire lord": [
+      "I am looking for a special Diamond...",
+      "Yes",
+      "How can I kill Dessous?"
+    ],
+    "fred the farmer": [
+      "I need to talk to you about penguins.",
+      "Bully Fred",
+      "I need to talk to you about Jimmy.",
+      "I'm looking for a quest.",
+      "Yes, okay. I can do that.",
+      "Yes.",
+      "I need to talk to you about shearing these sheep!"
+    ],
+    "fris r ferryman izso": [
+      "Can you ferry me to Rellekka?"
+    ],
+    "fris r ferryman rellekka": [
+      "Can you ferry me to Jatizso?"
+    ],
+    "fris spymaster": [
+      "Free stuff please.",
+      "I am ready.",
+      "Yes I have.",
+      "They will be ready in two days.",
+      "Seventeen militia have been trained.",
+      "There are two bridges to repair.",
+      "Yes, I am.",
+      "They are in a secluded bay, near Etceteria.",
+      "They will be given some potions.",
+      "I have been helping Neitiznot."
+    ],
+    "frisd armourmerchant": [
+      "But rules are rules. Pay up!"
+    ],
+    "frisd cook": [
+      "But rules are rules. Pay up!"
+    ],
+    "frisd fishmerchant": [
+      "But rules are rules. Pay up!"
+    ],
+    "frisd izso landlady": [
+      "But, rules are rules. Pay up!"
+    ],
+    "frisd oremerchant": [
+      "But rules are rules. Pay up!"
+    ],
+    "frisd weaponmerchant": [
+      "But, rules are rules. Pay up!",
+      "But rules are rules. Pay up!"
+    ],
+    "frog quest marcellus farmer": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "frog quest marcellus normal": [
+      "Yes."
+    ],
+    "fur merchant ardougne": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "ga gordon": [
+      "Need a hand with anything?",
+      "Yes."
+    ],
+    "garth": [
+      "Would you chop my tree down for me?",
+      "I can't be bothered - I'd rather pay you to do it.",
+      "Here's 200 Coins - chop my tree down please.",
+      "Yes."
+    ],
+    "gem merchant ardougne": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "gem trader": [
+      "I'm in search of a man named Avan Fitzharmon."
+    ],
+    "general bentnoze red": [
+      "Do you want me to pick an armour colour for you?",
+      "What about a different colour?",
+      "Yes.",
+      "So how is life for the goblins?",
+      "Yes, Wartface looks fat",
+      "I have some orange armour here.",
+      "I have some blue armour here.",
+      "I have some brown armour here."
+    ],
+    "general wartface green": [
+      "Have you ever heard of the Dorgeshuun?",
+      "It doesn't really matter",
+      "Well either way they refused to fight",
+      "Well I found a brooch underground...",
+      "Well why not show me both greetings?"
+    ],
+    "gerrant": [
+      "I want to find out how to catch a lava eel."
+    ],
+    "gertrude post": [
+      "Do you have any more kittens?",
+      "[Charm] I'm quite fussy over cats - can I pick my own?",
+      "Ask about Bob's parents.",
+      "Yes."
+    ],
+    "gertrude quest": [
+      "Yes."
+    ],
+    "ghostx": [
+      "Yep, now tell me what the problem is.",
+      "Yep, clever aren't I?.",
+      "Yes, ok. Do you know WHY you're a ghost?",
+      "Yes, ok. Do you know why you're a ghost?"
+    ],
+    "giants foundry kovac fake attack": [
+      "Yes."
+    ],
+    "gillie the milkmaid": [
+      "Can you share what makes your cows so productive?"
+    ],
+    "gnome brimstail cutscene": [
+      "I need to mine some rune essence."
+    ],
+    "gnomereferee": [
+      "Okay then, I'll have a go."
+    ],
+    "gnormadium avlafrim talk": [
+      "Rantz said I should help you finish this project.",
+      "Yes, I'll take a look at them.",
+      "I've fixed all the lights!"
+    ],
+    "golem broken golem": [
+      "Yes.",
+      "Eagle's Eyrie"
+    ],
+    "golem elissa": [
+      "I hear you visited Lovakengj recently.",
+      "I found a letter in the desert with your name on."
+    ],
+    "golem fixed golem": [
+      "Uzer",
+      "Did you see anything happen last night?"
+    ],
+    "golem phoenix": [
+      "Eagle's Eyrie"
+    ],
+    "gossipy man": [
+      "Yes.",
+      "How curious. Maybe I should investigate it.",
+      "Who do you think was responsible?"
+    ],
+    "grail fisherman": [
+      "Any idea how to get into the castle?"
+    ],
+    "grandpa jack": [
+      "Can I buy one of your fishing rods?",
+      "Very fair, I'll buy that rod!",
+      "Ranging Guild"
+    ],
+    "grandtree foreman": [
+      "Sadly his wife is no longer with us!",
+      "He loves worm holes.",
+      "Anita."
+    ],
+    "grandtree narnode 1op": [
+      "Yes.",
+      "I'll help you look for Glough.",
+      "Thanks for the information.",
+      "You seem worried, what's up?",
+      "I'd be happy to help!",
+      "I think so!",
+      "A man came to me with the King's seal.",
+      "I gave the man Daconia rocks.",
+      "And Daconia rocks will kill the tree!"
+    ],
+    "grew": [
+      "Don't eat me; I can help you."
+    ],
+    "grim grimgnash awake": [
+      "I heard you were a great and mighty Griffin!",
+      "There once was a graveyard filled with undead.",
+      "There lived a skeleton named Skullrot.",
+      "Skullrot was insane!",
+      "Skullrot hungrily grabbed the gnome's hair.",
+      "Started to strangle the poor gnome.",
+      "He saw some bones lying in the corner."
+    ],
+    "grim miazrqa": [
+      "I see there is an embarrassed-looking dwarf...",
+      "Your second-cousin, twice removed?",
+      "I need a key for the house.",
+      "I should be off, I think."
+    ],
+    "grim sylas": [
+      "Yes."
+    ],
+    "gt anita": [
+      "I suppose so."
+    ],
+    "guard carnillean vis": [
+      "Yes."
+    ],
+    "guidor": [
+      "I've come to ask your assistance in stopping a plague."
+    ],
+    "guildmaster": [
+      "Can I have a quest?",
+      "About my quest to kill the dragon...",
+      "I talked to Oziach...",
+      "Where can I find the right ship?",
+      "How can I protect myself from the dragon's breath?",
+      "How can I find the route to Crandor?",
+      "Where is Melzar's map piece?",
+      "Where is Thalzar's map piece?",
+      "Where is Lozar's map piece?"
+    ],
+    "gujuo": [
+      "I was hoping to attract the attention of a Kharazi tribe member.",
+      "I've been sent by the Legends' Guild.",
+      "Can you get everyone together?",
+      "Is there any way I could help?",
+      "How do we make the totem pole?",
+      "I'll go find Ungadulu.",
+      "I need some pure water to douse some magic flames.",
+      "What kind of vessel?",
+      "Where is this sacred pool of yours?",
+      "Yes, I'd like you to bless my gold bowl.",
+      "Yes please!",
+      "The water pool has dried up, but I need more water.",
+      "Where's the source of the pure water?"
+    ],
+    "hairdresser": [
+      "I'd like a haircut please.",
+      "I'd like a shave please."
+    ],
+    "handsand bert 1op": [
+      "Eww a hand, in the sand! Why haven't you told the authorities?",
+      "Sure, I'll give you a hand.",
+      "Yes."
+    ],
+    "handsand sandy0": [
+      "Why is Bert's rota different from the original?",
+      "Why doesn't Bert remember the change in his hours?",
+      "What happened to the wizard?"
+    ],
+    "hans": [
+      "Can you tell me how long I've been here?",
+      "Do you know what happened in the cellar?"
+    ],
+    "harry": [
+      "Can I get a fish for this bowl?",
+      "I'll take it!",
+      "I'm here about the mayor.",
+      "Yes."
+    ],
+    "hassan": [
+      "Is there anything I can help you with?",
+      "Yes."
+    ],
+    "hatius lumbridge diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "head wizard 1op": [
+      "Can you teleport me to the Rune Essence?",
+      "Can you teleport me to the Rune Essence Mine?",
+      "I'm looking for the head wizard.",
+      "Okay, here you are.",
+      "Go ahead.",
+      "Actually, I'm not interested.",
+      "Yes, certainly."
+    ],
+    "head wizard 2op": [
+      "I need your help with an incantation.",
+      "Can you help me with that incantation?",
+      "Let's do it.",
+      "So we're ready to perform the incantation?"
+    ],
+    "hetty": [
+      "I am in search of a quest.",
+      "Yes."
+    ],
+    "hg apatura": [
+      "Can I help you with anything?",
+      "Yes."
+    ],
+    "high priest of entrana": [
+      "Ask about the Holy Grail Quest",
+      "Ok, I will go searching."
+    ],
+    "hobbes the butler": [
+      "Ask about the dagger"
+    ],
+    "holgartlandtravel": [
+      "Will you take me there?",
+      "Nothing at the moment thanks."
+    ],
+    "horror girlfriend prequest": [
+      "With what?",
+      "But how can I help?",
+      "Okay, I'll help!"
+    ],
+    "horvik the armourer": [
+      "I need your help with a shield.",
+      "Hi, I need to talk to you about chicken cages!",
+      "Ok, I guess one good turn deserves another.",
+      "I have the tincture and the breathing salts.",
+      "I have the five pigeon cages you asked for!"
+    ],
+    "hosdun aimeri healed": [
+      "Who are you?"
+    ],
+    "hosidius generalstore": [
+      "Can I ask you about Hosidius?",
+      "What is there to do in Hosidius?"
+    ],
+    "hosidiusquest lord vis": [
+      "'Lunch by the Lancalliums' - Hosidius",
+      "Anything I can help you with?",
+      "Yes."
+    ],
+    "hundred evil dave": [
+      "What did you eat at the secret council meeting?",
+      "You've got to tell me because the magic requires it!"
+    ],
+    "hundred ilm iwazaru": [
+      "Do you know anything about the King's favourite dish?"
+    ],
+    "hunting jungle information": [
+      "Do you think you could help me with broavs?",
+      "A creature to help track down a person.",
+      "Do you think you could train this broav for me?"
+    ],
+    "hunting npc falconer": [
+      "Could I have a go with your bird?",
+      "Ok, that seems reasonable."
+    ],
+    "hunting shop owner yanille": [
+      "Ok, let's see what you've got!"
+    ],
+    "ics little carpenter": [
+      "Alright, I'll get the wood for you."
+    ],
+    "ics little hipriest vis": [
+      "Yes.",
+      "Sounds like a quest for me; I can't turn that down!",
+      "Is there any way into Menaphos from below?",
+      "Sure, no problem."
+    ],
+    "ics little redheadlady": [
+      "Yes.",
+      "Why? What's your problem with it?",
+      "Ok I'll get your supplies.",
+      "Yes. I have them all here."
+    ],
+    "ics little sphinx": [
+      "Ask the Sphinx for help for Bob.",
+      "Ask the Sphinx for help with Bob's memories.",
+      "I need help.",
+      "Okay, that sounds fair.",
+      "9.",
+      "Totally positive."
+    ],
+    "ikov lucien1": [
+      "I'm a mighty hero!",
+      "That sounds like a laugh!"
+    ],
+    "ikov lucien2": [
+      "Yes! Here it is."
+    ],
+    "irena": [
+      "What's the matter?",
+      "Is there a reward if I get her back?",
+      "I'll look for your daughter.",
+      "Okay Irena, calm down. I'll get your daughter back for you.",
+      "Yes, I'll go on this quest!"
+    ],
+    "jarr desert diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "jethick vis": [
+      "Yes, I'll return it for you."
+    ],
+    "joe vis": [
+      "I have some beer here. Fancy one?"
+    ],
+    "jogre": [
+      "Yes"
+    ],
+    "johnathon fitzharmon 2ops": [
+      "Family Pest"
+    ],
+    "jollyboar bartender": [
+      "I'm doing Alfred Grimhands Barcrawl."
+    ],
+    "jungleforester f": [
+      "I need to talk to you about red mahogany.",
+      "Okay, I'll take your axe to get it sharpened.",
+      "Good news, I have your sharpened axe!"
+    ],
+    "jungleforester m": [
+      "Go ahead, make a copy!"
+    ],
+    "junior jim": [
+      "I think I might have lost a cup here."
+    ],
+    "kangai mau": [
+      "I'm in search of adventure!",
+      "Ok, I will get it back.",
+      "Yes."
+    ],
+    "kaqemeex": [
+      "I'm in search of a quest.",
+      "Yes."
+    ],
+    "katrine": [
+      "Is there any way I can get the rank of master thief?",
+      "I have a candlestick now.",
+      "I've heard you're the Black Arm Gang.",
+      "I'd rather not reveal my sources.",
+      "I want to become a member of your gang.",
+      "Well, you can give me a try can't you?",
+      "Ok, no problem."
+    ],
+    "khazard barman": [
+      "I'd like a Khali Brew please.",
+      "Do you know anyone called Evelot?"
+    ],
+    "kilron vis": [
+      "Yes I do."
+    ],
+    "king arthur": [
+      "Tell me of this quest.",
+      "Yes.",
+      "I want to become a Knight of the Round Table!"
+    ],
+    "king bolren": [
+      "Yes.",
+      "Can I help at all?",
+      "I would be glad to help.",
+      "I will find the warlord and bring back the orbs."
+    ],
+    "king roald": [
+      "I'm here to talk about dragons.",
+      "About the dragon threat...",
+      "Talk about the dragon threat",
+      "Ask King Roald to follow me.",
+      "[Charm] Of course, your majesty - please forgive me.",
+      "[Charm] The Queen asked me to bring you.",
+      "Would you like to follow me for a minute?",
+      "I'm looking for a quest!",
+      "Yes.",
+      "About that job I'm doing..."
+    ],
+    "king roald cutscene": [
+      "Talk to the king about Morytania.",
+      "What should I do now?",
+      "Yes thanks. I'll accept the free teleport."
+    ],
+    "kinglathas vis": [
+      "Talk about the dragon threat.",
+      "Talk about the outpost.",
+      "I assume you have a plan?",
+      "I can handle it.",
+      "Yes.",
+      "I am. What's our plan?",
+      "I'm ready."
+    ],
+    "klarense": [
+      "I'd like to buy her.",
+      "Yep, sounds good."
+    ],
+    "kr anna sinclair": [
+      "Okay, I guess I don't have much of a choice."
+    ],
+    "kragen": [
+      "Do you have any snowdrop seeds to spare?",
+      "[Charm] You seem to be a little irritable, my friend.",
+      "[Charm] I don't like to see a fellow human being so upset.",
+      "[Charm] So what ails you, my friend?",
+      "[Charm] Well, is there anything I can do for you?",
+      "[Charm] So what can I do for you?",
+      "That's a deal - I'll let you know when your cabbages are ready.",
+      "Okay, I've grown those cabbages like you asked."
+    ],
+    "lady keli vis": [
+      "Heard of you? You're famous in Gielinor!",
+      "What's your latest plan then?",
+      "How do you know someone won't try to free him?",
+      "Could I see the key please?",
+      "Could I touch the key for a moment please?"
+    ],
+    "lady servil vis": [
+      "Yes."
+    ],
+    "ladyofthelake": [
+      "I seek the sword Excalibur."
+    ],
+    "lake beggar": [
+      "Yes certainly.",
+      "Yes, here you go."
+    ],
+    "lawgof2": [
+      "Yes.",
+      "Okay, I'll see what I can do.",
+      "Okay then, just for you!"
+    ],
+    "legends guild guard1": [
+      "Can I speak to someone in charge?",
+      "Can I go on the quest?",
+      "Yes, I'd like to talk to Grand Vizier Erkle."
+    ],
+    "lesabre mort diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "lesser fanatic diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "lord iorwerth vis": [
+      "Previous options...",
+      "I need some quicklime.",
+      "I need some naphtha.",
+      "I need some sulphur.",
+      "More options...",
+      "I need a barrel.",
+      "I need a fuse."
+    ],
+    "lost tribe guide 2ops": [
+      "Can you show me the way to the mines?"
+    ],
+    "lost tribe guide 3ops": [
+      "Can you show me the way to the mines?"
+    ],
+    "lost tribe mistag 2ops": [
+      "Can you show me the way out of the mines?"
+    ],
+    "lost tribe sigmund there": [
+      "Do you have any quests for me?",
+      "Yes."
+    ],
+    "lotg goblin guard1": [
+      "Me want get into temple.",
+      "Yes."
+    ],
+    "lotg goblin high priest": [
+      "Yes.",
+      "I understand Big High War God.",
+      "Big High War God commands it.",
+      "Goblins not mighty warriors before he chose us.",
+      "That one of the commandments.",
+      "Lead goblins to victory over whole world.",
+      "Me want to know about Yu'biusk.",
+      "Where is Yu'biusk?",
+      "Can I talk to old high priests?"
+    ],
+    "lotg goblin skeleton high priest1 defeated": [
+      "What was your predecessor's name?"
+    ],
+    "lotg goblin skeleton high priest2 defeated": [
+      "What was your predecessor's name?"
+    ],
+    "lotg goblin skeleton high priest3 defeated": [
+      "What was your predecessor's name?"
+    ],
+    "lotg goblin skeleton high priest4 defeated": [
+      "What was your predecessor's name?"
+    ],
+    "lotg goblin skeleton high priest5 defeated": [
+      "Where is Yu'biusk?"
+    ],
+    "lotg grubfoot": [
+      "Yes.",
+      "Follow me."
+    ],
+    "lotg hopespear there": [
+      "Why are you here?",
+      "I visited Yu'biusk.",
+      "It was a wasteland.",
+      "What favour?",
+      "Yes."
+    ],
+    "lotg zanik": [
+      "So why have you come to talk to Zanik?",
+      "What was this new dream?",
+      "It's just a dream. It doesn't mean anything.",
+      "I think it must mean something.",
+      "I don't know.",
+      "I'm ready.",
+      "Follow me."
+    ],
+    "lovakengj assistant vis": [
+      "Evil only triumphs when the good do nothing."
+    ],
+    "lovakengj bartender": [
+      "'Jewellery of Jubilation' - Lovakengj",
+      "Had any councillors stay here recently?",
+      "So about the Councillor."
+    ],
+    "lovakengj generalstore": [
+      "Can I ask you about Lovakengj?",
+      "What is there to do in Lovakengj?"
+    ],
+    "lunar fremennik pirate 1op": [
+      "Yes.",
+      "You've been away from these parts a while?",
+      "Why did you leave?",
+      "Why not, I've always wondered what the state of my innards are!",
+      "Arrr! Yar! Let's be on our way, yar!"
+    ],
+    "lunar fremennik pirate by pirateship": [
+      "Go now."
+    ],
+    "lunar moon dream dice game man": [
+      "Suppose I may as well have a go."
+    ],
+    "lunar moon dream man": [
+      "Of course. I'm ready."
+    ],
+    "lunar moon dream music game man": [
+      "Suppose I may as well have a go."
+    ],
+    "lunar moon dream power game man": [
+      "Ok."
+    ],
+    "lunar moon dream trees game man": [
+      "Ok, let's go!"
+    ],
+    "lunar moonclan baba yaga": [
+      "The Oneiromancer told me you may be able to help...",
+      "I was wondering if you could help me make Lunar Glass?"
+    ],
+    "lunar moonclan monk1": [
+      "Pauline?",
+      "Jane Blud-Hagic-Maid"
+    ],
+    "lunar moonclan monk4": [
+      "I'm looking for a ring."
+    ],
+    "lunar moonclan monk5": [
+      "You know the ceremonial clothes?",
+      "That seems like a fair deal."
+    ],
+    "lunar oneiromancer": [
+      "Bob's memories.",
+      "No thanks.",
+      "Cyrisus."
+    ],
+    "lunar pirate captain 1op": [
+      "Can we sail to Lunar Isle now?",
+      "Perhaps it's the Navigator's fault?"
+    ],
+    "luthas": [
+      "Could you offer me employment on your plantation?",
+      "Will you pay me for another crate full?"
+    ],
+    "lyra": [
+      "Do you have any orchid seeds to spare?",
+      "[Charm] If you tell me your problems, I may be able to help you.",
+      "[Charm] Yes, I was wondering about that.",
+      "[Charm] Times must be very hard for you.",
+      "[Charm] Whatever you've done, I'm sure you had just cause.",
+      "[Charm] And what is the nature of this fee that you pay?",
+      "[Charm] If not yours, then whose blood are you offering?",
+      "[Charm] How can you deal with so much guilt?",
+      "That's a deal - I'll grow a patch of onions for you.",
+      "Okay, I've grown those onions like you asked."
+    ],
+    "mad skavid": [
+      "Cur.",
+      "Gor.",
+      "Tanath.",
+      "Bidith."
+    ],
+    "mag emelio 1op": [
+      "Yes.",
+      "I think that's perfect!",
+      "Sounds good to me.",
+      "I think so.",
+      "Adjust meat (currently at one portion).",
+      "Adjust meat (currently at two portions).",
+      "Adjust meat (currently at three portions).",
+      "Adjust salad (currently at one portion).",
+      "Adjust salad (currently at three portions).",
+      "Adjust salad (currently at four portions).",
+      "Adjust spice (currently at two portions).",
+      "Adjust spice (currently at three portions).",
+      "Adjust spice (currently at four portions).",
+      "Adjust sauce (currently at one portion).",
+      "Adjust sauce (currently at two portions).",
+      "Adjust sauce (currently at four portions)."
+    ],
+    "mag lelia": [
+      "I think so.",
+      "Okay, I'm ready."
+    ],
+    "magic carpet seller1": [
+      "Yes please.",
+      "I want to travel to Pollnivneach.",
+      "I want to travel to Uzer.",
+      "Uzer",
+      "Pollnivneach"
+    ],
+    "makeover mage": [
+      "Can you turn me into a goblin?",
+      "I need to slip past some goblin guards.",
+      "Can you turn me into a goblin or not?"
+    ],
+    "makinghistory dron": [
+      "I'm after important answers.",
+      "Why, you're the famous warrior Dron!",
+      "An iron mace",
+      "Breakfast",
+      "Lunch",
+      "Bunnies",
+      "Red",
+      "36",
+      "8",
+      "Fifth and Fourth",
+      "North East side of town",
+      "Blanin",
+      "Fluffy",
+      "12, but what does that have to do with anything?"
+    ],
+    "makinghistory jorral": [
+      "The Outpost",
+      "Tell me more.",
+      "Ok, I'll make a stand for history!",
+      "Translations"
+    ],
+    "martin the master farmer": [
+      "Ask about the quest.",
+      "Anything I can help with?",
+      "Now that I think about it, you're right!",
+      "I suppose I'd better go and see what the problem is then."
+    ],
+    "mary the maid": [
+      "Ask about the night of the murder",
+      "Ask about the thread"
+    ],
+    "master crafter 3": [
+      "Swan Song."
+    ],
+    "mdaughter bearman": [
+      "It's just me, no one special.",
+      "You mean a sacrifice?",
+      "You look like a man in a bearsuit!",
+      "Can I see that corpse?",
+      "I humbly request to be given the remains.",
+      "I will kill you myself!"
+    ],
+    "mdaughter hamal": [
+      "Why is everyone so hostile?",
+      "So what are you doing up here?",
+      "I will search for her!",
+      "About the people of Rellekka...",
+      "About your food supplies...",
+      "But he's not a god!",
+      "I will."
+    ],
+    "mdaughter ragnar": [
+      "Thank you. I will make sure she's given a proper burial now."
+    ],
+    "mdaughter svidi": [
+      "Can't I persuade you to go in there somehow?"
+    ],
+    "merlin": [
+      "What do we do now?"
+    ],
+    "mining cart driver": [
+      "Nice cart.",
+      "One wagon wheel says to the other, 'I'll see you around'.",
+      "'One good turn deserves another'",
+      "Fired... no, shot perhaps!",
+      "In for a penny in for a pound.",
+      "Well, you see, it's like this...",
+      "Prison riot in ten minutes, get your cart out of here!",
+      "You can't leave me here, I'll get killed!",
+      "Yes, I'll get on."
+    ],
+    "mining slave male": [
+      "I've just arrived.",
+      "Okay, you caught me out.",
+      "Oh yes, that sounds interesting.",
+      "What's that then?",
+      "I can try to undo them for you.",
+      "It's funny you should say that...",
+      "Yeah, okay, let's give it a go.",
+      "Yes, I'll trade."
+    ],
+    "misc advisor ghrim 1op": [
+      "How do I make peace with Etceteria?"
+    ],
+    "misc advisor ghrim 2ops": [
+      "Has anything been happening in the kingdom recently?",
+      "Very well, I'll sort it out.",
+      "Yes.",
+      "King Vargas asked me to talk to you."
+    ],
+    "misc flowergirl": [
+      "Yes, please."
+    ],
+    "misc king vargas": [
+      "Right away, your Majesty.",
+      "Yes.",
+      "If I may be so bold..."
+    ],
+    "misc prince brand": [
+      "Be still, my heart.",
+      "You will be the greatest bard!",
+      "They don't understand your poetry as I do.",
+      "A much nobler pursuit, to be sure.",
+      "How inspiring!",
+      "How poetic.",
+      "I'm glad to hear it.",
+      "I wouldn't presume to have the skill...",
+      "That was lovely. I'm touched!",
+      "Yes"
+    ],
+    "misc princess astrid": [
+      "Archery is a noble art!",
+      "He's been very helpful.",
+      "Hahahaha!",
+      "What happened next?",
+      "That sounds like a good idea.",
+      "I'm quite fond of it myself.",
+      "It's a lovely little country.",
+      "I suppose you don't have much opportunity to.",
+      "And what a great bard he makes!",
+      "Yes"
+    ],
+    "misc queen sigrid": [
+      "Of course, it's my duty."
+    ],
+    "misc sailor": [
+      "I'm looking for a sailor..."
+    ],
+    "misc smithy": [
+      "I have a slightly strange request..."
+    ],
+    "mistmyst abigale lum vis": [
+      "Yes."
+    ],
+    "mm daero 1op": [
+      "Leave...",
+      "Who is it?",
+      "Yes",
+      "Talk about the 10th squad..."
+    ],
+    "mm garkor aa": [
+      "King Narnode has sent me.",
+      "It's worth a shot."
+    ],
+    "mm monkey child": [
+      "Well I'll be a monkey's uncle!",
+      "How many bananas did Aunty want?",
+      "Ok, I promise!",
+      "I've lost that toy you gave me...",
+      "Wow - can I borrow it?"
+    ],
+    "mm waydar 1op": [
+      "Yes",
+      "I cannot convince Lumdo to take us to the island..."
+    ],
+    "mm zooknock aa": [
+      "What do we need for the monkey amulet?",
+      "I'll be back later.",
+      "What do we need for the monkey talisman?",
+      "Talk about your mission."
+    ],
+    "mm2 chieftan keef noncombat": [
+      "I know about your deal with the monkeys.",
+      "I offer to spare your life.",
+      "I accept your challenge."
+    ],
+    "mm2 general kob noncombat": [
+      "I know about your deal with the monkeys.",
+      "You won't be around to crush anyone when I'm done with you.",
+      "I accept your challenge."
+    ],
+    "mm2 le smith": [
+      "I was going to ask you the same question.",
+      "Why is that?",
+      "Awowogei has already informed me about the battleships.",
+      "Where is the fleet, currently?"
+    ],
+    "mm2 monkey boat guard": [
+      "What's going on here?",
+      "Construction platform?",
+      "Can I visit the platform?",
+      "I would like to go back to the construction platform."
+    ],
+    "mm2 zooknock postboss": [
+      "Yes."
+    ],
+    "molch temple shaman vis": [
+      "Do you think you could help me find a mage?",
+      "So, about the key to that door...",
+      "So about the door over there..."
+    ],
+    "morgan": [
+      "Yes."
+    ],
+    "mosol rei": [
+      "Why do I need to run?",
+      "Rashiliyia? Who is she?",
+      "I'll go to see the Shaman.",
+      "Yes, I'm sure and I'll take the Wampum belt to Trufitus.",
+      "What can we do?"
+    ],
+    "mourning arianwyn vis": [
+      "Okay, let's begin.",
+      "Yes."
+    ],
+    "mourning deathalter dwarf vis": [
+      "Okay sure thing, what do you need?",
+      "I've got some of them with me.",
+      "Yeah sure."
+    ],
+    "mourning seamstress": [
+      "Do you mend clothes?",
+      "I have all I need to mend my trousers."
+    ],
+    "murderguard": [
+      "I have proof that the Sinclairs have left.",
+      "I have proof that links the Sinclairs to Camelot.",
+      "I have proof of foul play.",
+      "Yes.",
+      "I know who did it!"
+    ],
+    "murphy": [
+      "Talk about Recipe for Disaster.",
+      "Yes, Let's go diving."
+    ],
+    "my2arm mother enthroned": [
+      "Let's move on with the chat.",
+      "Tell him goutweed is delicious.",
+      "Tell him how tough Stronghold trolls are.",
+      "Tell him to show respect to his daughter.",
+      "Tell him you love his daughter!"
+    ],
+    "my2arm mushroom dying": [
+      "I'll never leave you."
+    ],
+    "my2arm sentry boulder": [
+      "You only need to let My Arm in, not me."
+    ],
+    "my2arm snowflake": [
+      "So I can't teleport, and I may lose stuff? Okay.",
+      "Okay, I'll be back.",
+      "Have you seen anything odd around here recently?"
+    ],
+    "myarm barnaby ship": [
+      "This is My Arm. We'd like to go to Karamja."
+    ],
+    "myarm fixed": [
+      "I'm doing another quest for Burntmeat.",
+      "Wolfbone said we should go by sea.",
+      "Odd Mushroom, why are you here with us?",
+      "Does Mother respect anything except fighting?",
+      "I did some fishing and fetched some stuff.",
+      "Alright, I'll lend him a hand."
+    ],
+    "myq3 citizen male old 1": [
+      "(whisper) Do you know about the Myreque?",
+      "(whisper) I really need to meet the Myreque.",
+      "How can Old Man Ral help me?"
+    ],
+    "myq4 flaygian visible": [
+      "Anything to report?",
+      "Why?"
+    ],
+    "myq4 garth": [
+      "Yes."
+    ],
+    "myq4 harpert": [
+      "Fine, here's the money."
+    ],
+    "myq4 kael visible noweapon": [
+      "I'm ready."
+    ],
+    "myq4 safalaan visible": [
+      "Here you go."
+    ],
+    "myq4 vertida visible": [
+      "Meiyerditch.",
+      "Here you go."
+    ],
+    "myq5 damien combat": [
+      "Slepe.",
+      "Let's do this."
+    ],
+    "myq5 ivan child": [
+      "I'm ready."
+    ],
+    "myq5 polmafi child": [
+      "Here you go."
+    ],
+    "myq5 safalaan child": [
+      "Icyene Graveyard.",
+      "Shall we get going then?",
+      "Let's go.",
+      "Sure. Here you go."
+    ],
+    "myq5 vanescula human child": [
+      "Icyene Graveyard.",
+      "Okay. I'll see you soon.",
+      "I'll see you there.",
+      "I'm ready."
+    ],
+    "myq5 veliaf child": [
+      "Is there something I can do to help out?",
+      "Yes.",
+      "Fair enough, so what now?",
+      "I see. So that's why you want to keep him safe, Veliaf?",
+      "Slepe.",
+      "Let's do this.",
+      "Icyene Graveyard.",
+      "Let's go."
+    ],
+    "myq5 veliaf child collect": [
+      "Icyene Graveyard.",
+      "Let's go."
+    ],
+    "myreque pt3 safalaan": [
+      "I do."
+    ],
+    "ned": [
+      "You're a sailor? Could you take me to Crandor?",
+      "Could you make other things apart from rope?",
+      "How about some sort of wig?",
+      "I have them here. Please make me a wig."
+    ],
+    "ned 1op": [
+      "Yes, let's go!"
+    ],
+    "ntk mummy guardian": [
+      "I know what I'm doing - let's get on with it."
+    ],
+    "observatory professor": [
+      "Talk about the Observatory quest.",
+      "An Observatory?",
+      "Yes."
+    ],
+    "og": [
+      "I seek entrance to the city of ogres."
+    ],
+    "ogre guard3": [
+      "But I am a friend to ogres..."
+    ],
+    "ogress tess": [
+      "I've come to return what Arsen stole."
+    ],
+    "olaf": [
+      "Yes.",
+      "Alright, here, have some food. Now give me the map."
+    ],
+    "omart vis": [
+      "Okay, lets do it.",
+      "Okay, let's do it."
+    ],
+    "oracle": [
+      "I seek a piece of the map to the island of Crandor."
+    ],
+    "oziach": [
+      "Can you sell me a rune platebody?",
+      "The Guildmaster of the Champions' Guild told me.",
+      "I thought you were going to give me a quest.",
+      "A dragon, that sounds like fun."
+    ],
+    "peng larry ice": [
+      "That's crazy!",
+      "It looks like a warning message to keep us away.",
+      "Yes"
+    ],
+    "peng larry rell": [
+      "Can I transport My Arm in your boat?",
+      "Never mind, I just need to borrow your boat."
+    ],
+    "peng larry zoo": [
+      "Yes.",
+      "Okay, why not!",
+      "Yes, I have all the materials.",
+      "Yes",
+      "Yes, I have it."
+    ],
+    "peng noodle": [
+      "Yeah, I got it."
+    ],
+    "peng ping": [
+      "Yes."
+    ],
+    "peng zoo": [
+      "I need that phrase!",
+      "The penguins in Lumbridge refuse to talk to me.",
+      "I must have left the outpost before they gave out the phrase.",
+      "Sure!"
+    ],
+    "pest squire ship portsarim": [
+      "I'd like to go to your outpost."
+    ],
+    "pet insurance broker": [
+      "What pets have I insured?",
+      "I'm here to tell you about some new taxes."
+    ],
+    "phileas rimor visible": [
+      "Do you need help with anything?",
+      "Yes.",
+      "What do you need?"
+    ],
+    "pierre the family dog handler": [
+      "Ask about the poison"
+    ],
+    "pilot grand tree base": [
+      "Take me to Karamja please!"
+    ],
+    "pilot white wolf base": [
+      "I have a special tea here for you from Sanfew!",
+      "How was that tea?",
+      "Ok, I'll go and get you some T.R.A.S.H.",
+      "Hey there, did you get your T.R.A.S.H?"
+    ],
+    "piscarilius captain khaled default": [
+      "Looking for any help?",
+      "I have what it takes."
+    ],
+    "piscarilius generalstore keeper": [
+      "Can I ask you about Port Piscarilius?",
+      "What is there to do in Port Piscarilius?"
+    ],
+    "piscquest citizen": [
+      "Okay."
+    ],
+    "piscquest official visible": [
+      "I've found something that might be useful.",
+      "I'm looking for a quest.",
+      "What are you investigating?",
+      "Yes.",
+      "Let's talk about my quest."
+    ],
+    "piscquest thug": [
+      "Nope, sounds good to me."
+    ],
+    "pmod town crier east ardoyne": [
+      "Could you help me tell people about some new taxes?"
+    ],
+    "pmoon attala vis": [
+      "Yes."
+    ],
+    "pmoon jessica vis": [
+      "Can I be of any help with the dig?",
+      "What does the inscription say?",
+      "What do we do now?"
+    ],
+    "poh estate agent": [
+      "Can you move my house please?",
+      "Can you redecorate my house please?",
+      "Hosidius (8,750)",
+      "I'm here to tell you about some new taxes."
+    ],
+    "poh herald of falador": [
+      "I don't know, what can you do for me?",
+      "Can you see if I have a family crest?",
+      "Thanks!",
+      "I don't like that crest. Can I have a different one?",
+      "Saradomin"
+    ],
+    "poh sawmill opp": [
+      "I need some waxwood planks for Old Man Yarlo.",
+      "I'm here on behalf of the museum archaeological team."
+    ],
+    "poison salesman": [
+      "Who did you sell Poison to at the house?",
+      "Talk about the Murder Mystery Quest",
+      "I have this pot I found at the murder scene...",
+      "Talk about the Fremennik Trials",
+      "Yes"
+    ],
+    "porcine sourhog second": [
+      "Yes"
+    ],
+    "priestperiltrappedmonk vis": [
+      "Veliaf told me about Ivandis.",
+      "Is there somewhere that I might get more information on Ivandis?",
+      "The lives of those pitiful few left in Morytania could rest on this!",
+      "Well, what is it, I may be able to help?",
+      "Yes.",
+      "So, what now?",
+      "Yes, of course."
+    ],
+    "prif sawmill operator": [
+      "I'm here on behalf of the museum archaeological team."
+    ],
+    "professor oddenstein": [
+      "I'm looking for a guy called Ernest.",
+      "Change him back this instant!"
+    ],
+    "qip soa newspaperseller": [
+      "Can I have a newspaper, please?",
+      "Sure, here you go..."
+    ],
+    "queen ellamaria": [
+      "I would be happy to help someone who is so in touch with the people.",
+      "How am I supposed to move statues all the way here?"
+    ],
+    "quetzacalli bartender": [
+      "I'd like to rent the basement room.",
+      "I'll take it."
+    ],
+    "quetzacalli general store": [
+      "I hear you can offer help to those in need."
+    ],
+    "quetzal child green noop": [
+      "I was told to ask you about getting to the Teomat."
+    ],
+    "radimus erkle": [
+      "Yes actually, what's involved?",
+      "Yes, it sounds great!",
+      "Yes.",
+      "Yes, I'll train now."
+    ],
+    "rag odd old man": [
+      "Talk about lucky charms.",
+      "I'm making a cursed voyage.",
+      "Anything I can do to help?",
+      "Yes."
+    ],
+    "raidquest library archive guardian": [
+      "Yes please!"
+    ],
+    "raidquest library traphunter": [
+      "I have a question about King Shayzien VII.",
+      "Yes please."
+    ],
+    "rantz": [
+      "Can I have a hat please?",
+      "Yes.",
+      "Ok, I'll make you some 'stabbers'.",
+      "How do we make the chompys come?",
+      "Come on, let me have a go...",
+      "I'm actually quite strong... please let me try.",
+      "I need to talk to you about a mattress.",
+      "Ok, I'll see what I can do.",
+      "Ok, I've helped that Gnome, he shouldn't bother you anymore.",
+      "I'm trying to free Skrach, can you help?",
+      "Ok, I'll do it."
+    ],
+    "razmire keelgan afflicted": [
+      "What are all these shadowy creatures?",
+      "Yes, I'll dispatch those dark and evil creatures.",
+      "Can you open a store for me?",
+      "Can I see the building store please?"
+    ],
+    "rcu zammy mage1 edgeb": [
+      "Where do you get your runes from?",
+      "Maybe I could make it worth your while?",
+      "Yes, but I can still help you as well.",
+      "I did it so that I could then steal their secrets.",
+      "Deal.",
+      "But I'm a loyal servant of Zamorak as well!",
+      "Okay, fine. I don't really serve Zamorak.",
+      "Because I can still help you.",
+      "I need your help with an amulet.",
+      "Could you help me with that amulet now?",
+      "Yes.",
+      "Solus Dellagar"
+    ],
+    "rcu zammy mage1b": [
+      "Could you teleport me to the Abyss?"
+    ],
+    "rcu zammy mage2": [
+      "I need your help with an amulet."
+    ],
+    "rd observer room 5": [
+      "Can I have the clue for the door?"
+    ],
+    "rd observer room 7": [
+      "The wolves.",
+      "Bucket A (32 degrees)",
+      "The number of false statements here is three.",
+      "Zero."
+    ],
+    "rd teleporter guy": [
+      "Can I buy some armor?",
+      "Can I buy some armour?",
+      "Devious Minds.",
+      "Yes, let's go!",
+      "Do you have any jobs for me yet?",
+      "Slug Menace.",
+      "Yes, I'm interested.",
+      "How will all that help?",
+      "Buy One",
+      "YES",
+      "Have One Made",
+      "NO"
+    ],
+    "redbeard frank": [
+      "I'm in search of treasure.",
+      "Yes."
+    ],
+    "reldo normal": [
+      "I have a cat related question.",
+      "Ask about Robert the Strong.",
+      "I'm looking for information on a Fourth Age hero.",
+      "Ask about Tristan.",
+      "About Tristan Corvo...",
+      "I'm in search of a quest.",
+      "Yes.",
+      "Okay, I've read that book about the Shield of Arrav.",
+      "Ask about Imcando dwarves.",
+      "What do you know about the Imcando dwarves?"
+    ],
+    "risingsun barmaid2": [
+      "I'm doing Alfred Grimhand's barcrawl.",
+      "What ales are you serving?",
+      "One Asgarnian Ale, please.",
+      "What can you tell me about dwarves and ale?",
+      "I could offer you some in return, how about 200 gold?"
+    ],
+    "romeo": [
+      "Yes, I have seen her actually!",
+      "Yes, ok, I'll let her know.",
+      "Yes."
+    ],
+    "route curpile fyod child": [
+      "I've come to help the Myreque. I've brought weapons.",
+      "Sani Piliu.",
+      "Ivan Strom.",
+      "Veliaf Hurtz.",
+      "Cyreg Paddlehorn.",
+      "Drakan.",
+      "Polmafi Ferdygris."
+    ],
+    "route cyreg paddlehorn": [
+      "I'd better be off.",
+      "Well, I guess they'll just die without weapons.",
+      "Resourceful enough to get their own steel weapons?",
+      "If you don't tell me, their deaths are on your head!",
+      "What kind of a man are you to say that you don't care?",
+      "Here are some planks for you."
+    ],
+    "route vanstrom klause sitting": [
+      "Yes."
+    ],
+    "route veliaf hurtz": [
+      "Yes.",
+      "Let's talk about the weapons."
+    ],
+    "roving female woodelf 2op": [
+      "I have a seed from Baxtorian that I think needs enchanting."
+    ],
+    "roving golrie": [
+      "I need your help with a device."
+    ],
+    "roving islwyn 1op": [
+      "Yes."
+    ],
+    "roving islwyn 2ops": [
+      "I'm ready now.",
+      "I'm ready.",
+      "Yes."
+    ],
+    "royal dwarf drunk": [
+      "Of course. Dealing with monsters is what I do best!"
+    ],
+    "rpdt employee": [
+      "So, when are you going to deliver this crate?"
+    ],
+    "rustyanchor bartender": [
+      "I'm doing Alfred Grimhand's Barcrawl."
+    ],
+    "sailing charting mermaid guide 1": [
+      "Can I dive to the sea floor with you?"
+    ],
+    "sailing intro ribs": [
+      "No, tell me about him.",
+      "Now's not really the time for tales."
+    ],
+    "sailing intro will sarim": [
+      "Yes.",
+      "Okay."
+    ],
+    "sailing transport trader stan base": [
+      "Port Sarim (wily cats)",
+      "Have you seen a grey-haired man with a case?"
+    ],
+    "sailing transport trader stan crew man1 base": [
+      "Have you seen a man with a case?",
+      "As long as it is just the one favour...",
+      "So, about that man with the case."
+    ],
+    "sailing transport trader stan crew woman1 brimhaven": [
+      "Glough sent me.",
+      "Ka.",
+      "Lu.",
+      "Min."
+    ],
+    "sanctuary dark wizard": [
+      "Got any sulphuric acid?"
+    ],
+    "sanfew": [
+      "I've been sent to help purify the Varrock stone circle.",
+      "Ask general questions.",
+      "Have you any more work for me, to help reclaim the circle?",
+      "I'll do it.",
+      "Yes.",
+      "Are you taking any new initiates?",
+      "A dwarf I know wants to become an initiate.",
+      "Yep, it's a deal.",
+      "Hi there, the Gnome Pilot has agreed to take you to see the ogres!"
+    ],
+    "sang myq3 female walk vyrewatch 1": [
+      "Send me to the mines.",
+      "Send me to the mines! (Do a bit of menial work)"
+    ],
+    "sang myq3 mine guard juvinate male": [
+      "Do you have a spare pick?"
+    ],
+    "sanguinesti old man ral": [
+      "Someone said you could help me.",
+      "Old Man Ral, the sage of Sanguinesti."
+    ],
+    "saradominist zealot": [
+      "And what sort of purpose would that be?",
+      "Yes.",
+      "Is there any other way into the mines?",
+      "I come seeking challenges and quests.",
+      "I follow the path of Saradomin.",
+      "What quest is that then?"
+    ],
+    "sarim betty": [
+      "Have you seen a grey-haired man with a case?",
+      "About that enriched snapdragon...",
+      "Sounds good."
+    ],
+    "sarim pub drinker 1": [
+      "Ever made any cursed voyages?"
+    ],
+    "scared skavid": [
+      "Okay, okay, I'm not going to hurt you."
+    ],
+    "scrambled alan": [
+      "Yes.",
+      "Of course!"
+    ],
+    "scrambled king": [
+      "Are you the king?"
+    ],
+    "scrambled kings man 1": [
+      "I can get you some tea."
+    ],
+    "scrambled kings man 2": [
+      "I see. Well, maybe I can help out with that?"
+    ],
+    "scrambled kings man 3": [
+      "I can talk to the blacksmith."
+    ],
+    "seaman lorris": [
+      "Yes please.",
+      "I'd like to go to the Pandemonium."
+    ],
+    "secret ghost explorer": [
+      "Tell me your story"
+    ],
+    "secret ghost mage": [
+      "Tell me your story"
+    ],
+    "secret ghost messenger": [
+      "Tell me your story"
+    ],
+    "secret ghost spy": [
+      "Tell me your story"
+    ],
+    "secret ghost swordsman": [
+      "Tell me your story"
+    ],
+    "secret ghost thief": [
+      "Tell me your story"
+    ],
+    "seer": [
+      "I need to locate some scorpions.",
+      "Your friend Thormac sent me to speak to you."
+    ],
+    "seers diary wedge": [
+      "I have a question about my Achievement Diary."
+    ],
+    "shadow maj khazard": [
+      "I just have one of those faces.",
+      "I'm a very trustworthy person."
+    ],
+    "shadow maj seer": [
+      "Bribe",
+      "Here's the money."
+    ],
+    "shadow warrior rasool": [
+      "Ask about the Diamonds of Azzanadra"
+    ],
+    "shayzien generalstore": [
+      "Can I ask you about Shayzien?",
+      "What is there to do in Shayzien?"
+    ],
+    "sheep shearer the thing": [
+      "The Farmer is harmless."
+    ],
+    "shiloantiques": [
+      "Is there anything else interesting to do around here?",
+      "Yes.",
+      "Here's the red mahogany you asked for."
+    ],
+    "shilop": [
+      "What will make you tell me?",
+      "Okay then, I'll pay."
+    ],
+    "shipmonk": [
+      "Yes, okay, I'm ready to go."
+    ],
+    "silk merchant ardougne": [
+      "120 coins.",
+      "I'll give it to you for 60.",
+      "I'm here to tell you about some new taxes."
+    ],
+    "silver merchant ardougne": [
+      "Ask about the outpost.",
+      "I'm here to tell you about some new taxes."
+    ],
+    "sir amik varze": [
+      "I seek a quest!",
+      "I laugh in the face of danger!",
+      "Yes.",
+      "Talk about the dragon threat.",
+      "No, not right now...",
+      "Sure, I'll help you!"
+    ],
+    "sir ceril carnillean vis": [
+      "What's wrong?",
+      "Yes."
+    ],
+    "sir gawain": [
+      "Do you know how Merlin got trapped?"
+    ],
+    "sir lancelot": [
+      "Any ideas on how to get into Morgan Le Faye's stronghold?",
+      "Thank you for the information."
+    ],
+    "sir mordred": [
+      "Tell me how to untrap Merlin and I might.",
+      "Ok I will do all that."
+    ],
+    "sir prysin": [
+      "Aris said I should come and talk to you.",
+      "I need to find Silverlight.",
+      "He's back and unfortunately I've got to deal with him.",
+      "So give me the keys!",
+      "Can you give me your key?"
+    ],
+    "sir vyvin": [
+      "Do you have anything to trade?"
+    ],
+    "skavidtalker1": [
+      "Ig."
+    ],
+    "skavidtalker2": [
+      "Ar."
+    ],
+    "skavidtalker3": [
+      "Cur."
+    ],
+    "skavidtalker4": [
+      "Nod."
+    ],
+    "skippy": [
+      "Throw the water!"
+    ],
+    "slayer master nieve": [
+      "Talk about Monkey Madness II.",
+      "Yes."
+    ],
+    "slepe bartender carl": [
+      "Where do you get your Bloody Bracers from?"
+    ],
+    "slepe jester child": [
+      "I'd better get going.",
+      "Do you know how he fell ill?"
+    ],
+    "slug2 hobb stage2": [
+      "I'm just looking around.",
+      "Nothing at the moment thanks."
+    ],
+    "slug2 maledict stage1": [
+      "That's enough for now."
+    ],
+    "slug2 oniall stage1": [
+      "Who are the important people in Witchaven?",
+      "Nothing at the moment thanks."
+    ],
+    "sos guard": [
+      "If you're a security guard, let's talk about security."
+    ],
+    "sote baxtorian upass": [
+      "I'm ready."
+    ],
+    "sote baxtorian vis": [
+      "How do I find Lord Amlodd?",
+      "How do I find Lady Trahaearn?",
+      "How do I find Lord Crwys?",
+      "How do I find Lady Hefin?",
+      "What's Lady Ithell's clue?",
+      "What's Lady Meilyr's clue?"
+    ],
+    "sote elena": [
+      "Are you sure you're okay with this Elena?",
+      "I'm ready.",
+      "We're done here, take him away.",
+      "It is. I'm here for you if you need me though.",
+      "Go ahead.",
+      "I don't know.",
+      "Now's not the time for stories, Elena.",
+      "That's fair. Anyway, I wanted to ask you about Ysgawyn.",
+      "Baxtorian said you had an idea to help our defence."
+    ],
+    "sote elena prison": [
+      "Yes."
+    ],
+    "sote lord amlodd vis": [
+      "Yes."
+    ],
+    "sote ysgawyn vis": [
+      "So what have you been discussing?"
+    ],
+    "sotn guard carnillean upstairs": [
+      "I think that's everything.",
+      "I think I've gone over everything.",
+      "The window was broken from the outside.",
+      "Ceril was stabbed from behind.",
+      "A hidden room above us was broken into."
+    ],
+    "sotn hazeel ghorrock": [
+      "Yes."
+    ],
+    "sotn hazeel troll vis": [
+      "Why would the killer come here?",
+      "What is this ritual you keep talking about?",
+      "Okay, I'm done asking questions. What now?",
+      "I'm done asking questions. What now?"
+    ],
+    "soulbane launa": [
+      "Yes.",
+      "Would you like me to go down to look for your husband and son?"
+    ],
+    "spice merchant ardougne": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "squire": [
+      "And how is life as a squire?",
+      "I can make a new sword if you like...",
+      "So would these dwarves make another one?",
+      "Yes."
+    ],
+    "steve beanie": [
+      "About Will and Anne...",
+      "Do you have any idea where Will and Anne might have gone?",
+      "Any word from Old Grog?",
+      "Yes.",
+      "About that job you wanted doing...",
+      "I delivered that cargo for you.",
+      "I made that 'special key' you needed.",
+      "About that crate..."
+    ],
+    "straven": [
+      "I know who you are!",
+      "I'd like to offer you my services."
+    ],
+    "surok rat": [
+      "Yes.",
+      "Shall I get them back for you?",
+      "Of course! Tell me what you need me to do.",
+      "Yes! I have a letter for you."
+    ],
+    "surok surok": [
+      "I have the things you wanted!"
+    ],
+    "surok surok type2": [
+      "Bring it on!"
+    ],
+    "swan herman": [
+      "What's the rush?",
+      "Do you need any help?",
+      "I'm a brave adventurer! Can I try?",
+      "Yes.",
+      "I've lost the army!",
+      "I'm ready. Let's fight!"
+    ],
+    "swan seatroll queen": [
+      "No, I'm ready to move on with the quest."
+    ],
+    "tailorp": [
+      "Could you make anything out of this fur that I got from hunting?",
+      "Do you have a spare Priest Gown?",
+      "Okay, let's see what you've got then.",
+      "Well, specifically I'm after a couple of bird costumes.",
+      "I've got the feathers and materials you requested.",
+      "Okay, here are the materials. Eagle me up."
+    ],
+    "tbwcu murcaily": [
+      "A troll called My Arm wants a favour...",
+      "I was asking you about goutweed...",
+      "I was asking you about hardy goutweed..."
+    ],
+    "tbwcu safta doc nosticks": [
+      "What do you do here?",
+      "Yes, I'd like to get a machete."
+    ],
+    "tbwt lubufu": [
+      "Talk about him...",
+      "What do you do?",
+      "I could help collect the bait.",
+      "You sound like you could do with the help.",
+      "What do you use to catch Karambwan?",
+      "Yes!",
+      "Actually, I've lost my Karambwan vessel.",
+      "... a shark ate it!"
+    ],
+    "tbwt tamayu": [
+      "When will you succeed?",
+      "Yes",
+      "Take me on your next hunt for the Shaikahan."
+    ],
+    "tbwt tiadeche": [
+      "Yes"
+    ],
+    "tbwt timfraku": [
+      "I am a roving adventurer.",
+      "I am a travelling explorer.",
+      "I am a wandering wayfarer.",
+      "Who me? Oh I'm just a nobody.",
+      "Trufitus sent me.",
+      "Your gratitude is all I deserve.",
+      "Well, some gold would be nice.",
+      "So far??",
+      "Yes.",
+      "Oh it was nothing really.",
+      "I'd rather have some gold please.",
+      "You know your sons have serious issues...",
+      "Eternal gratitude accepted."
+    ],
+    "tbwt tinsay": [
+      "Yes."
+    ],
+    "tea seller": [
+      "Could I have a strong cup of tea?"
+    ],
+    "thormac": [
+      "What do you need assistance with?",
+      "Yes."
+    ],
+    "thurgo": [
+      "I need some help with a 'special key'.",
+      "So, can you help me make a crowbar?",
+      "Can you help me make another crowbar?",
+      "Yes.",
+      "Something else.",
+      "Would you like a redberry pie?",
+      "Return to Keldagrim immediately.",
+      "Can you help me with this ancient axe?",
+      "Can you repair that axe now?",
+      "Can you make a special sword for me?",
+      "About that sword...",
+      "Can you make that replacement sword now?"
+    ],
+    "tindel marchant": [
+      "Ok, I'll give it a go!",
+      "Wizard Cromperty sent me to get some iron oxide.",
+      "Ask about iron oxide.",
+      "Okay, I'll do it!",
+      "I have the mattress."
+    ],
+    "tob stranger 1op": [
+      "What's all this really about?",
+      "What's this thing you need from me?",
+      "Yes.",
+      "I managed to recover Ranis' head.",
+      "So what are we doing with Ranis' head?",
+      "So about that memory..."
+    ],
+    "tob stranger 2op": [
+      "I found some of those eggs.",
+      "That memory didn't tell us too much.",
+      "That memory seemed more useful.",
+      "I found a hespori.",
+      "Can we use this bark to find more memories?",
+      "Do you have any more memories for us to look at?",
+      "Did you manage to get any useful memories from Verzik?"
+    ],
+    "toban": [
+      "I seek entrance to the city of ogres.",
+      "I could do something for you..."
+    ],
+    "toby varrock diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "tog light creature op": [
+      "Travel into the chasm."
+    ],
+    "tol homonculus cage broken": [
+      "With the aid of 5 fire runes.",
+      "With the help of the magical dragonstones!",
+      "Runecraft, enchant jewellery, perform alchemy.",
+      "Turn them into bananas or peaches!",
+      "Depends where you are headed, but teleport spells are a safe bet.",
+      "Yes, you can make magic potions to boost your skills.",
+      "By harnessing the power of the gods!",
+      "Yep, you can use the Telekinetic Grab spell.",
+      "Through the power of alchemy.",
+      "You have special powers - no surprise seeing how you were created.",
+      "How about Magic and Runecrafting?",
+      "Can't see why not, anything is possible.",
+      "Your very existense speaks of mystical forces.",
+      "Magic."
+    ],
+    "tol npc barry01": [
+      "Tea",
+      "Whistle for attention",
+      "Your legs are getting a bit cold",
+      "Carry on, it'll fix itself"
+    ],
+    "tol npc builder01": [
+      "Three",
+      "Torn curtains",
+      "10 clay pieces"
+    ],
+    "tol npc efergy01": [
+      "Sure, why not."
+    ],
+    "torfinn collect rellekka": [
+      "Yes please.",
+      "Yes."
+    ],
+    "torfinn no travel": [
+      "I'm ready.",
+      "Yes please."
+    ],
+    "tote persten alkharid child": [
+      "What's a wizard doing in Al Kharid?",
+      "Yes.",
+      "About that incantation..."
+    ],
+    "tourtrap qip desert mining guard still 2": [
+      "I'd like to mine in a different area.",
+      "Yes sir, you're quite right sir.",
+      "Yes sir, we understand each other perfectly."
+    ],
+    "traiborn": [
+      "Talk about Demon Slayer.",
+      "I need to get a key given to you by Sir Prysin.",
+      "Well, have you got any keys knocking around?",
+      "I'll get the bones for you.",
+      "Ask about helping the Lumbridge Guide.",
+      "Okay. Let's start!",
+      "Okay. I'm ready!",
+      "Quiz me!",
+      "Unferth",
+      "Gertrude",
+      "King Lathas",
+      "Pirate Pete",
+      "Islwyn",
+      "Hetty",
+      "Observatory Professor Gronigen",
+      "Ali Morrisane",
+      "Velorina",
+      "Reldo",
+      "Bandit camp",
+      "Flour, Eggs and milk",
+      "20",
+      "Sand, bucket, soda ash, glass blowing pipe",
+      "16",
+      "North to South",
+      "46",
+      "2",
+      "Keep Le Faye",
+      "Dark Wizards'",
+      "Catherby",
+      "Legends'",
+      "Trout",
+      "Mind Talisman",
+      "Guthix Prayer Book, Magic Logs, Pike",
+      "10",
+      "Three",
+      "Two",
+      "I need your apprentices to help with an incantation.",
+      "I think I know what a thingummywut is!"
+    ],
+    "tramppg": [
+      "Is there anything down this alleyway?",
+      "I'm looking for the Black Arm Gang.",
+      "Do you think they would let me join?"
+    ],
+    "trobert": [
+      "So can you help me get Scarface Pete's candlesticks?",
+      "I volunteer to undertake that mission!"
+    ],
+    "troll champion": [
+      "I accept your challenge!"
+    ],
+    "troll eadgar": [
+      "I need to find some goutweed."
+    ],
+    "trollromance aga": [
+      "So... how's your... um... love life?"
+    ],
+    "trollromance arrg": [
+      "I am here to kill you!"
+    ],
+    "trollromance ug": [
+      "Awww, you poor troll. What seems to be the problem?",
+      "Don't worry now, I'll see what I can do."
+    ],
+    "trr spencer brentwood vis": [
+      "Let's go.",
+      "Actually, I'd like to disembark."
+    ],
+    "trufitus": [
+      "Mosol gave me something to show you.",
+      "Mosol Rei said something about a legend?",
+      "Why was it called Ah Za Rhoon?",
+      "I am going to search for Ah Za Rhoon!",
+      "Yes.",
+      "Is there any sacred ground around here?"
+    ],
+    "tt floopa injured vis": [
+      "Yes."
+    ],
+    "tt raley conch": [
+      "Yes."
+    ],
+    "tunnel dwarf1": [
+      "I was wondering what was down those stairs?",
+      "Why not?",
+      "If you were my friend I wouldn't mind it.",
+      "Well, let's be friends!",
+      "And how am I meant to do that?",
+      "Yes."
+    ],
+    "twocats unferth bald": [
+      "I'll help you.",
+      "Yes."
+    ],
+    "ulsquire shauncy afflicted": [
+      "Can you open a store for me?",
+      "Can I see the general store please?",
+      "What can you tell me about that temple?"
+    ],
+    "ungadulu good": [
+      "I need to collect some Yommi tree seeds for Gujuo.",
+      "How do I grow the Yommi tree?",
+      "What will you do now?",
+      "Ok, thanks..."
+    ],
+    "upassdwarf2": [
+      "What happened to them?"
+    ],
+    "upassmage 2ops": [
+      "Can you upgrade my Staff of Iban?",
+      "Here's 200,000 coins. Please upgrade the staff."
+    ],
+    "vc face": [
+      "I just don't think Felkrash was that impressive."
+    ],
+    "velrak the explorer": [
+      "So... do you know anywhere good to explore?",
+      "Yes please!"
+    ],
+    "veos vis amulet": [
+      "Sounds interesting! How can I help?",
+      "Can you take me to Great Kourend?",
+      "Have you got any quests for me?",
+      "Let's talk about your client...",
+      "I've lost something you've given me.",
+      "Yes."
+    ],
+    "veos visible": [
+      "I'm looking for a quest.",
+      "Sounds good, what should I do?",
+      "Can I help?",
+      "Yes."
+    ],
+    "veronica": [
+      "Aha, sounds like a quest. I'll help."
+    ],
+    "viking askelladen norockop": [
+      "Ask about becoming a Fremennik",
+      "Ask about the Merchant's trial",
+      "Yes"
+    ],
+    "viking askelladen rockop": [
+      "Ask about the Merchant's trial",
+      "Yes"
+    ],
+    "viking brundt child": [
+      "Ask about the dragonkin fortress.",
+      "Ask about the dragon threat.",
+      "Ask about a Seal of Passage.",
+      "Ask about the mountain camp.",
+      "Did it look pretty?",
+      "Ask for a quest.",
+      "Yes.",
+      "Ask about the investigation.",
+      "Ask about the Jormungand.",
+      "Ask about anything else.",
+      "Do you have any quests?",
+      "Yes, I am interested.",
+      "I want to become a Fremennik!",
+      "Ask about the Merchant's trial"
+    ],
+    "viking clothing shopkeeper": [
+      "Ask about the Merchant's trial"
+    ],
+    "viking dagganoth cave ferryman island": [
+      "What Jarvald is doing.",
+      "Can I come?",
+      "YES"
+    ],
+    "viking fisherman1": [
+      "Ask about the Merchant's trial"
+    ],
+    "viking frem diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "viking hallifred": [
+      "Ask about the Merchant's trial",
+      "Yes",
+      "Ask about becoming a Fremennik"
+    ],
+    "viking lake spirit": [
+      "Ask about V's Sigil."
+    ],
+    "viking lalli troll": [
+      "Other human?"
+    ],
+    "viking longhall barkeep": [
+      "Ask about the Merchant's trial"
+    ],
+    "viking olaf": [
+      "Ask about becoming a Fremennik",
+      "Yes",
+      "Ask about the Merchant's trial"
+    ],
+    "viking peer": [
+      "Ask about the Merchant's trial",
+      "Ask about becoming a Fremennik",
+      "Yes"
+    ],
+    "viking reveller 3": [
+      "Ask about becoming a Fremennik",
+      "Yes",
+      "Ask about the Merchant's trial"
+    ],
+    "viking sailor": [
+      "Yes.",
+      "Ask about the Merchant's trial"
+    ],
+    "viking sigli": [
+      "Ask about becoming a Fremennik",
+      "What's a Draugen?",
+      "Yes",
+      "Ask about the Merchant's trial"
+    ],
+    "viking sigmund": [
+      "Yes"
+    ],
+    "viking thorvald": [
+      "Ask about the Merchant's trial",
+      "Ask about becoming a Fremennik",
+      "Yes"
+    ],
+    "viking weapons salesman": [
+      "Ask about the Merchant's trial"
+    ],
+    "vikingexile brundt child": [
+      "Where can I find a Fremennik Shield?",
+      "Where can I get Lunar Glass?",
+      "How do I make the Polishing Rock?",
+      "How do I make V's Sigil?"
+    ],
+    "vmq1 alina vis": [
+      "When will this delegation arrive?",
+      "Yes."
+    ],
+    "vmq2 ennius vis": [
+      "Yes."
+    ],
+    "vmq2 itzla vis": [
+      "Yes."
+    ],
+    "vmq2 knight 6 vis": [
+      "I'm ready. Let's do this."
+    ],
+    "vmq2 metzli vis": [
+      "I'm meant to be meeting Prince Itzla here."
+    ],
+    "vmq2 quetzal keeper 1op": [
+      "Let's do it!"
+    ],
+    "vmq2 quetzal keeper fortis": [
+      "Have you seen anybody suspicious around?",
+      "I was told to ask you about getting to the Teomat."
+    ],
+    "vmq3 itzla vis citizen": [
+      "Could you remind me what Ximoua is?"
+    ],
+    "vmq3 servius palace": [
+      "Yes."
+    ],
+    "vmq3 tower twilight foreman trials": [
+      "Yes! I'm ready.",
+      "Yes.",
+      "Proceed to the next trial."
+    ],
+    "vmq4 captain vibia inside house": [
+      "I'll get searching."
+    ],
+    "vmq4 itzla crypt puzzle sun": [
+      "Can you go to an altar for me?",
+      "East.",
+      "Previous options...",
+      "North.",
+      "North west.",
+      "More options..."
+    ],
+    "vmq4 queen basement": [
+      "Yes, let's go."
+    ],
+    "vt council workmen": [
+      "Yes"
+    ],
+    "vulcana lovakengj vis": [
+      "'Jewellery of Jubilation' - Lovakengj",
+      "Yes.",
+      "I'm looking for a quest.",
+      "I'll get going."
+    ],
+    "warguild ghommal npc": [
+      "I need to talk to you about Lucien."
+    ],
+    "warguild harrallak npc": [
+      "I need to talk to you about Lucien."
+    ],
+    "warguild sloane npc": [
+      "I need to talk to you about Lucien."
+    ],
+    "warrioradventurerpg": [
+      "What are you camped out here for?",
+      "What makes you think it's out here?",
+      "If it's hidden how are you planning to find it?",
+      "Looks like you don't know either.",
+      "Yes."
+    ],
+    "watchtower wizard": [
+      "What's the matter?",
+      "So how come the spell doesn't work?",
+      "Can I be of help?",
+      "What do you suggest I do?",
+      "So what do I do?"
+    ],
+    "werewolfshopkeeper1": [
+      "Talk about the meat shipment"
+    ],
+    "western gnome child diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "wgs akrisae": [
+      "Yes."
+    ],
+    "wgs heroes tureal": [
+      "I'm here about a quest.",
+      "Hello, I'm here about those trees again.",
+      "I'd love one, thanks."
+    ],
+    "wgs idria temple done": [
+      "Yes."
+    ],
+    "wgs ivy sophista": [
+      "Yes."
+    ],
+    "wgs lucien spy cell": [
+      "Yes."
+    ],
+    "wgs silif armour": [
+      "Let's go."
+    ],
+    "wgs surok transition": [
+      "Go on, then!",
+      "Go on then!"
+    ],
+    "wgs thaerisk cemphier": [
+      "Could I have that seed?",
+      "Sounds good to me.",
+      "Could you teleport me to Port Sarim?",
+      "Yes."
+    ],
+    "wgs washerman": [
+      "Would 500 coins change your mind?"
+    ],
+    "whisperer spawn": [
+      "The Cathedral."
+    ],
+    "white knight diary": [
+      "I have a question about my Achievement Diary."
+    ],
+    "wint master smith normal": [
+      "I've been sent to help you.",
+      "Let's talk about my quest.",
+      "Yes."
+    ],
+    "wise old man": [
+      "Queen Ellamaria has sent me to seek your guidance.",
+      "I have returned to you with the Ring of Charos.",
+      "Can I retake the diplomacy test?",
+      "Ask about My Arm.",
+      "Can you pretend you're dead?",
+      "You owe me a favour after the Fishing Colony quest.",
+      "Draynor Village",
+      "I'd just like to ask you something.",
+      "Strange beasts",
+      "The Evil Chicken",
+      "You used to be a famous adventurer, didn't you?"
+    ],
+    "wizard frumscone": [
+      "I'll see what the necromancer needs me to do."
+    ],
+    "wizard mizgog quest": [
+      "Give me a quest please.",
+      "Yes."
+    ],
+    "wom cutscene 2": [
+      "I'm ready to fight."
+    ],
+    "wormbrain": [
+      "I believe you've got a piece of a map that I need.",
+      "I suppose I could pay you for the map piece...",
+      "Alright then, 10,000 it is."
+    ],
+    "zaff": [
+      "Rat Burgiss sent me!"
+    ],
+    "zanarisleprechaun": [
+      "I've been in that shed, I didn't see a city."
+    ],
+    "zeah head councillor vis": [
+      "There's been a death in Arceuus."
+    ],
+    "zembo": [
+      "I'm doing Alfred Grimhand's barcrawl.",
+      "Yes please."
+    ],
+    "zenesha": [
+      "I'm here to tell you about some new taxes."
+    ],
+    "zep piccard": [
+      "Yes! Sign me up.",
+      "Umm, yes. What's your point?",
+      "Yes.",
+      "Yes, I have them here.",
+      "Okay.",
+      "Talk about Assistant Le Smith."
+    ],
+    "zogre human zavistic rarve": [
+      "I'm here about the sicks...err Zogres",
+      "I have some items that I'd like you to look at."
+    ],
+    "zogre ogre shaman": [
+      "Can I help in any way?",
+      "Ok, I'll check things out then and report back.",
+      "Yes, I'm really sure!",
+      "Yes, I want to help you out and find out about the zogres.",
+      "I found who's responsible for the Zogres being here.",
+      "There must be an easier way to kill these zogres!",
+      "Yeah, I have them here!"
+    ]
+  }
+}

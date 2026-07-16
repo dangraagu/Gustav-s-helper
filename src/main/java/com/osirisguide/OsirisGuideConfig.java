@@ -150,6 +150,18 @@ public interface OsirisGuideConfig extends Config
 		return true;
 	}
 
+	@ConfigItem(
+		keyName = "dialogueHighlight",
+		name = "Highlight dialogue option",
+		description = "During NPC dialogue, highlight the option the step wants you to choose.",
+		section = overlaySection,
+		position = 7
+	)
+	default boolean dialogueHighlight()
+	{
+		return true;
+	}
+
 	@Alpha
 	@ConfigItem(
 		keyName = "highlightColor",
