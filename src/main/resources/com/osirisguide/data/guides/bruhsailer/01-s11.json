@@ -96,7 +96,7 @@
     {
       "id": "s11-006a",
       "title": "TL;DR: do Clock Tower, Monk’s Friend, …",
-      "text": "TL;DR: do Clock Tower, Monk’s Friend, Hazeel Cult",
+      "text": "TL;DR: do Clock Tower, Monk’s Friend, Hazeel Cult, get level 35 woodcutting, burning the logs and swapping to oaks at 15",
       "complete": {
         "op": "quest",
         "quest": "MONKS_FRIEND",
@@ -110,17 +110,6 @@
     },
     {
       "id": "s11-006b",
-      "title": "get level 35 woodcutting, burning the …",
-      "text": "get level 35 woodcutting, burning the logs and swapping to oaks at 15",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
-    },
-    {
-      "id": "s11-006c",
       "title": "Eat your food if you take …",
       "text": "Eat your food if you take damage",
       "manual": true,

@@ -1,14 +1,14 @@
 {
   "_comment": "Auto-generated from raw/bruhsailer.json by build_raw_guide.py",
   "sections": [
-    "00-s11.json",
-    "00-s12.json",
-    "00-s13.json",
-    "01-s14.json",
-    "00-s21.json",
-    "00-s22.json",
-    "00-s23.json",
-    "00-s31.json",
-    "00-s32.json"
+    "01-s11.json",
+    "02-s12.json",
+    "03-s13.json",
+    "04-s14.json",
+    "05-s21.json",
+    "06-s22.json",
+    "07-s23.json",
+    "08-s31.json",
+    "09-s32.json"
   ]
 }

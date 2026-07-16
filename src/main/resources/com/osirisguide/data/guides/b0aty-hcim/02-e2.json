@@ -61,18 +61,12 @@
     },
     {
       "id": "e2-005a",
-      "title": "During Grand Tree",
-      "text": "During Grand Tree",
+      "title": "During Grand Tree, Kill Foreman",
+      "text": "During Grand Tree, Kill Foreman",
       "manual": true
     },
     {
       "id": "e2-005b",
-      "title": "Kill Foreman",
-      "text": "Kill Foreman",
-      "manual": true
-    },
-    {
-      "id": "e2-005c",
       "title": "take bones [Demon Slayer]",
       "text": "take bones [Demon Slayer]",
       "complete": {
@@ -124,19 +118,13 @@
       "id": "e2-008",
       "title": "Return to Ardougne & deposit the …",
       "text": "Return to Ardougne & deposit the Pineapples & bones in the South Bank",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-009",
@@ -199,15 +187,9 @@
       ]
     },
     {
-      "id": "e2-013a",
-      "title": "When you go talk to Anita",
-      "text": "When you go talk to Anita",
-      "manual": true
-    },
-    {
-      "id": "e2-013b",
-      "title": "take 2 Swamp toads [Tai Bwo …",
-      "text": "take 2 Swamp toads [Tai Bwo Wannai Trio]",
+      "id": "e2-013",
+      "title": "When you go talk to Anita, …",
+      "text": "When you go talk to Anita, take 2 Swamp toads [Tai Bwo Wannai Trio]",
       "complete": {
         "op": "quest",
         "quest": "TAI_BWO_WANNAI_TRIO",
@@ -448,19 +430,13 @@
       "id": "e2-033a",
       "title": "Head to Veos",
       "text": "Head to Veos",
+      "manual": true,
       "npc": 10727,
       "world": [
         1824,
         3690,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1824,
-        "y": 3690,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-033b",
@@ -476,13 +452,13 @@
         "x": 1803,
         "y": 3752,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
-      "id": "e2-034a",
+      "id": "e2-034",
       "title": "You will receive your X Marks …",
-      "text": "You will receive your X Marks the Spot Lamp",
+      "text": "You will receive your X Marks the Spot Lamp, use on Herblore",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -493,12 +469,6 @@
         3242,
         0
       ]
-    },
-    {
-      "id": "e2-034b",
-      "title": "use on Herblore",
-      "text": "use on Herblore",
-      "manual": true
     },
     {
       "id": "e2-035",
@@ -520,7 +490,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -583,7 +553,7 @@
         "x": 1505,
         "y": 3801,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -606,7 +576,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -663,7 +633,7 @@
         "x": 1700,
         "y": 3800,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -685,19 +655,13 @@
       "id": "e2-045a",
       "title": "Walk to the Hosidius General Store",
       "text": "Walk to the Hosidius General Store",
+      "manual": true,
       "object": 28823,
       "world": [
         1767,
         3597,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1767,
-        "y": 3597,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-045b",
@@ -738,19 +702,13 @@
       "id": "e2-048",
       "title": "Head East & thieve from the …",
       "text": "Head East & thieve from the Hosidius fruit stall until 34512 Thieving Experience. Bank 5x Redberries, all Golovanova's + Strange fruit and 1x Jangerberries [Fairytale Part I, possible item for Malignius Mortifer]",
+      "manual": true,
       "npc": 1783,
       "world": [
         2991,
         3270,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2991,
-        "y": 3270,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-049",
@@ -766,7 +724,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -997,7 +955,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1131,7 +1089,7 @@
         "x": 1391,
         "y": 2935,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1211,18 +1169,12 @@
       "id": "e2-086",
       "title": "Enter Fight Caves & wait for …",
       "text": "Enter Fight Caves & wait for Wave 1 to start then leave [Karamja Easy Diary]",
+      "manual": true,
       "world": [
         2856,
         3168,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2856,
-        "y": 3168,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-087a",
@@ -1274,19 +1226,13 @@
       "id": "e2-092",
       "title": "Head West to Brimhaven Agility Arena",
       "text": "Head West to Brimhaven Agility Arena",
+      "manual": true,
       "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2789,
-        "y": 3174,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-093",
@@ -1427,7 +1373,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -1538,7 +1484,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -1607,7 +1553,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1901,19 +1847,13 @@
       "id": "e2-139",
       "title": "Head to Catherby",
       "text": "Head to Catherby",
+      "manual": true,
       "npc": 1520,
       "world": [
         2841,
         3432,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2841,
-        "y": 3432,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-140a",
@@ -1988,33 +1928,16 @@
       "item": 2114
     },
     {
-      "id": "e2-142a",
+      "id": "e2-142",
       "title": "OPTIONAL: Use Minigames teleport to Burthorpe …",
-      "text": "OPTIONAL: Use Minigames teleport to Burthorpe Games Room",
+      "text": "OPTIONAL: Use Minigames teleport to Burthorpe Games Room, go upstairs, then to Rogues' Den to buy Graceful legs (or the guide will tell you to buy them later)",
       "manual": true,
-      "world": [
-        2870,
-        3544,
-        0
-      ]
-    },
-    {
-      "id": "e2-142b",
-      "title": "go upstairs, then to Rogues' Den …",
-      "text": "go upstairs, then to Rogues' Den to buy Graceful legs (or the guide will tell you to buy them later)",
       "object": 7257,
       "world": [
         2905,
         3537,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2905,
-        "y": 3537,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-143",
@@ -2042,7 +1965,7 @@
         "x": 3290,
         "y": 3185,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2148,19 +2071,13 @@
       "id": "e2-150",
       "title": "Head to Shantay Pass",
       "text": "Head to Shantay Pass",
+      "manual": true,
       "npc": 4642,
       "world": [
         3303,
         3122,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3303,
-        "y": 3122,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-151",
@@ -2217,19 +2134,13 @@
       "id": "e2-155",
       "title": "Run towards the Agility Pyramid",
       "text": "Run towards the Agility Pyramid",
+      "manual": true,
       "object": 11948,
       "world": [
         3335,
         2829,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3335,
-        "y": 2829,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-156",
@@ -2483,19 +2394,13 @@
       "id": "e2-172",
       "title": "Head to the Shantay Pass",
       "text": "Head to the Shantay Pass",
+      "manual": true,
       "npc": 4642,
       "world": [
         3303,
         3122,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3303,
-        "y": 3122,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-173",
@@ -2526,31 +2431,19 @@
         "x": 3358,
         "y": 2974,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
-      "id": "e2-175a",
-      "title": "During the quest",
-      "text": "During the quest",
+      "id": "e2-175",
+      "title": "During the quest, collect 10x Ugthanki …",
+      "text": "During the quest, collect 10x Ugthanki dung [My Arms Big Adventure + Camulet]",
       "manual": true
     },
     {
-      "id": "e2-175b",
-      "title": "collect 10x Ugthanki dung [My Arms …",
-      "text": "collect 10x Ugthanki dung [My Arms Big Adventure + Camulet]",
-      "manual": true
-    },
-    {
-      "id": "e2-176a",
+      "id": "e2-176",
       "title": "Safespot the Tough Guy in the …",
-      "text": "Safespot the Tough Guy in the Camel pen",
-      "manual": true
-    },
-    {
-      "id": "e2-176b",
-      "title": "Take the Willow Blackjack & bones …",
-      "text": "Take the Willow Blackjack & bones [Demon Slayer]",
+      "text": "Safespot the Tough Guy in the Camel pen, Take the Willow Blackjack & bones [Demon Slayer]",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -2563,15 +2456,9 @@
       ]
     },
     {
-      "id": "e2-177a",
+      "id": "e2-177",
       "title": "Safespot the Bandit Champion over a …",
-      "text": "Safespot the Bandit Champion over a chair",
-      "manual": true
-    },
-    {
-      "id": "e2-177b",
-      "title": "Take the bones & Adamant Scimitar[Demon …",
-      "text": "Take the bones & Adamant Scimitar[Demon Slayer]",
+      "text": "Safespot the Bandit Champion over a chair, Take the bones & Adamant Scimitar[Demon Slayer]",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -2702,15 +2589,9 @@
       "manual": true
     },
     {
-      "id": "e2-188a",
+      "id": "e2-188",
       "title": "After you obtain Specimen Jar during …",
-      "text": "After you obtain Specimen Jar during quest",
-      "manual": true
-    },
-    {
-      "id": "e2-188b",
-      "title": "search Specimen tray until you obtain …",
-      "text": "search Specimen tray until you obtain Charcoal",
+      "text": "After you obtain Specimen Jar during quest, search Specimen tray until you obtain Charcoal",
       "complete": {
         "op": "or",
         "of": [
@@ -2776,7 +2657,7 @@
         "x": 3290,
         "y": 3185,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2998,7 +2879,7 @@
         "x": 3358,
         "y": 2974,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3022,19 +2903,13 @@
       "id": "e2-207",
       "title": "Teleport to Ardougne [Ardougne Medium Diary]",
       "text": "Teleport to Ardougne [Ardougne Medium Diary]",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-208",
@@ -3267,7 +3142,7 @@
         "x": 2624,
         "y": 3300,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3298,24 +3173,9 @@
       "manual": true
     },
     {
-      "id": "e2-227a",
+      "id": "e2-227",
       "title": "OPTIONAL: Withdraw items obtained from Shilo …",
-      "text": "OPTIONAL: Withdraw items obtained from Shilo Village quest",
-      "complete": {
-        "op": "quest",
-        "quest": "SHILO_VILLAGE",
-        "state": "FINISHED"
-      },
-      "world": [
-        2884,
-        2951,
-        0
-      ]
-    },
-    {
-      "id": "e2-227b",
-      "title": "sell to Yanni Salika for 2,000gp …",
-      "text": "sell to Yanni Salika for 2,000gp when starting One Small Favour",
+      "text": "OPTIONAL: Withdraw items obtained from Shilo Village quest, sell to Yanni Salika for 2,000gp when starting One Small Favour",
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
@@ -3407,19 +3267,13 @@
       "id": "e2-232",
       "title": "Head West & take the Lady …",
       "text": "Head West & take the Lady of the Waves to Port Khazard [Karamja Medium Diary]",
+      "manual": true,
       "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2615,
-        "y": 3143,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-233",
@@ -3457,7 +3311,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3509,19 +3363,13 @@
       "id": "e2-239a",
       "title": "Run to Taverley",
       "text": "Run to Taverley",
+      "manual": true,
       "object": 16680,
       "world": [
         2884,
         3397,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2884,
-        "y": 3397,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-239b",
@@ -3536,28 +3384,16 @@
       ]
     },
     {
-      "id": "e2-240a",
+      "id": "e2-240",
       "title": "Right click House Teleport spell in …",
-      "text": "Right click House Teleport spell in spellbook and chose Outside House",
-      "manual": true
-    },
-    {
-      "id": "e2-240b",
-      "title": "head east to Port Sarim",
-      "text": "head east to Port Sarim",
+      "text": "Right click House Teleport spell in spellbook and chose Outside House, head east to Port Sarim",
+      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2954,
-        "y": 3147,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-241",
@@ -3603,7 +3439,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3662,7 +3498,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3805,7 +3641,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3956,19 +3792,13 @@
       "id": "e2-267a",
       "title": "Head to Aubury",
       "text": "Head to Aubury",
+      "manual": true,
       "npc": 11434,
       "world": [
         3253,
         3401,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3253,
-        "y": 3401,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-267b",
@@ -3983,15 +3813,9 @@
       "manual": true
     },
     {
-      "id": "e2-268a",
-      "title": "At this point in the guide",
-      "text": "At this point in the guide",
-      "manual": true
-    },
-    {
-      "id": "e2-268b",
-      "title": "Complete Shield of Arrav whenever convenient",
-      "text": "Complete Shield of Arrav whenever convenient",
+      "id": "e2-268",
+      "title": "At this point in the guide, …",
+      "text": "At this point in the guide, Complete Shield of Arrav whenever convenient",
       "complete": {
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
@@ -4132,7 +3956,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4208,9 +4032,9 @@
       ]
     },
     {
-      "id": "e2-282a",
+      "id": "e2-282",
       "title": "Squeeze through the Ornate Railing by …",
-      "text": "Squeeze through the Ornate Railing by the trapdoor",
+      "text": "Squeeze through the Ornate Railing by the trapdoor, go up and back down the agility shortcut. [Morytania Hard Diary]",
       "manual": true,
       "object": 1579,
       "world": [
@@ -4218,23 +4042,6 @@
         3468,
         0
       ]
-    },
-    {
-      "id": "e2-282b",
-      "title": "go up and back down the …",
-      "text": "go up and back down the agility shortcut. [Morytania Hard Diary]",
-      "world": [
-        3493,
-        3488,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3493,
-        "y": 3488,
-        "z": 0,
-        "radius": 10
-      }
     },
     {
       "id": "e2-283",
@@ -4434,9 +4241,9 @@
       "item": 1939
     },
     {
-      "id": "e2-297a",
+      "id": "e2-297",
       "title": "There is a triple Log + …",
-      "text": "There is a triple Log + 2x branch spot North-West of Tree Grotto",
+      "text": "There is a triple Log + 2x branch spot North-West of Tree Grotto, Fill your Druidic Pouch here with all your prayer points",
       "manual": true,
       "object": 3516,
       "world": [
@@ -4444,12 +4251,6 @@
         3337,
         0
       ]
-    },
-    {
-      "id": "e2-297b",
-      "title": "Fill your Druidic Pouch here with …",
-      "text": "Fill your Druidic Pouch here with all your prayer points",
-      "manual": true
     },
     {
       "id": "e2-298",
@@ -4813,19 +4614,13 @@
       "id": "e2-326",
       "title": "Travel to Entrana [Falador Easy Diary]",
       "text": "Travel to Entrana [Falador Easy Diary]",
+      "manual": true,
       "npc": 4062,
       "world": [
         2851,
         3350,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2851,
-        "y": 3350,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-327",
@@ -4895,19 +4690,13 @@
       "id": "e2-332",
       "title": "Teleport to Lumbridge [Lumbridge Medium Diary]",
       "text": "Teleport to Lumbridge [Lumbridge Medium Diary]",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-333",
@@ -5080,7 +4869,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5202,7 +4991,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5221,19 +5010,13 @@
       "id": "e2-353",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-354",
@@ -5269,19 +5052,13 @@
       "id": "e2-357b",
       "title": "enter HAM Hideout [Lumbridge Easy Diary]",
       "text": "enter HAM Hideout [Lumbridge Easy Diary]",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-358",
@@ -5329,19 +5106,13 @@
       "id": "e2-361",
       "title": "Return to Martin the Master Gardener …",
       "text": "Return to Martin the Master Gardener & Continue Fairy Tale Part I (2)",
+      "manual": true,
       "npc": 3651,
       "world": [
         2999,
         3383,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2999,
-        "y": 3383,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-362a",
@@ -5369,19 +5140,13 @@
       "id": "e2-362b",
       "title": "Teleport Runes, Coins, Ghostspeak Amulet, Seceteaurs, …",
       "text": "Teleport Runes, Coins, Ghostspeak Amulet, Seceteaurs, 10 Wines, Adamant Scimitar, Garlic, Hammer, Stake, Rope, Lit Candle (25 Inventory Slots)",
+      "manual": true,
       "object": 2097,
       "world": [
         3190,
         3938,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3190,
-        "y": 3938,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-363",
@@ -5416,9 +5181,9 @@
       ]
     },
     {
-      "id": "e2-366a",
+      "id": "e2-366",
       "title": "You take a spade from the …",
-      "text": "You take a spade from the ground during Ernest the Chicken",
+      "text": "You take a spade from the ground during Ernest the Chicken, dig the skull",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",
@@ -5429,12 +5194,6 @@
         3329,
         0
       ]
-    },
-    {
-      "id": "e2-366b",
-      "title": "dig the skull",
-      "text": "dig the skull",
-      "manual": true
     },
     {
       "id": "e2-367",
@@ -5499,18 +5258,12 @@
       "id": "e2-372",
       "title": "Return to Draynor",
       "text": "Return to Draynor",
+      "manual": true,
       "world": [
         3103,
         3265,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3103,
-        "y": 3265,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-373",
@@ -5603,15 +5356,9 @@
       ]
     },
     {
-      "id": "e2-378a",
+      "id": "e2-378",
       "title": "Continue Fairytale Part II to unlock …",
-      "text": "Continue Fairytale Part II to unlock Fairy Rings",
-      "manual": true
-    },
-    {
-      "id": "e2-378b",
-      "title": "complete these Fairy Ring diary steps:",
-      "text": "complete these Fairy Ring diary steps:",
+      "text": "Continue Fairytale Part II to unlock Fairy Rings, complete these Fairy Ring diary steps:",
       "manual": true
     },
     {
@@ -5688,19 +5435,13 @@
       "id": "e2-384",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-385",
@@ -5763,15 +5504,9 @@
       "manual": true
     },
     {
-      "id": "e2-390a",
+      "id": "e2-390",
       "title": "Harvest some mighty fine potatoes north …",
-      "text": "Harvest some mighty fine potatoes north of the cows",
-      "manual": true
-    },
-    {
-      "id": "e2-390b",
-      "title": "fill both Sacks with the taters …",
-      "text": "fill both Sacks with the taters [Enlightened Journey][Mournings End Pt 2]",
+      "text": "Harvest some mighty fine potatoes north of the cows, fill both Sacks with the taters [Enlightened Journey][Mournings End Pt 2]",
       "complete": {
         "op": "quest",
         "quest": "ENLIGHTENED_JOURNEY",
@@ -5829,19 +5564,13 @@
       "id": "e2-393",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-394",
@@ -6191,19 +5920,13 @@
       "id": "e2-420",
       "title": "Go out on the Fishing Trawler …",
       "text": "Go out on the Fishing Trawler (W370) [Ardougne Easy Diary]",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-421",
@@ -6268,19 +5991,13 @@
       "id": "e2-425",
       "title": "Enter Combat Training Camp to complete …",
       "text": "Enter Combat Training Camp to complete Ardougne Easy Diary",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-426a",
@@ -6337,18 +6054,12 @@
       "id": "e2-431a",
       "title": "Enter the Champions' Guild",
       "text": "Enter the Champions' Guild",
+      "manual": true,
       "world": [
         3191,
         3357,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3191,
-        "y": 3357,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-431b",
@@ -6499,7 +6210,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -6588,19 +6299,13 @@
       "id": "e2-449",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-450",
@@ -6626,7 +6331,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -6650,19 +6355,13 @@
       "id": "e2-453b",
       "title": "Teleport Runes, Sawmill Proposal, Dramen Staff, …",
       "text": "Teleport Runes, Sawmill Proposal, Dramen Staff, Antipoison, Spade, 6x Wines, Antique Lamp (16 Inventory Slots)",
+      "manual": true,
       "npc": 3101,
       "world": [
         3302,
         3492,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3302,
-        "y": 3492,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-454",
@@ -6896,7 +6595,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -6983,35 +6682,17 @@
     {
       "id": "e2-483a",
       "title": "NOTE: To quickly get back to …",
-      "text": "NOTE: To quickly get back to the Digsite barge: Tele to Lumbridge",
+      "text": "NOTE: To quickly get back to the Digsite barge: Tele to Lumbridge, Run East to Al Kharid gnome glider",
       "manual": true,
-      "object": 24009,
-      "world": [
-        3227,
-        3257,
-        0
-      ]
-    },
-    {
-      "id": "e2-483b",
-      "title": "Run East to Al Kharid gnome …",
-      "text": "Run East to Al Kharid gnome glider",
       "npc": 10452,
       "world": [
         3284,
         3213,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3284,
-        "y": 3213,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
-      "id": "e2-483c",
+      "id": "e2-483b",
       "title": "travel to \"Lemanto Andra\"",
       "text": "travel to \"Lemanto Andra\"",
       "manual": true
@@ -7087,15 +6768,9 @@
       ]
     },
     {
-      "id": "e2-494a",
-      "title": "Dive without Apparatus",
-      "text": "Dive without Apparatus",
-      "manual": true
-    },
-    {
-      "id": "e2-494b",
-      "title": "collect 2-4 Seaweed Spores while fletching …",
-      "text": "collect 2-4 Seaweed Spores while fletching Headless Arrows",
+      "id": "e2-494",
+      "title": "Dive without Apparatus, collect 2-4 Seaweed …",
+      "text": "Dive without Apparatus, collect 2-4 Seaweed Spores while fletching Headless Arrows",
       "complete": {
         "op": "or",
         "of": [
@@ -7522,7 +7197,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -7660,19 +7335,13 @@
       "id": "e2-531",
       "title": "Head to Edgeville Bank",
       "text": "Head to Edgeville Bank",
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-532a",
@@ -7806,7 +7475,7 @@
         "x": 2624,
         "y": 3300,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8181,7 +7850,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8202,21 +7871,15 @@
       ]
     },
     {
-      "id": "e2-569a",
+      "id": "e2-569",
       "title": "Do Tithe Farm until 62 Farming …",
-      "text": "Do Tithe Farm until 62 Farming (34-54 sucks, 54-62 cozy) [Do Birdhouse runs & Seaweed runs during",
+      "text": "Do Tithe Farm until 62 Farming (34-54 sucks, 54-62 cozy) [Do Birdhouse runs & Seaweed runs during, plant any good trees from birdhouses]",
       "complete": {
         "op": "skill",
         "skill": "FARMING",
         "level": 62,
         "cmp": ">="
       }
-    },
-    {
-      "id": "e2-569b",
-      "title": "plant any good trees from birdhouses]",
-      "text": "plant any good trees from birdhouses]",
-      "manual": true
     },
     {
       "id": "e2-570",
@@ -8322,7 +7985,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8394,7 +8057,7 @@
     {
       "id": "e2-583a",
       "title": "If you accidentally drink or burn …",
-      "text": "If you accidentally drink or burn one run to edgeville",
+      "text": "If you accidentally drink or burn one run to edgeville, grab gloves spawn",
       "manual": true,
       "object": 1581,
       "world": [
@@ -8405,12 +8068,6 @@
     },
     {
       "id": "e2-583b",
-      "title": "grab gloves spawn",
-      "text": "grab gloves spawn",
-      "manual": true
-    },
-    {
-      "id": "e2-583c",
       "title": "pick nettles next to yew tree",
       "text": "pick nettles next to yew tree",
       "manual": true,
@@ -8436,18 +8093,12 @@
       "id": "e2-585",
       "title": "Enter Farming Guild [Kourend Medium Diary]",
       "text": "Enter Farming Guild [Kourend Medium Diary]",
+      "manual": true,
       "world": [
         1249,
         3737,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1249,
-        "y": 3737,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e2-586",
@@ -8472,15 +8123,9 @@
       "item": 7178
     },
     {
-      "id": "e2-587a",
+      "id": "e2-587",
       "title": "Boost with pie for Medium Contract. …",
-      "text": "Boost with pie for Medium Contract. Thieve Masterfarmers for the correct Seeds",
-      "manual": true
-    },
-    {
-      "id": "e2-587b",
-      "title": "plant them",
-      "text": "plant them",
+      "text": "Boost with pie for Medium Contract. Thieve Masterfarmers for the correct Seeds, plant them",
       "manual": true
     },
     {
@@ -8557,9 +8202,9 @@
       ]
     },
     {
-      "id": "e2-594a",
-      "title": "OPTIONAL: Buy 22 Baskets",
-      "text": "OPTIONAL: Buy 22 Baskets",
+      "id": "e2-594",
+      "title": "OPTIONAL: Buy 22 Baskets, fill with …",
+      "text": "OPTIONAL: Buy 22 Baskets, fill with oranges at Grand Tree to protect Maples",
       "complete": {
         "op": "or",
         "of": [
@@ -8576,13 +8221,7 @@
           }
         ]
       },
-      "item": 5376
-    },
-    {
-      "id": "e2-594b",
-      "title": "fill with oranges at Grand Tree …",
-      "text": "fill with oranges at Grand Tree to protect Maples",
-      "manual": true,
+      "item": 5376,
       "world": [
         3165,
         3490,

@@ -375,8 +375,12 @@ def heading(name: str, words: int = 6) -> str:
 # Imperative verbs that begin a distinct action; a separator (,/;/./then/and) only starts a NEW atom
 # when the text after it begins with one of these, so "buy a bucket and a rope" stays one task but
 # "buy a bucket and run to the bank" splits.
-TRAVEL_VERBS = {"go", "head", "run", "walk", "travel", "enter", "climb", "cross", "return", "teleport"}
+# PURE-arrival verbs: "go to X" completes just by being at X. Deliberately excludes return/enter/climb/
+# cross — those usually head an INTERACTION ("Return to Aggie", "Climb the ladder"), so they must not get
+# an arrival trigger; they remain action verbs (below) for splitting only.
+TRAVEL_VERBS = {"go", "head", "run", "walk", "travel", "teleport"}  # "make your way" via is_travel special case
 ACTION_VERBS = TRAVEL_VERBS | {
+    "return", "enter", "climb", "cross",  # split boundaries, but NOT pure-arrival travel
     "talk", "speak", "get", "grab", "pick", "take", "buy", "sell", "mine", "chop", "cut", "fish",
     "catch", "cook", "use", "craft", "smith", "smelt", "kill", "cast", "equip", "wield", "wear",
     "drop", "bank", "withdraw", "deposit", "open", "search", "pray", "pickpocket", "steal", "plant",
@@ -425,6 +429,11 @@ def split_atoms(name):
             merged[-1] = (merged[-1] + " " + a).strip()
         else:
             merged.append(a)
+    # A leading non-action fragment ("In Lumbridge, talk to Hans") has no previous atom to merge into,
+    # so fold it forward into the first real action rather than shipping it as a junk step.
+    if len(merged) >= 2 and not _starts_with_action(merged[0]):
+        merged[1] = (merged[0] + ", " + merged[1]).strip()
+        merged.pop(0)
     return merged or [s]
 
 
@@ -437,7 +446,8 @@ def is_travel(name):
     return bool(m) and m.group(1) in TRAVEL_VERBS
 
 
-TRAVEL_RADIUS = 10  # tiles; "arrived at the area" is coarse, so a bit wider than an exact-tile task
+TRAVEL_RADIUS = 8  # tiles; wide enough to register an area arrival, tight enough that adjacent
+                   # waypoints in one town don't overlap too much (kept small on purpose)
 
 
 def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative, total_needed, entities,
@@ -484,9 +494,11 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
         if world:
             step["world"] = world
     # A pure-travel atom with a destination auto-completes on ARRIVAL: attach a position trigger so
-    # "go to X" advances by itself. Only when the atom is still manual (no skill/quest/item goal) — a
-    # talk/interact step must not complete just from walking past it.
-    if step.get("manual") and "world" in step and is_travel(name):
+    # "go to X" advances by itself. Only when the atom is still manual (no skill/quest/item goal) AND
+    # resolved no interaction target — a talk/interact step (npc/object) must not complete from walking
+    # past it, even if phrased with a travel verb ("Return to Aggie").
+    if (step.get("manual") and "world" in step and is_travel(name)
+            and "npc" not in step and "object" not in step):
         x, y, z = step["world"]
         step["complete"] = {"op": "position", "x": x, "y": y, "z": z, "radius": TRAVEL_RADIUS}
         del step["manual"]

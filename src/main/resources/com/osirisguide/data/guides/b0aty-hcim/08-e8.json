@@ -4,9 +4,9 @@
   "section": "Episode 8 - Herblore through Perilous Moons",
   "steps": [
     {
-      "id": "e8-001a",
+      "id": "e8-001",
       "title": "Dump all your herblore experience. If …",
-      "text": "Dump all your herblore experience. If 70 achieved, skip to completing Song of the Elves",
+      "text": "Dump all your herblore experience. If 70 achieved, skip to completing Song of the Elves, return to this step",
       "complete": {
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
@@ -17,12 +17,6 @@
         3337,
         0
       ]
-    },
-    {
-      "id": "e8-001b",
-      "title": "return to this step",
-      "text": "return to this step",
-      "manual": true
     },
     {
       "id": "e8-002",
@@ -71,25 +65,13 @@
       "item": 2363
     },
     {
-      "id": "e8-006a",
+      "id": "e8-006",
       "title": "Runite Bar - If crystal key …",
-      "text": "Runite Bar - If crystal key open Crystal Chest in Taverley. If not/no luck",
-      "manual": true,
-      "object": 16680,
-      "world": [
-        2884,
-        3397,
-        0
-      ]
-    },
-    {
-      "id": "e8-006b",
-      "title": "trade Rune Legs in at the …",
-      "text": "trade Rune Legs in at the Nest in Aldarin for guaranteed Runite Bar",
+      "text": "Runite Bar - If crystal key open Crystal Chest in Taverley. If not/no luck, trade Rune Legs in at the Nest in Aldarin for guaranteed Runite Bar",
       "manual": true,
       "world": [
-        1391,
-        2935,
+        2910,
+        3451,
         0
       ]
     },
@@ -198,9 +180,9 @@
       ]
     },
     {
-      "id": "e8-018a",
+      "id": "e8-018",
       "title": "While doing Perilous Moons you should …",
-      "text": "While doing Perilous Moons you should hopefully bank",
+      "text": "While doing Perilous Moons you should hopefully bank, finish off 70 herblore if not already",
       "complete": {
         "op": "quest",
         "quest": "PERILOUS_MOONS",
@@ -211,12 +193,6 @@
         3124,
         0
       ]
-    },
-    {
-      "id": "e8-018b",
-      "title": "finish off 70 herblore if not …",
-      "text": "finish off 70 herblore if not already",
-      "manual": true
     },
     {
       "id": "e8-019",
@@ -234,15 +210,9 @@
       ]
     },
     {
-      "id": "e8-020a",
-      "title": "Supercompost: Mine 2:1 Volcanic Ash:Compost",
-      "text": "Supercompost: Mine 2:1 Volcanic Ash:Compost",
-      "manual": true
-    },
-    {
-      "id": "e8-020b",
-      "title": "turn them into Ultra Compost",
-      "text": "turn them into Ultra Compost",
+      "id": "e8-020",
+      "title": "Supercompost: Mine 2:1 Volcanic Ash:Compost, turn …",
+      "text": "Supercompost: Mine 2:1 Volcanic Ash:Compost, turn them into Ultra Compost",
       "manual": true
     },
     {

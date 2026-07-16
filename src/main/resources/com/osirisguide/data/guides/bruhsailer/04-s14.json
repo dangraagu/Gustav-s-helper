@@ -137,7 +137,7 @@
     {
       "id": "s14-010a",
       "title": "Blast Furnace minigame teleport, harvest the …",
-      "text": "Blast Furnace minigame teleport, harvest the kelda hops",
+      "text": "Blast Furnace minigame teleport, harvest the kelda hops, start the brewing/fermenting process",
       "manual": true,
       "world": [
         2930,
@@ -147,12 +147,6 @@
     },
     {
       "id": "s14-010b",
-      "title": "start the brewing/fermenting process",
-      "text": "start the brewing/fermenting process",
-      "manual": true
-    },
-    {
-      "id": "s14-010c",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
       "world": [
@@ -165,11 +159,11 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
-      "id": "s14-010d",
+      "id": "s14-010c",
       "title": "complete Holy Grail",
       "text": "complete Holy Grail",
       "complete": {

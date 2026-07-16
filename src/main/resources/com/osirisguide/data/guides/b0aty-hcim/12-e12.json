@@ -34,7 +34,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -102,7 +102,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -212,7 +212,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -237,19 +237,13 @@
       "id": "e12-021",
       "title": "Head South-East back to Emelio",
       "text": "Head South-East back to Emelio",
+      "manual": true,
       "npc": 13804,
       "world": [
         1753,
         3074,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1753,
-        "y": 3074,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e12-022",
@@ -337,7 +331,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -461,7 +455,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -562,7 +556,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -669,7 +663,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1074,7 +1068,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1093,19 +1087,13 @@
       "id": "e12-089",
       "title": "Teleport to Ape Atoll",
       "text": "Teleport to Ape Atoll",
+      "manual": true,
       "npc": 1454,
       "world": [
         2892,
         2723,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2892,
-        "y": 2723,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e12-090",
@@ -1187,13 +1175,7 @@
     {
       "id": "e12-096a",
       "title": "With this set up, Teleports should …",
-      "text": "With this set up, Teleports should roughly self sustain. Outside of that",
-      "manual": true
-    },
-    {
-      "id": "e12-096b",
-      "title": "bank with Lunar Spell to Catherby",
-      "text": "bank with Lunar Spell to Catherby",
+      "text": "With this set up, Teleports should roughly self sustain. Outside of that, bank with Lunar Spell to Catherby",
       "manual": true,
       "npc": 1520,
       "world": [
@@ -1203,7 +1185,7 @@
       ]
     },
     {
-      "id": "e12-096c",
+      "id": "e12-096b",
       "title": "run from the Charter boat (Agility …",
       "text": "run from the Charter boat (Agility highly optional)",
       "manual": true

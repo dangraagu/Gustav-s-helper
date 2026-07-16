@@ -44,7 +44,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -117,19 +117,13 @@
       "id": "e5-011",
       "title": "Teleport to Essence mine via Brimstail …",
       "text": "Teleport to Essence mine via Brimstail [Western Province Easy Diary]",
+      "manual": true,
       "object": 17209,
       "world": [
         2403,
         3419,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2403,
-        "y": 3419,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-012",
@@ -172,26 +166,20 @@
         "x": 2407,
         "y": 3105,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
       "id": "e5-014",
       "title": "Head to Yanille",
       "text": "Head to Yanille",
+      "manual": true,
       "object": 17047,
       "world": [
         2556,
         3072,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2556,
-        "y": 3072,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-015",
@@ -482,19 +470,13 @@
       "id": "e5-037",
       "title": "Teleport to Ardougne & bank at …",
       "text": "Teleport to Ardougne & bank at South Bank",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-038",
@@ -574,7 +556,7 @@
         "x": 2407,
         "y": 3105,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -770,15 +752,9 @@
       ]
     },
     {
-      "id": "e5-057a",
-      "title": "Stand in the doorway",
-      "text": "Stand in the doorway",
-      "manual": true
-    },
-    {
-      "id": "e5-057b",
-      "title": "use the lens on the counter",
-      "text": "use the lens on the counter",
+      "id": "e5-057",
+      "title": "Stand in the doorway, use the …",
+      "text": "Stand in the doorway, use the lens on the counter",
       "manual": true
     },
     {
@@ -855,7 +831,7 @@
         "x": 2407,
         "y": 3105,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -923,19 +899,13 @@
       "id": "e5-069",
       "title": "Return to Yanille",
       "text": "Return to Yanille",
+      "manual": true,
       "object": 17047,
       "world": [
         2556,
         3072,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2556,
-        "y": 3072,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-070",
@@ -1020,44 +990,32 @@
         "x": 1630,
         "y": 3730,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
       "id": "e5-076",
       "title": "Run South to Land's End -> …",
       "text": "Run South to Land's End -> Boat to Port Sarim",
+      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2954,
-        "y": 3147,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-077",
       "title": "Head to Entrana",
       "text": "Head to Entrana",
+      "manual": true,
       "npc": 4062,
       "world": [
         2851,
         3350,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2851,
-        "y": 3350,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-078",
@@ -1139,7 +1097,7 @@
         "x": 2624,
         "y": 3300,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1180,21 +1138,15 @@
       ]
     },
     {
-      "id": "e5-086a",
-      "title": "Ardy Cloak Teleport",
-      "text": "Ardy Cloak Teleport",
+      "id": "e5-086",
+      "title": "Ardy Cloak Teleport, run east",
+      "text": "Ardy Cloak Teleport, run east",
       "manual": true,
       "world": [
         2624,
         3300,
         0
       ]
-    },
-    {
-      "id": "e5-086b",
-      "title": "run east",
-      "text": "run east",
-      "manual": true
     },
     {
       "id": "e5-087",
@@ -1361,7 +1313,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1390,19 +1342,13 @@
       "id": "e5-098",
       "title": "Head South to the Falador Loom …",
       "text": "Head South to the Falador Loom & craft a basket & Strip of Cloth [Falador Medium Diary]",
+      "manual": true,
       "object": 8717,
       "world": [
         3039,
         3287,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3039,
-        "y": 3287,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-099",
@@ -1477,7 +1423,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1506,19 +1452,13 @@
       "id": "e5-104",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-105",
@@ -1735,7 +1675,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1775,7 +1715,7 @@
         "x": 3137,
         "y": 3623,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1837,26 +1777,20 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
       "id": "e5-129",
       "title": "Head to Taverley",
       "text": "Head to Taverley",
+      "manual": true,
       "object": 16680,
       "world": [
         2884,
         3397,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2884,
-        "y": 3397,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-130",
@@ -1904,19 +1838,13 @@
       "id": "e5-134",
       "title": "Teleport Crystal to Lletya",
       "text": "Teleport Crystal to Lletya",
+      "manual": true,
       "npc": 1478,
       "world": [
         2327,
         3176,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2327,
-        "y": 3176,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-135",
@@ -2308,19 +2236,13 @@
       "id": "e5-165",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-166",
@@ -2334,25 +2256,14 @@
       ]
     },
     {
-      "id": "e5-167a",
+      "id": "e5-167",
       "title": "Distil the Swamp Tar in the …",
-      "text": "Distil the Swamp Tar in the Chemist",
+      "text": "Distil the Swamp Tar in the Chemist, light the Bullseye Lantern [Falador Medium Diary]",
       "manual": true,
       "npc": 1146,
       "world": [
         2933,
         3210,
-        0
-      ]
-    },
-    {
-      "id": "e5-167b",
-      "title": "light the Bullseye Lantern [Falador Medium …",
-      "text": "light the Bullseye Lantern [Falador Medium Diary]",
-      "manual": true,
-      "world": [
-        3000,
-        3360,
         0
       ]
     },
@@ -2415,19 +2326,13 @@
       "id": "e5-172",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-173",
@@ -2443,7 +2348,7 @@
         "x": 3197,
         "y": 3166,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2559,19 +2464,13 @@
       "id": "e5-182",
       "title": "Head to the Smokey well West …",
       "text": "Head to the Smokey well West of Polnivneach",
+      "manual": true,
       "object": 6279,
       "world": [
         3310,
         2962,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3310,
-        "y": 2962,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-183",
@@ -2648,13 +2547,13 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
-      "id": "e5-188a",
+      "id": "e5-188",
       "title": "[If you didn't get Yew Logs …",
-      "text": "[If you didn't get Yew Logs from Todt",
+      "text": "[If you didn't get Yew Logs from Todt, Cut them]",
       "manual": true,
       "world": [
         3165,
@@ -2663,28 +2562,16 @@
       ]
     },
     {
-      "id": "e5-188b",
-      "title": "Cut them]",
-      "text": "Cut them]",
-      "manual": true
-    },
-    {
       "id": "e5-189",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-190",
@@ -2747,7 +2634,7 @@
         "x": 3103,
         "y": 3265,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2770,19 +2657,13 @@
       "id": "e5-197",
       "title": "Head to Entrana",
       "text": "Head to Entrana",
+      "manual": true,
       "npc": 4062,
       "world": [
         2851,
         3350,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2851,
-        "y": 3350,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-198",
@@ -2874,7 +2755,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2897,7 +2778,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2982,7 +2863,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3070,19 +2951,13 @@
       "id": "e5-222",
       "title": "Head down the Southern Trapdoor",
       "text": "Head down the Southern Trapdoor",
+      "manual": true,
       "object": 1579,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-223",
@@ -3133,15 +3008,9 @@
       "manual": true
     },
     {
-      "id": "e5-230a",
-      "title": "If the most gargle RNG",
-      "text": "If the most gargle RNG",
-      "manual": true
-    },
-    {
-      "id": "e5-230b",
-      "title": "buy more lockpicks at Rogues' Den",
-      "text": "buy more lockpicks at Rogues' Den",
+      "id": "e5-230",
+      "title": "If the most gargle RNG, buy …",
+      "text": "If the most gargle RNG, buy more lockpicks at Rogues' Den",
       "complete": {
         "op": "or",
         "of": [
@@ -3169,19 +3038,13 @@
       "id": "e5-231",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-232",
@@ -3209,26 +3072,20 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
       "id": "e5-234",
       "title": "Head to Rasolo",
       "text": "Head to Rasolo",
+      "manual": true,
       "npc": 679,
       "world": [
         2531,
         3420,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2531,
-        "y": 3420,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-235",
@@ -3290,7 +3147,7 @@
         "x": 2891,
         "y": 3678,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3347,7 +3204,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3382,7 +3239,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3450,15 +3307,9 @@
       "manual": true
     },
     {
-      "id": "e5-253a",
-      "title": "Grind the Cod/Kelp & Crab Meat",
-      "text": "Grind the Cod/Kelp & Crab Meat",
-      "manual": true
-    },
-    {
-      "id": "e5-253b",
-      "title": "Cut the bread into Chunks",
-      "text": "Cut the bread into Chunks",
+      "id": "e5-253",
+      "title": "Grind the Cod/Kelp & Crab Meat, …",
+      "text": "Grind the Cod/Kelp & Crab Meat, Cut the bread into Chunks",
       "manual": true
     },
     {
@@ -3505,19 +3356,13 @@
       "id": "e5-257",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-258",
@@ -3669,19 +3514,13 @@
       "id": "e5-272",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-273",
@@ -3847,7 +3686,7 @@
     {
       "id": "e5-286a",
       "title": "(Check Western Province Hard Diary: If …",
-      "text": "(Check Western Province Hard Diary: If you failed the Ape Atoll lap during the quest",
+      "text": "(Check Western Province Hard Diary: If you failed the Ape Atoll lap during the quest, complete it now",
       "manual": true,
       "npc": 1454,
       "world": [
@@ -3858,12 +3697,6 @@
     },
     {
       "id": "e5-286b",
-      "title": "complete it now",
-      "text": "complete it now",
-      "manual": true
-    },
-    {
-      "id": "e5-286c",
       "title": "WITHDRAW NINJA GREEGREE)",
       "text": "WITHDRAW NINJA GREEGREE)",
       "manual": true,
@@ -3878,19 +3711,13 @@
       "id": "e5-287",
       "title": "Teleport to Ape Atoll [Western Province …",
       "text": "Teleport to Ape Atoll [Western Province Hard Diary] < Do this even if the lap is complete",
+      "manual": true,
       "npc": 1454,
       "world": [
         2892,
         2723,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2892,
-        "y": 2723,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e5-288",

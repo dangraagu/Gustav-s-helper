@@ -49,8 +49,8 @@ def build(raw_path, item_map, quest_map, entities):
             if not nm:
                 continue
             atoms = sg.split_atoms(nm)
-            for i, atom in enumerate(atoms):
-                sub = None if len(atoms) == 1 else (chr(97 + i) if i < 26 else str(i))
+            for ai, atom in enumerate(atoms):  # NOT 'i' — that's the section index used for the filename
+                sub = None if len(atoms) == 1 else (chr(97 + ai) if ai < 26 else str(ai))
                 steps.append(sg.build_step(prefix, pos, atom, st.get("loc"), None,
                                            item_map, quest_map, cumulative, total_needed, entities, sub=sub))
         if not steps:

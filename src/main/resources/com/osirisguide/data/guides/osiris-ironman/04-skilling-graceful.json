@@ -283,15 +283,9 @@
       ]
     },
     {
-      "id": "sg-022a",
-      "title": "Construction method: Make 10+ dueling rings",
-      "text": "Construction method: Make 10+ dueling rings\nLocation: Various",
-      "manual": true
-    },
-    {
-      "id": "sg-022b",
-      "title": "equip whichever axe you got from",
-      "text": "equip whichever axe you got from\nLocation: Various",
+      "id": "sg-022",
+      "title": "Construction method: Make 10+ dueling rings, …",
+      "text": "Construction method: Make 10+ dueling rings, equip whichever axe you got from\nLocation: Various",
       "manual": true
     },
     {
@@ -329,8 +323,8 @@
     },
     {
       "id": "sg-024a",
-      "title": "Balloon to Varrock",
-      "text": "Balloon to Varrock\nLocation: Varrock",
+      "title": "Balloon to Varrock, cut full inventory …",
+      "text": "Balloon to Varrock, cut full inventory of oak logs\nLocation: Varrock",
       "manual": true,
       "world": [
         3210,
@@ -340,17 +334,6 @@
     },
     {
       "id": "sg-024b",
-      "title": "cut full inventory of oak logs",
-      "text": "cut full inventory of oak logs\nLocation: Varrock",
-      "manual": true,
-      "world": [
-        3210,
-        3448,
-        0
-      ]
-    },
-    {
-      "id": "sg-024c",
       "title": "turn them into planks",
       "text": "turn them into planks\nLocation: Varrock",
       "manual": true,
@@ -374,7 +357,7 @@
         "x": 2407,
         "y": 3105,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -422,15 +405,9 @@
       "manual": true
     },
     {
-      "id": "sg-030a",
+      "id": "sg-030",
       "title": "I'll assume you have fletched all …",
-      "text": "I'll assume you have fletched all of them now, if you haven't\nLocation: Various",
-      "manual": true
-    },
-    {
-      "id": "sg-030b",
-      "title": "finish the",
-      "text": "finish the\nLocation: Various",
+      "text": "I'll assume you have fletched all of them now, if you haven't, finish the\nLocation: Various",
       "manual": true
     },
     {
@@ -447,7 +424,7 @@
         "x": 3730,
         "y": 3807,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -504,20 +481,9 @@
       ]
     },
     {
-      "id": "sg-036a",
+      "id": "sg-036",
       "title": "If u have any molten glass …",
-      "text": "If u have any molten glass left, blow all of it into unpowered orbs\nLocation: Fossil Island",
-      "manual": true,
-      "world": [
-        3730,
-        3807,
-        0
-      ]
-    },
-    {
-      "id": "sg-036b",
-      "title": "make 2 l",
-      "text": "make 2 l\nLocation: Fossil Island",
+      "text": "If u have any molten glass left, blow all of it into unpowered orbs, make 2 l\nLocation: Fossil Island",
       "manual": true,
       "world": [
         3730,
@@ -583,19 +549,13 @@
       "id": "sg-040",
       "title": "Go to Edgeville",
       "text": "Go to Edgeville\nLocation: Edgeville",
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "sg-041",
@@ -609,20 +569,9 @@
       ]
     },
     {
-      "id": "sg-042a",
-      "title": "If you have 60 magic",
-      "text": "If you have 60 magic\nLocation: Mage Bank",
-      "manual": true,
-      "world": [
-        3090,
-        3956,
-        0
-      ]
-    },
-    {
-      "id": "sg-042b",
-      "title": "get mage arena cape while you're …",
-      "text": "get mage arena cape while you're here anyway\nLocation: Mage Bank",
+      "id": "sg-042",
+      "title": "If you have 60 magic, get …",
+      "text": "If you have 60 magic, get mage arena cape while you're here anyway\nLocation: Mage Bank",
       "manual": true,
       "world": [
         3090,
@@ -675,20 +624,9 @@
       ]
     },
     {
-      "id": "sg-046a",
+      "id": "sg-046",
       "title": "If you want a break from …",
-      "text": "If you want a break from agility\nLocation: Karamja",
-      "manual": true,
-      "world": [
-        2843,
-        3070,
-        0
-      ]
-    },
-    {
-      "id": "sg-046b",
-      "title": "fish 3k raw karambwans. Banking at …",
-      "text": "fish 3k raw karambwans. Banking at Zanaris\nLocation: Karamja",
+      "text": "If you want a break from agility, fish 3k raw karambwans. Banking at Zanaris\nLocation: Karamja",
       "manual": true,
       "object": 2406,
       "world": [
@@ -709,20 +647,9 @@
       ]
     },
     {
-      "id": "sg-048a",
-      "title": "Kingdom reminder! If u haven't already",
-      "text": "Kingdom reminder! If u haven't already\nLocation: Miscellania",
-      "manual": true,
-      "world": [
-        2560,
-        3870,
-        0
-      ]
-    },
-    {
-      "id": "sg-048b",
-      "title": "take out all gp from the …",
-      "text": "take out all gp from the coffers afte\nLocation: Miscellania",
+      "id": "sg-048",
+      "title": "Kingdom reminder! If u haven't already, …",
+      "text": "Kingdom reminder! If u haven't already, take out all gp from the coffers afte\nLocation: Miscellania",
       "manual": true,
       "world": [
         2560,

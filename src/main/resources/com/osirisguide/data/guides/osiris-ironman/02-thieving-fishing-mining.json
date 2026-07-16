@@ -19,21 +19,9 @@
       ]
     },
     {
-      "id": "tfm-002a",
-      "title": "From Ali Morrisane",
-      "text": "From Ali Morrisane\nLocation: Al Kharid",
-      "manual": true,
-      "npc": 3533,
-      "world": [
-        3304,
-        3211,
-        0
-      ]
-    },
-    {
-      "id": "tfm-002b",
-      "title": "buy the desert disguise for The …",
-      "text": "buy the desert disguise for The Feud quest\nLocation: Al Kharid",
+      "id": "tfm-002",
+      "title": "From Ali Morrisane, buy the desert …",
+      "text": "From Ali Morrisane, buy the desert disguise for The Feud quest\nLocation: Al Kharid",
       "complete": {
         "op": "quest",
         "quest": "THE_FEUD",
@@ -114,9 +102,9 @@
       ]
     },
     {
-      "id": "tfm-007a",
+      "id": "tfm-007",
       "title": "IF you're planning on 3-tick fishing …",
-      "text": "IF you're planning on 3-tick fishing then home tele to lumby\nLocation: Lumbridge",
+      "text": "IF you're planning on 3-tick fishing then home tele to lumby, pick up 15+\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -125,31 +113,9 @@
       ]
     },
     {
-      "id": "tfm-007b",
-      "title": "pick up 15+",
-      "text": "pick up 15+\nLocation: Lumbridge",
-      "manual": true,
-      "world": [
-        3222,
-        3218,
-        0
-      ]
-    },
-    {
-      "id": "tfm-008a",
-      "title": "Ardy cloak tele",
-      "text": "Ardy cloak tele\nLocation: Ardougne",
-      "manual": true,
-      "world": [
-        2624,
-        3300,
-        0
-      ]
-    },
-    {
-      "id": "tfm-008b",
-      "title": "take the boat from Ardy to …",
-      "text": "take the boat from Ardy to brimhaven\nLocation: Ardougne",
+      "id": "tfm-008",
+      "title": "Ardy cloak tele, take the boat …",
+      "text": "Ardy cloak tele, take the boat from Ardy to brimhaven\nLocation: Ardougne",
       "manual": true,
       "object": 10805,
       "world": [
@@ -322,7 +288,7 @@
         "x": 3358,
         "y": 2974,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -409,19 +375,13 @@
       "id": "tfm-026a",
       "title": "Go to Edgeville",
       "text": "Go to Edgeville\nLocation: Edgeville",
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "tfm-026b",
@@ -449,7 +409,7 @@
         "x": 3090,
         "y": 3956,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -477,7 +437,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {

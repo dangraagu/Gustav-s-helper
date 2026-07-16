@@ -116,7 +116,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -168,19 +168,13 @@
       "id": "e4-013",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-014",
@@ -203,19 +197,13 @@
       "id": "e4-016a",
       "title": "Head to Port Sarim",
       "text": "Head to Port Sarim",
+      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2954,
-        "y": 3147,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-016b",
@@ -306,7 +294,7 @@
         "x": 3103,
         "y": 3265,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -375,7 +363,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -434,47 +422,24 @@
       "id": "e4-031",
       "title": "Head South to Lady Lumbridge",
       "text": "Head South to Lady Lumbridge",
+      "manual": true,
       "npc": 3530,
       "world": [
         2924,
         3404,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2924,
-        "y": 3404,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
-      "id": "e4-032a",
+      "id": "e4-032",
       "title": "When you climb down the rope …",
-      "text": "When you climb down the rope at Crandor",
+      "text": "When you climb down the rope at Crandor, climb up again [Karamja Medium Diary]",
       "manual": true,
       "world": [
         2836,
         3271,
         0
       ]
-    },
-    {
-      "id": "e4-032b",
-      "title": "climb up again [Karamja Medium Diary]",
-      "text": "climb up again [Karamja Medium Diary]",
-      "world": [
-        2843,
-        3070,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2843,
-        "y": 3070,
-        "z": 0,
-        "radius": 10
-      }
     },
     {
       "id": "e4-033",
@@ -547,19 +512,13 @@
       "id": "e4-039",
       "title": "Head to Edgeville by right clicking …",
       "text": "Head to Edgeville by right clicking the Soul Wars portal",
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-040",
@@ -641,7 +600,7 @@
         "x": 3493,
         "y": 3488,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -666,37 +625,25 @@
       "id": "e4-050",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-051",
       "title": "Head to Ardougne Allotment Patch",
       "text": "Head to Ardougne Allotment Patch",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-052",
@@ -735,26 +682,20 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
       "id": "e4-055",
       "title": "Head to Catherby Allotment Patch",
       "text": "Head to Catherby Allotment Patch",
+      "manual": true,
       "npc": 1520,
       "world": [
         2841,
         3432,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2841,
-        "y": 3432,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-056",
@@ -998,7 +939,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1021,7 +962,7 @@
         "x": 3010,
         "y": 3486,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1040,19 +981,13 @@
       "id": "e4-078b",
       "title": "enter the Dwarven Mine",
       "text": "enter the Dwarven Mine",
+      "manual": true,
       "object": 11867,
       "world": [
         3019,
         3450,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3019,
-        "y": 3450,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-079",
@@ -1083,7 +1018,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1231,37 +1166,25 @@
       "id": "e4-093",
       "title": "Head South & pray at the …",
       "text": "Head South & pray at the Guthix Altar [Falador Medium Diary]",
+      "manual": true,
       "object": 410,
       "world": [
         2925,
         3483,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2925,
-        "y": 3483,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-094",
       "title": "Head South & talk to Alain …",
       "text": "Head South & talk to Alain at the Taverley Tree Patch (1)[Garden of Tranquility]",
+      "manual": true,
       "npc": 2678,
       "world": [
         2936,
         3438,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2936,
-        "y": 3438,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-095",
@@ -1283,7 +1206,7 @@
         "x": 2870,
         "y": 3544,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1387,7 +1310,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1430,19 +1353,13 @@
       "id": "e4-107",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-108",
@@ -1460,19 +1377,13 @@
       "id": "e4-109",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-110",
@@ -1503,7 +1414,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1573,7 +1484,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1674,19 +1585,13 @@
       "id": "e4-127",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-128",
@@ -1775,19 +1680,13 @@
       "id": "e4-133",
       "title": "Head to Ardougne Zoo",
       "text": "Head to Ardougne Zoo",
+      "manual": true,
       "npc": 845,
       "world": [
         2596,
         3270,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2596,
-        "y": 3270,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-134",
@@ -1868,7 +1767,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2117,7 +2016,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2165,19 +2064,13 @@
       "id": "e4-163",
       "title": "Head to Keldagrim",
       "text": "Head to Keldagrim",
+      "manual": true,
       "object": 5008,
       "world": [
         2732,
         3713,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2732,
-        "y": 3713,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-164",
@@ -2269,7 +2162,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2366,37 +2259,25 @@
       "id": "e4-176",
       "title": "Head to Taverley",
       "text": "Head to Taverley",
+      "manual": true,
       "object": 16680,
       "world": [
         2884,
         3397,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2884,
-        "y": 3397,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-177a",
       "title": "Enter the White Wolf Tunnel",
       "text": "Enter the White Wolf Tunnel",
+      "manual": true,
       "npc": 106,
       "world": [
         2591,
         2966,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2591,
-        "y": 2966,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-177b",
@@ -2417,19 +2298,13 @@
       "id": "e4-178",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-179",
@@ -2449,20 +2324,9 @@
       "manual": true
     },
     {
-      "id": "e4-181a",
+      "id": "e4-181",
       "title": "[Optional] Wait for a farming growth …",
-      "text": "[Optional] Wait for a farming growth cycle",
-      "manual": true,
-      "world": [
-        1630,
-        3981,
-        0
-      ]
-    },
-    {
-      "id": "e4-181b",
-      "title": "pick a fruit from the White …",
-      "text": "pick a fruit from the White Tree or do it at a later step. [Varrock Medium Diary]",
+      "text": "[Optional] Wait for a farming growth cycle, pick a fruit from the White Tree or do it at a later step. [Varrock Medium Diary]",
       "manual": true,
       "world": [
         3210,
@@ -2484,7 +2348,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2530,19 +2394,13 @@
       "id": "e4-186",
       "title": "Head to Varrock Sewer",
       "text": "Head to Varrock Sewer",
+      "manual": true,
       "object": 882,
       "world": [
         3237,
         3458,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3237,
-        "y": 3458,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-187",
@@ -2622,19 +2480,13 @@
       "id": "e4-193",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-194",
@@ -2670,19 +2522,13 @@
       "id": "e4-196",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-197",
@@ -2849,18 +2695,12 @@
     },
     {
       "id": "e4-209a",
-      "title": "OPTIONAL: If you feel like it",
-      "text": "OPTIONAL: If you feel like it",
+      "title": "OPTIONAL: If you feel like it, …",
+      "text": "OPTIONAL: If you feel like it, fill your inventory with empty buckets from the crates at the end of each game",
       "manual": true
     },
     {
       "id": "e4-209b",
-      "title": "fill your inventory with empty buckets …",
-      "text": "fill your inventory with empty buckets from the crates at the end of each game",
-      "manual": true
-    },
-    {
-      "id": "e4-209c",
       "title": "bank them, can bank 1000+ throughout …",
       "text": "bank them, can bank 1000+ throughout the grind doing so",
       "manual": true
@@ -2875,12 +2715,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 53
+            "qty": 34
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -2957,21 +2797,15 @@
       }
     },
     {
-      "id": "e4-216a",
-      "title": "Minigame teleport to Burthorpe Games Room",
-      "text": "Minigame teleport to Burthorpe Games Room",
+      "id": "e4-216",
+      "title": "Minigame teleport to Burthorpe Games Room, …",
+      "text": "Minigame teleport to Burthorpe Games Room, go upstairs",
       "manual": true,
       "world": [
         2870,
         3544,
         0
       ]
-    },
-    {
-      "id": "e4-216b",
-      "title": "go upstairs",
-      "text": "go upstairs",
-      "manual": true
     },
     {
       "id": "e4-217",
@@ -2998,19 +2832,13 @@
       "id": "e4-219",
       "title": "Head into Rogues Den",
       "text": "Head into Rogues Den",
+      "manual": true,
       "object": 7257,
       "world": [
         2905,
         3537,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2905,
-        "y": 3537,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-220",
@@ -3040,19 +2868,13 @@
       "id": "e4-222",
       "title": "Head to Edgeville (Minigames Teleport > …",
       "text": "Head to Edgeville (Minigames Teleport > Soul Wars or Fairy Ring > DKR)",
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-223",
@@ -3254,19 +3076,13 @@
       "id": "e4-242",
       "title": "Teleport to Kourend Castle",
       "text": "Teleport to Kourend Castle",
+      "manual": true,
       "object": 18258,
       "world": [
         1617,
         3673,
         2
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1617,
-        "y": 3673,
-        "z": 2,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-243",
@@ -3352,18 +3168,12 @@
       "id": "e4-250",
       "title": "Return to Minecart & take to …",
       "text": "Return to Minecart & take to Shayzien East (B)",
+      "manual": true,
       "world": [
         1517,
         3592,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1517,
-        "y": 3592,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-251",
@@ -3433,15 +3243,9 @@
       ]
     },
     {
-      "id": "e4-257a",
-      "title": "Exit by entering the portal",
-      "text": "Exit by entering the portal",
-      "manual": true
-    },
-    {
-      "id": "e4-257b",
-      "title": "teleport with Istoria",
-      "text": "teleport with Istoria",
+      "id": "e4-257",
+      "title": "Exit by entering the portal, teleport …",
+      "text": "Exit by entering the portal, teleport with Istoria",
       "manual": true
     },
     {
@@ -3486,7 +3290,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3778,54 +3582,30 @@
       "id": "e4-288",
       "title": "Head west and make a raid …",
       "text": "Head west and make a raid party on the Notice Board. Scout a raid and do some CA's at Chambers of Xeric while here. You want at least 4 Combat Achievement points. The following are the easiest:",
+      "manual": true,
       "object": 29777,
       "world": [
         1232,
         3573,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1232,
-        "y": 3573,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
-      "id": "e4-289a",
-      "title": "Option 1: Scout Guardians first room",
-      "text": "Option 1: Scout Guardians first room",
+      "id": "e4-289",
+      "title": "Option 1: Scout Guardians first room, …",
+      "text": "Option 1: Scout Guardians first room, complete Dancing with Statues. (4 Points)",
       "manual": true
     },
     {
-      "id": "e4-289b",
-      "title": "complete Dancing with Statues. (4 Points)",
-      "text": "complete Dancing with Statues. (4 Points)",
+      "id": "e4-290",
+      "title": "Option 2: Scout Crabs first room, …",
+      "text": "Option 2: Scout Crabs first room, complete Playing with Lasers. (5 Points)",
       "manual": true
     },
     {
-      "id": "e4-290a",
-      "title": "Option 2: Scout Crabs first room",
-      "text": "Option 2: Scout Crabs first room",
-      "manual": true
-    },
-    {
-      "id": "e4-290b",
-      "title": "complete Playing with Lasers. (5 Points)",
-      "text": "complete Playing with Lasers. (5 Points)",
-      "manual": true
-    },
-    {
-      "id": "e4-291a",
+      "id": "e4-291",
       "title": "Option 3: Scout Ice Demon first …",
-      "text": "Option 3: Scout Ice Demon first room",
-      "manual": true
-    },
-    {
-      "id": "e4-291b",
-      "title": "complete Cryo No More, Blizzard Dodger, …",
-      "text": "complete Cryo No More, Blizzard Dodger, or Kill it with Fire. (12 points if you get all 3)",
+      "text": "Option 3: Scout Ice Demon first room, complete Cryo No More, Blizzard Dodger, or Kill it with Fire. (12 points if you get all 3)",
       "manual": true,
       "world": [
         3165,
@@ -3900,7 +3680,7 @@
         "x": 1630,
         "y": 3730,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3965,19 +3745,13 @@
       "id": "e4-302",
       "title": "Teleport to POH (Should be Hosidius)",
       "text": "Teleport to POH (Should be Hosidius)",
+      "manual": true,
       "object": 28823,
       "world": [
         1767,
         3597,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1767,
-        "y": 3597,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-303",
@@ -4015,7 +3789,7 @@
         "x": 1630,
         "y": 3730,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4072,7 +3846,7 @@
         "x": 1630,
         "y": 3730,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4141,7 +3915,7 @@
         "x": 1630,
         "y": 3730,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4181,7 +3955,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4288,7 +4062,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4317,7 +4091,7 @@
         "x": 2870,
         "y": 3544,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4332,15 +4106,9 @@
       }
     },
     {
-      "id": "e4-331a",
-      "title": "OPTIONAL: Drop 28 Salmon",
-      "text": "OPTIONAL: Drop 28 Salmon",
-      "manual": true
-    },
-    {
-      "id": "e4-331b",
-      "title": "pick one up and immediately click …",
-      "text": "pick one up and immediately click fire to fast cook",
+      "id": "e4-331",
+      "title": "OPTIONAL: Drop 28 Salmon, pick one …",
+      "text": "OPTIONAL: Drop 28 Salmon, pick one up and immediately click fire to fast cook",
       "manual": true
     },
     {
@@ -4399,7 +4167,7 @@
         "x": 2956,
         "y": 3232,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4421,18 +4189,12 @@
       "id": "e4-336",
       "title": "Climb down Ratpits entrance [Falador Medium …",
       "text": "Climb down Ratpits entrance [Falador Medium Diary]",
+      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3000,
-        "y": 3360,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-337",
@@ -4478,7 +4240,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4501,7 +4263,7 @@
         "x": 2884,
         "y": 3398,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4689,7 +4451,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4706,7 +4468,7 @@
         "x": 2702,
         "y": 3406,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4885,19 +4647,13 @@
       "id": "e4-371",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-372",
@@ -4999,19 +4755,13 @@
       "id": "e4-379",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-380",
@@ -5048,7 +4798,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5123,20 +4873,9 @@
       ]
     },
     {
-      "id": "e4-386a",
+      "id": "e4-386",
       "title": "NOTE: If the quest helper is …",
-      "text": "NOTE: If the quest helper is bugged",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
-    },
-    {
-      "id": "e4-386b",
-      "title": "grab the cooked Lava eel from …",
-      "text": "grab the cooked Lava eel from your bank",
+      "text": "NOTE: If the quest helper is bugged, grab the cooked Lava eel from your bank",
       "manual": true,
       "npc": 6593,
       "world": [
@@ -5149,19 +4888,13 @@
       "id": "e4-387",
       "title": "Head to Brimhaven",
       "text": "Head to Brimhaven",
+      "manual": true,
       "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2789,
-        "y": 3174,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-388",
@@ -5210,7 +4943,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5282,7 +5015,7 @@
         "x": 2870,
         "y": 3544,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5426,7 +5159,7 @@
         "x": 2870,
         "y": 3544,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5723,7 +5456,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5755,7 +5488,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5777,19 +5510,13 @@
       "id": "e4-428",
       "title": "Enter Ranging Guild [Kandarin Medium Diary]",
       "text": "Enter Ranging Guild [Kandarin Medium Diary]",
+      "manual": true,
       "object": 11665,
       "world": [
         2658,
         3438,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2658,
-        "y": 3438,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-429",
@@ -5858,19 +5585,13 @@
       "id": "e4-433a",
       "title": "Enter Goblin Cave south-east of the …",
       "text": "Enter Goblin Cave south-east of the Fishing Guild",
+      "manual": true,
       "object": 2,
       "world": [
         2624,
         3393,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2624,
-        "y": 3393,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-433b",
@@ -5897,19 +5618,13 @@
       "id": "e4-434",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-435",
@@ -5927,33 +5642,16 @@
       ]
     },
     {
-      "id": "e4-436a",
-      "title": "Ardy cloak teleport",
-      "text": "Ardy cloak teleport",
+      "id": "e4-436",
+      "title": "Ardy cloak teleport, head to Port …",
+      "text": "Ardy cloak teleport, head to Port Khazard",
       "manual": true,
-      "world": [
-        2624,
-        3300,
-        0
-      ]
-    },
-    {
-      "id": "e4-436b",
-      "title": "head to Port Khazard",
-      "text": "head to Port Khazard",
       "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2615,
-        "y": 3143,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-437",
@@ -5974,19 +5672,13 @@
       "id": "e4-438",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-439",
@@ -5996,14 +5688,8 @@
     },
     {
       "id": "e4-440a",
-      "title": "Exit to the kitchen",
-      "text": "Exit to the kitchen",
-      "manual": true
-    },
-    {
-      "id": "e4-440b",
-      "title": "talk to the cook about Pirate …",
-      "text": "talk to the cook about Pirate Pete",
+      "title": "Exit to the kitchen, talk to …",
+      "text": "Exit to the kitchen, talk to the cook about Pirate Pete",
       "manual": true,
       "npc": 601,
       "world": [
@@ -6013,7 +5699,7 @@
       ]
     },
     {
-      "id": "e4-440c",
+      "id": "e4-440b",
       "title": "go through all the options [Recipe …",
       "text": "go through all the options [Recipe for Disaster]",
       "complete": {
@@ -6199,15 +5885,9 @@
       }
     },
     {
-      "id": "e4-455a",
-      "title": "Hunt a Chompy, pluck it",
-      "text": "Hunt a Chompy, pluck it",
-      "manual": true
-    },
-    {
-      "id": "e4-455b",
-      "title": "take raw chompy [Recipe for Disaster]",
-      "text": "take raw chompy [Recipe for Disaster]",
+      "id": "e4-455",
+      "title": "Hunt a Chompy, pluck it, take …",
+      "text": "Hunt a Chompy, pluck it, take raw chompy [Recipe for Disaster]",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -6285,19 +5965,13 @@
       "id": "e4-462",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-463",
@@ -6366,9 +6040,9 @@
       ]
     },
     {
-      "id": "e4-467a",
-      "title": "Continue One Small Favour",
-      "text": "Continue One Small Favour",
+      "id": "e4-467",
+      "title": "Continue One Small Favour, kill Slagilith …",
+      "text": "Continue One Small Favour, kill Slagilith with your pickaxe",
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
@@ -6379,12 +6053,6 @@
         2983,
         0
       ]
-    },
-    {
-      "id": "e4-467b",
-      "title": "kill Slagilith with your pickaxe",
-      "text": "kill Slagilith with your pickaxe",
-      "manual": true
     },
     {
       "id": "e4-468",
@@ -6415,7 +6083,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -6507,7 +6175,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -6822,19 +6490,13 @@
       "id": "e4-497",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-498",
@@ -6879,21 +6541,15 @@
       ]
     },
     {
-      "id": "e4-501a",
+      "id": "e4-501",
       "title": "YOU SHOULD BE CLOSE TO 30 …",
-      "text": "YOU SHOULD BE CLOSE TO 30 HERBLORE HERE",
+      "text": "YOU SHOULD BE CLOSE TO 30 HERBLORE HERE, GET IT BEFORE YOU CONTINUE",
       "complete": {
         "op": "skill",
         "skill": "HERBLORE",
         "level": 30,
         "cmp": ">="
-      }
-    },
-    {
-      "id": "e4-501b",
-      "title": "GET IT BEFORE YOU CONTINUE",
-      "text": "GET IT BEFORE YOU CONTINUE",
-      "manual": true,
+      },
       "world": [
         3165,
         3490,
@@ -7324,7 +6980,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -7403,7 +7059,7 @@
         "x": 2870,
         "y": 3544,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -7435,7 +7091,7 @@
         "x": 2891,
         "y": 3678,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -7611,19 +7267,13 @@
       "id": "e4-555",
       "title": "Teleport to Trollheim if you can …",
       "text": "Teleport to Trollheim if you can (58+ mindbomb) else Ardy Cloak -> AJR -> Secret door North-East",
+      "manual": true,
       "object": 3762,
       "world": [
         2828,
         3647,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2828,
-        "y": 3647,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-556",
@@ -7641,12 +7291,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 54
+            "qty": 35
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -7692,19 +7342,13 @@
       "id": "e4-561",
       "title": "Head South & Enter Brimhaven Dungeon",
       "text": "Head South & Enter Brimhaven Dungeon",
+      "manual": true,
       "object": 20876,
       "world": [
         2745,
         3155,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2745,
-        "y": 3155,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-562",
@@ -7721,36 +7365,24 @@
       "id": "e4-563",
       "title": "Cross the lava [Karamja Medium Diary]",
       "text": "Cross the lava [Karamja Medium Diary]",
+      "manual": true,
       "npc": 6593,
       "world": [
         3209,
         3848,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3209,
-        "y": 3848,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-564",
       "title": "Climb the stairs [Karamja Medium Diary]",
       "text": "Climb the stairs [Karamja Medium Diary]",
+      "manual": true,
       "world": [
         2843,
         3070,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2843,
-        "y": 3070,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-565",
@@ -8248,19 +7880,13 @@
       "id": "e4-611",
       "title": "Head to Entrana",
       "text": "Head to Entrana",
+      "manual": true,
       "npc": 4062,
       "world": [
         2851,
         3350,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2851,
-        "y": 3350,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-612",
@@ -8287,19 +7913,13 @@
       "id": "e4-614",
       "title": "Return to Port Sarim",
       "text": "Return to Port Sarim",
+      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2954,
-        "y": 3147,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-615",
@@ -8360,19 +7980,13 @@
       "id": "e4-619",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-620a",
@@ -8439,19 +8053,13 @@
       "id": "e4-624",
       "title": "Head to Entrana",
       "text": "Head to Entrana",
+      "manual": true,
       "npc": 4062,
       "world": [
         2851,
         3350,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2851,
-        "y": 3350,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-625",
@@ -8496,7 +8104,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8593,7 +8201,7 @@
         "x": 3080,
         "y": 3427,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8633,7 +8241,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8677,7 +8285,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8705,7 +8313,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8773,7 +8381,7 @@
         "x": 2870,
         "y": 3544,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -8946,9 +8554,9 @@
       ]
     },
     {
-      "id": "e4-661a",
-      "title": "From Jossik get a Unholy book",
-      "text": "From Jossik get a Unholy book",
+      "id": "e4-661",
+      "title": "From Jossik get a Unholy book, …",
+      "text": "From Jossik get a Unholy book, buy Book of war & Book of law",
       "manual": true,
       "npc": 4424,
       "world": [
@@ -8956,12 +8564,6 @@
         4634,
         0
       ]
-    },
-    {
-      "id": "e4-661b",
-      "title": "buy Book of war & Book …",
-      "text": "buy Book of war & Book of law",
-      "manual": true
     },
     {
       "id": "e4-662",
@@ -9080,19 +8682,13 @@
       "id": "e4-673",
       "title": "Head to Waterbirth Island by talking …",
       "text": "Head to Waterbirth Island by talking to Jarvald",
+      "manual": true,
       "npc": 5937,
       "world": [
         2620,
         3685,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2620,
-        "y": 3685,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-674",
@@ -9120,19 +8716,13 @@
       "id": "e4-675",
       "title": "Travel through Waterbirth Dungeon until you …",
       "text": "Travel through Waterbirth Dungeon until you reach the Lighthouse [Fremennik Medium Diary]",
+      "manual": true,
       "npc": 5937,
       "world": [
         2620,
         3685,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2620,
-        "y": 3685,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-676",
@@ -9181,28 +8771,16 @@
     {
       "id": "e4-679a",
       "title": "If you haven't got a bronze …",
-      "text": "If you haven't got a bronze spear",
-      "manual": true
-    },
-    {
-      "id": "e4-679b",
-      "title": "teleport to varrock",
-      "text": "teleport to varrock",
+      "text": "If you haven't got a bronze spear, teleport to varrock",
+      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3210,
-        "y": 3448,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
-      "id": "e4-679c",
+      "id": "e4-679b",
       "title": "head to varlamore",
       "text": "head to varlamore",
       "world": [
@@ -9215,11 +8793,11 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
-      "id": "e4-679d",
+      "id": "e4-679c",
       "title": "buy a Bronze Spear from Blacksmith",
       "text": "buy a Bronze Spear from Blacksmith",
       "complete": {
@@ -9349,7 +8927,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -9474,7 +9052,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -9517,7 +9095,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -9569,19 +9147,13 @@
       "id": "e4-706",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-707",
@@ -9621,19 +9193,13 @@
       "id": "e4-709a",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-709b",
@@ -9738,15 +9304,9 @@
       ]
     },
     {
-      "id": "e4-717a",
-      "title": "Leave",
-      "text": "Leave",
-      "manual": true
-    },
-    {
-      "id": "e4-717b",
-      "title": "take the Spirit Tree to Gnome …",
-      "text": "take the Spirit Tree to Gnome Stronghold(2)",
+      "id": "e4-717",
+      "title": "Leave, take the Spirit Tree to …",
+      "text": "Leave, take the Spirit Tree to Gnome Stronghold(2)",
       "manual": true,
       "world": [
         2440,
@@ -9800,20 +9360,9 @@
       ]
     },
     {
-      "id": "e4-721a",
-      "title": "Ardy Cloak & collect the Monkey",
-      "text": "Ardy Cloak & collect the Monkey",
-      "manual": true,
-      "world": [
-        2624,
-        3300,
-        0
-      ]
-    },
-    {
-      "id": "e4-721b",
-      "title": "Head back to the Grand Tree",
-      "text": "Head back to the Grand Tree",
+      "id": "e4-721",
+      "title": "Ardy Cloak & collect the Monkey, …",
+      "text": "Ardy Cloak & collect the Monkey, Head back to the Grand Tree",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -9829,19 +9378,13 @@
       "id": "e4-722",
       "title": "Head back to Ape Atoll",
       "text": "Head back to Ape Atoll",
+      "manual": true,
       "npc": 1454,
       "world": [
         2892,
         2723,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2892,
-        "y": 2723,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-723",
@@ -9862,9 +9405,9 @@
       "manual": true
     },
     {
-      "id": "e4-726a",
+      "id": "e4-726",
       "title": "At Awowogei stand East of the …",
-      "text": "At Awowogei stand East of the Elder Guard",
+      "text": "At Awowogei stand East of the Elder Guard, plant Mithril Seeds to skip a step",
       "manual": true,
       "npc": 5518,
       "world": [
@@ -9872,12 +9415,6 @@
         3460,
         0
       ]
-    },
-    {
-      "id": "e4-726b",
-      "title": "plant Mithril Seeds to skip a …",
-      "text": "plant Mithril Seeds to skip a step",
-      "manual": true
     },
     {
       "id": "e4-727",
@@ -9987,7 +9524,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -10006,19 +9543,13 @@
       "id": "e4-738",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e4-739",

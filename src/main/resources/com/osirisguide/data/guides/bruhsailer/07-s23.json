@@ -109,20 +109,8 @@
     },
     {
       "id": "s23-007a",
-      "title": "Fairy ring to Zanaris, resume",
-      "text": "Fairy ring to Zanaris, resume",
-      "manual": true,
-      "object": 2406,
-      "world": [
-        3202,
-        3169,
-        0
-      ]
-    },
-    {
-      "id": "s23-007b",
-      "title": "complete Fairytale II - Cure a …",
-      "text": "complete Fairytale II - Cure a Queen (xp on slayer)",
+      "title": "Fairy ring to Zanaris, resume, complete …",
+      "text": "Fairy ring to Zanaris, resume, complete Fairytale II - Cure a Queen (xp on slayer)",
       "complete": {
         "op": "quest",
         "quest": "FAIRYTALE_II__CURE_A_QUEEN",
@@ -135,7 +123,7 @@
       ]
     },
     {
-      "id": "s23-007c",
+      "id": "s23-007b",
       "title": "Take fairy ring BIQ to the …",
       "text": "Take fairy ring BIQ to the desert and meet up with the scout for The General’s Shadow",
       "complete": {
@@ -153,19 +141,13 @@
       "id": "s23-008a",
       "title": "Teleport (tab) to Rellekka",
       "text": "Teleport (tab) to Rellekka",
+      "manual": true,
       "npc": 1940,
       "world": [
         2420,
         3781,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2420,
-        "y": 3781,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "s23-008b",
@@ -230,19 +212,13 @@
       "id": "s23-011",
       "title": "Go to Edgeville dungeon, run into …",
       "text": "Go to Edgeville dungeon, run into the wilderness and collect 5 red spider’s eggs (you can drop and pick up the same one five times), cross the handrail and kill an earth warrior. Go back to Edgeville, speak with the Emblem Trader. Collect the easy and medium wilderness diary rewards, putting the lamps on herblore.",
+      "manual": true,
       "npc": 308,
       "world": [
         3097,
         3504,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3504,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "s23-012",

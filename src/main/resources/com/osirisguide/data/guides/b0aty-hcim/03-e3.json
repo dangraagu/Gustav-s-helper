@@ -45,7 +45,7 @@
         "x": 1249,
         "y": 3737,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -70,15 +70,9 @@
       "manual": true
     },
     {
-      "id": "e3-005a",
-      "title": "During the quest",
-      "text": "During the quest",
-      "manual": true
-    },
-    {
-      "id": "e3-005b",
-      "title": "collect a cowhide in the Headless …",
-      "text": "collect a cowhide in the Headless Beast's cave. Cowhides will not spawn in the cave after you kill the Headless Beast",
+      "id": "e3-005",
+      "title": "During the quest, collect a cowhide …",
+      "text": "During the quest, collect a cowhide in the Headless Beast's cave. Cowhides will not spawn in the cave after you kill the Headless Beast",
       "complete": {
         "op": "or",
         "of": [
@@ -98,15 +92,9 @@
       "item": 1739
     },
     {
-      "id": "e3-006a",
-      "title": "During the quest",
-      "text": "During the quest",
-      "manual": true
-    },
-    {
-      "id": "e3-006b",
-      "title": "take 2x Yellow dye & 3x …",
-      "text": "take 2x Yellow dye & 3x Red Dye",
+      "id": "e3-006",
+      "title": "During the quest, take 2x Yellow …",
+      "text": "During the quest, take 2x Yellow dye & 3x Red Dye",
       "manual": true
     },
     {
@@ -377,37 +365,25 @@
       "id": "e3-028",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-029",
       "title": "Run to Draynor Manor",
       "text": "Run to Draynor Manor",
+      "manual": true,
       "object": 134,
       "world": [
         3108,
         3353,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3108,
-        "y": 3353,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-030",
@@ -428,19 +404,13 @@
       "id": "e3-031",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-032",
@@ -497,18 +467,12 @@
       "id": "e3-034",
       "title": "Cross Rope Swing to Moss Giant …",
       "text": "Cross Rope Swing to Moss Giant Island [Karamja Easy Diary]",
+      "manual": true,
       "world": [
         2843,
         3070,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2843,
-        "y": 3070,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-035",
@@ -694,7 +658,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -786,7 +750,7 @@
         "x": 3080,
         "y": 3427,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -851,19 +815,13 @@
       "id": "e3-061",
       "title": "Enter the Dwarven Mines using the …",
       "text": "Enter the Dwarven Mines using the ladder",
+      "manual": true,
       "object": 16664,
       "world": [
         3058,
         3376,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3058,
-        "y": 3376,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-062a",
@@ -919,19 +877,13 @@
       "id": "e3-066b",
       "title": "Teleport Runes, Duelling Ring, Digsite Pendant, …",
       "text": "Teleport Runes, Duelling Ring, Digsite Pendant, Papyrus, Vial, Pestle & Mortar, Bird Snare, Pickaxe, Adamant Axe, 4 Soft Clay, 5 Wines(21 Inventory Spots)",
+      "manual": true,
       "object": 2097,
       "world": [
         3190,
         3938,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3190,
-        "y": 3938,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-067",
@@ -1030,7 +982,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1082,19 +1034,13 @@
       "id": "e3-077b",
       "title": "run to Shantay Pass (You can …",
       "text": "run to Shantay Pass (You can also ardy cloak -> fairy ring DLQ)",
+      "manual": true,
       "npc": 4642,
       "world": [
         3303,
         3122,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3303,
-        "y": 3122,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-078",
@@ -1173,7 +1119,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1279,19 +1225,13 @@
       "id": "e3-091",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-092",
@@ -1340,7 +1280,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1372,7 +1312,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1389,7 +1329,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1423,19 +1363,13 @@
       "id": "e3-101",
       "title": "Head into Dwarven Mine & collect …",
       "text": "Head into Dwarven Mine & collect the Map Piece [Dragon Slayer]",
+      "manual": true,
       "object": 11867,
       "world": [
         3019,
         3450,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3019,
-        "y": 3450,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-102a",
@@ -1451,7 +1385,7 @@
         "x": 3010,
         "y": 3486,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1468,7 +1402,7 @@
         "x": 2981,
         "y": 3513,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1595,7 +1529,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1690,7 +1624,7 @@
         "x": 2884,
         "y": 3398,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1725,7 +1659,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2098,7 +2032,7 @@
         "x": 2533,
         "y": 3571,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2514,7 +2448,7 @@
         "x": 2407,
         "y": 3105,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2555,7 +2489,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2675,15 +2609,9 @@
       "item": 233
     },
     {
-      "id": "e3-191a",
+      "id": "e3-191",
       "title": "The boss fight is fairly challenging. …",
-      "text": "The boss fight is fairly challenging. If not flinching, a recoil is excellent",
-      "manual": true
-    },
-    {
-      "id": "e3-191b",
-      "title": "Use Blast Spells (25% water weakness)",
-      "text": "Use Blast Spells (25% water weakness)",
+      "text": "The boss fight is fairly challenging. If not flinching, a recoil is excellent, Use Blast Spells (25% water weakness)",
       "manual": true
     },
     {
@@ -2745,19 +2673,13 @@
       "id": "e3-196",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-197",
@@ -2828,7 +2750,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2960,19 +2882,13 @@
       "id": "e3-209",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-210",
@@ -3040,7 +2956,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3124,20 +3040,9 @@
       ]
     },
     {
-      "id": "e3-221a",
+      "id": "e3-221",
       "title": "WARNING (HCIM): Be careful crossing the …",
-      "text": "WARNING (HCIM): Be careful crossing the bridge, if you weight more than 0kg, you will fall",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
-    },
-    {
-      "id": "e3-221b",
-      "title": "take 20 hp damage",
-      "text": "take 20 hp damage",
+      "text": "WARNING (HCIM): Be careful crossing the bridge, if you weight more than 0kg, you will fall, take 20 hp damage",
       "manual": true,
       "world": [
         3165,
@@ -3155,18 +3060,12 @@
       "id": "e3-223a",
       "title": "Cross the bridge in the north …",
       "text": "Cross the bridge in the north room",
+      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-223b",
@@ -3226,19 +3125,13 @@
       "id": "e3-229",
       "title": "Go into the north room, then …",
       "text": "Go into the north room, then on the north side right-click search the lever there for traps, then pull it",
+      "manual": true,
       "object": 26761,
       "world": [
         3090,
         3475,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3090,
-        "y": 3475,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-230",
@@ -3247,15 +3140,9 @@
       "manual": true
     },
     {
-      "id": "e3-231a",
+      "id": "e3-231",
       "title": "Try to enter the far north …",
-      "text": "Try to enter the far north door. Be prepared to fight Lesarkus",
-      "manual": true
-    },
-    {
-      "id": "e3-231b",
-      "title": "kill him using your knives",
-      "text": "kill him using your knives",
+      "text": "Try to enter the far north door. Be prepared to fight Lesarkus, kill him using your knives",
       "manual": true
     },
     {
@@ -3278,7 +3165,7 @@
         "x": 2758,
         "y": 3507,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3319,15 +3206,9 @@
       ]
     },
     {
-      "id": "e3-236a",
+      "id": "e3-236",
       "title": "Unequip your pendant of Lucien at …",
-      "text": "Unequip your pendant of Lucien at Gaurdians of Armadyl",
-      "manual": true
-    },
-    {
-      "id": "e3-236b",
-      "title": "talk (1,1,3,1)",
-      "text": "talk (1,1,3,1)",
+      "text": "Unequip your pendant of Lucien at Gaurdians of Armadyl, talk (1,1,3,1)",
       "manual": true
     },
     {
@@ -3344,7 +3225,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3512,7 +3393,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3529,7 +3410,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3647,19 +3528,13 @@
       "id": "e3-257",
       "title": "Teleport to Lumbridge",
       "text": "Teleport to Lumbridge",
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
         3257,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3227,
-        "y": 3257,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-258",
@@ -3729,15 +3604,9 @@
       ]
     },
     {
-      "id": "e3-263a",
-      "title": "Chronicle teleport",
-      "text": "Chronicle teleport",
-      "manual": true
-    },
-    {
-      "id": "e3-263b",
-      "title": "run to Draynor Manor to Start …",
-      "text": "run to Draynor Manor to Start Animal Magnetism",
+      "id": "e3-263",
+      "title": "Chronicle teleport, run to Draynor Manor …",
+      "text": "Chronicle teleport, run to Draynor Manor to Start Animal Magnetism",
       "complete": {
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
@@ -3880,7 +3749,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -3888,27 +3757,21 @@
       "item": 1925
     },
     {
-      "id": "e3-273a",
-      "title": "Worship the Buckets",
-      "text": "Worship the Buckets",
-      "manual": true
-    },
-    {
-      "id": "e3-273b",
-      "title": "collect 20 Ecto tokens from the …",
-      "text": "collect 20 Ecto tokens from the Ghost Disciples (Drop Empty Buckets+ Pots (Keep 2 Pots))",
+      "id": "e3-273",
+      "title": "Worship the Buckets, collect 20 Ecto …",
+      "text": "Worship the Buckets, collect 20 Ecto tokens from the Ghost Disciples (Drop Empty Buckets+ Pots (Keep 2 Pots))",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 38
+            "qty": 19
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -3931,19 +3794,13 @@
       "id": "e3-275a",
       "title": "Go back into port phasmatys",
       "text": "Go back into port phasmatys",
+      "manual": true,
       "npc": 3005,
       "world": [
         3791,
         3559,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3791,
-        "y": 3559,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-275b",
@@ -3961,19 +3818,13 @@
       "id": "e3-276",
       "title": "WALK West to The Old Crone …",
       "text": "WALK West to The Old Crone & go through every dialogue option. You should get a new ghost speak amulet and a toy ship",
+      "manual": true,
       "npc": 2996,
       "world": [
         3462,
         3558,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3462,
-        "y": 3558,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-277",
@@ -4053,7 +3904,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4181,7 +4032,7 @@
         "x": 3493,
         "y": 3488,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4194,19 +4045,13 @@
       "id": "e3-295",
       "title": "Return to Port Phasmatys",
       "text": "Return to Port Phasmatys",
+      "manual": true,
       "npc": 3005,
       "world": [
         3791,
         3559,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3791,
-        "y": 3559,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-296",
@@ -4263,21 +4108,15 @@
       ]
     },
     {
-      "id": "e3-302a",
+      "id": "e3-302",
       "title": "When getting the signatures, find 2 …",
-      "text": "When getting the signatures, find 2 ghosts near each other and if they ask for Ectotokens or deny you",
+      "text": "When getting the signatures, find 2 ghosts near each other and if they ask for Ectotokens or deny you, return the other and repeat until 10 signatures",
       "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
-    },
-    {
-      "id": "e3-302b",
-      "title": "return the other and repeat until …",
-      "text": "return the other and repeat until 10 signatures",
-      "manual": true
     },
     {
       "id": "e3-303",
@@ -4485,7 +4324,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4502,7 +4341,7 @@
         "x": 3080,
         "y": 3427,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4684,7 +4523,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4809,26 +4648,20 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
       "id": "e3-341",
       "title": "Go to the Estate agent and …",
       "text": "Go to the Estate agent and move your house to Pollnivneach",
+      "manual": true,
       "npc": 3097,
       "world": [
         2638,
         3293,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2638,
-        "y": 3293,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-342",
@@ -4896,19 +4729,13 @@
       "id": "e3-348",
       "title": "Head South to Nardah",
       "text": "Head South to Nardah",
+      "manual": true,
       "npc": 4756,
       "world": [
         3443,
         2915,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3443,
-        "y": 2915,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-349",
@@ -5046,15 +4873,9 @@
       "manual": true
     },
     {
-      "id": "e3-363a",
-      "title": "Leave",
-      "text": "Leave",
-      "manual": true
-    },
-    {
-      "id": "e3-363b",
-      "title": "trade this in at the Agility …",
-      "text": "trade this in at the Agility Pyramid [Desert Easy Diary]",
+      "id": "e3-363",
+      "title": "Leave, trade this in at the …",
+      "text": "Leave, trade this in at the Agility Pyramid [Desert Easy Diary]",
       "manual": true,
       "object": 11948,
       "world": [
@@ -5067,19 +4888,13 @@
       "id": "e3-364",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-365",
@@ -5091,19 +4906,13 @@
       "id": "e3-366",
       "title": "Head to Brimhaven & buy an …",
       "text": "Head to Brimhaven & buy an Inventories or 2 of Karambwans for below",
+      "manual": true,
       "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2789,
-        "y": 3174,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e3-367",
@@ -5186,7 +4995,7 @@
         "x": 3493,
         "y": 3488,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -5369,15 +5178,9 @@
       ]
     },
     {
-      "id": "e3-390a",
+      "id": "e3-390",
       "title": "Find your tunnel (Enter a Melee …",
-      "text": "Find your tunnel (Enter a Melee brother Mound",
-      "manual": true
-    },
-    {
-      "id": "e3-390b",
-      "title": "search the mound and click the …",
-      "text": "search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry",
+      "text": "Find your tunnel (Enter a Melee brother Mound, search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry",
       "manual": true,
       "world": [
         3165,
@@ -5409,15 +5212,9 @@
       "manual": true
     },
     {
-      "id": "e3-394a",
+      "id": "e3-394",
       "title": "IF Karil tunnel, you want to …",
-      "text": "IF Karil tunnel, you want to head all the way to the chest",
-      "manual": true
-    },
-    {
-      "id": "e3-394b",
-      "title": "trade 1:1 respectively using the lamps …",
-      "text": "trade 1:1 respectively using the lamps as obstacles",
+      "text": "IF Karil tunnel, you want to head all the way to the chest, trade 1:1 respectively using the lamps as obstacles",
       "manual": true
     },
     {

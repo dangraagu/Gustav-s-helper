@@ -181,15 +181,9 @@
       ]
     },
     {
-      "id": "e1-012a",
+      "id": "e1-012",
       "title": "Move Coins into first bank slot …",
-      "text": "Move Coins into first bank slot & Runes to the top slots. Click the lock to Always set Placeholders",
-      "manual": true
-    },
-    {
-      "id": "e1-012b",
-      "title": "Set Bank pin for Count Check …",
-      "text": "Set Bank pin for Count Check randoms or delete the pin from Tutorial Island",
+      "text": "Move Coins into first bank slot & Runes to the top slots. Click the lock to Always set Placeholders, Set Bank pin for Count Check randoms or delete the pin from Tutorial Island",
       "manual": true,
       "npc": 7414,
       "world": [
@@ -318,7 +312,7 @@
         "x": 3103,
         "y": 3265,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -353,7 +347,7 @@
         "x": 3109,
         "y": 3160,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -442,7 +436,7 @@
         "x": 3103,
         "y": 3265,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -676,19 +670,13 @@
       "id": "e1-041a",
       "title": "Head West to Port Sarim",
       "text": "Head West to Port Sarim",
+      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2954,
-        "y": 3147,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-041b",
@@ -715,19 +703,13 @@
       "id": "e1-043",
       "title": "Travel to Port Piscarilius via Veos",
       "text": "Travel to Port Piscarilius via Veos",
+      "manual": true,
       "npc": 10727,
       "world": [
         1824,
         3690,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1824,
-        "y": 3690,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-044",
@@ -792,7 +774,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -922,7 +904,7 @@
     {
       "id": "e1-058a",
       "title": "On Floor 3, Spider max is …",
-      "text": "On Floor 3, Spider max is 7 so if you take 3 or more damage",
+      "text": "On Floor 3, Spider max is 7 so if you take 3 or more damage, drink a wine before going through the door to avoid being stacked",
       "manual": true,
       "world": [
         3165,
@@ -932,12 +914,6 @@
     },
     {
       "id": "e1-058b",
-      "title": "drink a wine before going through …",
-      "text": "drink a wine before going through the door to avoid being stacked",
-      "manual": true
-    },
-    {
-      "id": "e1-058c",
       "title": "Take the east doors",
       "text": "Take the east doors",
       "manual": true
@@ -1121,19 +1097,13 @@
       "id": "e1-069a",
       "title": "Head South & Talk to Aris",
       "text": "Head South & Talk to Aris",
+      "manual": true,
       "npc": 11868,
       "world": [
         3204,
         3424,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3204,
-        "y": 3424,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-069b",
@@ -1154,19 +1124,13 @@
       "id": "e1-070",
       "title": "Head South & Trade Thessalia [Varrock …",
       "text": "Head South & Trade Thessalia [Varrock Easy Diary]",
+      "manual": true,
       "npc": 10477,
       "world": [
         3206,
         3417,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3206,
-        "y": 3417,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-071a",
@@ -1447,7 +1411,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -1476,19 +1440,13 @@
       "id": "e1-087a",
       "title": "Head to King Roald",
       "text": "Head to King Roald",
+      "manual": true,
       "npc": 5215,
       "world": [
         3222,
         3473,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3222,
-        "y": 3473,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-087b",
@@ -1542,19 +1500,13 @@
       "id": "e1-090a",
       "title": "Enter Varrock Sewer",
       "text": "Enter Varrock Sewer",
+      "manual": true,
       "object": 882,
       "world": [
         3237,
         3458,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3237,
-        "y": 3458,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-090b",
@@ -1575,19 +1527,13 @@
       "id": "e1-091a",
       "title": "Enter Varrock Museum",
       "text": "Enter Varrock Museum",
+      "manual": true,
       "npc": 5214,
       "world": [
         3257,
         3449,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3257,
-        "y": 3449,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-091b",
@@ -1937,19 +1883,13 @@
       "id": "e1-114",
       "title": "Travel east to Regulus Cento & …",
       "text": "Travel east to Regulus Cento & travel to Varlamore",
+      "manual": true,
       "npc": 12885,
       "world": [
         1701,
         3143,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1701,
-        "y": 3143,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-115a",
@@ -2060,19 +2000,13 @@
       "id": "e1-123a",
       "title": "Enter Guildmaster Apatura's building",
       "text": "Enter Guildmaster Apatura's building",
+      "manual": true,
       "npc": 13120,
       "world": [
         1554,
         3033,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1554,
-        "y": 3033,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-123b",
@@ -2150,7 +2084,7 @@
         "x": 1530,
         "y": 2983,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2189,7 +2123,7 @@
         "x": 1391,
         "y": 2935,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2415,7 +2349,7 @@
         "x": 3109,
         "y": 3160,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2455,19 +2389,13 @@
       "id": "e1-148",
       "title": "Teleport to Rune Essence Mine [Lumbridge …",
       "text": "Teleport to Rune Essence Mine [Lumbridge Easy Diary]",
+      "manual": true,
       "npc": 10681,
       "world": [
         3253,
         3402,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3253,
-        "y": 3402,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-149",
@@ -2489,7 +2417,7 @@
         "x": 3103,
         "y": 3265,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -2729,9 +2657,9 @@
       "item": 2138
     },
     {
-      "id": "e1-166a",
+      "id": "e1-166",
       "title": "Continue Pirate's Treasure by talking to …",
-      "text": "Continue Pirate's Treasure by talking to Wydin to get employed",
+      "text": "Continue Pirate's Treasure by talking to Wydin to get employed, collect the rum from the crate",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -2742,12 +2670,6 @@
         3251,
         0
       ]
-    },
-    {
-      "id": "e1-166b",
-      "title": "collect the rum from the crate",
-      "text": "collect the rum from the crate",
-      "manual": true
     },
     {
       "id": "e1-167",
@@ -2798,37 +2720,25 @@
       "id": "e1-169",
       "title": "Return to Redbeard Frank",
       "text": "Return to Redbeard Frank",
+      "manual": true,
       "npc": 3643,
       "world": [
         3053,
         3251,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3053,
-        "y": 3251,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-170a",
       "title": "Head West to Betty",
       "text": "Head West to Betty",
+      "manual": true,
       "npc": 5905,
       "world": [
         3014,
         3258,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3014,
-        "y": 3258,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-170b",
@@ -2927,7 +2837,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -3152,7 +3062,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3187,19 +3097,13 @@
       "id": "e1-189a",
       "title": "Head to Taverley",
       "text": "Head to Taverley",
+      "manual": true,
       "object": 16680,
       "world": [
         2884,
         3397,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2884,
-        "y": 3397,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-189b",
@@ -3387,15 +3291,9 @@
       ]
     },
     {
-      "id": "e1-203a",
-      "title": "Chronicle",
-      "text": "Chronicle",
-      "manual": true
-    },
-    {
-      "id": "e1-203b",
-      "title": "complete Gertrude's Cat",
-      "text": "complete Gertrude's Cat",
+      "id": "e1-203",
+      "title": "Chronicle, complete Gertrude's Cat",
+      "text": "Chronicle, complete Gertrude's Cat",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -3453,19 +3351,13 @@
       "id": "e1-206",
       "title": "Head to Edgeville",
       "text": "Head to Edgeville",
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-207",
@@ -3497,19 +3389,13 @@
       "id": "e1-209",
       "title": "Go back to Edgeville and take …",
       "text": "Go back to Edgeville and take the Lever to the Wilderness, then to Ardougne, then back to the Wilderness, and then back to Ardougne for the Wilderness & Ardougne Diary (use the lever 4 times)",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-210",
@@ -3708,19 +3594,13 @@
       "id": "e1-225",
       "title": "Head to Port Sarim",
       "text": "Head to Port Sarim",
+      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2954,
-        "y": 3147,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-226a",
@@ -3766,19 +3646,13 @@
       "id": "e1-228",
       "title": "WALK South to Thurgo and continue …",
       "text": "WALK South to Thurgo and continue Knights Sword (2,1) (you want run energy for next step)",
+      "manual": true,
       "npc": 4733,
       "world": [
         3000,
         3145,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3000,
-        "y": 3145,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-229",
@@ -3794,7 +3668,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3817,7 +3691,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3852,7 +3726,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3887,7 +3761,7 @@
         "x": 3290,
         "y": 3185,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -3927,19 +3801,13 @@
       "id": "e1-241",
       "title": "Head to Shantay Pass",
       "text": "Head to Shantay Pass",
+      "manual": true,
       "npc": 4642,
       "world": [
         3303,
         3122,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3303,
-        "y": 3122,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-242",
@@ -4034,7 +3902,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -4066,9 +3934,9 @@
       "manual": true
     },
     {
-      "id": "e1-251a",
+      "id": "e1-251",
       "title": "You need to safespot the Mercenary …",
-      "text": "You need to safespot the Mercenary Captain on his soldiers",
+      "text": "You need to safespot the Mercenary Captain on his soldiers, Talk to the soldier to hold him in place after you body block him. Max hit is 5",
       "manual": true,
       "npc": 4635,
       "world": [
@@ -4076,12 +3944,6 @@
         3029,
         0
       ]
-    },
-    {
-      "id": "e1-251b",
-      "title": "Talk to the soldier to hold …",
-      "text": "Talk to the soldier to hold him in place after you body block him. Max hit is 5",
-      "manual": true
     },
     {
       "id": "e1-252",
@@ -4188,19 +4050,13 @@
       "id": "e1-260",
       "title": "Head East to Yanille taking the …",
       "text": "Head East to Yanille taking the south route to avoid Ogres",
+      "manual": true,
       "object": 17047,
       "world": [
         2556,
         3072,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2556,
-        "y": 3072,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-261",
@@ -4305,19 +4161,13 @@
       "id": "e1-267",
       "title": "Head to Port Khazard",
       "text": "Head to Port Khazard",
+      "manual": true,
       "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2615,
-        "y": 3143,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-268",
@@ -4643,7 +4493,7 @@
         "x": 2609,
         "y": 3424,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4675,7 +4525,7 @@
         "x": 2533,
         "y": 3571,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -4783,37 +4633,25 @@
       "id": "e1-301",
       "title": "Head South to East Ardougne",
       "text": "Head South to East Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-302",
       "title": "Head into the pub for the …",
       "text": "Head into the pub for the Barcrawl (Bartender (Flying Horse Inn))",
+      "manual": true,
       "npc": 14660,
       "world": [
         1391,
         3354,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1391,
-        "y": 3354,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-303",
@@ -5148,7 +4986,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -5204,19 +5042,13 @@
       "id": "e1-330",
       "title": "Head East to Yanille",
       "text": "Head East to Yanille",
+      "manual": true,
       "object": 17047,
       "world": [
         2556,
         3072,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2556,
-        "y": 3072,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-331",
@@ -5243,15 +5075,9 @@
       ]
     },
     {
-      "id": "e1-333a",
-      "title": "Right click your house tab",
-      "text": "Right click your house tab",
-      "manual": true
-    },
-    {
-      "id": "e1-333b",
-      "title": "teleport to Outside House",
-      "text": "teleport to Outside House",
+      "id": "e1-333",
+      "title": "Right click your house tab, teleport …",
+      "text": "Right click your house tab, teleport to Outside House",
       "manual": true
     },
     {
@@ -5309,19 +5135,13 @@
       "id": "e1-337",
       "title": "Return to Ardougne via Captain Barnaby …",
       "text": "Return to Ardougne via Captain Barnaby [Karamja Easy Diary]",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-338",
@@ -5410,19 +5230,13 @@
       "id": "e1-343",
       "title": "Teleport to Essence Mine via right …",
       "text": "Teleport to Essence Mine via right click Wizard Cromperty [Ardougne Easy Diary]",
+      "manual": true,
       "npc": 8480,
       "world": [
         2684,
         3323,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2684,
-        "y": 3323,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e1-344",
@@ -5623,9 +5437,9 @@
       "item": 555
     },
     {
-      "id": "e1-357a",
+      "id": "e1-357",
       "title": "Continue Waterfall Quest by obtaining Glarials …",
-      "text": "Continue Waterfall Quest by obtaining Glarials Amulet and Urn from the Tomb (drop runes & staff). Tank skeleton hit",
+      "text": "Continue Waterfall Quest by obtaining Glarials Amulet and Urn from the Tomb (drop runes & staff). Tank skeleton hit, run past moss giants",
       "complete": {
         "op": "quest",
         "quest": "WATERFALL_QUEST",
@@ -5636,12 +5450,6 @@
         3495,
         0
       ]
-    },
-    {
-      "id": "e1-357b",
-      "title": "run past moss giants",
-      "text": "run past moss giants",
-      "manual": true
     },
     {
       "id": "e1-358",

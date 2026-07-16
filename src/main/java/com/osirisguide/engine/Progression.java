@@ -86,16 +86,37 @@ public class Progression
 	public boolean process(ConditionContext ctx)
 	{
 		boolean changed = false;
+		// A position (arrival) trigger only means "you're standing here", NOT "you did everything up to
+		// here" — and travel destinations recur across a route, so a far-future waypoint can sit right
+		// where you are now. Only trust an arrival while no earlier REAL gate (a non-manual, non-position
+		// step whose condition isn't met) is still pending; otherwise a nearby late waypoint would complete
+		// out of order and the milestone-fold would wipe the guide. Skill/quest/item conditions still
+		// complete anywhere they're genuinely true (an existing account legitimately already has them).
+		boolean realGatePending = false;
 		for (RouteStep s : route.getSteps())
 		{
 			if (!s.appliesTo(mode) || completed.contains(s.getId()))
 			{
 				continue;
 			}
-			if (isAutoCompleteSafe(s, ctx))
+			boolean met = isAutoCompleteSafe(s, ctx);
+			if (s.isPositionTriggered())
+			{
+				if (met && !realGatePending)
+				{
+					completed.add(s.getId());
+					changed = true;
+				}
+				// an un-arrived position step is "soft" — it never blocks later steps
+			}
+			else if (met)
 			{
 				completed.add(s.getId());
 				changed = true;
+			}
+			else if (!s.isManual())
+			{
+				realGatePending = true; // a genuine unmet gate: don't trust arrivals beyond this point
 			}
 		}
 		return changed;
@@ -132,7 +153,9 @@ public class Progression
 		for (int i = 0; i < furthest; i++)
 		{
 			RouteStep s = steps.get(i);
-			if (s.appliesTo(mode) && s.isManual() && !completed.contains(s.getId()))
+			// Fold only genuine flavour steps: manual, no NPC/object to interact with. A manual step that
+			// highlights an NPC/object ("talk to the Duke") is real work and is never skipped.
+			if (s.appliesTo(mode) && s.isManual() && !s.hasInteractionTarget() && !completed.contains(s.getId()))
 			{
 				completed.add(s.getId());
 				changed = true;

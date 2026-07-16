@@ -124,6 +124,20 @@ public class RouteStep
 			: null;
 	}
 
+	/** True if this step auto-completes on ARRIVAL (a position trigger). Such steps must only complete
+	 *  in route order — never from standing near a far-future waypoint (see Progression.process). */
+	public boolean isPositionTriggered()
+	{
+		return complete instanceof com.osirisguide.engine.condition.PositionCondition;
+	}
+
+	/** True if this step points at a specific NPC/object to interact with — real work, not flavour, so
+	 *  it must not be folded away as a passed-by step. */
+	public boolean hasInteractionTarget()
+	{
+		return highlightNpcId >= 0 || highlightObjectId >= 0;
+	}
+
 	/** @return true if this step applies to the given account mode (empty modes = all). */
 	public boolean appliesTo(IronmanMode mode)
 	{

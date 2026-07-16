@@ -32,20 +32,9 @@
       ]
     },
     {
-      "id": "s31-002a",
+      "id": "s31-002",
       "title": "Optional but recommended: go to the …",
-      "text": "Optional but recommended: go to the Mage Training Arena",
-      "manual": true,
-      "world": [
-        3364,
-        3312,
-        0
-      ]
-    },
-    {
-      "id": "s31-002b",
-      "title": "collect the Mage’s book and the …",
-      "text": "collect the Mage’s book and the infinity boots",
+      "text": "Optional but recommended: go to the Mage Training Arena, collect the Mage’s book and the infinity boots",
       "complete": {
         "op": "or",
         "of": [
@@ -64,8 +53,8 @@
       },
       "item": 6920,
       "world": [
-        3165,
-        3490,
+        3364,
+        3312,
         0
       ]
     },
@@ -189,9 +178,9 @@
       ]
     },
     {
-      "id": "s31-009a",
+      "id": "s31-009",
       "title": "Do the Fremennik Exiles, A Night …",
-      "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will",
+      "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will, Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys)",
       "complete": {
         "op": "quest",
         "quest": "A_NIGHT_AT_THE_THEATRE",
@@ -200,21 +189,6 @@
       "world": [
         3673,
         3223,
-        0
-      ]
-    },
-    {
-      "id": "s31-009b",
-      "title": "Start Monkey Madness II until you …",
-      "text": "Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys)",
-      "complete": {
-        "op": "quest",
-        "quest": "MONKEY_MADNESS_II",
-        "state": "FINISHED"
-      },
-      "world": [
-        2465,
-        3496,
         0
       ]
     },
@@ -314,7 +288,7 @@
         "x": 3165,
         "y": 3490,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {

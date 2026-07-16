@@ -144,19 +144,13 @@
       "id": "s22-010a",
       "title": "Run to Brimhaven, do the Agility …",
       "text": "Run to Brimhaven, do the Agility Arena for one ticket",
+      "manual": true,
       "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2789,
-        "y": 3174,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "s22-010b",
@@ -408,15 +402,9 @@
       ]
     },
     {
-      "id": "s22-027a",
-      "title": "Swap to the regular spellbook",
-      "text": "Swap to the regular spellbook",
-      "manual": true
-    },
-    {
-      "id": "s22-027b",
-      "title": "Complete Recipe for Disaster by following …",
-      "text": "Complete Recipe for Disaster by following the steps below:",
+      "id": "s22-027",
+      "title": "Swap to the regular spellbook, Complete …",
+      "text": "Swap to the regular spellbook, Complete Recipe for Disaster by following the steps below:",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",

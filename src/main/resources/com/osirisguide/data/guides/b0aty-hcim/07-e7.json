@@ -278,15 +278,9 @@
       ]
     },
     {
-      "id": "e7-029a",
-      "title": "Hespori; (Hesporisn't, Weed Whacker",
-      "text": "Hespori; (Hesporisn't, Weed Whacker",
-      "manual": true
-    },
-    {
-      "id": "e7-029b",
-      "title": "Plant-Based Diet)",
-      "text": "Plant-Based Diet)",
+      "id": "e7-029",
+      "title": "Hespori; (Hesporisn't, Weed Whacker, Plant-Based Diet)",
+      "text": "Hespori; (Hesporisn't, Weed Whacker, Plant-Based Diet)",
       "manual": true
     },
     {
@@ -341,33 +335,21 @@
       ]
     },
     {
-      "id": "e7-035a",
-      "title": "78 Magic -> Boost to 83",
-      "text": "78 Magic -> Boost to 83",
+      "id": "e7-035",
+      "title": "78 Magic -> Boost to 83, …",
+      "text": "78 Magic -> Boost to 83, make a Barrows portal in POH",
       "manual": true
     },
     {
-      "id": "e7-035b",
-      "title": "make a Barrows portal in POH",
-      "text": "make a Barrows portal in POH",
-      "manual": true
-    },
-    {
-      "id": "e7-036a",
+      "id": "e7-036",
       "title": "Salve Graveyard portal (Home teleport, recharge …",
-      "text": "Salve Graveyard portal (Home teleport, recharge prayer on altar/pool",
+      "text": "Salve Graveyard portal (Home teleport, recharge prayer on altar/pool, take salve graveyard portal->BKR fairy ring->Boat to barrows)",
       "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
-    },
-    {
-      "id": "e7-036b",
-      "title": "take salve graveyard portal->BKR fairy ring->Boat …",
-      "text": "take salve graveyard portal->BKR fairy ring->Boat to barrows)",
-      "manual": true
     },
     {
       "id": "e7-037",

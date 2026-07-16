@@ -142,25 +142,14 @@
       ]
     },
     {
-      "id": "dr-010a",
+      "id": "dr-010",
       "title": "Rum deal (Req 42 slayer, you …",
-      "text": "Rum deal (Req 42 slayer, you should be close to it\nLocation: Braindeath Island",
+      "text": "Rum deal (Req 42 slayer, you should be close to it, Get a task from Mazchna f\nLocation: Braindeath Island",
       "complete": {
         "op": "quest",
         "quest": "RUM_DEAL",
         "state": "FINISHED"
       },
-      "world": [
-        2144,
-        5120,
-        0
-      ]
-    },
-    {
-      "id": "dr-010b",
-      "title": "Get a task from Mazchna f",
-      "text": "Get a task from Mazchna f\nLocation: Braindeath Island",
-      "manual": true,
       "world": [
         2144,
         5120,

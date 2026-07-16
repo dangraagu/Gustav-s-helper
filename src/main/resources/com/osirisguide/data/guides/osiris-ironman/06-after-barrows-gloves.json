@@ -61,7 +61,7 @@
         "x": 3172,
         "y": 2912,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -79,19 +79,13 @@
       "id": "abg-006a",
       "title": "Go to rogues' den",
       "text": "Go to rogues' den\nLocation: Rogues' Den",
+      "manual": true,
       "object": 7257,
       "world": [
         2905,
         3537,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2905,
-        "y": 3537,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "abg-006b",
@@ -277,19 +271,8 @@
     },
     {
       "id": "abg-022a",
-      "title": "Do Fremmy hard diary",
-      "text": "Do Fremmy hard diary\nLocation: Rellekka",
-      "manual": true,
-      "world": [
-        2658,
-        3677,
-        0
-      ]
-    },
-    {
-      "id": "abg-022b",
-      "title": "get 70 agility",
-      "text": "get 70 agility\nLocation: Rellekka",
+      "title": "Do Fremmy hard diary, get 70 …",
+      "text": "Do Fremmy hard diary, get 70 agility\nLocation: Rellekka",
       "complete": {
         "op": "skill",
         "skill": "AGILITY",
@@ -303,7 +286,7 @@
       ]
     },
     {
-      "id": "abg-022c",
+      "id": "abg-022b",
       "title": "make few agility pots to use …",
       "text": "make few agility pots to use the sho\nLocation: Rellekka",
       "manual": true,

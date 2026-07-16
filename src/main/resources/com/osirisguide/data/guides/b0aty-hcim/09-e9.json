@@ -35,19 +35,13 @@
       "id": "e9-002",
       "title": "Teleport to Kourend Castle",
       "text": "Teleport to Kourend Castle",
+      "manual": true,
       "object": 18258,
       "world": [
         1617,
         3673,
         2
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1617,
-        "y": 3673,
-        "z": 2,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e9-003",
@@ -96,7 +90,7 @@
         "x": 3263,
         "y": 6083,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -165,7 +159,7 @@
         "x": 1559,
         "y": 3048,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -327,21 +321,15 @@
       ]
     },
     {
-      "id": "e9-025a",
+      "id": "e9-025",
       "title": "These are 0 damage if you …",
-      "text": "These are 0 damage if you use Water/Fire Wave on the Elementals",
+      "text": "These are 0 damage if you use Water/Fire Wave on the Elementals, kill both giants roughly at the same time so very safe on HCIM",
       "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
-    },
-    {
-      "id": "e9-025b",
-      "title": "kill both giants roughly at the …",
-      "text": "kill both giants roughly at the same time so very safe on HCIM",
-      "manual": true
     },
     {
       "id": "e9-026",

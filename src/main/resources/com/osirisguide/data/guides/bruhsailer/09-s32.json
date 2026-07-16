@@ -95,21 +95,15 @@
       ]
     },
     {
-      "id": "s32-008a",
+      "id": "s32-008",
       "title": "Cash your banked herblore XP, using …",
-      "text": "Cash your banked herblore XP, using MOGs force spawning at Ardy",
+      "text": "Cash your banked herblore XP, using MOGs force spawning at Ardy, Make some staminas for future use",
       "manual": true,
       "world": [
         2624,
         3300,
         0
       ]
-    },
-    {
-      "id": "s32-008b",
-      "title": "Make some staminas for future use",
-      "text": "Make some staminas for future use",
-      "manual": true
     },
     {
       "id": "s32-009",

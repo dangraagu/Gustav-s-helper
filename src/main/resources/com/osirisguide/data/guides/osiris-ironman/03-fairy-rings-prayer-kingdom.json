@@ -207,7 +207,7 @@
         "x": 3191,
         "y": 3357,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -319,40 +319,23 @@
       "id": "frp-022",
       "title": "Go to Draynor manor",
       "text": "Go to Draynor manor\nLocation: Draynor Manor",
+      "manual": true,
       "object": 134,
       "world": [
         3108,
         3353,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3108,
-        "y": 3353,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
-      "id": "frp-023a",
-      "title": "Do Ernest the chicken",
-      "text": "Do Ernest the chicken\nLocation: Draynor Manor",
+      "id": "frp-023",
+      "title": "Do Ernest the chicken, finish vampire …",
+      "text": "Do Ernest the chicken, finish vampire slayer\nLocation: Draynor Manor",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",
         "state": "FINISHED"
       },
-      "world": [
-        3108,
-        3358,
-        0
-      ]
-    },
-    {
-      "id": "frp-023b",
-      "title": "finish vampire slayer",
-      "text": "finish vampire slayer\nLocation: Draynor Manor",
-      "manual": true,
       "world": [
         3108,
         3358,
@@ -589,19 +572,13 @@
       "id": "frp-040",
       "title": "Go unlock fairy rings at Zanaris",
       "text": "Go unlock fairy rings at Zanaris\nLocation: Zanaris",
+      "manual": true,
       "object": 2406,
       "world": [
         3202,
         3169,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3202,
-        "y": 3169,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "frp-041",
@@ -618,19 +595,13 @@
       "id": "frp-042",
       "title": "Walk to port Sarim jail and …",
       "text": "Walk to port Sarim jail and telegrab 2nd map piece for Dragon Slayer\nLocation: Port Sarim",
+      "manual": true,
       "npc": 820,
       "world": [
         3015,
         3195,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3015,
-        "y": 3195,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "frp-043",
@@ -725,7 +696,7 @@
         "x": 2836,
         "y": 3271,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1284,20 +1255,9 @@
       ]
     },
     {
-      "id": "frp-084a",
+      "id": "frp-084",
       "title": "Grind 9 d bones and offer …",
-      "text": "Grind 9 d bones and offer them\nLocation: Port Phasmatys",
-      "manual": true,
-      "world": [
-        3679,
-        3486,
-        0
-      ]
-    },
-    {
-      "id": "frp-084b",
-      "title": "get ecto tokens",
-      "text": "get ecto tokens\nLocation: Port Phasmatys",
+      "text": "Grind 9 d bones and offer them, get ecto tokens\nLocation: Port Phasmatys",
       "manual": true,
       "world": [
         3679,
@@ -1463,20 +1423,9 @@
       ]
     },
     {
-      "id": "frp-096a",
+      "id": "frp-096",
       "title": "Put at least 750k gp to …",
-      "text": "Put at least 750k gp to kingdom\nLocation: Miscellania",
-      "manual": true,
-      "world": [
-        2560,
-        3870,
-        0
-      ]
-    },
-    {
-      "id": "frp-096b",
-      "title": "set it on 10 maples and …",
-      "text": "set it on 10 maples and 5 herbs\nLocation: Miscellania",
+      "text": "Put at least 750k gp to kingdom, set it on 10 maples and 5 herbs\nLocation: Miscellania",
       "manual": true,
       "world": [
         2560,
@@ -1498,7 +1447,7 @@
         "x": 3358,
         "y": 2974,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1616,19 +1565,13 @@
       "id": "frp-106a",
       "title": "Go Edgeville furnace",
       "text": "Go Edgeville furnace\nLocation: Edgeville",
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "frp-106b",

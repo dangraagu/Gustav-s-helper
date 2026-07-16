@@ -17,7 +17,7 @@
         "x": 3730,
         "y": 3807,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -79,7 +79,7 @@
         "x": 2560,
         "y": 3870,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -206,15 +206,9 @@
       ]
     },
     {
-      "id": "e10-013a",
-      "title": "Depending on Coal/Iron in the bank",
-      "text": "Depending on Coal/Iron in the bank",
-      "manual": true
-    },
-    {
-      "id": "e10-013b",
-      "title": "buy 300 coal+Iron & make 300 …",
-      "text": "buy 300 coal+Iron & make 300 Steel Bars at the Blast Furnace",
+      "id": "e10-013",
+      "title": "Depending on Coal/Iron in the bank, …",
+      "text": "Depending on Coal/Iron in the bank, buy 300 coal+Iron & make 300 Steel Bars at the Blast Furnace",
       "complete": {
         "op": "or",
         "of": [
@@ -248,19 +242,13 @@
       "id": "e10-014b",
       "title": "Teleport Runes to House, Falador, Varrock, …",
       "text": "Teleport Runes to House, Falador, Varrock, Ardougne, Nature Runes, Noted Rune from Corrupted Gauntlet, 4x Steel Bars, Plank Sack, Inventory of Teak Planks",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-015",
@@ -283,19 +271,13 @@
       "id": "e10-016b",
       "title": "Teleport Runes, Camulet, Ardougne Cloak, Dramen …",
       "text": "Teleport Runes, Camulet, Ardougne Cloak, Dramen Staff",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-017",
@@ -334,19 +316,13 @@
       "id": "e10-019",
       "title": "Teleport to Yanille",
       "text": "Teleport to Yanille",
+      "manual": true,
       "object": 17047,
       "world": [
         2556,
         3072,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2556,
-        "y": 3072,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-020",
@@ -384,7 +360,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -608,19 +584,13 @@
       "id": "e10-042",
       "title": "Head South to Shantay Pass",
       "text": "Head South to Shantay Pass",
+      "manual": true,
       "npc": 4642,
       "world": [
         3303,
         3122,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3303,
-        "y": 3122,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-043",
@@ -629,15 +599,9 @@
       "manual": true
     },
     {
-      "id": "e10-044a",
+      "id": "e10-044",
       "title": "Once off, wait for your character …",
-      "text": "Once off, wait for your character to drink a waterskin",
-      "manual": true
-    },
-    {
-      "id": "e10-044b",
-      "title": "cast Humidify [Desert Hard Diary]",
-      "text": "cast Humidify [Desert Hard Diary]",
+      "text": "Once off, wait for your character to drink a waterskin, cast Humidify [Desert Hard Diary]",
       "manual": true
     },
     {
@@ -696,18 +660,12 @@
       "id": "e10-049",
       "title": "Return to the maze & kill …",
       "text": "Return to the maze & kill the ranger Locus Rider nearby [Desert Hard Diary]",
+      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-050",
@@ -728,19 +686,13 @@
       "id": "e10-051",
       "title": "Head to Nardah",
       "text": "Head to Nardah",
+      "manual": true,
       "npc": 4756,
       "world": [
         3443,
         2915,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3443,
-        "y": 2915,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-052",
@@ -808,7 +760,7 @@
         "x": 3358,
         "y": 2974,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -875,19 +827,13 @@
       "id": "e10-061",
       "title": "Go to Pyramid Plunder & Loot …",
       "text": "Go to Pyramid Plunder & Loot all Gold Chests until Room 6, and all Sarcophagus’ during & after Room 4 (6 Gold Chests, 3 Sacrophagus’)",
+      "manual": true,
       "object": 26622,
       "world": [
         3289,
         2800,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3289,
-        "y": 2800,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-062",
@@ -907,15 +853,9 @@
       ]
     },
     {
-      "id": "e10-064a",
-      "title": "If you spoon it",
-      "text": "If you spoon it",
-      "manual": true
-    },
-    {
-      "id": "e10-064b",
-      "title": "finish 72 Thieving off at either …",
-      "text": "finish 72 Thieving off at either Menaphites or Pyramid Plunder (Looting Room 5 & 6 fully)",
+      "id": "e10-064",
+      "title": "If you spoon it, finish 72 …",
+      "text": "If you spoon it, finish 72 Thieving off at either Menaphites or Pyramid Plunder (Looting Room 5 & 6 fully)",
       "manual": true,
       "npc": 3549,
       "world": [
@@ -1121,9 +1061,9 @@
       ]
     },
     {
-      "id": "e10-082a",
+      "id": "e10-082",
       "title": "If you get a +2 boost …",
-      "text": "If you get a +2 boost (85+), you can bank",
+      "text": "If you get a +2 boost (85+), you can bank, make the Fairy Ring in the POH as you will have time",
       "manual": true,
       "world": [
         3165,
@@ -1132,15 +1072,9 @@
       ]
     },
     {
-      "id": "e10-082b",
-      "title": "make the Fairy Ring in the …",
-      "text": "make the Fairy Ring in the POH as you will have time",
-      "manual": true
-    },
-    {
       "id": "e10-083a",
       "title": "When you get a +5 boost …",
-      "text": "When you get a +5 boost (88)",
+      "text": "When you get a +5 boost (88), pick up your cat",
       "manual": true,
       "world": [
         3165,
@@ -1150,18 +1084,12 @@
     },
     {
       "id": "e10-083b",
-      "title": "pick up your cat",
-      "text": "pick up your cat",
-      "manual": true
-    },
-    {
-      "id": "e10-083c",
       "title": "teleport to POH",
       "text": "teleport to POH",
       "manual": true
     },
     {
-      "id": "e10-083d",
+      "id": "e10-083c",
       "title": "make the Occult Altar in the …",
       "text": "make the Occult Altar in the Achievement Gallery",
       "manual": true
@@ -1244,37 +1172,25 @@
       "id": "e10-089b",
       "title": "Teleport Runes, Coins, Brimhaven Vouchers",
       "text": "Teleport Runes, Coins, Brimhaven Vouchers",
+      "manual": true,
       "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2789,
-        "y": 3174,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-090",
       "title": "Teleport to Ardougne",
       "text": "Teleport to Ardougne",
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
         3228,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2772,
-        "y": 3228,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e10-091",
@@ -1301,15 +1217,9 @@
       ]
     },
     {
-      "id": "e10-093a",
-      "title": "Boost if needed",
-      "text": "Boost if needed",
-      "manual": true
-    },
-    {
-      "id": "e10-093b",
-      "title": "make 10 Stamina Potions (4), 10 …",
-      "text": "make 10 Stamina Potions (4), 10 Super Restores (4), 10 Prayer Potions (4)",
+      "id": "e10-093",
+      "title": "Boost if needed, make 10 Stamina …",
+      "text": "Boost if needed, make 10 Stamina Potions (4), 10 Super Restores (4), 10 Prayer Potions (4)",
       "manual": true
     },
     {
@@ -1366,7 +1276,7 @@
         "x": 2407,
         "y": 3105,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1417,7 +1327,7 @@
         "x": 2407,
         "y": 3105,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1497,12 +1407,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 55
+            "qty": 36
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 55,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -1602,7 +1512,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1625,7 +1535,7 @@
         "x": 2870,
         "y": 3544,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1709,35 +1619,18 @@
     },
     {
       "id": "e10-124a",
-      "title": "When you get it",
-      "text": "When you get it",
+      "title": "When you get it, teleport to …",
+      "text": "When you get it, teleport to Edgeville",
       "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
-    },
-    {
-      "id": "e10-124b",
-      "title": "teleport to Edgeville",
-      "text": "teleport to Edgeville",
       "object": 1581,
       "world": [
         3097,
         3468,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3097,
-        "y": 3468,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
-      "id": "e10-124c",
+      "id": "e10-124b",
       "title": "make the Onyx Amulet of the …",
       "text": "make the Onyx Amulet of the Furnace",
       "manual": true
@@ -1761,15 +1654,9 @@
       ]
     },
     {
-      "id": "e10-127a",
+      "id": "e10-127",
       "title": "If you haven’t got 44 RuneCraft …",
-      "text": "If you haven’t got 44 RuneCraft go to Guardians of the Rift",
-      "manual": true
-    },
-    {
-      "id": "e10-127b",
-      "title": "get this level quickly (This level …",
-      "text": "get this level quickly (This level varies on Sulphua Nagua drops)",
+      "text": "If you haven’t got 44 RuneCraft go to Guardians of the Rift, get this level quickly (This level varies on Sulphua Nagua drops)",
       "manual": true,
       "world": [
         3165,
@@ -1872,7 +1759,7 @@
         "x": 2843,
         "y": 3070,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1934,7 +1821,7 @@
         "x": 3000,
         "y": 3360,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -1991,18 +1878,12 @@
     },
     {
       "id": "e10-144a",
-      "title": "If you reach 76",
-      "text": "If you reach 76",
+      "title": "If you reach 76, use a …",
+      "text": "If you reach 76, use a brown spice +5 boost to make Saradomin Brews. If 77",
       "manual": true
     },
     {
       "id": "e10-144b",
-      "title": "use a brown spice +5 boost …",
-      "text": "use a brown spice +5 boost to make Saradomin Brews. If 77",
-      "manual": true
-    },
-    {
-      "id": "e10-144c",
       "title": "use a Golovanova Pie",
       "text": "use a Golovanova Pie",
       "manual": true

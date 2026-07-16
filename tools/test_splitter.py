@@ -19,6 +19,10 @@ CASES = [
     # single action => unchanged
     ("Talk to the Cook", ["Talk to the Cook"]),
     ("Kill goblins for bones", ["Kill goblins for bones"]),
+    # leading non-action fragment folds forward into the first real action (not a junk step)
+    ("In Lumbridge, talk to Hans", ["In Lumbridge, talk to Hans"]),
+    # 'return' still splits (it's an action verb) even though it's no longer a travel/arrival verb
+    ("Kill goblins, then return to Aggie", ["Kill goblins", "return to Aggie"]),
     # 'and then'
     ("Head to Varrock and then buy a sword", ["Head to Varrock", "buy a sword"]),
     # semicolon
@@ -42,6 +46,10 @@ TRAVEL_CASES = [
     ("Talk to Aggie", False),
     ("Mine 3 clay", False),
     ("Make 5 bronze bars", False),   # 'make' (craft) is NOT travel
+    # interaction verbs that read like travel must NOT be arrival-triggers
+    ("Return to Aggie", False),
+    ("Enter the cave", False),
+    ("Climb the ladder", False),
 ]
 
 def main():

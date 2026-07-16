@@ -55,26 +55,20 @@
         "x": 1630,
         "y": 3730,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
       "id": "e6-004",
       "title": "Teleport to Kourend Castle",
       "text": "Teleport to Kourend Castle",
+      "manual": true,
       "object": 18258,
       "world": [
         1617,
         3673,
         2
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1617,
-        "y": 3673,
-        "z": 2,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e6-005",
@@ -137,18 +131,12 @@
     },
     {
       "id": "e6-010a",
-      "title": "Right before the hellhounds room",
-      "text": "Right before the hellhounds room",
+      "title": "Right before the hellhounds room, Take …",
+      "text": "Right before the hellhounds room, Take shortcut to Giants den",
       "manual": true
     },
     {
       "id": "e6-010b",
-      "title": "Take shortcut to Giants den",
-      "text": "Take shortcut to Giants den",
-      "manual": true
-    },
-    {
-      "id": "e6-010c",
       "title": "kill each of the 3 giants …",
       "text": "kill each of the 3 giants (Fire, Hill, Moss). (1 Point)",
       "manual": true
@@ -261,7 +249,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -351,18 +339,12 @@
       "id": "e6-032",
       "title": "Enter Fire Altar",
       "text": "Enter Fire Altar",
+      "manual": true,
       "world": [
         3312,
         3254,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3312,
-        "y": 3254,
-        "z": 0,
-        "radius": 10
-      }
+      ]
     },
     {
       "id": "e6-033",
@@ -459,18 +441,12 @@
     },
     {
       "id": "e6-041a",
-      "title": "70 Mining - 3t Sand",
-      "text": "70 Mining - 3t Sand",
+      "title": "70 Mining - 3t Sand, deposit …",
+      "text": "70 Mining - 3t Sand, deposit in the grinder for future grinds. Leave for Herb Runs",
       "manual": true
     },
     {
       "id": "e6-041b",
-      "title": "deposit in the grinder for future …",
-      "text": "deposit in the grinder for future grinds. Leave for Herb Runs",
-      "manual": true
-    },
-    {
-      "id": "e6-041c",
       "title": "use Camulet to return",
       "text": "use Camulet to return",
       "manual": true
@@ -585,7 +561,7 @@
         "x": 3210,
         "y": 3448,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -602,7 +578,7 @@
         "x": 1725,
         "y": 3128,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
@@ -869,7 +845,7 @@
         "x": 1630,
         "y": 3730,
         "z": 0,
-        "radius": 10
+        "radius": 8
       }
     },
     {
