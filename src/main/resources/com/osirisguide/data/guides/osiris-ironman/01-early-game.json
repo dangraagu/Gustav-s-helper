@@ -90,9 +90,12 @@
       "text": "Drop your runes and ask for more from the magic tutor\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
         3218,
+        3238,
         0
+      ],
+      "npcs": [
+        3218
       ]
     },
     {
@@ -101,8 +104,8 @@
       "text": "pick up your runes\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
         3218,
+        3238,
         0
       ]
     },
@@ -245,6 +248,18 @@
         "level": 5,
         "cmp": ">="
       },
+      "npcs": [
+        3106,
+        3107,
+        3108,
+        3109,
+        3110,
+        6818,
+        6815,
+        6987,
+        6988,
+        6989
+      ],
       "world": [
         3222,
         3218,
@@ -1482,8 +1497,8 @@
       "text": "Drop runes\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
         3218,
+        3238,
         0
       ]
     },
@@ -1493,9 +1508,12 @@
       "text": "get more from mage tutor\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
         3218,
+        3238,
         0
+      ],
+      "npcs": [
+        3218
       ]
     },
     {

@@ -491,17 +491,29 @@ def load_manual():
     for k, v in data.items():
         if k.startswith("_"):
             continue  # comment keys
-        if isinstance(v, (list, tuple)) and len(v) >= 2:
+        if (isinstance(v, (list, tuple)) and len(v) >= 2) or isinstance(v, dict):
             MANUAL_COORDS[k.strip().lower()] = v
             n += 1
     return n
 
 
 def manual_lookup(name):
+    """Returns {'world': [x,y,z]?, 'npcs': [ids]?} for a manually-annotated step, else None.
+    A plain [x,y,z] value is shorthand for {'world': ...}; the dict form can also carry npc id(s)
+    ('npc' single or 'npcs' list) for steps like "thieve any man"."""
     v = MANUAL_COORDS.get((name or "").strip().lower())
     if not v:
         return None
-    return [int(v[0]), int(v[1]), int(v[2]) if len(v) > 2 else 0]
+    if isinstance(v, dict):
+        out = {}
+        w = v.get("world")
+        if isinstance(w, (list, tuple)) and len(w) >= 2:
+            out["world"] = [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0]
+        ids = v.get("npcs") or ([v["npc"]] if v.get("npc") is not None else None)
+        if ids:
+            out["npcs"] = [int(i) for i in ids]
+        return out or None
+    return {"world": [int(v[0]), int(v[1]), int(v[2]) if len(v) > 2 else 0]}
 
 
 # --- Resource sites: where you actually mine/chop/fish/kill -------------------
@@ -765,8 +777,12 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     # text ("go to Falador" -> Falador centre). This fills the "no clickable spot" steps.
     enrich_entity(step, name, step.get("complete", {}).get("op"), item_id, entities)
     mc = manual_lookup(name)
-    if mc:
-        step["world"] = mc  # human-verified override beats every automatic layer (keeps npc/object ids)
+    if mc:  # human-verified override beats every automatic layer
+        if "world" in mc:
+            step["world"] = mc["world"]
+        if "npcs" in mc:
+            step["npcs"] = mc["npcs"]  # "any of these" highlight (e.g. every Man variant)
+            step.pop("npc", None)
     if "world" not in step:
         # amenity (the actual shop/facility for the action) > resource site (mine/chop/fish/kill,
         # nearest to the route's current position) > loc-hint centre > quest-start tile > any place

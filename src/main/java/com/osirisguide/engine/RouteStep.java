@@ -23,7 +23,7 @@ public class RouteStep
 	private final String text;
 	private final String wikiUrl;
 	private final WorldPoint worldPoint;   // nullable
-	private final int highlightNpcId;      // -1 = none
+	private final List<Integer> highlightNpcIds; // empty = none; several ids = "any of these" (e.g. Man variants)
 	private final int highlightObjectId;   // -1 = none
 	private final int highlightItemId;     // -1 = none
 	private final boolean manual;
@@ -31,9 +31,20 @@ public class RouteStep
 	private final List<Requirement> requirements;
 	private final Condition complete;
 
+	/** Single-npc convenience overload (also what the tests use). */
 	public RouteStep(String id, String section, String title, String text, String wikiUrl,
 					 WorldPoint worldPoint, int highlightNpcId, int highlightObjectId, int highlightItemId,
 					 boolean manual, Set<IronmanMode> modes, List<Requirement> requirements, Condition complete)
+	{
+		this(id, section, title, text, wikiUrl, worldPoint,
+			highlightNpcId >= 0 ? Collections.singletonList(highlightNpcId) : Collections.emptyList(),
+			highlightObjectId, highlightItemId, manual, modes, requirements, complete);
+	}
+
+	public RouteStep(String id, String section, String title, String text, String wikiUrl,
+					 WorldPoint worldPoint, List<Integer> highlightNpcIds, int highlightObjectId,
+					 int highlightItemId, boolean manual, Set<IronmanMode> modes,
+					 List<Requirement> requirements, Condition complete)
 	{
 		this.id = id;
 		this.section = section;
@@ -41,7 +52,7 @@ public class RouteStep
 		this.text = text;
 		this.wikiUrl = wikiUrl;
 		this.worldPoint = worldPoint;
-		this.highlightNpcId = highlightNpcId;
+		this.highlightNpcIds = highlightNpcIds == null ? Collections.emptyList() : highlightNpcIds;
 		this.highlightObjectId = highlightObjectId;
 		this.highlightItemId = highlightItemId;
 		this.manual = manual;
@@ -80,9 +91,16 @@ public class RouteStep
 		return worldPoint;
 	}
 
+	/** First highlight NPC id, or -1 — kept for single-target call sites. */
 	public int getHighlightNpcId()
 	{
-		return highlightNpcId;
+		return highlightNpcIds.isEmpty() ? -1 : highlightNpcIds.get(0);
+	}
+
+	/** All acceptable NPC ids for this step (empty = none) — "talk to any man" carries several. */
+	public List<Integer> getHighlightNpcIds()
+	{
+		return highlightNpcIds;
 	}
 
 	public int getHighlightObjectId()
@@ -135,7 +153,7 @@ public class RouteStep
 	 *  it must not be folded away as a passed-by step. */
 	public boolean hasInteractionTarget()
 	{
-		return highlightNpcId >= 0 || highlightObjectId >= 0;
+		return !highlightNpcIds.isEmpty() || highlightObjectId >= 0;
 	}
 
 	/** @return true if this step applies to the given account mode (empty modes = all). */
