@@ -1,20 +1,20 @@
 {
   "_comment": "Auto-generated from raw/b0aty-hcim.json by build_raw_guide.py",
   "sections": [
-    "01-e1.json",
-    "02-e2.json",
-    "03-e3.json",
-    "04-e4.json",
-    "05-e5.json",
-    "06-e6.json",
-    "07-e7.json",
-    "08-e8.json",
-    "09-e9.json",
-    "10-e10.json",
-    "11-e11.json",
-    "12-e12.json",
-    "13-e13.json",
-    "14-e14.json",
-    "15-e15.json"
+    "00-e1.json",
+    "00-e2.json",
+    "01-e3.json",
+    "00-e4.json",
+    "00-e5.json",
+    "00-e6.json",
+    "00-e7.json",
+    "00-e8.json",
+    "00-e9.json",
+    "00-e10.json",
+    "00-e11.json",
+    "02-e12.json",
+    "00-e13.json",
+    "01-e14.json",
+    "00-e15.json"
   ]
 }

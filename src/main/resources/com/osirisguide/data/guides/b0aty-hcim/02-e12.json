@@ -1,0 +1,1212 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:B0aty_HCIM_Guide_V3",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Episode 12 - Bank 204 through Zulrah",
+  "steps": [
+    {
+      "id": "e12-001a",
+      "title": "Withdraw: Combat Gear (Blood Moon with …",
+      "text": "Withdraw: Combat Gear (Blood Moon with Dual Macahuitl’s are best), Coins",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-001b",
+      "title": "Teleport Runes, Dramen Staff, Costume Needle, …",
+      "text": "Teleport Runes, Dramen Staff, Costume Needle, Hammer, 2x Box Traps, Potions & Food",
+      "manual": true
+    },
+    {
+      "id": "e12-002",
+      "title": "Teleport to Civitas Illa Fortis",
+      "text": "Teleport to Civitas Illa Fortis",
+      "world": [
+        1725,
+        3128,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-003",
+      "title": "Head to the building North-East of …",
+      "text": "Head to the building North-East of the Quetzals",
+      "manual": true
+    },
+    {
+      "id": "e12-004",
+      "title": "Inspect Empty Display Case (1) [Ethically …",
+      "text": "Inspect Empty Display Case (1) [Ethically Acquired Antiques]",
+      "manual": true
+    },
+    {
+      "id": "e12-005",
+      "title": "Continue Ethically Acquired Antiques until repairing …",
+      "text": "Continue Ethically Acquired Antiques until repairing the Sail",
+      "manual": true
+    },
+    {
+      "id": "e12-006a",
+      "title": "Head South",
+      "text": "Head South",
+      "manual": true
+    },
+    {
+      "id": "e12-006b",
+      "title": "talk to Emelio (1) [Meat and …",
+      "text": "talk to Emelio (1) [Meat and Greet]",
+      "complete": {
+        "op": "quest",
+        "quest": "MEAT_AND_GREET",
+        "state": "FINISHED"
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
+    },
+    {
+      "id": "e12-007",
+      "title": "Head back to the Trader Crewmember",
+      "text": "Head back to the Trader Crewmember",
+      "manual": true
+    },
+    {
+      "id": "e12-008",
+      "title": "Continue Ethically Acquired Antiques until shaming …",
+      "text": "Continue Ethically Acquired Antiques until shaming Haig Halen [Ethically Acquired Antiques]",
+      "manual": true
+    },
+    {
+      "id": "e12-009",
+      "title": "Teleport to Civitas Illa Fortis",
+      "text": "Teleport to Civitas Illa Fortis",
+      "world": [
+        1725,
+        3128,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-010",
+      "title": "Head South & talk to Spice …",
+      "text": "Head South & talk to Spice Merchant (2) [Meat and Greet]",
+      "complete": {
+        "op": "quest",
+        "quest": "MEAT_AND_GREET",
+        "state": "FINISHED"
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
+    },
+    {
+      "id": "e12-011",
+      "title": "Open the box code 2546",
+      "text": "Open the box code 2546",
+      "manual": true
+    },
+    {
+      "id": "e12-012",
+      "title": "AJP Fairy Ring",
+      "text": "AJP Fairy Ring",
+      "manual": true
+    },
+    {
+      "id": "e12-013",
+      "title": "Head South-West & talk to Guildmaster …",
+      "text": "Head South-West & talk to Guildmaster Fox[At First Light]",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "e12-014",
+      "title": "Continue At First Light until you …",
+      "text": "Continue At First Light until you need to head to Atza",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "e12-015",
+      "title": "Head North-West to Ortus Farm",
+      "text": "Head North-West to Ortus Farm",
+      "manual": true
+    },
+    {
+      "id": "e12-016",
+      "title": "Talk to Alba [Meat and Greet]",
+      "text": "Talk to Alba [Meat and Greet]",
+      "complete": {
+        "op": "quest",
+        "quest": "MEAT_AND_GREET",
+        "state": "FINISHED"
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
+    },
+    {
+      "id": "e12-017",
+      "title": "Continue Meat and Greet until you …",
+      "text": "Continue Meat and Greet until you need to return to Emilio",
+      "complete": {
+        "op": "quest",
+        "quest": "MEAT_AND_GREET",
+        "state": "FINISHED"
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
+    },
+    {
+      "id": "e12-018",
+      "title": "Teleport to Civitis Illa Fortis",
+      "text": "Teleport to Civitis Illa Fortis",
+      "world": [
+        1725,
+        3128,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-019",
+      "title": "Head to the building North-East of …",
+      "text": "Head to the building North-East of the Quetzals",
+      "manual": true
+    },
+    {
+      "id": "e12-020",
+      "title": "Talk to Curator Herminius to complete …",
+      "text": "Talk to Curator Herminius to complete Ethically Acquired Antiques (4)",
+      "manual": true,
+      "npc": 13297,
+      "world": [
+        1712,
+        3163,
+        0
+      ]
+    },
+    {
+      "id": "e12-021",
+      "title": "Head South-East back to Emelio",
+      "text": "Head South-East back to Emelio",
+      "npc": 13804,
+      "world": [
+        1753,
+        3074,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1753,
+        "y": 3074,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-022",
+      "title": "Continue & Complete Meat and Greet",
+      "text": "Continue & Complete Meat and Greet",
+      "complete": {
+        "op": "quest",
+        "quest": "MEAT_AND_GREET",
+        "state": "FINISHED"
+      },
+      "world": [
+        1753,
+        3074,
+        0
+      ]
+    },
+    {
+      "id": "e12-023",
+      "title": "Head West",
+      "text": "Head West",
+      "manual": true
+    },
+    {
+      "id": "e12-024",
+      "title": "Talk to Atza [At First Light]",
+      "text": "Talk to Atza [At First Light]",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "e12-025",
+      "title": "Continue At First Light until needing …",
+      "text": "Continue At First Light until needing to go to Guildmaster Fox",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "e12-026",
+      "title": "AJP Fairy Ring",
+      "text": "AJP Fairy Ring",
+      "manual": true
+    },
+    {
+      "id": "e12-027",
+      "title": "Continue & Complete At First Light",
+      "text": "Continue & Complete At First Light",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "e12-028",
+      "title": "Teleport to Civitas Illa Fortis",
+      "text": "Teleport to Civitas Illa Fortis",
+      "world": [
+        1725,
+        3128,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-029",
+      "title": "Take the Quetzal to Quetzacalli Gorge",
+      "text": "Take the Quetzal to Quetzacalli Gorge",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-030",
+      "title": "Continue & Complete The Heart of …",
+      "text": "Continue & Complete The Heart of Darkness",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_HEART_OF_DARKNESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1454,
+        3173,
+        0
+      ]
+    },
+    {
+      "id": "e12-031",
+      "title": "Make sure to unlock the statue …",
+      "text": "Make sure to unlock the statue teleport while there",
+      "manual": true
+    },
+    {
+      "id": "e12-032",
+      "title": "Talk to Servius (1) [The Final …",
+      "text": "Talk to Servius (1) [The Final Dawn]",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-033",
+      "title": "Take the Quetzal to Quetzacalli Gorge",
+      "text": "Take the Quetzal to Quetzacalli Gorge",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-034",
+      "title": "Bank all",
+      "text": "Bank all",
+      "manual": true
+    },
+    {
+      "id": "e12-035",
+      "title": "Withdraw: Blood Moon & Dual Macahuitl’s, …",
+      "text": "Withdraw: Blood Moon & Dual Macahuitl’s, combat potions & food",
+      "manual": true
+    },
+    {
+      "id": "e12-036",
+      "title": "Kill Frost Nagua’s until you get …",
+      "text": "Kill Frost Nagua’s until you get Pendant of ates (OPTIONAL: Glacial Temotli’s)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-037",
+      "title": "Recommended: Kill Amoxiatl instead for the …",
+      "text": "Recommended: Kill Amoxiatl instead for the combat achievements; You may get it here passively. The 30 second one you may want to return for",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-038",
+      "title": "Once you get it, continue The …",
+      "text": "Once you get it, continue The Final Dawn until needing after killing the Emissary",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-039",
+      "title": "Teleport to Civitas Illa Fortis",
+      "text": "Teleport to Civitas Illa Fortis",
+      "world": [
+        1725,
+        3128,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-040",
+      "title": "Kill a guard & pick up …",
+      "text": "Kill a guard & pick up the bones",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 526,
+            "qty": 27
+          },
+          {
+            "op": "item",
+            "id": 526,
+            "qty": 27,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 526
+    },
+    {
+      "id": "e12-041",
+      "title": "Continue The Final Dawn until needing …",
+      "text": "Continue The Final Dawn until needing to talk to Servius",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-042",
+      "title": "Bank at Cam Torum",
+      "text": "Bank at Cam Torum",
+      "manual": true
+    },
+    {
+      "id": "e12-043",
+      "title": "Withdraw: Combat Gear, Food & Potions",
+      "text": "Withdraw: Combat Gear, Food & Potions",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-044",
+      "title": "Talk to Servius [The Final Dawn]",
+      "text": "Talk to Servius [The Final Dawn]",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-045",
+      "title": "Continue The Final Dawn until you …",
+      "text": "Continue The Final Dawn until you talk to Attala after killing Lucius & Chimalli",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-046",
+      "title": "Teleport to Civitas Illa Fortis",
+      "text": "Teleport to Civitas Illa Fortis",
+      "world": [
+        1725,
+        3128,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-047",
+      "title": "Take the Quetzal to Tal Teklan",
+      "text": "Take the Quetzal to Tal Teklan",
+      "manual": true
+    },
+    {
+      "id": "e12-048",
+      "title": "Talk to Servius [The Final Dawn]",
+      "text": "Talk to Servius [The Final Dawn]",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-049",
+      "title": "Bank North",
+      "text": "Bank North",
+      "manual": true
+    },
+    {
+      "id": "e12-050",
+      "title": "Withdraw: Combat Gear, Antifire Shield, Dramen …",
+      "text": "Withdraw: Combat Gear, Antifire Shield, Dramen Staff, Saw, 2x plank, Food & Potions",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 960,
+            "qty": 155
+          },
+          {
+            "op": "item",
+            "id": 960,
+            "qty": 155,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 960,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-051",
+      "title": "Head North & talk to Alan …",
+      "text": "Head North & talk to Alan (1,1) [Scrambled!]",
+      "complete": {
+        "op": "quest",
+        "quest": "SCRAMBLED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1247,
+        3167,
+        0
+      ]
+    },
+    {
+      "id": "e12-052",
+      "title": "Complete Scrambled!",
+      "text": "Complete Scrambled!",
+      "complete": {
+        "op": "quest",
+        "quest": "SCRAMBLED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1247,
+        3167,
+        0
+      ]
+    },
+    {
+      "id": "e12-053",
+      "title": "Fairy Ring -> AIS",
+      "text": "Fairy Ring -> AIS",
+      "manual": true
+    },
+    {
+      "id": "e12-054",
+      "title": "Head North over the bridge & …",
+      "text": "Head North over the bridge & bank",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-055",
+      "title": "Withdraw: Combat Gear, Axe, Knife, 4x …",
+      "text": "Withdraw: Combat Gear, Axe, Knife, 4x Willow Longbow, 5x Maple Logs, 4x Maple Longbow (u), Fishing Rod, Hammer",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 847,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 847,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 847,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-056",
+      "title": "Head West to the pub",
+      "text": "Head West to the pub",
+      "manual": true
+    },
+    {
+      "id": "e12-057",
+      "title": "Check Noticeboard (1) [Shadows of Custodia]",
+      "text": "Check Noticeboard (1) [Shadows of Custodia]",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOWS_OF_CUSTODIA",
+        "state": "FINISHED"
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
+    },
+    {
+      "id": "e12-058",
+      "title": "Talk to Marcus [Shadows of Custodia]",
+      "text": "Talk to Marcus [Shadows of Custodia]",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOWS_OF_CUSTODIA",
+        "state": "FINISHED"
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
+    },
+    {
+      "id": "e12-059",
+      "title": "Talk to Bartender [Shadows of Custodia]",
+      "text": "Talk to Bartender [Shadows of Custodia]",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOWS_OF_CUSTODIA",
+        "state": "FINISHED"
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
+    },
+    {
+      "id": "e12-060",
+      "title": "Head North-West",
+      "text": "Head North-West",
+      "manual": true
+    },
+    {
+      "id": "e12-061",
+      "title": "Talk to Ranulph [Vale Totems]",
+      "text": "Talk to Ranulph [Vale Totems]",
+      "complete": {
+        "op": "quest",
+        "quest": "VALE_TOTEMS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1365,
+        3366,
+        0
+      ]
+    },
+    {
+      "id": "e12-062",
+      "title": "Complete Vale Totems",
+      "text": "Complete Vale Totems",
+      "complete": {
+        "op": "quest",
+        "quest": "VALE_TOTEMS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1365,
+        3366,
+        0
+      ]
+    },
+    {
+      "id": "e12-063",
+      "title": "OPTIONAL: When training crafting you can …",
+      "text": "OPTIONAL: When training crafting you can build the 2 totems East & South-West of the bank and rebuild these for passivish Fletching Experience while bank standing Crafting. Fletch the unstrung bows on the way to them",
+      "manual": true
+    },
+    {
+      "id": "e12-064",
+      "title": "Head North-East",
+      "text": "Head North-East",
+      "manual": true
+    },
+    {
+      "id": "e12-065",
+      "title": "Talk to Ictus [Shadows of Custodia]",
+      "text": "Talk to Ictus [Shadows of Custodia]",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOWS_OF_CUSTODIA",
+        "state": "FINISHED"
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
+    },
+    {
+      "id": "e12-066",
+      "title": "Complete Shadows of Custodia]",
+      "text": "Complete Shadows of Custodia]",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOWS_OF_CUSTODIA",
+        "state": "FINISHED"
+      },
+      "world": [
+        1396,
+        3356,
+        0
+      ]
+    },
+    {
+      "id": "e12-067",
+      "title": "Bank North-East",
+      "text": "Bank North-East",
+      "manual": true
+    },
+    {
+      "id": "e12-068a",
+      "title": "Withdraw: Combat Gear (Melee & Range), …",
+      "text": "Withdraw: Combat Gear (Melee & Range), Food & Potions",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-068b",
+      "title": "Teleport Runes",
+      "text": "Teleport Runes",
+      "manual": true
+    },
+    {
+      "id": "e12-069",
+      "title": "Take North Quetzal to Teklan",
+      "text": "Take North Quetzal to Teklan",
+      "manual": true
+    },
+    {
+      "id": "e12-070",
+      "title": "Continue the Final Dawn until you …",
+      "text": "Continue the Final Dawn until you unlock the Shortcut",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-071",
+      "title": "Take the shortcut to the surface",
+      "text": "Take the shortcut to the surface",
+      "manual": true
+    },
+    {
+      "id": "e12-072",
+      "title": "Run East & activate statue",
+      "text": "Run East & activate statue",
+      "manual": true
+    },
+    {
+      "id": "e12-073",
+      "title": "Run West & restock food & …",
+      "text": "Run West & restock food & potions at the bank",
+      "manual": true
+    },
+    {
+      "id": "e12-074",
+      "title": "Return to the shortcut & descend",
+      "text": "Return to the shortcut & descend",
+      "manual": true
+    },
+    {
+      "id": "e12-075",
+      "title": "Continue & Complete The Final Dawn",
+      "text": "Continue & Complete The Final Dawn",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "e12-076",
+      "title": "This unlocks Doom of Mokhaiotl which …",
+      "text": "This unlocks Doom of Mokhaiotl which is accessible after you obtain all 3 Demonbane weapons down the line (and void elite). It has 3 direct upgrades that are very nice but the boss itself is very dangerous. If you want to grind it, I would recommend it after the 3 Tormented Synapses, Anglerfish, Elite Void & 3rd Zenyte (Tormented Bracelet)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 19544,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 19544,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 19544,
+      "world": [
+        1309,
+        3104,
+        0
+      ]
+    },
+    {
+      "id": "e12-077",
+      "title": "Calculate your crafting supplies required via …",
+      "text": "Calculate your crafting supplies required via molten glass to obtain 87/90/93 respectively (87 is for Zulrah, 90 Yama, 93 not too important)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1775,
+            "qty": 9
+          },
+          {
+            "op": "item",
+            "id": 1775,
+            "qty": 9,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1775,
+      "world": [
+        1435,
+        3668,
+        0
+      ]
+    },
+    {
+      "id": "e12-078",
+      "title": "Withdraw: Adamant Pickaxe, Knife, Teak Log, …",
+      "text": "Withdraw: Adamant Pickaxe, Knife, Teak Log, 1Mil Coins, Camulet, 3x waterskin, Humidify Runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1271,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 1271,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1271
+    },
+    {
+      "id": "e12-079",
+      "title": "Teleport to POH -> Lunar Spellbook",
+      "text": "Teleport to POH -> Lunar Spellbook",
+      "manual": true
+    },
+    {
+      "id": "e12-080",
+      "title": "Camulet to inside. Upgrade to infinite …",
+      "text": "Camulet to inside. Upgrade to infinite charges then camulet outside",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-081",
+      "title": "Mine however many sand your calculations …",
+      "text": "Mine however many sand your calculations have shown",
+      "manual": true
+    },
+    {
+      "id": "e12-082",
+      "title": "Superglass make all the Molten Glass …",
+      "text": "Superglass make all the Molten Glass with Giant Seaweed",
+      "manual": true
+    },
+    {
+      "id": "e12-083",
+      "title": "Blow all the glass until whatever …",
+      "text": "Blow all the glass until whatever level you are after (I’d recommend 87 minimum for Zulrah or push 90 for Yama)",
+      "manual": true,
+      "world": [
+        1435,
+        3668,
+        0
+      ]
+    },
+    {
+      "id": "e12-084",
+      "title": "As mentioned earlier, you can blow …",
+      "text": "As mentioned earlier, you can blow this glass at Auburn & complete 2 totems nearby for passive fletching experience while bank standing & also unlocking the Vale Totem items passively. Use Maple Logs until you unlock Yew Logs from Zulrah",
+      "manual": true
+    },
+    {
+      "id": "e12-085",
+      "title": "Withdraw: Zenyte Shards, Chaos/Death Runes (29,000/14,500 …",
+      "text": "Withdraw: Zenyte Shards, Chaos/Death Runes (29,000/14,500 per Onyx) [You may need to buy more], Karamja Gloves, Teleport Runes, Dramen Staff, House tab, Banana, Zombie Monkey Greegree, Chisel, Wily Cat",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 19529,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 19529,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 19529,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "e12-086",
+      "title": "Teleport to POH with the Tablet …",
+      "text": "Teleport to POH with the Tablet & change to Regular Spellbook",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-087",
+      "title": "Fairy ring -> BLP",
+      "text": "Fairy ring -> BLP",
+      "manual": true
+    },
+    {
+      "id": "e12-088",
+      "title": "Sell Chaos & Death Runes for …",
+      "text": "Sell Chaos & Death Runes for Onyx’s (260,000 tokkul per onyx)",
+      "manual": true
+    },
+    {
+      "id": "e12-089",
+      "title": "Teleport to Ape Atoll",
+      "text": "Teleport to Ape Atoll",
+      "npc": 1454,
+      "world": [
+        2892,
+        2723,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2892,
+        "y": 2723,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e12-090",
+      "title": "Infuse the Zenyte’s and Onyx’s together",
+      "text": "Infuse the Zenyte’s and Onyx’s together",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-091",
+      "title": "Hunt Orange spices for +5 boosts …",
+      "text": "Hunt Orange spices for +5 boosts as necessary and create your Zenyte Jewellry",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-092",
+      "title": "Once you have a ring of …",
+      "text": "Once you have a ring of suffering & Necklace of Anguish we can kill Zulrah fairly safely. However the food drops were nerfed so it may be worth grinding slightly better food as Zulrah can hit hard and you are close to a lot of more dangerous PvM. Anglerfish are very good for almost any and all instances of late game PvM but require 82 Fishing & 84 Cooking to obtain. I would recommend knocking this out to get it done at either Tempoross (Max XP method) or 3t Barbarian Fishing. If you afked Karambwans a lot you will probably have 70+ right now so barb fishing is very good. 82 Fishing is about a 20 hour grind. Anglerfish are good for Zulrah, Doom, Yama & ToB. Alternatively Zulrah is still accessible with Potatoes & Cheese with Karambwan combo eats as long as you are disciplined on teleports if you get spammed with range attacks.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 19547,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 19547,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 19547,
+      "world": [
+        2502,
+        3489,
+        0
+      ]
+    },
+    {
+      "id": "e12-093",
+      "title": "Gear: (Make sure Suffering is imbued …",
+      "text": "Gear: (Make sure Suffering is imbued & recoil effect activated. Replace Inferno with Accumulator if you don’t have (I preferred a bit extra range defence for tanz phases). Rune pouch with ‘Cure Me’ missing",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-094",
+      "title": "As we have no good way …",
+      "text": "As we have no good way to cure venom right now we will use the ‘Cure Me’ Lunar spell. Using this we want to camp only range (which is very effective) until we get a Serpentine Visage drop or we unlock Antivenoms.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e12-095",
+      "title": "When fighting Zulrah, the Green Phase …",
+      "text": "When fighting Zulrah, the Green Phase & Red phase are straight forward, but the Tanz phase I would recommending eating whenever you lose health above what your food heals (if 18 health under max, eat a Karambwan, if hit a 40, double eat and be prepared for teleporting)",
+      "manual": true
+    },
+    {
+      "id": "e12-096a",
+      "title": "With this set up, Teleports should …",
+      "text": "With this set up, Teleports should roughly self sustain. Outside of that",
+      "manual": true
+    },
+    {
+      "id": "e12-096b",
+      "title": "bank with Lunar Spell to Catherby",
+      "text": "bank with Lunar Spell to Catherby",
+      "manual": true,
+      "npc": 1520,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "e12-096c",
+      "title": "run from the Charter boat (Agility …",
+      "text": "run from the Charter boat (Agility highly optional)",
+      "manual": true
+    }
+  ]
+}

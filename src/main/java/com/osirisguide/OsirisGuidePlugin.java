@@ -278,6 +278,12 @@ public class OsirisGuidePlugin extends Plugin
 			{
 				changed = progression.process(ctx);
 			}
+			// Milestone-fold: once a later step is done, auto-complete the manual flavour steps behind
+			// it so the route advances by itself instead of stalling on an untriggerable "sell/drop" step.
+			if (config.autoAdvance() && progression.foldManualBehindMilestones())
+			{
+				changed = true;
+			}
 		}
 		catch (RuntimeException ex)
 		{

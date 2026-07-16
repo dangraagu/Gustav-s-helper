@@ -22,7 +22,9 @@ import org.junit.Test;
 import net.runelite.api.Client;
 import net.runelite.api.InventoryID;
 import net.runelite.api.ItemContainer;
+import net.runelite.api.Player;
 import net.runelite.api.Skill;
+import net.runelite.api.coords.WorldPoint;
 
 public class ConditionFactoryTest
 {
@@ -125,6 +127,43 @@ public class ConditionFactoryTest
 		// Without a ledger, acquired/consumed read as 0 (never met) rather than throwing.
 		ConditionContext noLedger = new ConditionContext(mock(Client.class));
 		assertFalse(parse("{\"op\":\"itemAcquired\",\"id\":1939,\"qty\":1}").isMet(noLedger));
+	}
+
+	@Test
+	public void positionConditionWithinRadius()
+	{
+		Client client = mock(Client.class);
+		Player player = mock(Player.class);
+		when(client.getLocalPlayer()).thenReturn(player);
+		when(player.getWorldLocation()).thenReturn(new WorldPoint(3222, 3218, 0));
+		ConditionContext ctx = new ConditionContext(client);
+
+		// within radius (3 tiles away, radius 8)
+		assertTrue(parse("{\"op\":\"position\",\"x\":3225,\"y\":3220,\"z\":0,\"radius\":8}").isMet(ctx));
+		// on the exact tile
+		assertTrue(parse("{\"op\":\"position\",\"x\":3222,\"y\":3218,\"z\":0,\"radius\":8}").isMet(ctx));
+		// outside radius (~78 tiles east)
+		assertFalse(parse("{\"op\":\"position\",\"x\":3300,\"y\":3218,\"z\":0,\"radius\":8}").isMet(ctx));
+		// different plane -> never met even if x/y match
+		assertFalse(parse("{\"op\":\"position\",\"x\":3222,\"y\":3218,\"z\":1,\"radius\":8}").isMet(ctx));
+	}
+
+	@Test
+	public void positionMissingCoordsDegradesToManual()
+	{
+		// Without x/y the factory must build MANUAL, not a condition that reads garbage coords.
+		assertEquals("manual", parse("{\"op\":\"position\"}").describe());
+		assertEquals("manual", parse("{\"op\":\"position\",\"x\":3222}").describe());
+		// a valid position builds a real (non-manual) condition
+		assertNotEquals("manual", parse("{\"op\":\"position\",\"x\":3222,\"y\":3218}").describe());
+	}
+
+	@Test
+	public void positionNullPlayerNotMet()
+	{
+		Client client = mock(Client.class);
+		when(client.getLocalPlayer()).thenReturn(null);
+		assertFalse(parse("{\"op\":\"position\",\"x\":1,\"y\":1}").isMet(new ConditionContext(client)));
 	}
 
 	@Test

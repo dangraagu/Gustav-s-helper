@@ -13,11 +13,13 @@ import static org.mockito.Mockito.mock;
 import com.osirisguide.IronmanMode;
 import com.osirisguide.engine.condition.Condition;
 import com.osirisguide.engine.condition.ConstantCondition;
+import com.osirisguide.engine.condition.SkillCondition;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Set;
 import net.runelite.api.Client;
+import net.runelite.api.Skill;
 import org.junit.Test;
 
 public class ProgressionTest
@@ -78,6 +80,56 @@ public class ProgressionTest
 		p.setMode(IronmanMode.HCIM);
 		assertEquals("hc", p.getCurrentStep().getId());
 		assertEquals(2, p.applicableCount());
+	}
+
+	@Test
+	public void foldsManualStepsBehindReachedMilestone()
+	{
+		// a,b are manual flavor; c is an auto milestone; d is manual and comes AFTER c.
+		RouteStep a = step("a", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep b = step("b", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep c = step("c", ConstantCondition.ALWAYS_TRUE, false, Collections.emptySet());
+		RouteStep d = step("d", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(a, b, c, d)), IronmanMode.REGULAR);
+
+		assertTrue(p.process(ctx()));                       // c auto-completes; a,b,d stay
+		assertEquals("a", p.getCurrentStep().getId());      // still stuck on the first manual step
+
+		assertTrue(p.foldManualBehindMilestones());         // a,b fold (before c); d must NOT (after c)
+		assertTrue(p.isComplete("a"));
+		assertTrue(p.isComplete("b"));
+		assertTrue(p.isComplete("c"));
+		assertFalse(p.isComplete("d"));
+		assertEquals("d", p.getCurrentStep().getId());      // advanced to the next real work
+
+		assertFalse(p.foldManualBehindMilestones());        // idempotent: nothing left to fold
+	}
+
+	@Test
+	public void foldNeverSkipsAStepWithAnUnmetRealTrigger()
+	{
+		// a = manual flavor; gate = a real (non-manual) trigger that is NOT met; c = auto milestone.
+		RouteStep a = step("a", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep gate = step("gate", new SkillCondition(Skill.ATTACK, 99, Op.GE), false, Collections.emptySet());
+		RouteStep c = step("c", ConstantCondition.ALWAYS_TRUE, false, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(a, gate, c)), IronmanMode.REGULAR);
+
+		p.process(ctx());                                   // c completes; gate unmet (level 0 < 99); a manual
+		assertTrue(p.foldManualBehindMilestones());         // folds a only
+		assertTrue(p.isComplete("a"));
+		assertFalse(p.isComplete("gate"));                  // real work behind the milestone is NEVER skipped
+		assertEquals("gate", p.getCurrentStep().getId());
+	}
+
+	@Test
+	public void foldDoesNothingWhenNoMilestoneReached()
+	{
+		RouteStep a = step("a", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep b = step("b", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(a, b)), IronmanMode.REGULAR);
+
+		assertFalse(p.foldManualBehindMilestones());        // nothing completed yet -> no fold
+		assertEquals("a", p.getCurrentStep().getId());
 	}
 
 	@Test

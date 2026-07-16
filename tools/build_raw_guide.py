@@ -24,16 +24,16 @@ def build(raw_path, item_map, quest_map, entities):
     out_dir = sg._RES / "data" / "guides" / gid
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Pass 1: total items needed (same skill>quest>item precedence as build_step).
+    # Pass 1: total items needed (same skill>quest>item precedence + same atom split as build_step).
     total_needed = {}
     for sec in sections:
         for st in sec.get("steps", []):
-            nm = st.get("name") or ""
-            if not nm or sg.detect_skill(nm) or sg.detect_quest(nm, quest_map):
-                continue
-            iq = sg.detect_item_id_qty(nm, item_map)
-            if iq:
-                total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
+            for atom in sg.split_atoms(st.get("name") or ""):
+                if sg.detect_skill(atom) or sg.detect_quest(atom, quest_map):
+                    continue
+                iq = sg.detect_item_id_qty(atom, item_map)
+                if iq:
+                    total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
 
     # Pass 2: build (running cumulative per item across the whole guide).
     cumulative = {}
@@ -46,8 +46,11 @@ def build(raw_path, item_map, quest_map, entities):
             nm = st.get("name") or ""
             if not nm:
                 continue
-            steps.append(sg.build_step(prefix, pos, nm, st.get("loc"), None,
-                                       item_map, quest_map, cumulative, total_needed, entities))
+            atoms = sg.split_atoms(nm)
+            for i, atom in enumerate(atoms):
+                sub = None if len(atoms) == 1 else (chr(97 + i) if i < 26 else str(i))
+                steps.append(sg.build_step(prefix, pos, atom, st.get("loc"), None,
+                                           item_map, quest_map, cumulative, total_needed, entities, sub=sub))
         if not steps:
             continue
         total += len(steps)

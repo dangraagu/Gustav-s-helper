@@ -1,0 +1,351 @@
+{
+  "_source": "https://umkyzn.github.io/BRUHsailer/",
+  "_license": "BRUHsailer community OSRS guide (umkyzn.github.io; Discord discord.gg/FXPUrUp) — no explicit content license stated; updatedOn 2026-06-08",
+  "section": "Chapter 3: The longest home stretch you’ve ever seen — 3.2: Quest cape, quality of life",
+  "steps": [
+    {
+      "id": "s32-001",
+      "title": "Go to Guardians of the Rift, …",
+      "text": "Go to Guardians of the Rift, participate in the minigame until you have the full Raiments of the Eye and the colossal pouch",
+      "manual": true
+    },
+    {
+      "id": "s32-002a",
+      "title": "Do While Guthix Sleeps if you …",
+      "text": "Do While Guthix Sleeps if you haven’t already",
+      "complete": {
+        "op": "quest",
+        "quest": "WHILE_GUTHIX_SLEEPS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2907,
+        3450,
+        0
+      ]
+    },
+    {
+      "id": "s32-002b",
+      "title": "Start",
+      "text": "Start",
+      "manual": true
+    },
+    {
+      "id": "s32-002c",
+      "title": "complete Dragon Slayer II (using your …",
+      "text": "complete Dragon Slayer II (using your Bow of Faerdhinen to deal with the strong bosses – protect from magic and antifire potions will, when combined, provide decent dragonfire protection except against metal dragons and Galvek where you need the shield plus a rune crossbow), putting Ellen’s XP at the end on Strength",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2458,
+        2869,
+        0
+      ]
+    },
+    {
+      "id": "s32-002d",
+      "title": "Kill Vorkath up to 50 times …",
+      "text": "Kill Vorkath up to 50 times to get an Ava’s Assembler",
+      "manual": true,
+      "npc": 8026,
+      "world": [
+        2273,
+        4065,
+        0
+      ]
+    },
+    {
+      "id": "s32-002e",
+      "title": "Complete Monkey Madness II (put Duke’s …",
+      "text": "Complete Monkey Madness II (put Duke’s xp on Strength)",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKEY_MADNESS_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2465,
+        3496,
+        0
+      ]
+    },
+    {
+      "id": "s32-003a",
+      "title": "Do Devious Minds, then Secrets of …",
+      "text": "Do Devious Minds, then Secrets of the North (a bowfa is pretty strong against, well, everything). Do Beneath Cursed Sands (did you know the bowfa works very well against these enemies) and Into the Tombs (don’t make me say it). The best use for the lamp is on strength. Optional but recommended: kill the Phantom Muspah(/Grumbler) for an ancient icon to upgrade your ancient staff (make some mithril sapphire bolts (e) and a rune crossbow for the smite phase)",
+      "complete": {
+        "op": "quest",
+        "quest": "BENEATH_CURSED_SANDS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3311,
+        2779,
+        0
+      ]
+    },
+    {
+      "id": "s32-003b",
+      "title": "Start",
+      "text": "Start",
+      "manual": true
+    },
+    {
+      "id": "s32-003c",
+      "title": "complete Desert Treasure II, putting the …",
+      "text": "complete Desert Treasure II, putting the xp on prayer",
+      "manual": true
+    },
+    {
+      "id": "s32-003d",
+      "title": "Collect a quest cape",
+      "text": "Collect a quest cape",
+      "manual": true
+    },
+    {
+      "id": "s32-004a",
+      "title": "Use the money from CG to …",
+      "text": "Use the money from CG to train smithing to level 86 with UIM gold. You’ll need to buy around 42.3k gold ores to get 86 Smithing for all diaries",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 86,
+        "cmp": ">="
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s32-004b",
+      "title": "Smelt at least 15 runite bars",
+      "text": "Smelt at least 15 runite bars",
+      "manual": true
+    },
+    {
+      "id": "s32-004c",
+      "title": "Complete the Lumbridge Elite diary at …",
+      "text": "Complete the Lumbridge Elite diary at your convenience. Convert your cut diamonds and rubies into bracelets (optionally also enchant them, this is technically only worth it if you find a way to ‘0time’ it though) and charge enough unpowered orbs to match your battlestaves, then alch those/cash those in (e.g. at artefacts). Optional: also include ruby bracelets",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "s32-005a",
+      "title": "Swap your kraken ink stout barrel …",
+      "text": "Swap your kraken ink stout barrel on the sloop for perildance bitter",
+      "manual": true
+    },
+    {
+      "id": "s32-005b",
+      "title": "Collect port bounty tasks for the …",
+      "text": "Collect port bounty tasks for the following activities. Note that bounty tasks are not bound to a specific location - you should teleport around to check all boards that can assign your desired target, regardless of where you want to do the task. Also most creatures drop two different bounty task items, so you can double dip on the xp by collecting both. See Bounty tasks - OSRS Wiki for more info. Once you have completed the bounty tasks, or gotten enough xp for level 72 through other means",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s32-005c",
+      "title": "take your skiff to the Gwenith …",
+      "text": "take your skiff to the Gwenith Glide",
+      "manual": true
+    },
+    {
+      "id": "s32-005d",
+      "title": "complete at least up to the …",
+      "text": "complete at least up to the shark rank, unlocking the Heart of ithell, and to 1,225,000 xp (level 75) - whichever comes later, you need both. While in the area, dock at Ynysdail to collect the small key, then dock at Lledrith to collect the dragon salvaging hook schematic. Boost to smith 3 runite bars into 45 rune nails (if you did not go to 86 smithing earlier this step is out of reach)",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 86,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "s32-005e",
+      "title": "Buy 4 magic stones at the …",
+      "text": "Buy 4 magic stones at the Keldagrim stonemason",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 8788,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 8788,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 8788,
+      "world": [
+        2728,
+        3714,
+        0
+      ]
+    },
+    {
+      "id": "s32-005f",
+      "title": "Build a crystal extractor on your …",
+      "text": "Build a crystal extractor on your sloop and on your skiff - make sure to put the skiff extractor next to the helm, but the sloop extractor on the port side next to your front facility hotspot. Boost to build an eternal brazier on your sloop and on your skiff. Boosting where necessary, chart the Northern ocean in full. This completes your charting",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "s32-005g",
+      "title": "go to Chartin’ Charles McAtless to …",
+      "text": "go to Chartin’ Charles McAtless to collect your XP bonuses and the Horizon’s lure - buy 50 of the drink and put it in a keg on both ships. If you did ship combat earlier you have the resources to build the gale catcher on your skiff, and the key ingredients (but not the level) to build a chum spreader and two cotton trawling nets for your sloop later",
+      "manual": true
+    },
+    {
+      "id": "s32-006",
+      "title": "Get a fire cape off task …",
+      "text": "Get a fire cape off task (if you don’t have one yet)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s32-007",
+      "title": "Get a dragon pickaxe (if you …",
+      "text": "Get a dragon pickaxe (if you intend on going for at least partial completion of the Combat Achievements then just hop bosses while going for kc at each of them). If you plan on getting a Voidwaker later you will most likely get multiple dragon pickaxes along the way - the recommended bosses for that are Artio, Spindel and Vet’ion. Alternatively you may wish to postpone it for when you go for the Kq head, hoping to get one along the way",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s32-008a",
+      "title": "Cash your banked herblore XP, using …",
+      "text": "Cash your banked herblore XP, using MOGs force spawning at Ardy",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "s32-008b",
+      "title": "Make some staminas for future use",
+      "text": "Make some staminas for future use",
+      "manual": true
+    },
+    {
+      "id": "s32-009",
+      "title": "Complete the remaining tasks for the …",
+      "text": "Complete the remaining tasks for the Falador and Kandarin Elite diaries if you have the herblore level required (boostable 81 and 86 respectively)",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s32-010",
+      "title": "3t4s mine 20k sand (for level …",
+      "text": "3t4s mine 20k sand (for level 93 crafting) or 70k sand (for level 99 crafting), buying all the sand (buy bucket packs first to match the amount required) 3 tick sandstone mining at new spot (easier method). Super glassmake all the sand with previously farmed giant seaweed. If you aren’t 91 thieving yet, arteglass the molten glass until you are",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 21504,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 21504,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 21504
+    },
+    {
+      "id": "s32-011",
+      "title": "Optional but recommended: now that you …",
+      "text": "Optional but recommended: now that you have daeyalt mining https://streamable.com/it7kry unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). It is macroefficient to complete level 90 or 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 52,
+            "qty": 331
+          },
+          {
+            "op": "item",
+            "id": 52,
+            "qty": 331,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 52,
+      "npc": 3690,
+      "world": [
+        2389,
+        4624,
+        2
+      ]
+    },
+    {
+      "id": "s32-012",
+      "title": "If you only went for one …",
+      "text": "If you only went for one sceptre earlier, do Pyramid Plunder for a second sceptre. Compared to last time the only things that changed are:",
+      "manual": true,
+      "object": 26622,
+      "world": [
+        3289,
+        2800,
+        0
+      ]
+    },
+    {
+      "id": "s32-013a",
+      "title": "Once you have enough mahogany planks …",
+      "text": "Once you have enough mahogany planks from Misc (or chop teaks at your own convenience)",
+      "manual": true
+    },
+    {
+      "id": "s32-013b",
+      "title": "train construction to level 83 with …",
+      "text": "train construction to level 83 with mahogany benches (or tables, slightly lower xp but also lower effort). This takes approximately 10.5k mahogany logs (47 days of Misc at 10 workers). Once done",
+      "manual": true
+    },
+    {
+      "id": "s32-013c",
+      "title": "build/upgrade the following:",
+      "text": "build/upgrade the following:",
+      "manual": true
+    }
+  ]
+}

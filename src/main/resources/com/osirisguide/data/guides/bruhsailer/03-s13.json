@@ -4,9 +4,66 @@
   "section": "Chapter 1: Get to da chopper earth staves — 1.3: Unlocking bird runs",
   "steps": [
     {
-      "id": "s13-001",
+      "id": "s13-001a",
       "title": "Soul Wars teleport to get to …",
-      "text": "Soul Wars teleport to get to Edgeville, bank your money. Grab a knife and go to the Mage Arena. Buy 1250 nature runes, 700 law runes, 500 chaos runes (100 nats 50 laws 50 chaos per world, stop with chaos after 10 worlds) and all cosmics per world while you’re at it (best case: 20/world with 18 hops).",
+      "text": "Soul Wars teleport to get to Edgeville",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "s13-001b",
+      "title": "bank your money",
+      "text": "bank your money",
+      "manual": true
+    },
+    {
+      "id": "s13-001c",
+      "title": "Grab a knife",
+      "text": "Grab a knife",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 946,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 946,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 946
+    },
+    {
+      "id": "s13-001d",
+      "title": "go to the Mage Arena",
+      "text": "go to the Mage Arena",
+      "world": [
+        3106,
+        3915,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3106,
+        "y": 3915,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-001e",
+      "title": "Buy 1250 nature runes, 700 law …",
+      "text": "Buy 1250 nature runes, 700 law runes, 500 chaos runes (100 nats 50 laws 50 chaos per world, stop with chaos after 10 worlds) and all cosmics per world while you’re at it (best case: 20/world with 18 hops)",
       "complete": {
         "op": "or",
         "of": [
@@ -18,22 +75,185 @@
           {
             "op": "item",
             "id": 561,
-            "qty": 1250,
+            "qty": 1252,
             "scope": "ANY"
           }
         ]
       },
-      "item": 561,
+      "item": 561
+    },
+    {
+      "id": "s13-002a",
+      "title": "Grab a fly fishing rod, 10 …",
+      "text": "Grab a fly fishing rod, 10 feathers and 10gp. Home teleport to Lumbridge",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 309,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 309,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 309,
       "world": [
-        3106,
-        3915,
+        3222,
+        3218,
         0
       ]
     },
     {
-      "id": "s13-002",
-      "title": "Grab a fly fishing rod, 10 …",
-      "text": "Grab a fly fishing rod, 10 feathers and 10gp. Home teleport to Lumbridge, catch a salmon for the diary, run to the Mage Training Arena. Grab 200 nature runes, 400 water runes, a staff of earth and six food (make sure to have at least 20 empty inventory slots). Collect 211 Graveyard points. An easy way is to grab and drop 4 bones once, then after that repeatedly grab a set of 8 bones (20 bananas) and deposit all, eating your food and later your bananas as needed while moving to stay alive. Go to the bank, grab 1050 nature runes, 500 law runes, 400 cosmic runes, a staff of air, a staff of earth, a staff of fire and 10 wizard mind bombs. Collect 211 telekinetic points, then using low alchemy collect 311 alchemist points (only alch the 30gp items, even if others are free). Optionally use the wizard mind bombs at levels 52-54 to gain access to high alchemy earlier. Collect 2165 enchantment points (lvl-4 enchant in the corner, using a wizard mind bomb as necessary, just drop the shapes after). Buy a mud rune, 10 mist runes, and unlock bones to peaches (this requires boosting to 60 magic with a Wizard’s Mind Bomb). At some point cast Bones to Peaches in the Al Kharid palace for the diary. Runes lost at MTA: 1140 nats, 473 laws, 382 cosmics, 272 waters. Runes gained at MTA: 66 earths/deaths/bloods.",
+      "id": "s13-002b",
+      "title": "catch a salmon for the diary",
+      "text": "catch a salmon for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-002c",
+      "title": "run to the Mage Training Arena",
+      "text": "run to the Mage Training Arena",
+      "world": [
+        3364,
+        3312,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3364,
+        "y": 3312,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-002d",
+      "title": "Grab 200 nature runes, 400 water …",
+      "text": "Grab 200 nature runes, 400 water runes, a staff of earth and six food (make sure to have at least 20 empty inventory slots)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1385,
+            "qty": 400
+          },
+          {
+            "op": "item",
+            "id": 1385,
+            "qty": 800,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1385
+    },
+    {
+      "id": "s13-002e",
+      "title": "Collect 211 Graveyard points. An easy …",
+      "text": "Collect 211 Graveyard points. An easy way is to grab",
+      "manual": true
+    },
+    {
+      "id": "s13-002f",
+      "title": "drop 4 bones once, then after …",
+      "text": "drop 4 bones once, then after that repeatedly grab a set of 8 bones (20 bananas)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1963,
+            "qty": 20
+          },
+          {
+            "op": "item",
+            "id": 1963,
+            "qty": 20,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1963
+    },
+    {
+      "id": "s13-002g",
+      "title": "deposit all, eating your food and …",
+      "text": "deposit all, eating your food and later your bananas as needed while moving to stay alive",
+      "manual": true
+    },
+    {
+      "id": "s13-002h",
+      "title": "Go to the bank",
+      "text": "Go to the bank",
+      "manual": true
+    },
+    {
+      "id": "s13-002i",
+      "title": "grab 1050 nature runes, 500 law …",
+      "text": "grab 1050 nature runes, 500 law runes, 400 cosmic runes, a staff of air, a staff of earth, a staff of fire and 10 wizard mind bombs",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1385,
+            "qty": 800
+          },
+          {
+            "op": "item",
+            "id": 1385,
+            "qty": 800,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1385
+    },
+    {
+      "id": "s13-002j",
+      "title": "Collect 211 telekinetic points, then using …",
+      "text": "Collect 211 telekinetic points, then using low alchemy collect 311 alchemist points (only alch the 30gp items, even if others are free). Optionally use the wizard mind bombs at levels 52-54 to gain access to high alchemy earlier",
+      "manual": true
+    },
+    {
+      "id": "s13-002k",
+      "title": "Collect 2165 enchantment points (lvl-4 enchant …",
+      "text": "Collect 2165 enchantment points (lvl-4 enchant in the corner, using a wizard mind bomb as necessary, just drop the shapes after)",
+      "manual": true
+    },
+    {
+      "id": "s13-002l",
+      "title": "Buy a mud rune, 10 mist …",
+      "text": "Buy a mud rune, 10 mist runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 4695,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 4695,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 4695
+    },
+    {
+      "id": "s13-002m",
+      "title": "unlock bones to peaches (this requires …",
+      "text": "unlock bones to peaches (this requires boosting to 60 magic with a Wizard’s Mind Bomb). At some point cast Bones to Peaches in the Al Kharid palace for the diary. Runes lost at MTA: 1140 nats, 473 laws, 382 cosmics, 272 waters. Runes gained at MTA: 66 earths/deaths/bloods",
       "complete": {
         "op": "skill",
         "skill": "MAGIC",
@@ -41,15 +261,82 @@
         "cmp": ">="
       },
       "world": [
-        3364,
-        3312,
+        3290,
+        3185,
         0
       ]
     },
     {
-      "id": "s13-003",
+      "id": "s13-003a",
       "title": "Grab desert clothes, Varrock teleport runes, …",
-      "text": "Grab desert clothes, Varrock teleport runes, a small fishing net, coins, some (3-5 cakes, drop excess later) food and the barcrawl card from the bank. Charter a ship to Brimhaven, visit Dead Man’s Chest for the barcrawl, run south and pick up a seaweed and drop it 5 times (west of Jiminua’s shop) for the diary, keep it for later. Do Jungle Potion. During the quest collect 3 extra snake weed, 3 extra ardrigal, 1 extra volencia moss and 1 extra rogue’s purse.",
+      "text": "Grab desert clothes, Varrock teleport runes, a small fishing net, coins, some (3-5 cakes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 303,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 303,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 303,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-003b",
+      "title": "drop excess later) food and the …",
+      "text": "drop excess later) food and the barcrawl card from the bank. Charter a ship to Brimhaven, visit Dead Man’s Chest for the barcrawl",
+      "manual": true,
+      "object": 10805,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
+    },
+    {
+      "id": "s13-003c",
+      "title": "run south",
+      "text": "run south",
+      "manual": true
+    },
+    {
+      "id": "s13-003d",
+      "title": "pick up a seaweed",
+      "text": "pick up a seaweed",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 401,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 401,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 401
+    },
+    {
+      "id": "s13-003e",
+      "title": "drop it 5 times (west of …",
+      "text": "drop it 5 times (west of Jiminua’s shop) for the diary, keep it for later. Do Jungle Potion. During the quest collect 3 extra snake weed, 3 extra ardrigal, 1 extra volencia moss and 1 extra rogue’s purse",
       "complete": {
         "op": "quest",
         "quest": "JUNGLE_POTION",
@@ -62,9 +349,38 @@
       ]
     },
     {
-      "id": "s13-004",
-      "title": "House teleport (spell) to Pollnivneach, run …",
-      "text": "House teleport (spell) to Pollnivneach, run to the ruins of Uzer, start The Golem up to the step where you need to visit the Dig Site. Get 2 black mushrooms as mentioned on wiki. Chop some teak logs for the diary.",
+      "id": "s13-004a",
+      "title": "House teleport (spell) to Pollnivneach",
+      "text": "House teleport (spell) to Pollnivneach",
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
+    },
+    {
+      "id": "s13-004b",
+      "title": "run to the ruins of Uzer",
+      "text": "run to the ruins of Uzer",
+      "object": 6373,
+      "world": [
+        3493,
+        3090,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3493,
+        "y": 3090,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-004c",
+      "title": "start The Golem up to the …",
+      "text": "start The Golem up to the step where you need to visit the Dig Site",
       "complete": {
         "op": "quest",
         "quest": "THE_DIG_SITE",
@@ -77,9 +393,26 @@
       ]
     },
     {
-      "id": "s13-005",
+      "id": "s13-004d",
+      "title": "Get 2 black mushrooms as mentioned …",
+      "text": "Get 2 black mushrooms as mentioned on wiki",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-004e",
+      "title": "Chop some teak logs for the …",
+      "text": "Chop some teak logs for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-005a",
       "title": "Teleport to Camelot and continue Merlin's …",
-      "text": "Teleport to Camelot and continue Merlin's Crystal up to the step where you need to visit the Lady of the Lake (use fire bolt or flinch, see https://youtu.be/yWmvm8ukssU?t=523, Sir Mordred. You cannot flinch with magic), buy two candles from the candle maker, buy a big net and fish two raw cods for RFD/Pirate and a raw mackerel for the diary and a bass when you’re in Catherby (you only need one cod if you’ve collected xp outside this guide and are at least 62 cooking) and cook the bass. Collect all the fish for Caleb and progress Family Crest to the step where you need to visit Avan. Make sure to kill two Giant Bats for their bones and one wing during Merlin’s Crystal. Train herblore in the bank to at least 1,170 xp or more (level 10). Buy a plant pot pack from Vanessa’s farming shop and open it.",
+      "text": "Teleport to Camelot and continue Merlin's Crystal up to the step where you need to visit the Lady of the Lake (use fire bolt or flinch, see https://youtu.be/yWmvm8ukssU?t=523, Sir Mordred. You cannot flinch with magic)",
       "complete": {
         "op": "quest",
         "quest": "MERLINS_CRYSTAL",
@@ -92,9 +425,146 @@
       ]
     },
     {
-      "id": "s13-006",
-      "title": "Chronicle teleport to Varrock, buy a …",
-      "text": "Chronicle teleport to Varrock, buy a rune sword (not a longsword!), green d’hide chaps, green d’hide vambraces from Scavvo in the Champions’ Guild, if you joined the Black Arm Gang during Shield of Arrav also buy black platelegs and a black full helm from Valaine and start Dragon Slayer I. Visit the Blue Moon Inn for the barcrawl learn how to make a steak sandwich from the cook for Below Ice Mountain. Do a lap of the Varrock Rooftop Course for the diary. Buy priest gown (bottom and top), a brown apron and a pink skirt from Thessalia, a newspaper from Benny, a black platebody from Horvik and a rotten tomato from the chest. Make a steak sandwich for Below Ice Mountain. Steal a cup of tea, bring ~10 food. Continue The Golem and start The Dig Site (only the very first step where you get the letter), continue Priests in Peril (kill the Temple Guardian with melee, accurate recommended, finish the dialogue at the temple), teleport back to Varrock, speak with King Roald, then visit Curator Haig Halen for both The Dig Site and The Golem, and proceed to complete The Dig Site (if you get polished buttons while digging save them for Animal Magnetism).",
+      "id": "s13-005b",
+      "title": "buy two candles from the candle …",
+      "text": "buy two candles from the candle maker",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 36,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 36,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 36,
+      "npc": 3199,
+      "world": [
+        2799,
+        3439,
+        0
+      ]
+    },
+    {
+      "id": "s13-005c",
+      "title": "buy a big net",
+      "text": "buy a big net",
+      "manual": true
+    },
+    {
+      "id": "s13-005d",
+      "title": "fish two raw cods for RFD/Pirate …",
+      "text": "fish two raw cods for RFD/Pirate and a raw mackerel for the diary and a bass when you’re in Catherby (you only need one cod if you’ve collected xp outside this guide and are at least 62 cooking)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 353,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 353,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 353,
+      "npc": 1520,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s13-005e",
+      "title": "cook the bass",
+      "text": "cook the bass",
+      "manual": true
+    },
+    {
+      "id": "s13-005f",
+      "title": "Collect all the fish for Caleb …",
+      "text": "Collect all the fish for Caleb and progress Family Crest to the step where you need to visit Avan",
+      "complete": {
+        "op": "quest",
+        "quest": "FAMILY_CREST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3280,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "s13-005g",
+      "title": "Make sure to kill two Giant …",
+      "text": "Make sure to kill two Giant Bats for their bones and one wing during Merlin’s Crystal",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-005h",
+      "title": "Train herblore in the bank to …",
+      "text": "Train herblore in the bank to at least 1,170 xp or more (level 10)",
+      "manual": true
+    },
+    {
+      "id": "s13-005i",
+      "title": "Buy a plant pot pack from …",
+      "text": "Buy a plant pot pack from Vanessa’s farming shop",
+      "manual": true
+    },
+    {
+      "id": "s13-005j",
+      "title": "open it",
+      "text": "open it",
+      "manual": true
+    },
+    {
+      "id": "s13-006a",
+      "title": "Chronicle teleport to Varrock",
+      "text": "Chronicle teleport to Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-006b",
+      "title": "buy a rune sword (not a …",
+      "text": "buy a rune sword (not a longsword!), green d’hide chaps, green d’hide vambraces from Scavvo in the Champions’ Guild, if you joined the Black Arm Gang during Shield of Arrav also buy black platelegs and a black full helm from Valaine",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s13-006c",
+      "title": "start Dragon Slayer I. Visit the …",
+      "text": "start Dragon Slayer I. Visit the Blue Moon Inn for the barcrawl learn how to make a steak sandwich from the cook for Below Ice Mountain. Do a lap of the Varrock Rooftop Course for the diary",
       "complete": {
         "op": "quest",
         "quest": "BELOW_ICE_MOUNTAIN",
@@ -107,9 +577,180 @@
       ]
     },
     {
-      "id": "s13-007",
+      "id": "s13-006d",
+      "title": "Buy priest gown (bottom and top), …",
+      "text": "Buy priest gown (bottom and top), a brown apron and a pink skirt from Thessalia, a newspaper from Benny, a black platebody from Horvik and a rotten tomato from the chest",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1125,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1125,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1125,
+      "npc": 10477,
+      "world": [
+        3206,
+        3417,
+        0
+      ]
+    },
+    {
+      "id": "s13-006e",
+      "title": "Make a steak sandwich for Below …",
+      "text": "Make a steak sandwich for Below Ice Mountain",
+      "complete": {
+        "op": "quest",
+        "quest": "BELOW_ICE_MOUNTAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
+    },
+    {
+      "id": "s13-006f",
+      "title": "Steal a cup of tea, bring …",
+      "text": "Steal a cup of tea, bring ~10 food. Continue The Golem",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
+    },
+    {
+      "id": "s13-006g",
+      "title": "start The Dig Site (only the …",
+      "text": "start The Dig Site (only the very first step where you get the letter), continue Priests in Peril (kill the Temple Guardian with melee, accurate recommended",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_DIG_SITE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3362,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "s13-006h",
+      "title": "finish the dialogue at the temple)",
+      "text": "finish the dialogue at the temple)",
+      "manual": true
+    },
+    {
+      "id": "s13-006i",
+      "title": "teleport back to Varrock",
+      "text": "teleport back to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-006j",
+      "title": "speak with King Roald, then visit …",
+      "text": "speak with King Roald, then visit Curator Haig Halen for both The Dig Site and The Golem, and proceed to complete The Dig Site (if you get polished buttons while digging save them for Animal Magnetism)",
+      "complete": {
+        "op": "quest",
+        "quest": "ANIMAL_MAGNETISM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3093,
+        3357,
+        0
+      ]
+    },
+    {
+      "id": "s13-007a",
       "title": "If you still have unclaimed rewards …",
-      "text": "If you still have unclaimed rewards from Wintertodt, open those now to get 8-12 coal. Teleport to Camelot, if necessary run to the Coal Trucks and mine 8 coal (12 if you wish to own your own mind shield). Return to Seers Village and do Elemental Workshop I. Kill one of each elemental for the diary, but 3 earth elementals instead of 1 to save time for Elemental Workshop II later (these are some tough fights - take your best food and gear, or flinch the elementals as needed). Make 3 elemental bars, only make one elemental shield to complete the quest.",
+      "text": "If you still have unclaimed rewards from Wintertodt",
+      "manual": true,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "s13-007b",
+      "title": "open those now to get 8-12 …",
+      "text": "open those now to get 8-12 coal",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-007c",
+      "title": "Teleport to Camelot, if necessary run …",
+      "text": "Teleport to Camelot, if necessary run to the Coal Trucks",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-007d",
+      "title": "mine 8 coal (12 if you …",
+      "text": "mine 8 coal (12 if you wish to own your own mind shield)",
+      "manual": true
+    },
+    {
+      "id": "s13-007e",
+      "title": "Return to Seers Village and do …",
+      "text": "Return to Seers Village and do Elemental Workshop I",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2716,
+        3482,
+        0
+      ]
+    },
+    {
+      "id": "s13-007f",
+      "title": "Kill one of each elemental for …",
+      "text": "Kill one of each elemental for the diary, but 3 earth elementals instead of 1 to save time for Elemental Workshop II later (these are some tough fights - take your best food and gear, or flinch the elementals as needed)",
       "complete": {
         "op": "quest",
         "quest": "ELEMENTAL_WORKSHOP_II",
@@ -122,9 +763,33 @@
       ]
     },
     {
-      "id": "s13-008",
+      "id": "s13-007g",
+      "title": "Make 3 elemental bars, only make …",
+      "text": "Make 3 elemental bars, only make one elemental shield to complete the quest",
+      "manual": true
+    },
+    {
+      "id": "s13-008a",
       "title": "Teleport to Varrock and move your …",
-      "text": "Teleport to Varrock and move your POH to Rellekka at the estate agent. Grab chisel, GP, earth runes from the bank along the way. Show your Level 3 certificate to the museum curator and claim ‘something to drink’ (make sure to go through the dialogue carefully!), take the museum quiz. Do NOT claim XP lamp from Historian Minas – this is for herblore later but has a level 20 requirement. Clean finds to get the following:",
+      "text": "Teleport to Varrock and move your POH to Rellekka at the estate agent",
+      "npc": 3097,
+      "world": [
+        2638,
+        3293,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2638,
+        "y": 3293,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-008b",
+      "title": "Grab chisel, GP, earth runes from …",
+      "text": "Grab chisel, GP, earth runes from the bank along the way. Show your Level 3 certificate to the museum curator",
       "complete": {
         "op": "or",
         "of": [
@@ -142,107 +807,74 @@
         ]
       },
       "item": 557,
-      "npc": 3097,
+      "npc": 5214,
       "world": [
-        2638,
-        3293,
+        3258,
+        3449,
         0
       ]
     },
     {
-      "id": "s13-009",
-      "title": "Teleport to Lumbridge, make a necklace …",
-      "text": "Teleport to Lumbridge, make a necklace of passage and two rings of dueling at the furnace. If you have extra gold/silver bars and the corresponding gems (from Tempoross), make as many more as you want (focus on rings of dueling and a few necklaces of passage). Hop to PVP world to rebank for all items while standing in the middle of the castle courtyard, then hop back (or just go to the top of the castle). From now on you are always assumed to wear a ring of dueling. Whenever you teleport, if you are low on run energy instead teleport to Ferox Enclave, restore your run energy, then teleport where you were going. If you run out of gold bars before you complete Forgettable Tale…, tough luck. Start and complete Cook’s Assistant, then start and complete RFD/Cook. Start RFD/Goblin, RFD/Dwarf and RFD/Pirate (talk to the cook again after starting this last one to learn the recipe!). Buy two spice, three pots of flour, two buckets of milk, two eggs from the chest. Prepare two uncooked redberry pies (buy ingredients in the Culinaromancer’s Chest if needed) and a bread dough. Cook the bread for the diary and the redberry pies on the range, add both nettles to two bowl of water and cook it to make two nettle tea. Leave one redberry in the bank. Run to the Al-Kharid gate and kill 20 goblins for their bones (attack training with your rune shortsword recommended) and the Goblin skull. If you get a bronze spear, keep it. Kill three cows or cow calfs for the bones and cowhides. Bank them at castle wars.",
+      "id": "s13-008c",
+      "title": "claim ‘something to drink’ (make sure …",
+      "text": "claim ‘something to drink’ (make sure to go through the dialogue carefully!)",
+      "manual": true
+    },
+    {
+      "id": "s13-008d",
+      "title": "take the museum quiz. Do NOT …",
+      "text": "take the museum quiz. Do NOT claim XP lamp from Historian Minas – this is for herblore later but has a level 20 requirement. Clean finds to get the following:",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-009a",
+      "title": "Teleport to Lumbridge",
+      "text": "Teleport to Lumbridge",
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ],
       "complete": {
-        "op": "quest",
-        "quest": "COOKS_ASSISTANT",
-        "state": "FINISHED"
-      },
+        "op": "position",
+        "x": 3227,
+        "y": 3257,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-009b",
+      "title": "make a necklace of passage and …",
+      "text": "make a necklace of passage and two rings of dueling at the furnace. If you have extra gold/silver bars and the corresponding gems (from Tempoross)",
+      "manual": true,
       "world": [
-        3212,
-        3246,
+        3165,
+        3490,
         0
       ]
     },
     {
-      "id": "s13-010",
-      "title": "House teleport, fill a bucket at …",
-      "text": "House teleport, fill a bucket at the well, start The Fremennik Trials with Manni, start working on getting his vote, continue with Olaf and get sent to collect a lyre - this is the wiki order, not the RuneLite plugin order. Regrettably these are not the same. Continue questing for Olaf’s vote up to the step where you cut a branch from the swaying tree (YOU DO NOT NEED 40 CRAFTING). Chop some oak logs and burn them for the diary and kill the unicorn for the unicorn bone and horn as you pass it, start and continue Mountain Daughter until you have spoken to Svidi, house teleport and speak to Askeladden (Fremmy Trials) and Brundt (Mountain Daughter), get the golden fleece (Fremmy Trials) and get half a rock (Mountain Daughter), continue Mountain Daughter until you need to get the white pearl seed, run back out of the camp and do The Giant Dwarf (right-click open the Stonemason’s shop at the start for the diary) to the step where you need to visit Thurgo. Steal from the crafting or baker’s stall, and then from the gem stall, for the diary. While in Keldagrim, buy a rune pickaxe from the store in the eastern section.",
-      "complete": {
-        "op": "quest",
-        "quest": "THE_FREMENNIK_TRIALS",
-        "state": "FINISHED"
-      },
+      "id": "s13-009c",
+      "title": "make as many more as you …",
+      "text": "make as many more as you want (focus on rings of dueling and a few necklaces of passage). Hop to PVP world to rebank for all items while standing in the middle of the castle courtyard, then hop back (or just go to the top of the castle). From now on you are always assumed to wear a ring of dueling. Whenever you teleport, if you are low on run energy instead teleport to Ferox Enclave, restore your run energy",
+      "manual": true,
       "world": [
-        2658,
-        3669,
+        3137,
+        3623,
         0
       ]
     },
     {
-      "id": "s13-011",
-      "title": "Teleport to Falador and pay Emily …",
-      "text": "Teleport to Falador and pay Emily in the Rising Sun Inn to progress RFD/Dwarf, continue the barcrawl and speak to Burntof for Below Ice Mountain while you’re here. Pickpocket a guard for the diary. Move your POH to Taverley at the estate agent. Buy 8 woad leaves from Wyson the gardener (offer to pay 20gp to get two at a time). You should have at least 3,170 Herblore experience by now (level 17) – if not bankstand some herblore with Wintertodt herbs. Complete a lap of the Falador rooftop course for the diary. Make sure you are wearing leather gloves and collect all items in advance for the next steps, and that you have at least 12 empty inventory spaces.",
-      "complete": {
-        "op": "quest",
-        "quest": "BELOW_ICE_MOUNTAIN",
-        "state": "FINISHED"
-      },
-      "world": [
-        3003,
-        3435,
-        0
-      ]
-    },
-    {
-      "id": "s13-012",
-      "title": "Use your necklace of passage to …",
-      "text": "Use your necklace of passage to Eagle’s Eyrie, catch a golden warbler (bird snare), get the phoenix feather, mine (and keep, do not drop) six clay and complete The Golem. Make sure to collect the gems as mentioned on the wiki.",
-      "complete": {
-        "op": "quest",
-        "quest": "THE_GOLEM",
-        "state": "FINISHED"
-      },
-      "world": [
-        3485,
-        3088,
-        0
-      ]
-    },
-    {
-      "id": "s13-013",
-      "title": "Teleport to your POH (bank in …",
-      "text": "Teleport to your POH (bank in between, for example with Ferox minigame teleport or games necklace, if you don’t have enough inv space/don’t have all the items on you), collect the white pear for Mountain Daughter, teleport again, enter the dwarven tunnel under White Wolf Mountain, collect two rock cakes from An old dwarf (Rohak, make sure you complete the dialogue or you’ll have to get new asgoldian ales). Teleport a third time, speak with the Lady of the Lake for Merlin’s Crystal, chop and burn some willow logs for the diary, go to Doric and smith Blurite limbs on his anvil, run north and telegrab a wine of zamorak for the diary, run to the Goblin Village and continue RFD/Goblin to get a Slop of compromise.",
-      "complete": {
-        "op": "quest",
-        "quest": "MOUNTAIN_DAUGHTER",
-        "state": "FINISHED"
-      },
-      "world": [
-        2766,
-        3667,
-        0
-      ]
-    },
-    {
-      "id": "s13-014",
-      "title": "Teleport to Ferox Enclave with a …",
-      "text": "Teleport to Ferox Enclave with a ring of dueling (already equipped), make 6 soft clay in the bank (leave in bank), grab a necklace of passage (equip), research notes (Rune Mysteries), a steel axe, a rune shortsword (equip) and fill your inventory with bones (make sure to leave one in the bank). Use your necklace of passage to teleport to the Wizards’ Tower. Give the bones to Wizard Traiborn, kill the chicken in the basement for the rest of the bones (if needed) and obtain the key for Demon Slayer. Complete Rune Mysteries, have Wizard Sedridor teleport you to the rune essence mine. Run to Draynor Village, start the Lost City quest (until you have to go to Entrana) and continue Prince Ali Rescue until you have the key imprint (rebank at Draynor). Have Aggie make you four blue dyes (you can use the woad leaves on Aggie to skip the dialogue). Pickpocket Martin the Master Gardener for the diary.",
-      "complete": {
-        "op": "quest",
-        "quest": "PRINCE_ALI_RESCUE",
-        "state": "FINISHED"
-      },
-      "world": [
-        3298,
-        3163,
-        0
-      ]
-    },
-    {
-      "id": "s13-015",
-      "title": "Grab 15 compostable items, fill the …",
-      "text": "Grab 15 compostable items, fill the bin at the Falador patch. Run to Port Sarim, claim your previously destroyed XP lamps from Veos (one in Port Sarim, one in Piscarillius!) and put them all on Herblore (level 20). Give the bread to the beggar at the jewellery shop (Merlin’s Crystal). Visit Thurgo and complete The Giant Dwarf (if you get a bars task you can’t do you can refuse it by clicking out of the dialogue and logging out and back in, at the risk of having to go back to the secretary. You can join any consortium you prefer though the Purple Pewter is more efficient if you have full HAM robes - the ones on the east side tend to be fastest to buy ores at the blast furnace). Use the Blast Furnace (costs 2500 gp per 10 minutes) or Superheat Item to make the bars where needed. It is probably best to use the Blast furnace for larger tasks and Superheat for smaller tasks. Start Forgettable Tale… and get a kelda seed from the drunken dwarf. Find out what random item is required for another one (Rowdy Dwarf in the Laughing Miner pub). Figure out how to obtain the item and weave it into the steps below if you wish. Take the train cart to the pub under the White Wolf Mountain and get (the second) kelda seed from Khorvak.",
+      "id": "s13-009d",
+      "title": "teleport where you were going. If …",
+      "text": "teleport where you were going. If you run out of gold bars before you complete Forgettable Tale…, tough luck",
       "complete": {
         "op": "quest",
         "quest": "FORGETTABLE_TALE",
@@ -255,156 +887,150 @@
       ]
     },
     {
-      "id": "s13-016",
-      "title": "Teleport to the Ferox Enclave (minigame …",
-      "text": "Teleport to the Ferox Enclave (minigame teleport), run south to the Mage of Zamorak and start Enter the Abyss. Teleport to Varrock, complete Demon Slayer (you can use magic for the fight as long as you equip silverlight as a weapon, but melee is fine as well). Give a dog a bone. Speak with the Mage of Zamorak to obtain the scrying orb and progress Enter the Abyss. Have Aubury teleport you to the Rune Essence mine with your scrying orb (first scrying orb charge), check the Zamorakian temple’s altar for the inscription (Merlin’s Crystal). Buy a studded body, studded chaps, iron chainbody, two steel chainbodies, a steel platebody and a mithril platebody from Horvik, make 7 bronze wires at Horvik’s anvils, buy an oak longbow and a willow shortbow from Lowe (optionally also buy 200 mithril arrows), move your POH to Pollnivneach at the estate agent, visit the museum and collect the XP lamp from Historian Minas, put them on herblore. You now have 103 kudos. Grab the information clerk xp bonuses, start Bone Voyage.",
+      "id": "s13-009e",
+      "title": "Start",
+      "text": "Start",
+      "manual": true
+    },
+    {
+      "id": "s13-009f",
+      "title": "complete Cook’s Assistant",
+      "text": "complete Cook’s Assistant",
       "complete": {
         "op": "quest",
-        "quest": "MERLINS_CRYSTAL",
+        "quest": "COOKS_ASSISTANT",
         "state": "FINISHED"
       },
       "world": [
-        2763,
-        3513,
+        3212,
+        3246,
         0
       ]
     },
     {
-      "id": "s13-017",
-      "title": "Use your ring of dueling to …",
-      "text": "Use your ring of dueling to teleport to Al-Kharid, speak with the gem trader and Avan for Family Crest, mine iron ore in the Al-kharid mine for the diary, give the items for Prince Ali Rescue to Osman. Do a lap of the agility course, rebank to grab quest items, then run south and fish some anchovies south of the bank for the diary, then start The Shadow of the Storm until you have the sigil mould and tome (take the carpet to Uzer the first time for a diary step) using your necklace of passage when convenient.",
-      "complete": {
-        "op": "quest",
-        "quest": "SHADOW_OF_THE_STORM",
-        "state": "FINISHED"
-      },
-      "world": [
-        3270,
-        3159,
-        0
-      ]
+      "id": "s13-009g",
+      "title": "start",
+      "text": "start",
+      "manual": true
     },
     {
-      "id": "s13-018",
-      "title": "You should have level 46 fletching …",
-      "text": "You should have level 46 fletching by now from your steel arrows. Use your dueling ring to bank in Ferox (keep equipped), grab your desert clothes, pickaxe, teak logs, knife, house teleport runes, GP, 1600 noted buckets and 5 waterskins. Teleport to your house, run to the quarry, deposit your buckets and mine sandstone to level 43 mining. Buy 1600 buckets of sand (but not the rest) from the grinder.",
+      "id": "s13-009h",
+      "title": "complete RFD/Cook",
+      "text": "complete RFD/Cook",
+      "manual": true
+    },
+    {
+      "id": "s13-009i",
+      "title": "Start RFD/Goblin, RFD/Dwarf and RFD/Pirate (talk …",
+      "text": "Start RFD/Goblin, RFD/Dwarf and RFD/Pirate (talk to the cook again after starting this last one to learn the recipe!)",
+      "manual": true
+    },
+    {
+      "id": "s13-009j",
+      "title": "Buy two spice, three pots of …",
+      "text": "Buy two spice, three pots of flour, two buckets of milk, two eggs from the chest. Prepare two uncooked redberry pies (buy ingredients in the Culinaromancer’s Chest if needed) and a bread dough",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 886,
-            "qty": 46
+            "id": 2325,
+            "qty": 1
           },
           {
             "op": "item",
-            "id": 886,
-            "qty": 46,
+            "id": 2325,
+            "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 886,
+      "item": 2325,
+      "npc": 4878,
       "world": [
-        3137,
-        3623,
+        1900,
+        5355,
+        2
+      ]
+    },
+    {
+      "id": "s13-009k",
+      "title": "Cook the bread for the diary …",
+      "text": "Cook the bread for the diary and the redberry pies on the range, add both nettles to two bowl of water",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
         0
       ]
     },
     {
-      "id": "s13-019",
-      "title": "Dueling ring teleport to Ferox, take …",
-      "text": "Dueling ring teleport to Ferox, take the portal to Soul Wars, then to Edgeville. Give the steak sandwich to Marley to progress Below Ice Mountain. Speak with Oziach to progress Dragon Slayer I. Make 1600 molten glass at the furnace. Cut all your sapphires, emeralds and rubies. Make all minus one of your gold bars into digsite pendants (note: this is 0-1 gold bars, unless you got extra from Tempoross. Don’t worry if you can’t make any pendants here). Make two fishbowls.",
+      "id": "s13-009l",
+      "title": "cook it to make two nettle …",
+      "text": "cook it to make two nettle tea. Leave one redberry in the bank",
+      "manual": true
+    },
+    {
+      "id": "s13-009m",
+      "title": "Run to the Al-Kharid gate",
+      "text": "Run to the Al-Kharid gate",
+      "world": [
+        3293,
+        3184,
+        0
+      ],
       "complete": {
-        "op": "quest",
-        "quest": "BELOW_ICE_MOUNTAIN",
-        "state": "FINISHED"
-      },
+        "op": "position",
+        "x": 3293,
+        "y": 3184,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-009n",
+      "title": "kill 20 goblins for their bones …",
+      "text": "kill 20 goblins for their bones (attack training with your rune shortsword recommended) and the Goblin skull. If you get a bronze spear, keep it",
+      "manual": true,
       "world": [
-        3003,
-        3435,
+        3165,
+        3490,
         0
       ]
     },
     {
-      "id": "s13-020",
-      "title": "Grab a digsite pendant (equip), rune …",
-      "text": "Grab a digsite pendant (equip), rune sword (equip), a staff of air, chaos runes, a bucket and an inventory of pure essence. Use the digsite pendant to teleport to the digsite, run to the Paterdomus Temple and continue Priest in Peril until you are asked to hand over the pure essence. Teleport to the digsite, run south and start Elemental Workshop II. Teleport with the pendant again, continue Bone Voyage to the step where you need to visit the Woodcutting guild. Teleport to Ferox, bank (bank chaos runes, rune sword, food, grab ghostspeak amulet, spade, law runes), grab 25 pure essence and return to Drezel, repeat this for a second inventory to complete Priest in Peril. Start the Nature Spirit quest.",
-      "complete": {
-        "op": "quest",
-        "quest": "ELEMENTAL_WORKSHOP_II",
-        "state": "FINISHED"
-      },
+      "id": "s13-009o",
+      "title": "Kill three cows or cow calfs …",
+      "text": "Kill three cows or cow calfs for the bones and cowhides",
+      "manual": true
+    },
+    {
+      "id": "s13-009p",
+      "title": "Bank them at castle wars",
+      "text": "Bank them at castle wars",
+      "manual": true,
       "world": [
-        3367,
-        3335,
+        2407,
+        3105,
         0
       ]
     },
     {
-      "id": "s13-021",
-      "title": "Enter Morytania. Do the Creature of …",
-      "text": "Enter Morytania. Do the Creature of Fenkenstrain up to the step where you need to visit a furnace, chopping a hollow tree for bark along the way. Grab 15 compostable items, fill the bin at the Morytania patch along the way. Buy 7 raw chickens and a raw shark. Rebank. Do the Nature Spirit and Shades of Mort’ton (when you need to make the oil hop the official world, 377. It is recommended to do the rest of the quest on other worlds to avoid raggers) quests (make sure you have all the items on you for the last two before heading into the swamp, and take your best food in the rest of your inventory) and restoring your prayer at the end of Nature Spirit for the diary. Buy 13 planks from Razmire.",
-      "complete": {
-        "op": "quest",
-        "quest": "CREATURE_OF_FENKENSTRAIN",
-        "state": "FINISHED"
-      },
-      "world": [
-        3492,
-        3474,
-        0
-      ]
+      "id": "s13-010a",
+      "title": "House teleport",
+      "text": "House teleport",
+      "manual": true
     },
     {
-      "id": "s13-022",
-      "title": "Teleport to Camelot, complete Merlin’s Crystal …",
-      "text": "Teleport to Camelot, complete Merlin’s Crystal (black candle, bat bones, Excalibur) and start Holy Grail up to the step you need to visit Entrana. Run to Seers, play the church organ (diary), spin your golden fleece on the spinning wheel, pay the estate agent to move your POH to Kourend, do the Elemental Workshop II quest, make a mind helmet for the diary, talk to the Poison Salesman to continue Fremmy Trials. Buy 10 stews for later (also completes a diary task), speak with the bartender to progress the barcrawl.",
-      "complete": {
-        "op": "quest",
-        "quest": "ELEMENTAL_WORKSHOP_II",
-        "state": "FINISHED"
-      },
-      "world": [
-        3367,
-        3335,
-        0
-      ]
+      "id": "s13-010b",
+      "title": "fill a bucket at the well",
+      "text": "fill a bucket at the well",
+      "manual": true
     },
     {
-      "id": "s13-023",
-      "title": "Teleport to your POH, enter your …",
-      "text": "Teleport to your POH, enter your house for the diary step. Start The Depths of Despair to the step where you are sent to Galana. Grab 20 mahogany logs. Run to the Woodcutting Guild, continue Bone Voyage. Use your Digsite pendant to teleport to the digsite, continue Bone Voyage until you need to go to Port Sarim. Make all mahogany logs into planks at once for the diary.",
-      "complete": {
-        "op": "quest",
-        "quest": "THE_DEPTHS_OF_DESPAIR",
-        "state": "FINISHED"
-      },
-      "world": [
-        1782,
-        3572,
-        0
-      ]
-    },
-    {
-      "id": "s13-024",
-      "title": "Fishing Trawler minigame teleport to Port …",
-      "text": "Fishing Trawler minigame teleport to Port Khazard and make a fishcake for RFD/Pirate (take food with you underwater). Grab a knife, charter a ship to Musa Point, visit the Karamja Spirits Bar for the barcrawl. Then take the ship to Port Sarim, speak with Jack Seagull in the Rusty Anchor Inn to progress Bone Voyage. Continue the barcrawl as well. Take the boat to Entrana (bank everything besides runes/knife at Port Sarim), speak with the High Priest to progress Holy Grail, enter the tunnel and collect several dramen branches for Lost City. As many as can fit in your inventory; do NOT convert them just yet.",
-      "complete": {
-        "op": "quest",
-        "quest": "BONE_VOYAGE",
-        "state": "FINISHED"
-      },
-      "world": [
-        3257,
-        3448,
-        0
-      ]
-    },
-    {
-      "id": "s13-025",
-      "title": "Optional: clan wars teleport to Edgeville, …",
-      "text": "Optional: clan wars teleport to Edgeville, make two rings of recoil for the Koschei fight (using a dwarven stout to smelt gold ore). Teleport to Camelot, pay the estate agent to move your POH to Rellekka. Grab premade gnome food/your best food, a knife, a dramen branch, your recoil rings, a ring of dueling and POH teleport runes (no staff). House teleport, do the Thorvald/Koschei fight converting one of the dramen branches into a staff during the fight (using the aggressive style). Teleport to clan wars after. Grab Camelot teleport runes and the items needed below (check the list below!). Teleport to Camelot, run to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary). Cross the coal truck log shortcut and mine a coal for the diary. House teleport, buy a workshop and build a crafting table 2, make five clockworks. Have Peer the Seer bank all your items except juggle a dueling ring for speed if you want, then do the Peer the Seer step (juggle dueling or home teleport after), teleport to castle wars with your dueling ring/Lumbridge, rebank and teleport to your house, complete The Fremennik Trials. Mine a coal and then a silver in the mine, smelt it into a bar and make it into a tiara for the diary. Browse Yrsa’s Shoe Store for the diary, steal from the fish stall, collect a pet rock, take the boat to Waterbirth Island and collect 5 snape grass for the diary (can pick up and re-drop one, but collect at least 2).",
+      "id": "s13-010c",
+      "title": "start The Fremennik Trials with Manni",
+      "text": "start The Fremennik Trials with Manni",
       "complete": {
         "op": "quest",
         "quest": "THE_FREMENNIK_TRIALS",
@@ -417,9 +1043,2227 @@
       ]
     },
     {
-      "id": "s13-026",
-      "title": "Teleport to Lumbridge, complete the three …",
-      "text": "Teleport to Lumbridge, complete the three RFD quests started earlier. Buy steel gloves. Pick up a second knife for later. Make all your Golovanova fruit tops into botanical pies (cook them right away), prepare five more pie shells. Start The Lost Tribe by speaking to Sigmunt. Start The Ides of Milk, speaking with people along the way for The Lost Tribe and buying 10 bronze axes from Bob along the way. Continue and complete The Ides of Milk, putting the lamp on prayer. Continue The Lost Tribe up to the step where you need to visit Reldo. Cut and burn some oak logs for the diary. Finish Lost City (can convert all but one branch now), bring items to go down the Lumbridge swamp caves.",
+      "id": "s13-010d",
+      "title": "start working on getting his vote, …",
+      "text": "start working on getting his vote, continue with Olaf",
+      "manual": true,
+      "npc": 4488,
+      "world": [
+        2722,
+        3727,
+        0
+      ]
+    },
+    {
+      "id": "s13-010e",
+      "title": "get sent to collect a lyre …",
+      "text": "get sent to collect a lyre - this is the wiki order, not the RuneLite plugin order. Regrettably these are not the same. Continue questing for Olaf’s vote up to the step where you cut a branch from the swaying tree (YOU DO NOT NEED 40 CRAFTING)",
+      "manual": true,
+      "npc": 4488,
+      "world": [
+        2722,
+        3727,
+        0
+      ]
+    },
+    {
+      "id": "s13-010f",
+      "title": "Chop some oak logs",
+      "text": "Chop some oak logs",
+      "manual": true
+    },
+    {
+      "id": "s13-010g",
+      "title": "burn them for the diary",
+      "text": "burn them for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-010h",
+      "title": "kill the unicorn for the unicorn …",
+      "text": "kill the unicorn for the unicorn bone and horn as you pass it",
+      "manual": true
+    },
+    {
+      "id": "s13-010i",
+      "title": "start and continue Mountain Daughter until …",
+      "text": "start and continue Mountain Daughter until you have spoken to Svidi, house teleport",
+      "complete": {
+        "op": "quest",
+        "quest": "MOUNTAIN_DAUGHTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2766,
+        3667,
+        0
+      ]
+    },
+    {
+      "id": "s13-010j",
+      "title": "speak to Askeladden (Fremmy Trials) and …",
+      "text": "speak to Askeladden (Fremmy Trials) and Brundt (Mountain Daughter)",
+      "complete": {
+        "op": "quest",
+        "quest": "MOUNTAIN_DAUGHTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2766,
+        3667,
+        0
+      ]
+    },
+    {
+      "id": "s13-010k",
+      "title": "get the golden fleece (Fremmy Trials)",
+      "text": "get the golden fleece (Fremmy Trials)",
+      "manual": true,
+      "object": 19950,
+      "world": [
+        1928,
+        4907,
+        2
+      ]
+    },
+    {
+      "id": "s13-010l",
+      "title": "get half a rock (Mountain Daughter), …",
+      "text": "get half a rock (Mountain Daughter), continue Mountain Daughter until you need to get the white pearl seed",
+      "complete": {
+        "op": "quest",
+        "quest": "MOUNTAIN_DAUGHTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2766,
+        3667,
+        0
+      ]
+    },
+    {
+      "id": "s13-010m",
+      "title": "run back out of the camp …",
+      "text": "run back out of the camp and do The Giant Dwarf (right-click open the Stonemason’s shop at the start for the diary) to the step where you need to visit Thurgo",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "FINISHED"
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "s13-010n",
+      "title": "Steal from the crafting or baker’s …",
+      "text": "Steal from the crafting or baker’s stall, and then from the gem stall, for the diary. While in Keldagrim",
+      "manual": true,
+      "object": 5008,
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "s13-010o",
+      "title": "buy a rune pickaxe from the …",
+      "text": "buy a rune pickaxe from the store in the eastern section",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1275,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1275,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1275
+    },
+    {
+      "id": "s13-011a",
+      "title": "Teleport to Falador",
+      "text": "Teleport to Falador",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-011b",
+      "title": "pay Emily in the Rising Sun …",
+      "text": "pay Emily in the Rising Sun Inn to progress RFD/Dwarf, continue the barcrawl",
+      "manual": true
+    },
+    {
+      "id": "s13-011c",
+      "title": "speak to Burntof for Below Ice …",
+      "text": "speak to Burntof for Below Ice Mountain while you’re here",
+      "complete": {
+        "op": "quest",
+        "quest": "BELOW_ICE_MOUNTAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
+    },
+    {
+      "id": "s13-011d",
+      "title": "Pickpocket a guard for the diary. …",
+      "text": "Pickpocket a guard for the diary. Move your POH to Taverley at the estate agent",
+      "manual": true,
+      "npc": 3097,
+      "world": [
+        2638,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s13-011e",
+      "title": "Buy 8 woad leaves from Wyson …",
+      "text": "Buy 8 woad leaves from Wyson the gardener (offer to pay 20gp to get two at a time). You should have at least 3,170 Herblore experience by now (level 17) – if not bankstand some herblore with Wintertodt herbs",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6020,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 6020,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6020,
+      "npc": 3651,
+      "world": [
+        2999,
+        3383,
+        0
+      ]
+    },
+    {
+      "id": "s13-011f",
+      "title": "Complete a lap of the Falador …",
+      "text": "Complete a lap of the Falador rooftop course for the diary",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s13-011g",
+      "title": "Make sure you are wearing leather …",
+      "text": "Make sure you are wearing leather gloves",
+      "manual": true
+    },
+    {
+      "id": "s13-011h",
+      "title": "collect all items in advance for …",
+      "text": "collect all items in advance for the next steps, and that you have at least 12 empty inventory spaces",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "s13-012a",
+      "title": "Use your necklace of passage to …",
+      "text": "Use your necklace of passage to Eagle’s Eyrie",
+      "manual": true,
+      "object": 19922,
+      "world": [
+        2005,
+        4972,
+        3
+      ]
+    },
+    {
+      "id": "s13-012b",
+      "title": "catch a golden warbler (bird snare)",
+      "text": "catch a golden warbler (bird snare)",
+      "manual": true,
+      "object": 9375,
+      "world": [
+        3404,
+        3148,
+        0
+      ]
+    },
+    {
+      "id": "s13-012c",
+      "title": "get the phoenix feather",
+      "text": "get the phoenix feather",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-012d",
+      "title": "mine (and keep, do not drop) …",
+      "text": "mine (and keep, do not drop) six clay",
+      "manual": true
+    },
+    {
+      "id": "s13-012e",
+      "title": "complete The Golem",
+      "text": "complete The Golem",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
+    },
+    {
+      "id": "s13-012f",
+      "title": "Make sure to collect the gems …",
+      "text": "Make sure to collect the gems as mentioned on the wiki",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-013a",
+      "title": "Teleport to your POH (bank in …",
+      "text": "Teleport to your POH (bank in between, for example with Ferox minigame teleport or games necklace, if you don’t have enough inv space/don’t have all the items on you)",
+      "world": [
+        3137,
+        3623,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-013b",
+      "title": "collect the white pear for Mountain …",
+      "text": "collect the white pear for Mountain Daughter",
+      "complete": {
+        "op": "quest",
+        "quest": "MOUNTAIN_DAUGHTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2766,
+        3667,
+        0
+      ]
+    },
+    {
+      "id": "s13-013c",
+      "title": "teleport again",
+      "text": "teleport again",
+      "manual": true
+    },
+    {
+      "id": "s13-013d",
+      "title": "enter the dwarven tunnel under White …",
+      "text": "enter the dwarven tunnel under White Wolf Mountain",
+      "npc": 106,
+      "world": [
+        2591,
+        2966,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2591,
+        "y": 2966,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-013e",
+      "title": "collect two rock cakes from An …",
+      "text": "collect two rock cakes from An old dwarf (Rohak",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1891,
+            "qty": 100
+          },
+          {
+            "op": "item",
+            "id": 1891,
+            "qty": 100,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1891
+    },
+    {
+      "id": "s13-013f",
+      "title": "make sure you complete the dialogue …",
+      "text": "make sure you complete the dialogue or you’ll have to get new asgoldian ales)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-013g",
+      "title": "Teleport a third time",
+      "text": "Teleport a third time",
+      "manual": true
+    },
+    {
+      "id": "s13-013h",
+      "title": "speak with the Lady of the …",
+      "text": "speak with the Lady of the Lake for Merlin’s Crystal",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-013i",
+      "title": "chop",
+      "text": "chop",
+      "manual": true
+    },
+    {
+      "id": "s13-013j",
+      "title": "burn some willow logs for the …",
+      "text": "burn some willow logs for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-013k",
+      "title": "go to Doric",
+      "text": "go to Doric",
+      "npc": 3893,
+      "world": [
+        2951,
+        3451,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2951,
+        "y": 3451,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-013l",
+      "title": "smith Blurite limbs on his anvil",
+      "text": "smith Blurite limbs on his anvil",
+      "manual": true,
+      "object": 2097,
+      "world": [
+        2613,
+        3081,
+        0
+      ]
+    },
+    {
+      "id": "s13-013m",
+      "title": "run north and telegrab a wine …",
+      "text": "run north and telegrab a wine of zamorak for the diary",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 245,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 245,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 245
+    },
+    {
+      "id": "s13-013n",
+      "title": "run to the Goblin Village and …",
+      "text": "run to the Goblin Village and continue RFD/Goblin to get a Slop of compromise",
+      "object": 23,
+      "world": [
+        2962,
+        3506,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2962,
+        "y": 3506,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-014a",
+      "title": "Teleport to Ferox Enclave with a …",
+      "text": "Teleport to Ferox Enclave with a ring of dueling (already equipped)",
+      "world": [
+        3137,
+        3623,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-014b",
+      "title": "make 6 soft clay in the …",
+      "text": "make 6 soft clay in the bank (leave in bank)",
+      "manual": true
+    },
+    {
+      "id": "s13-014c",
+      "title": "grab a necklace of passage (equip), …",
+      "text": "grab a necklace of passage (equip), research notes (Rune Mysteries), a steel axe, a rune shortsword (equip)",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "s13-014d",
+      "title": "fill your inventory with bones (make …",
+      "text": "fill your inventory with bones (make sure to leave one in the bank)",
+      "manual": true
+    },
+    {
+      "id": "s13-014e",
+      "title": "Use your necklace of passage to …",
+      "text": "Use your necklace of passage to teleport to the Wizards’ Tower",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-014f",
+      "title": "Give the bones to Wizard Traiborn",
+      "text": "Give the bones to Wizard Traiborn",
+      "manual": true,
+      "npc": 5081,
+      "world": [
+        3114,
+        3163,
+        1
+      ]
+    },
+    {
+      "id": "s13-014g",
+      "title": "kill the chicken in the basement …",
+      "text": "kill the chicken in the basement for the rest of the bones (if needed) and obtain the key for Demon Slayer",
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "s13-014h",
+      "title": "Complete Rune Mysteries, have Wizard Sedridor …",
+      "text": "Complete Rune Mysteries, have Wizard Sedridor teleport you to the rune essence mine",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "s13-014i",
+      "title": "Run to Draynor Village",
+      "text": "Run to Draynor Village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-014j",
+      "title": "start the Lost City quest (until …",
+      "text": "start the Lost City quest (until you have to go to Entrana) and continue Prince Ali Rescue until you have the key imprint (rebank at Draynor). Have Aggie make you four blue dyes (you can use the woad leaves on Aggie to skip the dialogue)",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3298,
+        3163,
+        0
+      ]
+    },
+    {
+      "id": "s13-014k",
+      "title": "Pickpocket Martin the Master Gardener for …",
+      "text": "Pickpocket Martin the Master Gardener for the diary",
+      "manual": true,
+      "npc": 3651,
+      "world": [
+        2999,
+        3383,
+        0
+      ]
+    },
+    {
+      "id": "s13-015a",
+      "title": "Grab 15 compostable items",
+      "text": "Grab 15 compostable items",
+      "manual": true
+    },
+    {
+      "id": "s13-015b",
+      "title": "fill the bin at the Falador …",
+      "text": "fill the bin at the Falador patch",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s13-015c",
+      "title": "Run to Port Sarim",
+      "text": "Run to Port Sarim",
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2954,
+        "y": 3147,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-015d",
+      "title": "claim your previously destroyed XP lamps …",
+      "text": "claim your previously destroyed XP lamps from Veos (one in Port Sarim, one in Piscarillius!) and put them all on Herblore (level 20)",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "s13-015e",
+      "title": "Give the bread to the beggar …",
+      "text": "Give the bread to the beggar at the jewellery shop (Merlin’s Crystal). Visit Thurgo",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-015f",
+      "title": "complete The Giant Dwarf (if you …",
+      "text": "complete The Giant Dwarf (if you get a bars task you can’t do you can refuse it by clicking out of the dialogue and logging out and back in, at the risk of having to go back to the secretary. You can join any consortium you prefer though the Purple Pewter is more efficient if you have full HAM robes - the ones on the east side tend to be fastest to buy ores at the blast furnace)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "FINISHED"
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "s13-015g",
+      "title": "Use the Blast Furnace (costs 2500 …",
+      "text": "Use the Blast Furnace (costs 2500 gp per 10 minutes) or Superheat Item to make the bars where needed. It is probably best to use the Blast furnace for larger tasks and Superheat for smaller tasks",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "s13-015h",
+      "title": "Start Forgettable Tale…",
+      "text": "Start Forgettable Tale…",
+      "complete": {
+        "op": "quest",
+        "quest": "FORGETTABLE_TALE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3140,
+        3504,
+        0
+      ]
+    },
+    {
+      "id": "s13-015i",
+      "title": "get a kelda seed from the …",
+      "text": "get a kelda seed from the drunken dwarf. Find out what random item is required for another one (Rowdy Dwarf in the Laughing Miner pub). Figure out how to obtain the item and weave it into the steps below if you wish",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-015j",
+      "title": "Take the train cart to the …",
+      "text": "Take the train cart to the pub under the White Wolf Mountain",
+      "manual": true,
+      "npc": 106,
+      "world": [
+        2591,
+        2966,
+        0
+      ]
+    },
+    {
+      "id": "s13-015k",
+      "title": "get (the second) kelda seed from …",
+      "text": "get (the second) kelda seed from Khorvak",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-016a",
+      "title": "Teleport to the Ferox Enclave (minigame …",
+      "text": "Teleport to the Ferox Enclave (minigame teleport)",
+      "world": [
+        3137,
+        3623,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-016b",
+      "title": "run south to the Mage of …",
+      "text": "run south to the Mage of Zamorak",
+      "npc": 2582,
+      "world": [
+        3259,
+        3383,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3259,
+        "y": 3383,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-016c",
+      "title": "start Enter the Abyss",
+      "text": "start Enter the Abyss",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "s13-016d",
+      "title": "Teleport to Varrock",
+      "text": "Teleport to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-016e",
+      "title": "complete Demon Slayer (you can use …",
+      "text": "complete Demon Slayer (you can use magic for the fight as long as you equip silverlight as a weapon, but melee is fine as well)",
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "s13-016f",
+      "title": "Give a dog a bone",
+      "text": "Give a dog a bone",
+      "manual": true
+    },
+    {
+      "id": "s13-016g",
+      "title": "Speak with the Mage of Zamorak …",
+      "text": "Speak with the Mage of Zamorak to obtain the scrying orb and progress Enter the Abyss. Have Aubury teleport you to the Rune Essence mine with your scrying orb (first scrying orb charge), check the Zamorakian temple’s altar for the inscription (Merlin’s Crystal)",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-016h",
+      "title": "Buy a studded body, studded chaps, …",
+      "text": "Buy a studded body, studded chaps, iron chainbody, two steel chainbodies, a steel platebody and a mithril platebody from Horvik",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1121,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1121,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1121,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "s13-016i",
+      "title": "make 7 bronze wires at Horvik’s …",
+      "text": "make 7 bronze wires at Horvik’s anvils",
+      "manual": true,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "s13-016j",
+      "title": "buy an oak longbow and a …",
+      "text": "buy an oak longbow and a willow shortbow from Lowe (optionally also buy 200 mithril arrows), move your POH to Pollnivneach at the estate agent, visit the museum",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 849,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 849,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 849,
+      "npc": 3097,
+      "world": [
+        2638,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s13-016k",
+      "title": "collect the XP lamp from Historian …",
+      "text": "collect the XP lamp from Historian Minas, put them on herblore. You now have 103 kudos",
+      "manual": true
+    },
+    {
+      "id": "s13-016l",
+      "title": "Grab the information clerk xp bonuses",
+      "text": "Grab the information clerk xp bonuses",
+      "manual": true,
+      "npc": 4255,
+      "world": [
+        2528,
+        3317,
+        0
+      ]
+    },
+    {
+      "id": "s13-016m",
+      "title": "start Bone Voyage",
+      "text": "start Bone Voyage",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-017a",
+      "title": "Use your ring of dueling to …",
+      "text": "Use your ring of dueling to teleport to Al-Kharid",
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
+    },
+    {
+      "id": "s13-017b",
+      "title": "speak with the gem trader and …",
+      "text": "speak with the gem trader and Avan for Family Crest",
+      "complete": {
+        "op": "quest",
+        "quest": "FAMILY_CREST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3280,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "s13-017c",
+      "title": "mine iron ore in the Al-kharid …",
+      "text": "mine iron ore in the Al-kharid mine for the diary",
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
+    },
+    {
+      "id": "s13-017d",
+      "title": "give the items for Prince Ali …",
+      "text": "give the items for Prince Ali Rescue to Osman. Do a lap of the agility course, rebank to grab quest items",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3298,
+        3163,
+        0
+      ]
+    },
+    {
+      "id": "s13-017e",
+      "title": "run south",
+      "text": "run south",
+      "manual": true
+    },
+    {
+      "id": "s13-017f",
+      "title": "fish some anchovies south of the …",
+      "text": "fish some anchovies south of the bank for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-017g",
+      "title": "start The Shadow of the Storm …",
+      "text": "start The Shadow of the Storm until you have the sigil mould and tome (take the carpet to Uzer the first time for a diary step) using your necklace of passage when convenient",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOW_OF_THE_STORM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3270,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "s13-018a",
+      "title": "You should have level 46 fletching …",
+      "text": "You should have level 46 fletching by now from your steel arrows",
+      "manual": true
+    },
+    {
+      "id": "s13-018b",
+      "title": "Use your dueling ring to bank …",
+      "text": "Use your dueling ring to bank in Ferox (keep equipped)",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "s13-018c",
+      "title": "grab your desert clothes, pickaxe, teak …",
+      "text": "grab your desert clothes, pickaxe, teak logs, knife, house teleport runes, GP, 1600 noted buckets and 5 waterskins",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6333,
+            "qty": 51
+          },
+          {
+            "op": "item",
+            "id": 6333,
+            "qty": 51,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6333
+    },
+    {
+      "id": "s13-018d",
+      "title": "Teleport to your house",
+      "text": "Teleport to your house",
+      "manual": true
+    },
+    {
+      "id": "s13-018e",
+      "title": "run to the quarry",
+      "text": "run to the quarry",
+      "manual": true
+    },
+    {
+      "id": "s13-018f",
+      "title": "deposit your buckets",
+      "text": "deposit your buckets",
+      "manual": true
+    },
+    {
+      "id": "s13-018g",
+      "title": "mine sandstone to level 43 mining",
+      "text": "mine sandstone to level 43 mining",
+      "manual": true
+    },
+    {
+      "id": "s13-018h",
+      "title": "Buy 1600 buckets of sand (but …",
+      "text": "Buy 1600 buckets of sand (but not the rest) from the grinder",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 1601
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 1601,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1925
+    },
+    {
+      "id": "s13-019a",
+      "title": "Dueling ring teleport to Ferox",
+      "text": "Dueling ring teleport to Ferox",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "s13-019b",
+      "title": "take the portal to Soul Wars, …",
+      "text": "take the portal to Soul Wars, then to Edgeville",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "s13-019c",
+      "title": "Give the steak sandwich to Marley …",
+      "text": "Give the steak sandwich to Marley to progress Below Ice Mountain",
+      "complete": {
+        "op": "quest",
+        "quest": "BELOW_ICE_MOUNTAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
+    },
+    {
+      "id": "s13-019d",
+      "title": "Speak with Oziach to progress Dragon …",
+      "text": "Speak with Oziach to progress Dragon Slayer I",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3190,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s13-019e",
+      "title": "Make 1600 molten glass at the …",
+      "text": "Make 1600 molten glass at the furnace",
+      "manual": true
+    },
+    {
+      "id": "s13-019f",
+      "title": "Cut all your sapphires, emeralds and …",
+      "text": "Cut all your sapphires, emeralds and rubies",
+      "manual": true
+    },
+    {
+      "id": "s13-019g",
+      "title": "Make all minus one of your …",
+      "text": "Make all minus one of your gold bars into digsite pendants (note: this is 0-1 gold bars, unless you got extra from Tempoross. Don’t worry if you can’t make any pendants here)",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s13-019h",
+      "title": "Make two fishbowls",
+      "text": "Make two fishbowls",
+      "manual": true
+    },
+    {
+      "id": "s13-020a",
+      "title": "Grab a digsite pendant (equip), rune …",
+      "text": "Grab a digsite pendant (equip), rune sword (equip), a staff of air, chaos runes, a bucket and an inventory of pure essence",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 7936,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 7936,
+            "qty": 27,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 7936,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s13-020b",
+      "title": "Use the digsite pendant to teleport …",
+      "text": "Use the digsite pendant to teleport to the digsite",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s13-020c",
+      "title": "run to the Paterdomus Temple and …",
+      "text": "run to the Paterdomus Temple and continue Priest in Peril until you are asked to hand over the pure essence",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3473,
+        0
+      ]
+    },
+    {
+      "id": "s13-020d",
+      "title": "Teleport to the digsite",
+      "text": "Teleport to the digsite",
+      "world": [
+        3354,
+        3420,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3354,
+        "y": 3420,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-020e",
+      "title": "run south",
+      "text": "run south",
+      "manual": true
+    },
+    {
+      "id": "s13-020f",
+      "title": "start Elemental Workshop II",
+      "text": "start Elemental Workshop II",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        3367,
+        3335,
+        0
+      ]
+    },
+    {
+      "id": "s13-020g",
+      "title": "Teleport with the pendant again, continue …",
+      "text": "Teleport with the pendant again, continue Bone Voyage to the step where you need to visit the Woodcutting guild",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-020h",
+      "title": "Teleport to Ferox",
+      "text": "Teleport to Ferox",
+      "world": [
+        3137,
+        3623,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-020i",
+      "title": "bank (bank chaos runes, rune sword, …",
+      "text": "bank (bank chaos runes, rune sword, food",
+      "manual": true
+    },
+    {
+      "id": "s13-020j",
+      "title": "grab ghostspeak amulet, spade, law runes)",
+      "text": "grab ghostspeak amulet, spade, law runes)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 563,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 563,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 563
+    },
+    {
+      "id": "s13-020k",
+      "title": "grab 25 pure essence",
+      "text": "grab 25 pure essence",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 7936,
+            "qty": 26
+          },
+          {
+            "op": "item",
+            "id": 7936,
+            "qty": 27,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 7936
+    },
+    {
+      "id": "s13-020l",
+      "title": "return to Drezel, repeat this for …",
+      "text": "return to Drezel, repeat this for a second inventory to complete Priest in Peril",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3473,
+        0
+      ]
+    },
+    {
+      "id": "s13-020m",
+      "title": "Start the Nature Spirit quest",
+      "text": "Start the Nature Spirit quest",
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3405,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "s13-021a",
+      "title": "Enter Morytania. Do the Creature of …",
+      "text": "Enter Morytania. Do the Creature of Fenkenstrain up to the step where you need to visit a furnace, chopping a hollow tree for bark along the way",
+      "complete": {
+        "op": "quest",
+        "quest": "CREATURE_OF_FENKENSTRAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
+    },
+    {
+      "id": "s13-021b",
+      "title": "Grab 15 compostable items",
+      "text": "Grab 15 compostable items",
+      "manual": true
+    },
+    {
+      "id": "s13-021c",
+      "title": "fill the bin at the Morytania …",
+      "text": "fill the bin at the Morytania patch along the way",
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "s13-021d",
+      "title": "Buy 7 raw chickens and a …",
+      "text": "Buy 7 raw chickens and a raw shark. Rebank. Do the Nature Spirit and Shades of Mort’ton (when you need to make the oil hop the official world, 377. It is recommended to do the rest of the quest on other worlds to avoid raggers) quests (make sure you have all the items on you for the last two before heading into the swamp",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADES_OF_MORTTON",
+        "state": "FINISHED"
+      },
+      "world": [
+        3481,
+        3279,
+        0
+      ]
+    },
+    {
+      "id": "s13-021e",
+      "title": "take your best food in the …",
+      "text": "take your best food in the rest of your inventory) and restoring your prayer at the end of Nature Spirit for the diary",
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3405,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "s13-021f",
+      "title": "Buy 13 planks from Razmire",
+      "text": "Buy 13 planks from Razmire",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 960,
+            "qty": 23
+          },
+          {
+            "op": "item",
+            "id": 960,
+            "qty": 24,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 960,
+      "npc": 1289,
+      "world": [
+        3488,
+        3296,
+        0
+      ]
+    },
+    {
+      "id": "s13-022a",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-022b",
+      "title": "complete Merlin’s Crystal (black candle, bat …",
+      "text": "complete Merlin’s Crystal (black candle, bat bones, Excalibur)",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-022c",
+      "title": "start Holy Grail up to the …",
+      "text": "start Holy Grail up to the step you need to visit Entrana",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-022d",
+      "title": "Run to Seers, play the church …",
+      "text": "Run to Seers, play the church organ (diary), spin your golden fleece on the spinning wheel",
+      "object": 19950,
+      "world": [
+        1928,
+        4907,
+        2
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1928,
+        "y": 4907,
+        "z": 2,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-022e",
+      "title": "pay the estate agent to move …",
+      "text": "pay the estate agent to move your POH to Kourend, do the Elemental Workshop II quest",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        3367,
+        3335,
+        0
+      ]
+    },
+    {
+      "id": "s13-022f",
+      "title": "make a mind helmet for the …",
+      "text": "make a mind helmet for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-022g",
+      "title": "talk to the Poison Salesman to …",
+      "text": "talk to the Poison Salesman to continue Fremmy Trials",
+      "manual": true,
+      "npc": 4227,
+      "world": [
+        2694,
+        3493,
+        0
+      ]
+    },
+    {
+      "id": "s13-022h",
+      "title": "Buy 10 stews for later (also …",
+      "text": "Buy 10 stews for later (also completes a diary task)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2003,
+            "qty": 11
+          },
+          {
+            "op": "item",
+            "id": 2003,
+            "qty": 11,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2003
+    },
+    {
+      "id": "s13-022i",
+      "title": "speak with the bartender to progress …",
+      "text": "speak with the bartender to progress the barcrawl",
+      "manual": true,
+      "npc": 14660,
+      "world": [
+        1391,
+        3354,
+        0
+      ]
+    },
+    {
+      "id": "s13-023a",
+      "title": "Teleport to your POH",
+      "text": "Teleport to your POH",
+      "manual": true
+    },
+    {
+      "id": "s13-023b",
+      "title": "enter your house for the diary …",
+      "text": "enter your house for the diary step",
+      "manual": true
+    },
+    {
+      "id": "s13-023c",
+      "title": "Start The Depths of Despair to …",
+      "text": "Start The Depths of Despair to the step where you are sent to Galana",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_DEPTHS_OF_DESPAIR",
+        "state": "FINISHED"
+      },
+      "world": [
+        1782,
+        3572,
+        0
+      ]
+    },
+    {
+      "id": "s13-023d",
+      "title": "Grab 20 mahogany logs",
+      "text": "Grab 20 mahogany logs",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6332,
+            "qty": 20
+          },
+          {
+            "op": "item",
+            "id": 6332,
+            "qty": 25,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6332
+    },
+    {
+      "id": "s13-023e",
+      "title": "Run to the Woodcutting Guild, continue …",
+      "text": "Run to the Woodcutting Guild, continue Bone Voyage",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-023f",
+      "title": "Use your Digsite pendant to teleport …",
+      "text": "Use your Digsite pendant to teleport to the digsite, continue Bone Voyage until you need to go to Port Sarim",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-023g",
+      "title": "Make all mahogany logs into planks …",
+      "text": "Make all mahogany logs into planks at once for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-024a",
+      "title": "Fishing Trawler minigame teleport to Port …",
+      "text": "Fishing Trawler minigame teleport to Port Khazard",
+      "manual": true,
+      "npc": 1209,
+      "world": [
+        2615,
+        3143,
+        0
+      ]
+    },
+    {
+      "id": "s13-024b",
+      "title": "make a fishcake for RFD/Pirate (take …",
+      "text": "make a fishcake for RFD/Pirate (take food with you underwater)",
+      "manual": true
+    },
+    {
+      "id": "s13-024c",
+      "title": "Grab a knife, charter a ship …",
+      "text": "Grab a knife, charter a ship to Musa Point, visit the Karamja Spirits Bar for the barcrawl",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 946,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 946,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 946,
+      "world": [
+        2904,
+        3162,
+        0
+      ]
+    },
+    {
+      "id": "s13-024d",
+      "title": "take the ship to Port Sarim",
+      "text": "take the ship to Port Sarim",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "s13-024e",
+      "title": "speak with Jack Seagull in the …",
+      "text": "speak with Jack Seagull in the Rusty Anchor Inn to progress Bone Voyage. Continue the barcrawl as well",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-024f",
+      "title": "Take the boat to Entrana (bank …",
+      "text": "Take the boat to Entrana (bank everything besides runes/knife at Port Sarim)",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "s13-024g",
+      "title": "speak with the High Priest to …",
+      "text": "speak with the High Priest to progress Holy Grail",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-024h",
+      "title": "enter the tunnel",
+      "text": "enter the tunnel",
+      "manual": true
+    },
+    {
+      "id": "s13-024i",
+      "title": "collect several dramen branches for Lost …",
+      "text": "collect several dramen branches for Lost City. As many as can fit in your inventory; do NOT convert them just yet",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3151,
+        3207,
+        0
+      ]
+    },
+    {
+      "id": "s13-025a",
+      "title": "Optional: clan wars teleport to Edgeville",
+      "text": "Optional: clan wars teleport to Edgeville",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "s13-025b",
+      "title": "make two rings of recoil for …",
+      "text": "make two rings of recoil for the Koschei fight (using a dwarven stout to smelt gold ore)",
+      "manual": true
+    },
+    {
+      "id": "s13-025c",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-025d",
+      "title": "pay the estate agent to move …",
+      "text": "pay the estate agent to move your POH to Rellekka",
+      "manual": true,
+      "npc": 3097,
+      "world": [
+        2638,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s13-025e",
+      "title": "Grab premade gnome food/your best food, …",
+      "text": "Grab premade gnome food/your best food, a knife, a dramen branch, your recoil rings, a ring of dueling and POH teleport runes (no staff). House teleport, do the Thorvald/Koschei fight converting one of the dramen branches into a staff during the fight (using the aggressive style)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 946,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 946,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 946,
+      "npc": 3896,
+      "world": [
+        2666,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "s13-025f",
+      "title": "Teleport to clan wars after",
+      "text": "Teleport to clan wars after",
+      "world": [
+        3130,
+        3622,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3130,
+        "y": 3622,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-025g",
+      "title": "Grab Camelot teleport runes and the …",
+      "text": "Grab Camelot teleport runes and the items needed below (check the list below!)",
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "s13-025h",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-025i",
+      "title": "run to Galahad’s house and obtain …",
+      "text": "run to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary)",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-025j",
+      "title": "Cross the coal truck log shortcut",
+      "text": "Cross the coal truck log shortcut",
+      "manual": true
+    },
+    {
+      "id": "s13-025k",
+      "title": "mine a coal for the diary. …",
+      "text": "mine a coal for the diary. House teleport",
+      "manual": true
+    },
+    {
+      "id": "s13-025l",
+      "title": "buy a workshop",
+      "text": "buy a workshop",
+      "manual": true
+    },
+    {
+      "id": "s13-025m",
+      "title": "build a crafting table 2",
+      "text": "build a crafting table 2",
+      "manual": true
+    },
+    {
+      "id": "s13-025n",
+      "title": "make five clockworks. Have Peer the …",
+      "text": "make five clockworks. Have Peer the Seer bank all your items except juggle a dueling ring for speed if you want, then do the Peer the Seer step (juggle dueling or home teleport after)",
+      "manual": true,
+      "npc": 3895,
+      "world": [
+        2633,
+        3667,
+        0
+      ]
+    },
+    {
+      "id": "s13-025o",
+      "title": "teleport to castle wars with your …",
+      "text": "teleport to castle wars with your dueling ring/Lumbridge, rebank",
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3227,
+        "y": 3257,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-025p",
+      "title": "teleport to your house",
+      "text": "teleport to your house",
+      "manual": true
+    },
+    {
+      "id": "s13-025q",
+      "title": "complete The Fremennik Trials",
+      "text": "complete The Fremennik Trials",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3669,
+        0
+      ]
+    },
+    {
+      "id": "s13-025r",
+      "title": "Mine a coal and then a …",
+      "text": "Mine a coal and then a silver in the mine",
+      "manual": true
+    },
+    {
+      "id": "s13-025s",
+      "title": "smelt it into a bar",
+      "text": "smelt it into a bar",
+      "manual": true
+    },
+    {
+      "id": "s13-025t",
+      "title": "make it into a tiara for …",
+      "text": "make it into a tiara for the diary. Browse Yrsa’s Shoe Store for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-025u",
+      "title": "steal from the fish stall",
+      "text": "steal from the fish stall",
+      "manual": true
+    },
+    {
+      "id": "s13-025v",
+      "title": "collect a pet rock",
+      "text": "collect a pet rock",
+      "manual": true
+    },
+    {
+      "id": "s13-025w",
+      "title": "take the boat to Waterbirth Island",
+      "text": "take the boat to Waterbirth Island",
+      "manual": true,
+      "npc": 5937,
+      "world": [
+        2620,
+        3685,
+        0
+      ]
+    },
+    {
+      "id": "s13-025x",
+      "title": "collect 5 snape grass for the …",
+      "text": "collect 5 snape grass for the diary (can pick up and re-drop one, but collect at least 2)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 231,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 231,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 231
+    },
+    {
+      "id": "s13-026a",
+      "title": "Teleport to Lumbridge",
+      "text": "Teleport to Lumbridge",
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3227,
+        "y": 3257,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-026b",
+      "title": "complete the three RFD quests started …",
+      "text": "complete the three RFD quests started earlier",
+      "manual": true
+    },
+    {
+      "id": "s13-026c",
+      "title": "Buy steel gloves",
+      "text": "Buy steel gloves",
+      "manual": true
+    },
+    {
+      "id": "s13-026d",
+      "title": "Pick up a second knife for …",
+      "text": "Pick up a second knife for later",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 946,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 946,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 946
+    },
+    {
+      "id": "s13-026e",
+      "title": "Make all your Golovanova fruit tops …",
+      "text": "Make all your Golovanova fruit tops into botanical pies (cook them right away), prepare five more pie shells",
+      "manual": true
+    },
+    {
+      "id": "s13-026f",
+      "title": "Start The Lost Tribe by speaking …",
+      "text": "Start The Lost Tribe by speaking to Sigmunt",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "s13-026g",
+      "title": "Start The Ides of Milk, speaking …",
+      "text": "Start The Ides of Milk, speaking with people along the way for The Lost Tribe and buying 10 bronze axes from Bob along the way. Continue",
       "complete": {
         "op": "quest",
         "quest": "THE_IDES_OF_MILK",
@@ -432,9 +3276,188 @@
       ]
     },
     {
-      "id": "s13-027",
-      "title": "Enter the Lumbridge Swamp, collect 25 …",
-      "text": "Enter the Lumbridge Swamp, collect 25 swamp tar for quests. Enter the Lumbridge swamp caves and kill a big frog for the big frog leg and a cave bug for the diary step (do not go north with the candle as a light source, you will die). Catch a raw slimy eel. Run to Draynor, chop some willow logs for the diary. Buy 35 vinegar, 2000 seeds (buy all seeds in every world, they’re for bird runs in the future) along with 10 cabbage and 10 onion seeds and 5 marigold seeds, start Fairytale I. Do a lap on the agility course and go into the sewers and kill a zombie for the diary. Complete Vampyre Slayer, grab two whistles from Draynor Manor for Holy Grail, dig up the grave outside to collect the skull for Fairytale I. Optional: visit the Falador patch for compost. Run to Port Sarim, speak with Frizzy Skernip (spirit tree patch) along the way for Fairytale I.",
+      "id": "s13-026h",
+      "title": "complete The Ides of Milk, putting …",
+      "text": "complete The Ides of Milk, putting the lamp on prayer. Continue The Lost Tribe up to the step where you need to visit Reldo",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_IDES_OF_MILK",
+        "state": "FINISHED"
+      },
+      "world": [
+        3171,
+        3277,
+        0
+      ]
+    },
+    {
+      "id": "s13-026i",
+      "title": "Cut",
+      "text": "Cut",
+      "manual": true
+    },
+    {
+      "id": "s13-026j",
+      "title": "burn some oak logs for the …",
+      "text": "burn some oak logs for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-026k",
+      "title": "Finish Lost City (can convert all …",
+      "text": "Finish Lost City (can convert all but one branch now), bring items to go down the Lumbridge swamp caves",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3151,
+        3207,
+        0
+      ]
+    },
+    {
+      "id": "s13-027a",
+      "title": "Enter the Lumbridge Swamp",
+      "text": "Enter the Lumbridge Swamp",
+      "world": [
+        3197,
+        3166,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3197,
+        "y": 3166,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-027b",
+      "title": "collect 25 swamp tar for quests",
+      "text": "collect 25 swamp tar for quests",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1939,
+            "qty": 25
+          },
+          {
+            "op": "item",
+            "id": 1939,
+            "qty": 70,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1939
+    },
+    {
+      "id": "s13-027c",
+      "title": "Enter the Lumbridge swamp caves",
+      "text": "Enter the Lumbridge swamp caves",
+      "object": 5947,
+      "world": [
+        3169,
+        3172,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3169,
+        "y": 3172,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-027d",
+      "title": "kill a big frog for the …",
+      "text": "kill a big frog for the big frog leg and a cave bug for the diary step (do not go north with the candle as a light source, you will die)",
+      "manual": true
+    },
+    {
+      "id": "s13-027e",
+      "title": "Catch a raw slimy eel",
+      "text": "Catch a raw slimy eel",
+      "manual": true
+    },
+    {
+      "id": "s13-027f",
+      "title": "Run to Draynor",
+      "text": "Run to Draynor",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-027g",
+      "title": "chop some willow logs for the …",
+      "text": "chop some willow logs for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-027h",
+      "title": "Buy 35 vinegar, 2000 seeds (buy …",
+      "text": "Buy 35 vinegar, 2000 seeds (buy all seeds in every world, they’re for bird runs in the future) along with 10 cabbage and 10 onion seeds and 5 marigold seeds",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5096,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 5096,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 5096,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-027i",
+      "title": "start Fairytale I. Do a lap …",
+      "text": "start Fairytale I. Do a lap on the agility course",
+      "manual": true
+    },
+    {
+      "id": "s13-027j",
+      "title": "go into the sewers",
+      "text": "go into the sewers",
+      "manual": true
+    },
+    {
+      "id": "s13-027k",
+      "title": "kill a zombie for the diary",
+      "text": "kill a zombie for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-027l",
+      "title": "Complete Vampyre Slayer",
+      "text": "Complete Vampyre Slayer",
       "complete": {
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
@@ -447,9 +3470,132 @@
       ]
     },
     {
-      "id": "s13-028",
+      "id": "s13-027m",
+      "title": "grab two whistles from Draynor Manor …",
+      "text": "grab two whistles from Draynor Manor for Holy Grail",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s13-027n",
+      "title": "dig up the grave outside to …",
+      "text": "dig up the grave outside to collect the skull for Fairytale I. Optional: visit the Falador patch for compost",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6032,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 6032,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6032,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s13-027o",
+      "title": "Run to Port Sarim",
+      "text": "Run to Port Sarim",
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2954,
+        "y": 3147,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-027p",
+      "title": "speak with Frizzy Skernip (spirit tree …",
+      "text": "speak with Frizzy Skernip (spirit tree patch) along the way for Fairytale I",
+      "manual": true
+    },
+    {
+      "id": "s13-028a",
       "title": "Charter a ship to Brimhaven (speak …",
-      "text": "Charter a ship to Brimhaven (speak with Praistan Ebola at the spirit tree patch and Garth at the fruit tree patch), kill a monkey for a monkey paw and buy an inventory of food from Alfonse (only lobsters and better, hop as needed, leave 2 inv spaces). Take the rope swing to Moss Giant Island for the diary, run to the horseshoe mine, mine a gold ore for the diary and blow the whistle, continue Holy Grail (kill the Black Knight Titan, bring your rune shortsword and Excalibur. You can flinch with the rune shortsword for the full kill except the last hit).",
+      "text": "Charter a ship to Brimhaven (speak with Praistan Ebola at the spirit tree patch and Garth at the fruit tree patch)",
+      "manual": true,
+      "world": [
+        2760,
+        3195,
+        0
+      ]
+    },
+    {
+      "id": "s13-028b",
+      "title": "kill a monkey for a monkey …",
+      "text": "kill a monkey for a monkey paw",
+      "manual": true
+    },
+    {
+      "id": "s13-028c",
+      "title": "buy an inventory of food from …",
+      "text": "buy an inventory of food from Alfonse (only lobsters and better, hop as needed, leave 2 inv spaces)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 379,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 379,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 379,
+      "npc": 4920,
+      "world": [
+        2792,
+        3186,
+        0
+      ]
+    },
+    {
+      "id": "s13-028d",
+      "title": "Take the rope swing to Moss …",
+      "text": "Take the rope swing to Moss Giant Island for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-028e",
+      "title": "run to the horseshoe mine",
+      "text": "run to the horseshoe mine",
+      "manual": true
+    },
+    {
+      "id": "s13-028f",
+      "title": "mine a gold ore for the …",
+      "text": "mine a gold ore for the diary and blow the whistle, continue Holy Grail (kill the Black Knight Titan, bring your rune shortsword and Excalibur. You can flinch with the rune shortsword for the full kill except the last hit)",
       "complete": {
         "op": "quest",
         "quest": "HOLY_GRAIL",
@@ -462,9 +3608,26 @@
       ]
     },
     {
-      "id": "s13-029",
-      "title": "Teleport to Camelot, talk to King …",
-      "text": "Teleport to Camelot, talk to King Arthur to get the feather for Holy Grail.",
+      "id": "s13-029a",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-029b",
+      "title": "talk to King Arthur to get …",
+      "text": "talk to King Arthur to get the feather for Holy Grail",
       "complete": {
         "op": "quest",
         "quest": "HOLY_GRAIL",
@@ -477,9 +3640,210 @@
       ]
     },
     {
-      "id": "s13-030",
-      "title": "Chronicle teleport to Varrock, speak with …",
-      "text": "Chronicle teleport to Varrock, speak with Dreven at the bush patch and the Guildmaster to progress Dragon Slayer I (go through all dialogue options, get the maze key). Run south and speak with Vasquen at the hops patch. Plant barley in the patch (make sure to pay the farmer with 3 regular compost, also use compost on the patch itself. Keep the weeds.). Run around and hop over the fence for the diary, kill a ram in the for the ram skull. Grab two cadava berries and mine an iron ore in the southeast Varrock mine for the diary. Grab the Rag and Bone Man I items (including axe and tinderbox, no logs because of inv space - put the bones in the vinegar while bankstanding), 4 oak logs, hammer and an iron bar. Use a digsite pendant, speak with the Lead Navigator for Bone Voyage. Turn around, go to the sawmill and make the logs into planks, buy 250 steel nails. Visit the Odd Old Man for Bone Voyage and complete Rag and Bone Man I, start Rag and Bone Man II. Teleport to Varrock (chronicle), speak with the Apothecary for Bone Voyage and Romeo & Juliet and give him the Diary of Herbi Flax, show The Lost Tribe brooch to Reldo. Pay the estate agent to move your POH to Kourend. Grab a hammer, 2 oak planks, 5 steel nails, 1 iron bar. Continue and complete Bone Voyage at the boat north of the Digsite.",
+      "id": "s13-030a",
+      "title": "Chronicle teleport to Varrock",
+      "text": "Chronicle teleport to Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-030b",
+      "title": "speak with Dreven at the bush …",
+      "text": "speak with Dreven at the bush patch and the Guildmaster to progress Dragon Slayer I (go through all dialogue options",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3190,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s13-030c",
+      "title": "get the maze key)",
+      "text": "get the maze key)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "s13-030d",
+      "title": "Run south",
+      "text": "Run south",
+      "manual": true
+    },
+    {
+      "id": "s13-030e",
+      "title": "speak with Vasquen at the hops …",
+      "text": "speak with Vasquen at the hops patch",
+      "manual": true
+    },
+    {
+      "id": "s13-030f",
+      "title": "Plant barley in the patch (make …",
+      "text": "Plant barley in the patch (make sure to pay the farmer with 3 regular compost, also use compost on the patch itself. Keep the weeds.)",
+      "manual": true
+    },
+    {
+      "id": "s13-030g",
+      "title": "Run around and hop over the …",
+      "text": "Run around and hop over the fence for the diary",
+      "manual": true
+    },
+    {
+      "id": "s13-030h",
+      "title": "kill a ram in the for …",
+      "text": "kill a ram in the for the ram skull",
+      "manual": true
+    },
+    {
+      "id": "s13-030i",
+      "title": "Grab two cadava berries",
+      "text": "Grab two cadava berries",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 753,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 753,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 753
+    },
+    {
+      "id": "s13-030j",
+      "title": "mine an iron ore in the …",
+      "text": "mine an iron ore in the southeast Varrock mine for the diary",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-030k",
+      "title": "Grab the Rag and Bone Man …",
+      "text": "Grab the Rag and Bone Man I items (including axe and tinderbox, no logs because of inv space - put the bones in the vinegar while bankstanding), 4 oak logs, hammer and an iron bar",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3362,
+        3502,
+        0
+      ]
+    },
+    {
+      "id": "s13-030l",
+      "title": "Use a digsite pendant",
+      "text": "Use a digsite pendant",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s13-030m",
+      "title": "speak with the Lead Navigator for …",
+      "text": "speak with the Lead Navigator for Bone Voyage",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-030n",
+      "title": "Turn around",
+      "text": "Turn around",
+      "manual": true
+    },
+    {
+      "id": "s13-030o",
+      "title": "go to the sawmill",
+      "text": "go to the sawmill",
+      "npc": 3101,
+      "world": [
+        3302,
+        3492,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3302,
+        "y": 3492,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-030p",
+      "title": "make the logs into planks",
+      "text": "make the logs into planks",
+      "manual": true
+    },
+    {
+      "id": "s13-030q",
+      "title": "buy 250 steel nails. Visit the …",
+      "text": "buy 250 steel nails. Visit the Odd Old Man for Bone Voyage",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-030r",
+      "title": "complete Rag and Bone Man I",
+      "text": "complete Rag and Bone Man I",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3362,
+        3502,
+        0
+      ]
+    },
+    {
+      "id": "s13-030s",
+      "title": "start Rag and Bone Man II",
+      "text": "start Rag and Bone Man II",
       "complete": {
         "op": "quest",
         "quest": "RAG_AND_BONE_MAN_II",
@@ -492,15 +3856,134 @@
       ]
     },
     {
-      "id": "s13-031",
+      "id": "s13-030t",
+      "title": "Teleport to Varrock (chronicle)",
+      "text": "Teleport to Varrock (chronicle)",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "s13-030u",
+      "title": "speak with the Apothecary for Bone …",
+      "text": "speak with the Apothecary for Bone Voyage and Romeo & Juliet",
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
+      "world": [
+        3211,
+        3422,
+        0
+      ]
+    },
+    {
+      "id": "s13-030v",
+      "title": "give him the Diary of Herbi …",
+      "text": "give him the Diary of Herbi Flax, show The Lost Tribe brooch to Reldo",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "s13-030w",
+      "title": "Pay the estate agent to move …",
+      "text": "Pay the estate agent to move your POH to Kourend",
+      "manual": true,
+      "npc": 3097,
+      "world": [
+        2638,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s13-030x",
+      "title": "Grab a hammer, 2 oak planks, …",
+      "text": "Grab a hammer, 2 oak planks, 5 steel nails, 1 iron bar. Continue",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1539,
+            "qty": 108
+          },
+          {
+            "op": "item",
+            "id": 1539,
+            "qty": 898,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1539
+    },
+    {
+      "id": "s13-030y",
+      "title": "complete Bone Voyage at the boat …",
+      "text": "complete Bone Voyage at the boat north of the Digsite",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s13-031a",
       "title": "Build the camp on Fossil Island …",
-      "text": "Build the camp on Fossil Island (then rebank to get new items), unlock the mushtree system including the teleport to the house on the hill by using a digsite pendant on the strange machine in said house, mine 1,000 volcanic ash while in the area, set up your first bird run.",
+      "text": "Build the camp on Fossil Island (then rebank to get new items)",
       "manual": true,
       "world": [
         3730,
         3807,
         0
       ]
+    },
+    {
+      "id": "s13-031b",
+      "title": "unlock the mushtree system including the …",
+      "text": "unlock the mushtree system including the teleport to the house on the hill by using a digsite pendant on the strange machine in said house",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s13-031c",
+      "title": "mine 1,000 volcanic ash while in …",
+      "text": "mine 1,000 volcanic ash while in the area",
+      "manual": true
+    },
+    {
+      "id": "s13-031d",
+      "title": "set up your first bird run",
+      "text": "set up your first bird run",
+      "manual": true
     }
   ]
 }

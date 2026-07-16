@@ -6,7 +6,7 @@
     {
       "id": "eg-001",
       "title": "Start as a female character, don't …",
-      "text": "Start as a female character, don't forget to make yourself an ironman before ...",
+      "text": "Start as a female character, don't forget to make yourself an ironman before",
       "manual": true,
       "world": [
         3165,
@@ -17,7 +17,7 @@
     {
       "id": "eg-002",
       "title": "Use every book and lamp on …",
-      "text": "Use every book and lamp on Herblore UNTIL 77 herb, after that they should be ...",
+      "text": "Use every book and lamp on Herblore UNTIL 77 herb, after that they should be",
       "complete": {
         "op": "skill",
         "skill": "HERBLORE",
@@ -32,9 +32,9 @@
       "manual": true
     },
     {
-      "id": "eg-004",
-      "title": "As soon as you spawn, sell …",
-      "text": "As soon as you spawn, sell bronze dagger, sword, axe, wooden shield and short...\nLocation: Lumbridge",
+      "id": "eg-004a",
+      "title": "As soon as you spawn",
+      "text": "As soon as you spawn\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -43,9 +43,47 @@
       ]
     },
     {
-      "id": "eg-005",
-      "title": "Buy a spade, start X marks …",
-      "text": "Buy a spade, start X marks the spot quest\nLocation: Lumbridge",
+      "id": "eg-004b",
+      "title": "sell bronze dagger, sword, axe, wooden …",
+      "text": "sell bronze dagger, sword, axe, wooden shield and short\nLocation: Lumbridge",
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "eg-005a",
+      "title": "Buy a spade",
+      "text": "Buy a spade\nLocation: Lumbridge",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 952,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 952,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "eg-005b",
+      "title": "start X marks the spot quest",
+      "text": "start X marks the spot quest\nLocation: Lumbridge",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -58,9 +96,20 @@
       ]
     },
     {
-      "id": "eg-006",
+      "id": "eg-006a",
       "title": "Drop your runes and ask for …",
-      "text": "Drop your runes and ask for more from the magic tutor, pick up your runes\nLocation: Lumbridge",
+      "text": "Drop your runes and ask for more from the magic tutor\nLocation: Lumbridge",
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "eg-006b",
+      "title": "pick up your runes",
+      "text": "pick up your runes\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -71,7 +120,7 @@
     {
       "id": "eg-007",
       "title": "Pick up every item spawn in …",
-      "text": "Pick up every item spawn in the castle, including the ones in cellar, don't f...\nLocation: Lumbridge Castle",
+      "text": "Pick up every item spawn in the castle, including the ones in cellar, don't f\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
         3216,
@@ -106,9 +155,26 @@
       ]
     },
     {
-      "id": "eg-010",
+      "id": "eg-010a",
       "title": "Go to the top of the …",
-      "text": "Go to the top of the castle, bank everything\nLocation: Lumbridge Castle",
+      "text": "Go to the top of the castle\nLocation: Lumbridge Castle",
+      "world": [
+        3216,
+        3219,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3216,
+        "y": 3219,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-010b",
+      "title": "bank everything",
+      "text": "bank everything\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
         3216,
@@ -168,7 +234,7 @@
     {
       "id": "eg-015",
       "title": "Take out GP, Clue (x marks …",
-      "text": "Take out GP, Clue (x marks the spot), air talisman, spade, mind/air runes, br...\nLocation: Lumbridge",
+      "text": "Take out GP, Clue (x marks the spot), air talisman, spade, mind/air runes, br\nLocation: Lumbridge",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -269,9 +335,37 @@
       ]
     },
     {
-      "id": "eg-022",
-      "title": "Hug the fence and run west, …",
-      "text": "Hug the fence and run west, make sure you always have at least 15 energy to g...\nLocation: West of Lumbridge",
+      "id": "eg-022a",
+      "title": "Hug the fence",
+      "text": "Hug the fence\nLocation: West of Lumbridge",
+      "manual": true,
+      "world": [
+        3188,
+        3220,
+        0
+      ]
+    },
+    {
+      "id": "eg-022b",
+      "title": "run west",
+      "text": "run west\nLocation: West of Lumbridge",
+      "world": [
+        3188,
+        3220,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3188,
+        "y": 3220,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-022c",
+      "title": "make sure you always have at …",
+      "text": "make sure you always have at least 15 energy to g\nLocation: West of Lumbridge",
       "manual": true,
       "world": [
         3188,
@@ -307,14 +401,25 @@
       ]
     },
     {
-      "id": "eg-024",
+      "id": "eg-024a",
       "title": "Talk to Father Urhney to get …",
-      "text": "Talk to Father Urhney to get the ghostspeak amulet, equip it\nLocation: Lumbridge Swamp",
+      "text": "Talk to Father Urhney to get the ghostspeak amulet\nLocation: Lumbridge Swamp",
       "manual": true,
       "npc": 923,
       "world": [
         3147,
         3175,
+        0
+      ]
+    },
+    {
+      "id": "eg-024b",
+      "title": "equip it",
+      "text": "equip it\nLocation: Lumbridge Swamp",
+      "manual": true,
+      "world": [
+        3197,
+        3166,
         0
       ]
     },
@@ -333,12 +438,18 @@
       "id": "eg-026",
       "title": "Run to draynor village",
       "text": "Run to draynor village\nLocation: Draynor Village",
-      "manual": true,
       "world": [
         3103,
         3265,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-027",
@@ -384,14 +495,25 @@
       ]
     },
     {
-      "id": "eg-029",
-      "title": "Buy 5 wine from Fortunato, use …",
-      "text": "Buy 5 wine from Fortunato, use as emergency food if needed\nLocation: Draynor Village",
+      "id": "eg-029a",
+      "title": "Buy 5 wine from Fortunato",
+      "text": "Buy 5 wine from Fortunato\nLocation: Draynor Village",
       "manual": true,
       "npc": 1260,
       "world": [
         3085,
         3251,
+        0
+      ]
+    },
+    {
+      "id": "eg-029b",
+      "title": "use as emergency food if needed",
+      "text": "use as emergency food if needed\nLocation: Draynor Village",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
         0
       ]
     },
@@ -422,9 +544,26 @@
       ]
     },
     {
-      "id": "eg-032",
-      "title": "Walk to rimmington, pick up 1 …",
-      "text": "Walk to rimmington, pick up 1 snape grass near crafting guild at the hobgoblins\nLocation: Rimmington",
+      "id": "eg-032a",
+      "title": "Walk to rimmington",
+      "text": "Walk to rimmington\nLocation: Rimmington",
+      "world": [
+        2956,
+        3232,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2956,
+        "y": 3232,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-032b",
+      "title": "pick up 1 snape grass near …",
+      "text": "pick up 1 snape grass near crafting guild at the hobgoblins\nLocation: Rimmington",
       "complete": {
         "op": "or",
         "of": [
@@ -452,12 +591,18 @@
       "id": "eg-033",
       "title": "Walk to Falador",
       "text": "Walk to Falador\nLocation: Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-034",
@@ -513,9 +658,9 @@
       ]
     },
     {
-      "id": "eg-037",
+      "id": "eg-037a",
       "title": "Recharge run energy using the pool …",
-      "text": "Recharge run energy using the pool of refreshment, then use the green portal ...\nLocation: Ferox Enclave",
+      "text": "Recharge run energy using the pool of refreshment\nLocation: Ferox Enclave",
       "manual": true,
       "world": [
         3137,
@@ -524,9 +669,38 @@
       ]
     },
     {
-      "id": "eg-038",
-      "title": "Walk to yanille, buy a pie …",
-      "text": "Walk to yanille, buy a pie dish at Yanille cooking shop\nLocation: Yanille",
+      "id": "eg-037b",
+      "title": "use the green portal",
+      "text": "use the green portal\nLocation: Ferox Enclave",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "eg-038a",
+      "title": "Walk to yanille",
+      "text": "Walk to yanille\nLocation: Yanille",
+      "object": 17047,
+      "world": [
+        2556,
+        3072,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2556,
+        "y": 3072,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-038b",
+      "title": "buy a pie dish at Yanille …",
+      "text": "buy a pie dish at Yanille cooking shop\nLocation: Yanille",
       "complete": {
         "op": "or",
         "of": [
@@ -551,9 +725,27 @@
       ]
     },
     {
-      "id": "eg-039",
-      "title": "Walk to port Khazard, buy 1 …",
-      "text": "Walk to port Khazard, buy 1 swamp paste from the general store\nLocation: Port Khazard",
+      "id": "eg-039a",
+      "title": "Walk to port Khazard",
+      "text": "Walk to port Khazard\nLocation: Port Khazard",
+      "npc": 1209,
+      "world": [
+        2615,
+        3143,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2615,
+        "y": 3143,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-039b",
+      "title": "buy 1 swamp paste from the …",
+      "text": "buy 1 swamp paste from the general store\nLocation: Port Khazard",
       "complete": {
         "op": "or",
         "of": [
@@ -571,10 +763,9 @@
         ]
       },
       "item": 1941,
-      "npc": 1209,
       "world": [
-        2615,
-        3143,
+        2653,
+        3159,
         0
       ]
     },
@@ -668,9 +859,9 @@
       ]
     },
     {
-      "id": "eg-046",
-      "title": "Do Sea slug, fish shrimp while …",
-      "text": "Do Sea slug, fish shrimp while doing quest for diary\nLocation: Ardougne",
+      "id": "eg-046a",
+      "title": "Do Sea slug",
+      "text": "Do Sea slug\nLocation: Ardougne",
       "complete": {
         "op": "quest",
         "quest": "SEA_SLUG",
@@ -683,9 +874,31 @@
       ]
     },
     {
-      "id": "eg-047",
-      "title": "After the quest, buy however many …",
-      "text": "After the quest, buy however many sardine you can fit in your inventory from ...\nLocation: Witchaven",
+      "id": "eg-046b",
+      "title": "fish shrimp while doing quest for …",
+      "text": "fish shrimp while doing quest for diary\nLocation: Ardougne",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "eg-047a",
+      "title": "After the quest",
+      "text": "After the quest\nLocation: Witchaven",
+      "manual": true,
+      "world": [
+        2720,
+        3287,
+        0
+      ]
+    },
+    {
+      "id": "eg-047b",
+      "title": "buy however many sardine you can …",
+      "text": "buy however many sardine you can fit in your inventory from\nLocation: Witchaven",
       "complete": {
         "op": "or",
         "of": [
@@ -721,9 +934,20 @@
       ]
     },
     {
-      "id": "eg-049",
+      "id": "eg-049a",
       "title": "You should have 10k GP at …",
-      "text": "You should have 10k GP at this point. Buy a Player-owned house\nLocation: Ardougne",
+      "text": "You should have 10k GP at this point\nLocation: Ardougne",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "eg-049b",
+      "title": "Buy a Player-owned house",
+      "text": "Buy a Player-owned house\nLocation: Ardougne",
       "manual": true,
       "world": [
         2624,
@@ -863,7 +1087,7 @@
     {
       "id": "eg-058",
       "title": "Do Waterfall quest until the part …",
-      "text": "Do Waterfall quest until the part where you have to go to the gnome maze, rem...\nLocation: Baxtorian Falls",
+      "text": "Do Waterfall quest until the part where you have to go to the gnome maze, rem\nLocation: Baxtorian Falls",
       "complete": {
         "op": "quest",
         "quest": "WATERFALL_QUEST",
@@ -879,12 +1103,18 @@
       "id": "eg-059",
       "title": "Walk to Gnome stronghold",
       "text": "Walk to Gnome stronghold\nLocation: Gnome Stronghold",
-      "manual": true,
       "world": [
         2440,
         3460,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2440,
+        "y": 3460,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-060",
@@ -901,7 +1131,7 @@
     {
       "id": "eg-061",
       "title": "Buy these items from Heckel Funch …",
-      "text": "Buy these items from Heckel Funch (east of Blurberry): 1 pineapple, 1 orange,...\nLocation: Gnome Stronghold",
+      "text": "Buy these items from Heckel Funch (east of Blurberry): 1 pineapple, 1 orange\nLocation: Gnome Stronghold",
       "complete": {
         "op": "or",
         "of": [
@@ -956,12 +1186,18 @@
       "id": "eg-064",
       "title": "Walk to Ardy with rope, dwellberries, …",
       "text": "Walk to Ardy with rope, dwellberries, hangover cure\nLocation: Ardougne",
-      "manual": true,
       "world": [
         2624,
         3300,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-065",
@@ -979,15 +1215,32 @@
       ]
     },
     {
-      "id": "eg-066",
-      "title": "Home tele to lumby and run …",
-      "text": "Home tele to lumby and run north to Varrock east bank\nLocation: Lumbridge",
+      "id": "eg-066a",
+      "title": "Home tele to lumby",
+      "text": "Home tele to lumby\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
         3218,
         0
       ]
+    },
+    {
+      "id": "eg-066b",
+      "title": "run north to Varrock east bank",
+      "text": "run north to Varrock east bank\nLocation: Lumbridge",
+      "world": [
+        3222,
+        3218,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3222,
+        "y": 3218,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-067",
@@ -1045,9 +1298,20 @@
       ]
     },
     {
-      "id": "eg-070",
+      "id": "eg-070a",
       "title": "Minigame teleport to Clan wars, recharge …",
-      "text": "Minigame teleport to Clan wars, recharge energy and use the portal to Castle ...\nLocation: Castle Wars",
+      "text": "Minigame teleport to Clan wars, recharge energy\nLocation: Castle Wars",
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "eg-070b",
+      "title": "use the portal to Castle",
+      "text": "use the portal to Castle\nLocation: Castle Wars",
       "manual": true,
       "world": [
         2407,
@@ -1067,9 +1331,26 @@
       ]
     },
     {
-      "id": "eg-072",
-      "title": "Run south-west of castle wars, cut …",
-      "text": "Run south-west of castle wars, cut and firemake teak logs until 50 Firemaking\nLocation: South-west of Castle Wars",
+      "id": "eg-072a",
+      "title": "Run south-west of castle wars",
+      "text": "Run south-west of castle wars\nLocation: South-west of Castle Wars",
+      "world": [
+        2386,
+        3086,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2386,
+        "y": 3086,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-072b",
+      "title": "cut and firemake teak logs until …",
+      "text": "cut and firemake teak logs until 50 Firemaking\nLocation: South-west of Castle Wars",
       "complete": {
         "op": "skill",
         "skill": "FIREMAKING",
@@ -1108,12 +1389,18 @@
       "id": "eg-075",
       "title": "Run to Draynor bank",
       "text": "Run to Draynor bank\nLocation: Draynor Village",
-      "manual": true,
       "world": [
         3103,
         3265,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-076",
@@ -1143,9 +1430,9 @@
       ]
     },
     {
-      "id": "eg-077",
-      "title": "While at Diango, buy a Rainbow …",
-      "text": "While at Diango, buy a Rainbow scarf (120gp) as a warm-clothing item for Wint...\nLocation: Draynor Village",
+      "id": "eg-077a",
+      "title": "While at Diango",
+      "text": "While at Diango\nLocation: Draynor Village",
       "manual": true,
       "world": [
         3103,
@@ -1154,9 +1441,20 @@
       ]
     },
     {
-      "id": "eg-078",
-      "title": "Use the housetab and train construction …",
-      "text": "Use the housetab and train construction with your planks, make bookcases unti...\nLocation: Rimmington",
+      "id": "eg-077b",
+      "title": "buy a Rainbow scarf (120gp) as …",
+      "text": "buy a Rainbow scarf (120gp) as a warm-clothing item for Wint\nLocation: Draynor Village",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "eg-078a",
+      "title": "Use the housetab",
+      "text": "Use the housetab\nLocation: Rimmington",
       "manual": true,
       "world": [
         2956,
@@ -1165,9 +1463,49 @@
       ]
     },
     {
-      "id": "eg-079",
-      "title": "Walk to port sarim, buy 1000 …",
-      "text": "Walk to port sarim, buy 1000 feathers from the fishing store\nLocation: Port Sarim",
+      "id": "eg-078b",
+      "title": "train construction with your planks",
+      "text": "train construction with your planks\nLocation: Rimmington",
+      "manual": true,
+      "world": [
+        2956,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "eg-078c",
+      "title": "make bookcases unti",
+      "text": "make bookcases unti\nLocation: Rimmington",
+      "manual": true,
+      "world": [
+        2956,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "eg-079a",
+      "title": "Walk to port sarim",
+      "text": "Walk to port sarim\nLocation: Port Sarim",
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2954,
+        "y": 3147,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-079b",
+      "title": "buy 1000 feathers from the fishing …",
+      "text": "buy 1000 feathers from the fishing store\nLocation: Port Sarim",
       "complete": {
         "op": "or",
         "of": [
@@ -1185,6 +1523,17 @@
         ]
       },
       "item": 314,
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "eg-080a",
+      "title": "While at Port Sarim",
+      "text": "While at Port Sarim\nLocation: Port Sarim",
+      "manual": true,
       "npc": 3648,
       "world": [
         2954,
@@ -1193,9 +1542,9 @@
       ]
     },
     {
-      "id": "eg-080",
-      "title": "While at Port Sarim, complete the …",
-      "text": "While at Port Sarim, complete the Pandemonium quest (start with Will & Anne o...\nLocation: Port Sarim",
+      "id": "eg-080b",
+      "title": "complete the Pandemonium quest (start with …",
+      "text": "complete the Pandemonium quest (start with Will & Anne o\nLocation: Port Sarim",
       "complete": {
         "op": "quest",
         "quest": "PANDEMONIUM",
@@ -1222,17 +1571,23 @@
       "id": "eg-082",
       "title": "Make your way to Wintertodt",
       "text": "Make your way to Wintertodt\nLocation: Wintertodt",
-      "manual": true,
       "world": [
         1630,
         3938,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3938,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-083",
       "title": "Should now have 15 fletching and …",
-      "text": "Should now have 15 fletching and 20 construction as well, this will increase ...\nLocation: Wintertodt",
+      "text": "Should now have 15 fletching and 20 construction as well, this will increase\nLocation: Wintertodt",
       "manual": true,
       "world": [
         1630,
@@ -1241,9 +1596,20 @@
       ]
     },
     {
-      "id": "eg-084",
-      "title": "Do Wintertodt until 200k cash, get …",
-      "text": "Do Wintertodt until 200k cash, get at least 22 fletching at wintertodt as well\nLocation: Wintertodt",
+      "id": "eg-084a",
+      "title": "Do Wintertodt until 200k cash",
+      "text": "Do Wintertodt until 200k cash\nLocation: Wintertodt",
+      "manual": true,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "eg-084b",
+      "title": "get at least 22 fletching at …",
+      "text": "get at least 22 fletching at wintertodt as well\nLocation: Wintertodt",
       "manual": true,
       "world": [
         1630,
@@ -1263,9 +1629,20 @@
       ]
     },
     {
-      "id": "eg-086",
-      "title": "Drop runes and get more from …",
-      "text": "Drop runes and get more from mage tutor\nLocation: Lumbridge",
+      "id": "eg-086a",
+      "title": "Drop runes",
+      "text": "Drop runes\nLocation: Lumbridge",
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "eg-086b",
+      "title": "get more from mage tutor",
+      "text": "get more from mage tutor\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -1304,13 +1681,19 @@
       "id": "eg-088",
       "title": "Walk north to Fred's farm",
       "text": "Walk north to Fred's farm\nLocation: Fred's Farm",
-      "manual": true,
       "npc": 732,
       "world": [
         3189,
         3273,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3189,
+        "y": 3273,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-089",
@@ -1361,19 +1744,25 @@
     {
       "id": "eg-093",
       "title": "Walk to Barbarian village (you can …",
-      "text": "Walk to Barbarian village (you can walk east of draynor manor by the river, d...\nLocation: Barbarian Village",
-      "manual": true,
+      "text": "Walk to Barbarian village (you can walk east of draynor manor by the river, d\nLocation: Barbarian Village",
       "object": 134,
       "world": [
         3108,
         3353,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3108,
+        "y": 3353,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-094",
       "title": "Get ammo mould and the notes …",
-      "text": "Get ammo mould and the notes for Dwarf cannon (Ice mountain northwest of Barb...\nLocation: Ice Mountain",
+      "text": "Get ammo mould and the notes for Dwarf cannon (Ice mountain northwest of Barb\nLocation: Ice Mountain",
       "complete": {
         "op": "quest",
         "quest": "DWARF_CANNON",
@@ -1397,9 +1786,9 @@
       ]
     },
     {
-      "id": "eg-096",
-      "title": "Start Gertrude's cat, pick up doogle …",
-      "text": "Start Gertrude's cat, pick up doogle leaves, use the leaves on a sardine\nLocation: Varrock",
+      "id": "eg-096a",
+      "title": "Start Gertrude's cat",
+      "text": "Start Gertrude's cat\nLocation: Varrock",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -1412,14 +1801,63 @@
       ]
     },
     {
-      "id": "eg-097",
-      "title": "Continue gertrude's cat, talk to the …",
-      "text": "Continue gertrude's cat, talk to the kids at Varrock centre\nLocation: Varrock",
+      "id": "eg-096b",
+      "title": "pick up doogle leaves",
+      "text": "pick up doogle leaves\nLocation: Varrock",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1573,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1573,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1573,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "eg-096c",
+      "title": "use the leaves on a sardine",
+      "text": "use the leaves on a sardine\nLocation: Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "eg-097a",
+      "title": "Continue gertrude's cat",
+      "text": "Continue gertrude's cat\nLocation: Varrock",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
         "state": "FINISHED"
       },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "eg-097b",
+      "title": "talk to the kids at Varrock …",
+      "text": "talk to the kids at Varrock centre\nLocation: Varrock",
+      "manual": true,
       "world": [
         3210,
         3448,
@@ -1442,14 +1880,25 @@
       ]
     },
     {
-      "id": "eg-099",
-      "title": "Start Demon slayer, get the 2 …",
-      "text": "Start Demon slayer, get the 2 keys in Varrock\nLocation: Varrock",
+      "id": "eg-099a",
+      "title": "Start Demon slayer",
+      "text": "Start Demon slayer\nLocation: Varrock",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
       },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "eg-099b",
+      "title": "get the 2 keys in Varrock",
+      "text": "get the 2 keys in Varrock\nLocation: Varrock",
+      "manual": true,
       "world": [
         3210,
         3448,
@@ -1645,14 +2094,25 @@
       ]
     },
     {
-      "id": "eg-110",
-      "title": "Give the package to Aubury, talk …",
-      "text": "Give the package to Aubury, talk to him again for the notes\nLocation: Varrock",
+      "id": "eg-110a",
+      "title": "Give the package to Aubury",
+      "text": "Give the package to Aubury\nLocation: Varrock",
       "manual": true,
       "npc": 11434,
       "world": [
         3253,
         3401,
+        0
+      ]
+    },
+    {
+      "id": "eg-110b",
+      "title": "talk to him again for the …",
+      "text": "talk to him again for the notes\nLocation: Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
         0
       ]
     },
@@ -1687,12 +2147,18 @@
       "id": "eg-112",
       "title": "Walk to the pub north-east of …",
       "text": "Walk to the pub north-east of Varrock\nLocation: Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-113",
@@ -1706,14 +2172,25 @@
       ]
     },
     {
-      "id": "eg-114",
+      "id": "eg-114a",
       "title": "Cut a dying tree at the …",
-      "text": "Cut a dying tree at the sawmill and make 1 regular plank for diary tasks\nLocation: Varrock Sawmill",
+      "text": "Cut a dying tree at the sawmill\nLocation: Varrock Sawmill",
       "manual": true,
       "npc": 3101,
       "world": [
         3302,
         3492,
+        0
+      ]
+    },
+    {
+      "id": "eg-114b",
+      "title": "make 1 regular plank for diary …",
+      "text": "make 1 regular plank for diary tasks\nLocation: Varrock Sawmill",
+      "manual": true,
+      "world": [
+        3309,
+        3505,
         0
       ]
     },
@@ -1744,9 +2221,20 @@
       ]
     },
     {
-      "id": "eg-117",
+      "id": "eg-117a",
       "title": "Fill 1 inventory of buckets with …",
-      "text": "Fill 1 inventory of buckets with water, bank them\nLocation: Varrock",
+      "text": "Fill 1 inventory of buckets with water\nLocation: Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "eg-117b",
+      "title": "bank them",
+      "text": "bank them\nLocation: Varrock",
       "manual": true,
       "world": [
         3210,
@@ -1826,9 +2314,27 @@
       ]
     },
     {
-      "id": "eg-124",
-      "title": "Walk to Barbarian Village via Edgeville, …",
-      "text": "Walk to Barbarian Village via Edgeville, buy bronze med helm\nLocation: Barbarian Village",
+      "id": "eg-124a",
+      "title": "Walk to Barbarian Village via Edgeville",
+      "text": "Walk to Barbarian Village via Edgeville\nLocation: Barbarian Village",
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3097,
+        "y": 3468,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-124b",
+      "title": "buy bronze med helm",
+      "text": "buy bronze med helm\nLocation: Barbarian Village",
       "complete": {
         "op": "or",
         "of": [
@@ -1853,9 +2359,9 @@
       ]
     },
     {
-      "id": "eg-125",
+      "id": "eg-125a",
       "title": "Pick up 1 cooked meat from …",
-      "text": "Pick up 1 cooked meat from the table and burn it on the fire in the bar\nLocation: Barbarian Village",
+      "text": "Pick up 1 cooked meat from the table\nLocation: Barbarian Village",
       "complete": {
         "op": "or",
         "of": [
@@ -1873,6 +2379,17 @@
         ]
       },
       "item": 2142,
+      "world": [
+        3080,
+        3427,
+        0
+      ]
+    },
+    {
+      "id": "eg-125b",
+      "title": "burn it on the fire in …",
+      "text": "burn it on the fire in the bar\nLocation: Barbarian Village",
+      "manual": true,
       "world": [
         3080,
         3427,
@@ -2064,13 +2581,19 @@
       "id": "eg-138",
       "title": "Run to port sarim",
       "text": "Run to port sarim\nLocation: Port Sarim",
-      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2954,
+        "y": 3147,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-139",
@@ -2086,7 +2609,7 @@
     {
       "id": "eg-140",
       "title": "Get a security book from the …",
-      "text": "Get a security book from the Security guard upstairs in port sarim jail for a...\nLocation: Port Sarim",
+      "text": "Get a security book from the Security guard upstairs in port sarim jail for a\nLocation: Port Sarim",
       "manual": true,
       "npc": 820,
       "world": [
@@ -2108,9 +2631,26 @@
       ]
     },
     {
-      "id": "eg-142",
-      "title": "Go down the dungeon and mine …",
-      "text": "Go down the dungeon and mine 2 blurite ore, 1 is for falador diary\nLocation: Mudskipper Point",
+      "id": "eg-142a",
+      "title": "Go down the dungeon",
+      "text": "Go down the dungeon\nLocation: Mudskipper Point",
+      "world": [
+        2999,
+        3122,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2999,
+        "y": 3122,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-142b",
+      "title": "mine 2 blurite ore, 1 is …",
+      "text": "mine 2 blurite ore, 1 is for falador diary\nLocation: Mudskipper Point",
       "manual": true,
       "world": [
         2999,
@@ -2119,9 +2659,20 @@
       ]
     },
     {
-      "id": "eg-143",
-      "title": "Use the falador teletab, talk to …",
-      "text": "Use the falador teletab, talk to the squire and get the portrait from sir Vyv...\nLocation: Falador",
+      "id": "eg-143a",
+      "title": "Use the falador teletab",
+      "text": "Use the falador teletab\nLocation: Falador",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "eg-143b",
+      "title": "talk to the squire",
+      "text": "talk to the squire\nLocation: Falador",
       "manual": true,
       "npc": 4737,
       "world": [
@@ -2131,16 +2682,61 @@
       ]
     },
     {
-      "id": "eg-144",
-      "title": "Use house tab and run back …",
-      "text": "Use house tab and run back to thurgo for the sword, run back to Falador\nLocation: Mudskipper Point",
+      "id": "eg-143c",
+      "title": "get the portrait from sir Vyv",
+      "text": "get the portrait from sir Vyv\nLocation: Falador",
       "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "eg-144a",
+      "title": "Use house tab",
+      "text": "Use house tab\nLocation: Mudskipper Point",
+      "manual": true,
+      "world": [
+        2999,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "eg-144b",
+      "title": "run back to thurgo for the …",
+      "text": "run back to thurgo for the sword\nLocation: Mudskipper Point",
       "npc": 4733,
       "world": [
         3000,
         3145,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3145,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-144c",
+      "title": "run back to Falador",
+      "text": "run back to Falador\nLocation: Mudskipper Point",
+      "world": [
+        2999,
+        3122,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2999,
+        "y": 3122,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-145",
@@ -2173,15 +2769,32 @@
       ]
     },
     {
-      "id": "eg-147",
-      "title": "Home tele and go to al-kharid",
-      "text": "Home tele and go to al-kharid\nLocation: Lumbridge",
+      "id": "eg-147a",
+      "title": "Home tele",
+      "text": "Home tele\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
         3218,
         0
       ]
+    },
+    {
+      "id": "eg-147b",
+      "title": "go to al-kharid",
+      "text": "go to al-kharid\nLocation: Lumbridge",
+      "world": [
+        3222,
+        3218,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3222,
+        "y": 3218,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-148",
@@ -2211,9 +2824,9 @@
       ]
     },
     {
-      "id": "eg-149",
-      "title": "Start prince ali rescue and talk …",
-      "text": "Start prince ali rescue and talk to Osman\nLocation: Al Kharid",
+      "id": "eg-149a",
+      "title": "Start prince ali rescue",
+      "text": "Start prince ali rescue\nLocation: Al Kharid",
       "complete": {
         "op": "quest",
         "quest": "PRINCE_ALI_RESCUE",
@@ -2222,6 +2835,18 @@
       "world": [
         3290,
         3185,
+        0
+      ]
+    },
+    {
+      "id": "eg-149b",
+      "title": "talk to Osman",
+      "text": "talk to Osman\nLocation: Al Kharid",
+      "manual": true,
+      "npc": 4286,
+      "world": [
+        3286,
+        3180,
         0
       ]
     },
@@ -2293,7 +2918,7 @@
     {
       "id": "eg-154",
       "title": "Cook whatever low level raw food …",
-      "text": "Cook whatever low level raw food you got from wintertodt for 15 cooking on th...\nLocation: Port Khazard",
+      "text": "Cook whatever low level raw food you got from wintertodt for 15 cooking on th\nLocation: Port Khazard",
       "complete": {
         "op": "skill",
         "skill": "COOKING",
@@ -2414,9 +3039,9 @@
       ]
     },
     {
-      "id": "eg-161",
-      "title": "Do Tree gnome village, get Glarial's …",
-      "text": "Do Tree gnome village, get Glarial's pebble on the way for Waterfall\nLocation: Khazard Battlefield",
+      "id": "eg-161a",
+      "title": "Do Tree gnome village",
+      "text": "Do Tree gnome village\nLocation: Khazard Battlefield",
       "complete": {
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
@@ -2429,28 +3054,62 @@
       ]
     },
     {
-      "id": "eg-162",
-      "title": "Use the spirit tree and go …",
-      "text": "Use the spirit tree and go to battlefield of khazard\nLocation: Khazard Battlefield",
+      "id": "eg-161b",
+      "title": "get Glarial's pebble on the way …",
+      "text": "get Glarial's pebble on the way for Waterfall\nLocation: Khazard Battlefield",
       "manual": true,
+      "world": [
+        2520,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "eg-162a",
+      "title": "Use the spirit tree",
+      "text": "Use the spirit tree\nLocation: Khazard Battlefield",
+      "manual": true,
+      "world": [
+        2520,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "eg-162b",
+      "title": "go to battlefield of khazard",
+      "text": "go to battlefield of khazard\nLocation: Khazard Battlefield",
       "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2615,
+        "y": 3143,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-163",
       "title": "Run to ZMI bank and safespot …",
       "text": "Run to ZMI bank and safespot the zamorak warrior until you get a rune scimitar\nLocation: ZMI Bank",
-      "manual": true,
       "npc": 1158,
       "world": [
         3151,
         3207,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3151,
+        "y": 3207,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-164",
@@ -2559,9 +3218,20 @@
       ]
     },
     {
-      "id": "eg-171",
-      "title": "Drop runes outside glarial's tomb, get …",
-      "text": "Drop runes outside glarial's tomb, get amulet and the urn\nLocation: Baxtorian Falls",
+      "id": "eg-171a",
+      "title": "Drop runes outside glarial's tomb",
+      "text": "Drop runes outside glarial's tomb\nLocation: Baxtorian Falls",
+      "manual": true,
+      "world": [
+        2513,
+        3483,
+        0
+      ]
+    },
+    {
+      "id": "eg-171b",
+      "title": "get amulet and the urn",
+      "text": "get amulet and the urn\nLocation: Baxtorian Falls",
       "manual": true,
       "world": [
         2513,
@@ -2604,9 +3274,26 @@
       ]
     },
     {
-      "id": "eg-175",
-      "title": "Go to Zeah and get 100 …",
-      "text": "Go to Zeah and get 100 compost and saltpetre\nLocation: Great Kourend",
+      "id": "eg-175a",
+      "title": "Go to Zeah",
+      "text": "Go to Zeah\nLocation: Great Kourend",
+      "world": [
+        1628,
+        3673,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1628,
+        "y": 3673,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-175b",
+      "title": "get 100 compost and saltpetre",
+      "text": "get 100 compost and saltpetre\nLocation: Great Kourend",
       "manual": true,
       "object": 27436,
       "world": [
@@ -2616,9 +3303,20 @@
       ]
     },
     {
-      "id": "eg-176",
-      "title": "While in the Kourend/Zeah region, complete …",
-      "text": "While in the Kourend/Zeah region, complete Children of the Sun to unlock Varl...\nLocation: Varlamore",
+      "id": "eg-176a",
+      "title": "While in the Kourend/Zeah region",
+      "text": "While in the Kourend/Zeah region\nLocation: Varlamore",
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "eg-176b",
+      "title": "complete Children of the Sun to …",
+      "text": "complete Children of the Sun to unlock Varl\nLocation: Varlamore",
       "complete": {
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
@@ -2633,7 +3331,7 @@
     {
       "id": "eg-177",
       "title": "Train 42 thieving at the fruit …",
-      "text": "Train 42 thieving at the fruit stall in a house east of the hosidius marketpl...\nLocation: Hosidius",
+      "text": "Train 42 thieving at the fruit stall in a house east of the hosidius marketpl\nLocation: Hosidius",
       "manual": true,
       "object": 28823,
       "world": [
@@ -2809,9 +3507,9 @@
       ]
     },
     {
-      "id": "eg-189",
-      "title": "Start Vampire slayer, get 3 garlic …",
-      "text": "Start Vampire slayer, get 3 garlic upstairs from the cupboard\nLocation: Draynor Village",
+      "id": "eg-189a",
+      "title": "Start Vampire slayer",
+      "text": "Start Vampire slayer\nLocation: Draynor Village",
       "manual": true,
       "world": [
         3103,
@@ -2820,9 +3518,31 @@
       ]
     },
     {
-      "id": "eg-190",
-      "title": "Buy birdhouse seeds from Olivia, get …",
-      "text": "Buy birdhouse seeds from Olivia, get as many as you can be bothered for now, ...\nLocation: Draynor Village",
+      "id": "eg-189b",
+      "title": "get 3 garlic upstairs from the …",
+      "text": "get 3 garlic upstairs from the cupboard\nLocation: Draynor Village",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "eg-190a",
+      "title": "Buy birdhouse seeds from Olivia",
+      "text": "Buy birdhouse seeds from Olivia\nLocation: Draynor Village",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "eg-190b",
+      "title": "get as many as you can …",
+      "text": "get as many as you can be bothered for now\nLocation: Draynor Village",
       "manual": true,
       "world": [
         3103,
@@ -2883,9 +3603,20 @@
       ]
     },
     {
-      "id": "eg-195",
-      "title": "Kill 5 chicken/wizards, give 25 bones …",
-      "text": "Kill 5 chicken/wizards, give 25 bones for demon slayer key\nLocation: Wizard Tower",
+      "id": "eg-195a",
+      "title": "Kill 5 chicken/wizards",
+      "text": "Kill 5 chicken/wizards\nLocation: Wizard Tower",
+      "manual": true,
+      "world": [
+        3109,
+        3160,
+        0
+      ]
+    },
+    {
+      "id": "eg-195b",
+      "title": "give 25 bones for demon slayer …",
+      "text": "give 25 bones for demon slayer key\nLocation: Wizard Tower",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -2909,14 +3640,25 @@
       ]
     },
     {
-      "id": "eg-197",
-      "title": "Continue Romeo & Juliet, get cadava …",
-      "text": "Continue Romeo & Juliet, get cadava potion\nLocation: Varrock",
+      "id": "eg-197a",
+      "title": "Continue Romeo & Juliet",
+      "text": "Continue Romeo & Juliet\nLocation: Varrock",
       "complete": {
         "op": "quest",
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
       },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "eg-197b",
+      "title": "get cadava potion",
+      "text": "get cadava potion\nLocation: Varrock",
+      "manual": true,
       "world": [
         3210,
         3448,
@@ -2952,9 +3694,26 @@
       ]
     },
     {
-      "id": "eg-199",
+      "id": "eg-199a",
       "title": "Walk north from Varrock to the …",
-      "text": "Walk north from Varrock to the Wilderness (level 4-7) and talk to the Mage of...\nLocation: Wilderness",
+      "text": "Walk north from Varrock to the Wilderness (level 4-7)\nLocation: Wilderness",
+      "world": [
+        3087,
+        3522,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3087,
+        "y": 3522,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-199b",
+      "title": "talk to the Mage of",
+      "text": "talk to the Mage of\nLocation: Wilderness",
       "manual": true,
       "world": [
         3087,
@@ -2963,9 +3722,26 @@
       ]
     },
     {
-      "id": "eg-200",
-      "title": "Return to Varrock, talk to the …",
-      "text": "Return to Varrock, talk to the Mage of Zamorak at the Chaos Temple to get the...\nLocation: Varrock",
+      "id": "eg-200a",
+      "title": "Return to Varrock",
+      "text": "Return to Varrock\nLocation: Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-200b",
+      "title": "talk to the Mage of Zamorak …",
+      "text": "talk to the Mage of Zamorak at the Chaos Temple to get the\nLocation: Varrock",
       "manual": true,
       "npc": 2582,
       "world": [
@@ -3027,9 +3803,20 @@
       ]
     },
     {
-      "id": "eg-205",
+      "id": "eg-205a",
       "title": "Use Brimstails to go to ess …",
-      "text": "Use Brimstails to go to ess mines (scrying orb 2/3, make sure you have it wit...\nLocation: Gnome Stronghold",
+      "text": "Use Brimstails to go to ess mines (scrying orb 2/3\nLocation: Gnome Stronghold",
+      "manual": true,
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "eg-205b",
+      "title": "make sure you have it wit",
+      "text": "make sure you have it wit\nLocation: Gnome Stronghold",
       "manual": true,
       "world": [
         2440,
@@ -3049,15 +3836,32 @@
       ]
     },
     {
-      "id": "eg-207",
-      "title": "Clan wars minigame tele, recharge energy …",
-      "text": "Clan wars minigame tele, recharge energy and go to castle wars\nLocation: Castle Wars",
+      "id": "eg-207a",
+      "title": "Clan wars minigame tele, recharge energy",
+      "text": "Clan wars minigame tele, recharge energy\nLocation: Castle Wars",
       "manual": true,
       "world": [
         2407,
         3105,
         0
       ]
+    },
+    {
+      "id": "eg-207b",
+      "title": "go to castle wars",
+      "text": "go to castle wars\nLocation: Castle Wars",
+      "world": [
+        2407,
+        3105,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-208",
@@ -3226,7 +4030,7 @@
     {
       "id": "eg-220",
       "title": "Get pirate's message from Blue moon …",
-      "text": "Get pirate's message from Blue moon inn, you can drop it AFTER reading the me...\nLocation: Varrock",
+      "text": "Get pirate's message from Blue moon inn, you can drop it AFTER reading the me\nLocation: Varrock",
       "manual": true,
       "world": [
         3210,
@@ -3310,9 +4114,9 @@
       ]
     },
     {
-      "id": "eg-226",
-      "title": "Start biohazard, get the plague sample …",
-      "text": "Start biohazard, get the plague sample and 3 potions\nLocation: Ardougne",
+      "id": "eg-226a",
+      "title": "Start biohazard",
+      "text": "Start biohazard\nLocation: Ardougne",
       "complete": {
         "op": "quest",
         "quest": "BIOHAZARD",
@@ -3321,6 +4125,18 @@
       "world": [
         2624,
         3300,
+        0
+      ]
+    },
+    {
+      "id": "eg-226b",
+      "title": "get the plague sample and 3 …",
+      "text": "get the plague sample and 3 potions\nLocation: Ardougne",
+      "manual": true,
+      "npc": 1146,
+      "world": [
+        2933,
+        3210,
         0
       ]
     },
@@ -3336,14 +4152,25 @@
       ]
     },
     {
-      "id": "eg-228",
-      "title": "Get the touch paper from chemist …",
-      "text": "Get the touch paper from chemist and give the 3 potions to the guys outside\nLocation: Rimmington",
+      "id": "eg-228a",
+      "title": "Get the touch paper from chemist",
+      "text": "Get the touch paper from chemist\nLocation: Rimmington",
       "manual": true,
       "npc": 1146,
       "world": [
         2933,
         3210,
+        0
+      ]
+    },
+    {
+      "id": "eg-228b",
+      "title": "give the 3 potions to the …",
+      "text": "give the 3 potions to the guys outside\nLocation: Rimmington",
+      "manual": true,
+      "world": [
+        2956,
+        3232,
         0
       ]
     },
@@ -3381,14 +4208,25 @@
       ]
     },
     {
-      "id": "eg-232",
-      "title": "Start Merlin's crystal and talk to …",
-      "text": "Start Merlin's crystal and talk to Gawain and Lancelot\nLocation: Camelot",
+      "id": "eg-232a",
+      "title": "Start Merlin's crystal",
+      "text": "Start Merlin's crystal\nLocation: Camelot",
       "complete": {
         "op": "quest",
         "quest": "MERLINS_CRYSTAL",
         "state": "FINISHED"
       },
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "eg-232b",
+      "title": "talk to Gawain and Lancelot",
+      "text": "talk to Gawain and Lancelot\nLocation: Camelot",
+      "manual": true,
       "world": [
         2758,
         3507,
@@ -3463,7 +4301,7 @@
     {
       "id": "eg-236",
       "title": "Buy 1 pack of normal compost …",
-      "text": "Buy 1 pack of normal compost and all farming tools, store everything in lepre...\nLocation: Catherby",
+      "text": "Buy 1 pack of normal compost and all farming tools, store everything in lepre\nLocation: Catherby",
       "complete": {
         "op": "or",
         "of": [
@@ -3503,9 +4341,20 @@
       ]
     },
     {
-      "id": "eg-238",
-      "title": "Kill Mordred and get bat bones/black …",
-      "text": "Kill Mordred and get bat bones/black candle for Merlin's crystal\nLocation: Keep Le Faye",
+      "id": "eg-238a",
+      "title": "Kill Mordred",
+      "text": "Kill Mordred\nLocation: Keep Le Faye",
+      "manual": true,
+      "world": [
+        2769,
+        3401,
+        0
+      ]
+    },
+    {
+      "id": "eg-238b",
+      "title": "get bat bones/black candle for Merlin's …",
+      "text": "get bat bones/black candle for Merlin's crystal\nLocation: Keep Le Faye",
       "complete": {
         "op": "quest",
         "quest": "MERLINS_CRYSTAL",
@@ -3559,9 +4408,26 @@
       ]
     },
     {
-      "id": "eg-242",
-      "title": "Go under the mountain and speak …",
-      "text": "Go under the mountain and speak to Lady of the lake in Taverly\nLocation: Taverley",
+      "id": "eg-242a",
+      "title": "Go under the mountain",
+      "text": "Go under the mountain\nLocation: Taverley",
+      "world": [
+        2910,
+        3451,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2910,
+        "y": 3451,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "eg-242b",
+      "title": "speak to Lady of the lake …",
+      "text": "speak to Lady of the lake in Taverly\nLocation: Taverley",
       "manual": true,
       "npc": 3530,
       "world": [
@@ -3641,13 +4507,19 @@
       "id": "eg-248",
       "title": "Run south to Port sarim",
       "text": "Run south to Port sarim\nLocation: Port Sarim",
-      "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2954,
+        "y": 3147,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-249",
@@ -3674,9 +4546,9 @@
       ]
     },
     {
-      "id": "eg-251",
-      "title": "Port Sarim jewellery store, give the …",
-      "text": "Port Sarim jewellery store, give the bread to the beggar to get the excalibur\nLocation: Port Sarim",
+      "id": "eg-251a",
+      "title": "Port Sarim jewellery store",
+      "text": "Port Sarim jewellery store\nLocation: Port Sarim",
       "manual": true,
       "npc": 3648,
       "world": [
@@ -3686,15 +4558,43 @@
       ]
     },
     {
-      "id": "eg-252",
+      "id": "eg-251b",
+      "title": "give the bread to the beggar …",
+      "text": "give the bread to the beggar to get the excalibur\nLocation: Port Sarim",
+      "manual": true,
+      "world": [
+        3029,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "eg-252a",
       "title": "Minigame tele to clan wars, recharge …",
-      "text": "Minigame tele to clan wars, recharge energy and go to castle wars\nLocation: Castle Wars",
+      "text": "Minigame tele to clan wars, recharge energy\nLocation: Castle Wars",
       "manual": true,
       "world": [
         2407,
         3105,
         0
       ]
+    },
+    {
+      "id": "eg-252b",
+      "title": "go to castle wars",
+      "text": "go to castle wars\nLocation: Castle Wars",
+      "world": [
+        2407,
+        3105,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-253",
@@ -3767,12 +4667,18 @@
       "id": "eg-258",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock\nLocation: Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-259",
@@ -3809,14 +4715,29 @@
       ]
     },
     {
-      "id": "eg-262",
-      "title": "Train Runecraft to 10, then complete …",
-      "text": "Train Runecraft to 10, then complete Temple of the Eye quest to unlock Guardi...\nLocation: Wizard Tower",
+      "id": "eg-262a",
+      "title": "Train Runecraft to 10",
+      "text": "Train Runecraft to 10\nLocation: Wizard Tower",
       "complete": {
         "op": "skill",
         "skill": "RUNECRAFT",
         "level": 10,
         "cmp": ">="
+      },
+      "world": [
+        3109,
+        3160,
+        0
+      ]
+    },
+    {
+      "id": "eg-262b",
+      "title": "complete Temple of the Eye quest …",
+      "text": "complete Temple of the Eye quest to unlock Guardi\nLocation: Wizard Tower",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
       },
       "world": [
         3109,
@@ -3866,9 +4787,9 @@
       ]
     },
     {
-      "id": "eg-266",
-      "title": "Chronicle tele and start Dragon slayer …",
-      "text": "Chronicle tele and start Dragon slayer at champion's guild\nLocation: Champions Guild",
+      "id": "eg-266a",
+      "title": "Chronicle tele",
+      "text": "Chronicle tele\nLocation: Champions Guild",
       "manual": true,
       "world": [
         3191,
@@ -3877,16 +4798,44 @@
       ]
     },
     {
-      "id": "eg-267",
-      "title": "Use the G.E spirit tree and …",
-      "text": "Use the G.E spirit tree and go to battlefield of khazard\nLocation: Khazard Battlefield",
+      "id": "eg-266b",
+      "title": "start Dragon slayer at champion's guild",
+      "text": "start Dragon slayer at champion's guild\nLocation: Champions Guild",
       "manual": true,
+      "world": [
+        3191,
+        3357,
+        0
+      ]
+    },
+    {
+      "id": "eg-267a",
+      "title": "Use the G.E spirit tree",
+      "text": "Use the G.E spirit tree\nLocation: Khazard Battlefield",
+      "manual": true,
+      "world": [
+        2520,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "eg-267b",
+      "title": "go to battlefield of khazard",
+      "text": "go to battlefield of khazard\nLocation: Khazard Battlefield",
       "npc": 1209,
       "world": [
         2615,
         3143,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2615,
+        "y": 3143,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-268",
@@ -3904,9 +4853,20 @@
       ]
     },
     {
-      "id": "eg-269",
-      "title": "Finish off Ardy easy tasks, and …",
-      "text": "Finish off Ardy easy tasks, and get the cloak\nLocation: Ardougne",
+      "id": "eg-269a",
+      "title": "Finish off Ardy easy tasks",
+      "text": "Finish off Ardy easy tasks\nLocation: Ardougne",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "eg-269b",
+      "title": "get the cloak",
+      "text": "get the cloak\nLocation: Ardougne",
       "manual": true,
       "world": [
         2624,
@@ -3926,9 +4886,20 @@
       ]
     },
     {
-      "id": "eg-271",
-      "title": "Chronicle tele and buy a new …",
-      "text": "Chronicle tele and buy a new kitten\nLocation: Varrock",
+      "id": "eg-271a",
+      "title": "Chronicle tele",
+      "text": "Chronicle tele\nLocation: Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "eg-271b",
+      "title": "buy a new kitten",
+      "text": "buy a new kitten\nLocation: Varrock",
       "manual": true,
       "world": [
         3210,
@@ -3981,12 +4952,18 @@
       "id": "eg-275",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot\nLocation: Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 10
+      }
     },
     {
       "id": "eg-276",
@@ -4004,9 +4981,9 @@
       ]
     },
     {
-      "id": "eg-277",
-      "title": "Start Holy grail and talk to …",
-      "text": "Start Holy grail and talk to Merlin\nLocation: Camelot",
+      "id": "eg-277a",
+      "title": "Start Holy grail",
+      "text": "Start Holy grail\nLocation: Camelot",
       "complete": {
         "op": "quest",
         "quest": "HOLY_GRAIL",
@@ -4015,6 +4992,18 @@
       "world": [
         2758,
         3507,
+        0
+      ]
+    },
+    {
+      "id": "eg-277b",
+      "title": "talk to Merlin",
+      "text": "talk to Merlin\nLocation: Camelot",
+      "manual": true,
+      "npc": 3529,
+      "world": [
+        1907,
+        4281,
         0
       ]
     },
@@ -4131,12 +5120,18 @@
       "id": "eg-286",
       "title": "Go through the gate to Al-Kharid",
       "text": "Go through the gate to Al-Kharid\nLocation: Al Kharid",
-      "manual": true,
       "world": [
         3290,
         3185,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3290,
+        "y": 3185,
+        "z": 0,
+        "radius": 10
+      }
     }
   ]
 }

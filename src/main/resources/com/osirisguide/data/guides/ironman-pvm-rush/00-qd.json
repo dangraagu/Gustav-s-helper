@@ -1,0 +1,38 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/User:AtelierLogic2/Guide:Ironman_PvM_Rush",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Remaining quests and diaries",
+  "steps": [
+    {
+      "id": "qd-001",
+      "title": "Complete A Kingdom Divided",
+      "text": "Complete A Kingdom Divided",
+      "complete": {
+        "op": "quest",
+        "quest": "A_KINGDOM_DIVIDED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1664,
+        3670,
+        0
+      ]
+    },
+    {
+      "id": "qd-002",
+      "title": "Complete Recipe for Disaster",
+      "text": "Complete Recipe for Disaster",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "qd-003",
+      "title": "Complete the hard Western Provinces Diary",
+      "text": "Complete the hard Western Provinces Diary",
+      "manual": true
+    }
+  ]
+}

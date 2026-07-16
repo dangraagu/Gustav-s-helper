@@ -1,0 +1,30 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:B0aty_HCIM_Guide_V3",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Episode 13 - Off Track with the guide as I went for avernic",
+  "steps": [
+    {
+      "id": "e13-001a",
+      "title": "Excellent for many PvM encounters and …",
+      "text": "Excellent for many PvM encounters and you will use this to grind an Elder Maul over time. I would highly recommend the 2 alt red X method using a Bow of Faerdhinen for over 160 kills/hour. This does require 2 alts but they can then afk for 25 minutes once set up. They will need to be reset up if you get crashed or a clue hunter does their step",
+      "manual": true,
+      "npc": 5518,
+      "world": [
+        2466,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "e13-001b",
+      "title": "Wear a ring of wealth and …",
+      "text": "Wear a ring of wealth and you should get enough Crystal Keys from this grind to upgrade your Jewellry boxes to the max",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

@@ -371,8 +371,80 @@ def heading(name: str, words: int = 6) -> str:
     return h[:70]
 
 
-def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative, total_needed, entities):
+# --- Step atomisation: split a multi-action step into single tasks -----------
+# Imperative verbs that begin a distinct action; a separator (,/;/./then/and) only starts a NEW atom
+# when the text after it begins with one of these, so "buy a bucket and a rope" stays one task but
+# "buy a bucket and run to the bank" splits.
+TRAVEL_VERBS = {"go", "head", "run", "walk", "travel", "enter", "climb", "cross", "return", "teleport"}
+ACTION_VERBS = TRAVEL_VERBS | {
+    "talk", "speak", "get", "grab", "pick", "take", "buy", "sell", "mine", "chop", "cut", "fish",
+    "catch", "cook", "use", "craft", "smith", "smelt", "kill", "cast", "equip", "wield", "wear",
+    "drop", "bank", "withdraw", "deposit", "open", "search", "pray", "pickpocket", "steal", "plant",
+    "pay", "fill", "light", "burn", "bury", "board", "ride", "collect", "build", "complete", "attack",
+    "trade", "exchange", "read", "operate", "drink", "eat", "unlock", "claim", "hand", "give", "start",
+    "finish", "train", "make", "smash", "dig", "loot", "turn", "set", "activate", "toggle", "select",
+}
+# Steps longer than this are prose/notes (multi-sentence paragraphs with conditionals), not a clean
+# imperative action list — atomising them produces noise, so they're left whole.
+MAX_SPLIT_LEN = 180
+_BOUNDARY_RE = re.compile(r"\s*(?:;|,|\.|\bthen\b|\band\b)\s+", re.IGNORECASE)
+_FIRST_WORD_RE = re.compile(r"\s*([a-zA-Z]+)")
+_TRAIL_CONN_RE = re.compile(r"(?:[\s,;.]+|\s+(?:and|then))+$", re.IGNORECASE)
+
+
+def _starts_with_action(fragment):
+    m = _FIRST_WORD_RE.match(fragment or "")
+    return bool(m) and m.group(1).lower() in ACTION_VERBS
+
+
+def split_atoms(name):
+    """Split a step into single-action atoms at action boundaries, preserving the original wording.
+    A separator only splits when the text after it begins with an action verb; trailing 'and'/'then'
+    fragments merge back so 'buy a bucket and a rope' stays one task. Returns >=1 atom; a step with no
+    internal boundary is returned unchanged."""
+    s = (name or "").strip()
+    if not s:
+        return []
+    if len(s) > MAX_SPLIT_LEN:
+        return [s]  # long prose isn't a clean action list — don't shred it into noise
+    atoms = []
+    start = 0
+    for m in _BOUNDARY_RE.finditer(s):
+        if _starts_with_action(s[m.end():]):
+            seg = _TRAIL_CONN_RE.sub("", s[start:m.start()]).strip()
+            if seg:
+                atoms.append(seg)
+            start = m.end()
+    tail = _TRAIL_CONN_RE.sub("", s[start:]).strip()
+    if tail:
+        atoms.append(tail)
+    # A fragment that doesn't itself start with an action is a continuation, not a new task: merge back.
+    merged = []
+    for a in atoms:
+        if merged and not _starts_with_action(a):
+            merged[-1] = (merged[-1] + " " + a).strip()
+        else:
+            merged.append(a)
+    return merged or [s]
+
+
+def is_travel(name):
+    """True for a pure 'go/head/run to X' atom — the kind that completes just by arriving."""
+    s = (name or "").strip().lower()
+    if s.startswith("make your way"):
+        return True
+    m = _FIRST_WORD_RE.match(s)
+    return bool(m) and m.group(1) in TRAVEL_VERBS
+
+
+TRAVEL_RADIUS = 10  # tiles; "arrived at the area" is coarse, so a bit wider than an exact-tile task
+
+
+def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative, total_needed, entities,
+               sub=None):
     sid = f"{prefix}-{position:03d}" if isinstance(position, int) else f"{prefix}-{position}"
+    if sub:
+        sid = f"{sid}{sub}"  # atom of a split step (a/b/c…) — keeps ids unique + stable
     text = name
     if loc:
         text = f"{name}\nLocation: {loc}"
@@ -411,6 +483,13 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
             world = gazetteer_lookup(name)
         if world:
             step["world"] = world
+    # A pure-travel atom with a destination auto-completes on ARRIVAL: attach a position trigger so
+    # "go to X" advances by itself. Only when the atom is still manual (no skill/quest/item goal) — a
+    # talk/interact step must not complete just from walking past it.
+    if step.get("manual") and "world" in step and is_travel(name):
+        x, y, z = step["world"]
+        step["complete"] = {"op": "position", "x": x, "y": y, "z": z, "radius": TRAVEL_RADIUS}
+        del step["manual"]
     return step
 
 
@@ -441,11 +520,12 @@ def main():
     total_needed = {}
     for (_o, _s, _d, _p, _u, raw) in sections:
         for (pos, name, loc, u) in raw:
-            if not name or detect_skill(name) or detect_quest(name, quest_map):
-                continue
-            iq = detect_item_id_qty(name, item_map)
-            if iq:
-                total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
+            for atom in split_atoms(name):  # same atoms as the build pass, so item totals line up
+                if detect_skill(atom) or detect_quest(atom, quest_map):
+                    continue
+                iq = detect_item_id_qty(atom, item_map)
+                if iq:
+                    total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
 
     # Pass 2: build steps, carrying a running cumulative per item across the whole guide.
     index = {"_comment": "Auto-generated by tools/scrape_guide.py. Ordered section files.",
@@ -453,8 +533,15 @@ def main():
     cumulative = {}
     grand_total = grand_skill = grand_quest = grand_item = grand_world = grand_entity = 0
     for (order, slug, display, prefix, url, raw) in sections:
-        steps = [build_step(prefix, pos, name, loc, u, item_map, quest_map, cumulative, total_needed, entities)
-                 for (pos, name, loc, u) in raw if name]
+        steps = []
+        for (pos, name, loc, u) in raw:
+            if not name:
+                continue
+            atoms = split_atoms(name)
+            for i, atom in enumerate(atoms):
+                sub = None if len(atoms) == 1 else (chr(97 + i) if i < 26 else str(i))
+                steps.append(build_step(prefix, pos, atom, loc, u, item_map, quest_map,
+                                        cumulative, total_needed, entities, sub=sub))
 
         def _kind(s):
             return s.get("complete", {}).get("op")

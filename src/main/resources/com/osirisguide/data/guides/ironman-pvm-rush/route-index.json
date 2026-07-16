@@ -1,13 +1,13 @@
 {
   "_comment": "Auto-generated from raw/ironman-pvm-rush.json by build_raw_guide.py",
   "sections": [
-    "01-bs.json",
-    "02-wep.json",
-    "03-gear.json",
-    "04-qd.json",
-    "05-eq.json",
-    "06-inv.json",
-    "07-boss.json",
-    "08-raid.json"
+    "00-bs.json",
+    "00-wep.json",
+    "00-gear.json",
+    "00-qd.json",
+    "00-eq.json",
+    "00-inv.json",
+    "00-boss.json",
+    "00-raid.json"
   ]
 }

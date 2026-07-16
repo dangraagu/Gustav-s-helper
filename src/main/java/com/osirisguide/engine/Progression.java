@@ -102,6 +102,46 @@ public class Progression
 	}
 
 	/**
+	 * Auto-completes <b>manual</b> steps that sit before the furthest milestone the player has already
+	 * reached. Rationale: you cannot have completed a later step without passing the earlier flavour
+	 * steps ("sell bronze", "drop runes") that have no detectable trigger — so a manual step behind a
+	 * reached milestone is folded done. A step with its own real (non-manual) trigger is <b>never</b>
+	 * folded, even if it sits before the milestone: that would skip real work whose condition simply is
+	 * not met yet. Call this after {@link #process}; it is what gives the "steps advance by themselves"
+	 * feel for the ~60% of steps that carry no game-state trigger.
+	 *
+	 * @return true if any step was folded complete (caller should refresh UI / persist)
+	 */
+	public boolean foldManualBehindMilestones()
+	{
+		java.util.List<RouteStep> steps = route.getSteps();
+		int furthest = -1;
+		for (int i = 0; i < steps.size(); i++)
+		{
+			RouteStep s = steps.get(i);
+			if (s.appliesTo(mode) && completed.contains(s.getId()))
+			{
+				furthest = i;
+			}
+		}
+		if (furthest < 0)
+		{
+			return false;
+		}
+		boolean changed = false;
+		for (int i = 0; i < furthest; i++)
+		{
+			RouteStep s = steps.get(i);
+			if (s.appliesTo(mode) && s.isManual() && !completed.contains(s.getId()))
+			{
+				completed.add(s.getId());
+				changed = true;
+			}
+		}
+		return changed;
+	}
+
+	/**
 	 * Full pass used on login / mode-change so an existing account resumes at the right place.
 	 * Identical to {@link #process} (every applicable step is evaluated); kept as a named entry
 	 * point for readability at those call sites.

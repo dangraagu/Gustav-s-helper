@@ -1,0 +1,364 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:B0aty_HCIM_Guide_V3",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Episode 9 - Bank 177 through 179",
+  "steps": [
+    {
+      "id": "e9-001",
+      "title": "Withdraw: Teleport Runes, Death Rune, Axe, …",
+      "text": "Withdraw: Teleport Runes, Death Rune, Axe, Defence Potion (3)/(4), Volcanic Sulphur, Molten Glass, Dark Essence Block, Kharedst’s Memoirs, games necklace, Pickaxe (13 Inventory Slots) + Combat Gear & Food",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1775,
+            "qty": 8
+          },
+          {
+            "op": "item",
+            "id": 1775,
+            "qty": 9,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1775,
+      "npc": 7753,
+      "world": [
+        2455,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "e9-002",
+      "title": "Teleport to Kourend Castle",
+      "text": "Teleport to Kourend Castle",
+      "object": 18258,
+      "world": [
+        1617,
+        3673,
+        2
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1617,
+        "y": 3673,
+        "z": 2,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e9-003",
+      "title": "Complete Kingdom Divided",
+      "text": "Complete Kingdom Divided",
+      "manual": true
+    },
+    {
+      "id": "e9-004",
+      "title": "Withdraw: Teleport Crystal, Ardy Cloak, Dramen …",
+      "text": "Withdraw: Teleport Crystal, Ardy Cloak, Dramen Staff, Pickaxe, Coins, Axe, Knife, Teasing Stick, 3 Fox fur, Tick Manipulation & 5 box traps (19 Inventory Slots)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10029,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 10029,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 10029,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e9-005",
+      "title": "Teleport to Priffdinas",
+      "text": "Teleport to Priffdinas",
+      "world": [
+        3263,
+        6083,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3263,
+        "y": 6083,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e9-006",
+      "title": "Head East & Mine an Adamantite …",
+      "text": "Head East & Mine an Adamantite Ore [Western Province Hard Diary]",
+      "manual": true
+    },
+    {
+      "id": "e9-007a",
+      "title": "Head north",
+      "text": "Head north",
+      "manual": true
+    },
+    {
+      "id": "e9-007b",
+      "title": "catch around 5,000 Red Chinchompas",
+      "text": "catch around 5,000 Red Chinchompas",
+      "manual": true
+    },
+    {
+      "id": "e9-008",
+      "title": "Ardy Cloak -> AJP",
+      "text": "Ardy Cloak -> AJP",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e9-009",
+      "title": "Head East towards the Sunlight Antelopes",
+      "text": "Head East towards the Sunlight Antelopes",
+      "manual": true
+    },
+    {
+      "id": "e9-010",
+      "title": "Catch 3x Sunlight Antelopes (Keep the …",
+      "text": "Catch 3x Sunlight Antelopes (Keep the fur)",
+      "manual": true
+    },
+    {
+      "id": "e9-011",
+      "title": "Ardy Cloak -> AJP",
+      "text": "Ardy Cloak -> AJP",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e9-012",
+      "title": "Head to Hunter Guild",
+      "text": "Head to Hunter Guild",
+      "world": [
+        1559,
+        3048,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1559,
+        "y": 3048,
+        "z": 0,
+        "radius": 10
+      }
+    },
+    {
+      "id": "e9-013a",
+      "title": "Talk to Pellem",
+      "text": "Talk to Pellem",
+      "manual": true
+    },
+    {
+      "id": "e9-013b",
+      "title": "make Mixed Hide Top, Bottom & …",
+      "text": "make Mixed Hide Top, Bottom & Boots",
+      "manual": true
+    },
+    {
+      "id": "e9-014",
+      "title": "Bank at Hunter Guild",
+      "text": "Bank at Hunter Guild",
+      "manual": true,
+      "world": [
+        1559,
+        3048,
+        0
+      ]
+    },
+    {
+      "id": "e9-015",
+      "title": "Withdraw: Coins, Butterfly net/Magic Net",
+      "text": "Withdraw: Coins, Butterfly net/Magic Net",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10010,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 10010,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 10010
+    },
+    {
+      "id": "e9-016",
+      "title": "Buy 27 Butterfly Jars from Imia …",
+      "text": "Buy 27 Butterfly Jars from Imia North-East",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10012,
+            "qty": 27
+          },
+          {
+            "op": "item",
+            "id": 10012,
+            "qty": 27,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 10012
+    },
+    {
+      "id": "e9-017",
+      "title": "Talk to Guildmaster Apatura (2,1) [At …",
+      "text": "Talk to Guildmaster Apatura (2,1) [At First Light]",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "e9-018",
+      "title": "Continue At First Light until needing …",
+      "text": "Continue At First Light until needing to go to Guild Hunter Fox",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "e9-019a",
+      "title": "Go down the stairs",
+      "text": "Go down the stairs",
+      "manual": true
+    },
+    {
+      "id": "e9-019b",
+      "title": "catch Moonlight Moths to the South",
+      "text": "catch Moonlight Moths to the South",
+      "manual": true
+    },
+    {
+      "id": "e9-020",
+      "title": "Moonlight Moths restore 22 prayer per …",
+      "text": "Moonlight Moths restore 22 prayer per inventory slot and you can catch over 400/hour so these are excellent prayer",
+      "manual": true
+    },
+    {
+      "id": "e9-021",
+      "title": "Use Dashing Kebbit meat on Moonlight …",
+      "text": "Use Dashing Kebbit meat on Moonlight Moths to double the restore to 44 per inventory slot (You can optional hunt more if you want)",
+      "manual": true
+    },
+    {
+      "id": "e9-022",
+      "title": "Throw the Chinchompas to get 75+ …",
+      "text": "Throw the Chinchompas to get 75+ Range",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e9-023",
+      "title": "Kill Royal Titans until both Prayer …",
+      "text": "Kill Royal Titans until both Prayer Scrolls",
+      "manual": true,
+      "world": [
+        3008,
+        3150,
+        0
+      ]
+    },
+    {
+      "id": "e9-024",
+      "title": "Use all 3 Perilous Moons Sets",
+      "text": "Use all 3 Perilous Moons Sets",
+      "complete": {
+        "op": "quest",
+        "quest": "PERILOUS_MOONS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1435,
+        3124,
+        0
+      ]
+    },
+    {
+      "id": "e9-025a",
+      "title": "These are 0 damage if you …",
+      "text": "These are 0 damage if you use Water/Fire Wave on the Elementals",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e9-025b",
+      "title": "kill both giants roughly at the …",
+      "text": "kill both giants roughly at the same time so very safe on HCIM",
+      "manual": true
+    },
+    {
+      "id": "e9-026",
+      "title": "This is now a comfortable point …",
+      "text": "This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted Gauntlet with Tier 3 Preparation",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e9-027",
+      "title": "There are 2 paths you can …",
+      "text": "There are 2 paths you can take beyond Corrupted Gauntlet, and they will both lead to raiding. One of them is the Blade of Saeldar Route & the other Noxious Halberd Rush. I would only recommend the Blade Route if you enjoy Corrupted Gauntlet, but the Noxious Halberd Route may require alts to effectively do and may be a bit more boring but both are routed below and are very similar. (I did the Blade route so the Halberd Route is theorycrafted rather than tested. The guide will mention when you detour BUT if you are doing Blade Route, DO NOT make a Blade before the BOFA. You will be staying until 2x Enhanced Weapon Seeds.",
+      "manual": true
+    }
+  ]
+}
