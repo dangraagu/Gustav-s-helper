@@ -213,7 +213,12 @@
           }
         ]
       },
-      "item": 1917
+      "item": 1917,
+      "world": [
+        2553,
+        3080,
+        0
+      ]
     },
     {
       "id": "e5-017",
@@ -1081,7 +1086,12 @@
           }
         ]
       },
-      "item": 2347
+      "item": 2347,
+      "world": [
+        2613,
+        3093,
+        0
+      ]
     },
     {
       "id": "e5-082b",
@@ -1206,7 +1216,12 @@
           }
         ]
       },
-      "item": 841
+      "item": 841,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e5-090b",
@@ -1304,14 +1319,14 @@
       "title": "Teleport to Falador & bank at …",
       "text": "Teleport to Falador & bank at the East Bank",
       "world": [
-        3000,
-        3360,
+        3015,
+        3357,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3000,
-        "y": 3360,
+        "x": 3015,
+        "y": 3357,
         "z": 0,
         "radius": 8
       }
@@ -1336,7 +1351,12 @@
           }
         ]
       },
-      "item": 1737
+      "item": 1737,
+      "world": [
+        3015,
+        3357,
+        0
+      ]
     },
     {
       "id": "e5-098",
@@ -1446,7 +1466,12 @@
           }
         ]
       },
-      "item": 886
+      "item": 886,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e5-104",
@@ -1508,7 +1533,12 @@
           }
         ]
       },
-      "item": 2550
+      "item": 2550,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e5-107b",
@@ -1722,7 +1752,12 @@
       "id": "e5-125",
       "title": "Wield: Plague Outfit pieces & deposit …",
       "text": "Wield: Plague Outfit pieces & deposit relevant combat items",
-      "manual": true
+      "manual": true,
+      "world": [
+        3130,
+        3629,
+        0
+      ]
     },
     {
       "id": "e5-126",
@@ -1850,7 +1885,12 @@
       "id": "e5-135",
       "title": "Grab mourner letter from the bank …",
       "text": "Grab mourner letter from the bank if you banked it",
-      "manual": true
+      "manual": true,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
     },
     {
       "id": "e5-136",
@@ -1989,7 +2029,12 @@
       "id": "e5-147",
       "title": "Make some Prayer Potions (you should …",
       "text": "Make some Prayer Potions (you should have these from contracts and surplus ranarr seed farm runs else you've gargled)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2356,
+        3171,
+        1
+      ]
     },
     {
       "id": "e5-148a",
@@ -2006,7 +2051,12 @@
       "id": "e5-148b",
       "title": "Take 4x Karambwans & 6x Prayer …",
       "text": "Take 4x Karambwans & 6x Prayer Potions",
-      "manual": true
+      "manual": true,
+      "world": [
+        3208,
+        3494,
+        1
+      ]
     },
     {
       "id": "e5-149",
@@ -2034,7 +2084,12 @@
           }
         ]
       },
-      "item": 237
+      "item": 237,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e5-151",
@@ -2096,7 +2151,12 @@
           }
         ]
       },
-      "item": 1359
+      "item": 1359,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e5-155",
@@ -2165,8 +2225,8 @@
       "text": "After 60 woodcutting your Magic Log drop rate is DRASTICALLY increased. Once you get them finish 667,000 Woodcutting experience at Teak Trees",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2698,
+        3396,
         0
       ]
     },
@@ -2506,8 +2566,8 @@
       "text": "Bank at Canifis",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3512,
+        3478,
         0
       ]
     },
@@ -2531,7 +2591,12 @@
           }
         ]
       },
-      "item": 590
+      "item": 590,
+      "world": [
+        3512,
+        3478,
+        0
+      ]
     },
     {
       "id": "e5-187b",
@@ -2556,8 +2621,8 @@
       "text": "[If you didn't get Yew Logs from Todt, Cut them]",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3209,
+        3499,
         0
       ]
     },
@@ -2797,7 +2862,12 @@
       "id": "e5-207",
       "title": "Bank anywhere",
       "text": "Bank anywhere",
-      "manual": true
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e5-208",
@@ -2969,13 +3039,23 @@
       "id": "e5-224",
       "title": "Bank anywhere",
       "text": "Bank anywhere",
-      "manual": true
+      "manual": true,
+      "world": [
+        3095,
+        3494,
+        0
+      ]
     },
     {
       "id": "e5-225a",
       "title": "Withdraw: Antipoison",
       "text": "Withdraw: Antipoison",
-      "manual": true
+      "manual": true,
+      "world": [
+        3095,
+        3494,
+        0
+      ]
     },
     {
       "id": "e5-225b",
@@ -3005,7 +3085,12 @@
       "id": "e5-229",
       "title": "Unnote Lockpicks at Tiles if needed",
       "text": "Unnote Lockpicks at Tiles if needed",
-      "manual": true
+      "manual": true,
+      "world": [
+        3095,
+        3494,
+        0
+      ]
     },
     {
       "id": "e5-230",
@@ -3103,7 +3188,12 @@
       "id": "e5-237",
       "title": "Bank Anywhere",
       "text": "Bank Anywhere",
-      "manual": true
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e5-238",
@@ -3131,7 +3221,12 @@
           }
         ]
       },
-      "item": 3105
+      "item": 3105,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e5-240",
@@ -3274,7 +3369,12 @@
           }
         ]
       },
-      "item": 2003
+      "item": 2003,
+      "world": [
+        3095,
+        3494,
+        0
+      ]
     },
     {
       "id": "e5-250",
@@ -3298,7 +3398,12 @@
       "id": "e5-252a",
       "title": "Withdraw: Coins, Camulet",
       "text": "Withdraw: Coins, Camulet",
-      "manual": true
+      "manual": true,
+      "world": [
+        3095,
+        3494,
+        0
+      ]
     },
     {
       "id": "e5-252b",
@@ -3368,13 +3473,23 @@
       "id": "e5-258",
       "title": "Talk to Cook (3)",
       "text": "Talk to Cook (3)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
     },
     {
       "id": "e5-259",
       "title": "Make & cook a fish cake",
       "text": "Make & cook a fish cake",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
     },
     {
       "id": "e5-260",
@@ -3386,7 +3501,12 @@
       "id": "e5-261",
       "title": "Bank at RFD Chest",
       "text": "Bank at RFD Chest",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e5-262a",
@@ -3425,7 +3545,12 @@
           }
         ]
       },
-      "item": 1927
+      "item": 1927,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e5-264",
@@ -3496,7 +3621,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3178,
+        3295,
+        0
+      ]
     },
     {
       "id": "e5-271",
@@ -3568,7 +3698,12 @@
       "id": "e5-276",
       "title": "Bank at RFD Chest",
       "text": "Bank at RFD Chest",
-      "manual": true
+      "manual": true,
+      "world": [
+        3015,
+        3357,
+        0
+      ]
     },
     {
       "id": "e5-277",
@@ -3590,7 +3725,12 @@
           }
         ]
       },
-      "item": 1725
+      "item": 1725,
+      "world": [
+        2957,
+        3388,
+        0
+      ]
     },
     {
       "id": "e5-278",
@@ -3639,7 +3779,12 @@
           }
         ]
       },
-      "item": 10010
+      "item": 10010,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e5-280",
@@ -3681,7 +3826,12 @@
       "id": "e5-285",
       "title": "Buy Barrows Gloves",
       "text": "Buy Barrows Gloves",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
     },
     {
       "id": "e5-286a",

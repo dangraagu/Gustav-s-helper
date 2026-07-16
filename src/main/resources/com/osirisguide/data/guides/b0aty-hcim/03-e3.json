@@ -338,13 +338,23 @@
       "id": "e3-025",
       "title": "Cross Log to Coal Mine [Kandarin …",
       "text": "Cross Log to Coal Mine [Kandarin Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3027,
+        9724,
+        0
+      ]
     },
     {
       "id": "e3-026",
       "title": "Mine 1x Coal [Kandarin Easy Diary]",
       "text": "Mine 1x Coal [Kandarin Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3027,
+        9724,
+        0
+      ]
     },
     {
       "id": "e3-027",
@@ -480,8 +490,8 @@
       "text": "Mine a Gold Ore to complete Karamja Easy Diary",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2745,
+        3150,
         0
       ]
     },
@@ -552,8 +562,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3047,
-        3236,
+        2820,
+        3462,
         0
       ]
     },
@@ -588,7 +598,12 @@
           }
         ]
       },
-      "item": 307
+      "item": 307,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
     },
     {
       "id": "e3-044",
@@ -728,13 +743,23 @@
       "id": "e3-053",
       "title": "Bank at West Bank",
       "text": "Bank at West Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        2852,
+        2955,
+        0
+      ]
     },
     {
       "id": "e3-054",
       "title": "Deposit Bullseye Lantern",
       "text": "Deposit Bullseye Lantern",
-      "manual": true
+      "manual": true,
+      "world": [
+        2852,
+        2955,
+        0
+      ]
     },
     {
       "id": "e3-055",
@@ -759,8 +784,8 @@
       "text": "Fish a Trout [Varrock Easy Diary] Drop this",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3104,
+        3424,
         0
       ]
     },
@@ -827,7 +852,12 @@
       "id": "e3-062a",
       "title": "Mine 4 Clay",
       "text": "Mine 4 Clay",
-      "manual": true
+      "manual": true,
+      "world": [
+        3030,
+        9810,
+        0
+      ]
     },
     {
       "id": "e3-062b",
@@ -865,13 +895,29 @@
       "id": "e3-065",
       "title": "Teleport Anywhere to bank",
       "text": "Teleport Anywhere to bank",
-      "manual": true
+      "world": [
+        2852,
+        2955,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2852,
+        "y": 2955,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-066a",
       "title": "Withdraw: Coins",
       "text": "Withdraw: Coins",
-      "manual": true
+      "manual": true,
+      "world": [
+        2852,
+        2955,
+        0
+      ]
     },
     {
       "id": "e3-066b",
@@ -1061,7 +1107,12 @@
       "id": "e3-079",
       "title": "Mine 5 clay while yoinking the …",
       "text": "Mine 5 clay while yoinking the bird feather [Desert Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3429,
+        9633,
+        0
+      ]
     },
     {
       "id": "e3-080",
@@ -1142,7 +1193,12 @@
           }
         ]
       },
-      "item": 233
+      "item": 233,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
     },
     {
       "id": "e3-085",
@@ -1159,7 +1215,12 @@
       "id": "e3-086",
       "title": "OPTIONAL: Cut on world 444 (Forestry) …",
       "text": "OPTIONAL: Cut on world 444 (Forestry) withdraw forestry kit",
-      "manual": true
+      "manual": true,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
     },
     {
       "id": "e3-087",
@@ -1216,8 +1277,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2904,
-        3511,
+        3216,
+        3416,
         0
       ]
     },
@@ -1542,7 +1603,12 @@
       "id": "e3-111",
       "title": "Bank Everything at East Bank",
       "text": "Bank Everything at East Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3015,
+        3357,
+        0
+      ]
     },
     {
       "id": "e3-112",
@@ -1563,7 +1629,12 @@
       "id": "e3-113",
       "title": "Bank at West Bank",
       "text": "Bank at West Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3015,
+        3357,
+        0
+      ]
     },
     {
       "id": "e3-114",
@@ -1608,7 +1679,12 @@
       "id": "e3-116",
       "title": "OPTIONAL: Bring Sunbeam Ale as well …",
       "text": "OPTIONAL: Bring Sunbeam Ale as well if 69 agility to use shortcut",
-      "manual": true
+      "manual": true,
+      "world": [
+        2612,
+        3255,
+        0
+      ]
     },
     {
       "id": "e3-117",
@@ -1933,13 +2009,23 @@
       "id": "e3-144",
       "title": "Bank all at Jatiso",
       "text": "Bank all at Jatiso",
-      "manual": true
+      "manual": true,
+      "world": [
+        2634,
+        3668,
+        0
+      ]
     },
     {
       "id": "e3-145",
       "title": "Withdraw: Coins",
       "text": "Withdraw: Coins",
-      "manual": true
+      "manual": true,
+      "world": [
+        2634,
+        3668,
+        0
+      ]
     },
     {
       "id": "e3-146",
@@ -1988,7 +2074,12 @@
           }
         ]
       },
-      "item": 3099
+      "item": 3099,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e3-148",
@@ -2183,7 +2274,12 @@
           }
         ]
       },
-      "item": 1243
+      "item": 1243,
+      "world": [
+        2614,
+        3293,
+        0
+      ]
     },
     {
       "id": "e3-161",
@@ -2191,8 +2287,8 @@
       "text": "Mine an iron Ore [Kourend Easy Diary]",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        2710,
+        3328,
         0
       ]
     },
@@ -2271,7 +2367,12 @@
           }
         ]
       },
-      "item": 401
+      "item": 401,
+      "world": [
+        2614,
+        3293,
+        0
+      ]
     },
     {
       "id": "e3-168",
@@ -2380,7 +2481,12 @@
       "id": "e3-176",
       "title": "OPTIONAL: BUY TELEPORT CRYSTAL IF HCIM …",
       "text": "OPTIONAL: BUY TELEPORT CRYSTAL IF HCIM HERE",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
     },
     {
       "id": "e3-177",
@@ -2455,7 +2561,12 @@
       "id": "e3-181",
       "title": "Bank all",
       "text": "Bank all",
-      "manual": true
+      "manual": true,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
     },
     {
       "id": "e3-182a",
@@ -2667,7 +2778,12 @@
           }
         ]
       },
-      "item": 1921
+      "item": 1921,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
     },
     {
       "id": "e3-196",
@@ -2722,7 +2838,12 @@
           }
         ]
       },
-      "item": 1927
+      "item": 1927,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
     },
     {
       "id": "e3-200",
@@ -2979,7 +3100,12 @@
           }
         ]
       },
-      "item": 2550
+      "item": 2550,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
     },
     {
       "id": "e3-216",
@@ -3188,7 +3314,12 @@
           }
         ]
       },
-      "item": 225
+      "item": 225,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
     },
     {
       "id": "e3-235",
@@ -3232,7 +3363,12 @@
       "id": "e3-238",
       "title": "Bank at West Bank",
       "text": "Bank at West Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e3-239",
@@ -3254,7 +3390,12 @@
           }
         ]
       },
-      "item": 2349
+      "item": 2349,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e3-240",
@@ -3444,8 +3585,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        2871,
+        10189,
         0
       ]
     },
@@ -3489,8 +3630,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        3030,
+        9810,
         0
       ]
     },
@@ -3947,8 +4088,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3093,
-        3357,
+        3216,
+        3416,
         0
       ]
     },
@@ -4222,13 +4363,23 @@
           }
         ]
       },
-      "item": 536
+      "item": 536,
+      "world": [
+        3692,
+        3468,
+        0
+      ]
     },
     {
       "id": "e3-311",
       "title": "Buy Slime at Charter boat",
       "text": "Buy Slime at Charter boat",
-      "manual": true
+      "manual": true,
+      "world": [
+        3659,
+        3477,
+        0
+      ]
     },
     {
       "id": "e3-312",
@@ -4806,7 +4957,12 @@
       "id": "e3-355",
       "title": "Pray at Altar for Diary [Desert …",
       "text": "Pray at Altar for Diary [Desert Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3426,
+        2930,
+        0
+      ]
     },
     {
       "id": "e3-356",
@@ -4828,7 +4984,12 @@
           }
         ]
       },
-      "item": 590
+      "item": 590,
+      "world": [
+        3427,
+        2891,
+        0
+      ]
     },
     {
       "id": "e3-357",
@@ -5248,7 +5409,12 @@
       "id": "e3-397b",
       "title": "bank. 43 Prayer makes everything much …",
       "text": "bank. 43 Prayer makes everything much easier now",
-      "manual": true
+      "manual": true,
+      "world": [
+        3602,
+        3366,
+        0
+      ]
     }
   ]
 }

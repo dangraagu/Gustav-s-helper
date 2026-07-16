@@ -37,8 +37,8 @@
       "text": "As soon as you spawn, sell bronze dagger, sword, axe, wooden shield and short\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3229,
+        3204,
         0
       ]
     },
@@ -64,8 +64,8 @@
       },
       "item": 952,
       "world": [
-        3222,
-        3218,
+        3212,
+        3247,
         0
       ]
     },
@@ -284,8 +284,8 @@
       },
       "item": 1353,
       "world": [
-        3222,
-        3218,
+        3229,
+        3204,
         0
       ]
     },
@@ -713,8 +713,8 @@
       },
       "item": 1941,
       "world": [
-        2653,
-        3159,
+        2656,
+        3152,
         0
       ]
     },
@@ -817,8 +817,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2624,
-        3300,
+        2924,
+        3181,
         0
       ]
     },
@@ -855,8 +855,8 @@
       "text": "Sell your silk for 60gp each, keep 10 in bank for quests\nLocation: Ardougne",
       "manual": true,
       "world": [
-        2624,
-        3300,
+        2617,
+        3333,
         0
       ]
     },
@@ -866,8 +866,8 @@
       "text": "You should have 10k GP at this point, Buy a Player-owned house\nLocation: Ardougne",
       "manual": true,
       "world": [
-        2624,
-        3300,
+        2614,
+        3293,
         0
       ]
     },
@@ -908,8 +908,8 @@
       },
       "item": 970,
       "world": [
-        2624,
-        3300,
+        2614,
+        3293,
         0
       ]
     },
@@ -1103,14 +1103,14 @@
       "title": "Walk to Ardy with rope, dwellberries, …",
       "text": "Walk to Ardy with rope, dwellberries, hangover cure\nLocation: Ardougne",
       "world": [
-        2624,
-        3300,
+        2612,
+        3255,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2624,
-        "y": 3300,
+        "x": 2612,
+        "y": 3255,
         "z": 0,
         "radius": 8
       }
@@ -1136,9 +1136,9 @@
       "text": "Home tele to lumby, run north to Varrock east bank\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
@@ -1278,14 +1278,14 @@
       "title": "Run to Draynor bank",
       "text": "Run to Draynor bank\nLocation: Draynor Village",
       "world": [
-        3103,
-        3265,
+        3093,
+        3244,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3103,
-        "y": 3265,
+        "x": 3093,
+        "y": 3244,
         "z": 0,
         "radius": 8
       }
@@ -1312,8 +1312,8 @@
       },
       "item": 13658,
       "world": [
-        3103,
-        3265,
+        3081,
+        3246,
         0
       ]
     },
@@ -1323,8 +1323,8 @@
       "text": "While at Diango, buy a Rainbow scarf (120gp) as a warm-clothing item for Wint\nLocation: Draynor Village",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3081,
+        3246,
         0
       ]
     },
@@ -1520,8 +1520,8 @@
       },
       "item": 1925,
       "world": [
-        3222,
-        3218,
+        3212,
+        3247,
         0
       ]
     },
@@ -1567,8 +1567,8 @@
       "text": "Kill 1 cow calf for meat\nLocation: Fred's Farm",
       "manual": true,
       "world": [
-        3189,
-        3273,
+        3188,
+        3318,
         0
       ]
     },
@@ -1782,8 +1782,8 @@
       },
       "item": 1379,
       "world": [
-        3210,
-        3448,
+        3203,
+        3434,
         0
       ]
     },
@@ -1793,8 +1793,8 @@
       "text": "Buy a newspaper from Benny\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3216,
+        3416,
         0
       ]
     },
@@ -1820,8 +1820,8 @@
       },
       "item": 1013,
       "world": [
-        3210,
-        3448,
+        3207,
+        3415,
         0
       ]
     },
@@ -1847,8 +1847,8 @@
       },
       "item": 1982,
       "world": [
-        3210,
-        3448,
+        3216,
+        3416,
         0
       ]
     },
@@ -1885,8 +1885,8 @@
       },
       "item": 1917,
       "world": [
-        3210,
-        3448,
+        3216,
+        3416,
         0
       ]
     },
@@ -1963,8 +1963,8 @@
       },
       "item": 554,
       "world": [
-        3210,
-        3448,
+        3253,
+        3402,
         0
       ]
     },
@@ -2040,8 +2040,8 @@
       "text": "Varrock east bank\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3185,
+        3441,
         0
       ]
     },
@@ -2062,8 +2062,8 @@
       "text": "bank them\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3185,
+        3441,
         0
       ]
     },
@@ -2084,8 +2084,8 @@
       "text": "Mine 4 copper ore and 1 iron ore\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3141,
+        9880,
         0
       ]
     },
@@ -2133,8 +2133,8 @@
       "text": "Varrock west bank\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3185,
+        3441,
         0
       ]
     },
@@ -2259,8 +2259,8 @@
       "text": "Buy 5 wizard mind bombs from the bar\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2957,
+        3388,
         0
       ]
     },
@@ -2297,8 +2297,8 @@
       "text": "Bank\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        3015,
+        3357,
         0
       ]
     },
@@ -2608,8 +2608,8 @@
       },
       "item": 1733,
       "world": [
-        3290,
-        3185,
+        3321,
+        3194,
         0
       ]
     },
@@ -2646,8 +2646,8 @@
       "text": "Fish anchovies (small fish net) south of the Al-Kharid bank for a diary\nLocation: Al Kharid",
       "manual": true,
       "world": [
-        3290,
-        3185,
+        3269,
+        3167,
         0
       ]
     },
@@ -2743,8 +2743,8 @@
       },
       "item": 1925,
       "world": [
-        2653,
-        3159,
+        2656,
+        3152,
         0
       ]
     },
@@ -2754,8 +2754,8 @@
       "text": "Buy 10 flour from general store\nLocation: Port Khazard",
       "manual": true,
       "world": [
-        2653,
-        3159,
+        2656,
+        3152,
         0
       ]
     },
@@ -2781,8 +2781,8 @@
       },
       "item": 1781,
       "world": [
-        2653,
-        3159,
+        2656,
+        3152,
         0
       ]
     },
@@ -2911,8 +2911,8 @@
       },
       "item": 6032,
       "world": [
-        2624,
-        3300,
+        2645,
+        3360,
         0
       ]
     },
@@ -3117,8 +3117,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3222,
-        3218,
+        3212,
+        3215,
         0
       ]
     },
@@ -3128,9 +3128,9 @@
       "text": "Start RFD and watch the cutscene to unlock the bank chest\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
@@ -3166,8 +3166,8 @@
       },
       "item": 1925,
       "world": [
-        3222,
-        3218,
+        3212,
+        3247,
         0
       ]
     },
@@ -3290,8 +3290,8 @@
       "text": "Buy birdhouse seeds from Olivia\nLocation: Draynor Village",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3078,
+        3251,
         0
       ]
     },
@@ -3364,8 +3364,8 @@
       "text": "Kill 5 chicken/wizards\nLocation: Wizard Tower",
       "manual": true,
       "world": [
-        3109,
-        3160,
+        3018,
+        3289,
         0
       ]
     },
@@ -3510,8 +3510,8 @@
       "text": "Get the stake for vampire slayer from the blue moon inn\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3224,
+        3398,
         0
       ]
     },
@@ -3619,8 +3619,8 @@
       },
       "item": 10012,
       "world": [
-        2577,
-        3090,
+        2567,
+        3082,
         0
       ]
     },
@@ -3707,8 +3707,8 @@
       "text": "Fish shrimp north of banana trees for diary\nLocation: Karamja",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2924,
+        3181,
         0
       ]
     },
@@ -3755,8 +3755,8 @@
       "text": "Get pirate's message from Blue moon inn, you can drop it AFTER reading the me\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3224,
+        3398,
         0
       ]
     },
@@ -3977,8 +3977,8 @@
       },
       "item": 307,
       "world": [
-        2814,
-        3443,
+        2834,
+        3445,
         0
       ]
     },
@@ -4004,8 +4004,8 @@
       },
       "item": 2114,
       "world": [
-        2814,
-        3443,
+        2803,
+        3432,
         0
       ]
     },
@@ -4042,8 +4042,8 @@
       },
       "item": 6032,
       "world": [
-        2814,
-        3443,
+        2820,
+        3462,
         0
       ]
     },
@@ -4386,8 +4386,8 @@
       "text": "Buy priest robes (keep these after quest), boots, gloves\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3216,
+        3416,
         0
       ]
     },
@@ -4443,9 +4443,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3210,
-        3448,
-        0
+        3208,
+        3494,
+        1
       ]
     },
     {
@@ -4562,8 +4562,8 @@
       "text": "Chronicle tele, buy a new kitten\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3216,
+        3416,
         0
       ]
     },

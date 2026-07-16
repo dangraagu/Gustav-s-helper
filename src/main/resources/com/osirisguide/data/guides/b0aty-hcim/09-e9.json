@@ -97,7 +97,18 @@
       "id": "e9-006",
       "title": "Head East & Mine an Adamantite …",
       "text": "Head East & Mine an Adamantite Ore [Western Province Hard Diary]",
-      "manual": true
+      "world": [
+        3140,
+        9874,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3140,
+        "y": 9874,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e9-007a",
@@ -227,7 +238,12 @@
           }
         ]
       },
-      "item": 10012
+      "item": 10012,
+      "world": [
+        1517,
+        2986,
+        0
+      ]
     },
     {
       "id": "e9-017",

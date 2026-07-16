@@ -82,7 +82,12 @@
       "id": "inv-011",
       "title": "Bring 4 Prayer potion(4)",
       "text": "Bring 4 Prayer potion(4)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3208,
+        3494,
+        1
+      ]
     },
     {
       "id": "inv-012",

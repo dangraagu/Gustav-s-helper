@@ -31,8 +31,8 @@
       },
       "item": 1975,
       "world": [
-        3222,
-        3218,
+        3212,
+        3247,
         0
       ]
     },
@@ -293,8 +293,8 @@
       "text": "buy B gloves\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3212,
+        3247,
         0
       ]
     }
