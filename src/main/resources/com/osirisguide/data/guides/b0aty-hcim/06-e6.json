@@ -98,7 +98,13 @@
       "id": "e6-008a",
       "title": "Run north and then east towards …",
       "text": "Run north and then east towards bloodvelds",
-      "manual": true
+      "manual": true,
+      "npc": 305,
+      "world": [
+        1518,
+        3586,
+        0
+      ]
     },
     {
       "id": "e6-008b",
@@ -261,9 +267,10 @@
         "quest": "TEMPLE_OF_THE_EYE",
         "state": "FINISHED"
       },
+      "npc": 2582,
       "world": [
-        3285,
-        3232,
+        3258,
+        3383,
         0
       ]
     },
@@ -276,9 +283,10 @@
         "quest": "TEMPLE_OF_THE_EYE",
         "state": "FINISHED"
       },
+      "npc": 8687,
       "world": [
-        3285,
-        3232,
+        3271,
+        3411,
         0
       ]
     },

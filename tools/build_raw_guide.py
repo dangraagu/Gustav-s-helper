@@ -87,6 +87,7 @@ def main():
     nam = sg.load_amenities()
     nres = sg.load_resources()
     sg.load_manual()
+    sg.load_qh_steps()
     entities = sg.load_qh_entities()
     print(f"  ({nqs} quest-start tiles, {len(sg.GAZETTEER)} locations, {nam} town amenities, "
           f"{nres} resource sites bridged)")

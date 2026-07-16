@@ -101,9 +101,10 @@
       "title": "Plant barley seeds at the hops …",
       "text": "Plant barley seeds at the hops patch northwest of Seers\nLocation: Seers Village",
       "manual": true,
+      "object": 8176,
       "world": [
-        2710,
-        3485,
+        2669,
+        3523,
         0
       ]
     },
@@ -539,9 +540,12 @@
       },
       "item": 444,
       "world": [
-        2930,
-        10197,
+        1936,
+        4966,
         0
+      ],
+      "npcs": [
+        1560
       ]
     },
     {
@@ -578,8 +582,8 @@
       "text": "Craft the gold bars into gold BRACELETS, leave like 30 bars for teleport jewe\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3108,
+        3499,
         0
       ]
     },
@@ -600,9 +604,12 @@
       "text": "Buy another 5k nats\nLocation: Mage Bank",
       "manual": true,
       "world": [
-        3090,
-        3956,
+        3109,
+        10357,
         0
+      ],
+      "npcs": [
+        1601
       ]
     },
     {

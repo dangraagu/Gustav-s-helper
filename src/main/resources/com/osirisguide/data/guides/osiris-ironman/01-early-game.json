@@ -272,8 +272,8 @@
       "text": "Dig up the clue north of bob's axes\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3230,
+        3209,
         0
       ]
     },
@@ -322,8 +322,8 @@
       "text": "Dig up the clue behind lumby castle\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3203,
+        3212,
         0
       ]
     },
@@ -382,8 +382,8 @@
       },
       "item": 1939,
       "world": [
-        3197,
-        3166,
+        3169,
+        3172,
         0
       ]
     },
@@ -510,8 +510,8 @@
       "text": "Dig up the casket at draynor pig pen\nLocation: Draynor Village",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3078,
+        3259,
         0
       ]
     },
@@ -569,8 +569,8 @@
       },
       "item": 231,
       "world": [
-        2956,
-        3232,
+        2906,
+        3297,
         0
       ]
     },
@@ -639,8 +639,8 @@
       },
       "item": 2351,
       "world": [
-        3137,
-        3623,
+        3147,
+        3772,
         0
       ]
     },
@@ -689,8 +689,8 @@
       },
       "item": 2313,
       "world": [
-        2577,
-        3090,
+        2567,
+        3099,
         0
       ]
     },
@@ -791,8 +791,8 @@
         "cmp": ">="
       },
       "world": [
-        2624,
-        3300,
+        2662,
+        3314,
         0
       ]
     },
@@ -859,8 +859,8 @@
       },
       "item": 325,
       "world": [
-        2720,
-        3287,
+        2734,
+        3292,
         0
       ]
     },
@@ -934,8 +934,8 @@
       "text": "Dig up clue hunter gloves and boots north of Ardy\nLocation: North of Ardougne",
       "manual": true,
       "world": [
-        2618,
-        3340,
+        2579,
+        3378,
         0
       ]
     },
@@ -988,8 +988,8 @@
       },
       "item": 960,
       "world": [
-        2549,
-        3558,
+        2553,
+        3576,
         0
       ]
     },
@@ -1093,9 +1093,9 @@
       "text": "Buy 1000 bronze arrowheads (100/world for 1gp ea)\nLocation: Gnome Stronghold",
       "manual": true,
       "world": [
-        2440,
-        3460,
-        0
+        2469,
+        3488,
+        2
       ]
     },
     {
@@ -1237,18 +1237,13 @@
       "id": "eg-072a",
       "title": "Run south-west of castle wars",
       "text": "Run south-west of castle wars\nLocation: South-west of Castle Wars",
+      "manual": true,
+      "npc": 860,
       "world": [
-        2386,
-        3086,
+        2447,
+        3049,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2386,
-        "y": 3086,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "eg-072b",
@@ -1283,9 +1278,12 @@
       "text": "Talk to the ghost for Restless ghost quest\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3250,
+        3193,
         0
+      ],
+      "npcs": [
+        922
       ]
     },
     {
@@ -1410,8 +1408,8 @@
       },
       "item": 314,
       "world": [
-        3029,
-        3221,
+        3014,
+        3225,
         0
       ]
     },
@@ -1424,9 +1422,10 @@
         "quest": "PANDEMONIUM",
         "state": "FINISHED"
       },
+      "npc": 14957,
       "world": [
-        3027,
-        3218,
+        3025,
+        3208,
         0
       ]
     },
@@ -1562,8 +1561,8 @@
       "manual": true,
       "npc": 732,
       "world": [
-        3189,
-        3273,
+        3177,
+        3296,
         0
       ]
     },
@@ -1574,8 +1573,8 @@
       "manual": true,
       "npc": 732,
       "world": [
-        3189,
-        3273,
+        3172,
+        3301,
         0
       ]
     },
@@ -1596,8 +1595,8 @@
       "text": "Fill 3 buckets with milk\nLocation: Fred's Farm",
       "manual": true,
       "world": [
-        3189,
-        3273,
+        3172,
+        3317,
         0
       ]
     },
@@ -1676,8 +1675,8 @@
       },
       "item": 1573,
       "world": [
-        3210,
-        3448,
+        3151,
+        3399,
         0
       ]
     },
@@ -1876,8 +1875,8 @@
       "text": "Get a drink for barcrawl at the bar south of Varrock fountain\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3225,
+        3398,
         0
       ]
     },
@@ -2009,8 +2008,8 @@
       "text": "Get a drink for the barcrawl\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3280,
+        3496,
         0
       ]
     },
@@ -2032,9 +2031,12 @@
       "text": "make 1 regular plank for diary tasks\nLocation: Varrock Sawmill",
       "manual": true,
       "world": [
-        3309,
-        3505,
+        3302,
+        3492,
         0
+      ],
+      "npcs": [
+        3101
       ]
     },
     {
@@ -2091,8 +2093,8 @@
       "text": "Pick cadava berries and 16 redberries\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3271,
+        3367,
         0
       ]
     },
@@ -2102,8 +2104,8 @@
       "text": "Mine 4 copper ore and 1 iron ore\nLocation: Varrock",
       "manual": true,
       "world": [
-        3141,
-        9880,
+        3286,
+        3364,
         0
       ]
     },
@@ -2190,8 +2192,8 @@
       },
       "item": 1139,
       "world": [
-        3080,
-        3427,
+        3075,
+        3429,
         0
       ]
     },
@@ -2217,8 +2219,8 @@
       },
       "item": 2142,
       "world": [
-        3080,
-        3427,
+        3077,
+        3441,
         0
       ]
     },
@@ -2255,8 +2257,8 @@
       "text": "Use the trees to safespot a bear for its meat south of mind altar\nLocation: South of Mind Altar",
       "manual": true,
       "world": [
-        2981,
-        3493,
+        2967,
+        3480,
         0
       ]
     },
@@ -2266,8 +2268,8 @@
       "text": "Get a drink from the Falador bar for Barcrawl\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2957,
+        3372,
         0
       ]
     },
@@ -2304,9 +2306,12 @@
       },
       "item": 6020,
       "world": [
-        3003,
-        3380,
+        3027,
+        3379,
         0
+      ],
+      "npcs": [
+        5422
       ]
     },
     {
@@ -2372,8 +2377,8 @@
       },
       "item": 233,
       "world": [
-        2910,
-        3451,
+        2898,
+        3428,
         0
       ]
     },
@@ -2483,9 +2488,10 @@
       "title": "mine 2 blurite ore, 1 is …",
       "text": "mine 2 blurite ore, 1 is for falador diary\nLocation: Mudskipper Point",
       "manual": true,
+      "object": 11378,
       "world": [
-        2999,
-        3122,
+        3049,
+        9566,
         0
       ]
     },
@@ -2518,9 +2524,12 @@
       "text": "get the portrait from sir Vyv\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
-        0
+        2984,
+        3339,
+        2
+      ],
+      "npcs": [
+        4736
       ]
     },
     {
@@ -2866,9 +2875,10 @@
       "title": "Use the spirit tree",
       "text": "Use the spirit tree\nLocation: Khazard Battlefield",
       "manual": true,
+      "object": 49598,
       "world": [
-        2520,
-        3232,
+        2339,
+        3111,
         0
       ]
     },
@@ -2902,8 +2912,8 @@
       "text": "Get a drink from Ardy bar for the barcrawl\nLocation: Ardougne",
       "manual": true,
       "world": [
-        2624,
-        3300,
+        2575,
+        3322,
         0
       ]
     },
@@ -2940,8 +2950,8 @@
       "text": "Train 42 magic at Moss giants near fishing guild\nLocation: Fishing Guild",
       "manual": true,
       "world": [
-        2609,
-        3424,
+        2554,
+        3409,
         0
       ]
     },
@@ -3007,9 +3017,10 @@
       "title": "Drop runes outside glarial's tomb",
       "text": "Drop runes outside glarial's tomb\nLocation: Baxtorian Falls",
       "manual": true,
+      "npc": 3452,
       "world": [
-        2513,
-        3483,
+        2556,
+        3445,
         0
       ]
     },
@@ -3239,7 +3250,7 @@
       "npc": 732,
       "world": [
         3189,
-        3273,
+        3267,
         0
       ]
     },
@@ -3249,9 +3260,12 @@
       "text": "Make 4 red, 4 blue, 5 yellow dye\nLocation: Draynor Village",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3086,
+        3259,
         0
+      ],
+      "npcs": [
+        120
       ]
     },
     {
@@ -3274,9 +3288,10 @@
       "title": "Do 1 lap of the agility …",
       "text": "Do 1 lap of the agility course for a diary\nLocation: Draynor Village",
       "manual": true,
+      "object": 14898,
       "world": [
-        3103,
-        3265,
+        3036,
+        3341,
         0
       ]
     },
@@ -3330,9 +3345,12 @@
       "text": "Buy 20 teleports for chronicle\nLocation: Draynor Village",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3081,
+        3247,
         0
+      ],
+      "npcs": [
+        8693
       ]
     },
     {
@@ -3479,9 +3497,12 @@
       "text": "talk to the Mage of\nLocation: Wilderness",
       "manual": true,
       "world": [
-        3087,
-        3522,
+        3107,
+        3555,
         0
+      ],
+      "npcs": [
+        2580
       ]
     },
     {
@@ -3553,9 +3574,10 @@
       "title": "Spirit tree to gnome stronghold",
       "text": "Spirit tree to gnome stronghold\nLocation: Gnome Stronghold",
       "manual": true,
+      "object": 17209,
       "world": [
-        2440,
-        3460,
+        2404,
+        3419,
         0
       ]
     },
@@ -3565,9 +3587,12 @@
       "text": "Use Brimstails to go to ess mines (scrying orb 2/3\nLocation: Gnome Stronghold",
       "manual": true,
       "world": [
-        2440,
-        3460,
+        2409,
+        9817,
         0
+      ],
+      "npcs": [
+        11430
       ]
     },
     {
@@ -3575,9 +3600,10 @@
       "title": "make sure you have it wit",
       "text": "make sure you have it wit\nLocation: Gnome Stronghold",
       "manual": true,
+      "npc": 8019,
       "world": [
-        2440,
-        3460,
+        2466,
+        3495,
         0
       ]
     },
@@ -3586,9 +3612,10 @@
       "title": "Start Grand tree",
       "text": "Start Grand tree\nLocation: Gnome Stronghold",
       "manual": true,
+      "npc": 8019,
       "world": [
-        2440,
-        3460,
+        2466,
+        3495,
         0
       ]
     },
@@ -3736,8 +3763,8 @@
       "text": "Get a drink for barcrawl from the bar south of the Karamja banana trees\nLocation: Karamja",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2925,
+        3145,
         0
       ]
     },
@@ -3783,9 +3810,10 @@
       "title": "Spirit tree to Gnome stronghold",
       "text": "Spirit tree to Gnome stronghold\nLocation: Gnome Stronghold",
       "manual": true,
+      "object": 17209,
       "world": [
-        2440,
-        3460,
+        2404,
+        3419,
         0
       ]
     },
@@ -3826,9 +3854,9 @@
       },
       "item": 2116,
       "world": [
-        2440,
-        3460,
-        0
+        2482,
+        3488,
+        1
       ]
     },
     {
@@ -3836,9 +3864,10 @@
       "title": "Equip Gas mask",
       "text": "Equip Gas mask\nLocation: Gnome Stronghold",
       "manual": true,
+      "object": 2542,
       "world": [
-        2440,
-        3460,
+        2514,
+        9738,
         0
       ]
     },
@@ -3885,9 +3914,10 @@
       "title": "Take the boat from Ardy docks …",
       "text": "Take the boat from Ardy docks to Rimmington\nLocation: Rimmington",
       "manual": true,
+      "npc": 1146,
       "world": [
-        2956,
-        3232,
+        2933,
+        3210,
         0
       ]
     },
@@ -3931,9 +3961,12 @@
       "text": "Visit Ardy ess mines, scrying orb 3/3\nLocation: Ardougne",
       "manual": true,
       "world": [
-        2624,
-        3300,
+        2684,
+        3325,
         0
+      ],
+      "npcs": [
+        8480
       ]
     },
     {
@@ -4033,8 +4066,8 @@
       "text": "Put pineapples into the compost bin\nLocation: Catherby",
       "manual": true,
       "world": [
-        2814,
-        3443,
+        2804,
+        3464,
         0
       ]
     },
@@ -4127,8 +4160,8 @@
       "text": "Get a drink from Seers' bar for the barcrawl\nLocation: Seers Village",
       "manual": true,
       "world": [
-        2710,
-        3485,
+        2695,
+        3493,
         0
       ]
     },
@@ -4212,8 +4245,8 @@
       "text": "Make 5 molten glass\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2975,
+        3368,
         0
       ]
     },
@@ -4499,8 +4532,11 @@
       "manual": true,
       "world": [
         3191,
-        3357,
+        3360,
         0
+      ],
+      "npcs": [
+        814
       ]
     },
     {
@@ -4508,9 +4544,10 @@
       "title": "Use the G.E spirit tree",
       "text": "Use the G.E spirit tree\nLocation: Khazard Battlefield",
       "manual": true,
+      "object": 49598,
       "world": [
-        2520,
-        3232,
+        2339,
+        3111,
         0
       ]
     },
@@ -4691,8 +4728,8 @@
       "text": "Get boots of lightness\nLocation: White Wolf Mountain",
       "manual": true,
       "world": [
-        2845,
-        3483,
+        2654,
+        9767,
         0
       ]
     },
@@ -4730,8 +4767,8 @@
       },
       "item": 2003,
       "world": [
-        2710,
-        3485,
+        2695,
+        3493,
         0
       ]
     },

@@ -240,9 +240,12 @@
       "text": "Buy Dragon scim\nLocation: Ape Atoll",
       "manual": true,
       "world": [
-        2750,
-        2750,
+        2759,
+        2775,
         0
+      ],
+      "npcs": [
+        5250
       ]
     },
     {

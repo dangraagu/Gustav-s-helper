@@ -401,9 +401,10 @@
       "title": "complete Morytania Medium & Hard Diary",
       "text": "complete Morytania Medium & Hard Diary",
       "manual": true,
+      "object": 22355,
       "world": [
-        3493,
-        3488,
+        3795,
+        2844,
         0
       ]
     },

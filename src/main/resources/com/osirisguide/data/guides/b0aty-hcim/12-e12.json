@@ -80,7 +80,13 @@
       "id": "e12-007",
       "title": "Head back to the Trader Crewmember",
       "text": "Head back to the Trader Crewmember",
-      "manual": true
+      "manual": true,
+      "npc": 9312,
+      "world": [
+        1742,
+        3135,
+        0
+      ]
     },
     {
       "id": "e12-008",
@@ -130,7 +136,13 @@
       "id": "e12-012",
       "title": "AJP Fairy Ring",
       "text": "AJP Fairy Ring",
-      "manual": true
+      "manual": true,
+      "npc": 12935,
+      "world": [
+        1683,
+        2973,
+        0
+      ]
     },
     {
       "id": "e12-013",
@@ -166,7 +178,13 @@
       "id": "e12-015",
       "title": "Head North-West to Ortus Farm",
       "text": "Head North-West to Ortus Farm",
-      "manual": true
+      "manual": true,
+      "object": 54692,
+      "world": [
+        1498,
+        3132,
+        0
+      ]
     },
     {
       "id": "e12-016",
@@ -300,7 +318,13 @@
       "id": "e12-026",
       "title": "AJP Fairy Ring",
       "text": "AJP Fairy Ring",
-      "manual": true
+      "manual": true,
+      "npc": 12935,
+      "world": [
+        1683,
+        2973,
+        0
+      ]
     },
     {
       "id": "e12-027",
@@ -519,7 +543,13 @@
       "id": "e12-042",
       "title": "Bank at Cam Torum",
       "text": "Bank at Cam Torum",
-      "manual": true
+      "manual": true,
+      "npc": 14310,
+      "world": [
+        1466,
+        9570,
+        1
+      ]
     },
     {
       "id": "e12-043",
