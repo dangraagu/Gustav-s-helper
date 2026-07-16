@@ -400,6 +400,39 @@ def amenity_lookup(name, loc, anchor=None):
     return [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
 
 
+# --- Manual coordinate overrides ----------------------------------------------
+# tools/data/manual_coords.json: { "<exact step text, lowercased>": [x, y, plane] } — human-verified
+# spots that beat EVERY automatic layer. This is where hand-filled context lands, keyed by step text
+# so it survives regeneration and re-scraping.
+MANUAL_COORDS = {}
+
+
+def load_manual():
+    p = Path(__file__).parent / "data" / "manual_coords.json"
+    if not p.exists():
+        return 0
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read manual_coords.json ({e})", file=sys.stderr)
+        return 0
+    n = 0
+    for k, v in data.items():
+        if k.startswith("_"):
+            continue  # comment keys
+        if isinstance(v, (list, tuple)) and len(v) >= 2:
+            MANUAL_COORDS[k.strip().lower()] = v
+            n += 1
+    return n
+
+
+def manual_lookup(name):
+    v = MANUAL_COORDS.get((name or "").strip().lower())
+    if not v:
+        return None
+    return [int(v[0]), int(v[1]), int(v[2]) if len(v) > 2 else 0]
+
+
 # --- Resource sites: where you actually mine/chop/fish/kill -------------------
 # resources.json (wiki-harvested) maps a resource ("clay rocks", "oak tree", "fishing shrimp", "cow")
 # to a LIST of sites; the step resolves to the site NEAREST the route's current position (anchor),
@@ -660,6 +693,9 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     # else the area centre from the loc field; else the area centre from any place named in the step
     # text ("go to Falador" -> Falador centre). This fills the "no clickable spot" steps.
     enrich_entity(step, name, step.get("complete", {}).get("op"), item_id, entities)
+    mc = manual_lookup(name)
+    if mc:
+        step["world"] = mc  # human-verified override beats every automatic layer (keeps npc/object ids)
     if "world" not in step:
         # amenity (the actual shop/facility for the action) > resource site (mine/chop/fish/kill,
         # nearest to the route's current position) > loc-hint centre > quest-start tile > any place
@@ -667,13 +703,15 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
         world = amenity_lookup(name, loc, anchor)
         if not world:
             world = resource_lookup(name, anchor)
-        if not world:
-            world = gazetteer_lookup(loc)
+        # For a quest step, the quest-start NPC's exact tile beats the loc hint: the hint is almost
+        # always just the town name (= a coarse centre), while the start tile is a real doorstep.
         cq = step.get("complete", {})
         if not world and cq.get("op") == "quest":
             qs = QUEST_START_BY_CONST.get(cq.get("quest"))
             if qs:
                 world = list(qs)
+        if not world:
+            world = gazetteer_lookup(loc)
         if not world:
             world = gazetteer_lookup(name)
         if world:
@@ -700,9 +738,10 @@ def main():
     nqs = load_quest_start(quest_map)
     nam = load_amenities()
     nres = load_resources()
+    nman = load_manual()
     entities = load_qh_entities()
     print(f"loaded {len(item_map)} item names, {len(quest_map)} quest names, {len(GAZETTEER)} "
-          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, "
+          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, {nman} manual overrides, "
           f"{len(entities['npcs'])} npcs + {len(entities['objects'])} objects (QH refs)")
 
     # Fetch every section first (need all steps to total the item needs before building).

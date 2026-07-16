@@ -69,8 +69,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2440,
-        3460,
+        2466,
+        3495,
         0
       ]
     },
@@ -134,8 +134,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2728,
-        3714,
+        2732,
+        3713,
         0
       ]
     },
@@ -160,8 +160,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2728,
-        3714,
+        3140,
+        3504,
         0
       ]
     },
@@ -186,8 +186,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2840,
-        3358,
+        3047,
+        3236,
         0
       ]
     },
@@ -207,8 +207,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2440,
-        3460,
+        2637,
+        3218,
         0
       ]
     },
@@ -216,7 +216,12 @@
       "id": "sg-017",
       "title": "Smith the rest of your iron …",
       "text": "Smith the rest of your iron dart tips, leave 20 bars for quests\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        2652,
+        3164,
+        0
+      ]
     },
     {
       "id": "sg-018a",
@@ -256,8 +261,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2652,
-        3485,
+        2573,
+        3321,
         0
       ]
     },
@@ -271,8 +276,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2840,
-        3358,
+        3047,
+        3236,
         0
       ]
     },
@@ -442,8 +447,8 @@
         "state": "FINISHED"
       },
       "world": [
-        1725,
-        3128,
+        1365,
+        3366,
         0
       ]
     },
@@ -672,8 +677,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2244,
-        3182,
+        2572,
+        3296,
         0
       ]
     },
