@@ -26,9 +26,15 @@
       "item": 557
     },
     {
-      "id": "e11-002",
-      "title": "Teleport to POH and make house …",
-      "text": "Teleport to POH and make house tabs with all the soft clay from Perilous Moons. Talk to Demon Butler when there are 3 clay left in your inventory for correct timing.",
+      "id": "e11-002a",
+      "title": "Teleport to POH",
+      "text": "Teleport to POH",
+      "manual": true
+    },
+    {
+      "id": "e11-002b",
+      "title": "make house tabs with all the …",
+      "text": "make house tabs with all the soft clay from Perilous Moons",
       "complete": {
         "op": "quest",
         "quest": "PERILOUS_MOONS",
@@ -37,6 +43,18 @@
       "world": [
         1435,
         3124,
+        0
+      ]
+    },
+    {
+      "id": "e11-002c",
+      "title": "Talk to Demon Butler when there …",
+      "text": "Talk to Demon Butler when there are 3 clay left in your inventory for correct timing",
+      "manual": true,
+      "npc": 13833,
+      "world": [
+        1426,
+        2919,
         0
       ]
     },
@@ -111,7 +129,7 @@
     {
       "id": "e11-009",
       "title": "Withdraw: Bow of Faerdhinen, Crystal Armour …",
-      "text": "Withdraw: Bow of Faerdhinen, Crystal Armour & combat gear.",
+      "text": "Withdraw: Bow of Faerdhinen, Crystal Armour & combat gear",
       "manual": true,
       "world": [
         3165,
@@ -192,31 +210,37 @@
       ]
     },
     {
-      "id": "e11-017",
+      "id": "e11-017a",
       "title": "Withdraw: Combat Gear (Bow of Faerdhinen), …",
-      "text": "Withdraw: Combat Gear (Bow of Faerdhinen), Pickaxe, Dramen Staff, Teleport Runes, Slayer Helmet, Spade, Ectophial, Silver Bar, Pot, Restore Potion (3), Garlic, Elf Teleport Crystal",
+      "text": "Withdraw: Combat Gear (Bow of Faerdhinen), Pickaxe, Dramen Staff",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 2355,
-            "qty": 151
+            "id": 1379,
+            "qty": 10
           },
           {
             "op": "item",
-            "id": 2355,
-            "qty": 151,
+            "id": 1379,
+            "qty": 10,
             "scope": "ANY"
           }
         ]
       },
-      "item": 2355,
+      "item": 1379,
       "world": [
         3165,
         3490,
         0
       ]
+    },
+    {
+      "id": "e11-017b",
+      "title": "Teleport Runes, Slayer Helmet, Spade, Ectophial, …",
+      "text": "Teleport Runes, Slayer Helmet, Spade, Ectophial, Silver Bar, Pot, Restore Potion (3), Garlic, Elf Teleport Crystal",
+      "manual": true
     },
     {
       "id": "e11-018",
@@ -266,17 +290,29 @@
       "id": "e11-022",
       "title": "Teleport to POH -> Kharyrll Portal …",
       "text": "Teleport to POH -> Kharyrll Portal [Morytania Hard Diary]",
-      "manual": true,
       "world": [
         3493,
         3488,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3493,
+        "y": 3488,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e11-023",
-      "title": "Head to the Slayer Tower and …",
-      "text": "Head to the Slayer Tower and climb both of the Spike climbs [Morytania Hard Diary]",
+      "id": "e11-023a",
+      "title": "Head to the Slayer Tower",
+      "text": "Head to the Slayer Tower",
+      "manual": true
+    },
+    {
+      "id": "e11-023b",
+      "title": "climb both of the Spike climbs …",
+      "text": "climb both of the Spike climbs [Morytania Hard Diary]",
       "manual": true,
       "world": [
         3493,
@@ -350,9 +386,15 @@
       "manual": true
     },
     {
-      "id": "e11-032",
-      "title": "Talk to Le Sabre and complete …",
-      "text": "Talk to Le Sabre and complete Morytania Medium & Hard Diary",
+      "id": "e11-032a",
+      "title": "Talk to Le Sabre",
+      "text": "Talk to Le Sabre",
+      "manual": true
+    },
+    {
+      "id": "e11-032b",
+      "title": "complete Morytania Medium & Hard Diary",
+      "text": "complete Morytania Medium & Hard Diary",
       "manual": true,
       "world": [
         3493,
@@ -468,7 +510,7 @@
     {
       "id": "e11-044",
       "title": "You can now turn all herbs …",
-      "text": "You can now turn all herbs into unfinished potions which is always worth the cost.",
+      "text": "You can now turn all herbs into unfinished potions which is always worth the cost",
       "manual": true
     },
     {
@@ -519,12 +561,18 @@
       "id": "e11-048",
       "title": "Teleport to Kourend Woodland",
       "text": "Teleport to Kourend Woodland",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e11-049",
@@ -652,12 +700,18 @@
       "id": "e11-061",
       "title": "Teleport to Shayzien",
       "text": "Teleport to Shayzien",
-      "manual": true,
       "world": [
         1517,
         3592,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1517,
+        "y": 3592,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e11-062",
@@ -680,12 +734,18 @@
       "id": "e11-064",
       "title": "Teleport to Shayzien",
       "text": "Teleport to Shayzien",
-      "manual": true,
       "world": [
         1517,
         3592,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1517,
+        "y": 3592,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e11-065",
@@ -694,9 +754,15 @@
       "manual": true
     },
     {
-      "id": "e11-066",
+      "id": "e11-066a",
       "title": "Kill Soldiers from (Tier 1) -> …",
-      "text": "Kill Soldiers from (Tier 1) -> (Tier 5). Drop the obsolete sets when upgraded",
+      "text": "Kill Soldiers from (Tier 1) -> (Tier 5)",
+      "manual": true
+    },
+    {
+      "id": "e11-066b",
+      "title": "Drop the obsolete sets when upgraded",
+      "text": "Drop the obsolete sets when upgraded",
       "manual": true
     },
     {
@@ -734,26 +800,10 @@
       ]
     },
     {
-      "id": "e11-071",
+      "id": "e11-071a",
       "title": "Withdraw: Bow of Fardhinen, Full Crystal, …",
-      "text": "Withdraw: Bow of Fardhinen, Full Crystal, Shayzien Armour 5 (all pieces), Teleport Runes, Antipoison, few food & potions, Dramen Staff",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 1379,
-            "qty": 14
-          },
-          {
-            "op": "item",
-            "id": 1379,
-            "qty": 14,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 1379,
+      "text": "Withdraw: Bow of Fardhinen, Full Crystal, Shayzien Armour 5 (all pieces)",
+      "manual": true,
       "world": [
         1517,
         3592,
@@ -761,9 +811,21 @@
       ]
     },
     {
-      "id": "e11-072",
-      "title": "Head North and kill a Lizardmen …",
-      "text": "Head North and kill a Lizardmen until you get a Xerics Talisman Drop. Take all Fangs. Wear the Crystal",
+      "id": "e11-071b",
+      "title": "Teleport Runes, Antipoison, few food & …",
+      "text": "Teleport Runes, Antipoison, few food & potions, Dramen Staff",
+      "manual": true
+    },
+    {
+      "id": "e11-072a",
+      "title": "Head North",
+      "text": "Head North",
+      "manual": true
+    },
+    {
+      "id": "e11-072b",
+      "title": "kill a Lizardmen until you get …",
+      "text": "kill a Lizardmen until you get a Xerics Talisman Drop",
       "manual": true,
       "world": [
         3165,
@@ -772,9 +834,27 @@
       ]
     },
     {
-      "id": "e11-073",
-      "title": "Head West and kill 1 Lizardman …",
-      "text": "Head West and kill 1 Lizardman Shaman (Wear the Shayzien armour. You can just stand still by a wall if you want you only need 1 kill) [Kourend Hard Diary]",
+      "id": "e11-072c",
+      "title": "Take all Fangs",
+      "text": "Take all Fangs",
+      "manual": true
+    },
+    {
+      "id": "e11-072d",
+      "title": "Wear the Crystal",
+      "text": "Wear the Crystal",
+      "manual": true
+    },
+    {
+      "id": "e11-073a",
+      "title": "Head West",
+      "text": "Head West",
+      "manual": true
+    },
+    {
+      "id": "e11-073b",
+      "title": "kill 1 Lizardman Shaman (Wear the …",
+      "text": "kill 1 Lizardman Shaman (Wear the Shayzien armour. You can just stand still by a wall if you want you only need 1 kill) [Kourend Hard Diary]",
       "manual": true,
       "world": [
         1517,
@@ -795,9 +875,15 @@
       "manual": true
     },
     {
-      "id": "e11-076",
-      "title": "Buy Brimstone boots and kill 1 …",
-      "text": "Buy Brimstone boots and kill 1 Wyrm [Kourend Hard Diary]",
+      "id": "e11-076a",
+      "title": "Buy Brimstone boots",
+      "text": "Buy Brimstone boots",
+      "manual": true
+    },
+    {
+      "id": "e11-076b",
+      "title": "kill 1 Wyrm [Kourend Hard Diary]",
+      "text": "kill 1 Wyrm [Kourend Hard Diary]",
       "manual": true,
       "world": [
         1630,
@@ -809,12 +895,18 @@
       "id": "e11-077",
       "title": "Teleport to Xerics Heart on Xerics …",
       "text": "Teleport to Xerics Heart on Xerics Talisman [Kourend Hard Diary]",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e11-078",
@@ -1003,7 +1095,7 @@
     {
       "id": "e11-096",
       "title": "If you skipped Blade of Saeldor …",
-      "text": "If you skipped Blade of Saeldor you can get Kraken Whip which is decent before Nox Hally.",
+      "text": "If you skipped Blade of Saeldor you can get Kraken Whip which is decent before Nox Hally",
       "manual": true,
       "world": [
         3165,

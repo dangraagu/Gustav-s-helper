@@ -86,13 +86,76 @@ public class Progression
 	public boolean process(ConditionContext ctx)
 	{
 		boolean changed = false;
+		// A position (arrival) trigger only means "you're standing here", NOT "you did everything up to
+		// here" — and travel destinations recur across a route, so a far-future waypoint can sit right
+		// where you are now. Only trust an arrival while no earlier REAL gate (a non-manual, non-position
+		// step whose condition isn't met) is still pending; otherwise a nearby late waypoint would complete
+		// out of order and the milestone-fold would wipe the guide. Skill/quest/item conditions still
+		// complete anywhere they're genuinely true (an existing account legitimately already has them).
+		boolean realGatePending = false;
 		for (RouteStep s : route.getSteps())
 		{
 			if (!s.appliesTo(mode) || completed.contains(s.getId()))
 			{
 				continue;
 			}
-			if (isAutoCompleteSafe(s, ctx))
+			boolean met = isAutoCompleteSafe(s, ctx);
+			if (s.isPositionTriggered())
+			{
+				if (met && !realGatePending)
+				{
+					completed.add(s.getId());
+					changed = true;
+				}
+				// an un-arrived position step is "soft" — it never blocks later steps
+			}
+			else if (met)
+			{
+				completed.add(s.getId());
+				changed = true;
+			}
+			else if (!s.isManual())
+			{
+				realGatePending = true; // a genuine unmet gate: don't trust arrivals beyond this point
+			}
+		}
+		return changed;
+	}
+
+	/**
+	 * Auto-completes <b>manual</b> steps that sit before the furthest milestone the player has already
+	 * reached. Rationale: you cannot have completed a later step without passing the earlier flavour
+	 * steps ("sell bronze", "drop runes") that have no detectable trigger — so a manual step behind a
+	 * reached milestone is folded done. A step with its own real (non-manual) trigger is <b>never</b>
+	 * folded, even if it sits before the milestone: that would skip real work whose condition simply is
+	 * not met yet. Call this after {@link #process}; it is what gives the "steps advance by themselves"
+	 * feel for the ~60% of steps that carry no game-state trigger.
+	 *
+	 * @return true if any step was folded complete (caller should refresh UI / persist)
+	 */
+	public boolean foldManualBehindMilestones()
+	{
+		java.util.List<RouteStep> steps = route.getSteps();
+		int furthest = -1;
+		for (int i = 0; i < steps.size(); i++)
+		{
+			RouteStep s = steps.get(i);
+			if (s.appliesTo(mode) && completed.contains(s.getId()))
+			{
+				furthest = i;
+			}
+		}
+		if (furthest < 0)
+		{
+			return false;
+		}
+		boolean changed = false;
+		for (int i = 0; i < furthest; i++)
+		{
+			RouteStep s = steps.get(i);
+			// Fold only genuine flavour steps: manual, no NPC/object to interact with. A manual step that
+			// highlights an NPC/object ("talk to the Duke") is real work and is never skipped.
+			if (s.appliesTo(mode) && s.isManual() && !s.hasInteractionTarget() && !completed.contains(s.getId()))
 			{
 				completed.add(s.getId());
 				changed = true;

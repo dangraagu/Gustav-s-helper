@@ -51,26 +51,28 @@
       ]
     },
     {
-      "id": "s23-004",
+      "id": "s23-004a",
       "title": "Make a composite ogre bow (comp …",
-      "text": "Make a composite ogre bow (comp ogre bow) and 150 mithril brutal arrows, kill 125 chompies for the diary. Speak with Rantz to collect a (handful of) Chompy bird hat(s).",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 4793,
-            "qty": 150
-          },
-          {
-            "op": "item",
-            "id": 4793,
-            "qty": 150,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 4793,
+      "text": "Make a composite ogre bow (comp ogre bow) and 150 mithril brutal arrows",
+      "manual": true,
+      "npc": 2095,
+      "world": [
+        2570,
+        2975,
+        0
+      ]
+    },
+    {
+      "id": "s23-004b",
+      "title": "kill 125 chompies for the diary",
+      "text": "kill 125 chompies for the diary",
+      "manual": true
+    },
+    {
+      "id": "s23-004c",
+      "title": "Speak with Rantz to collect a …",
+      "text": "Speak with Rantz to collect a (handful of) Chompy bird hat(s)",
+      "manual": true,
       "npc": 1470,
       "world": [
         2628,
@@ -106,9 +108,9 @@
       ]
     },
     {
-      "id": "s23-007",
-      "title": "Fairy ring to Zanaris, resume and …",
-      "text": "Fairy ring to Zanaris, resume and complete Fairytale II - Cure a Queen (xp on slayer). Take fairy ring BIQ to the desert and meet up with the scout for The General’s Shadow.",
+      "id": "s23-007a",
+      "title": "Fairy ring to Zanaris, resume, complete …",
+      "text": "Fairy ring to Zanaris, resume, complete Fairytale II - Cure a Queen (xp on slayer)",
       "complete": {
         "op": "quest",
         "quest": "FAIRYTALE_II__CURE_A_QUEEN",
@@ -121,14 +123,52 @@
       ]
     },
     {
-      "id": "s23-008",
-      "title": "Teleport (tab) to Rellekka, speak with …",
-      "text": "Teleport (tab) to Rellekka, speak with General Khazard to give him the message and get a severed leg.",
+      "id": "s23-007b",
+      "title": "Take fairy ring BIQ to the …",
+      "text": "Take fairy ring BIQ to the desert and meet up with the scout for The General’s Shadow",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GENERALS_SHADOW",
+        "state": "FINISHED"
+      },
+      "world": [
+        2718,
+        3628,
+        0
+      ]
+    },
+    {
+      "id": "s23-008a",
+      "title": "Teleport (tab) to Rellekka",
+      "text": "Teleport (tab) to Rellekka",
+      "manual": true,
+      "npc": 1940,
+      "world": [
+        2420,
+        3781,
+        0
+      ]
+    },
+    {
+      "id": "s23-008b",
+      "title": "speak with General Khazard to give …",
+      "text": "speak with General Khazard to give him the message",
       "manual": true,
       "npc": 3510,
       "world": [
         2718,
         3628,
+        0
+      ]
+    },
+    {
+      "id": "s23-008c",
+      "title": "get a severed leg",
+      "text": "get a severed leg",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
         0
       ]
     },
@@ -148,9 +188,9 @@
       ]
     },
     {
-      "id": "s23-010",
+      "id": "s23-010a",
       "title": "Kill the following for Rag and …",
-      "text": "Kill the following for Rag and Bone Man II, then complete the quest:",
+      "text": "Kill the following for Rag and Bone Man II",
       "complete": {
         "op": "quest",
         "quest": "RAG_AND_BONE_MAN_II",
@@ -161,6 +201,12 @@
         3172,
         0
       ]
+    },
+    {
+      "id": "s23-010b",
+      "title": "complete the quest:",
+      "text": "complete the quest:",
+      "manual": true
     },
     {
       "id": "s23-011",

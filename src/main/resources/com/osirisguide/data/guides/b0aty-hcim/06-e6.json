@@ -13,12 +13,12 @@
           {
             "op": "itemAcquired",
             "id": 1929,
-            "qty": 33
+            "qty": 32
           },
           {
             "op": "item",
             "id": 1929,
-            "qty": 33,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -45,12 +45,18 @@
       "id": "e6-003",
       "title": "Head North & cut a Mahogany …",
       "text": "Head North & cut a Mahogany Log [Kourend Medium Diary]",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e6-004",
@@ -89,9 +95,15 @@
       "manual": true
     },
     {
-      "id": "e6-008",
+      "id": "e6-008a",
       "title": "Run north and then east towards …",
-      "text": "Run north and then east towards bloodvelds and Kill a greater demon with Darklight (2 CA points) (Don't get alfie'd by the iron dragons)",
+      "text": "Run north and then east towards bloodvelds",
+      "manual": true
+    },
+    {
+      "id": "e6-008b",
+      "title": "Kill a greater demon with Darklight …",
+      "text": "Kill a greater demon with Darklight (2 CA points) (Don't get alfie'd by the iron dragons)",
       "manual": true,
       "world": [
         3165,
@@ -100,15 +112,33 @@
       ]
     },
     {
-      "id": "e6-009",
+      "id": "e6-009a",
       "title": "Run back to the entrance of …",
-      "text": "Run back to the entrance of the catacombs and run west, Kill a hellhound (1 Point)",
+      "text": "Run back to the entrance of the catacombs",
       "manual": true
     },
     {
-      "id": "e6-010",
+      "id": "e6-009b",
+      "title": "run west",
+      "text": "run west",
+      "manual": true
+    },
+    {
+      "id": "e6-009c",
+      "title": "Kill a hellhound (1 Point)",
+      "text": "Kill a hellhound (1 Point)",
+      "manual": true
+    },
+    {
+      "id": "e6-010a",
       "title": "Right before the hellhounds room, Take …",
-      "text": "Right before the hellhounds room, Take shortcut to Giants den and kill each of the 3 giants (Fire, Hill, Moss). (1 Point)",
+      "text": "Right before the hellhounds room, Take shortcut to Giants den",
+      "manual": true
+    },
+    {
+      "id": "e6-010b",
+      "title": "kill each of the 3 giants …",
+      "text": "kill each of the 3 giants (Fire, Hill, Moss). (1 Point)",
       "manual": true
     },
     {
@@ -209,12 +239,18 @@
       "id": "e6-024",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e6-025",
@@ -404,9 +440,15 @@
       ]
     },
     {
-      "id": "e6-041",
-      "title": "70 Mining - 3t Sand and …",
-      "text": "70 Mining - 3t Sand and deposit in the grinder for future grinds. Leave for Herb Runs and use Camulet to return",
+      "id": "e6-041a",
+      "title": "70 Mining - 3t Sand, deposit …",
+      "text": "70 Mining - 3t Sand, deposit in the grinder for future grinds. Leave for Herb Runs",
+      "manual": true
+    },
+    {
+      "id": "e6-041b",
+      "title": "use Camulet to return",
+      "text": "use Camulet to return",
       "manual": true
     },
     {
@@ -418,13 +460,13 @@
     {
       "id": "e6-043",
       "title": "70 Farming - Should be completed …",
-      "text": "70 Farming - Should be completed passively.",
+      "text": "70 Farming - Should be completed passively",
       "manual": true
     },
     {
       "id": "e6-044",
       "title": "70 Hunter - Should be completed …",
-      "text": "70 Hunter - Should be completed passively with BHRs.",
+      "text": "70 Hunter - Should be completed passively with BHRs",
       "manual": true
     },
     {
@@ -509,23 +551,35 @@
       "id": "e6-052",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e6-053",
       "title": "Head to Varlamore",
       "text": "Head to Varlamore",
-      "manual": true,
       "world": [
         1725,
         3128,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e6-054",
@@ -627,13 +681,25 @@
       }
     },
     {
-      "id": "e6-060",
+      "id": "e6-060a",
       "title": "Collect Easy CA's from Ghommal. Lamp …",
-      "text": "Collect Easy CA's from Ghommal. Lamp on herblore. Get a Dragon Defender at Warriors Guild, training on Defensive",
+      "text": "Collect Easy CA's from Ghommal. Lamp on herblore",
       "manual": true,
       "npc": 13613,
       "world": [
         2878,
+        3546,
+        0
+      ]
+    },
+    {
+      "id": "e6-060b",
+      "title": "Get a Dragon Defender at Warriors …",
+      "text": "Get a Dragon Defender at Warriors Guild, training on Defensive",
+      "manual": true,
+      "object": 24318,
+      "world": [
+        2877,
         3546,
         0
       ]
@@ -766,26 +832,44 @@
       }
     },
     {
-      "id": "e6-073",
-      "title": "Teleport to Kourend. Enter Catacombs. Head …",
-      "text": "Teleport to Kourend. Enter Catacombs. Head West & climb the Vine for Giants Pit",
-      "manual": true,
+      "id": "e6-073a",
+      "title": "Teleport to Kourend",
+      "text": "Teleport to Kourend",
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e6-073b",
+      "title": "Enter Catacombs",
+      "text": "Enter Catacombs",
+      "manual": true
+    },
+    {
+      "id": "e6-073c",
+      "title": "Head West & climb the Vine …",
+      "text": "Head West & climb the Vine for Giants Pit",
+      "manual": true
     },
     {
       "id": "e6-074",
       "title": "Complete Obor Combat Achievements - You …",
-      "text": "Complete Obor Combat Achievements - You need 1 key to do all of the CA's aside from the 5 KC task. You can farm 5 keys here.",
+      "text": "Complete Obor Combat Achievements - You need 1 key to do all of the CA's aside from the 5 KC task. You can farm 5 keys here",
       "manual": true
     },
     {
       "id": "e6-075",
       "title": "Complete Bryophyta Combat Achievements - You …",
-      "text": "Complete Bryophyta Combat Achievements - You need 1 key to do all of the CA's aside from the 5 KC task. You can farm 5 keys here.",
+      "text": "Complete Bryophyta Combat Achievements - You need 1 key to do all of the CA's aside from the 5 KC task. You can farm 5 keys here",
       "manual": true
     }
   ]

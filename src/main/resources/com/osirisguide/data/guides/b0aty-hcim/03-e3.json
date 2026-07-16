@@ -4,37 +4,49 @@
   "section": "Episode 3 - Banks 76 through 104B:",
   "steps": [
     {
-      "id": "e3-001",
-      "title": "Withdraw: Soft Clay, Bear Fur, Coins, …",
-      "text": "Withdraw: Soft Clay, Bear Fur, Coins, Teleport Runes, Empty Sack, Death Runes, 5x Wines (14 Inventory Slots)",
+      "id": "e3-001a",
+      "title": "Withdraw: Soft Clay, Bear Fur, Coins",
+      "text": "Withdraw: Soft Clay, Bear Fur, Coins",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 560,
-            "qty": 201
+            "id": 1761,
+            "qty": 1
           },
           {
             "op": "item",
-            "id": 560,
-            "qty": 203,
+            "id": 1761,
+            "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 560
+      "item": 1761
+    },
+    {
+      "id": "e3-001b",
+      "title": "Teleport Runes, Empty Sack, Death Runes, …",
+      "text": "Teleport Runes, Empty Sack, Death Runes, 5x Wines (14 Inventory Slots)",
+      "manual": true
     },
     {
       "id": "e3-002",
       "title": "Head South of the Farming Guild",
       "text": "Head South of the Farming Guild",
-      "manual": true,
       "world": [
         1249,
         3737,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1249,
+        "y": 3737,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-003",
@@ -60,7 +72,7 @@
     {
       "id": "e3-005",
       "title": "During the quest, collect a cowhide …",
-      "text": "During the quest, collect a cowhide in the Headless Beast's cave. Cowhides will not spawn in the cave after you kill the Headless Beast.",
+      "text": "During the quest, collect a cowhide in the Headless Beast's cave. Cowhides will not spawn in the cave after you kill the Headless Beast",
       "complete": {
         "op": "or",
         "of": [
@@ -229,26 +241,32 @@
       ]
     },
     {
-      "id": "e3-019",
-      "title": "Withdraw: Coins, Spade, Teleport Runes, Pickaxe, …",
-      "text": "Withdraw: Coins, Spade, Teleport Runes, Pickaxe, Rune Sword, Antipoison, Excalibur, 3x Jute Seeds,5x Wines (16 Inventory Slots)",
+      "id": "e3-019a",
+      "title": "Withdraw: Coins, Spade",
+      "text": "Withdraw: Coins, Spade",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 1289,
-            "qty": 3
+            "id": 952,
+            "qty": 1
           },
           {
             "op": "item",
-            "id": 1289,
+            "id": 952,
             "qty": 3,
             "scope": "ANY"
           }
         ]
       },
-      "item": 1289
+      "item": 952
+    },
+    {
+      "id": "e3-019b",
+      "title": "Teleport Runes, Pickaxe, Rune Sword, Antipoison, …",
+      "text": "Teleport Runes, Pickaxe, Rune Sword, Antipoison, Excalibur, 3x Jute Seeds,5x Wines (16 Inventory Slots)",
+      "manual": true
     },
     {
       "id": "e3-020",
@@ -299,9 +317,9 @@
       ]
     },
     {
-      "id": "e3-024",
-      "title": "Talk to Galahad again and complete …",
-      "text": "Talk to Galahad again and complete dialogue (3) [Kandarian Easy Diary]",
+      "id": "e3-024a",
+      "title": "Talk to Galahad again",
+      "text": "Talk to Galahad again",
       "manual": true,
       "npc": 4064,
       "world": [
@@ -309,6 +327,12 @@
         3475,
         0
       ]
+    },
+    {
+      "id": "e3-024b",
+      "title": "complete dialogue (3) [Kandarian Easy Diary]",
+      "text": "complete dialogue (3) [Kandarian Easy Diary]",
+      "manual": true
     },
     {
       "id": "e3-025",
@@ -401,9 +425,9 @@
       ]
     },
     {
-      "id": "e3-033",
-      "title": "Buy Seaweed from Charter. Drop this …",
-      "text": "Buy Seaweed from Charter. Drop this and pick it up 5x [Karamja Easy Diary]",
+      "id": "e3-033a",
+      "title": "Buy Seaweed from Charter",
+      "text": "Buy Seaweed from Charter",
       "complete": {
         "op": "or",
         "of": [
@@ -420,7 +444,19 @@
           }
         ]
       },
-      "item": 401,
+      "item": 401
+    },
+    {
+      "id": "e3-033b",
+      "title": "Drop this",
+      "text": "Drop this",
+      "manual": true
+    },
+    {
+      "id": "e3-033c",
+      "title": "pick it up 5x [Karamja Easy …",
+      "text": "pick it up 5x [Karamja Easy Diary]",
+      "manual": true,
       "world": [
         2843,
         3070,
@@ -612,12 +648,18 @@
       "id": "e3-047",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-048",
@@ -635,9 +677,15 @@
       ]
     },
     {
-      "id": "e3-049",
-      "title": "Fill the buckets and make 2x …",
-      "text": "Fill the buckets and make 2x Soft Clay. Refill the Buckets",
+      "id": "e3-049a",
+      "title": "Fill the buckets",
+      "text": "Fill the buckets",
+      "manual": true
+    },
+    {
+      "id": "e3-049b",
+      "title": "make 2x Soft Clay. Refill the …",
+      "text": "make 2x Soft Clay. Refill the Buckets",
       "manual": true
     },
     {
@@ -692,12 +740,18 @@
       "id": "e3-055",
       "title": "Head to Barbarian Village",
       "text": "Head to Barbarian Village",
-      "manual": true,
       "world": [
         3080,
         3427,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3080,
+        "y": 3427,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-056",
@@ -770,9 +824,15 @@
       ]
     },
     {
-      "id": "e3-062",
-      "title": "Mine 4 Clay and make Soft …",
-      "text": "Mine 4 Clay and make Soft Clay",
+      "id": "e3-062a",
+      "title": "Mine 4 Clay",
+      "text": "Mine 4 Clay",
+      "manual": true
+    },
+    {
+      "id": "e3-062b",
+      "title": "make Soft Clay",
+      "text": "make Soft Clay",
       "manual": true
     },
     {
@@ -808,29 +868,20 @@
       "manual": true
     },
     {
-      "id": "e3-066",
-      "title": "Withdraw: Coins, Teleport Runes, Duelling Ring, …",
-      "text": "Withdraw: Coins, Teleport Runes, Duelling Ring, Digsite Pendant, Papyrus, Vial, Pestle & Mortar, Bird Snare, Pickaxe, Adamant Axe, 4 Soft Clay, 5 Wines(21 Inventory Spots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 233,
-            "qty": 63
-          },
-          {
-            "op": "item",
-            "id": 233,
-            "qty": 316,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 233,
+      "id": "e3-066a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true
+    },
+    {
+      "id": "e3-066b",
+      "title": "Teleport Runes, Duelling Ring, Digsite Pendant, …",
+      "text": "Teleport Runes, Duelling Ring, Digsite Pendant, Papyrus, Vial, Pestle & Mortar, Bird Snare, Pickaxe, Adamant Axe, 4 Soft Clay, 5 Wines(21 Inventory Spots)",
+      "manual": true,
+      "object": 2097,
       "world": [
-        3354,
-        3420,
+        3190,
+        3938,
         0
       ]
     },
@@ -858,7 +909,7 @@
     {
       "id": "e3-069",
       "title": "Start the Golem until you have …",
-      "text": "Start the Golem until you have strange implement.",
+      "text": "Start the Golem until you have strange implement",
       "complete": {
         "op": "quest",
         "quest": "THE_GOLEM",
@@ -921,12 +972,18 @@
       "id": "e3-074",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-075",
@@ -944,9 +1001,9 @@
       ]
     },
     {
-      "id": "e3-076",
-      "title": "Talk to Curator Haig Halen, pickpocket …",
-      "text": "Talk to Curator Haig Halen, pickpocket him and open the display case",
+      "id": "e3-076a",
+      "title": "Talk to Curator Haig Halen",
+      "text": "Talk to Curator Haig Halen",
       "manual": true,
       "npc": 5214,
       "world": [
@@ -956,9 +1013,27 @@
       ]
     },
     {
-      "id": "e3-077",
-      "title": "Teleport to Emir's Arena and run …",
-      "text": "Teleport to Emir's Arena and run to Shantay Pass (You can also ardy cloak -> fairy ring DLQ)",
+      "id": "e3-076b",
+      "title": "pickpocket him",
+      "text": "pickpocket him",
+      "manual": true
+    },
+    {
+      "id": "e3-076c",
+      "title": "open the display case",
+      "text": "open the display case",
+      "manual": true
+    },
+    {
+      "id": "e3-077a",
+      "title": "Teleport to Emir's Arena",
+      "text": "Teleport to Emir's Arena",
+      "manual": true
+    },
+    {
+      "id": "e3-077b",
+      "title": "run to Shantay Pass (You can …",
+      "text": "run to Shantay Pass (You can also ardy cloak -> fairy ring DLQ)",
       "manual": true,
       "npc": 4642,
       "world": [
@@ -1034,12 +1109,18 @@
       "id": "e3-083",
       "title": "Teleport & Bank at Camelot",
       "text": "Teleport & Bank at Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-084",
@@ -1051,12 +1132,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 64
+            "qty": 63
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -1189,12 +1270,18 @@
       "id": "e3-095",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-096",
@@ -1215,23 +1302,35 @@
       "id": "e3-097",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-098",
       "title": "Head North-East of Falador",
       "text": "Head North-East of Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-099",
@@ -1273,15 +1372,38 @@
       ]
     },
     {
-      "id": "e3-102",
-      "title": "Head West around Ice Mountain and …",
-      "text": "Head West around Ice Mountain and go towards the Mind Altar",
-      "manual": true,
+      "id": "e3-102a",
+      "title": "Head West around Ice Mountain",
+      "text": "Head West around Ice Mountain",
       "world": [
         3010,
         3486,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3010,
+        "y": 3486,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e3-102b",
+      "title": "go towards the Mind Altar",
+      "text": "go towards the Mind Altar",
+      "world": [
+        2981,
+        3513,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2981,
+        "y": 3513,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-103",
@@ -1352,9 +1474,21 @@
       ]
     },
     {
-      "id": "e3-107",
-      "title": "Talk to Sir Amik Varze and …",
-      "text": "Talk to Sir Amik Varze and Start Recruitment Drive",
+      "id": "e3-107a",
+      "title": "Talk to Sir Amik Varze",
+      "text": "Talk to Sir Amik Varze",
+      "manual": true,
+      "npc": 4771,
+      "world": [
+        2959,
+        3339,
+        2
+      ]
+    },
+    {
+      "id": "e3-107b",
+      "title": "Start Recruitment Drive",
+      "text": "Start Recruitment Drive",
       "complete": {
         "op": "quest",
         "quest": "RECRUITMENT_DRIVE",
@@ -1385,12 +1519,18 @@
       "id": "e3-109",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-110",
@@ -1447,12 +1587,12 @@
           {
             "op": "itemAcquired",
             "id": 29409,
-            "qty": 4
+            "qty": 7
           },
           {
             "op": "item",
             "id": 29409,
-            "qty": 4,
+            "qty": 7,
             "scope": "ANY"
           }
         ]
@@ -1467,19 +1607,25 @@
     {
       "id": "e3-116",
       "title": "OPTIONAL: Bring Sunbeam Ale as well …",
-      "text": "OPTIONAL: Bring Sunbeam Ale as well if 69 agility to use shortcut.",
+      "text": "OPTIONAL: Bring Sunbeam Ale as well if 69 agility to use shortcut",
       "manual": true
     },
     {
       "id": "e3-117",
       "title": "Head to Taverley Dungeon",
       "text": "Head to Taverley Dungeon",
-      "manual": true,
       "world": [
         2884,
         3398,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2884,
+        "y": 3398,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-118",
@@ -1503,12 +1649,18 @@
       "id": "e3-121",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-122",
@@ -1596,9 +1748,15 @@
       "manual": true
     },
     {
-      "id": "e3-128",
-      "title": "Chop and burn some oak logs …",
-      "text": "Chop and burn some oak logs [Fremennik Easy Diary]",
+      "id": "e3-128a",
+      "title": "Chop",
+      "text": "Chop",
+      "manual": true
+    },
+    {
+      "id": "e3-128b",
+      "title": "burn some oak logs [Fremennik Easy …",
+      "text": "burn some oak logs [Fremennik Easy Diary]",
       "manual": true
     },
     {
@@ -1627,7 +1785,7 @@
     {
       "id": "e3-132",
       "title": "Do the tasks in this order …",
-      "text": "Do the tasks in this order so you prevent walking back and fourth from Camelot multiple times.",
+      "text": "Do the tasks in this order so you prevent walking back and fourth from Camelot multiple times",
       "manual": true,
       "world": [
         2758,
@@ -1668,7 +1826,7 @@
     {
       "id": "e3-136",
       "title": "Do Olaf's and Manni's tasks together …",
-      "text": "Do Olaf's and Manni's tasks together but before going back to Camelot to spin the wool for Olaf's task, progress Manni's task until you get the strange object.",
+      "text": "Do Olaf's and Manni's tasks together but before going back to Camelot to spin the wool for Olaf's task, progress Manni's task until you get the strange object",
       "manual": true,
       "npc": 3920,
       "world": [
@@ -1680,7 +1838,7 @@
     {
       "id": "e3-137",
       "title": "When Spinnning the Wool and buying …",
-      "text": "When Spinnning the Wool and buying Alcofree beer Withdraw: Rings of Recoil, Dramen Branch, Knife & lots of food for Warrior Challenge.",
+      "text": "When Spinnning the Wool and buying Alcofree beer Withdraw: Rings of Recoil, Dramen Branch, Knife & lots of food for Warrior Challenge",
       "complete": {
         "op": "or",
         "of": [
@@ -1743,8 +1901,8 @@
     },
     {
       "id": "e3-141",
-      "title": "Do Peer the Seer's task last.",
-      "text": "Do Peer the Seer's task last.",
+      "title": "Do Peer the Seer's task last",
+      "text": "Do Peer the Seer's task last",
       "manual": true,
       "npc": 3895,
       "world": [
@@ -1842,12 +2000,12 @@
           {
             "op": "itemAcquired",
             "id": 1379,
-            "qty": 5
+            "qty": 6
           },
           {
             "op": "item",
             "id": 1379,
-            "qty": 14,
+            "qty": 10,
             "scope": "ANY"
           }
         ]
@@ -1864,12 +2022,18 @@
       "id": "e3-149",
       "title": "Teleport to Barbarian Assault",
       "text": "Teleport to Barbarian Assault",
-      "manual": true,
       "world": [
         2533,
         3571,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2533,
+        "y": 3571,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-150",
@@ -2063,7 +2227,7 @@
     {
       "id": "e3-164",
       "title": "Easy Giants Foundry plugin is helpful …",
-      "text": "Easy Giants Foundry plugin is helpful here.",
+      "text": "Easy Giants Foundry plugin is helpful here",
       "manual": true
     },
     {
@@ -2084,7 +2248,7 @@
     {
       "id": "e3-166",
       "title": "Use 14 Mithril Claws and 7 …",
-      "text": "Use 14 Mithril Claws and 7 B-Axes or War Hammers per inv.",
+      "text": "Use 14 Mithril Claws and 7 B-Axes or War Hammers per inv",
       "manual": true
     },
     {
@@ -2179,9 +2343,9 @@
       "manual": true
     },
     {
-      "id": "e3-174",
-      "title": "Loot 3 Logs. Drop these (This …",
-      "text": "Loot 3 Logs. Drop these (This is so they respawn and you can take 6)",
+      "id": "e3-174a",
+      "title": "Loot 3 Logs",
+      "text": "Loot 3 Logs",
       "complete": {
         "op": "or",
         "of": [
@@ -2199,6 +2363,12 @@
         ]
       },
       "item": 1511
+    },
+    {
+      "id": "e3-174b",
+      "title": "Drop these (This is so they …",
+      "text": "Drop these (This is so they respawn and you can take 6)",
+      "manual": true
     },
     {
       "id": "e3-175",
@@ -2268,12 +2438,18 @@
       "id": "e3-180",
       "title": "Teleport to Castle Wars",
       "text": "Teleport to Castle Wars",
-      "manual": true,
       "world": [
         2407,
         3105,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-181",
@@ -2282,9 +2458,9 @@
       "manual": true
     },
     {
-      "id": "e3-182",
-      "title": "Withdraw: 3x Silverlight keys, Teleport Runes",
-      "text": "Withdraw: 3x Silverlight keys, Teleport Runes",
+      "id": "e3-182a",
+      "title": "Withdraw: 3x Silverlight keys",
+      "text": "Withdraw: 3x Silverlight keys",
       "manual": true,
       "npc": 5083,
       "world": [
@@ -2294,15 +2470,27 @@
       ]
     },
     {
+      "id": "e3-182b",
+      "title": "Teleport Runes",
+      "text": "Teleport Runes",
+      "manual": true
+    },
+    {
       "id": "e3-183",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-184",
@@ -2329,12 +2517,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 65
+            "qty": 64
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -2381,9 +2569,21 @@
       "manual": true
     },
     {
-      "id": "e3-189",
+      "id": "e3-189a",
       "title": "Pick 3 Black mushrooms from the …",
-      "text": "Pick 3 Black mushrooms from the ground, use pestle and mortar on them, then use the vial with black dye on your desert clothes.",
+      "text": "Pick 3 Black mushrooms from the ground",
+      "manual": true
+    },
+    {
+      "id": "e3-189b",
+      "title": "use pestle and mortar on them",
+      "text": "use pestle and mortar on them",
+      "manual": true
+    },
+    {
+      "id": "e3-189c",
+      "title": "use the vial with black dye …",
+      "text": "use the vial with black dye on your desert clothes",
       "manual": true
     },
     {
@@ -2396,12 +2596,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 66
+            "qty": 65
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -2411,7 +2611,7 @@
     {
       "id": "e3-191",
       "title": "The boss fight is fairly challenging. …",
-      "text": "The boss fight is fairly challenging. If not flinching, a recoil is excellent. Use Blast Spells (25% water weakness)",
+      "text": "The boss fight is fairly challenging. If not flinching, a recoil is excellent, Use Blast Spells (25% water weakness)",
       "manual": true
     },
     {
@@ -2540,12 +2740,18 @@
       "id": "e3-201",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-202",
@@ -2693,7 +2899,7 @@
     {
       "id": "e3-211",
       "title": "Withdraw: Coins, 1 Law Rune, 5 …",
-      "text": "Withdraw: Coins, 1 Law Rune, 5 Air Runes,",
+      "text": "Withdraw: Coins, 1 Law Rune, 5 Air Runes",
       "complete": {
         "op": "or",
         "of": [
@@ -2740,12 +2946,18 @@
       "id": "e3-214",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-215",
@@ -2772,7 +2984,7 @@
     {
       "id": "e3-216",
       "title": "Inventory should be: 1 Law, 5 …",
-      "text": "Inventory should be: 1 Law, 5 Air, Steel knives, Studded Chaps, Recoil Ring, 23 Karambwan, And knives you bought earlier in the guide.",
+      "text": "Inventory should be: 1 Law, 5 Air, Steel knives, Studded Chaps, Recoil Ring, 23 Karambwan, And knives you bought earlier in the guide",
       "manual": true
     },
     {
@@ -2830,7 +3042,7 @@
     {
       "id": "e3-221",
       "title": "WARNING (HCIM): Be careful crossing the …",
-      "text": "WARNING (HCIM): Be careful crossing the bridge, if you weight more than 0kg, you will fall and take 20 hp damage",
+      "text": "WARNING (HCIM): Be careful crossing the bridge, if you weight more than 0kg, you will fall, take 20 hp damage",
       "manual": true,
       "world": [
         3165,
@@ -2845,9 +3057,20 @@
       "manual": true
     },
     {
-      "id": "e3-223",
+      "id": "e3-223a",
       "title": "Cross the bridge in the north …",
-      "text": "Cross the bridge in the north room and pick up the lever while weighing less than 0kg",
+      "text": "Cross the bridge in the north room",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e3-223b",
+      "title": "pick up the lever while weighing …",
+      "text": "pick up the lever while weighing less than 0kg",
       "manual": true,
       "object": 26761,
       "world": [
@@ -2932,12 +3155,18 @@
       "id": "e3-233",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-234",
@@ -2979,19 +3208,25 @@
     {
       "id": "e3-236",
       "title": "Unequip your pendant of Lucien at …",
-      "text": "Unequip your pendant of Lucien at Gaurdians of Armadyl and talk (1,1,3,1)",
+      "text": "Unequip your pendant of Lucien at Gaurdians of Armadyl, talk (1,1,3,1)",
       "manual": true
     },
     {
       "id": "e3-237",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-238",
@@ -3078,12 +3313,12 @@
           {
             "op": "itemAcquired",
             "id": 560,
-            "qty": 202
+            "qty": 201
           },
           {
             "op": "item",
             "id": 560,
-            "qty": 203,
+            "qty": 202,
             "scope": "ANY"
           }
         ]
@@ -3123,9 +3358,9 @@
       ]
     },
     {
-      "id": "e3-247",
+      "id": "e3-247a",
       "title": "Withdraw: Bone Crossbow + Bolts, Studded …",
-      "text": "Withdraw: Bone Crossbow + Bolts, Studded Body+ Chaps, Coins, Teleport Runes, Enchanted Gem, Dwarven Cake, Pickaxe (13 Inventory Slots)",
+      "text": "Withdraw: Bone Crossbow + Bolts, Studded Body+ Chaps, Coins",
       "complete": {
         "op": "or",
         "of": [
@@ -3142,23 +3377,41 @@
           }
         ]
       },
-      "item": 1133,
+      "item": 1133
+    },
+    {
+      "id": "e3-247b",
+      "title": "Teleport Runes, Enchanted Gem, Dwarven Cake, …",
+      "text": "Teleport Runes, Enchanted Gem, Dwarven Cake, Pickaxe (13 Inventory Slots)",
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-248",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-249",
@@ -3352,8 +3605,8 @@
     },
     {
       "id": "e3-263",
-      "title": "Chronicle teleport and run to Draynor …",
-      "text": "Chronicle teleport and run to Draynor Manor to Start Animal Magnetism",
+      "title": "Chronicle teleport, run to Draynor Manor …",
+      "text": "Chronicle teleport, run to Draynor Manor to Start Animal Magnetism",
       "complete": {
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
@@ -3425,9 +3678,9 @@
       ]
     },
     {
-      "id": "e3-269",
-      "title": "Bank at Port Phasmatys and deposit …",
-      "text": "Bank at Port Phasmatys and deposit all",
+      "id": "e3-269a",
+      "title": "Bank at Port Phasmatys",
+      "text": "Bank at Port Phasmatys",
       "manual": true,
       "npc": 3005,
       "world": [
@@ -3435,6 +3688,12 @@
         3559,
         0
       ]
+    },
+    {
+      "id": "e3-269b",
+      "title": "deposit all",
+      "text": "deposit all",
+      "manual": true
     },
     {
       "id": "e3-270",
@@ -3485,12 +3744,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 17
+            "qty": 18
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 35,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -3499,20 +3758,20 @@
     },
     {
       "id": "e3-273",
-      "title": "Worship the Buckets and collect 20 …",
-      "text": "Worship the Buckets and collect 20 Ecto tokens from the Ghost Disciples (Drop Empty Buckets+ Pots (Keep 2 Pots))",
+      "title": "Worship the Buckets, collect 20 Ecto …",
+      "text": "Worship the Buckets, collect 20 Ecto tokens from the Ghost Disciples (Drop Empty Buckets+ Pots (Keep 2 Pots))",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 18
+            "qty": 19
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 35,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -3532,9 +3791,9 @@
       ]
     },
     {
-      "id": "e3-275",
-      "title": "Go back into port phasmatys and …",
-      "text": "Go back into port phasmatys and Talk to Velorina again. (1)",
+      "id": "e3-275a",
+      "title": "Go back into port phasmatys",
+      "text": "Go back into port phasmatys",
       "manual": true,
       "npc": 3005,
       "world": [
@@ -3544,9 +3803,21 @@
       ]
     },
     {
+      "id": "e3-275b",
+      "title": "Talk to Velorina again. (1)",
+      "text": "Talk to Velorina again. (1)",
+      "manual": true,
+      "npc": 2985,
+      "world": [
+        3677,
+        3508,
+        0
+      ]
+    },
+    {
       "id": "e3-276",
       "title": "WALK West to The Old Crone …",
-      "text": "WALK West to The Old Crone & go through every dialogue option. You should get a new ghost speak amulet and a toy ship.",
+      "text": "WALK West to The Old Crone & go through every dialogue option. You should get a new ghost speak amulet and a toy ship",
       "manual": true,
       "npc": 2996,
       "world": [
@@ -3623,12 +3894,18 @@
       "id": "e3-283",
       "title": "Head to the wrecked ship and …",
       "text": "Head to the wrecked ship and dye the toy ship to match the wrecked ship (If you get bad rng here you may need a bad combination of dyes)",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-284",
@@ -3655,9 +3932,15 @@
       "manual": true
     },
     {
-      "id": "e3-288",
-      "title": "Return to the farm and buy …",
-      "text": "Return to the farm and buy 2 undead chickens for 20 ecto tokens [Animal Magnetism]",
+      "id": "e3-288a",
+      "title": "Return to the farm",
+      "text": "Return to the farm",
+      "manual": true
+    },
+    {
+      "id": "e3-288b",
+      "title": "buy 2 undead chickens for 20 …",
+      "text": "buy 2 undead chickens for 20 ecto tokens [Animal Magnetism]",
       "complete": {
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
@@ -3670,9 +3953,9 @@
       ]
     },
     {
-      "id": "e3-289",
-      "title": "Bank at Port Phasmatys and deposit …",
-      "text": "Bank at Port Phasmatys and deposit all",
+      "id": "e3-289a",
+      "title": "Bank at Port Phasmatys",
+      "text": "Bank at Port Phasmatys",
       "manual": true,
       "npc": 3005,
       "world": [
@@ -3680,6 +3963,12 @@
         3559,
         0
       ]
+    },
+    {
+      "id": "e3-289b",
+      "title": "deposit all",
+      "text": "deposit all",
+      "manual": true
     },
     {
       "id": "e3-290",
@@ -3733,12 +4022,18 @@
       "id": "e3-293",
       "title": "Head to Dragontooth Island [Morytania Medum …",
       "text": "Head to Dragontooth Island [Morytania Medum Diary]",
-      "manual": true,
       "world": [
         3493,
         3488,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3493,
+        "y": 3488,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-294",
@@ -4019,23 +4314,35 @@
       "id": "e3-318",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-319",
       "title": "Head to Barbarian Village",
       "text": "Head to Barbarian Village",
-      "manual": true,
       "world": [
         3080,
         3427,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3080,
+        "y": 3427,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-320",
@@ -4173,7 +4480,7 @@
     {
       "id": "e3-329",
       "title": "Train Slayer to level 40 with …",
-      "text": "Train Slayer to level 40 with a Bone Crossbow. This is good to do now for extra Hitpoints for some harder quests coming up.",
+      "text": "Train Slayer to level 40 with a Bone Crossbow. This is good to do now for extra Hitpoints for some harder quests coming up",
       "manual": true
     },
     {
@@ -4206,12 +4513,18 @@
       "id": "e3-332",
       "title": "Go through the pipe to Moss …",
       "text": "Go through the pipe to Moss Giants [Varrock Hard Diary]",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-333",
@@ -4325,12 +4638,18 @@
       "id": "e3-340",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-341",
@@ -4504,7 +4823,7 @@
           {
             "op": "item",
             "id": 590,
-            "qty": 21,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -4555,8 +4874,8 @@
     },
     {
       "id": "e3-363",
-      "title": "Leave and trade this in at …",
-      "text": "Leave and trade this in at the Agility Pyramid [Desert Easy Diary]",
+      "title": "Leave, trade this in at the …",
+      "text": "Leave, trade this in at the Agility Pyramid [Desert Easy Diary]",
       "manual": true,
       "object": 11948,
       "world": [
@@ -4645,9 +4964,15 @@
       ]
     },
     {
-      "id": "e3-370",
-      "title": "Head south go through the gate …",
-      "text": "Head south go through the gate and enter the swamp",
+      "id": "e3-370a",
+      "title": "Head south go through the gate",
+      "text": "Head south go through the gate",
+      "manual": true
+    },
+    {
+      "id": "e3-370b",
+      "title": "enter the swamp",
+      "text": "enter the swamp",
       "manual": true
     },
     {
@@ -4660,12 +4985,18 @@
       "id": "e3-372",
       "title": "Head to Canifis",
       "text": "Head to Canifis",
-      "manual": true,
       "world": [
         3493,
         3488,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3493,
+        "y": 3488,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-373",
@@ -4753,9 +5084,15 @@
       ]
     },
     {
-      "id": "e3-380",
-      "title": "Run South East and take the …",
-      "text": "Run South East and take the Rowboat to Mort'ton",
+      "id": "e3-380a",
+      "title": "Run South East",
+      "text": "Run South East",
+      "manual": true
+    },
+    {
+      "id": "e3-380b",
+      "title": "take the Rowboat to Mort'ton",
+      "text": "take the Rowboat to Mort'ton",
       "manual": true,
       "world": [
         3487,
@@ -4826,13 +5163,13 @@
     {
       "id": "e3-388",
       "title": "You want to trade 1:1 with …",
-      "text": "You want to trade 1:1 with Karil. He maxes 20 so heal everytime you are 20 or over Hitpoints from your maximum. This may use most or all of your food so teleport out when needed.",
+      "text": "You want to trade 1:1 with Karil. He maxes 20 so heal everytime you are 20 or over Hitpoints from your maximum. This may use most or all of your food so teleport out when needed",
       "manual": true
     },
     {
       "id": "e3-389",
       "title": "Kill Ahrim with protect from magic, …",
-      "text": "Kill Ahrim with protect from magic, bring jangerberries to restore 1 prayer point if you get drained and 1-tick/lazy flick.",
+      "text": "Kill Ahrim with protect from magic, bring jangerberries to restore 1 prayer point if you get drained and 1-tick/lazy flick",
       "manual": true,
       "world": [
         3165,
@@ -4843,7 +5180,7 @@
     {
       "id": "e3-390",
       "title": "Find your tunnel (Enter a Melee …",
-      "text": "Find your tunnel (Enter a Melee brother Mound, search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry.",
+      "text": "Find your tunnel (Enter a Melee brother Mound, search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry",
       "manual": true,
       "world": [
         3165,
@@ -4854,7 +5191,7 @@
     {
       "id": "e3-391",
       "title": "Once you find your Crypt we …",
-      "text": "Once you find your Crypt we are going to safespot them to avoid any mistakes. You can safespot them on the ladder, invisible ladders & on rocks.",
+      "text": "Once you find your Crypt we are going to safespot them to avoid any mistakes. You can safespot them on the ladder, invisible ladders & on rocks",
       "manual": true
     },
     {
@@ -4871,13 +5208,13 @@
     {
       "id": "e3-393",
       "title": "Open Crypt doors to force spawn …",
-      "text": "Open Crypt doors to force spawn the Melee brothers. Safespot approprietly until all 4 are dead.",
+      "text": "Open Crypt doors to force spawn the Melee brothers. Safespot approprietly until all 4 are dead",
       "manual": true
     },
     {
       "id": "e3-394",
       "title": "IF Karil tunnel, you want to …",
-      "text": "IF Karil tunnel, you want to head all the way to the chest and trade 1:1 respectively using the lamps as obstacles",
+      "text": "IF Karil tunnel, you want to head all the way to the chest, trade 1:1 respectively using the lamps as obstacles",
       "manual": true
     },
     {
@@ -4902,9 +5239,15 @@
       ]
     },
     {
-      "id": "e3-397",
-      "title": "Teleport anywhere and bank. 43 Prayer …",
-      "text": "Teleport anywhere and bank. 43 Prayer makes everything much easier now",
+      "id": "e3-397a",
+      "title": "Teleport anywhere",
+      "text": "Teleport anywhere",
+      "manual": true
+    },
+    {
+      "id": "e3-397b",
+      "title": "bank. 43 Prayer makes everything much …",
+      "text": "bank. 43 Prayer makes everything much easier now",
       "manual": true
     }
   ]

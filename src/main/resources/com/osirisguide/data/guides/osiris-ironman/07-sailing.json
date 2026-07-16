@@ -6,7 +6,7 @@
     {
       "id": "sail-001",
       "title": "Unlock Sailing via the Pandemonium quest …",
-      "text": "Unlock Sailing via the Pandemonium quest - this is main-guide step 1.1.78a (W...\nLocation: Port Sarim",
+      "text": "Unlock Sailing via the Pandemonium quest - this is main-guide step 1.1.78a (W\nLocation: Port Sarim",
       "complete": {
         "op": "quest",
         "quest": "PANDEMONIUM",
@@ -68,13 +68,13 @@
     {
       "id": "sail-006",
       "title": "Train Sailing to 45 via Barracuda …",
-      "text": "Train Sailing to 45 via Barracuda Trials (~2-3 hours - good to chip away duri...\nLocation: Various",
+      "text": "Train Sailing to 45 via Barracuda Trials (~2-3 hours - good to chip away duri\nLocation: Various",
       "manual": true
     },
     {
       "id": "sail-007",
       "title": "Complete Troubled Tortugans (Sailing 45, plus …",
-      "text": "Complete Troubled Tortugans (Sailing 45, plus 51 Slayer / 48 Construction / 4...\nLocation: Various",
+      "text": "Complete Troubled Tortugans (Sailing 45, plus 51 Slayer / 48 Construction / 4\nLocation: Various",
       "complete": {
         "op": "quest",
         "quest": "TROUBLED_TORTUGANS",
@@ -104,19 +104,19 @@
     {
       "id": "sail-009",
       "title": "Build a teleport focus at Sailing …",
-      "text": "Build a teleport focus at Sailing 55 (needs 49 Construction) to unlock Sailin...\nLocation: Various",
+      "text": "Build a teleport focus at Sailing 55 (needs 49 Construction) to unlock Sailin\nLocation: Various",
       "manual": true
     },
     {
       "id": "sail-010",
       "title": "Higher milestones: Gwenith Glide Barracuda Trial …",
-      "text": "Higher milestones: Gwenith Glide Barracuda Trial (72), Crystal Extractor (73)...\nLocation: Various",
+      "text": "Higher milestones: Gwenith Glide Barracuda Trial (72), Crystal Extractor (73)\nLocation: Various",
       "manual": true
     },
     {
       "id": "sail-011",
       "title": "Deep-sea trawling for Marlin -> Extended …",
-      "text": "Deep-sea trawling for Marlin -> Extended Stamina potions (85 Herblore + a mar...\nLocation: Various",
+      "text": "Deep-sea trawling for Marlin -> Extended Stamina potions (85 Herblore + a mar\nLocation: Various",
       "manual": true
     }
   ]

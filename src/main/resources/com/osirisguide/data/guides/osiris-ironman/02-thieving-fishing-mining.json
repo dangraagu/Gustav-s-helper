@@ -34,9 +34,20 @@
       ]
     },
     {
-      "id": "tfm-003",
-      "title": "Smelt the 5 silver, make a …",
-      "text": "Smelt the 5 silver, make a sickle and unstrung holy symbol, keep 3 bars\nLocation: Al Kharid",
+      "id": "tfm-003a",
+      "title": "Smelt the 5 silver",
+      "text": "Smelt the 5 silver\nLocation: Al Kharid",
+      "manual": true,
+      "world": [
+        3290,
+        3185,
+        0
+      ]
+    },
+    {
+      "id": "tfm-003b",
+      "title": "make a sickle and unstrung holy …",
+      "text": "make a sickle and unstrung holy symbol, keep 3 bars\nLocation: Al Kharid",
       "manual": true,
       "world": [
         3290,
@@ -93,7 +104,7 @@
     {
       "id": "tfm-007",
       "title": "IF you're planning on 3-tick fishing …",
-      "text": "IF you're planning on 3-tick fishing then home tele to lumby and pick up 15+ ...\nLocation: Lumbridge",
+      "text": "IF you're planning on 3-tick fishing then home tele to lumby, pick up 15+\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -103,8 +114,8 @@
     },
     {
       "id": "tfm-008",
-      "title": "Ardy cloak tele and take the …",
-      "text": "Ardy cloak tele and take the boat from Ardy to brimhaven\nLocation: Ardougne",
+      "title": "Ardy cloak tele, take the boat …",
+      "text": "Ardy cloak tele, take the boat from Ardy to brimhaven\nLocation: Ardougne",
       "manual": true,
       "object": 10805,
       "world": [
@@ -222,7 +233,7 @@
     {
       "id": "tfm-017",
       "title": "Now that you're 74 Fishing, do …",
-      "text": "Now that you're 74 Fishing, do a few Tempoross kills for the Fish Barrel and ...\nLocation: Tempoross Cove",
+      "text": "Now that you're 74 Fishing, do a few Tempoross kills for the Fish Barrel\nLocation: Tempoross Cove",
       "manual": true,
       "world": [
         3165,
@@ -253,15 +264,32 @@
       ]
     },
     {
-      "id": "tfm-020",
-      "title": "Equip the set and go back …",
-      "text": "Equip the set and go back to blackjacking until you have 2.4m GP (around 83 t...\nLocation: Pollnivneach",
+      "id": "tfm-020a",
+      "title": "Equip the set",
+      "text": "Equip the set\nLocation: Pollnivneach",
       "manual": true,
       "world": [
         3358,
         2974,
         0
       ]
+    },
+    {
+      "id": "tfm-020b",
+      "title": "go back to blackjacking until you …",
+      "text": "go back to blackjacking until you have 2.4m GP (around 83 t\nLocation: Pollnivneach",
+      "world": [
+        3358,
+        2974,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3358,
+        "y": 2974,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "tfm-021",
@@ -278,7 +306,7 @@
     {
       "id": "tfm-022",
       "title": "If you got any cosmic runes …",
-      "text": "If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the...\nLocation: Al Kharid",
+      "text": "If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the\nLocation: Al Kharid",
       "manual": true,
       "world": [
         3290,
@@ -302,9 +330,9 @@
       ]
     },
     {
-      "id": "tfm-024",
-      "title": "Finish The Golem, get the gems …",
-      "text": "Finish The Golem, get the gems with chisel and hammer\nLocation: Uzer",
+      "id": "tfm-024a",
+      "title": "Finish The Golem",
+      "text": "Finish The Golem\nLocation: Uzer",
       "complete": {
         "op": "quest",
         "quest": "THE_GOLEM",
@@ -317,9 +345,21 @@
       ]
     },
     {
+      "id": "tfm-024b",
+      "title": "get the gems with chisel and …",
+      "text": "get the gems with chisel and hammer\nLocation: Uzer",
+      "manual": true,
+      "object": 7348,
+      "world": [
+        2476,
+        4937,
+        0
+      ]
+    },
+    {
       "id": "tfm-025",
       "title": "Do Shadow of the storm (should …",
-      "text": "Do Shadow of the storm (should have priest gown and black wizard hat in bank ...\nLocation: Uzer",
+      "text": "Do Shadow of the storm (should have priest gown and black wizard hat in bank\nLocation: Uzer",
       "complete": {
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
@@ -332,9 +372,21 @@
       ]
     },
     {
-      "id": "tfm-026",
-      "title": "Go to Edgeville and talk to …",
-      "text": "Go to Edgeville and talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
+      "id": "tfm-026a",
+      "title": "Go to Edgeville",
+      "text": "Go to Edgeville\nLocation: Edgeville",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "tfm-026b",
+      "title": "talk to Oziach to continue Dragon …",
+      "text": "talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
       "manual": true,
       "npc": 822,
       "world": [
@@ -344,9 +396,26 @@
       ]
     },
     {
-      "id": "tfm-027",
-      "title": "Go to mage bank and buy …",
-      "text": "Go to mage bank and buy 6k nats, all of the cosmics you can get while buying ...\nLocation: Mage Bank",
+      "id": "tfm-027a",
+      "title": "Go to mage bank",
+      "text": "Go to mage bank\nLocation: Mage Bank",
+      "world": [
+        3090,
+        3956,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3090,
+        "y": 3956,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "tfm-027b",
+      "title": "buy 6k nats, all of the …",
+      "text": "buy 6k nats, all of the cosmics you can get while buying\nLocation: Mage Bank",
       "manual": true,
       "world": [
         3090,
@@ -358,12 +427,18 @@
       "id": "tfm-028",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador\nLocation: Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "tfm-029",
@@ -401,7 +476,7 @@
     {
       "id": "tfm-032",
       "title": "Buy a Celestial Ring from Dusuri's …",
-      "text": "Buy a Celestial Ring from Dusuri's Star Shop in Falador (2,000 stardust) for ...\nLocation: Various",
+      "text": "Buy a Celestial Ring from Dusuri's Star Shop in Falador (2,000 stardust) for\nLocation: Various",
       "manual": true,
       "world": [
         3000,
@@ -412,7 +487,7 @@
     {
       "id": "tfm-033",
       "title": "Mine 2300 iron ore at ardy …",
-      "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba...\nLocation: Ardougne Monastery",
+      "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba\nLocation: Ardougne Monastery",
       "manual": true,
       "world": [
         2606,

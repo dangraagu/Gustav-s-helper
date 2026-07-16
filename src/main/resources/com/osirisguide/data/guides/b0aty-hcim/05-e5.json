@@ -13,12 +13,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 86
+            "qty": 85
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -34,12 +34,18 @@
       "id": "e5-002",
       "title": "Teleport to Grand Exchange via spellbook …",
       "text": "Teleport to Grand Exchange via spellbook > Spirit tree (2)",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-003",
@@ -150,12 +156,18 @@
       "id": "e5-013",
       "title": "Teleport to Castle Wars",
       "text": "Teleport to Castle Wars",
-      "manual": true,
       "world": [
         2407,
         3105,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-014",
@@ -246,9 +258,15 @@
       ]
     },
     {
-      "id": "e5-021",
-      "title": "Head west and climb the Trellis",
-      "text": "Head west and climb the Trellis",
+      "id": "e5-021a",
+      "title": "Head west",
+      "text": "Head west",
+      "manual": true
+    },
+    {
+      "id": "e5-021b",
+      "title": "climb the Trellis",
+      "text": "climb the Trellis",
       "manual": true
     },
     {
@@ -309,15 +327,21 @@
       ]
     },
     {
-      "id": "e5-026",
-      "title": "kill a Bat in the dungeon. …",
-      "text": "kill a Bat in the dungeon. Take the bones.",
+      "id": "e5-026a",
+      "title": "kill a Bat in the dungeon",
+      "text": "kill a Bat in the dungeon",
       "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
+    },
+    {
+      "id": "e5-026b",
+      "title": "Take the bones",
+      "text": "Take the bones",
+      "manual": true
     },
     {
       "id": "e5-027",
@@ -380,9 +404,15 @@
       ]
     },
     {
-      "id": "e5-032",
-      "title": "Head South West of Gu-tanoth and …",
-      "text": "Head South West of Gu-tanoth and take the hole (North of the Death Rune Spawn)",
+      "id": "e5-032a",
+      "title": "Head South West of Gu-tanoth",
+      "text": "Head South West of Gu-tanoth",
+      "manual": true
+    },
+    {
+      "id": "e5-032b",
+      "title": "take the hole (North of the …",
+      "text": "take the hole (North of the Death Rune Spawn)",
       "manual": true
     },
     {
@@ -516,12 +546,18 @@
       "id": "e5-042",
       "title": "Teleport to Castle Wars",
       "text": "Teleport to Castle Wars",
-      "manual": true,
       "world": [
         2407,
         3105,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-043",
@@ -681,9 +717,15 @@
       ]
     },
     {
-      "id": "e5-054",
-      "title": "Use Redberries on bottled water, then …",
-      "text": "Use Redberries on bottled water, then use whiteberries to get pink dye",
+      "id": "e5-054a",
+      "title": "Use Redberries on bottled water",
+      "text": "Use Redberries on bottled water",
+      "manual": true
+    },
+    {
+      "id": "e5-054b",
+      "title": "use whiteberries to get pink dye",
+      "text": "use whiteberries to get pink dye",
       "manual": true,
       "world": [
         3165,
@@ -711,8 +753,8 @@
     },
     {
       "id": "e5-057",
-      "title": "Stand in the doorway and use …",
-      "text": "Stand in the doorway and use the lens on the counter",
+      "title": "Stand in the doorway, use the …",
+      "text": "Stand in the doorway, use the lens on the counter",
       "manual": true
     },
     {
@@ -779,12 +821,18 @@
       "id": "e5-064",
       "title": "Teleport to Castle Wars",
       "text": "Teleport to Castle Wars",
-      "manual": true,
       "world": [
         2407,
         3105,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-065",
@@ -796,12 +844,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 87
+            "qty": 86
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -932,12 +980,18 @@
       "id": "e5-075",
       "title": "Teleport Blessing -> Kourend Woodland",
       "text": "Teleport Blessing -> Kourend Woodland",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-076",
@@ -1008,31 +1062,43 @@
       ]
     },
     {
-      "id": "e5-082",
-      "title": "Withdraw: Hammer, Saw, Beer, Teleport Runes, …",
-      "text": "Withdraw: Hammer, Saw, Beer, Teleport Runes, Duelling Ring, Ardy Cloak, Dramen Staff, Raw Chicken, Raw Swordfish, Chaos Runes (14 Inventory Slots) + Food",
+      "id": "e5-082a",
+      "title": "Withdraw: Hammer, Saw, Beer",
+      "text": "Withdraw: Hammer, Saw, Beer",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 371,
+            "id": 2347,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 371,
+            "id": 2347,
             "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 371,
+      "item": 2347
+    },
+    {
+      "id": "e5-082b",
+      "title": "Teleport Runes, Duelling Ring, Ardy Cloak, …",
+      "text": "Teleport Runes, Duelling Ring, Ardy Cloak, Dramen Staff, Raw Chicken, Raw Swordfish, Chaos Runes (14 Inventory Slots) + Food",
       "world": [
         2624,
         3300,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-083",
@@ -1073,8 +1139,8 @@
     },
     {
       "id": "e5-086",
-      "title": "Ardy Cloak Teleport and run east",
-      "text": "Ardy Cloak Teleport and run east",
+      "title": "Ardy Cloak Teleport, run east",
+      "text": "Ardy Cloak Teleport, run east",
       "manual": true,
       "world": [
         2624,
@@ -1121,26 +1187,32 @@
       ]
     },
     {
-      "id": "e5-090",
-      "title": "Withdraw: Shortbow, Teleport Runes, Death Runes, …",
-      "text": "Withdraw: Shortbow, Teleport Runes, Death Runes, Coins, Bronze Arrows, Spade, Pestle & Mortar, Rope, Antipoison, Leather Gloves (11 Inventory Slots) + Food",
+      "id": "e5-090a",
+      "title": "Withdraw: Shortbow",
+      "text": "Withdraw: Shortbow",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 233,
-            "qty": 88
+            "id": 841,
+            "qty": 1
           },
           {
             "op": "item",
-            "id": 233,
-            "qty": 316,
+            "id": 841,
+            "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 233
+      "item": 841
+    },
+    {
+      "id": "e5-090b",
+      "title": "Teleport Runes, Death Runes, Coins, Bronze …",
+      "text": "Teleport Runes, Death Runes, Coins, Bronze Arrows, Spade, Pestle & Mortar, Rope, Antipoison, Leather Gloves (11 Inventory Slots) + Food",
+      "manual": true
     },
     {
       "id": "e5-091",
@@ -1231,12 +1303,18 @@
       "id": "e5-096",
       "title": "Teleport to Falador & bank at …",
       "text": "Teleport to Falador & bank at the East Bank",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-097",
@@ -1299,9 +1377,9 @@
       ]
     },
     {
-      "id": "e5-101",
-      "title": "Withdraw: Bone Crossbow Gear, Teleport Runes",
-      "text": "Withdraw: Bone Crossbow Gear, Teleport Runes",
+      "id": "e5-101a",
+      "title": "Withdraw: Bone Crossbow Gear",
+      "text": "Withdraw: Bone Crossbow Gear",
       "complete": {
         "op": "or",
         "of": [
@@ -1326,15 +1404,27 @@
       ]
     },
     {
+      "id": "e5-101b",
+      "title": "Teleport Runes",
+      "text": "Teleport Runes",
+      "manual": true
+    },
+    {
       "id": "e5-102",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-103",
@@ -1399,9 +1489,9 @@
       ]
     },
     {
-      "id": "e5-107",
-      "title": "Withdraw: ring of recoil, Coins, Teleport …",
-      "text": "Withdraw: ring of recoil, Coins, Teleport Runes, Spade, Glarials Pebble, Rope, Antipoison, duel ring, games necklace (10 Inventory Slots) + Food",
+      "id": "e5-107a",
+      "title": "Withdraw: ring of recoil, Coins",
+      "text": "Withdraw: ring of recoil, Coins",
       "complete": {
         "op": "or",
         "of": [
@@ -1419,6 +1509,12 @@
         ]
       },
       "item": 2550
+    },
+    {
+      "id": "e5-107b",
+      "title": "Teleport Runes, Spade, Glarials Pebble, Rope, …",
+      "text": "Teleport Runes, Spade, Glarials Pebble, Rope, Antipoison, duel ring, games necklace (10 Inventory Slots) + Food",
+      "manual": true
     },
     {
       "id": "e5-108",
@@ -1547,12 +1643,12 @@
           {
             "op": "itemAcquired",
             "id": 1929,
-            "qty": 23
+            "qty": 22
           },
           {
             "op": "item",
             "id": 1929,
-            "qty": 33,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -1569,12 +1665,18 @@
       "id": "e5-120",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-121",
@@ -1603,12 +1705,18 @@
       "id": "e5-124",
       "title": "Teleport to Ferox to reset stats",
       "text": "Teleport to Ferox to reset stats",
-      "manual": true,
       "world": [
         3137,
         3623,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-125",
@@ -1659,12 +1767,18 @@
       "id": "e5-128",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-129",
@@ -1786,9 +1900,15 @@
       }
     },
     {
-      "id": "e5-140",
-      "title": "Catch and cook a Raw Jubbly …",
-      "text": "Catch and cook a Raw Jubbly [Recipe for Disaster]",
+      "id": "e5-140a",
+      "title": "Catch",
+      "text": "Catch",
+      "manual": true
+    },
+    {
+      "id": "e5-140b",
+      "title": "cook a Raw Jubbly [Recipe for …",
+      "text": "cook a Raw Jubbly [Recipe for Disaster]",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -1872,15 +1992,21 @@
       "manual": true
     },
     {
-      "id": "e5-148",
+      "id": "e5-148a",
       "title": "Wear: Monk Robes, Holy Symbol, Damaged …",
-      "text": "Wear: Monk Robes, Holy Symbol, Damaged Book, for prayer bonus. Camp prayer Melee entire quest. Take 4x Karambwans & 6x Prayer Potions",
+      "text": "Wear: Monk Robes, Holy Symbol, Damaged Book, for prayer bonus. Camp prayer Melee entire quest",
       "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
+    },
+    {
+      "id": "e5-148b",
+      "title": "Take 4x Karambwans & 6x Prayer …",
+      "text": "Take 4x Karambwans & 6x Prayer Potions",
+      "manual": true
     },
     {
       "id": "e5-149",
@@ -1928,14 +2054,25 @@
       "manual": true
     },
     {
-      "id": "e5-153",
-      "title": "Bank at Lletya. Withdraw coins and …",
-      "text": "Bank at Lletya. Withdraw coins and recharge teleport seed",
+      "id": "e5-153a",
+      "title": "Bank at Lletya",
+      "text": "Bank at Lletya",
       "manual": true,
       "npc": 1478,
       "world": [
         2327,
         3176,
+        0
+      ]
+    },
+    {
+      "id": "e5-153b",
+      "title": "Withdraw coins and recharge teleport seed",
+      "text": "Withdraw coins and recharge teleport seed",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
         0
       ]
     },
@@ -2079,15 +2216,21 @@
       "manual": true
     },
     {
-      "id": "e5-164",
+      "id": "e5-164a",
       "title": "Build Menagerie and put Pet rock …",
-      "text": "Build Menagerie and put Pet rock in. Change to regular mode and pick pet rock up [Fremennik Medium Diary]",
+      "text": "Build Menagerie and put Pet rock in. Change to regular mode",
       "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
+    },
+    {
+      "id": "e5-164b",
+      "title": "pick pet rock up [Fremennik Medium …",
+      "text": "pick pet rock up [Fremennik Medium Diary]",
+      "manual": true
     },
     {
       "id": "e5-165",
@@ -2115,7 +2258,7 @@
     {
       "id": "e5-167",
       "title": "Distil the Swamp Tar in the …",
-      "text": "Distil the Swamp Tar in the Chemist then light the Bullseye Lantern [Falador Medium Diary]",
+      "text": "Distil the Swamp Tar in the Chemist, light the Bullseye Lantern [Falador Medium Diary]",
       "manual": true,
       "npc": 1146,
       "world": [
@@ -2195,12 +2338,18 @@
       "id": "e5-173",
       "title": "Head to Lumbridge Swamp Dungeon",
       "text": "Head to Lumbridge Swamp Dungeon",
-      "manual": true,
       "world": [
         3197,
         3166,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3197,
+        "y": 3166,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-174",
@@ -2220,7 +2369,7 @@
     {
       "id": "e5-175",
       "title": "Weekly Tears of Guthix will give …",
-      "text": "Weekly Tears of Guthix will give you passive sailing xp.",
+      "text": "Weekly Tears of Guthix will give you passive sailing xp",
       "complete": {
         "op": "quest",
         "quest": "TEARS_OF_GUTHIX",
@@ -2247,7 +2396,7 @@
           {
             "op": "item",
             "id": 464,
-            "qty": 11,
+            "qty": 5,
             "scope": "ANY"
           }
         ]
@@ -2363,31 +2512,43 @@
       ]
     },
     {
-      "id": "e5-187",
-      "title": "Withdraw: 11 Yew Logs, Logs, Tinderbox, …",
-      "text": "Withdraw: 11 Yew Logs, Logs, Tinderbox, Teleport Runes, Spade, Silver Bar, Enchanted Key, Scroll, Necklace of Passage, Cooked Jubbly (23 Inventory Slots)",
+      "id": "e5-187a",
+      "title": "Withdraw: 11 Yew Logs, Logs, Tinderbox",
+      "text": "Withdraw: 11 Yew Logs, Logs, Tinderbox",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 7568,
-            "qty": 11
+            "id": 590,
+            "qty": 32
           },
           {
             "op": "item",
-            "id": 7568,
-            "qty": 11,
+            "id": 590,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
       },
-      "item": 7568,
+      "item": 590
+    },
+    {
+      "id": "e5-187b",
+      "title": "Teleport Runes, Spade, Silver Bar, Enchanted …",
+      "text": "Teleport Runes, Spade, Silver Bar, Enchanted Key, Scroll, Necklace of Passage, Cooked Jubbly (23 Inventory Slots)",
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-188",
@@ -2463,12 +2624,18 @@
       "id": "e5-194",
       "title": "Travel to Draynor Sewers",
       "text": "Travel to Draynor Sewers",
-      "manual": true,
       "world": [
         3103,
         3265,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-195",
@@ -2575,26 +2742,44 @@
       ]
     },
     {
-      "id": "e5-204",
+      "id": "e5-204a",
       "title": "Head west then south through the …",
-      "text": "Head west then south through the Huge Gate Follow the path and collect 6x Red Spider Eggs",
-      "manual": true,
+      "text": "Head west then south through the Huge Gate Follow the path",
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e5-204b",
+      "title": "collect 6x Red Spider Eggs",
+      "text": "collect 6x Red Spider Eggs",
+      "manual": true
     },
     {
       "id": "e5-205",
       "title": "Teleport to Ardounge",
       "text": "Teleport to Ardounge",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-206",
@@ -2624,12 +2809,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 313
+            "qty": 311
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -2668,12 +2853,18 @@
       "id": "e5-212",
       "title": "Head East & repair the bridge …",
       "text": "Head East & repair the bridge [In Search of Myreque]",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-213",
@@ -2781,26 +2972,16 @@
       "manual": true
     },
     {
-      "id": "e5-225",
-      "title": "Withdraw: Antipoison, Teleport Runes, 14x Lockpick, …",
-      "text": "Withdraw: Antipoison, Teleport Runes, 14x Lockpick, 36x Noted Lockpick, Coins, Camulet, 5 Food (13 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 1523,
-            "qty": 64
-          },
-          {
-            "op": "item",
-            "id": 1523,
-            "qty": 66,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 1523
+      "id": "e5-225a",
+      "title": "Withdraw: Antipoison",
+      "text": "Withdraw: Antipoison",
+      "manual": true
+    },
+    {
+      "id": "e5-225b",
+      "title": "Teleport Runes, 14x Lockpick, 36x Noted …",
+      "text": "Teleport Runes, 14x Lockpick, 36x Noted Lockpick, Coins, Camulet, 5 Food (13 Inventory Slots)",
+      "manual": true
     },
     {
       "id": "e5-226",
@@ -2828,20 +3009,20 @@
     },
     {
       "id": "e5-230",
-      "title": "If the most gargle RNG then …",
-      "text": "If the most gargle RNG then buy more lockpicks at Rogues' Den",
+      "title": "If the most gargle RNG, buy …",
+      "text": "If the most gargle RNG, buy more lockpicks at Rogues' Den",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
             "id": 1523,
-            "qty": 65
+            "qty": 51
           },
           {
             "op": "item",
             "id": 1523,
-            "qty": 66,
+            "qty": 52,
             "scope": "ANY"
           }
         ]
@@ -2872,31 +3053,27 @@
       "manual": true
     },
     {
-      "id": "e5-233",
-      "title": "Withdraw: Gilded Cross, Teleport Runes, Death …",
-      "text": "Withdraw: Gilded Cross, Teleport Runes, Death Runes, 3x Strange Fruit, Curse Runes (11 Inventory Slots) + Food",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 464,
-            "qty": 8
-          },
-          {
-            "op": "item",
-            "id": 464,
-            "qty": 11,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 464,
+      "id": "e5-233a",
+      "title": "Withdraw: Gilded Cross",
+      "text": "Withdraw: Gilded Cross",
+      "manual": true
+    },
+    {
+      "id": "e5-233b",
+      "title": "Teleport Runes, Death Runes, 3x Strange …",
+      "text": "Teleport Runes, Death Runes, 3x Strange Fruit, Curse Runes (11 Inventory Slots) + Food",
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-234",
@@ -2960,12 +3137,18 @@
       "id": "e5-240",
       "title": "Teleport to Trollheim",
       "text": "Teleport to Trollheim",
-      "manual": true,
       "world": [
         2891,
         3678,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2891,
+        "y": 3678,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-241",
@@ -2974,37 +3157,55 @@
       "manual": true
     },
     {
-      "id": "e5-242",
-      "title": "Pray Melee on Kamil and eat/restore …",
-      "text": "Pray Melee on Kamil and eat/restore accordingly. No real tricks & only hard fight",
+      "id": "e5-242a",
+      "title": "Pray Melee on Kamil",
+      "text": "Pray Melee on Kamil",
       "manual": true
     },
     {
-      "id": "e5-243",
-      "title": "Withdraw: 4x Diamonds, Coins, Teleport Runes, …",
-      "text": "Withdraw: 4x Diamonds, Coins, Teleport Runes, Camulet, Antipoison, 3x Prayer Potion, Monk Robes, Holy Symbol, Damaged Book, Strange Fruit & Food",
+      "id": "e5-242b",
+      "title": "eat/restore accordingly. No real tricks & …",
+      "text": "eat/restore accordingly. No real tricks & only hard fight",
+      "manual": true
+    },
+    {
+      "id": "e5-243a",
+      "title": "Withdraw: 4x Diamonds, Coins",
+      "text": "Withdraw: 4x Diamonds, Coins",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 464,
-            "qty": 11
+            "id": 1601,
+            "qty": 4
           },
           {
             "op": "item",
-            "id": 464,
-            "qty": 11,
+            "id": 1601,
+            "qty": 4,
             "scope": "ANY"
           }
         ]
       },
-      "item": 464,
+      "item": 1601
+    },
+    {
+      "id": "e5-243b",
+      "title": "Teleport Runes, Camulet, Antipoison, 3x Prayer …",
+      "text": "Teleport Runes, Camulet, Antipoison, 3x Prayer Potion, Monk Robes, Holy Symbol, Damaged Book, Strange Fruit & Food",
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-244",
@@ -3028,12 +3229,18 @@
       "id": "e5-247",
       "title": "Teleport to Padewana [Varrock Hard Diary]",
       "text": "Teleport to Padewana [Varrock Hard Diary]",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-248",
@@ -3088,31 +3295,21 @@
       ]
     },
     {
-      "id": "e5-252",
-      "title": "Withdraw: Coins, Camulet, Teleport Runes, Spicy …",
-      "text": "Withdraw: Coins, Camulet, Teleport Runes, Spicy Stew, Crab Meat, Kelp, Raw Cod, Bread, Knife, Pestle and mortar",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 233,
-            "qty": 314
-          },
-          {
-            "op": "item",
-            "id": 233,
-            "qty": 316,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 233
+      "id": "e5-252a",
+      "title": "Withdraw: Coins, Camulet",
+      "text": "Withdraw: Coins, Camulet",
+      "manual": true
+    },
+    {
+      "id": "e5-252b",
+      "title": "Teleport Runes, Spicy Stew, Crab Meat, …",
+      "text": "Teleport Runes, Spicy Stew, Crab Meat, Kelp, Raw Cod, Bread, Knife, Pestle and mortar",
+      "manual": true
     },
     {
       "id": "e5-253",
-      "title": "Grind the Cod/Kelp & Crab Meat. …",
-      "text": "Grind the Cod/Kelp & Crab Meat. Cut the bread into Chunks",
+      "title": "Grind the Cod/Kelp & Crab Meat, …",
+      "text": "Grind the Cod/Kelp & Crab Meat, Cut the bread into Chunks",
       "manual": true
     },
     {
@@ -3192,31 +3389,21 @@
       "manual": true
     },
     {
-      "id": "e5-262",
-      "title": "Withdraw: Range Gear, Antifire Shield, Coins, …",
-      "text": "Withdraw: Range Gear, Antifire Shield, Coins, Teleport Runes, Dramen Staff, Raw Chicken, Sweetcorn, Dramen Branch, Pestle & Mortar, Vanilla Pod, Ice gloves",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 233,
-            "qty": 315
-          },
-          {
-            "op": "item",
-            "id": 233,
-            "qty": 316,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 233,
+      "id": "e5-262a",
+      "title": "Withdraw: Range Gear, Antifire Shield, Coins",
+      "text": "Withdraw: Range Gear, Antifire Shield, Coins",
+      "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
+    },
+    {
+      "id": "e5-262b",
+      "title": "Teleport Runes, Dramen Staff, Raw Chicken, …",
+      "text": "Teleport Runes, Dramen Staff, Raw Chicken, Sweetcorn, Dramen Branch, Pestle & Mortar, Vanilla Pod, Ice gloves",
+      "manual": true
     },
     {
       "id": "e5-263",
@@ -3348,9 +3535,15 @@
       ]
     },
     {
-      "id": "e5-274",
-      "title": "Cook guide cake and use it …",
-      "text": "Cook guide cake and use it on Lumbridge guide",
+      "id": "e5-274a",
+      "title": "Cook guide cake",
+      "text": "Cook guide cake",
+      "manual": true
+    },
+    {
+      "id": "e5-274b",
+      "title": "use it on Lumbridge guide",
+      "text": "use it on Lumbridge guide",
       "manual": true,
       "npc": 306,
       "world": [
@@ -3491,14 +3684,26 @@
       "manual": true
     },
     {
-      "id": "e5-286",
+      "id": "e5-286a",
       "title": "(Check Western Province Hard Diary: If …",
-      "text": "(Check Western Province Hard Diary: If you failed the Ape Atoll lap during the quest, complete it now. WITHDRAW NINJA GREEGREE)",
+      "text": "(Check Western Province Hard Diary: If you failed the Ape Atoll lap during the quest, complete it now",
       "manual": true,
       "npc": 1454,
       "world": [
         2892,
         2723,
+        0
+      ]
+    },
+    {
+      "id": "e5-286b",
+      "title": "WITHDRAW NINJA GREEGREE)",
+      "text": "WITHDRAW NINJA GREEGREE)",
+      "manual": true,
+      "object": 4788,
+      "world": [
+        2722,
+        2766,
         0
       ]
     },

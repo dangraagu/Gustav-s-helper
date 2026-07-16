@@ -61,4 +61,9 @@ copyright notices retained in every file:
     Copyright (c) 2019-2024, Zoinkwiz and contributors
     Licensed under the BSD 2-Clause License (see LICENSE-questhelper)
 
+The expected NPC-dialogue options (which option to click) in
+data/qh_dialogue.json were likewise harvested at build time from Quest Helper's
+source (BSD 2-Clause, credited above); only the resulting option strings are
+shipped as data, not Quest Helper's code. Extractor: tools/data/qh_dialogue.py.
+
 Not affiliated with Jagex Ltd. Old School RuneScape is a trademark of Jagex Ltd.

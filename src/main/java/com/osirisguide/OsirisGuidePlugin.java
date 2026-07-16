@@ -6,16 +6,19 @@ package com.osirisguide;
 
 import com.google.gson.Gson;
 import com.google.inject.Provides;
+import com.google.inject.Singleton;
 import com.questhelper.QuestHelperPlugin;
 import com.questhelper.managers.QuestManager;
 import com.questhelper.questhelpers.QuestHelper;
 import com.questhelper.questinfo.QuestHelperQuest;
 import com.osirisguide.engine.ConditionContext;
+import com.osirisguide.engine.DialogueDb;
 import com.osirisguide.engine.Progression;
 import com.osirisguide.engine.Route;
 import com.osirisguide.engine.RouteLoader;
 import com.osirisguide.engine.RouteStep;
 import com.osirisguide.engine.ledger.ItemLedger;
+import com.osirisguide.overlay.DialogueOverlay;
 import com.osirisguide.overlay.OsirisItemOverlay;
 import com.osirisguide.overlay.OsirisMinimapOverlay;
 import com.osirisguide.overlay.OsirisWorldOverlay;
@@ -96,6 +99,8 @@ public class OsirisGuidePlugin extends Plugin
 	@Inject
 	private OsirisItemOverlay itemOverlay;
 	@Inject
+	private DialogueOverlay dialogueOverlay;
+	@Inject
 	private ItemManager itemManager;
 	@Inject
 	private WorldMapPointManager worldMapPointManager;
@@ -133,6 +138,13 @@ public class OsirisGuidePlugin extends Plugin
 		return configManager.getConfig(OsirisGuideConfig.class);
 	}
 
+	@Provides
+	@Singleton
+	DialogueDb provideDialogueDb(Gson gson)
+	{
+		return DialogueDb.load(gson);
+	}
+
 	@Override
 	protected void startUp()
 	{
@@ -154,6 +166,7 @@ public class OsirisGuidePlugin extends Plugin
 		overlayManager.add(worldOverlay);
 		overlayManager.add(minimapOverlay);
 		overlayManager.add(itemOverlay);
+		overlayManager.add(dialogueOverlay);
 
 		if (client.getGameState() == GameState.LOGGED_IN)
 		{
@@ -178,6 +191,7 @@ public class OsirisGuidePlugin extends Plugin
 		overlayManager.remove(worldOverlay);
 		overlayManager.remove(minimapOverlay);
 		overlayManager.remove(itemOverlay);
+		overlayManager.remove(dialogueOverlay);
 		clearWorldMapPoint();
 		stopDrivingQuestHelper();
 		if (navButton != null)
@@ -287,6 +301,12 @@ public class OsirisGuidePlugin extends Plugin
 			else if (config.autoAdvance())
 			{
 				changed = progression.process(ctx);
+			}
+			// Milestone-fold: once a later step is done, auto-complete the manual flavour steps behind
+			// it so the route advances by itself instead of stalling on an untriggerable "sell/drop" step.
+			if (config.autoAdvance() && progression.foldManualBehindMilestones())
+			{
+				changed = true;
 			}
 		}
 		catch (RuntimeException ex)

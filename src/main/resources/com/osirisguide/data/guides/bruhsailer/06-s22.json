@@ -141,14 +141,25 @@
       ]
     },
     {
-      "id": "s22-010",
+      "id": "s22-010a",
       "title": "Run to Brimhaven, do the Agility …",
-      "text": "Run to Brimhaven, do the Agility Arena for one ticket, claim the easy and medium Karamja diaries (lamps on Slayer).",
+      "text": "Run to Brimhaven, do the Agility Arena for one ticket",
       "manual": true,
       "object": 10805,
       "world": [
         2789,
         3174,
+        0
+      ]
+    },
+    {
+      "id": "s22-010b",
+      "title": "claim the easy and medium Karamja …",
+      "text": "claim the easy and medium Karamja diaries (lamps on Slayer)",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
         0
       ]
     },
@@ -392,8 +403,8 @@
     },
     {
       "id": "s22-027",
-      "title": "Swap to the regular spellbook. Complete …",
-      "text": "Swap to the regular spellbook. Complete Recipe for Disaster by following the steps below:",
+      "title": "Swap to the regular spellbook, Complete …",
+      "text": "Swap to the regular spellbook, Complete Recipe for Disaster by following the steps below:",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -554,7 +565,7 @@
     {
       "id": "s22-037",
       "title": "Read this step in its entirety …",
-      "text": "Read this step in its entirety carefully. This step contains the Hallowed Sepulchre grind to level 82 agility.",
+      "text": "Read this step in its entirety carefully. This step contains the Hallowed Sepulchre grind to level 82 agility",
       "manual": true
     },
     {

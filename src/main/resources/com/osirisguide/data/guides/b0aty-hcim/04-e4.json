@@ -106,12 +106,18 @@
       "id": "e4-008",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-009",
@@ -132,9 +138,15 @@
       "manual": true
     },
     {
-      "id": "e4-011",
-      "title": "Bank at West bank and withdraw …",
-      "text": "Bank at West bank and withdraw Food for Melzar's Maze",
+      "id": "e4-011a",
+      "title": "Bank at West bank",
+      "text": "Bank at West bank",
+      "manual": true
+    },
+    {
+      "id": "e4-011b",
+      "title": "withdraw Food for Melzar's Maze",
+      "text": "withdraw Food for Melzar's Maze",
       "manual": true
     },
     {
@@ -182,14 +194,26 @@
       "manual": true
     },
     {
-      "id": "e4-016",
-      "title": "Head to Port Sarim and kill …",
-      "text": "Head to Port Sarim and kill Wormbrain to get the map part [Dragon Slayer]",
+      "id": "e4-016a",
+      "title": "Head to Port Sarim",
+      "text": "Head to Port Sarim",
       "manual": true,
       "npc": 3648,
       "world": [
         2954,
         3147,
+        0
+      ]
+    },
+    {
+      "id": "e4-016b",
+      "title": "kill Wormbrain to get the map …",
+      "text": "kill Wormbrain to get the map part [Dragon Slayer]",
+      "manual": true,
+      "npc": 820,
+      "world": [
+        3015,
+        3195,
         0
       ]
     },
@@ -206,9 +230,9 @@
       ]
     },
     {
-      "id": "e4-018",
-      "title": "Talk to Klarense and buy Lady …",
-      "text": "Talk to Klarense and buy Lady Lumbridge from him [Dragon Slayer]",
+      "id": "e4-018a",
+      "title": "Talk to Klarense",
+      "text": "Talk to Klarense",
       "manual": true,
       "npc": 819,
       "world": [
@@ -218,9 +242,27 @@
       ]
     },
     {
-      "id": "e4-019",
-      "title": "Board the ship, climb down the …",
-      "text": "Board the ship, climb down the ladder and repair the hole 3 times [Dragon Slayer]",
+      "id": "e4-018b",
+      "title": "buy Lady Lumbridge from him [Dragon …",
+      "text": "buy Lady Lumbridge from him [Dragon Slayer]",
+      "manual": true,
+      "npc": 3530,
+      "world": [
+        2924,
+        3404,
+        0
+      ]
+    },
+    {
+      "id": "e4-019a",
+      "title": "Board the ship",
+      "text": "Board the ship",
+      "manual": true
+    },
+    {
+      "id": "e4-019b",
+      "title": "climb down the ladder and repair …",
+      "text": "climb down the ladder and repair the hole 3 times [Dragon Slayer]",
       "manual": true
     },
     {
@@ -242,12 +284,18 @@
       "id": "e4-021",
       "title": "Head to Draynor",
       "text": "Head to Draynor",
-      "manual": true,
       "world": [
         3103,
         3265,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-022",
@@ -305,12 +353,18 @@
       "id": "e4-027",
       "title": "Head to Falador Allotment Patch",
       "text": "Head to Falador Allotment Patch",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-028",
@@ -347,9 +401,21 @@
       "item": 21483
     },
     {
-      "id": "e4-030",
-      "title": "Plant the marigold. Deposit tools. Pick …",
-      "text": "Plant the marigold. Deposit tools. Pick up food. [Garden of Tranquility]",
+      "id": "e4-030a",
+      "title": "Plant the marigold",
+      "text": "Plant the marigold",
+      "manual": true
+    },
+    {
+      "id": "e4-030b",
+      "title": "Deposit tools",
+      "text": "Deposit tools",
+      "manual": true
+    },
+    {
+      "id": "e4-030c",
+      "title": "Pick up food. [Garden of Tranquility]",
+      "text": "Pick up food. [Garden of Tranquility]",
       "manual": true
     },
     {
@@ -497,9 +563,15 @@
       ]
     },
     {
-      "id": "e4-044",
-      "title": "Return and pick 4x Red/Pink/White Roses …",
-      "text": "Return and pick 4x Red/Pink/White Roses [Garden of Tranquility]",
+      "id": "e4-044a",
+      "title": "Return",
+      "text": "Return",
+      "manual": true
+    },
+    {
+      "id": "e4-044b",
+      "title": "pick 4x Red/Pink/White Roses [Garden of …",
+      "text": "pick 4x Red/Pink/White Roses [Garden of Tranquility]",
       "manual": true
     },
     {
@@ -518,12 +590,18 @@
       "id": "e4-047",
       "title": "Head to Morytania Allotment Patch",
       "text": "Head to Morytania Allotment Patch",
-      "manual": true,
       "world": [
         3493,
         3488,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3493,
+        "y": 3488,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-048",
@@ -594,12 +672,18 @@
       "id": "e4-054",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-055",
@@ -685,9 +769,15 @@
       ]
     },
     {
-      "id": "e4-061",
-      "title": "Head east towards the fishing shop …",
-      "text": "Head east towards the fishing shop and Fill the Fishbowl at the sink",
+      "id": "e4-061a",
+      "title": "Head east towards the fishing shop",
+      "text": "Head east towards the fishing shop",
+      "manual": true
+    },
+    {
+      "id": "e4-061b",
+      "title": "Fill the Fishbowl at the sink",
+      "text": "Fill the Fishbowl at the sink",
       "manual": true
     },
     {
@@ -721,9 +811,15 @@
       "manual": true
     },
     {
-      "id": "e4-066",
-      "title": "Fish for a Bass and cook …",
-      "text": "Fish for a Bass and cook it [Kandarin Medium Diary, Family Crest Quest]",
+      "id": "e4-066a",
+      "title": "Fish for a Bass",
+      "text": "Fish for a Bass",
+      "manual": true
+    },
+    {
+      "id": "e4-066b",
+      "title": "cook it [Kandarin Medium Diary, Family …",
+      "text": "cook it [Kandarin Medium Diary, Family Crest Quest]",
       "complete": {
         "op": "quest",
         "quest": "FAMILY_CREST",
@@ -777,8 +873,8 @@
     },
     {
       "id": "e4-070",
-      "title": "And talk again",
-      "text": "And talk again",
+      "title": "talk again",
+      "text": "talk again",
       "manual": true
     },
     {
@@ -833,23 +929,41 @@
       "id": "e4-075",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e4-076",
-      "title": "Head North and go to the …",
-      "text": "Head North and go to the Ice Mountain There use Secateurs on White Tree [Garden of Tranquility]",
-      "manual": true,
+      "id": "e4-076a",
+      "title": "Head North",
+      "text": "Head North",
+      "manual": true
+    },
+    {
+      "id": "e4-076b",
+      "title": "go to the Ice Mountain There …",
+      "text": "go to the Ice Mountain There use Secateurs on White Tree [Garden of Tranquility]",
       "world": [
         3010,
         3486,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3010,
+        "y": 3486,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-077",
@@ -858,9 +972,15 @@
       "manual": true
     },
     {
-      "id": "e4-078",
-      "title": "Head south and enter the Dwarven …",
-      "text": "Head south and enter the Dwarven Mine",
+      "id": "e4-078a",
+      "title": "Head south",
+      "text": "Head south",
+      "manual": true
+    },
+    {
+      "id": "e4-078b",
+      "title": "enter the Dwarven Mine",
+      "text": "enter the Dwarven Mine",
       "manual": true,
       "object": 11867,
       "world": [
@@ -888,12 +1008,18 @@
       "id": "e4-080",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-081",
@@ -940,12 +1066,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 68
+            "qty": 67
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -971,9 +1097,15 @@
       "manual": true
     },
     {
-      "id": "e4-088",
-      "title": "Go upstairs and talk to Eohric …",
-      "text": "Go upstairs and talk to Eohric (1) [Death Plateau]",
+      "id": "e4-088a",
+      "title": "Go upstairs",
+      "text": "Go upstairs",
+      "manual": true
+    },
+    {
+      "id": "e4-088b",
+      "title": "talk to Eohric (1) [Death Plateau]",
+      "text": "talk to Eohric (1) [Death Plateau]",
       "complete": {
         "op": "quest",
         "quest": "DEATH_PLATEAU",
@@ -1064,17 +1196,29 @@
       "id": "e4-096",
       "title": "Teleport to Burthorpe",
       "text": "Teleport to Burthorpe",
-      "manual": true,
       "world": [
         2870,
         3544,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2870,
+        "y": 3544,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e4-097",
-      "title": "Go upstairs and talk to Eohric …",
-      "text": "Go upstairs and talk to Eohric [Death Plateau]",
+      "id": "e4-097a",
+      "title": "Go upstairs",
+      "text": "Go upstairs",
+      "manual": true
+    },
+    {
+      "id": "e4-097b",
+      "title": "talk to Eohric [Death Plateau]",
+      "text": "talk to Eohric [Death Plateau]",
       "complete": {
         "op": "quest",
         "quest": "DEATH_PLATEAU",
@@ -1156,12 +1300,18 @@
       "id": "e4-102",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-103",
@@ -1254,12 +1404,18 @@
       "id": "e4-111",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-112",
@@ -1318,12 +1474,18 @@
       "id": "e4-117",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-118",
@@ -1356,12 +1518,12 @@
           {
             "op": "itemAcquired",
             "id": 560,
-            "qty": 203
+            "qty": 202
           },
           {
             "op": "item",
             "id": 560,
-            "qty": 203,
+            "qty": 202,
             "scope": "ANY"
           }
         ]
@@ -1595,12 +1757,18 @@
       "id": "e4-140",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-141",
@@ -1838,12 +2006,18 @@
       "id": "e4-159",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-160",
@@ -1914,12 +2088,12 @@
           {
             "op": "itemAcquired",
             "id": 1775,
-            "qty": 8
+            "qty": 4
           },
           {
             "op": "item",
             "id": 1775,
-            "qty": 13,
+            "qty": 9,
             "scope": "ANY"
           }
         ]
@@ -1978,12 +2152,18 @@
       "id": "e4-169",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-170",
@@ -2088,9 +2268,21 @@
       ]
     },
     {
-      "id": "e4-177",
-      "title": "Enter the White Wolf Tunnel and …",
-      "text": "Enter the White Wolf Tunnel and talk to Khorvak [Between a Rock]",
+      "id": "e4-177a",
+      "title": "Enter the White Wolf Tunnel",
+      "text": "Enter the White Wolf Tunnel",
+      "manual": true,
+      "npc": 106,
+      "world": [
+        2591,
+        2966,
+        0
+      ]
+    },
+    {
+      "id": "e4-177b",
+      "title": "talk to Khorvak [Between a Rock]",
+      "text": "talk to Khorvak [Between a Rock]",
       "complete": {
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
@@ -2134,7 +2326,7 @@
     {
       "id": "e4-181",
       "title": "[Optional] Wait for a farming growth …",
-      "text": "[Optional] Wait for a farming growth cycle and pick a fruit from the White Tree or do it at a later step. [Varrock Medium Diary]",
+      "text": "[Optional] Wait for a farming growth cycle, pick a fruit from the White Tree or do it at a later step. [Varrock Medium Diary]",
       "manual": true,
       "world": [
         3210,
@@ -2146,12 +2338,18 @@
       "id": "e4-182",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-183",
@@ -2356,7 +2554,7 @@
     {
       "id": "e4-199",
       "title": "Withdraw: Coins, Dueling Ring, a knife, …",
-      "text": "Withdraw: Coins, Dueling Ring, a knife, log or axe, ardy cloak, dramen staff.",
+      "text": "Withdraw: Coins, Dueling Ring, a knife, log or axe, ardy cloak, dramen staff",
       "complete": {
         "op": "or",
         "of": [
@@ -2481,7 +2679,7 @@
     {
       "id": "e4-207",
       "title": "MANDATORY: Only loot points after 65 …",
-      "text": "MANDATORY: Only loot points after 65 Fishing. This will ensure you get the best fish to train cooking later.",
+      "text": "MANDATORY: Only loot points after 65 Fishing. This will ensure you get the best fish to train cooking later",
       "manual": true,
       "world": [
         3165,
@@ -2496,9 +2694,15 @@
       "manual": true
     },
     {
-      "id": "e4-209",
+      "id": "e4-209a",
       "title": "OPTIONAL: If you feel like it, …",
-      "text": "OPTIONAL: If you feel like it, fill your inventory with empty buckets from the crates at the end of each game and bank them, can bank 1000+ throughout the grind doing so",
+      "text": "OPTIONAL: If you feel like it, fill your inventory with empty buckets from the crates at the end of each game",
+      "manual": true
+    },
+    {
+      "id": "e4-209b",
+      "title": "bank them, can bank 1000+ throughout …",
+      "text": "bank them, can bank 1000+ throughout the grind doing so",
       "manual": true
     },
     {
@@ -2511,12 +2715,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 33
+            "qty": 34
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 35,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -2570,9 +2774,15 @@
       "manual": true
     },
     {
-      "id": "e4-214",
+      "id": "e4-214a",
       "title": "Mine sand in the South-West 2x2 …",
-      "text": "Mine sand in the South-West 2x2 spot. Deposit in the Grinder Sandstorm",
+      "text": "Mine sand in the South-West 2x2 spot",
+      "manual": true
+    },
+    {
+      "id": "e4-214b",
+      "title": "Deposit in the Grinder Sandstorm",
+      "text": "Deposit in the Grinder Sandstorm",
       "manual": true
     },
     {
@@ -2588,8 +2798,8 @@
     },
     {
       "id": "e4-216",
-      "title": "Minigame teleport to Burthorpe Games Room …",
-      "text": "Minigame teleport to Burthorpe Games Room and go upstairs",
+      "title": "Minigame teleport to Burthorpe Games Room, …",
+      "text": "Minigame teleport to Burthorpe Games Room, go upstairs",
       "manual": true,
       "world": [
         2870,
@@ -2637,9 +2847,21 @@
       "manual": true
     },
     {
-      "id": "e4-221",
-      "title": "Drop 3x Inventories of Giant Seaweed. …",
-      "text": "Drop 3x Inventories of Giant Seaweed. Pick 1 up then left click 'Cook fire' to instantly turn it into 6 Soda Ash. Bank at 24 & repeat",
+      "id": "e4-221a",
+      "title": "Drop 3x Inventories of Giant Seaweed",
+      "text": "Drop 3x Inventories of Giant Seaweed",
+      "manual": true
+    },
+    {
+      "id": "e4-221b",
+      "title": "Pick 1 up then left click …",
+      "text": "Pick 1 up then left click 'Cook fire' to instantly turn it into 6 Soda Ash",
+      "manual": true
+    },
+    {
+      "id": "e4-221c",
+      "title": "Bank at 24 & repeat",
+      "text": "Bank at 24 & repeat",
       "manual": true
     },
     {
@@ -2657,7 +2879,7 @@
     {
       "id": "e4-223",
       "title": "Create Molten glass + blow into …",
-      "text": "Create Molten glass + blow into best option until 50 Crafting. Optionally finish 55 Crafting here.",
+      "text": "Create Molten glass + blow into best option until 50 Crafting. Optionally finish 55 Crafting here",
       "complete": {
         "op": "skill",
         "skill": "CRAFTING",
@@ -2735,7 +2957,7 @@
           {
             "op": "item",
             "id": 309,
-            "qty": 10,
+            "qty": 11,
             "scope": "ANY"
           }
         ]
@@ -2908,9 +3130,15 @@
       ]
     },
     {
-      "id": "e4-247",
-      "title": "Head North East and make a …",
-      "text": "Head North East and make a Strength Potion in the Pub (Vial > Tarromin > Limpwurt) [Kourend Easy Diary]",
+      "id": "e4-247a",
+      "title": "Head North East",
+      "text": "Head North East",
+      "manual": true
+    },
+    {
+      "id": "e4-247b",
+      "title": "make a Strength Potion in the …",
+      "text": "make a Strength Potion in the Pub (Vial > Tarromin > Limpwurt) [Kourend Easy Diary]",
       "manual": true,
       "world": [
         1630,
@@ -3016,8 +3244,8 @@
     },
     {
       "id": "e4-257",
-      "title": "Exit by entering the portal and …",
-      "text": "Exit by entering the portal and teleport with Istoria",
+      "title": "Exit by entering the portal, teleport …",
+      "text": "Exit by entering the portal, teleport with Istoria",
       "manual": true
     },
     {
@@ -3052,12 +3280,18 @@
       "id": "e4-261",
       "title": "Head West & continue Forsaken Tower …",
       "text": "Head West & continue Forsaken Tower until you get Dinh's Hammer",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-262",
@@ -3140,15 +3374,22 @@
       ]
     },
     {
-      "id": "e4-270",
+      "id": "e4-270a",
       "title": "Fish a Trout South after killing …",
-      "text": "Fish a Trout South after killing the Trapped Soul [Kourend Easy Diary] and return to Mount Karuulm",
+      "text": "Fish a Trout South after killing the Trapped Soul [Kourend Easy Diary]",
       "manual": true,
+      "npc": 8514,
       "world": [
-        1630,
-        3730,
+        1281,
+        3724,
         0
       ]
+    },
+    {
+      "id": "e4-270b",
+      "title": "return to Mount Karuulm",
+      "text": "return to Mount Karuulm",
+      "manual": true
     },
     {
       "id": "e4-271",
@@ -3375,7 +3616,7 @@
     {
       "id": "e4-292",
       "title": "You can do all these if …",
-      "text": "You can do all these if you'd like for medium CA's later but you only need 4 points here for now.",
+      "text": "You can do all these if you'd like for medium CA's later but you only need 4 points here for now",
       "manual": true
     },
     {
@@ -3429,22 +3670,45 @@
       "id": "e4-297",
       "title": "Go east and repair a crane …",
       "text": "Go east and repair a crane [Kourend Medium Diary]",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e4-298",
-      "title": "Head south and talk to Veos …",
-      "text": "Head south and talk to Veos and take boat to Lands End [Kourend Easy Diary]",
+      "id": "e4-298a",
+      "title": "Head south",
+      "text": "Head south",
+      "manual": true
+    },
+    {
+      "id": "e4-298b",
+      "title": "talk to Veos",
+      "text": "talk to Veos",
       "manual": true,
       "npc": 10727,
       "world": [
         1824,
         3690,
+        0
+      ]
+    },
+    {
+      "id": "e4-298c",
+      "title": "take boat to Lands End [Kourend …",
+      "text": "take boat to Lands End [Kourend Easy Diary]",
+      "manual": true,
+      "world": [
+        1630,
+        3730,
         0
       ]
     },
@@ -3455,9 +3719,15 @@
       "manual": true
     },
     {
-      "id": "e4-300",
+      "id": "e4-300a",
       "title": "Kill 3x Unicorns as you pass …",
-      "text": "Kill 3x Unicorns as you pass (at the magic trees) and take the unicorn horns",
+      "text": "Kill 3x Unicorns as you pass (at the magic trees)",
+      "manual": true
+    },
+    {
+      "id": "e4-300b",
+      "title": "take the unicorn horns",
+      "text": "take the unicorn horns",
       "manual": true
     },
     {
@@ -3509,17 +3779,34 @@
       "id": "e4-305",
       "title": "Teleport to all 5 cities on …",
       "text": "Teleport to all 5 cities on the Kharedst’s Memoirs [Kourend Medium Diary]",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e4-306a",
+      "title": "Collect an Intelligence",
+      "text": "Collect an Intelligence",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
       ]
     },
     {
-      "id": "e4-306",
-      "title": "Collect an Intelligence and hand in …",
-      "text": "Collect an Intelligence and hand in to Captain Ginea [Kourend Medium Diary]",
+      "id": "e4-306b",
+      "title": "hand in to Captain Ginea [Kourend …",
+      "text": "hand in to Captain Ginea [Kourend Medium Diary]",
       "manual": true,
       "npc": 6649,
       "world": [
@@ -3549,12 +3836,18 @@
       "id": "e4-309",
       "title": "Teleport to Kourend",
       "text": "Teleport to Kourend",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-310",
@@ -3590,12 +3883,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 78
+            "qty": 77
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -3612,12 +3905,18 @@
       "id": "e4-315",
       "title": "Teleport to Kourend Woodland using Rada's …",
       "text": "Teleport to Kourend Woodland using Rada's blessing",
-      "manual": true,
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-316",
@@ -3646,17 +3945,29 @@
       "id": "e4-319",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e4-320",
+      "id": "e4-320a",
       "title": "Talk to Historian in Museum to …",
-      "text": "Talk to Historian in Museum to obtain 2x 1,000XP Lamps. Use both on Herblore. Clean herbs in bank for 25.",
+      "text": "Talk to Historian in Museum to obtain 2x 1,000XP Lamps",
+      "manual": true
+    },
+    {
+      "id": "e4-320b",
+      "title": "Use both on Herblore. Clean herbs …",
+      "text": "Use both on Herblore. Clean herbs in bank for 25",
       "manual": true
     },
     {
@@ -3726,21 +4037,33 @@
       ]
     },
     {
-      "id": "e4-326",
-      "title": "Withdraw: games necklace, Teleport Runes, Steel …",
-      "text": "Withdraw: games necklace, Teleport Runes, Steel Gauntlets",
+      "id": "e4-326a",
+      "title": "Withdraw: games necklace",
+      "text": "Withdraw: games necklace",
+      "manual": true
+    },
+    {
+      "id": "e4-326b",
+      "title": "Teleport Runes, Steel Gauntlets",
+      "text": "Teleport Runes, Steel Gauntlets",
       "manual": true
     },
     {
       "id": "e4-327",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-328",
@@ -3758,12 +4081,18 @@
       "id": "e4-329",
       "title": "Teleport to Burthorpe",
       "text": "Teleport to Burthorpe",
-      "manual": true,
       "world": [
         2870,
         3544,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2870,
+        "y": 3544,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-330",
@@ -3828,12 +4157,18 @@
       "id": "e4-334",
       "title": "Teleport to Ardy->Rimmington Boat",
       "text": "Teleport to Ardy->Rimmington Boat",
-      "manual": true,
       "world": [
         2956,
         3232,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2956,
+        "y": 3232,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-335",
@@ -3895,12 +4230,18 @@
       "id": "e4-339",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-340",
@@ -3912,12 +4253,18 @@
       "id": "e4-341",
       "title": "Head West to Taverley Dungeon",
       "text": "Head West to Taverley Dungeon",
-      "manual": true,
       "world": [
         2884,
         3398,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2884,
+        "y": 3398,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-342",
@@ -4001,9 +4348,15 @@
       "manual": true
     },
     {
-      "id": "e4-351",
+      "id": "e4-351a",
       "title": "Kill a Blue Dragon with Water …",
-      "text": "Kill a Blue Dragon with Water Blast. Take the Dragon Bone [Watchtower Quest]",
+      "text": "Kill a Blue Dragon with Water Blast",
+      "manual": true
+    },
+    {
+      "id": "e4-351b",
+      "title": "Take the Dragon Bone [Watchtower Quest]",
+      "text": "Take the Dragon Bone [Watchtower Quest]",
       "complete": {
         "op": "quest",
         "quest": "WATCHTOWER",
@@ -4016,9 +4369,15 @@
       ]
     },
     {
-      "id": "e4-352",
-      "title": "Kill a Baby Dragon. Take the …",
-      "text": "Kill a Baby Dragon. Take the Baby Dragon Bone [Mournings End Pt 2]",
+      "id": "e4-352a",
+      "title": "Kill a Baby Dragon",
+      "text": "Kill a Baby Dragon",
+      "manual": true
+    },
+    {
+      "id": "e4-352b",
+      "title": "Take the Baby Dragon Bone [Mournings …",
+      "text": "Take the Baby Dragon Bone [Mournings End Pt 2]",
       "manual": true
     },
     {
@@ -4067,32 +4426,50 @@
       ]
     },
     {
-      "id": "e4-356",
-      "title": "Go northwest to the black dragons …",
-      "text": "Go northwest to the black dragons and kill one using safe spot and water blast. (Combat Achievement)",
+      "id": "e4-356a",
+      "title": "Go northwest to the black dragons",
+      "text": "Go northwest to the black dragons",
+      "manual": true
+    },
+    {
+      "id": "e4-356b",
+      "title": "kill one using safe spot and …",
+      "text": "kill one using safe spot and water blast. (Combat Achievement)",
       "manual": true
     },
     {
       "id": "e4-357",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-358",
       "title": "Head South-West to Sorcerer's Tower",
       "text": "Head South-West to Sorcerer's Tower",
-      "manual": true,
       "world": [
         2702,
         3406,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2702,
+        "y": 3406,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-359",
@@ -4110,9 +4487,15 @@
       ]
     },
     {
-      "id": "e4-360",
-      "title": "Drink tea and make Guthix rest …",
-      "text": "Drink tea and make Guthix rest Use Bowl of hot water on Empty Cup Any herb > Cup of hot water [One Small Favour]",
+      "id": "e4-360a",
+      "title": "Drink tea",
+      "text": "Drink tea",
+      "manual": true
+    },
+    {
+      "id": "e4-360b",
+      "title": "make Guthix rest Use Bowl of …",
+      "text": "make Guthix rest Use Bowl of hot water on Empty Cup Any herb > Cup of hot water [One Small Favour]",
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
@@ -4125,9 +4508,15 @@
       ]
     },
     {
-      "id": "e4-361",
-      "title": "Go up the ladder 3 times …",
-      "text": "Go up the ladder 3 times then talk to Thormac to complete Scorpion Catcher",
+      "id": "e4-361a",
+      "title": "Go up the ladder 3 times",
+      "text": "Go up the ladder 3 times",
+      "manual": true
+    },
+    {
+      "id": "e4-361b",
+      "title": "talk to Thormac to complete Scorpion …",
+      "text": "talk to Thormac to complete Scorpion Catcher",
       "complete": {
         "op": "quest",
         "quest": "SCORPION_CATCHER",
@@ -4151,9 +4540,9 @@
       ]
     },
     {
-      "id": "e4-363",
+      "id": "e4-363a",
       "title": "Get 45 Woodcutting on Oak Trees …",
-      "text": "Get 45 Woodcutting on Oak Trees if not already. Cut 2 Maple Logs [Eyes of Glouphrie][Enakra's Lament]",
+      "text": "Get 45 Woodcutting on Oak Trees if not already",
       "complete": {
         "op": "skill",
         "skill": "WOODCUTTING",
@@ -4165,6 +4554,12 @@
         3490,
         0
       ]
+    },
+    {
+      "id": "e4-363b",
+      "title": "Cut 2 Maple Logs [Eyes of …",
+      "text": "Cut 2 Maple Logs [Eyes of Glouphrie][Enakra's Lament]",
+      "manual": true
     },
     {
       "id": "e4-364",
@@ -4272,9 +4667,9 @@
       ]
     },
     {
-      "id": "e4-373",
+      "id": "e4-373a",
       "title": "Deposit all at Entrana except Ice …",
-      "text": "Deposit all at Entrana except Ice Gloves, Teleport Runes, 3x Papyrus, Ball of Wool, Sack of Potatoes, Unlit Candle, Raw Karambwanji",
+      "text": "Deposit all at Entrana except Ice Gloves",
       "manual": true,
       "npc": 4062,
       "world": [
@@ -4282,6 +4677,12 @@
         3350,
         0
       ]
+    },
+    {
+      "id": "e4-373b",
+      "title": "Teleport Runes, 3x Papyrus, Ball of …",
+      "text": "Teleport Runes, 3x Papyrus, Ball of Wool, Sack of Potatoes, Unlit Candle, Raw Karambwanji",
+      "manual": true
     },
     {
       "id": "e4-374",
@@ -4333,9 +4734,9 @@
       "item": 307
     },
     {
-      "id": "e4-378",
-      "title": "Kill Fire Bird and take Fire …",
-      "text": "Kill Fire Bird and take Fire Feather",
+      "id": "e4-378a",
+      "title": "Kill Fire Bird",
+      "text": "Kill Fire Bird",
       "manual": true,
       "npc": 4927,
       "world": [
@@ -4343,6 +4744,12 @@
         3374,
         0
       ]
+    },
+    {
+      "id": "e4-378b",
+      "title": "take Fire Feather",
+      "text": "take Fire Feather",
+      "manual": true
     },
     {
       "id": "e4-379",
@@ -4381,12 +4788,18 @@
       "id": "e4-382",
       "title": "Teleport to Varrock [You will need …",
       "text": "Teleport to Varrock [You will need to buy black armour if Black Arm gang]",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-383",
@@ -4395,9 +4808,37 @@
       "manual": true
     },
     {
-      "id": "e4-384",
-      "title": "Buy Black platebody from Horvik and …",
-      "text": "Buy Black platebody from Horvik and buy Black full helm & Black platelegs from Valaine",
+      "id": "e4-384a",
+      "title": "Buy Black platebody from Horvik",
+      "text": "Buy Black platebody from Horvik",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1125,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1125,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1125,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "e4-384b",
+      "title": "buy Black full helm & Black …",
+      "text": "buy Black full helm & Black platelegs from Valaine",
       "complete": {
         "op": "or",
         "of": [
@@ -4414,13 +4855,7 @@
           }
         ]
       },
-      "item": 1165,
-      "npc": 2882,
-      "world": [
-        3229,
-        3436,
-        0
-      ]
+      "item": 1165
     },
     {
       "id": "e4-385",
@@ -4498,12 +4933,18 @@
       "id": "e4-391",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-392",
@@ -4564,12 +5005,18 @@
       "id": "e4-395",
       "title": "Teleport to Burthorpe",
       "text": "Teleport to Burthorpe",
-      "manual": true,
       "world": [
         2870,
         3544,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2870,
+        "y": 3544,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-396",
@@ -4702,12 +5149,18 @@
       "id": "e4-404",
       "title": "Teleport to Burthorpe",
       "text": "Teleport to Burthorpe",
-      "manual": true,
       "world": [
         2870,
         3544,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2870,
+        "y": 3544,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-405",
@@ -4913,7 +5366,7 @@
     {
       "id": "e4-419",
       "title": "Depending on cash stack you will …",
-      "text": "Depending on cash stack you will need to maintain this occasionally using money makers mentioned before.",
+      "text": "Depending on cash stack you will need to maintain this occasionally using money makers mentioned before",
       "manual": true
     },
     {
@@ -4993,12 +5446,18 @@
       "id": "e4-424",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-425",
@@ -5019,12 +5478,18 @@
       "id": "e4-426",
       "title": "Teleport to Camelot",
       "text": "Teleport to Camelot",
-      "manual": true,
       "world": [
         2758,
         3507,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-427",
@@ -5065,9 +5530,15 @@
       ]
     },
     {
-      "id": "e4-430",
-      "title": "Equip bronze arrows you receive and …",
-      "text": "Equip bronze arrows you receive and use Ogre Bow to shoot the target 10x for Archery ticket [Mournings End Pt 2]",
+      "id": "e4-430a",
+      "title": "Equip bronze arrows you receive",
+      "text": "Equip bronze arrows you receive",
+      "manual": true
+    },
+    {
+      "id": "e4-430b",
+      "title": "use Ogre Bow to shoot the …",
+      "text": "use Ogre Bow to shoot the target 10x for Archery ticket [Mournings End Pt 2]",
       "manual": true,
       "npc": 2095,
       "world": [
@@ -5111,9 +5582,27 @@
       ]
     },
     {
-      "id": "e4-433",
+      "id": "e4-433a",
       "title": "Enter Goblin Cave south-east of the …",
-      "text": "Enter Goblin Cave south-east of the Fishing Guild. Go to the most NE room. Right-click and search the sculpture [One Small Favour]",
+      "text": "Enter Goblin Cave south-east of the Fishing Guild",
+      "manual": true,
+      "object": 2,
+      "world": [
+        2624,
+        3393,
+        0
+      ]
+    },
+    {
+      "id": "e4-433b",
+      "title": "Go to the most NE room. …",
+      "text": "Go to the most NE room. Right-click",
+      "manual": true
+    },
+    {
+      "id": "e4-433c",
+      "title": "search the sculpture [One Small Favour]",
+      "text": "search the sculpture [One Small Favour]",
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
@@ -5154,8 +5643,8 @@
     },
     {
       "id": "e4-436",
-      "title": "Ardy cloak teleport and head to …",
-      "text": "Ardy cloak teleport and head to Port Khazard",
+      "title": "Ardy cloak teleport, head to Port …",
+      "text": "Ardy cloak teleport, head to Port Khazard",
       "manual": true,
       "npc": 1209,
       "world": [
@@ -5198,9 +5687,21 @@
       "manual": true
     },
     {
-      "id": "e4-440",
-      "title": "Exit to the kitchen and talk …",
-      "text": "Exit to the kitchen and talk to the cook about Pirate Pete and go through all the options [Recipe for Disaster]",
+      "id": "e4-440a",
+      "title": "Exit to the kitchen, talk to …",
+      "text": "Exit to the kitchen, talk to the cook about Pirate Pete",
+      "manual": true,
+      "npc": 601,
+      "world": [
+        3681,
+        3536,
+        0
+      ]
+    },
+    {
+      "id": "e4-440b",
+      "title": "go through all the options [Recipe …",
+      "text": "go through all the options [Recipe for Disaster]",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -5286,9 +5787,15 @@
       ]
     },
     {
-      "id": "e4-447",
-      "title": "Search the landling lights and cut …",
-      "text": "Search the landling lights and cut the gems. If you crush you can rebuy. If you crush too many times yer in the bin lad (Shilo Village gem rocks back up)",
+      "id": "e4-447a",
+      "title": "Search the landling lights",
+      "text": "Search the landling lights",
+      "manual": true
+    },
+    {
+      "id": "e4-447b",
+      "title": "cut the gems. If you crush …",
+      "text": "cut the gems. If you crush you can rebuy. If you crush too many times yer in the bin lad (Shilo Village gem rocks back up)",
       "complete": {
         "op": "quest",
         "quest": "SHILO_VILLAGE",
@@ -5379,8 +5886,8 @@
     },
     {
       "id": "e4-455",
-      "title": "Hunt a Chompy, pluck it and …",
-      "text": "Hunt a Chompy, pluck it and take raw chompy [Recipe for Disaster]",
+      "title": "Hunt a Chompy, pluck it, take …",
+      "text": "Hunt a Chompy, pluck it, take raw chompy [Recipe for Disaster]",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -5534,8 +6041,8 @@
     },
     {
       "id": "e4-467",
-      "title": "Continue One Small Favour and kill …",
-      "text": "Continue One Small Favour and kill Slagilith with your pickaxe",
+      "title": "Continue One Small Favour, kill Slagilith …",
+      "text": "Continue One Small Favour, kill Slagilith with your pickaxe",
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
@@ -5566,12 +6073,18 @@
       "id": "e4-469",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-470",
@@ -5589,12 +6102,12 @@
           {
             "op": "itemAcquired",
             "id": 1929,
-            "qty": 21
+            "qty": 20
           },
           {
             "op": "item",
             "id": 1929,
-            "qty": 33,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -5652,12 +6165,18 @@
       "id": "e4-475",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-476",
@@ -5690,26 +6209,38 @@
       ]
     },
     {
-      "id": "e4-478",
-      "title": "Bank and Deposit steel and black …",
-      "text": "Bank and Deposit steel and black platebody and grab a fly fishing rod + feathers",
+      "id": "e4-478a",
+      "title": "Bank",
+      "text": "Bank",
+      "manual": true
+    },
+    {
+      "id": "e4-478b",
+      "title": "Deposit steel and black platebody",
+      "text": "Deposit steel and black platebody",
+      "manual": true
+    },
+    {
+      "id": "e4-478c",
+      "title": "grab a fly fishing rod + …",
+      "text": "grab a fly fishing rod + feathers",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 1125,
-            "qty": 1
+            "id": 309,
+            "qty": 11
           },
           {
             "op": "item",
-            "id": 1125,
-            "qty": 1,
+            "id": 309,
+            "qty": 11,
             "scope": "ANY"
           }
         ]
       },
-      "item": 1125
+      "item": 309
     },
     {
       "id": "e4-479",
@@ -5745,9 +6276,15 @@
       ]
     },
     {
-      "id": "e4-482",
-      "title": "Kill a cow and take the …",
-      "text": "Kill a cow and take the cowhide [Mournings End Pt 1]",
+      "id": "e4-482a",
+      "title": "Kill a cow",
+      "text": "Kill a cow",
+      "manual": true
+    },
+    {
+      "id": "e4-482b",
+      "title": "take the cowhide [Mournings End Pt …",
+      "text": "take the cowhide [Mournings End Pt 1]",
       "manual": true
     },
     {
@@ -5778,9 +6315,15 @@
       ]
     },
     {
-      "id": "e4-485",
-      "title": "Return to the cow pen and …",
-      "text": "Return to the cow pen and talk to Gillie Groats [The Ides of Milk]",
+      "id": "e4-485a",
+      "title": "Return to the cow pen",
+      "text": "Return to the cow pen",
+      "manual": true
+    },
+    {
+      "id": "e4-485b",
+      "title": "talk to Gillie Groats [The Ides …",
+      "text": "talk to Gillie Groats [The Ides of Milk]",
       "complete": {
         "op": "quest",
         "quest": "THE_IDES_OF_MILK",
@@ -5926,9 +6469,21 @@
       ]
     },
     {
-      "id": "e4-496",
-      "title": "Pick Banana. Use Knife on Banana. …",
-      "text": "Pick Banana. Use Knife on Banana. Use Banana on Rum.",
+      "id": "e4-496a",
+      "title": "Pick Banana",
+      "text": "Pick Banana",
+      "manual": true
+    },
+    {
+      "id": "e4-496b",
+      "title": "Use Knife on Banana",
+      "text": "Use Knife on Banana",
+      "manual": true
+    },
+    {
+      "id": "e4-496c",
+      "title": "Use Banana on Rum",
+      "text": "Use Banana on Rum",
       "manual": true
     },
     {
@@ -5988,7 +6543,7 @@
     {
       "id": "e4-501",
       "title": "YOU SHOULD BE CLOSE TO 30 …",
-      "text": "YOU SHOULD BE CLOSE TO 30 HERBLORE HERE. GET IT BEFORE YOU CONTINUE",
+      "text": "YOU SHOULD BE CLOSE TO 30 HERBLORE HERE, GET IT BEFORE YOU CONTINUE",
       "complete": {
         "op": "skill",
         "skill": "HERBLORE",
@@ -6026,12 +6581,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 79
+            "qty": 78
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -6171,7 +6726,7 @@
           {
             "op": "item",
             "id": 3157,
-            "qty": 2,
+            "qty": 1,
             "scope": "ANY"
           }
         ]
@@ -6259,9 +6814,15 @@
       "manual": true
     },
     {
-      "id": "e4-522",
-      "title": "Kill a Jungle Spider and Collect …",
-      "text": "Kill a Jungle Spider and Collect a spider carcass (use machete on thatching spar for skewer) Cook this for Diary [Karamja Medium Diary]",
+      "id": "e4-522a",
+      "title": "Kill a Jungle Spider",
+      "text": "Kill a Jungle Spider",
+      "manual": true
+    },
+    {
+      "id": "e4-522b",
+      "title": "Collect a spider carcass (use machete …",
+      "text": "Collect a spider carcass (use machete on thatching spar for skewer) Cook this for Diary [Karamja Medium Diary]",
       "complete": {
         "op": "or",
         "of": [
@@ -6367,26 +6928,16 @@
       ]
     },
     {
-      "id": "e4-529",
-      "title": "Withdraw: Teleport Runes, Fish Pie, Karambwan …",
-      "text": "Withdraw: Teleport Runes, Fish Pie, Karambwan Vessel, Karambwanji, Ardy Cloak, Dramen Staff (10 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 3157,
-            "qty": 2
-          },
-          {
-            "op": "item",
-            "id": 3157,
-            "qty": 2,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 3157,
+      "id": "e4-529a",
+      "title": "Withdraw: Teleport Runes",
+      "text": "Withdraw: Teleport Runes",
+      "manual": true
+    },
+    {
+      "id": "e4-529b",
+      "title": "Fish Pie, Karambwan Vessel, Karambwanji, Ardy …",
+      "text": "Fish Pie, Karambwan Vessel, Karambwanji, Ardy Cloak, Dramen Staff (10 Inventory Slots)",
+      "manual": true,
       "world": [
         2624,
         3300,
@@ -6419,12 +6970,18 @@
       "id": "e4-532",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-533",
@@ -6442,12 +6999,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 81
+            "qty": 80
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -6492,12 +7049,18 @@
       "id": "e4-538",
       "title": "Teleport to Burthorpe Games Room",
       "text": "Teleport to Burthorpe Games Room",
-      "manual": true,
       "world": [
         2870,
         3544,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2870,
+        "y": 3544,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-539",
@@ -6518,12 +7081,18 @@
       "id": "e4-540",
       "title": "Head to Mad Eadger at the …",
       "text": "Head to Mad Eadger at the top of Trollheim and continue Eadger's Ruse (1)",
-      "manual": true,
       "world": [
         2891,
         3678,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2891,
+        "y": 3678,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-541",
@@ -6543,9 +7112,15 @@
       "manual": true
     },
     {
-      "id": "e4-543",
+      "id": "e4-543a",
       "title": "USE the pineapple chunks on the …",
-      "text": "USE the pineapple chunks on the vodka and use the vodka pineapple chunks on the Aviary Hatch to get a Drunk parrot",
+      "text": "USE the pineapple chunks on the vodka",
+      "manual": true
+    },
+    {
+      "id": "e4-543b",
+      "title": "use the vodka pineapple chunks on …",
+      "text": "use the vodka pineapple chunks on the Aviary Hatch to get a Drunk parrot",
       "manual": true,
       "world": [
         3165,
@@ -6556,7 +7131,7 @@
     {
       "id": "e4-544",
       "title": "Return to Eadgar and continue until …",
-      "text": "Return to Eadgar and continue until you have hidden the parrot in the rack.",
+      "text": "Return to Eadgar and continue until you have hidden the parrot in the rack",
       "manual": true
     },
     {
@@ -6626,7 +7201,7 @@
           {
             "op": "item",
             "id": 590,
-            "qty": 21,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -6716,12 +7291,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 34
+            "qty": 35
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 35,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -6915,12 +7490,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 85
+            "qty": 84
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 316,
+            "qty": 312,
             "scope": "ANY"
           }
         ]
@@ -7130,9 +7705,9 @@
       ]
     },
     {
-      "id": "e4-598",
+      "id": "e4-598a",
       "title": "Complete Ratcatchers (At this point grow …",
-      "text": "Complete Ratcatchers (At this point grow a cat to Overgrown and train it to Wily cat in Port Sarim Rat pits)",
+      "text": "Complete Ratcatchers (At this point grow a cat to Overgrown",
       "complete": {
         "op": "quest",
         "quest": "RATCATCHERS",
@@ -7141,6 +7716,18 @@
       "world": [
         3151,
         3413,
+        0
+      ]
+    },
+    {
+      "id": "e4-598b",
+      "title": "train it to Wily cat in …",
+      "text": "train it to Wily cat in Port Sarim Rat pits)",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
         0
       ]
     },
@@ -7355,7 +7942,7 @@
           {
             "op": "item",
             "id": 590,
-            "qty": 21,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -7363,9 +7950,15 @@
       "item": 590
     },
     {
-      "id": "e4-617",
+      "id": "e4-617a",
       "title": "Cut 11 logs near Land End …",
-      "text": "Cut 11 logs near Land End if you're low at this point. Bank the axe after",
+      "text": "Cut 11 logs near Land End if you're low at this point",
+      "manual": true
+    },
+    {
+      "id": "e4-617b",
+      "title": "Bank the axe after",
+      "text": "Bank the axe after",
       "manual": true
     },
     {
@@ -7396,9 +7989,15 @@
       ]
     },
     {
-      "id": "e4-620",
-      "title": "Run to the cow pen and …",
-      "text": "Run to the cow pen and kill Brutus with nothing equipped and do not consume any food or potions. (3 Combat achievement points)",
+      "id": "e4-620a",
+      "title": "Run to the cow pen",
+      "text": "Run to the cow pen",
+      "manual": true
+    },
+    {
+      "id": "e4-620b",
+      "title": "kill Brutus with nothing equipped and …",
+      "text": "kill Brutus with nothing equipped and do not consume any food or potions. (3 Combat achievement points)",
       "manual": true
     },
     {
@@ -7495,12 +8094,18 @@
       "id": "e4-628",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-629",
@@ -7586,12 +8191,18 @@
       "id": "e4-635",
       "title": "Head to Barbarian Village",
       "text": "Head to Barbarian Village",
-      "manual": true,
       "world": [
         3080,
         3427,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3080,
+        "y": 3427,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-636",
@@ -7620,12 +8231,18 @@
       "id": "e4-638",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-639",
@@ -7658,12 +8275,18 @@
       "id": "e4-641",
       "title": "Teleport to Varrock",
       "text": "Teleport to Varrock",
-      "manual": true,
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-642",
@@ -7678,24 +8301,41 @@
     },
     {
       "id": "e4-643",
-      "title": "Teleport to Varrock.",
-      "text": "Teleport to Varrock.",
-      "manual": true,
+      "title": "Teleport to Varrock",
+      "text": "Teleport to Varrock",
       "world": [
         3210,
         3448,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e4-644",
-      "title": "Talk to Toby and complete Varrock …",
-      "text": "Talk to Toby and complete Varrock Medium Diary [Use lamps on Herblore]",
+      "id": "e4-644a",
+      "title": "Talk to Toby",
+      "text": "Talk to Toby",
       "manual": true,
       "npc": 5525,
       "world": [
         3225,
         3415,
+        0
+      ]
+    },
+    {
+      "id": "e4-644b",
+      "title": "complete Varrock Medium Diary [Use lamps …",
+      "text": "complete Varrock Medium Diary [Use lamps on Herblore]",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
         0
       ]
     },
@@ -7731,12 +8371,18 @@
       "id": "e4-647",
       "title": "Teleport to Burthorpe",
       "text": "Teleport to Burthorpe",
-      "manual": true,
       "world": [
         2870,
         3544,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2870,
+        "y": 3544,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-648",
@@ -7768,7 +8414,7 @@
           {
             "op": "item",
             "id": 590,
-            "qty": 21,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -7910,7 +8556,7 @@
     {
       "id": "e4-661",
       "title": "From Jossik get a Unholy book, …",
-      "text": "From Jossik get a Unholy book, then buy Book of war & Book of law",
+      "text": "From Jossik get a Unholy book, buy Book of war & Book of law",
       "manual": true,
       "npc": 4424,
       "world": [
@@ -7922,7 +8568,7 @@
     {
       "id": "e4-662",
       "title": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara …",
-      "text": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara Mould, 5x Rune Thrownaxe, Ardy Cloak + Dramen Staff (11 Inventory Slots) + Food & Armour.",
+      "text": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara Mould, 5x Rune Thrownaxe, Ardy Cloak + Dramen Staff (11 Inventory Slots) + Food & Armour",
       "complete": {
         "op": "or",
         "of": [
@@ -8123,9 +8769,37 @@
       ]
     },
     {
-      "id": "e4-679",
+      "id": "e4-679a",
       "title": "If you haven't got a bronze …",
-      "text": "If you haven't got a bronze spear, teleport to varrock and head to varlamore and buy a Bronze Spear from Blacksmith",
+      "text": "If you haven't got a bronze spear, teleport to varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "e4-679b",
+      "title": "head to varlamore",
+      "text": "head to varlamore",
+      "world": [
+        1725,
+        3128,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e4-679c",
+      "title": "buy a Bronze Spear from Blacksmith",
+      "text": "buy a Bronze Spear from Blacksmith",
       "complete": {
         "op": "or",
         "of": [
@@ -8182,7 +8856,7 @@
     {
       "id": "e4-684",
       "title": "OPTIONAL: If you got the 4 …",
-      "text": "OPTIONAL: If you got the 4 beads you can go to DIS first to turn in the beads for Imp Catcher.",
+      "text": "OPTIONAL: If you got the 4 beads you can go to DIS first to turn in the beads for Imp Catcher",
       "complete": {
         "op": "quest",
         "quest": "IMP_CATCHER",
@@ -8243,12 +8917,18 @@
       "id": "e4-690",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-691",
@@ -8362,12 +9042,18 @@
       "id": "e4-698",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-699",
@@ -8399,12 +9085,18 @@
       "id": "e4-701",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-702",
@@ -8498,9 +9190,9 @@
       "item": 882
     },
     {
-      "id": "e4-709",
-      "title": "Teleport to Ardougne and Head West",
-      "text": "Teleport to Ardougne and Head West",
+      "id": "e4-709a",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
       "manual": true,
       "npc": 8764,
       "world": [
@@ -8508,6 +9200,12 @@
         3228,
         0
       ]
+    },
+    {
+      "id": "e4-709b",
+      "title": "Head West",
+      "text": "Head West",
+      "manual": true
     },
     {
       "id": "e4-710",
@@ -8560,7 +9258,7 @@
     {
       "id": "e4-713",
       "title": "Attack Kalrag while standing in the …",
-      "text": "Attack Kalrag while standing in the square between the 2 corpses on the east wall. If a spider hits you it is very easy to corner trap them on the corpses.",
+      "text": "Attack Kalrag while standing in the square between the 2 corpses on the east wall. If a spider hits you it is very easy to corner trap them on the corpses",
       "manual": true
     },
     {
@@ -8607,8 +9305,8 @@
     },
     {
       "id": "e4-717",
-      "title": "Leave and take the Spirit Tree …",
-      "text": "Leave and take the Spirit Tree to Gnome Stronghold(2)",
+      "title": "Leave, take the Spirit Tree to …",
+      "text": "Leave, take the Spirit Tree to Gnome Stronghold(2)",
       "manual": true,
       "world": [
         2440,
@@ -8663,8 +9361,8 @@
     },
     {
       "id": "e4-721",
-      "title": "Ardy Cloak & collect the Monkey. …",
-      "text": "Ardy Cloak & collect the Monkey. Head back to the Grand Tree.",
+      "title": "Ardy Cloak & collect the Monkey, …",
+      "text": "Ardy Cloak & collect the Monkey, Head back to the Grand Tree",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -8709,7 +9407,7 @@
     {
       "id": "e4-726",
       "title": "At Awowogei stand East of the …",
-      "text": "At Awowogei stand East of the Elder Guard and plant Mithril Seeds to skip a step",
+      "text": "At Awowogei stand East of the Elder Guard, plant Mithril Seeds to skip a step",
       "manual": true,
       "npc": 5518,
       "world": [
@@ -8816,12 +9514,18 @@
       "id": "e4-736",
       "title": "Teleport to Falador",
       "text": "Teleport to Falador",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-737",
@@ -8930,7 +9634,7 @@
     {
       "id": "e4-748",
       "title": "NOTE: Chop a Teak and Mahogany …",
-      "text": "NOTE: Chop a Teak and Mahogany log while here for the Karamja Medium Diary to save 100 trading sticks.",
+      "text": "NOTE: Chop a Teak and Mahogany log while here for the Karamja Medium Diary to save 100 trading sticks",
       "manual": true,
       "world": [
         2843,
@@ -8993,7 +9697,7 @@
     {
       "id": "e4-756",
       "title": "NOTE: You can go get your …",
-      "text": "NOTE: You can go get your herb sack now from Tithe Farm reward shop.",
+      "text": "NOTE: You can go get your herb sack now from Tithe Farm reward shop",
       "manual": true,
       "world": [
         3165,

@@ -15,6 +15,7 @@ import com.osirisguide.engine.condition.ItemCondition;
 import com.osirisguide.engine.condition.ItemConsumedCondition;
 import com.osirisguide.engine.condition.NotCondition;
 import com.osirisguide.engine.condition.OrCondition;
+import com.osirisguide.engine.condition.PositionCondition;
 import com.osirisguide.engine.condition.QuestCondition;
 import com.osirisguide.engine.condition.QuestPointsCondition;
 import com.osirisguide.engine.condition.SkillCondition;
@@ -26,6 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Quest;
 import net.runelite.api.QuestState;
 import net.runelite.api.Skill;
+import net.runelite.api.coords.WorldPoint;
 
 /**
  * Builds a {@link Condition} tree from the JSON {@code complete} field of a route step.
@@ -147,6 +149,19 @@ public final class ConditionFactory
 					return ConstantCondition.MANUAL;
 				}
 				return new VarpCondition(id, getInt(o, "value", 0), Op.fromString(getString(o, "cmp", ">=")));
+			}
+			case "position":
+			case "reached":
+			{
+				// Require explicit x AND y; without them we'd build a marker at (0,0) and silently
+				// mis-complete, so degrade to manual instead.
+				if (o.get("x") == null || o.get("y") == null)
+				{
+					log.warn("Gustav's Helper: position condition missing x/y in step '{}'", stepId);
+					return ConstantCondition.MANUAL;
+				}
+				WorldPoint target = new WorldPoint(getInt(o, "x", 0), getInt(o, "y", 0), getInt(o, "z", 0));
+				return new PositionCondition(target, getInt(o, "radius", 8));
 			}
 			case "and":
 				return new AndCondition(parseList(o, stepId));

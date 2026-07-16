@@ -6,7 +6,7 @@
     {
       "id": "s32-001",
       "title": "Go to Guardians of the Rift, …",
-      "text": "Go to Guardians of the Rift, participate in the minigame until you have the full Raiments of the Eye and the colossal pouch.",
+      "text": "Go to Guardians of the Rift, participate in the minigame until you have the full Raiments of the Eye and the colossal pouch",
       "manual": true
     },
     {
@@ -75,7 +75,7 @@
     {
       "id": "s32-006",
       "title": "Get a fire cape off task …",
-      "text": "Get a fire cape off task (if you don’t have one yet).",
+      "text": "Get a fire cape off task (if you don’t have one yet)",
       "manual": true,
       "world": [
         3165,
@@ -97,7 +97,7 @@
     {
       "id": "s32-008",
       "title": "Cash your banked herblore XP, using …",
-      "text": "Cash your banked herblore XP, using MOGs force spawning at Ardy. Make some staminas for future use.",
+      "text": "Cash your banked herblore XP, using MOGs force spawning at Ardy, Make some staminas for future use",
       "manual": true,
       "world": [
         2624,
@@ -108,7 +108,7 @@
     {
       "id": "s32-009",
       "title": "Complete the remaining tasks for the …",
-      "text": "Complete the remaining tasks for the Falador and Kandarin Elite diaries if you have the herblore level required (boostable 81 and 86 respectively).",
+      "text": "Complete the remaining tasks for the Falador and Kandarin Elite diaries if you have the herblore level required (boostable 81 and 86 respectively)",
       "manual": true,
       "world": [
         3000,

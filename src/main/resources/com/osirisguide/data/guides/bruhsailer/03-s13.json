@@ -462,9 +462,26 @@
       ]
     },
     {
-      "id": "s13-029",
-      "title": "Teleport to Camelot, talk to King …",
-      "text": "Teleport to Camelot, talk to King Arthur to get the feather for Holy Grail.",
+      "id": "s13-029a",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s13-029b",
+      "title": "talk to King Arthur to get …",
+      "text": "talk to King Arthur to get the feather for Holy Grail",
       "complete": {
         "op": "quest",
         "quest": "HOLY_GRAIL",

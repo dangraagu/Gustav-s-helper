@@ -13,12 +13,12 @@
           {
             "op": "itemAcquired",
             "id": 1775,
-            "qty": 12
+            "qty": 8
           },
           {
             "op": "item",
             "id": 1775,
-            "qty": 13,
+            "qty": 9,
             "scope": "ANY"
           }
         ]
@@ -80,12 +80,18 @@
       "id": "e9-005",
       "title": "Teleport to Priffdinas",
       "text": "Teleport to Priffdinas",
-      "manual": true,
       "world": [
         3263,
         6083,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3263,
+        "y": 6083,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e9-006",
@@ -94,9 +100,15 @@
       "manual": true
     },
     {
-      "id": "e9-007",
-      "title": "Head north and catch around 5,000 …",
-      "text": "Head north and catch around 5,000 Red Chinchompas",
+      "id": "e9-007a",
+      "title": "Head north",
+      "text": "Head north",
+      "manual": true
+    },
+    {
+      "id": "e9-007b",
+      "title": "catch around 5,000 Red Chinchompas",
+      "text": "catch around 5,000 Red Chinchompas",
       "manual": true
     },
     {
@@ -137,17 +149,29 @@
       "id": "e9-012",
       "title": "Head to Hunter Guild",
       "text": "Head to Hunter Guild",
-      "manual": true,
       "world": [
         1559,
         3048,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1559,
+        "y": 3048,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e9-013",
-      "title": "Talk to Pellem and make Mixed …",
-      "text": "Talk to Pellem and make Mixed Hide Top, Bottom & Boots",
+      "id": "e9-013a",
+      "title": "Talk to Pellem",
+      "text": "Talk to Pellem",
+      "manual": true
+    },
+    {
+      "id": "e9-013b",
+      "title": "make Mixed Hide Top, Bottom & …",
+      "text": "make Mixed Hide Top, Bottom & Boots",
       "manual": true
     },
     {
@@ -236,9 +260,15 @@
       ]
     },
     {
-      "id": "e9-019",
-      "title": "Go down the stairs and catch …",
-      "text": "Go down the stairs and catch Moonlight Moths to the South",
+      "id": "e9-019a",
+      "title": "Go down the stairs",
+      "text": "Go down the stairs",
+      "manual": true
+    },
+    {
+      "id": "e9-019b",
+      "title": "catch Moonlight Moths to the South",
+      "text": "catch Moonlight Moths to the South",
       "manual": true
     },
     {
@@ -293,7 +323,7 @@
     {
       "id": "e9-025",
       "title": "These are 0 damage if you …",
-      "text": "These are 0 damage if you use Water/Fire Wave on the Elementals and kill both giants roughly at the same time so very safe on HCIM",
+      "text": "These are 0 damage if you use Water/Fire Wave on the Elementals, kill both giants roughly at the same time so very safe on HCIM",
       "manual": true,
       "world": [
         3165,
@@ -304,7 +334,7 @@
     {
       "id": "e9-026",
       "title": "This is now a comfortable point …",
-      "text": "This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted Gauntlet with Tier 3 Preparation.",
+      "text": "This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted Gauntlet with Tier 3 Preparation",
       "manual": true,
       "world": [
         3165,

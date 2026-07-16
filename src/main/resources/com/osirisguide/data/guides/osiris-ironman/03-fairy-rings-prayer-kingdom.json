@@ -74,7 +74,7 @@
     {
       "id": "frp-005",
       "title": "Buy 400 steel nails at the …",
-      "text": "Buy 400 steel nails at the sawmill, if every world is bought out then don't b...\nLocation: Varrock",
+      "text": "Buy 400 steel nails at the sawmill, if every world is bought out then don't b\nLocation: Varrock",
       "complete": {
         "op": "or",
         "of": [
@@ -197,12 +197,18 @@
       "id": "frp-012",
       "title": "Go champion's guild and continue Dragon …",
       "text": "Go champion's guild and continue Dragon slayer, ask every question\nLocation: Champions Guild",
-      "manual": true,
       "world": [
         3191,
         3357,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3191,
+        "y": 3357,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "frp-013",
@@ -286,7 +292,7 @@
     {
       "id": "frp-020",
       "title": "Get big frog leg (you need …",
-      "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r...\nLocation: Lumbridge Swamp",
+      "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
         3197,
@@ -339,7 +345,7 @@
     {
       "id": "frp-024",
       "title": "Dig up the skull for fairytale …",
-      "text": "Dig up the skull for fairytale part 1 while you're in the area to save some t...\nLocation: Draynor Manor",
+      "text": "Dig up the skull for fairytale part 1 while you're in the area to save some t\nLocation: Draynor Manor",
       "manual": true,
       "world": [
         3108,
@@ -374,9 +380,20 @@
       ]
     },
     {
-      "id": "frp-027",
-      "title": "Get at least 5 Dramen branches, …",
-      "text": "Get at least 5 Dramen branches, make 2 staffs\nLocation: Entrana",
+      "id": "frp-027a",
+      "title": "Get at least 5 Dramen branches",
+      "text": "Get at least 5 Dramen branches\nLocation: Entrana",
+      "manual": true,
+      "world": [
+        2840,
+        3358,
+        0
+      ]
+    },
+    {
+      "id": "frp-027b",
+      "title": "make 2 staffs",
+      "text": "make 2 staffs\nLocation: Entrana",
       "manual": true,
       "world": [
         2840,
@@ -507,9 +524,20 @@
       ]
     },
     {
-      "id": "frp-037",
-      "title": "Kill 2 cows and make 1 …",
-      "text": "Kill 2 cows and make 1 soft, 1 hard leather\nLocation: Lumbridge",
+      "id": "frp-037a",
+      "title": "Kill 2 cows",
+      "text": "Kill 2 cows\nLocation: Lumbridge",
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "frp-037b",
+      "title": "make 1 soft, 1 hard leather",
+      "text": "make 1 soft, 1 hard leather\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -655,9 +683,26 @@
       ]
     },
     {
-      "id": "frp-050",
-      "title": "Go to Crandor and open the …",
-      "text": "Go to Crandor and open the shortcut to Karamja volcano\nLocation: Crandor",
+      "id": "frp-050a",
+      "title": "Go to Crandor",
+      "text": "Go to Crandor\nLocation: Crandor",
+      "world": [
+        2836,
+        3271,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2836,
+        "y": 3271,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "frp-050b",
+      "title": "open the shortcut to Karamja volcano",
+      "text": "open the shortcut to Karamja volcano\nLocation: Crandor",
       "manual": true,
       "object": 11441,
       "world": [
@@ -678,9 +723,20 @@
       ]
     },
     {
-      "id": "frp-052",
-      "title": "Finish dragon slayer and buy a …",
-      "text": "Finish dragon slayer and buy a green d'hide top from Oziach\nLocation: Edgeville",
+      "id": "frp-052a",
+      "title": "Finish dragon slayer",
+      "text": "Finish dragon slayer\nLocation: Edgeville",
+      "manual": true,
+      "world": [
+        3094,
+        3493,
+        0
+      ]
+    },
+    {
+      "id": "frp-052b",
+      "title": "buy a green d'hide top from …",
+      "text": "buy a green d'hide top from Oziach\nLocation: Edgeville",
       "manual": true,
       "npc": 822,
       "world": [
@@ -690,9 +746,20 @@
       ]
     },
     {
-      "id": "frp-053",
-      "title": "Wear gloves and pick up 5 …",
-      "text": "Wear gloves and pick up 5 nettles at the yews\nLocation: Edgeville",
+      "id": "frp-053a",
+      "title": "Wear gloves",
+      "text": "Wear gloves\nLocation: Edgeville",
+      "manual": true,
+      "world": [
+        3094,
+        3493,
+        0
+      ]
+    },
+    {
+      "id": "frp-053b",
+      "title": "pick up 5 nettles at the …",
+      "text": "pick up 5 nettles at the yews\nLocation: Edgeville",
       "manual": true,
       "world": [
         3094,
@@ -723,9 +790,20 @@
       ]
     },
     {
-      "id": "frp-056",
+      "id": "frp-056a",
       "title": "Fill a bowl with water, put …",
-      "text": "Fill a bowl with water, put nettles in it and use it on a range (This is for ...\nLocation: Lumbridge",
+      "text": "Fill a bowl with water, put nettles in it\nLocation: Lumbridge",
+      "manual": true,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "frp-056b",
+      "title": "use it on a range (This …",
+      "text": "use it on a range (This is for\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -747,7 +825,7 @@
     {
       "id": "frp-058",
       "title": "Do Death to the Dorgeshuun. While …",
-      "text": "Do Death to the Dorgeshuun. While getting the robes, keep buttons (If you did...\nLocation: Dorgesh-Kaan",
+      "text": "Do Death to the Dorgeshuun. While getting the robes, keep buttons (If you did\nLocation: Dorgesh-Kaan",
       "complete": {
         "op": "quest",
         "quest": "DEATH_TO_THE_DORGESHUUN",
@@ -814,9 +892,20 @@
       ]
     },
     {
-      "id": "frp-061",
+      "id": "frp-061a",
       "title": "Use swamp tar on the lamp …",
-      "text": "Use swamp tar on the lamp still next to Miltog, use your empty lantern on the...\nLocation: Dorgesh-Kaan",
+      "text": "Use swamp tar on the lamp still next to Miltog\nLocation: Dorgesh-Kaan",
+      "manual": true,
+      "world": [
+        3169,
+        3172,
+        0
+      ]
+    },
+    {
+      "id": "frp-061b",
+      "title": "use your empty lantern on the",
+      "text": "use your empty lantern on the\nLocation: Dorgesh-Kaan",
       "manual": true,
       "world": [
         3169,
@@ -874,7 +963,7 @@
     {
       "id": "frp-065",
       "title": "Complete Twilight's Promise quest (requires Children …",
-      "text": "Complete Twilight's Promise quest (requires Children of the Sun; ~40 combat r...\nLocation: Varlamore",
+      "text": "Complete Twilight's Promise quest (requires Children of the Sun; ~40 combat r\nLocation: Varlamore",
       "complete": {
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
@@ -889,7 +978,7 @@
     {
       "id": "frp-066",
       "title": "Try Calcified Rocks for Mining XP …",
-      "text": "Try Calcified Rocks for Mining XP plus bankable Prayer shards (41 Mining, Var...\nLocation: Varlamore",
+      "text": "Try Calcified Rocks for Mining XP plus bankable Prayer shards (41 Mining, Var\nLocation: Varlamore",
       "manual": true,
       "world": [
         1725,
@@ -900,7 +989,7 @@
     {
       "id": "frp-067",
       "title": "Kill tree spirits with fire strike …",
-      "text": "Kill tree spirits with fire strike for a mithril axe AND either another mith ...\nLocation: Enchanted Valley",
+      "text": "Kill tree spirits with fire strike for a mithril axe AND either another mith\nLocation: Enchanted Valley",
       "manual": true,
       "world": [
         3040,
@@ -1022,7 +1111,7 @@
     {
       "id": "frp-074",
       "title": "Get 50 attack doing more Turael …",
-      "text": "Get 50 attack doing more Turael slayer, remember to get every 10th task from ...\nLocation: Burthorpe",
+      "text": "Get 50 attack doing more Turael slayer, remember to get every 10th task from\nLocation: Burthorpe",
       "complete": {
         "op": "skill",
         "skill": "ATTACK",
@@ -1347,18 +1436,24 @@
     {
       "id": "frp-097",
       "title": "Go back to blackjacking for a …",
-      "text": "Go back to blackjacking for a few hours and put more money to kingdom so that...\nLocation: Pollnivneach",
-      "manual": true,
+      "text": "Go back to blackjacking for a few hours and put more money to kingdom so that\nLocation: Pollnivneach",
       "world": [
         3358,
         2974,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3358,
+        "y": 2974,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "frp-098",
       "title": "Clean finds at the museum until …",
-      "text": "Clean finds at the museum until you've found all 5 of the items you can get f...\nLocation: Varrock Museum",
+      "text": "Clean finds at the museum until you've found all 5 of the items you can get f\nLocation: Varrock Museum",
       "manual": true,
       "world": [
         3260,
@@ -1401,7 +1496,7 @@
     {
       "id": "frp-102",
       "title": "AFTER your first hunter levels from …",
-      "text": "AFTER your first hunter levels from a birdhouse run, RC should be your lowest...\nLocation: Lumbridge Swamp",
+      "text": "AFTER your first hunter levels from a birdhouse run, RC should be your lowest\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
         3197,
@@ -1467,9 +1562,9 @@
       ]
     },
     {
-      "id": "frp-106",
-      "title": "Go Edgeville furnace and make plenty …",
-      "text": "Go Edgeville furnace and make plenty of digsite pendants\nLocation: Edgeville",
+      "id": "frp-106a",
+      "title": "Go Edgeville furnace",
+      "text": "Go Edgeville furnace\nLocation: Edgeville",
       "manual": true,
       "object": 1581,
       "world": [
@@ -1479,9 +1574,26 @@
       ]
     },
     {
-      "id": "frp-107",
-      "title": "Make molten glass and cut gems …",
-      "text": "Make molten glass and cut gems until 45 crafting. You'll need 45 for maple bi...\nLocation: Various",
+      "id": "frp-106b",
+      "title": "make plenty of digsite pendants",
+      "text": "make plenty of digsite pendants\nLocation: Edgeville",
+      "manual": true,
+      "world": [
+        3094,
+        3493,
+        0
+      ]
+    },
+    {
+      "id": "frp-107a",
+      "title": "Make molten glass",
+      "text": "Make molten glass\nLocation: Various",
+      "manual": true
+    },
+    {
+      "id": "frp-107b",
+      "title": "cut gems until 45 crafting. You'll …",
+      "text": "cut gems until 45 crafting. You'll need 45 for maple bi\nLocation: Various",
       "complete": {
         "op": "skill",
         "skill": "CRAFTING",
@@ -1508,7 +1620,7 @@
     {
       "id": "frp-109",
       "title": "Move your house to Pollnivneach so …",
-      "text": "Move your house to Pollnivneach so you can do a birdhouse run every 50 mins a...\nLocation: Pollnivneach",
+      "text": "Move your house to Pollnivneach so you can do a birdhouse run every 50 mins a\nLocation: Pollnivneach",
       "manual": true,
       "world": [
         3358,
@@ -1535,7 +1647,7 @@
     {
       "id": "frp-111",
       "title": "REMINDER to take out GP from …",
-      "text": "REMINDER to take out GP from kingdom after the 7th day. This thieving grind c...\nLocation: Miscellania",
+      "text": "REMINDER to take out GP from kingdom after the 7th day. This thieving grind c\nLocation: Miscellania",
       "manual": true,
       "world": [
         2560,

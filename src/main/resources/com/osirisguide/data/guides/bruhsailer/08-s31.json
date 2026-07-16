@@ -34,7 +34,7 @@
     {
       "id": "s31-002",
       "title": "Optional but recommended: go to the …",
-      "text": "Optional but recommended: go to the Mage Training Arena and collect the Mage’s book and the infinity boots.",
+      "text": "Optional but recommended: go to the Mage Training Arena, collect the Mage’s book and the infinity boots",
       "complete": {
         "op": "or",
         "of": [
@@ -180,7 +180,7 @@
     {
       "id": "s31-009",
       "title": "Do the Fremennik Exiles, A Night …",
-      "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will. Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys).",
+      "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will, Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys)",
       "complete": {
         "op": "quest",
         "quest": "A_NIGHT_AT_THE_THEATRE",
@@ -277,13 +277,19 @@
     {
       "id": "s31-015",
       "title": "Go to Guardians of the Rift, …",
-      "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems.",
-      "manual": true,
+      "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems",
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "s31-016",

@@ -8,9 +8,11 @@ import com.osirisguide.engine.ledger.ItemLedger;
 import net.runelite.api.Client;
 import net.runelite.api.InventoryID;
 import net.runelite.api.ItemContainer;
+import net.runelite.api.Player;
 import net.runelite.api.Quest;
 import net.runelite.api.QuestState;
 import net.runelite.api.Skill;
+import net.runelite.api.coords.WorldPoint;
 import net.runelite.api.gameval.VarPlayerID;
 
 /**
@@ -58,6 +60,13 @@ public class ConditionContext
 	public int skillLevel(Skill skill)
 	{
 		return client.getRealSkillLevel(skill);
+	}
+
+	/** The player's current tile, or null when not logged in / not yet loaded. */
+	public WorldPoint playerLocation()
+	{
+		Player local = client.getLocalPlayer();
+		return local == null ? null : local.getWorldLocation();
 	}
 
 	public QuestState questState(Quest quest)

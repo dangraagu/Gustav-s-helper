@@ -34,37 +34,49 @@
       ]
     },
     {
-      "id": "e1-004",
+      "id": "e1-004a",
       "title": "Head North-West to Magic combat tutor …",
-      "text": "Head North-West to Magic combat tutor & drop Air & Mind Runes and claim more.",
+      "text": "Head North-West to Magic combat tutor & drop Air & Mind Runes",
       "manual": true
     },
     {
-      "id": "e1-005",
+      "id": "e1-004b",
+      "title": "claim more",
+      "text": "claim more",
+      "manual": true
+    },
+    {
+      "id": "e1-005a",
       "title": "Sell Bronze Dagger, Sword, Wooden Shield …",
-      "text": "Sell Bronze Dagger, Sword, Wooden Shield & Shortbow to General Store. Buy a Spade Chisel & hammer",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 1205,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 1205,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 1205,
+      "text": "Sell Bronze Dagger, Sword, Wooden Shield & Shortbow to General Store",
+      "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
+    },
+    {
+      "id": "e1-005b",
+      "title": "Buy a Spade Chisel & hammer",
+      "text": "Buy a Spade Chisel & hammer",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1755,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1755,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1755
     },
     {
       "id": "e1-006",
@@ -94,9 +106,15 @@
       ]
     },
     {
-      "id": "e1-008",
-      "title": "Go upstairs and Talk to Duke …",
-      "text": "Go upstairs and Talk to Duke Horacio (1,1) [Rune Mysteries]",
+      "id": "e1-008a",
+      "title": "Go upstairs",
+      "text": "Go upstairs",
+      "manual": true
+    },
+    {
+      "id": "e1-008b",
+      "title": "Talk to Duke Horacio (1,1) [Rune …",
+      "text": "Talk to Duke Horacio (1,1) [Rune Mysteries]",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
@@ -109,9 +127,15 @@
       ]
     },
     {
-      "id": "e1-009",
-      "title": "Go upstairs again and Collect 4x …",
-      "text": "Go upstairs again and Collect 4x logs on the top floor [Tree Gnome Village]",
+      "id": "e1-009a",
+      "title": "Go upstairs again",
+      "text": "Go upstairs again",
+      "manual": true
+    },
+    {
+      "id": "e1-009b",
+      "title": "Collect 4x logs on the top …",
+      "text": "Collect 4x logs on the top floor [Tree Gnome Village]",
       "complete": {
         "op": "quest",
         "quest": "TREE_GNOME_VILLAGE",
@@ -124,9 +148,9 @@
       ]
     },
     {
-      "id": "e1-010",
-      "title": "Bank at Lumbridge castle top floor …",
-      "text": "Bank at Lumbridge castle top floor and deposit all",
+      "id": "e1-010a",
+      "title": "Bank at Lumbridge castle top floor",
+      "text": "Bank at Lumbridge castle top floor",
       "manual": true,
       "object": 14880,
       "world": [
@@ -134,6 +158,12 @@
         3216,
         0
       ]
+    },
+    {
+      "id": "e1-010b",
+      "title": "deposit all",
+      "text": "deposit all",
+      "manual": true
     },
     {
       "id": "e1-011",
@@ -153,7 +183,7 @@
     {
       "id": "e1-012",
       "title": "Move Coins into first bank slot …",
-      "text": "Move Coins into first bank slot & Runes to the top slots. Click the lock to Always set Placeholders. Set Bank pin for Count Check randoms or delete the pin from Tutorial Island.",
+      "text": "Move Coins into first bank slot & Runes to the top slots. Click the lock to Always set Placeholders, Set Bank pin for Count Check randoms or delete the pin from Tutorial Island",
       "manual": true,
       "npc": 7414,
       "world": [
@@ -248,9 +278,15 @@
       ]
     },
     {
-      "id": "e1-018",
+      "id": "e1-018a",
       "title": "Kill a giant rat with Wind …",
-      "text": "Kill a giant rat with Wind Strike and collect the Bones + Raw Rat Meat [Druidic Ritual]",
+      "text": "Kill a giant rat with Wind Strike",
+      "manual": true
+    },
+    {
+      "id": "e1-018b",
+      "title": "collect the Bones + Raw Rat …",
+      "text": "collect the Bones + Raw Rat Meat [Druidic Ritual]",
       "complete": {
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
@@ -266,17 +302,23 @@
       "id": "e1-019",
       "title": "Head West towards Draynor hugging the …",
       "text": "Head West towards Draynor hugging the fence to avoid the Jail Guards",
-      "manual": true,
       "world": [
         3103,
         3265,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-020",
       "title": "Talk to Father Urhney in the …",
-      "text": "Talk to Father Urhney in the lumbridge swamp for Ghost Speak Amulet. (2,1) Wield this.",
+      "text": "Talk to Father Urhney in the lumbridge swamp for Ghost Speak Amulet. (2,1) Wield this",
       "manual": true,
       "npc": 923,
       "world": [
@@ -295,12 +337,18 @@
       "id": "e1-022",
       "title": "Head to the Wizards Tower",
       "text": "Head to the Wizards Tower",
-      "manual": true,
       "world": [
         3109,
         3160,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3109,
+        "y": 3160,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-023",
@@ -339,9 +387,15 @@
       ]
     },
     {
-      "id": "e1-026",
-      "title": "Kill a Chicken. Take Everything (Make …",
-      "text": "Kill a Chicken. Take Everything (Make sure you get a feather, else hop worlds and repeat)[Client of Kourend + Druidic Ritual]",
+      "id": "e1-026a",
+      "title": "Kill a Chicken",
+      "text": "Kill a Chicken",
+      "manual": true
+    },
+    {
+      "id": "e1-026b",
+      "title": "Take Everything (Make sure you get …",
+      "text": "Take Everything (Make sure you get a feather, else hop worlds and repeat)[Client of Kourend + Druidic Ritual]",
       "complete": {
         "op": "quest",
         "quest": "CLIENT_OF_KOUREND",
@@ -369,9 +423,32 @@
       ]
     },
     {
-      "id": "e1-028",
+      "id": "e1-028a",
       "title": "Head north to Draynor & talk …",
-      "text": "Head north to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop and buy 1)",
+      "text": "Head north to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e1-028b",
+      "title": "buy 1)",
+      "text": "buy 1)",
+      "manual": true
+    },
+    {
+      "id": "e1-029a",
+      "title": "Bank at Draynor",
+      "text": "Bank at Draynor",
       "manual": true,
       "world": [
         3103,
@@ -380,15 +457,10 @@
       ]
     },
     {
-      "id": "e1-029",
-      "title": "Bank at Draynor and Deposit all",
-      "text": "Bank at Draynor and Deposit all",
-      "manual": true,
-      "world": [
-        3103,
-        3265,
-        0
-      ]
+      "id": "e1-029b",
+      "title": "Deposit all",
+      "text": "Deposit all",
+      "manual": true
     },
     {
       "id": "e1-030",
@@ -443,9 +515,21 @@
       ]
     },
     {
-      "id": "e1-033",
-      "title": "Talk to Morgan and start Vampyre …",
-      "text": "Talk to Morgan and start Vampyre Slayer (1)",
+      "id": "e1-033a",
+      "title": "Talk to Morgan",
+      "text": "Talk to Morgan",
+      "manual": true,
+      "npc": 3479,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "e1-033b",
+      "title": "start Vampyre Slayer (1)",
+      "text": "start Vampyre Slayer (1)",
       "complete": {
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
@@ -458,9 +542,15 @@
       ]
     },
     {
-      "id": "e1-034",
-      "title": "Go up the stairs and collect …",
-      "text": "Go up the stairs and collect 4x Garlic from the cupboard",
+      "id": "e1-034a",
+      "title": "Go up the stairs",
+      "text": "Go up the stairs",
+      "manual": true
+    },
+    {
+      "id": "e1-034b",
+      "title": "collect 4x Garlic from the cupboard",
+      "text": "collect 4x Garlic from the cupboard",
       "complete": {
         "op": "or",
         "of": [
@@ -512,9 +602,9 @@
       ]
     },
     {
-      "id": "e1-037",
-      "title": "Bank at Draynor and deposit the …",
-      "text": "Bank at Draynor and deposit the Garlic & Cheese",
+      "id": "e1-037a",
+      "title": "Bank at Draynor",
+      "text": "Bank at Draynor",
       "manual": true,
       "world": [
         3103,
@@ -523,9 +613,15 @@
       ]
     },
     {
-      "id": "e1-038",
+      "id": "e1-037b",
+      "title": "deposit the Garlic & Cheese",
+      "text": "deposit the Garlic & Cheese",
+      "manual": true
+    },
+    {
+      "id": "e1-038a",
       "title": "Talk to Fortunato & buy 5 …",
-      "text": "Talk to Fortunato & buy 5 Jugs of wine. Hop worlds and buy 10 in total.",
+      "text": "Talk to Fortunato & buy 5 Jugs of wine. Hop worlds",
       "manual": true,
       "npc": 1260,
       "world": [
@@ -533,6 +629,12 @@
         3251,
         0
       ]
+    },
+    {
+      "id": "e1-038b",
+      "title": "buy 10 in total",
+      "text": "buy 10 in total",
+      "manual": true
     },
     {
       "id": "e1-039",
@@ -565,9 +667,21 @@
       ]
     },
     {
-      "id": "e1-041",
-      "title": "Head West to Port Sarim and …",
-      "text": "Head West to Port Sarim and talk to Veos to complete X Marks The Spot.",
+      "id": "e1-041a",
+      "title": "Head West to Port Sarim",
+      "text": "Head West to Port Sarim",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "e1-041b",
+      "title": "talk to Veos to complete X …",
+      "text": "talk to Veos to complete X Marks The Spot",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -582,7 +696,7 @@
     {
       "id": "e1-042",
       "title": "Destroy the lamp. You can collect …",
-      "text": "Destroy the lamp. You can collect this later as you can't bank it.",
+      "text": "Destroy the lamp. You can collect this later as you can't bank it",
       "manual": true
     },
     {
@@ -647,9 +761,26 @@
       "manual": true
     },
     {
-      "id": "e1-049",
-      "title": "Head west to the General store, …",
-      "text": "Head west to the General store, Talk to Jennifer_(Shayzien) for Client of Kourend (3,2)",
+      "id": "e1-049a",
+      "title": "Head west to the General store",
+      "text": "Head west to the General store",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e1-049b",
+      "title": "Talk to Jennifer_(Shayzien) for Client of …",
+      "text": "Talk to Jennifer_(Shayzien) for Client of Kourend (3,2)",
       "complete": {
         "op": "quest",
         "quest": "CLIENT_OF_KOUREND",
@@ -683,9 +814,15 @@
       ]
     },
     {
-      "id": "e1-052",
-      "title": "Trade Robyn and buy a Chef's …",
-      "text": "Trade Robyn and buy a Chef's Hat [Cook's guild]",
+      "id": "e1-052a",
+      "title": "Trade Robyn",
+      "text": "Trade Robyn",
+      "manual": true
+    },
+    {
+      "id": "e1-052b",
+      "title": "buy a Chef's Hat [Cook's guild]",
+      "text": "buy a Chef's Hat [Cook's guild]",
       "manual": true
     },
     {
@@ -701,9 +838,15 @@
       ]
     },
     {
-      "id": "e1-054",
-      "title": "Talk to Bob and buy a …",
-      "text": "Talk to Bob and buy a Steel Axe",
+      "id": "e1-054a",
+      "title": "Talk to Bob",
+      "text": "Talk to Bob",
+      "manual": true
+    },
+    {
+      "id": "e1-054b",
+      "title": "buy a Steel Axe",
+      "text": "buy a Steel Axe",
       "complete": {
         "op": "or",
         "of": [
@@ -723,9 +866,15 @@
       "item": 1353
     },
     {
-      "id": "e1-055",
+      "id": "e1-055a",
       "title": "Search the Coffin, south-east in the …",
-      "text": "Search the Coffin, south-east in the graveyard. Talk to Restless Ghost (1)",
+      "text": "Search the Coffin, south-east in the graveyard",
+      "manual": true
+    },
+    {
+      "id": "e1-055b",
+      "title": "Talk to Restless Ghost (1)",
+      "text": "Talk to Restless Ghost (1)",
       "manual": true
     },
     {
@@ -753,9 +902,9 @@
       ]
     },
     {
-      "id": "e1-058",
+      "id": "e1-058a",
       "title": "On Floor 3, Spider max is …",
-      "text": "On Floor 3, Spider max is 7 so if you take 3 or more damage, drink a wine before going through the door to avoid being stacked. Take the east doors.",
+      "text": "On Floor 3, Spider max is 7 so if you take 3 or more damage, drink a wine before going through the door to avoid being stacked",
       "manual": true,
       "world": [
         3165,
@@ -764,9 +913,15 @@
       ]
     },
     {
+      "id": "e1-058b",
+      "title": "Take the east doors",
+      "text": "Take the east doors",
+      "manual": true
+    },
+    {
       "id": "e1-059",
       "title": "Catablepon Max is 9 so drink …",
-      "text": "Catablepon Max is 9 so drink on any damage.",
+      "text": "Catablepon Max is 9 so drink on any damage",
       "manual": true,
       "world": [
         3165,
@@ -825,9 +980,15 @@
       "item": 2142
     },
     {
-      "id": "e1-063",
-      "title": "Head east and Talk to Gertude …",
-      "text": "Head east and Talk to Gertude (1) [Gertrudes Cat]",
+      "id": "e1-063a",
+      "title": "Head east",
+      "text": "Head east",
+      "manual": true
+    },
+    {
+      "id": "e1-063b",
+      "title": "Talk to Gertude (1) [Gertrudes Cat]",
+      "text": "Talk to Gertude (1) [Gertrudes Cat]",
       "manual": true,
       "world": [
         3165,
@@ -848,15 +1009,21 @@
       ]
     },
     {
-      "id": "e1-065",
-      "title": "Bank at Varrock West Bank and …",
-      "text": "Bank at Varrock West Bank and deposit all",
+      "id": "e1-065a",
+      "title": "Bank at Varrock West Bank",
+      "text": "Bank at Varrock West Bank",
       "manual": true,
       "world": [
         3185,
         3440,
         0
       ]
+    },
+    {
+      "id": "e1-065b",
+      "title": "deposit all",
+      "text": "deposit all",
+      "manual": true
     },
     {
       "id": "e1-066",
@@ -887,9 +1054,15 @@
       "manual": true
     },
     {
-      "id": "e1-068",
-      "title": "Head East and buy an Air …",
-      "text": "Head East and buy an Air Staff from Zaff. Equip it.",
+      "id": "e1-068a",
+      "title": "Head East",
+      "text": "Head East",
+      "manual": true
+    },
+    {
+      "id": "e1-068b",
+      "title": "buy an Air Staff from Zaff",
+      "text": "buy an Air Staff from Zaff",
       "complete": {
         "op": "or",
         "of": [
@@ -901,7 +1074,7 @@
           {
             "op": "item",
             "id": 1379,
-            "qty": 14,
+            "qty": 10,
             "scope": "ANY"
           }
         ]
@@ -915,9 +1088,27 @@
       ]
     },
     {
-      "id": "e1-069",
-      "title": "Head South & Talk to Aris …",
-      "text": "Head South & Talk to Aris and start Demon Slayer (1,2,3,4).",
+      "id": "e1-068c",
+      "title": "Equip it",
+      "text": "Equip it",
+      "manual": true
+    },
+    {
+      "id": "e1-069a",
+      "title": "Head South & Talk to Aris",
+      "text": "Head South & Talk to Aris",
+      "manual": true,
+      "npc": 11868,
+      "world": [
+        3204,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "e1-069b",
+      "title": "start Demon Slayer (1,2,3,4)",
+      "text": "start Demon Slayer (1,2,3,4)",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -942,9 +1133,9 @@
       ]
     },
     {
-      "id": "e1-071",
+      "id": "e1-071a",
       "title": "Buy Pink Skirt, Brown Apron & …",
-      "text": "Buy Pink Skirt, Brown Apron & Silk. Wear Brown Apron & Pink Skirt in honour of Faux",
+      "text": "Buy Pink Skirt, Brown Apron & Silk",
       "complete": {
         "op": "or",
         "of": [
@@ -964,9 +1155,27 @@
       "item": 1757
     },
     {
-      "id": "e1-072",
-      "title": "Head South to the Sword Shop …",
-      "text": "Head South to the Sword Shop and go up the ladder. Loot the lit candle.",
+      "id": "e1-071b",
+      "title": "Wear Brown Apron & Pink Skirt …",
+      "text": "Wear Brown Apron & Pink Skirt in honour of Faux",
+      "manual": true
+    },
+    {
+      "id": "e1-072a",
+      "title": "Head South to the Sword Shop",
+      "text": "Head South to the Sword Shop",
+      "manual": true
+    },
+    {
+      "id": "e1-072b",
+      "title": "go up the ladder",
+      "text": "go up the ladder",
+      "manual": true
+    },
+    {
+      "id": "e1-072c",
+      "title": "Loot the lit candle",
+      "text": "Loot the lit candle",
       "complete": {
         "op": "or",
         "of": [
@@ -986,9 +1195,27 @@
       "item": 36
     },
     {
-      "id": "e1-073",
-      "title": "Head East and talk to Dr …",
-      "text": "Head East and talk to Dr Harlow (2, talk again)[Vampyre Slayer]",
+      "id": "e1-073a",
+      "title": "Head East",
+      "text": "Head East",
+      "manual": true
+    },
+    {
+      "id": "e1-073b",
+      "title": "talk to Dr Harlow (2",
+      "text": "talk to Dr Harlow (2",
+      "manual": true,
+      "npc": 3480,
+      "world": [
+        3222,
+        3399,
+        0
+      ]
+    },
+    {
+      "id": "e1-073c",
+      "title": "talk again)[Vampyre Slayer]",
+      "text": "talk again)[Vampyre Slayer]",
       "complete": {
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
@@ -1070,9 +1297,15 @@
       ]
     },
     {
-      "id": "e1-080",
-      "title": "Go down North West 2x Stairs …",
-      "text": "Go down North West 2x Stairs and talk to Sir Prysin in the SW room (3,1,2,2,1,1) [Demon Slayer]",
+      "id": "e1-080a",
+      "title": "Go down North West 2x Stairs",
+      "text": "Go down North West 2x Stairs",
+      "manual": true
+    },
+    {
+      "id": "e1-080b",
+      "title": "talk to Sir Prysin in the …",
+      "text": "talk to Sir Prysin in the SW room (3,1,2,2,1,1) [Demon Slayer]",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -1085,9 +1318,21 @@
       ]
     },
     {
-      "id": "e1-081",
-      "title": "Head North and go up 2x …",
-      "text": "Head North and go up 2x Stairs and talk to Captain Rovin (3,1,2,2,3,1) [Demon Slayer]",
+      "id": "e1-081a",
+      "title": "Head North",
+      "text": "Head North",
+      "manual": true
+    },
+    {
+      "id": "e1-081b",
+      "title": "go up 2x Stairs",
+      "text": "go up 2x Stairs",
+      "manual": true
+    },
+    {
+      "id": "e1-081c",
+      "title": "talk to Captain Rovin (3,1,2,2,3,1) [Demon …",
+      "text": "talk to Captain Rovin (3,1,2,2,3,1) [Demon Slayer]",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -1100,9 +1345,27 @@
       ]
     },
     {
-      "id": "e1-082",
-      "title": "Return down the stairs and talk …",
-      "text": "Return down the stairs and talk to Reldo and start Shield of Arrav (1,1).",
+      "id": "e1-082a",
+      "title": "Return down the stairs",
+      "text": "Return down the stairs",
+      "manual": true
+    },
+    {
+      "id": "e1-082b",
+      "title": "talk to Reldo",
+      "text": "talk to Reldo",
+      "manual": true,
+      "npc": 4243,
+      "world": [
+        3211,
+        3494,
+        0
+      ]
+    },
+    {
+      "id": "e1-082c",
+      "title": "start Shield of Arrav (1,1)",
+      "text": "start Shield of Arrav (1,1)",
       "complete": {
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
@@ -1110,9 +1373,15 @@
       }
     },
     {
-      "id": "e1-083",
-      "title": "Search for book and talk to …",
-      "text": "Search for book and talk to Reldo again (1)",
+      "id": "e1-083a",
+      "title": "Search for book",
+      "text": "Search for book",
+      "manual": true
+    },
+    {
+      "id": "e1-083b",
+      "title": "talk to Reldo again (1)",
+      "text": "talk to Reldo again (1)",
       "manual": true,
       "npc": 4243,
       "world": [
@@ -1124,30 +1393,42 @@
     {
       "id": "e1-084",
       "title": "Head East and up the stairs …",
-      "text": "Head East and up the stairs in the Kitchen.",
+      "text": "Head East and up the stairs in the Kitchen",
       "manual": true
     },
     {
-      "id": "e1-085",
-      "title": "Collect both buckets and fill one …",
-      "text": "Collect both buckets and fill one up downstairs. Use Bucket of Water on drain outside then refill it.",
+      "id": "e1-085a",
+      "title": "Collect both buckets",
+      "text": "Collect both buckets",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 1929,
+            "id": 1925,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 1929,
-            "qty": 33,
+            "id": 1925,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
       },
-      "item": 1929
+      "item": 1925
+    },
+    {
+      "id": "e1-085b",
+      "title": "fill one up downstairs",
+      "text": "fill one up downstairs",
+      "manual": true
+    },
+    {
+      "id": "e1-085c",
+      "title": "Use Bucket of Water on drain …",
+      "text": "Use Bucket of Water on drain outside then refill it",
+      "manual": true
     },
     {
       "id": "e1-086",
@@ -1156,9 +1437,21 @@
       "manual": true
     },
     {
-      "id": "e1-087",
-      "title": "Head to King Roald and start …",
-      "text": "Head to King Roald and start Priest in Peril (1,1,3)",
+      "id": "e1-087a",
+      "title": "Head to King Roald",
+      "text": "Head to King Roald",
+      "manual": true,
+      "npc": 5215,
+      "world": [
+        3222,
+        3473,
+        0
+      ]
+    },
+    {
+      "id": "e1-087b",
+      "title": "start Priest in Peril (1,1,3)",
+      "text": "start Priest in Peril (1,1,3)",
       "complete": {
         "op": "quest",
         "quest": "PRIEST_IN_PERIL",
@@ -1171,9 +1464,21 @@
       ]
     },
     {
-      "id": "e1-088",
-      "title": "Talk to Marlo and start Daddy's …",
-      "text": "Talk to Marlo and start Daddy's Home (in a house the east of the castle) (2,3,3)",
+      "id": "e1-088a",
+      "title": "Talk to Marlo",
+      "text": "Talk to Marlo",
+      "manual": true,
+      "npc": 10408,
+      "world": [
+        3241,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "e1-088b",
+      "title": "start Daddy's Home (in a house …",
+      "text": "start Daddy's Home (in a house the east of the castle) (2,3,3)",
       "complete": {
         "op": "quest",
         "quest": "DADDYS_HOME",
@@ -1192,9 +1497,21 @@
       "manual": true
     },
     {
-      "id": "e1-090",
-      "title": "Enter Varrock Sewer and take the …",
-      "text": "Enter Varrock Sewer and take the North-West path to collect the Demon Slayer Key - Giant rat is aggressive, max hit is 1.",
+      "id": "e1-090a",
+      "title": "Enter Varrock Sewer",
+      "text": "Enter Varrock Sewer",
+      "manual": true,
+      "object": 882,
+      "world": [
+        3237,
+        3458,
+        0
+      ]
+    },
+    {
+      "id": "e1-090b",
+      "title": "take the North-West path to collect …",
+      "text": "take the North-West path to collect the Demon Slayer Key - Giant rat is aggressive, max hit is 1",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -1207,15 +1524,10 @@
       ]
     },
     {
-      "id": "e1-091",
-      "title": "Enter Varrock Museum and head downstairs …",
-      "text": "Enter Varrock Museum and head downstairs and talk to Orlando Smith (1) and complete the Natural History Quiz for 9 slayer and hunter and 28 kudos.",
-      "complete": {
-        "op": "skill",
-        "skill": "SLAYER",
-        "level": 9,
-        "cmp": ">="
-      },
+      "id": "e1-091a",
+      "title": "Enter Varrock Museum",
+      "text": "Enter Varrock Museum",
+      "manual": true,
       "npc": 5214,
       "world": [
         3257,
@@ -1224,15 +1536,44 @@
       ]
     },
     {
-      "id": "e1-092",
-      "title": "Bank at Varrock East bank and …",
-      "text": "Bank at Varrock East bank and Deposit all",
+      "id": "e1-091b",
+      "title": "head downstairs",
+      "text": "head downstairs",
+      "manual": true
+    },
+    {
+      "id": "e1-091c",
+      "title": "talk to Orlando Smith (1)",
+      "text": "talk to Orlando Smith (1)",
+      "manual": true
+    },
+    {
+      "id": "e1-091d",
+      "title": "complete the Natural History Quiz for …",
+      "text": "complete the Natural History Quiz for 9 slayer and hunter and 28 kudos",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 9,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "e1-092a",
+      "title": "Bank at Varrock East bank",
+      "text": "Bank at Varrock East bank",
       "manual": true,
       "world": [
         3254,
         3420,
         0
       ]
+    },
+    {
+      "id": "e1-092b",
+      "title": "Deposit all",
+      "text": "Deposit all",
+      "manual": true
     },
     {
       "id": "e1-093",
@@ -1280,7 +1621,7 @@
     {
       "id": "e1-095",
       "title": "Light both logs in the house …",
-      "text": "Light both logs in the house right next to the rune shop.",
+      "text": "Light both logs in the house right next to the rune shop",
       "manual": true,
       "npc": 1788,
       "world": [
@@ -1374,9 +1715,9 @@
       "item": 1511
     },
     {
-      "id": "e1-104",
+      "id": "e1-104a",
       "title": "Collect 11 Logs & make 10 …",
-      "text": "Collect 11 Logs & make 10 into Planks. Make the 3 Waxwood Planks.",
+      "text": "Collect 11 Logs & make 10 into Planks",
       "complete": {
         "op": "or",
         "of": [
@@ -1394,6 +1735,12 @@
         ]
       },
       "item": 960
+    },
+    {
+      "id": "e1-104b",
+      "title": "Make the 3 Waxwood Planks",
+      "text": "Make the 3 Waxwood Planks",
+      "manual": true
     },
     {
       "id": "e1-105",
@@ -1461,9 +1808,9 @@
       "item": 592
     },
     {
-      "id": "e1-109",
-      "title": "Trade Aubury and buy 1x Fire/Air/Earth …",
-      "text": "Trade Aubury and buy 1x Fire/Air/Earth Pack, 2x Water Pack, 3x Mind Pack",
+      "id": "e1-109a",
+      "title": "Trade Aubury",
+      "text": "Trade Aubury",
       "manual": true,
       "npc": 11434,
       "world": [
@@ -1471,6 +1818,12 @@
         3401,
         0
       ]
+    },
+    {
+      "id": "e1-109b",
+      "title": "buy 1x Fire/Air/Earth Pack, 2x Water …",
+      "text": "buy 1x Fire/Air/Earth Pack, 2x Water Pack, 3x Mind Pack",
+      "manual": true
     },
     {
       "id": "e1-110",
@@ -1539,9 +1892,15 @@
       ]
     },
     {
-      "id": "e1-115",
-      "title": "Open the Minimap and Head South …",
-      "text": "Open the Minimap and Head South out of the City",
+      "id": "e1-115a",
+      "title": "Open the Minimap",
+      "text": "Open the Minimap",
+      "manual": true
+    },
+    {
+      "id": "e1-115b",
+      "title": "Head South out of the City",
+      "text": "Head South out of the City",
       "manual": true
     },
     {
@@ -1551,9 +1910,15 @@
       "manual": true
     },
     {
-      "id": "e1-117",
-      "title": "Head West and pick 2 Nettles …",
-      "text": "Head West and pick 2 Nettles [Ghost's Ahoy][Skippy & The Mogres]",
+      "id": "e1-117a",
+      "title": "Head West",
+      "text": "Head West",
+      "manual": true
+    },
+    {
+      "id": "e1-117b",
+      "title": "pick 2 Nettles [Ghost's Ahoy][Skippy & …",
+      "text": "pick 2 Nettles [Ghost's Ahoy][Skippy & The Mogres]",
       "complete": {
         "op": "quest",
         "quest": "SKIPPY_AND_THE_MOGRES",
@@ -1613,12 +1978,12 @@
           {
             "op": "itemAcquired",
             "id": 1929,
-            "qty": 2
+            "qty": 1
           },
           {
             "op": "item",
             "id": 1929,
-            "qty": 33,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -1632,9 +1997,9 @@
       "manual": true
     },
     {
-      "id": "e1-123",
-      "title": "Enter Guildmaster Apatura's building and go …",
-      "text": "Enter Guildmaster Apatura's building and go up both ladders",
+      "id": "e1-123a",
+      "title": "Enter Guildmaster Apatura's building",
+      "text": "Enter Guildmaster Apatura's building",
       "manual": true,
       "npc": 13120,
       "world": [
@@ -1642,6 +2007,12 @@
         3033,
         0
       ]
+    },
+    {
+      "id": "e1-123b",
+      "title": "go up both ladders",
+      "text": "go up both ladders",
+      "manual": true
     },
     {
       "id": "e1-124",
@@ -1658,7 +2029,7 @@
           {
             "op": "item",
             "id": 29415,
-            "qty": 29,
+            "qty": 28,
             "scope": "ANY"
           }
         ]
@@ -1667,14 +2038,14 @@
     },
     {
       "id": "e1-125",
-      "title": "Deposit all.",
-      "text": "Deposit all.",
+      "title": "Deposit all",
+      "text": "Deposit all",
       "manual": true
     },
     {
       "id": "e1-126",
-      "title": "Withdraw: Coins.",
-      "text": "Withdraw: Coins.",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
       "manual": true
     },
     {
@@ -1687,12 +2058,12 @@
           {
             "op": "itemAcquired",
             "id": 1929,
-            "qty": 3
+            "qty": 2
           },
           {
             "op": "item",
             "id": 1929,
-            "qty": 33,
+            "qty": 32,
             "scope": "ANY"
           }
         ]
@@ -1702,13 +2073,19 @@
     {
       "id": "e1-128",
       "title": "Head South-West to Sunset Coast. Be …",
-      "text": "Head South-West to Sunset Coast. Be careful of the aggressive NPC's along the way as they can kill you if you do not pay attention.",
-      "manual": true,
+      "text": "Head South-West to Sunset Coast. Be careful of the aggressive NPC's along the way as they can kill you if you do not pay attention",
       "world": [
         1530,
         2983,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1530,
+        "y": 2983,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-129",
@@ -1736,12 +2113,18 @@
       "id": "e1-130",
       "title": "Travel with Antonia to Aldarin",
       "text": "Travel with Antonia to Aldarin",
-      "manual": true,
       "world": [
         1391,
         2935,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1391,
+        "y": 2935,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-131",
@@ -1783,9 +2166,15 @@
       ]
     },
     {
-      "id": "e1-134",
-      "title": "Bank South and Deposit all",
-      "text": "Bank South and Deposit all",
+      "id": "e1-134a",
+      "title": "Bank South",
+      "text": "Bank South",
+      "manual": true
+    },
+    {
+      "id": "e1-134b",
+      "title": "Deposit all",
+      "text": "Deposit all",
       "manual": true
     },
     {
@@ -1795,32 +2184,50 @@
       "manual": true
     },
     {
-      "id": "e1-136",
-      "title": "Head West and trade Antonius and …",
-      "text": "Head West and trade Antonius and sell all 28 at once.",
+      "id": "e1-136a",
+      "title": "Head West",
+      "text": "Head West",
       "manual": true
     },
     {
-      "id": "e1-137",
-      "title": "Head East after selling Eclipse reds …",
-      "text": "Head East after selling Eclipse reds and buy 3 Sunbeam ales from the Bartender in the pub. These give you a +1 agility boost to use the Taverley Dungeon shortcut later.",
+      "id": "e1-136b",
+      "title": "trade Antonius",
+      "text": "trade Antonius",
+      "manual": true
+    },
+    {
+      "id": "e1-136c",
+      "title": "sell all 28 at once",
+      "text": "sell all 28 at once",
+      "manual": true
+    },
+    {
+      "id": "e1-137a",
+      "title": "Head East after selling Eclipse reds",
+      "text": "Head East after selling Eclipse reds",
+      "manual": true
+    },
+    {
+      "id": "e1-137b",
+      "title": "buy 3 Sunbeam ales from the …",
+      "text": "buy 3 Sunbeam ales from the Bartender in the pub. These give you a +1 agility boost to use the Taverley Dungeon shortcut later",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 29415,
-            "qty": 29
+            "id": 29409,
+            "qty": 3
           },
           {
             "op": "item",
-            "id": 29415,
-            "qty": 29,
+            "id": 29409,
+            "qty": 7,
             "scope": "ANY"
           }
         ]
       },
-      "item": 29415,
+      "item": 29409,
       "world": [
         2884,
         3398,
@@ -1883,9 +2290,15 @@
       "item": 1269
     },
     {
-      "id": "e1-141",
-      "title": "Bank at Mistrock and deposit all.",
-      "text": "Bank at Mistrock and deposit all.",
+      "id": "e1-141a",
+      "title": "Bank at Mistrock",
+      "text": "Bank at Mistrock",
+      "manual": true
+    },
+    {
+      "id": "e1-141b",
+      "title": "deposit all",
+      "text": "deposit all",
       "manual": true
     },
     {
@@ -1926,12 +2339,18 @@
       "id": "e1-144",
       "title": "Head to the Wizards Tower",
       "text": "Head to the Wizards Tower",
-      "manual": true,
       "world": [
         3109,
         3160,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3109,
+        "y": 3160,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-145",
@@ -1940,9 +2359,15 @@
       "manual": true
     },
     {
-      "id": "e1-146",
+      "id": "e1-146a",
       "title": "Search the altar to collect the …",
-      "text": "Search the altar to collect the Ghost's skull. Run from the level 13 skeleton.",
+      "text": "Search the altar to collect the Ghost's skull",
+      "manual": true
+    },
+    {
+      "id": "e1-146b",
+      "title": "Run from the level 13 skeleton",
+      "text": "Run from the level 13 skeleton",
       "manual": true
     },
     {
@@ -1979,15 +2404,27 @@
       "manual": true
     },
     {
-      "id": "e1-150",
-      "title": "Head North to Draynor and Deposit …",
-      "text": "Head North to Draynor and Deposit all",
-      "manual": true,
+      "id": "e1-150a",
+      "title": "Head North to Draynor",
+      "text": "Head North to Draynor",
       "world": [
         3103,
         3265,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e1-150b",
+      "title": "Deposit all",
+      "text": "Deposit all",
+      "manual": true
     },
     {
       "id": "e1-151",
@@ -2034,9 +2471,9 @@
       "item": 13658
     },
     {
-      "id": "e1-153",
-      "title": "Use Pages on Chronicle and wield",
-      "text": "Use Pages on Chronicle and wield",
+      "id": "e1-153a",
+      "title": "Use Pages on Chronicle",
+      "text": "Use Pages on Chronicle",
       "manual": true,
       "world": [
         3165,
@@ -2045,9 +2482,21 @@
       ]
     },
     {
-      "id": "e1-154",
-      "title": "Head West and talk to Redbeard …",
-      "text": "Head West and talk to Redbeard Frank to start Pirate's Treasure (1,1)",
+      "id": "e1-153b",
+      "title": "wield",
+      "text": "wield",
+      "manual": true
+    },
+    {
+      "id": "e1-154a",
+      "title": "Head West",
+      "text": "Head West",
+      "manual": true
+    },
+    {
+      "id": "e1-154b",
+      "title": "talk to Redbeard Frank to start …",
+      "text": "talk to Redbeard Frank to start Pirate's Treasure (1,1)",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -2060,9 +2509,15 @@
       ]
     },
     {
-      "id": "e1-155",
-      "title": "Head South-West and buy a Harpoon, …",
-      "text": "Head South-West and buy a Harpoon, 50 Bait & 10 Feather packs. Take Apron from the wall & wear.",
+      "id": "e1-155a",
+      "title": "Head South-West",
+      "text": "Head South-West",
+      "manual": true
+    },
+    {
+      "id": "e1-155b",
+      "title": "buy a Harpoon, 50 Bait & …",
+      "text": "buy a Harpoon, 50 Bait & 10 Feather packs",
       "complete": {
         "op": "or",
         "of": [
@@ -2080,6 +2535,12 @@
         ]
       },
       "item": 314
+    },
+    {
+      "id": "e1-155c",
+      "title": "Take Apron from the wall & …",
+      "text": "Take Apron from the wall & wear",
+      "manual": true
     },
     {
       "id": "e1-156",
@@ -2133,9 +2594,15 @@
       ]
     },
     {
-      "id": "e1-162",
-      "title": "Fill Crate with bananas and use …",
-      "text": "Fill Crate with bananas and use Karamja rum on the crate",
+      "id": "e1-162a",
+      "title": "Fill Crate with bananas",
+      "text": "Fill Crate with bananas",
+      "manual": true
+    },
+    {
+      "id": "e1-162b",
+      "title": "use Karamja rum on the crate",
+      "text": "use Karamja rum on the crate",
       "manual": true,
       "world": [
         2843,
@@ -2162,9 +2629,15 @@
       ]
     },
     {
-      "id": "e1-165",
-      "title": "Trade Wydin and buy Raw Chicken, …",
-      "text": "Trade Wydin and buy Raw Chicken, 2x Raw Beef, 3x Flour & 2x redberries",
+      "id": "e1-165a",
+      "title": "Trade Wydin",
+      "text": "Trade Wydin",
+      "manual": true
+    },
+    {
+      "id": "e1-165b",
+      "title": "buy Raw Chicken, 2x Raw Beef, …",
+      "text": "buy Raw Chicken, 2x Raw Beef, 3x Flour & 2x redberries",
       "complete": {
         "op": "or",
         "of": [
@@ -2186,7 +2659,7 @@
     {
       "id": "e1-166",
       "title": "Continue Pirate's Treasure by talking to …",
-      "text": "Continue Pirate's Treasure by talking to Wydin to get employed, and collect the rum from the crate.",
+      "text": "Continue Pirate's Treasure by talking to Wydin to get employed, collect the rum from the crate",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -2221,14 +2694,25 @@
       "item": 327
     },
     {
-      "id": "e1-168",
-      "title": "Use the Deposit box by Entrana …",
-      "text": "Use the Deposit box by Entrana and deposit everything except: Mind Runes, Coins, 1x Raw Beef, Karamja Rum, Onion, Pickaxe & 2x wines (8 Inventory Slots)",
+      "id": "e1-168a",
+      "title": "Use the Deposit box by Entrana",
+      "text": "Use the Deposit box by Entrana",
       "manual": true,
       "npc": 4062,
       "world": [
         2851,
         3350,
+        0
+      ]
+    },
+    {
+      "id": "e1-168b",
+      "title": "deposit everything except: Mind Runes, Coins, …",
+      "text": "deposit everything except: Mind Runes, Coins, 1x Raw Beef, Karamja Rum, Onion, Pickaxe & 2x wines (8 Inventory Slots)",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
         0
       ]
     },
@@ -2245,9 +2729,21 @@
       ]
     },
     {
-      "id": "e1-170",
-      "title": "Head West to Betty and buy …",
-      "text": "Head West to Betty and buy 2x Eye of Newt & 200 mind runes",
+      "id": "e1-170a",
+      "title": "Head West to Betty",
+      "text": "Head West to Betty",
+      "manual": true,
+      "npc": 5905,
+      "world": [
+        3014,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "e1-170b",
+      "title": "buy 2x Eye of Newt & …",
+      "text": "buy 2x Eye of Newt & 200 mind runes",
       "complete": {
         "op": "or",
         "of": [
@@ -2265,17 +2761,22 @@
         ]
       },
       "item": 221,
-      "npc": 5905,
       "world": [
-        3014,
-        3258,
+        1630,
+        3981,
         0
       ]
     },
     {
-      "id": "e1-171",
-      "title": "Head South-West and complete Witches Potion …",
-      "text": "Head South-West and complete Witches Potion (Beef twice on range to burn)",
+      "id": "e1-171a",
+      "title": "Head South-West",
+      "text": "Head South-West",
+      "manual": true
+    },
+    {
+      "id": "e1-171b",
+      "title": "complete Witches Potion (Beef twice on …",
+      "text": "complete Witches Potion (Beef twice on range to burn)",
       "manual": true,
       "world": [
         3165,
@@ -2331,12 +2832,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 3
+            "qty": 4
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 35,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -2344,9 +2845,15 @@
       "item": 1925
     },
     {
-      "id": "e1-175",
-      "title": "Head North-West and collect a Snape …",
-      "text": "Head North-West and collect a Snape Grass",
+      "id": "e1-175a",
+      "title": "Head North-West",
+      "text": "Head North-West",
+      "manual": true
+    },
+    {
+      "id": "e1-175b",
+      "title": "collect a Snape Grass",
+      "text": "collect a Snape Grass",
       "complete": {
         "op": "or",
         "of": [
@@ -2406,15 +2913,21 @@
       ]
     },
     {
-      "id": "e1-180",
-      "title": "Bank at Falador West Bank and …",
-      "text": "Bank at Falador West Bank and deposit all",
+      "id": "e1-180a",
+      "title": "Bank at Falador West Bank",
+      "text": "Bank at Falador West Bank",
       "manual": true,
       "world": [
         2947,
         3366,
         0
       ]
+    },
+    {
+      "id": "e1-180b",
+      "title": "deposit all",
+      "text": "deposit all",
+      "manual": true
     },
     {
       "id": "e1-181",
@@ -2461,9 +2974,15 @@
       ]
     },
     {
-      "id": "e1-184",
-      "title": "Head South and talk to the …",
-      "text": "Head South and talk to the Squire and start Knight's Sword (1,2,1,1)",
+      "id": "e1-184a",
+      "title": "Head South",
+      "text": "Head South",
+      "manual": true
+    },
+    {
+      "id": "e1-184b",
+      "title": "talk to the Squire",
+      "text": "talk to the Squire",
       "manual": true,
       "npc": 4737,
       "world": [
@@ -2471,6 +2990,12 @@
         3341,
         0
       ]
+    },
+    {
+      "id": "e1-184c",
+      "title": "start Knight's Sword (1,2,1,1)",
+      "text": "start Knight's Sword (1,2,1,1)",
+      "manual": true
     },
     {
       "id": "e1-185",
@@ -2524,36 +3049,54 @@
       ]
     },
     {
-      "id": "e1-188",
-      "title": "Head North of Falador and kill …",
-      "text": "Head North of Falador and kill a Black Bear (safespot on trees as it is a 2x2). Collect the Raw Bear Meat, Bones & fur.",
+      "id": "e1-188a",
+      "title": "Head North of Falador",
+      "text": "Head North of Falador",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e1-188b",
+      "title": "kill a Black Bear (safespot on …",
+      "text": "kill a Black Bear (safespot on trees as it is a 2x2)",
+      "manual": true
+    },
+    {
+      "id": "e1-188c",
+      "title": "Collect the Raw Bear Meat, Bones …",
+      "text": "Collect the Raw Bear Meat, Bones & fur",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
             "id": 2136,
-            "qty": 2
+            "qty": 1
           },
           {
             "op": "item",
             "id": 2136,
-            "qty": 2,
+            "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 2136,
-      "world": [
-        3000,
-        3360,
-        0
-      ]
+      "item": 2136
     },
     {
-      "id": "e1-189",
-      "title": "Head to Taverley and talk to …",
-      "text": "Head to Taverley and talk to the boy to start Witches House (1,1)",
+      "id": "e1-189a",
+      "title": "Head to Taverley",
+      "text": "Head to Taverley",
       "manual": true,
       "object": 16680,
       "world": [
@@ -2563,9 +3106,21 @@
       ]
     },
     {
-      "id": "e1-190",
-      "title": "Head North and talk to Kaqemeex …",
-      "text": "Head North and talk to Kaqemeex to start Druidic Ritual (2,1)",
+      "id": "e1-189b",
+      "title": "talk to the boy to start …",
+      "text": "talk to the boy to start Witches House (1,1)",
+      "manual": true
+    },
+    {
+      "id": "e1-190a",
+      "title": "Head North",
+      "text": "Head North",
+      "manual": true
+    },
+    {
+      "id": "e1-190b",
+      "title": "talk to Kaqemeex to start Druidic …",
+      "text": "talk to Kaqemeex to start Druidic Ritual (2,1)",
       "complete": {
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
@@ -2590,9 +3145,15 @@
       "manual": true
     },
     {
-      "id": "e1-193",
-      "title": "Head South and buy 1x Vial …",
-      "text": "Head South and buy 1x Vial of Water Pack",
+      "id": "e1-193a",
+      "title": "Head South",
+      "text": "Head South",
+      "manual": true
+    },
+    {
+      "id": "e1-193b",
+      "title": "buy 1x Vial of Water Pack",
+      "text": "buy 1x Vial of Water Pack",
       "complete": {
         "op": "or",
         "of": [
@@ -2613,8 +3174,8 @@
     },
     {
       "id": "e1-194",
-      "title": "Talk with Sanfew upstairs.",
-      "text": "Talk with Sanfew upstairs.",
+      "title": "Talk with Sanfew upstairs",
+      "text": "Talk with Sanfew upstairs",
       "manual": true,
       "npc": 5044,
       "world": [
@@ -2731,8 +3292,8 @@
     },
     {
       "id": "e1-203",
-      "title": "Chronicle and complete Gertrude's Cat",
-      "text": "Chronicle and complete Gertrude's Cat",
+      "title": "Chronicle, complete Gertrude's Cat",
+      "text": "Chronicle, complete Gertrude's Cat",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -2759,7 +3320,7 @@
           {
             "op": "item",
             "id": 560,
-            "qty": 203,
+            "qty": 202,
             "scope": "ANY"
           }
         ]
@@ -2801,7 +3362,7 @@
     {
       "id": "e1-207",
       "title": "Here I would recommend Private off …",
-      "text": "Here I would recommend Private off and hop to avoid being bagged up.",
+      "text": "Here I would recommend Private off and hop to avoid being bagged up",
       "manual": true,
       "world": [
         3165,
@@ -2858,9 +3419,15 @@
       "manual": true
     },
     {
-      "id": "e1-212",
-      "title": "Trade Heckel Funch or Hudo and …",
-      "text": "Trade Heckel Funch or Hudo and buy Dwellberries, 2x Bucket of Milk, 2x Chocolate Dust [Plague City]",
+      "id": "e1-212a",
+      "title": "Trade Heckel Funch or Hudo",
+      "text": "Trade Heckel Funch or Hudo",
+      "manual": true
+    },
+    {
+      "id": "e1-212b",
+      "title": "buy Dwellberries, 2x Bucket of Milk, …",
+      "text": "buy Dwellberries, 2x Bucket of Milk, 2x Chocolate Dust [Plague City]",
       "complete": {
         "op": "quest",
         "quest": "PLAGUE_CITY",
@@ -3036,26 +3603,38 @@
       ]
     },
     {
-      "id": "e1-226",
-      "title": "Trade Wydin and buy Flour and …",
-      "text": "Trade Wydin and buy Flour and Redberries and make an Uncooked berry pie",
+      "id": "e1-226a",
+      "title": "Trade Wydin",
+      "text": "Trade Wydin",
+      "manual": true
+    },
+    {
+      "id": "e1-226b",
+      "title": "buy Flour and Redberries",
+      "text": "buy Flour and Redberries",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 2321,
+            "id": 1951,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 2321,
+            "id": 1951,
             "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 2321
+      "item": 1951
+    },
+    {
+      "id": "e1-226c",
+      "title": "make an Uncooked berry pie",
+      "text": "make an Uncooked berry pie",
+      "manual": true
     },
     {
       "id": "e1-227",
@@ -3079,12 +3658,18 @@
       "id": "e1-229",
       "title": "Head into Asgarnia dungeon (Chronicle is …",
       "text": "Head into Asgarnia dungeon (Chronicle is emergency teleport if you gargle)",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-230",
@@ -3096,12 +3681,18 @@
       "id": "e1-231",
       "title": "Teleport to Falador with Teletab",
       "text": "Teleport to Falador with Teletab",
-      "manual": true,
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-232",
@@ -3124,13 +3715,19 @@
     {
       "id": "e1-234",
       "title": "Walk back to Falador after you …",
-      "text": "Walk back to Falador after you get the sword.",
-      "manual": true,
+      "text": "Walk back to Falador after you get the sword",
       "world": [
         3000,
         3360,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-235",
@@ -3154,12 +3751,18 @@
       "id": "e1-237",
       "title": "Head to Al Kharid",
       "text": "Head to Al Kharid",
-      "manual": true,
       "world": [
         3290,
         3185,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3290,
+        "y": 3185,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-238",
@@ -3294,12 +3897,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 6
+            "qty": 7
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 35,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -3333,7 +3936,7 @@
     {
       "id": "e1-251",
       "title": "You need to safespot the Mercenary …",
-      "text": "You need to safespot the Mercenary Captain on his soldiers. Talk to the soldier to hold him in place after you body block him. Max hit is 5.",
+      "text": "You need to safespot the Mercenary Captain on his soldiers, Talk to the soldier to hold him in place after you body block him. Max hit is 5",
       "manual": true,
       "npc": 4635,
       "world": [
@@ -3392,9 +3995,9 @@
       "item": 2349
     },
     {
-      "id": "e1-256",
-      "title": "Bank at Shantay pass and deposit …",
-      "text": "Bank at Shantay pass and deposit all",
+      "id": "e1-256a",
+      "title": "Bank at Shantay pass",
+      "text": "Bank at Shantay pass",
       "manual": true,
       "npc": 4642,
       "world": [
@@ -3402,6 +4005,12 @@
         3122,
         0
       ]
+    },
+    {
+      "id": "e1-256b",
+      "title": "deposit all",
+      "text": "deposit all",
+      "manual": true
     },
     {
       "id": "e1-257",
@@ -3412,7 +4021,7 @@
     {
       "id": "e1-258",
       "title": "Minigame teleport to Last Man Standing/Clan …",
-      "text": "Minigame teleport to Last Man Standing/Clan Wars. Recharge Run Energy in the Free to Play portal by entering and leaving.",
+      "text": "Minigame teleport to Last Man Standing/Clan Wars. Recharge Run Energy in the Free to Play portal by entering and leaving",
       "manual": true,
       "world": [
         3130,
@@ -3421,9 +4030,15 @@
       ]
     },
     {
-      "id": "e1-259",
-      "title": "Return to Minigame teleport location and …",
-      "text": "Return to Minigame teleport location and take the green portal east to Castle Wars",
+      "id": "e1-259a",
+      "title": "Return to Minigame teleport location",
+      "text": "Return to Minigame teleport location",
+      "manual": true
+    },
+    {
+      "id": "e1-259b",
+      "title": "take the green portal east to …",
+      "text": "take the green portal east to Castle Wars",
       "manual": true,
       "world": [
         2407,
@@ -3454,9 +4069,21 @@
       }
     },
     {
-      "id": "e1-262",
-      "title": "Trade Aleck [Ardougne Easy Diary] and …",
-      "text": "Trade Aleck [Ardougne Easy Diary] and buy Butterfly Net, 10x Buttefly Jar, 3x Bird Snare, 1x Teasing Stick, 8x Box Traps",
+      "id": "e1-262a",
+      "title": "Trade Aleck [Ardougne Easy Diary]",
+      "text": "Trade Aleck [Ardougne Easy Diary]",
+      "manual": true,
+      "npc": 8764,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
+    },
+    {
+      "id": "e1-262b",
+      "title": "buy Butterfly Net, 10x Buttefly Jar, …",
+      "text": "buy Butterfly Net, 10x Buttefly Jar, 3x Bird Snare, 1x Teasing Stick, 8x Box Traps",
       "complete": {
         "op": "or",
         "of": [
@@ -3473,18 +4100,18 @@
           }
         ]
       },
-      "item": 10010,
-      "npc": 8764,
-      "world": [
-        2772,
-        3228,
-        0
-      ]
+      "item": 10010
     },
     {
-      "id": "e1-263",
-      "title": "Head North and take Jug of …",
-      "text": "Head North and take Jug of Water [Monk's Friend]",
+      "id": "e1-263a",
+      "title": "Head North",
+      "text": "Head North",
+      "manual": true
+    },
+    {
+      "id": "e1-263b",
+      "title": "take Jug of Water [Monk's Friend]",
+      "text": "take Jug of Water [Monk's Friend]",
       "complete": {
         "op": "quest",
         "quest": "MONKS_FRIEND",
@@ -3507,9 +4134,9 @@
       }
     },
     {
-      "id": "e1-265",
-      "title": "Bank at Yanille and Deposit all",
-      "text": "Bank at Yanille and Deposit all",
+      "id": "e1-265a",
+      "title": "Bank at Yanille",
+      "text": "Bank at Yanille",
       "manual": true,
       "object": 17047,
       "world": [
@@ -3517,6 +4144,12 @@
         3072,
         0
       ]
+    },
+    {
+      "id": "e1-265b",
+      "title": "Deposit all",
+      "text": "Deposit all",
+      "manual": true
     },
     {
       "id": "e1-266",
@@ -3694,7 +4327,7 @@
     {
       "id": "e1-278",
       "title": "Safe spot everything over the closest …",
-      "text": "Safe spot everything over the closest Corpse.",
+      "text": "Safe spot everything over the closest Corpse",
       "manual": true
     },
     {
@@ -3742,9 +4375,15 @@
       ]
     },
     {
-      "id": "e1-283",
-      "title": "Head North to the church then …",
-      "text": "Head North to the church then start Sheep Herder (1,1) Wear Plague outfit",
+      "id": "e1-283a",
+      "title": "Head North to the church",
+      "text": "Head North to the church",
+      "manual": true
+    },
+    {
+      "id": "e1-283b",
+      "title": "start Sheep Herder (1,1) Wear Plague …",
+      "text": "start Sheep Herder (1,1) Wear Plague outfit",
       "complete": {
         "op": "quest",
         "quest": "SHEEP_HERDER",
@@ -3796,9 +4435,9 @@
       ]
     },
     {
-      "id": "e1-286",
-      "title": "Bank at Ardougne North bank. Deposit …",
-      "text": "Bank at Ardougne North bank. Deposit all.",
+      "id": "e1-286a",
+      "title": "Bank at Ardougne North bank",
+      "text": "Bank at Ardougne North bank",
       "manual": true,
       "npc": 8764,
       "world": [
@@ -3806,6 +4445,12 @@
         3228,
         0
       ]
+    },
+    {
+      "id": "e1-286b",
+      "title": "Deposit all",
+      "text": "Deposit all",
+      "manual": true
     },
     {
       "id": "e1-287",
@@ -3831,19 +4476,25 @@
     {
       "id": "e1-289",
       "title": "Drop Poisoned Sheep feed, Plague robes …",
-      "text": "Drop Poisoned Sheep feed, Plague robes & cattleprod once done.",
+      "text": "Drop Poisoned Sheep feed, Plague robes & cattleprod once done",
       "manual": true
     },
     {
       "id": "e1-290",
       "title": "Head North hugging the Fishing Guild …",
       "text": "Head North hugging the Fishing Guild to avoid Moss Giants",
-      "manual": true,
       "world": [
         2609,
         3424,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2609,
+        "y": 3424,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-291",
@@ -3864,12 +4515,18 @@
       "id": "e1-292",
       "title": "Head North to Barbarian Assault",
       "text": "Head North to Barbarian Assault",
-      "manual": true,
       "world": [
         2533,
         3571,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2533,
+        "y": 3571,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-293",
@@ -3946,9 +4603,15 @@
       "manual": true
     },
     {
-      "id": "e1-299",
-      "title": "Head south and start the Waterfall …",
-      "text": "Head south and start the Waterfall Quest by talking to Almera",
+      "id": "e1-299a",
+      "title": "Head south",
+      "text": "Head south",
+      "manual": true
+    },
+    {
+      "id": "e1-299b",
+      "title": "start the Waterfall Quest by talking …",
+      "text": "start the Waterfall Quest by talking to Almera",
       "complete": {
         "op": "quest",
         "quest": "WATERFALL_QUEST",
@@ -4318,12 +4981,12 @@
           {
             "op": "itemAcquired",
             "id": 1925,
-            "qty": 11
+            "qty": 12
           },
           {
             "op": "item",
             "id": 1925,
-            "qty": 35,
+            "qty": 36,
             "scope": "ANY"
           }
         ]
@@ -4331,9 +4994,15 @@
       "item": 1925
     },
     {
-      "id": "e1-327",
-      "title": "Bank west and deposit all",
-      "text": "Bank west and deposit all",
+      "id": "e1-327a",
+      "title": "Bank west",
+      "text": "Bank west",
+      "manual": true
+    },
+    {
+      "id": "e1-327b",
+      "title": "deposit all",
+      "text": "deposit all",
       "manual": true
     },
     {
@@ -4407,14 +5076,20 @@
     },
     {
       "id": "e1-333",
-      "title": "Right click your house tab and …",
-      "text": "Right click your house tab and teleport to Outside House",
+      "title": "Right click your house tab, teleport …",
+      "text": "Right click your house tab, teleport to Outside House",
       "manual": true
     },
     {
-      "id": "e1-334",
-      "title": "Head west and take the boat …",
-      "text": "Head west and take the boat to Brimhaven",
+      "id": "e1-334a",
+      "title": "Head west",
+      "text": "Head west",
+      "manual": true
+    },
+    {
+      "id": "e1-334b",
+      "title": "take the boat to Brimhaven",
+      "text": "take the boat to Brimhaven",
       "manual": true,
       "object": 10805,
       "world": [
@@ -4424,9 +5099,15 @@
       ]
     },
     {
-      "id": "e1-335",
-      "title": "Head to the Bar and complete …",
-      "text": "Head to the Bar and complete the Bartender (Dead Man's Chest) Barcrawl (4)",
+      "id": "e1-335a",
+      "title": "Head to the Bar",
+      "text": "Head to the Bar",
+      "manual": true
+    },
+    {
+      "id": "e1-335b",
+      "title": "complete the Bartender (Dead Man's Chest) …",
+      "text": "complete the Bartender (Dead Man's Chest) Barcrawl (4)",
       "manual": true,
       "npc": 14660,
       "world": [
@@ -4716,9 +5397,9 @@
       ]
     },
     {
-      "id": "e1-355",
-      "title": "Bank at Ardougne North Bank. Deposit …",
-      "text": "Bank at Ardougne North Bank. Deposit everything",
+      "id": "e1-355a",
+      "title": "Bank at Ardougne North Bank",
+      "text": "Bank at Ardougne North Bank",
       "manual": true,
       "npc": 8764,
       "world": [
@@ -4726,6 +5407,12 @@
         3228,
         0
       ]
+    },
+    {
+      "id": "e1-355b",
+      "title": "Deposit everything",
+      "text": "Deposit everything",
+      "manual": true
     },
     {
       "id": "e1-356",
@@ -4752,7 +5439,7 @@
     {
       "id": "e1-357",
       "title": "Continue Waterfall Quest by obtaining Glarials …",
-      "text": "Continue Waterfall Quest by obtaining Glarials Amulet and Urn from the Tomb (drop runes & staff). Tank skeleton hit and run past moss giants",
+      "text": "Continue Waterfall Quest by obtaining Glarials Amulet and Urn from the Tomb (drop runes & staff). Tank skeleton hit, run past moss giants",
       "complete": {
         "op": "quest",
         "quest": "WATERFALL_QUEST",
@@ -4793,7 +5480,7 @@
     {
       "id": "e1-360",
       "title": "Somebody will get Rune Scimitar on …",
-      "text": "Somebody will get Rune Scimitar on this kill. I hope that's you.",
+      "text": "Somebody will get Rune Scimitar on this kill. I hope that's you",
       "manual": true,
       "world": [
         3165,

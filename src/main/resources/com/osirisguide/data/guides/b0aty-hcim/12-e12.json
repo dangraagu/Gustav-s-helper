@@ -4,26 +4,10 @@
   "section": "Episode 12 - Bank 204 through Zulrah",
   "steps": [
     {
-      "id": "e12-001",
+      "id": "e12-001a",
       "title": "Withdraw: Combat Gear (Blood Moon with …",
-      "text": "Withdraw: Combat Gear (Blood Moon with Dual Macahuitl’s are best), Coins, Teleport Runes, Dramen Staff, Costume Needle, Hammer, 2x Box Traps, Potions & Food",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 10008,
-            "qty": 2
-          },
-          {
-            "op": "item",
-            "id": 10008,
-            "qty": 2,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 10008,
+      "text": "Withdraw: Combat Gear (Blood Moon with Dual Macahuitl’s are best), Coins",
+      "manual": true,
       "world": [
         3165,
         3490,
@@ -31,15 +15,27 @@
       ]
     },
     {
+      "id": "e12-001b",
+      "title": "Teleport Runes, Dramen Staff, Costume Needle, …",
+      "text": "Teleport Runes, Dramen Staff, Costume Needle, Hammer, 2x Box Traps, Potions & Food",
+      "manual": true
+    },
+    {
       "id": "e12-002",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true,
       "world": [
         1725,
         3128,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-003",
@@ -60,9 +56,15 @@
       "manual": true
     },
     {
-      "id": "e12-006",
-      "title": "Head South and talk to Emelio …",
-      "text": "Head South and talk to Emelio (1) [Meat and Greet]",
+      "id": "e12-006a",
+      "title": "Head South",
+      "text": "Head South",
+      "manual": true
+    },
+    {
+      "id": "e12-006b",
+      "title": "talk to Emelio (1) [Meat and …",
+      "text": "talk to Emelio (1) [Meat and Greet]",
       "complete": {
         "op": "quest",
         "quest": "MEAT_AND_GREET",
@@ -90,12 +92,18 @@
       "id": "e12-009",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true,
       "world": [
         1725,
         3128,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-010",
@@ -194,12 +202,18 @@
       "id": "e12-018",
       "title": "Teleport to Civitis Illa Fortis",
       "text": "Teleport to Civitis Illa Fortis",
-      "manual": true,
       "world": [
         1725,
         3128,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-019",
@@ -307,12 +321,18 @@
       "id": "e12-028",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true,
       "world": [
         1725,
         3128,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-029",
@@ -425,12 +445,18 @@
       "id": "e12-039",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true,
       "world": [
         1725,
         3128,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-040",
@@ -520,12 +546,18 @@
       "id": "e12-046",
       "title": "Teleport to Civitas Illa Fortis",
       "text": "Teleport to Civitas Illa Fortis",
-      "manual": true,
       "world": [
         1725,
         3128,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1725,
+        "y": 3128,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-047",
@@ -621,12 +653,18 @@
       "id": "e12-054",
       "title": "Head North over the bridge & …",
       "text": "Head North over the bridge & bank",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-055",
@@ -791,15 +829,21 @@
       "manual": true
     },
     {
-      "id": "e12-068",
+      "id": "e12-068a",
       "title": "Withdraw: Combat Gear (Melee & Range), …",
-      "text": "Withdraw: Combat Gear (Melee & Range), Food & Potions, Teleport Runes",
+      "text": "Withdraw: Combat Gear (Melee & Range), Food & Potions",
       "manual": true,
       "world": [
         3165,
         3490,
         0
       ]
+    },
+    {
+      "id": "e12-068b",
+      "title": "Teleport Runes",
+      "text": "Teleport Runes",
+      "manual": true
     },
     {
       "id": "e12-069",
@@ -898,12 +942,12 @@
           {
             "op": "itemAcquired",
             "id": 1775,
-            "qty": 13
+            "qty": 9
           },
           {
             "op": "item",
             "id": 1775,
-            "qty": 13,
+            "qty": 9,
             "scope": "ANY"
           }
         ]
@@ -1014,12 +1058,18 @@
       "id": "e12-086",
       "title": "Teleport to POH with the Tablet …",
       "text": "Teleport to POH with the Tablet & change to Regular Spellbook",
-      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e12-087",
@@ -1123,9 +1173,9 @@
       "manual": true
     },
     {
-      "id": "e12-096",
+      "id": "e12-096a",
       "title": "With this set up, Teleports should …",
-      "text": "With this set up, Teleports should roughly self sustain. Outside of that, bank with Lunar Spell to Catherby and run from the Charter boat (Agility highly optional)",
+      "text": "With this set up, Teleports should roughly self sustain. Outside of that, bank with Lunar Spell to Catherby",
       "manual": true,
       "npc": 1520,
       "world": [
@@ -1133,6 +1183,12 @@
         3432,
         0
       ]
+    },
+    {
+      "id": "e12-096b",
+      "title": "run from the Charter boat (Agility …",
+      "text": "run from the Charter boat (Agility highly optional)",
+      "manual": true
     }
   ]
 }

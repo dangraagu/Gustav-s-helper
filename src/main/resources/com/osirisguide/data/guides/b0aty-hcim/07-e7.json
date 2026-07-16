@@ -137,7 +137,7 @@
     {
       "id": "e7-012",
       "title": "IT IS HIGHLY RECOMMENDED TO SCOUT …",
-      "text": "IT IS HIGHLY RECOMMENDED TO SCOUT THE LADDER WITH AN ALT TO MAKE SURE YOU DON'T GET BAGGED UP IF DOING PVP WORLD METHOD.",
+      "text": "IT IS HIGHLY RECOMMENDED TO SCOUT THE LADDER WITH AN ALT TO MAKE SURE YOU DON'T GET BAGGED UP IF DOING PVP WORLD METHOD",
       "manual": true,
       "world": [
         3165,
@@ -159,7 +159,7 @@
     {
       "id": "e7-014",
       "title": "Don't cast on Defensive. If you …",
-      "text": "Don't cast on Defensive. If you can get 78 Magic before Barrows you can build a Barrows Portal with a +5 red stew boost.",
+      "text": "Don't cast on Defensive. If you can get 78 Magic before Barrows you can build a Barrows Portal with a +5 red stew boost",
       "complete": {
         "op": "skill",
         "skill": "MAGIC",
@@ -315,7 +315,7 @@
     {
       "id": "e7-033",
       "title": "Entry TOB has some easy CAs …",
-      "text": "Entry TOB has some easy CAs otherwise the above is what I did. Medium before barrows IS NOT MANDATORY BUT IS COZY.",
+      "text": "Entry TOB has some easy CAs otherwise the above is what I did. Medium before barrows IS NOT MANDATORY BUT IS COZY",
       "manual": true,
       "world": [
         3663,
@@ -336,8 +336,8 @@
     },
     {
       "id": "e7-035",
-      "title": "78 Magic -> Boost to 83 …",
-      "text": "78 Magic -> Boost to 83 and make a Barrows portal in POH",
+      "title": "78 Magic -> Boost to 83, …",
+      "text": "78 Magic -> Boost to 83, make a Barrows portal in POH",
       "manual": true
     },
     {

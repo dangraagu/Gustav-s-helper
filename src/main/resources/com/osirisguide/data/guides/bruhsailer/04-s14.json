@@ -135,9 +135,37 @@
       ]
     },
     {
-      "id": "s14-010",
+      "id": "s14-010a",
       "title": "Blast Furnace minigame teleport, harvest the …",
-      "text": "Blast Furnace minigame teleport, harvest the kelda hops, start the brewing/fermenting process. Teleport to Camelot and complete Holy Grail.",
+      "text": "Blast Furnace minigame teleport, harvest the kelda hops, start the brewing/fermenting process",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "s14-010b",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s14-010c",
+      "title": "complete Holy Grail",
+      "text": "complete Holy Grail",
       "complete": {
         "op": "quest",
         "quest": "HOLY_GRAIL",
@@ -521,14 +549,26 @@
       ]
     },
     {
-      "id": "s14-034",
+      "id": "s14-034a",
       "title": "Complete The Hand in the Sand …",
-      "text": "Complete The Hand in the Sand (no multiquesting, unfortunately. Whiteberry from contracts should be grown by now). Collect sand from Bert for the diary.",
+      "text": "Complete The Hand in the Sand (no multiquesting, unfortunately. Whiteberry from contracts should be grown by now)",
       "complete": {
         "op": "quest",
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "world": [
+        2551,
+        3099,
+        0
+      ]
+    },
+    {
+      "id": "s14-034b",
+      "title": "Collect sand from Bert for the …",
+      "text": "Collect sand from Bert for the diary",
+      "manual": true,
+      "npc": 5815,
       "world": [
         2551,
         3099,

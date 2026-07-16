@@ -6,7 +6,7 @@
     {
       "id": "e8-001",
       "title": "Dump all your herblore experience. If …",
-      "text": "Dump all your herblore experience. If 70 achieved, skip to completing Song of the Elves then return to this step",
+      "text": "Dump all your herblore experience. If 70 achieved, skip to completing Song of the Elves, return to this step",
       "complete": {
         "op": "quest",
         "quest": "SONG_OF_THE_ELVES",
@@ -31,9 +31,15 @@
       "manual": true
     },
     {
-      "id": "e8-004",
-      "title": "Complete the Grapple Diary steps and …",
-      "text": "Complete the Grapple Diary steps and use all lamps on Herblore",
+      "id": "e8-004a",
+      "title": "Complete the Grapple Diary steps",
+      "text": "Complete the Grapple Diary steps",
+      "manual": true
+    },
+    {
+      "id": "e8-004b",
+      "title": "use all lamps on Herblore",
+      "text": "use all lamps on Herblore",
       "manual": true
     },
     {
@@ -176,7 +182,7 @@
     {
       "id": "e8-018",
       "title": "While doing Perilous Moons you should …",
-      "text": "While doing Perilous Moons you should hopefully bank and finish off 70 herblore if not already",
+      "text": "While doing Perilous Moons you should hopefully bank, finish off 70 herblore if not already",
       "complete": {
         "op": "quest",
         "quest": "PERILOUS_MOONS",
@@ -205,8 +211,8 @@
     },
     {
       "id": "e8-020",
-      "title": "Supercompost: Mine 2:1 Volcanic Ash:Compost and …",
-      "text": "Supercompost: Mine 2:1 Volcanic Ash:Compost and turn them into Ultra Compost",
+      "title": "Supercompost: Mine 2:1 Volcanic Ash:Compost, turn …",
+      "text": "Supercompost: Mine 2:1 Volcanic Ash:Compost, turn them into Ultra Compost",
       "manual": true
     },
     {
