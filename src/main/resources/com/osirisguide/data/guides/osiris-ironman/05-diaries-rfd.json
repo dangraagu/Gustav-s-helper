@@ -62,7 +62,12 @@
       "id": "dr-004",
       "title": "Make a mithril grapple",
       "text": "Make a mithril grapple\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3409,
+        2921,
+        0
+      ]
     },
     {
       "id": "dr-005",

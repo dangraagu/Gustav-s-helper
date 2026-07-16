@@ -79,6 +79,18 @@ public interface OsirisGuideConfig extends Config
 	}
 
 	@ConfigItem(
+		keyName = "birdhouseReminder",
+		name = "Birdhouse run reminder",
+		description = "Notify when ~50 minutes have passed since you last visited the Fossil Island birdhouses.",
+		section = generalSection,
+		position = 3
+	)
+	default boolean birdhouseReminder()
+	{
+		return true;
+	}
+
+	@ConfigItem(
 		keyName = "showWorldArrow",
 		name = "World arrow",
 		description = "Draw an arrow over the current step's destination tile.",

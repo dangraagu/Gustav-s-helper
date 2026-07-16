@@ -14,6 +14,7 @@ import com.questhelper.questinfo.QuestHelperQuest;
 import com.osirisguide.engine.ConditionContext;
 import com.osirisguide.engine.DialogueDb;
 import com.osirisguide.engine.Progression;
+import com.osirisguide.engine.ReminderTimer;
 import com.osirisguide.engine.Route;
 import com.osirisguide.engine.RouteLoader;
 import com.osirisguide.engine.RouteStep;
@@ -52,6 +53,7 @@ import net.runelite.api.events.GameTick;
 import net.runelite.api.events.ItemContainerChanged;
 import net.runelite.api.events.NpcDespawned;
 import net.runelite.api.events.NpcSpawned;
+import net.runelite.client.Notifier;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
@@ -75,6 +77,12 @@ import net.runelite.client.util.ImageUtil;
 public class OsirisGuidePlugin extends Plugin
 {
 	private static final int PANEL_REFRESH_TICKS = 5;
+
+	// Birdhouse-run reminder: Verdant Valley, Fossil Island (wiki {{Map}} centre). Visiting anywhere
+	// within the radius (re)arms a ~50-minute cycle; when it elapses, a notification fires once.
+	private static final WorldPoint BIRDHOUSE_AREA = new WorldPoint(3760, 3760, 0);
+	private static final int BIRDHOUSE_RADIUS = 40;
+	private static final long BIRDHOUSE_INTERVAL_MS = 50L * 60L * 1000L;
 
 	@Inject
 	private Client client;
@@ -106,6 +114,8 @@ public class OsirisGuidePlugin extends Plugin
 	private WorldMapPointManager worldMapPointManager;
 	@Inject
 	private PluginManager pluginManager;
+	@Inject
+	private Notifier notifier;
 
 	// Loaded guide state (rebuilt by loadGuide()).
 	private Route route;
@@ -120,6 +130,10 @@ public class OsirisGuidePlugin extends Plugin
 	private WorldMapMarker worldMapMarker;
 	private GuideStorage storage;
 	private QuestHelper drivenHelper;   // the QH quest WE activated (only ever clear our own)
+
+	// Birdhouse reminder (per account; loaded on account resolve, persisted periodically).
+	private ReminderTimer birdhouseTimer;
+	private long birdhousePersistedVisit;
 
 	// Transient bookkeeping.
 	private boolean pendingReconcile;
@@ -188,6 +202,8 @@ public class OsirisGuidePlugin extends Plugin
 	{
 		persist();
 		persistLedger();
+		persistBirdhouse();
+		birdhouseTimer = null;
 		overlayManager.remove(worldOverlay);
 		overlayManager.remove(minimapOverlay);
 		overlayManager.remove(itemOverlay);
@@ -254,6 +270,8 @@ public class OsirisGuidePlugin extends Plugin
 			// account after a switch. The next login re-resolves and reloads.
 			persist();
 			persistLedger();
+			persistBirdhouse();
+			birdhouseTimer = null; // per-account: never let one account's cycle notify another
 			ledgerDirty = false;
 			accountKey = null;
 		}
@@ -324,12 +342,31 @@ public class OsirisGuidePlugin extends Plugin
 			persist();
 		}
 
+		// Birdhouse-run reminder: being at the birdhouses (re)arms the cycle; away + elapsed -> one notify.
+		if (config.birdhouseReminder() && birdhouseTimer != null)
+		{
+			WorldPoint here = ctx.playerLocation();
+			long now = System.currentTimeMillis();
+			if (here != null && BIRDHOUSE_AREA.distanceTo(here) <= BIRDHOUSE_RADIUS)
+			{
+				birdhouseTimer.visit(now);
+			}
+			else if (birdhouseTimer.due(now))
+			{
+				notifier.notify("Gustav's Helper: birdhouse run is ready (Fossil Island)");
+			}
+		}
+
 		tickCounter++;
 		boolean periodic = (tickCounter % PANEL_REFRESH_TICKS == 0);
 		if (ledgerDirty && periodic)
 		{
 			persistLedger();
 			ledgerDirty = false;
+		}
+		if (periodic)
+		{
+			persistBirdhouse();
 		}
 		// A container change (pickup / bank / drop / use) refreshes the ledger view promptly, even
 		// when 'acquired' didn't rise — so the used/dropped column updates the moment you drop an item.
@@ -478,8 +515,21 @@ public class OsirisGuidePlugin extends Plugin
 		accountKey = key;
 		loadPersisted(key);
 		loadLedger(key);
+		birdhousePersistedVisit = storage.loadBirdhouseVisit(key);
+		birdhouseTimer = new ReminderTimer(BIRDHOUSE_INTERVAL_MS, birdhousePersistedVisit);
 		pendingReconcile = true;
 		return true;
+	}
+
+	/** Persist the birdhouse cycle when it changed (cheap no-op otherwise). */
+	private void persistBirdhouse()
+	{
+		if (birdhouseTimer != null && accountKey != null
+			&& birdhouseTimer.getLastVisit() != birdhousePersistedVisit)
+		{
+			storage.saveBirdhouseVisit(accountKey, birdhouseTimer.getLastVisit());
+			birdhousePersistedVisit = birdhouseTimer.getLastVisit();
+		}
 	}
 
 	/**

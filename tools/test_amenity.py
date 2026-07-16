@@ -75,6 +75,27 @@ RESOURCE_CASES = [
 ]
 
 
+
+def craft_gap_tests():
+    fails = 0
+    sg.GAZETTEER.setdefault("varrock", (3213, 3428))
+    sg.AMENITIES.setdefault("varrock", {})["anvil"] = [3188, 3426, 0]
+    steps = [
+        {"id": "a", "text": "Enter the raid.", "world": [3345, 2725, 0]},        # prev = a raid, far away
+        {"id": "b", "text": "Make a mithril grapple"},                            # needs an anvil
+        {"id": "c", "text": "Talk to Bob.", "world": [3209, 3216, 0]},            # next = Lumbridge-ish
+        {"id": "d", "text": "Make energy pots"},                                  # no facility -> inherit
+        {"id": "e", "text": "Do slayer until 60 attack"},                         # meta: must stay unlocated
+    ]
+    sg.fill_craft_gaps(steps)
+    if steps[1].get("world") != [3188, 3426, 0]:
+        fails += 1; print("FAIL grapple should land on the Varrock anvil, got", steps[1].get("world"))
+    if steps[3].get("world") != [3209, 3216, 0]:
+        fails += 1; print("FAIL energy pots should inherit the previous located coord, got", steps[3].get("world"))
+    if "world" in steps[4]:
+        fails += 1; print("FAIL meta step must stay unlocated")
+    return fails, 3
+
 def main():
     fails = 0
     for name, loc, anchor, want in CASES:
@@ -91,7 +112,9 @@ def main():
             sg.gazetteer_key("Location: Lumbridge") != "lumbridge":
         fails += 1
         print("FAIL gazetteer_key basic match")
-    total = len(CASES) + len(RESOURCE_CASES) + 1
+    cf, ct = craft_gap_tests()
+    fails += cf
+    total = len(CASES) + len(RESOURCE_CASES) + 1 + ct
     print(f"{total - fails}/{total} passed")
     sys.exit(1 if fails else 0)
 

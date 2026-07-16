@@ -78,7 +78,12 @@
       "id": "sg-006",
       "title": "Make energy pots, should have some …",
       "text": "Make energy pots, should have some harralanders from kingdom if it's been ove\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        2466,
+        3495,
+        0
+      ]
     },
     {
       "id": "sg-007",

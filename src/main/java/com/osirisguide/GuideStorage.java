@@ -73,4 +73,34 @@ class GuideStorage
 		ledger.acquiredFromString(value);
 		ledger.clearSnapshots();
 	}
+
+	// Birdhouse-run reminder state is per ACCOUNT (not per guide): the run cycle is a property of the
+	// account's real birdhouses, whichever guide is selected.
+
+	private static String birdhouseKey(String accountKey)
+	{
+		return "birdhouse_last_" + accountKey;
+	}
+
+	void saveBirdhouseVisit(String accountKey, long lastVisitMs)
+	{
+		configManager.setConfiguration(OsirisGuideConfig.GROUP, birdhouseKey(accountKey), Long.toString(lastVisitMs));
+	}
+
+	long loadBirdhouseVisit(String accountKey)
+	{
+		String value = configManager.getConfiguration(OsirisGuideConfig.GROUP, birdhouseKey(accountKey));
+		if (value == null || value.isEmpty())
+		{
+			return 0L;
+		}
+		try
+		{
+			return Long.parseLong(value.trim());
+		}
+		catch (NumberFormatException ignored)
+		{
+			return 0L;
+		}
+	}
 }

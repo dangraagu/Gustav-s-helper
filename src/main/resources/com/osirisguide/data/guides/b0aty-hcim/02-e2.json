@@ -388,7 +388,12 @@
       "id": "e2-027",
       "title": "Make Soft Clay",
       "text": "Make Soft Clay",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "e2-028",
@@ -1901,7 +1906,12 @@
       "id": "e2-134",
       "title": "Make Soft Clay",
       "text": "Make Soft Clay",
-      "manual": true
+      "manual": true,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
     },
     {
       "id": "e2-135",
@@ -2173,7 +2183,12 @@
       "id": "e2-147b",
       "title": "Make desert disguise",
       "text": "Make desert disguise",
-      "manual": true
+      "manual": true,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
     },
     {
       "id": "e2-147c",
@@ -3582,7 +3597,12 @@
       "id": "e2-238",
       "title": "Make a Silver Sickle",
       "text": "Make a Silver Sickle",
-      "manual": true
+      "manual": true,
+      "world": [
+        2958,
+        3372,
+        0
+      ]
     },
     {
       "id": "e2-239a",
@@ -6966,7 +6986,12 @@
       "id": "e2-472",
       "title": "Make a Workshop",
       "text": "Make a Workshop",
-      "manual": true
+      "manual": true,
+      "world": [
+        1748,
+        3599,
+        0
+      ]
     },
     {
       "id": "e2-473",
@@ -6984,7 +7009,12 @@
       "id": "e2-475",
       "title": "Make 5x Clockwork Mechanisms [Birdhouse Runs]",
       "text": "Make 5x Clockwork Mechanisms [Birdhouse Runs]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1748,
+        3599,
+        0
+      ]
     },
     {
       "id": "e2-476",
@@ -7057,7 +7087,12 @@
       "id": "e2-480",
       "title": "Make 4 regular Birdhouses",
       "text": "Make 4 regular Birdhouses",
-      "manual": true
+      "manual": true,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
     },
     {
       "id": "e2-481",
@@ -7219,7 +7254,12 @@
       "id": "e2-496",
       "title": "Make 8 Ultracompost with Volcanic Ash …",
       "text": "Make 8 Ultracompost with Volcanic Ash (Keep this supply topped up when needed)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3730,
+        3807,
+        0
+      ]
     },
     {
       "id": "e2-497",
@@ -7262,7 +7302,12 @@
           }
         ]
       },
-      "item": 53
+      "item": 53,
+      "world": [
+        2839,
+        3690,
+        0
+      ]
     },
     {
       "id": "e2-500",
@@ -7787,7 +7832,12 @@
       "id": "e2-532a",
       "title": "Make all Molten Glass (Keep 1 …",
       "text": "Make all Molten Glass (Keep 1 Sand). Blow Vials",
-      "manual": true
+      "manual": true,
+      "world": [
+        3110,
+        3499,
+        0
+      ]
     },
     {
       "id": "e2-532b",
@@ -7824,13 +7874,23 @@
       "id": "e2-534",
       "title": "String both and enchant one into …",
       "text": "String both and enchant one into Amulet of Magic",
-      "manual": true
+      "manual": true,
+      "world": [
+        2602,
+        3312,
+        0
+      ]
     },
     {
       "id": "e2-535",
       "title": "Make 5+ games necklaces/5 Rings of …",
       "text": "Make 5+ games necklaces/5 Rings of Recoil/All Duelling Rings/All Ruby Necklaces [Keep 2 Rubies(leave them uncut to not mess up)]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2602,
+        3312,
+        0
+      ]
     },
     {
       "id": "e2-536",
@@ -8175,7 +8235,12 @@
       "id": "e2-559",
       "title": "Cook all Trout then Salmon while …",
       "text": "Cook all Trout then Salmon while recharging energy (You want 32 Cooking)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2870,
+        3544,
+        0
+      ]
     },
     {
       "id": "e2-560",

@@ -183,7 +183,12 @@
       "id": "e9-013b",
       "title": "make Mixed Hide Top, Bottom & …",
       "text": "make Mixed Hide Top, Bottom & Boots",
-      "manual": true
+      "manual": true,
+      "world": [
+        1559,
+        3048,
+        0
+      ]
     },
     {
       "id": "e9-014",

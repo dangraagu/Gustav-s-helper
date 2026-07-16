@@ -531,7 +531,12 @@
       "id": "s14-032",
       "title": "Make 4 inventories of Paddewwa tabs:",
       "text": "Make 4 inventories of Paddewwa tabs:",
-      "manual": true
+      "manual": true,
+      "world": [
+        2556,
+        3445,
+        0
+      ]
     },
     {
       "id": "s14-033",

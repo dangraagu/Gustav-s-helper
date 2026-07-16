@@ -364,7 +364,12 @@
       "id": "e12-031",
       "title": "Make sure to unlock the statue …",
       "text": "Make sure to unlock the statue teleport while there",
-      "manual": true
+      "manual": true,
+      "world": [
+        1454,
+        3173,
+        0
+      ]
     },
     {
       "id": "e12-032",

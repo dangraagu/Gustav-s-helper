@@ -473,7 +473,12 @@
       "id": "e6-045",
       "title": "Make some Super Attack, Super Strength …",
       "text": "Make some Super Attack, Super Strength & Prayer Potions",
-      "manual": true
+      "manual": true,
+      "world": [
+        1426,
+        2919,
+        0
+      ]
     },
     {
       "id": "e6-046",
