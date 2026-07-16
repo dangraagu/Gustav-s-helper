@@ -1,9 +1,407 @@
 {
   "_comment": "Human-verified step data. Key = EXACT step text (case-insensitive). Value = [x, y, plane] shorthand, or {\"world\": [x,y,plane], \"npc\": id, \"npcs\": [ids]} - npcs = 'any of these' highlight. Beats every automatic layer. Fill from docs/precision-todo/*.md and regenerate.",
-  "do birdhouse runs every 50mins": [3760, 3760, 0],
-  "drop your runes and ask for more from the magic tutor": {"world": [3218, 3238, 0], "npc": 3218},
-  "pick up your runes": [3218, 3238, 0],
-  "drop runes": [3218, 3238, 0],
-  "get more from mage tutor": {"world": [3218, 3238, 0], "npc": 3218},
-  "thieve men until 5 thieving": {"npcs": [3106, 3107, 3108, 3109, 3110, 6818, 6815, 6987, 6988, 6989]}
+  "do birdhouse runs every 50mins": [
+    3760,
+    3760,
+    0
+  ],
+  "drop your runes and ask for more from the magic tutor": {
+    "world": [
+      3218,
+      3238,
+      0
+    ],
+    "npc": 3218
+  },
+  "pick up your runes": [
+    3218,
+    3238,
+    0
+  ],
+  "drop runes": [
+    3218,
+    3238,
+    0
+  ],
+  "get more from mage tutor": {
+    "world": [
+      3218,
+      3238,
+      0
+    ],
+    "npc": 3218
+  },
+  "thieve men until 5 thieving": {
+    "npcs": [
+      3106,
+      3107,
+      3108,
+      3109,
+      3110,
+      6818,
+      6815,
+      6987,
+      6988,
+      6989
+    ]
+  },
+  "dig up the clue north of bob's axes": [
+    3230,
+    3209,
+    0
+  ],
+  "dig up the clue behind lumby castle": [
+    3203,
+    3212,
+    0
+  ],
+  "dig up the casket at draynor pig pen": [
+    3078,
+    3259,
+    0
+  ],
+  "pick up 2 iron bars just northwest of ferox": [
+    3147,
+    3772,
+    0
+  ],
+  "after the quest, buy however many sardine you can fit in your inventory from": [
+    2734,
+    3292,
+    0
+  ],
+  "steal silk until 25 thieving": [
+    2662,
+    3314,
+    0
+  ],
+  "buy 8 woad leaves, offer 20gp to get 2 leaves": {
+    "world": [
+      3027,
+      3379,
+      0
+    ],
+    "npc": 5422
+  },
+  "buy 1 pack of eyes of newt and pestle and mortar in taverly": [
+    2898,
+    3428,
+    0
+  ],
+  "buy a pie dish at yanille cooking shop": [
+    2567,
+    3099,
+    0
+  ],
+  "buy 1000 feathers from the fishing store": [
+    3014,
+    3225,
+    0
+  ],
+  "buy 1000 bronze arrowheads (100/world for 1gp ea)": [
+    2469,
+    3488,
+    2
+  ],
+  "pick up 5 swamp tar around the swamp cave entrance": [
+    3169,
+    3172,
+    0
+  ],
+  "pick up 130 planks north of the barb agility course": [
+    2553,
+    3576,
+    0
+  ],
+  "pick up doogle leaves": [
+    3151,
+    3399,
+    0
+  ],
+  "kill a chicken with wind strike for it's meat at fred's farm": [
+    3177,
+    3296,
+    0
+  ],
+  "pick up egg north of fred": [
+    3172,
+    3301,
+    0
+  ],
+  "fill 3 buckets with milk": [
+    3172,
+    3317,
+    0
+  ],
+  "get a drink for barcrawl at the bar south of varrock fountain": [
+    3225,
+    3398,
+    0
+  ],
+  "get a drink for the barcrawl": [
+    3280,
+    3496,
+    0
+  ],
+  "get a drink from the falador bar for barcrawl": [
+    2957,
+    3372,
+    0
+  ],
+  "buy bronze med helm": [
+    3075,
+    3429,
+    0
+  ],
+  "use the trees to safespot a bear for its meat south of mind altar": [
+    2967,
+    3480,
+    0
+  ],
+  "do museum for 9 hunter and slayer": [
+    3260,
+    3449,
+    0
+  ],
+  "make 1 regular plank for diary tasks": {
+    "world": [
+      3302,
+      3492,
+      0
+    ],
+    "npc": 3101
+  },
+  "pick cadava berries and 16 redberries": [
+    3271,
+    3367,
+    0
+  ],
+  "pick up 1 snape grass near crafting guild at the hobgoblins": [
+    2906,
+    3297,
+    0
+  ],
+  "dig up clue hunter gloves and boots north of ardy": [
+    2579,
+    3378,
+    0
+  ],
+  "talk to the ghost for restless ghost quest": {
+    "world": [
+      3250,
+      3193,
+      0
+    ],
+    "npc": 922
+  },
+  "pick up 1 cooked meat from the table": [
+    3077,
+    3441,
+    0
+  ],
+  "get the portrait from sir vyv": {
+    "world": [
+      2984,
+      3339,
+      2
+    ],
+    "npc": 4736
+  },
+  "get a drink from ardy bar for the barcrawl": [
+    2575,
+    3322,
+    0
+  ],
+  "train 42 magic at moss giants near fishing guild": [
+    2554,
+    3409,
+    0
+  ],
+  "pick up 12 onion at fred's farm": [
+    3189,
+    3267,
+    0
+  ],
+  "make 4 red, 4 blue, 5 yellow dye": {
+    "world": [
+      3086,
+      3259,
+      0
+    ],
+    "npc": 120
+  },
+  "buy 20 teleports for chronicle": {
+    "world": [
+      3081,
+      3247,
+      0
+    ],
+    "npc": 8693
+  },
+  "talk to the mage of": {
+    "world": [
+      3107,
+      3555,
+      0
+    ],
+    "npc": 2580
+  },
+  "use brimstails to go to ess mines (scrying orb 2/3": {
+    "world": [
+      2409,
+      9817,
+      0
+    ],
+    "npc": 11430
+  },
+  "get a drink for barcrawl from the bar south of the karamja banana trees": [
+    2925,
+    3145,
+    0
+  ],
+  "buy a premade blurb' sp, 4 vodka, pineapple chunks": [
+    2482,
+    3488,
+    1
+  ],
+  "visit ardy ess mines, scrying orb 3/3": {
+    "world": [
+      2684,
+      3325,
+      0
+    ],
+    "npc": 8480
+  },
+  "put pineapples into the compost bin": [
+    2804,
+    3464,
+    0
+  ],
+  "get a drink from seers' bar for the barcrawl": [
+    2695,
+    3493,
+    0
+  ],
+  "make 5 molten glass": [
+    2975,
+    3368,
+    0
+  ],
+  "chronicle tele, start dragon slayer at champion's guild": {
+    "world": [
+      3191,
+      3360,
+      0
+    ],
+    "npc": 814
+  },
+  "get boots of lightness": [
+    2654,
+    9767,
+    0
+  ],
+  "buy 1 inv of stew from the seers bar": [
+    2695,
+    3493,
+    0
+  ],
+  "start rag and bone man on the way to the temple": {
+    "world": [
+      3360,
+      3504,
+      0
+    ],
+    "npc": 1259
+  },
+  "get anti-dragon shield from the duke": {
+    "world": [
+      3211,
+      3222,
+      1
+    ],
+    "npc": 815
+  },
+  "buy 35 jugs of vinegar": {
+    "world": [
+      3085,
+      3252,
+      0
+    ],
+    "npc": 1260
+  },
+  "make unfired bowl at barb village": [
+    3087,
+    3409,
+    0
+  ],
+  "pick up 5 nettles at the yews": [
+    3086,
+    3468,
+    0
+  ],
+  "make an amulet of magic": [
+    3108,
+    3499,
+    0
+  ],
+  "grind 9 d bones and offer them, get ecto tokens": [
+    3658,
+    3518,
+    0
+  ],
+  "buy 2 inventories of gold ore from the blast furnace shop": {
+    "world": [
+      1936,
+      4966,
+      0
+    ],
+    "npc": 1560
+  },
+  "make plenty of digsite pendants": [
+    3108,
+    3499,
+    0
+  ],
+  "buy 2800 gold ore from blast furnace ore shop, 1 inv per world": {
+    "world": [
+      1936,
+      4966,
+      0
+    ],
+    "npc": 1560
+  },
+  "craft the gold bars into gold bracelets, leave like 30 bars for teleport jewe": [
+    3108,
+    3499,
+    0
+  ],
+  "buy another 5k nats": {
+    "world": [
+      3109,
+      10357,
+      0
+    ],
+    "npc": 1601
+  },
+  "buy 6k nats, all of the cosmics you can get while buying": {
+    "world": [
+      3109,
+      10357,
+      0
+    ],
+    "npc": 1601
+  },
+  "buy dragon scim": {
+    "world": [
+      2759,
+      2775,
+      0
+    ],
+    "npc": 5250
+  },
+  "mine sandstone for 1.2k buckets of sand": [
+    3167,
+    2913,
+    0
+  ]
 }

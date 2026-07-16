@@ -67,7 +67,13 @@
       "id": "e3-004",
       "title": "During the quest, safespot the Headless …",
       "text": "During the quest, safespot the Headless Beast",
-      "manual": true
+      "manual": true,
+      "npc": 10506,
+      "world": [
+        1191,
+        10021,
+        0
+      ]
     },
     {
       "id": "e3-005",
@@ -815,9 +821,10 @@
       "title": "Make an Unfired Bowl [Dragon Slayer]",
       "text": "Make an Unfired Bowl [Dragon Slayer]",
       "manual": true,
+      "object": 14887,
       "world": [
-        3210,
-        3448,
+        3087,
+        3410,
         0
       ]
     },
@@ -1060,9 +1067,10 @@
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
       },
+      "npc": 5038,
       "world": [
-        3211,
-        3422,
+        3254,
+        3483,
         0
       ]
     },
@@ -2527,9 +2535,10 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
+      "object": 4913,
       "world": [
-        3102,
-        3557,
+        3440,
+        3232,
         0
       ]
     },
@@ -2713,7 +2722,13 @@
       "id": "e3-189a",
       "title": "Pick 3 Black mushrooms from the …",
       "text": "Pick 3 Black mushrooms from the ground",
-      "manual": true
+      "manual": true,
+      "object": 6311,
+      "world": [
+        3495,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-189b",
@@ -2831,7 +2846,13 @@
       "id": "e3-197",
       "title": "Inspect RFD Dwarf & Evil Dave",
       "text": "Inspect RFD Dwarf & Evil Dave",
-      "manual": true
+      "manual": true,
+      "object": 12349,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "e3-198",
@@ -4269,7 +4290,12 @@
       "id": "e3-300",
       "title": "Use Bucket of Slime on the …",
       "text": "Use Bucket of Slime on the Bedsheet",
-      "manual": true
+      "manual": true,
+      "world": [
+        3682,
+        9888,
+        0
+      ]
     },
     {
       "id": "e3-301",

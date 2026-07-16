@@ -737,6 +737,7 @@
         "quest": "ALFRED_GRIMHANDS_BARCRAWL",
         "state": "FINISHED"
       },
+      "npc": 7285,
       "world": [
         2544,
         3568,

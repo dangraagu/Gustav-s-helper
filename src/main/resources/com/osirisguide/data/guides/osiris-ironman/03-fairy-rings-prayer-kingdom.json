@@ -105,9 +105,12 @@
       "text": "Start Rag and bone man on the way to the temple\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3360,
+        3504,
         0
+      ],
+      "npcs": [
+        1259
       ]
     },
     {
@@ -273,9 +276,12 @@
       "text": "Get anti-dragon shield from the duke\nLocation: Lumbridge",
       "manual": true,
       "world": [
+        3211,
         3222,
-        3218,
-        0
+        1
+      ],
+      "npcs": [
+        815
       ]
     },
     {
@@ -384,9 +390,10 @@
       "title": "Get at least 5 Dramen branches",
       "text": "Get at least 5 Dramen branches\nLocation: Entrana",
       "manual": true,
+      "object": 1292,
       "world": [
-        2840,
-        3358,
+        2861,
+        9735,
         0
       ]
     },
@@ -456,9 +463,12 @@
       "text": "Buy 35 jugs of vinegar\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3085,
+        3252,
         0
+      ],
+      "npcs": [
+        1260
       ]
     },
     {
@@ -631,8 +641,8 @@
       "text": "Make unfired bowl at barb village\nLocation: Barbarian Village",
       "manual": true,
       "world": [
-        3080,
-        3427,
+        3087,
+        3409,
         0
       ]
     },
@@ -762,8 +772,8 @@
       "text": "pick up 5 nettles at the yews\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3086,
+        3468,
         0
       ]
     },
@@ -1131,8 +1141,8 @@
       "text": "Make an amulet of magic\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3108,
+        3499,
         0
       ]
     },
@@ -1260,8 +1270,8 @@
       "text": "Grind 9 d bones and offer them, get ecto tokens\nLocation: Port Phasmatys",
       "manual": true,
       "world": [
-        3679,
-        3486,
+        3658,
+        3518,
         0
       ]
     },
@@ -1561,9 +1571,12 @@
       },
       "item": 444,
       "world": [
-        2930,
-        10197,
+        1936,
+        4966,
         0
+      ],
+      "npcs": [
+        1560
       ]
     },
     {
@@ -1584,8 +1597,8 @@
       "text": "make plenty of digsite pendants\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3108,
+        3499,
         0
       ]
     },

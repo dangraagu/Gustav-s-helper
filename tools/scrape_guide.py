@@ -471,6 +471,94 @@ def fill_craft_gaps(steps):
     return n
 
 
+# --- Quest Helper full step map: inherit QH's exact tiles by text match --------
+# qh_steps.json holds EVERY Quest Helper step (text + tile + npc/object ids, 7.5k rows). A guide step
+# that paraphrases a QH step ("Dig up the clue north of bob's axes" ~ "Dig north of Bob's Brilliant
+# Axes...") inherits QH's exact tile + highlight ids. Deliberately conservative: >=3 content tokens,
+# >=60% of the guide step's tokens present in the QH text, the QH tile must sit in the step's region
+# (near its coarse context/anchor), and the best match must beat the runner-up clearly.
+QH_STEPS = []           # [(tokenset, [x,y,z], npc|None, object|None)]
+_QH_TOKEN_INDEX = {}    # token -> [step indices]
+_QH_STOPWORDS = {
+    "the", "a", "an", "to", "of", "up", "in", "at", "on", "for", "and", "or", "with", "your",
+    "you", "from", "then", "into", "out", "it", "its", "his", "her", "them", "there", "here",
+    "that", "this", "will", "should", "can", "any", "all", "some", "more", "again", "just",
+}
+QH_MATCH_MIN_TOKENS = 3
+QH_MATCH_MIN_SCORE = 0.6
+QH_MATCH_MARGIN = 0.15
+QH_MATCH_REGION = 250  # tiles: a matched tile must be in the step's own region, never across the map
+
+
+def _content_tokens(text):
+    t = (text or "").lower().replace("'", "").replace("’", "")
+    return {w for w in re.findall(r"[a-z]{3,}", t) if w not in _QH_STOPWORDS}
+
+
+def load_qh_steps():
+    p = Path(__file__).parent / "data" / "qh_steps.json"
+    if not p.exists():
+        return 0
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read qh_steps.json ({e})", file=sys.stderr)
+        return 0
+    for steps in data.values():
+        for s in steps:
+            w = s.get("world")
+            toks = _content_tokens(s.get("text"))
+            if not w or len(w) < 2 or len(toks) < QH_MATCH_MIN_TOKENS:
+                continue
+            idx = len(QH_STEPS)
+            QH_STEPS.append((toks, [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0],
+                             s.get("npc"), s.get("object")))
+            for t in toks:
+                _QH_TOKEN_INDEX.setdefault(t, []).append(idx)
+    return len(QH_STEPS)
+
+
+def qh_step_lookup(name, context):
+    """Best QH step matching the guide step's text, region-gated to {@code context} ([x,y,z] or None).
+    Returns {"world":..., "npc":?, "object":?} or None. Without a context the region gate can't run,
+    so no match is returned (never place a step across the map on text alone)."""
+    if not QH_STEPS or not context:
+        return None
+    gtok = _content_tokens(name)
+    if len(gtok) < QH_MATCH_MIN_TOKENS:
+        return None
+    counts = {}
+    for t in gtok:
+        for i in _QH_TOKEN_INDEX.get(t, ()):
+            counts[i] = counts.get(i, 0) + 1
+    best = second = None
+    for i, shared in counts.items():
+        if shared < QH_MATCH_MIN_TOKENS:
+            continue
+        toks, world, npc, obj = QH_STEPS[i]
+        if _dist(world, context) > QH_MATCH_REGION:
+            continue
+        score = shared / len(gtok)
+        if score < QH_MATCH_MIN_SCORE:
+            continue
+        if best is None or score > best[0]:
+            best, second = (score, i), best
+        elif second is None or score > second[0]:
+            second = (score, i)
+    if best is None:
+        return None
+    if second is not None and best[0] - second[0] < QH_MATCH_MARGIN \
+            and QH_STEPS[best[1]][1] != QH_STEPS[second[1]][1]:
+        return None  # two different places score alike — ambiguous, don't guess
+    toks, world, npc, obj = QH_STEPS[best[1]]
+    out = {"world": list(world)}
+    if npc is not None:
+        out["npc"] = int(npc)
+    if obj is not None:
+        out["object"] = int(obj)
+    return out
+
+
 # --- Manual coordinate overrides ----------------------------------------------
 # tools/data/manual_coords.json: { "<exact step text, lowercased>": [x, y, plane] } — human-verified
 # spots that beat EVERY automatic layer. This is where hand-filled context lands, keyed by step text
@@ -790,6 +878,16 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
         world = amenity_lookup(name, loc, anchor)
         if not world:
             world = resource_lookup(name, anchor)
+        if not world:
+            # Quest Helper wrote this step too? Inherit its exact tile + highlight ids (region-gated).
+            ctx = gazetteer_lookup(loc) or anchor or gazetteer_lookup(name)
+            qh = qh_step_lookup(name, ctx)
+            if qh:
+                world = qh["world"]
+                if "npc" in qh and "npc" not in step and "npcs" not in step:
+                    step["npc"] = qh["npc"]
+                if "object" in qh and "object" not in step:
+                    step["object"] = qh["object"]
         # For a quest step, the quest-start NPC's exact tile beats the loc hint: the hint is almost
         # always just the town name (= a coarse centre), while the start tile is a real doorstep.
         cq = step.get("complete", {})
@@ -826,9 +924,10 @@ def main():
     nam = load_amenities()
     nres = load_resources()
     nman = load_manual()
+    nqsteps = load_qh_steps()
     entities = load_qh_entities()
     print(f"loaded {len(item_map)} item names, {len(quest_map)} quest names, {len(GAZETTEER)} "
-          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, {nman} manual overrides, "
+          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, {nman} manual overrides, {nqsteps} QH steps, "
           f"{len(entities['npcs'])} npcs + {len(entities['objects'])} objects (QH refs)")
 
     # Fetch every section first (need all steps to total the item needs before building).

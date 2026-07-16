@@ -236,7 +236,13 @@
       "id": "e5-018",
       "title": "Ring the bell at the Wizards …",
       "text": "Ring the bell at the Wizards Guild",
-      "manual": true
+      "manual": true,
+      "object": 6847,
+      "world": [
+        2598,
+        3085,
+        0
+      ]
     },
     {
       "id": "e5-019",
@@ -802,7 +808,13 @@
       "id": "e5-061",
       "title": "Use the truth serum on his …",
       "text": "Use the truth serum on his mug [Hand in the Sand]",
-      "manual": true
+      "manual": true,
+      "object": 10806,
+      "world": [
+        2789,
+        3176,
+        0
+      ]
     },
     {
       "id": "e5-062",
@@ -2551,7 +2563,13 @@
       "id": "e5-183",
       "title": "Kill Fareed (Snare & Farcast with …",
       "text": "Kill Fareed (Snare & Farcast with water spells)",
-      "manual": true
+      "manual": true,
+      "npc": 3456,
+      "world": [
+        3315,
+        9375,
+        0
+      ]
     },
     {
       "id": "e5-184",
@@ -2842,7 +2860,12 @@
       "id": "e5-204b",
       "title": "collect 6x Red Spider Eggs",
       "text": "collect 6x Red Spider Eggs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3122,
+        9953,
+        0
+      ]
     },
     {
       "id": "e5-205",

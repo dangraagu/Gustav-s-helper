@@ -1,0 +1,307 @@
+Provenance for manual_fills.json - every coordinate grounded in OSRS Wiki page data (fetched 2026-07-16 via action=raw).
+SKIPPED (could not ground): tfm-003b (Al Kharid furnace: no coordinate on Furnace/Al Kharid pages), sg-008a (Seers hops patch: no coordinate on Hops patch page).
+
+abg-005b -> https://oldschool.runescape.wiki/w/Sandstone_rocks
+  step: mine sandstone for 1.2k buckets of sand
+  fill: [3167, 2913, 0]
+  quote: ObjectLocLine |location = [[Desert Quarry]] ... x:3167,y:2913 (among x:3169,y:2922 ... x:3176,y:2901)
+
+dr-017 -> https://oldschool.runescape.wiki/w/Daga
+  step: Buy Dragon scim
+  fill: {"world": [2759, 2775, 0], "npc": 5250}
+  quote: |map = {{Map|name=Daga|x=2759|y=2775|plane=0|r=3|mtype=square}} ; |id = 5250
+
+eg-017 -> https://oldschool.runescape.wiki/w/Map:X_Marks_the_Spot
+  step: Dig up the clue north of bob's axes
+  fill: [3230, 3210, 0]
+  quote: x:3230,y:3210,desc:First clue location (dig north of Bob's Brilliant Axes)
+
+eg-020 -> https://oldschool.runescape.wiki/w/Map:X_Marks_the_Spot
+  step: Dig up the clue behind lumby castle
+  fill: [3203, 3212, 0]
+  quote: x:3203,y:3212,desc:Second clue location (behind Lumbridge Castle)
+
+eg-023 -> https://oldschool.runescape.wiki/w/Lumbridge_Swamp_Caves
+  step: Pick up 5 swamp tar around the swamp cave entrance
+  fill: [3169, 3172, 0]
+  quote: {{Map|caption=The entrance to the caves.|x=3169|y=3172|mtype=pin|align=left}} ; Swamp tar spawns nearby per Swamp tar page (3170,3167|3171,3177|...)
+
+eg-030 -> https://oldschool.runescape.wiki/w/Map:X_Marks_the_Spot
+  step: Dig up the casket at draynor pig pen
+  fill: [3077, 3260, 0]
+  quote: x:3077,y:3260,desc:Final clue location (Draynor pig pen)
+
+eg-032b -> https://oldschool.runescape.wiki/w/Snape_grass
+  step: pick up 1 snape grass near crafting guild at the hobgoblins
+  fill: [2906, 3297, 0]
+  quote: {{ItemSpawnLine|name=Snape grass|location=[[Hobgoblin Peninsula]] west of the [[Crafting Guild]]|members=Yes|2906,3297|2907,3295|2917,3274}}
+
+eg-036 -> https://oldschool.runescape.wiki/w/Iron_bar
+  step: Pick up 2 iron bars just northwest of Ferox
+  fill: [3111, 3657, 0]
+  quote: {{ItemSpawnLine|name=Iron bar|location=[[Wilderness]] - north-west of [[Ferox Enclave]]|members=no|3111,3657}}
+
+eg-038b -> https://oldschool.runescape.wiki/w/Frenita's_Cookery_Shop.
+  step: buy a pie dish at Yanille cooking shop
+  fill: [2567, 3099, 0]
+  quote: |map = {{Map|mtype=polygon|2565,3105|2561,3101|2561,3097|2565,3093|2569,3093|2573,3097|2573,3101|2569,3105}} (centroid 2567,3099)
+
+eg-043 -> https://oldschool.runescape.wiki/w/Silk_stall
+  step: Steal silk until 25 thieving
+  fill: [2662, 3314, 0]
+  quote: ObjectLocLine |location = [[Ardougne]] Market ... x:2662,y:3314|x:2656,y:3302
+
+eg-047 -> https://oldschool.runescape.wiki/w/Lovecraft's_Tackle
+  step: After the quest, buy however many sardine you can fit in your inventory from
+  fill: [2734, 3292, 0]
+  quote: |map = {{Map|mtype=polygon|2731,3295|2731,3289|2732,3288|2736,3288|2737,3289|2737,3295|2736,3296|2732,3296}} (centroid 2734,3292)
+
+eg-052 -> https://oldschool.runescape.wiki/w/Clue_hunter_outfit
+  step: Dig up clue hunter gloves and boots north of Ardy
+  fill: [2579, 3378, 0]
+  quote: {{Map|x=2579|y=3378|mtype=pin|width=200|height=200|zoom=1|title=Gloves and Boots}}
+
+eg-055 -> https://oldschool.runescape.wiki/w/Plank
+  step: Pick up 130 planks north of the Barb agility course
+  fill: [2553, 3576, 0]
+  quote: {{ItemSpawnLine|name=Plank|location=[[Barbarian Outpost]] - north of the agility course|members=Yes|2550,3575|2553,3576|2554,3575|2556,3573}}
+
+eg-062 -> https://oldschool.runescape.wiki/w/Gulluck_and_Sons
+  step: Buy 1000 bronze arrowheads (100/world for 1gp ea)
+  fill: [2469, 3488, 2]
+  quote: |map = {{Map|plane=2|mtype=square|r=1.5|2469,3488}} ; Bronze arrowtips page: 'purchased for 1 coin at ... [[Gulluck and Sons]] on the 2nd floor of the [[Grand Tree]]'
+
+eg-074 -> https://oldschool.runescape.wiki/w/Restless_ghost
+  step: Talk to the ghost for Restless ghost quest
+  fill: {"world": [3250, 3193, 0], "npc": 922}
+  quote: |map = {{Map|name=Restless ghost|x=3250|y=3193|plane=0|r=3|mtype=square}} ; |id = 922
+
+eg-079b -> https://oldschool.runescape.wiki/w/Gerrant's_Fishy_Business.
+  step: buy 1000 feathers from the fishing store
+  fill: [3014, 3225, 0]
+  quote: |map = {{Map|mtype=polygon|3011,3230|3011,3220|3015,3220|3018,3223|3018,3230}} (centroid 3014,3225)
+
+eg-089 -> https://oldschool.runescape.wiki/w/Chicken
+  step: Kill a chicken with wind strike for it's meat at Fred's farm
+  fill: [3177, 3296, 0]
+  quote: LocLine |location = [[Lumbridge]] West Farm ... x:3177,y:3296 (among x:3171,y:3293 ... x:3191,y:3277)
+
+eg-090 -> https://oldschool.runescape.wiki/w/Egg
+  step: Pick up egg north of Fred
+  fill: [3172, 3301, 0]
+  quote: {{ItemSpawnLine|name=Egg|location=[[Lumbridge]] - north-west of [[Fred the Farmer]]'s house|members=No|3169,3291,qty:1|3172,3301,qty:1|3175,3305,qty:1|3185,3297,qty:1}}
+
+eg-092 -> https://oldschool.runescape.wiki/w/Dairy_cow
+  step: Fill 3 buckets with milk
+  fill: [3172, 3317, 0]
+  quote: {{ObjectLocLine |name = Dairy cow |location = [[Lumbridge]] West farm ... x:3172,y:3317}}
+
+eg-096b -> https://oldschool.runescape.wiki/w/Doogle_leaves
+  step: pick up doogle leaves
+  fill: [3151, 3399, 0]
+  quote: {{ItemSpawnLine|name=Doogle leaves|location=[[Varrock]] - behind [[Gertrude]]'s house|members=Yes|3151,3399,qty:1|3152,3399,qty:1|...}} (NOTE: wiki grounds the spawn behind Gertrude's house, Varrock - matches step context eg-095 chronicle tele + eg-096c sardine for Gertrude's cat)
+
+eg-106 -> https://oldschool.runescape.wiki/w/Blue_Moon_Inn
+  step: Get a drink for barcrawl at the bar south of Varrock fountain
+  fill: [3225, 3398, 0]
+  quote: |map = {{Map|mtype=polygon|3216,3397|...|3233,3403|3222,3403|...}} (interior centre 3225,3398)
+
+eg-108 -> https://oldschool.runescape.wiki/w/Varrock_Museum
+  step: Do museum for 9 Hunter and Slayer
+  fill: [3260, 3449, 0]
+  quote: |map = {{Map|name=Varrock Museum|3260,3449|height=250|zoom=2|mtype=rectangle|rectX=15|rectY=14}}
+
+eg-113 -> https://oldschool.runescape.wiki/w/Jolly_Boar_Inn
+  step: Get a drink for the barcrawl
+  fill: [3280, 3496, 0]
+  quote: |map = {{Map|mtype=polygon|3275,3507|3275,3492|3272,3492|3272,3486|3287,3486|3287,3497|3289,3497|3289,3503|3287,3503|3287,3507}} (interior centre 3280,3496; bar disambiguated by step eg-112 'Walk to the pub north-east of Varrock')
+
+eg-114b -> https://oldschool.runescape.wiki/w/Sawmill_operator
+  step: make 1 regular plank for diary tasks
+  fill: {"world": [3302, 3492, 0], "npc": 3101}
+  quote: |map1 = {{Map|name=Sawmill operator|x=3302|y=3492|r=4|mtype=square}} ; |id = 3101
+
+eg-118 -> https://oldschool.runescape.wiki/w/Cadava_bush_(wild)
+  step: Pick cadava berries and 16 redberries
+  fill: [3271, 3367, 0]
+  quote: |map = {{Map|x:3264,y:3366|x:3271,y:3367|x:3268,y:3370|x:3277,y:3374|mapID=-1|mtype=pin}} ; Redberry bush (wild): South-east of [[Varrock]] x:3272,y:3375|x:3277,y:3371 (adjacent)
+
+eg-124b -> https://oldschool.runescape.wiki/w/Helmet_Shop.
+  step: buy bronze med helm
+  fill: [3075, 3429, 0]
+  quote: |map = {{Map|name=Helmet Shop.|x=3075|y=3429|r=3|mtype=square}} (Peksa's Helmet Shop, Barbarian Village)
+
+eg-125a -> https://oldschool.runescape.wiki/w/Cooked_meat
+  step: Pick up 1 cooked meat from the table
+  fill: [3077, 3441, 0]
+  quote: {{ItemSpawnLine|name=Cooked meat|location=[[Barbarian Village]] - Long Hall|members=No|3077,3441,qty:1|3080,3443,qty:1}}
+
+eg-127 -> https://oldschool.runescape.wiki/w/Black_bear
+  step: Use the trees to safespot a bear for its meat south of mind altar
+  fill: [2967, 3480, 0]
+  quote: {{LocLine |name = Black bear |location = Outside of the [[Mind Altar]] ... x:2967,y:3480|x:2973,y:3482|x:2979,y:3501|x:2966,y:3456}}
+
+eg-128 -> https://oldschool.runescape.wiki/w/Rising_Sun_Inn
+  step: Get a drink from the Falador bar for Barcrawl
+  fill: [2957, 3372, 0]
+  quote: |map = {{Map|mtype=polygon|2955,3379|2955,3375|2953,3375|2953,3367|...}} (interior centre 2957,3372)
+
+eg-130 -> https://oldschool.runescape.wiki/w/Wyson_the_gardener
+  step: Buy 8 woad leaves, offer 20gp to get 2 leaves
+  fill: {"world": [3027, 3379, 0], "npc": 5422}
+  quote: |map = {{Map|name=Wyson the gardener|x=3027|y=3379|r=3|mtype=square}} ; |id = 5422
+
+eg-134 -> https://oldschool.runescape.wiki/w/Jatix's_Herblore_Shop.
+  step: Buy 1 PACK of eyes of newt and pestle and mortar in Taverly
+  fill: [2898, 3428, 0]
+  quote: |map = {{Map|name=Jatix's Herblore Shop.|mtype=polygon|2897,3432|2895,3430|2895,3427|2897,3425|2900,3425|2902,3427|2902,3430|2900,3432}} (centroid 2898,3428)
+
+eg-143c -> https://oldschool.runescape.wiki/w/Sir_Vyvin
+  step: get the portrait from sir Vyv
+  fill: {"world": [2984, 3339, 2], "npc": 4736}
+  quote: |map = {{Map|name=Sir Vyvin|x=2984|y=3339|plane=2|r=5|mtype=square}} ; |id = 4736
+
+eg-164 -> https://oldschool.runescape.wiki/w/Flying_Horse_Inn
+  step: Get a drink from Ardy bar for the barcrawl
+  fill: [2575, 3322, 0]
+  quote: |map = {{Map|mtype=polygon|2572,3327|2572,3318|2576,3318|2576,3322|2577,3322|2577,3323|2578,3324|2578,3326|2577,3327}} (interior centre 2575,3322)
+
+eg-166 -> https://oldschool.runescape.wiki/w/Moss_giant
+  step: Train 42 magic at Moss giants near fishing guild
+  fill: [2554, 3409, 0]
+  quote: {{LocLine |name = Moss giant |location = West of [[Fishing Guild]] ... x:2549,y:3408|x:2554,y:3401|x:2554,y:3409|x:2556,y:3406}}
+
+eg-185 -> https://oldschool.runescape.wiki/w/Onion
+  step: Pick up 12 onion at Fred's farm
+  fill: [3189, 3267, 0]
+  quote: ObjectLocLine |location = [[Fred the Farmer]]'s farmhouse (north-west of [[Lumbridge]]) ... x:3188,y:3266 ... x:3191,y:3268 (picked 3189,3267)
+
+eg-186 -> https://oldschool.runescape.wiki/w/Aggie
+  step: Make 4 red, 4 blue, 5 yellow dye
+  fill: {"world": [3086, 3259, 0], "npc": 120}
+  quote: |map = {{Map|3086,3259|mtype=pin}} ; |id1 = 120
+
+eg-191 -> https://oldschool.runescape.wiki/w/Diango
+  step: Buy 20 teleports for chronicle
+  fill: {"world": [3081, 3247, 0], "npc": 8693}
+  quote: |map = {{Map|name=Diango|x=3081|y=3247|plane=0|r=3|mtype=square}} ; |id = 8693
+
+eg-199b -> https://oldschool.runescape.wiki/w/Mage_of_Zamorak
+  step: talk to the Mage of
+  fill: {"world": [3107, 3555, 0], "npc": 2580}
+  quote: |map1 = {{Map|name=Mage of Zamorak|zoom=1|3107,3555|r=5|mtype=square}} (location1 = [[South Wilderness mine]]) ; |id = 2580,2581,2582,4936,4937,4938
+
+eg-205a -> https://oldschool.runescape.wiki/w/Brimstail
+  step: Use Brimstails to go to ess mines (scrying orb 2/3
+  fill: {"world": [2409, 9817, 0], "npc": 11430}
+  quote: |map = {{Map|name=Brimstail|x=2409|y=9817|r=2|mapID=19|mtype=square}} ; |id1 = 11430,11431
+
+eg-217 -> https://oldschool.runescape.wiki/w/Karamja_Wines,_Spirits,_and_Beers.
+  step: Get a drink for barcrawl from the bar south of the Karamja banana trees
+  fill: [2925, 3145, 0]
+  quote: |map = {{Map|mtype=polygon|2918,3145|2918,3142|2931,3142|2931,3148|2922,3148|2922,3145}} (interior centre 2925,3145; Musa Point bar south of banana plantation)
+
+eg-223 -> https://oldschool.runescape.wiki/w/Blurberry_Bar
+  step: Buy a premade blurb' sp, 4 vodka, pineapple chunks
+  fill: [2482, 3488, 1]
+  quote: |map1 = {{Map|2482,3488|plane=1|mtype=square|r=2.5|bucketname=Grand Tree}} ; Premade blurb' sp. page: 'can be bought at [[Blurberry Bar]] in the south-east corner of the 1st floor of the [[Grand Tree]]'
+
+eg-230 -> https://oldschool.runescape.wiki/w/Wizard_Cromperty
+  step: Visit Ardy ess mines, scrying orb 3/3
+  fill: {"world": [2684, 3325, 0], "npc": 8480}
+  quote: |map = {{Map|name=Wizard Cromperty|2684,3325|mtype=pin}} ; |id1 = 8480
+
+eg-235 -> https://oldschool.runescape.wiki/w/Compost_Bin
+  step: Put pineapples into the compost bin
+  fill: [2804, 3464, 0]
+  quote: |North of [[Catherby]] ... |{{Map|2804, 3464|r=2.5|mtype=square|height=212|width=212}}
+
+eg-240 -> https://oldschool.runescape.wiki/w/Forester's_Arms
+  step: Get a drink from Seers' bar for the barcrawl
+  fill: [2695, 3493, 0]
+  quote: |map = {{Map|2695,3493|mtype=rectangle|rectX=12|rectY=11}}
+
+eg-245 -> https://oldschool.runescape.wiki/w/Hammer
+  step: Make 5 molten glass
+  fill: [2975, 3368, 0]
+  quote: {{ItemSpawnLine|name=Hammer|location=[[Falador]] - upstairs of the furnace building|2975,3368|plane=1}} (grounds the Falador furnace building footprint; furnace is on the ground floor of the same building)
+
+eg-266 -> https://oldschool.runescape.wiki/w/Guildmaster
+  step: Chronicle tele, start Dragon slayer at champion's guild
+  fill: {"world": [3191, 3360, 0], "npc": 814}
+  quote: |map = {{Map|name=Guildmaster|x=3191|y=3360|plane=0|r=4|mtype=square}} ; |id = 814
+
+eg-278 -> https://oldschool.runescape.wiki/w/Boots_of_lightness
+  step: Get boots of lightness
+  fill: [2654, 9767, 0]
+  quote: {{ItemSpawnLine|name=Boots of lightness|location=[[Temple of Ikov (dungeon)|Temple of Ikov]] basement|members=Yes|mapID=10023 |2654,9767}}
+
+eg-280 -> https://oldschool.runescape.wiki/w/Forester's_Arms
+  step: Buy 1 inv of stew from the Seers bar
+  fill: [2695, 3493, 0]
+  quote: |map = {{Map|2695,3493|mtype=rectangle|rectX=12|rectY=11}}
+
+frp-006 -> https://oldschool.runescape.wiki/w/Odd_Old_Man
+  step: Start Rag and bone man on the way to the temple
+  fill: {"world": [3360, 3504, 0], "npc": 1259}
+  quote: |map = {{Map|name=Odd Old Man|x=3360|y=3504|r=2|mtype=square}} ; |id = 1259
+
+frp-018 -> https://oldschool.runescape.wiki/w/Duke_Horacio
+  step: Get anti-dragon shield from the duke
+  fill: {"world": [3211, 3222, 1], "npc": 815}
+  quote: |map = {{Map|name=Duke Horacio|3208,3226|3213,3226|3214,3225|3214,3218|3208,3218|mtype=polygon|plane=1}} (centre 3211,3222, plane 1) ; |id = 815,5327,8051,11024
+
+frp-032 -> https://oldschool.runescape.wiki/w/Fortunato
+  step: Buy 35 jugs of vinegar
+  fill: {"world": [3085, 3252, 0], "npc": 1260}
+  quote: |map = {{Map|name=Fortunato|x=3085|y=3252|r=3|mtype=square}} ; |id = 1260 ; Jug of vinegar page: 'can be bought from [[Fortunato]] in [[Draynor Village]] for 1 coin'
+
+frp-045 -> https://oldschool.runescape.wiki/w/Potter's_Wheel
+  step: Make unfired bowl at barb village
+  fill: [3087, 3409, 0]
+  quote: ObjectLocLine |location = [[Barbarian Village]] ... x:3087,y:3409,icon:greenPin|x:3087,y:3410,icon:greenPin
+
+frp-053b -> https://oldschool.runescape.wiki/w/Nettles
+  step: pick up 5 nettles at the yews
+  fill: [3086, 3468, 0]
+  quote: {{ObjectLocLine |name = Nettles |location = [[Edgeville]] ... |3086,3468|3087,3468|3088,3468|3089,3468|3090,3468|3091,3468}} (by the Edgeville yews)
+
+frp-075 -> https://oldschool.runescape.wiki/w/Edgeville_furnace
+  step: Make an amulet of magic
+  fill: [3108, 3499, 0]
+  quote: |map = {{Map|name=Edgeville furnace|mtype=polygon|3105,3502|3111,3502|3111,3496|3105,3496|zoom=3}} (centre 3108,3499)
+
+frp-084 -> https://oldschool.runescape.wiki/w/Ectofuntus
+  step: Grind 9 d bones and offer them, get ecto tokens
+  fill: [3658, 3518, 0]
+  quote: |map = {{Map|name=Ectofuntus|x=3658|y=3518|plane=0|mapID=-1|mtype=pin}}
+
+frp-105 -> https://oldschool.runescape.wiki/w/Ordan
+  step: Buy 2 inventories of gold ore from the blast furnace shop
+  fill: {"world": [1936, 4966, 0], "npc": 1560}
+  quote: |map = {{Map|name=Ordan|mapID=10022|x=1936|y=4966|z=0|r=3|mtype=square}} ; |id = 1560
+
+frp-106b -> https://oldschool.runescape.wiki/w/Edgeville_furnace
+  step: make plenty of digsite pendants
+  fill: [3108, 3499, 0]
+  quote: |map = {{Map|name=Edgeville furnace|mtype=polygon|3105,3502|3111,3502|3111,3496|3105,3496|zoom=3}} (centre 3108,3499)
+
+sg-038 -> https://oldschool.runescape.wiki/w/Ordan
+  step: Buy 2800 gold ore from blast furnace ore shop, 1 inv per world
+  fill: {"world": [1936, 4966, 0], "npc": 1560}
+  quote: |map = {{Map|name=Ordan|mapID=10022|x=1936|y=4966|z=0|r=3|mtype=square}} ; |id = 1560
+
+sg-041 -> https://oldschool.runescape.wiki/w/Edgeville_furnace
+  step: Craft the gold bars into gold BRACELETS, leave like 30 bars for teleport jewe
+  fill: [3108, 3499, 0]
+  quote: |map = {{Map|name=Edgeville furnace|mtype=polygon|3105,3502|3111,3502|3111,3496|3105,3496|zoom=3}} (centre 3108,3499)
+
+sg-043a -> https://oldschool.runescape.wiki/w/Lundail
+  step: Buy another 5k nats
+  fill: {"world": [3109, 10357, 0], "npc": 1601}
+  quote: |map = {{Map|name=Lundail|mapID=26|x=3109|y=10357|r=4|mtype=square}} ; |id = 1601
+
+tfm-027b -> https://oldschool.runescape.wiki/w/Lundail
+  step: buy 6k nats, all of the cosmics you can get while buying
+  fill: {"world": [3109, 10357, 0], "npc": 1601}
+  quote: |map = {{Map|name=Lundail|mapID=26|x=3109|y=10357|r=4|mtype=square}} ; |id = 1601

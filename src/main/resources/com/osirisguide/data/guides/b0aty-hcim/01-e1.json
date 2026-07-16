@@ -776,9 +776,10 @@
       "title": "Take the Minecart to Shayzien East …",
       "text": "Take the Minecart to Shayzien East (option B)",
       "manual": true,
+      "npc": 10727,
       "world": [
-        1517,
-        3592,
+        1824,
+        3690,
         0
       ]
     },
@@ -1503,7 +1504,13 @@
       "id": "e1-085c",
       "title": "Use Bucket of Water on drain …",
       "text": "Use Bucket of Water on drain outside then refill it",
-      "manual": true
+      "manual": true,
+      "object": 17424,
+      "world": [
+        3225,
+        3496,
+        0
+      ]
     },
     {
       "id": "e1-086",
@@ -1752,7 +1759,13 @@
       "id": "e1-099",
       "title": "Search crates for 3x Waxwood log",
       "text": "Search crates for 3x Waxwood log",
-      "manual": true
+      "manual": true,
+      "object": 40214,
+      "world": [
+        3243,
+        3398,
+        0
+      ]
     },
     {
       "id": "e1-100",
@@ -1831,9 +1844,10 @@
       "title": "Make the 3 Waxwood Planks",
       "text": "Make the 3 Waxwood Planks",
       "manual": true,
+      "npc": 3101,
       "world": [
-        3210,
-        3448,
+        3302,
+        3492,
         0
       ]
     },
@@ -2550,7 +2564,13 @@
       "id": "e1-146b",
       "title": "Run from the level 13 skeleton",
       "text": "Run from the level 13 skeleton",
-      "manual": true
+      "manual": true,
+      "object": 2146,
+      "world": [
+        3120,
+        9567,
+        0
+      ]
     },
     {
       "id": "e1-147",
@@ -2789,9 +2809,10 @@
       "title": "Buy Karamja Rum",
       "text": "Buy Karamja Rum",
       "manual": true,
+      "npc": 13655,
       "world": [
-        2843,
-        3070,
+        2929,
+        3145,
         0
       ]
     },
@@ -2799,7 +2820,13 @@
       "id": "e1-162a",
       "title": "Fill Crate with bananas",
       "text": "Fill Crate with bananas",
-      "manual": true
+      "manual": true,
+      "object": 2072,
+      "world": [
+        2939,
+        3149,
+        0
+      ]
     },
     {
       "id": "e1-162b",
@@ -3139,9 +3166,10 @@
       "title": "Bank at Falador West Bank",
       "text": "Bank at Falador West Bank",
       "manual": true,
+      "object": 24222,
       "world": [
-        2947,
-        3366,
+        2935,
+        3355,
         0
       ]
     },
@@ -3341,7 +3369,13 @@
       "id": "e1-189b",
       "title": "talk to the boy to start …",
       "text": "talk to the boy to start Witches House (1,1)",
-      "manual": true
+      "manual": true,
+      "npc": 3994,
+      "world": [
+        2928,
+        3456,
+        0
+      ]
     },
     {
       "id": "e1-190a",
@@ -3799,9 +3833,10 @@
       "title": "Take the boat to Rimmington",
       "text": "Take the boat to Rimmington",
       "manual": true,
+      "npc": 1146,
       "world": [
-        2956,
-        3232,
+        2933,
+        3210,
         0
       ]
     },
@@ -5120,10 +5155,11 @@
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
       },
+      "object": 16673,
       "world": [
-        2541,
-        3170,
-        0
+        2518,
+        3430,
+        1
       ]
     },
     {
@@ -5173,6 +5209,7 @@
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
       },
+      "npc": 8019,
       "world": [
         2466,
         3495,
@@ -5650,9 +5687,10 @@
         "quest": "TRIBAL_TOTEM",
         "state": "FINISHED"
       },
+      "npc": 8480,
       "world": [
-        2794,
-        3182,
+        2684,
+        3323,
         0
       ]
     },

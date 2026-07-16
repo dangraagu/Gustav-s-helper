@@ -467,18 +467,13 @@
       "id": "e2-033b",
       "title": "travel to Port Piscarilius",
       "text": "travel to Port Piscarilius",
+      "manual": true,
+      "npc": 10727,
       "world": [
-        1803,
-        3752,
+        1824,
+        3690,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1803,
-        "y": 3752,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e2-034",
@@ -1323,7 +1318,13 @@
       "id": "e2-093",
       "title": "Pay to enter the Agility Arena",
       "text": "Pay to enter the Agility Arena",
-      "manual": true
+      "manual": true,
+      "object": 3617,
+      "world": [
+        2809,
+        3194,
+        0
+      ]
     },
     {
       "id": "e2-094",
@@ -1519,9 +1520,10 @@
         "quest": "MERLINS_CRYSTAL",
         "state": "FINISHED"
       },
+      "object": 68,
       "world": [
-        2763,
-        3513,
+        2762,
+        3443,
         0
       ]
     },
@@ -1531,8 +1533,8 @@
       "text": "Deposit 15 Pineapples into the Compost Bin North and close Compost Bin",
       "manual": true,
       "world": [
-        2725,
-        3492,
+        2810,
+        3442,
         0
       ]
     },
@@ -1556,7 +1558,12 @@
           }
         ]
       },
-      "item": 5354
+      "item": 5354,
+      "world": [
+        2803,
+        3432,
+        0
+      ]
     },
     {
       "id": "e2-110b",
@@ -1564,8 +1571,8 @@
       "text": "Deposit in Leprechaun with 60x buckets (Keep 9x Watering Can)",
       "manual": true,
       "world": [
-        2725,
-        3492,
+        2810,
+        3442,
         0
       ]
     },
@@ -1591,8 +1598,8 @@
       },
       "item": 1925,
       "world": [
-        2725,
-        3492,
+        2810,
+        3442,
         0
       ]
     },
@@ -1616,7 +1623,12 @@
           }
         ]
       },
-      "item": 5418
+      "item": 5418,
+      "world": [
+        2803,
+        3432,
+        0
+      ]
     },
     {
       "id": "e2-113",
@@ -1649,14 +1661,14 @@
       "title": "Head North into the Camelot Castle",
       "text": "Head North into the Camelot Castle",
       "world": [
-        2758,
-        3507,
+        2780,
+        3515,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2758,
-        "y": 3507,
+        "x": 2780,
+        "y": 3515,
         "z": 0,
         "radius": 8
       }
@@ -1718,9 +1730,10 @@
         "quest": "MERLINS_CRYSTAL",
         "state": "FINISHED"
       },
+      "npc": 2834,
       "world": [
-        2763,
-        3513,
+        2757,
+        3401,
         0
       ]
     },
@@ -2201,9 +2214,10 @@
       "title": "Buy 5x Empty Pots in the …",
       "text": "Buy 5x Empty Pots in the General Store",
       "manual": true,
+      "npc": 1287,
       "world": [
-        3165,
-        3490,
+        3496,
+        3289,
         0
       ]
     },
@@ -2487,9 +2501,10 @@
       "title": "Steal a tea [Varrock Easy Diary]",
       "text": "Steal a tea [Varrock Easy Diary]",
       "manual": true,
+      "object": 635,
       "world": [
-        3210,
-        3448,
+        3270,
+        3411,
         0
       ]
     },
@@ -2596,18 +2611,13 @@
       "id": "e2-174",
       "title": "Travel to Pollnivneach via Magic Carpet",
       "text": "Travel to Pollnivneach via Magic Carpet",
+      "manual": true,
+      "npc": 17,
       "world": [
-        3358,
-        2974,
+        3311,
+        3109,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3358,
-        "y": 2974,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e2-175",
@@ -3549,9 +3559,10 @@
       "title": "Pickpocket a guard [Falador Medium Diary]",
       "text": "Pickpocket a guard [Falador Medium Diary]",
       "manual": true,
+      "npc": 3269,
       "world": [
-        3000,
-        3360,
+        2961,
+        3381,
         0
       ]
     },
@@ -4332,7 +4343,12 @@
       "id": "e2-284",
       "title": "Telegrab the Pickled brain",
       "text": "Telegrab the Pickled brain",
-      "manual": true
+      "manual": true,
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e2-285",
@@ -5883,6 +5899,7 @@
         "quest": "THE_IDES_OF_MILK",
         "state": "FINISHED"
       },
+      "npc": 15632,
       "world": [
         3171,
         3277,
@@ -5904,6 +5921,7 @@
         "quest": "THE_IDES_OF_MILK",
         "state": "FINISHED"
       },
+      "npc": 15632,
       "world": [
         3171,
         3277,
@@ -6612,7 +6630,13 @@
       "id": "e2-442",
       "title": "Fill Bucket with water & use …",
       "text": "Fill Bucket with water & use on bread",
-      "manual": true
+      "manual": true,
+      "object": 17424,
+      "world": [
+        3225,
+        3496,
+        0
+      ]
     },
     {
       "id": "e2-443",
@@ -6620,8 +6644,8 @@
       "text": "Bank at West Bank",
       "manual": true,
       "world": [
-        3015,
-        3357,
+        3185,
+        3441,
         0
       ]
     },
@@ -8387,7 +8411,13 @@
       "id": "e2-567",
       "title": "Run to Ikov Temple & collect …",
       "text": "Run to Ikov Temple & collect Boots of Lightness",
-      "manual": true
+      "manual": true,
+      "object": 17384,
+      "world": [
+        2677,
+        3405,
+        0
+      ]
     },
     {
       "id": "e2-568",

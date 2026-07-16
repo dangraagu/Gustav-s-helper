@@ -12,6 +12,7 @@
         "quest": "THE_FEUD",
         "state": "FINISHED"
       },
+      "npc": 3533,
       "world": [
         3304,
         3211,
@@ -418,9 +419,12 @@
       "text": "buy 6k nats, all of the cosmics you can get while buying\nLocation: Mage Bank",
       "manual": true,
       "world": [
-        3090,
-        3956,
+        3109,
+        10357,
         0
+      ],
+      "npcs": [
+        1601
       ]
     },
     {
