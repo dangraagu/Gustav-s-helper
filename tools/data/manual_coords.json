@@ -1,0 +1,4 @@
+{
+  "_comment": "Human-verified step coordinates. Key = EXACT step text (case-insensitive), value = [x, y, plane]. Beats every automatic layer. Fill from docs/precision-todo/*.md and regenerate.",
+  "_example (delete the leading underscore to activate)": [3212, 3247, 0]
+}
