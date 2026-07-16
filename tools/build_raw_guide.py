@@ -37,8 +37,9 @@ def build(raw_path, item_map, quest_map, entities):
                 if iq:
                     total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
 
-    # Pass 2: build (running cumulative per item across the whole guide).
+    # Pass 2: build (running cumulative per item + route-position anchor across the whole guide).
     cumulative = {}
+    anchor = None
     index = {"_comment": f"Auto-generated from raw/{gid}.json by build_raw_guide.py", "sections": []}
     total = enr = 0
     for i, sec in enumerate(sections, 1):
@@ -51,8 +52,12 @@ def build(raw_path, item_map, quest_map, entities):
             atoms = sg.split_atoms(nm)
             for ai, atom in enumerate(atoms):  # NOT 'i' — that's the section index used for the filename
                 sub = None if len(atoms) == 1 else (chr(97 + ai) if ai < 26 else str(ai))
-                steps.append(sg.build_step(prefix, pos, atom, st.get("loc"), None,
-                                           item_map, quest_map, cumulative, total_needed, entities, sub=sub))
+                built = sg.build_step(prefix, pos, atom, st.get("loc"), None,
+                                      item_map, quest_map, cumulative, total_needed, entities,
+                                      sub=sub, anchor=anchor)
+                steps.append(built)
+                if "world" in built:
+                    anchor = built["world"]  # route continuity: the next step resolves near here
         if not steps:
             continue
         total += len(steps)
@@ -78,8 +83,11 @@ def main():
     quest_map = sg.load_quest_map()
     sg.load_location_coords()
     nqs = sg.load_quest_start(quest_map)
+    nam = sg.load_amenities()
+    nres = sg.load_resources()
     entities = sg.load_qh_entities()
-    print(f"  ({nqs} quest-start tiles, {len(sg.GAZETTEER)} locations bridged)")
+    print(f"  ({nqs} quest-start tiles, {len(sg.GAZETTEER)} locations, {nam} town amenities, "
+          f"{nres} resource sites bridged)")
     for f in files:
         build(f, item_map, quest_map, entities)
 
