@@ -9,7 +9,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | id | step | fill |
 |---|---|---|
 | s11-016 | Minigame teleport to Soul Wars. Chop teak logs on a forestry world - world 444 is recommen | |
-| s14-032 | Make 4 inventories of Paddewwa tabs: | |
 | s22-027 | Swap to the regular spellbook, Complete Recipe for Disaster by following the steps below: | |
 | s22-036 | Catch ~1.5k grey chins for level 55 ranging (at Soul Wars - you can take an axe to chop th | |
 | s22-037 | Read this step in its entirety carefully. This step contains the Hallowed Sepulchre grind  | |

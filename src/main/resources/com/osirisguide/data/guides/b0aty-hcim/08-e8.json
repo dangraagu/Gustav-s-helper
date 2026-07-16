@@ -22,7 +22,12 @@
       "id": "e8-002",
       "title": "Make Super Strengths & equal amount …",
       "text": "Make Super Strengths & equal amount of Super Attack",
-      "manual": true
+      "manual": true,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e8-003",
@@ -94,7 +99,12 @@
       "id": "e8-008",
       "title": "Make 10+ Phoenix Necklaces",
       "text": "Make 10+ Phoenix Necklaces",
-      "manual": true
+      "manual": true,
+      "world": [
+        2602,
+        3312,
+        0
+      ]
     },
     {
       "id": "e8-009",

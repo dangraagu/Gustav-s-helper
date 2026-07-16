@@ -1830,7 +1830,12 @@
       "id": "e1-104b",
       "title": "Make the 3 Waxwood Planks",
       "text": "Make the 3 Waxwood Planks",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e1-105",
@@ -2738,7 +2743,12 @@
       "id": "e1-156",
       "title": "Make 454 Headless Arrows",
       "text": "Make 454 Headless Arrows",
-      "manual": true
+      "manual": true,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-157",
@@ -2806,7 +2816,12 @@
       "id": "e1-163",
       "title": "Make sure to speak to Luthas …",
       "text": "Make sure to speak to Luthas again before heading to the boat",
-      "manual": true
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
     },
     {
       "id": "e1-164",
@@ -3866,13 +3881,23 @@
       "id": "e1-226c",
       "title": "make an Uncooked berry pie",
       "text": "make an Uncooked berry pie",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
     },
     {
       "id": "e1-227",
       "title": "Cook the pie North (If you …",
       "text": "Cook the pie North (If you burn this, just repeat the steps until you succeed)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
     },
     {
       "id": "e1-228",
@@ -5322,7 +5347,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-326",

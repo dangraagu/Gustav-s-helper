@@ -229,7 +229,12 @@
       "id": "abg-017b",
       "title": "make sure you're consistent with all …",
       "text": "make sure you're consistent with all your farming and birdhouses\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "abg-018",
@@ -446,7 +451,12 @@
       "id": "abg-034",
       "title": "Make botanical pies and +4 herblore …",
       "text": "Make botanical pies and +4 herblore boost for sara brews\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        2728,
+        3714,
+        0
+      ]
     },
     {
       "id": "abg-035",

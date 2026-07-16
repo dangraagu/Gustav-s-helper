@@ -2981,7 +2981,12 @@
       "id": "e4-220",
       "title": "Cook Giant Seaweed into Soda Ash",
       "text": "Cook Giant Seaweed into Soda Ash",
-      "manual": true
+      "manual": true,
+      "world": [
+        2905,
+        3537,
+        0
+      ]
     },
     {
       "id": "e4-221a",
@@ -3027,7 +3032,12 @@
         "skill": "CRAFTING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3110,
+        3499,
+        0
+      ]
     },
     {
       "id": "e4-224",
@@ -4265,7 +4275,12 @@
         "skill": "COOKING",
         "level": 53,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3212,
+        3215,
+        0
+      ]
     },
     {
       "id": "e4-331",
@@ -6488,7 +6503,12 @@
       "id": "e4-480",
       "title": "Make a Steak Sandwich",
       "text": "Make a Steak Sandwich",
-      "manual": true
+      "manual": true,
+      "world": [
+        3003,
+        3435,
+        0
+      ]
     },
     {
       "id": "e4-481",
@@ -7794,7 +7814,12 @@
       "id": "e4-576",
       "title": "Make Harralander Potion (unf)",
       "text": "Make Harralander Potion (unf)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e4-577",
@@ -7880,7 +7905,12 @@
       "id": "e4-586",
       "title": "Make Combat Potion & drop it …",
       "text": "Make Combat Potion & drop it [Desert Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e4-587",
@@ -8116,7 +8146,12 @@
       "id": "e4-606",
       "title": "Create Salve Amulet (e)",
       "text": "Create Salve Amulet (e)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3657,
+        3336,
+        0
+      ]
     },
     {
       "id": "e4-607",
@@ -9181,7 +9216,12 @@
       "id": "e4-680",
       "title": "Make a Scarecrow Spear > Hay …",
       "text": "Make a Scarecrow Spear > Hay Sack > Watermelon",
-      "manual": true
+      "manual": true,
+      "world": [
+        1209,
+        3109,
+        0
+      ]
     },
     {
       "id": "e4-681",
@@ -9838,7 +9878,12 @@
       "id": "e4-732",
       "title": "Make a Chocolate Bomb [Western Province …",
       "text": "Make a Chocolate Bomb [Western Province Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e4-733",

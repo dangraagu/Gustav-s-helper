@@ -1312,7 +1312,12 @@
       "id": "e5-095",
       "title": "Make 2x Barrels of Naptha [Mournings …",
       "text": "Make 2x Barrels of Naptha [Mournings End Pt 1]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
     },
     {
       "id": "e5-096",
@@ -1953,7 +1958,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3345,
+        2725,
+        0
+      ]
     },
     {
       "id": "e5-141",
@@ -2267,7 +2277,12 @@
       "id": "e5-162",
       "title": "Make Hangover Cure",
       "text": "Make Hangover Cure",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-163",
@@ -3199,7 +3214,12 @@
       "id": "e5-238",
       "title": "Make 6x Restore Potions & decant …",
       "text": "Make 6x Restore Potions & decant them",
-      "manual": true
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e5-239",
@@ -3668,7 +3688,12 @@
       "id": "e5-274a",
       "title": "Cook guide cake",
       "text": "Cook guide cake",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
     },
     {
       "id": "e5-274b",

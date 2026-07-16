@@ -1491,7 +1491,12 @@
       "id": "frp-101",
       "title": "Do birdhouse runs every 50mins",
       "text": "Do birdhouse runs every 50mins\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3760,
+        3760,
+        0
+      ]
     },
     {
       "id": "frp-102",
@@ -1588,7 +1593,12 @@
       "id": "frp-107a",
       "title": "Make molten glass",
       "text": "Make molten glass\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3110,
+        3499,
+        0
+      ]
     },
     {
       "id": "frp-107b",

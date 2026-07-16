@@ -400,6 +400,77 @@ def amenity_lookup(name, loc, anchor=None):
     return [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
 
 
+# --- Craft-gap fill: make/smith steps borrow a location from their neighbours ---
+# "Make molten glass" carries no place of its own. Infer the FACILITY it needs (furnace/anvil/
+# range/wheel) from the product, then pick that facility in the town nearest the PREVIOUS located
+# step (else the NEXT) — so the pointer lands on a real anvil, never inside the raid the previous
+# step happened to be in. No facility inferable -> inherit the previous step's coord (you craft
+# where you are).
+CRAFT_VERB_RE = re.compile(r"^\s*(make|craft|mix|string|fletch|create|prepare|brew|smith|smelt|cook)\b",
+                           re.IGNORECASE)
+_FACILITY_RULES = [
+    (re.compile(r"\b(smith|anvil|dart tips?|darts|nails|bolts|grapple|armou?r|scimitar|sword|helm|"
+                r"platebody|platelegs)\b", re.IGNORECASE), "anvil"),
+    (re.compile(r"\b(smelt|molten|glass|bars?|rings?|amulets?|necklaces?|bracelets?|tiaras?|jewell?ery)\b",
+                re.IGNORECASE), "furnace"),
+    (re.compile(r"\b(cook|pies?|bread|stew|cake)\b", re.IGNORECASE), "range"),
+    (re.compile(r"\b(spin|bowstrings?)\b", re.IGNORECASE), "spinning wheel"),
+]
+FACILITY_CAP = 300  # tiles: crafting facilities are worth a longer hop than borrowing a shop
+
+
+def facility_for(text):
+    for rx, fac in _FACILITY_RULES:
+        if rx.search(text or ""):
+            return fac
+    return None
+
+
+def town_near_with(anchor, facility):
+    """Nearest amenity town (within FACILITY_CAP of the anchor) that actually HAS the facility."""
+    if not anchor or not AMENITIES:
+        return None
+    best, bd = None, FACILITY_CAP + 1
+    for town, spots in AMENITIES.items():
+        if facility not in spots:
+            continue
+        c = GAZETTEER.get(town)
+        if not c:
+            continue
+        d = _dist(anchor, c)
+        if d < bd:
+            best, bd = town, d
+    return best
+
+
+def fill_craft_gaps(steps):
+    """Post-pass over a built step list: locate unlocated craft steps from their neighbours."""
+    n = 0
+    for i, s in enumerate(steps):
+        if "world" in s:
+            continue
+        text = (s.get("text") or "").split("\n")[0]
+        if not CRAFT_VERB_RE.match(text):
+            continue
+        prev_w = next((steps[j]["world"] for j in range(i - 1, -1, -1) if "world" in steps[j]), None)
+        next_w = next((steps[j]["world"] for j in range(i + 1, len(steps)) if "world" in steps[j]), None)
+        world = None
+        fac = facility_for(text)
+        if fac:
+            for a in (prev_w, next_w):
+                town = town_near_with(a, fac)
+                if town:
+                    xy = AMENITIES[town][fac]
+                    world = [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
+                    break
+        if world is None and (prev_w or next_w):
+            world = list(prev_w or next_w)
+        if world:
+            s["world"] = world
+            n += 1
+    return n
+
+
 # --- Manual coordinate overrides ----------------------------------------------
 # tools/data/manual_coords.json: { "<exact step text, lowercased>": [x, y, plane] } — human-verified
 # spots that beat EVERY automatic layer. This is where hand-filled context lands, keyed by step text
@@ -786,6 +857,8 @@ def main():
                 steps.append(built)
                 if "world" in built:
                     anchor = built["world"]  # route continuity: the next step resolves near here
+
+        fill_craft_gaps(steps)
 
         def _kind(s):
             return s.get("complete", {}).get("op")

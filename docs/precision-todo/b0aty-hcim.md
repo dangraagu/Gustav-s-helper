@@ -60,7 +60,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e1-101 | Head North-East to the Lumberyard | |
 | e1-103 | Collect the Logs & fletch 2,100 Arrowshafts (hop between 2 worlds) | |
 | e1-104a | Collect 11 Logs & make 10 into Planks | |
-| e1-104b | Make the 3 Waxwood Planks | |
 | e1-107 | Light 1 log & take the 1x log | |
 | e1-108 | Collect Ashes | |
 | e1-111 | Open the crate | |
@@ -90,11 +89,9 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e1-155a | Head South-West | |
 | e1-155b | buy a Harpoon, 50 Bait & 10 Feather packs | |
 | e1-155c | Take Apron from the wall & wear | |
-| e1-156 | Make 454 Headless Arrows | |
 | e1-158 | Talk to Luthas and ask for employment (1) | |
 | e1-160 | Pick 10 bananas | |
 | e1-162a | Fill Crate with bananas | |
-| e1-163 | Make sure to speak to Luthas again before heading to the boat | |
 | e1-165a | Trade Wydin | |
 | e1-167 | Buy 8x Raw Sardines | |
 | e1-171a | Head South-West | |
@@ -115,8 +112,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e1-212a | Trade Heckel Funch or Hudo | |
 | e1-216 | Take 1 extra Rotten Apple [Mournings End Pt 1] | |
 | e1-226a | Trade Wydin | |
-| e1-226c | make an Uncooked berry pie | |
-| e1-227 | Cook the pie North (If you burn this, just repeat the steps until you succeed) | |
 | e1-230 | Mine 2x Blurite Ore (Make sure to safe spot the Ice Warriors first. DO NOT TANK THEM WHILE | |
 | e1-232 | Continue Knights Sword | |
 | e1-235 | Complete Knights Sword | |
@@ -145,7 +140,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e1-317 | Buy 1x Gnome Spice [Recipe for Disaster Goblin] | |
 | e1-318 | Trade Gnome Waiter | |
 | e1-320 | Head East | |
-| e1-325 | Make a Fruit Blast by clicking cocktail shaker [Recipe for Disaster] | |
 | e1-333 | Right click your house tab, teleport to Outside House | |
 | e1-334a | Head west | |
 | e1-335a | Head to the Bar | |
@@ -168,7 +162,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-018 | Withdraw: 20x Ball of Wool, Mind Runes, Ghosts Skull, 2x Wine (24 Inventory Slots) | |
 | e2-020 | Complete Restless Ghost | |
 | e2-022 | Collect an egg | |
-| e2-027 | Make Soft Clay | |
 | e2-030 | Take Cheese [Mournings End Pt 2] | |
 | e2-035 | OPTIONAL: Travel to Lands end if you haven't got your 100 Soda Ash/Sand | |
 | e2-037 | Head South then Directly East along the pier to reach the Food Store | |
@@ -206,10 +199,8 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-129 | Play the Organ after the first completion [Kandarin Easy Diary] | |
 | e2-131 | Stay until 60 Marks of Grace for Graceful Legs if you want them | |
 | e2-132 | AFTER 65 Agility: | |
-| e2-134 | Make Soft Clay | |
 | e2-136 | Complete the Barcrawl during the quest | |
 | e2-140a | Collect 15 Supercompost | |
-| e2-147b | Make desert disguise | |
 | e2-147c | equip | |
 | e2-152 | Wield Desert Robes | |
 | e2-158 | This should net you over 1,000,000GP which we are now going to use to fly through the rest | |
@@ -230,7 +221,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-215 | Light Candle & Drop Tinderbox | |
 | e2-224 | Be a bit careful with low defence & fairly low HP here. Boss can be safe spotted | |
 | e2-228b | Go up the ladder | |
-| e2-238 | Make a Silver Sickle | |
 | e2-254a | Head North | |
 | e2-255 | Collect 4x Super Antipoison (1) and decant into 4 dose potion | |
 | e2-261a | Head to the Museum | |
@@ -306,11 +296,8 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-469b | Teleport Runes, Hammer, Saw, 4x Oak Plank, Molten Glass, 5x Steel Bars | |
 | e2-470 | If you used steel bars during Mahogany homes, Superheat Item until you have 5 Steel bars | |
 | e2-471 | Teleport to House | |
-| e2-472 | Make a Workshop | |
 | e2-473 | Build Clockmaker's Bench 1 (Crafting table 1) | |
 | e2-474 | Upgrade to 2 | |
-| e2-475 | Make 5x Clockwork Mechanisms [Birdhouse Runs] | |
-| e2-480 | Make 4 regular Birdhouses | |
 | e2-483b | travel to "Lemanto Andra" | |
 | e2-484 | Place 2x Birdhouse West | |
 | e2-485 | Unlock Mycelium Transportation System at Mushroom Meadow and then House on the Hill | |
@@ -320,9 +307,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-492 | Take Mushtree to Mushroom Meadow | |
 | e2-494 | Dive without Apparatus, collect 2-4 Seaweed Spores while fletching Headless Arrows | |
 | e2-495 | Take out your supercompost from the Tool Leprechaun if you've stored it there | |
-| e2-496 | Make 8 Ultracompost with Volcanic Ash (Keep this supply topped up when needed) | |
 | e2-498 | Plant 2x Seaweed Spores & use 2x Ultracompost | |
-| e2-499 | Fletch the rest of your Headless Arrows while looting more Seaweed Spores | |
 | e2-500 | ^ These will be your main method until 34 Farming. Stay until the 1st set of Seaweed are r | |
 | e2-501 | For maintaining Birdhouses, it is probably best to just cut Teak Logs on Locus Oasis (Fair | |
 | e2-514 | Withdraw: 3 Oak Logs, Wool, 10 nails, Hammer, Chisel, Bucket of Water | |
@@ -331,15 +316,11 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-522 | Kill 1 of each Elemental [Kandarian Easy Diary] | |
 | e2-524 | Withdraw: Coins | |
 | e2-525 | Deposit 10k in the coffer | |
-| e2-532a | Make all Molten Glass (Keep 1 Sand). Blow Vials | |
-| e2-534 | String both and enchant one into Amulet of Magic | |
-| e2-535 | Make 5+ games necklaces/5 Rings of Recoil/All Duelling Rings/All Ruby Necklaces [Keep 2 Ru | |
 | e2-536 | Enchant all these | |
 | e2-538 | Do a Birdhouse Run & Seaweed Run | |
 | e2-541 | Withdraw: 2x Law Runes, 2x Water Runes, Coins | |
 | e2-544 | Buy 10 Buckets of Slime & 15 Pineapples from Charter ship | |
 | e2-553 | Use a games necklace to Games Room or Minigame Teleport | |
-| e2-559 | Cook all Trout then Salmon while recharging energy (You want 32 Cooking) | |
 | e2-564 | If you do not yet have 34 farming, continue birdhouse & seaweed runs to 34 farming before  | |
 | e2-567 | Run to Ikov Temple & collect Boots of Lightness | |
 | e2-569 | Do Tithe Farm until 62 Farming (34-54 sucks, 54-62 cozy) [Do Birdhouse runs & Seaweed runs | |
@@ -368,10 +349,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e3-037 | Flinch Black Knight titan | |
 | e3-038 | After Finding Percival use Fairy Ring BJR to return | |
 | e3-049a | Fill the buckets | |
-| e3-049b | make 2x Soft Clay. Refill the Buckets | |
-| e3-051 | Smith a Bullseye Lantern | |
-| e3-058 | Make an Unfired Bowl [Dragon Slayer] | |
-| e3-062b | make Soft Clay | |
 | e3-067 | Teleport to Emir's Arena using the Duelling Ring | |
 | e3-070 | Cut the teak tree while here (This must be livestreamed) [Desert Medium Diary] | |
 | e3-076b | pickpocket him | |
@@ -379,12 +356,10 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e3-077a | Teleport to Emir's Arena | |
 | e3-085 | Cut Oak Logs until 45 woodcutting. Skip if you're already 45 [50 Construction later] | |
 | e3-088 | Chronicle | |
-| e3-094 | Make sure to do the steps for Dragon Slayer and Ides of Milk here | |
 | e3-110 | Complete Pirates Treasure [Keep Ring for Mournings End pt 2] | |
 | e3-118 | Use Sunbeam Ale to use 70 Agility Shortcut | |
 | e3-119 | Kill 20 Blue Dragons and only take the bones | |
 | e3-120 | Use water blast | |
-| e3-125 | Fletch the Iron Arrows | |
 | e3-126 | Fairy Ring - AJR | |
 | e3-127 | Head towards Relleka | |
 | e3-128a | Chop | |
@@ -434,7 +409,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e3-249 | Kill an Ice Fiend | |
 | e3-258 | Complete Dwarf RFD | |
 | e3-259 | Complete this Slayer Task | |
-| e3-265 | Create 9 bonemeal to collect 45 ectotokens | |
 | e3-269b | deposit all | |
 | e3-272 | Buy 4x Buckets of Slime | |
 | e3-273 | Worship the Buckets, collect 20 Ecto tokens from the Ghost Disciples (Drop Empty Buckets+  | |
@@ -547,10 +521,8 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e4-214a | Mine sand in the South-West 2x2 spot | |
 | e4-215 | Only stay until around enough sand for 50 crafting (Should be no more than 1,000) | |
 | e4-218 | Green North-East, Yellow South-East, Blue South-West, Red North of Blue, Purple east of Re | |
-| e4-220 | Cook Giant Seaweed into Soda Ash | |
 | e4-221a | Drop 3x Inventories of Giant Seaweed | |
 | e4-221b | Pick 1 up then left click 'Cook fire' to instantly turn it into 6 Soda Ash | |
-| e4-223 | Create Molten glass + blow into best option until 50 Crafting. Optionally finish 55 Crafti | |
 | e4-225 | Keep 10+ Buckets of Sand | |
 | e4-228 | Use Lantern Lense on Bullseye Lantern | |
 | e4-231 | Minigame Teleport to Tithe Farm | |
@@ -586,7 +558,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e4-320a | Talk to Historian in Museum to obtain 2x 1,000XP Lamps | |
 | e4-321 | Complete Shield of Arrav if you haven't already for the second lamp | |
 | e4-326b | Teleport Runes, Steel Gauntlets | |
-| e4-330 | Cook Raw Salmon until 53 Cooking | |
 | e4-331 | OPTIONAL: Drop 28 Salmon, pick one up and immediately click fire to fast cook | |
 | e4-340 | Fill a bowl on the pump | |
 | e4-342 | Take a Cup of Tea North of the ladder | |
@@ -629,7 +600,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e4-457 | Minigame Teleport to Fishing Trawler | |
 | e4-461 | Continue RFD Pirate segment until you have 3x Crab Meat & 3x Kelp | |
 | e4-478c | grab a fly fishing rod + feathers | |
-| e4-480 | Make a Steak Sandwich | |
 | e4-482b | take the cowhide [Mournings End Pt 1] | |
 | e4-485a | Return to the cow pen | |
 | e4-490 | Head south to H.A.M. Hideout | |
@@ -656,19 +626,16 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e4-571 | Use your best air spell on the Giant Roc as it has a 35% air magic weakness | |
 | e4-572 | Use Protect from Missiles on the Giant Roc | |
 | e4-573 | Safespot: https://imgur.com/jZUFUCR | |
-| e4-576 | Make Harralander Potion (unf) | |
 | e4-577 | Crush Horn | |
 | e4-580 | Teleport to Emir's Arena | |
 | e4-583 | Take boat to Unkah | |
 | e4-585 | Head North & start Enakrah's Lament | |
-| e4-586 | Make Combat Potion & drop it [Desert Medium Diary] | |
 | e4-587 | Complete Enakrah's Lament | |
 | e4-588 | Teleport with Camulet [Desert Medium Diary] | |
 | e4-589 | Mine a Granite [Kings Ransom][Desert Hard Diary] | |
 | e4-590 | Duelling Ring -> Emir's Arena | |
 | e4-602 | Bank in Tarns Lair | |
 | e4-603 | Complete Tarn's Lair | |
-| e4-606 | Create Salve Amulet (e) | |
 | e4-609 | Walk south to Land's End | |
 | e4-612 | Fill 8 Sacks with Sand | |
 | e4-615 | Take boat to Lands End | |
@@ -684,7 +651,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e4-672 | Check shoes at Yrsa [Fremmenik Easy Diary] | |
 | e4-674 | Pick up 5 Snape Grass (Keep 1)[Fremennik Easy Diary] | |
 | e4-677 | Teleport anywhere | |
-| e4-680 | Make a Scarecrow Spear > Hay Sack > Watermelon | |
 | e4-682 | Kill Imps until a Mind Talisman | |
 | e4-683 | OPTIONAL: Stay for all 4 beads if you want | |
 | e4-685 | Take Fairy Ring to CKS | |
@@ -699,7 +665,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e4-727 | Kill the Jungle Demon with Bone Crossbow (Max hit 32) | |
 | e4-728 | Use Experience on Strength & Stamina | |
 | e4-731 | Complete Gnome Cooking Tutorial | |
-| e4-732 | Make a Chocolate Bomb [Western Province Medium Diary] | |
 | e4-733 | Complete an easy delivery for the Gnome Restaurant [Western Province Medium Diary] | |
 | e4-739 | Bank at the South Bank | |
 | e4-742 | Kill an Oomlie bird for Oomlie Wrap (boatyVV) | |
@@ -731,7 +696,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e5-080 | Complete Hand in the Sand | |
 | e5-090b | Teleport Runes, Death Runes, Coins, Bronze Arrows, Spade, Pestle & Mortar, Rope, Antipoiso | |
 | e5-093 | Collect 4x Barrel of coal tar | |
-| e5-095 | Make 2x Barrels of Naptha [Mournings End Pt 1] | |
 | e5-101b | Teleport Runes | |
 | e5-107b | Teleport Runes, Spade, Glarials Pebble, Rope, Antipoison, duel ring, games necklace (10 In | |
 | e5-109 | Charter to Port Tyras | |
@@ -744,7 +708,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e5-131 | Drop the Soap & Wear the Mourner top | |
 | e5-139 | Talk to Rantz (2) [Recipe for Disaster] | |
 | e5-140a | Catch | |
-| e5-140b | cook a Raw Jubbly [Recipe for Disaster] | |
 | e5-142 | Continue Mournings End Pt 1 until after you've coloured the sheep | |
 | e5-143 | Withdraw: Barrel of Naptha, Rotten Apple | |
 | e5-144 | Complete Mournings End Pt 1 | |
@@ -752,7 +715,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e5-152 | Complete Mournings End Pt 2 | |
 | e5-155 | Train Woodcutting to level 68 at Teak Trees (West of BJP; AFK+3tick+2tick) | |
 | e5-160 | ADVISED: Stay until all Combat Achievements are completed. (9 solo games, 1 world 309 mass | |
-| e5-162 | Make Hangover Cure | |
 | e5-163 | Teleport to House | |
 | e5-164b | pick pet rock up [Fremennik Medium Diary] | |
 | e5-168 | Use Sapphire on Bullseye Lantern | |
@@ -779,7 +741,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e5-233a | Withdraw: Gilded Cross | |
 | e5-235 | Kill a Shadowhound [Kandarin Hard Diary] | |
 | e5-236 | Safespot Damis on a Bat or a Rat (Use Curse to aggro) in the North-East corner | |
-| e5-238 | Make 6x Restore Potions & decant them | |
 | e5-241 | Continue Desert Treasure until you have the Ice Diamond | |
 | e5-242a | Pray Melee on Kamil | |
 | e5-242b | eat/restore accordingly. No real tricks & only hard fight | |
@@ -797,7 +758,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e5-266 | Drop Bucket | |
 | e5-268 | Use the Sweetcorn at the Windmill to make Cornflour [Recipe for Disaster] | |
 | e5-269 | Use the Raw Chicken on the Shrine North-East [Recipe for Disaster] | |
-| e5-274a | Cook guide cake | |
 | e5-280 | Head to Puro Puro | |
 | e5-281 | Catch Gourmet implings until Chef's Delight | |
 | e5-283 | Complete RFD afterwards | |
@@ -832,7 +792,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e6-042 | 70 Herblore - Do as many herbruns/medium farming contracts as possible. Moons will bank qu | |
 | e6-043 | 70 Farming - Should be completed passively | |
 | e6-044 | 70 Hunter - Should be completed passively with BHRs | |
-| e6-045 | Make some Super Attack, Super Strength & Prayer Potions | |
 | e6-046 | Train Slayer to 48 with an ancient staff as your weapon on Attack Mode | |
 | e6-050 | Dig by Windswept Tree | |
 | e6-051 | Kill a Brine Rat [Fremennik Medium Diary] | |
@@ -869,12 +828,10 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e7-035 | 78 Magic -> Boost to 83, make a Barrows portal in POH | |
 | e7-037 | ^ Making Agility Potions to jump the wall is optional | |
 | e7-038 | Complete barrows until you have Tank helm, Plate, Legs | |
-| e8-002 | Make Super Strengths & equal amount of Super Attack | |
 | e8-003 | Use Harralanders, Avantoe & Irits in Mastering Mixology (Don't grind them all incase the r | |
 | e8-004a | Complete the Grapple Diary steps | |
 | e8-004b | use all lamps on Herblore | |
 | e8-005 | You may need to obtain a Runite Bar | |
-| e8-008 | Make 10+ Phoenix Necklaces | |
 | e8-009 | Seren Video guide - https://www.youtube.com/watch?v=XRZVxU-umX8 | |
 | e8-011 | (Step unders are very recommended until they start hitting 16s) | |
 | e8-012 | I recommend killing all 3 until 70 prayer is banked, then you can do 1kc runs if only 1 ou | |
@@ -889,7 +846,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e9-009 | Head East towards the Sunlight Antelopes | |
 | e9-010 | Catch 3x Sunlight Antelopes (Keep the fur) | |
 | e9-013a | Talk to Pellem | |
-| e9-013b | make Mixed Hide Top, Bottom & Boots | |
 | e9-015 | Withdraw: Coins, Butterfly net/Magic Net | |
 | e9-019a | Go down the stairs | |
 | e9-019b | catch Moonlight Moths to the South | |
@@ -897,7 +853,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e9-021 | Use Dashing Kebbit meat on Moonlight Moths to double the restore to 44 per inventory slot  | |
 | e9-027 | There are 2 paths you can take beyond Corrupted Gauntlet, and they will both lead to raidi | |
 | e10-003 | Cut these Underwater while farming Seaweed Spores & Seaweed from the patches | |
-| e10-004 | Fletch Arrowshafts from Maple Logs 45-52 Fletching in similar style | |
 | e10-005 | Depending how spooned your Enhanced(s) were depends on how much outstanding Mining we will | |
 | e10-006b | collect your resources (check allocation before to make sure they are atleast on x10 teaks | |
 | e10-009a | Head North | |
@@ -906,7 +861,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e10-016a | Withdraw: Coins | |
 | e10-018 | Head West & buy 11x Gold Leaves, 10x Marble Blocks, 15x Limestone Bricks, 1x Magic Stone | |
 | e10-020 | Buy 6,000 Soul Runes | |
-| e10-022 | Make 3x Duelling Rings (8), 3x games necklace (8) | |
 | e10-024 | Talk to Tyss for Arceuss Signet | |
 | e10-027 | Camulet | |
 | e10-029 | Bank anywhere | |
@@ -936,25 +890,19 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e10-093 | Boost if needed, make 10 Stamina Potions (4), 10 Super Restores (4), 10 Prayer Potions (4) | |
 | e10-095 | Withdraw: Teleport Runes, Hammer, Crystal Saw, 5 Limestone Bricks, 5 Buckets of Water, 1,0 | |
 | e10-096 | Teleport to POH | |
-| e10-097 | Make a Restoration Pool then upgrade it to a Revitalisation Pool | |
 | e10-100 | Teleport to POH | |
 | e10-101 | Upgrade your pool to a Fancy Rejuvination Pool. (You need 82 Herblore so it will take a wh | |
 | e10-106 | Put the Humidify Runes in the Rune Pouch | |
 | e10-107 | Camulet | |
 | e10-111a | Use Superglass Make on Lunar spellbook | |
 | e10-112 | Blow the glass into the best option for XP until 80/85 Crafting | |
-| e10-116 | Make the Dragonstone Amulet, string it and enchant it | |
 | e10-117b | head to the Heroes Guild | |
 | e10-119 | Teleport to POH -> BLP | |
 | e10-121 | Cut the onyx | |
-| e10-125 | String the Amulet & enchant it for Amulet of Fury | |
 | e10-129 | Use Lamp on Herblore | |
 | e10-138a | Buy | |
-| e10-138b | smelt 150+ Silver Bars | |
-| e10-139b | make all Opals into Expeditious Bracelets, Jades into Amulets of Chemistry, Topaz into Sla | |
 | e10-141 | Use the Amulets of Chemistry on your Alchemist’s Amulet | |
 | e10-142 | Use Remaining Herbs to 76+ Herblore | |
-| e10-143 | Make some Divine Super Strength Potions & Divine Magic Potions (if under 94 magic) | |
 | e10-144a | If you reach 76, use a brown spice +5 boost to make Saradomin Brews. If 77 | |
 | e10-144b | use a Golovanova Pie | |
 | e10-145 | Complete the Inferno (This depends how versed you are with The Inferno with a Bowfa and no | |
@@ -1012,7 +960,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e12-019 | Head to the building North-East of the Quetzals | |
 | e12-023 | Head West | |
 | e12-026 | AJP Fairy Ring | |
-| e12-031 | Make sure to unlock the statue teleport while there | |
 | e12-042 | Bank at Cam Torum | |
 | e12-047 | Take the Quetzal to Tal Teklan | |
 | e12-049 | Bank North | |
@@ -1050,6 +997,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e1-065a | Bank at Varrock West Bank | centre of varrock west bank | |
 | e1-092a | Bank at Varrock East bank | centre of varrock east bank | |
 | e1-102 | Cut the Dying tree [Varrock Easy Diary] | centre of varrock | |
+| e1-104b | Make the 3 Waxwood Planks | centre of varrock | |
 | e1-112 | Bank at Varrock East bank | centre of varrock east bank | |
 | e1-133 | Pick a Cabbage [Black Knight's Fortress] | centre of grand exchange | |
 | e1-137b | buy 3 Sunbeam ales from the Bartender in the pub. These give you a +1 agility bo | centre of taverley dungeon | |
@@ -1057,6 +1005,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e1-157 | Take Ship to Karamja (Seamen dressed in blue) | centre of karamja | |
 | e1-161 | Buy Karamja Rum | centre of karamja | |
 | e1-162b | use Karamja rum on the crate | centre of karamja | |
+| e1-163 | Make sure to speak to Luthas again before heading to the boat | centre of karamja | |
 | e1-168b | deposit everything except: Mind Runes, Coins, 1x Raw Beef, Karamja Rum, Onion, P | centre of karamja | |
 | e1-170b | buy 2x Eye of Newt & 200 mind runes | centre of wintertodt camp | |
 | e1-171b | complete Witches Potion (Beef twice on range to burn) | centre of grand exchange | |
@@ -1079,6 +1028,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e1-312 | Take Spirit Tree to Gnome Stronghold (2) [Western Province Medium Diary] | centre of gnome stronghold | |
 | e1-323 | Buy 10x Pineapple, 2x orange, 3x Lemon, 1 Cocktail Shaker, Cocktail Glass | centre of grand exchange | |
 | e1-324 | Cut the orange and lemon into slices [Recipe for Disaster] | centre of grand exchange | |
+| e1-325 | Make a Fruit Blast by clicking cocktail shaker [Recipe for Disaster] | centre of grand exchange | |
 | e1-329 | Minigame teleport to Castle Wars | centre of castle wars | |
 | e1-359 | Kill a Fire Giant inside Baxtorian Falls (use water spells) | centre of baxtorian falls | |
 | e1-360 | Somebody will get Rune Scimitar on this kill. I hope that's you | centre of grand exchange | |
@@ -1156,6 +1106,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-477 | Complete Varrock Agility Course [Varrock Medium Diary] | centre of varrock | |
 | e2-486 | Use the Magic Mushtree from House on the Hill to get back to Mushroom Meadow | centre of grand exchange | |
 | e2-493 | Bank at the small island North of Fossil Island | centre of fossil island | |
+| e2-496 | Make 8 Ultracompost with Volcanic Ash (Keep this supply topped up when needed) | centre of fossil island | |
 | e2-510 | Buy 40 Coal from Blast Furnace | centre of bf | |
 | e2-511 | Buy 100 Gold from Blast Furnace | centre of bf | |
 | e2-512 | Buy 5 Silver Ore from Blast Furnace | centre of bf | |
@@ -1173,6 +1124,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e2-551 | Ardy Cloak -> CKR | centre of ardougne | |
 | e2-555 | Crack a wall safe [Falador Hard Diary] | centre of falador | |
 | e2-558 | Do Rogue’s Minigame until you have all 5 pieces of the Rogue outfit (If you go d | centre of burthorpe | |
+| e2-559 | Cook all Trout then Salmon while recharging energy (You want 32 Cooking) | centre of burthorpe | |
 | e2-561 | Buy 25 more Lockpicks after you get the outfit | centre of grand exchange | |
 | e2-563 | Birdhouse Run & Seaweed Run (you should get 34 Farming) | centre of grand exchange | |
 | e2-565 | Withdraw: Law Rune, 5 Air Runes, Graceful Legs, Knife, Dramen Staff, Ardy Cloak, | centre of digsite | |
@@ -1194,6 +1146,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e3-042 | Bank at Camelot Bank | centre of camelot | |
 | e3-046 | Withdraw: Teleport Runes, Coins, Adamant Pickaxe, Message, Hammer, 4x Steel Bars | centre of grand exchange | |
 | e3-057 | Make a Bowl [Varrock Easy Diary] Drop this | centre of varrock | |
+| e3-058 | Make an Unfired Bowl [Dragon Slayer] | centre of varrock | |
 | e3-063 | Take the shortcut back and forth[Falador Medium Diary] | centre of falador | |
 | e3-071 | Digsite Pendant -> Digsite | centre of digsite | |
 | e3-087 | Withdraw: Teleport Runes, Coins, Chronicle, Bronze Med Helm, Iron Chainbody, Cab | centre of grand exchange | |
@@ -1201,6 +1154,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e3-104 | Telegrab a Wine of Zamorak [Falador Medium Diary] | centre of falador | |
 | e3-115 | Withdraw: Death Runes, Water Runes, Antifire Shield, Law Runes, Ardy Cloak 1, Ka | centre of ardougne | |
 | e3-124 | Buy 2,100 Iron Arrowtips from Hickton's Archery Emporium (Optinally fletch while | centre of nex | |
+| e3-125 | Fletch the Iron Arrows | centre of nex | |
 | e3-131 | Cabbage, potato and onion can be harvested in Pontaks backyard | centre of grand exchange | |
 | e3-132 | Do the tasks in this order so you prevent walking back and fourth from Camelot m | centre of camelot | |
 | e3-146 | Buy 5x Raw Tuna from Flosi's Fishmongers | centre of grand exchange | |
@@ -1218,6 +1172,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e3-260 | If it's woefully bad, only get 18 Slayer [Animal Magnetism] | centre of grand exchange | |
 | e3-262 | Withdraw: Dramen Staff, Ardy Cloak, Ghostspeak Amulet, Chronicle, 9x Buckets of  | centre of ardougne | |
 | e3-264 | Ardy Cloak -> ALQ | centre of ardougne | |
+| e3-265 | Create 9 bonemeal to collect 45 ectotokens | centre of ardougne | |
 | e3-270 | Withdraw: Range Gear + 2x Red/Yellow/Blue Dyes, Coins, Silk, Needle, 6x Thread,  | centre of grand exchange | |
 | e3-279 | Get the Obsidian Star | centre of grand exchange | |
 | e3-281 | Cut a Hollow Tree [Morytania Medium Diary] | centre of canifis | |
@@ -1347,6 +1302,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e4-564 | Climb the stairs [Karamja Medium Diary] | centre of karamja | |
 | e4-568 | Withdraw: Hardy Gout Tubers, Coins, Duelling Ring, Climbing Boots, ring of recoi | centre of ardougne | |
 | e4-575 | Withdraw: Teleport Runes, Chaos Runes, Coins, Chisel, Bread, Tinderbox, Lit Cand | centre of ardougne | |
+| e4-576 | Make Harralander Potion (unf) | centre of ardougne | |
 | e4-579 | Ardy Cloak -> Recharge Prayer | centre of ardougne | |
 | e4-581 | Glider -> Feldip Hills -> Back to Al Kharid [Western Province Medium Diary] | centre of feldip hills | |
 | e4-593 | Take the Carpet to Pollnivneach | centre of pollnivneach | |
@@ -1399,6 +1355,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e5-086 | Ardy Cloak Teleport, run east | centre of ardougne | |
 | e5-088 | Kill a Swordchick [Ardounge Medium Diary] | centre of grand exchange | |
 | e5-094 | [If you need Coal buy it at Blast Furnace with Minigame teleport] | centre of bf | |
+| e5-095 | Make 2x Barrels of Naptha [Mournings End Pt 1] | centre of bf | |
 | e5-100 | Bank at Ardy South Bank | centre of ardougne | |
 | e5-101a | Withdraw: Bone Crossbow Gear | centre of grand exchange | |
 | e5-106 | Train Range to 60 via Slayer Tasks | centre of grand exchange | |
@@ -1407,12 +1364,14 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e5-136 | Continue Mournings End Pt 1 until needing to go to Feldip Hills | centre of feldip hills | |
 | e5-137 | Ardy Cloak -> AKS | centre of ardougne | |
 | e5-138 | Catch 3 toads & refill Ogre Bellows [Recipe for Disaster] | centre of toa | |
+| e5-140b | cook a Raw Jubbly [Recipe for Disaster] | centre of toa | |
 | e5-148a | Wear: Monk Robes, Holy Symbol, Damaged Book, for prayer bonus. Camp prayer Melee | centre of grand exchange | |
 | e5-151 | You can 2 trip the items if you withdraw in Ardy South Bank (Keep Item list & ne | centre of ardougne | |
 | e5-153b | Withdraw coins and recharge teleport seed | centre of grand exchange | |
 | e5-157 | Solo Wintertodt until you get 12+ Magic Logs (loot after every game) [Kourend Me | centre of wintertodt | |
 | e5-158 | Fletch the logs & you should get 45 Fletching | centre of grand exchange | |
 | e5-161 | Withdraw: Teleport Runes, Coins, Hammer, Saw, 4x Oak Planks, Pet Rock, Bullseye  | centre of grand exchange | |
+| e5-162 | Make Hangover Cure | centre of grand exchange | |
 | e5-164a | Build Menagerie and put Pet rock in. Change to regular mode | centre of grand exchange | |
 | e5-166 | Boat to Rimmington | centre of rimmington | |
 | e5-174 | Complete Tears of Guthix | centre of dorgesh-kaan | |
@@ -1470,12 +1429,14 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e9-004 | Withdraw: Teleport Crystal, Ardy Cloak, Dramen Staff, Pickaxe, Coins, Axe, Knife | centre of ardougne | |
 | e9-008 | Ardy Cloak -> AJP | centre of ardougne | |
 | e9-011 | Ardy Cloak -> AJP | centre of ardougne | |
+| e9-013b | make Mixed Hide Top, Bottom & Boots | centre of hunter guild | |
 | e9-014 | Bank at Hunter Guild | centre of hunter guild | |
 | e9-022 | Throw the Chinchompas to get 75+ Range | centre of grand exchange | |
 | e9-023 | Kill Royal Titans until both Prayer Scrolls | centre of royal titans | |
 | e9-025 | These are 0 damage if you use Water/Fire Wave on the Elementals, kill both giant | centre of grand exchange | |
 | e9-026 | This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted  | centre of grand exchange | |
 | e10-002 | Withdraw a Chisel & Uncut gems from Gauntlet | centre of grand exchange | |
+| e10-004 | Fletch Arrowshafts from Maple Logs 45-52 Fletching in similar style | centre of grand exchange | |
 | e10-008 | Ardy Cloak -> AIS | centre of ardougne | |
 | e10-012 | Minigame teleport to Blast Furnace | centre of bf | |
 | e10-013 | Depending on Coal/Iron in the bank, buy 300 coal+Iron & make 300 Steel Bars at t | centre of bf | |
@@ -1509,6 +1470,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | e10-135 | Mine Gem Rocks for Opals: Expeditious Bracelets, Jades: Amulet of Chemistry, Top | centre of grand exchange | |
 | e10-136 | Get around 30 Topaz, 100 Opals and 50 Jades | centre of grand exchange | |
 | e10-137 | Minigame Teleport to Blast Furnace | centre of bf | |
+| e10-138b | smelt 150+ Silver Bars | centre of bf | |
 | e11-007 | Order of points usage: Bigger & Badder, Blocking Tasks, Slayer Helmet, Ring Blin | centre of grand exchange | |
 | e11-009 | Withdraw: Bow of Faerdhinen, Crystal Armour & combat gear | centre of grand exchange | |
 | e11-017a | Withdraw: Combat Gear (Bow of Faerdhinen), Pickaxe, Dramen Staff | centre of grand exchange | |

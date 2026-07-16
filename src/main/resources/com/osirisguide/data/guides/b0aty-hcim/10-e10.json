@@ -57,7 +57,12 @@
       "id": "e10-004",
       "title": "Fletch Arrowshafts from Maple Logs 45-52 …",
       "text": "Fletch Arrowshafts from Maple Logs 45-52 Fletching in similar style",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e10-005",
@@ -377,7 +382,12 @@
       "id": "e10-022",
       "title": "Make 3x Duelling Rings (8), 3x …",
       "text": "Make 3x Duelling Rings (8), 3x games necklace (8)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2976,
+        3369,
+        0
+      ]
     },
     {
       "id": "e10-023",
@@ -1335,7 +1345,12 @@
       "id": "e10-097",
       "title": "Make a Restoration Pool then upgrade …",
       "text": "Make a Restoration Pool then upgrade it to a Revitalisation Pool",
-      "manual": true
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e10-098",
@@ -1619,7 +1634,12 @@
       "id": "e10-116",
       "title": "Make the Dragonstone Amulet, string it …",
       "text": "Make the Dragonstone Amulet, string it and enchant it",
-      "manual": true
+      "manual": true,
+      "world": [
+        2976,
+        3369,
+        0
+      ]
     },
     {
       "id": "e10-117a",
@@ -1744,7 +1764,12 @@
       "id": "e10-125",
       "title": "String the Amulet & enchant it …",
       "text": "String the Amulet & enchant it for Amulet of Fury",
-      "manual": true
+      "manual": true,
+      "world": [
+        3110,
+        3499,
+        0
+      ]
     },
     {
       "id": "e10-126",
@@ -1910,7 +1935,12 @@
       "id": "e10-138b",
       "title": "smelt 150+ Silver Bars",
       "text": "smelt 150+ Silver Bars",
-      "manual": true
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
     },
     {
       "id": "e10-139a",
@@ -1933,7 +1963,12 @@
       "id": "e10-139b",
       "title": "make all Opals into Expeditious Bracelets, …",
       "text": "make all Opals into Expeditious Bracelets, Jades into Amulets of Chemistry, Topaz into Slaughter Bracelets",
-      "manual": true
+      "manual": true,
+      "world": [
+        2976,
+        3369,
+        0
+      ]
     },
     {
       "id": "e10-140",
@@ -1979,7 +2014,12 @@
       "id": "e10-143",
       "title": "Make some Divine Super Strength Potions …",
       "text": "Make some Divine Super Strength Potions & Divine Magic Potions (if under 94 magic)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e10-144a",

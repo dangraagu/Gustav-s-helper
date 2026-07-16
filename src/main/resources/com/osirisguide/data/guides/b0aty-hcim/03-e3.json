@@ -701,7 +701,12 @@
       "id": "e3-049b",
       "title": "make 2x Soft Clay. Refill the …",
       "text": "make 2x Soft Clay. Refill the Buckets",
-      "manual": true
+      "manual": true,
+      "world": [
+        3211,
+        3422,
+        0
+      ]
     },
     {
       "id": "e3-050",
@@ -722,7 +727,12 @@
       "id": "e3-051",
       "title": "Smith a Bullseye Lantern",
       "text": "Smith a Bullseye Lantern",
-      "manual": true
+      "manual": true,
+      "world": [
+        2652,
+        3164,
+        0
+      ]
     },
     {
       "id": "e3-052",
@@ -804,7 +814,12 @@
       "id": "e3-058",
       "title": "Make an Unfired Bowl [Dragon Slayer]",
       "text": "Make an Unfired Bowl [Dragon Slayer]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
     },
     {
       "id": "e3-059",
@@ -863,7 +878,12 @@
       "id": "e3-062b",
       "title": "make Soft Clay",
       "text": "make Soft Clay",
-      "manual": true
+      "manual": true,
+      "world": [
+        3030,
+        9810,
+        0
+      ]
     },
     {
       "id": "e3-063",
@@ -1325,7 +1345,12 @@
       "id": "e3-094",
       "title": "Make sure to do the steps …",
       "text": "Make sure to do the steps for Dragon Slayer and Ides of Milk here",
-      "manual": true
+      "manual": true,
+      "world": [
+        3171,
+        3277,
+        0
+      ]
     },
     {
       "id": "e3-095",
@@ -1809,7 +1834,12 @@
       "id": "e3-125",
       "title": "Fletch the Iron Arrows",
       "text": "Fletch the Iron Arrows",
-      "manual": true
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
     },
     {
       "id": "e3-126",
@@ -3774,7 +3804,12 @@
       "id": "e3-265",
       "title": "Create 9 bonemeal to collect 45 …",
       "text": "Create 9 bonemeal to collect 45 ectotokens",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-266",

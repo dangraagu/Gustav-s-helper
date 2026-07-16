@@ -10,17 +10,13 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 |---|---|---|
 | eg-002 | Use every book and lamp on Herblore UNTIL 77 herb, after that they should be | |
 | eg-003 | Use Authenticator AND 2-step verification on registered e-mail | |
-| frp-101 | Do birdhouse runs every 50mins | |
-| frp-107a | Make molten glass | |
 | sg-004 | Put 15 pineapples into each of the compost bins at the allotment patches, rem | |
-| sg-006 | Make energy pots, should have some harralanders from kingdom if it's been ove | |
 | sg-015 | While waiting for the willow trees to grow, do these steps: | |
 | sg-019 | Do a farm run of limpwurts, harralanders and ultracompost | |
 | sg-022 | Construction method: Make 10+ dueling rings, equip whichever axe you got from | |
 | sg-029 | Do these quests while fletching iron darts: Big chompy bird hunt, Rag and bon | |
 | sg-030 | I'll assume you have fletched all of them now, if you haven't, finish the | |
 | dr-001 | Do all of the RFD subquests | |
-| dr-004 | Make a mithril grapple | |
 | dr-014 | Do all easy and medium diaries | |
 | dr-016 | Do Slayer until 60 attack | |
 | dr-020 | Do Desert Treasure | |
@@ -28,13 +24,11 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | abg-012 | Strength amulet is as good as a glory ammy for melee slayer (sometimes even b | |
 | abg-013 | Do slayer until 65 attack and 65 str, if you don't have them already | |
 | abg-015 | Prioritize STR training during slayer, I like to go for 65/80/65 melee stats | |
-| abg-017b | make sure you're consistent with all your farming and birdhouses | |
 | abg-018 | I recommend doing hard clues, they're good gp/h at this point of the account | |
 | abg-019 | Prioritize slayer points on: Superior slayer > Blocklist > Extend your favori | |
 | abg-025 | Keep doing slayer until level 75 | |
 | abg-030 | Do Mahogany homes with teak planks for 70 construction | |
 | abg-031 | Finish 70 woodcutting with any method | |
-| abg-034 | Make botanical pies and +4 herblore boost for sara brews | |
 | abg-041 | Ending the guide here, you can pretty much do whatever you want from here | |
 | abg-045 | Phase 2 Complete: Post-Bowfa progression begins here | |
 | abg-053 | Complete Desert Treasure II quest | |
@@ -313,6 +307,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | abg-011 | Get a fighter torso from BA | centre of barbarian assault | |
 | abg-014 | Get a dragon defender | centre of warriors guild | |
 | abg-017a | Get 58 slayer | centre of grand exchange | |
+| abg-017b | make sure you're consistent with all your farming and birdhouses | centre of grand exchange | |
 | abg-020 | At 58 slayer: Camp Cave horrors for mask | centre of mos le'harmless | |
 | abg-022a | Do Fremmy hard diary, get 70 agility | centre of rellekka | |
 | abg-022b | make few agility pots to use the sho | centre of rellekka | |
@@ -324,6 +319,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | abg-029b | bank 2.2k teak logs at fossil island, from the farming patch teaks | centre of fossil island | |
 | abg-032 | Get 60 range with bone crossbow at pest control if you haven't already got 60 | centre of pest control | |
 | abg-033 | Get 70 smithing | centre of keldagrim | |
+| abg-034 | Make botanical pies and +4 herblore boost for sara brews | centre of keldagrim | |
 | abg-036 | Hunt 15k red chins at the Prif hunter area | centre of prif | |
 | abg-037 | Get range void from PC | centre of pest control | |
 | abg-038 | Unlock MM2 chinning area and chin to at least 87 range | centre of ape atoll | |
