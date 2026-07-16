@@ -1,4 +1,9 @@
 {
-  "_comment": "Human-verified step coordinates. Key = EXACT step text (case-insensitive), value = [x, y, plane]. Beats every automatic layer. Fill from docs/precision-todo/*.md and regenerate.",
-  "do birdhouse runs every 50mins": [3760, 3760, 0]
+  "_comment": "Human-verified step data. Key = EXACT step text (case-insensitive). Value = [x, y, plane] shorthand, or {\"world\": [x,y,plane], \"npc\": id, \"npcs\": [ids]} - npcs = 'any of these' highlight. Beats every automatic layer. Fill from docs/precision-todo/*.md and regenerate.",
+  "do birdhouse runs every 50mins": [3760, 3760, 0],
+  "drop your runes and ask for more from the magic tutor": {"world": [3218, 3238, 0], "npc": 3218},
+  "pick up your runes": [3218, 3238, 0],
+  "drop runes": [3218, 3238, 0],
+  "get more from mage tutor": {"world": [3218, 3238, 0], "npc": 3218},
+  "thieve men until 5 thieving": {"npcs": [3106, 3107, 3108, 3109, 3110, 6818, 6815, 6987, 6988, 6989]}
 }

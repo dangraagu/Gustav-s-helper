@@ -134,7 +134,7 @@ public class OsirisGuidePlugin extends Plugin
 	private String accountKey;
 	private String lastCurrentStepId;
 	private int wantedObjectId = -1;
-	private int wantedNpcId = -1;
+	private java.util.List<Integer> wantedNpcIds = java.util.Collections.emptyList();
 	private int tickCounter;
 
 	@Provides
@@ -418,7 +418,7 @@ public class OsirisGuidePlugin extends Plugin
 	public void onNpcSpawned(NpcSpawned e)
 	{
 		NPC npc = e.getNpc();
-		if (npc != null && wantedNpcId >= 0 && npc.getId() == wantedNpcId)
+		if (npc != null && wantedNpcIds.contains(npc.getId()))
 		{
 			state.setTargetNpc(npc);
 		}
@@ -570,23 +570,23 @@ public class OsirisGuidePlugin extends Plugin
 	{
 		state.clearTargets();
 		wantedObjectId = -1;
-		wantedNpcId = -1;
+		wantedNpcIds = java.util.Collections.emptyList();
 		updateWorldMapPoint(current);
 		if (current == null)
 		{
 			return;
 		}
 		wantedObjectId = current.getHighlightObjectId();
-		wantedNpcId = current.getHighlightNpcId();
+		wantedNpcIds = current.getHighlightNpcIds();
 		if (client.getGameState() != GameState.LOGGED_IN)
 		{
 			return;
 		}
 		try
 		{
-			if (wantedNpcId >= 0)
+			if (!wantedNpcIds.isEmpty())
 			{
-				NPC npc = findNpc(wantedNpcId);
+				NPC npc = findNpc(wantedNpcIds);
 				if (npc != null)
 				{
 					state.setTargetNpc(npc);
@@ -607,12 +607,12 @@ public class OsirisGuidePlugin extends Plugin
 		}
 	}
 
-	/** First loaded NPC with the given id, or null if none is in the scene. */
-	private NPC findNpc(int id)
+	/** First loaded NPC whose id is one of the wanted ids ("any man"), or null if none is in scene. */
+	private NPC findNpc(java.util.List<Integer> ids)
 	{
 		for (NPC npc : client.getNpcs())
 		{
-			if (npc != null && npc.getId() == id)
+			if (npc != null && ids.contains(npc.getId()))
 			{
 				return npc;
 			}

@@ -68,6 +68,7 @@ public final class RouteLoader
 		String quest;          // convenience: default complete = this quest FINISHED
 		int[] world;           // [x, y, plane]
 		Integer npc;           // highlight npc id
+		int[] npcs;            // several acceptable npc ids ("talk to any man"); wins over npc
 		Integer object;        // highlight object id
 		Integer item;          // highlight inventory item id
 		Boolean manual;
@@ -177,6 +178,22 @@ public final class RouteLoader
 		Set<IronmanMode> modes = parseModes(dto.modes, dto.id);
 		List<Requirement> reqs = parseRequirements(dto.requirements, dto.id);
 
+		List<Integer> npcIds = new ArrayList<>();
+		if (dto.npcs != null && dto.npcs.length > 0)
+		{
+			for (int id : dto.npcs)
+			{
+				if (id >= 0)
+				{
+					npcIds.add(id);
+				}
+			}
+		}
+		else if (dto.npc != null && dto.npc >= 0)
+		{
+			npcIds.add(dto.npc);
+		}
+
 		return new RouteStep(
 			dto.id,
 			section,
@@ -184,7 +201,7 @@ public final class RouteLoader
 			dto.text != null ? dto.text : "",
 			dto.wiki,
 			wp,
-			dto.npc != null ? dto.npc : -1,
+			npcIds,
 			dto.object != null ? dto.object : -1,
 			dto.item != null ? dto.item : -1,
 			manual,
