@@ -124,7 +124,12 @@
       "id": "e11-008",
       "title": "If you can buy all of …",
       "text": "If you can buy all of the above through boosting before 69 Slayer then stack as many points as possible doing the same method until 69",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e11-009",
@@ -281,8 +286,8 @@
       "text": "Mine a Mithril Deposit [Morytania Hard Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3304,
+        3305,
         0
       ]
     },
@@ -436,7 +441,12 @@
       "id": "e11-037",
       "title": "Kill a Dust Devil wearing the …",
       "text": "Kill a Dust Devil wearing the Slayer Helmet [Desert Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1713,
+        10020,
+        0
+      ]
     },
     {
       "id": "e11-038",
@@ -725,8 +735,8 @@
       "text": "Kill a Zombie in the Shayzien Crypts [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1517,
-        3592,
+        3122,
+        9658,
         0
       ]
     },
@@ -794,8 +804,8 @@
       "text": "Bank at Shayzien Chest",
       "manual": true,
       "world": [
-        1517,
-        3592,
+        1487,
+        3593,
         0
       ]
     },
@@ -805,8 +815,8 @@
       "text": "Withdraw: Bow of Fardhinen, Full Crystal, Shayzien Armour 5 (all pieces)",
       "manual": true,
       "world": [
-        1517,
-        3592,
+        1487,
+        3593,
         0
       ]
     },
@@ -878,7 +888,12 @@
       "id": "e11-076a",
       "title": "Buy Brimstone boots",
       "text": "Buy Brimstone boots",
-      "manual": true
+      "manual": true,
+      "world": [
+        1520,
+        3589,
+        0
+      ]
     },
     {
       "id": "e11-076b",
@@ -946,7 +961,12 @@
       "id": "e11-081",
       "title": "Use the occult altar in your …",
       "text": "Use the occult altar in your POH to easily swap between Lunars, Arceus & Ancient Spellbook",
-      "manual": true
+      "manual": true,
+      "world": [
+        2932,
+        3513,
+        0
+      ]
     },
     {
       "id": "e11-082",
@@ -1079,7 +1099,12 @@
       "id": "e11-094",
       "title": "You will need 74 Fletching for …",
       "text": "You will need 74 Fletching for Scorching Bow. If you bought Broader Fletching you can make Broad Arrows until 74 which are very fast. Cut Maple Logs while farming Seaweed Spores and then make them Headless + Broad while doing Fishing Trawler for Angler Outfit (Tempoross Combat Achievement).",
-      "manual": true
+      "manual": true,
+      "world": [
+        2729,
+        3481,
+        0
+      ]
     },
     {
       "id": "e11-095",

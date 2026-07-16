@@ -153,7 +153,12 @@
           }
         ]
       },
-      "item": 6333
+      "item": 6333,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
     },
     {
       "id": "e10-010",
@@ -192,7 +197,12 @@
           }
         ]
       },
-      "item": 8790
+      "item": 8790,
+      "world": [
+        3207,
+        3415,
+        0
+      ]
     },
     {
       "id": "e10-012",
@@ -402,7 +412,12 @@
       "id": "e10-026",
       "title": "Buy a Fairy Enchantment from Fairy …",
       "text": "Buy a Fairy Enchantment from Fairy Fixit",
-      "manual": true
+      "manual": true,
+      "world": [
+        2413,
+        4434,
+        0
+      ]
     },
     {
       "id": "e10-027",
@@ -512,7 +527,12 @@
       "id": "e10-036",
       "title": "Bank at Lunar Bank (DO NOT …",
       "text": "Bank at Lunar Bank (DO NOT DEPOSIT ALL ARMOUR SETS)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e10-037",
@@ -572,7 +592,12 @@
           }
         ]
       },
-      "item": 9075
+      "item": 9075,
+      "world": [
+        2101,
+        3919,
+        0
+      ]
     },
     {
       "id": "e10-041",
@@ -636,8 +661,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3281,
-        2772,
+        3280,
+        2774,
         0
       ]
     },
@@ -714,7 +739,12 @@
           }
         ]
       },
-      "item": 2359
+      "item": 2359,
+      "world": [
+        3427,
+        2891,
+        0
+      ]
     },
     {
       "id": "e10-053",
@@ -726,7 +756,12 @@
       "id": "e10-054",
       "title": "Smith a Mithril Platebody [Desert Hard …",
       "text": "Smith a Mithril Platebody [Desert Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3409,
+        2921,
+        0
+      ]
     },
     {
       "id": "e10-055",
@@ -744,7 +779,12 @@
       "id": "e10-056",
       "title": "Withdraw: Blackjack, Noted Food, Coins, Rogues …",
       "text": "Withdraw: Blackjack, Noted Food, Coins, Rogues Outfit",
-      "manual": true
+      "manual": true,
+      "world": [
+        3427,
+        2891,
+        0
+      ]
     },
     {
       "id": "e10-057a",
@@ -796,8 +836,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3281,
-        2772,
+        3312,
+        2799,
         0
       ]
     },
@@ -821,7 +861,12 @@
           }
         ]
       },
-      "item": 1523
+      "item": 1523,
+      "world": [
+        3312,
+        2799,
+        0
+      ]
     },
     {
       "id": "e10-061",
@@ -1007,7 +1052,12 @@
           }
         ]
       },
-      "item": 3420
+      "item": 3420,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
     },
     {
       "id": "e10-079",
@@ -1092,7 +1142,12 @@
       "id": "e10-083c",
       "title": "make the Occult Altar in the …",
       "text": "make the Occult Altar in the Achievement Gallery",
-      "manual": true
+      "manual": true,
+      "world": [
+        3208,
+        3494,
+        1
+      ]
     },
     {
       "id": "e10-084a",
@@ -1114,7 +1169,12 @@
           }
         ]
       },
-      "item": 1379
+      "item": 1379,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e10-084b",
@@ -1144,7 +1204,12 @@
       "id": "e10-088",
       "title": "Buy the goggles/Amulet if you haven’t …",
       "text": "Buy the goggles/Amulet if you haven’t already",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e10-089a",
@@ -1166,7 +1231,12 @@
           }
         ]
       },
-      "item": 1379
+      "item": 1379,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e10-089b",
@@ -1226,7 +1296,12 @@
       "id": "e10-094",
       "title": "Bank all",
       "text": "Bank all",
-      "manual": true
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e10-095",
@@ -1299,7 +1374,12 @@
           }
         ]
       },
-      "item": 8786
+      "item": 8786,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
     },
     {
       "id": "e10-100",
@@ -1334,7 +1414,12 @@
       "id": "e10-103",
       "title": "Bank All",
       "text": "Bank All",
-      "manual": true
+      "manual": true,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
     },
     {
       "id": "e10-104",
@@ -1369,8 +1454,8 @@
       },
       "item": 1835,
       "world": [
-        3210,
-        3448,
+        3185,
+        3441,
         0
       ]
     },
@@ -1417,7 +1502,12 @@
           }
         ]
       },
-      "item": 1925
+      "item": 1925,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e10-110",
@@ -1439,7 +1529,12 @@
           }
         ]
       },
-      "item": 21504
+      "item": 21504,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e10-111a",
@@ -1451,7 +1546,12 @@
       "id": "e10-111b",
       "title": "bank the molten glass. (It is …",
       "text": "bank the molten glass. (It is not worth picking surplus glass off the ground so it is recommended to leave it)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e10-112",
@@ -1633,7 +1733,12 @@
       "id": "e10-124b",
       "title": "make the Onyx Amulet of the …",
       "text": "make the Onyx Amulet of the Furnace",
-      "manual": true
+      "manual": true,
+      "world": [
+        3110,
+        3499,
+        0
+      ]
     },
     {
       "id": "e10-125",
@@ -1702,8 +1807,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2884,
-        2951,
+        2852,
+        2955,
         0
       ]
     },

@@ -76,7 +76,12 @@
           }
         ]
       },
-      "item": 1755
+      "item": 1755,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-006",
@@ -163,7 +168,12 @@
       "id": "e1-010b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e1-011",
@@ -175,9 +185,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        3402,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
@@ -212,7 +222,12 @@
           }
         ]
       },
-      "item": 1438
+      "item": 1438,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e1-014",
@@ -281,7 +296,12 @@
       "id": "e1-018a",
       "title": "Kill a giant rat with Wind …",
       "text": "Kill a giant rat with Wind Strike",
-      "manual": true
+      "manual": true,
+      "world": [
+        3200,
+        3174,
+        0
+      ]
     },
     {
       "id": "e1-018b",
@@ -390,7 +410,12 @@
       "id": "e1-026a",
       "title": "Kill a Chicken",
       "text": "Kill a Chicken",
-      "manual": true
+      "manual": true,
+      "world": [
+        3178,
+        3295,
+        0
+      ]
     },
     {
       "id": "e1-026b",
@@ -451,8 +476,8 @@
       "text": "Bank at Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3093,
+        3244,
         0
       ]
     },
@@ -460,7 +485,12 @@
       "id": "e1-029b",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "e1-030",
@@ -482,7 +512,12 @@
           }
         ]
       },
-      "item": 314
+      "item": 314,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "e1-031",
@@ -607,8 +642,8 @@
       "text": "Bank at Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3093,
+        3244,
         0
       ]
     },
@@ -616,7 +651,12 @@
       "id": "e1-037b",
       "title": "deposit the Garlic & Cheese",
       "text": "deposit the Garlic & Cheese",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "e1-038a",
@@ -697,7 +737,12 @@
       "id": "e1-042",
       "title": "Destroy the lamp. You can collect …",
       "text": "Destroy the lamp. You can collect this later as you can't bank it",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e1-043",
@@ -808,8 +853,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3270,
-        3159,
+        1511,
+        3592,
         0
       ]
     },
@@ -823,7 +868,12 @@
       "id": "e1-052b",
       "title": "buy a Chef's Hat [Cook's guild]",
       "text": "buy a Chef's Hat [Cook's guild]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1520,
+        3589,
+        0
+      ]
     },
     {
       "id": "e1-053",
@@ -863,7 +913,12 @@
           }
         ]
       },
-      "item": 1353
+      "item": 1353,
+      "world": [
+        3229,
+        3204,
+        0
+      ]
     },
     {
       "id": "e1-055a",
@@ -1023,7 +1078,12 @@
       "id": "e1-065b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-066",
@@ -1045,7 +1105,12 @@
           }
         ]
       },
-      "item": 526
+      "item": 526,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-067",
@@ -1152,7 +1217,12 @@
           }
         ]
       },
-      "item": 1757
+      "item": 1757,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-071b",
@@ -1252,7 +1322,12 @@
       "id": "e1-076",
       "title": "Buy a Newspaper from Benny(1,1)",
       "text": "Buy a Newspaper from Benny(1,1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-077",
@@ -1458,9 +1533,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3222,
-        3473,
-        0
+        3208,
+        3494,
+        1
       ]
     },
     {
@@ -1545,7 +1620,12 @@
       "id": "e1-091c",
       "title": "talk to Orlando Smith (1)",
       "text": "talk to Orlando Smith (1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3228,
+        3436,
+        0
+      ]
     },
     {
       "id": "e1-091d",
@@ -1573,7 +1653,12 @@
       "id": "e1-092b",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-093",
@@ -1673,7 +1758,12 @@
       "id": "e1-100",
       "title": "Bank the ashes",
       "text": "Bank the ashes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-101",
@@ -1762,7 +1852,12 @@
           }
         ]
       },
-      "item": 1539
+      "item": 1539,
+      "world": [
+        3207,
+        3415,
+        0
+      ]
     },
     {
       "id": "e1-106",
@@ -1823,7 +1918,12 @@
       "id": "e1-109b",
       "title": "buy 1x Fire/Air/Earth Pack, 2x Water …",
       "text": "buy 1x Fire/Air/Earth Pack, 2x Water Pack, 3x Mind Pack",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-110",
@@ -1877,7 +1977,12 @@
           }
         ]
       },
-      "item": 1059
+      "item": 1059,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-114",
@@ -2107,7 +2212,12 @@
           }
         ]
       },
-      "item": 305
+      "item": 305,
+      "world": [
+        1493,
+        3442,
+        0
+      ]
     },
     {
       "id": "e1-130",
@@ -2152,7 +2262,12 @@
           }
         ]
       },
-      "item": 1765
+      "item": 1765,
+      "world": [
+        1413,
+        2972,
+        0
+      ]
     },
     {
       "id": "e1-133",
@@ -2169,19 +2284,34 @@
       "id": "e1-134a",
       "title": "Bank South",
       "text": "Bank South",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-134b",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-135",
       "title": "Withdraw: 28x Red Eclipse",
       "text": "Withdraw: 28x Red Eclipse",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-136a",
@@ -2199,13 +2329,29 @@
       "id": "e1-136c",
       "title": "sell all 28 at once",
       "text": "sell all 28 at once",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-137a",
       "title": "Head East after selling Eclipse reds",
       "text": "Head East after selling Eclipse reds",
-      "manual": true
+      "world": [
+        3216,
+        3416,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3216,
+        "y": 3416,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-137b",
@@ -2265,7 +2411,18 @@
       "id": "e1-139",
       "title": "Head South to Mistrock & deposit …",
       "text": "Head South to Mistrock & deposit all there",
-      "manual": true
+      "world": [
+        3185,
+        3441,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3185,
+        "y": 3441,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-140",
@@ -2287,19 +2444,34 @@
           }
         ]
       },
-      "item": 1269
+      "item": 1269,
+      "world": [
+        3203,
+        3434,
+        0
+      ]
     },
     {
       "id": "e1-141a",
       "title": "Bank at Mistrock",
       "text": "Bank at Mistrock",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-141b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-142",
@@ -2321,7 +2493,12 @@
           }
         ]
       },
-      "item": 1265
+      "item": 1265,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-143",
@@ -2424,7 +2601,12 @@
       "id": "e1-150b",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "e1-151",
@@ -2446,7 +2628,12 @@
           }
         ]
       },
-      "item": 303
+      "item": 303,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
     },
     {
       "id": "e1-152",
@@ -2468,7 +2655,12 @@
           }
         ]
       },
-      "item": 13658
+      "item": 13658,
+      "world": [
+        3081,
+        3246,
+        0
+      ]
     },
     {
       "id": "e1-153a",
@@ -2571,8 +2763,8 @@
       "text": "Fish Raw Shrimps [Karamja Easy Diary] Drop Shrimps",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2924,
+        3181,
         0
       ]
     },
@@ -2654,7 +2846,12 @@
           }
         ]
       },
-      "item": 2138
+      "item": 2138,
+      "world": [
+        2905,
+        3149,
+        0
+      ]
     },
     {
       "id": "e1-166",
@@ -2817,8 +3014,8 @@
       },
       "item": 1733,
       "world": [
-        2956,
-        3232,
+        2949,
+        3215,
         0
       ]
     },
@@ -2842,7 +3039,12 @@
           }
         ]
       },
-      "item": 1925
+      "item": 1925,
+      "world": [
+        2949,
+        3215,
+        0
+      ]
     },
     {
       "id": "e1-175a",
@@ -2888,7 +3090,12 @@
       "id": "e1-177",
       "title": "Kill a cow & take everything",
       "text": "Kill a cow & take everything",
-      "manual": true
+      "manual": true,
+      "world": [
+        2925,
+        3282,
+        0
+      ]
     },
     {
       "id": "e1-178",
@@ -2927,7 +3134,12 @@
       "id": "e1-180b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3015,
+        3357,
+        0
+      ]
     },
     {
       "id": "e1-181",
@@ -2949,7 +3161,12 @@
           }
         ]
       },
-      "item": 558
+      "item": 558,
+      "world": [
+        3015,
+        3357,
+        0
+      ]
     },
     {
       "id": "e1-182",
@@ -3220,8 +3437,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3053,
-        3251,
+        3224,
+        3398,
         0
       ]
     },
@@ -3251,7 +3468,12 @@
       "id": "e1-200",
       "title": "Bank at East Bank",
       "text": "Bank at East Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-201",
@@ -3273,7 +3495,12 @@
           }
         ]
       },
-      "item": 1927
+      "item": 1927,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-202",
@@ -3434,8 +3661,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2568,
-        3333,
+        2442,
+        3414,
         0
       ]
     },
@@ -3547,8 +3774,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2592,
-        3336,
+        3015,
+        3357,
         0
       ]
     },
@@ -3628,7 +3855,12 @@
           }
         ]
       },
-      "item": 1951
+      "item": 1951,
+      "world": [
+        2905,
+        3149,
+        0
+      ]
     },
     {
       "id": "e1-226c",
@@ -3813,7 +4045,12 @@
       "id": "e1-242",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
     },
     {
       "id": "e1-243",
@@ -3835,7 +4072,12 @@
           }
         ]
       },
-      "item": 558
+      "item": 558,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
     },
     {
       "id": "e1-244",
@@ -3857,7 +4099,12 @@
           }
         ]
       },
-      "item": 6386
+      "item": 6386,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-245",
@@ -3879,13 +4126,23 @@
           }
         ]
       },
-      "item": 2349
+      "item": 2349,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-246",
       "title": "Bank 7 Bronze Bars [keep 3 …",
       "text": "Bank 7 Bronze Bars [keep 3 for Tourist Trap] & 10 Ropes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
     },
     {
       "id": "e1-247",
@@ -3907,13 +4164,23 @@
           }
         ]
       },
-      "item": 1925
+      "item": 1925,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
     },
     {
       "id": "e1-248",
       "title": "Withdraw 12 Wines",
       "text": "Withdraw 12 Wines",
-      "manual": true
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
     },
     {
       "id": "e1-249",
@@ -3992,7 +4259,12 @@
           }
         ]
       },
-      "item": 2349
+      "item": 2349,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-256a",
@@ -4010,13 +4282,23 @@
       "id": "e1-256b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
     },
     {
       "id": "e1-257",
       "title": "Withdraw: Coins",
       "text": "Withdraw: Coins",
-      "manual": true
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
     },
     {
       "id": "e1-258",
@@ -4066,7 +4348,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2553,
+        3080,
+        0
+      ]
     },
     {
       "id": "e1-262a",
@@ -4131,7 +4418,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2656,
+        3152,
+        0
+      ]
     },
     {
       "id": "e1-265a",
@@ -4149,13 +4441,23 @@
       "id": "e1-265b",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        2613,
+        3093,
+        0
+      ]
     },
     {
       "id": "e1-266",
       "title": "Withdraw: Coins, Pickaxe (2 Inventory Spots)",
       "text": "Withdraw: Coins, Pickaxe (2 Inventory Spots)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2613,
+        3093,
+        0
+      ]
     },
     {
       "id": "e1-267",
@@ -4173,7 +4475,12 @@
       "id": "e1-268",
       "title": "Mine 10x Clay on the way",
       "text": "Mine 10x Clay on the way",
-      "manual": true
+      "manual": true,
+      "world": [
+        2630,
+        3143,
+        0
+      ]
     },
     {
       "id": "e1-269",
@@ -4195,7 +4502,12 @@
           }
         ]
       },
-      "item": 1941
+      "item": 1941,
+      "world": [
+        2656,
+        3152,
+        0
+      ]
     },
     {
       "id": "e1-270",
@@ -4223,13 +4535,23 @@
       "id": "e1-271",
       "title": "Deposit all at Bank Chest",
       "text": "Deposit all at Bank Chest",
-      "manual": true
+      "manual": true,
+      "world": [
+        2662,
+        3161,
+        0
+      ]
     },
     {
       "id": "e1-272",
       "title": "Withdraw: Coins (1 Inventory Spot)",
       "text": "Withdraw: Coins (1 Inventory Spot)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2662,
+        3161,
+        0
+      ]
     },
     {
       "id": "e1-273",
@@ -4263,7 +4585,12 @@
       "id": "e1-274",
       "title": "Deposit Inventory",
       "text": "Deposit Inventory",
-      "manual": true
+      "manual": true,
+      "world": [
+        2810,
+        3442,
+        0
+      ]
     },
     {
       "id": "e1-275",
@@ -4285,7 +4612,12 @@
           }
         ]
       },
-      "item": 1937
+      "item": 1937,
+      "world": [
+        2810,
+        3442,
+        0
+      ]
     },
     {
       "id": "e1-276",
@@ -4378,7 +4710,18 @@
       "id": "e1-283a",
       "title": "Head North to the church",
       "text": "Head North to the church",
-      "manual": true
+      "world": [
+        2617,
+        3309,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2617,
+        "y": 3309,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-283b",
@@ -4815,7 +5158,12 @@
       "id": "e1-314",
       "title": "Bank up the ladder",
       "text": "Bank up the ladder",
-      "manual": true
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e1-315",
@@ -4837,7 +5185,12 @@
           }
         ]
       },
-      "item": 946
+      "item": 946,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e1-316",
@@ -4991,19 +5344,34 @@
           }
         ]
       },
-      "item": 1925
+      "item": 1925,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-327a",
       "title": "Bank west",
       "text": "Bank west",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-327b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-328",
@@ -5025,7 +5393,12 @@
           }
         ]
       },
-      "item": 558
+      "item": 558,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e1-329",
@@ -5330,7 +5703,12 @@
           }
         ]
       },
-      "item": 2114
+      "item": 2114,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-351",

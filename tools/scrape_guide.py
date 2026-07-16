@@ -270,15 +270,194 @@ GAZETTEER = {
 }
 
 
-def gazetteer_lookup(loc):
-    if not loc:
+def gazetteer_key(text):
+    """The longest gazetteer place name appearing in the text, or None — i.e. the step's context town."""
+    if not text:
         return None
-    low = loc.lower()
+    low = text.lower()
     best = None
-    for key, xy in GAZETTEER.items():
+    for key in GAZETTEER:
         if key in low and (best is None or len(key) > len(best)):
             best = key
-    return [GAZETTEER[best][0], GAZETTEER[best][1], 0] if best else None
+    return best
+
+
+def gazetteer_lookup(loc):
+    key = gazetteer_key(loc)
+    return [GAZETTEER[key][0], GAZETTEER[key][1], 0] if key else None
+
+
+# --- Amenities: the actual shop/facility inside a town ------------------------
+# "Buy a spade" in Lumbridge should point at the GENERAL STORE, not the town centre. amenities.json
+# (wiki-harvested) maps town -> {amenity/shop name -> [x,y,plane]}; the step's action keyword (or a
+# named shop in the text) picks the facility, the loc/text picks the town.
+AMENITIES = {}
+
+AMENITY_ACTIONS = [
+    (re.compile(r"\b(buy|buys|buying|purchase|sell|selling|shop\s?keeper)\b", re.IGNORECASE), "general store"),
+    (re.compile(r"\b(bank|banker|banking|deposit|withdraw|unnote)\b", re.IGNORECASE), "bank"),
+    (re.compile(r"\b(smelt|furnace)\b", re.IGNORECASE), "furnace"),
+    (re.compile(r"\b(smith|anvil)\b", re.IGNORECASE), "anvil"),
+    (re.compile(r"\b(cook|range)\b", re.IGNORECASE), "range"),
+    (re.compile(r"\b(spin|spinning)\b", re.IGNORECASE), "spinning wheel"),
+    (re.compile(r"\b(altar|pray|prayer|church|priest)\b", re.IGNORECASE), "altar"),
+    (re.compile(r"\bwell\b", re.IGNORECASE), "well"),
+]
+
+_BUY_SELL_RE = re.compile(r"\b(buy|buys|buying|purchase|sell|selling)\b", re.IGNORECASE)
+# words too generic to match a shop name by token ("general store" must not match "store the item")
+_TOKEN_STOP = {"the", "and", "buy", "sell", "from", "for", "your", "some", "then", "with", "into",
+               "out", "all", "you", "get", "now", "them", "they", "this", "that", "run", "use",
+               "shop", "store", "general"}
+
+
+def _dist(a, b):
+    ax, ay = int(a[0]), int(a[1])
+    bx, by = int(b[0]), int(b[1])
+    # Underground regions sit +6400 in y above their surface spot; normalise for DISTANCE ONLY so an
+    # Edgeville anchor sees the Edgeville Dungeon site as near, not 6000 tiles away. (The emitted
+    # coordinate keeps its true underground y.)
+    if ay > 6400:
+        ay -= 6400
+    if by > 6400:
+        by -= 6400
+    return max(abs(ax - bx), abs(ay - by))
+
+
+AMENITY_TOWN_CAP = 100  # tiles: only borrow a town's amenities when the route is actually near it
+
+
+def town_near(anchor):
+    """Nearest amenity-covered town to the anchor coord (route continuity), within a sanity cap."""
+    if not anchor or not AMENITIES:
+        return None
+    best, bd = None, AMENITY_TOWN_CAP + 1
+    for town in AMENITIES:
+        c = GAZETTEER.get(town)
+        if not c:
+            continue
+        d = _dist(anchor, c)
+        if d < bd:
+            best, bd = town, d
+    return best
+
+
+def _shop_by_item(low, spots):
+    """'Buy an axe' + a town with \"bob's brilliant axes\" -> that shop: match the traded item's word
+    against the shop-name tokens (exact, +/-plural, or long-word containment)."""
+    words = {w for w in re.findall(r"[a-z]{3,}", low) if w not in _TOKEN_STOP}
+    if not words:
+        return None
+    best = None
+    for key in spots:
+        for tok in re.findall(r"[a-z]{3,}", key):
+            if tok in _TOKEN_STOP:
+                continue
+            hit = any(w == tok or tok == w + "s" or w == tok + "s"
+                      or (len(w) >= 5 and w in tok) for w in words)
+            if hit and (best is None or len(key) > len(best)):
+                best = key
+                break
+    return best
+
+
+def load_amenities():
+    p = Path(__file__).parent / "data" / "amenities.json"
+    if not p.exists():
+        return 0
+    try:
+        AMENITIES.update(json.loads(p.read_text(encoding="utf-8")))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read amenities.json ({e})", file=sys.stderr)
+        return 0
+    return sum(len(v) for v in AMENITIES.values())
+
+
+def amenity_lookup(name, loc, anchor=None):
+    """Precise facility tile for the step's action, or None. Town comes from the loc hint, the step
+    text, or — route continuity — the nearest amenity town to the previous step's coord. Facility
+    precedence: shop NAMED in the step > shop matching the traded ITEM ("buy an axe" -> the axe shop)
+    > the action keyword's default (buy/sell -> general store, bank -> bank, ...)."""
+    town = gazetteer_key(loc) or gazetteer_key(name) or town_near(anchor)
+    spots = AMENITIES.get(town) if town else None
+    if not spots:
+        return None
+    low = (name or "").lower()
+    best = None
+    for key in spots:  # a named shop/facility mentioned verbatim in the step text
+        if key in low and (best is None or len(key) > len(best)):
+            best = key
+    if best is None and _BUY_SELL_RE.search(low):
+        best = _shop_by_item(low, spots)
+    if best is None:
+        for rx, amen in AMENITY_ACTIONS:  # else the action keyword's default facility
+            if rx.search(low) and amen in spots:
+                best = amen
+                break
+    if best is None:
+        return None
+    xy = spots[best]
+    return [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
+
+
+# --- Resource sites: where you actually mine/chop/fish/kill -------------------
+# resources.json (wiki-harvested) maps a resource ("clay rocks", "oak tree", "fishing shrimp", "cow")
+# to a LIST of sites; the step resolves to the site NEAREST the route's current position (anchor),
+# falling back to the first (most canonical) site.
+RESOURCES = {}
+
+
+def load_resources():
+    p = Path(__file__).parent / "data" / "resources.json"
+    if not p.exists():
+        return 0
+    try:
+        RESOURCES.update(json.loads(p.read_text(encoding="utf-8")))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read resources.json ({e})", file=sys.stderr)
+        return 0
+    return sum(len(v) for v in RESOURCES.values())
+
+
+def _res_match(low, suffix=None, prefix=None, plain=False):
+    """Longest resource key whose term (key minus its class affix) appears as a word in the text."""
+    best = None
+    for k in RESOURCES:
+        if suffix is not None and not k.endswith(suffix):
+            continue
+        if prefix is not None and not k.startswith(prefix):
+            continue
+        if plain and (k.endswith(" rocks") or k.endswith(" tree") or k.startswith("fishing ") or k == "flax"):
+            continue
+        term = k[:-len(suffix)] if suffix else (k[len(prefix):] if prefix else k)
+        if re.search(r"\b" + re.escape(term) + r"s?\b", low):
+            if best is None or len(term) > len(best[0]):
+                best = (term, k)
+    return best[1] if best else None
+
+
+def resource_lookup(name, anchor=None):
+    """Nearest gathering/combat site for the step's verb+resource, or None. Verb-gated so
+    "buy a lobster" never points at a fishing spot."""
+    if not RESOURCES:
+        return None
+    low = (name or "").lower()
+    key = None
+    if re.search(r"\b(mine|mining)\b", low):
+        key = _res_match(low, suffix=" rocks")
+    elif re.search(r"\b(chop|cut|woodcut|woodcutting)\b", low):
+        key = _res_match(low, suffix=" tree")
+    elif re.search(r"\b(fish|fishing|catch)\b", low):
+        key = _res_match(low, prefix="fishing ")
+    elif re.search(r"\b(kill|slay|attack|fight|farm)\b", low):
+        key = _res_match(low, plain=True)
+    elif "flax" in low and re.search(r"\b(pick|get|collect|grab)\b", low):
+        key = "flax" if "flax" in RESOURCES else None
+    sites = RESOURCES.get(key) if key else None
+    if not sites:
+        return None
+    best = min(sites, key=lambda s: _dist(s, anchor)) if anchor else sites[0]
+    return [int(best[0]), int(best[1]), int(best[2]) if len(best) > 2 else 0]
 
 
 def load_location_coords():
@@ -451,7 +630,7 @@ TRAVEL_RADIUS = 8  # tiles; wide enough to register an area arrival, tight enoug
 
 
 def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative, total_needed, entities,
-               sub=None):
+               sub=None, anchor=None):
     sid = f"{prefix}-{position:03d}" if isinstance(position, int) else f"{prefix}-{position}"
     if sub:
         sid = f"{sid}{sub}"  # atom of a split step (a/b/c…) — keeps ids unique + stable
@@ -482,8 +661,14 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     # text ("go to Falador" -> Falador centre). This fills the "no clickable spot" steps.
     enrich_entity(step, name, step.get("complete", {}).get("op"), item_id, entities)
     if "world" not in step:
-        # loc-hint (guide's own per-step location) > quest-start tile > any place named in the text.
-        world = gazetteer_lookup(loc)
+        # amenity (the actual shop/facility for the action) > resource site (mine/chop/fish/kill,
+        # nearest to the route's current position) > loc-hint centre > quest-start tile > any place
+        # named in the text.
+        world = amenity_lookup(name, loc, anchor)
+        if not world:
+            world = resource_lookup(name, anchor)
+        if not world:
+            world = gazetteer_lookup(loc)
         cq = step.get("complete", {})
         if not world and cq.get("op") == "quest":
             qs = QUEST_START_BY_CONST.get(cq.get("quest"))
@@ -513,10 +698,12 @@ def main():
     quest_map = load_quest_map()
     load_location_coords()
     nqs = load_quest_start(quest_map)
+    nam = load_amenities()
+    nres = load_resources()
     entities = load_qh_entities()
     print(f"loaded {len(item_map)} item names, {len(quest_map)} quest names, {len(GAZETTEER)} "
-          f"locations, {nqs} quest-start tiles, {len(entities['npcs'])} npcs + "
-          f"{len(entities['objects'])} objects (QH refs)")
+          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, "
+          f"{len(entities['npcs'])} npcs + {len(entities['objects'])} objects (QH refs)")
 
     # Fetch every section first (need all steps to total the item needs before building).
     sections = []
@@ -545,6 +732,7 @@ def main():
     index = {"_comment": "Auto-generated by tools/scrape_guide.py. Ordered section files.",
              "sections": []}
     cumulative = {}
+    anchor = None  # the route's current position, threaded across ALL sections (route continuity)
     grand_total = grand_skill = grand_quest = grand_item = grand_world = grand_entity = 0
     for (order, slug, display, prefix, url, raw) in sections:
         steps = []
@@ -554,8 +742,11 @@ def main():
             atoms = split_atoms(name)
             for i, atom in enumerate(atoms):
                 sub = None if len(atoms) == 1 else (chr(97 + i) if i < 26 else str(i))
-                steps.append(build_step(prefix, pos, atom, loc, u, item_map, quest_map,
-                                        cumulative, total_needed, entities, sub=sub))
+                built = build_step(prefix, pos, atom, loc, u, item_map, quest_map,
+                                   cumulative, total_needed, entities, sub=sub, anchor=anchor)
+                steps.append(built)
+                if "world" in built:
+                    anchor = built["world"]  # route continuity: the next step resolves near here
 
         def _kind(s):
             return s.get("complete", {}).get("op")

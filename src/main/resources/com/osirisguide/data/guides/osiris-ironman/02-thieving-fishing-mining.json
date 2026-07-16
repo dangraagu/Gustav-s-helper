@@ -28,8 +28,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3290,
-        3185,
+        3302,
+        3211,
         0
       ]
     },
@@ -39,8 +39,8 @@
       "text": "Smelt the 5 silver\nLocation: Al Kharid",
       "manual": true,
       "world": [
-        3290,
-        3185,
+        3273,
+        3187,
         0
       ]
     },
@@ -96,8 +96,8 @@
         "cmp": ">="
       },
       "world": [
-        3358,
-        2974,
+        3359,
+        2957,
         0
       ]
     },
@@ -160,8 +160,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2849,
-        2972,
+        2871,
+        2969,
         0
       ]
     },
@@ -176,8 +176,8 @@
         "cmp": ">="
       },
       "world": [
-        2849,
-        2972,
+        2855,
+        2974,
         0
       ]
     },
@@ -446,8 +446,8 @@
       "text": "Get 2 buckets of sap from this tree near falador east bank\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        3015,
+        3357,
         0
       ]
     },
@@ -457,8 +457,8 @@
       "text": "Buy addy and rune picks from the pickaxe shop in the mines\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2957,
+        3388,
         0
       ]
     },
@@ -479,8 +479,8 @@
       "text": "Buy a Celestial Ring from Dusuri's Star Shop in Falador (2,000 stardust) for\nLocation: Various",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        3022,
+        3342,
         0
       ]
     },
@@ -490,8 +490,8 @@
       "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba\nLocation: Ardougne Monastery",
       "manual": true,
       "world": [
-        2606,
-        3211,
+        3033,
+        9737,
         0
       ]
     }

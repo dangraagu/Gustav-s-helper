@@ -13,8 +13,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3210,
-        3448,
+        3216,
+        3416,
         0
       ]
     },
@@ -24,8 +24,8 @@
       "text": "Smith 3 bronze wire\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3228,
+        3436,
         0
       ]
     },
@@ -51,8 +51,8 @@
       },
       "item": 845,
       "world": [
-        3210,
-        3448,
+        3236,
+        3425,
         0
       ]
     },
@@ -66,9 +66,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3210,
-        3448,
-        0
+        3208,
+        3494,
+        1
       ]
     },
     {
@@ -162,8 +162,8 @@
       },
       "item": 383,
       "world": [
-        3493,
-        3488,
+        3477,
+        3497,
         0
       ]
     },
@@ -216,8 +216,8 @@
       "text": "Kill the nearby ram, bear and unicorn for their bones (Rag and bone man quest)\nLocation: Champions Guild",
       "manual": true,
       "world": [
-        3191,
-        3357,
+        3283,
+        3355,
         0
       ]
     },
@@ -284,8 +284,8 @@
       "text": "Kill a goblin for the bone for rag and bone man\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3198,
+        3255,
         0
       ]
     },
@@ -359,8 +359,8 @@
       "text": "Bank at Draynor\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3093,
+        3244,
         0
       ]
     },
@@ -374,8 +374,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2840,
-        3358,
+        2853,
+        3348,
         0
       ]
     },
@@ -483,8 +483,8 @@
       },
       "item": 5096,
       "world": [
-        3103,
-        3265,
+        3078,
+        3251,
         0
       ]
     },
@@ -529,8 +529,8 @@
       "text": "Kill 2 cows\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3255,
+        3278,
         0
       ]
     },
@@ -551,8 +551,8 @@
       "text": "Smelt 1 inv of gold, should have from wintertodt\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3227,
+        3257,
         0
       ]
     },
@@ -806,8 +806,8 @@
       "text": "use it on a range (This is for\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3212,
+        3215,
         0
       ]
     },
@@ -859,8 +859,8 @@
       },
       "item": 8880,
       "world": [
-        3169,
-        3172,
+        2718,
+        5313,
         0
       ]
     },
@@ -886,8 +886,8 @@
       },
       "item": 4548,
       "world": [
-        3169,
-        3172,
+        2721,
+        5322,
         0
       ]
     },
@@ -1062,8 +1062,8 @@
       },
       "item": 1071,
       "world": [
-        3290,
-        3185,
+        3315,
+        3182,
         0
       ]
     },
@@ -1185,8 +1185,8 @@
       },
       "item": 1925,
       "world": [
-        2653,
-        3159,
+        2656,
+        3152,
         0
       ]
     },
@@ -1556,8 +1556,8 @@
       },
       "item": 444,
       "world": [
-        2728,
-        3714,
+        2930,
+        10197,
         0
       ]
     },
@@ -1601,8 +1601,8 @@
         "cmp": ">="
       },
       "world": [
-        3165,
-        3490,
+        2729,
+        3481,
         0
       ]
     },
@@ -1612,8 +1612,8 @@
       "text": "Buy more seeds from Olivia at Draynor for birdhouses if needed\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3078,
+        3251,
         0
       ]
     },

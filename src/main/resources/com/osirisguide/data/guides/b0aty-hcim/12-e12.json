@@ -396,13 +396,23 @@
       "id": "e12-034",
       "title": "Bank all",
       "text": "Bank all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e12-035",
       "title": "Withdraw: Blood Moon & Dual Macahuitl’s, …",
       "text": "Withdraw: Blood Moon & Dual Macahuitl’s, combat potions & food",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e12-036",
@@ -478,7 +488,12 @@
           }
         ]
       },
-      "item": 526
+      "item": 526,
+      "world": [
+        2968,
+        3379,
+        0
+      ]
     },
     {
       "id": "e12-041",
@@ -979,7 +994,12 @@
           }
         ]
       },
-      "item": 1271
+      "item": 1271,
+      "world": [
+        1487,
+        3593,
+        0
+      ]
     },
     {
       "id": "e12-079",
@@ -1025,7 +1045,12 @@
       "id": "e12-084",
       "title": "As mentioned earlier, you can blow …",
       "text": "As mentioned earlier, you can blow this glass at Auburn & complete 2 totems nearby for passive fletching experience while bank standing & also unlocking the Vale Totem items passively. Use Maple Logs until you unlock Yew Logs from Zulrah",
-      "manual": true
+      "manual": true,
+      "world": [
+        1487,
+        3593,
+        0
+      ]
     },
     {
       "id": "e12-085",
@@ -1081,7 +1106,12 @@
       "id": "e12-088",
       "title": "Sell Chaos & Death Runes for …",
       "text": "Sell Chaos & Death Runes for Onyx’s (260,000 tokkul per onyx)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
     },
     {
       "id": "e12-089",
