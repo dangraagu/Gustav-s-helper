@@ -10,7 +10,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_FEUD",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "npc": 3533,
       "world": [
@@ -328,7 +328,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_GOLEM",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3209,

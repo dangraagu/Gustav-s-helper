@@ -663,7 +663,7 @@
       "complete": {
         "op": "quest",
         "quest": "PERILOUS_MOONS",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         1435,
@@ -787,11 +787,14 @@
       "id": "e6-063",
       "title": "Start A Great Brain Robbery & …",
       "text": "Start A Great Brain Robbery & plant Watermelons in the patch on Harmony Island",
-      "manual": true,
-      "npc": 550,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GREAT_BRAIN_ROBBERY",
+        "state": "IN_PROGRESS"
+      },
       "world": [
-        3681,
-        2963,
+        3710,
+        3496,
         0
       ]
     },

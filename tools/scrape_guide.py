@@ -303,25 +303,36 @@ def load_quest_start(quest_map):
     return n
 
 
+_QUEST_START_VERB_RE = re.compile(r"^\s*(start|begin)\b", re.IGNORECASE)
+
+
 def detect_quest(text: str, quest_map):
     """
-    If a quest's display name appears in the step, complete the step when that quest is FINISHED.
-    Dynamic: for an existing account this also auto-skips a quest AND its prep steps once it's done.
-    Longest name wins. Punctuation is normalised on both sides so "Cook's Assistant" matches.
+    If a quest's display name appears in the step, complete the step when that quest is done.
+    Dynamic: for an existing account this auto-skips a quest AND its prep/start steps once it's done.
+    Longest name wins. Punctuation is normalised on both sides so "Cook's Assistant" matches, and a
+    leading "The" is optional so the guide's "Restless ghost" still matches "The Restless Ghost".
+    A "Start <quest>" step uses IN_PROGRESS (started OR finished); other steps use FINISHED.
     """
     if not quest_map:
         return None
     padded = _norm(text)
-    best_norm, best_const = None, None
+    best_len, best_const = 0, None
     for name, const in quest_map.items():
-        nn = _norm(name)  # _norm handles "&" -> "and" so "Romeo & Juliet" matches either spelling
-        if len(nn.strip()) < 4:
-            continue
-        if nn in padded and (best_norm is None or len(nn) > len(best_norm)):
-            best_norm, best_const = nn, const
+        nn = _norm(name)  # " the restless ghost " ; _norm also maps "&" -> "and"
+        cands = [nn]
+        if nn.startswith(" the ") and len(nn) - 5 >= 6:
+            cands.append(" " + nn[5:])  # article-optional: " restless ghost "
+        for cand in cands:
+            core = cand.strip()
+            if len(core) < 4:
+                continue
+            if cand in padded and len(core) > best_len:
+                best_len, best_const = len(core), const
     if best_const is None:
         return None
-    return {"op": "quest", "quest": best_const, "state": "FINISHED"}
+    state = "IN_PROGRESS" if _QUEST_START_VERB_RE.match(text or "") else "FINISHED"
+    return {"op": "quest", "quest": best_const, "state": state}
 
 
 # --- Location gazetteer (approximate area centres) ---------------------------

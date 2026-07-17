@@ -44,7 +44,7 @@
       "complete": {
         "op": "quest",
         "quest": "LUNAR_DIPLOMACY",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2620,
@@ -381,7 +381,7 @@
       "complete": {
         "op": "quest",
         "quest": "MAKING_FRIENDS_WITH_MY_ARM",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2839,

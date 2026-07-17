@@ -78,7 +78,7 @@
       "complete": {
         "op": "quest",
         "quest": "DEFENDER_OF_VARROCK",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3283,

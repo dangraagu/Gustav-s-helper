@@ -189,7 +189,7 @@
       "complete": {
         "op": "quest",
         "quest": "ENLIGHTENED_JOURNEY",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3047,
@@ -209,12 +209,12 @@
       "text": "Do Eyes of glouphrie and Tower of life\nLocation: Gnome Stronghold",
       "complete": {
         "op": "quest",
-        "quest": "TOWER_OF_LIFE",
+        "quest": "THE_EYES_OF_GLOUPHRIE",
         "state": "FINISHED"
       },
       "world": [
-        2637,
-        3218,
+        2404,
+        3419,
         0
       ]
     },
@@ -224,8 +224,8 @@
       "text": "Smith the rest of your iron dart tips, leave 20 bars for quests\nLocation: Various",
       "manual": true,
       "world": [
-        2652,
-        3164,
+        2501,
+        3330,
         0
       ]
     },
@@ -709,7 +709,11 @@
       "id": "sg-050",
       "title": "Do Hand in the sand quest",
       "text": "Do Hand in the sand quest\nLocation: Yanille",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_HAND_IN_THE_SAND",
+        "state": "FINISHED"
+      },
       "world": [
         2551,
         3099,

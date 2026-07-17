@@ -253,7 +253,7 @@
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2836,
@@ -343,7 +343,7 @@
       "complete": {
         "op": "quest",
         "quest": "ICTHLARINS_LITTLE_HELPER",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3316,
@@ -595,7 +595,7 @@
       "complete": {
         "op": "quest",
         "quest": "CURRENT_AFFAIRS",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2803,

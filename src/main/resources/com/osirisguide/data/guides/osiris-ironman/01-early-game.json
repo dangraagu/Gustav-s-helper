@@ -88,7 +88,7 @@
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3228,
@@ -324,11 +324,14 @@
       "id": "eg-019",
       "title": "Start Restless ghost by talking to …",
       "text": "Start Restless ghost by talking to Father Aereck\nLocation: Lumbridge",
-      "manual": true,
-      "npc": 2812,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "IN_PROGRESS"
+      },
       "world": [
-        3244,
-        3210,
+        3243,
+        3206,
         0
       ]
     },
@@ -614,7 +617,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2978,
@@ -1300,7 +1303,11 @@
       "id": "eg-074",
       "title": "Talk to the ghost for Restless …",
       "text": "Talk to the ghost for Restless ghost quest\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
       "world": [
         3250,
         3193,
@@ -1669,7 +1676,7 @@
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3148,
@@ -1752,7 +1759,7 @@
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3204,
@@ -2486,11 +2493,14 @@
       "id": "eg-141",
       "title": "Give the pie to Thurgo, and …",
       "text": "Give the pie to Thurgo, and ask about Knight's sword\nLocation: Mudskipper Point",
-      "manual": true,
-      "npc": 4733,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
-        3000,
-        3145,
+        2978,
+        3341,
         0
       ]
     },
@@ -2675,7 +2685,7 @@
       "complete": {
         "op": "quest",
         "quest": "PRINCE_ALI_RESCUE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3298,
@@ -3641,7 +3651,11 @@
       "id": "eg-206",
       "title": "Start Grand tree",
       "text": "Start Grand tree\nLocation: Gnome Stronghold",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "IN_PROGRESS"
+      },
       "npc": 8019,
       "world": [
         2466,
@@ -3757,7 +3771,7 @@
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3053,
@@ -3920,7 +3934,7 @@
       "complete": {
         "op": "quest",
         "quest": "BIOHAZARD",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2592,
@@ -4018,7 +4032,7 @@
       "complete": {
         "op": "quest",
         "quest": "MERLINS_CRYSTAL",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2763,
@@ -4136,7 +4150,7 @@
       "complete": {
         "op": "quest",
         "quest": "FISHING_CONTEST",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2821,
@@ -4425,7 +4439,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_LOST_TRIBE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3209,
@@ -4454,11 +4468,14 @@
       "id": "eg-259",
       "title": "Continue Lost tribe until you need …",
       "text": "Continue Lost tribe until you need to go to the goblin village\nLocation: Varrock",
-      "manual": true,
-      "object": 23,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
       "world": [
-        2962,
-        3506,
+        3209,
+        3216,
         0
       ]
     },
@@ -4735,7 +4752,7 @@
       "complete": {
         "op": "quest",
         "quest": "HOLY_GRAIL",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2763,
@@ -4835,7 +4852,11 @@
       "id": "eg-283",
       "title": "Continue Lost tribe",
       "text": "Continue Lost tribe\nLocation: Goblin Village",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
       "world": [
         3209,
         3216,
@@ -4857,7 +4878,11 @@
       "id": "eg-285",
       "title": "Finish Lost tribe",
       "text": "Finish Lost tribe\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
       "world": [
         3209,
         3216,

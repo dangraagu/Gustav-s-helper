@@ -55,7 +55,7 @@
       "complete": {
         "op": "quest",
         "quest": "GETTING_AHEAD",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         1248,
@@ -575,7 +575,7 @@
       "complete": {
         "op": "quest",
         "quest": "FISHING_CONTEST",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2821,
@@ -1016,7 +1016,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_GOLEM",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3209,
@@ -1400,7 +1400,11 @@
       "id": "e3-094",
       "title": "Make sure to do the steps …",
       "text": "Make sure to do the steps for Dragon Slayer and Ides of Milk here",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_IDES_OF_MILK",
+        "state": "FINISHED"
+      },
       "world": [
         3171,
         3277,
@@ -1633,7 +1637,7 @@
       "complete": {
         "op": "quest",
         "quest": "RECRUITMENT_DRIVE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2955,
@@ -1960,7 +1964,11 @@
       "id": "e3-130",
       "title": "Start Fremennik Trials Quest",
       "text": "Start Fremennik Trials Quest",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "IN_PROGRESS"
+      },
       "world": [
         2659,
         3670,
@@ -2117,8 +2125,11 @@
       "id": "e3-143",
       "title": "Talk to Mord Gunnars to start …",
       "text": "Talk to Mord Gunnars to start Fremennik Isles (3)",
-      "manual": true,
-      "npc": 1900,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_ISLES",
+        "state": "FINISHED"
+      },
       "world": [
         2644,
         3709,
@@ -2642,9 +2653,10 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
+      "object": 4913,
       "world": [
-        3102,
-        3557,
+        3440,
+        3232,
         0
       ]
     },
@@ -2803,7 +2815,7 @@
       "complete": {
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3270,
@@ -3021,11 +3033,14 @@
       "id": "e3-200",
       "title": "Continue Lost Tribe until needing to …",
       "text": "Continue Lost Tribe until needing to go to Goblin Village",
-      "manual": true,
-      "object": 23,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
       "world": [
-        2962,
-        3506,
+        3209,
+        3216,
         0
       ]
     },
@@ -3150,7 +3165,11 @@
       "id": "e3-207",
       "title": "Complete Lost Tribe",
       "text": "Complete Lost Tribe",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
       "world": [
         3209,
         3216,
@@ -3622,10 +3641,14 @@
       "id": "e3-241",
       "title": "Use Knife on Tree for 2x …",
       "text": "Use Knife on Tree for 2x Bucket of Sap [Eyes of Glouphrie][Ichthlarin’s Little Helper]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_EYES_OF_GLOUPHRIE",
+        "state": "FINISHED"
+      },
       "world": [
-        3492,
-        3474,
+        2404,
+        3419,
         0
       ]
     },
@@ -5205,7 +5228,7 @@
       "complete": {
         "op": "quest",
         "quest": "SPIRITS_OF_THE_ELID",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3443,

@@ -67,10 +67,14 @@
       "id": "e2-004",
       "title": "Continue Grand Tree",
       "text": "Continue Grand Tree",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
       "world": [
-        3195,
-        3404,
+        2466,
+        3495,
         0
       ]
     },
@@ -78,10 +82,14 @@
       "id": "e2-005a",
       "title": "During Grand Tree, Kill Foreman",
       "text": "During Grand Tree, Kill Foreman",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
       "world": [
-        3204,
-        3424,
+        2466,
+        3495,
         0
       ]
     },
@@ -248,13 +256,27 @@
       "id": "e2-016",
       "title": "Complete Grand Tree",
       "text": "Complete Grand Tree",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
     },
     {
       "id": "e2-017a",
       "title": "Bank",
       "text": "Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e2-017b",
@@ -262,9 +284,9 @@
       "text": "deposit inventory",
       "manual": true,
       "world": [
-        2129,
-        5682,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
@@ -287,7 +309,12 @@
           }
         ]
       },
-      "item": 1759
+      "item": 1759,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e2-019",
@@ -305,7 +332,11 @@
       "id": "e2-020",
       "title": "Complete Restless Ghost",
       "text": "Complete Restless Ghost",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
       "world": [
         3243,
         3206,
@@ -937,7 +968,11 @@
       "id": "e2-057",
       "title": "Complete Queen of Thieves",
       "text": "Complete Queen of Thieves",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_QUEEN_OF_THIEVES",
+        "state": "FINISHED"
+      },
       "world": [
         1796,
         3781,
@@ -2282,7 +2317,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_FEUD",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3209,
@@ -3149,22 +3184,10 @@
       "title": "Buy a Mud Rune with your …",
       "text": "Buy a Mud Rune with your Pizazz points [Eyes of Glouphrie]",
       "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 4698,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 4698,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
+        "op": "quest",
+        "quest": "THE_EYES_OF_GLOUPHRIE",
+        "state": "FINISHED"
       },
-      "item": 4698,
       "world": [
         3253,
         3402,
@@ -3493,7 +3516,7 @@
       "complete": {
         "op": "quest",
         "quest": "TAI_BWO_WANNAI_TRIO",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2782,
@@ -3624,7 +3647,7 @@
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2836,
@@ -3949,7 +3972,7 @@
       "complete": {
         "op": "quest",
         "quest": "HOLY_GRAIL",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2763,
@@ -4510,7 +4533,7 @@
       "complete": {
         "op": "quest",
         "quest": "NATURE_SPIRIT",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3405,
@@ -4537,7 +4560,7 @@
       "complete": {
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3492,
@@ -4600,22 +4623,10 @@
       "title": "Buy a raw shark [Fremennik Trials]",
       "text": "Buy a raw shark [Fremennik Trials]",
       "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 383,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 383,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
       },
-      "item": 383,
       "world": [
         3489,
         3297,
@@ -5011,7 +5022,7 @@
       "complete": {
         "op": "quest",
         "quest": "LOST_CITY",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3151,
@@ -5241,7 +5252,16 @@
       "id": "e2-331",
       "title": "Chop 5 Branches [Fremennik Trials/RFD]",
       "text": "Chop 5 Branches [Fremennik Trials/RFD]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3669,
+        0
+      ]
     },
     {
       "id": "e2-332",
@@ -6127,11 +6147,14 @@
       "id": "e2-386",
       "title": "Talk to Gillie Groats (3) [Ides …",
       "text": "Talk to Gillie Groats (3) [Ides of Milk]",
-      "manual": true,
-      "npc": 4628,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_IDES_OF_MILK",
+        "state": "FINISHED"
+      },
       "world": [
-        3253,
-        3270,
+        3171,
+        3277,
         0
       ]
     },
@@ -6139,11 +6162,14 @@
       "id": "e2-387",
       "title": "Talk to Seth Groats again (3) …",
       "text": "Talk to Seth Groats again (3) [Ides of Milk]",
-      "manual": true,
-      "npc": 1351,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_IDES_OF_MILK",
+        "state": "FINISHED"
+      },
       "world": [
-        3228,
-        3291,
+        3171,
+        3277,
         0
       ]
     },
@@ -6512,7 +6538,7 @@
       "complete": {
         "op": "quest",
         "quest": "ELEMENTAL_WORKSHOP_I",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2716,
@@ -7173,13 +7199,31 @@
       "id": "e2-455",
       "title": "Start Garden of Death -> Fairy …",
       "text": "Start Garden of Death -> Fairy Ring DJR to Boaty",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GARDEN_OF_DEATH",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        1314,
+        3470,
+        0
+      ]
     },
     {
       "id": "e2-456",
       "title": "Complete Garden of Death (Lizardmen don't …",
       "text": "Complete Garden of Death (Lizardmen don't hit anything really)",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GARDEN_OF_DEATH",
+        "state": "FINISHED"
+      },
+      "world": [
+        1314,
+        3470,
+        0
+      ]
     },
     {
       "id": "e2-457",
@@ -7187,8 +7231,8 @@
       "text": "Use Antique Lamp on Farming",
       "manual": true,
       "world": [
-        2624,
-        3300,
+        1314,
+        3470,
         0
       ]
     },
@@ -7799,8 +7843,11 @@
       "id": "e2-504",
       "title": "Start Giant Dwarf Quest to access …",
       "text": "Start Giant Dwarf Quest to access Keldagrim",
-      "manual": true,
-      "object": 5008,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "IN_PROGRESS"
+      },
       "world": [
         2732,
         3713,
@@ -9228,25 +9275,13 @@
       "title": "OPTIONAL: Buy 22 Baskets, fill with …",
       "text": "OPTIONAL: Buy 22 Baskets, fill with oranges at Grand Tree to protect Maples",
       "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 5376,
-            "qty": 22
-          },
-          {
-            "op": "item",
-            "id": 5376,
-            "qty": 22,
-            "scope": "ANY"
-          }
-        ]
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
       },
-      "item": 5376,
       "world": [
-        3165,
-        3490,
+        2466,
+        3495,
         0
       ]
     },
