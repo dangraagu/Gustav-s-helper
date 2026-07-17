@@ -38,18 +38,18 @@
         "of": [
           {
             "op": "itemAcquired",
-            "id": 845,
+            "id": 839,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 845,
+            "id": 839,
             "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 845,
+      "item": 839,
       "world": [
         3236,
         3425,
@@ -1039,18 +1039,18 @@
         "of": [
           {
             "op": "itemAcquired",
-            "id": 1121,
+            "id": 1115,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 1121,
+            "id": 1115,
             "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 1121,
+      "item": 1115,
       "npc": 2882,
       "world": [
         3229,

@@ -1265,18 +1265,18 @@
         "of": [
           {
             "op": "itemAcquired",
-            "id": 1379,
+            "id": 1381,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 1379,
-            "qty": 10,
+            "id": 1381,
+            "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 1379,
+      "item": 1381,
       "npc": 2880,
       "world": [
         3202,
@@ -1475,7 +1475,23 @@
       "id": "e1-076",
       "title": "Buy a Newspaper from Benny(1,1)",
       "text": "Buy a Newspaper from Benny(1,1)",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 11171,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 11171,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 11171,
       "world": [
         3216,
         3416,
@@ -1669,7 +1685,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 36,
+            "qty": 31,
             "scope": "ANY"
           }
         ]
@@ -3426,7 +3442,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 36,
+            "qty": 31,
             "scope": "ANY"
           }
         ]
@@ -3658,18 +3674,18 @@
         "of": [
           {
             "op": "itemAcquired",
-            "id": 6020,
+            "id": 1793,
             "qty": 6
           },
           {
             "op": "item",
-            "id": 6020,
+            "id": 1793,
             "qty": 6,
             "scope": "ANY"
           }
         ]
       },
-      "item": 6020,
+      "item": 1793,
       "npc": 3651,
       "world": [
         2999,
@@ -4661,7 +4677,7 @@
           {
             "op": "item",
             "id": 1925,
-            "qty": 36,
+            "qty": 31,
             "scope": "ANY"
           }
         ]
@@ -5969,18 +5985,18 @@
         "of": [
           {
             "op": "itemAcquired",
-            "id": 1925,
-            "qty": 12
+            "id": 2015,
+            "qty": 5
           },
           {
             "op": "item",
-            "id": 1925,
-            "qty": 36,
+            "id": 2015,
+            "qty": 5,
             "scope": "ANY"
           }
         ]
       },
-      "item": 1925,
+      "item": 2015,
       "world": [
         3216,
         3416,

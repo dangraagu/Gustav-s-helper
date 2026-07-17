@@ -1,0 +1,2007 @@
+{
+  "fortunato": {
+    "shop": "Wine Shop.",
+    "npc": 1260,
+    "items": [
+      {
+        "name": "jug of wine",
+        "id": 1993
+      },
+      {
+        "name": "jug",
+        "id": 1935
+      },
+      {
+        "name": "empty jug pack",
+        "id": 20742
+      },
+      {
+        "name": "bottle of wine",
+        "id": 7919
+      },
+      {
+        "name": "jug of vinegar",
+        "id": 7810
+      },
+      {
+        "name": "empty wine bottle",
+        "id": 7921
+      }
+    ]
+  },
+  "horvik": {
+    "shop": "Horvik's Armour Shop.",
+    "npc": 2882,
+    "items": [
+      {
+        "name": "bronze chainbody",
+        "id": 1103
+      },
+      {
+        "name": "iron chainbody",
+        "id": 1101
+      },
+      {
+        "name": "steel chainbody",
+        "id": 1105
+      },
+      {
+        "name": "mithril chainbody",
+        "id": 1109
+      },
+      {
+        "name": "bronze platebody",
+        "id": 1117
+      },
+      {
+        "name": "iron platebody",
+        "id": 1115
+      },
+      {
+        "name": "steel platebody",
+        "id": 1119
+      },
+      {
+        "name": "black platebody",
+        "id": 1125
+      },
+      {
+        "name": "mithril platebody",
+        "id": 1121
+      },
+      {
+        "name": "iron platelegs",
+        "id": 1067
+      },
+      {
+        "name": "studded body",
+        "id": 1133
+      },
+      {
+        "name": "studded chaps",
+        "id": 1097
+      }
+    ]
+  },
+  "zaff": {
+    "shop": "Zaff's Superior Staffs!",
+    "npc": 2880,
+    "items": [
+      {
+        "name": "battlestaff",
+        "id": 1391
+      },
+      {
+        "name": "staff",
+        "id": 1379
+      },
+      {
+        "name": "magic staff",
+        "id": 1389
+      },
+      {
+        "name": "staff of air",
+        "id": 1381
+      },
+      {
+        "name": "staff of water",
+        "id": 1383
+      },
+      {
+        "name": "staff of earth",
+        "id": 1385
+      },
+      {
+        "name": "staff of fire",
+        "id": 1387
+      }
+    ]
+  },
+  "diango": {
+    "shop": "Diango's Toy Store",
+    "npc": 8693,
+    "items": [
+      {
+        "name": "brown toy horsey",
+        "id": 2520
+      },
+      {
+        "name": "white toy horsey",
+        "id": 2522
+      },
+      {
+        "name": "black toy horsey",
+        "id": 2524
+      },
+      {
+        "name": "grey toy horsey",
+        "id": 2526
+      },
+      {
+        "name": "teleport card",
+        "id": 13658
+      },
+      {
+        "name": "disk of returning",
+        "id": 981
+      }
+    ]
+  },
+  "olivia": {
+    "shop": "Draynor Seed Market",
+    "npc": 500,
+    "items": [
+      {
+        "name": "potato seed",
+        "id": 5318
+      },
+      {
+        "name": "onion seed",
+        "id": 5319
+      },
+      {
+        "name": "cabbage seed",
+        "id": 5324
+      },
+      {
+        "name": "tomato seed",
+        "id": 5322
+      },
+      {
+        "name": "sweetcorn seed",
+        "id": 5320
+      },
+      {
+        "name": "strawberry seed",
+        "id": 5323
+      },
+      {
+        "name": "watermelon seed",
+        "id": 5321
+      },
+      {
+        "name": "barley seed",
+        "id": 5305
+      },
+      {
+        "name": "jute seed",
+        "id": 5306
+      },
+      {
+        "name": "rosemary seed",
+        "id": 5097
+      },
+      {
+        "name": "marigold seed",
+        "id": 5096
+      },
+      {
+        "name": "hammerstone seed",
+        "id": 5307
+      },
+      {
+        "name": "asgarnian seed",
+        "id": 5308
+      },
+      {
+        "name": "yanillian seed",
+        "id": 5309
+      },
+      {
+        "name": "krandorian seed",
+        "id": 5310
+      },
+      {
+        "name": "wildblood seed",
+        "id": 5311
+      }
+    ]
+  },
+  "razmire": {
+    "shop": "Razmire Keelgan",
+    "npc": 1290,
+    "items": [
+      {
+        "name": "pot",
+        "id": 1931
+      },
+      {
+        "name": "jug",
+        "id": 1935
+      },
+      {
+        "name": "empty jug pack",
+        "id": 20742
+      },
+      {
+        "name": "shears",
+        "id": 1735
+      },
+      {
+        "name": "bucket",
+        "id": 1925
+      },
+      {
+        "name": "empty bucket pack",
+        "id": 22660
+      },
+      {
+        "name": "tinderbox",
+        "id": 590
+      },
+      {
+        "name": "chisel",
+        "id": 1755
+      },
+      {
+        "name": "hammer",
+        "id": 2347
+      },
+      {
+        "name": "olive oil(4)",
+        "id": 3422
+      },
+      {
+        "name": "olive oil pack",
+        "id": 12857
+      },
+      {
+        "name": "vial of water",
+        "id": 227
+      },
+      {
+        "name": "water-filled vial pack",
+        "id": 11879
+      },
+      {
+        "name": "pot of flour",
+        "id": 1933
+      },
+      {
+        "name": "flamtaer hammer",
+        "id": 3678
+      },
+      {
+        "name": "limestone",
+        "id": 3211
+      },
+      {
+        "name": "limestone brick",
+        "id": 3420
+      },
+      {
+        "name": "timber beam",
+        "id": 8837
+      },
+      {
+        "name": "swamp paste",
+        "id": 1941
+      },
+      {
+        "name": "plank",
+        "id": 960
+      }
+    ]
+  },
+  "benny": {
+    "shop": "Benny",
+    "npc": 5216,
+    "items": [
+      {
+        "name": "newspaper",
+        "id": 11171
+      }
+    ]
+  },
+  "wyson": {
+    "shop": "Wyson the gardener",
+    "npc": 5422,
+    "items": [
+      {
+        "name": "woad leaf",
+        "id": 1793
+      }
+    ]
+  },
+  "heckel funch": {
+    "shop": "Funch's Fine Groceries",
+    "npc": 16,
+    "items": [
+      {
+        "name": "brandy",
+        "id": 2021
+      },
+      {
+        "name": "gin",
+        "id": 2019
+      },
+      {
+        "name": "vodka",
+        "id": 2015
+      },
+      {
+        "name": "whisky",
+        "id": 2017
+      },
+      {
+        "name": "pineapple",
+        "id": 2114
+      },
+      {
+        "name": "equa leaves",
+        "id": 2128
+      },
+      {
+        "name": "orange",
+        "id": 2108
+      },
+      {
+        "name": "lemon",
+        "id": 2102
+      },
+      {
+        "name": "lime",
+        "id": 2120
+      },
+      {
+        "name": "dwellberries",
+        "id": 2126
+      },
+      {
+        "name": "cocktail shaker",
+        "id": 2025
+      },
+      {
+        "name": "chocolate bar",
+        "id": 1973
+      },
+      {
+        "name": "chocolate dust",
+        "id": 1975
+      },
+      {
+        "name": "pot of cream",
+        "id": 2130
+      },
+      {
+        "name": "bucket of milk",
+        "id": 1927
+      },
+      {
+        "name": "knife",
+        "id": 946
+      },
+      {
+        "name": "cocktail glass",
+        "id": 2026
+      }
+    ]
+  },
+  "lowe": {
+    "shop": "Lowe's Archery Emporium",
+    "npc": 2883,
+    "items": [
+      {
+        "name": "bronze arrow",
+        "id": 882
+      },
+      {
+        "name": "iron arrow",
+        "id": 884
+      },
+      {
+        "name": "steel arrow",
+        "id": 886
+      },
+      {
+        "name": "mithril arrow",
+        "id": 888
+      },
+      {
+        "name": "adamant arrow",
+        "id": 890
+      },
+      {
+        "name": "bronze bolts",
+        "id": 877
+      },
+      {
+        "name": "shortbow",
+        "id": 841
+      },
+      {
+        "name": "longbow",
+        "id": 839
+      },
+      {
+        "name": "oak shortbow",
+        "id": 843
+      },
+      {
+        "name": "oak longbow",
+        "id": 845
+      },
+      {
+        "name": "willow shortbow",
+        "id": 849
+      },
+      {
+        "name": "willow longbow",
+        "id": 847
+      },
+      {
+        "name": "maple shortbow",
+        "id": 853
+      },
+      {
+        "name": "maple longbow",
+        "id": 851
+      },
+      {
+        "name": "crossbow",
+        "id": 837
+      }
+    ]
+  },
+  "scavvo": {
+    "shop": "Scavvo's Rune Store.",
+    "npc": 2871,
+    "items": [
+      {
+        "name": "rune plateskirt",
+        "id": 1093
+      },
+      {
+        "name": "rune platelegs",
+        "id": 1079
+      },
+      {
+        "name": "rune mace",
+        "id": 1432
+      },
+      {
+        "name": "rune chainbody",
+        "id": 1113
+      },
+      {
+        "name": "rune longsword",
+        "id": 1303
+      },
+      {
+        "name": "rune sword",
+        "id": 1289
+      },
+      {
+        "name": "green d'hide chaps",
+        "id": 1099
+      },
+      {
+        "name": "green d'hide vambraces",
+        "id": 1065
+      },
+      {
+        "name": "coif",
+        "id": 1169
+      }
+    ]
+  },
+  "bob": {
+    "shop": "Bob's Brilliant Axes.",
+    "npc": 10619,
+    "items": [
+      {
+        "name": "bronze pickaxe",
+        "id": 1265
+      },
+      {
+        "name": "bronze axe",
+        "id": 1351
+      },
+      {
+        "name": "iron axe",
+        "id": 1349
+      },
+      {
+        "name": "steel axe",
+        "id": 1353
+      },
+      {
+        "name": "iron battleaxe",
+        "id": 1363
+      },
+      {
+        "name": "steel battleaxe",
+        "id": 1365
+      },
+      {
+        "name": "mithril battleaxe",
+        "id": 1369
+      }
+    ]
+  },
+  "gerrant": {
+    "shop": "Gerrant's Fishy Business.",
+    "npc": 2891,
+    "items": [
+      {
+        "name": "small fishing net",
+        "id": 303
+      },
+      {
+        "name": "fishing rod",
+        "id": 307
+      },
+      {
+        "name": "fly fishing rod",
+        "id": 309
+      },
+      {
+        "name": "harpoon",
+        "id": 311
+      },
+      {
+        "name": "lobster pot",
+        "id": 301
+      },
+      {
+        "name": "fishing bait",
+        "id": 313
+      },
+      {
+        "name": "bait pack",
+        "id": 11883
+      },
+      {
+        "name": "feather",
+        "id": 314
+      },
+      {
+        "name": "feather pack",
+        "id": 11881
+      },
+      {
+        "name": "raw shrimps",
+        "id": 317
+      },
+      {
+        "name": "raw sardine",
+        "id": 327
+      },
+      {
+        "name": "raw herring",
+        "id": 345
+      },
+      {
+        "name": "raw anchovies",
+        "id": 321
+      },
+      {
+        "name": "raw trout",
+        "id": 335
+      },
+      {
+        "name": "raw pike",
+        "id": 349
+      },
+      {
+        "name": "raw salmon",
+        "id": 331
+      },
+      {
+        "name": "raw tuna",
+        "id": 359
+      },
+      {
+        "name": "raw lobster",
+        "id": 377
+      },
+      {
+        "name": "raw swordfish",
+        "id": 371
+      }
+    ]
+  },
+  "rasolo": {
+    "shop": "Rasolo the Wandering Merchant",
+    "npc": 679,
+    "items": [
+      {
+        "name": "spinach roll",
+        "id": 1969
+      },
+      {
+        "name": "cocktail guide",
+        "id": 2023
+      },
+      {
+        "name": "blue hat",
+        "id": 660
+      },
+      {
+        "name": "dragon dagger",
+        "id": 1215
+      },
+      {
+        "name": "newcomer map",
+        "id": 550
+      },
+      {
+        "name": "bailing bucket",
+        "id": 583
+      },
+      {
+        "name": "swamp paste",
+        "id": 1941
+      },
+      {
+        "name": "poison (item)",
+        "id": 273
+      },
+      {
+        "name": "papyrus",
+        "id": 970
+      },
+      {
+        "name": "machete",
+        "id": 975
+      },
+      {
+        "name": "holy mould",
+        "id": 1599
+      },
+      {
+        "name": "sickle mould",
+        "id": 2976
+      },
+      {
+        "name": "waterskin(4)",
+        "id": 1823
+      },
+      {
+        "name": "desert boots",
+        "id": 1837
+      },
+      {
+        "name": "shantay pass (item)",
+        "id": 1854
+      },
+      {
+        "name": "black toy horsey",
+        "id": 2524
+      },
+      {
+        "name": "sample bottle",
+        "id": 3377
+      },
+      {
+        "name": "grey boots",
+        "id": 2894
+      },
+      {
+        "name": "greenman's ale",
+        "id": 1909
+      },
+      {
+        "name": "fremennik pink cloak",
+        "id": 3787
+      },
+      {
+        "name": "keg of beer",
+        "id": 3801
+      },
+      {
+        "name": "flamtaer hammer",
+        "id": 3678
+      },
+      {
+        "name": "olive oil(3)",
+        "id": 3424
+      },
+      {
+        "name": "limestone brick",
+        "id": 3420
+      },
+      {
+        "name": "instruction manual",
+        "id": 5
+      },
+      {
+        "name": "ring of visibility",
+        "id": 4657
+      }
+    ]
+  },
+  "alfonse": {
+    "shop": "The Shrimp and Parrot",
+    "npc": 4920,
+    "items": [
+      {
+        "name": "herring",
+        "id": 347
+      },
+      {
+        "name": "cod",
+        "id": 339
+      },
+      {
+        "name": "tuna",
+        "id": 361
+      },
+      {
+        "name": "lobster",
+        "id": 379
+      },
+      {
+        "name": "swordfish",
+        "id": 373
+      },
+      {
+        "name": "cooked karambwan",
+        "id": 3144
+      }
+    ]
+  },
+  "aubrey": {
+    "shop": "Aubury's Rune Shop.",
+    "npc": 2886,
+    "items": [
+      {
+        "name": "air rune",
+        "id": 556
+      },
+      {
+        "name": "fire rune",
+        "id": 554
+      },
+      {
+        "name": "water rune",
+        "id": 555
+      },
+      {
+        "name": "earth rune",
+        "id": 557
+      },
+      {
+        "name": "mind rune",
+        "id": 558
+      },
+      {
+        "name": "body rune",
+        "id": 559
+      },
+      {
+        "name": "chaos rune",
+        "id": 562
+      },
+      {
+        "name": "death rune",
+        "id": 560
+      },
+      {
+        "name": "fire rune pack",
+        "id": 12734
+      },
+      {
+        "name": "water rune pack",
+        "id": 12730
+      },
+      {
+        "name": "air rune pack",
+        "id": 12728
+      },
+      {
+        "name": "earth rune pack",
+        "id": 12732
+      },
+      {
+        "name": "mind rune pack",
+        "id": 12736
+      },
+      {
+        "name": "chaos rune pack",
+        "id": 12738
+      },
+      {
+        "name": "runecraft cape",
+        "id": 9765
+      },
+      {
+        "name": "runecraft cape(t)",
+        "id": 9766
+      }
+    ]
+  },
+  "aemad": {
+    "shop": "Aemad's Adventuring Supplies.",
+    "npc": 8682,
+    "items": [
+      {
+        "name": "vial of water",
+        "id": 227
+      },
+      {
+        "name": "water-filled vial pack",
+        "id": 11879
+      },
+      {
+        "name": "bronze pickaxe",
+        "id": 1265
+      },
+      {
+        "name": "iron axe",
+        "id": 1349
+      },
+      {
+        "name": "cooked meat",
+        "id": 2142
+      },
+      {
+        "name": "tinderbox",
+        "id": 590
+      },
+      {
+        "name": "ball of wool",
+        "id": 1759
+      },
+      {
+        "name": "bronze arrow",
+        "id": 882
+      },
+      {
+        "name": "rope",
+        "id": 954
+      },
+      {
+        "name": "papyrus",
+        "id": 970
+      },
+      {
+        "name": "knife",
+        "id": 946
+      },
+      {
+        "name": "wrath talisman",
+        "id": 22118
+      },
+      {
+        "name": "raw cave eel",
+        "id": 5001
+      }
+    ]
+  },
+  "jatix": {
+    "shop": "Jatix's Herblore Shop.",
+    "npc": 8532,
+    "items": [
+      {
+        "name": "vial",
+        "id": 229
+      },
+      {
+        "name": "empty vial pack",
+        "id": 11877
+      },
+      {
+        "name": "vial of water",
+        "id": 227
+      },
+      {
+        "name": "water-filled vial pack",
+        "id": 11879
+      },
+      {
+        "name": "pestle and mortar",
+        "id": 233
+      },
+      {
+        "name": "eye of newt",
+        "id": 221
+      },
+      {
+        "name": "eye of newt pack",
+        "id": 12859
+      }
+    ]
+  },
+  "frenita": {
+    "shop": "Frenita's Cookery Shop.",
+    "npc": 8685,
+    "items": [
+      {
+        "name": "pie dish",
+        "id": 2313
+      },
+      {
+        "name": "cooking apple",
+        "id": 1955
+      },
+      {
+        "name": "cake tin",
+        "id": 1887
+      },
+      {
+        "name": "bowl",
+        "id": 1923
+      },
+      {
+        "name": "potato",
+        "id": 1942
+      },
+      {
+        "name": "tinderbox",
+        "id": 590
+      },
+      {
+        "name": "jug",
+        "id": 1935
+      },
+      {
+        "name": "empty jug pack",
+        "id": 20742
+      },
+      {
+        "name": "pot",
+        "id": 1931
+      },
+      {
+        "name": "chocolate bar",
+        "id": 1973
+      },
+      {
+        "name": "pot of flour",
+        "id": 1933
+      },
+      {
+        "name": "empty cup",
+        "id": 1980
+      }
+    ]
+  },
+  "gulluck": {
+    "shop": "Gulluck and Sons",
+    "npc": 15,
+    "items": [
+      {
+        "name": "bronze arrow",
+        "id": 882
+      },
+      {
+        "name": "bronze bolts",
+        "id": 877
+      },
+      {
+        "name": "pearl bolts",
+        "id": 880
+      },
+      {
+        "name": "shortbow",
+        "id": 841
+      },
+      {
+        "name": "longbow",
+        "id": 839
+      },
+      {
+        "name": "crossbow",
+        "id": 837
+      },
+      {
+        "name": "bronze arrowtips",
+        "id": 39
+      },
+      {
+        "name": "iron arrowtips",
+        "id": 40
+      },
+      {
+        "name": "steel arrowtips",
+        "id": 41
+      },
+      {
+        "name": "mithril arrowtips",
+        "id": 42
+      },
+      {
+        "name": "iron axe",
+        "id": 1349
+      },
+      {
+        "name": "steel axe",
+        "id": 1353
+      },
+      {
+        "name": "iron battleaxe",
+        "id": 1363
+      },
+      {
+        "name": "steel battleaxe",
+        "id": 1365
+      },
+      {
+        "name": "mithril battleaxe",
+        "id": 1369
+      },
+      {
+        "name": "bronze 2h sword",
+        "id": 1307
+      },
+      {
+        "name": "iron 2h sword",
+        "id": 1309
+      },
+      {
+        "name": "steel 2h sword",
+        "id": 1311
+      },
+      {
+        "name": "black 2h sword",
+        "id": 1313
+      },
+      {
+        "name": "mithril 2h sword",
+        "id": 1315
+      },
+      {
+        "name": "adamant 2h sword",
+        "id": 1317
+      }
+    ]
+  },
+  "peksa": {
+    "shop": "Helmet Shop.",
+    "npc": 2872,
+    "items": [
+      {
+        "name": "bronze med helm",
+        "id": 1139
+      },
+      {
+        "name": "iron med helm",
+        "id": 1137
+      },
+      {
+        "name": "steel med helm",
+        "id": 1141
+      },
+      {
+        "name": "mithril med helm",
+        "id": 1143
+      },
+      {
+        "name": "adamant med helm",
+        "id": 1145
+      },
+      {
+        "name": "bronze full helm",
+        "id": 1155
+      },
+      {
+        "name": "iron full helm",
+        "id": 1153
+      },
+      {
+        "name": "steel full helm",
+        "id": 1157
+      },
+      {
+        "name": "mithril full helm",
+        "id": 1159
+      },
+      {
+        "name": "adamant full helm",
+        "id": 1161
+      }
+    ]
+  },
+  "wayne": {
+    "shop": "Wayne's Chains! - Chainmail specialist.",
+    "npc": 5897,
+    "items": [
+      {
+        "name": "bronze chainbody",
+        "id": 1103
+      },
+      {
+        "name": "iron chainbody",
+        "id": 1101
+      },
+      {
+        "name": "steel chainbody",
+        "id": 1105
+      },
+      {
+        "name": "black chainbody",
+        "id": 1107
+      },
+      {
+        "name": "mithril chainbody",
+        "id": 1109
+      },
+      {
+        "name": "adamant chainbody",
+        "id": 1111
+      }
+    ]
+  },
+  "grum": {
+    "shop": "Grum's Gold Exchange.",
+    "npc": 2889,
+    "items": [
+      {
+        "name": "gold ring",
+        "id": 1635
+      },
+      {
+        "name": "sapphire ring",
+        "id": 1637
+      },
+      {
+        "name": "emerald ring",
+        "id": 1639
+      },
+      {
+        "name": "ruby ring",
+        "id": 1641
+      },
+      {
+        "name": "diamond ring",
+        "id": 1643
+      },
+      {
+        "name": "gold necklace",
+        "id": 1654
+      },
+      {
+        "name": "sapphire necklace",
+        "id": 1656
+      },
+      {
+        "name": "emerald necklace",
+        "id": 1658
+      },
+      {
+        "name": "ruby necklace",
+        "id": 1660
+      },
+      {
+        "name": "diamond necklace",
+        "id": 1662
+      },
+      {
+        "name": "gold amulet",
+        "id": 1692
+      },
+      {
+        "name": "sapphire amulet",
+        "id": 1694
+      },
+      {
+        "name": "emerald amulet",
+        "id": 1696
+      },
+      {
+        "name": "ruby amulet",
+        "id": 1698
+      },
+      {
+        "name": "diamond amulet",
+        "id": 1700
+      }
+    ]
+  },
+  "brian": {
+    "shop": "Brian's Battleaxe Bazaar.",
+    "npc": 2892,
+    "items": [
+      {
+        "name": "bronze battleaxe",
+        "id": 1375
+      },
+      {
+        "name": "iron battleaxe",
+        "id": 1363
+      },
+      {
+        "name": "steel battleaxe",
+        "id": 1365
+      },
+      {
+        "name": "black battleaxe",
+        "id": 1367
+      },
+      {
+        "name": "mithril battleaxe",
+        "id": 1369
+      },
+      {
+        "name": "adamant battleaxe",
+        "id": 1371
+      }
+    ]
+  },
+  "louie legs": {
+    "shop": "Louie's Armoured Legs Bazaar.",
+    "npc": 2876,
+    "items": [
+      {
+        "name": "bronze platelegs",
+        "id": 1075
+      },
+      {
+        "name": "iron platelegs",
+        "id": 1067
+      },
+      {
+        "name": "steel platelegs",
+        "id": 1069
+      },
+      {
+        "name": "black platelegs",
+        "id": 1077
+      },
+      {
+        "name": "mithril platelegs",
+        "id": 1071
+      },
+      {
+        "name": "adamant platelegs",
+        "id": 1073
+      }
+    ]
+  },
+  "valaine": {
+    "shop": "Valaine's Shop of Champions.",
+    "npc": 2870,
+    "items": [
+      {
+        "name": "blue cape",
+        "id": 1021
+      },
+      {
+        "name": "black full helm",
+        "id": 1165
+      },
+      {
+        "name": "black platelegs",
+        "id": 1077
+      },
+      {
+        "name": "adamant platebody",
+        "id": 1123
+      }
+    ]
+  },
+  "betty": {
+    "shop": "Betty's Magic Emporium.",
+    "npc": 5905,
+    "items": [
+      {
+        "name": "fire rune",
+        "id": 554
+      },
+      {
+        "name": "water rune",
+        "id": 555
+      },
+      {
+        "name": "air rune",
+        "id": 556
+      },
+      {
+        "name": "earth rune",
+        "id": 557
+      },
+      {
+        "name": "mind rune",
+        "id": 558
+      },
+      {
+        "name": "body rune",
+        "id": 559
+      },
+      {
+        "name": "chaos rune",
+        "id": 562
+      },
+      {
+        "name": "death rune",
+        "id": 560
+      },
+      {
+        "name": "fire rune pack",
+        "id": 12734
+      },
+      {
+        "name": "water rune pack",
+        "id": 12730
+      },
+      {
+        "name": "air rune pack",
+        "id": 12728
+      },
+      {
+        "name": "earth rune pack",
+        "id": 12732
+      },
+      {
+        "name": "mind rune pack",
+        "id": 12736
+      },
+      {
+        "name": "chaos rune pack",
+        "id": 12738
+      },
+      {
+        "name": "eye of newt",
+        "id": 221
+      },
+      {
+        "name": "eye of newt pack",
+        "id": 12859
+      },
+      {
+        "name": "blue wizard hat",
+        "id": 579
+      },
+      {
+        "name": "wizard hat",
+        "id": 1017
+      },
+      {
+        "name": "pink dye",
+        "id": 6955
+      }
+    ]
+  },
+  "ali morrisane": {
+    "shop": "Ali's Discount Wares.",
+    "npc": 3533,
+    "items": [
+      {
+        "name": "pot",
+        "id": 1931
+      },
+      {
+        "name": "jug",
+        "id": 1935
+      },
+      {
+        "name": "empty jug pack",
+        "id": 20742
+      },
+      {
+        "name": "waterskin(3)",
+        "id": 1825
+      },
+      {
+        "name": "desert shirt",
+        "id": 1833
+      },
+      {
+        "name": "desert boots",
+        "id": 1837
+      },
+      {
+        "name": "bucket",
+        "id": 1925
+      },
+      {
+        "name": "empty bucket pack",
+        "id": 22660
+      },
+      {
+        "name": "fake beard",
+        "id": 4593
+      },
+      {
+        "name": "kharidian headpiece",
+        "id": 4591
+      },
+      {
+        "name": "papyrus",
+        "id": 970
+      },
+      {
+        "name": "knife",
+        "id": 946
+      },
+      {
+        "name": "tinderbox",
+        "id": 590
+      },
+      {
+        "name": "bronze pickaxe",
+        "id": 1265
+      },
+      {
+        "name": "raw chicken",
+        "id": 2138
+      },
+      {
+        "name": "oak blackjack(o)",
+        "id": 6408
+      },
+      {
+        "name": "willow blackjack(o)",
+        "id": 6412
+      },
+      {
+        "name": "maple blackjack(o)",
+        "id": 6418
+      },
+      {
+        "name": "maple blackjack",
+        "id": 6416
+      },
+      {
+        "name": "willow blackjack",
+        "id": 4600
+      },
+      {
+        "name": "oak blackjack(d)",
+        "id": 6410
+      },
+      {
+        "name": "willow blackjack(d)",
+        "id": 6414
+      },
+      {
+        "name": "maple blackjack(d)",
+        "id": 6420
+      },
+      {
+        "name": "water rune",
+        "id": 555
+      },
+      {
+        "name": "fire rune",
+        "id": 554
+      },
+      {
+        "name": "air rune",
+        "id": 556
+      },
+      {
+        "name": "earth rune",
+        "id": 557
+      },
+      {
+        "name": "fire rune pack",
+        "id": 12734
+      },
+      {
+        "name": "water rune pack",
+        "id": 12730
+      },
+      {
+        "name": "air rune pack",
+        "id": 12728
+      },
+      {
+        "name": "earth rune pack",
+        "id": 12732
+      },
+      {
+        "name": "nature rune",
+        "id": 561
+      },
+      {
+        "name": "law rune",
+        "id": 563
+      },
+      {
+        "name": "chaos rune",
+        "id": 562
+      },
+      {
+        "name": "death rune",
+        "id": 560
+      },
+      {
+        "name": "mind rune",
+        "id": 558
+      },
+      {
+        "name": "body rune",
+        "id": 559
+      },
+      {
+        "name": "blood rune",
+        "id": 565
+      },
+      {
+        "name": "cosmic rune",
+        "id": 564
+      },
+      {
+        "name": "soul rune",
+        "id": 566
+      },
+      {
+        "name": "mind rune pack",
+        "id": 12736
+      },
+      {
+        "name": "chaos rune pack",
+        "id": 12738
+      },
+      {
+        "name": "fez",
+        "id": 6382
+      },
+      {
+        "name": "desert top",
+        "id": 6384
+      },
+      {
+        "name": "desert top (overcoat)",
+        "id": 6388
+      },
+      {
+        "name": "desert legs",
+        "id": 6390
+      },
+      {
+        "name": "desert robes",
+        "id": 6386
+      },
+      {
+        "name": "menaphite purple hat",
+        "id": 6392
+      },
+      {
+        "name": "menaphite purple top",
+        "id": 6394
+      },
+      {
+        "name": "menaphite purple robe",
+        "id": 6396
+      },
+      {
+        "name": "menaphite purple kilt",
+        "id": 6398
+      },
+      {
+        "name": "menaphite red hat",
+        "id": 6400
+      },
+      {
+        "name": "menaphite red top",
+        "id": 6402
+      },
+      {
+        "name": "menaphite red robe",
+        "id": 6404
+      },
+      {
+        "name": "menaphite red kilt",
+        "id": 6406
+      }
+    ]
+  },
+  "cassie": {
+    "shop": "Cassie's Shield Shop.",
+    "npc": 3214,
+    "items": [
+      {
+        "name": "wooden shield",
+        "id": 1171
+      },
+      {
+        "name": "bronze sq shield",
+        "id": 1173
+      },
+      {
+        "name": "bronze kiteshield",
+        "id": 1189
+      },
+      {
+        "name": "iron sq shield",
+        "id": 1175
+      },
+      {
+        "name": "iron kiteshield",
+        "id": 1191
+      },
+      {
+        "name": "steel sq shield",
+        "id": 1177
+      },
+      {
+        "name": "steel kiteshield",
+        "id": 1193
+      },
+      {
+        "name": "mithril sq shield",
+        "id": 1181
+      }
+    ]
+  },
+  "herquin": {
+    "shop": "Herquin's Gems.",
+    "npc": 6529,
+    "items": [
+      {
+        "name": "uncut sapphire",
+        "id": 1623
+      },
+      {
+        "name": "uncut emerald",
+        "id": 1621
+      },
+      {
+        "name": "uncut ruby",
+        "id": 1619
+      },
+      {
+        "name": "uncut diamond",
+        "id": 1617
+      },
+      {
+        "name": "sapphire",
+        "id": 1607
+      },
+      {
+        "name": "emerald",
+        "id": 1605
+      },
+      {
+        "name": "ruby",
+        "id": 1603
+      },
+      {
+        "name": "diamond",
+        "id": 1601
+      }
+    ]
+  },
+  "thessaly": {
+    "shop": "Varrock Swordshop",
+    "npc": 2884,
+    "items": [
+      {
+        "name": "bronze sword",
+        "id": 1277
+      },
+      {
+        "name": "iron sword",
+        "id": 1279
+      },
+      {
+        "name": "steel sword",
+        "id": 1281
+      },
+      {
+        "name": "black sword",
+        "id": 1283
+      },
+      {
+        "name": "mithril sword",
+        "id": 1285
+      },
+      {
+        "name": "adamant sword",
+        "id": 1287
+      },
+      {
+        "name": "bronze longsword",
+        "id": 1291
+      },
+      {
+        "name": "iron longsword",
+        "id": 1293
+      },
+      {
+        "name": "steel longsword",
+        "id": 1295
+      },
+      {
+        "name": "black longsword",
+        "id": 1297
+      },
+      {
+        "name": "mithril longsword",
+        "id": 1299
+      },
+      {
+        "name": "adamant longsword",
+        "id": 1301
+      },
+      {
+        "name": "bronze dagger",
+        "id": 1205
+      },
+      {
+        "name": "iron dagger",
+        "id": 1203
+      },
+      {
+        "name": "steel dagger",
+        "id": 1207
+      },
+      {
+        "name": "black dagger",
+        "id": 1217
+      },
+      {
+        "name": "mithril dagger",
+        "id": 1209
+      },
+      {
+        "name": "adamant dagger",
+        "id": 1211
+      }
+    ]
+  },
+  "lundail": {
+    "shop": "Lundail's Arena-side Rune Shop.",
+    "npc": 1601,
+    "items": [
+      {
+        "name": "fire rune",
+        "id": 554
+      },
+      {
+        "name": "water rune",
+        "id": 555
+      },
+      {
+        "name": "air rune",
+        "id": 556
+      },
+      {
+        "name": "earth rune",
+        "id": 557
+      },
+      {
+        "name": "mind rune",
+        "id": 558
+      },
+      {
+        "name": "body rune",
+        "id": 559
+      },
+      {
+        "name": "nature rune",
+        "id": 561
+      },
+      {
+        "name": "chaos rune",
+        "id": 562
+      },
+      {
+        "name": "law rune",
+        "id": 563
+      },
+      {
+        "name": "cosmic rune",
+        "id": 564
+      },
+      {
+        "name": "death rune",
+        "id": 560
+      },
+      {
+        "name": "fire rune pack",
+        "id": 12734
+      },
+      {
+        "name": "water rune pack",
+        "id": 12730
+      },
+      {
+        "name": "air rune pack",
+        "id": 12728
+      },
+      {
+        "name": "earth rune pack",
+        "id": 12732
+      },
+      {
+        "name": "mind rune pack",
+        "id": 12736
+      },
+      {
+        "name": "chaos rune pack",
+        "id": 12738
+      }
+    ]
+  },
+  "ordan": {
+    "shop": "Ore seller.",
+    "npc": 1560,
+    "items": [
+      {
+        "name": "copper ore",
+        "id": 436
+      },
+      {
+        "name": "tin ore",
+        "id": 438
+      },
+      {
+        "name": "iron ore",
+        "id": 440
+      },
+      {
+        "name": "mithril ore",
+        "id": 447
+      },
+      {
+        "name": "silver ore",
+        "id": 442
+      },
+      {
+        "name": "gold ore",
+        "id": 444
+      },
+      {
+        "name": "coal",
+        "id": 453
+      }
+    ]
+  },
+  "varrock swordshop": {
+    "shop": "Varrock Swordshop",
+    "npc": 2884,
+    "items": [
+      {
+        "name": "bronze sword",
+        "id": 1277
+      },
+      {
+        "name": "iron sword",
+        "id": 1279
+      },
+      {
+        "name": "steel sword",
+        "id": 1281
+      },
+      {
+        "name": "black sword",
+        "id": 1283
+      },
+      {
+        "name": "mithril sword",
+        "id": 1285
+      },
+      {
+        "name": "adamant sword",
+        "id": 1287
+      },
+      {
+        "name": "bronze longsword",
+        "id": 1291
+      },
+      {
+        "name": "iron longsword",
+        "id": 1293
+      },
+      {
+        "name": "steel longsword",
+        "id": 1295
+      },
+      {
+        "name": "black longsword",
+        "id": 1297
+      },
+      {
+        "name": "mithril longsword",
+        "id": 1299
+      },
+      {
+        "name": "adamant longsword",
+        "id": 1301
+      },
+      {
+        "name": "bronze dagger",
+        "id": 1205
+      },
+      {
+        "name": "iron dagger",
+        "id": 1203
+      },
+      {
+        "name": "steel dagger",
+        "id": 1207
+      },
+      {
+        "name": "black dagger",
+        "id": 1217
+      },
+      {
+        "name": "mithril dagger",
+        "id": 1209
+      },
+      {
+        "name": "adamant dagger",
+        "id": 1211
+      }
+    ]
+  },
+  "general store": {
+    "shop": "Lumbridge General Store",
+    "items": [
+      {
+        "name": "pot",
+        "id": 1931
+      },
+      {
+        "name": "jug",
+        "id": 1935
+      },
+      {
+        "name": "empty jug pack",
+        "id": 20742
+      },
+      {
+        "name": "shears",
+        "id": 1735
+      },
+      {
+        "name": "knife",
+        "id": 946
+      },
+      {
+        "name": "bucket",
+        "id": 1925
+      },
+      {
+        "name": "empty bucket pack",
+        "id": 22660
+      },
+      {
+        "name": "bowl",
+        "id": 1923
+      },
+      {
+        "name": "cake tin",
+        "id": 1887
+      },
+      {
+        "name": "tinderbox",
+        "id": 590
+      },
+      {
+        "name": "chisel",
+        "id": 1755
+      },
+      {
+        "name": "spade",
+        "id": 952
+      },
+      {
+        "name": "hammer",
+        "id": 2347
+      },
+      {
+        "name": "newcomer map",
+        "id": 550
+      },
+      {
+        "name": "security book",
+        "id": 9003
+      }
+    ]
+  }
+}

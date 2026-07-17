@@ -984,7 +984,23 @@
       "id": "eg-053",
       "title": "Buy greenman's ale from Rasolo",
       "text": "Buy greenman's ale from Rasolo\nLocation: North of Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1909,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1909,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1909,
       "npc": 679,
       "world": [
         2531,
@@ -1109,18 +1125,18 @@
         "of": [
           {
             "op": "itemAcquired",
-            "id": 2114,
+            "id": 2108,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 2114,
-            "qty": 16,
+            "id": 2108,
+            "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 2114,
+      "item": 2108,
       "npc": 6531,
       "world": [
         2482,
@@ -1855,7 +1871,23 @@
       "id": "eg-103",
       "title": "Buy a newspaper from Benny",
       "text": "Buy a newspaper from Benny\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 11171,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 11171,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 11171,
       "world": [
         3216,
         3416,
@@ -4104,12 +4136,12 @@
           {
             "op": "itemAcquired",
             "id": 2114,
-            "qty": 16
+            "qty": 15
           },
           {
             "op": "item",
             "id": 2114,
-            "qty": 16,
+            "qty": 15,
             "scope": "ANY"
           }
         ]
@@ -4365,7 +4397,23 @@
       "id": "eg-250",
       "title": "Buy a black wizards hat from …",
       "text": "Buy a black wizards hat from Betty at port sarim magic store\nLocation: Port Sarim",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1017,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1017,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1017,
       "npc": 3648,
       "world": [
         2954,

@@ -128,18 +128,18 @@
         "of": [
           {
             "op": "itemAcquired",
-            "id": 2355,
-            "qty": 7
+            "id": 20742,
+            "qty": 3
           },
           {
             "op": "item",
-            "id": 2355,
-            "qty": 7,
+            "id": 20742,
+            "qty": 3,
             "scope": "ANY"
           }
         ]
       },
-      "item": 2355,
+      "item": 20742,
       "npc": 8722,
       "world": [
         2658,
