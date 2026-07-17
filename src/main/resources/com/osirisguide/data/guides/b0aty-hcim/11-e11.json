@@ -29,7 +29,12 @@
       "id": "e11-002a",
       "title": "Teleport to POH",
       "text": "Teleport to POH",
-      "manual": true
+      "manual": true,
+      "world": [
+        1435,
+        3124,
+        0
+      ]
     },
     {
       "id": "e11-002b",
@@ -258,7 +263,12 @@
       "id": "e11-017b",
       "title": "Teleport Runes, Slayer Helmet, Spade, Ectophial, …",
       "text": "Teleport Runes, Slayer Helmet, Spade, Ectophial, Silver Bar, Pot, Restore Potion (3), Garlic, Elf Teleport Crystal",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-018",
@@ -325,7 +335,12 @@
       "id": "e11-023a",
       "title": "Head to the Slayer Tower",
       "text": "Head to the Slayer Tower",
-      "manual": true
+      "manual": true,
+      "world": [
+        3440,
+        3232,
+        0
+      ]
     },
     {
       "id": "e11-023b",
@@ -377,7 +392,12 @@
       "id": "e11-028",
       "title": "Take boat to Mos Le’Harmless",
       "text": "Take boat to Mos Le’Harmless",
-      "manual": true
+      "manual": true,
+      "world": [
+        3791,
+        3559,
+        0
+      ]
     },
     {
       "id": "e11-029",
@@ -407,7 +427,12 @@
       "id": "e11-032a",
       "title": "Talk to Le Sabre",
       "text": "Talk to Le Sabre",
-      "manual": true
+      "manual": true,
+      "world": [
+        3795,
+        2844,
+        0
+      ]
     },
     {
       "id": "e11-032b",
@@ -511,7 +536,12 @@
       "id": "e11-041",
       "title": "Use Rope to Enter and peak …",
       "text": "Use Rope to Enter and peak at the end for a free world",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-042",
@@ -787,7 +817,12 @@
       "id": "e11-066b",
       "title": "Drop the obsolete sets when upgraded",
       "text": "Drop the obsolete sets when upgraded",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-067",
@@ -838,13 +873,23 @@
       "id": "e11-071b",
       "title": "Teleport Runes, Antipoison, few food & …",
       "text": "Teleport Runes, Antipoison, few food & potions, Dramen Staff",
-      "manual": true
+      "manual": true,
+      "world": [
+        1487,
+        3593,
+        0
+      ]
     },
     {
       "id": "e11-072a",
       "title": "Head North",
       "text": "Head North",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-072b",
@@ -861,19 +906,34 @@
       "id": "e11-072c",
       "title": "Take all Fangs",
       "text": "Take all Fangs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-072d",
       "title": "Wear the Crystal",
       "text": "Wear the Crystal",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e11-073a",
       "title": "Head West",
       "text": "Head West",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e11-073b",
@@ -913,7 +973,12 @@
       "id": "e11-076a",
       "title": "Buy Brimstone boots",
       "text": "Buy Brimstone boots",
-      "manual": true
+      "manual": true,
+      "world": [
+        1657,
+        3505,
+        0
+      ]
     },
     {
       "id": "e11-076b",

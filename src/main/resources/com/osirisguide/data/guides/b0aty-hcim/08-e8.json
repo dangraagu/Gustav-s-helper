@@ -33,7 +33,12 @@
       "id": "e8-003",
       "title": "Use Harralanders, Avantoe & Irits in …",
       "text": "Use Harralanders, Avantoe & Irits in Mastering Mixology (Don't grind them all incase the ratios aren't correct. 10k+ is good then top up)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e8-004a",
@@ -45,7 +50,12 @@
       "id": "e8-004b",
       "title": "use all lamps on Herblore",
       "text": "use all lamps on Herblore",
-      "manual": true
+      "manual": true,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e8-005",

@@ -9,7 +9,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | id | step | fill |
 |---|---|---|
 | s22-027 | Swap to the regular spellbook, Complete Recipe for Disaster by following the steps below: | |
-| s23-010b | complete the quest: | |
 | s32-013 | Once you have enough mahogany planks from Misc (or chop teaks at your own convenience), tr | |
 
 ## Coarse (sitting on a place-centre, not a specific spot)
@@ -31,6 +30,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | s22-039 | Note: if you are not planning to max you can reduce this step, although the lack | centre of grand exchange | |
 | s23-008c | get a severed leg | centre of grand exchange | |
 | s23-010a | Kill the following for Rag and Bone Man II | centre of dorgesh-kaan | |
+| s23-010b | complete the quest: | centre of dorgesh-kaan | |
 | s31-002 | Optional but recommended: go to the Mage Training Arena, collect the Mage’s book | centre of mage training arena | |
 | s31-003 | Using your mahogany logs from Miscellania, train construction to level 75 (do no | centre of miscellania | |
 | s31-007 | Collect buckets of sand and giant seaweed to train your crafting level to 80 (or | centre of grand exchange | |

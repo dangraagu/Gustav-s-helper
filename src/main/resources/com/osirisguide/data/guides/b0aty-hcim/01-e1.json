@@ -43,7 +43,12 @@
       "id": "e1-004b",
       "title": "claim more",
       "text": "claim more",
-      "manual": true
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
     },
     {
       "id": "e1-005a",
@@ -114,7 +119,12 @@
       "id": "e1-008a",
       "title": "Go upstairs",
       "text": "Go upstairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3205,
+        3208,
+        0
+      ]
     },
     {
       "id": "e1-008b",
@@ -135,7 +145,12 @@
       "id": "e1-009a",
       "title": "Go upstairs again",
       "text": "Go upstairs again",
-      "manual": true
+      "manual": true,
+      "world": [
+        2541,
+        3170,
+        0
+      ]
     },
     {
       "id": "e1-009b",
@@ -233,7 +248,12 @@
       "id": "e1-014",
       "title": "Go down south staircase twice (Right-Click …",
       "text": "Go down south staircase twice (Right-Click 'Bottom-floor')",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e1-015",
@@ -351,7 +371,12 @@
       "id": "e1-021",
       "title": "Take Leather Gloves on the table …",
       "text": "Take Leather Gloves on the table inside his house & wield",
-      "manual": true
+      "manual": true,
+      "world": [
+        3147,
+        3175,
+        0
+      ]
     },
     {
       "id": "e1-022",
@@ -374,7 +399,12 @@
       "id": "e1-023",
       "title": "Take Leather Boots off the table …",
       "text": "Take Leather Boots off the table & wield",
-      "manual": true
+      "manual": true,
+      "world": [
+        3109,
+        3160,
+        0
+      ]
     },
     {
       "id": "e1-024",
@@ -468,7 +498,12 @@
       "id": "e1-028b",
       "title": "buy 1)",
       "text": "buy 1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
     },
     {
       "id": "e1-029a",
@@ -580,7 +615,12 @@
       "id": "e1-034a",
       "title": "Go up the stairs",
       "text": "Go up the stairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
     },
     {
       "id": "e1-034b",
@@ -602,7 +642,12 @@
           }
         ]
       },
-      "item": 1550
+      "item": 1550,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
     },
     {
       "id": "e1-035",
@@ -674,7 +719,12 @@
       "id": "e1-038b",
       "title": "buy 10 in total",
       "text": "buy 10 in total",
-      "manual": true
+      "manual": true,
+      "world": [
+        3085,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-039",
@@ -798,13 +848,23 @@
       "id": "e1-047",
       "title": "Take the Beer",
       "text": "Take the Beer",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e1-048",
       "title": "Use your Feather on the Enchanted …",
       "text": "Use your Feather on the Enchanted scroll in your inventory",
-      "manual": true
+      "manual": true,
+      "world": [
+        1517,
+        3592,
+        0
+      ]
     },
     {
       "id": "e1-049a",
@@ -842,7 +902,12 @@
       "id": "e1-050",
       "title": "Take the Tinderbox",
       "text": "Take the Tinderbox",
-      "manual": true
+      "manual": true,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
     },
     {
       "id": "e1-051",
@@ -900,7 +965,12 @@
       "id": "e1-054a",
       "title": "Talk to Bob",
       "text": "Talk to Bob",
-      "manual": true
+      "manual": true,
+      "world": [
+        3229,
+        3204,
+        0
+      ]
     },
     {
       "id": "e1-054b",
@@ -933,7 +1003,12 @@
       "id": "e1-055a",
       "title": "Search the Coffin, south-east in the …",
       "text": "Search the Coffin, south-east in the graveyard",
-      "manual": true
+      "manual": true,
+      "world": [
+        3243,
+        3206,
+        0
+      ]
     },
     {
       "id": "e1-055b",
@@ -985,7 +1060,12 @@
       "id": "e1-058b",
       "title": "Take the east doors",
       "text": "Take the east doors",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-059",
@@ -1052,7 +1132,12 @@
       "id": "e1-063a",
       "title": "Head east",
       "text": "Head east",
-      "manual": true
+      "manual": true,
+      "world": [
+        3151,
+        3409,
+        0
+      ]
     },
     {
       "id": "e1-063b",
@@ -1139,7 +1224,12 @@
       "id": "e1-068a",
       "title": "Head East",
       "text": "Head East",
-      "manual": true
+      "manual": true,
+      "world": [
+        3202,
+        3434,
+        0
+      ]
     },
     {
       "id": "e1-068b",
@@ -1173,7 +1263,12 @@
       "id": "e1-068c",
       "title": "Equip it",
       "text": "Equip it",
-      "manual": true
+      "manual": true,
+      "world": [
+        3202,
+        3434,
+        0
+      ]
     },
     {
       "id": "e1-069a",
@@ -1245,7 +1340,12 @@
       "id": "e1-071b",
       "title": "Wear Brown Apron & Pink Skirt …",
       "text": "Wear Brown Apron & Pink Skirt in honour of Faux",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-072a",
@@ -1257,7 +1357,12 @@
       "id": "e1-072b",
       "title": "go up the ladder",
       "text": "go up the ladder",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-072c",
@@ -1285,7 +1390,12 @@
       "id": "e1-073a",
       "title": "Head East",
       "text": "Head East",
-      "manual": true
+      "manual": true,
+      "world": [
+        3222,
+        3399,
+        0
+      ]
     },
     {
       "id": "e1-073b",
@@ -1392,7 +1502,12 @@
       "id": "e1-080a",
       "title": "Go down North West 2x Stairs",
       "text": "Go down North West 2x Stairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-080b",
@@ -1413,13 +1528,23 @@
       "id": "e1-081a",
       "title": "Head North",
       "text": "Head North",
-      "manual": true
+      "manual": true,
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-081b",
       "title": "go up 2x Stairs",
       "text": "go up 2x Stairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3204,
+        3424,
+        0
+      ]
     },
     {
       "id": "e1-081c",
@@ -1440,7 +1565,12 @@
       "id": "e1-082a",
       "title": "Return down the stairs",
       "text": "Return down the stairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3211,
+        3494,
+        0
+      ]
     },
     {
       "id": "e1-082b",
@@ -1473,7 +1603,12 @@
       "id": "e1-083a",
       "title": "Search for book",
       "text": "Search for book",
-      "manual": true
+      "manual": true,
+      "world": [
+        3211,
+        3494,
+        0
+      ]
     },
     {
       "id": "e1-083b",
@@ -1513,13 +1648,23 @@
           }
         ]
       },
-      "item": 1925
+      "item": 1925,
+      "world": [
+        3225,
+        3496,
+        0
+      ]
     },
     {
       "id": "e1-085b",
       "title": "fill one up downstairs",
       "text": "fill one up downstairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3225,
+        3496,
+        0
+      ]
     },
     {
       "id": "e1-085c",
@@ -1602,7 +1747,12 @@
       "id": "e1-089",
       "title": "Pick up the Saw",
       "text": "Pick up the Saw",
-      "manual": true
+      "manual": true,
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-090a",
@@ -1647,7 +1797,12 @@
       "id": "e1-091b",
       "title": "head downstairs",
       "text": "head downstairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3257,
+        3449,
+        0
+      ]
     },
     {
       "id": "e1-091c",
@@ -1669,7 +1824,12 @@
         "skill": "SLAYER",
         "level": 9,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3257,
+        3449,
+        0
+      ]
     },
     {
       "id": "e1-092a",
@@ -1779,7 +1939,12 @@
       "id": "e1-098",
       "title": "Take 2x Logs & 2x ashes …",
       "text": "Take 2x Logs & 2x ashes after cutscene",
-      "manual": true
+      "manual": true,
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-099",
@@ -1863,7 +2028,12 @@
           }
         ]
       },
-      "item": 960
+      "item": 960,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
     },
     {
       "id": "e1-104b",
@@ -1923,7 +2093,12 @@
       "id": "e1-107",
       "title": "Light 1 log & take the …",
       "text": "Light 1 log & take the 1x log",
-      "manual": true
+      "manual": true,
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-108",
@@ -1989,7 +2164,12 @@
       "id": "e1-111",
       "title": "Open the crate",
       "text": "Open the crate",
-      "manual": true
+      "manual": true,
+      "world": [
+        3241,
+        3471,
+        0
+      ]
     },
     {
       "id": "e1-112",
@@ -2045,7 +2225,12 @@
       "id": "e1-115a",
       "title": "Open the Minimap",
       "text": "Open the Minimap",
-      "manual": true
+      "manual": true,
+      "world": [
+        1701,
+        3143,
+        0
+      ]
     },
     {
       "id": "e1-115b",
@@ -2057,13 +2242,23 @@
       "id": "e1-116",
       "title": "Take the 3x Logs, Rope, Pestle …",
       "text": "Take the 3x Logs, Rope, Pestle & Mortar & Vial of Water",
-      "manual": true
+      "manual": true,
+      "world": [
+        1701,
+        3143,
+        0
+      ]
     },
     {
       "id": "e1-117a",
       "title": "Head West",
       "text": "Head West",
-      "manual": true
+      "manual": true,
+      "world": [
+        2982,
+        3194,
+        0
+      ]
     },
     {
       "id": "e1-117b",
@@ -2155,7 +2350,12 @@
       "id": "e1-122",
       "title": "Deposit all in the bank chest",
       "text": "Deposit all in the bank chest",
-      "manual": true
+      "manual": true,
+      "world": [
+        1559,
+        3048,
+        0
+      ]
     },
     {
       "id": "e1-123a",
@@ -2173,7 +2373,12 @@
       "id": "e1-123b",
       "title": "go up both ladders",
       "text": "go up both ladders",
-      "manual": true
+      "manual": true,
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e1-124",
@@ -2201,7 +2406,12 @@
       "id": "e1-125",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        1554,
+        3033,
+        0
+      ]
     },
     {
       "id": "e1-126",
@@ -2296,7 +2506,12 @@
       "id": "e1-131",
       "title": "Take Pot of Flour",
       "text": "Take Pot of Flour",
-      "manual": true
+      "manual": true,
+      "world": [
+        1391,
+        2935,
+        0
+      ]
     },
     {
       "id": "e1-132",
@@ -2373,13 +2588,23 @@
       "id": "e1-136a",
       "title": "Head West",
       "text": "Head West",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-136b",
       "title": "trade Antonius",
       "text": "trade Antonius",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e1-136c",
@@ -2589,13 +2814,23 @@
       "id": "e1-145",
       "title": "Take 3x Logs",
       "text": "Take 3x Logs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3109,
+        3160,
+        0
+      ]
     },
     {
       "id": "e1-146a",
       "title": "Search the altar to collect the …",
       "text": "Search the altar to collect the Ghost's skull",
-      "manual": true
+      "manual": true,
+      "world": [
+        3120,
+        9567,
+        0
+      ]
     },
     {
       "id": "e1-146b",
@@ -2640,7 +2875,12 @@
       "id": "e1-149",
       "title": "Take 3x Logs",
       "text": "Take 3x Logs",
-      "manual": true
+      "manual": true,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
     },
     {
       "id": "e1-150a",
@@ -2739,13 +2979,23 @@
       "id": "e1-153b",
       "title": "wield",
       "text": "wield",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-154a",
       "title": "Head West",
       "text": "Head West",
-      "manual": true
+      "manual": true,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-154b",
@@ -2788,13 +3038,23 @@
           }
         ]
       },
-      "item": 314
+      "item": 314,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-155c",
       "title": "Take Apron from the wall & …",
       "text": "Take Apron from the wall & wear",
-      "manual": true
+      "manual": true,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e1-156",
@@ -2941,7 +3201,12 @@
           }
         ]
       },
-      "item": 2138
+      "item": 2138,
+      "world": [
+        3013,
+        3207,
+        0
+      ]
     },
     {
       "id": "e1-166",
@@ -3058,7 +3323,12 @@
       "id": "e1-171a",
       "title": "Head South-West",
       "text": "Head South-West",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e1-171b",
@@ -3162,7 +3432,12 @@
           }
         ]
       },
-      "item": 231
+      "item": 231,
+      "world": [
+        2949,
+        3215,
+        0
+      ]
     },
     {
       "id": "e1-176",
@@ -3285,7 +3560,12 @@
       "id": "e1-184a",
       "title": "Head South",
       "text": "Head South",
-      "manual": true
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
     },
     {
       "id": "e1-184b",
@@ -3303,7 +3583,12 @@
       "id": "e1-184c",
       "title": "start Knight's Sword (1,2,1,1)",
       "text": "start Knight's Sword (1,2,1,1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
     },
     {
       "id": "e1-185",
@@ -3377,7 +3662,12 @@
       "id": "e1-188b",
       "title": "kill a Black Bear (safespot on …",
       "text": "kill a Black Bear (safespot on trees as it is a 2x2)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-188c",
@@ -3399,7 +3689,12 @@
           }
         ]
       },
-      "item": 2136
+      "item": 2136,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
     },
     {
       "id": "e1-189a",
@@ -3429,7 +3724,12 @@
       "id": "e1-190a",
       "title": "Head North",
       "text": "Head North",
-      "manual": true
+      "manual": true,
+      "world": [
+        2925,
+        3486,
+        0
+      ]
     },
     {
       "id": "e1-190b",
@@ -3484,7 +3784,12 @@
           }
         ]
       },
-      "item": 227
+      "item": 227,
+      "world": [
+        2925,
+        3486,
+        0
+      ]
     },
     {
       "id": "e1-194",
@@ -3830,7 +4135,12 @@
       "id": "e1-216",
       "title": "Take 1 extra Rotten Apple [Mournings …",
       "text": "Take 1 extra Rotten Apple [Mournings End Pt 1]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2592,
+        3336,
+        0
+      ]
     },
     {
       "id": "e1-217",
@@ -3982,7 +4292,12 @@
           }
         ]
       },
-      "item": 1951
+      "item": 1951,
+      "world": [
+        3013,
+        3207,
+        0
+      ]
     },
     {
       "id": "e1-226c",
@@ -4157,7 +4472,12 @@
       "id": "e1-239",
       "title": "Take Jug of Water",
       "text": "Take Jug of Water",
-      "manual": true
+      "manual": true,
+      "world": [
+        3298,
+        3163,
+        0
+      ]
     },
     {
       "id": "e1-240",
@@ -4392,7 +4712,12 @@
       "id": "e1-254",
       "title": "Use Rewards on Agility",
       "text": "Use Rewards on Agility",
-      "manual": true
+      "manual": true,
+      "world": [
+        3304,
+        3112,
+        0
+      ]
     },
     {
       "id": "e1-255",
@@ -4470,7 +4795,12 @@
       "id": "e1-259a",
       "title": "Return to Minigame teleport location",
       "text": "Return to Minigame teleport location",
-      "manual": true
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
     },
     {
       "id": "e1-259b",
@@ -4542,13 +4872,23 @@
           }
         ]
       },
-      "item": 10010
+      "item": 10010,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e1-263a",
       "title": "Head North",
       "text": "Head North",
-      "manual": true
+      "manual": true,
+      "world": [
+        2607,
+        3211,
+        0
+      ]
     },
     {
       "id": "e1-263b",
@@ -4948,13 +5288,23 @@
       "id": "e1-286b",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e1-287",
       "title": "Withdraw: 4x Wines, Poisoned Sheep feed …",
       "text": "Withdraw: 4x Wines, Poisoned Sheep feed (5 Inventory Slots)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e1-288",
@@ -4975,7 +5325,12 @@
       "id": "e1-289",
       "title": "Drop Poisoned Sheep feed, Plague robes …",
       "text": "Drop Poisoned Sheep feed, Plague robes & cattleprod once done",
-      "manual": true
+      "manual": true,
+      "world": [
+        2615,
+        3298,
+        0
+      ]
     },
     {
       "id": "e1-290",
@@ -5075,7 +5430,12 @@
           }
         ]
       },
-      "item": 960
+      "item": 960,
+      "world": [
+        2101,
+        3919,
+        0
+      ]
     },
     {
       "id": "e1-297",
@@ -5108,13 +5468,23 @@
       "id": "e1-298",
       "title": "Wield Air Staff, Gloves & Boots",
       "text": "Wield Air Staff, Gloves & Boots",
-      "manual": true
+      "manual": true,
+      "world": [
+        2544,
+        3568,
+        0
+      ]
     },
     {
       "id": "e1-299a",
       "title": "Head south",
       "text": "Head south",
-      "manual": true
+      "manual": true,
+      "world": [
+        2521,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-299b",
@@ -5135,7 +5505,12 @@
       "id": "e1-300",
       "title": "Continue until you receive the Book …",
       "text": "Continue until you receive the Book on Baxtorian",
-      "manual": true
+      "manual": true,
+      "world": [
+        2521,
+        3495,
+        0
+      ]
     },
     {
       "id": "e1-301",
@@ -5637,7 +6012,12 @@
       "id": "e1-334a",
       "title": "Head west",
       "text": "Head west",
-      "manual": true
+      "manual": true,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
     },
     {
       "id": "e1-334b",
@@ -5655,7 +6035,12 @@
       "id": "e1-335a",
       "title": "Head to the Bar",
       "text": "Head to the Bar",
-      "manual": true
+      "manual": true,
+      "world": [
+        1391,
+        3354,
+        0
+      ]
     },
     {
       "id": "e1-335b",
@@ -5743,7 +6128,12 @@
           }
         ]
       },
-      "item": 950
+      "item": 950,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e1-341",
@@ -5832,7 +6222,12 @@
       "id": "e1-347",
       "title": "Bank all Bread at South Bank",
       "text": "Bank all Bread at South Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e1-348",
@@ -5923,7 +6318,12 @@
           }
         ]
       },
-      "item": 1783
+      "item": 1783,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e1-353",
@@ -5971,7 +6371,12 @@
       "id": "e1-355b",
       "title": "Deposit everything",
       "text": "Deposit everything",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e1-356",
@@ -5993,7 +6398,12 @@
           }
         ]
       },
-      "item": 555
+      "item": 555,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e1-357",

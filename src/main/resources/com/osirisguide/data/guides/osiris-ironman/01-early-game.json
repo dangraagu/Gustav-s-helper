@@ -23,13 +23,23 @@
         "skill": "HERBLORE",
         "level": 77,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "eg-003",
       "title": "Use Authenticator AND 2-step verification on …",
       "text": "Use Authenticator AND 2-step verification on registered e-mail",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "eg-004",

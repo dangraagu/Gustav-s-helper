@@ -59,6 +59,7 @@ def build(raw_path, item_map, quest_map, entities):
                 if "world" in built:
                     anchor = built["world"]  # route continuity: the next step resolves near here
         sg.fill_craft_gaps(steps)
+        sg.fill_location_gaps(steps)
         if not steps:
             continue
         total += len(steps)
