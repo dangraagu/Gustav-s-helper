@@ -504,7 +504,23 @@
       "id": "eg-029a",
       "title": "Buy 5 wine from Fortunato",
       "text": "Buy 5 wine from Fortunato\nLocation: Draynor Village",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
       "npc": 1260,
       "world": [
         3085,

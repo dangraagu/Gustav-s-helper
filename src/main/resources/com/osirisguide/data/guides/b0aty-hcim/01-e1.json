@@ -712,7 +712,23 @@
       "id": "e1-038a",
       "title": "Talk to Fortunato & buy 5 …",
       "text": "Talk to Fortunato & buy 5 Jugs of wine. Hop worlds",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 33,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
       "npc": 1260,
       "world": [
         3085,
@@ -4661,7 +4677,23 @@
       "id": "e1-248",
       "title": "Withdraw 12 Wines",
       "text": "Withdraw 12 Wines",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 17
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 33,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
       "world": [
         3269,
         3167,
@@ -5331,7 +5363,23 @@
       "id": "e1-287",
       "title": "Withdraw: 4x Wines, Poisoned Sheep feed …",
       "text": "Withdraw: 4x Wines, Poisoned Sheep feed (5 Inventory Slots)",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 21
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 33,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
       "world": [
         2543,
         5144,
