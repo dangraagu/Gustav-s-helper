@@ -308,12 +308,12 @@
           {
             "op": "itemAcquired",
             "id": 946,
-            "qty": 100
+            "qty": 1
           },
           {
             "op": "item",
             "id": 946,
-            "qty": 100,
+            "qty": 1,
             "scope": "ANY"
           }
         ]

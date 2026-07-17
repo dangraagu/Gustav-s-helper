@@ -60,7 +60,7 @@ public interface GustavGuideConfig extends Config
 		name = "Auto-advance",
 		description = "Automatically mark steps complete when the game state shows they are done.",
 		section = generalSection,
-		position = 1
+		position = 2
 	)
 	default boolean autoAdvance()
 	{
@@ -72,7 +72,7 @@ public interface GustavGuideConfig extends Config
 		name = "Hide completed steps",
 		description = "Collapse completed steps in the side panel.",
 		section = generalSection,
-		position = 2
+		position = 3
 	)
 	default boolean hideCompleted()
 	{
@@ -84,7 +84,7 @@ public interface GustavGuideConfig extends Config
 		name = "Birdhouse run reminder",
 		description = "Notify when ~50 minutes have passed since you last visited the Fossil Island birdhouses.",
 		section = generalSection,
-		position = 3
+		position = 4
 	)
 	default boolean birdhouseReminder()
 	{
@@ -96,7 +96,7 @@ public interface GustavGuideConfig extends Config
 		name = "Teleport hint",
 		description = "Suggest the fastest teleport you have UNLOCKED to reach the current step.",
 		section = generalSection,
-		position = 4
+		position = 5
 	)
 	default boolean teleportHint()
 	{
@@ -108,7 +108,7 @@ public interface GustavGuideConfig extends Config
 		name = "Drive Shortest Path",
 		description = "If the Shortest Path plugin is installed, auto-path it to the current step's destination.",
 		section = generalSection,
-		position = 5
+		position = 6
 	)
 	default boolean driveShortestPath()
 	{

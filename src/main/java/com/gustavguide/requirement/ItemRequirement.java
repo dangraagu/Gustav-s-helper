@@ -35,14 +35,4 @@ public class ItemRequirement implements Requirement
 		String label = (name == null || name.isEmpty()) ? ("Item " + itemId) : name;
 		return quantity > 1 ? (label + " x" + quantity) : label;
 	}
-
-	public int getItemId()
-	{
-		return itemId;
-	}
-
-	public int getQuantity()
-	{
-		return quantity;
-	}
 }

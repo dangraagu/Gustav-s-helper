@@ -6,6 +6,8 @@ package com.gustavguide.engine;
 
 import com.gustavguide.IronmanMode;
 import com.gustavguide.engine.condition.Condition;
+import com.gustavguide.engine.condition.PositionCondition;
+import com.gustavguide.engine.condition.QuestCondition;
 import com.gustavguide.requirement.Requirement;
 import java.util.Collections;
 import java.util.List;
@@ -99,12 +101,6 @@ public class RouteStep
 		return worldPoint;
 	}
 
-	/** First highlight NPC id, or -1 — kept for single-target call sites. */
-	public int getHighlightNpcId()
-	{
-		return highlightNpcIds.isEmpty() ? -1 : highlightNpcIds.get(0);
-	}
-
 	/** All acceptable NPC ids for this step (empty = none) — "talk to any man" carries several. */
 	public List<Integer> getHighlightNpcIds()
 	{
@@ -145,8 +141,8 @@ public class RouteStep
 	 *  Used to drive Quest Helper's walkthrough (fork) and to look up the quest-start tile. */
 	public net.runelite.api.Quest getQuest()
 	{
-		return complete instanceof com.gustavguide.engine.condition.QuestCondition
-			? ((com.gustavguide.engine.condition.QuestCondition) complete).getQuest()
+		return complete instanceof QuestCondition
+			? ((QuestCondition) complete).getQuest()
 			: null;
 	}
 
@@ -154,7 +150,7 @@ public class RouteStep
 	 *  in route order — never from standing near a far-future waypoint (see Progression.process). */
 	public boolean isPositionTriggered()
 	{
-		return complete instanceof com.gustavguide.engine.condition.PositionCondition;
+		return complete instanceof PositionCondition;
 	}
 
 	/** True if this step points at a specific NPC/object to interact with — real work, not flavour, so

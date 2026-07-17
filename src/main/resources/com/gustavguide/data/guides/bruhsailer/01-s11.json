@@ -128,12 +128,12 @@
           {
             "op": "itemAcquired",
             "id": 20742,
-            "qty": 3
+            "qty": 1
           },
           {
             "op": "item",
             "id": 20742,
-            "qty": 3,
+            "qty": 1,
             "scope": "ANY"
           }
         ]

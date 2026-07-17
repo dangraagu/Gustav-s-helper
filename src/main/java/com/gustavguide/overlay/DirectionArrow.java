@@ -57,7 +57,7 @@ public final class DirectionArrow
 	}
 
 	/** Draws a small minimap arrow along the given line. */
-	public static void drawMinimapArrow(Graphics2D graphics, Line2D.Double line, Color color)
+	private static void drawMinimapArrow(Graphics2D graphics, Line2D.Double line, Color color)
 	{
 		drawArrow(graphics, line, color, 6, 2, 2);
 	}

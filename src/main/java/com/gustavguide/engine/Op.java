@@ -55,7 +55,7 @@ public enum Op
 		{
 			return GE;
 		}
-		switch (s.trim())
+		switch (s.trim().toLowerCase())
 		{
 			case ">=":
 			case "ge":

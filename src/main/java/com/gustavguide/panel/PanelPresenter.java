@@ -80,7 +80,6 @@ public class PanelPresenter
 			m.text = current.getText();
 			m.note = current.getNote();
 			m.wikiUrl = current.getWikiUrl();
-			m.currentIsManual = current.isManual();
 			for (Requirement r : current.getRequirements())
 			{
 				m.requirements.add(new PanelModel.ReqView(r.getText(), r.check(ctx)));

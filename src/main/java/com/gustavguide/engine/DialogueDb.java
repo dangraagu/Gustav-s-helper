@@ -30,6 +30,10 @@ import net.runelite.api.Quest;
 @Slf4j
 public class DialogueDb
 {
+	/** Shortest NPC-name first token allowed to match step text; below this, short/common names
+	 *  (e.g. "man", "boy") would over-match unrelated text. */
+	private static final int MIN_NPC_NAME_TOKEN_LENGTH = 4;
+
 	/** RuneLite Quest constant name -> option strings QH clicks during that quest. */
 	private final Map<String, List<String>> byQuest;
 	/** NPC name -> option strings, for non-quest talk steps. Keys can carry gameval suffixes. */
@@ -94,8 +98,8 @@ public class DialogueDb
 			for (Map.Entry<String, List<String>> e : byNpc.entrySet())
 			{
 				String first = firstToken(e.getKey());
-				// require a 4+ char first token so short/common names don't over-match the step text
-				if (first.length() >= 4 && haystack.contains(first))
+				// require a long-enough first token so short/common names don't over-match the step text
+				if (first.length() >= MIN_NPC_NAME_TOKEN_LENGTH && haystack.contains(first))
 				{
 					addNormalized(out, e.getValue());
 				}

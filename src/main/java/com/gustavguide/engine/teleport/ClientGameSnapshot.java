@@ -17,6 +17,9 @@ import net.runelite.api.gameval.VarPlayerID;
 /** Live {@link GameSnapshot} backed by the RuneLite client. Construct and use on the client thread. */
 public class ClientGameSnapshot implements GameSnapshot
 {
+	/** Combat level of a brand-new account, used as a fallback while the local player isn't loaded yet. */
+	private static final int DEFAULT_COMBAT_LEVEL = 3;
+
 	private final Client client;
 
 	public ClientGameSnapshot(Client client)
@@ -40,7 +43,7 @@ public class ClientGameSnapshot implements GameSnapshot
 	public int combatLevel()
 	{
 		Player p = client.getLocalPlayer();
-		return p == null ? 3 : p.getCombatLevel();
+		return p == null ? DEFAULT_COMBAT_LEVEL : p.getCombatLevel();
 	}
 
 	@Override

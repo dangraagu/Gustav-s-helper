@@ -45,11 +45,15 @@ public class GustavMinimapOverlay extends Overlay
 			return null;
 		}
 		RouteStep step = state.getCurrentStep();
-		if (step == null || step.getWorldPoint() == null)
+		if (step == null)
 		{
 			return null;
 		}
 		WorldPoint wp = step.getWorldPoint();
+		if (wp == null)
+		{
+			return null;
+		}
 		LocalPoint lp = LocalPoint.fromWorld(client, wp);
 		if (lp == null)
 		{

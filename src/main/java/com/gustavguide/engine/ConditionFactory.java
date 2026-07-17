@@ -40,6 +40,9 @@ import net.runelite.api.coords.WorldPoint;
 @Slf4j
 public final class ConditionFactory
 {
+	/** Default arrival radius (tiles) for a position condition when the data omits an explicit one. */
+	private static final int DEFAULT_POSITION_RADIUS = 8;
+
 	private ConditionFactory()
 	{
 	}
@@ -110,10 +113,9 @@ public final class ConditionFactory
 			case "itemacquired":
 			case "acquired":
 			{
-				int id = getInt(o, "id", -1);
+				int id = requireId(o, "itemAcquired", stepId);
 				if (id < 0)
 				{
-					log.warn("Gustav's Helper: itemAcquired condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new ItemAcquiredCondition(id, getInt(o, "qty", 1));
@@ -122,30 +124,27 @@ public final class ConditionFactory
 			case "itemspent":
 			case "consumed":
 			{
-				int id = getInt(o, "id", -1);
+				int id = requireId(o, "itemConsumed", stepId);
 				if (id < 0)
 				{
-					log.warn("Gustav's Helper: itemConsumed condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new ItemConsumedCondition(id, getInt(o, "qty", 1));
 			}
 			case "varbit":
 			{
-				int id = getInt(o, "id", -1);
+				int id = requireId(o, "varbit", stepId);
 				if (id < 0)
 				{
-					log.warn("Gustav's Helper: varbit condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new VarbitCondition(id, getInt(o, "value", 0), Op.fromString(getString(o, "cmp", ">=")));
 			}
 			case "varp":
 			{
-				int id = getInt(o, "id", -1);
+				int id = requireId(o, "varp", stepId);
 				if (id < 0)
 				{
-					log.warn("Gustav's Helper: varp condition missing/invalid id in step '{}'", stepId);
 					return ConstantCondition.MANUAL;
 				}
 				return new VarpCondition(id, getInt(o, "value", 0), Op.fromString(getString(o, "cmp", ">=")));
@@ -161,7 +160,7 @@ public final class ConditionFactory
 					return ConstantCondition.MANUAL;
 				}
 				WorldPoint target = new WorldPoint(getInt(o, "x", 0), getInt(o, "y", 0), getInt(o, "z", 0));
-				return new PositionCondition(target, getInt(o, "radius", 8));
+				return new PositionCondition(target, getInt(o, "radius", DEFAULT_POSITION_RADIUS));
 			}
 			case "and":
 				return new AndCondition(parseList(o, stepId));
@@ -246,5 +245,23 @@ public final class ConditionFactory
 	{
 		JsonElement e = o.get(key);
 		return (e != null && e.isJsonPrimitive()) ? e.getAsInt() : def;
+	}
+
+	/**
+	 * Reads the required {@code "id"} field shared by the item-acquired/consumed and varbit/varp
+	 * conditions. Logs a diagnostic and returns -1 (which the caller checks) when it's absent or
+	 * negative, so the step degrades to {@link ConstantCondition#MANUAL} rather than building a
+	 * condition around a bogus id.
+	 *
+	 * @param condName human-readable condition name for the diagnostic
+	 */
+	private static int requireId(JsonObject o, String condName, String stepId)
+	{
+		int id = getInt(o, "id", -1);
+		if (id < 0)
+		{
+			log.warn("Gustav's Helper: {} condition missing/invalid id in step '{}'", condName, stepId);
+		}
+		return id;
 	}
 }

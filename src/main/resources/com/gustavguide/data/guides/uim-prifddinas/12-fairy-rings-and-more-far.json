@@ -30,12 +30,12 @@
           {
             "op": "itemAcquired",
             "id": 1379,
-            "qty": 500
+            "qty": 1
           },
           {
             "op": "item",
             "id": 1379,
-            "qty": 502,
+            "qty": 3,
             "scope": "ANY"
           }
         ]
@@ -90,12 +90,12 @@
           {
             "op": "itemAcquired",
             "id": 1379,
-            "qty": 501
+            "qty": 2
           },
           {
             "op": "item",
             "id": 1379,
-            "qty": 502,
+            "qty": 3,
             "scope": "ANY"
           }
         ]
@@ -560,12 +560,12 @@
           {
             "op": "itemAcquired",
             "id": 1379,
-            "qty": 502
+            "qty": 3
           },
           {
             "op": "item",
             "id": 1379,
-            "qty": 502,
+            "qty": 3,
             "scope": "ANY"
           }
         ]

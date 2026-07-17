@@ -87,17 +87,4 @@ public class Route
 		}
 		return ids;
 	}
-
-	public List<RouteStep> stepsInSection(String section)
-	{
-		List<RouteStep> out = new ArrayList<>();
-		for (RouteStep s : steps)
-		{
-			if (s.getSection().equals(section))
-			{
-				out.add(s);
-			}
-		}
-		return out;
-	}
 }

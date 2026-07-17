@@ -27,15 +27,9 @@ def build(raw_path, item_map, quest_map, entities):
         old.unlink()  # wipe stale section files so a renamed/removed section never lingers
 
     # Pass 1: total items needed (same skill>quest>item precedence + same atom split as build_step).
-    total_needed = {}
-    for sec in sections:
-        for st in sec.get("steps", []):
-            for atom in sg.split_atoms(st.get("name") or ""):
-                if sg.detect_skill(atom) or sg.detect_quest(atom, quest_map):
-                    continue
-                iq = sg.detect_item_id_qty(atom, item_map)
-                if iq:
-                    total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
+    total_needed = sg.total_item_needs(
+        (st.get("name") or "" for sec in sections for st in sec.get("steps", [])),
+        item_map, quest_map)
 
     # Pass 2: build (running cumulative per item + route-position anchor across the whole guide).
     cumulative = {}
@@ -82,20 +76,11 @@ def main():
         return
     print("loading shared enricher data ...")
     item_map = sg.fetch_item_map()
-    sg.build_item_index(item_map)
-    sg.load_item_aliases()
-    sg.load_shop_stock()
-    quest_map = sg.load_quest_map()
-    sg.load_location_coords()
-    nqs = sg.load_quest_start(quest_map)
-    nam = sg.load_amenities()
-    nres = sg.load_resources()
-    sg.load_manual()
-    sg.load_qh_steps()
-    sg.load_skill_methods()
-    entities = sg.load_qh_entities()
-    print(f"  ({nqs} quest-start tiles, {len(sg.GAZETTEER)} locations, {nam} town amenities, "
-          f"{nres} resource sites bridged)")
+    enr = sg.load_all_enrichers(item_map)
+    quest_map = enr["quest_map"]
+    entities = enr["entities"]
+    print(f"  ({enr['nqs']} quest-start tiles, {len(sg.GAZETTEER)} locations, {enr['nam']} town amenities, "
+          f"{enr['nres']} resource sites bridged)")
     for f in files:
         build(f, item_map, quest_map, entities)
 

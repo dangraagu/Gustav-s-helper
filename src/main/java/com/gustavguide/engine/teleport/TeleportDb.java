@@ -42,11 +42,6 @@ public final class TeleportDb
 		return teleports.isEmpty();
 	}
 
-	public int size()
-	{
-		return teleports.size();
-	}
-
 	/** Loads the bundled catalogue; returns an empty DB (never null) if it's missing/unreadable. */
 	public static TeleportDb load(Gson gson)
 	{

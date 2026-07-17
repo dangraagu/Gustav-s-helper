@@ -39,9 +39,10 @@ public class GustavItemOverlay extends WidgetItemOverlay
 	@Override
 	public void renderItemOverlay(Graphics2D graphics, int itemId, WidgetItem widgetItem)
 	{
-		// This runs for EVERY item slot (inventory + bank + equipment) every frame. Keep the hot path
-		// to a volatile read + int compares; only touch the config proxy for the one matching item —
-		// otherwise a full bank at 50fps floods the client thread and freezes the game.
+		// This runs for EVERY highlighted interface slot (inventory + bank + equipment + shop stock)
+		// every frame. Keep the hot path to a volatile read + int compares; only touch the config proxy
+		// for the one matching item — otherwise a full bank at 50fps floods the client thread and
+		// freezes the game.
 		RouteStep step = state.getCurrentStep();
 		if (step == null)
 		{
@@ -64,7 +65,8 @@ public class GustavItemOverlay extends WidgetItemOverlay
 		Color color = config.highlightColor();
 		graphics.setColor(color);
 		graphics.draw(bounds);
-		graphics.setColor(new Color(color.getRed(), color.getGreen(), color.getBlue(), 60));
+		// alpha 60: dialogue/item boxes use a stronger fill than the world tile (40), on purpose
+		graphics.setColor(OverlayColors.translucent(color, 60));
 		graphics.fill(bounds);
 	}
 }

@@ -72,6 +72,11 @@ SKILL_RE_2 = re.compile(r'\b([a-zA-Z]+)\s+to\s+(\d{1,2})\b', re.I)
 
 USER_AGENT = "GustavGuide-scraper/1.0 (+https://github.com/dangraagu/Osiris-guide; build-time content import)"
 
+# --- Tuning constants ---------------------------------------------------------
+MAX_ITEM_QTY = 100000        # clamp on a detected pickup quantity (guards against absurd totals)
+UNDERGROUND_Y_OFFSET = 6400  # underground regions sit +6400 in y above their surface spot
+QUEST_NEG_WINDOW = 70        # chars before a matched quest name to scan for a negation/aside cue
+
 
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -118,6 +123,9 @@ def detect_skill(text: str):
 ACQUIRE_VERBS = ("buy", "purchase", "pick up", "pickup", "collect", "grab", "loot",
                  "obtain", "withdraw", "steal", "gather")
 _INT_RE = re.compile(r'\d+')
+# A number right after "world"/"w" is a world-hop count, not an item quantity (e.g. "gilded altar on
+# w330", "hop to world 302 and buy wine") — used to exclude it when reading shop-buy quantities.
+_WORLD_HOP_RE = re.compile(r'\b(?:world|w)\s*$', re.IGNORECASE)
 
 # Colloquial guide phrase -> canonical item id, for cases the wiki item names miss ("wine" is sold as
 # "Jug of wine"; "jugs of wine" plurals the wrong word). Applied only when the real-name match fails.
@@ -197,12 +205,20 @@ def shop_item_match(text):
         subset = phrase <= ntok
         score = (1 if subset else 0, -len(name), -iid)  # all words matched > shorter name > lower id
         if best is None or score > best[0]:
-            best = (score, iid)
+            best = (score, iid, name)
     if best is None:
         return None
-    nums = [int(m.group()) for m in _INT_RE.finditer(padded)]
-    qty = max(1, min(nums[0] if nums else 1, 100000))
-    return (best[1], qty)
+    # quantity: the integer immediately before the matched item WORD(S) that actually appear in the
+    # step text — not the full stock name, which is often a colloquial alias (guide "wine" -> stock
+    # "Jug of wine"). So "buy 5 wine" -> 5, while a number after the item (or none) leaves qty=1.
+    _score, best_id, best_name = best
+    matched = phrase & {w for w in best_name.split() if len(w) >= 3}
+    positions = [p for p in (padded.find(" " + w) for w in matched) if p >= 0]
+    pos = min(positions) if positions else len(padded)
+    before = [int(m.group()) for m in _INT_RE.finditer(padded)
+              if m.start() < pos and not _WORLD_HOP_RE.search(padded[max(0, m.start() - 8):m.start()])]
+    qty = max(1, min(before[-1] if before else 1, MAX_ITEM_QTY))
+    return (best_id, qty)
 
 
 def fetch_item_map():
@@ -226,6 +242,11 @@ def fetch_item_map():
 def _norm(s: str) -> str:
     t = re.sub(r'[^a-z0-9 ]+', ' ', s.lower().replace("&", " and "))
     return " " + re.sub(r'\s+', ' ', t).strip() + " "
+
+
+def _xyz(seq):
+    """A [x, y, z] coord as ints, with the plane defaulting to 0 when only [x, y] is given."""
+    return [int(seq[0]), int(seq[1]), int(seq[2]) if len(seq) > 2 else 0]
 
 
 # --- Skill training methods: a grind step shows the wiki's recommended method --
@@ -340,7 +361,7 @@ def detect_item_id_qty(text: str, item_map):
     pos = padded.find(" " + best_name)
     ints = [(m.start(), int(m.group())) for m in _INT_RE.finditer(padded)]
     before = [v for (s, v) in ints if s < pos]
-    qty = max(1, min(before[-1] if before else 1, 100000))
+    qty = max(1, min(before[-1] if before else 1, MAX_ITEM_QTY))
     return (best_id, qty)
 
 
@@ -395,7 +416,7 @@ def load_quest_start(quest_map):
             continue
         const = norm_to_const.get(_norm(disp))
         if const:
-            QUEST_START_BY_CONST[const] = [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
+            QUEST_START_BY_CONST[const] = _xyz(xy)
             n += 1
     return n
 
@@ -458,7 +479,7 @@ def detect_quest(text: str, quest_map):
     if best_const is None:
         return None
     pos = padded.find(best_cand)
-    if pos > 0 and _QUEST_NEG_RE.search(padded[max(0, pos - 70):pos]):
+    if pos > 0 and _QUEST_NEG_RE.search(padded[max(0, pos - QUEST_NEG_WINDOW):pos]):
         return None
     state = "IN_PROGRESS" if _QUEST_START_VERB_RE.match(text or "") else "FINISHED"
     return {"op": "quest", "quest": best_const, "state": state}
@@ -530,10 +551,10 @@ def _dist(a, b):
     # Underground regions sit +6400 in y above their surface spot; normalise for DISTANCE ONLY so an
     # Edgeville anchor sees the Edgeville Dungeon site as near, not 6000 tiles away. (The emitted
     # coordinate keeps its true underground y.)
-    if ay > 6400:
-        ay -= 6400
-    if by > 6400:
-        by -= 6400
+    if ay > UNDERGROUND_Y_OFFSET:
+        ay -= UNDERGROUND_Y_OFFSET
+    if by > UNDERGROUND_Y_OFFSET:
+        by -= UNDERGROUND_Y_OFFSET
     return max(abs(ax - bx), abs(ay - by))
 
 
@@ -610,7 +631,7 @@ def amenity_lookup(name, loc, anchor=None):
     if best is None:
         return None
     xy = spots[best]
-    return [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
+    return _xyz(xy)
 
 
 # --- Craft-gap fill: make/smith steps borrow a location from their neighbours ---
@@ -679,7 +700,7 @@ def nearest_bank(anchor):
         d = _dist(anchor, c)
         if d < bd:
             best, bd = b, d
-    return [int(best[0]), int(best[1]), int(best[2]) if len(best) > 2 else 0] if best else None
+    return _xyz(best) if best else None
 
 
 def _parent_id(sid):
@@ -748,7 +769,7 @@ def fill_craft_gaps(steps):
                 town = town_near_with(a, fac)
                 if town:
                     xy = AMENITIES[town][fac]
-                    world = [int(xy[0]), int(xy[1]), int(xy[2]) if len(xy) > 2 else 0]
+                    world = _xyz(xy)
                     break
         if world is None and (prev_w or next_w):
             world = list(prev_w or next_w)
@@ -798,8 +819,7 @@ def load_qh_steps():
             if not w or len(w) < 2 or len(toks) < QH_MATCH_MIN_TOKENS:
                 continue
             idx = len(QH_STEPS)
-            QH_STEPS.append((toks, [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0],
-                             s.get("npc"), s.get("object")))
+            QH_STEPS.append((toks, _xyz(w), s.get("npc"), s.get("object")))
             for t in toks:
                 _QH_TOKEN_INDEX.setdefault(t, []).append(idx)
     _index_helper_names(data)
@@ -828,7 +848,7 @@ def _index_helper_names(data):
         if not first:
             continue
         w = first["world"]
-        world = [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0]
+        world = _xyz(w)
         toks = [t for t in qkey.lower().split("_") if len(t) >= 3 and t not in ("the", "and", "for")]
         if len(toks) >= 2:
             _register_helper_name(toks, world)
@@ -942,12 +962,12 @@ def manual_lookup(name):
         out = {}
         w = v.get("world")
         if isinstance(w, (list, tuple)) and len(w) >= 2:
-            out["world"] = [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0]
+            out["world"] = _xyz(w)
         ids = v.get("npcs") or ([v["npc"]] if v.get("npc") is not None else None)
         if ids:
             out["npcs"] = [int(i) for i in ids]
         return out or None
-    return {"world": [int(v[0]), int(v[1]), int(v[2]) if len(v) > 2 else 0]}
+    return {"world": _xyz(v)}
 
 
 # --- Resource sites: where you actually mine/chop/fish/kill -------------------
@@ -1007,7 +1027,7 @@ def resource_lookup(name, anchor=None):
     if not sites:
         return None
     best = min(sites, key=lambda s: _dist(s, anchor)) if anchor else sites[0]
-    return [int(best[0]), int(best[1]), int(best[2]) if len(best) > 2 else 0]
+    return _xyz(best)
 
 
 def load_location_coords():
@@ -1086,7 +1106,7 @@ def enrich_entity(step, text, cond_op, item_id, entities):
         key = "object"
     if hit:
         w = hit[2]
-        if len(w) < 2 or w[1] >= 6400:
+        if len(w) < 2 or w[1] >= UNDERGROUND_Y_OFFSET:
             return  # instance/dungeon coords — not a useful surface target, usually a mis-map
         step[key] = hit[1]
         step["world"] = [w[0], w[1], w[2] if len(w) > 2 else 0]
@@ -1274,11 +1294,10 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     return step
 
 
-def main():
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for old in OUT_DIR.glob("*.json"):
-        old.unlink()  # wipe stale section files so a renamed/removed section never lingers
-    item_map = fetch_item_map()
+def load_all_enrichers(item_map):
+    """Load every enricher table (given an already-fetched item_map) and return the shared pieces both
+    entrypoints need plus the counts they print. fetch_item_map() stays the caller's job because the
+    item_map is also threaded into the build itself."""
     build_item_index(item_map)
     load_item_aliases()
     load_shop_stock()
@@ -1291,8 +1310,42 @@ def main():
     nqsteps = load_qh_steps()
     nsm = load_skill_methods()
     entities = load_qh_entities()
+    return {
+        "quest_map": quest_map,
+        "entities": entities,
+        "nqs": nqs,
+        "nam": nam,
+        "nres": nres,
+        "nman": nman,
+        "nqsteps": nqsteps,
+        "nsm": nsm,
+    }
+
+
+def total_item_needs(step_names, item_map, quest_map):
+    """Pass-1 'total items needed' database: sum every acquisition qty per item across the step names,
+    using the SAME atomisation + skill>quest>item precedence as build_step so the totals line up."""
+    total_needed = {}
+    for name in step_names:
+        for atom in split_atoms(name):  # same atoms as the build pass, so item totals line up
+            if detect_skill(atom) or detect_quest(atom, quest_map):
+                continue
+            iq = detect_item_id_qty(atom, item_map)
+            if iq:
+                total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
+    return total_needed
+
+
+def main():
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    for old in OUT_DIR.glob("*.json"):
+        old.unlink()  # wipe stale section files so a renamed/removed section never lingers
+    item_map = fetch_item_map()
+    enr = load_all_enrichers(item_map)
+    quest_map = enr["quest_map"]
+    entities = enr["entities"]
     print(f"loaded {len(item_map)} item names, {len(quest_map)} quest names, {len(GAZETTEER)} "
-          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, {nman} manual overrides, {nqsteps} QH steps, {nsm} skill-method sets, {len(NORM_ITEM_INDEX)} item names, "
+          f"locations, {enr['nqs']} quest-start tiles, {enr['nam']} town amenities, {enr['nres']} resource sites, {enr['nman']} manual overrides, {enr['nqsteps']} QH steps, {enr['nsm']} skill-method sets, {len(NORM_ITEM_INDEX)} normalised item index, "
           f"{len(entities['npcs'])} npcs + {len(entities['objects'])} objects (QH refs)")
 
     # Fetch every section first (need all steps to total the item needs before building).
@@ -1306,17 +1359,11 @@ def main():
             continue
         sections.append((order, slug, display, prefix, url, extract_howto_steps(html)))
 
-    # Pass 1: the "total items needed" database — sum every acquisition qty per item, using the SAME
+    # Pass 1: the "total items needed" database (see total_item_needs) — same atoms + skill>quest>item
     # precedence as the build (a step that is a skill/quest goal is not an item-acquisition step).
-    total_needed = {}
-    for (_o, _s, _d, _p, _u, raw) in sections:
-        for (pos, name, loc, u) in raw:
-            for atom in split_atoms(name):  # same atoms as the build pass, so item totals line up
-                if detect_skill(atom) or detect_quest(atom, quest_map):
-                    continue
-                iq = detect_item_id_qty(atom, item_map)
-                if iq:
-                    total_needed[iq[0]] = total_needed.get(iq[0], 0) + iq[1]
+    total_needed = total_item_needs(
+        (name for (_o, _s, _d, _p, _u, raw) in sections for (_pos, name, _loc, _u2) in raw),
+        item_map, quest_map)
 
     # Pass 2: build steps, carrying a running cumulative per item across the whole guide.
     index = {"_comment": "Auto-generated by tools/scrape_guide.py. Ordered section files.",

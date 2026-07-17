@@ -28,6 +28,9 @@ import net.runelite.client.util.LinkBrowser;
  */
 public class GustavGuidePanel extends PluginPanel
 {
+	/** Width (px) the wrapping HTML labels are constrained to, so text wraps to the panel. */
+	private static final int PANEL_HTML_WIDTH = 190;
+
 	private final PanelActions actions;
 
 	// Guide tab
@@ -178,8 +181,8 @@ public class GustavGuidePanel extends PluginPanel
 		ledgerTotals.setBorder(BorderFactory.createEmptyBorder(2, 0, 8, 0));
 
 		ledgerEmpty.setForeground(Color.GRAY);
-		ledgerEmpty.setText("<html><body style='width:190px'>Items the guide references appear here as you"
-			+ " obtain and spend them. Nothing is tracked yet.</body></html>");
+		ledgerEmpty.setText(wrap("Items the guide references appear here as you"
+			+ " obtain and spend them. Nothing is tracked yet."));
 
 		JPanel top = new JPanel();
 		top.setLayout(new BoxLayout(top, BoxLayout.Y_AXIS));
@@ -250,21 +253,21 @@ public class GustavGuidePanel extends PluginPanel
 		{
 			sectionLabel.setText("");
 			titleLabel.setText("Route complete ✓");
-			textLabel.setText("<html><body style='width:190px'>You have finished the guide. Nice.</body></html>");
+			textLabel.setText(wrap("You have finished the guide. Nice."));
 		}
 		else if (hasCurrent)
 		{
 			sectionLabel.setText(m.section);
 			titleLabel.setText(m.title);
-			textLabel.setText("<html><body style='width:190px'>" + escape(m.text) + "</body></html>");
+			textLabel.setText(wrap(escape(m.text)));
 			if (m.note != null && !m.note.isEmpty())
 			{
-				noteLabel.setText("<html><body style='width:190px'>💡 " + escape(m.note) + "</body></html>");
+				noteLabel.setText(wrap("💡 " + escape(m.note)));
 				noteLabel.setVisible(true);
 			}
 			if (m.teleportHint != null && !m.teleportHint.isEmpty())
 			{
-				teleportLabel.setText("<html><body style='width:190px'>➤ " + escape(m.teleportHint) + "</body></html>");
+				teleportLabel.setText(wrap("➤ " + escape(m.teleportHint)));
 				teleportLabel.setVisible(true);
 			}
 			for (PanelModel.ReqView r : m.requirements)
@@ -373,5 +376,11 @@ public class GustavGuidePanel extends PluginPanel
 			return "";
 		}
 		return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;");
+	}
+
+	/** Wraps body HTML in a fixed-width html/body so the label wraps at {@link #PANEL_HTML_WIDTH}. */
+	private static String wrap(String bodyHtml)
+	{
+		return "<html><body style='width:" + PANEL_HTML_WIDTH + "px'>" + bodyHtml + "</body></html>";
 	}
 }

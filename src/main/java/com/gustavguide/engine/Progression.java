@@ -7,6 +7,7 @@ package com.gustavguide.engine;
 import com.gustavguide.IronmanMode;
 import java.util.Collection;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -69,12 +70,6 @@ public class Progression
 		return null;
 	}
 
-	public int getCurrentIndex()
-	{
-		RouteStep s = getCurrentStep();
-		return s == null ? -1 : route.indexOf(s.getId());
-	}
-
 	/**
 	 * Evaluates every incomplete step that applies to the current mode and marks complete any whose
 	 * condition is now met. A condition that throws is treated as not-met (degrades to manual) so one
@@ -135,7 +130,7 @@ public class Progression
 	 */
 	public boolean foldManualBehindMilestones()
 	{
-		java.util.List<RouteStep> steps = route.getSteps();
+		List<RouteStep> steps = route.getSteps();
 		int furthest = -1;
 		for (int i = 0; i < steps.size(); i++)
 		{
@@ -197,11 +192,6 @@ public class Progression
 		{
 			completed.add(id);
 		}
-	}
-
-	public void uncomplete(String id)
-	{
-		completed.remove(id);
 	}
 
 	public void reset()

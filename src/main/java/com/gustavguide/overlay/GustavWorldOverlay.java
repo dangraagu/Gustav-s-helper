@@ -78,7 +78,8 @@ public class GustavWorldOverlay extends Overlay
 					{
 						graphics.setColor(color);
 						graphics.drawPolygon(poly);
-						graphics.setColor(withAlpha(color, 40));
+						// alpha 40: world tiles use a fainter fill than item/dialogue boxes (60), on purpose
+						graphics.setColor(OverlayColors.translucent(color, 40));
 						graphics.fillPolygon(poly);
 					}
 				}
@@ -163,12 +164,8 @@ public class GustavWorldOverlay extends Overlay
 		}
 		graphics.setColor(color);
 		graphics.draw(shape);
-		graphics.setColor(withAlpha(color, 40));
+		// alpha 40: world tiles use a fainter fill than item/dialogue boxes (60), on purpose
+		graphics.setColor(OverlayColors.translucent(color, 40));
 		graphics.fill(shape);
-	}
-
-	private static Color withAlpha(Color c, int alpha)
-	{
-		return new Color(c.getRed(), c.getGreen(), c.getBlue(), alpha);
 	}
 }

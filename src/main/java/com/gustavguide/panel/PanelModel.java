@@ -39,7 +39,6 @@ public class PanelModel
 	public String note;          // optional tip shown under the step text (e.g. a skill-training method)
 	public String teleportHint;  // "Fastest: <teleport>" for the current step, or null
 	public String wikiUrl;
-	public boolean currentIsManual;
 
 	public List<ReqView> requirements = new ArrayList<>();
 	public List<String> upcoming = new ArrayList<>();

@@ -117,7 +117,8 @@ public class DialogueOverlay extends Overlay
 		{
 			return;
 		}
-		graphics.setColor(new Color(color.getRed(), color.getGreen(), color.getBlue(), 60));
+		// alpha 60: dialogue/item boxes use a stronger fill than the world tile (40), on purpose
+		graphics.setColor(OverlayColors.translucent(color, 60));
 		graphics.fillRect(bounds.x, bounds.y, bounds.width, bounds.height);
 		graphics.setColor(color);
 		graphics.drawRect(bounds.x, bounds.y, bounds.width, bounds.height);

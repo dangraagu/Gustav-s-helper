@@ -26,7 +26,9 @@ import com.gustavguide.panel.GustavGuidePanel;
 import com.gustavguide.panel.PanelActions;
 import com.gustavguide.panel.PanelPresenter;
 import java.awt.image.BufferedImage;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import javax.inject.Inject;
@@ -75,6 +77,7 @@ import net.runelite.client.util.ImageUtil;
 public class GustavGuidePlugin extends Plugin
 {
 	private static final int PANEL_REFRESH_TICKS = 5;
+	private static final int NAV_PRIORITY = 7;
 
 	// Birdhouse-run reminder: Verdant Valley, Fossil Island (wiki {{Map}} centre). Visiting anywhere
 	// within the radius (re)arms a ~50-minute cycle; when it elapses, a notification fires once.
@@ -146,7 +149,7 @@ public class GustavGuidePlugin extends Plugin
 	private String accountKey;
 	private String lastCurrentStepId;
 	private int wantedObjectId = -1;
-	private java.util.List<Integer> wantedNpcIds = java.util.Collections.emptyList();
+	private List<Integer> wantedNpcIds = Collections.emptyList();
 	private int tickCounter;
 
 	@Provides
@@ -182,7 +185,7 @@ public class GustavGuidePlugin extends Plugin
 		navButton = NavigationButton.builder()
 			.tooltip("Gustav's Helper")
 			.icon(pluginIcon)
-			.priority(7)
+			.priority(NAV_PRIORITY)
 			.panel(panel)
 			.build();
 		clientToolbar.addNavigation(navButton);
@@ -319,6 +322,22 @@ public class GustavGuidePlugin extends Plugin
 
 		boolean didReconcile = pendingReconcile;
 		ConditionContext ctx = new ConditionContext(client, ledger);
+		boolean changed = evaluateProgression(ctx);
+
+		handleBirdhouseReminder(ctx);
+
+		boolean periodic = runPeriodicPersistence();
+
+		// A container change (pickup / bank / drop / use) refreshes the ledger view promptly, even
+		// when 'acquired' didn't rise — so the used/dropped column updates the moment you drop an item.
+		boolean refresh = changed || didReconcile || periodic || ledgerViewDirty;
+		ledgerViewDirty = false;
+		recompute(refresh);
+	}
+
+	/** Reconcile / auto-advance / milestone-fold this tick; persists when anything changed and returns it. */
+	private boolean evaluateProgression(ConditionContext ctx)
+	{
 		boolean changed = false;
 		try
 		{
@@ -351,8 +370,12 @@ public class GustavGuidePlugin extends Plugin
 		{
 			persist();
 		}
+		return changed;
+	}
 
-		// Birdhouse-run reminder: being at the birdhouses (re)arms the cycle; away + elapsed -> one notify.
+	/** Birdhouse-run reminder: being at the birdhouses (re)arms the cycle; away + elapsed -> one notify. */
+	private void handleBirdhouseReminder(ConditionContext ctx)
+	{
 		if (config.birdhouseReminder() && birdhouseTimer != null)
 		{
 			WorldPoint here = ctx.playerLocation();
@@ -366,7 +389,11 @@ public class GustavGuidePlugin extends Plugin
 				notifier.notify("Gustav's Helper: birdhouse run is ready (Fossil Island)");
 			}
 		}
+	}
 
+	/** Periodic (every PANEL_REFRESH_TICKS) ledger + birdhouse flush; returns whether this was a periodic tick. */
+	private boolean runPeriodicPersistence()
+	{
 		tickCounter++;
 		boolean periodic = (tickCounter % PANEL_REFRESH_TICKS == 0);
 		if (ledgerDirty && periodic)
@@ -378,11 +405,7 @@ public class GustavGuidePlugin extends Plugin
 		{
 			persistBirdhouse();
 		}
-		// A container change (pickup / bank / drop / use) refreshes the ledger view promptly, even
-		// when 'acquired' didn't rise — so the used/dropped column updates the moment you drop an item.
-		boolean refresh = changed || didReconcile || periodic || ledgerViewDirty;
-		ledgerViewDirty = false;
-		recompute(refresh);
+		return periodic;
 	}
 
 	@Subscribe
@@ -419,7 +442,7 @@ public class GustavGuidePlugin extends Plugin
 			clientThread.invoke(() ->
 			{
 				RouteStep current = progression.getCurrentStep();
-				driveShortestPath(config.driveShortestPath() ? guideDest(current) : null);
+				applyShortestPathDrive(current);
 				recompute(true);
 			});
 		}
@@ -601,11 +624,11 @@ public class GustavGuidePlugin extends Plugin
 	{
 		state.clearTargets();
 		wantedObjectId = -1;
-		wantedNpcIds = java.util.Collections.emptyList();
+		wantedNpcIds = Collections.emptyList();
 		updateWorldMapPoint(current);
 		// Drive Shortest Path to this step's destination (on step change only); the panel hint is
 		// recomputed separately in refreshPanel so it stays fresh within a step.
-		driveShortestPath(config.driveShortestPath() ? guideDest(current) : null);
+		applyShortestPathDrive(current);
 		if (current == null)
 		{
 			return;
@@ -642,7 +665,7 @@ public class GustavGuidePlugin extends Plugin
 	}
 
 	/** First loaded NPC whose id is one of the wanted ids ("any man"), or null if none is in scene. */
-	private NPC findNpc(java.util.List<Integer> ids)
+	private NPC findNpc(List<Integer> ids)
 	{
 		for (NPC npc : client.getNpcs())
 		{
@@ -751,6 +774,12 @@ public class GustavGuidePlugin extends Plugin
 		}
 	}
 
+	/** Drive Shortest Path to {@code step}'s guide destination when the toggle is on, else clear it. */
+	private void applyShortestPathDrive(RouteStep step)
+	{
+		driveShortestPath(config.driveShortestPath() ? guideDest(step) : null);
+	}
+
 	/** Path the Shortest Path plugin to {@code dest} (or clear it) via the plugin-message bus. */
 	private void driveShortestPath(WorldPoint dest)
 	{
@@ -851,6 +880,7 @@ public class GustavGuidePlugin extends Plugin
 		@Override
 		public void skipCurrent()
 		{
+			// Intentional: a linear guide has no "skip without doing", so skip == complete the current step.
 			completeCurrent();
 		}
 

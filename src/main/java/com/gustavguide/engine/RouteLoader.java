@@ -32,8 +32,8 @@ import net.runelite.api.coords.WorldPoint;
 /**
  * Loads the route from bundled JSON resources. Structure:
  * <pre>
- *   /com/gustavguide/data/route/route-index.json   -> { "sections": ["01-early-game.json", ...] }
- *   /com/gustavguide/data/route/01-early-game.json  -> { "section": "Early Game", "steps": [ ... ] }
+ *   /com/gustavguide/data/guides/&lt;guideId&gt;/route-index.json   -> { "sections": ["01-early-game.json", ...] }
+ *   /com/gustavguide/data/guides/&lt;guideId&gt;/01-early-game.json  -> { "section": "Early Game", "steps": [ ... ] }
  * </pre>
  * Section files are concatenated in index order; steps keep their in-file order.
  */

@@ -5986,12 +5986,12 @@
           {
             "op": "itemAcquired",
             "id": 2015,
-            "qty": 5
+            "qty": 3
           },
           {
             "op": "item",
             "id": 2015,
-            "qty": 5,
+            "qty": 3,
             "scope": "ANY"
           }
         ]
