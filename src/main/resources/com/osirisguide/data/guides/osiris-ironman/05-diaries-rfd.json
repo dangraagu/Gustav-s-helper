@@ -240,7 +240,9 @@
         "skill": "ATTACK",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "dr-017",

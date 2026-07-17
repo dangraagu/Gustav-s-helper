@@ -143,6 +143,79 @@ def _norm(s: str) -> str:
     return " " + re.sub(r'\s+', ' ', t).strip() + " "
 
 
+# --- Skill training methods: a grind step shows the wiki's recommended method --
+# For "Train Cooking to 15" / "Do Slayer until 60 attack" (a skill-conditioned step, no location), we
+# attach a short wiki-sourced tip for the target level band -> step["note"], shown in the panel.
+SKILL_METHODS = {}
+
+
+def load_skill_methods():
+    p = Path(__file__).parent / "data" / "skill_methods.json"
+    if not p.exists():
+        return 0
+    try:
+        SKILL_METHODS.update(json.loads(p.read_text(encoding="utf-8")))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read skill_methods.json ({e})", file=sys.stderr)
+        return 0
+    return len(SKILL_METHODS)
+
+
+def skill_note(skill_enum, level):
+    m = SKILL_METHODS.get(skill_enum)
+    if not m:
+        return None
+    for b in m.get("bands", []):
+        if int(b.get("min", 1)) <= int(level) <= int(b.get("max", 99)):
+            return b.get("tip"), m.get("page")
+    return None
+
+
+# --- Gear highlight: equip/bring rows point at the ITEM in inventory/bank ------
+# "Equip Fire cape" / "Bring Super attack(4)" have no location — the useful cue is highlighting the
+# item (OsirisItemOverlay draws step.item in inv/bank). This resolves the item name -> id WITHOUT a
+# completion condition (equipping is not acquiring): the step stays manual, it just gets a highlight.
+_EQUIP_VERB_RE = re.compile(r"^\s*(equip|wield|wear|bring|carry)\b", re.IGNORECASE)
+NORM_ITEM_INDEX = {}  # normalised item name -> lowest id
+
+
+def build_item_index(item_map):
+    NORM_ITEM_INDEX.clear()
+    for name, iid in item_map.items():
+        n = _norm(name).strip()
+        if len(n) >= 3 and (n not in NORM_ITEM_INDEX or iid < NORM_ITEM_INDEX[n]):
+            NORM_ITEM_INDEX[n] = iid
+    # Merge complete ItemID gameval dump (covers untradeables the price-map lacks) + hand-resolved
+    # extras (display names whose cache-constant name differs, e.g. Fire cape). Tradeables already set
+    # win (lowest-id display name); these only fill gaps.
+    for fname in ("item_names.json", "item_ids_extra.json"):
+        p = Path(__file__).parent / "data" / fname
+        if not p.exists():
+            continue
+        try:
+            for n, iid in json.loads(p.read_text(encoding="utf-8")).items():
+                n = _norm(n).strip()  # same normalisation as the matcher (drops apostrophes/parens)
+                if len(n) >= 3 and n not in NORM_ITEM_INDEX:
+                    NORM_ITEM_INDEX[n] = int(iid)
+        except Exception as e:  # noqa: BLE001
+            print(f"[!] could not read {fname} ({e})", file=sys.stderr)
+    return len(NORM_ITEM_INDEX)
+
+
+def detect_item_highlight(text):
+    """Longest known item name appearing in an equip/bring/wield/wear step -> its id (highlight only)."""
+    if not NORM_ITEM_INDEX or not _EQUIP_VERB_RE.match(text or ""):
+        return None
+    padded = _norm(text)
+    best = None
+    for n, iid in NORM_ITEM_INDEX.items():
+        if len(n) < 4:
+            continue
+        if (" " + n + " ") in padded and (best is None or len(n) > len(best[0])):
+            best = (n, iid)
+    return best[1] if best else None
+
+
 def detect_item_id_qty(text: str, item_map):
     """
     Conservative: only when the step has an acquisition verb AND an exact known item name
@@ -989,10 +1062,22 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
                                   total_needed.get(item_id, cumulative[item_id]))
     if cond:
         step["complete"] = cond
+        # Show the wiki's recommended method only on a genuine training grind — NOT on a step that
+        # merely names a skill level as a prerequisite ("Complete <quest> when you reach 48 Slayer").
+        if cond.get("op") == "skill" and not detect_quest(name, quest_map):
+            note = skill_note(cond["skill"], cond["level"])
+            if note and note[0]:
+                step["note"] = note[0]
+                if "wiki" not in step and note[1]:
+                    step["wiki"] = note[1]
     else:
         step["manual"] = True
     if item_id is not None:
         step["item"] = item_id  # highlight it in inventory/bank
+    elif "item" not in step:
+        hi = detect_item_highlight(name)  # equip/bring row -> highlight the item (no completion change)
+        if hi is not None:
+            step["item"] = hi
     # Coordinate resolution, best-first: a precise NPC/object tile (from the QH reference table) wins;
     # else the area centre from the loc field; else the area centre from any place named in the step
     # text ("go to Falador" -> Falador centre). This fills the "no clickable spot" steps.
@@ -1054,6 +1139,7 @@ def main():
     for old in OUT_DIR.glob("*.json"):
         old.unlink()  # wipe stale section files so a renamed/removed section never lingers
     item_map = fetch_item_map()
+    build_item_index(item_map)
     quest_map = load_quest_map()
     load_location_coords()
     nqs = load_quest_start(quest_map)
@@ -1061,9 +1147,10 @@ def main():
     nres = load_resources()
     nman = load_manual()
     nqsteps = load_qh_steps()
+    nsm = load_skill_methods()
     entities = load_qh_entities()
     print(f"loaded {len(item_map)} item names, {len(quest_map)} quest names, {len(GAZETTEER)} "
-          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, {nman} manual overrides, {nqsteps} QH steps, "
+          f"locations, {nqs} quest-start tiles, {nam} town amenities, {nres} resource sites, {nman} manual overrides, {nqsteps} QH steps, {nsm} skill-method sets, {len(NORM_ITEM_INDEX)} item names, "
           f"{len(entities['npcs'])} npcs + {len(entities['objects'])} objects (QH refs)")
 
     # Fetch every section first (need all steps to total the item needs before building).

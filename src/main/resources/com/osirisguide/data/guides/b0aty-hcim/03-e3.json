@@ -1282,7 +1282,9 @@
         "skill": "WOODCUTTING",
         "level": 45,
         "cmp": ">="
-      }
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "e3-086",
@@ -2640,10 +2642,9 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
-      "object": 4913,
       "world": [
-        3440,
-        3232,
+        3102,
+        3557,
         0
       ]
     },
@@ -3463,6 +3464,7 @@
       "title": "Equip your studded chaps",
       "text": "Equip your studded chaps",
       "manual": true,
+      "item": 1097,
       "world": [
         3090,
         3475,

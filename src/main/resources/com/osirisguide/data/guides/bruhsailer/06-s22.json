@@ -13,6 +13,8 @@
         "level": 65,
         "cmp": ">="
       },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "object": 4771,
       "world": [
         2803,
@@ -397,6 +399,8 @@
         "level": 99,
         "cmp": ">="
       },
+      "note": "3-tick Barbarian Fishing (also gives Agility/Strength); drift net fishing on Fossil Island if training Hunter too.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
       "object": 4771,
       "world": [
         2803,
@@ -424,6 +428,8 @@
         "level": 60,
         "cmp": ">="
       },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
       "object": 24318,
       "world": [
         2877,

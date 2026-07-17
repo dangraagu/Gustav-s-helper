@@ -13,6 +13,8 @@
         "level": 58,
         "cmp": ">="
       },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
       "npc": 1520,
       "world": [
         2841,

@@ -1,0 +1,457 @@
+{
+  "ATTACK": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 30,
+        "tip": "Do Waterfall Quest at level 1 (no reqs) to jump straight to 30 Attack/Strength; other melee quests push it further."
+      },
+      {
+        "min": 30,
+        "max": 50,
+        "tip": "Kill crabs - Sand Crabs (Hosidius/Crabclaw), Ammonite Crabs (Fossil Island) or the Gemstone Crab in Varlamore; AFK, little food."
+      },
+      {
+        "min": 50,
+        "max": 70,
+        "tip": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests)."
+      },
+      {
+        "min": 70,
+        "max": 99,
+        "tip": "Nightmare Zone for fastest solo Attack XP; Dharok's set becomes optimal at 92+ Hitpoints, else Blood Moon / Obsidian."
+      }
+    ]
+  },
+  "STRENGTH": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 30,
+        "tip": "Waterfall Quest at level 1 jumps you to 30 Strength/Attack; afterwards train on the Aggressive attack style for Strength."
+      },
+      {
+        "min": 30,
+        "max": 50,
+        "tip": "Kill crabs on Aggressive - Sand/Ammonite Crabs or the Gemstone Crab in Varlamore; AFK with super strength potions for more XP."
+      },
+      {
+        "min": 50,
+        "max": 70,
+        "tip": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests)."
+      },
+      {
+        "min": 70,
+        "max": 99,
+        "tip": "Nightmare Zone for fastest solo Strength XP; Dharok's set becomes optimal at 92+ Hitpoints, else Blood Moon / Obsidian."
+      }
+    ]
+  },
+  "DEFENCE": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 30,
+        "tip": "Train on the Defensive attack style (or Controlled to spread all three melee stats); Waterfall/melee quests give some Defence."
+      },
+      {
+        "min": 30,
+        "max": 50,
+        "tip": "Kill crabs on Defensive - Sand/Ammonite Crabs or the Gemstone Crab in Varlamore; AFK with little food needed."
+      },
+      {
+        "min": 50,
+        "max": 70,
+        "tip": "Nightmare Zone north of Yanille; Venator bow on Long-range earns Defence, or absorption Rumble for AFK."
+      },
+      {
+        "min": 70,
+        "max": 99,
+        "tip": "Nightmare Zone; note Ancient Magicks on Defensive or chinning maniacal monkeys on Long-range give more Defence XP/hr than melee."
+      }
+    ]
+  },
+  "RANGED": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 45,
+        "tip": "Cannon monsters with a dwarf multicannon (needs Dwarf Cannon), e.g. ogres east of Castle Wars; or AFK crabs with the best darts."
+      },
+      {
+        "min": 45,
+        "max": 99,
+        "tip": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP."
+      }
+    ]
+  },
+  "PRAYER": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 30,
+        "tip": "Skip early levels with Prayer quests (The Restless Ghost, Priest in Peril, Recruitment Drive, Holy Grail -> ~30)."
+      },
+      {
+        "min": 30,
+        "max": 99,
+        "tip": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost."
+      }
+    ]
+  },
+  "MAGIC": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 55,
+        "tip": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things."
+      },
+      {
+        "min": 55,
+        "max": 62,
+        "tip": "Cast High Level Alchemy (alching) while doing other activities - the best passive Magic XP and profits per cast."
+      },
+      {
+        "min": 62,
+        "max": 99,
+        "tip": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael)."
+      }
+    ]
+  },
+  "RUNECRAFT": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 27,
+        "tip": "Skip early levels with quests (Client of Kourend etc.); the Guardians of the Rift minigame opens at 27."
+      },
+      {
+        "min": 27,
+        "max": 77,
+        "tip": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift."
+      },
+      {
+        "min": 77,
+        "max": 99,
+        "tip": "Craft blood/soul runes at the Arceuus altars for XP + profit; lava runes with essence runners stay fastest overall."
+      }
+    ]
+  },
+  "CONSTRUCTION": {
+    "page": "https://oldschool.runescape.wiki/w/Construction_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 33,
+        "tip": "Build crude chairs -> bookcases -> oak larders in your POH (bring saw, hammer, steel nails); Mahogany Homes is a cheaper alternative."
+      },
+      {
+        "min": 33,
+        "max": 52,
+        "tip": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap."
+      },
+      {
+        "min": 52,
+        "max": 99,
+        "tip": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp)."
+      }
+    ]
+  },
+  "HITPOINTS": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Hitpoints_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 99,
+        "tip": "HP trains passively from combat (1 damage = 1.33 HP XP) - any fast melee/ranged/magic method (crabs, NMZ, Slayer) levels it."
+      },
+      {
+        "min": 70,
+        "max": 99,
+        "tip": "For dedicated HP XP, Ice Burst/Barrage skeletal or maniacal monkeys at Ape Atoll (70 Magic + quests), or chin maniacal monkeys."
+      }
+    ]
+  },
+  "AGILITY": {
+    "page": "https://oldschool.runescape.wiki/w/Agility_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 20,
+        "tip": "Skip early levels with quests (The Tourist Trap -> 26), or start a rooftop course for marks of grace / the graceful outfit."
+      },
+      {
+        "min": 20,
+        "max": 47,
+        "tip": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful."
+      },
+      {
+        "min": 47,
+        "max": 62,
+        "tip": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers)."
+      },
+      {
+        "min": 62,
+        "max": 99,
+        "tip": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful."
+      }
+    ]
+  },
+  "HERBLORE": {
+    "page": "https://oldschool.runescape.wiki/w/Herblore_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 45,
+        "tip": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind."
+      },
+      {
+        "min": 45,
+        "max": 63,
+        "tip": "Make Super attack (45) -> Super energy (52) -> Super strength (55) -> Super restore (63); always the highest-XP potion you can afford."
+      },
+      {
+        "min": 63,
+        "max": 99,
+        "tip": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost."
+      }
+    ]
+  },
+  "THIEVING": {
+    "page": "https://oldschool.runescape.wiki/w/Thieving_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 45,
+        "tip": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42."
+      },
+      {
+        "min": 45,
+        "max": 49,
+        "tip": "Blackjack bandits in Pollnivneach (needs partial The Feud) with rogue equipment + Saradomin brews."
+      },
+      {
+        "min": 49,
+        "max": 65,
+        "tip": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65."
+      },
+      {
+        "min": 65,
+        "max": 99,
+        "tip": "Blackjack Menaphite Thugs in Pollnivneach (fastest to 84); Pyramid Plunder becomes fastest past 91."
+      }
+    ]
+  },
+  "CRAFTING": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 20,
+        "tip": "Craft the highest leather item you can (gloves -> body -> chaps) with a needle and thread."
+      },
+      {
+        "min": 20,
+        "max": 62,
+        "tip": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62."
+      },
+      {
+        "min": 62,
+        "max": 77,
+        "tip": "Craft battlestaves (fire/earth, cheaper) or keep cutting gems - both good up to 77."
+      },
+      {
+        "min": 77,
+        "max": 99,
+        "tip": "Craft d'hide bodies (green -> blue -> red -> black dragonhide) near a bank - fastest to 99."
+      }
+    ]
+  },
+  "FLETCHING": {
+    "page": "https://oldschool.runescape.wiki/w/Fletching_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 20,
+        "tip": "Skip low levels with quests; fletch arrow shafts (1-5) then start cutting & stringing bows. Darts are the fastest passive option."
+      },
+      {
+        "min": 20,
+        "max": 99,
+        "tip": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility."
+      }
+    ]
+  },
+  "SLAYER": {
+    "page": "https://oldschool.runescape.wiki/w/Slayer_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 20,
+        "tip": "Get tasks from Turael/Spria (Burthorpe/Draynor, any level); block or skip disliked tasks. Slayer XP tracks combat, so train combat too."
+      },
+      {
+        "min": 20,
+        "max": 40,
+        "tip": "Take tasks from Mazchna in Canifis (20 combat) - use the highest master your combat level allows."
+      },
+      {
+        "min": 40,
+        "max": 70,
+        "tip": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City)."
+      },
+      {
+        "min": 70,
+        "max": 99,
+        "tip": "Use the highest master you can: Konar (75 cb), Nieve/Steve (85 cb), then Duradel (100 cb+50 Slay); switch two masters for milestone points."
+      }
+    ]
+  },
+  "HUNTER": {
+    "page": "https://oldschool.runescape.wiki/w/Hunter_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 9,
+        "tip": "Do the Natural History Quiz in Varrock Museum (1,000 XP, straight to level 9)."
+      },
+      {
+        "min": 9,
+        "max": 80,
+        "tip": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing."
+      },
+      {
+        "min": 80,
+        "max": 99,
+        "tip": "Keep bird house runs (viable to 99), or for fastest active XP hunt black chinchompas (73+) / do Hunters' Rumours; Herbiboar is AFK."
+      }
+    ]
+  },
+  "MINING": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 15,
+        "tip": "Powermine (drop) copper/tin ore anywhere; the Lumbridge Swamp mine is quiet and has both."
+      },
+      {
+        "min": 15,
+        "max": 45,
+        "tip": "Powermine iron at a 3-rock triangle spot (Al Kharid etc.); Varrock armour gives 10% double ore; Mining Guild best from 60+."
+      },
+      {
+        "min": 45,
+        "max": 99,
+        "tip": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine."
+      }
+    ]
+  },
+  "SMITHING": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 40,
+        "tip": "Skip early levels with quests (The Knight's Sword etc.); else smith the highest item you can at the Varrock west-bank anvil."
+      },
+      {
+        "min": 40,
+        "max": 99,
+        "tip": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative."
+      }
+    ]
+  },
+  "FISHING": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 20,
+        "tip": "Skip early levels with quests - Sea Slug alone reaches 24, faster than catching low-level fish."
+      },
+      {
+        "min": 20,
+        "max": 58,
+        "tip": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35."
+      },
+      {
+        "min": 58,
+        "max": 99,
+        "tip": "3-tick Barbarian Fishing (also gives Agility/Strength); drift net fishing on Fossil Island if training Hunter too."
+      }
+    ]
+  },
+  "COOKING": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 30,
+        "tip": "1-tick cook raw karambwan into poison karambwan (fastest, no reqs); or cook fish sardine->salmon on a range for a cheaper option."
+      },
+      {
+        "min": 30,
+        "max": 99,
+        "tip": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen."
+      }
+    ]
+  },
+  "FIREMAKING": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 30,
+        "tip": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs."
+      },
+      {
+        "min": 30,
+        "max": 99,
+        "tip": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option."
+      }
+    ]
+  },
+  "WOODCUTTING": {
+    "page": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 15,
+        "tip": "Chop regular trees and drop the logs; Woodcutting quests can skip you to 26."
+      },
+      {
+        "min": 15,
+        "max": 35,
+        "tip": "Chop oak trees (slightly faster than willows here); keep dropping the logs."
+      },
+      {
+        "min": 35,
+        "max": 99,
+        "tip": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms."
+      }
+    ]
+  },
+  "FARMING": {
+    "page": "https://oldschool.runescape.wiki/w/Farming_training",
+    "bands": [
+      {
+        "min": 1,
+        "max": 15,
+        "tip": "Skip early levels with quests (up to ~38). Fast active start: plant bagged plants in your POH (expensive)."
+      },
+      {
+        "min": 15,
+        "max": 99,
+        "tip": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP."
+      }
+    ]
+  }
+}

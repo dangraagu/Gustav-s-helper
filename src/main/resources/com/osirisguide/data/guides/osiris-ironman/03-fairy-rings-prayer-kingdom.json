@@ -969,6 +969,8 @@
         "level": 37,
         "cmp": ">="
       },
+      "note": "Cannon monsters with a dwarf multicannon (needs Dwarf Cannon), e.g. ogres east of Castle Wars; or AFK crabs with the best darts.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "npc": 13433,
       "world": [
         2931,
@@ -1134,6 +1136,8 @@
         "level": 50,
         "cmp": ">="
       },
+      "note": "Kill crabs - Sand Crabs (Hosidius/Crabclaw), Ammonite Crabs (Fossil Island) or the Gemstone Crab in Varlamore; AFK, little food.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
       "npc": 13433,
       "world": [
         2931,
@@ -1162,6 +1166,8 @@
         "level": 43,
         "cmp": ">="
       },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
       "world": [
         2884,
         3398,
@@ -1211,6 +1217,7 @@
       "title": "Equip Ghostspeak amulet",
       "text": "Equip Ghostspeak amulet\nLocation: Port Khazard",
       "manual": true,
+      "item": 552,
       "world": [
         2653,
         3159,
@@ -1306,6 +1313,8 @@
         "level": 43,
         "cmp": ">="
       },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
       "world": [
         3679,
         3486,
@@ -1348,6 +1357,8 @@
         "level": 40,
         "cmp": ">="
       },
+      "note": "Take tasks from Mazchna in Canifis (20 combat) - use the highest master your combat level allows.",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
       "npc": 13433,
       "world": [
         2931,
@@ -1376,6 +1387,8 @@
         "level": 25,
         "cmp": ">="
       },
+      "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
       "world": [
         3165,
         3490,
@@ -1629,6 +1642,8 @@
         "level": 45,
         "cmp": ">="
       },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
       "world": [
         2729,
         3481,
@@ -1667,6 +1682,8 @@
         "level": 88,
         "cmp": ">="
       },
+      "note": "Blackjack Menaphite Thugs in Pollnivneach (fastest to 84); Pyramid Plunder becomes fastest past 91.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "world": [
         3358,
         2974,

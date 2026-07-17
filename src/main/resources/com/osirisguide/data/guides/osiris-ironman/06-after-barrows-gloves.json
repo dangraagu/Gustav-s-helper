@@ -46,6 +46,8 @@
         "level": 61,
         "cmp": ">="
       },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
       "world": [
         3165,
         3490,
@@ -136,6 +138,8 @@
         "level": 70,
         "cmp": ">="
       },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training",
       "world": [
         3165,
         3490,
@@ -180,7 +184,9 @@
         "skill": "ATTACK",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "abg-014",
@@ -224,6 +230,8 @@
         "level": 58,
         "cmp": ">="
       },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
       "world": [
         3165,
         3490,
@@ -289,6 +297,8 @@
         "level": 70,
         "cmp": ">="
       },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "world": [
         2658,
         3677,
@@ -359,6 +369,8 @@
         "level": 77,
         "cmp": ">="
       },
+      "note": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
       "world": [
         3165,
         3490,
@@ -375,6 +387,8 @@
         "level": 70,
         "cmp": ">="
       },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "world": [
         3165,
         3490,
@@ -413,6 +427,8 @@
         "level": 70,
         "cmp": ">="
       },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
       "world": [
         2989,
         3363,
@@ -443,6 +459,8 @@
         "level": 60,
         "cmp": ">="
       },
+      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
         2656,
         2656,
@@ -459,6 +477,8 @@
         "level": 70,
         "cmp": ">="
       },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
       "world": [
         2728,
         3714,
@@ -680,6 +700,8 @@
         "level": 77,
         "cmp": ">="
       },
+      "note": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
       "world": [
         3165,
         3490,

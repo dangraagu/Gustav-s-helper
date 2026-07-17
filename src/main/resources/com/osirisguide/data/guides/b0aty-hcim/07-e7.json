@@ -46,7 +46,9 @@
         "skill": "STRENGTH",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "e7-006",
@@ -166,6 +168,8 @@
         "level": 78,
         "cmp": ">="
       },
+      "note": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
       "world": [
         3165,
         3490,
@@ -206,6 +210,8 @@
         "level": 83,
         "cmp": ">="
       },
+      "note": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
       "world": [
         3213,
         3221,

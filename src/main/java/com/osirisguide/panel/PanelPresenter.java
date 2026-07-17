@@ -73,6 +73,7 @@ public class PanelPresenter
 			m.section = current.getSection();
 			m.title = current.getTitle();
 			m.text = current.getText();
+			m.note = current.getNote();
 			m.wikiUrl = current.getWikiUrl();
 			m.currentIsManual = current.isManual();
 			for (Requirement r : current.getRequirements())

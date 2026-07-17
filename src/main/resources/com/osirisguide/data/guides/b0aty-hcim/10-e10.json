@@ -185,6 +185,8 @@
         "level": 83,
         "cmp": ">="
       },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
       "npc": 3101,
       "world": [
         3302,
@@ -289,7 +291,9 @@
         "skill": "CONSTRUCTION",
         "level": 83,
         "cmp": ">="
-      }
+      },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "e10-016a",
@@ -565,6 +569,7 @@
       "title": "Wield Seal of Passage",
       "text": "Wield Seal of Passage",
       "manual": true,
+      "item": 9083,
       "world": [
         3165,
         3490,
@@ -1931,6 +1936,7 @@
       "title": "Wield the Karamja Gloves & teleport …",
       "text": "Wield the Karamja Gloves & teleport to Gem Mine",
       "manual": true,
+      "item": 11140,
       "world": [
         2843,
         3070,

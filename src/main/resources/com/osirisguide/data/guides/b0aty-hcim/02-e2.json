@@ -1960,6 +1960,8 @@
         "level": 65,
         "cmp": ">="
       },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "world": [
         2710,
         3485,
@@ -2409,6 +2411,7 @@
       "title": "Wield Desert Robes",
       "text": "Wield Desert Robes",
       "manual": true,
+      "item": 6386,
       "world": [
         3303,
         3122,
@@ -3126,7 +3129,9 @@
         "skill": "MAGIC",
         "level": 51,
         "cmp": ">="
-      }
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "e2-199",
@@ -3257,7 +3262,9 @@
         "skill": "THIEVING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "e2-206",
@@ -4951,6 +4958,8 @@
         "level": 36,
         "cmp": ">="
       },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
         3192,
         3223,
@@ -6348,6 +6357,8 @@
         "level": 50,
         "cmp": ">="
       },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training",
       "world": [
         2710,
         3328,
@@ -7306,6 +7317,8 @@
         "level": 26,
         "cmp": ">="
       },
+      "note": "Build crude chairs -> bookcases -> oak larders in your POH (bring saw, hammer, steel nails); Mahogany Homes is a cheaper alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
       "world": [
         3000,
         3360,
@@ -7732,7 +7745,9 @@
         "skill": "FARMING",
         "level": 34,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "e2-501",
@@ -8268,6 +8283,8 @@
         "level": 40,
         "cmp": ">="
       },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
       "world": [
         3165,
         3490,
@@ -8483,6 +8500,8 @@
         "level": 46,
         "cmp": ">="
       },
+      "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
       "world": [
         2855,
         2974,
@@ -8510,6 +8529,8 @@
         "level": 34,
         "cmp": ">="
       },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training",
       "world": [
         3165,
         3490,
@@ -8736,6 +8757,8 @@
         "level": 34,
         "cmp": ">="
       },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training",
       "world": [
         3165,
         3490,
@@ -8751,7 +8774,9 @@
         "skill": "FARMING",
         "level": 34,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "e2-565",
@@ -8829,7 +8854,9 @@
         "skill": "FARMING",
         "level": 62,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "e2-570",

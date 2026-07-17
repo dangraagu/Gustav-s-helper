@@ -152,7 +152,9 @@
         "skill": "PRAYER",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training"
     },
     {
       "id": "e8-013",

@@ -8,6 +8,7 @@
       "title": "Bring Dragon dagger(p++)",
       "text": "Bring Dragon dagger(p++)",
       "manual": true,
+      "item": 1231,
       "world": [
         3165,
         3490,
@@ -18,13 +19,15 @@
       "id": "inv-002",
       "title": "Bring Magic shortbow (i)",
       "text": "Bring Magic shortbow (i)",
-      "manual": true
+      "manual": true,
+      "item": 12788
     },
     {
       "id": "inv-003",
       "title": "Bring Void ranger helm",
       "text": "Bring Void ranger helm",
       "manual": true,
+      "item": 11664,
       "world": [
         3165,
         3490,
@@ -35,31 +38,36 @@
       "id": "inv-004",
       "title": "Bring Imbued zamorak cape",
       "text": "Bring Imbued zamorak cape",
-      "manual": true
+      "manual": true,
+      "item": 21795
     },
     {
       "id": "inv-005",
       "title": "Bring Salve amulet (e)",
       "text": "Bring Salve amulet (e)",
-      "manual": true
+      "manual": true,
+      "item": 10588
     },
     {
       "id": "inv-006",
       "title": "Bring Ava's accumulator",
       "text": "Bring Ava's accumulator",
-      "manual": true
+      "manual": true,
+      "item": 10499
     },
     {
       "id": "inv-007",
       "title": "Bring Warped sceptre",
       "text": "Bring Warped sceptre",
-      "manual": true
+      "manual": true,
+      "item": 28585
     },
     {
       "id": "inv-008",
       "title": "Bring Void mage helm",
       "text": "Bring Void mage helm",
       "manual": true,
+      "item": 11663,
       "world": [
         3165,
         3490,
@@ -70,19 +78,22 @@
       "id": "inv-009",
       "title": "Bring 7 Pineapple pizza (food)",
       "text": "Bring 7 Pineapple pizza (food)",
-      "manual": true
+      "manual": true,
+      "item": 2301
     },
     {
       "id": "inv-010",
       "title": "Bring a Ranging potion",
       "text": "Bring a Ranging potion",
-      "manual": true
+      "manual": true,
+      "item": 2444
     },
     {
       "id": "inv-011",
       "title": "Bring 4 Prayer potion(4)",
       "text": "Bring 4 Prayer potion(4)",
       "manual": true,
+      "item": 2434,
       "world": [
         3208,
         3494,
@@ -93,31 +104,36 @@
       "id": "inv-012",
       "title": "Bring 2 Super attack(4)",
       "text": "Bring 2 Super attack(4)",
-      "manual": true
+      "manual": true,
+      "item": 2436
     },
     {
       "id": "inv-013",
       "title": "Bring 2 Super strength(4)",
       "text": "Bring 2 Super strength(4)",
-      "manual": true
+      "manual": true,
+      "item": 2440
     },
     {
       "id": "inv-014",
       "title": "Bring 2 Super restore(4)",
       "text": "Bring 2 Super restore(4)",
-      "manual": true
+      "manual": true,
+      "item": 3024
     },
     {
       "id": "inv-015",
       "title": "Bring a Rune pouch",
       "text": "Bring a Rune pouch",
-      "manual": true
+      "manual": true,
+      "item": 12791
     },
     {
       "id": "inv-016",
       "title": "Bring the Book of the dead",
       "text": "Bring the Book of the dead",
-      "manual": true
+      "manual": true,
+      "item": 25818
     }
   ]
 }
