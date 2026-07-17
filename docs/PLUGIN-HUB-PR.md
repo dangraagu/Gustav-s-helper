@@ -15,7 +15,7 @@ git checkout main
 git pull
 git rev-parse HEAD        # <-- copy this FULL 40-char SHA; it's what the Hub pins
 ```
-The Hub builds this precise commit. Anything not pushed to `dangraagu/Osiris-guide` won't build.
+The Hub builds this precise commit. Anything not pushed to `dangraagu/Gustav-s-helper` won't build.
 
 ## 2. Fork the plugin-hub repo
 - Go to <https://github.com/runelite/plugin-hub> → **Fork**.
@@ -28,7 +28,7 @@ cd plugin-hub
 ## 3. Add ONE manifest file
 Create a file named after the plugin (no extension), e.g. `plugins/gustav-helper`, containing:
 ```
-repository=https://github.com/dangraagu/Osiris-guide.git
+repository=https://github.com/dangraagu/Gustav-s-helper.git
 commit=<the 40-char SHA from step 1>
 ```
 That's the whole file — two lines.

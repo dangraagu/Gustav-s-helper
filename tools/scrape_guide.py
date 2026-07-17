@@ -70,7 +70,7 @@ SKILL_RE_1 = re.compile(r'\b(?:to|until|reach|get|hit|for)\s+(\d{1,2})\s+([a-zA-
 SKILL_RE_2 = re.compile(r'\b([a-zA-Z]+)\s+to\s+(\d{1,2})\b', re.I)
 
 
-USER_AGENT = "GustavGuide-scraper/1.0 (+https://github.com/dangraagu/Osiris-guide; build-time content import)"
+USER_AGENT = "GustavGuide-scraper/1.0 (+https://github.com/dangraagu/Gustav-s-helper; build-time content import)"
 
 # --- Tuning constants ---------------------------------------------------------
 MAX_ITEM_QTY = 100000        # clamp on a detected pickup quantity (guards against absurd totals)
