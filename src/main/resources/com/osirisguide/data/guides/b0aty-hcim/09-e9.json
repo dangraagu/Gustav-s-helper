@@ -125,7 +125,12 @@
       "id": "e9-007b",
       "title": "catch around 5,000 Red Chinchompas",
       "text": "catch around 5,000 Red Chinchompas",
-      "manual": true
+      "manual": true,
+      "world": [
+        3140,
+        9874,
+        0
+      ]
     },
     {
       "id": "e9-008",
@@ -319,7 +324,12 @@
       "id": "e9-019a",
       "title": "Go down the stairs",
       "text": "Go down the stairs",
-      "manual": true
+      "manual": true,
+      "world": [
+        1562,
+        9441,
+        0
+      ]
     },
     {
       "id": "e9-019b",
@@ -345,7 +355,12 @@
       "id": "e9-021",
       "title": "Use Dashing Kebbit meat on Moonlight …",
       "text": "Use Dashing Kebbit meat on Moonlight Moths to double the restore to 44 per inventory slot (You can optional hunt more if you want)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1562,
+        9441,
+        0
+      ]
     },
     {
       "id": "e9-022",

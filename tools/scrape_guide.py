@@ -443,6 +443,78 @@ def town_near_with(anchor, facility):
     return best
 
 
+_BANK_STEP_RE = re.compile(r"\b(bank|deposit|withdraw|unnote)\b", re.IGNORECASE)
+# same-place micro-continuation: an atom fragment, or a verb that acts where you already stand.
+_CONT_START_RE = re.compile(r"^\s*(equip|wear|wield|take|grab|claim|pick up|drop|use|read|open|search|"
+                            r"climb|go up|go down|go back|enter|exit|leave|talk to|continue|deposit|"
+                            r"eat|drink|light|burn|fill|empty|note|unnote|cast)\b", re.IGNORECASE)
+_ADVICE_START_RE = re.compile(r"^\s*(i |you |prioriti|remember|note that|make sure|should|consider|"
+                              r"reminder|recommend|assume|when |while |after |once |if |order of|"
+                              r"optional|all settings|repeat|prio |train |do slayer|keep )", re.IGNORECASE)
+BANK_CAP = 120  # tiles: a bank step borrows the nearest bank only if the route is actually near one
+
+
+def nearest_bank(anchor):
+    if not anchor or not AMENITIES:
+        return None
+    best, bd = None, BANK_CAP + 1
+    for town, spots in AMENITIES.items():
+        b = spots.get("bank")
+        c = GAZETTEER.get(town)
+        if not b or not c:
+            continue
+        d = _dist(anchor, c)
+        if d < bd:
+            best, bd = b, d
+    return [int(best[0]), int(best[1]), int(best[2]) if len(best) > 2 else 0] if best else None
+
+
+def _parent_id(sid):
+    return re.sub(r"[a-z]$", "", sid or "")
+
+
+def fill_location_gaps(steps):
+    """Post-pass locating same-place unlocated steps, most-confident first:
+      1. atom sibling — an unlocated atom inherits a LOCATED sibling atom's tile (one guide step split
+         into a/b/c happens in one place);
+      2. a bank/deposit/withdraw step -> the nearest bank to the route position;
+      3. a clear same-place micro-continuation ("equip it", "go upstairs", a lowercase fragment) ->
+         the previous step's tile.
+    Skill grinds / advice are matched by neither 3's verbs nor the fragment test, so they stay
+    unlocated (never given a misleading 'where you last were' arrow)."""
+    located = {s["id"]: s.get("world") for s in steps}
+    by_parent = {}
+    for s in steps:
+        if s.get("world"):
+            by_parent.setdefault(_parent_id(s["id"]), s["world"])
+    n_sib = n_bank = n_cont = 0
+    anchor = None
+    for s in steps:
+        if s.get("world"):
+            anchor = s["world"]
+            continue
+        sid = s["id"]
+        text = (s.get("text") or "").split("\n")[0]
+        sib = by_parent.get(_parent_id(sid))
+        if sib and located.get(sid) is None:
+            s["world"] = list(sib)
+            anchor = s["world"]
+            n_sib += 1
+            continue
+        if _BANK_STEP_RE.search(text):
+            nb = nearest_bank(anchor)
+            if nb:
+                s["world"] = nb
+                anchor = nb
+                n_bank += 1
+                continue
+        is_fragment = bool(text[:1].islower())  # mid-sentence atom continuation
+        if anchor and not _ADVICE_START_RE.match(text) and (is_fragment or _CONT_START_RE.match(text)):
+            s["world"] = list(anchor)
+            n_cont += 1
+    return n_sib, n_bank, n_cont
+
+
 def fill_craft_gaps(steps):
     """Post-pass over a built step list: locate unlocated craft steps from their neighbours."""
     n = 0
@@ -1038,6 +1110,7 @@ def main():
                     anchor = built["world"]  # route continuity: the next step resolves near here
 
         fill_craft_gaps(steps)
+        fill_location_gaps(steps)
 
         def _kind(s):
             return s.get("complete", {}).get("op")

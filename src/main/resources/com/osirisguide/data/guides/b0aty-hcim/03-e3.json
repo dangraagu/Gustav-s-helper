@@ -348,7 +348,12 @@
       "id": "e3-024b",
       "title": "complete dialogue (3) [Kandarian Easy Diary]",
       "text": "complete dialogue (3) [Kandarian Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2612,
+        3475,
+        0
+      ]
     },
     {
       "id": "e3-025",
@@ -470,13 +475,23 @@
           }
         ]
       },
-      "item": 401
+      "item": 401,
+      "world": [
+        2708,
+        3209,
+        0
+      ]
     },
     {
       "id": "e3-033b",
       "title": "Drop this",
       "text": "Drop this",
-      "manual": true
+      "manual": true,
+      "world": [
+        2708,
+        3209,
+        0
+      ]
     },
     {
       "id": "e3-033c",
@@ -711,7 +726,12 @@
       "id": "e3-049a",
       "title": "Fill the buckets",
       "text": "Fill the buckets",
-      "manual": true
+      "manual": true,
+      "world": [
+        3211,
+        3422,
+        0
+      ]
     },
     {
       "id": "e3-049b",
@@ -1100,19 +1120,34 @@
       "id": "e3-076b",
       "title": "pickpocket him",
       "text": "pickpocket him",
-      "manual": true
+      "manual": true,
+      "world": [
+        3258,
+        3449,
+        0
+      ]
     },
     {
       "id": "e3-076c",
       "title": "open the display case",
       "text": "open the display case",
-      "manual": true
+      "manual": true,
+      "world": [
+        3258,
+        3449,
+        0
+      ]
     },
     {
       "id": "e3-077a",
       "title": "Teleport to Emir's Arena",
       "text": "Teleport to Emir's Arena",
-      "manual": true
+      "manual": true,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
     },
     {
       "id": "e3-077b",
@@ -1755,7 +1790,12 @@
       "id": "e3-118",
       "title": "Use Sunbeam Ale to use 70 …",
       "text": "Use Sunbeam Ale to use 70 Agility Shortcut",
-      "manual": true
+      "manual": true,
+      "world": [
+        2884,
+        3398,
+        0
+      ]
     },
     {
       "id": "e3-119",
@@ -1767,7 +1807,12 @@
       "id": "e3-120",
       "title": "Use water blast",
       "text": "Use water blast",
-      "manual": true
+      "manual": true,
+      "world": [
+        2884,
+        3398,
+        0
+      ]
     },
     {
       "id": "e3-121",
@@ -1880,7 +1925,12 @@
       "id": "e3-128a",
       "title": "Chop",
       "text": "Chop",
-      "manual": true
+      "manual": true,
+      "world": [
+        2724,
+        3773,
+        0
+      ]
     },
     {
       "id": "e3-128b",
@@ -2418,7 +2468,12 @@
       "id": "e3-166",
       "title": "Use 14 Mithril Claws and 7 …",
       "text": "Use 14 Mithril Claws and 7 B-Axes or War Hammers per inv",
-      "manual": true
+      "manual": true,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "e3-167",
@@ -2451,7 +2506,12 @@
       "id": "e3-168",
       "title": "Fill a bucket up before you …",
       "text": "Fill a bucket up before you quench your sword as the beginning (Ice Gloves optional)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2614,
+        3293,
+        0
+      ]
     },
     {
       "id": "e3-169",
@@ -2514,7 +2574,12 @@
       "id": "e3-173",
       "title": "Drop 3 Bones",
       "text": "Drop 3 Bones",
-      "manual": true
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
     },
     {
       "id": "e3-174a",
@@ -2542,7 +2607,12 @@
       "id": "e3-174b",
       "title": "Drop these (This is so they …",
       "text": "Drop these (This is so they respawn and you can take 6)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
     },
     {
       "id": "e3-175",
@@ -2570,9 +2640,10 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
+      "object": 4913,
       "world": [
-        3102,
-        3557,
+        3440,
+        3232,
         0
       ]
     },
@@ -2657,7 +2728,12 @@
       "id": "e3-182b",
       "title": "Teleport Runes",
       "text": "Teleport Runes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
     },
     {
       "id": "e3-183",
@@ -2768,13 +2844,23 @@
       "id": "e3-189b",
       "title": "use pestle and mortar on them",
       "text": "use pestle and mortar on them",
-      "manual": true
+      "manual": true,
+      "world": [
+        3495,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-189c",
       "title": "use the vial with black dye …",
       "text": "use the vial with black dye on your desert clothes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3495,
+        3088,
+        0
+      ]
     },
     {
       "id": "e3-190",
@@ -3113,7 +3199,12 @@
       "id": "e3-210",
       "title": "Bank at South Bank",
       "text": "Bank at South Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e3-211",
@@ -3331,13 +3422,23 @@
       "id": "e3-226",
       "title": "Pick up your items from the …",
       "text": "Pick up your items from the ground and continue the quest entering the south gate",
-      "manual": true
+      "manual": true,
+      "world": [
+        3090,
+        3475,
+        0
+      ]
     },
     {
       "id": "e3-227",
       "title": "Search the chests for Ice Arrows …",
       "text": "Search the chests for Ice Arrows only need a few you won’t use them since you'll be using knives",
-      "manual": true
+      "manual": true,
+      "world": [
+        3090,
+        3475,
+        0
+      ]
     },
     {
       "id": "e3-228",
@@ -3361,7 +3462,12 @@
       "id": "e3-230",
       "title": "Equip your studded chaps",
       "text": "Equip your studded chaps",
-      "manual": true
+      "manual": true,
+      "world": [
+        3090,
+        3475,
+        0
+      ]
     },
     {
       "id": "e3-231",
@@ -3514,7 +3620,12 @@
       "id": "e3-241",
       "title": "Use Knife on Tree for 2x …",
       "text": "Use Knife on Tree for 2x Bucket of Sap [Eyes of Glouphrie][Ichthlarin’s Little Helper]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-242",
@@ -3616,7 +3727,12 @@
           }
         ]
       },
-      "item": 1133
+      "item": 1133,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-247b",
@@ -3942,7 +4058,12 @@
       "id": "e3-269b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3791,
+        3559,
+        0
+      ]
     },
     {
       "id": "e3-270",
@@ -4137,7 +4258,12 @@
       "id": "e3-282",
       "title": "Use Star on Experiment Entrance (Don't …",
       "text": "Use Star on Experiment Entrance (Don't enter)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3440,
+        3232,
+        0
+      ]
     },
     {
       "id": "e3-283",
@@ -4166,7 +4292,12 @@
       "id": "e3-285",
       "title": "Use the key on the chest …",
       "text": "Use the key on the chest for the 1st map piece [Ghost's Ahoy]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-286",
@@ -4184,7 +4315,12 @@
       "id": "e3-288a",
       "title": "Return to the farm",
       "text": "Return to the farm",
-      "manual": true
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
     },
     {
       "id": "e3-288b",
@@ -4217,7 +4353,12 @@
       "id": "e3-289b",
       "title": "deposit all",
       "text": "deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        3791,
+        3559,
+        0
+      ]
     },
     {
       "id": "e3-290",
@@ -4239,7 +4380,12 @@
           }
         ]
       },
-      "item": 1694
+      "item": 1694,
+      "world": [
+        3692,
+        3468,
+        0
+      ]
     },
     {
       "id": "e3-291",
@@ -4578,7 +4724,12 @@
       "id": "e3-316",
       "title": "Drop Conductor Mould",
       "text": "Drop Conductor Mould",
-      "manual": true
+      "manual": true,
+      "world": [
+        3492,
+        3474,
+        0
+      ]
     },
     {
       "id": "e3-317",
@@ -4745,7 +4896,12 @@
       "id": "e3-327",
       "title": "Take Monk Robes (if inventory is …",
       "text": "Take Monk Robes (if inventory is full equip some stuff)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2701,
+        3408,
+        0
+      ]
     },
     {
       "id": "e3-328",
@@ -4966,7 +5122,12 @@
       "id": "e3-343",
       "title": "Enter Kalphite Lair [Desert Easy Diary]",
       "text": "Enter Kalphite Lair [Desert Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-344",
@@ -4988,7 +5149,12 @@
           }
         ]
       },
-      "item": 3138
+      "item": 3138,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e3-345",
@@ -5078,7 +5244,12 @@
       "id": "e3-353",
       "title": "Use the Runite Spear on Stab/Slash/Crush …",
       "text": "Use the Runite Spear on Stab/Slash/Crush for Golems. Safespot & Flinch them",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-354",
@@ -5213,7 +5384,12 @@
       "id": "e3-365",
       "title": "Bank at South Bank",
       "text": "Bank at South Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e3-366",
@@ -5286,13 +5462,23 @@
       "id": "e3-370b",
       "title": "enter the swamp",
       "text": "enter the swamp",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-371",
       "title": "Fill your Druid pouch with at …",
       "text": "Fill your Druid pouch with at least 6 Mort myre fungus",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e3-372",
@@ -5356,7 +5542,12 @@
       "id": "e3-377",
       "title": "Teleport to a bank to prepare …",
       "text": "Teleport to a bank to prepare barrows part now",
-      "manual": true
+      "manual": true,
+      "world": [
+        3602,
+        3366,
+        0
+      ]
     },
     {
       "id": "e3-378",
@@ -5400,7 +5591,12 @@
       "id": "e3-380a",
       "title": "Run South East",
       "text": "Run South East",
-      "manual": true
+      "manual": true,
+      "world": [
+        3487,
+        3288,
+        0
+      ]
     },
     {
       "id": "e3-380b",
@@ -5417,7 +5613,12 @@
       "id": "e3-381",
       "title": "NOTE: THIS IS HOW U RETURN …",
       "text": "NOTE: THIS IS HOW U RETURN TO BARROWS TOO",
-      "manual": true
+      "manual": true,
+      "world": [
+        3487,
+        3288,
+        0
+      ]
     },
     {
       "id": "e3-382",
@@ -5522,7 +5723,12 @@
       "id": "e3-393",
       "title": "Open Crypt doors to force spawn …",
       "text": "Open Crypt doors to force spawn the Melee brothers. Safespot approprietly until all 4 are dead",
-      "manual": true
+      "manual": true,
+      "world": [
+        2658,
+        2625,
+        0
+      ]
     },
     {
       "id": "e3-394",
@@ -5560,7 +5766,12 @@
       "id": "e3-397a",
       "title": "Teleport anywhere",
       "text": "Teleport anywhere",
-      "manual": true
+      "manual": true,
+      "world": [
+        3602,
+        3366,
+        0
+      ]
     },
     {
       "id": "e3-397b",

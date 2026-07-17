@@ -288,7 +288,12 @@
       "id": "e5-021b",
       "title": "climb the Trellis",
       "text": "climb the Trellis",
-      "manual": true
+      "manual": true,
+      "world": [
+        2556,
+        3072,
+        0
+      ]
     },
     {
       "id": "e5-022",
@@ -362,7 +367,12 @@
       "id": "e5-026b",
       "title": "Take the bones",
       "text": "Take the bones",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-027",
@@ -434,7 +444,12 @@
       "id": "e5-032b",
       "title": "take the hole (North of the …",
       "text": "take the hole (North of the Death Rune Spawn)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2548,
+        3119,
+        0
+      ]
     },
     {
       "id": "e5-033",
@@ -485,7 +500,12 @@
       "id": "e5-036",
       "title": "Search the chest",
       "text": "Search the chest",
-      "manual": true
+      "manual": true,
+      "world": [
+        2548,
+        3119,
+        0
+      ]
     },
     {
       "id": "e5-037",
@@ -741,7 +761,12 @@
       "id": "e5-054a",
       "title": "Use Redberries on bottled water",
       "text": "Use Redberries on bottled water",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-054b",
@@ -920,7 +945,12 @@
       "id": "e5-068",
       "title": "Leave the cave to the north",
       "text": "Leave the cave to the north",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e5-069",
@@ -1254,7 +1284,12 @@
       "id": "e5-090b",
       "title": "Teleport Runes, Death Runes, Coins, Bronze …",
       "text": "Teleport Runes, Death Runes, Coins, Bronze Arrows, Spade, Pestle & Mortar, Rope, Antipoison, Leather Gloves (11 Inventory Slots) + Food",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
     },
     {
       "id": "e5-091",
@@ -1459,7 +1494,12 @@
       "id": "e5-101b",
       "title": "Teleport Runes",
       "text": "Teleport Runes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-102",
@@ -1576,7 +1616,12 @@
       "id": "e5-107b",
       "title": "Teleport Runes, Spade, Glarials Pebble, Rope, …",
       "text": "Teleport Runes, Spade, Glarials Pebble, Rope, Antipoison, duel ring, games necklace (10 Inventory Slots) + Food",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e5-108",
@@ -1877,7 +1922,12 @@
       "id": "e5-131",
       "title": "Drop the Soap & Wear the …",
       "text": "Drop the Soap & Wear the Mourner top",
-      "manual": true
+      "manual": true,
+      "world": [
+        2884,
+        3397,
+        0
+      ]
     },
     {
       "id": "e5-132",
@@ -1988,7 +2038,12 @@
       "id": "e5-140a",
       "title": "Catch",
       "text": "Catch",
-      "manual": true
+      "manual": true,
+      "world": [
+        2631,
+        2990,
+        0
+      ]
     },
     {
       "id": "e5-140b",
@@ -2022,7 +2077,12 @@
       "id": "e5-142",
       "title": "Continue Mournings End Pt 1 until …",
       "text": "Continue Mournings End Pt 1 until after you've coloured the sheep",
-      "manual": true
+      "manual": true,
+      "world": [
+        2570,
+        2975,
+        0
+      ]
     },
     {
       "id": "e5-143",
@@ -2044,7 +2104,12 @@
           }
         ]
       },
-      "item": 3216
+      "item": 3216,
+      "world": [
+        2613,
+        3093,
+        0
+      ]
     },
     {
       "id": "e5-144",
@@ -2356,7 +2421,12 @@
       "id": "e5-164b",
       "title": "pick pet rock up [Fremennik Medium …",
       "text": "pick pet rock up [Fremennik Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-165",
@@ -2397,7 +2467,12 @@
       "id": "e5-168",
       "title": "Use Sapphire on Bullseye Lantern",
       "text": "Use Sapphire on Bullseye Lantern",
-      "manual": true
+      "manual": true,
+      "world": [
+        2933,
+        3210,
+        0
+      ]
     },
     {
       "id": "e5-169",
@@ -2446,7 +2521,12 @@
           }
         ]
       },
-      "item": 1607
+      "item": 1607,
+      "world": [
+        3045,
+        3234,
+        0
+      ]
     },
     {
       "id": "e5-172",
@@ -3190,7 +3270,12 @@
       "id": "e5-225b",
       "title": "Teleport Runes, 14x Lockpick, 36x Noted …",
       "text": "Teleport Runes, 14x Lockpick, 36x Noted Lockpick, Coins, Camulet, 5 Food (13 Inventory Slots)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3512,
+        3478,
+        0
+      ]
     },
     {
       "id": "e5-226",
@@ -3208,7 +3293,12 @@
       "id": "e5-228",
       "title": "Open the chest to collect the …",
       "text": "Open the chest to collect the Gilded Cross",
-      "manual": true
+      "manual": true,
+      "world": [
+        3512,
+        3478,
+        0
+      ]
     },
     {
       "id": "e5-229",
@@ -3264,13 +3354,23 @@
       "id": "e5-232",
       "title": "Bank at North Bank",
       "text": "Bank at North Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
     },
     {
       "id": "e5-233a",
       "title": "Withdraw: Gilded Cross",
       "text": "Withdraw: Gilded Cross",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-233b",
@@ -3322,7 +3422,12 @@
       "id": "e5-237",
       "title": "Bank Anywhere",
       "text": "Bank Anywhere",
-      "manual": true
+      "manual": true,
+      "world": [
+        2810,
+        3442,
+        0
+      ]
     },
     {
       "id": "e5-238",
@@ -3383,7 +3488,12 @@
       "id": "e5-241",
       "title": "Continue Desert Treasure until you have …",
       "text": "Continue Desert Treasure until you have the Ice Diamond",
-      "manual": true
+      "manual": true,
+      "world": [
+        2891,
+        3678,
+        0
+      ]
     },
     {
       "id": "e5-242a",
@@ -3395,7 +3505,12 @@
       "id": "e5-242b",
       "title": "eat/restore accordingly. No real tricks & …",
       "text": "eat/restore accordingly. No real tricks & only hard fight",
-      "manual": true
+      "manual": true,
+      "world": [
+        2891,
+        3678,
+        0
+      ]
     },
     {
       "id": "e5-243a",
@@ -3417,7 +3532,12 @@
           }
         ]
       },
-      "item": 1601
+      "item": 1601,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-243b",
@@ -3553,7 +3673,12 @@
       "id": "e5-252b",
       "title": "Teleport Runes, Spicy Stew, Crab Meat, …",
       "text": "Teleport Runes, Spicy Stew, Crab Meat, Kelp, Raw Cod, Bread, Knife, Pestle and mortar",
-      "manual": true
+      "manual": true,
+      "world": [
+        3095,
+        3494,
+        0
+      ]
     },
     {
       "id": "e5-253",
@@ -3672,7 +3797,12 @@
       "id": "e5-262b",
       "title": "Teleport Runes, Dramen Staff, Raw Chicken, …",
       "text": "Teleport Runes, Dramen Staff, Raw Chicken, Sweetcorn, Dramen Branch, Pestle & Mortar, Vanilla Pod, Ice gloves",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e5-263",
@@ -3728,7 +3858,12 @@
       "id": "e5-266",
       "title": "Drop Bucket",
       "text": "Drop Bucket",
-      "manual": true
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
     },
     {
       "id": "e5-267",
@@ -3750,7 +3885,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3202,
+        3169,
+        0
+      ]
     },
     {
       "id": "e5-269",
@@ -3760,7 +3900,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3202,
+        3169,
+        0
+      ]
     },
     {
       "id": "e5-270",
@@ -4105,7 +4250,12 @@
       "id": "e5-294",
       "title": "Use Ibans to kill Glod",
       "text": "Use Ibans to kill Glod",
-      "manual": true
+      "manual": true,
+      "world": [
+        2892,
+        3454,
+        0
+      ]
     },
     {
       "id": "e5-295",

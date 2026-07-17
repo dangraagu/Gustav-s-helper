@@ -92,7 +92,12 @@
       "id": "e6-007",
       "title": "Enter the Catacombs",
       "text": "Enter the Catacombs",
-      "manual": true
+      "manual": true,
+      "world": [
+        1647,
+        3665,
+        0
+      ]
     },
     {
       "id": "e6-008a",
@@ -127,7 +132,12 @@
       "id": "e6-009b",
       "title": "run west",
       "text": "run west",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e6-009c",
@@ -145,13 +155,23 @@
       "id": "e6-010b",
       "title": "kill each of the 3 giants …",
       "text": "kill each of the 3 giants (Fire, Hill, Moss). (1 Point)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e6-011",
       "title": "NOTE: You should now have the …",
       "text": "NOTE: You should now have the Easy CA's Unlocked after this task. If you do not, ensure you have the following CA's done:",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e6-012",
@@ -457,7 +477,12 @@
       "id": "e6-041b",
       "title": "use Camulet to return",
       "text": "use Camulet to return",
-      "manual": true
+      "manual": true,
+      "world": [
+        1426,
+        2919,
+        0
+      ]
     },
     {
       "id": "e6-042",
@@ -870,13 +895,23 @@
       "id": "e6-073b",
       "title": "Enter Catacombs",
       "text": "Enter Catacombs",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e6-073c",
       "title": "Head West & climb the Vine …",
       "text": "Head West & climb the Vine for Giants Pit",
-      "manual": true
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
     },
     {
       "id": "e6-074",

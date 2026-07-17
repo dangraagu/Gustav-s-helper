@@ -91,7 +91,12 @@
       "id": "e10-006b",
       "title": "collect your resources (check allocation before …",
       "text": "collect your resources (check allocation before to make sure they are atleast on x10 teaks)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2560,
+        3870,
+        0
+      ]
     },
     {
       "id": "e10-007",
@@ -136,7 +141,12 @@
       "id": "e10-009a",
       "title": "Head North",
       "text": "Head North",
-      "manual": true
+      "manual": true,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
     },
     {
       "id": "e10-009b",
@@ -251,7 +261,12 @@
       "id": "e10-014a",
       "title": "Withdraw: Coins",
       "text": "Withdraw: Coins",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e10-014b",
@@ -280,7 +295,12 @@
       "id": "e10-016a",
       "title": "Withdraw: Coins",
       "text": "Withdraw: Coins",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e10-016b",
@@ -503,7 +523,12 @@
       "id": "e10-032",
       "title": "Take boat to Relleka",
       "text": "Take boat to Relleka",
-      "manual": true
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
     },
     {
       "id": "e10-033",
@@ -644,7 +669,12 @@
       "id": "e10-043",
       "title": "Take Carpet to Polnivneach",
       "text": "Take Carpet to Polnivneach",
-      "manual": true
+      "manual": true,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
     },
     {
       "id": "e10-044",
@@ -946,7 +976,12 @@
       "id": "e10-065a",
       "title": "Withdraw: Coins",
       "text": "Withdraw: Coins",
-      "manual": true
+      "manual": true,
+      "world": [
+        3427,
+        2891,
+        0
+      ]
     },
     {
       "id": "e10-065b",
@@ -982,7 +1017,12 @@
       "id": "e10-069",
       "title": "Use the building mode to move …",
       "text": "Use the building mode to move all the rooms away",
-      "manual": true
+      "manual": true,
+      "world": [
+        2127,
+        3893,
+        2
+      ]
     },
     {
       "id": "e10-070",
@@ -1130,7 +1170,12 @@
       "id": "e10-081a",
       "title": "Catch Rats",
       "text": "Catch Rats",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e10-081b",
@@ -1169,7 +1214,12 @@
       "id": "e10-083b",
       "title": "teleport to POH",
       "text": "teleport to POH",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e10-083c",
@@ -1213,7 +1263,12 @@
       "id": "e10-084b",
       "title": "Teleport Runes",
       "text": "Teleport Runes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e10-085",
@@ -1242,7 +1297,12 @@
       "id": "e10-087",
       "title": "Use Harralanders, Avantoe(some Kwuarm) & Irits …",
       "text": "Use Harralanders, Avantoe(some Kwuarm) & Irits in Mastering Mixology (Don't grind them all incase the ratios aren't correct. 10k+ is good then top up). Don’t use all your Kwuarms as you will need them",
-      "manual": true
+      "manual": true,
+      "world": [
+        1389,
+        2918,
+        0
+      ]
     },
     {
       "id": "e10-088",
@@ -1275,7 +1335,12 @@
           }
         ]
       },
-      "item": 1379
+      "item": 1379,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
     },
     {
       "id": "e10-089b",
@@ -1584,7 +1649,12 @@
       "id": "e10-111a",
       "title": "Use Superglass Make on Lunar spellbook",
       "text": "Use Superglass Make on Lunar spellbook",
-      "manual": true
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
     },
     {
       "id": "e10-111b",
@@ -1849,7 +1919,12 @@
       "id": "e10-129",
       "title": "Use Lamp on Herblore",
       "text": "Use Lamp on Herblore",
-      "manual": true
+      "manual": true,
+      "world": [
+        2857,
+        3169,
+        0
+      ]
     },
     {
       "id": "e10-130",
@@ -1969,7 +2044,12 @@
       "id": "e10-138a",
       "title": "Buy",
       "text": "Buy",
-      "manual": true
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
     },
     {
       "id": "e10-138b",
@@ -2042,13 +2122,23 @@
       "id": "e10-141",
       "title": "Use the Amulets of Chemistry on …",
       "text": "Use the Amulets of Chemistry on your Alchemist’s Amulet",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e10-142",
       "title": "Use Remaining Herbs to 76+ Herblore",
       "text": "Use Remaining Herbs to 76+ Herblore",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e10-143",
@@ -2071,7 +2161,12 @@
       "id": "e10-144b",
       "title": "use a Golovanova Pie",
       "text": "use a Golovanova Pie",
-      "manual": true
+      "manual": true,
+      "world": [
+        2772,
+        3228,
+        0
+      ]
     },
     {
       "id": "e10-145",

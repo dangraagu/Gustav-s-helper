@@ -211,7 +211,12 @@
       "id": "s23-010b",
       "title": "complete the quest:",
       "text": "complete the quest:",
-      "manual": true
+      "manual": true,
+      "world": [
+        3169,
+        3172,
+        0
+      ]
     },
     {
       "id": "s23-011",

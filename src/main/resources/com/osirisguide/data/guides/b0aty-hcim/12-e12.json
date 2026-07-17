@@ -18,7 +18,12 @@
       "id": "e12-001b",
       "title": "Teleport Runes, Dramen Staff, Costume Needle, …",
       "text": "Teleport Runes, Dramen Staff, Costume Needle, Hammer, 2x Box Traps, Potions & Food",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-002",
@@ -69,7 +74,12 @@
       "id": "e12-006a",
       "title": "Head South",
       "text": "Head South",
-      "manual": true
+      "manual": true,
+      "world": [
+        1753,
+        3074,
+        0
+      ]
     },
     {
       "id": "e12-006b",
@@ -145,7 +155,12 @@
       "id": "e12-011",
       "title": "Open the box code 2546",
       "text": "Open the box code 2546",
-      "manual": true
+      "manual": true,
+      "world": [
+        1753,
+        3074,
+        0
+      ]
     },
     {
       "id": "e12-012",
@@ -628,7 +643,12 @@
       "id": "e12-047",
       "title": "Take the Quetzal to Tal Teklan",
       "text": "Take the Quetzal to Tal Teklan",
-      "manual": true
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
     },
     {
       "id": "e12-048",
@@ -908,13 +928,23 @@
       "id": "e12-068b",
       "title": "Teleport Runes",
       "text": "Teleport Runes",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-069",
       "title": "Take North Quetzal to Teklan",
       "text": "Take North Quetzal to Teklan",
-      "manual": true
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
     },
     {
       "id": "e12-070",
@@ -935,7 +965,12 @@
       "id": "e12-071",
       "title": "Take the shortcut to the surface",
       "text": "Take the shortcut to the surface",
-      "manual": true
+      "manual": true,
+      "world": [
+        1681,
+        3168,
+        0
+      ]
     },
     {
       "id": "e12-072",
@@ -1268,7 +1303,12 @@
       "id": "e12-096b",
       "title": "run from the Charter boat (Agility …",
       "text": "run from the Charter boat (Agility highly optional)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
     }
   ]
 }

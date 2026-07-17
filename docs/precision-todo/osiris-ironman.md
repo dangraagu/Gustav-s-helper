@@ -8,8 +8,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 
 | id | step | fill |
 |---|---|---|
-| eg-002 | Use every book and lamp on Herblore UNTIL 77 herb, after that they should be | |
-| eg-003 | Use Authenticator AND 2-step verification on registered e-mail | |
 | sg-004 | Put 15 pineapples into each of the compost bins at the allotment patches, rem | |
 | sg-015 | While waiting for the willow trees to grow, do these steps: | |
 | sg-019 | Do a farm run of limpwurts, harralanders and ultracompost | |
