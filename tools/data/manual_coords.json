@@ -403,5 +403,659 @@
     3167,
     2913,
     0
-  ]
+  ],
+  "trade robyn": {
+    "world": [
+      1508,
+      3592,
+      0
+    ],
+    "npc": 11042
+  },
+  "talk to gertude (1) [gertrudes cat]": {
+    "world": [
+      3151,
+      3409,
+      0
+    ],
+    "npc": 7284
+  },
+  "head west to the hunter's guild": [
+    1559,
+    3048,
+    0
+  ],
+  "talk to luthas and ask for employment (1)": {
+    "world": [
+      2939,
+      3154,
+      0
+    ],
+    "npc": 3647
+  },
+  "trade wydin": {
+    "world": [
+      3013,
+      3207,
+      0
+    ],
+    "npc": 2890
+  },
+  "talk to baraek (3,1) [shield of arrav]": {
+    "world": [
+      3217,
+      3435,
+      0
+    ],
+    "npc": 2881
+  },
+  "trade heckel funch or hudo": {
+    "world": [
+      2493,
+      3488,
+      1
+    ],
+    "npc": 16
+  },
+  "start tourist trap": {
+    "world": [
+      3303,
+      3112,
+      0
+    ],
+    "npc": 4640
+  },
+  "trade hudo north": {
+    "world": [
+      2449,
+      3510,
+      1
+    ],
+    "npc": 12
+  },
+  "start dragon slayer (2,1) [varock medium diary]": {
+    "world": [
+      3191,
+      3360,
+      0
+    ],
+    "npc": 814
+  },
+  "pickpocket constantinius in the main house for chest key": [
+    1449,
+    2932,
+    0
+  ],
+  "talk to haig halen to continue digsite (1)": {
+    "world": [
+      3260,
+      3451,
+      0
+    ],
+    "npc": 5214
+  },
+  "talk to historian minas to obtain 103 kudos": {
+    "world": [
+      3265,
+      3454,
+      1
+    ],
+    "npc": 1902
+  },
+  "get a slayer task from mazchna [morytania easy diary]": {
+    "world": [
+      3511,
+      3509,
+      0
+    ],
+    "npc": 13620
+  },
+  "talk to frizzy skernip (1) [fairy tale part i] (1/5 farmers)": {
+    "world": [
+      3057,
+      3259,
+      0
+    ],
+    "npc": 2684
+  },
+  "buy 2,100 iron arrowtips from hickton's archery emporium (optinally fletch while running and doing the next steps)": [
+    2823,
+    3443,
+    0
+  ],
+  "start fremennik trials quest": [
+    2659,
+    3670,
+    0
+  ],
+  "talk to kaylee (2) [recipe for disaster]": {
+    "world": [
+      2958,
+      3371,
+      0
+    ],
+    "npc": 1316
+  },
+  "talk to ak-haranu (1) [ghost's ahoy]": {
+    "world": [
+      3690,
+      3497,
+      0
+    ],
+    "npc": 2989
+  },
+  "talk to ak-haranu for translation manual [ghost's ahoy]": {
+    "world": [
+      3690,
+      3497,
+      0
+    ],
+    "npc": 2989
+  },
+  "get a task from vannaka [varrock medium diary]": {
+    "world": [
+      3147,
+      9914,
+      0
+    ],
+    "npc": 403
+  },
+  "talk to ned (1) [dragon slayer]": {
+    "world": [
+      3099,
+      3259,
+      0
+    ],
+    "npc": 4280
+  },
+  "talk to lord kandur (2,1) [depths of despair]": [
+    1782,
+    3572,
+    0
+  ],
+  "talk to ignisia [forsaken tower]": {
+    "world": [
+      1634,
+      3949,
+      0
+    ],
+    "npc": 7374
+  },
+  "free eadger at the end": {
+    "world": [
+      2890,
+      3677,
+      0
+    ],
+    "npc": 4118
+  },
+  "talk to rantz again (1,2,3) [recipe for disaster]": [
+    2630,
+    2981,
+    0
+  ],
+  "talk to rantz (2) [recipe for disaster]": [
+    2630,
+    2981,
+    0
+  ],
+  "talk to safta doc & buy a red topaz machete [karamja medium diary]": {
+    "world": [
+      2791,
+      3102,
+      0
+    ],
+    "npc": 6422
+  },
+  "start my arms big adventure": [
+    2830,
+    3697,
+    0
+  ],
+  "check shoes at yrsa [fremmenik easy diary]": {
+    "world": [
+      2624,
+      3674,
+      0
+    ],
+    "npc": 3933
+  },
+  "start monkey madness": {
+    "world": [
+      2466,
+      3496,
+      0
+    ],
+    "npc": 8019
+  },
+  "start eyes of glouphrie": [
+    2409,
+    9817,
+    0
+  ],
+  "trade oronwen 2x red, yellow, blue, green dye [mournings end pt 1]": {
+    "world": [
+      2326,
+      3178,
+      0
+    ],
+    "npc": 1478
+  },
+  "start mournings end pt 2": [
+    2353,
+    3172,
+    0
+  ],
+  "talk to malak in the canifis pub (5,1,3) [desert treasure]": {
+    "world": [
+      3496,
+      3475,
+      0
+    ],
+    "npc": 686
+  },
+  "talk to wise old man (3,2,5) [recipe for disaster]": [
+    3089,
+    3254,
+    0
+  ],
+  "talk to ruantun for a silver pot [desert treasure]": {
+    "world": [
+      3113,
+      9691,
+      0
+    ],
+    "npc": 3461
+  },
+  "talk to malak [desert treasure]": {
+    "world": [
+      3496,
+      3475,
+      0
+    ],
+    "npc": 686
+  },
+  "talk to veliaf hurtz (1) [in aid of myreque]": [
+    3494,
+    3464,
+    0
+  ],
+  "head east towards the sunlight antelopes": {
+    "world": [
+      1746,
+      3011,
+      0
+    ],
+    "npc": 13133
+  },
+  "catch 3x sunlight antelopes (keep the fur)": {
+    "world": [
+      1746,
+      3011,
+      0
+    ],
+    "npc": 13133
+  },
+  "talk to pellem": {
+    "world": [
+      1565,
+      3035,
+      0
+    ],
+    "npc": 13130
+  },
+  "catch moonlight moths to the south": {
+    "world": [
+      1562,
+      9441,
+      0
+    ],
+    "npc": 12771
+  },
+  "head west & buy 11x gold leaves, 10x marble blocks, 15x limestone bricks, 1x magic stone": [
+    2849,
+    10185,
+    0
+  ],
+  "talk to tyss for arceuss signet": {
+    "world": [
+      1714,
+      3883,
+      0
+    ],
+    "npc": 7050
+  },
+  "head to mastering mixology and dump a good portion of your herbs here": [
+    1389,
+    2918,
+    0
+  ],
+  "head to the heroes guild": [
+    2893,
+    3510,
+    0
+  ],
+  "charge the glory amulet in the fountain": [
+    2918,
+    9894,
+    0
+  ],
+  "mine gem rocks for opals: expeditious bracelets, jades: amulet of chemistry, topaz: slaughter bracelets": [
+    2835,
+    9398,
+    0
+  ],
+  "buy an isafdor painting from ser renitee": {
+    "world": [
+      2982,
+      3341,
+      1
+    ],
+    "npc": 3100
+  },
+  "mine a lovakite ore [kourend hard diary]": [
+    1435,
+    3855,
+    0
+  ],
+  "plant a logavano seed at the tithe farm [kourend hard diary]": [
+    1823,
+    3497,
+    0
+  ],
+  "enter the woodcut guild [kourend hard diary]": [
+    1614,
+    3499,
+    0
+  ],
+  "head to mount karuulm": [
+    1311,
+    3807,
+    0
+  ],
+  "talk to tyss to complete kourend hard diary (lamp on herblore)": {
+    "world": [
+      1714,
+      3883,
+      0
+    ],
+    "npc": 7050
+  },
+  "pick up every item spawn in the castle, including the ones in cellar, don't f": [
+    3209,
+    3214,
+    0
+  ],
+  "fill a jug with water": [
+    3209,
+    3214,
+    0
+  ],
+  "light the 4 logs until 15 firemaking": [
+    3209,
+    3219,
+    2
+  ],
+  "after that fletch the same logs into 1000 arrow shafts": [
+    3209,
+    3219,
+    2
+  ],
+  "bank at least 4 ashes": [
+    3209,
+    3219,
+    2
+  ],
+  "bank 7 logs for later": [
+    3209,
+    3219,
+    2
+  ],
+  "fill 1 inventory of buckets with water": [
+    3238,
+    3434,
+    0
+  ],
+  "pickpocket ham members for a rusty sword": [
+    3168,
+    9632,
+    0
+  ],
+  "get the ghost's skull in the basement": [
+    3105,
+    3161,
+    0
+  ],
+  "get big frog leg (you need to go in to the caves), giant rat bone (both for r": [
+    3244,
+    9570,
+    0
+  ],
+  "dig up the skull for fairytale part 1 while you're in the area to save some t": [
+    3106,
+    3384,
+    0
+  ],
+  "get the 3rd map piece for dragon slayer": [
+    3011,
+    3501,
+    0
+  ],
+  "use swamp tar on the lamp still next to miltog": {
+    "world": [
+      2721,
+      5322,
+      0
+    ],
+    "npc": 2297
+  },
+  "use your empty lantern on the": {
+    "world": [
+      2721,
+      5322,
+      0
+    ],
+    "npc": 2297
+  },
+  "mine volcanic ash for ultracompost": [
+    3804,
+    3826,
+    0
+  ],
+  "start at castle wars": [
+    2458,
+    3110,
+    0
+  ],
+  "deposit them to the log storage": [
+    2458,
+    3110,
+    0
+  ],
+  "get 60 smithing, remember to wear goldsmith gauntlets": [
+    2930,
+    10197,
+    0
+  ],
+  "hunt 15k red chins at the prif hunter area": [
+    2270,
+    3408,
+    0
+  ],
+  "for lumby 50 range req i'd recommend ranging at pest control with bone cbow": [
+    2656,
+    2656,
+    0
+  ],
+  "get 60 range with bone crossbow at pest control if you haven't already got 60": [
+    2656,
+    2656,
+    0
+  ],
+  "do all of the rfd subquests": {
+    "world": [
+      3209,
+      3214,
+      0
+    ],
+    "npc": 4626
+  },
+  "do desert treasure": {
+    "world": [
+      3178,
+      3043,
+      0
+    ],
+    "npc": 12162
+  },
+  "complete desert treasure ii quest": [
+    3508,
+    2971,
+    0
+  ],
+  "farm dt2 bosses: vardorvis first for ultor ring + soulreaper axe": [
+    1118,
+    3428,
+    0
+  ],
+  "do mahogany homes with teak planks for 70 construction": {
+    "world": [
+      2989,
+      3363,
+      0
+    ],
+    "npc": 6439
+  },
+  "if you ever need something afk to do, just go to ammonite crabs with either b": [
+    3800,
+    3752,
+    0
+  ],
+  "train sailing to 22 (barracuda trials unlock at 30 and are the fastest xp)": [
+    3032,
+    2850,
+    0
+  ],
+  "train sailing to 45 via barracuda trials (~2-3 hours - good to chip away duri": [
+    3032,
+    2850,
+    0
+  ],
+  "obtain a zombie axe": [
+    3526,
+    4570,
+    0
+  ],
+  "obtain a dragon scimitar": {
+    "world": [
+      2759,
+      2775,
+      0
+    ],
+    "npc": 5250
+  },
+  "obtain a bone dagger": [
+    3322,
+    9608,
+    0
+  ],
+  "obtain a crystal halberd": [
+    3239,
+    6066,
+    0
+  ],
+  "obtain one of: sulphur blades, glacial temotli, or dual macuahuitl": [
+    1351,
+    9574,
+    0
+  ],
+  "obtain a crystal bow": [
+    3239,
+    6066,
+    0
+  ],
+  "obtain a warped sceptre": [
+    1487,
+    4291,
+    1
+  ],
+  "obtain all styles of void knight equipment and upgrade to elite void as fast as possible": [
+    2656,
+    2656,
+    0
+  ],
+  "obtain a berserker ring": {
+    "world": [
+      2633,
+      9661,
+      0
+    ],
+    "npc": 2267
+  },
+  "obtain a dragon defender": [
+    2842,
+    9992,
+    0
+  ],
+  "obtain a green ava's device (ava's accumulator)": {
+    "world": [
+      3094,
+      3357,
+      0
+    ],
+    "npc": 4407
+  },
+  "the blood moon rises": [
+    3696,
+    3184,
+    0
+  ],
+  "minigame teleport to soul wars. chop teak logs on a forestry world - world 444 is recommended as it is usually the most popular - and burn them to level 50 firemaking (note: it would theoretically be faster to 2t, but the birds will actually just kill you at your current stats).": [
+    2185,
+    2988,
+    0
+  ],
+  "catch ~1.5k grey chins for level 55 ranging (at soul wars - you can take an axe to chop the nearby teaks in case you mess up your knife-log). catch ~1.5k red chins between kastori and tal teklan (talteklanchinspot.png). follow this guide for catching chins: osrs easy 1t hunter guide (in-depth) for the methods (regardless of location and chin type). train your ranging in the mm1 tunnels (short fuse) to level 62 (55 with grey, 55-62 with red). make sure to equip a salve amulet (ei).": [
+    2126,
+    2952,
+    0
+  ],
+  "read this step in its entirety carefully. this step contains the hallowed sepulchre grind to level 82 agility": [
+    3654,
+    3387,
+    0
+  ],
+  "kill 125 chompies for the diary": [
+    2598,
+    2966,
+    0
+  ],
+  "go to guardians of the rift, participate in the minigame until you have the full raiments of the eye and the colossal pouch": [
+    3616,
+    9492,
+    0
+  ],
+  "camp cave horrors off-task for a black mask (protect melee allows an amulet of strength, so use your regular slayer gear, proselyte hauberk versus torso is fine either way, use thralls, take your herb sack). start and complete the morytania hard diary (lamp on herblore). visit robin twice a day with 13 bones each time to collect 130 ectotokens for bonecrusher charges (3250 charges per day - you will need 24k charges to complete step 12 of this chapter) – collect the bones on any slayer task (for example regular/big/baby dragon). imbue your black mask at the pvp arena (imbue scroll via pvp arena - losing method) or nightmare zone. an example setup (except for the black mask and expeditious bracelets, obviously) iscave-horrors.png. the recommended spot is cave-horrors.png(northwest from the entrance).": [
+    3777,
+    9449,
+    0
+  ],
+  "do corrupted gauntlet for 6 armour seeds and one enhanced weapon seed (~70 hours) (tip: use longrange on staff hits for defence xp - alternatively you can use accurate for ~0.5% more accuracy, but we think the def xp is more valuable). maintain hourlies as usual. you should be level 93 ranging after this step. on average, this will also give the following loot:": [
+    3228,
+    6116,
+    0
+  ],
+  "get a fire cape off task (if you don’t have one yet)": [
+    2439,
+    5172,
+    0
+  ],
+  "claim the easy and medium karamja diaries (lamps on slayer)": {
+    "world": [
+      2809,
+      3193,
+      0
+    ],
+    "npc": 7650
+  }
 }

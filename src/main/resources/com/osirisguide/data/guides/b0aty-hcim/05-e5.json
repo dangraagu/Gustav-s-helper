@@ -35,14 +35,14 @@
       "title": "Teleport to Grand Exchange via spellbook …",
       "text": "Teleport to Grand Exchange via spellbook > Spirit tree (2)",
       "world": [
-        3165,
-        3490,
+        2466,
+        3495,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3165,
-        "y": 3490,
+        "x": 2466,
+        "y": 3495,
         "z": 0,
         "radius": 8
       }
@@ -51,13 +51,23 @@
       "id": "e5-003",
       "title": "Cut Oak Tree & fletch Oak …",
       "text": "Cut Oak Tree & fletch Oak Shortbow. String it [Western Province Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2474,
+        3435,
+        0
+      ]
     },
     {
       "id": "e5-004",
       "title": "Start Eyes of Glouphrie",
       "text": "Start Eyes of Glouphrie",
-      "manual": true
+      "manual": true,
+      "world": [
+        2409,
+        9817,
+        0
+      ]
     },
     {
       "id": "e5-005",
@@ -1064,7 +1074,12 @@
       "id": "e5-080",
       "title": "Complete Hand in the Sand",
       "text": "Complete Hand in the Sand",
-      "manual": true
+      "manual": true,
+      "world": [
+        2551,
+        3099,
+        0
+      ]
     },
     {
       "id": "e5-081",
@@ -1651,7 +1666,15 @@
       "id": "e5-116",
       "title": "Trade Oronwen 2x Red, Yellow, Blue, …",
       "text": "Trade Oronwen 2x Red, Yellow, Blue, Green dye [Mournings End Pt 1]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2326,
+        3178,
+        0
+      ],
+      "npcs": [
+        1478
+      ]
     },
     {
       "id": "e5-117",
@@ -1954,7 +1977,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2630,
+        2981,
+        0
+      ]
     },
     {
       "id": "e5-140a",
@@ -1971,9 +1999,10 @@
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
       },
+      "object": 6895,
       "world": [
-        3345,
-        2725,
+        2631,
+        2990,
         0
       ]
     },
@@ -2084,7 +2113,12 @@
       "id": "e5-149",
       "title": "Start Mournings End Pt 2",
       "text": "Start Mournings End Pt 2",
-      "manual": true
+      "manual": true,
+      "world": [
+        2353,
+        3172,
+        0
+      ]
     },
     {
       "id": "e5-150",
@@ -2108,8 +2142,8 @@
       },
       "item": 237,
       "world": [
-        3185,
-        3441,
+        2352,
+        3162,
         0
       ]
     },
@@ -2184,7 +2218,12 @@
       "id": "e5-155",
       "title": "Train Woodcutting to level 68 at …",
       "text": "Train Woodcutting to level 68 at Teak Trees (West of BJP; AFK+3tick+2tick)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3192,
+        3223,
+        0
+      ]
     },
     {
       "id": "e5-156",
@@ -2588,9 +2627,12 @@
       "text": "Talk to Malak in the Canifis Pub (5,1,3) [Desert Treasure]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3496,
+        3475,
         0
+      ],
+      "npcs": [
+        686
       ]
     },
     {
@@ -2679,7 +2721,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "e5-191",
@@ -2691,8 +2738,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3165,
-        3490,
+        3213,
+        3221,
         0
       ]
     },
@@ -2704,7 +2751,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3212,
+        3215,
+        0
+      ]
     },
     {
       "id": "e5-193",
@@ -2743,13 +2795,26 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3089,
+        3254,
+        0
+      ]
     },
     {
       "id": "e5-196",
       "title": "Talk to Ruantun for a Silver …",
       "text": "Talk to Ruantun for a Silver Pot [Desert Treasure]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3113,
+        9691,
+        0
+      ],
+      "npcs": [
+        3461
+      ]
     },
     {
       "id": "e5-197",
@@ -2949,7 +3014,15 @@
       "id": "e5-210",
       "title": "Talk to Malak [Desert Treasure]",
       "text": "Talk to Malak [Desert Treasure]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3496,
+        3475,
+        0
+      ],
+      "npcs": [
+        686
+      ]
     },
     {
       "id": "e5-211",
@@ -2962,14 +3035,14 @@
       "title": "Head East & repair the bridge …",
       "text": "Head East & repair the bridge [In Search of Myreque]",
       "world": [
-        3165,
-        3490,
+        3503,
+        3477,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3165,
-        "y": 3490,
+        "x": 3503,
+        "y": 3477,
         "z": 0,
         "radius": 8
       }
@@ -2978,7 +3051,12 @@
       "id": "e5-213",
       "title": "Continue In Search of Myreque until …",
       "text": "Continue In Search of Myreque until you kill the Hellhound",
-      "manual": true
+      "manual": true,
+      "world": [
+        3503,
+        3477,
+        0
+      ]
     },
     {
       "id": "e5-214",
@@ -3041,7 +3119,15 @@
       "id": "e5-220",
       "title": "Talk to Malak [Desert Treasure]",
       "text": "Talk to Malak [Desert Treasure]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3496,
+        3475,
+        0
+      ],
+      "npcs": [
+        686
+      ]
     },
     {
       "id": "e5-221",
@@ -3071,7 +3157,12 @@
       "id": "e5-223",
       "title": "Talk to Veliaf Hurtz (1) [In …",
       "text": "Talk to Veliaf Hurtz (1) [In Aid Of Myreque]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3494,
+        3464,
+        0
+      ]
     },
     {
       "id": "e5-224",
@@ -3079,8 +3170,8 @@
       "text": "Bank anywhere",
       "manual": true,
       "world": [
-        3095,
-        3494,
+        3512,
+        3478,
         0
       ]
     },
@@ -3090,8 +3181,8 @@
       "text": "Withdraw: Antipoison",
       "manual": true,
       "world": [
-        3095,
-        3494,
+        3512,
+        3478,
         0
       ]
     },
@@ -3125,8 +3216,8 @@
       "text": "Unnote Lockpicks at Tiles if needed",
       "manual": true,
       "world": [
-        3095,
-        3494,
+        3512,
+        3478,
         0
       ]
     },
@@ -3214,7 +3305,12 @@
       "id": "e5-235",
       "title": "Kill a Shadowhound [Kandarin Hard Diary]",
       "text": "Kill a Shadowhound [Kandarin Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2884,
+        3397,
+        0
+      ]
     },
     {
       "id": "e5-236",
@@ -3226,12 +3322,7 @@
       "id": "e5-237",
       "title": "Bank Anywhere",
       "text": "Bank Anywhere",
-      "manual": true,
-      "world": [
-        2444,
-        3485,
-        1
-      ]
+      "manual": true
     },
     {
       "id": "e5-238",
@@ -3239,9 +3330,9 @@
       "text": "Make 6x Restore Potions & decant them",
       "manual": true,
       "world": [
-        2444,
-        3485,
-        1
+        2884,
+        3397,
+        0
       ]
     },
     {
@@ -3266,9 +3357,9 @@
       },
       "item": 3105,
       "world": [
-        2444,
-        3485,
-        1
+        2853,
+        3348,
+        0
       ]
     },
     {
@@ -3361,21 +3452,26 @@
       "id": "e5-246",
       "title": "Switch to Regular spells then back …",
       "text": "Switch to Regular spells then back to Ancients [Desert Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
     },
     {
       "id": "e5-247",
       "title": "Teleport to Padewana [Varrock Hard Diary]",
       "text": "Teleport to Padewana [Varrock Hard Diary]",
       "world": [
-        3210,
-        3448,
+        3081,
+        3420,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3210,
-        "y": 3448,
+        "x": 3081,
+        "y": 3420,
         "z": 0,
         "radius": 8
       }
@@ -3423,7 +3519,12 @@
       "id": "e5-250",
       "title": "Complete Evil Dave RFD until you …",
       "text": "Complete Evil Dave RFD until you have the correct Stew",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "e5-251",
@@ -3538,7 +3639,12 @@
       "id": "e5-260",
       "title": "Complete Pirate & Evil Dave",
       "text": "Complete Pirate & Evil Dave",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "e5-261",
@@ -3973,7 +4079,12 @@
       "id": "e5-292",
       "title": "The Woodcutting requirement is at the …",
       "text": "The Woodcutting requirement is at the very end of the quest",
-      "manual": true
+      "manual": true,
+      "world": [
+        3192,
+        3223,
+        0
+      ]
     },
     {
       "id": "e5-293",
@@ -4013,8 +4124,8 @@
       "text": "This quest will get you 70 Woodcutting and Agility",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3192,
+        3223,
         0
       ]
     }

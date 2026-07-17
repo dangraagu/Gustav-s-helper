@@ -325,7 +325,12 @@
           }
         ]
       },
-      "item": 3420
+      "item": 3420,
+      "world": [
+        2849,
+        10185,
+        0
+      ]
     },
     {
       "id": "e10-019",
@@ -404,7 +409,15 @@
       "id": "e10-024",
       "title": "Talk to Tyss for Arceuss Signet",
       "text": "Talk to Tyss for Arceuss Signet",
-      "manual": true
+      "manual": true,
+      "world": [
+        1714,
+        3883,
+        0
+      ],
+      "npcs": [
+        7050
+      ]
     },
     {
       "id": "e10-025",
@@ -637,7 +650,12 @@
       "id": "e10-044",
       "title": "Once off, wait for your character …",
       "text": "Once off, wait for your character to drink a waterskin, cast Humidify [Desert Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
     },
     {
       "id": "e10-045",
@@ -645,8 +663,8 @@
       "text": "Complete a lap of Pollnivneach Agility Course [Desert Hard Diary]",
       "manual": true,
       "world": [
-        3358,
-        2974,
+        3228,
+        3109,
         0
       ]
     },
@@ -697,8 +715,8 @@
       "text": "Return to the maze & kill the ranger Locus Rider nearby [Desert Hard Diary]",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3228,
+        3109,
         0
       ]
     },
@@ -760,7 +778,12 @@
       "id": "e10-053",
       "title": "Light a fire on the Mayor’s …",
       "text": "Light a fire on the Mayor’s Balcony [Desert Hard Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
     },
     {
       "id": "e10-054",
@@ -768,8 +791,8 @@
       "text": "Smith a Mithril Platebody [Desert Hard Diary]",
       "manual": true,
       "world": [
-        3409,
-        2921,
+        3228,
+        3109,
         0
       ]
     },
@@ -1202,7 +1225,18 @@
       "id": "e10-086",
       "title": "Head to Mastering Mixology and dump …",
       "text": "Head to Mastering Mixology and dump a good portion of your herbs here",
-      "manual": true
+      "world": [
+        1389,
+        2918,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1389,
+        "y": 2918,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e10-087",
@@ -1216,8 +1250,8 @@
       "text": "Buy the goggles/Amulet if you haven’t already",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        1413,
+        2972,
         0
       ]
     },
@@ -1241,12 +1275,7 @@
           }
         ]
       },
-      "item": 1379,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "item": 1379
     },
     {
       "id": "e10-089b",
@@ -1662,7 +1691,18 @@
       "id": "e10-117b",
       "title": "head to the Heroes Guild",
       "text": "head to the Heroes Guild",
-      "manual": true
+      "world": [
+        2893,
+        3510,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2893,
+        "y": 3510,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e10-118",
@@ -1670,8 +1710,8 @@
       "text": "Charge the Glory Amulet in the fountain",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2918,
+        9894,
         0
       ]
     },
@@ -1800,8 +1840,8 @@
       "text": "Complete the Karamja Hard Diary",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2857,
+        3169,
         0
       ]
     },
@@ -1898,8 +1938,8 @@
       "text": "Mine Gem Rocks for Opals: Expeditious Bracelets, Jades: Amulet of Chemistry, Topaz: Slaughter Bracelets",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2835,
+        9398,
         0
       ]
     },

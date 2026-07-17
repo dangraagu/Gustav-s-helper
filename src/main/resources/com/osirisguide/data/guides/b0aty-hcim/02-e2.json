@@ -53,8 +53,8 @@
       "text": "Take Spirit Tree to Gnome Stronghold (2) [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        2440,
-        3460,
+        3195,
+        3404,
         0
       ]
     },
@@ -285,7 +285,12 @@
       "id": "e2-020",
       "title": "Complete Restless Ghost",
       "text": "Complete Restless Ghost",
-      "manual": true
+      "manual": true,
+      "world": [
+        3243,
+        3206,
+        0
+      ]
     },
     {
       "id": "e2-021",
@@ -892,7 +897,12 @@
       "id": "e2-057",
       "title": "Complete Queen of Thieves",
       "text": "Complete Queen of Thieves",
-      "manual": true
+      "manual": true,
+      "world": [
+        1796,
+        3781,
+        0
+      ]
     },
     {
       "id": "e2-058",
@@ -920,7 +930,15 @@
       "id": "e2-060",
       "title": "Start Dragon Slayer (2,1) [Varock Medium …",
       "text": "Start Dragon Slayer (2,1) [Varock Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3191,
+        3360,
+        0
+      ],
+      "npcs": [
+        814
+      ]
     },
     {
       "id": "e2-061",
@@ -928,8 +946,8 @@
       "text": "Jump over the Fence south of Varrock [Varrock Easy Diary]",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3206,
+        3417,
         0
       ]
     },
@@ -1093,7 +1111,12 @@
       "id": "e2-074",
       "title": "Complete Ribbiting Tale of a Lily …",
       "text": "Complete Ribbiting Tale of a Lily Pad Dispute quest",
-      "manual": true
+      "manual": true,
+      "world": [
+        1683,
+        2973,
+        0
+      ]
     },
     {
       "id": "e2-075a",
@@ -1192,7 +1215,12 @@
       "id": "e2-080",
       "title": "Pickpocket Constantinius in the main house …",
       "text": "Pickpocket Constantinius in the main house for Chest Key",
-      "manual": true
+      "manual": true,
+      "world": [
+        1449,
+        2932,
+        0
+      ]
     },
     {
       "id": "e2-081a",
@@ -1297,8 +1325,8 @@
       "text": "Complete the Barcrawl at Musa Point",
       "manual": true,
       "world": [
-        2904,
-        3162,
+        2544,
+        3568,
         0
       ]
     },
@@ -1862,7 +1890,12 @@
       "id": "e2-129",
       "title": "Play the Organ after the first …",
       "text": "Play the Organ after the first completion [Kandarin Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
     },
     {
       "id": "e2-130",
@@ -1945,7 +1978,12 @@
       "id": "e2-136",
       "title": "Complete the Barcrawl during the quest",
       "text": "Complete the Barcrawl during the quest",
-      "manual": true
+      "manual": true,
+      "world": [
+        2544,
+        3568,
+        0
+      ]
     },
     {
       "id": "e2-137",
@@ -2160,8 +2198,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3304,
-        3211,
+        3209,
+        3215,
         0
       ]
     },
@@ -2187,8 +2225,8 @@
       },
       "item": 4593,
       "world": [
-        3315,
-        3182,
+        3212,
+        3247,
         0
       ]
     },
@@ -2198,8 +2236,8 @@
       "text": "Make desert disguise",
       "manual": true,
       "world": [
-        3315,
-        3182,
+        3212,
+        3247,
         0
       ]
     },
@@ -2214,10 +2252,9 @@
       "title": "Buy 5x Empty Pots in the …",
       "text": "Buy 5x Empty Pots in the General Store",
       "manual": true,
-      "npc": 1287,
       "world": [
-        3496,
-        3289,
+        3165,
+        3490,
         0
       ]
     },
@@ -2230,9 +2267,10 @@
         "quest": "PRINCE_ALI_RESCUE",
         "state": "FINISHED"
       },
+      "npc": 11579,
       "world": [
-        3298,
-        3163,
+        3123,
+        3240,
         0
       ]
     },
@@ -2563,9 +2601,12 @@
       "text": "Talk to Haig Halen to continue Digsite (1)",
       "manual": true,
       "world": [
-        3354,
-        3420,
+        3260,
+        3451,
         0
+      ],
+      "npcs": [
+        5214
       ]
     },
     {
@@ -3166,7 +3207,12 @@
           }
         ]
       },
-      "item": 2007
+      "item": 2007,
+      "world": [
+        3177,
+        3043,
+        0
+      ]
     },
     {
       "id": "e2-210",
@@ -3276,8 +3322,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2809,
-        3085,
+        2763,
+        3044,
         0
       ]
     },
@@ -3287,8 +3333,8 @@
       "text": "Collect 2x Snake Weed & Adrigal [Legend's Quest]",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2729,
+        3348,
         0
       ]
     },
@@ -3298,8 +3344,8 @@
       "text": "Kill a Jogre during Rogue’s Purse [Karamja Easy Diary]",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2708,
+        3209,
         0
       ]
     },
@@ -3542,14 +3588,14 @@
       "title": "Teleport to Falador [Falador Medium Diary]",
       "text": "Teleport to Falador [Falador Medium Diary]",
       "world": [
-        3000,
-        3360,
+        2932,
+        3213,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3000,
-        "y": 3360,
+        "x": 2932,
+        "y": 3213,
         "z": 0,
         "radius": 8
       }
@@ -3991,7 +4037,15 @@
       "id": "e2-262a",
       "title": "Talk to Historian Minas to obtain …",
       "text": "Talk to Historian Minas to obtain 103 Kudos",
-      "manual": true
+      "manual": true,
+      "world": [
+        3265,
+        3454,
+        1
+      ],
+      "npcs": [
+        1902
+      ]
     },
     {
       "id": "e2-262b",
@@ -4356,8 +4410,8 @@
       "text": "Complete a lap of Canifis Agility Course [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ]
     },
@@ -4365,12 +4419,7 @@
       "id": "e2-286",
       "title": "Bank at Canafis Bank",
       "text": "Bank at Canafis Bank",
-      "manual": true,
-      "world": [
-        3512,
-        3478,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-287",
@@ -4392,12 +4441,7 @@
           }
         ]
       },
-      "item": 1331,
-      "world": [
-        3512,
-        3478,
-        0
-      ]
+      "item": 1331
     },
     {
       "id": "e2-288",
@@ -4421,8 +4465,8 @@
       },
       "item": 383,
       "world": [
-        3477,
-        3497,
+        3489,
+        3297,
         0
       ]
     },
@@ -4432,9 +4476,12 @@
       "text": "Get a slayer task from Mazchna [Morytania Easy Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3511,
+        3509,
         0
+      ],
+      "npcs": [
+        13620
       ]
     },
     {
@@ -4469,8 +4516,8 @@
       "text": "Kill any citizen with Wolfbane wielded [Morytania Easy Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3434,
+        3461,
         0
       ]
     },
@@ -4519,8 +4566,8 @@
       "text": "Make a Snelm & take Thin Snail meat [Morytania Easy Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3434,
+        3461,
         0
       ]
     },
@@ -4579,8 +4626,8 @@
       "text": "Pray at Nature Altar once completed [Morytania Easy Diary]",
       "manual": true,
       "world": [
-        2868,
-        3018,
+        3434,
+        3461,
         0
       ]
     },
@@ -4740,8 +4787,8 @@
         "cmp": ">="
       },
       "world": [
-        3165,
-        3490,
+        3192,
+        3223,
         0
       ]
     },
@@ -5093,13 +5140,26 @@
       "id": "e2-336b",
       "title": "start Fairy Tale Part I (2,1,1)",
       "text": "start Fairy Tale Part I (2,1,1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "e2-337",
       "title": "Talk to Frizzy Skernip (1) [Fairy …",
       "text": "Talk to Frizzy Skernip (1) [Fairy Tale Part I] (1/5 Farmers)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3057,
+        3259,
+        0
+      ],
+      "npcs": [
+        2684
+      ]
     },
     {
       "id": "e2-338a",
@@ -5144,7 +5204,12 @@
       "id": "e2-339",
       "title": "Continue Porcine of Interest (1)",
       "text": "Continue Porcine of Interest (1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3086,
+        3251,
+        0
+      ]
     },
     {
       "id": "e2-340",
@@ -5652,7 +5717,12 @@
       "id": "e2-374",
       "title": "Start Fairy Tale Part 2",
       "text": "Start Fairy Tale Part 2",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "e2-375",
@@ -5686,7 +5756,12 @@
       "id": "e2-376",
       "title": "Complete Porcine of Interest while waiting",
       "text": "Complete Porcine of Interest while waiting",
-      "manual": true
+      "manual": true,
+      "world": [
+        3086,
+        3251,
+        0
+      ]
     },
     {
       "id": "e2-377",
@@ -5720,7 +5795,12 @@
       "id": "e2-378",
       "title": "Continue Fairytale Part II to unlock …",
       "text": "Continue Fairytale Part II to unlock Fairy Rings, complete these Fairy Ring diary steps:",
-      "manual": true
+      "manual": true,
+      "world": [
+        3078,
+        3256,
+        0
+      ]
     },
     {
       "id": "e2-379",
@@ -6043,7 +6123,12 @@
       "id": "e2-400",
       "title": "Keep 7 Iron Ore [Dorics Quest/Steel …",
       "text": "Keep 7 Iron Ore [Dorics Quest/Steel Bars]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2951,
+        3451,
+        0
+      ]
     },
     {
       "id": "e2-401",
@@ -6051,8 +6136,8 @@
       "text": "Mine 12 Coal [Steel Bars]",
       "manual": true,
       "world": [
-        3027,
-        9724,
+        3048,
+        9775,
         0
       ]
     },
@@ -6691,7 +6776,12 @@
       "id": "e2-446",
       "title": "Complete Dorics Quest",
       "text": "Complete Dorics Quest",
-      "manual": true
+      "manual": true,
+      "world": [
+        2951,
+        3451,
+        0
+      ]
     },
     {
       "id": "e2-447",
@@ -6699,8 +6789,8 @@
       "text": "Make Blurite Limbs [Falador Easy Diary] (drop these)",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2947,
+        3382,
         0
       ]
     },
@@ -7063,8 +7153,8 @@
       "text": "Complete Varrock Agility Course [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3195,
+        3404,
         0
       ]
     },
@@ -8201,8 +8291,8 @@
       "text": "Crack a wall safe [Falador Hard Diary]",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2982,
+        3514,
         0
       ]
     },
@@ -8210,12 +8300,7 @@
       "id": "e2-556",
       "title": "Buy Graceful Legs",
       "text": "Buy Graceful Legs",
-      "manual": true,
-      "world": [
-        2957,
-        3388,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-557",
@@ -8237,12 +8322,7 @@
           }
         ]
       },
-      "item": 1523,
-      "world": [
-        2957,
-        3388,
-        0
-      ]
+      "item": 1523
     },
     {
       "id": "e2-558",

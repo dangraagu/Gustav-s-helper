@@ -693,14 +693,14 @@
       "title": "Teleport to Barbarian Assault, do at …",
       "text": "Teleport to Barbarian Assault, do at least one full queen run in any role",
       "world": [
-        2533,
-        3571,
+        2500,
+        3488,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2533,
-        "y": 3571,
+        "x": 2500,
+        "y": 3488,
         "z": 0,
         "radius": 8
       }
@@ -711,8 +711,8 @@
       "text": "buy a granite platebody. Recommended: continue Barbarian Assault to obtain a Fighter Torso",
       "manual": true,
       "world": [
-        2533,
-        3571,
+        2500,
+        3488,
         0
       ]
     },

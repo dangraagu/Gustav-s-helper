@@ -47,7 +47,12 @@
       "id": "e9-003",
       "title": "Complete Kingdom Divided",
       "text": "Complete Kingdom Divided",
-      "manual": true
+      "manual": true,
+      "world": [
+        1664,
+        3670,
+        0
+      ]
     },
     {
       "id": "e9-004",
@@ -137,13 +142,35 @@
       "id": "e9-009",
       "title": "Head East towards the Sunlight Antelopes",
       "text": "Head East towards the Sunlight Antelopes",
-      "manual": true
+      "world": [
+        1746,
+        3011,
+        0
+      ],
+      "npcs": [
+        13133
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1746,
+        "y": 3011,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e9-010",
       "title": "Catch 3x Sunlight Antelopes (Keep the …",
       "text": "Catch 3x Sunlight Antelopes (Keep the fur)",
-      "manual": true
+      "manual": true,
+      "world": [
+        1746,
+        3011,
+        0
+      ],
+      "npcs": [
+        13133
+      ]
     },
     {
       "id": "e9-011",
@@ -177,7 +204,15 @@
       "id": "e9-013a",
       "title": "Talk to Pellem",
       "text": "Talk to Pellem",
-      "manual": true
+      "manual": true,
+      "world": [
+        1565,
+        3035,
+        0
+      ],
+      "npcs": [
+        13130
+      ]
     },
     {
       "id": "e9-013b",
@@ -185,8 +220,8 @@
       "text": "make Mixed Hide Top, Bottom & Boots",
       "manual": true,
       "world": [
-        1559,
-        3048,
+        1565,
+        3035,
         0
       ]
     },
@@ -290,7 +325,15 @@
       "id": "e9-019b",
       "title": "catch Moonlight Moths to the South",
       "text": "catch Moonlight Moths to the South",
-      "manual": true
+      "manual": true,
+      "world": [
+        1562,
+        9441,
+        0
+      ],
+      "npcs": [
+        12771
+      ]
     },
     {
       "id": "e9-020",

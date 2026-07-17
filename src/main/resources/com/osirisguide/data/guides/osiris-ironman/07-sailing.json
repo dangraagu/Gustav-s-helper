@@ -24,8 +24,8 @@
       "text": "Train Sailing to 12 via sea charting + courier tasks (~20 min)\nLocation: Port Sarim",
       "manual": true,
       "world": [
-        3029,
-        3221,
+        3045,
+        2997,
         0
       ]
     },
@@ -48,7 +48,12 @@
       "id": "sail-004",
       "title": "Train Sailing to 22 (Barracuda Trials …",
       "text": "Train Sailing to 22 (Barracuda Trials unlock at 30 and are the fastest XP)\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3032,
+        2850,
+        0
+      ]
     },
     {
       "id": "sail-005",
@@ -69,7 +74,12 @@
       "id": "sail-006",
       "title": "Train Sailing to 45 via Barracuda …",
       "text": "Train Sailing to 45 via Barracuda Trials (~2-3 hours - good to chip away duri\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3032,
+        2850,
+        0
+      ]
     },
     {
       "id": "sail-007",

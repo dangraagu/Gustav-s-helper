@@ -29,7 +29,12 @@
       "id": "abg-003",
       "title": "If you ever need something AFK …",
       "text": "If you ever need something AFK to do, just go to ammonite crabs with either b\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3800,
+        3752,
+        0
+      ]
     },
     {
       "id": "abg-004",
@@ -407,13 +412,26 @@
         "skill": "CONSTRUCTION",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2989,
+        3363,
+        0
+      ],
+      "npcs": [
+        6439
+      ]
     },
     {
       "id": "abg-031",
       "title": "Finish 70 woodcutting with any method",
       "text": "Finish 70 woodcutting with any method\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3192,
+        3223,
+        0
+      ]
     },
     {
       "id": "abg-032",
@@ -479,8 +497,8 @@
       "text": "Hunt 15k red chins at the Prif hunter area\nLocation: Prifddinas",
       "manual": true,
       "world": [
-        3263,
-        6083,
+        2270,
+        3408,
         0
       ]
     },
@@ -523,8 +541,8 @@
       "text": "Start using kingdom again now that you'll be getting constant GP easily, put\nLocation: Miscellania",
       "manual": true,
       "world": [
-        2560,
-        3870,
+        3209,
+        3215,
         0
       ]
     },
@@ -606,8 +624,8 @@
       "text": "Start ToA at Entry Mode, push to 150 invocations for unique drops\nLocation: Tombs of Amascut",
       "manual": true,
       "world": [
-        3345,
-        2725,
+        3209,
+        3215,
         0
       ]
     },
@@ -672,13 +690,23 @@
       "id": "abg-053",
       "title": "Complete Desert Treasure II quest",
       "text": "Complete Desert Treasure II quest\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3508,
+        2971,
+        0
+      ]
     },
     {
       "id": "abg-054",
       "title": "Farm DT2 bosses: Vardorvis first for …",
       "text": "Farm DT2 bosses: Vardorvis first for Ultor Ring + Soulreaper Axe\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        1118,
+        3428,
+        0
+      ]
     },
     {
       "id": "abg-055",

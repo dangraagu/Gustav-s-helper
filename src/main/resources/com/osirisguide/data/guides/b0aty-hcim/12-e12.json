@@ -47,13 +47,23 @@
       "id": "e12-004",
       "title": "Inspect Empty Display Case (1) [Ethically …",
       "text": "Inspect Empty Display Case (1) [Ethically Acquired Antiques]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1721,
+        3165,
+        0
+      ]
     },
     {
       "id": "e12-005",
       "title": "Continue Ethically Acquired Antiques until repairing …",
       "text": "Continue Ethically Acquired Antiques until repairing the Sail",
-      "manual": true
+      "manual": true,
+      "world": [
+        1721,
+        3165,
+        0
+      ]
     },
     {
       "id": "e12-006a",
@@ -92,7 +102,12 @@
       "id": "e12-008",
       "title": "Continue Ethically Acquired Antiques until shaming …",
       "text": "Continue Ethically Acquired Antiques until shaming Haig Halen [Ethically Acquired Antiques]",
-      "manual": true
+      "manual": true,
+      "world": [
+        1721,
+        3165,
+        0
+      ]
     },
     {
       "id": "e12-009",

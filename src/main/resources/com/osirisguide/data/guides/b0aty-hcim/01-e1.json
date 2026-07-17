@@ -863,7 +863,15 @@
       "id": "e1-052a",
       "title": "Trade Robyn",
       "text": "Trade Robyn",
-      "manual": true
+      "manual": true,
+      "world": [
+        1508,
+        3592,
+        0
+      ],
+      "npcs": [
+        11042
+      ]
     },
     {
       "id": "e1-052b",
@@ -931,7 +939,12 @@
       "id": "e1-055b",
       "title": "Talk to Restless Ghost (1)",
       "text": "Talk to Restless Ghost (1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3243,
+        3206,
+        0
+      ]
     },
     {
       "id": "e1-056",
@@ -1047,9 +1060,12 @@
       "text": "Talk to Gertude (1) [Gertrudes Cat]",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3151,
+        3409,
         0
+      ],
+      "npcs": [
+        7284
       ]
     },
     {
@@ -1446,7 +1462,12 @@
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "e1-083a",
@@ -1516,7 +1537,12 @@
       "id": "e1-086",
       "title": "Take the Pie Dish [Knight's Sword]",
       "text": "Take the Pie Dish [Knight's Sword]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
     },
     {
       "id": "e1-087a",
@@ -1790,8 +1816,8 @@
       "text": "Cut the Dying tree [Varrock Easy Diary]",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3206,
+        3417,
         0
       ]
     },
@@ -2068,7 +2094,18 @@
       "id": "e1-119",
       "title": "Head West to the Hunter's Guild",
       "text": "Head West to the Hunter's Guild",
-      "manual": true
+      "world": [
+        1559,
+        3048,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1559,
+        "y": 3048,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-120",
@@ -2785,7 +2822,15 @@
       "id": "e1-158",
       "title": "Talk to Luthas and ask for …",
       "text": "Talk to Luthas and ask for employment (1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2939,
+        3154,
+        0
+      ],
+      "npcs": [
+        3647
+      ]
     },
     {
       "id": "e1-159",
@@ -2866,7 +2911,15 @@
       "id": "e1-165a",
       "title": "Trade Wydin",
       "text": "Trade Wydin",
-      "manual": true
+      "manual": true,
+      "world": [
+        3013,
+        3207,
+        0
+      ],
+      "npcs": [
+        2890
+      ]
     },
     {
       "id": "e1-165b",
@@ -2888,12 +2941,7 @@
           }
         ]
       },
-      "item": 2138,
-      "world": [
-        2905,
-        3149,
-        0
-      ]
+      "item": 2138
     },
     {
       "id": "e1-166",
@@ -3156,8 +3204,8 @@
       "text": "Take Falador Crumbling wall Shortcut [Falador Easy Diary]",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2947,
+        3382,
         0
       ]
     },
@@ -3217,8 +3265,8 @@
       "text": "Get a haircut North [Falador Easy Diary]",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2947,
+        3382,
         0
       ]
     },
@@ -3228,8 +3276,8 @@
       "text": "Fill Bucket on Pump [Falador Easy Diary]",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2947,
+        3382,
         0
       ]
     },
@@ -3499,7 +3547,15 @@
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3217,
+        3435,
+        0
+      ],
+      "npcs": [
+        2881
+      ]
     },
     {
       "id": "e1-199",
@@ -3692,13 +3748,26 @@
       "id": "e1-211",
       "title": "Complete Gnome Agility Course [Western Province …",
       "text": "Complete Gnome Agility Course [Western Province Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2474,
+        3435,
+        0
+      ]
     },
     {
       "id": "e1-212a",
       "title": "Trade Heckel Funch or Hudo",
       "text": "Trade Heckel Funch or Hudo",
-      "manual": true
+      "manual": true,
+      "world": [
+        2493,
+        3488,
+        1
+      ],
+      "npcs": [
+        16
+      ]
     },
     {
       "id": "e1-212b",
@@ -3883,7 +3952,15 @@
       "id": "e1-226a",
       "title": "Trade Wydin",
       "text": "Trade Wydin",
-      "manual": true
+      "manual": true,
+      "world": [
+        3013,
+        3207,
+        0
+      ],
+      "npcs": [
+        2890
+      ]
     },
     {
       "id": "e1-226b",
@@ -3905,12 +3982,7 @@
           }
         ]
       },
-      "item": 1951,
-      "world": [
-        2905,
-        3149,
-        0
-      ]
+      "item": 1951
     },
     {
       "id": "e1-226c",
@@ -3990,7 +4062,12 @@
       "id": "e1-232",
       "title": "Continue Knights Sword",
       "text": "Continue Knights Sword",
-      "manual": true
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
     },
     {
       "id": "e1-233",
@@ -4025,7 +4102,12 @@
       "id": "e1-235",
       "title": "Complete Knights Sword",
       "text": "Complete Knights Sword",
-      "manual": true
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
     },
     {
       "id": "e1-236",
@@ -4258,7 +4340,15 @@
       "id": "e1-250",
       "title": "Start Tourist Trap",
       "text": "Start Tourist Trap",
-      "manual": true
+      "manual": true,
+      "world": [
+        3303,
+        3112,
+        0
+      ],
+      "npcs": [
+        4640
+      ]
     },
     {
       "id": "e1-251",
@@ -4291,7 +4381,12 @@
       "id": "e1-253",
       "title": "Complete Tourist Trap",
       "text": "Complete Tourist Trap",
-      "manual": true
+      "manual": true,
+      "world": [
+        3304,
+        3112,
+        0
+      ]
     },
     {
       "id": "e1-254",
@@ -4321,8 +4416,8 @@
       },
       "item": 2349,
       "world": [
-        3216,
-        3416,
+        3315,
+        3182,
         0
       ]
     },
@@ -4919,14 +5014,14 @@
       "title": "Head North to Barbarian Assault",
       "text": "Head North to Barbarian Assault",
       "world": [
-        2533,
-        3571,
+        2500,
+        3488,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2533,
-        "y": 3571,
+        "x": 2500,
+        "y": 3488,
         "z": 0,
         "radius": 8
       }
@@ -4935,7 +5030,12 @@
       "id": "e1-293",
       "title": "Deposit all",
       "text": "Deposit all",
-      "manual": true
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
     },
     {
       "id": "e1-294",
@@ -4997,7 +5097,12 @@
           }
         ]
       },
-      "item": 1059
+      "item": 1059,
+      "world": [
+        2544,
+        3568,
+        0
+      ]
     },
     {
       "id": "e1-298",
@@ -5258,7 +5363,15 @@
       "id": "e1-316",
       "title": "Trade Hudo North",
       "text": "Trade Hudo North",
-      "manual": true
+      "manual": true,
+      "world": [
+        2449,
+        3510,
+        1
+      ],
+      "npcs": [
+        12
+      ]
     },
     {
       "id": "e1-317",

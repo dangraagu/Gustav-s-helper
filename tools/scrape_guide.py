@@ -450,6 +450,8 @@ def fill_craft_gaps(steps):
         if "world" in s:
             continue
         text = (s.get("text") or "").split("\n")[0]
+        # Strip a leading label ("Construction method: Make ...") so the craft verb is seen.
+        text = re.sub(r"^[A-Za-z][A-Za-z ]{0,24}:\s+", "", text)
         if not CRAFT_VERB_RE.match(text):
             continue
         prev_w = next((steps[j]["world"] for j in range(i - 1, -1, -1) if "world" in steps[j]), None)
@@ -515,7 +517,66 @@ def load_qh_steps():
                              s.get("npc"), s.get("object")))
             for t in toks:
                 _QH_TOKEN_INDEX.setdefault(t, []).append(idx)
+    _index_helper_names(data)
     return len(QH_STEPS)
+
+
+# Helper-NAME table: "Complete Varrock easy diary" -> the VARROCK_EASY helper's first step tile.
+# Covers diaries / miniquests / RFD subquests that have no RuneLite Quest constant (so the
+# quest-start bridge can't see them). Subset match on the key's tokens; ambiguous -> no match.
+QH_HELPER_STARTS = {}   # frozenset(tokens) -> [x,y,z]
+
+
+def _register_helper_name(tokens, world):
+    key = frozenset(tokens)
+    if not key:
+        return
+    if key in QH_HELPER_STARTS and QH_HELPER_STARTS[key] != world:
+        QH_HELPER_STARTS[key] = None  # colliding names -> poisoned, never match
+    else:
+        QH_HELPER_STARTS.setdefault(key, world)
+
+
+def _index_helper_names(data):
+    for qkey, steps in data.items():
+        first = next((s for s in steps if s.get("world")), None)
+        if not first:
+            continue
+        w = first["world"]
+        world = [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0]
+        toks = [t for t in qkey.lower().split("_") if len(t) >= 3 and t not in ("the", "and", "for")]
+        if len(toks) >= 2:
+            _register_helper_name(toks, world)
+        # RFD subquests are referred to by their tail ("Evil Dave subquest")
+        if qkey.startswith("RECIPE_FOR_DISASTER_"):
+            tail = [t for t in qkey[len("RECIPE_FOR_DISASTER_"):].lower().split("_") if len(t) >= 3]
+            if tail:
+                _register_helper_name(tail, world)
+        # a single, long, distinctive token works alone ("barcrawl")
+        for t in toks:
+            if len(t) >= 8:
+                _register_helper_name([t], world)
+
+
+QH_HELPER_REGION = 400  # a diary/quest-start can be a bit further from the route anchor than a step
+
+
+def qh_helper_lookup(name, context=None):
+    """First-step tile of the QH helper whose NAME's tokens all appear in the step text; ambiguous or
+    colliding names never match. Region-gated when a context is given (never place across the map)."""
+    if not QH_HELPER_STARTS:
+        return None
+    text_tokens = _content_tokens(name)
+    if not text_tokens:
+        return None
+    hits = {tuple(w) for key, w in QH_HELPER_STARTS.items()
+            if w is not None and key <= text_tokens}
+    if len(hits) != 1:
+        return None
+    world = list(next(iter(hits)))
+    if context and _dist(world, context) > QH_HELPER_REGION:
+        return None
+    return world
 
 
 def qh_step_lookup(name, context):
@@ -888,6 +949,9 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
                     step["npc"] = qh["npc"]
                 if "object" in qh and "object" not in step:
                     step["object"] = qh["object"]
+        if not world:
+            # "Complete Varrock easy diary" -> that helper's start tile (region-gated to the anchor).
+            world = qh_helper_lookup(name, anchor or gazetteer_lookup(loc))
         # For a quest step, the quest-start NPC's exact tile beats the loc hint: the hint is almost
         # always just the town name (= a coarse centre), while the start tile is a real doorstep.
         cq = step.get("complete", {})

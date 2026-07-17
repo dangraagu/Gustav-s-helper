@@ -13,18 +13,15 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | qo-066 | Train Agility to 25 | |
 | qo-076 | Train Sailing to 12 | |
 | qo-079 | Train Magic to 20 | |
-| qo-081 | Train Woodcutting to 15 | |
 | qo-083 | Train Woodcutting to 36 | |
 | qo-084 | Train Firemaking to 16 | |
 | qo-096 | Train Magic to 33 | |
-| qo-108 | Train Woodcutting to 45 | |
 | qo-123 | Train Firemaking to 20 | |
 | qo-125 | Train Firemaking to 30 | |
 | qo-128 | Train Sailing to 22 | |
 | qo-132 | Train Cooking to 20 (consider training to level 22 for efficiency) | |
 | qo-134 | Train Cooking to 22 | |
 | qo-140 | Train Herblore to 30 | |
-| qo-142 | Easy Desert Diary | |
 | qo-149 | Train Fletching to 25 | |
 | qo-153 | Train Construction to 20 | |
 | qo-154 | Train Woodcutting to 56 | |
@@ -71,7 +68,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | qo-256 | Train Defence to 65 | |
 | qo-259 | Train Magic to 66 | |
 | qo-260 | Train Fishing to 57 (boost to 62 with admiral pie) | |
-| qo-263 | Train Woodcutting to 71 | |
 | qo-264 | Train Thieving to 58 | |
 | qo-266 | Train Combat to 85 (Use Slayer to 69 for efficiency) | |
 | qo-268 | Train Hunter to 46 | |
@@ -103,7 +99,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | qo-313 | Train Crafting to 70 | |
 | qo-314 | Train Hunter to 60 | |
 | qo-315 | Train Slayer to 69 | |
-| qo-317 | Medium Fremennik Diary | |
 | qo-319 | Train Magic to 75 | |
 | qo-320 | Train Smithing to 70 | |
 | qo-323 | Train Farming to 65 | |
@@ -115,11 +110,9 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | qo-331 | Train Firemaking to 75 | |
 | qo-332 | Train Runecraft to 60 | |
 | qo-334 | Train Slayer to 74 | |
-| qo-335 | Train Woodcutting to 74 | |
 | qo-336 | Train Smithing to 72 | |
 | qo-337 | Train Cooking to 72 | |
 | qo-338 | Train Fletching to 70 | |
-| qo-339 | The Blood Moon Rises | |
 
 ## Coarse (sitting on a place-centre, not a specific spot)
 
@@ -129,30 +122,19 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | qo-016 | Natural history quiz (miniquest) | centre of varrock | |
 | qo-051 | Unlock: Anti-dragon shield | centre of champions guild | |
 | qo-057 | Partially complete: Rag and Bone Man II | centre of dorgesh-kaan | |
-| qo-089 | Recipe for Disaster: Goblin generals | centre of goblin village | |
 | qo-091 | Shield of Arrav | centre of varrock | |
 | qo-115 | Train Ranged to 37 | centre of grand exchange | |
-| qo-131 | Recipe for Disaster: Freeing the Mountain Dwarf | centre of falador | |
-| qo-137 | Recipe for Disaster: Freeing Evil Dave | centre of edgeville | |
 | qo-141 | Easy Varrock Diary | centre of varrock | |
 | qo-145 | Recipe for Disaster: Freeing Pirate Pete | centre of lumbridge | |
-| qo-146 | Easy Falador Diary | centre of falador | |
 | qo-159 | Recipe for Disaster: Freeing the Lumbridge Guide | centre of lumbridge | |
-| qo-160 | Recipe for Disaster: Freeing Skrach Uglogwee | centre of lumbridge | |
 | qo-163 | Easy Karamja Diary | centre of karamja | |
 | qo-170 | Unlock: Balloon transport system to Varrock | centre of entrana | |
 | qo-173 | Tears of Guthix | centre of dorgesh-kaan | |
 | qo-174 | Train Ranged to 40 | centre of grand exchange | |
 | qo-193 | Rag and Bone Man II | centre of dorgesh-kaan | |
 | qo-224 | Recipe for Disaster: Freeing Sir Amik Varze | centre of lumbridge | |
-| qo-230 | Medium Falador Diary | centre of falador | |
-| qo-231 | Medium Varrock Diary | centre of varrock | |
 | qo-244 | Recipe for Disaster: Freeing King Awowogei | centre of ape atoll | |
 | qo-248 | Train Ranged to 60 | centre of grand exchange | |
-| qo-258 | Knight Waves Training Grounds (miniquest) | centre of camelot | |
 | qo-262 | Recipe for Disaster: The final battle (Defeating the Culinaromancer) | centre of lumbridge | |
-| qo-273 | Medium Wilderness Diary | centre of edgeville ditch | |
 | qo-274 | Medium Karamja Diary | centre of karamja | |
-| qo-275 | Medium Kourend & Kebos Diary | centre of kourend | |
-| qo-277 | Medium Morytania Diary | centre of canifis | |
 | qo-301 | Train Ranged to 62 | centre of grand exchange | |
