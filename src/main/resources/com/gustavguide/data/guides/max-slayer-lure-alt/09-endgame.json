@@ -1,0 +1,19 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Endgame alt options",
+  "steps": [
+    {
+      "id": "endgame-001",
+      "title": "After you finished your slayer goal …",
+      "text": "After you finished your slayer goal you can make this account into a wyvern alt, Brutal black dragon alt or rune dragon alt",
+      "manual": true,
+      "npc": 252,
+      "world": [
+        2461,
+        4367,
+        0
+      ]
+    }
+  ]
+}

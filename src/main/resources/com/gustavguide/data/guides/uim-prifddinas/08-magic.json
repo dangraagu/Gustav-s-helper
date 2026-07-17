@@ -1,0 +1,213 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Magic",
+  "steps": [
+    {
+      "id": "magic-001",
+      "title": "Clean out the waterskins and wines …",
+      "text": "Clean out the waterskins and wines from your inventory. You should just have coins now, wearing your graceful",
+      "manual": true
+    },
+    {
+      "id": "magic-002a",
+      "title": "Home Teleport, Walk to Port Sarim",
+      "text": "Home Teleport, Walk to Port Sarim",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "magic-002b",
+      "title": "Take the boat to Kourend by …",
+      "text": "Take the boat to Kourend by speaking to Veos",
+      "manual": true,
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "magic-003",
+      "title": "Go to Hosidius",
+      "text": "Go to Hosidius",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "magic-004",
+      "title": "Thieve fruit stalls until 30 Thieving. …",
+      "text": "Thieve fruit stalls until 30 Thieving. Save any strange fruit you get and use them as you go for energy. — Optionally go to 43 Thieving instead so you don't have to come back later. The Feud should push you to 45 so you can blackjack once you get rogues.",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "magic-005",
+      "title": "Chronicle teleport to Varrock, buy a …",
+      "text": "Chronicle teleport to Varrock, buy a fire staff, 200 mind and 400 air runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 556,
+            "qty": 400
+          },
+          {
+            "op": "item",
+            "id": 556,
+            "qty": 9400,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 556,
+      "world": [
+        3203,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "magic-006",
+      "title": "Home teleport",
+      "text": "Home teleport",
+      "manual": true
+    },
+    {
+      "id": "magic-007a",
+      "title": "Complete The Feud. Both fights can …",
+      "text": "Complete The Feud. Both fights can be safespotted",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "FINISHED"
+      },
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "magic-007b",
+      "title": "Buy wine for food from the …",
+      "text": "Buy wine for food from the bar. Look in the Discussion tab of this page if you don't know how to safespot the fights",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 11
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 13,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "magic-008",
+      "title": "Complete the rune section of Rogue …",
+      "text": "Complete the rune section of Rogue Trader. — Use the Runedoku plugin on Runelite for the puzzle (Plugin hub)",
+      "manual": true
+    },
+    {
+      "id": "magic-009",
+      "title": "Drop your mind runes for some …",
+      "text": "Drop your mind runes for some space",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "magic-010",
+      "title": "Buy runes from Ali. You can …",
+      "text": "Buy runes from Ali. You can open large caskets from Ali using the Runeduku plugin to get cosmic runes faster. Buy all cosmic, law, and nature runes from the chests as they cost less this way. — 400 law runes. — 1,200 Nature runes. — 500 Cosmic runes. — 500 air runes. — 500 Earth Runes. — 500 Water Runes.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 564,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 564,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 564,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "magic-011",
+      "title": "Do Mage Training Arena for Bones …",
+      "text": "Do Mage Training Arena for Bones to Peaches. Leave yourself 1 extra telekinetic, 1 alchemist, 1 Graveyard, and 15 Enchantment points. (You will want a mud rune later). — Do the enchantment room with ruby enchant when you get the level for it. — When you need to do the alchemist room, clan wars teleport and put your money in the bag there, then home teleport back to Mage Training Arena. Pick up your cash again once done with the room. Use low level alchemy, it is still great xp and gives the same points. — 201 Telekinetic points — 301 Alchemist points — 201 Graveyard points — 2,015 Enchantment points",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 4698,
+            "qty": 15
+          },
+          {
+            "op": "item",
+            "id": 4698,
+            "qty": 16,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 4698,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    }
+  ]
+}

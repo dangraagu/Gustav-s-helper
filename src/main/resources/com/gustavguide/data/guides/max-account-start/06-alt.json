@@ -1,0 +1,101 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Alt upgrade paths",
+  "steps": [
+    {
+      "id": "alt-001",
+      "title": "Your alt now has a good …",
+      "text": "Your alt now has a good foundation to be upgraded in to one or more of the alts listed below",
+      "manual": true
+    },
+    {
+      "id": "alt-002",
+      "title": "1. slayer lure alt (speeds up …",
+      "text": "1. slayer lure alt (speeds up slayer by a lot and makes it more fun)",
+      "manual": true
+    },
+    {
+      "id": "alt-003",
+      "title": "1.1 after slayer lure you can …",
+      "text": "1.1 after slayer lure you can make it into rune dragon, wyvern or brutal black dragon alt",
+      "manual": true,
+      "npc": 252,
+      "world": [
+        2461,
+        4367,
+        0
+      ]
+    },
+    {
+      "id": "alt-004",
+      "title": "2. spec transfer alt (speeds up …",
+      "text": "2. spec transfer alt (speeds up early slayer and gives a lot of melee xp in late slayer)",
+      "manual": true
+    },
+    {
+      "id": "alt-005",
+      "title": "3. blood rc alt (500-600k gp/h)",
+      "text": "3. blood rc alt (500-600k gp/h)",
+      "manual": true
+    },
+    {
+      "id": "alt-006",
+      "title": "4. vyre watch alt (500-600k/h but …",
+      "text": "4. vyre watch alt (500-600k/h but VERY AFK)",
+      "manual": true
+    },
+    {
+      "id": "alt-007",
+      "title": "slayer alt: Requires a decent amout …",
+      "text": "slayer alt: Requires a decent amout of gp ~50 - 100m depending on gear. very easy to kill wyverns or rune dragons afterwards",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "alt-008",
+      "title": "spec transfer: Either splash the magic …",
+      "text": "spec transfer: Either splash the magic lvl or make tele tabs, string jewellery at lvl 80 to speed it up",
+      "manual": true,
+      "world": [
+        3269,
+        3407,
+        0
+      ]
+    },
+    {
+      "id": "alt-009",
+      "title": "Blood rc alt: Takes around 60 …",
+      "text": "Blood rc alt: Takes around 60 hours to start rcing",
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "alt-010",
+      "title": "vyrewatch alt: Recommend making this after …",
+      "text": "vyrewatch alt: Recommend making this after you got 85 slayer if you only have 1 alt, Get 30 thieving and continue from line 24 on the vyre sheet",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
+      "npc": 3709,
+      "world": [
+        3615,
+        3263,
+        0
+      ]
+    }
+  ]
+}

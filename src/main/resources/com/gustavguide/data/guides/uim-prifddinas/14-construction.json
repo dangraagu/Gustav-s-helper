@@ -1,0 +1,206 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Construction",
+  "steps": [
+    {
+      "id": "construction-001",
+      "title": "Inventory check: steel bar, Steel bar, …",
+      "text": "Inventory check: steel bar, Steel bar, Steel bar, Saw, hammer, Adamant axe, Law rune, Rune pouch, Coins",
+      "manual": true
+    },
+    {
+      "id": "construction-002",
+      "title": "Do Mahogany homes until 50 Construction",
+      "text": "Do Mahogany homes until 50 Construction",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 50,
+        "cmp": ">="
+      },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
+    },
+    {
+      "id": "construction-003a",
+      "title": "Teleport to Lumbridge",
+      "text": "Teleport to Lumbridge",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "construction-003b",
+      "title": "get a knife and a bucket …",
+      "text": "get a knife and a bucket from the Recipe for Disaster chest",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "construction-004a",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "construction-004b",
+      "title": "Use your knife on an evergreen …",
+      "text": "Use your knife on an evergreen tree to the east",
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "construction-005",
+      "title": "Chop an oak log",
+      "text": "Chop an oak log",
+      "manual": true
+    },
+    {
+      "id": "construction-006",
+      "title": "Chop a maple log by Seers …",
+      "text": "Chop a maple log by Seers bank",
+      "manual": true,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "construction-007",
+      "title": "Get pestle and mortar from the …",
+      "text": "Get pestle and mortar from the herblore shop in Taverley",
+      "manual": true,
+      "object": 16680,
+      "world": [
+        2884,
+        3397,
+        0
+      ]
+    },
+    {
+      "id": "construction-008a",
+      "title": "Go to Mage Training Arena",
+      "text": "Go to Mage Training Arena",
+      "world": [
+        3364,
+        3312,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3364,
+        "y": 3312,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "construction-008b",
+      "title": "buy a mud rune with your …",
+      "text": "buy a mud rune with your extra points",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 4698,
+            "qty": 16
+          },
+          {
+            "op": "item",
+            "id": 4698,
+            "qty": 16,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 4698,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "construction-009a",
+      "title": "Take the glider to the Grand …",
+      "text": "Take the glider to the Grand Tree",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "construction-009b",
+      "title": "complete The Eyes of Glouphrie. Nightmare …",
+      "text": "complete The Eyes of Glouphrie. Nightmare zone teleport to Hazelmere",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_EYES_OF_GLOUPHRIE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "construction-010a",
+      "title": "Make the crystal saw",
+      "text": "Make the crystal saw",
+      "manual": true,
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "construction-010b",
+      "title": "drop your other saw",
+      "text": "drop your other saw",
+      "manual": true,
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    }
+  ]
+}

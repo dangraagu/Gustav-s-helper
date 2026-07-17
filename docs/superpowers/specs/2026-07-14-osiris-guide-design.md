@@ -1,4 +1,4 @@
-# Osiris Guide — design spec
+# Gustav's Helper — design spec
 
 *Date: 2026-07-14. Status: approved, in build.*
 
@@ -34,17 +34,17 @@ any already-satisfied step is marked done so an existing account resumes correct
 - (no condition) + `"manual": true` — advances only via the panel button
 
 ### Components
-- `OsirisGuidePlugin` — lifecycle, event wiring, holds route + progression.
-- `OsirisGuideConfig` — mode (REGULAR/HCIM/UIM/GIM), auto-advance, overlay toggles, colour, hide-completed.
+- `GustavGuidePlugin` — lifecycle, event wiring, holds route + progression.
+- `GustavGuideConfig` — mode (REGULAR/HCIM/UIM/GIM), auto-advance, overlay toggles, colour, hide-completed.
 - `engine/` — `Route`, `RouteSection`, `RouteStep`, `Condition` (+ impls), `ConditionFactory`
   (JSON→Condition), `ConditionContext` (client + cached bank), `ConditionEvaluator`,
   `Progression` (current step, completed set, per-account persistence via `ConfigManager`).
 - `requirement/` — `Requirement`, `ItemRequirement`, `SkillRequirement`, `QuestRequirement`
   (green/red display), adapted from Quest Helper.
-- `overlay/` — `DirectionArrow` (adapted from QH), `OsirisWorldOverlay` (world arrow + tile +
-  object/NPC clickbox highlight), `OsirisMinimapOverlay`, `OsirisWidgetOverlay` (inventory item).
+- `overlay/` — `DirectionArrow` (adapted from QH), `GustavWorldOverlay` (world arrow + tile +
+  object/NPC clickbox highlight), `GustavMinimapOverlay`, `GustavWidgetOverlay` (inventory item).
   Targets tracked via spawn/despawn events, not per-tick scene scans.
-- `panel/` — `OsirisGuidePanel` (sections, current step, requirements, Done/Skip, progress %,
+- `panel/` — `GustavGuidePanel` (sections, current step, requirements, Done/Skip, progress %,
   mode selector, search/jump), `StepPanel`.
 
 ### Data / content pipeline (`tools/`, build-time, not shipped)

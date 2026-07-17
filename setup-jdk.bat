@@ -1,13 +1,13 @@
 @echo off
 REM ============================================================
-REM  Osiris Guide - toolchain bootstrap
+REM  Gustav's Helper - toolchain bootstrap
 REM  Installs Eclipse Temurin JDK 11 (required to build the
 REM  RuneLite plugin) via winget. Double-click to run.
 REM ============================================================
 setlocal enableextensions enabledelayedexpansion
 
 echo(
-echo === Osiris Guide toolchain setup (JDK 11) ===
+echo === Gustav's Helper toolchain setup (JDK 11) ===
 echo(
 
 where winget >nul 2>&1

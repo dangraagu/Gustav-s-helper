@@ -1,0 +1,45 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Critical warning & block-slot choice",
+  "steps": [
+    {
+      "id": "warning-001",
+      "title": "VERY IMPORTANT: If you want to …",
+      "text": "VERY IMPORTANT: If you want to make this alt into a slayer lure alt, DONT complete the following quests: Dragon Slayer 1, Priest in Peril, Elemental workshop 1, Contact!, Death Plateau, Olaf's quest, Cabin fever, Regicide and Desert Treasure",
+      "manual": true,
+      "npc": 626,
+      "world": [
+        2141,
+        5103,
+        0
+      ]
+    },
+    {
+      "id": "warning-002",
+      "title": "your acc now has 75 quest …",
+      "text": "your acc now has 75 quest points if you followed the starter alt guide. you can complete a few easy quests to unlock the second block slot OR just do all your black demon tasks (takes longer and costs more)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "warning-003",
+      "title": "IF going for just 1 block …",
+      "text": "IF going for just 1 block you should do atleast Horror from the deep to unlock dagannoths as a slayer task",
+      "complete": {
+        "op": "quest",
+        "quest": "HORROR_FROM_THE_DEEP",
+        "state": "FINISHED"
+      },
+      "world": [
+        2507,
+        3634,
+        0
+      ]
+    }
+  ]
+}

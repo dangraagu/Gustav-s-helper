@@ -1,0 +1,102 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Prayer",
+  "steps": [
+    {
+      "id": "prayer-001",
+      "title": "Get a dwarven rock cake and …",
+      "text": "Get a dwarven rock cake and cool it",
+      "manual": true,
+      "npc": 3140,
+      "world": [
+        3008,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "prayer-002a",
+      "title": "Buy 500 fire runes",
+      "text": "Buy 500 fire runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 554,
+            "qty": 702
+          },
+          {
+            "op": "item",
+            "id": 554,
+            "qty": 702,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 554
+    },
+    {
+      "id": "prayer-002b",
+      "title": "drop the fire staff (Not technically …",
+      "text": "drop the fire staff (Not technically needed, but makes things a bit simpler)",
+      "manual": true,
+      "world": [
+        3008,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "prayer-003",
+      "title": "Do Last Man Standing until you …",
+      "text": "Do Last Man Standing until you have a stockpile of points. 20 points should be fine for now and you can do more as needed",
+      "manual": true
+    },
+    {
+      "id": "prayer-004",
+      "title": "Store all but 200,000 coins coins …",
+      "text": "Store all but 200,000 coins coins in the coffer by Last Man Standing. This prevents you from losing all your money to a disconnection, Get more money out as needed",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "prayer-005",
+      "title": "Inventory check: Dwarven rock cake, coins, …",
+      "text": "Inventory check: Dwarven rock cake, coins, Fire rune, Rune pouch",
+      "manual": true
+    },
+    {
+      "id": "prayer-006",
+      "title": "Do this method until at least …",
+      "text": "Do this method until at least 45 Prayer, but you could go higher. — If you would like, you could also do the blue dragons method mentioned on the page, but the rune cost is rather significant for this stage in your account, and is slower Prayer experience (unless you die a lot at green dragons). — This method does not require that many Last Man Standing points, but if you really really don't want to do Last Man Standing then you could use a Dorgeshuun crossbow instead. This guide will not outline an exact method for this, but trust that it is a lot more clunky to setup than using the adamant arrow method (You need a light source, and buying bolts requires you to have your cash stack). Also, the maple shortbow with adamant arrows does more dps against the green dragons anyways. — This guide intentially avoids completing Dragon Slayer I so that you cannot get dragon tasks later. Do not start or complete it to use the green dhide body, it is only a minor upgrade. — It is a good idea to get some blighted manta rays from the Last Man Standing Shop. Dying at the altar with your bones really sets you back, and the looting bag gives you plenty of space. — You only need 45 Prayer since killing the dragons is rather slow with only 60 Ranged. You can come back later with a higher range level, or just use other methods. — Do not forget your fossils from before. You should turn them in for Herblore experience lamps, but if you happen to have extras then you can use them for Prayer experience.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 8880,
+            "qty": 46
+          },
+          {
+            "op": "item",
+            "id": 8880,
+            "qty": 46,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 8880,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

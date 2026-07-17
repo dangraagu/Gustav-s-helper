@@ -1,0 +1,26 @@
+{
+  "id": "max-blood-rc-alt",
+  "name": "Max — Blood-RC Alt",
+  "source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=816384493",
+  "license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "sections": [
+    {
+      "section": "Blood-RC alt",
+      "prefix": "blood-rc",
+      "steps": [
+        { "name": "Crafting blood runes at zeah is an easy way to make around 600k gp /h", "loc": null },
+        { "name": "73 agi is needed for the shortcut", "loc": null },
+        { "name": "This assumes you followed the \"Account start\" tab untill line 83", "loc": null },
+        { "name": "Get 73 agi and full gracful (bring summer pies)", "loc": null },
+        { "name": "Get 77 rc via guardians of the rift minigame", "loc": null },
+        { "name": "buy the raiments of the eye outfit (1350 pearls = 630 searches on avg)", "loc": null },
+        { "name": "buy blood essences (you use around 0.66-0.76 bloodess per hour)", "loc": null },
+        { "name": "100% arceuus favour", "loc": null },
+        { "name": "start crafting blood runes for 500-600k gp/h depending of afkness", "loc": null },
+        { "name": "Make colossal pouch at 85 runecraft", "loc": null },
+        { "name": "Can start running ess to other or yourself", "loc": null },
+        { "name": "can start making other runes trough abyss", "loc": null }
+      ]
+    }
+  ]
+}

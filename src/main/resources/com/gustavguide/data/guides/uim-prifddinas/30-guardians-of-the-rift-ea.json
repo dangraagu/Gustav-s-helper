@@ -1,0 +1,664 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Guardians of the Rift Early",
+  "steps": [
+    {
+      "id": "guardians-of-the-rift-ea-001",
+      "title": "Do Varrock Rooftop Course course until …",
+      "text": "Do Varrock Rooftop Course course until 40 Agility",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 40,
+        "cmp": ">="
+      },
+      "note": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "object": 15608,
+      "world": [
+        2673,
+        3298,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-002",
+      "title": "Buy a mithril sword from the …",
+      "text": "Buy a mithril sword from the Varrock Swordshop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1285,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1285,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1285,
+      "world": [
+        3207,
+        3400,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-003",
+      "title": "Home teleport",
+      "text": "Home teleport",
+      "manual": true
+    },
+    {
+      "id": "guardians-of-the-rift-ea-004",
+      "title": "Get a bronze pickaxe from the …",
+      "text": "Get a bronze pickaxe from the tower",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-005",
+      "title": "Get a knife from the kitchen",
+      "text": "Get a knife from the kitchen",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-006",
+      "title": "Head to Draynor Village",
+      "text": "Head to Draynor Village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "guardians-of-the-rift-ea-007",
+      "title": "Buy a rope from Ned",
+      "text": "Buy a rope from Ned",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 954,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 954,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 954,
+      "world": [
+        3099,
+        3259,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-008",
+      "title": "Complete A Porcine of Interest. — …",
+      "text": "Complete A Porcine of Interest. — Use wine for the fight, bring a lot with you",
+      "complete": {
+        "op": "quest",
+        "quest": "A_PORCINE_OF_INTEREST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3086,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-009",
+      "title": "Buy some more wine, 10 should …",
+      "text": "Buy some more wine, 10 should be enough",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 13
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 13,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "world": [
+        3085,
+        3253,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-010",
+      "title": "Buy 5 more charges for your …",
+      "text": "Buy 5 more charges for your Chronicle from Diango",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-011",
+      "title": "Chronicle teleport",
+      "text": "Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "guardians-of-the-rift-ea-012a",
+      "title": "Complete Priest in Peril",
+      "text": "Complete Priest in Peril",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-012b",
+      "title": "Mine your own rune essence, — …",
+      "text": "Mine your own rune essence, — Just do 3 trips for the essence. — Don't forget to grab a bucket during the quest",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1436,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1436,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1436,
+      "npc": 10681,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-013",
+      "title": "Drop you fire staff, mithril sword, …",
+      "text": "Drop you fire staff, mithril sword, and extra food for weight",
+      "manual": true,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-014",
+      "title": "Obtain 43 Prayer from the Bone …",
+      "text": "Obtain 43 Prayer from the Bone Yard if you did not do it at the start. — Store your extra money at the coffers in the Ferox Enclave to rebuild after. — You are risking your Mark of Grace stack, but if you lose it that isn't a huge deal. You could death pile to protect them if you would like.",
+      "manual": true,
+      "world": [
+        3126,
+        3635,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-015",
+      "title": "Get a Looting Bag and make …",
+      "text": "Get a Looting Bag and make a trip to the Lava Maze to collect an inventory and bag full of steel platebodies (if you don't already have 50k from something else). This will fund your rune pickaxe later. — Bring a bit of food and a slash weapon with you. — Optionally death pile to protect your mark of grace stack.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1275,
+            "qty": 50
+          },
+          {
+            "op": "item",
+            "id": 1275,
+            "qty": 51,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1275,
+      "world": [
+        3072,
+        3854,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-016",
+      "title": "Sell them to Horvik, 2 per …",
+      "text": "Sell them to Horvik, 2 per world",
+      "manual": true,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-017",
+      "title": "Head into Canifis and do the …",
+      "text": "Head into Canifis and do the Canifis Rooftop Course until around 56 Agility. — This is a requirement for the shortcut in Guardians of the Rift. — It is a good idea to round out the amount of mark of grace you have to be able to use them all after this grind. Purchase the cape and gloves first, as those are not part of the Raiments of the eye set. Do NOT purchase the body.",
+      "world": [
+        3477,
+        3497,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3477,
+        "y": 3497,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "guardians-of-the-rift-ea-018a",
+      "title": "Start Enter the Abyss. — While …",
+      "text": "Start Enter the Abyss. — While in the area",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-018b",
+      "title": "pick up some monk robes from …",
+      "text": "pick up some monk robes from the monastery",
+      "manual": true,
+      "world": [
+        3052,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-019",
+      "title": "Complete Demon Slayer. — Visit the …",
+      "text": "Complete Demon Slayer. — Visit the rune essence mine while at the Wizards Tower for Enter the Abyss, then walk to Ardougne and complete the next teleport before returning to Varrock. — While in the Lumbridge/Draynor area collect some items — A pickaxe (Spawn) — An Axe (Bob) — A Fly Fishing rod and some bait (Fishing Shop) — A rope (Ned)",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-020",
+      "title": "Finish Enter the Abyss",
+      "text": "Finish Enter the Abyss",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-021",
+      "title": "Head to the Dwarven Mines",
+      "text": "Head to the Dwarven Mines",
+      "manual": true,
+      "object": 16664,
+      "world": [
+        3058,
+        3376,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-022",
+      "title": "Purchase a steel, mithril, adamant, and …",
+      "text": "Purchase a steel, mithril, adamant, and rune pickaxe from Nurmof's Pickaxe Shop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1275,
+            "qty": 51
+          },
+          {
+            "op": "item",
+            "id": 1275,
+            "qty": 51,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1275
+    },
+    {
+      "id": "guardians-of-the-rift-ea-023",
+      "title": "Train your Mining to at least …",
+      "text": "Train your Mining to at least level 41 (higher is an option too). — Power mining iron is a great way to go. — Optionally try to complete The Dig Site, but the quest is rather tedious with your current setup. — Keep the rune pickaxe.",
+      "manual": true,
+      "world": [
+        3039,
+        9777,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-024",
+      "title": "Mine an inventory of pure essence",
+      "text": "Mine an inventory of pure essence",
+      "manual": true
+    },
+    {
+      "id": "guardians-of-the-rift-ea-025a",
+      "title": "Minigame teleport to castle wars, head …",
+      "text": "Minigame teleport to castle wars, head to the Ourania Altar",
+      "manual": true,
+      "world": [
+        2452,
+        3231,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-025b",
+      "title": "use most of your essence to …",
+      "text": "use most of your essence to get level 10 Runecraft. — Save 3 essence in your small pouch for later",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-026",
+      "title": "Obtain a bucket of water",
+      "text": "Obtain a bucket of water",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1929,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1929,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1929
+    },
+    {
+      "id": "guardians-of-the-rift-ea-027",
+      "title": "Complete the Varrock Easy Diary. — …",
+      "text": "Complete the Varrock Easy Diary. — Use the lamp on Prayer. — Start Temple of the Eye and use the one time teleport to the abyss to craft the earth runes from the essence in your pouch.",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-028",
+      "title": "Wear the varrock armour 1",
+      "text": "Wear the varrock armour 1",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-029",
+      "title": "Finish Temple of the eye",
+      "text": "Finish Temple of the eye",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-030",
+      "title": "Take a charter ship to Port …",
+      "text": "Take a charter ship to Port Phasmatys and train crafting there until level 31. — Questing for this xp is difficult because you have no teleports. Getting 31 this way doesn't take long. — Alternatively, you can get this crafting xp passively from making guardians at Guardians of the Rift. This will prevent you from stacking up as many cosmic runes for early magic xp though.",
+      "manual": true,
+      "npc": 3005,
+      "world": [
+        3791,
+        3559,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-031",
+      "title": "Home teleport",
+      "text": "Home teleport",
+      "manual": true
+    },
+    {
+      "id": "guardians-of-the-rift-ea-032a",
+      "title": "Buy an axe from bob",
+      "text": "Buy an axe from bob",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1349,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1349,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1349,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-032b",
+      "title": "get 36 woodcutting",
+      "text": "get 36 woodcutting",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 36,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-033",
+      "title": "Death pile at the Draynor Jail …",
+      "text": "Death pile at the Draynor Jail Guards and complete Lost City — If you don't have some fire strike runes, buy some first. Make sure to include fire runes as you won't have the staff.",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3078,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-034",
+      "title": "Start playing Guardians of the Rift. …",
+      "text": "Start playing Guardians of the Rift. The first goal is to get to level 50 Runecraft",
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-035",
+      "title": "Keep Cosmic, Chaos, and Nature runes. …",
+      "text": "Keep Cosmic, Chaos, and Nature runes. — Do not do any searches until at least level 50, so that you can get the large pouch. Your medium pouch will degrade, but that is alright",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-036",
+      "title": "Once you reach level 50 Runecraft, …",
+      "text": "Once you reach level 50 Runecraft, pull all your searches. You should get the Large Pouch, as well as a large amount of runes. You will also get pearls and potentially other items. — What you do with the pearls will depend on your future plans and how quickly you plan to return to the minigame. If you do not plan to return for a long time, it won't be worth keeping them as they use an inventory slot. — It is also a reasonable option to just stay here at Guardians of the Rift until around 65 Runecraft and aim to get the ring of the elements now. The down side to this is that you will be down 2 inventory spaces due to not having a Rune Pouch, but it isn't really a huge difference. If you choose to do this, charge the ring before you dispose of your Runes and Pouches!",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-037",
+      "title": "Now that you have a stock …",
+      "text": "Now that you have a stock of runes, buy a staff of fire and head to the Mage Training Arena to train Magic until hopefully level 51 for Ardougne Teleport. — Use the nature runes at the alchemy room. — Use the cosmic runes with a fire staff once you get 49 Magic in the enchantment room. — Use extra law runes at the telekinetic room, up to 201 telekinetic points. Don't use up all your law runes though. — If you do not end up with enough runes to reach level 51, then you can just do more Guardians of the Rift to make up the difference. Also, you could aim for level 55 instead of 51, which is likely require more runes unless you got lucky with your searches. — Any runes or items you don't plan to use can be put in a looting bag for now.",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 49,
+        "cmp": ">="
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-038",
+      "title": "Once finished with this Magic training, …",
+      "text": "Once finished with this Magic training, retrieve any runes you need from the bag and set yourself up for some questing. You should have hopefully gotten a supply of law runes from the searches to teleport around. If you did not, then you can complete Death Plateau and Troll Stronghold then return to Guardians of the Rift until you can craft some law runes to use.",
+      "manual": true,
+      "object": 3762,
+      "world": [
+        2828,
+        3647,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-039",
+      "title": "Start Questing and work towards 750 …",
+      "text": "Start Questing and work towards 750 total level to get a rune pouch from Last Man Standing. You can follow the main guide path, or go a bit out of order for quests that give a lot of total levels. Additionally, you could just skill by training skills like Firemaking or Woodcutting. — Keep in mind that you still need 70 Agility, and getting the graceful outfit would be a good idea. Also, while the need for money has been greatly offset by getting runes from Guardians of the Rift, there are still other things the require money. You will probably have to do at least some laps at the Agility Pyramid or another money making method while going on this side quest for 750 total level, or just to continue moving forward in the guide. — A good idea would be to return to Agility, get the Graceful Outfit, do a bit of Agility Pyramid for cash, then follow the guide until you finish the 50 construction grind. This will allow you to store your graceful top so it doesn't conflict with the varrock armour as well as provide a lot of total levels along the way. Having the essence pouches in your inventory is a bit of a hassle, but is manageable. You could also just drop the pouches and reobtain them later.",
+      "manual": true,
+      "world": [
+        3269,
+        3407,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-040",
+      "title": "When you are ready, return to …",
+      "text": "When you are ready, return to Guardians of the Rift. — Consider waiting to return until you can use the NPC Contact spell to repair pouches. Otherwise, repair your pouches with pearls. — This is not a big deal until you have a Giant Pouch as the lower tier pouches do not degrade very quickly. — You can optionally not even worry about NPC contact, as using pearls to fix the pouches is also perfectly fine and sustainable. — Once you have the level for Law Runes, take a break and complete Death Plateau and Troll Stronghold. Or just do this before returning. — Once you have level 65, consider taking a break until you can complete Mourning's End Part II. — Once you have level 77, consider taking a break until you can complete Sins of the Father. You can also leave at this point and make blood runes on Zeah. This detours heavily from the main goal of this guide, but is a great source of cash. — You can consider buying the ring of the elements with your pearls to speed up the construction grind.",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2354,
+        3170,
+        0
+      ]
+    }
+  ]
+}

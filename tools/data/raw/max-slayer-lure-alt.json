@@ -1,0 +1,154 @@
+{
+  "id": "max-slayer-lure-alt",
+  "name": "Max — Slayer-Lure Alt",
+  "source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "sections": [
+    {
+      "section": "Critical warning & block-slot choice",
+      "prefix": "warning",
+      "steps": [
+        { "name": "VERY IMPORTANT: If you want to make this alt into a slayer lure alt, DONT complete the following quests: Dragon Slayer 1, Priest in Peril, Elemental workshop 1, Contact!, Death Plateau, Olaf's quest, Cabin fever, Regicide and Desert Treasure", "loc": null },
+        { "name": "your acc now has 75 quest points if you followed the starter alt guide. you can complete a few easy quests to unlock the second block slot OR just do all your black demon tasks (takes longer and costs more)", "loc": null },
+        { "name": "IF going for just 1 block you should do atleast Horror from the deep to unlock dagannoths as a slayer task", "loc": null }
+      ]
+    },
+    {
+      "section": "Combat & item prep",
+      "prefix": "combat-prep",
+      "steps": [
+        { "name": "But first you should do combats and unlock/buy some items", "loc": null },
+        { "name": "Unlock preserve (get 70 pray if you only got 43 at the start)", "loc": null },
+        { "name": "Buy combat gear: b ring, fury, manacles, granite hammer, Regen brace, full obby + shield, sword and berserker necklace", "loc": null },
+        { "name": "Train melees to 65 att, 65 str and 60 def at sand crabs (granite hammer till 60 att, then d scim till 65/65/60 + use super combat pots)", "loc": null },
+        { "name": "Get dragon defender (full obby + berserker neck) (train strength)", "loc": null },
+        { "name": "Fishing contest, cooks assistent, RFD Cook & RFD dwarf for acces to Rock cake when doing absorbtion method in nmz", "loc": null },
+        { "name": "Move your house to Relleka", "loc": null }
+      ]
+    },
+    {
+      "section": "Quests for piety",
+      "prefix": "quests-piety",
+      "steps": [
+        { "name": "One small favour (2 QP) — smith some iron items for 30 smithing, Use lamps on agility", "loc": null },
+        { "name": "Muder Mystery (3 QP)", "loc": null },
+        { "name": "Black knights Fortress (3 QP)", "loc": null },
+        { "name": "Kings ransom (1 QP) — use lamp on woodcutting if doing sins of the father later", "loc": null }
+      ]
+    },
+    {
+      "section": "Quest for 100 qp",
+      "prefix": "quests-100qp",
+      "steps": [
+        { "name": "Romeo & Juliet (5 QP)", "loc": null },
+        { "name": "Goblin Diplomacy (5 QP)", "loc": null },
+        { "name": "Alfred Grimhand's Barcrawl (0 QP)", "loc": null },
+        { "name": "Horror from the deep (2 QP) — Unlocks dagannoths", "loc": null },
+        { "name": "Fishing contest (1 QP) — better to do b4 nmz so you can use rock cake to stay low hp", "loc": null },
+        { "name": "Cook's assistent (1 QP)", "loc": null },
+        { "name": "RFD Cook (1 QP)", "loc": null },
+        { "name": "RFD Dwarf (1 QP) — Rock cake for nmz", "loc": null },
+        { "name": "START Fremennik isles (0 QP) — unlocks ice trolls", "loc": null }
+      ]
+    },
+    {
+      "section": "NMZ combat training",
+      "prefix": "nmz",
+      "steps": [
+        { "name": "Train your combats to 80-85 str, 75 att and 74 (1158k xp) def in nmz", "loc": null },
+        { "name": "Use Custom rumble in nmz with: King roald, Count draynor, Tree spirit, Sand Snake, Khazard warlord and Me", "loc": null },
+        { "name": "Imbue Berserker ring as soon as possible", "loc": null },
+        { "name": "Complete Knights training ground for piety unlock", "loc": null },
+        { "name": "Get a fire cape with melee if possible", "loc": null },
+        { "name": "IF making just a Rune dragon alt stop here and go to next tab", "loc": null }
+      ]
+    },
+    {
+      "section": "Slayer setup & points",
+      "prefix": "slayer-points",
+      "steps": [
+        { "name": "Buy amulet of Torture when 75hp if you have the money", "loc": null },
+        { "name": "Use bandos OR Obsidan armour ALWAYS PRAY PIETY (can use monk robes for more afk)", "loc": null },
+        { "name": "Boost 9 tasks with Turael and 10th with Nieve, do this three times so you have 180 points (if you get Black demon/fire giant/hellhoud/greaters on your first couple nieve tasks just do them)", "loc": null },
+        { "name": "Do Porcine of intrest for 30 more slayer points and block Black demon and Fire Giant when you get them", "loc": null },
+        { "name": "Keep doing this task list till 85 slayer or 93 if you want to lure smokes", "loc": null },
+        { "name": "85  slayer takes around 65 hours to get and 93 slayer around 140 hours", "loc": null },
+        { "name": "Only go for 93 slayer if you plan on doing post 99 slayer on the main OR if you have enough gp to max already", "loc": null },
+        { "name": "AFTER you are done with slayer, Get 70 agility for a ring of endurance for luring abyssal demons and dust devils", "loc": null },
+        { "name": "If stopping at 85 slayer, do Priest in Peril to get a nechryael task on your alt. Luring with a trident with high mage level and gear while being on task really speeds up the task.", "loc": null }
+      ]
+    },
+    {
+      "section": "Task list — ALWAYS USE NIEVE",
+      "prefix": "task-list",
+      "steps": [
+        { "name": "ALWAYS USE NIEVE", "loc": null },
+        { "name": "Kalphite (slaughter) at Kalphite cave / Soldiers — Block: Black demon; Skip: Greater demon (untill 70 slayer, after that only do when you need points)", "loc": null },
+        { "name": "Dagannoth (slaughter) at Lighthouse — Block: Fire giant; Skip: Hellhound", "loc": null },
+        { "name": "Suqah (expeditious) at North spot on lunar isle — Skip: Turoth (55 slayer)", "loc": null },
+        { "name": "Ankou (expeditious) at Nieve cave or catacomb — Skip: Zygomites (57 slayer)", "loc": null },
+        { "name": "Troll (expeditious) at Jatizso north / Ice trolls — Skip: Wyrm (62 slayer)", "loc": null },
+        { "name": "After 70 slayer — Skip: Kurask (70 slayer)", "loc": null },
+        { "name": "Greater demon (expeditious) at Chasm of fire — Skip: Drake (84 slayer)", "loc": null }
+      ]
+    },
+    {
+      "section": "QOL / tips",
+      "prefix": "qol-tips",
+      "steps": [
+        { "name": "71 craft + 4 boost and unlock slayer rings", "loc": null },
+        { "name": "Train att and def to 75 to unlock Dihns bulwark for speccing at kalph, dags, ankou in catacombs", "loc": null },
+        { "name": "Get 80 attack if you can afford a Ghrazi Rapier", "loc": null },
+        { "name": "Bludgeon is slightly better for kalphite and trolls but using whip + fremennik shield is probably better for afking trolls", "loc": null },
+        { "name": "Place your house in Relekka to get to dagannoths in lighthouse (30con)", "loc": null },
+        { "name": "Use glory tele to al kharid or redirection scroll on house tab to Pollnivneach and take the carpet to get to kalphites", "loc": null },
+        { "name": "Catacomb ankou are more afk but slower", "loc": null },
+        { "name": "For suqah you might have to do 2 trips if no bandos/barrows", "loc": null },
+        { "name": "Can sometimes skip suqah if you get close to max amount and if you have enough points", "loc": null },
+        { "name": "Use battlefornt teleport to get to the Chasm of Fire, bring antidote for lizardmen", "loc": null },
+        { "name": "Slayer sheet: https://docs.google.com/spreadsheets/d/1ftKGzCWc4l71qjVJv9obHbM_-GCm-xsAqmh7b90ZscA/edit#gid=1094778124", "loc": null }
+      ]
+    },
+    {
+      "section": "Endgame alt options",
+      "prefix": "endgame",
+      "steps": [
+        { "name": "After you finished your slayer goal you can make this account into a wyvern alt, Brutal black dragon alt or rune dragon alt", "loc": null }
+      ]
+    },
+    {
+      "section": "Wyvern alt",
+      "prefix": "wyvern",
+      "steps": [
+        { "name": "Wyverns ~150m bis Gear — 1m+ gp/h", "loc": null },
+        { "name": "Do elemental workshop I", "loc": null },
+        { "name": "Read section in the skilling methods discord. basically just need gear and you can start", "loc": null }
+      ]
+    },
+    {
+      "section": "Rune dragon alt",
+      "prefix": "rune-dragon",
+      "steps": [
+        { "name": "Rune dragons ~100m Bis Gear — 1.3m gp/h", "loc": null },
+        { "name": "In depth guide on next tab", "loc": null },
+        { "name": "Do MM2 (70 craft, 60 hunt) for dragon jav head drops from rd", "loc": null },
+        { "name": "Do quests till 200 qp (make sure to do all pre req quests for ds2 and unlock barrow gloves before hitting 200 qp)", "loc": null },
+        { "name": "Get stats for ds2", "loc": null },
+        { "name": "most notable: 70 smith, 68 mining", "loc": null },
+        { "name": "Train combats to base 90-95 in nmz", "loc": null }
+      ]
+    },
+    {
+      "section": "Brutal black dragon alt",
+      "prefix": "brutal-bd",
+      "steps": [
+        { "name": "Brutal Black dragon — 1.2-1.7m gp/h", "loc": null },
+        { "name": "Doing 85 slayer should give you close to 90 ranged from cannoning", "loc": null },
+        { "name": "Do MM2 (70 craft, 60 hunt) for dragon jav head drops from bbd", "loc": null },
+        { "name": "Buy DHCB, rigour, anguish and blessed d hide (~110m)", "loc": null },
+        { "name": "Optional: get higher prayer lvl for less ppots used", "loc": null },
+        { "name": "Tbow results in 20 kills/500k GP more per hour", "loc": null }
+      ]
+    }
+  ]
+}

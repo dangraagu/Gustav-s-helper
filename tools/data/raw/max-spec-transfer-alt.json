@@ -1,0 +1,73 @@
+{
+  "id": "max-spec-transfer-alt",
+  "name": "Max — Spec-Transfer Alt",
+  "source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=477069711",
+  "license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "sections": [
+    {
+      "section": "Overview",
+      "prefix": "overview",
+      "steps": [
+        { "name": "IF you want a fairy ring in your house keep in mind that you will be unlocking a lot of slayer monster by doing priest in peril so not recommended to this this b4 slayer", "loc": null },
+        { "name": "Spectransfering yourself with slayer can be a really efficient way to get a lot of melee xp while still getting good slayer xp/h. ideally you want to have 2 xfer alts", "loc": null },
+        { "name": "you need 91 magic for energy transfer but 92 for heal other, so you want have 92 on atleast 1 alt", "loc": null },
+        { "name": "having 82 con to boost for an ornate pool in your poh would be ideal but you can also get the Revitalisation pool and just bring food to heal yourself again on the alt (you only have to cast heal other a couple times per task)", "loc": null },
+        { "name": "You want to set up your house in a certain way so it loads in 2ticks. No upper or lower floors. like this: https://i.imgur.com/jrxJq0F.png and https://i.imgur.com/cYvdolY.png", "loc": null }
+      ]
+    },
+    {
+      "section": "Ways to get 92 magic",
+      "prefix": "magic-92",
+      "steps": [
+        { "name": "Splashing (takes very long but is cheap)", "loc": null },
+        { "name": "burst jellies/dusts in catacombs (Desert treasure required)", "loc": null },
+        { "name": "Burst in MM1 caves", "loc": null },
+        { "name": "String jewelry (after 80 magic)", "loc": null }
+      ]
+    },
+    {
+      "section": "Non-budget route",
+      "prefix": "nonbudget",
+      "steps": [
+        { "name": "get 82-83 con and boost with stew and crystal saw to 90", "loc": null },
+        { "name": "build ornate pool", "loc": null },
+        { "name": "build portal nexus and portal room (1t faster compared to portal)", "loc": null },
+        { "name": "unlock kourend caste teleport", "loc": null },
+        { "name": "put kourend teleport in nexus and lunar in portal room", "loc": null }
+      ]
+    },
+    {
+      "section": "Budget route",
+      "prefix": "budget",
+      "steps": [
+        { "name": "get 65 construction and boost with stew and saw to 70", "loc": null },
+        { "name": "build Revitalisation pool (only spec and run)", "loc": null },
+        { "name": "build portal room", "loc": null },
+        { "name": "unlock kourend caste teleport", "loc": null },
+        { "name": "put kourend teleport and lunar in portal room", "loc": null }
+      ]
+    },
+    {
+      "section": "Fairy ring for dagannoths in house: (82 con + 3 boost)",
+      "prefix": "fairy-ring",
+      "steps": [
+        { "name": "complete fairy tale questline", "loc": null },
+        { "name": "Priest in peril (unlocks a lot of slayer monsters!)", "loc": null },
+        { "name": "Nature spirit", "loc": null },
+        { "name": "Fairy tale pt.1", "loc": null },
+        { "name": "40 thieving", "loc": null },
+        { "name": "53 herblore and boost to 57 with botanical pie", "loc": null },
+        { "name": "46 farming and boost with a gardening pie to 49", "loc": null },
+        { "name": "Fairy tale pt.2", "loc": null }
+      ]
+    },
+    {
+      "section": "POH loading tips",
+      "prefix": "poh-loading",
+      "steps": [
+        { "name": "DONT forget to remove your Dungeon if you did Oak doors to 82 to have the fastest loading time for you poh", "loc": null },
+        { "name": "Remove doors in your POH to save 1t running from pool to portal nexus", "loc": null }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "max-account-start",
+  "name": "Max — Account Start (Main/Alt)",
+  "source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
+  "license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "sections": [
+    {
+      "section": "Introduction and general notes",
+      "prefix": "intro",
+      "steps": [
+        { "name": "Welcome. In this guide I give you a fairly optimal questing and skill training route for starting a Main or a new alt", "loc": null },
+        { "name": "feel free to deviate from it and if you encounter any mistakes pls dm me on discord: Max / he box jonge#0494", "loc": null },
+        { "name": "VERY IMPORTANT: If you want to make this alt into a slayer lure alt, DO NOT complete the following quests:", "loc": null },
+        { "name": "Dragon Slayer 1, Priest in Peril, Elemental workshop, Contact!, Death Plateau, Olaf's quest, Cabin fever, Regicide and Desert Treasure", "loc": null },
+        { "name": "Note on Magic training: When away from PC, if possible, fire strike/bolt sand crabs on hosidius beach (Chrome remote desktop / Mobile) (NPC aggression timer)", "loc": null },
+        { "name": "Once you get 55 magic you can also alch during questing, goal is 82 for magic imbue OR 75 on an alt", "loc": null },
+        { "name": "Best item to alch: Rune arrows", "loc": null },
+        { "name": "Use quest helper plugin on RuneLite for optimal questing!", "loc": null },
+        { "name": "This does not inlcude all quest items, just buy them as you get around to do each quest", "loc": null }
+      ]
+    },
+    {
+      "section": "Alt progression order",
+      "prefix": "order",
+      "steps": [
+        { "name": "Account start (main/alt) > Spec transfer OR Blood rc / runner alt", "loc": null },
+        { "name": "Slayer alt + wyvern/rd/bbd > Wyvern alt > Brutal Black drag", "loc": null },
+        { "name": "Runedragons/DS2", "loc": null },
+        { "name": "If you want to make a wyvern or brutal alt I recommend just following \"Account start\" and \"Slayer alt\"", "loc": null },
+        { "name": "Vyrewatch alts can be made from scrath from the \"Vyrewatch\" tab", "loc": null }
+      ]
+    },
+    {
+      "section": "Account security",
+      "prefix": "security",
+      "steps": [
+        { "name": "Dont make the email: rsn@gmail.com or w/e", "loc": null },
+        { "name": "Make an unique recovery email, and use a password manager", "loc": null },
+        { "name": "Enable authenticator, on both your account and email", "loc": null }
+      ]
+    },
+    {
+      "section": "Early game quests and NMZ unlocks",
+      "prefix": "early",
+      "steps": [
+        { "name": "Bond up + 1 extra bond for gp if starting out fresh", "loc": null },
+        { "name": "Make your way over to the GE or trade over teleport tabs and some ring of wealths (5) + GP (ring of the elements is around 1m gp and is very useful for early game quests)", "loc": null },
+        { "name": "Start X marks the spot, rune mysteries and restless ghost. trade over eye of newt, burnt meat, onion, all 4 beads and a necklace of passage + some stamina pots", "loc": null },
+        { "name": "Do X marks the spot (lamp on magic) and visit zeah once, imp catcher, witch's potion and complete rune mysteries and restless ghost", "loc": null },
+        { "name": "Get 43 prayer (POH or wildy)", "loc": null },
+        { "name": "Get 30 construction", "loc": null },
+        { "name": "1 - 15 (84 planks + 300 steel nails, build bookcases at lvl 4)", "loc": null },
+        { "name": "15 - 30 (184 oak planks, build workshop at lvl 15 and make oak repair benches)", "loc": null },
+        { "name": "Move your house to Hosidius for Mage sand crabs (make sure you have visited zeah once)", "loc": null },
+        { "name": "Do witch's house (Bring ~20 earth strikes to get lvl 13, fire strike/bolt all quest bosses from now on)", "loc": null },
+        { "name": "Druidic ritual (bring the 4 meats and ores for dorics quest)", "loc": null },
+        { "name": "Doric's Quest", "loc": null },
+        { "name": "Knights sword", "loc": null },
+        { "name": "Get 10 fletching (arrows)", "loc": null },
+        { "name": "Tourist trap (both rewards on agility)", "loc": null },
+        { "name": "Dwarf cannon", "loc": null },
+        { "name": "Waterfall quest", "loc": null },
+        { "name": "Tree gnome village (khazard warlord nmz)", "loc": null },
+        { "name": "Grand tree (5 kudos)", "loc": null },
+        { "name": "Fight arena", "loc": null },
+        { "name": "Monks friend", "loc": null },
+        { "name": "Hazeel cult (5 kudos)", "loc": null },
+        { "name": "Get 21 thieving (steal cakes)", "loc": null },
+        { "name": "Tribal totem", "loc": null },
+        { "name": "Plague city", "loc": null },
+        { "name": "Biohazard", "loc": null },
+        { "name": "Vampire slayer (count draynor in nmz)", "loc": null },
+        { "name": "Enter the abyss miniquest", "loc": null },
+        { "name": "Do zeah quests on w330 and use some1 elses house for xeric talisman teleports", "loc": null },
+        { "name": "Client of kourend (favour on Piscarilius and one lamp on rc other on slayer)", "loc": null },
+        { "name": "Get 20% hosidius favour", "loc": null },
+        { "name": "Depths of despair (sand snake nmz)", "loc": null },
+        { "name": "Temple of the eye", "loc": null },
+        { "name": "get 35 rc at GOTR", "loc": null },
+        { "name": "Murder Mystery", "loc": null },
+        { "name": "Merlins crystal (5 kudos + 1k xp lamp from museum on slayer)", "loc": null },
+        { "name": "Get 10 herblore (6 guam(unf), 6 eye of newt, 21 marrentill(unf), 21 unicorn horn dust, keep the antidotes for quests)", "loc": null },
+        { "name": "The Digsite", "loc": null },
+        { "name": "What lies below (king roald nmz) + bring the dagon hai book to the museum for 5 kudos", "loc": null },
+        { "name": "Museum quiz + cleaning finds = 100 kudos (after you got the clean necklace, buy ruby enchant tabs and ruby necklace to get some digsite pendants)", "loc": null },
+        { "name": "Bone voyage", "loc": null },
+        { "name": "Fossil island unlocked", "loc": null },
+        { "name": "Start doing birdhouse runs on your main account. Get atleast level 44 but more wont hurt.", "loc": null },
+        { "name": "Alt Note: With 26 craft and 29 con you can now make drift nets for 400-500k gp/h (can get 61 craft here if planning on doing lunar diplomacy)", "loc": null },
+        { "name": "If you are not tight on gp you can cut gems later on but 61 craft with drift nets profits you 3,5 - 4,5m gp compared to cutting rubies", "loc": null },
+        { "name": "[ALT] can also do birdhouses from now on if you want to do mm2 (60 hunt)", "loc": null },
+        { "name": "Get 28 (11k xp) crafting (Best leather item to 20, sapphires to 11k xp)", "loc": null },
+        { "name": "Jungle potion", "loc": null },
+        { "name": "Shilo village (should get you to 31 crafting)", "loc": null },
+        { "name": "Get 36 wc", "loc": null },
+        { "name": "Lost city (tree spirit nmz) (get multiple dramen staves + 2 dramen branch for Koschei the deathless in Frem trials and sir amik varze subquest)", "loc": null },
+        { "name": "Get 30 firemaking", "loc": null },
+        { "name": "Sea slug", "loc": null },
+        { "name": "Holy grail", "loc": null },
+        { "name": "Get atleast 43 pray", "loc": null },
+        { "name": "Monkey Madness 1 (choose att and defence training)", "loc": null },
+        { "name": "Get 40 Woodcutting", "loc": null },
+        { "name": "Get 40 Crafting (gems)", "loc": null },
+        { "name": "Get 25 fletching (arrows/darts during the quest)", "loc": null },
+        { "name": "Fremennik trials", "loc": null },
+        { "name": "Sell ring of the elements if you need gp", "loc": null }
+      ]
+    },
+    {
+      "section": "Stats for Lunar Diplomacy",
+      "prefix": "lunar",
+      "steps": [
+        { "name": "Eyes of Glouphrie (12k magic, 6k rc xp, crystal saw)", "loc": null },
+        { "name": "Watch tower (15k magic xp, requires 40 mining)", "loc": null },
+        { "name": "61 craft if you didnt do drift nets to 61 (cut rubies)", "loc": null },
+        { "name": "49 firemaking (ge or varrock tele fm)", "loc": null },
+        { "name": "67 magic (splash or alchemy room in mta or something else)", "loc": null },
+        { "name": "60 mining (iron or mlm) (3tgranite/iron on main if you know how)", "loc": null },
+        { "name": "55 woodcutting (afk willow or teak) (on main 1.5t/2t teaks if you know how)", "loc": null },
+        { "name": "Lunar diplomacy (NPC contact unlock)", "loc": null },
+        { "name": "You can probably get to this point with ~20 - 25h of playtime (excluding 0time mage training)", "loc": null }
+      ]
+    },
+    {
+      "section": "Alt upgrade paths",
+      "prefix": "alt",
+      "steps": [
+        { "name": "Your alt now has a good foundation to be upgraded in to one or more of the alts listed below", "loc": null },
+        { "name": "1. slayer lure alt (speeds up slayer by a lot and makes it more fun)", "loc": null },
+        { "name": "1.1 after slayer lure you can make it into rune dragon, wyvern or brutal black dragon alt", "loc": null },
+        { "name": "2. spec transfer alt (speeds up early slayer and gives a lot of melee xp in late slayer)", "loc": null },
+        { "name": "3. blood rc alt (500-600k gp/h)", "loc": null },
+        { "name": "4. vyre watch alt (500-600k/h but VERY AFK)", "loc": null },
+        { "name": "slayer alt: Requires a decent amout of gp ~50 - 100m depending on gear. very easy to kill wyverns or rune dragons afterwards", "loc": null },
+        { "name": "spec transfer: Either splash the magic lvl or make tele tabs, string jewellery at lvl 80 to speed it up", "loc": null },
+        { "name": "Blood rc alt: Takes around 60 hours to start rcing", "loc": null },
+        { "name": "vyrewatch alt: Recommend making this after you got 85 slayer if you only have 1 alt. Get 30 thieving and continue from line 24 on the vyre sheet", "loc": null }
+      ]
+    },
+    {
+      "section": "[MAIN ONLY] Skilling after Lunar Diplomacy",
+      "prefix": "main",
+      "steps": [
+        { "name": "[MAIN ONLY] IF you followed this guide on your main you can start working on your other skills now while making on of the alts listed above", "loc": null },
+        { "name": "Recommended start:", "loc": null },
+        { "name": "If you are not 82 magic, alch during agility and keep splashing as 0time", "loc": null },
+        { "name": "56 agility (for shortcut in GOTR) Varrock course > buy graceful gloves and cape > do shaziyen adv. course @48 > wildy course @52 DONT FORGET SUMMER PIES!@!@", "loc": null },
+        { "name": "Get Raiments of the eye outfit + abyssal needle (Quest up your alt during GOTR, train/play the alt during mud rc)", "loc": null },
+        { "name": "Buy ring of the elements from GE", "loc": null },
+        { "name": "Start crafting Mud runes at the Water altar (see the sheet for gp/hr figures).", "loc": null },
+        { "name": "Note: steam runes at the fire altar are also a viable option. slightly more xp but less profit", "loc": null },
+        { "name": "Once you have 100m GP get 99 craft with air b staves. 100m allows you to buy 11k staves+orbs (4.5h of crafting). go back to rc when selling takes a while", "loc": null },
+        { "name": "Mud runes pre 99 vid: https://www.youtube.com/watch?v=Nd7ukpqbfmg", "loc": null }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Herblore",
+  "steps": [
+    {
+      "id": "herblore-001",
+      "title": "Get 65/82/85 Farming at Tithe farm …",
+      "text": "Get 65/82/85 Farming at Tithe farm first",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-002",
+      "title": "Clean out your inventory to just …",
+      "text": "Clean out your inventory to just your rune pouch (air, earth, law), staff of fire, water runes, and coins",
+      "manual": true
+    },
+    {
+      "id": "herblore-003",
+      "title": "Get 1020 noted pineapples from Brimhaven. …",
+      "text": "Get 1020 noted pineapples from Brimhaven. — Buy them at charters, note at the farming patch",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2114,
+            "qty": 1020
+          },
+          {
+            "op": "item",
+            "id": 2114,
+            "qty": 1020,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2114,
+      "world": [
+        2808,
+        3192,
+        0
+      ]
+    },
+    {
+      "id": "herblore-004",
+      "title": "Buy a seed box from Tithe …",
+      "text": "Buy a seed box from Tithe Farm",
+      "manual": true
+    },
+    {
+      "id": "herblore-005a",
+      "title": "Get a Kharedst's memoirs again",
+      "text": "Get a Kharedst's memoirs again",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-005b",
+      "title": "wear it if you don't have …",
+      "text": "wear it if you don't have it. This will be your Hosidius teleport for Farming if you are blackjacking",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "herblore-006",
+      "title": "Get a rune pickaxe from a …",
+      "text": "Get a rune pickaxe from a shop",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-007",
+      "title": "Mine 1,700 volcanic ash. Once done …",
+      "text": "Mine 1,700 volcanic ash. Once done you can alch the pickaxe",
+      "manual": true
+    },
+    {
+      "id": "herblore-008",
+      "title": "Go to each compost bin around …",
+      "text": "Go to each compost bin around the world you have access to and fill them with pineapples. When they are done you can come back to harvest them. — Use the volcanic ash on the bin before harvesting the compost. — You will want to get moving on this even though you don't have herb seeds yet so that you can clear up the 2 inventory slots for pineapples and volcanic ash. — Keep 15 inventory slots open until you are done making compost.",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "herblore-009",
+      "title": "Put away your graceful, get out …",
+      "text": "Put away your graceful, get out your rogues set",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-010",
+      "title": "Move your house to Pollnivneach if …",
+      "text": "Move your house to Pollnivneach if you plan to blackjack, otherwise put it in Hosidius",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "herblore-011",
+      "title": "Drop your water runes (They won't …",
+      "text": "Drop your water runes (They won't be needed since you have an Ardougne portal in your house)",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "herblore-012",
+      "title": "Go to the Farming Guild. — …",
+      "text": "Go to the Farming Guild. — Battlefront teleport in your house takes you nearby",
+      "world": [
+        1249,
+        3737,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1249,
+        "y": 3737,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "herblore-013",
+      "title": "Inventory check: Jangerberry seed, Snape grass …",
+      "text": "Inventory check: Jangerberry seed, Snape grass seed, Strawberry seed, Watermelon seed, Limpwurt seed, Whiteberry seed, Kwuarm seed, Avantoe seed, Irit seed, Toadflax seed, Ranarr seed, Harralander seed, Lantadyme seed, Snapdragon seed, Seed box, Looting bag, Coins, Rune pouch",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5294,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 5294,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 5294,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
+    },
+    {
+      "id": "herblore-014",
+      "title": "Instead of doing master farmers right …",
+      "text": "Instead of doing master farmers right away, blackjack or thieve Ardougne knights until you have around 2,000,000 coins coins. That gives 500,000 coins for Smithing, 750,000 coins for Construction, then 750,000 coins for anything else like runes and death storage fees.",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "herblore-015",
+      "title": "If you want to get no-fail …",
+      "text": "If you want to get no-fail master farmers, the thieving cape is easier to obtain than completing the Ardougne hard diary since it has high requirements. If you wish to avoid post-99 experience though you could go out of your way for the diary.",
+      "manual": true,
+      "world": [
+        2638,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "herblore-016",
+      "title": "Once you reach your goal level …",
+      "text": "Once you reach your goal level (after acquiring ~2,000,000 coins coins or a specific level you want), you can start on master farmers. — Draynor Village is a good place to thieve master farmers as you can buy wines at the shop there. Your Draynor Manor teleport will get you close. There are plenty of other location options though.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 12
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 13,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "world": [
+        3078,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "herblore-017",
+      "title": "Once you have all the herb …",
+      "text": "Once you have all the herb seeds needed, clean up your inventory and move on to the other skills. Just keep your seed box on you with the seeds you are planning to farm, then bag the noted herbs.",
+      "manual": true
+    },
+    {
+      "id": "herblore-018",
+      "title": "Farm limpwurt roots and white berries …",
+      "text": "Farm limpwurt roots and white berries to match your kwuarms and cadantines. Also get 20 extra limpwurt roots for Temple of Ikov",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
+    },
+    {
+      "id": "herblore-019",
+      "title": "At level 78 you unlock Dorgesh-Kaan …",
+      "text": "At level 78 you unlock Dorgesh-Kaan Rich Chests. This is a very good alternative to blackjacking for fast experience after you get the money you need. — With more effort, you can alch and cut the loot from the chests for very efficient money and Magic/Crafting experience. While small, this would add up significantly if you are going to 99.",
+      "manual": true,
+      "world": [
+        2698,
+        3396,
+        0
+      ]
+    },
+    {
+      "id": "herblore-020",
+      "title": "Achievement Diaries",
+      "text": "Achievement Diaries",
+      "manual": true
+    },
+    {
+      "id": "herblore-021",
+      "title": "Turning in Fossil Island fossils",
+      "text": "Turning in Fossil Island fossils",
+      "manual": true,
+      "world": [
+        3730,
+        3807,
+        0
+      ]
+    },
+    {
+      "id": "herblore-022",
+      "title": "Land of the Goblins (8,000 experience)",
+      "text": "Land of the Goblins (8,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "LAND_OF_THE_GOBLINS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "herblore-023",
+      "title": "Grim Tales (15,000 experience)",
+      "text": "Grim Tales (15,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "GRIM_TALES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2892,
+        3454,
+        0
+      ]
+    },
+    {
+      "id": "herblore-024",
+      "title": "Fairytale II - Cure a Queen …",
+      "text": "Fairytale II - Cure a Queen (5,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_II__CURE_A_QUEEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3078,
+        3256,
+        0
+      ]
+    },
+    {
+      "id": "herblore-025",
+      "title": "A Tail of Two Cats (5,000 …",
+      "text": "A Tail of Two Cats (5,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2919,
+        3559,
+        0
+      ]
+    },
+    {
+      "id": "herblore-026",
+      "title": "The Great Brain Robbery (5,000 experience)",
+      "text": "The Great Brain Robbery (5,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GREAT_BRAIN_ROBBERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3710,
+        3496,
+        0
+      ]
+    },
+    {
+      "id": "herblore-027",
+      "title": "King's Ransom (5,000 experience)",
+      "text": "King's Ransom (5,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "KINGS_RANSOM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2741,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "herblore-028",
+      "title": "Darkness of Hallowvale (6,000 experience)",
+      "text": "Darkness of Hallowvale (6,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "DARKNESS_OF_HALLOWVALE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3491,
+        3230,
+        0
+      ]
+    },
+    {
+      "id": "herblore-029",
+      "title": "A Taste of Hope (7,500 experience)",
+      "text": "A Taste of Hope (7,500 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TASTE_OF_HOPE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3668,
+        3217,
+        0
+      ]
+    },
+    {
+      "id": "herblore-030",
+      "title": "A Kingdom Divided (20,000 experience)",
+      "text": "A Kingdom Divided (20,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "A_KINGDOM_DIVIDED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1664,
+        3670,
+        0
+      ]
+    },
+    {
+      "id": "herblore-031",
+      "title": "In Search of Knowledge (10,000 experience)",
+      "text": "In Search of Knowledge (10,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_SEARCH_OF_KNOWLEDGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        1702,
+        3574,
+        0
+      ]
+    },
+    {
+      "id": "herblore-032",
+      "title": "Curse of the Empty Lord (10,000 …",
+      "text": "Curse of the Empty Lord (10,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "CURSE_OF_THE_EMPTY_LORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2556,
+        3445,
+        0
+      ]
+    },
+    {
+      "id": "herblore-033",
+      "title": "Recipe for Disaster (20,000 experience)",
+      "text": "Recipe for Disaster (20,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "herblore-034",
+      "title": "Legends' Quest (120,000 experience)",
+      "text": "Legends' Quest (120,000 experience)",
+      "complete": {
+        "op": "quest",
+        "quest": "LEGENDS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2729,
+        3348,
+        0
+      ]
+    },
+    {
+      "id": "herblore-035",
+      "title": "Sins of the Father (90,000 experience). …",
+      "text": "Sins of the Father (90,000 experience). This has rather high requirements though",
+      "complete": {
+        "op": "quest",
+        "quest": "SINS_OF_THE_FATHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3729,
+        3318,
+        0
+      ]
+    }
+  ]
+}

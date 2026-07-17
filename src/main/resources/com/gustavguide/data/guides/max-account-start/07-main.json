@@ -1,0 +1,153 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "[MAIN ONLY] Skilling after Lunar Diplomacy",
+  "steps": [
+    {
+      "id": "main-001",
+      "title": "[MAIN ONLY] IF you followed this …",
+      "text": "[MAIN ONLY] IF you followed this guide on your main you can start working on your other skills now while making on of the alts listed above",
+      "manual": true
+    },
+    {
+      "id": "main-002",
+      "title": "Recommended start:",
+      "text": "Recommended start:",
+      "manual": true
+    },
+    {
+      "id": "main-003",
+      "title": "If you are not 82 magic, …",
+      "text": "If you are not 82 magic, alch during agility and keep splashing as 0time",
+      "manual": true
+    },
+    {
+      "id": "main-004",
+      "title": "56 agility (for shortcut in GOTR) …",
+      "text": "56 agility (for shortcut in GOTR) Varrock course > buy graceful gloves and cape > do shaziyen adv. course @48 > wildy course @52 DONT FORGET SUMMER PIES!@!@",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 7218,
+            "qty": 52
+          },
+          {
+            "op": "item",
+            "id": 7218,
+            "qty": 52,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 7218,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "main-005a",
+      "title": "Get Raiments of the eye outfit …",
+      "text": "Get Raiments of the eye outfit + abyssal needle (Quest up your alt during GOTR",
+      "manual": true,
+      "npc": 415,
+      "world": [
+        3420,
+        3569,
+        2
+      ]
+    },
+    {
+      "id": "main-005b",
+      "title": "train/play the alt during mud rc)",
+      "text": "train/play the alt during mud rc)",
+      "manual": true,
+      "world": [
+        3420,
+        3569,
+        2
+      ]
+    },
+    {
+      "id": "main-006",
+      "title": "Buy ring of the elements from …",
+      "text": "Buy ring of the elements from GE",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 26815,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 26815,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 26815,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "main-007",
+      "title": "Start crafting Mud runes at the …",
+      "text": "Start crafting Mud runes at the Water altar (see the sheet for gp/hr figures)",
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "main-008",
+      "title": "Note: steam runes at the fire …",
+      "text": "Note: steam runes at the fire altar are also a viable option. slightly more xp but less profit",
+      "manual": true,
+      "world": [
+        3312,
+        3254,
+        0
+      ]
+    },
+    {
+      "id": "main-009",
+      "title": "Once you have 100m GP get …",
+      "text": "Once you have 100m GP get 99 craft with air b staves. 100m allows you to buy 11k staves+orbs (4.5h of crafting), go back to rc when selling takes a while",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 99,
+        "cmp": ">="
+      },
+      "note": "Craft d'hide bodies (green -> blue -> red -> black dragonhide) near a bank - fastest to 99.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "main-010",
+      "title": "Mud runes pre 99 vid: https://www.youtube.com/watch?v=Nd7ukpqbfmg",
+      "text": "Mud runes pre 99 vid: https://www.youtube.com/watch?v=Nd7ukpqbfmg",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    }
+  ]
+}

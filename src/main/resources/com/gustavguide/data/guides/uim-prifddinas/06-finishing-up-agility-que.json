@@ -1,0 +1,932 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Finishing up Agility questing",
+  "steps": [
+    {
+      "id": "finishing-up-agility-que-001",
+      "title": "Head west to the jail east …",
+      "text": "Head west to the jail east of Draynor Village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "finishing-up-agility-que-002",
+      "title": "Pull up a timer, Set it …",
+      "text": "Pull up a timer, Set it for 60 minutes",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-003",
+      "title": "Attack a guard. Do not kill …",
+      "text": "Attack a guard. Do not kill him. Lure him a short distance away from the jail and let him kill you. You can pick some nettles to die quicker. (You are \"death piling\" for Recruitment Drive.) — The death pile allows your items to remain on the ground for up to 60 minutes before despawning (Without other players being able to loot it). Use your timer to keep track of how long you have left. You should have plenty of time. The timer only runs when you are logged in.",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3211,
+        3381,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-004a",
+      "title": "After dying, return to your deathpile",
+      "text": "After dying, return to your deathpile",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-004b",
+      "title": "pick up your last house tablet",
+      "text": "pick up your last house tablet",
+      "manual": true,
+      "world": [
+        3211,
+        3381,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-005",
+      "title": "Use the teleport to house tab",
+      "text": "Use the teleport to house tab",
+      "manual": true,
+      "world": [
+        3211,
+        3381,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-006a",
+      "title": "Go to Falador Castle",
+      "text": "Go to Falador Castle",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "finishing-up-agility-que-006b",
+      "title": "speak to Sir Amike Varze to …",
+      "text": "speak to Sir Amike Varze to finish Black Knights' Fortress",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-007",
+      "title": "Speak with him again to start …",
+      "text": "Speak with him again to start Recruitment Drive",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-008",
+      "title": "Drop the coins",
+      "text": "Drop the coins",
+      "manual": true,
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-009a",
+      "title": "Go to Falador Park",
+      "text": "Go to Falador Park",
+      "world": [
+        3003,
+        3380,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3003,
+        "y": 3380,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "finishing-up-agility-que-009b",
+      "title": "complete Recruitment Drive",
+      "text": "complete Recruitment Drive",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-009c",
+      "title": "sell the Initiate Sallet next time …",
+      "text": "sell the Initiate Sallet next time you're near a General Store",
+      "manual": true,
+      "object": 410,
+      "world": [
+        2925,
+        3483,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-010",
+      "title": "Head east from the park",
+      "text": "Head east from the park",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-011",
+      "title": "Head north-east to the Dwarven Mine",
+      "text": "Head north-east to the Dwarven Mine",
+      "manual": true,
+      "object": 11867,
+      "world": [
+        3019,
+        3450,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-012",
+      "title": "In the mine, go north, west, …",
+      "text": "In the mine, go north, west, south, then back up north to Nurmof's Pickaxe Shop",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-013",
+      "title": "Buy a steel pickaxe from Nurmof",
+      "text": "Buy a steel pickaxe from Nurmof",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1269,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1269,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1269
+    },
+    {
+      "id": "finishing-up-agility-que-014",
+      "title": "Mine 6 clay, 4 copper, and …",
+      "text": "Mine 6 clay, 4 copper, and 2 iron ore. Rocks of each type can be found south-east of the shop",
+      "manual": true,
+      "world": [
+        3027,
+        9802,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-015",
+      "title": "Exit the Dwarven Mine and north-west …",
+      "text": "Exit the Dwarven Mine and north-west of Falador",
+      "manual": true,
+      "object": 11867,
+      "world": [
+        3019,
+        3450,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-016a",
+      "title": "Speak with Doric",
+      "text": "Speak with Doric",
+      "manual": true,
+      "npc": 3893,
+      "world": [
+        2951,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-016b",
+      "title": "complete Doric's Quest",
+      "text": "complete Doric's Quest",
+      "complete": {
+        "op": "quest",
+        "quest": "DORICS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2951,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-017",
+      "title": "Head west and die to a …",
+      "text": "Head west and die to a druid to get back to Lumbridge. — If at any point during this guide you think you may have wasted money on something not specifically mentioned, you should probably just walk back to your death pile and keep the coins reward. The guide is extremely tight on money, and it is very easy to run out if any extra money was spent somewhere.",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-018",
+      "title": "Pick up the knife in the …",
+      "text": "Pick up the knife in the kitchen",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 946,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 946,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 946,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-019",
+      "title": "Collect your items from the death …",
+      "text": "Collect your items from the death pile",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-020",
+      "title": "Restock on wines if you are …",
+      "text": "Restock on wines if you are low on food. Leave 8 slots open",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-021",
+      "title": "Buy a new Chronicle and a …",
+      "text": "Buy a new Chronicle and a few charges. 3 should be fine",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-022",
+      "title": "Head east to Lumbridge Castle",
+      "text": "Head east to Lumbridge Castle",
+      "manual": true,
+      "object": 14880,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-023",
+      "title": "Cut trees and fletch the logs …",
+      "text": "Cut trees and fletch the logs into 900 arrow shafts",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-024",
+      "title": "Drop the knife and steel axe",
+      "text": "Drop the knife and steel axe",
+      "manual": true,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-025",
+      "title": "Head east into Al Kharid, then …",
+      "text": "Head east into Al Kharid, then south to Shantay Pass",
+      "manual": true,
+      "npc": 4642,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-026",
+      "title": "Buy 900 feathers from Shantay",
+      "text": "Buy 900 feathers from Shantay",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 314,
+            "qty": 900
+          },
+          {
+            "op": "item",
+            "id": 314,
+            "qty": 1000,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 314,
+      "npc": 4642,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-027",
+      "title": "Fletch 900 headless arrows to reach …",
+      "text": "Fletch 900 headless arrows to reach level 10 Fletching, Drop them afterwards",
+      "manual": true,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-028",
+      "title": "Complete The Tourist Trap. Buy the …",
+      "text": "Complete The Tourist Trap. Buy the required items from Shantay. — You should be able to tank and kill the captain with wines, but there is a safe spot if you are concerned. His max hit is 5. — Put both skill rewards into Agility.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_TOURIST_TRAP",
+        "state": "FINISHED"
+      },
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-029",
+      "title": "Chronicle teleport",
+      "text": "Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-030",
+      "title": "Head north to the Grand Exchange",
+      "text": "Head north to the Grand Exchange",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "finishing-up-agility-que-031",
+      "title": "Take the spirit tree in the …",
+      "text": "Take the spirit tree in the north-east corner to the Gnome Stronghold",
+      "manual": true,
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-032",
+      "title": "Head north and speak to King …",
+      "text": "Head north and speak to King Narnode. Continue and complete The Grand Tree. Use a chronicle teleport to Varrock, then use the Grand Exchange Spirit tree again to get back from Karamja.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-033",
+      "title": "Clean up your inventory:",
+      "text": "Clean up your inventory:",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-034",
+      "title": "Getting Started Section final status check. …",
+      "text": "Getting Started Section final status check. — If you did not start the guide from the beginning, this will let you know what is expected to have been completed",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-035",
+      "title": "Inventory check: Premade choc bomb, Premade …",
+      "text": "Inventory check: Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Mind rune, Air rune, Water rune, Earth rune, coins",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-036",
+      "title": "Quick check: 27 Quests completed, 51 …",
+      "text": "Quick check: 27 Quests completed, 51 quest points",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-agility-que-037",
+      "title": "Black Knights' Fortress",
+      "text": "Black Knights' Fortress",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-038",
+      "title": "Cook's Assistant",
+      "text": "Cook's Assistant",
+      "complete": {
+        "op": "quest",
+        "quest": "COOKS_ASSISTANT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3212,
+        3246,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-039",
+      "title": "Doric's Quest",
+      "text": "Doric's Quest",
+      "complete": {
+        "op": "quest",
+        "quest": "DORICS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2951,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-040",
+      "title": "Goblin Diplomacy",
+      "text": "Goblin Diplomacy",
+      "complete": {
+        "op": "quest",
+        "quest": "GOBLIN_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2954,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-041",
+      "title": "The Knight's Sword",
+      "text": "The Knight's Sword",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-042",
+      "title": "Misthalin Mystery",
+      "text": "Misthalin Mystery",
+      "complete": {
+        "op": "quest",
+        "quest": "MISTHALIN_MYSTERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3237,
+        3155,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-043",
+      "title": "The Restless Ghost",
+      "text": "The Restless Ghost",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3206,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-044",
+      "title": "Rune Mysteries",
+      "text": "Rune Mysteries",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-045",
+      "title": "Vampyre Slayer",
+      "text": "Vampyre Slayer",
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-046",
+      "title": "Witch's Potion",
+      "text": "Witch's Potion",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_POTION",
+        "state": "FINISHED"
+      },
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-047",
+      "title": "X Marks the Spot",
+      "text": "X Marks the Spot",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-048",
+      "title": "Druidic Ritual",
+      "text": "Druidic Ritual",
+      "complete": {
+        "op": "quest",
+        "quest": "DRUIDIC_RITUAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2925,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-049",
+      "title": "Dwarf Cannon",
+      "text": "Dwarf Cannon",
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-050",
+      "title": "Fight Arena",
+      "text": "Fight Arena",
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-051",
+      "title": "Gertrude's Cat",
+      "text": "Gertrude's Cat",
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3148,
+        3413,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-052",
+      "title": "The Grand Tree",
+      "text": "The Grand Tree",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-053",
+      "title": "Hazeel Cult",
+      "text": "Hazeel Cult",
+      "complete": {
+        "op": "quest",
+        "quest": "HAZEEL_CULT",
+        "state": "FINISHED"
+      },
+      "world": [
+        2569,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-054",
+      "title": "Monk's Friend",
+      "text": "Monk's Friend",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-055",
+      "title": "Plague City",
+      "text": "Plague City",
+      "complete": {
+        "op": "quest",
+        "quest": "PLAGUE_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-056",
+      "title": "Recruitment Drive",
+      "text": "Recruitment Drive",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-057",
+      "title": "Sea Slug",
+      "text": "Sea Slug",
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
+      "world": [
+        2717,
+        3303,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-058",
+      "title": "Sheep Herder",
+      "text": "Sheep Herder",
+      "complete": {
+        "op": "quest",
+        "quest": "SHEEP_HERDER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2615,
+        3298,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-059",
+      "title": "The Tourist Trap",
+      "text": "The Tourist Trap",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_TOURIST_TRAP",
+        "state": "FINISHED"
+      },
+      "world": [
+        3304,
+        3112,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-060",
+      "title": "Tree Gnome Village",
+      "text": "Tree Gnome Village",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-061",
+      "title": "Tribal Totem",
+      "text": "Tribal Totem",
+      "complete": {
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-062",
+      "title": "Waterfall Quest",
+      "text": "Waterfall Quest",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-063",
+      "title": "Witch's House",
+      "text": "Witch's House",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-064",
+      "title": "Daddy's Home (Miniquest)",
+      "text": "Daddy's Home (Miniquest)",
+      "complete": {
+        "op": "quest",
+        "quest": "DADDYS_HOME",
+        "state": "FINISHED"
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-065",
+      "title": "Natural history quiz (Miniquest)",
+      "text": "Natural history quiz (Miniquest)",
+      "manual": true
+    }
+  ]
+}

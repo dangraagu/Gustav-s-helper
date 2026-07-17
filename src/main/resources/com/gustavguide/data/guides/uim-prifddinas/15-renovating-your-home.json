@@ -1,0 +1,443 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Renovating your home",
+  "steps": [
+    {
+      "id": "renovating-your-home-001",
+      "title": "Go to your house. Remove your …",
+      "text": "Go to your house. Remove your parlor and add these rooms: — 3 portal chambers — 1 costume room — 1 chapel — 1 workshop — 1 menagerie — 1 kitchen",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "renovating-your-home-002a",
+      "title": "Get an inventory of oak planks",
+      "text": "Get an inventory of oak planks",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-002b",
+      "title": "make: — oak toy box — …",
+      "text": "make: — oak toy box — oak fancy dress box — oak treasure chest — oak armour case — oak altar — tool stores 1, 2, 3, and 4",
+      "manual": true,
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "renovating-your-home-003a",
+      "title": "Get another inventory of oak planks",
+      "text": "Get another inventory of oak planks",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-003b",
+      "title": "make: — Oak magic wardrobe — …",
+      "text": "make: — Oak magic wardrobe — upgrade to carved oak wardrobe — oak larder — clockmakers bench 1",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-004",
+      "title": "Make 7 Steel bars from the …",
+      "text": "Make 7 Steel bars from the Blast Furnace like before",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-005",
+      "title": "Get a pickaxe from Lumbridge. Mine …",
+      "text": "Get a pickaxe from Lumbridge. Mine 8 clay from south of Varrock. — Use buckets of water on the clay to make 8 soft clay. Buckets of water can be from Recipe for Disaster chest, filled at the sink.",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3176,
+        3363,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-006",
+      "title": "Make 7 more oak planks",
+      "text": "Make 7 more oak planks",
+      "manual": true,
+      "world": [
+        3176,
+        3363,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-007a",
+      "title": "Teleport back to your house",
+      "text": "Teleport back to your house",
+      "manual": true
+    },
+    {
+      "id": "renovating-your-home-007b",
+      "title": "make: — pump and drain — …",
+      "text": "make: — pump and drain — firepit with hook — oak shelves 2",
+      "manual": true,
+      "world": [
+        3176,
+        3363,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-008",
+      "title": "Make some tea in your house",
+      "text": "Make some tea in your house",
+      "manual": true,
+      "world": [
+        3176,
+        3363,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-009a",
+      "title": "Drink the tea",
+      "text": "Drink the tea",
+      "manual": true,
+      "world": [
+        3176,
+        3363,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-009b",
+      "title": "make an oak cape rack",
+      "text": "make an oak cape rack",
+      "manual": true,
+      "world": [
+        3176,
+        3363,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-010a",
+      "title": "Teleport to Castle Wars",
+      "text": "Teleport to Castle Wars",
+      "world": [
+        2407,
+        3105,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "renovating-your-home-010b",
+      "title": "Head south and then west to …",
+      "text": "Head south and then west to the teak tree",
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-011",
+      "title": "Chop 18 teak logs",
+      "text": "Chop 18 teak logs",
+      "manual": true,
+      "object": 9036,
+      "world": [
+        2335,
+        3048,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-012a",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "renovating-your-home-012b",
+      "title": "head north to Rasolo",
+      "text": "head north to Rasolo",
+      "manual": true,
+      "npc": 679,
+      "world": [
+        2531,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-012c",
+      "title": "buy 4 limestone bricks",
+      "text": "buy 4 limestone bricks",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3420,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 3420,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3420,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-013",
+      "title": "Make the logs into teak planks …",
+      "text": "Make the logs into teak planks at the sawmil",
+      "manual": true,
+      "world": [
+        2531,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-014a",
+      "title": "Go to your house",
+      "text": "Go to your house",
+      "manual": true,
+      "world": [
+        2531,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-014b",
+      "title": "make the 6 teak portal frames …",
+      "text": "make the 6 teak portal frames and 2 teleport focus in the portal chambers",
+      "manual": true,
+      "world": [
+        2531,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-015",
+      "title": "Get 6 more oak planks, 9 …",
+      "text": "Get 6 more oak planks, 9 more teak planks, and 2 more limestone bricks",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-016a",
+      "title": "Make a tea, and upgrade your …",
+      "text": "Make a tea, and upgrade your tool storage to level 5",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-016b",
+      "title": "make an oak house in the …",
+      "text": "make an oak house in the menagerie",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-017",
+      "title": "Make another portal focus and 3 …",
+      "text": "Make another portal focus and 3 teak portal frames",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-018",
+      "title": "(Optional) Go out of your way …",
+      "text": "(Optional) Go out of your way to make any other items you want in your house",
+      "manual": true
+    },
+    {
+      "id": "renovating-your-home-019",
+      "title": "Get a bucket of water",
+      "text": "Get a bucket of water",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-020",
+      "title": "Complete the Enter the Abyss miniquest",
+      "text": "Complete the Enter the Abyss miniquest",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-021",
+      "title": "Complete Temple of the Eye. — …",
+      "text": "Complete Temple of the Eye. — These quests may have already been completed if you had to hunt for a nature talisman back in Fairytale I - Growing Pains",
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_I__GROWING_PAINS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3078,
+        3256,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-022a",
+      "title": "Go to Ali Morrisane",
+      "text": "Go to Ali Morrisane",
+      "manual": true,
+      "npc": 3533,
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-022b",
+      "title": "buy: 1,100 law runes, 300 soul …",
+      "text": "buy: 1,100 law runes, 300 soul runes, 500 earth runes, 500 water runes, 300 fire runes, and 600 air runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 557,
+            "qty": 700
+          },
+          {
+            "op": "item",
+            "id": 557,
+            "qty": 850,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 557,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-023",
+      "title": "Empty your rune pouch into your …",
+      "text": "Empty your rune pouch into your inventory (You should have some extra runes there too)",
+      "manual": true,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "renovating-your-home-024",
+      "title": "Go to your house and focus …",
+      "text": "Go to your house and focus your portals into these teleports: — Arceuus library — Draynor manor — Battlefront — Salve graveyard — Varrock — Fenkenstrains castle — Kourend castle — Falador — Ardougne",
+      "manual": true,
+      "object": 18258,
+      "world": [
+        1617,
+        3673,
+        2
+      ]
+    },
+    {
+      "id": "renovating-your-home-025",
+      "title": "You should now be able to …",
+      "text": "You should now be able to drop your water runes since the teleports that use them are in your house",
+      "manual": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Plugin Hub compliance
 
-This documents why Osiris Guide is safe to submit to the [RuneLite Plugin Hub]
+This documents why Gustav's Helper is safe to submit to the [RuneLite Plugin Hub]
 (https://github.com/runelite/plugin-hub). The hub reviews for **security** and **Jagex-rule
 compliance**; the design below is deliberately conservative so a reviewer can verify it quickly.
 

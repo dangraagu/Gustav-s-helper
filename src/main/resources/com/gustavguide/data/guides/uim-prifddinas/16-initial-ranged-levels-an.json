@@ -1,0 +1,473 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Initial Ranged levels and Rogue Outfit",
+  "steps": [
+    {
+      "id": "initial-ranged-levels-an-001",
+      "title": "Get 60 Woodcutting so you can …",
+      "text": "Get 60 Woodcutting so you can buy a mithril axe later, as well as take advantage of having a higher level axe on you. Use a method you prefer, but 2-ticking teaks would be the fastest. — Also get 50 Firemaking from burning logs. — If you would like to keep doing Construction for this xp you can. If you need more money go a bit further in the guide and get the Rogue outfit and blackjack for it. If you don't want to blackjack, then just hold off on the Construction until later and do teaks. Going back to Agility pyramid is an option, but is technically less efficient. — Keep in mind the reason the guide doesn't just rush 70 Construction is so that you can farm during the grind later on. If you do it now you will miss out on a lot of easy herb runs. — You could also just skip this and get a mithril axe from tree spirits later. This is a bit less efficient, but isn't a huge deal if you want to keep moving.",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+      "object": 11948,
+      "world": [
+        3335,
+        2829,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-002",
+      "title": "Do fruit stalls until 45 Thieving, …",
+      "text": "Do fruit stalls until 45 Thieving, then blackjack to 50. — You could also quest for some xp, but it isn't as important by this point. — If you don't want to blackjack, you can do whatever other methods you want.",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 45,
+        "cmp": ">="
+      },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
+    },
+    {
+      "id": "initial-ranged-levels-an-003",
+      "title": "Move your house to Taverley, if …",
+      "text": "Move your house to Taverley, if you didn't move it for construction earlier",
+      "manual": true,
+      "object": 16680,
+      "world": [
+        2884,
+        3397,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-004",
+      "title": "Get a dwarven rock cake",
+      "text": "Get a dwarven rock cake",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-005",
+      "title": "Do the Rogues' Den minigame for …",
+      "text": "Do the Rogues' Den minigame for the full Rogue outfit. Steps are below. — Since you can't bring anything into the minigame, death pile in Lumbridge (or falador if your respawn is there. You can die to the white nights there), then Burthorpe minigame teleport to the area. — Do the Rogues' Den minigame until you get close to your one-hour timer, then reset the death pile. If you get a rogue piece, walk to your house in Taverley and store it.",
+      "manual": true,
+      "object": 7257,
+      "world": [
+        2905,
+        3537,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-006",
+      "title": "Move your house to Yanille when …",
+      "text": "Move your house to Yanille when you have the full set",
+      "manual": true,
+      "object": 17047,
+      "world": [
+        2556,
+        3072,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-007",
+      "title": "If for any reason you run …",
+      "text": "If for any reason you run out of gold during the guide, blackjack or thieve knights for the money you need",
+      "manual": true
+    },
+    {
+      "id": "initial-ranged-levels-an-008",
+      "title": "Get a kitten from Gertrude and …",
+      "text": "Get a kitten from Gertrude and grow it as you move forward. Once it grows put it in your house until needed. — You can get some Karambwanji from just north of fairy ring code CKR for some stackable fish. You need a small fishing net for this.",
+      "manual": true,
+      "npc": 7723,
+      "world": [
+        3151,
+        3413,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-009",
+      "title": "Get a tinderbox",
+      "text": "Get a tinderbox",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-010",
+      "title": "Buy 300 mind runes, 600 air …",
+      "text": "Buy 300 mind runes, 600 air runes, and 200 fire runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 554,
+            "qty": 202
+          },
+          {
+            "op": "item",
+            "id": 554,
+            "qty": 702,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 554,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-011a",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "initial-ranged-levels-an-011b",
+      "title": "steal from the bakery stall until …",
+      "text": "steal from the bakery stall until you get a bread and 10 cakes. Do not eat the bread for food, it is a quest item",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2309,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2309,
+            "qty": 11,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2309,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-012",
+      "title": "Complete Merlin's Crystal. — Pest Control …",
+      "text": "Complete Merlin's Crystal. — Pest Control minigame teleport gets you to the Port Sarim area",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-013",
+      "title": "Complete Holy Grail. — Drop the …",
+      "text": "Complete Holy Grail. — Drop the Excalibur and get it again. — Drop your adamant axe. If you have a mithril axe, put it on a table and get it again. — You can death pile in Lumbridge basement if you want to play this safe instead of putting the items on the table. Don't forget to put your kitten/cat on your POH before you do this. — Get a dramen branch as you leave Entrana and turn it into a staff with a knife.",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-014",
+      "title": "Get a bucket of water",
+      "text": "Get a bucket of water",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-015",
+      "title": "Collect 10 bones from killing anything. …",
+      "text": "Collect 10 bones from killing anything. Killing chickens in Lumbridge is pretty fast",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 526,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 526,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 526,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-016",
+      "title": "Complete Demon Slayer. — You will …",
+      "text": "Complete Demon Slayer. — You will have to make a second trip for bones. — Remember you can now fairy ring teleport to the Wizards' Tower (DIS) and if Temple of the Eye is completed, you can also Guardians of the Rift minigame teleport there as well. — Take the Salve Graveyard teleport in your house to get to a fairy ring.",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-017",
+      "title": "Get: — A vial. — Pestle …",
+      "text": "Get: — A vial. — Pestle and mortar. — Papyrus. — 4 soft clay. — Use buckets of water on clay to make soft clay. — Alternatively, you can head to the Mahogany Homes Reward Shop and spend your carpenter's points on supply crates",
+      "manual": true,
+      "npc": 4203,
+      "world": [
+        3313,
+        2770,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-018",
+      "title": "Complete The Golem",
+      "text": "Complete The Golem",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-019",
+      "title": "Get: — Priest top and bottom …",
+      "text": "Get: — Priest top and bottom from the clothing shop in Varrock. — Black Wizard hat from Port Sarim Magic shop. — Silver bar in Ardougne, also get some cakes. — Rune longsword from the Champions' Guild.",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-020",
+      "title": "Complete Shadow of the Storm. — …",
+      "text": "Complete Shadow of the Storm. — Flinch the boss with the rune longsword, but deal the final blow with Darklight (you must stand next to him as you kill him). — Use the experience reward on Ranged.",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOW_OF_THE_STORM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3270,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-021",
+      "title": "Clean out your inventory of the …",
+      "text": "Clean out your inventory of the quest items. Alch/sell the rune longsword",
+      "manual": true,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-022",
+      "title": "Complete Recipe for Disaster/Freeing Evil Dave. …",
+      "text": "Complete Recipe for Disaster/Freeing Evil Dave. If your cat is not grown, do this when it does grow. — You can complete Ratcatchers for a wily cat, if you would like a higher success rate whilst catching rats.",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "initial-ranged-levels-an-023",
+      "title": "Go to Varrock. — Buy a …",
+      "text": "Go to Varrock. — Buy a bronze sword from the sword shop. — Buy a bronze arrow from the range shop. — Buy 1 fire rune, 500 earth and water runes, 1,000 air runes from Aubury (playing it safe on this amount). — Buy 100 death runes. — Get a tinderbox and hammer. — Buy 60 steel nails from the sawmill.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 882,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 882,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 882,
+      "npc": 3101,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-024",
+      "title": "Minigame teleport to Fishing Trawler. — …",
+      "text": "Minigame teleport to Fishing Trawler. — Pick up 2 planks from the spawn in the area. — Buy a bucket of sand and soda ash from the charter ship",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1783,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1783,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1783,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-025",
+      "title": "Get some swamp tar from Lumbridge …",
+      "text": "Get some swamp tar from Lumbridge swamp",
+      "manual": true,
+      "world": [
+        3197,
+        3166,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-026a",
+      "title": "Smelt your bucket of sand and …",
+      "text": "Smelt your bucket of sand and soda ash into a molten glass",
+      "manual": true,
+      "world": [
+        2400,
+        4473,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-026b",
+      "title": "Drop the bucket",
+      "text": "Drop the bucket",
+      "manual": true,
+      "world": [
+        2400,
+        4473,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-027",
+      "title": "Complete the Alfred Grimhand's Barcrawl miniquest",
+      "text": "Complete the Alfred Grimhand's Barcrawl miniquest",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2544,
+        3568,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-028",
+      "title": "Fill your inventory with cakes",
+      "text": "Fill your inventory with cakes",
+      "manual": true,
+      "world": [
+        2544,
+        3568,
+        0
+      ]
+    },
+    {
+      "id": "initial-ranged-levels-an-029",
+      "title": "Complete Horror from the Deep (fairy …",
+      "text": "Complete Horror from the Deep (fairy ring ALP to lighthouse). — The first dagannoth can be safespotted in the north east corner on the small spike. — Teleport out after you finish off the first dagannoth and fill your inventory with cakes if needed. — Hide from the Dagannoth mother behind a spike to the north east. As she changes colours use your blast spells on her 1 time then run back behind the spike. Heal to full with cakes if she hits you, then repeat.",
+      "complete": {
+        "op": "quest",
+        "quest": "HORROR_FROM_THE_DEEP",
+        "state": "FINISHED"
+      },
+      "world": [
+        2507,
+        3634,
+        0
+      ]
+    }
+  ]
+}

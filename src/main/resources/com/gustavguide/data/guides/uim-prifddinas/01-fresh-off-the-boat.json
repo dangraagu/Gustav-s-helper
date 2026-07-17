@@ -1,0 +1,401 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Fresh off the boat",
+  "steps": [
+    {
+      "id": "fresh-off-the-boat-001",
+      "title": "Complete Tutorial Island",
+      "text": "Complete Tutorial Island",
+      "manual": true
+    },
+    {
+      "id": "fresh-off-the-boat-002",
+      "title": "(Optional) If you want an easier …",
+      "text": "(Optional) If you want an easier and safer early game, consider utilizing the boneyard method or early blue dragons (slower but less tedious) to get 43 Prayer right at the start of your account. The guide is written assuming you don't do this so if you want to jump right into the action you can skip it.",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 43,
+        "cmp": ">="
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-003",
+      "title": "Speak with Father Aereck at the …",
+      "text": "Speak with Father Aereck at the church in Lumbridge to start The Restless Ghost",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3207,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-004",
+      "title": "Sell everything to Lumbridge General Store …",
+      "text": "Sell everything to Lumbridge General Store but your: — Bucket — Pot — Coins",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-005",
+      "title": "Buy a bucket and spade from …",
+      "text": "Buy a bucket and spade from the general store. You should have 2 buckets total",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 952,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 952,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-006a",
+      "title": "Head north to Fred the Farmer's …",
+      "text": "Head north to Fred the Farmer's chicken coop",
+      "manual": true,
+      "npc": 732,
+      "world": [
+        3189,
+        3273,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-006b",
+      "title": "pick up an egg from one …",
+      "text": "pick up an egg from one of the spawn locations",
+      "manual": true,
+      "world": [
+        3189,
+        3273,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-007a",
+      "title": "Head north-west",
+      "text": "Head north-west",
+      "manual": true
+    },
+    {
+      "id": "fresh-off-the-boat-007b",
+      "title": "pick some wheat from the field",
+      "text": "pick some wheat from the field",
+      "manual": true,
+      "world": [
+        3189,
+        3273,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-008",
+      "title": "Grind the wheat into a pot …",
+      "text": "Grind the wheat into a pot of flour at the mill north-east",
+      "manual": true
+    },
+    {
+      "id": "fresh-off-the-boat-009",
+      "title": "Fill your buckets with milk from …",
+      "text": "Fill your buckets with milk from the dairy cow north of the mill",
+      "manual": true,
+      "world": [
+        3189,
+        3273,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-010a",
+      "title": "Head south",
+      "text": "Head south",
+      "manual": true,
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-010b",
+      "title": "start X Marks the Spot by …",
+      "text": "start X Marks the Spot by speaking with Veos in the pub",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-011a",
+      "title": "Head back south to the castle …",
+      "text": "Head back south to the castle area",
+      "manual": true,
+      "npc": 5083,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-011b",
+      "title": "complete the first 2 clues for …",
+      "text": "complete the first 2 clues for the X Marks the Spot quest",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-012a",
+      "title": "Return to Lumbridge Castle",
+      "text": "Return to Lumbridge Castle",
+      "manual": true,
+      "object": 14880,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-012b",
+      "title": "speak with the cook to complete …",
+      "text": "speak with the cook to complete the Cook's Assistant quest",
+      "complete": {
+        "op": "quest",
+        "quest": "COOKS_ASSISTANT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-013",
+      "title": "Speak with Duke Horacio to start …",
+      "text": "Speak with Duke Horacio to start Rune Mysteries and receive an air talisman",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-014",
+      "title": "Continue south-west to Lumbridge Swamp, speak …",
+      "text": "Continue south-west to Lumbridge Swamp, speak with Father Urhney to continue The Restless Ghost and receive the ghostspeak amulet",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3206,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-015a",
+      "title": "Grab the leather gloves from their …",
+      "text": "Grab the leather gloves from their spawn location in Father Urhney's house",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1059,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1059,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1059,
+      "npc": 923,
+      "world": [
+        3147,
+        3175,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-015b",
+      "title": "Equip the gloves and the ghostspeak …",
+      "text": "Equip the gloves and the ghostspeak amulet",
+      "manual": true,
+      "item": 552,
+      "world": [
+        3147,
+        3175,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-016a",
+      "title": "Head to the south-east side of …",
+      "text": "Head to the south-east side of the Lumbridge Swamp",
+      "manual": true,
+      "npc": 7623,
+      "world": [
+        3237,
+        3155,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-016b",
+      "title": "complete Misthalin Mystery",
+      "text": "complete Misthalin Mystery",
+      "complete": {
+        "op": "quest",
+        "quest": "MISTHALIN_MYSTERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3237,
+        3155,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-017",
+      "title": "Destroy the notes, Drop the knife …",
+      "text": "Destroy the notes, Drop the knife and tinderbox. Keep the bucket of water, and gems",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-018a",
+      "title": "Head back north to the Lumbridge …",
+      "text": "Head back north to the Lumbridge graveyard",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-018b",
+      "title": "Open the coffin",
+      "text": "Open the coffin",
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-018c",
+      "title": "speak with the ghost to continue …",
+      "text": "speak with the ghost to continue The Restless Ghost",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3206,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-019",
+      "title": "Sell the uncut gems to Lumbridge …",
+      "text": "Sell the uncut gems to Lumbridge General Store",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "fresh-off-the-boat-020",
+      "title": "Inventory check:",
+      "text": "Inventory check:",
+      "manual": true
+    },
+    {
+      "id": "fresh-off-the-boat-021",
+      "title": "Inventory check: Mysterious orb (X Marks …",
+      "text": "Inventory check: Mysterious orb (X Marks the Spot), Spade, Bucket of water, Bucket of milk, Air talisman, Coins",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    }
+  ]
+}

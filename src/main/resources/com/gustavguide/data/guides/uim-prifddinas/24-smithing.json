@@ -1,0 +1,36 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Smithing",
+  "steps": [
+    {
+      "id": "smithing-001",
+      "title": "Do the Giants' Foundry minigame until …",
+      "text": "Do the Giants' Foundry minigame until level 60. You will need to death storage somewhere",
+      "manual": true,
+      "world": [
+        3360,
+        3151,
+        0
+      ]
+    },
+    {
+      "id": "smithing-002",
+      "title": "At 60 Smithing, you can do …",
+      "text": "At 60 Smithing, you can do Blast Furnace without the extra fee, make platebodies until 70 Smithing, or continue doing Giants' Foundry to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
+      "world": [
+        3360,
+        3151,
+        0
+      ]
+    }
+  ]
+}

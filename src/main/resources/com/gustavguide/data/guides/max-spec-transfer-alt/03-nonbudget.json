@@ -1,0 +1,62 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=477069711",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Non-budget route",
+  "steps": [
+    {
+      "id": "nonbudget-001",
+      "title": "get 82-83 con and boost with …",
+      "text": "get 82-83 con and boost with stew and crystal saw to 90",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nonbudget-002",
+      "title": "build ornate pool",
+      "text": "build ornate pool",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nonbudget-003",
+      "title": "build portal nexus and portal room …",
+      "text": "build portal nexus and portal room (1t faster compared to portal)",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "nonbudget-004",
+      "title": "unlock kourend caste teleport",
+      "text": "unlock kourend caste teleport",
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
+    },
+    {
+      "id": "nonbudget-005",
+      "title": "put kourend teleport in nexus and …",
+      "text": "put kourend teleport in nexus and lunar in portal room",
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
+    }
+  ]
+}

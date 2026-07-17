@@ -62,7 +62,7 @@
 
 ## Enrichment path (how auto-detection + arrows improve)
 
-Edit the section JSON under `src/main/resources/com/osirisguide/data/route/`:
+Edit the section JSON under `src/main/resources/com/gustavguide/data/route/`:
 - add `"complete": { "op": "quest", "quest": "COOKS_ASSISTANT", "state": "FINISHED" }` (or `item`/`varbit`)
   to make a step auto-complete;
 - add `"world": [x, y, plane]` and/or `"npc": <id>` / `"object": <id>` to light up arrows/highlights;

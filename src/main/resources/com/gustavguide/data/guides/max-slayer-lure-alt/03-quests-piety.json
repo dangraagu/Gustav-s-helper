@@ -1,0 +1,54 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Quests for piety",
+  "steps": [
+    {
+      "id": "quests-piety-001",
+      "title": "One small favour (2 QP) — …",
+      "text": "One small favour (2 QP) — smith some iron items for 30 smithing, Use lamps on agility",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 30,
+        "cmp": ">="
+      }
+    },
+    {
+      "id": "quests-piety-002",
+      "title": "Muder Mystery (3 QP)",
+      "text": "Muder Mystery (3 QP)",
+      "manual": true
+    },
+    {
+      "id": "quests-piety-003",
+      "title": "Black knights Fortress (3 QP)",
+      "text": "Black knights Fortress (3 QP)",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "quests-piety-004",
+      "title": "Kings ransom (1 QP) — use …",
+      "text": "Kings ransom (1 QP) — use lamp on woodcutting if doing sins of the father later",
+      "complete": {
+        "op": "quest",
+        "quest": "SINS_OF_THE_FATHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3729,
+        3318,
+        0
+      ]
+    }
+  ]
+}

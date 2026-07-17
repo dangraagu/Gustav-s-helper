@@ -1,0 +1,184 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Finishing up",
+  "steps": [
+    {
+      "id": "finishing-up-001",
+      "title": "(Optional) Go out of your way …",
+      "text": "(Optional) Go out of your way a bit to complete all the Recipe for Disaster subquests except Sir Amik Varze and King Awowogei",
+      "manual": true,
+      "npc": 4771,
+      "world": [
+        2959,
+        3339,
+        2
+      ]
+    },
+    {
+      "id": "finishing-up-002",
+      "title": "(Optional) Complete Monkey Madness I for …",
+      "text": "(Optional) Complete Monkey Madness I for a large amount of combat experience. — You could even go out of your way to get 70 cooking and do the monkey section of Recipe for Disaster right after Monkey Madness, as it is much easier to do them together. Additionally this makes getting a dragon scimitar much easier later on if you are not getting one now.",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-003",
+      "title": "Complete Temple of Ikov. — You …",
+      "text": "Complete Temple of Ikov. — You can use knives bought from Martin Thwait's Lost and Found to kill the boss if you have ice arrows equipped",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-004",
+      "title": "Complete Desert Treasure I. — Chop …",
+      "text": "Complete Desert Treasure I. — Chop the magic logs or get them from Wintertodt. — Do not buy an ancient staff. — You can use the diamonds on the pyramid as you get them, you don't have to get all 4 first.",
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2698,
+        3396,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-005",
+      "title": "Complete Underground Pass. — High alch …",
+      "text": "Complete Underground Pass. — High alch Iban's staff for 25,500 coins coins. — Alternatively, spend 200,000 coins coins to upgrade the staff and complete the medium Ardougne task. If you destroy the staff, you will have to pay 200,000 coins coins to re-buy it and then another 200,000 coins coins to upgrade. The upgraded staff high-level alchemizes for 51,000 coins coins.",
+      "complete": {
+        "op": "quest",
+        "quest": "UNDERGROUND_PASS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2572,
+        3296,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-006",
+      "title": "Complete Regicide",
+      "text": "Complete Regicide",
+      "complete": {
+        "op": "quest",
+        "quest": "REGICIDE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2572,
+        3296,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-007",
+      "title": "Complete Watchtower",
+      "text": "Complete Watchtower",
+      "complete": {
+        "op": "quest",
+        "quest": "WATCHTOWER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2548,
+        3119,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-008",
+      "title": "Complete Roving Elves. — Make some …",
+      "text": "Complete Roving Elves. — Make some rings of recoil and make an amulet of strength for the boss. — Also buy a Goblin paint cannon to make the fight easier. — Buy some Karambwans from Brimhaven for food. — Flinch the Moss Guardian if needed. — If you plan to use range for the combat sections in Song of the Elves then make sure to pick the bow. Also you will need to get 70 range at ammonite crabs to use it. Don't waste bow charges as it doesn't have that many, and the bow is very expensive to recharge. — If you have not finished other preparations for Song of the Elves and want to use the bow, keep in mind that once you get it you will have to hold on to it until you are finished preparing. It is untradeable as a bow so you can't bag it, and recharging it from a seed costs 750,000 coins coins. If you want to finish Mourning's End Part II early for the diary or Guardians of the Rift, consider just using the Dragon Scimitar for Song of the Elves instead of the bow.",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
+      "world": [
+        2808,
+        3192,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-009",
+      "title": "Complete Mourning's End Part I. — …",
+      "text": "Complete Mourning's End Part I. — Chop your own magic logs if you got 75 woodcutting, otherwise do Wintertodt for them",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2698,
+        3396,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-010",
+      "title": "Complete Mourning's End Part II",
+      "text": "Complete Mourning's End Part II",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2354,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-011",
+      "title": "If you are planning to use …",
+      "text": "If you are planning to use ranged for the quest, you need at least level 70 and a crystal bow. If you plan to use melee, you will need to train stats for that at ammonite crabs and use a dragon scimitar.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-012",
+      "title": "Complete Song of the Elves until …",
+      "text": "Complete Song of the Elves until the final boss fight. — Complete the quest one section at a time, don't try to collect all the items at the start. — You should have a cadantine seed from farming. — Get a runite bar from magpie implings. — Use either your dragon scimitar or crystal bow for the combat sections other than the final boss. — Death pile and knock out Mage Arena I and optionally Mage Arena II before prepping for the boss. — It may be possible to complete A Kingdom Divided now for a better off-hand, but it isn't needed.",
+      "complete": {
+        "op": "quest",
+        "quest": "A_KINGDOM_DIVIDED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1664,
+        3670,
+        0
+      ]
+    }
+  ]
+}

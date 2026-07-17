@@ -1,0 +1,25 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Farming",
+  "steps": [
+    {
+      "id": "farming-001",
+      "title": "Do Tithe Farm until level 65. …",
+      "text": "Do Tithe Farm until level 65. Then medium contracts and birdhouses will get you to at least 70. — If you are not 34 Farming, buy some plants in Falador and use them in your house to knock out the last bit of xp to get 34. — Going all the way to 85 Farming at Tithe Farm is an option as it unlocks hard contracts at the Farming guild. This will also increase the loot from master farmers. You will also get a decent amount of herbs from boxes. This is a tradeoff option though as training farming later with tree seeds is much easier than Tithe Farm. — A compromise would be to get 82 farming, and use garden pies from the cooking guild to boost to do hard contracts. You will have to wear a chef's hat to get into the cooking guild. You can store a chef's hat in the STASH unit outside of the clothes store at Varrock center.",
+      "complete": {
+        "op": "skill",
+        "skill": "FARMING",
+        "level": 85,
+        "cmp": ">="
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training",
+      "world": [
+        3144,
+        3450,
+        0
+      ]
+    }
+  ]
+}

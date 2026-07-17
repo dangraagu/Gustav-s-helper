@@ -1,0 +1,26 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Mining",
+  "steps": [
+    {
+      "id": "mining-001",
+      "title": "If you would like, you can …",
+      "text": "If you would like, you can get 72 Mining, complete Making Friends with My Arm for an extra patch and teleports",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 72,
+        "cmp": ">="
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training",
+      "npc": 742,
+      "world": [
+        2830,
+        3698,
+        0
+      ]
+    }
+  ]
+}

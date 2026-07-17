@@ -1,0 +1,55 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=669912848",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Intro & Overview",
+  "steps": [
+    {
+      "id": "intro-001",
+      "title": "IF you have followed all the …",
+      "text": "IF you have followed all the previous parts your alt should now have piety unlocked and 100 QP and 85+ combat and 75 Magic",
+      "manual": true
+    },
+    {
+      "id": "intro-002",
+      "title": "Having DS2 completed on an alt …",
+      "text": "Having DS2 completed on an alt has many benefits: Rune Dragons 1.5m gp/h, Vorkath 2-3m gp/h, Ferocious gloves, avas assembler, Wrath RC 1m+ gp/h",
+      "manual": true,
+      "npc": 8026,
+      "world": [
+        2273,
+        4065,
+        0
+      ]
+    },
+    {
+      "id": "intro-003",
+      "title": "But we still need to get …",
+      "text": "But we still need to get 100 QP more and level up some skills to meet the requirements",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "intro-004",
+      "title": "DO bird house until 60 hunter …",
+      "text": "DO bird house until 60 hunter if you plan on doing mm2",
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
+    },
+    {
+      "id": "intro-005",
+      "title": "Put combat quest xp on magic …",
+      "text": "Put combat quest xp on magic if not lvl 75 yet OR on strength",
+      "manual": true
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/User:AtelierLogic2/Guide:Ironman_PvM_Rush",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Armour and accessories",
+  "steps": [
+    {
+      "id": "gear-001",
+      "title": "Obtain all styles of Void Knight …",
+      "text": "Obtain all styles of Void Knight equipment and upgrade to Elite Void as fast as possible",
+      "manual": true,
+      "world": [
+        2656,
+        2656,
+        0
+      ]
+    },
+    {
+      "id": "gear-002",
+      "title": "Obtain a Berserker ring",
+      "text": "Obtain a Berserker ring",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6737,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 6737,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6737,
+      "world": [
+        2633,
+        9661,
+        0
+      ],
+      "npcs": [
+        2267
+      ]
+    },
+    {
+      "id": "gear-003",
+      "title": "Obtain an Amulet of glory",
+      "text": "Obtain an Amulet of glory",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1704,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1704,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1704
+    },
+    {
+      "id": "gear-004",
+      "title": "Obtain a Dragon defender",
+      "text": "Obtain a Dragon defender",
+      "manual": true,
+      "world": [
+        2842,
+        9992,
+        0
+      ]
+    },
+    {
+      "id": "gear-005",
+      "title": "Obtain the Mage Arena 2 (MA2) …",
+      "text": "Obtain the Mage Arena 2 (MA2) cape",
+      "complete": {
+        "op": "quest",
+        "quest": "MAGE_ARENA_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        3090,
+        3956,
+        0
+      ]
+    },
+    {
+      "id": "gear-006",
+      "title": "Obtain a green Ava's device (Ava's …",
+      "text": "Obtain a green Ava's device (Ava's accumulator)",
+      "manual": true,
+      "world": [
+        3094,
+        3357,
+        0
+      ],
+      "npcs": [
+        4407
+      ]
+    },
+    {
+      "id": "gear-007",
+      "title": "Once you reach ToA, obtain a …",
+      "text": "Once you reach ToA, obtain a Mage's book from the Mage Training Arena\nLocation: Mage Training Arena",
+      "manual": true,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    }
+  ]
+}

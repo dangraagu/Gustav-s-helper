@@ -1,0 +1,122 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Slayer setup & points",
+  "steps": [
+    {
+      "id": "slayer-points-001",
+      "title": "Buy amulet of Torture when 75hp …",
+      "text": "Buy amulet of Torture when 75hp if you have the money",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 19553,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 19553,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 19553
+    },
+    {
+      "id": "slayer-points-002",
+      "title": "Use bandos OR Obsidan armour ALWAYS …",
+      "text": "Use bandos OR Obsidan armour ALWAYS PRAY PIETY (can use monk robes for more afk)",
+      "manual": true
+    },
+    {
+      "id": "slayer-points-003",
+      "title": "Boost 9 tasks with Turael and …",
+      "text": "Boost 9 tasks with Turael and 10th with Nieve, do this three times so you have 180 points (if you get Black demon/fire giant/hellhoud/greaters on your first couple nieve tasks just do them)",
+      "manual": true,
+      "npc": 13433,
+      "world": [
+        2931,
+        3536,
+        0
+      ]
+    },
+    {
+      "id": "slayer-points-004",
+      "title": "Do Porcine of intrest for 30 …",
+      "text": "Do Porcine of intrest for 30 more slayer points and block Black demon and Fire Giant when you get them",
+      "manual": true,
+      "world": [
+        3204,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "slayer-points-005",
+      "title": "Keep doing this task list till …",
+      "text": "Keep doing this task list till 85 slayer or 93 if you want to lure smokes",
+      "manual": true
+    },
+    {
+      "id": "slayer-points-006",
+      "title": "85 slayer takes around 65 hours …",
+      "text": "85  slayer takes around 65 hours to get and 93 slayer around 140 hours",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "slayer-points-007",
+      "title": "Only go for 93 slayer if …",
+      "text": "Only go for 93 slayer if you plan on doing post 99 slayer on the main OR if you have enough gp to max already",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 93,
+        "cmp": ">="
+      },
+      "note": "Use the highest master you can: Konar (75 cb), Nieve/Steve (85 cb), then Duradel (100 cb+50 Slay); switch two masters for milestone points.",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
+    },
+    {
+      "id": "slayer-points-008",
+      "title": "AFTER you are done with slayer, …",
+      "text": "AFTER you are done with slayer, Get 70 agility for a ring of endurance for luring abyssal demons and dust devils",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "npc": 415,
+      "world": [
+        3420,
+        3569,
+        2
+      ]
+    },
+    {
+      "id": "slayer-points-009",
+      "title": "If stopping at 85 slayer, do …",
+      "text": "If stopping at 85 slayer, do Priest in Peril to get a nechryael task on your alt. Luring with a trident with high mage level and gear while being on task really speeds up the task",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3473,
+        0
+      ]
+    }
+  ]
+}

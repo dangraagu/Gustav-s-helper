@@ -1,0 +1,240 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=669912848",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Quests to 200 Quest Points",
+  "steps": [
+    {
+      "id": "to-200-qp-001",
+      "title": "need 20 quest points more",
+      "text": "need 20 quest points more",
+      "manual": true
+    },
+    {
+      "id": "to-200-qp-002",
+      "title": "Taste of hope (xp on agi …",
+      "text": "Taste of hope (xp on agi 3x)",
+      "manual": true
+    },
+    {
+      "id": "to-200-qp-003",
+      "title": "Get 62 wc",
+      "text": "Get 62 wc",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 62,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-004",
+      "title": "Get 60 fletching",
+      "text": "Get 60 fletching",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-005",
+      "title": "Sins of the father (xp 6 …",
+      "text": "Sins of the father (xp 6 times on mining)",
+      "complete": {
+        "op": "quest",
+        "quest": "SINS_OF_THE_FATHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3729,
+        3318,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-006",
+      "title": "Also able to kill vyrewatches now …",
+      "text": "Also able to kill vyrewatches now for GP (need to do recruitment drive, wanted!, slug manace, finish frem isles for bis prayer gear)",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-007",
+      "title": "The Giant Dwarf",
+      "text": "The Giant Dwarf",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "FINISHED"
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-008",
+      "title": "Lost tribe",
+      "text": "Lost tribe",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-009",
+      "title": "Death to the Dorg",
+      "text": "Death to the Dorg",
+      "manual": true
+    },
+    {
+      "id": "to-200-qp-010",
+      "title": "Another slice of HAM",
+      "text": "Another slice of HAM",
+      "manual": true,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-011",
+      "title": "Getting Ahead",
+      "text": "Getting Ahead",
+      "complete": {
+        "op": "quest",
+        "quest": "GETTING_AHEAD",
+        "state": "FINISHED"
+      },
+      "world": [
+        1248,
+        3686,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-012",
+      "title": "Tower of life",
+      "text": "Tower of life",
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2637,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-013",
+      "title": "Eagles Peak (dont bother if you …",
+      "text": "Eagles Peak (dont bother if you did recruitment drive, wanted!, slug manace, finish frem isles",
+      "manual": true
+    },
+    {
+      "id": "to-200-qp-014",
+      "title": "Garden of Death",
+      "text": "Garden of Death",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GARDEN_OF_DEATH",
+        "state": "FINISHED"
+      },
+      "world": [
+        1314,
+        3470,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-015",
+      "title": "Enlighted Journey",
+      "text": "Enlighted Journey",
+      "manual": true
+    },
+    {
+      "id": "to-200-qp-016",
+      "title": "Creature of fenkenstrain",
+      "text": "Creature of fenkenstrain",
+      "complete": {
+        "op": "quest",
+        "quest": "CREATURE_OF_FENKENSTRAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3492,
+        3474,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-017",
+      "title": "Observatory Quest (dont bother if you …",
+      "text": "Observatory Quest (dont bother if you did recruitment drive, wanted!, slug manace, finish frem isles",
+      "complete": {
+        "op": "quest",
+        "quest": "OBSERVATORY_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2442,
+        3186,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-018",
+      "title": "scorpion catcher",
+      "text": "scorpion catcher",
+      "complete": {
+        "op": "quest",
+        "quest": "SCORPION_CATCHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2701,
+        3408,
+        0
+      ]
+    },
+    {
+      "id": "to-200-qp-019",
+      "title": "200 QUEST POINTS",
+      "text": "200 QUEST POINTS",
+      "manual": true
+    }
+  ]
+}

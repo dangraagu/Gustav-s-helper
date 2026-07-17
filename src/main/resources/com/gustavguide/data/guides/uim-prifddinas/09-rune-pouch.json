@@ -1,0 +1,29 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Rune Pouch",
+  "steps": [
+    {
+      "id": "rune-pouch-001",
+      "title": "Clan wars teleport and do Last …",
+      "text": "Clan wars teleport and do Last Man Standing until you can purchase a rune pouch. Given the current state of Last Man Standing (Bots everywhere) you should go into each game and try to win the first fight. If you win, hide/run until there are 9 people remaining then suicide. This gives 2 points per fight you win. It is not worth trying to win the match as you will eventually run into an overpowered bot almost every game. If at any point you fight a bot, just let it kill you and report it, it isn't worth the time to fight it. — Even if you hate PvP, the rune pouch is an extremely important item for Ultimate Ironman that you will need eventually. The only other option for it is Slayer points boosting, which would be difficult this early in your account (You can't use the high level Slayer masters for points).",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "rune-pouch-002",
+      "title": "(Optional but recommended): Now that you …",
+      "text": "(Optional but recommended): Now that you have 55 Magic, you can do also do Last Man Standing for rune arrows to high level alchemy as you quest. This guide involves a lot of time walking, so this gives you something to do. How efficient doing this is depends on how many points you can get per hour. If you can get at least 15 points an hour, then this is a great way to make some extra cash and work on Magic xp (you need level 82 eventually). The guide will not be reminding you to do this, so it is on you.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

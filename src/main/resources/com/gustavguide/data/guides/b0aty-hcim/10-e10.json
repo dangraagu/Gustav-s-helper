@@ -1,0 +1,2197 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:B0aty_HCIM_Guide_V3",
+  "_license": "CC BY-NC-SA 3.0",
+  "section": "Episode 10 - Bank 180 through Inferno",
+  "steps": [
+    {
+      "id": "e10-001",
+      "title": "Head to Fossil Island",
+      "text": "Head to Fossil Island",
+      "world": [
+        3730,
+        3807,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3730,
+        "y": 3807,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-002",
+      "title": "Withdraw a Chisel & Uncut gems …",
+      "text": "Withdraw a Chisel & Uncut gems from Gauntlet",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1755,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1755,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1755,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-003",
+      "title": "Cut these Underwater while farming Seaweed …",
+      "text": "Cut these Underwater while farming Seaweed Spores & Seaweed from the patches",
+      "manual": true
+    },
+    {
+      "id": "e10-004",
+      "title": "Fletch Arrowshafts from Maple Logs 45-52 …",
+      "text": "Fletch Arrowshafts from Maple Logs 45-52 Fletching in similar style",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-005",
+      "title": "Depending how spooned your Enhanced(s) were …",
+      "text": "Depending how spooned your Enhanced(s) were depends on how much outstanding Mining we will need to do later for crafting as we will want an amulet of glory fairly soon (75+5 boost/80)",
+      "manual": true
+    },
+    {
+      "id": "e10-006a",
+      "title": "Teleport to Miscellania",
+      "text": "Teleport to Miscellania",
+      "world": [
+        2560,
+        3870,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2560,
+        "y": 3870,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-006b",
+      "title": "collect your resources (check allocation before …",
+      "text": "collect your resources (check allocation before to make sure they are atleast on x10 teaks)",
+      "manual": true,
+      "world": [
+        2560,
+        3870,
+        0
+      ]
+    },
+    {
+      "id": "e10-007",
+      "title": "Withdraw: Ardougne Cloak, Dramen Staff, Coins",
+      "text": "Withdraw: Ardougne Cloak, Dramen Staff, Coins",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 8,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "e10-008",
+      "title": "Ardy Cloak -> AIS",
+      "text": "Ardy Cloak -> AIS",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e10-009a",
+      "title": "Head North",
+      "text": "Head North",
+      "manual": true,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "e10-009b",
+      "title": "bank, withdrawing 27 Teak Logs",
+      "text": "bank, withdrawing 27 Teak Logs",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6333,
+            "qty": 27
+          },
+          {
+            "op": "item",
+            "id": 6333,
+            "qty": 27,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6333,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "e10-010",
+      "title": "Turn 27 Teak Logs into Planks …",
+      "text": "Turn 27 Teak Logs into Planks at the Sawmill North-West. You will need roughly 8,000 Teak Planks for 83 Construction Banked",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 83,
+        "cmp": ">="
+      },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
+      "npc": 3101,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "e10-011",
+      "title": "Buy 1x Bolt of Cloth",
+      "text": "Buy 1x Bolt of Cloth",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 8790,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 8790,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 8790,
+      "world": [
+        3207,
+        3415,
+        0
+      ]
+    },
+    {
+      "id": "e10-012",
+      "title": "Minigame teleport to Blast Furnace",
+      "text": "Minigame teleport to Blast Furnace",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "e10-013",
+      "title": "Depending on Coal/Iron in the bank, …",
+      "text": "Depending on Coal/Iron in the bank, buy 300 coal+Iron & make 300 Steel Bars at the Blast Furnace",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2353,
+            "qty": 302
+          },
+          {
+            "op": "item",
+            "id": 2353,
+            "qty": 302,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2353,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "e10-014a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e10-014b",
+      "title": "Teleport Runes to House, Falador, Varrock, …",
+      "text": "Teleport Runes to House, Falador, Varrock, Ardougne, Nature Runes, Noted Rune from Corrupted Gauntlet, 4x Steel Bars, Plank Sack, Inventory of Teak Planks",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-015",
+      "title": "Alch your Rune & Dragon Items …",
+      "text": "Alch your Rune & Dragon Items from Corrupted Gauntlet while training construction via Mahogany Homes until 83 Construction",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 83,
+        "cmp": ">="
+      },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
+    },
+    {
+      "id": "e10-016a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "e10-016b",
+      "title": "Teleport Runes, Camulet, Ardougne Cloak, Dramen …",
+      "text": "Teleport Runes, Camulet, Ardougne Cloak, Dramen Staff",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-017",
+      "title": "Minigame Teleport to Blast Furnace",
+      "text": "Minigame Teleport to Blast Furnace",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "e10-018",
+      "title": "Head West & buy 11x Gold …",
+      "text": "Head West & buy 11x Gold Leaves, 10x Marble Blocks, 15x Limestone Bricks, 1x Magic Stone",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3420,
+            "qty": 15
+          },
+          {
+            "op": "item",
+            "id": 3420,
+            "qty": 30,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3420,
+      "world": [
+        2849,
+        10185,
+        0
+      ]
+    },
+    {
+      "id": "e10-019",
+      "title": "Teleport to Yanille",
+      "text": "Teleport to Yanille",
+      "manual": true,
+      "object": 17047,
+      "world": [
+        2556,
+        3072,
+        0
+      ]
+    },
+    {
+      "id": "e10-020",
+      "title": "Buy 6,000 Soul Runes",
+      "text": "Buy 6,000 Soul Runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 566,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 566,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 566
+    },
+    {
+      "id": "e10-021",
+      "title": "Teleport to Falador",
+      "text": "Teleport to Falador",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-022",
+      "title": "Make 3x Duelling Rings (8), 3x …",
+      "text": "Make 3x Duelling Rings (8), 3x games necklace (8)",
+      "manual": true,
+      "world": [
+        2976,
+        3369,
+        0
+      ]
+    },
+    {
+      "id": "e10-023",
+      "title": "Ardy Cloak -> CIS",
+      "text": "Ardy Cloak -> CIS",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e10-024",
+      "title": "Talk to Tyss for Arceuss Signet",
+      "text": "Talk to Tyss for Arceuss Signet",
+      "manual": true,
+      "world": [
+        1714,
+        3883,
+        0
+      ],
+      "npcs": [
+        7050
+      ]
+    },
+    {
+      "id": "e10-025",
+      "title": "Ardy Cloak -> Zanaris",
+      "text": "Ardy Cloak -> Zanaris",
+      "manual": true,
+      "object": 2406,
+      "world": [
+        3202,
+        3169,
+        0
+      ]
+    },
+    {
+      "id": "e10-026",
+      "title": "Buy a Fairy Enchantment from Fairy …",
+      "text": "Buy a Fairy Enchantment from Fairy Fixit",
+      "manual": true,
+      "world": [
+        2413,
+        4434,
+        0
+      ]
+    },
+    {
+      "id": "e10-027",
+      "title": "Camulet",
+      "text": "Camulet",
+      "manual": true
+    },
+    {
+      "id": "e10-028",
+      "title": "Talk to Eblis for an Ancient …",
+      "text": "Talk to Eblis for an Ancient Signet",
+      "manual": true,
+      "npc": 688,
+      "world": [
+        3184,
+        2989,
+        0
+      ]
+    },
+    {
+      "id": "e10-029",
+      "title": "Bank anywhere",
+      "text": "Bank anywhere",
+      "manual": true
+    },
+    {
+      "id": "e10-030",
+      "title": "Withdraw: Bow of Faerdhinen & Crystal …",
+      "text": "Withdraw: Bow of Faerdhinen & Crystal Armour, Teleport Runes, Tinderbox, Coins, Guam Leaf, Marrentil, Pestle & Mortar, Hammer, Costume Needle, Axe, Pickaxe, Spade, Sapphire Lantern (16 Inventory Spaces)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 233,
+            "qty": 312
+          },
+          {
+            "op": "item",
+            "id": 233,
+            "qty": 312,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 233
+    },
+    {
+      "id": "e10-031",
+      "title": "Ardy Cloak -> CIP",
+      "text": "Ardy Cloak -> CIP",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e10-032",
+      "title": "Take boat to Relleka",
+      "text": "Take boat to Relleka",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e10-033",
+      "title": "Talk to Brundt [Lunar Diplomacy]",
+      "text": "Talk to Brundt [Lunar Diplomacy]",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2620,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "e10-034",
+      "title": "Complete Lunar Diplomacy",
+      "text": "Complete Lunar Diplomacy",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2620,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "e10-035",
+      "title": "Wield Seal of Passage",
+      "text": "Wield Seal of Passage",
+      "manual": true,
+      "item": 9083,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-036",
+      "title": "Bank at Lunar Bank (DO NOT …",
+      "text": "Bank at Lunar Bank (DO NOT DEPOSIT ALL ARMOUR SETS)",
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "e10-037",
+      "title": "Withdraw: Bow of Faerdhinen & Crystal …",
+      "text": "Withdraw: Bow of Faerdhinen & Crystal Armour, Seal of Passage, 3 lots of 7 random cooked food",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-038",
+      "title": "Complete Dream Mentor. (Bosses are a …",
+      "text": "Complete Dream Mentor. (Bosses are a breeze with Bow of Fardhinen. Safespot the 2nd & 3rd by the book)",
+      "complete": {
+        "op": "quest",
+        "quest": "DREAM_MENTOR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2142,
+        3944,
+        0
+      ]
+    },
+    {
+      "id": "e10-039",
+      "title": "Trade Baba Yaga & buy Lunar …",
+      "text": "Trade Baba Yaga & buy Lunar Signet & 11,000 Astrals Runes",
+      "manual": true,
+      "npc": 3836,
+      "world": [
+        2085,
+        3931,
+        0
+      ]
+    },
+    {
+      "id": "e10-040",
+      "title": "Withdraw: Bow of Fardhinen & Crystal …",
+      "text": "Withdraw: Bow of Fardhinen & Crystal Armour, TINDERBOX, Sapphire Lantern, Food & Potions, Duelling Ring, Astral Runes, Water & earth Runes, Waterskin",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 9075,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 9075,
+            "qty": 10001,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 9075,
+      "world": [
+        2101,
+        3919,
+        0
+      ]
+    },
+    {
+      "id": "e10-041",
+      "title": "Teleport to Emir’s Arena",
+      "text": "Teleport to Emir’s Arena",
+      "manual": true
+    },
+    {
+      "id": "e10-042",
+      "title": "Head South to Shantay Pass",
+      "text": "Head South to Shantay Pass",
+      "manual": true,
+      "npc": 4642,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "e10-043",
+      "title": "Take Carpet to Polnivneach",
+      "text": "Take Carpet to Polnivneach",
+      "manual": true,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "e10-044",
+      "title": "Once off, wait for your character …",
+      "text": "Once off, wait for your character to drink a waterskin, cast Humidify [Desert Hard Diary]",
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
+    },
+    {
+      "id": "e10-045",
+      "title": "Complete a lap of Pollnivneach Agility …",
+      "text": "Complete a lap of Pollnivneach Agility Course [Desert Hard Diary]",
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
+    },
+    {
+      "id": "e10-046",
+      "title": "Take Carpet to Sophanem",
+      "text": "Take Carpet to Sophanem",
+      "manual": true,
+      "world": [
+        3297,
+        2783,
+        0
+      ]
+    },
+    {
+      "id": "e10-047",
+      "title": "Talk to High Priest [1,4] [Contact!]",
+      "text": "Talk to High Priest [1,4] [Contact!]",
+      "complete": {
+        "op": "quest",
+        "quest": "CONTACT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3280,
+        2774,
+        0
+      ]
+    },
+    {
+      "id": "e10-048",
+      "title": "Continue Contact until you pick up …",
+      "text": "Continue Contact until you pick up the Keris",
+      "complete": {
+        "op": "quest",
+        "quest": "CONTACT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3281,
+        2772,
+        0
+      ]
+    },
+    {
+      "id": "e10-049",
+      "title": "Return to the maze & kill …",
+      "text": "Return to the maze & kill the ranger Locus Rider nearby [Desert Hard Diary]",
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
+    },
+    {
+      "id": "e10-050",
+      "title": "Complete Contact!",
+      "text": "Complete Contact!",
+      "complete": {
+        "op": "quest",
+        "quest": "CONTACT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3281,
+        2772,
+        0
+      ]
+    },
+    {
+      "id": "e10-051",
+      "title": "Head to Nardah",
+      "text": "Head to Nardah",
+      "manual": true,
+      "npc": 4756,
+      "world": [
+        3443,
+        2915,
+        0
+      ]
+    },
+    {
+      "id": "e10-052",
+      "title": "Withdraw: 5x Mithril Bars, Tinderbox & …",
+      "text": "Withdraw: 5x Mithril Bars, Tinderbox & 1x Yew Log",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2359,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 2359,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2359,
+      "world": [
+        3427,
+        2891,
+        0
+      ]
+    },
+    {
+      "id": "e10-053",
+      "title": "Light a fire on the Mayor’s …",
+      "text": "Light a fire on the Mayor’s Balcony [Desert Hard Diary]",
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
+    },
+    {
+      "id": "e10-054",
+      "title": "Smith a Mithril Platebody [Desert Hard …",
+      "text": "Smith a Mithril Platebody [Desert Hard Diary]",
+      "manual": true,
+      "world": [
+        3228,
+        3109,
+        0
+      ]
+    },
+    {
+      "id": "e10-055",
+      "title": "Bank at Nardah",
+      "text": "Bank at Nardah",
+      "manual": true,
+      "npc": 4756,
+      "world": [
+        3443,
+        2915,
+        0
+      ]
+    },
+    {
+      "id": "e10-056",
+      "title": "Withdraw: Blackjack, Noted Food, Coins, Rogues …",
+      "text": "Withdraw: Blackjack, Noted Food, Coins, Rogues Outfit",
+      "manual": true,
+      "world": [
+        3427,
+        2891,
+        0
+      ]
+    },
+    {
+      "id": "e10-057a",
+      "title": "Head to Pollnivneach",
+      "text": "Head to Pollnivneach",
+      "world": [
+        3358,
+        2974,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3358,
+        "y": 2974,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-057b",
+      "title": "train thieving until 71 (Blackjack Bandits …",
+      "text": "train thieving until 71 (Blackjack Bandits until 65 then Menaphites to 71)",
+      "manual": true,
+      "npc": 3549,
+      "world": [
+        3347,
+        2955,
+        0
+      ]
+    },
+    {
+      "id": "e10-058",
+      "title": "Take Carpet to Sophanem",
+      "text": "Take Carpet to Sophanem",
+      "manual": true,
+      "world": [
+        3297,
+        2783,
+        0
+      ]
+    },
+    {
+      "id": "e10-059",
+      "title": "Bank at Contact! bank",
+      "text": "Bank at Contact! bank",
+      "complete": {
+        "op": "quest",
+        "quest": "CONTACT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3312,
+        2799,
+        0
+      ]
+    },
+    {
+      "id": "e10-060",
+      "title": "Withdraw: Food, Lockpick, Cure Me Spells",
+      "text": "Withdraw: Food, Lockpick, Cure Me Spells",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1523,
+            "qty": 52
+          },
+          {
+            "op": "item",
+            "id": 1523,
+            "qty": 52,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1523,
+      "world": [
+        3312,
+        2799,
+        0
+      ]
+    },
+    {
+      "id": "e10-061",
+      "title": "Go to Pyramid Plunder & Loot …",
+      "text": "Go to Pyramid Plunder & Loot all Gold Chests until Room 6, and all Sarcophagus’ during & after Room 4 (6 Gold Chests, 3 Sacrophagus’)",
+      "manual": true,
+      "object": 26622,
+      "world": [
+        3289,
+        2800,
+        0
+      ]
+    },
+    {
+      "id": "e10-062",
+      "title": "Repeat until you find a Pharaoh’s …",
+      "text": "Repeat until you find a Pharaoh’s Sceptre (Roughly 4 hours)",
+      "manual": true
+    },
+    {
+      "id": "e10-063",
+      "title": "Use all Sceptre Charges so it …",
+      "text": "Use all Sceptre Charges so it is empty",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-064",
+      "title": "If you spoon it, finish 72 …",
+      "text": "If you spoon it, finish 72 Thieving off at either Menaphites or Pyramid Plunder (Looting Room 5 & 6 fully)",
+      "manual": true,
+      "npc": 3549,
+      "world": [
+        3347,
+        2955,
+        0
+      ]
+    },
+    {
+      "id": "e10-065a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
+      "world": [
+        3427,
+        2891,
+        0
+      ]
+    },
+    {
+      "id": "e10-065b",
+      "title": "Teleport Runes, Hammer, Crystal Saw, 2x …",
+      "text": "Teleport Runes, Hammer, Crystal Saw, 2x Mahogany planks, 3x Gold Leaf, 8x Marble Block, Bolt of Cloth, Steel Bar, 3x Duelling Ring (8), 3x games necklace (8)",
+      "manual": true
+    },
+    {
+      "id": "e10-066",
+      "title": "Home Teleport to Lunar Isle",
+      "text": "Home Teleport to Lunar Isle",
+      "manual": true,
+      "object": 16961,
+      "world": [
+        2127,
+        3893,
+        2
+      ]
+    },
+    {
+      "id": "e10-067",
+      "title": "Swift back to Regular Spellbook",
+      "text": "Swift back to Regular Spellbook",
+      "manual": true
+    },
+    {
+      "id": "e10-068",
+      "title": "Teleport to Player Owned House",
+      "text": "Teleport to Player Owned House",
+      "manual": true
+    },
+    {
+      "id": "e10-069",
+      "title": "Use the building mode to move …",
+      "text": "Use the building mode to move all the rooms away",
+      "manual": true,
+      "world": [
+        2127,
+        3893,
+        2
+      ]
+    },
+    {
+      "id": "e10-070",
+      "title": "Build a superior garden immediately North …",
+      "text": "Build a superior garden immediately North of the portal. (rotate for the pool to be close to portal)",
+      "manual": true
+    },
+    {
+      "id": "e10-071",
+      "title": "Build an Achievement Gallery West of …",
+      "text": "Build an Achievement Gallery West of the portal. (rotate for the jewellery box to be close to portal)",
+      "manual": true
+    },
+    {
+      "id": "e10-072",
+      "title": "Build/Move a Study East of the …",
+      "text": "Build/Move a Study East of the Portal",
+      "manual": true
+    },
+    {
+      "id": "e10-073",
+      "title": "Build a portal nexus West of …",
+      "text": "Build a portal nexus West of the superior garden",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "e10-074",
+      "title": "Build a Marble portal nexus. Upgrade …",
+      "text": "Build a Marble portal nexus. Upgrade it to Gilded portal nexus",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "e10-075",
+      "title": "It is your choice what teleports …",
+      "text": "It is your choice what teleports to put in this. I personally had Kourend Castle & Lunar Isle as musts, and the rest were the standard spellbook teleports. Kharyrll for Morytania Diary",
+      "manual": true,
+      "object": 18258,
+      "world": [
+        1617,
+        3673,
+        2
+      ]
+    },
+    {
+      "id": "e10-076",
+      "title": "Build a Mahogany EAGLE Lecturn in …",
+      "text": "Build a Mahogany EAGLE Lecturn in the Study",
+      "manual": true,
+      "object": 19922,
+      "world": [
+        2005,
+        4972,
+        3
+      ]
+    },
+    {
+      "id": "e10-077",
+      "title": "Build a Basic Jewellery Box in …",
+      "text": "Build a Basic Jewellery Box in the Achievement Gallery",
+      "manual": true
+    },
+    {
+      "id": "e10-078a",
+      "title": "Bank at Castle Wars via your …",
+      "text": "Bank at Castle Wars via your Jewellery box",
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "e10-078b",
+      "title": "withdraw: 10x Limestone Bricks, Magic Stone, …",
+      "text": "withdraw: 10x Limestone Bricks, Magic Stone, 5000 Blood & Soul Runes, Arceuss Signet",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3420,
+            "qty": 25
+          },
+          {
+            "op": "item",
+            "id": 3420,
+            "qty": 30,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3420,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
+    },
+    {
+      "id": "e10-079",
+      "title": "Build a Dark Altar in the …",
+      "text": "Build a Dark Altar in the Achievement Gallery",
+      "manual": true,
+      "npc": 7753,
+      "world": [
+        2455,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "e10-080",
+      "title": "Withdraw: Wily Cat, Stews, Pharaoh’s Sceptre, …",
+      "text": "Withdraw: Wily Cat, Stews, Pharaoh’s Sceptre, Ancient Signet, Lunar Signet, 10000 Astral Runes, Hammer, Crystal saw",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 9075,
+            "qty": 10001
+          },
+          {
+            "op": "item",
+            "id": 9075,
+            "qty": 10001,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 9075
+    },
+    {
+      "id": "e10-081a",
+      "title": "Catch Rats",
+      "text": "Catch Rats",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-081b",
+      "title": "use Orange Spice to Boost Construction",
+      "text": "use Orange Spice to Boost Construction",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-082",
+      "title": "If you get a +2 boost …",
+      "text": "If you get a +2 boost (85+), you can bank, make the Fairy Ring in the POH as you will have time",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-083a",
+      "title": "When you get a +5 boost …",
+      "text": "When you get a +5 boost (88), pick up your cat",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-083b",
+      "title": "teleport to POH",
+      "text": "teleport to POH",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-083c",
+      "title": "make the Occult Altar in the …",
+      "text": "make the Occult Altar in the Achievement Gallery",
+      "manual": true,
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "e10-084a",
+      "title": "Withdraw: Dramen Staff",
+      "text": "Withdraw: Dramen Staff",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 6
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 8,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "e10-084b",
+      "title": "Teleport Runes",
+      "text": "Teleport Runes",
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "e10-085",
+      "title": "Teleport to POH -> AJP",
+      "text": "Teleport to POH -> AJP",
+      "manual": true
+    },
+    {
+      "id": "e10-086",
+      "title": "Head to Mastering Mixology and dump …",
+      "text": "Head to Mastering Mixology and dump a good portion of your herbs here",
+      "world": [
+        1389,
+        2918,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1389,
+        "y": 2918,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-087",
+      "title": "Use Harralanders, Avantoe(some Kwuarm) & Irits …",
+      "text": "Use Harralanders, Avantoe(some Kwuarm) & Irits in Mastering Mixology (Don't grind them all incase the ratios aren't correct. 10k+ is good then top up). Don’t use all your Kwuarms as you will need them",
+      "manual": true,
+      "world": [
+        1389,
+        2918,
+        0
+      ]
+    },
+    {
+      "id": "e10-088",
+      "title": "Buy the goggles/Amulet if you haven’t …",
+      "text": "Buy the goggles/Amulet if you haven’t already",
+      "manual": true,
+      "world": [
+        1413,
+        2972,
+        0
+      ]
+    },
+    {
+      "id": "e10-089a",
+      "title": "Withdraw: Dramen Staff",
+      "text": "Withdraw: Dramen Staff",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 8,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
+    },
+    {
+      "id": "e10-089b",
+      "title": "Teleport Runes, Coins, Brimhaven Vouchers",
+      "text": "Teleport Runes, Coins, Brimhaven Vouchers",
+      "manual": true,
+      "object": 10805,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
+    },
+    {
+      "id": "e10-090",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-091",
+      "title": "Take the boat to Brimhaven",
+      "text": "Take the boat to Brimhaven",
+      "manual": true,
+      "object": 10805,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
+    },
+    {
+      "id": "e10-092",
+      "title": "Buy Amylase packs from Pirate Jackie …",
+      "text": "Buy Amylase packs from Pirate Jackie the Fruit",
+      "manual": true,
+      "npc": 7650,
+      "world": [
+        2810,
+        3192,
+        0
+      ]
+    },
+    {
+      "id": "e10-093",
+      "title": "Boost if needed, make 10 Stamina …",
+      "text": "Boost if needed, make 10 Stamina Potions (4), 10 Super Restores (4), 10 Prayer Potions (4)",
+      "manual": true
+    },
+    {
+      "id": "e10-094",
+      "title": "Bank all",
+      "text": "Bank all",
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
+    },
+    {
+      "id": "e10-095",
+      "title": "Withdraw: Teleport Runes, Hammer, Crystal Saw, …",
+      "text": "Withdraw: Teleport Runes, Hammer, Crystal Saw, 5 Limestone Bricks, 5 Buckets of Water, 1,000 Soul Runes, 1,000 Body Runes, 10 Stamina Potions (4)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3420,
+            "qty": 30
+          },
+          {
+            "op": "item",
+            "id": 3420,
+            "qty": 30,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3420
+    },
+    {
+      "id": "e10-096",
+      "title": "Teleport to POH",
+      "text": "Teleport to POH",
+      "manual": true
+    },
+    {
+      "id": "e10-097",
+      "title": "Make a Restoration Pool then upgrade …",
+      "text": "Make a Restoration Pool then upgrade it to a Revitalisation Pool",
+      "manual": true,
+      "world": [
+        2543,
+        5144,
+        0
+      ]
+    },
+    {
+      "id": "e10-098",
+      "title": "Teleport to Castle Wars via Jewellry …",
+      "text": "Teleport to Castle Wars via Jewellry Box",
+      "world": [
+        2407,
+        3105,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-099",
+      "title": "Withdraw: 10x Prayer Potions (4), 10x …",
+      "text": "Withdraw: 10x Prayer Potions (4), 10x Super Restores (4) & 2x Marble Blocks",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 8786,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 8786,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 8786,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
+    },
+    {
+      "id": "e10-100",
+      "title": "Teleport to POH",
+      "text": "Teleport to POH",
+      "manual": true
+    },
+    {
+      "id": "e10-101",
+      "title": "Upgrade your pool to a Fancy …",
+      "text": "Upgrade your pool to a Fancy Rejuvination Pool. (You need 82 Herblore so it will take a while)",
+      "manual": true
+    },
+    {
+      "id": "e10-102",
+      "title": "Teleport to Castle Wars via Jewellry …",
+      "text": "Teleport to Castle Wars via Jewellry Box",
+      "world": [
+        2407,
+        3105,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2407,
+        "y": 3105,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-103",
+      "title": "Bank All",
+      "text": "Bank All",
+      "manual": true,
+      "world": [
+        2352,
+        3162,
+        0
+      ]
+    },
+    {
+      "id": "e10-104",
+      "title": "If you are 80 crafting from …",
+      "text": "If you are 80 crafting from the gems & battlestaffs then you can immediately skip to the glory steps. Else you may need to craft a bit & sending 85 for a fury instantly which isn’t a bad idea.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-105",
+      "title": "Withdraw: Pickaxe, Varrock Armour 2, Desert …",
+      "text": "Withdraw: Pickaxe, Varrock Armour 2, Desert Robe Bottom & Boots, Camulet, Knife, Teak Log, Astral, Fire, Water Runes, Rune pouch, 3x Waterskins",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1835,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1835,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1835,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "e10-106",
+      "title": "Put the Humidify Runes in the …",
+      "text": "Put the Humidify Runes in the Rune Pouch",
+      "manual": true
+    },
+    {
+      "id": "e10-107",
+      "title": "Camulet",
+      "text": "Camulet",
+      "manual": true
+    },
+    {
+      "id": "e10-108",
+      "title": "Mine Sandstone and put in the …",
+      "text": "Mine Sandstone and put in the grinder until you have enough for 80 or 85 respectively (your choice; i’d recommend 85 to get it out of the way)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-109",
+      "title": "Buy Empty buckets from Farming shops …",
+      "text": "Buy Empty buckets from Farming shops to withdraw them from the grinder",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 31
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 31,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1925,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "e10-110",
+      "title": "Withdraw: 3x Giant Seaweed & 18 …",
+      "text": "Withdraw: 3x Giant Seaweed & 18 Sand with Superglass make runes in the Rune Pouch",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 21504,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 21504,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 21504,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "e10-111a",
+      "title": "Use Superglass Make on Lunar spellbook",
+      "text": "Use Superglass Make on Lunar spellbook",
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "e10-111b",
+      "title": "bank the molten glass. (It is …",
+      "text": "bank the molten glass. (It is not worth picking surplus glass off the ground so it is recommended to leave it)",
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "e10-112",
+      "title": "Blow the glass into the best …",
+      "text": "Blow the glass into the best option for XP until 80/85 Crafting",
+      "manual": true
+    },
+    {
+      "id": "e10-113",
+      "title": "Withdraw: Teleport Runes, Cosmic Runes, games …",
+      "text": "Withdraw: Teleport Runes, Cosmic Runes, games necklace, Cut Dragonstone, Gold Bar, Amulet Mould, Ball of Wool. If 85 Crafting also withdraw Karamja Gloves, Dramen Staff, Chisel, Ball of Wool, Wily Cat, Stews & 29,000 Chaos Runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1595,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1595,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1595,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "e10-114",
+      "title": "Home teleport to Lunar Isle & …",
+      "text": "Home teleport to Lunar Isle & return to regular Spellbook",
+      "manual": true,
+      "object": 16961,
+      "world": [
+        2127,
+        3893,
+        2
+      ]
+    },
+    {
+      "id": "e10-115",
+      "title": "Teleport to Falador",
+      "text": "Teleport to Falador",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-116",
+      "title": "Make the Dragonstone Amulet, string it …",
+      "text": "Make the Dragonstone Amulet, string it and enchant it",
+      "manual": true,
+      "world": [
+        2976,
+        3369,
+        0
+      ]
+    },
+    {
+      "id": "e10-117a",
+      "title": "Teleport to Burthorpe",
+      "text": "Teleport to Burthorpe",
+      "world": [
+        2870,
+        3544,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2870,
+        "y": 3544,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-117b",
+      "title": "head to the Heroes Guild",
+      "text": "head to the Heroes Guild",
+      "world": [
+        2893,
+        3510,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2893,
+        "y": 3510,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-118",
+      "title": "Charge the Glory Amulet in the …",
+      "text": "Charge the Glory Amulet in the fountain",
+      "manual": true,
+      "world": [
+        2918,
+        9894,
+        0
+      ]
+    },
+    {
+      "id": "e10-119",
+      "title": "Teleport to POH -> BLP",
+      "text": "Teleport to POH -> BLP",
+      "manual": true
+    },
+    {
+      "id": "e10-120",
+      "title": "Sell 29,000 Chaos Runes for Tokkul …",
+      "text": "Sell 29,000 Chaos Runes for Tokkul & buy an Onyx (wear the Karamja Gloves so they cost 260,000 Tokkul",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 562,
+            "qty": 401
+          },
+          {
+            "op": "item",
+            "id": 562,
+            "qty": 401,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 562,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "e10-121",
+      "title": "Cut the onyx",
+      "text": "Cut the onyx",
+      "manual": true
+    },
+    {
+      "id": "e10-122",
+      "title": "Use your freshly charged Glory to …",
+      "text": "Use your freshly charged Glory to teleport to Edgeville",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "e10-123",
+      "title": "Catch rats for Orange Spices for …",
+      "text": "Catch rats for Orange Spices for a +5 boost crafting boost",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-124a",
+      "title": "When you get it, teleport to …",
+      "text": "When you get it, teleport to Edgeville",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "e10-124b",
+      "title": "make the Onyx Amulet of the …",
+      "text": "make the Onyx Amulet of the Furnace",
+      "manual": true,
+      "world": [
+        3110,
+        3499,
+        0
+      ]
+    },
+    {
+      "id": "e10-125",
+      "title": "String the Amulet & enchant it …",
+      "text": "String the Amulet & enchant it for Amulet of Fury",
+      "manual": true,
+      "world": [
+        3110,
+        3499,
+        0
+      ]
+    },
+    {
+      "id": "e10-126",
+      "title": "Bank at Edgeville Bank",
+      "text": "Bank at Edgeville Bank",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "e10-127",
+      "title": "If you haven’t got 44 RuneCraft …",
+      "text": "If you haven’t got 44 RuneCraft go to Guardians of the Rift, get this level quickly (This level varies on Sulphua Nagua drops)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-128",
+      "title": "Complete the Karamja Hard Diary",
+      "text": "Complete the Karamja Hard Diary",
+      "manual": true,
+      "world": [
+        2857,
+        3169,
+        0
+      ]
+    },
+    {
+      "id": "e10-129",
+      "title": "Use Lamp on Herblore",
+      "text": "Use Lamp on Herblore",
+      "manual": true,
+      "world": [
+        2857,
+        3169,
+        0
+      ]
+    },
+    {
+      "id": "e10-130",
+      "title": "Wield the Karamja Gloves & teleport …",
+      "text": "Wield the Karamja Gloves & teleport to Gem Mine",
+      "manual": true,
+      "item": 11140,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "e10-131",
+      "title": "Bank at Shilo Village",
+      "text": "Bank at Shilo Village",
+      "complete": {
+        "op": "quest",
+        "quest": "SHILO_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2852,
+        2955,
+        0
+      ]
+    },
+    {
+      "id": "e10-132",
+      "title": "Withdraw: Teak Logs, Knife, Adamant Pickaxe, …",
+      "text": "Withdraw: Teak Logs, Knife, Adamant Pickaxe, Chisel, Karamja Gloves 3, amulet of glory",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1271,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 1271,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1271,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "e10-133",
+      "title": "Make sure your amulet of glory …",
+      "text": "Make sure your amulet of glory has 1 charge minimum",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-134",
+      "title": "Teleport on your Karamja Gloves",
+      "text": "Teleport on your Karamja Gloves",
+      "world": [
+        2843,
+        3070,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2843,
+        "y": 3070,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-135",
+      "title": "Mine Gem Rocks for Opals: Expeditious …",
+      "text": "Mine Gem Rocks for Opals: Expeditious Bracelets, Jades: Amulet of Chemistry, Topaz: Slaughter Bracelets",
+      "manual": true,
+      "world": [
+        2835,
+        9398,
+        0
+      ]
+    },
+    {
+      "id": "e10-136",
+      "title": "Get around 30 Topaz, 100 Opals …",
+      "text": "Get around 30 Topaz, 100 Opals and 50 Jades",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "e10-137",
+      "title": "Minigame Teleport to Blast Furnace",
+      "text": "Minigame Teleport to Blast Furnace",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "e10-138a",
+      "title": "Buy",
+      "text": "Buy",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "e10-138b",
+      "title": "smelt 150+ Silver Bars",
+      "text": "smelt 150+ Silver Bars",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "e10-139a",
+      "title": "Teleport to Falador",
+      "text": "Teleport to Falador",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e10-139b",
+      "title": "make all Opals into Expeditious Bracelets, …",
+      "text": "make all Opals into Expeditious Bracelets, Jades into Amulets of Chemistry, Topaz into Slaughter Bracelets",
+      "manual": true,
+      "world": [
+        2976,
+        3369,
+        0
+      ]
+    },
+    {
+      "id": "e10-140",
+      "title": "Buy Balls of Wool at Ardougne …",
+      "text": "Buy Balls of Wool at Ardougne if needed",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1737,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 1737,
+            "qty": 7,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1737,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "e10-141",
+      "title": "Use the Amulets of Chemistry on …",
+      "text": "Use the Amulets of Chemistry on your Alchemist’s Amulet",
+      "manual": true,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "e10-142",
+      "title": "Use Remaining Herbs to 76+ Herblore",
+      "text": "Use Remaining Herbs to 76+ Herblore",
+      "manual": true,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "e10-143",
+      "title": "Make some Divine Super Strength Potions …",
+      "text": "Make some Divine Super Strength Potions & Divine Magic Potions (if under 94 magic)",
+      "manual": true,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "e10-144a",
+      "title": "If you reach 76, use a …",
+      "text": "If you reach 76, use a brown spice +5 boost to make Saradomin Brews. If 77",
+      "manual": true
+    },
+    {
+      "id": "e10-144b",
+      "title": "use a Golovanova Pie",
+      "text": "use a Golovanova Pie",
+      "manual": true,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "e10-145",
+      "title": "Complete the Inferno (This depends how …",
+      "text": "Complete the Inferno (This depends how versed you are with The Inferno with a Bowfa and no blowpipe etc. Otherwise do the Inferno whenever you feel comfortable to doing it. The guide won’t mention when to, but this is when I did mine.",
+      "manual": true
+    }
+  ]
+}

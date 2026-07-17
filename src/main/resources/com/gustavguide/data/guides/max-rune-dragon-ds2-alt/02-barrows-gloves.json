@@ -1,0 +1,789 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=669912848",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Quests & Skills to Barrows Gloves",
+  "steps": [
+    {
+      "id": "barrows-gloves-001",
+      "title": "Priest in Peril",
+      "text": "Priest in Peril",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "barrows-gloves-002",
+      "title": "Ernest the chicken",
+      "text": "Ernest the chicken",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-003",
+      "title": "Ghosts Ahoy",
+      "text": "Ghosts Ahoy",
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3660,
+        3508,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-004",
+      "title": "Animal Megnetism",
+      "text": "Animal Megnetism",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-005",
+      "title": "Gerturde's Cat",
+      "text": "Gerturde's Cat",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-006",
+      "title": "Itchlarin's Little Helper",
+      "text": "Itchlarin's Little Helper",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-007",
+      "title": "A Tail of Two Cats (lamps …",
+      "text": "A Tail of Two Cats (lamps on agility)",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2919,
+        3559,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-008",
+      "title": "Death Plateau",
+      "text": "Death Plateau",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_PLATEAU",
+        "state": "FINISHED"
+      },
+      "world": [
+        2896,
+        3529,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-009",
+      "title": "Troll stronghold",
+      "text": "Troll stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "TROLL_STRONGHOLD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2895,
+        3528,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-010",
+      "title": "Troll Romance",
+      "text": "Troll Romance",
+      "complete": {
+        "op": "quest",
+        "quest": "TROLL_ROMANCE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2839,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-011",
+      "title": "Get 31 herblore",
+      "text": "Get 31 herblore",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 31,
+        "cmp": ">="
+      },
+      "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-012",
+      "title": "Eadgars Ruse (get 3 goutweed!!)",
+      "text": "Eadgars Ruse (get 3 goutweed!!)",
+      "manual": true,
+      "world": [
+        2899,
+        3429,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-013",
+      "title": "Dream mentor",
+      "text": "Dream mentor",
+      "complete": {
+        "op": "quest",
+        "quest": "DREAM_MENTOR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2142,
+        3944,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-014",
+      "title": "Get 41 thieving (fruit stalls)",
+      "text": "Get 41 thieving (fruit stalls)",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 41,
+        "cmp": ">="
+      },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-015",
+      "title": "Nature spirit",
+      "text": "Nature spirit",
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3405,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-016",
+      "title": "In search of the Myreque",
+      "text": "In search of the Myreque",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_SEARCH_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3503,
+        3477,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-017",
+      "title": "In aid of the Myreque",
+      "text": "In aid of the Myreque",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_AID_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3506,
+        9837,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-018",
+      "title": "Darkness of Hallowvale (3x reward on …",
+      "text": "Darkness of Hallowvale (3x reward on agility)",
+      "complete": {
+        "op": "quest",
+        "quest": "DARKNESS_OF_HALLOWVALE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3490,
+        9632,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-019",
+      "title": "The Feud",
+      "text": "The Feud",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "FINISHED"
+      },
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-020",
+      "title": "Get 49 thieving (blackjack)",
+      "text": "Get 49 thieving (blackjack)",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 49,
+        "cmp": ">="
+      },
+      "note": "Blackjack bandits in Pollnivneach (needs partial The Feud) with rogue equipment + Saradomin brews.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-021",
+      "title": "Queen of thieves",
+      "text": "Queen of thieves",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_QUEEN_OF_THIEVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        1796,
+        3781,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-022",
+      "title": "Get 75% favour with sand worms",
+      "text": "Get 75% favour with sand worms",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-023a",
+      "title": "Get 60 thieving (artefacts no teleport",
+      "text": "Get 60 thieving (artefacts no teleport",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-023b",
+      "title": "make use of the bridge safespot) …",
+      "text": "make use of the bridge safespot) https://i.imgur.com/x0e3te6.png",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-024",
+      "title": "Get 67 cooking (grow your cat!)",
+      "text": "Get 67 cooking (grow your cat!)",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 67,
+        "cmp": ">="
+      },
+      "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-025",
+      "title": "Get 49 agility (canifis for marks …",
+      "text": "Get 49 agility (canifis for marks or shaziyen adv. course at 45 with summer pies)",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 49,
+        "cmp": ">="
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-026",
+      "title": "RFD monkey (boost with chefs delight)",
+      "text": "RFD monkey (boost with chefs delight)",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-027",
+      "title": "Underground Pass",
+      "text": "Underground Pass",
+      "complete": {
+        "op": "quest",
+        "quest": "UNDERGROUND_PASS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2572,
+        3296,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-028",
+      "title": "Get 50 slayer (cannon stuff in …",
+      "text": "Get 50 slayer (cannon stuff in nieve cave, can look at slayer alt page for more info)",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 50,
+        "cmp": ">="
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
+      "npc": 6797,
+      "world": [
+        2432,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-029",
+      "title": "Dragon slayer 1",
+      "text": "Dragon slayer 1",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3190,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-030",
+      "title": "Shield of arrav",
+      "text": "Shield of arrav",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "barrows-gloves-031",
+      "title": "Get 48 Fishing",
+      "text": "Get 48 Fishing",
+      "complete": {
+        "op": "skill",
+        "skill": "FISHING",
+        "level": 48,
+        "cmp": ">="
+      },
+      "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-032",
+      "title": "Heroes Quest (boost with admiral pie …",
+      "text": "Heroes Quest (boost with admiral pie and chefs delight for the eel part)",
+      "complete": {
+        "op": "quest",
+        "quest": "HEROES_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2904,
+        3511,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-033",
+      "title": "Family crest",
+      "text": "Family crest",
+      "complete": {
+        "op": "quest",
+        "quest": "FAMILY_CREST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3280,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-034",
+      "title": "Get 60 smithing (gold at BF)",
+      "text": "Get 60 smithing (gold at BF)",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-035",
+      "title": "Get 48 Herblore",
+      "text": "Get 48 Herblore",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 48,
+        "cmp": ">="
+      },
+      "note": "Make Super attack (45) -> Super energy (52) -> Super strength (55) -> Super restore (63); always the highest-XP potion you can afford.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-036",
+      "title": "Legends Quest (all xp lamps on …",
+      "text": "Legends Quest (all xp lamps on agility)",
+      "complete": {
+        "op": "quest",
+        "quest": "LEGENDS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2729,
+        3348,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-037",
+      "title": "Big chompy bird hunting",
+      "text": "Big chompy bird hunting",
+      "complete": {
+        "op": "quest",
+        "quest": "BIG_CHOMPY_BIRD_HUNTING",
+        "state": "FINISHED"
+      },
+      "world": [
+        2631,
+        2982,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-038",
+      "title": "The golem",
+      "text": "The golem",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-039",
+      "title": "Demon slayer",
+      "text": "Demon slayer",
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3204,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-040",
+      "title": "Shadow of the storm",
+      "text": "Shadow of the storm",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOW_OF_THE_STORM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3270,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-041",
+      "title": "Temple of Ikov",
+      "text": "Temple of Ikov",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-042",
+      "title": "Desert Treasure I",
+      "text": "Desert Treasure I",
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3177,
+        3043,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-043",
+      "title": "RFD Goblin",
+      "text": "RFD Goblin",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-044",
+      "title": "RFD Pirate",
+      "text": "RFD Pirate",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-045",
+      "title": "RFD Lumby G",
+      "text": "RFD Lumby G",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-046",
+      "title": "RFD Evil Dave",
+      "text": "RFD Evil Dave",
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-047",
+      "title": "RFD Ogre",
+      "text": "RFD Ogre",
+      "manual": true,
+      "npc": 2095,
+      "world": [
+        2570,
+        2975,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-048",
+      "title": "RFD Varze",
+      "text": "RFD Varze",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-049",
+      "title": "Tai bwo wannai trio",
+      "text": "Tai bwo wannai trio",
+      "complete": {
+        "op": "quest",
+        "quest": "TAI_BWO_WANNAI_TRIO",
+        "state": "FINISHED"
+      },
+      "world": [
+        2782,
+        3087,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-050",
+      "title": "shades of morton",
+      "text": "shades of morton",
+      "manual": true,
+      "world": [
+        2782,
+        3087,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-051",
+      "title": "Haunted mine",
+      "text": "Haunted mine",
+      "complete": {
+        "op": "quest",
+        "quest": "HAUNTED_MINE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3443,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-052",
+      "title": "Tears of Guthix",
+      "text": "Tears of Guthix",
+      "complete": {
+        "op": "quest",
+        "quest": "TEARS_OF_GUTHIX",
+        "state": "FINISHED"
+      },
+      "world": [
+        3169,
+        3172,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-053",
+      "title": "Making history",
+      "text": "Making history",
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_HISTORY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2436,
+        3346,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-054",
+      "title": "Prince ali",
+      "text": "Prince ali",
+      "manual": true,
+      "npc": 11579,
+      "world": [
+        3123,
+        3240,
+        0
+      ]
+    },
+    {
+      "id": "barrows-gloves-055",
+      "title": "Pirate treasure",
+      "text": "Pirate treasure",
+      "manual": true
+    },
+    {
+      "id": "barrows-gloves-056",
+      "title": "RFD Culinaromancer (lamp on agility)",
+      "text": "RFD Culinaromancer (lamp on agility)",
+      "manual": true,
+      "npc": 4878,
+      "world": [
+        1900,
+        5355,
+        2
+      ]
+    },
+    {
+      "id": "barrows-gloves-057",
+      "title": "Barrow gloves unlocked + all the …",
+      "text": "Barrow gloves unlocked + all the quests done for ds2",
+      "manual": true
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Fairy rings and more Farming",
+  "steps": [
+    {
+      "id": "fairy-rings-and-more-far-001a",
+      "title": "Teleport to Varrock",
+      "text": "Teleport to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "fairy-rings-and-more-far-001b",
+      "title": "sell your staff to Zaff, then …",
+      "text": "sell your staff to Zaff, then purchase 500 fire runes from Aubury",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 500
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 502,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379,
+      "npc": 11434,
+      "world": [
+        3253,
+        3401,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-002",
+      "title": "Teleport home and complete Lost City. …",
+      "text": "Teleport home and complete Lost City. — If you are not 36 Woodcutting already buy a steel axe from bob and woodcut until you have it. — There is a knife in Lumbridge kitchen after you get the dramen branch.",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3212,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-003a",
+      "title": "Teleport to Varrock",
+      "text": "Teleport to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "fairy-rings-and-more-far-003b",
+      "title": "buy your fire staff again",
+      "text": "buy your fire staff again",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 501
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 502,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379,
+      "world": [
+        3203,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-003c",
+      "title": "drop your fire runes. — You …",
+      "text": "drop your fire runes. — You may also need to buy some more air/law runes so pay attention to that",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 554,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 554,
+            "qty": 702,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 554,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-004a",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "fairy-rings-and-more-far-004b",
+      "title": "buy/steal from the baker until you …",
+      "text": "buy/steal from the baker until you have 10 cakes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1891,
+            "qty": 17
+          },
+          {
+            "op": "item",
+            "id": 1891,
+            "qty": 18,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1891,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-005",
+      "title": "Drop the knife and axe from …",
+      "text": "Drop the knife and axe from Lost City, keep the dramen staff",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3151,
+        3207,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-006",
+      "title": "Teleport to Lumbridge then run to …",
+      "text": "Teleport to Lumbridge then run to Draynor Village and start Fairytale I - Growing Pains. — Teleport to Falador and talk to the farmer in the park. Then run south and talk to the farmer near Sarah's Farming shop. Then purchase 1 compost pack and a set of basic farming tools from Sarah along with an additional secateurs and spade. (If you have room, buy some plant cure.) — Run south and talk to the farmer above Port Sarim's pub. Store the basic set and cure at the leprechaun but keep a secateurs and a spade. Then head east and buy ~10 barley seeds from the stall. — Teleport to Camelot and run north west to the hops farming patch. Plant your barley and pay the farmer 3 compost to watch over them. Do the same in the Lumbridge hops patch (north east of Lumbridge castle). Remember to talk to the farmers to continue the quest. — Continue the quest guide. — This quest's difficulty is very random depending on the items you have to collect. Some items are easy to collect while others are harder to obtain, such as a nature talisman. — If you do happen to get tasked to collect a nature talisman, the most viable option is to do Enter the Abyss and kill the abyssal leechs or complete Temple of the Eye too and do Guardians of the Rift until you acquire 50 abyssal pearls from the rewards. There is a safespot for them at a specific part of the Abyss. Killing them is extremely difficult though as getting into the safespot is very hard with our current stats, and if you die there it will be difficult to get your items back. It is worthwhile to simply go off the guide path and get 43 Prayer now. Safespot blue dragons with fire strike then use the bones on the wilderness altar. Death pile your items to be safe when using the bones. This is a slow, but vastly better than wiping in the abyss. Note that you can also change your respawn location to Falador. You will also need to get some sort of prayer restoration since the Abyss drains your prayer. Starting Zogre Flesh Eaters is potential way to get this. Or just don't be unlucky next time. — Flinch the boss. The best spot is the small hallway before the fork to the final room. Be patient.",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 43,
+        "cmp": ">="
+      },
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-007",
+      "title": "Start Fairytale II - Cure a …",
+      "text": "Start Fairytale II - Cure a Queen",
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_II__CURE_A_QUEEN",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3078,
+        3256,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-008",
+      "title": "While you wait for the 5 …",
+      "text": "While you wait for the 5 minutes start collecting items. — Teleport to varrock and telegrab a gold bar from the varrock west bank. — Teleport to Lumbridge, grab some logs from the spawn on the roof. — Store your magic secateurs at the tree patch west of Lumbridge castle. — Make several pie dishes with dough from the Recipe for Disaster chest supplies. — Grab a pickaxe from the spawn in the tower. — Buy a tinderbox at the general store. — Buy 4 sapphires (cut) from the gem shop in Al Kharid. — Use one of the sapphires to make a games necklace. Drop your ghostspeak amulet. — The guide will now assume you have a games necklace on. — Mine an iron ore from the mine to the north. Superheat it into a bar. — Mine 1 coal.",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3025,
+        9725,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-009",
+      "title": "Head back to Martin and progress …",
+      "text": "Head back to Martin and progress through Fairytale II - Curing a Queen until you unlock fairy rings. — While in the area, buy redberries from the shop in Port Sarim and cook a redberry pie.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2325,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2325,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2325,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-010",
+      "title": "Take the fairy ring to DKS",
+      "text": "Take the fairy ring to DKS",
+      "manual": true,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-011",
+      "title": "Complete The Giant Dwarf. — Buy …",
+      "text": "Complete The Giant Dwarf. — Buy the ore needed from the blast furnace. — Remember your house is in Rimmington for teleports",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "FINISHED"
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-012",
+      "title": "(OPTIONAL) With the release of The …",
+      "text": "(OPTIONAL) With the release of The Garden of Death it is now possible to skip completing both Forgettable Tale and Garden of Tranquillity and instead complete The Garden of Death and go straight to Enlightened Journey. — If you do this you will need to make up the 5k cooking xp from Forgettable Tale somewhere else. — Keep in mind that Garden of Tranquillity is a requirement for the Varrock Diary.",
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3230,
+        3478,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-013a",
+      "title": "Teleport to Camelot and harvest 2 …",
+      "text": "Teleport to Camelot and harvest 2 barley from the patch. If it died",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "fairy-rings-and-more-far-013b",
+      "title": "go to Lumbridge. If both of …",
+      "text": "go to Lumbridge. If both of them died, replant and woodcut while watching it grow",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-014a",
+      "title": "Teleport to Lumbridge",
+      "text": "Teleport to Lumbridge",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-014b",
+      "title": "cook the barley into barley malt …",
+      "text": "cook the barley into barley malt on the range",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-015a",
+      "title": "Grab the pot off of the …",
+      "text": "Grab the pot off of the table",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-015b",
+      "title": "go to the basement to buy …",
+      "text": "go to the basement to buy 2 buckets from the Recipe for Disaster chest",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-015c",
+      "title": "Fill the buckets with water",
+      "text": "Fill the buckets with water",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-016",
+      "title": "Minigame teleport to the Blast Furnace …",
+      "text": "Minigame teleport to the Blast Furnace and complete the Forgettable Tale. While waiting for the things to grow: — Start some supercompost by buying pineapples from the Catherby charters and composting them to the north. — Buy an axe and tinderbox in Lumbridge. — Go to Port Sarim fish store and buy/cook sardines until 22 cooking. — Store the farming tools for some extra space but make sure to get them back out after. — Use the axe and tinderbox to make a fire right outside the shop to cook on. — Buy a fishing rod at the fishing shop. — Buy 6 marigold, cabbage, and onion seeds from Olivia in Draynor Village. — Buy a filled plant pot from the farming shop. — Buy some compost (If you bought the compost pack ignore) — Mine a pure essence. — Buy a pestle and mortar from the Taverley Herblore store. — Buy a hammer from Varrock. — If you are not 36 Crafting, buy, cut, and resell some sapphires and emeralds in Al Kharid until you get 36 Crafting (You should be at it or very close already). — If you still have some extra time chop wood.",
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 22,
+        "cmp": ">="
+      },
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-017",
+      "title": "Once Forgettable Tale is complete, drop …",
+      "text": "Once Forgettable Tale is complete, drop the beer, glass, stouts, and pot",
+      "complete": {
+        "op": "quest",
+        "quest": "FORGETTABLE_TALE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3140,
+        3504,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-018",
+      "title": "Complete Garden of Tranquillity. — Collect …",
+      "text": "Complete Garden of Tranquillity. — Collect your supercompost from Catherby and use it to give your plants a better chance to live. — You can use the fairy ring code ALQ to teleport south of the Morytania's farming patch and run north. — Get the tools from your Leprechaun. — This quest is tight on inventory space. Drop the onion/cabbage/marigold seeds after you plant them, secateurs after you get the white tree, the vials, hammer, and pestle and mortar after done with the plant cure. — If you do not have a rune pouch yet, then you may need to plant some of your seeds earlier or juggle supplies a bit for space. — Before going to harvest your crops: — Plant all the seeds you have gotten so far in the garden. — Buy a candle from Catherby. — Get ball of wool and 3 papyrus from the Ardougne general store. — Get a bowl from Lumbridge kitchen. — Empty sacks (noted) from the farming shop south of Falador. — 2 Onions from Rimington, 3 redberries Port Sarim food shop. — have Aggie make you a yellow and red dye. — That should be enough time for them to grow, but if you are speedy about this, then you may have to alch for a bit at the patches. — While the last plants are growing, steal 10 silk from Ardougne and unnote 1 empty sack (use it on a banker). — After that alch any rune arrows you have left, then probably just take a break for like 10 minutes... If you really want you can chop wood, but your inventory is very full right now for the next quest.",
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3045,
+        3234,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-019",
+      "title": "Destroy the ring of charos(a). Do …",
+      "text": "Destroy the ring of charos(a). Do this AFTER you finish the quest, otherwise you'll have to pickpocket Dr Fenkenstrain for another one",
+      "manual": true,
+      "npc": 1270,
+      "world": [
+        3548,
+        3555,
+        2
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-020a",
+      "title": "Drop your fire staff",
+      "text": "Drop your fire staff",
+      "manual": true,
+      "world": [
+        3477,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-020b",
+      "title": "buy some fire runes",
+      "text": "buy some fire runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 554,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 554,
+            "qty": 702,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 554,
+      "world": [
+        3477,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-021",
+      "title": "Drop your dramen staff",
+      "text": "Drop your dramen staff",
+      "manual": true,
+      "world": [
+        3477,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-022",
+      "title": "Head to Entrana and complete Enlightened …",
+      "text": "Head to Entrana and complete Enlightened Journey until you need the willow branches. — Fill the sack with potatoes in his house. — You will have to leave and come back to unnote some sacks to fill with sand at the sand pit on Entrana. — Give him your silk before you leave though.",
+      "complete": {
+        "op": "quest",
+        "quest": "ENLIGHTENED_JOURNEY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3047,
+        3236,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-023",
+      "title": "Get another dramen branch while on …",
+      "text": "Get another dramen branch while on Entrana. You can safespot the zombies on a mushroom way to the south. — Get a few extra Dramen branches. 2 should be fine",
+      "manual": true,
+      "npc": 4062,
+      "world": [
+        2851,
+        3350,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-024",
+      "title": "Teleport to Varrock fletch your dramen …",
+      "text": "Teleport to Varrock fletch your dramen staff with a knife from upstairs in the general store",
+      "world": [
+        3216,
+        3416,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3216,
+        "y": 3416,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "fairy-rings-and-more-far-025a",
+      "title": "Buy your fire staff back",
+      "text": "Buy your fire staff back",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 502
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 502,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379,
+      "world": [
+        3203,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-025b",
+      "title": "drop the fire runes (Or just …",
+      "text": "drop the fire runes (Or just keep the fire runes",
+      "manual": true,
+      "world": [
+        3203,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-025c",
+      "title": "wear the dramen staff, but you …",
+      "text": "wear the dramen staff, but you will have to manual cast fire strike when needed)",
+      "manual": true,
+      "item": 772,
+      "world": [
+        3203,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-026",
+      "title": "Plant your willow sapling. Protect it …",
+      "text": "Plant your willow sapling. Protect it with the apples. It is smart to plant it at Taverley for future willow log supply",
+      "manual": true,
+      "world": [
+        2910,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "fairy-rings-and-more-far-027",
+      "title": "Clean out your inventory if you …",
+      "text": "Clean out your inventory if you have anything. It should just be runes, coins, and the dramen staff",
+      "manual": true
+    },
+    {
+      "id": "fairy-rings-and-more-far-028",
+      "title": "The guide will move forward from …",
+      "text": "The guide will move forward from here as the tree grows. When it does grow, complete Enlightened Journey. When you do complete the quest, also chop 10 willow logs and unlock the Balloon Transport System route to the lumberyard (Varrock). — If you are not 40 Firemaking, chop and burn the teak tree south of Castle Wars until you get level 40.",
+      "complete": {
+        "op": "quest",
+        "quest": "ENLIGHTENED_JOURNEY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2916,
+        3299,
+        0
+      ]
+    }
+  ]
+}

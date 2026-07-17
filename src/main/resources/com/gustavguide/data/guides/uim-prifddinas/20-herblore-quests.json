@@ -1,0 +1,434 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Herblore quests",
+  "steps": [
+    {
+      "id": "herblore-quests-001",
+      "title": "Drop or table all your ranging …",
+      "text": "Drop or table all your ranging gear",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-002",
+      "title": "Get a dramen staff again",
+      "text": "Get a dramen staff again",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-003",
+      "title": "Get your graceful outfit, staff of …",
+      "text": "Get your graceful outfit, staff of fire, mind and water runes back",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-004",
+      "title": "Also make a new ring of …",
+      "text": "Also make a new ring of dueling and games necklace. Ready to quest again!",
+      "manual": true
+    },
+    {
+      "id": "herblore-quests-005",
+      "title": "You can go back to alchemzing …",
+      "text": "You can go back to alchemzing if you want. Inventory is tight for Death Plateau though so maybe wait until after that",
+      "manual": true,
+      "object": 3662,
+      "world": [
+        2864,
+        3591,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-006",
+      "title": "The guide assumes you restore your …",
+      "text": "The guide assumes you restore your prayer after every quest",
+      "manual": true
+    },
+    {
+      "id": "herblore-quests-007",
+      "title": "Get a fly fishing rod and …",
+      "text": "Get a fly fishing rod and some bait/feathers. Fly fish in Barbarian Village and cook the trout until you have 10 trout. Drop the rod and feathers. Alternatively, if you have access to Warriors' Guild, you can buy 10 cooked trouts there.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 309,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 309,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 309,
+      "world": [
+        3104,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-008a",
+      "title": "Get some iron ore from the …",
+      "text": "Get some iron ore from the Blast Furnace",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-008b",
+      "title": "make an iron bar. Superheat if …",
+      "text": "make an iron bar. Superheat if you have nature runes",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-009",
+      "title": "Buy 10 bread from the baker …",
+      "text": "Buy 10 bread from the baker in Ardougne",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2309,
+            "qty": 11
+          },
+          {
+            "op": "item",
+            "id": 2309,
+            "qty": 11,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2309,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-010",
+      "title": "Buy a Premade blurb' sp from …",
+      "text": "Buy a Premade blurb' sp from the Gnome Stronghold",
+      "manual": true,
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-011",
+      "title": "Complete Death Plateau. — Drop your …",
+      "text": "Complete Death Plateau. — Drop your mind and water runes for a bit when you need the extra space",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_PLATEAU",
+        "state": "FINISHED"
+      },
+      "world": [
+        2896,
+        3529,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-012",
+      "title": "Get a few cakes for food …",
+      "text": "Get a few cakes for food to be safe for the next quest",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-013",
+      "title": "Complete Troll Stronghold",
+      "text": "Complete Troll Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "TROLL_STRONGHOLD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2895,
+        3528,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-014",
+      "title": "Get: — 50 death runes so …",
+      "text": "Get: — 50 death runes so you can use some blast spells. — Some extra cakes if you are low on food. — A tinderbox. — An axe. — A hammer. — 2 ashes",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-015",
+      "title": "Take fairy ring BIP, then head …",
+      "text": "Take fairy ring BIP, then head to Morton and complete Shades of Mort'ton. — Remember you can get the tarromins at the start of the quest from searching the table. — Pray melee helps here, hope people on world 377 can help you with the temple.",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADES_OF_MORTTON",
+        "state": "FINISHED"
+      },
+      "world": [
+        3481,
+        3279,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-016",
+      "title": "Clean up your inventory again, get …",
+      "text": "Clean up your inventory again, get a few more cakes if needed",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-017",
+      "title": "Do Jungle Potion. (Fairy ring code …",
+      "text": "Do Jungle Potion. (Fairy ring code CKR.) — Safespot a jogre while you are there for the diary",
+      "complete": {
+        "op": "quest",
+        "quest": "JUNGLE_POTION",
+        "state": "FINISHED"
+      },
+      "world": [
+        2809,
+        3085,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-018a",
+      "title": "Get a few more cakes if …",
+      "text": "Get a few more cakes if needed",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-018b",
+      "title": "buy 100 chaos runes",
+      "text": "buy 100 chaos runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 562,
+            "qty": 100
+          },
+          {
+            "op": "item",
+            "id": 562,
+            "qty": 100,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 562,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-019",
+      "title": "Complete Zogre Flesh Eaters. Crumble Undead …",
+      "text": "Complete Zogre Flesh Eaters. Crumble Undead the boss and enemy. — Your house is in Yanille. Minigame Teleport to Clan Wars and restore stats in the Clan Wars portal or Pool of Refreshment before the boss to remove any diseases.",
+      "complete": {
+        "op": "quest",
+        "quest": "ZOGRE_FLESH_EATERS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2447,
+        3049,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-020a",
+      "title": "Complete the Karamja easy diary",
+      "text": "Complete the Karamja easy diary",
+      "manual": true,
+      "world": [
+        2708,
+        3209,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-020b",
+      "title": "Use the lamp on Herblore",
+      "text": "Use the lamp on Herblore",
+      "manual": true,
+      "world": [
+        2708,
+        3209,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-021",
+      "title": "You should now have at least …",
+      "text": "You should now have at least 30 Herblore without having to do any actual training. This is a big milestone, as you can now put a lot more choice rewards into it. If you have been very unlucky on random event experience rewards and are not 30 Herblore, then you may need to kill a few chaos druids, cave bugs, or other monsters to make potions. You can't be more than ~1,000 experience short though if you did all the right experience choice and quests.",
+      "manual": true
+    },
+    {
+      "id": "herblore-quests-022a",
+      "title": "Complete the Ardougne easy diary",
+      "text": "Complete the Ardougne easy diary",
+      "manual": true,
+      "world": [
+        2566,
+        3083,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-022b",
+      "title": "use the lamp on Herblore",
+      "text": "use the lamp on Herblore",
+      "manual": true,
+      "world": [
+        2566,
+        3083,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-023",
+      "title": "Complete Shilo Village",
+      "text": "Complete Shilo Village",
+      "complete": {
+        "op": "quest",
+        "quest": "SHILO_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2884,
+        2951,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-024",
+      "title": "Complete One Small Favour (use both …",
+      "text": "Complete One Small Favour (use both lamps on Herblore). — Buy a rune pickaxe when you're in the dwarven mine for Slaglith, and alch it afterwards — If you get a ranarr weed while getting the other herbs, keep it.",
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-025",
+      "title": "Complete Eadgar's Ruse",
+      "text": "Complete Eadgar's Ruse",
+      "complete": {
+        "op": "quest",
+        "quest": "EADGARS_RUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2899,
+        3429,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-026",
+      "title": "Complete My Arm's Big Adventure",
+      "text": "Complete My Arm's Big Adventure",
+      "complete": {
+        "op": "quest",
+        "quest": "MY_ARMS_BIG_ADVENTURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2839,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-027",
+      "title": "(Optional) Get 61 Crafting. Use the …",
+      "text": "(Optional) Get 61 Crafting. Use the crafting guide if you have not already. If your inventory is full, you can death storage at the Nightmare boss. — This is to set yourself up for Lunar Diplomacy, as well as get crafting for some useful unlocks later on. The guide assumes you do this, but it isn't strictly needed.",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 61,
+        "cmp": ">="
+      },
+      "world": [
+        2620,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-028",
+      "title": "(Optional), If you want to thieve …",
+      "text": "(Optional), If you want to thieve Ardougne knights rather than blackjack, you can go out of your way to complete the Ardougne medium diary now",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    }
+  ]
+}

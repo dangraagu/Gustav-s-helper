@@ -1057,5 +1057,25 @@
       0
     ],
     "npc": 7650
-  }
+  },
+  "search the altar for the ghost's skull to continue the restless ghost": [
+    3104,
+    3160,
+    0
+  ],
+  "get a fly fishing rod and some bait/feathers. fly fish in barbarian village and cook the trout until you have 10 trout. drop the rod and feathers. alternatively, if you have access to warriors' guild, you can buy 10 cooked trouts there.": [
+    3104,
+    3424,
+    0
+  ],
+  "head to barbarian village (soul wars minigame teleport) and train to level 35 fishing via fly fishing. — also cook the raw trout you get, you need at least 25 cooking before leaving, which should happen before 35 fishing.": [
+    3080,
+    3427,
+    0
+  ],
+  "get a pickaxe from lumbridge. mine 8 clay from south of varrock. — use buckets of water on the clay to make 8 soft clay. buckets of water can be from recipe for disaster chest, filled at the sink.": [
+    3176,
+    3363,
+    0
+  ]
 }

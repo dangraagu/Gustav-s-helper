@@ -77,8 +77,8 @@ overlay covers non-quest steps + the whole `main` build.
 ## Scope / files
 - New: `engine/condition/PositionCondition.java`, `overlay/DialogueOverlay.java`,
   `resources/.../data/qh_dialogue.json`, `tools/data/qh_dialogue.py`.
-- Modified: `ConditionFactory`, `ConditionContext`, `Progression`, `OsirisGuidePlugin`
-  (register overlay + provide step quest/NPC context), `OsirisGuideConfig`, `RouteStep`
+- Modified: `ConditionFactory`, `ConditionContext`, `Progression`, `GustavGuidePlugin`
+  (register overlay + provide step quest/NPC context), `GustavGuideConfig`, `RouteStep`
   (dialogue-key field), `scrape_guide.py` / `build_raw_guide.py` (splitter + position/dialogue-key),
   `NOTICE`.
 - Built on `main`; merged to `fork/questhelper` (resolve overlay/QH double-highlight there).

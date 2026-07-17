@@ -1,0 +1,116 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Gear & post-completion",
+  "steps": [
+    {
+      "id": "gear-001",
+      "title": "Gear: https://i.imgur.com/GAJxEON.png",
+      "text": "Gear: https://i.imgur.com/GAJxEON.png",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "gear-002",
+      "title": "Do Fremennik trials and isles for …",
+      "text": "Do Fremennik trials and isles for neitz helm if you dont want to use inquis helm ( requires 20 construction)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3669,
+        0
+      ]
+    },
+    {
+      "id": "gear-003",
+      "title": "Buy Torture amulet at 75hp",
+      "text": "Buy Torture amulet at 75hp",
+      "manual": true,
+      "world": [
+        2642,
+        3678,
+        0
+      ]
+    },
+    {
+      "id": "gear-004",
+      "title": "Buy primordial boots at 75def",
+      "text": "Buy primordial boots at 75def",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 13239,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 13239,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 13239,
+      "world": [
+        2642,
+        3678,
+        0
+      ]
+    },
+    {
+      "id": "gear-005",
+      "title": "Get a fire cape if you …",
+      "text": "Get a fire cape if you didnt do it b4 nmz",
+      "manual": true,
+      "world": [
+        2605,
+        3115,
+        0
+      ]
+    },
+    {
+      "id": "gear-006",
+      "title": "Video of vyrewatch alt in action: …",
+      "text": "Video of vyrewatch alt in action: https://www.youtube.com/watch?v=QDOmtmP5gbk",
+      "manual": true,
+      "npc": 3709,
+      "world": [
+        3615,
+        3263,
+        0
+      ]
+    },
+    {
+      "id": "gear-007",
+      "title": "Best profif to afk ratio is …",
+      "text": "Best profif to afk ratio is only pick up addy plates, rune bar, rune ore, rune full helm, rune kites, and blood shards",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1163,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1163,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1163
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Kourend, upgrading the memoirs",
+  "steps": [
+    {
+      "id": "kourend-upgrading-the-me-001a",
+      "title": "Buy an adamant pickaxe in the …",
+      "text": "Buy an adamant pickaxe in the Dwarven Mines",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1271,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1271,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1271,
+      "world": [
+        2949,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-001b",
+      "title": "mine until 42 Mining. — You …",
+      "text": "mine until 42 Mining. — You can do your preferred method of mining, Motherlode Mine is right there. Keep the pickaxe afterwards",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 42,
+        "cmp": ">="
+      },
+      "note": "Powermine iron at a 3-rock triangle spot (Al Kharid etc.); Varrock armour gives 10% double ore; Mining Guild best from 60+.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training",
+      "world": [
+        3744,
+        5664,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-002",
+      "title": "Buy a normal bow and some …",
+      "text": "Buy a normal bow and some bronze arrows from the range shop in Varrock",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 882,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 882,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 882,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-003",
+      "title": "Get a rope from Ned in …",
+      "text": "Get a rope from Ned in Draynor Village",
+      "manual": true,
+      "npc": 4280,
+      "world": [
+        3097,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-004",
+      "title": "Head to Port Sarim, then go …",
+      "text": "Head to Port Sarim, then go to Veos and complete Client of Kourend. Wear the Kharedst's memoirs and drop the chronicle. — While in Shayzien buy a stew from the pub. — Use the lamps on Hunter.",
+      "complete": {
+        "op": "quest",
+        "quest": "CLIENT_OF_KOUREND",
+        "state": "FINISHED"
+      },
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-005",
+      "title": "Complete the Queen of Thieves. — …",
+      "text": "Complete the Queen of Thieves. — After doing Queen of Thieves you have a good teleport back to Kourend using the memoirs. Teleport to Ardougne and get some cakes for the upcoming fights.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_QUEEN_OF_THIEVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        1796,
+        3781,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-006",
+      "title": "Complete Depths of Despair",
+      "text": "Complete Depths of Despair",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_DEPTHS_OF_DESPAIR",
+        "state": "FINISHED"
+      },
+      "world": [
+        1782,
+        3572,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-007",
+      "title": "Complete Ascent of Arceuus",
+      "text": "Complete Ascent of Arceuus",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_ASCENT_OF_ARCEUUS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1698,
+        3742,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-008",
+      "title": "Complete Tale of the Righteous. — …",
+      "text": "Complete Tale of the Righteous. — You might want to get a Superantipoison from north of Castle wars for this quest. — Talk to the mountain guide while you are at Mount Quidamortem to unlock the travel option back up there",
+      "complete": {
+        "op": "quest",
+        "quest": "TALE_OF_THE_RIGHTEOUS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1542,
+        3570,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-009a",
+      "title": "Complete The Forsaken Tower. — Buy …",
+      "text": "Complete The Forsaken Tower. — Buy a bronze axe from Shazien General Store. — Buy some food from Shazien bar. — Use a fairy ring to get to Konar (CIR)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FORSAKEN_TOWER",
+        "state": "FINISHED"
+      },
+      "world": [
+        1483,
+        3747,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-009b",
+      "title": "buy yourself a facemask",
+      "text": "buy yourself a facemask",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 4164,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 4164,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 4164,
+      "world": [
+        1553,
+        3750,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-010",
+      "title": "Add all the pages to the …",
+      "text": "Add all the pages to the Kharedst's memoirs so the book has extra charges",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-011",
+      "title": "Fletch a dramen branch if you …",
+      "text": "Fletch a dramen branch if you don't have a staff already",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-012",
+      "title": "Get some cakes for food. 10 …",
+      "text": "Get some cakes for food. 10 cakes should be enough",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-013",
+      "title": "Go to fairy ring code BKQ …",
+      "text": "Go to fairy ring code BKQ and safespot tree spirits for an adamant axe (1/16). — If you get a mithril axe you could use that instead (1/6.4). — If you get a lucky rune axe (1/32) you can save it and use it when you get the level. It probably isn't worth grinding out after getting an adamant axe though. — Make sure you have finished Enlightened Journey and unlocked the Varrock flight path before getting an axe.",
+      "complete": {
+        "op": "quest",
+        "quest": "ENLIGHTENED_JOURNEY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3047,
+        3236,
+        0
+      ]
+    },
+    {
+      "id": "kourend-upgrading-the-me-014",
+      "title": "Move your house to Taverley",
+      "text": "Move your house to Taverley",
+      "manual": true,
+      "object": 16680,
+      "world": [
+        2884,
+        3397,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Stats for Lunar Diplomacy",
+  "steps": [
+    {
+      "id": "lunar-001",
+      "title": "Eyes of Glouphrie (12k magic, 6k …",
+      "text": "Eyes of Glouphrie (12k magic, 6k rc xp, crystal saw)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_EYES_OF_GLOUPHRIE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "lunar-002",
+      "title": "Watch tower (15k magic xp, requires …",
+      "text": "Watch tower (15k magic xp, requires 40 mining)",
+      "manual": true
+    },
+    {
+      "id": "lunar-003",
+      "title": "61 craft if you didnt do …",
+      "text": "61 craft if you didnt do drift nets to 61 (cut rubies)",
+      "manual": true
+    },
+    {
+      "id": "lunar-004",
+      "title": "49 firemaking (ge or varrock tele …",
+      "text": "49 firemaking (ge or varrock tele fm)",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "lunar-005",
+      "title": "67 magic (splash or alchemy room …",
+      "text": "67 magic (splash or alchemy room in mta or something else)",
+      "manual": true,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "lunar-006",
+      "title": "60 mining (iron or mlm) (3tgranite/iron …",
+      "text": "60 mining (iron or mlm) (3tgranite/iron on main if you know how)",
+      "manual": true,
+      "world": [
+        3304,
+        3301,
+        0
+      ]
+    },
+    {
+      "id": "lunar-007",
+      "title": "55 woodcutting (afk willow or teak) …",
+      "text": "55 woodcutting (afk willow or teak) (on main 1.5t/2t teaks if you know how)",
+      "manual": true,
+      "world": [
+        3167,
+        3272,
+        0
+      ]
+    },
+    {
+      "id": "lunar-008",
+      "title": "Lunar diplomacy (NPC contact unlock)",
+      "text": "Lunar diplomacy (NPC contact unlock)",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2620,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "lunar-009",
+      "title": "You can probably get to this …",
+      "text": "You can probably get to this point with ~20 - 25h of playtime (excluding 0time mage training)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

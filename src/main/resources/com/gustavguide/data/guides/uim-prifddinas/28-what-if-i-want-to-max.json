@@ -1,0 +1,428 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "What if I want to MAX?",
+  "steps": [
+    {
+      "id": "what-if-i-want-to-max-001",
+      "title": "Start by getting 43 Prayer at …",
+      "text": "Start by getting 43 Prayer at the Boneyard when prompted at the start",
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-002",
+      "title": "Now that you have an extra …",
+      "text": "Now that you have an extra bit of cash, you should home teleport and continue with the guide all the way through the Getting Started section (including Witch's House). — Don't blow this money on extra runes or something. The purpose of this cash is to fund feathers for Barbarian fishing down the line.",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-003",
+      "title": "After you have finished the Getting …",
+      "text": "After you have finished the Getting Started section, rather than train Agility through rooftop courses, you are going to instead make a detour to train Fishing",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-004",
+      "title": "Start by training your Cooking to …",
+      "text": "Start by training your Cooking to level 15 by buying raw sardines from Gerrant's Fishy Business and cooking them on the nearby range (or make a fire outside the store to cook on)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 349,
+            "qty": 16
+          },
+          {
+            "op": "item",
+            "id": 349,
+            "qty": 16,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 349,
+      "npc": 2891,
+      "world": [
+        3013,
+        3224,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-005",
+      "title": "While there buy about 2,000 feathers …",
+      "text": "While there buy about 2,000 feathers and a fly fishing rod",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 309,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 309,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 309
+    },
+    {
+      "id": "what-if-i-want-to-max-006",
+      "title": "Head to Barbarian Village (Soul Wars …",
+      "text": "Head to Barbarian Village (Soul Wars minigame teleport) and train to level 35 Fishing via fly fishing. — Also cook the Raw trout you get, you need at least 25 Cooking before leaving, which should happen before 35 Fishing.",
+      "world": [
+        3080,
+        3427,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3080,
+        "y": 3427,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "what-if-i-want-to-max-007",
+      "title": "Head to Tempoross. You can store …",
+      "text": "Head to Tempoross. You can store your cash stack at the coffer near Nightmare Zone to save space",
+      "world": [
+        2605,
+        3115,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2605,
+        "y": 3115,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "what-if-i-want-to-max-008a",
+      "title": "Train at Tempoross until level 58 …",
+      "text": "Train at Tempoross until level 58 Fishing",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-008b",
+      "title": "Use the points-focused methods (cooking) so …",
+      "text": "Use the points-focused methods (cooking) so that you will get better loot. Don't collect any rewards until the end",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-009",
+      "title": "Once you have 58 Fishing, you …",
+      "text": "Once you have 58 Fishing, you can collect all your rewards from the pool",
+      "manual": true
+    },
+    {
+      "id": "what-if-i-want-to-max-010",
+      "title": "Drop the Spirit flakes, Seaweed, and …",
+      "text": "Drop the Spirit flakes, Seaweed, and Tackle box/Fish barrel if you got them",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-011",
+      "title": "If you got a Tome of …",
+      "text": "If you got a Tome of water you can hold on to it and put your Soaked pages in it. If you did not get the Tome you could probably just drop the pages. Keep in mind that most of the use of the Tome is just as a water rune source, you won't really ever use charges from it. — You optionally could just not even keep the tome, it is a luxury item but having it would make getting to Entrana more difficult and will take up some space.",
+      "manual": true,
+      "npc": 4062,
+      "world": [
+        2851,
+        3350,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-012a",
+      "title": "Open the Caskets",
+      "text": "Open the Caskets",
+      "manual": true,
+      "world": [
+        3358,
+        2988,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-012b",
+      "title": "sell the loot to the general …",
+      "text": "sell the loot to the general store in Pollnivneach",
+      "manual": true,
+      "world": [
+        3358,
+        2988,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-013a",
+      "title": "Cook",
+      "text": "Cook",
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-013b",
+      "title": "drop all the raw fish",
+      "text": "drop all the raw fish",
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-014",
+      "title": "Use the planks at your house …",
+      "text": "Use the planks at your house in Rimmington. You can use them on Phials to unnote them. You will have a good amount of nails to get through the early levels as well. — Mahogany Homes isn't really viable yet because you can't teleport around. However, if you are willing to hold on to the planks or even unlock a death storage you could save them for later to get more xp out of them.",
+      "manual": true,
+      "world": [
+        2956,
+        3214,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-015",
+      "title": "The feathers and bait will be …",
+      "text": "The feathers and bait will be used in the next section",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-016",
+      "title": "Complete the Barbarian Training miniquest to …",
+      "text": "Complete the Barbarian Training miniquest to unlock barbarian fishing (you don't need to do all the training, just the first part until you can fish)",
+      "complete": {
+        "op": "quest",
+        "quest": "BARBARIAN_TRAINING",
+        "state": "FINISHED"
+      },
+      "world": [
+        2500,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-017",
+      "title": "Do barbarian fishing for slow but …",
+      "text": "Do barbarian fishing for slow but efficient Agility and Strength training. — You need to get at least level 56 Agility, but going until level 60 would be better. — If you plan to do Hallowed Sepulchre and skip graceful you could go to 62 Agility to get the second floor. — Going all the way to 60 Agility will require about 45,000 feathers (also count your fishing bait from Tempoross). — If you are short on cash for the feathers, make an extra trip to the Lava Maze for an inventory and looting bag of steel platebodies. Don't get derailed going for another money making method when a quick 20 minute trip there can solve the issue. You will need to deathpile first in Lumbridge Castle's basement.",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 62,
+        "cmp": ">="
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "npc": 6593,
+      "world": [
+        3209,
+        3848,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-018",
+      "title": "This will leave your Fishing level …",
+      "text": "This will leave your Fishing level in the mid 80s",
+      "manual": true
+    },
+    {
+      "id": "what-if-i-want-to-max-019a",
+      "title": "Complete Sleeping Giants",
+      "text": "Complete Sleeping Giants",
+      "complete": {
+        "op": "quest",
+        "quest": "SLEEPING_GIANTS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3362,
+        3148,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-019b",
+      "title": "make a few swords (buy platebodies …",
+      "text": "make a few swords (buy platebodies in Varrock) to get 30 smithing",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "Skip early levels with quests (The Knight's Sword etc.); else smith the highest item you can at the Varrock west-bank anvil.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-020",
+      "title": "Take a walk to the Keldagrim …",
+      "text": "Take a walk to the Keldagrim to unlock the Blast Furnace",
+      "manual": true,
+      "object": 5008,
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-021",
+      "title": "Load up the hopper with steel …",
+      "text": "Load up the hopper with steel bars. You can take these out a few at a time later by only leaving a few inventory slots open when you remove bars",
+      "manual": true
+    },
+    {
+      "id": "what-if-i-want-to-max-022",
+      "title": "(Optional) If you decided to go …",
+      "text": "(Optional) If you decided to go for a ring of the elements you could use that for construction training rather than Tempoross",
+      "manual": true
+    },
+    {
+      "id": "what-if-i-want-to-max-023",
+      "title": "Train at Tempoross until you can …",
+      "text": "Train at Tempoross until you can reach 50 Construction. — You can do points or xp focus. xp focus is more macro efficient, but is going to be a significantly longer grind to reach 50 construction. — It should also be noted that this guide assumes you are not planning to 3-tick barbarian fish. If you are willing to do that then Tempoross is not worth doing at this point. Just settle for your 60 Agility and go without 50 construction for awhile. You will have to walk more, but the extra time is not a huge deal compared to how much faster 3t barb fishing is.",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 50,
+        "cmp": ">="
+      },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
+      "world": [
+        2500,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-024",
+      "title": "Use up the extra loot you …",
+      "text": "Use up the extra loot you get as before. — Optionally save some higher level fish for food later",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-025",
+      "title": "Build an armour case in your …",
+      "text": "Build an armour case in your house",
+      "manual": true
+    },
+    {
+      "id": "what-if-i-want-to-max-026",
+      "title": "Do Rooftop Agility at the Seers' …",
+      "text": "Do Rooftop Agility at the Seers' Village Rooftop Course, and then at the Pollnivneach Rooftop Course until you have the 260 Marks of grace required for the Graceful outfit. — If you plan to do the Hallowed Sepulchre for agility training later, you could optionally just completely skip getting graceful entirely. Skipping Graceful is technically more efficient for solely maxing due to the slower xp rates, but the outfit is very useful to have.",
+      "manual": true,
+      "world": [
+        2710,
+        3485,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-027",
+      "title": "Do your Magic training at the …",
+      "text": "Do your Magic training at the Mage Training Arena until 55 Magic as outlined in the main guide section (if you have not already). Also buy the teleport runes and such so now you can teleport around.",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 55,
+        "cmp": ">="
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-028",
+      "title": "Renovate your house with the portal …",
+      "text": "Renovate your house with the portal rooms outlined in the Renovating your home section of the guide. Most importantly you want the Arceuus teleports. You could even add some extra portal rooms if you want. — Having these teleports will help out during some of the early quests in the guide, especially those going to Morytania.",
+      "manual": true,
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "what-if-i-want-to-max-029",
+      "title": "You are now set to return …",
+      "text": "You are now set to return to the main guide path! Still do the section for Farming and Kourend. You still need those things unlocked eventually, even if you already have construction. Follow all the steps and work towards Song of the Elves. Even if you are trying to max, finishing this quest is a huge milestone and should be a centerpiece of your earlygame goals.",
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
+    }
+  ]
+}

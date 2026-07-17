@@ -1,0 +1,30 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Intro",
+  "steps": [
+    {
+      "id": "intro-001",
+      "title": "Welcome. in this guide I give …",
+      "text": "Welcome. in this guide I give you a fairly optimal questing and skill training route for a vyrewatch alt",
+      "manual": true,
+      "npc": 3709,
+      "world": [
+        3615,
+        3263,
+        0
+      ]
+    },
+    {
+      "id": "intro-002",
+      "title": "feel free to deviate from it …",
+      "text": "feel free to deviate from it and if you encounter any mistakes pls dm me on discord: Max / he box jonge#0494",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

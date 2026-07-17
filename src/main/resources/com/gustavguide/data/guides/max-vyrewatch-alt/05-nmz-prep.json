@@ -1,0 +1,169 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "NMZ & Sins of the Father prep",
+  "steps": [
+    {
+      "id": "nmz-prep-001",
+      "title": "NMZ your combats till a lvl …",
+      "text": "NMZ your combats till a lvl that you feel comfortable doing sins of the father with (85 combat so you can use nieve is recommended)",
+      "complete": {
+        "op": "quest",
+        "quest": "SINS_OF_THE_FATHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3729,
+        3318,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-002",
+      "title": "Use black demon, tree spirit, khazard …",
+      "text": "Use black demon, tree spirit, khazard warlord, count draynor and bouncer",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-003",
+      "title": "Imbue b ring asap",
+      "text": "Imbue b ring asap",
+      "manual": true
+    },
+    {
+      "id": "nmz-prep-004",
+      "title": "Get 62 woodcutting",
+      "text": "Get 62 woodcutting",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 62,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+      "world": [
+        3192,
+        3223,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-005",
+      "title": "Get 60 fletching",
+      "text": "Get 60 fletching",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-006",
+      "title": "Get 5.6k xp off 56 crafting",
+      "text": "Get 5.6k xp off 56 crafting",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-007",
+      "title": "Get 7k xp off 52 agility",
+      "text": "Get 7k xp off 52 agility",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-008",
+      "title": "Get 49 slayer (88k xp)",
+      "text": "Get 49 slayer (88k xp)",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 49,
+        "cmp": ">="
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-009",
+      "title": "Get 49 magic",
+      "text": "Get 49 magic",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 49,
+        "cmp": ">="
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-010",
+      "title": "Get 40 herblore",
+      "text": "Get 40 herblore",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 40,
+        "cmp": ">="
+      },
+      "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nmz-prep-011",
+      "title": "Get 5 construction",
+      "text": "Get 5 construction",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 5,
+        "cmp": ">="
+      },
+      "note": "Build crude chairs -> bookcases -> oak larders in your POH (bring saw, hammer, steel nails); Mahogany Homes is a cheaper alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

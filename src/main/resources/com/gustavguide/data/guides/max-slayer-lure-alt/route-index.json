@@ -1,0 +1,17 @@
+{
+  "_comment": "Auto-generated from raw/max-slayer-lure-alt.json by build_raw_guide.py",
+  "sections": [
+    "01-warning.json",
+    "02-combat-prep.json",
+    "03-quests-piety.json",
+    "04-quests-100qp.json",
+    "05-nmz.json",
+    "06-slayer-points.json",
+    "07-task-list.json",
+    "08-qol-tips.json",
+    "09-endgame.json",
+    "10-wyvern.json",
+    "11-rune-dragon.json",
+    "12-brutal-bd.json"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=477069711",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Fairy ring for dagannoths in house: (82 con + 3 boost)",
+  "steps": [
+    {
+      "id": "fairy-ring-001",
+      "title": "complete fairy tale questline",
+      "text": "complete fairy tale questline",
+      "manual": true
+    },
+    {
+      "id": "fairy-ring-002",
+      "title": "Priest in peril (unlocks a lot …",
+      "text": "Priest in peril (unlocks a lot of slayer monsters!)",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        1688,
+        3792,
+        2
+      ]
+    },
+    {
+      "id": "fairy-ring-003",
+      "title": "Nature spirit",
+      "text": "Nature spirit",
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3405,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "fairy-ring-004",
+      "title": "Fairy tale pt.1",
+      "text": "Fairy tale pt.1",
+      "manual": true
+    },
+    {
+      "id": "fairy-ring-005",
+      "title": "40 thieving",
+      "text": "40 thieving",
+      "manual": true
+    },
+    {
+      "id": "fairy-ring-006",
+      "title": "53 herblore and boost to 57 …",
+      "text": "53 herblore and boost to 57 with botanical pie",
+      "manual": true
+    },
+    {
+      "id": "fairy-ring-007",
+      "title": "46 farming and boost with a …",
+      "text": "46 farming and boost with a gardening pie to 49",
+      "manual": true
+    },
+    {
+      "id": "fairy-ring-008",
+      "title": "Fairy tale pt.2",
+      "text": "Fairy tale pt.2",
+      "manual": true
+    }
+  ]
+}

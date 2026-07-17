@@ -1,0 +1,222 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Combat & skill setup",
+  "steps": [
+    {
+      "id": "combat-prep-001",
+      "title": "Unlock preserve (get 70 pray if …",
+      "text": "Unlock preserve (get 70 pray if you only got 43 at the start)",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-002",
+      "title": "Buy combat gear: b ring, fury, …",
+      "text": "Buy combat gear: b ring, fury, manacles, granite hammer, Regen brace, (inquis helm), full obby + shield, sword and berserker necklace",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 11128,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 11128,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 11128,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-003",
+      "title": "Train melees to 65 att, 65 …",
+      "text": "Train melees to 65 att, 65 str and 60 def at sand crabs (granite hammer till 60 att, then d scim till 65/65/60 + use super combat pots",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 65,
+        "cmp": ">="
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
+    },
+    {
+      "id": "combat-prep-004",
+      "title": "Get dragon defender (full obby + …",
+      "text": "Get dragon defender (full obby + berserker neck) (train strength)",
+      "manual": true,
+      "world": [
+        3283,
+        3501,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-005",
+      "title": "Get 30 firemaking",
+      "text": "Get 30 firemaking",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-006",
+      "title": "Get 30 runecraft",
+      "text": "Get 30 runecraft",
+      "complete": {
+        "op": "skill",
+        "skill": "RUNECRAFT",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-007",
+      "title": "Get 31 crafting",
+      "text": "Get 31 crafting",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 31,
+        "cmp": ">="
+      },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-008",
+      "title": "Get 30 slayer (black mask, cannon)",
+      "text": "Get 30 slayer (black mask, cannon)",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "Take tasks from Mazchna in Canifis (20 combat) - use the highest master your combat level allows.",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-009",
+      "title": "sea slug",
+      "text": "sea slug",
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
+      "world": [
+        2717,
+        3303,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-010",
+      "title": "slug menace (Proselyte unlock)",
+      "text": "slug menace (Proselyte unlock)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_SLUG_MENACE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2996,
+        3373,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-011",
+      "title": "Get 36 woodcutting",
+      "text": "Get 36 woodcutting",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 36,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+      "world": [
+        3192,
+        3223,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-012",
+      "title": "lost city",
+      "text": "lost city",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3151,
+        3207,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-013",
+      "title": "Get a fire cape (optional)",
+      "text": "Get a fire cape (optional)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

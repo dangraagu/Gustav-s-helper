@@ -1,0 +1,1081 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Into Ardougne and Plague City",
+  "steps": [
+    {
+      "id": "into-ardougne-and-plague-001",
+      "title": "Fill your empty jug at the …",
+      "text": "Fill your empty jug at the sink just west of the boat",
+      "manual": true
+    },
+    {
+      "id": "into-ardougne-and-plague-002",
+      "title": "Head to the chapel",
+      "text": "Head to the chapel",
+      "manual": true
+    },
+    {
+      "id": "into-ardougne-and-plague-003",
+      "title": "Complete Sheep Herder",
+      "text": "Complete Sheep Herder",
+      "complete": {
+        "op": "quest",
+        "quest": "SHEEP_HERDER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2615,
+        3298,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-004",
+      "title": "Drop the plague clothes and cattleprod",
+      "text": "Drop the plague clothes and cattleprod",
+      "manual": true,
+      "world": [
+        2615,
+        3298,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-005",
+      "title": "Buy an iron axe and a …",
+      "text": "Buy an iron axe and a rope from Aemad's Adventuring Supplies, south of the church. — You cannot use the steel axe with only 1 Woodcutting!",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 954,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 954,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 954,
+      "npc": 8682,
+      "world": [
+        2613,
+        3292,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-006",
+      "title": "Chop a tree for some logs",
+      "text": "Chop a tree for some logs",
+      "manual": true
+    },
+    {
+      "id": "into-ardougne-and-plague-007",
+      "title": "Drop the iron axe",
+      "text": "Drop the iron axe",
+      "manual": true,
+      "world": [
+        2613,
+        3292,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-008",
+      "title": "Run west across the bridge, then …",
+      "text": "Run west across the bridge, then south of the castle",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "into-ardougne-and-plague-009",
+      "title": "Complete Hazeel Cult. Side with Hazeel",
+      "text": "Complete Hazeel Cult. Side with Hazeel",
+      "complete": {
+        "op": "quest",
+        "quest": "HAZEEL_CULT",
+        "state": "FINISHED"
+      },
+      "world": [
+        2569,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-010",
+      "title": "Drop the key and the mark",
+      "text": "Drop the key and the mark",
+      "manual": true,
+      "world": [
+        2569,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-011a",
+      "title": "Head south-east",
+      "text": "Head south-east",
+      "manual": true,
+      "world": [
+        2607,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-011b",
+      "title": "complete Monk's Friend",
+      "text": "complete Monk's Friend",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-012",
+      "title": "If you are low on food, …",
+      "text": "If you are low on food, go steal some cakes in the market",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1891,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1891,
+            "qty": 18,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1891
+    },
+    {
+      "id": "into-ardougne-and-plague-013a",
+      "title": "Head south-west",
+      "text": "Head south-west",
+      "manual": true,
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-013b",
+      "title": "complete Fight Arena",
+      "text": "complete Fight Arena",
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-014",
+      "title": "Drop the armour from Fight Arena",
+      "text": "Drop the armour from Fight Arena",
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-015a",
+      "title": "Run east to Port Khazard",
+      "text": "Run east to Port Khazard",
+      "manual": true,
+      "npc": 1209,
+      "world": [
+        2615,
+        3143,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-015b",
+      "title": "sell the law runes",
+      "text": "sell the law runes",
+      "manual": true,
+      "world": [
+        2656,
+        3152,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-015c",
+      "title": "buy a tinderbox at the general …",
+      "text": "buy a tinderbox at the general store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 590,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 590,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 590,
+      "object": 37332,
+      "world": [
+        2469,
+        3287,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-016a",
+      "title": "Chop",
+      "text": "Chop",
+      "manual": true
+    },
+    {
+      "id": "into-ardougne-and-plague-016b",
+      "title": "burn logs in the area with …",
+      "text": "burn logs in the area with your steel axe until you reach 30 Firemaking",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
+      "world": [
+        2469,
+        3287,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-016c",
+      "title": "Drop your remaining food for inventory …",
+      "text": "Drop your remaining food for inventory space",
+      "manual": true,
+      "world": [
+        2469,
+        3287,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-017",
+      "title": "Buy swamp paste from the general …",
+      "text": "Buy swamp paste from the general store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1941,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1941,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1941,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-018",
+      "title": "Take the boat at the Ardougne …",
+      "text": "Take the boat at the Ardougne docks back to Rimmington",
+      "manual": true,
+      "world": [
+        2956,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-019a",
+      "title": "Go to Betty's Magic Emporium",
+      "text": "Go to Betty's Magic Emporium",
+      "manual": true,
+      "npc": 5905,
+      "world": [
+        3014,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-019b",
+      "title": "buy 300 mind runes and 600 …",
+      "text": "buy 300 mind runes and 600 air runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 558,
+            "qty": 300
+          },
+          {
+            "op": "item",
+            "id": 558,
+            "qty": 800,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 558,
+      "world": [
+        3014,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-020",
+      "title": "Take the boat back to Ardougne",
+      "text": "Take the boat back to Ardougne",
+      "manual": true,
+      "npc": 1146,
+      "world": [
+        2933,
+        3210,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-021a",
+      "title": "Head to Witchaven",
+      "text": "Head to Witchaven",
+      "world": [
+        2720,
+        3287,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2720,
+        "y": 3287,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "into-ardougne-and-plague-021b",
+      "title": "complete Sea Slug. — (Optional) Buy …",
+      "text": "complete Sea Slug. — (Optional) Buy a small fishing net from the fishing shop",
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
+      "world": [
+        2717,
+        3303,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-021c",
+      "title": "complete the medium diary step during …",
+      "text": "complete the medium diary step during the completion of Sea Slug",
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
+      "world": [
+        2717,
+        3303,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-022a",
+      "title": "Head north to the Temple of …",
+      "text": "Head north to the Temple of Ikov (dungeon)",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "object": 17384,
+      "world": [
+        2677,
+        3405,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-022b",
+      "title": "pick up the Boots of Lightness",
+      "text": "pick up the Boots of Lightness",
+      "manual": true,
+      "world": [
+        2677,
+        3405,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-022c",
+      "title": "Wear them. — Your steel axe …",
+      "text": "Wear them. — Your steel axe is the slash weapon for the web",
+      "manual": true,
+      "item": 1353,
+      "world": [
+        2677,
+        3405,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-023a",
+      "title": "Return to Ardougne",
+      "text": "Return to Ardougne",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-023b",
+      "title": "sell the pearls to the general …",
+      "text": "sell the pearls to the general store",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-024",
+      "title": "Drop the torch, sticks, glass, and …",
+      "text": "Drop the torch, sticks, glass, and small fishing net (if you picked one up earlier)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-025",
+      "title": "Steal cakes until 25 Thieving. — …",
+      "text": "Steal cakes until 25 Thieving. — Complete Tribal Totem once you have 21 Thieving for a bit of quick xp. — Keep 8 cakes for some food",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 25,
+        "cmp": ">="
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-026a",
+      "title": "Head north",
+      "text": "Head north",
+      "manual": true,
+      "world": [
+        2567,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-026b",
+      "title": "complete Dwarf Cannon until you have …",
+      "text": "complete Dwarf Cannon until you have to visit Ice Mountain. Captain Lawgof will provide a hammer at the start of the quest",
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-027",
+      "title": "Head north to the Barbarian Outpost",
+      "text": "Head north to the Barbarian Outpost",
+      "manual": true,
+      "object": 2115,
+      "world": [
+        2545,
+        3570,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-028",
+      "title": "Speak with Captain Cain to unlock …",
+      "text": "Speak with Captain Cain to unlock the minigame teleport to Barbarian Assault. (Say you are an expert already.)",
+      "manual": true,
+      "npc": 6649,
+      "world": [
+        2222,
+        3796,
+        2
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-029a",
+      "title": "Run south",
+      "text": "Run south",
+      "manual": true,
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-029b",
+      "title": "start Waterfall Quest",
+      "text": "start Waterfall Quest",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-030",
+      "title": "Complete Waterfall Quest until you have …",
+      "text": "Complete Waterfall Quest until you have to visit Tree Gnome Village",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-031",
+      "title": "Drop the book you obtained",
+      "text": "Drop the book you obtained",
+      "manual": true,
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-032a",
+      "title": "Run south then west",
+      "text": "Run south then west",
+      "manual": true,
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-032b",
+      "title": "enter the Gnome Stronghold",
+      "text": "enter the Gnome Stronghold",
+      "manual": true,
+      "world": [
+        2440,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-033a",
+      "title": "Run north",
+      "text": "Run north",
+      "manual": true,
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-033b",
+      "title": "speak to King Narnode to start …",
+      "text": "speak to King Narnode to start the The Grand Tree",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "npc": 8019,
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-034a",
+      "title": "Go upstairs",
+      "text": "Go upstairs",
+      "manual": true,
+      "world": [
+        2571,
+        9850,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-034b",
+      "title": "head west and north to find …",
+      "text": "head west and north to find Hudo",
+      "manual": true,
+      "object": 1,
+      "world": [
+        2571,
+        9850,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-035",
+      "title": "Buy from Hudo: — 1 dwellberries …",
+      "text": "Buy from Hudo: — 1 dwellberries — 1 bucket of milk — 1 chocolate dust",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1927,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1927,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1927
+    },
+    {
+      "id": "into-ardougne-and-plague-036",
+      "title": "Be careful not to eat the …",
+      "text": "Be careful not to eat the dwellberries",
+      "manual": true
+    },
+    {
+      "id": "into-ardougne-and-plague-037",
+      "title": "Use the chocolate dust on the …",
+      "text": "Use the chocolate dust on the bucket of milk",
+      "manual": true,
+      "world": [
+        2571,
+        9850,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-038",
+      "title": "Use your snape grass on the …",
+      "text": "Use your snape grass on the bucket of chocolate milk to make the hangover cure",
+      "manual": true,
+      "world": [
+        2571,
+        9850,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-039",
+      "title": "Minigame teleport to the Fishing Trawler",
+      "text": "Minigame teleport to the Fishing Trawler",
+      "manual": true
+    },
+    {
+      "id": "into-ardougne-and-plague-040",
+      "title": "Run south towards Yanille",
+      "text": "Run south towards Yanille",
+      "manual": true,
+      "object": 17047,
+      "world": [
+        2556,
+        3072,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-041",
+      "title": "Head to the island to the …",
+      "text": "Head to the island to the east of Yanille",
+      "manual": true,
+      "object": 17047,
+      "world": [
+        2556,
+        3072,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-042a",
+      "title": "Go upstairs in the building",
+      "text": "Go upstairs in the building",
+      "manual": true,
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-042b",
+      "title": "speak with Hazelmere to continue The …",
+      "text": "speak with Hazelmere to continue The Grand Tree",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-043",
+      "title": "Drop the translation book but keep …",
+      "text": "Drop the translation book but keep the scroll",
+      "manual": true,
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-044",
+      "title": "After getting the message, head to …",
+      "text": "After getting the message, head to the Gnome Maze",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-045",
+      "title": "Proceed through the maze, go down …",
+      "text": "Proceed through the maze, go down the ladder right before you get reach the railing in the center",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-046",
+      "title": "Search the off-coloured crate in the …",
+      "text": "Search the off-coloured crate in the east room for a key",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-047a",
+      "title": "Use the key on the door …",
+      "text": "Use the key on the door to the west path",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-047b",
+      "title": "speak to Golrie for Glarial's Pebble",
+      "text": "speak to Golrie for Glarial's Pebble",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-048",
+      "title": "Exit the dungeon",
+      "text": "Exit the dungeon",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-049",
+      "title": "Squeeze through the railing to get …",
+      "text": "Squeeze through the railing to get into the center area of the maze",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-050",
+      "title": "Complete Tree Gnome Village",
+      "text": "Complete Tree Gnome Village",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-051",
+      "title": "Drop the gnome amulet",
+      "text": "Drop the gnome amulet",
+      "manual": true,
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-052",
+      "title": "Use the spirit tree to teleport …",
+      "text": "Use the spirit tree to teleport to The Battlefield of Khazard",
+      "manual": true,
+      "npc": 1209,
+      "world": [
+        2615,
+        3143,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-053a",
+      "title": "Steal cakes if you are low …",
+      "text": "Steal cakes if you are low on food from bakery stalls at the Ardougne Market",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1891,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 1891,
+            "qty": 18,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1891,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-053b",
+      "title": "Get plenty, as you will soon …",
+      "text": "Get plenty, as you will soon be taking a lot of damage",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-054a",
+      "title": "Head north of the Flying Horse …",
+      "text": "Head north of the Flying Horse Inn",
+      "manual": true,
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-054b",
+      "title": "speak with Edmond",
+      "text": "speak with Edmond",
+      "manual": true,
+      "npc": 4256,
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-055",
+      "title": "Complete Plague City",
+      "text": "Complete Plague City",
+      "complete": {
+        "op": "quest",
+        "quest": "PLAGUE_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-056a",
+      "title": "Read the scroll",
+      "text": "Read the scroll",
+      "manual": true,
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-056b",
+      "title": "drop the gas mask, hammer, spade, …",
+      "text": "drop the gas mask, hammer, spade, and empty bucket",
+      "manual": true,
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-057",
+      "title": "Buy another rope from the general …",
+      "text": "Buy another rope from the general store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 954,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 954,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 954,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "into-ardougne-and-plague-058",
+      "title": "Inventory check",
+      "text": "Inventory check",
+      "manual": true
+    },
+    {
+      "id": "into-ardougne-and-plague-059",
+      "title": "Inventory check: Cake, Cake, Cake, Cake, …",
+      "text": "Inventory check: Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Teleport to house (tablet), Rope, Hazelmere's scroll, Glarial's pebble, Earth rune, Water rune, Air rune, Mind rune, Portrait, Tinderbox, Steel axe, Coins",
+      "manual": true,
+      "npc": 1422,
+      "world": [
+        2677,
+        3087,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Combat & item prep",
+  "steps": [
+    {
+      "id": "combat-prep-001",
+      "title": "But first you should do combats, …",
+      "text": "But first you should do combats, unlock/buy some items",
+      "manual": true
+    },
+    {
+      "id": "combat-prep-002",
+      "title": "Unlock preserve (get 70 pray if …",
+      "text": "Unlock preserve (get 70 pray if you only got 43 at the start)",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-003",
+      "title": "Buy combat gear: b ring, fury, …",
+      "text": "Buy combat gear: b ring, fury, manacles, granite hammer, Regen brace, full obby + shield, sword and berserker necklace",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 11128,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 11128,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 11128,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-004",
+      "title": "Train melees to 65 att, 65 …",
+      "text": "Train melees to 65 att, 65 str and 60 def at sand crabs (granite hammer till 60 att, then d scim till 65/65/60 + use super combat pots)",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 65,
+        "cmp": ">="
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
+    },
+    {
+      "id": "combat-prep-005",
+      "title": "Get dragon defender (full obby + …",
+      "text": "Get dragon defender (full obby + berserker neck) (train strength)",
+      "manual": true,
+      "world": [
+        3283,
+        3501,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-006",
+      "title": "Fishing contest, cooks assistent, RFD Cook …",
+      "text": "Fishing contest, cooks assistent, RFD Cook & RFD dwarf for acces to Rock cake when doing absorbtion method in nmz",
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "combat-prep-007",
+      "title": "Move your house to Relleka",
+      "text": "Move your house to Relleka",
+      "manual": true
+    }
+  ]
+}

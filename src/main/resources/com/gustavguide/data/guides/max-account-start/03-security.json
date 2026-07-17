@@ -1,0 +1,41 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Account security",
+  "steps": [
+    {
+      "id": "security-001",
+      "title": "Dont make the email: rsn@gmail.com or …",
+      "text": "Dont make the email: rsn@gmail.com or w/e",
+      "manual": true
+    },
+    {
+      "id": "security-002a",
+      "title": "Make an unique recovery email",
+      "text": "Make an unique recovery email",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "security-002b",
+      "title": "use a password manager",
+      "text": "use a password manager",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "security-003",
+      "title": "Enable authenticator, on both your account …",
+      "text": "Enable authenticator, on both your account and email",
+      "manual": true
+    }
+  ]
+}

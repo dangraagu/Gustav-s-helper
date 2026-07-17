@@ -1,0 +1,36 @@
+/*
+ * Copyright (c) 2026, dangraagu
+ * Licensed under the BSD 2-Clause License. See LICENSE.
+ */
+package com.gustavguide.engine.condition;
+
+import com.gustavguide.engine.ConditionContext;
+import java.util.Set;
+
+public class NotCondition implements Condition
+{
+	private final Condition inner;
+
+	public NotCondition(Condition inner)
+	{
+		this.inner = inner;
+	}
+
+	@Override
+	public boolean isMet(ConditionContext ctx)
+	{
+		return !inner.isMet(ctx);
+	}
+
+	@Override
+	public String describe()
+	{
+		return "NOT " + inner.describe();
+	}
+
+	@Override
+	public Set<Integer> itemIds()
+	{
+		return inner.itemIds();
+	}
+}

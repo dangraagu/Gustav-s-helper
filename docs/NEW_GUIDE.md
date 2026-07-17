@@ -1,6 +1,6 @@
 # Adding a new guide
 
-The plugin bundles multiple guides and lets the player pick one in **Config → Osiris Guide →
+The plugin bundles multiple guides and lets the player pick one in **Config → Gustav's Helper →
 Guide**. Progress and the item ledger are tracked **separately per guide** (keys are namespaced by
 guide id). Everything except the route data and the source-extractor is reused across guides:
 
@@ -26,8 +26,8 @@ guide id). Everything except the route data and the source-extractor is reused a
    - The shared enrichers run automatically — no per-guide work.
 
 3. **Register it** in two places:
-   - `src/main/resources/com/osirisguide/data/guides.json` — add `{ "id", "name", "description" }`.
-   - `src/main/java/com/osirisguide/Guide.java` — add an enum value:
+   - `src/main/resources/com/gustavguide/data/guides.json` — add `{ "id", "name", "description" }`.
+   - `src/main/java/com/gustavguide/Guide.java` — add an enum value:
      `YOUR_GUIDE("your-guide-id", "Your Guide Name")`.
 
 4. **Build** (`./gradlew build`). The guide now appears in the picker. Selecting it live reloads the

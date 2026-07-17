@@ -1,0 +1,44 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Wyvern alt",
+  "steps": [
+    {
+      "id": "wyvern-001",
+      "title": "Wyverns ~150m bis Gear — 1m+ …",
+      "text": "Wyverns ~150m bis Gear — 1m+ gp/h",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "wyvern-002",
+      "title": "Do elemental workshop I",
+      "text": "Do elemental workshop I",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2716,
+        3482,
+        0
+      ]
+    },
+    {
+      "id": "wyvern-003",
+      "title": "Read section in the skilling methods …",
+      "text": "Read section in the skilling methods discord. basically just need gear and you can start",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "Auto-generated from raw/max-vyrewatch-alt.json by build_raw_guide.py",
+  "sections": [
+    "01-intro.json",
+    "02-setup.json",
+    "03-early-quests.json",
+    "04-combat-prep.json",
+    "05-nmz-prep.json",
+    "06-myreque.json",
+    "07-gear.json",
+    "08-further-upgrades.json"
+  ]
+}

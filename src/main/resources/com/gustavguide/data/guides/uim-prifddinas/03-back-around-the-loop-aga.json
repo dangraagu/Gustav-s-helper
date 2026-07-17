@@ -1,0 +1,828 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Back around the loop again",
+  "steps": [
+    {
+      "id": "back-around-the-loop-aga-001",
+      "title": "Home teleport to Lumbridge",
+      "text": "Home teleport to Lumbridge",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-002a",
+      "title": "Go to the Lumbridge graveyard",
+      "text": "Go to the Lumbridge graveyard",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-002b",
+      "title": "complete The Restless Ghost. Keep the …",
+      "text": "complete The Restless Ghost. Keep the ghostspeak amulet",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3206,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-003a",
+      "title": "Head to Bob's Brilliant Axes",
+      "text": "Head to Bob's Brilliant Axes",
+      "world": [
+        3229,
+        3204,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3229,
+        "y": 3204,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "back-around-the-loop-aga-003b",
+      "title": "buy a steel axe from Bob",
+      "text": "buy a steel axe from Bob",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1353,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1353,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1353,
+      "world": [
+        3229,
+        3204,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-004a",
+      "title": "Head west to the Wizards' Tower",
+      "text": "Head west to the Wizards' Tower",
+      "world": [
+        3109,
+        3160,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3109,
+        "y": 3160,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "back-around-the-loop-aga-004b",
+      "title": "finish Rune Mysteries",
+      "text": "finish Rune Mysteries",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-004c",
+      "title": "Drop the air talisman",
+      "text": "Drop the air talisman",
+      "manual": true,
+      "world": [
+        3109,
+        3160,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-005",
+      "title": "Go north into Draynor Village",
+      "text": "Go north into Draynor Village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "back-around-the-loop-aga-006",
+      "title": "Have Aggie make you a yellow …",
+      "text": "Have Aggie make you a yellow dye, a red dye, and a blue dye, Use the ingredients on her to make them faster. — Use the red and yellow dye together to make orange dye",
+      "manual": true,
+      "npc": 4284,
+      "world": [
+        3086,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-007",
+      "title": "Buy a few jugs of wine …",
+      "text": "Buy a few jugs of wine from Fortunato at Draynor Seed Market. Five jugs should be enough with your other food. — Make sure to hold on to at least 1 of these jugs as you will need it later.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 13,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "npc": 1260,
+      "world": [
+        3085,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-008a",
+      "title": "Buy the Chronicle from Diango and …",
+      "text": "Buy the Chronicle from Diango and 3 teleport cards",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 13658,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 13658,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 13658,
+      "world": [
+        3081,
+        3246,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-008b",
+      "title": "Equip the Chronicle",
+      "text": "Equip the Chronicle",
+      "manual": true,
+      "item": 13660,
+      "world": [
+        3081,
+        3246,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-009a",
+      "title": "Enter Morgan's house",
+      "text": "Enter Morgan's house",
+      "manual": true,
+      "npc": 3479,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-009b",
+      "title": "search the cupboards upstairs for garlic",
+      "text": "search the cupboards upstairs for garlic",
+      "manual": true,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-010",
+      "title": "Run north to Draynor Manor",
+      "text": "Run north to Draynor Manor",
+      "manual": true,
+      "object": 134,
+      "world": [
+        3108,
+        3353,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-011a",
+      "title": "Enter the manor",
+      "text": "Enter the manor",
+      "manual": true,
+      "world": [
+        3108,
+        3353,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-011b",
+      "title": "go down the stairs to the …",
+      "text": "go down the stairs to the east",
+      "manual": true,
+      "world": [
+        3108,
+        3353,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-012",
+      "title": "Defeat Count Draynor using Magic spells. …",
+      "text": "Defeat Count Draynor using Magic spells. — Safespot him in the corner: https://www.youtube.com/watch?v&#61;ACUWxB0Skyo",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-013",
+      "title": "Drop the garlic",
+      "text": "Drop the garlic",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-014",
+      "title": "Use a teleport to house tab, …",
+      "text": "Use a teleport to house tab, then exit your house",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-015",
+      "title": "Use up the noted planks by …",
+      "text": "Use up the noted planks by unnoting them at Phials and building chairs in your house. — This will take a few trips, you can drop some items for a short time for extra space. — You only really need level 10 Construction so if you run out of nails before all your planks get used that is fine if you got level 10.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-016",
+      "title": "Exit your house, drop the extra …",
+      "text": "Exit your house, drop the extra nails, hammer, and saw",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-017",
+      "title": "Head east to Port Sarim",
+      "text": "Head east to Port Sarim",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-018",
+      "title": "Buy one redberries and a pot …",
+      "text": "Buy one redberries and a pot of flour from Wydin's Food Store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1933,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1933,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1933,
+      "world": [
+        2905,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-019",
+      "title": "Make a redberry pie — Use …",
+      "text": "Make a redberry pie — Use the pot of flour with your bucket of water to create pastry dough. — Use the pastry dough on your pie dish to make a pie shell. — Use the redberry on the pie shell to make an uncooked berry pie. — Head north and cook the pie on the range. — If you burn the pie, empty the pan and repeat the steps from before to try again. There is a water source for the bucket to the north.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-020",
+      "title": "Drop the pot(s) and empty bucket …",
+      "text": "Drop the pot(s) and empty bucket once you have the redberry pie",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-021a",
+      "title": "Go to Wydin's Food Store",
+      "text": "Go to Wydin's Food Store",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-021b",
+      "title": "buy one raw beef. — (Optional) …",
+      "text": "buy one raw beef. — (Optional) Buy 1-2 extra cheese in case you make a mistake during Witch's House",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2132,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2132,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2132,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-022a",
+      "title": "Kill a giant rat to the …",
+      "text": "Kill a giant rat to the west",
+      "manual": true,
+      "world": [
+        3239,
+        9864,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-022b",
+      "title": "Take the raw rat meat",
+      "text": "Take the raw rat meat",
+      "manual": true,
+      "world": [
+        3239,
+        9864,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-023a",
+      "title": "Head south to Thurgo",
+      "text": "Head south to Thurgo",
+      "manual": true,
+      "npc": 4733,
+      "world": [
+        3000,
+        3145,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-023b",
+      "title": "Give him the pie",
+      "text": "Give him the pie",
+      "manual": true,
+      "npc": 4733,
+      "world": [
+        3000,
+        3145,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-023c",
+      "title": "speak with him to continue The …",
+      "text": "speak with him to continue The Knight's Sword",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-024",
+      "title": "Use a teleport to house tab …",
+      "text": "Use a teleport to house tab and exit your house",
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-025",
+      "title": "Take a boat to Ardougne from …",
+      "text": "Take a boat to Ardougne from Captain Barnaby in Rimmington (not the charter ships in Port Sarim) for 30 coins",
+      "manual": true,
+      "npc": 754,
+      "world": [
+        2683,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-026a",
+      "title": "Kill a chicken to the east",
+      "text": "Kill a chicken to the east",
+      "manual": true,
+      "world": [
+        3018,
+        3289,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-026b",
+      "title": "take the raw chicken",
+      "text": "take the raw chicken",
+      "manual": true,
+      "world": [
+        3018,
+        3289,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-027a",
+      "title": "Head north and safespot a bear",
+      "text": "Head north and safespot a bear",
+      "manual": true
+    },
+    {
+      "id": "back-around-the-loop-aga-027b",
+      "title": "Take the raw bear meat",
+      "text": "Take the raw bear meat",
+      "manual": true,
+      "world": [
+        3018,
+        3289,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-028",
+      "title": "If you are low on food …",
+      "text": "If you are low on food buy some cake at the stall in Ardougne",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1891,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1891,
+            "qty": 18,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1891,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-029",
+      "title": "Use the Falador teleport tab",
+      "text": "Use the Falador teleport tab",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-030a",
+      "title": "Return to Falador Castle",
+      "text": "Return to Falador Castle",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-030b",
+      "title": "Talk to the squire to continue …",
+      "text": "Talk to the squire to continue The Knight's Sword",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "npc": 1770,
+      "world": [
+        3041,
+        3202,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-031a",
+      "title": "Go upstairs",
+      "text": "Go upstairs",
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-031b",
+      "title": "take the portrait for The Knight's …",
+      "text": "take the portrait for The Knight's Sword",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-032a",
+      "title": "Run north to the Goblin Village",
+      "text": "Run north to the Goblin Village",
+      "manual": true,
+      "object": 23,
+      "world": [
+        2962,
+        3506,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-032b",
+      "title": "complete Goblin Diplomacy. 3 crates in …",
+      "text": "complete Goblin Diplomacy. 3 crates in the area have the goblin mail needed",
+      "complete": {
+        "op": "quest",
+        "quest": "GOBLIN_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2954,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-033",
+      "title": "Drop the gold bar",
+      "text": "Drop the gold bar",
+      "manual": true,
+      "world": [
+        2954,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-034",
+      "title": "Head west to Taverley and complete …",
+      "text": "Head west to Taverley and complete Witch's House. Drop the leather gloves and 2 keys afterwards. — First 2 forms safespot: https://www.youtube.com/watch?v&#61;bDB351j-qZI&t&#61;180s",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-035",
+      "title": "Complete Druidic Ritual. — Use all …",
+      "text": "Complete Druidic Ritual. — Use all random event lamps on Herblore from now on",
+      "complete": {
+        "op": "quest",
+        "quest": "DRUIDIC_RITUAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2925,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-036",
+      "title": "Use the antique lamp from X …",
+      "text": "Use the antique lamp from X Marks the Spot on Herblore",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-037",
+      "title": "Use a teleport to house tab, …",
+      "text": "Use a teleport to house tab, then exit your house",
+      "manual": true,
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-038a",
+      "title": "Head to the peninsula to the …",
+      "text": "Head to the peninsula to the west of the Crafting Guild",
+      "manual": true,
+      "object": 14910,
+      "world": [
+        2933,
+        3289,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-038b",
+      "title": "Pick up one snape grass",
+      "text": "Pick up one snape grass",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 231,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 231,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 231,
+      "world": [
+        2933,
+        3289,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-039a",
+      "title": "Head south to Rimmington",
+      "text": "Head south to Rimmington",
+      "world": [
+        2956,
+        3232,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2956,
+        "y": 3232,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "back-around-the-loop-aga-039b",
+      "title": "take a boat to Ardougne from …",
+      "text": "take a boat to Ardougne from Captain Barnaby",
+      "manual": true,
+      "npc": 754,
+      "world": [
+        2683,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "back-around-the-loop-aga-040",
+      "title": "Inventory check:",
+      "text": "Inventory check:",
+      "manual": true
+    },
+    {
+      "id": "back-around-the-loop-aga-041",
+      "title": "Inventory check: Jug, Teleport to house …",
+      "text": "Inventory check: Jug, Teleport to house (tablet), Earth rune, Water rune, Air rune, Mind rune, Portrait, Snape grass, Steel axe, Coins",
+      "manual": true
+    }
+  ]
+}

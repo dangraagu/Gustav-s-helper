@@ -1,0 +1,136 @@
+{
+  "id": "max-vyrewatch-alt",
+  "name": "Max — Vyrewatch Alt",
+  "source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "sections": [
+    {
+      "section": "Intro",
+      "prefix": "intro",
+      "steps": [
+        { "name": "Welcome. in this guide I give you a fairly optimal questing and skill training route for a vyrewatch alt", "loc": null },
+        { "name": "feel free to deviate from it and if you encounter any mistakes pls dm me on discord: Max / he box jonge#0494", "loc": null }
+      ]
+    },
+    {
+      "section": "Account setup",
+      "prefix": "setup",
+      "steps": [
+        { "name": "Complete tutorial island as a female. Don't forget 2FA for account security purposes.", "loc": null },
+        { "name": "Get membership either with a bond or irl money", "loc": null },
+        { "name": "Transfer about 100-200m gp and a ring of wealth (5) to your account(s) (200m+ if you are doing inquis helm route)", "loc": null },
+        { "name": "Teleport to Grand Exchange with ring of wealth", "loc": null },
+        { "name": "Buy some teleports, runes for early questing and buy some bones for 70 prayer (or higher)", "loc": null },
+        { "name": "Get 43 prayer or go to 70 if you feel like it (wildy or 330 poh)", "loc": null }
+      ]
+    },
+    {
+      "section": "Early game quests",
+      "prefix": "early-quests",
+      "steps": [
+        { "name": "Do early game quests (world 330 for someone's house for teleports)", "loc": null },
+        { "name": "witch's house", "loc": null },
+        { "name": "waterfall quest", "loc": null },
+        { "name": "tree gnome village", "loc": null },
+        { "name": "fight arena", "loc": null },
+        { "name": "monks friend", "loc": null },
+        { "name": "plague city", "loc": null },
+        { "name": "Get 30 thieving while in ardy (can do Tribal totem at 21 thiev for 1775 xp)", "loc": null },
+        { "name": "Knight's sword", "loc": null },
+        { "name": "Get 10 fletching", "loc": null },
+        { "name": "tourist trap (use lamps on agility x2 )", "loc": null },
+        { "name": "the grand tree", "loc": null },
+        { "name": "dwarf cannon", "loc": null },
+        { "name": "druidic ritual", "loc": null },
+        { "name": "priest in peril", "loc": null },
+        { "name": "black knights fortress", "loc": null },
+        { "name": "recruitment drive", "loc": null },
+        { "name": "restless ghost", "loc": null },
+        { "name": "rune mysteries", "loc": null },
+        { "name": "vampire slayer", "loc": null },
+        { "name": "a porcine of intrest", "loc": null },
+        { "name": "dorics quest", "loc": null },
+        { "name": "goblin diplomacy", "loc": null },
+        { "name": "the lost tribe", "loc": null },
+        { "name": "enter the abbys", "loc": null },
+        { "name": "wanted", "loc": null },
+        { "name": "varrock museum quiz", "loc": null },
+        { "name": "dragon slayer", "loc": null },
+        { "name": "Monkey madness (get the attack and defence training)", "loc": null }
+      ]
+    },
+    {
+      "section": "Combat & skill setup",
+      "prefix": "combat-prep",
+      "steps": [
+        { "name": "Unlock preserve (get 70 pray if you only got 43 at the start)", "loc": null },
+        { "name": "Buy combat gear: b ring, fury, manacles, granite hammer, Regen brace, (inquis helm), full obby + shield, sword and berserker necklace", "loc": null },
+        { "name": "Train melees to 65 att, 65 str and 60 def at sand crabs (granite hammer till 60 att, then d scim till 65/65/60 + use super combat pots", "loc": null },
+        { "name": "Get dragon defender (full obby + berserker neck) (train strength)", "loc": null },
+        { "name": "Get 30 firemaking", "loc": null },
+        { "name": "Get 30 runecraft", "loc": null },
+        { "name": "Get 31 crafting", "loc": null },
+        { "name": "Get 30 slayer (black mask, cannon)", "loc": null },
+        { "name": "sea slug", "loc": null },
+        { "name": "slug menace (Proselyte unlock)", "loc": null },
+        { "name": "Get 36 woodcutting", "loc": null },
+        { "name": "lost city", "loc": null },
+        { "name": "Get a fire cape (optional)", "loc": null }
+      ]
+    },
+    {
+      "section": "NMZ & Sins of the Father prep",
+      "prefix": "nmz-prep",
+      "steps": [
+        { "name": "NMZ your combats till a lvl that you feel comfortable doing sins of the father with (85 combat so you can use nieve is recommended)", "loc": null },
+        { "name": "Use black demon, tree spirit, khazard warlord, count draynor and bouncer", "loc": null },
+        { "name": "Imbue b ring asap", "loc": null },
+        { "name": "Get 62 woodcutting", "loc": null },
+        { "name": "Get 60 fletching", "loc": null },
+        { "name": "Get 5.6k xp off 56 crafting", "loc": null },
+        { "name": "Get 7k xp off 52 agility", "loc": null },
+        { "name": "Get 49 slayer (88k xp)", "loc": null },
+        { "name": "Get 49 magic", "loc": null },
+        { "name": "Get 40 herblore", "loc": null },
+        { "name": "Get 5 construction", "loc": null }
+      ]
+    },
+    {
+      "section": "Myreque quest line",
+      "prefix": "myreque",
+      "steps": [
+        { "name": "Do the myreque quest line", "loc": null },
+        { "name": "Nature spirit", "loc": null },
+        { "name": "In search of the Myreque", "loc": null },
+        { "name": "In aid of the Myreque", "loc": null },
+        { "name": "Darkness of Hallowvale (use xp reward on slayer x3)", "loc": null },
+        { "name": "A taste of hope (use xp reward on slayer x3)", "loc": null },
+        { "name": "Sins of the father", "loc": null },
+        { "name": "GZ on your vyre alt(s)", "loc": null }
+      ]
+    },
+    {
+      "section": "Gear & post-completion",
+      "prefix": "gear",
+      "steps": [
+        { "name": "Gear: https://i.imgur.com/GAJxEON.png", "loc": null },
+        { "name": "Do Fremennik trials and isles for neitz helm if you dont want to use inquis helm ( requires 20 construction)", "loc": null },
+        { "name": "Buy Torture amulet at 75hp", "loc": null },
+        { "name": "Buy primordial boots at 75def", "loc": null },
+        { "name": "Get a fire cape if you didnt do it b4 nmz", "loc": null },
+        { "name": "Video of vyrewatch alt in action: https://www.youtube.com/watch?v=QDOmtmP5gbk", "loc": null },
+        { "name": "Best profif to afk ratio is only pick up addy plates, rune bar, rune ore, rune full helm, rune kites, and blood shards", "loc": null }
+      ]
+    },
+    {
+      "section": "Further upgrades",
+      "prefix": "further-upgrades",
+      "steps": [
+        { "name": "Avernic defender (75 def)", "loc": null },
+        { "name": "Neitiznot Faceguard (million quests and reqs but worth if you want to use the alt for other stuff as well later i.e spec transfer or other pvm", "loc": null },
+        { "name": "Higher prayer level for longer afk", "loc": null },
+        { "name": "ferocious gloves (ds2 , 200 qp)", "loc": null }
+      ]
+    }
+  ]
+}

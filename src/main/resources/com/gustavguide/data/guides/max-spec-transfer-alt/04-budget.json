@@ -1,0 +1,80 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=477069711",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Budget route",
+  "steps": [
+    {
+      "id": "budget-001",
+      "title": "get 65 construction and boost with …",
+      "text": "get 65 construction and boost with stew and saw to 70",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 65,
+        "cmp": ">="
+      },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "budget-002a",
+      "title": "build Revitalisation pool (only spec",
+      "text": "build Revitalisation pool (only spec",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "budget-002b",
+      "title": "run)",
+      "text": "run)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "budget-003",
+      "title": "build portal room",
+      "text": "build portal room",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "budget-004",
+      "title": "unlock kourend caste teleport",
+      "text": "unlock kourend caste teleport",
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
+    },
+    {
+      "id": "budget-005",
+      "title": "put kourend teleport and lunar in …",
+      "text": "put kourend teleport and lunar in portal room",
+      "manual": true,
+      "world": [
+        1630,
+        3730,
+        0
+      ]
+    }
+  ]
+}

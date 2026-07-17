@@ -1,0 +1,52 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Further upgrades",
+  "steps": [
+    {
+      "id": "further-upgrades-001",
+      "title": "Avernic defender (75 def)",
+      "text": "Avernic defender (75 def)",
+      "manual": true,
+      "world": [
+        3283,
+        3501,
+        0
+      ]
+    },
+    {
+      "id": "further-upgrades-002",
+      "title": "Neitiznot Faceguard (million quests and reqs …",
+      "text": "Neitiznot Faceguard (million quests and reqs but worth if you want to use the alt for other stuff as well later i.e spec transfer or other pvm",
+      "manual": true,
+      "npc": 1883,
+      "world": [
+        2644,
+        3710,
+        0
+      ]
+    },
+    {
+      "id": "further-upgrades-003",
+      "title": "Higher prayer level for longer afk",
+      "text": "Higher prayer level for longer afk",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "further-upgrades-004",
+      "title": "ferocious gloves (ds2 , 200 qp)",
+      "text": "ferocious gloves (ds2 , 200 qp)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

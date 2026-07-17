@@ -1,0 +1,407 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Agility",
+  "steps": [
+    {
+      "id": "agility-001",
+      "title": "Do Varrock Rooftop Course course until …",
+      "text": "Do Varrock Rooftop Course course until 40 Agility",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 40,
+        "cmp": ">="
+      },
+      "note": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "object": 14412,
+      "world": [
+        3221,
+        3414,
+        0
+      ]
+    },
+    {
+      "id": "agility-002",
+      "title": "Buy a mithril sword from the …",
+      "text": "Buy a mithril sword from the Varrock Swordshop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1285,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1285,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1285,
+      "world": [
+        3207,
+        3400,
+        0
+      ]
+    },
+    {
+      "id": "agility-003",
+      "title": "Home teleport",
+      "text": "Home teleport",
+      "manual": true
+    },
+    {
+      "id": "agility-004",
+      "title": "Get a bronze pickaxe from the …",
+      "text": "Get a bronze pickaxe from the tower",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "agility-005a",
+      "title": "Head to Draynor Village",
+      "text": "Head to Draynor Village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "agility-005b",
+      "title": "buy some wine, 10 should be …",
+      "text": "buy some wine, 10 should be enough",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 13,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "world": [
+        3085,
+        3253,
+        0
+      ]
+    },
+    {
+      "id": "agility-006",
+      "title": "Buy 5 more charges for your …",
+      "text": "Buy 5 more charges for your Chronicle from Diango",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "agility-007",
+      "title": "Chronicle teleport",
+      "text": "Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "agility-008a",
+      "title": "Complete Priest in Peril",
+      "text": "Complete Priest in Peril",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "agility-008b",
+      "title": "Mine your own rune essence, — …",
+      "text": "Mine your own rune essence, — Just do 3 trips for the essence. — Don't forget to grab a bucket during the quest",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1436,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1436,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1436,
+      "npc": 10681,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "agility-009",
+      "title": "Drop your fire staff, mithril sword, …",
+      "text": "Drop your fire staff, mithril sword, and extra food for weight",
+      "manual": true,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "agility-010",
+      "title": "Head into Canifis and do the …",
+      "text": "Head into Canifis and do the Canifis Rooftop Course until 50 Agility. — Do not stay at the Canifis course past level 50, it isn't worth the slower xp. — You can wield the Wolfbane dagger to prevent yourself from attacking someone and making them a werewolf.",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 50,
+        "cmp": ">="
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "world": [
+        3493,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "agility-011",
+      "title": "Minigame teleport to Burthorpe Games Room, …",
+      "text": "Minigame teleport to Burthorpe Games Room, buy the some of the graceful outfit from Grace in the Rogues' Den",
+      "manual": true,
+      "object": 7257,
+      "world": [
+        2905,
+        3537,
+        0
+      ]
+    },
+    {
+      "id": "agility-012",
+      "title": "Head over to Falador and do …",
+      "text": "Head over to Falador and do the Falador Rooftop Course until 60 Agility",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "agility-013",
+      "title": "Minigame teleport to Burthorpe Games Room, …",
+      "text": "Minigame teleport to Burthorpe Games Room, buy some of the graceful outfit from Grace in the Rogues' Den",
+      "manual": true,
+      "object": 7257,
+      "world": [
+        2905,
+        3537,
+        0
+      ]
+    },
+    {
+      "id": "agility-014",
+      "title": "Head over to Seers' Village and …",
+      "text": "Head over to Seers' Village and do the Seers' Village Rooftop Course until you have 260 marks of grace (including those you have already spent on pieces). — You can buy meat pies for a low price in the Seer's pub, as fail rate can be quite high at 60.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2327,
+            "qty": 260
+          },
+          {
+            "op": "item",
+            "id": 2327,
+            "qty": 260,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2327,
+      "npc": 5231,
+      "world": [
+        2710,
+        3484,
+        0
+      ]
+    },
+    {
+      "id": "agility-015",
+      "title": "Minigame teleport to Burthorpe Games Room, …",
+      "text": "Minigame teleport to Burthorpe Games Room, buy the full graceful outfit from Grace in the Rogues' Den",
+      "manual": true,
+      "object": 7257,
+      "world": [
+        2905,
+        3537,
+        0
+      ]
+    },
+    {
+      "id": "agility-016",
+      "title": "Clean up your inventory, Drop your …",
+      "text": "Clean up your inventory, Drop your runes and anything else you are holding on to in your inventory other than coins",
+      "manual": true
+    },
+    {
+      "id": "agility-017",
+      "title": "Home teleport to Lumbridge, head to …",
+      "text": "Home teleport to Lumbridge, head to Shantay Pass",
+      "manual": true,
+      "npc": 4642,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "agility-018",
+      "title": "Buy waterskins(4) and a shantay pass. …",
+      "text": "Buy waterskins(4) and a shantay pass. Leave 8 slots open for wine",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 13,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "npc": 4642,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "agility-019a",
+      "title": "Head into the desert",
+      "text": "Head into the desert",
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
+    },
+    {
+      "id": "agility-019b",
+      "title": "take the carpet to Pollnivneach",
+      "text": "take the carpet to Pollnivneach",
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
+    },
+    {
+      "id": "agility-019c",
+      "title": "fill your inventory with wine from …",
+      "text": "fill your inventory with wine from the guy in the pub",
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
+    },
+    {
+      "id": "agility-020a",
+      "title": "Take the carpet to Nardah",
+      "text": "Take the carpet to Nardah",
+      "manual": true,
+      "npc": 4756,
+      "world": [
+        3443,
+        2915,
+        0
+      ]
+    },
+    {
+      "id": "agility-020b",
+      "title": "head west to the Agility Pyramid",
+      "text": "head west to the Agility Pyramid",
+      "manual": true,
+      "object": 11948,
+      "world": [
+        3335,
+        2829,
+        0
+      ]
+    },
+    {
+      "id": "agility-021",
+      "title": "Do Agility Pyramid until you reach …",
+      "text": "Do Agility Pyramid until you reach 70 Agility. — When you need supplies walk to Nardah, take the carpet to Pollnivneach, buy waterskins from the general store, and wines in the bar. Adjust your waterskin/wine ratio as you level up. You can fill the waterskins to 4 at the fountain in the middle of town. — Another option is simply buying choc-ice from Rokuh in Nardah, which weigh almost nothing and serve as both food and water.",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "npc": 4756,
+      "world": [
+        3443,
+        2915,
+        0
+      ]
+    }
+  ]
+}

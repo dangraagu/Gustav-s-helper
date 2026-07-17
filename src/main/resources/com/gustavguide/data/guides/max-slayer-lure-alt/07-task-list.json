@@ -1,0 +1,85 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Task list — ALWAYS USE NIEVE",
+  "steps": [
+    {
+      "id": "task-list-001",
+      "title": "ALWAYS USE NIEVE",
+      "text": "ALWAYS USE NIEVE",
+      "manual": true,
+      "npc": 6797,
+      "world": [
+        2432,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "task-list-002",
+      "title": "Kalphite (slaughter) at Kalphite cave / …",
+      "text": "Kalphite (slaughter) at Kalphite cave / Soldiers — Block: Black demon; Skip: Greater demon (untill 70 slayer, after that only do when you need points)",
+      "manual": true
+    },
+    {
+      "id": "task-list-003",
+      "title": "Dagannoth (slaughter) at Lighthouse — Block: …",
+      "text": "Dagannoth (slaughter) at Lighthouse — Block: Fire giant; Skip: Hellhound",
+      "manual": true,
+      "npc": 980,
+      "world": [
+        2518,
+        4640,
+        0
+      ]
+    },
+    {
+      "id": "task-list-004",
+      "title": "Suqah (expeditious) at North spot on …",
+      "text": "Suqah (expeditious) at North spot on lunar isle — Skip: Turoth (55 slayer)",
+      "manual": true,
+      "object": 16961,
+      "world": [
+        2127,
+        3893,
+        2
+      ]
+    },
+    {
+      "id": "task-list-005",
+      "title": "Ankou (expeditious) at Nieve cave or …",
+      "text": "Ankou (expeditious) at Nieve cave or catacomb — Skip: Zygomites (57 slayer)",
+      "manual": true
+    },
+    {
+      "id": "task-list-006",
+      "title": "Troll (expeditious) at Jatizso north / …",
+      "text": "Troll (expeditious) at Jatizso north / Ice trolls — Skip: Wyrm (62 slayer)",
+      "manual": true,
+      "npc": 1900,
+      "world": [
+        2644,
+        3709,
+        0
+      ]
+    },
+    {
+      "id": "task-list-007",
+      "title": "After 70 slayer — Skip: Kurask …",
+      "text": "After 70 slayer — Skip: Kurask (70 slayer)",
+      "manual": true
+    },
+    {
+      "id": "task-list-008",
+      "title": "Greater demon (expeditious) at Chasm of …",
+      "text": "Greater demon (expeditious) at Chasm of fire — Skip: Drake (84 slayer)",
+      "manual": true,
+      "object": 30236,
+      "world": [
+        1436,
+        3671,
+        0
+      ]
+    }
+  ]
+}

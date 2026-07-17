@@ -1,0 +1,176 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=669912848",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Skill Requirements & Dragon Slayer 2",
+  "steps": [
+    {
+      "id": "ds2-finish-001",
+      "title": "Get 70 smithing",
+      "text": "Get 70 smithing",
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-002",
+      "title": "Get 68 mining",
+      "text": "Get 68 mining",
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 68,
+        "cmp": ">="
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-003",
+      "title": "Get 62 Crafting",
+      "text": "Get 62 Crafting",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 62,
+        "cmp": ">="
+      },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-004",
+      "title": "Get 60 agility",
+      "text": "Get 60 agility",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 60,
+        "cmp": ">="
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-005",
+      "title": "Get 50 construction",
+      "text": "Get 50 construction",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 50,
+        "cmp": ">="
+      },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-006",
+      "title": "Get 70 ranged (DHCB?)",
+      "text": "Get 70 ranged (DHCB?)",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-007",
+      "title": "DO Dragon Slayer 2",
+      "text": "DO Dragon Slayer 2",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2458,
+        2869,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-008",
+      "title": "Barbarian smithing if using lance",
+      "text": "Barbarian smithing if using lance",
+      "manual": true
+    },
+    {
+      "id": "ds2-finish-009",
+      "title": "Buy gear - Justi + lance/fang",
+      "text": "Buy gear - Justi + lance/fang",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-010",
+      "title": "Use digsite pendant on machine in …",
+      "text": "Use digsite pendant on machine in lith vault",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-011",
+      "title": "make ferocious gloves if you have …",
+      "text": "make ferocious gloves if you have GP",
+      "manual": true,
+      "object": 12354,
+      "world": [
+        3209,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "ds2-finish-012",
+      "title": "GZ on your RD alt",
+      "text": "GZ on your RD alt",
+      "manual": true
+    }
+  ]
+}

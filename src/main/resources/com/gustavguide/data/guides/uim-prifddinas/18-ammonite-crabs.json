@@ -1,0 +1,246 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Ammonite Crabs",
+  "steps": [
+    {
+      "id": "ammonite-crabs-001",
+      "title": "Put your graceful outfit in your …",
+      "text": "Put your graceful outfit in your costume room",
+      "manual": true
+    },
+    {
+      "id": "ammonite-crabs-002",
+      "title": "Buy a studded body and studded …",
+      "text": "Buy a studded body and studded chaps from Horvik",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1133,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1133,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1133,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-003",
+      "title": "Buy a coif, green d'hide chaps, …",
+      "text": "Buy a coif, green d'hide chaps, and green d'hide vambs from the Champions' Guild shop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1169,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1169,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1169,
+      "world": [
+        3191,
+        3357,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-004",
+      "title": "Get an Ava's Attractor from Ava …",
+      "text": "Get an Ava's Attractor from Ava if you don't still have it",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-005",
+      "title": "Buy a Dorgeshuun crossbow and 5,000 …",
+      "text": "Buy a Dorgeshuun crossbow and 5,000 bone bolts to start out. Get more later if needed, but that will likely be enough. — (Optional) If you are good at Last Man Standing (~20+ points an hour) then you can save a bit of time by buying adamant arrows and using a maple shortbow.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 8880,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 8880,
+            "qty": 46,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 8880,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-006",
+      "title": "Buy a lot of hops seeds …",
+      "text": "Buy a lot of hops seeds from Olivia in Draynor Village. You could also thieve them from Master farmers if you want to go out of your way for that. Keep in mind you don't want to clog up your inventory with seeds until after prayer, so don't go too crazy at master farmers yet. — How many you get will depend on how actively you think you will do birdhouse runs.",
+      "manual": true,
+      "npc": 6618,
+      "world": [
+        3947,
+        3706,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-007",
+      "title": "Get a hammer and chisel",
+      "text": "Get a hammer and chisel",
+      "manual": true,
+      "object": 7348,
+      "world": [
+        2476,
+        4937,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-008a",
+      "title": "Buy 4 iron ore and 8 …",
+      "text": "Buy 4 iron ore and 8 coal at the Blast Furnace",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 440,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 440,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 440,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-008b",
+      "title": "smith 4 steel bars",
+      "text": "smith 4 steel bars",
+      "manual": true,
+      "world": [
+        2869,
+        10202,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-009a",
+      "title": "Make 4 clockwork in your house. …",
+      "text": "Make 4 clockwork in your house. — If you didn't make a crafting bench earlier",
+      "manual": true,
+      "world": [
+        2869,
+        10202,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-009b",
+      "title": "make one now",
+      "text": "make one now",
+      "manual": true,
+      "world": [
+        2869,
+        10202,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-010",
+      "title": "Buy an axe or get one …",
+      "text": "Buy an axe or get one from tree spirits",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-011",
+      "title": "Chop some logs and oak logs …",
+      "text": "Chop some logs and oak logs for birdhouses",
+      "manual": true,
+      "object": 10820,
+      "world": [
+        3190,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-012",
+      "title": "Go to Fossil Island and kill …",
+      "text": "Go to Fossil Island and kill ammonite crabs for range xp. Your range gear is basic, but since the crabs have no defence it doesn't really matter. — Do birdhouse runs whenever you can. You will have to manage getting higher level logs as needed (You will need to teleport out and come back). — When you need higher crafting you can make molten glass in Port Phasmatys. You can death storage at Volcanic mine once you have some numulite. 61 Crafting is a good goal for Lunar Diplomacy later on. — You can make some digsite pendants if you want. Rubies can be bought in Ardougne. — You can farm any seeds you want as you get them. You will have to balance what seeds you keep vs how many spaces you leave open. — If you don't want to drop some higher level seeds, then you could do Tithe Farm now so you can use them. Also it is notable to keep in mind that you will be doing more birdhouses a bit later when you train melee at ammonite crabs. This may influence how much farming you want to do right now. — If you want to put in extra effort, you can actually alch while killing the crabs for very efficient magic xp. — At level 40 wear your green dhide chaps and vambs. — At level 50 go upgrade your Avas to an Ava's accumulator. — Setup Runelite to notify you on any fossil drops. When you fill up on fossils put them in the fossil storage on the north side of the island. Also pick up enough calcite and pyrophosphate for any fossils you want to use for prayer.",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2620,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "ammonite-crabs-013",
+      "title": "Do this until level 60 Ranged …",
+      "text": "Do this until level 60 Ranged as that is required for quests later. — If you would like, you are more than welcome to continue training here longer. Going until 70 range would be a good goal. The extra fossil drops will help you with early herblore and prayer experience, as well as provide more time to do birdhouse runs.",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

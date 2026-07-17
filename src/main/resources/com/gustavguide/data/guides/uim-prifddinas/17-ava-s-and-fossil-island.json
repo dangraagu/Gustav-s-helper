@@ -1,0 +1,437 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Ava's and Fossil Island",
+  "steps": [
+    {
+      "id": "ava-s-and-fossil-island-001a",
+      "title": "Buy a candle from Jossik",
+      "text": "Buy a candle from Jossik",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 36,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 36,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 36,
+      "npc": 4424,
+      "world": [
+        2518,
+        4634,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-001b",
+      "title": "Light the candle",
+      "text": "Light the candle",
+      "manual": true,
+      "world": [
+        2518,
+        4634,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-002",
+      "title": "Get a pickaxe",
+      "text": "Get a pickaxe",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-003",
+      "title": "If you are out of cakes, …",
+      "text": "If you are out of cakes, grab a few",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1891,
+            "qty": 18
+          },
+          {
+            "op": "item",
+            "id": 1891,
+            "qty": 18,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1891
+    },
+    {
+      "id": "ava-s-and-fossil-island-004",
+      "title": "Complete Wanted! — Clean out your …",
+      "text": "Complete Wanted! — Clean out your inventory and mine the essence when you need it. — Grab a few cakes back after you get the essence. — You may have to drop the tinderbox and candle then get it again for space.",
+      "complete": {
+        "op": "quest",
+        "quest": "WANTED",
+        "state": "FINISHED"
+      },
+      "world": [
+        2997,
+        3373,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-005",
+      "title": "Clean out the random items from …",
+      "text": "Clean out the random items from your inventory",
+      "manual": true
+    },
+    {
+      "id": "ava-s-and-fossil-island-006",
+      "title": "Get a spade",
+      "text": "Get a spade",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-007",
+      "title": "Get your ghostspeak amulet back from …",
+      "text": "Get your ghostspeak amulet back from Father Urhney in Lumbridge swamp",
+      "manual": true,
+      "npc": 923,
+      "world": [
+        3147,
+        3175,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-008",
+      "title": "Make a strung sapphire amulet",
+      "text": "Make a strung sapphire amulet",
+      "manual": true,
+      "world": [
+        2710,
+        5277,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-009",
+      "title": "Complete Making History. — Run from …",
+      "text": "Complete Making History. — Run from Ardougne to The Outpost. — Charter ship to Port Phasmatys. Fairy ring teleport to Rellekka (DKS. — You should be at 31 Prayer with the completion of Making History.",
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_HISTORY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2436,
+        3346,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-010",
+      "title": "Pickpocket H.A.M. Members until you get …",
+      "text": "Pickpocket H.A.M. Members until you get buttons. — Polish them",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-011",
+      "title": "Buy 4 pots and 4 buckets …",
+      "text": "Buy 4 pots and 4 buckets of slime from a charter ship",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1925,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-012",
+      "title": "Get a holy symbol — Buy …",
+      "text": "Get a holy symbol — Buy an unstrung symbol in Ardougne at the silver merchant. — Buy a ball of wool and string the symbol — Get it blessed at the Edgeville Monastery",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1714,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1714,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1714,
+      "npc": 8722,
+      "world": [
+        2658,
+        3316,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-013",
+      "title": "Superheat 5 iron bars from Blast …",
+      "text": "Superheat 5 iron bars from Blast Furnace",
+      "manual": true,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-014",
+      "title": "Get a hammer",
+      "text": "Get a hammer",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-015",
+      "title": "Get a hard leather by killing …",
+      "text": "Get a hard leather by killing a cow and tanning it in Al Kharid",
+      "manual": true,
+      "world": [
+        3290,
+        3185,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-016",
+      "title": "Buy a mithril axe from the …",
+      "text": "Buy a mithril axe from the Woodcutting Guild, or kill more tree spirits for it",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1355,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1355,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1355,
+      "world": [
+        3192,
+        3223,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-017",
+      "title": "Complete Ernest the Chicken",
+      "text": "Complete Ernest the Chicken",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-018",
+      "title": "Complete Animal Magnetism. — Remember the …",
+      "text": "Complete Animal Magnetism. — Remember the Draynor Manor and Fenkenstrain's Castle teleports are in your house. — Kill undead chickens for the bones to get the ecto tokens",
+      "complete": {
+        "op": "quest",
+        "quest": "ANIMAL_MAGNETISM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3178,
+        3295,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-019",
+      "title": "Drop the amulet of ghostspeak and …",
+      "text": "Drop the amulet of ghostspeak and destroy the axe",
+      "manual": true,
+      "world": [
+        3178,
+        3295,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-020",
+      "title": "Keep the Ava's Attractor",
+      "text": "Keep the Ava's Attractor",
+      "manual": true
+    },
+    {
+      "id": "ava-s-and-fossil-island-021",
+      "title": "Obtain: — Hammer (You should have …",
+      "text": "Obtain: — Hammer (You should have 1 already). — Knife. — Chisel. — Any axe (not the blessed one). — 100 feathers (buy them). — Some cakes from Ardougne to be safe",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 314,
+            "qty": 1000
+          },
+          {
+            "op": "item",
+            "id": 314,
+            "qty": 1000,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 314,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-022",
+      "title": "Complete Big Chompy Bird Hunting. (Fairy …",
+      "text": "Complete Big Chompy Bird Hunting. (Fairy ring code AKS.) — Pick up the other items in the area",
+      "complete": {
+        "op": "quest",
+        "quest": "BIG_CHOMPY_BIRD_HUNTING",
+        "state": "FINISHED"
+      },
+      "world": [
+        2631,
+        2982,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-023",
+      "title": "Complete Shield of Arrav. — The …",
+      "text": "Complete Shield of Arrav. — The \"osrs soa\" clan chat is a great place to find a partner, otherwise create an alternate account to help you complete this quest",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "ava-s-and-fossil-island-024",
+      "title": "Go to the Varrock Museum and …",
+      "text": "Go to the Varrock Museum and talk to Historian Minas to get some Kudos and three experience lamps. Use them on Herblore. — You should be at level 20 Herblore, but if you are short somehow doing Jungle Potion should get you there.",
+      "complete": {
+        "op": "quest",
+        "quest": "JUNGLE_POTION",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3044,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-025",
+      "title": "Clean finds in the Varrock Museum …",
+      "text": "Clean finds in the Varrock Museum until you get all 50 Kudos",
+      "manual": true,
+      "npc": 5214,
+      "world": [
+        3257,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-026",
+      "title": "Kill chaos druids for a marrentil",
+      "text": "Kill chaos druids for a marrentil",
+      "manual": true
+    },
+    {
+      "id": "ava-s-and-fossil-island-027",
+      "title": "Buy 2 vodka from Heckel Funch …",
+      "text": "Buy 2 vodka from Heckel Funch in the Grand Tree",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "ava-s-and-fossil-island-028",
+      "title": "Complete Bone Voyage",
+      "text": "Complete Bone Voyage",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    }
+  ]
+}

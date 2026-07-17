@@ -1,0 +1,63 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "NMZ combat training",
+  "steps": [
+    {
+      "id": "nmz-001",
+      "title": "Train your combats to 80-85 str, …",
+      "text": "Train your combats to 80-85 str, 75 att and 74 (1158k xp) def in nmz",
+      "manual": true,
+      "world": [
+        2605,
+        3115,
+        0
+      ]
+    },
+    {
+      "id": "nmz-002",
+      "title": "Use Custom rumble in nmz with: …",
+      "text": "Use Custom rumble in nmz with: King roald, Count draynor, Tree spirit, Sand Snake, Khazard warlord and Me",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "nmz-003",
+      "title": "Imbue Berserker ring as soon as …",
+      "text": "Imbue Berserker ring as soon as possible",
+      "manual": true
+    },
+    {
+      "id": "nmz-004",
+      "title": "Complete Knights training ground for piety …",
+      "text": "Complete Knights training ground for piety unlock",
+      "manual": true
+    },
+    {
+      "id": "nmz-005",
+      "title": "Get a fire cape with melee …",
+      "text": "Get a fire cape with melee if possible",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "nmz-006",
+      "title": "IF making just a Rune dragon …",
+      "text": "IF making just a Rune dragon alt stop here, go to next tab",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=816384493",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Blood-RC alt",
+  "steps": [
+    {
+      "id": "blood-rc-001",
+      "title": "Crafting blood runes at zeah is …",
+      "text": "Crafting blood runes at zeah is an easy way to make around 600k gp /h",
+      "manual": true,
+      "world": [
+        1538,
+        3475,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-002",
+      "title": "73 agi is needed for the …",
+      "text": "73 agi is needed for the shortcut",
+      "manual": true
+    },
+    {
+      "id": "blood-rc-003",
+      "title": "This assumes you followed the \"Account …",
+      "text": "This assumes you followed the \"Account start\" tab untill line 83",
+      "manual": true
+    },
+    {
+      "id": "blood-rc-004",
+      "title": "Get 73 agi and full gracful …",
+      "text": "Get 73 agi and full gracful (bring summer pies)",
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 73,
+        "cmp": ">="
+      },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-005",
+      "title": "Get 77 rc via guardians of …",
+      "text": "Get 77 rc via guardians of the rift minigame",
+      "complete": {
+        "op": "skill",
+        "skill": "RUNECRAFT",
+        "level": 77,
+        "cmp": ">="
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-006",
+      "title": "buy the raiments of the eye …",
+      "text": "buy the raiments of the eye outfit (1350 pearls = 630 searches on avg)",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-007",
+      "title": "buy blood essences (you use around …",
+      "text": "buy blood essences (you use around 0.66-0.76 bloodess per hour)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 26390,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 26390,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 26390,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-008",
+      "title": "100% arceuus favour",
+      "text": "100% arceuus favour",
+      "manual": true,
+      "world": [
+        1700,
+        3800,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-009",
+      "title": "start crafting blood runes for 500-600k …",
+      "text": "start crafting blood runes for 500-600k gp/h depending of afkness",
+      "manual": true,
+      "world": [
+        1700,
+        3800,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-010",
+      "title": "Make colossal pouch at 85 runecraft",
+      "text": "Make colossal pouch at 85 runecraft",
+      "manual": true,
+      "world": [
+        1700,
+        3800,
+        0
+      ]
+    },
+    {
+      "id": "blood-rc-011",
+      "title": "Can start running ess to other …",
+      "text": "Can start running ess to other or yourself",
+      "manual": true
+    },
+    {
+      "id": "blood-rc-012",
+      "title": "can start making other runes trough …",
+      "text": "can start making other runes trough abyss",
+      "manual": true,
+      "object": 6256,
+      "world": [
+        3343,
+        2960,
+        0
+      ]
+    }
+  ]
+}

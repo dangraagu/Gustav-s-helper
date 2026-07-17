@@ -1,0 +1,99 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Account setup",
+  "steps": [
+    {
+      "id": "setup-001",
+      "title": "Complete tutorial island as a female. …",
+      "text": "Complete tutorial island as a female. Don't forget 2FA for account security purposes",
+      "manual": true,
+      "world": [
+        3238,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "setup-002",
+      "title": "Get membership either with a bond …",
+      "text": "Get membership either with a bond or irl money",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "setup-003",
+      "title": "Transfer about 100-200m gp and a …",
+      "text": "Transfer about 100-200m gp and a ring of wealth (5) to your account(s) (200m+ if you are doing inquis helm route)",
+      "manual": true
+    },
+    {
+      "id": "setup-004",
+      "title": "Teleport to Grand Exchange with ring …",
+      "text": "Teleport to Grand Exchange with ring of wealth",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "setup-005a",
+      "title": "Buy some teleports, runes for early …",
+      "text": "Buy some teleports, runes for early questing",
+      "manual": true,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "setup-005b",
+      "title": "buy some bones for 70 prayer …",
+      "text": "buy some bones for 70 prayer (or higher)",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "setup-006",
+      "title": "Get 43 prayer or go to …",
+      "text": "Get 43 prayer or go to 70 if you feel like it (wildy or 330 poh)",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 43,
+        "cmp": ">="
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+      "world": [
+        3087,
+        3522,
+        0
+      ]
+    }
+  ]
+}

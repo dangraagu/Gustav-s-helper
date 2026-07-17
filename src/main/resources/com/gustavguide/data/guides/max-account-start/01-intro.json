@@ -1,0 +1,103 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Introduction and general notes",
+  "steps": [
+    {
+      "id": "intro-001",
+      "title": "Welcome. In this guide I give …",
+      "text": "Welcome. In this guide I give you a fairly optimal questing and skill training route for starting a Main or a new alt",
+      "manual": true
+    },
+    {
+      "id": "intro-002",
+      "title": "feel free to deviate from it …",
+      "text": "feel free to deviate from it and if you encounter any mistakes pls dm me on discord: Max / he box jonge#0494",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "intro-003",
+      "title": "VERY IMPORTANT: If you want to …",
+      "text": "VERY IMPORTANT: If you want to make this alt into a slayer lure alt, DO NOT complete the following quests:",
+      "manual": true
+    },
+    {
+      "id": "intro-004",
+      "title": "Dragon Slayer 1, Priest in Peril, …",
+      "text": "Dragon Slayer 1, Priest in Peril, Elemental workshop, Contact!, Death Plateau, Olaf's quest, Cabin fever, Regicide and Desert Treasure",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "intro-005",
+      "title": "Note on Magic training: When away …",
+      "text": "Note on Magic training: When away from PC, if possible, fire strike/bolt sand crabs on hosidius beach (Chrome remote desktop / Mobile) (NPC aggression timer)",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "intro-006",
+      "title": "Once you get 55 magic you …",
+      "text": "Once you get 55 magic you can also alch during questing, goal is 82 for magic imbue OR 75 on an alt",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 55,
+        "cmp": ">="
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "intro-007",
+      "title": "Best item to alch: Rune arrows",
+      "text": "Best item to alch: Rune arrows",
+      "manual": true
+    },
+    {
+      "id": "intro-008",
+      "title": "Use quest helper plugin on RuneLite …",
+      "text": "Use quest helper plugin on RuneLite for optimal questing!",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "intro-009",
+      "title": "This does not inlcude all quest …",
+      "text": "This does not inlcude all quest items, just buy them as you get around to do each quest",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

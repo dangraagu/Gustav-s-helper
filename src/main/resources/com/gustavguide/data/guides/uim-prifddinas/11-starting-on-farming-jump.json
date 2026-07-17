@@ -1,0 +1,1228 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Starting on Farming, jumpstart to Crafting, and Morytania",
+  "steps": [
+    {
+      "id": "starting-on-farming-jump-001",
+      "title": "Inspect the goblins to start their …",
+      "text": "Inspect the goblins to start their subsection of Recipe for Disaster",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-002",
+      "title": "Grab a knife from the Lumbridge …",
+      "text": "Grab a knife from the Lumbridge kitchen",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 946,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 946,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 946,
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-003a",
+      "title": "Go down to the basement",
+      "text": "Go down to the basement",
+      "manual": true,
+      "world": [
+        1900,
+        5355,
+        2
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-003b",
+      "title": "buy a spice from the Culinaromancer's …",
+      "text": "buy a spice from the Culinaromancer's Chest",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2007,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2007,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2007,
+      "npc": 4878,
+      "world": [
+        1900,
+        5355,
+        2
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-004a",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-004b",
+      "title": "head to Catherby",
+      "text": "head to Catherby",
+      "manual": true,
+      "npc": 1520,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-005",
+      "title": "Buy an orange from the charter …",
+      "text": "Buy an orange from the charter ships",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2108,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2108,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2108,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-006a",
+      "title": "Go north-east",
+      "text": "Go north-east",
+      "manual": true
+    },
+    {
+      "id": "starting-on-farming-jump-006b",
+      "title": "grab the bucket of water in …",
+      "text": "grab the bucket of water in the north-eastern building",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1929,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1929,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1929,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-007",
+      "title": "Buy fishing bait and a fishing …",
+      "text": "Buy fishing bait and a fishing rod from the fishing shop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 313,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 313,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 313,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-008",
+      "title": "Buy a spade from the farming …",
+      "text": "Buy a spade from the farming shop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 952,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 952,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-009",
+      "title": "Complete the Fishing Contest quest while …",
+      "text": "Complete the Fishing Contest quest while in the area",
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-010a",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-010b",
+      "title": "pick up the purple dye that …",
+      "text": "pick up the purple dye that spawns south of the castle",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1773,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1773,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1773,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-011a",
+      "title": "Teleport to Falador",
+      "text": "Teleport to Falador",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-011b",
+      "title": "complete the goblin section of Recipe …",
+      "text": "complete the goblin section of Recipe for Disaster",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-012",
+      "title": "Start the dwarf section of Recipe …",
+      "text": "Start the dwarf section of Recipe for Disaster by inspecting the dwarf",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "IN_PROGRESS"
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-013",
+      "title": "Clean out your inventory to just …",
+      "text": "Clean out your inventory to just runes, coins, and a knife",
+      "manual": true
+    },
+    {
+      "id": "starting-on-farming-jump-014a",
+      "title": "Grab the bowl in the kitchen",
+      "text": "Grab the bowl in the kitchen",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1923,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1923,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1923,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-014b",
+      "title": "fill it with water using the …",
+      "text": "fill it with water using the sink",
+      "manual": true,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-015a",
+      "title": "Go down to the basement",
+      "text": "Go down to the basement",
+      "manual": true,
+      "world": [
+        2957,
+        3388,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-015b",
+      "title": "buy 1 bucket of milk, 1 …",
+      "text": "buy 1 bucket of milk, 1 pot of flour, and 1 egg",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1927,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1927,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1927,
+      "world": [
+        2957,
+        3388,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-016",
+      "title": "Complete the dwarf section of Recipe …",
+      "text": "Complete the dwarf section of Recipe for Disaster",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3213,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-017a",
+      "title": "Teleport to Lumbridge",
+      "text": "Teleport to Lumbridge",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-017b",
+      "title": "Grab a pickaxe from the tower",
+      "text": "Grab a pickaxe from the tower",
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-018",
+      "title": "Buy a hammer from the Lumbridge …",
+      "text": "Buy a hammer from the Lumbridge general store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2347,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 2347,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2347,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-019a",
+      "title": "Head to Al Kharid",
+      "text": "Head to Al Kharid",
+      "world": [
+        3290,
+        3185,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3290,
+        "y": 3185,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-019b",
+      "title": "buy a needle and 10 thread …",
+      "text": "buy a needle and 10 thread from the crafting store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1733,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1733,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1733,
+      "world": [
+        3321,
+        3194,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-020a",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-020b",
+      "title": "run north all the way to …",
+      "text": "run north all the way to Keldagrim",
+      "manual": true,
+      "object": 5008,
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-021",
+      "title": "Start the The Giant Dwarf so …",
+      "text": "Start the The Giant Dwarf so you get into Keldagrim (do only the first few steps of the quest)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GIANT_DWARF",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2732,
+        3713,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-022a",
+      "title": "Go to the Blast Furnace",
+      "text": "Go to the Blast Furnace",
+      "world": [
+        2930,
+        10197,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2930,
+        "y": 10197,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-022b",
+      "title": "buy 12 coal",
+      "text": "buy 12 coal",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 453,
+            "qty": 12
+          },
+          {
+            "op": "item",
+            "id": 453,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 453,
+      "world": [
+        2930,
+        10197,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-023a",
+      "title": "Teleport to Seers Village",
+      "text": "Teleport to Seers Village",
+      "world": [
+        2710,
+        3485,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2710,
+        "y": 3485,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-023b",
+      "title": "complete Elemental Workshop I. — Kill …",
+      "text": "complete Elemental Workshop I. — Kill the earth elemental by running into the main room and attacking it while it runs away",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2716,
+        3482,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-024a",
+      "title": "Teleport to Varrock",
+      "text": "Teleport to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-024b",
+      "title": "head to the Exam Center",
+      "text": "head to the Exam Center",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-025a",
+      "title": "Start",
+      "text": "Start",
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-025b",
+      "title": "complete Elemental Workshop II",
+      "text": "complete Elemental Workshop II",
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        3367,
+        3335,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-026",
+      "title": "Minigame teleport to clan wars and …",
+      "text": "Minigame teleport to clan wars and restore your stats",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-027",
+      "title": "Drop the pickaxe and knife, keep …",
+      "text": "Drop the pickaxe and knife, keep the hammer, needle, and thread",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-028",
+      "title": "Teleport to Varrock",
+      "text": "Teleport to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-029a",
+      "title": "Head to the west bank",
+      "text": "Head to the west bank",
+      "world": [
+        3185,
+        3441,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3185,
+        "y": 3441,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-029b",
+      "title": "go down to the basement",
+      "text": "go down to the basement",
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-030",
+      "title": "Telekinetic grab 1 gold bar",
+      "text": "Telekinetic grab 1 gold bar",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2357,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2357,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2357
+    },
+    {
+      "id": "starting-on-farming-jump-031a",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-031b",
+      "title": "buy 2 silver bars from the …",
+      "text": "buy 2 silver bars from the silver merchant",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2355,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 2355,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2355,
+      "npc": 8722,
+      "world": [
+        2658,
+        3316,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-032",
+      "title": "Buy/steal 4 cakes from the baker …",
+      "text": "Buy/steal 4 cakes from the baker for some food",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1891,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 1891,
+            "qty": 18,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1891,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-033",
+      "title": "Teleport to Lumbridge",
+      "text": "Teleport to Lumbridge",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-034",
+      "title": "Buy a spade from the general …",
+      "text": "Buy a spade from the general store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 952,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 952,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-035",
+      "title": "Head to Al Kharid",
+      "text": "Head to Al Kharid",
+      "world": [
+        3290,
+        3185,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3290,
+        "y": 3185,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-036",
+      "title": "Buy 1 emerald from the gem …",
+      "text": "Buy 1 emerald from the gem shop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1605,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1605,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1605,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-037a",
+      "title": "Head to the crafting shop",
+      "text": "Head to the crafting shop",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-037b",
+      "title": "buy a ring mould, and a …",
+      "text": "buy a ring mould, and a sickle mould",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2976,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2976,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2976,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-038",
+      "title": "Buy cosmic rune from Ali Morrisane",
+      "text": "Buy cosmic rune from Ali Morrisane",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 564,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 564,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 564,
+      "npc": 3533,
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-039a",
+      "title": "Go to the furnace in Al …",
+      "text": "Go to the furnace in Al Kharid",
+      "world": [
+        3273,
+        3187,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3273,
+        "y": 3187,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-039b",
+      "title": "make a ring of dueling and …",
+      "text": "make a ring of dueling and a sickle",
+      "manual": true,
+      "world": [
+        3273,
+        3187,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-040",
+      "title": "Drop the ring mold and the …",
+      "text": "Drop the ring mold and the sickle mold",
+      "manual": true,
+      "world": [
+        3273,
+        3187,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-041",
+      "title": "The guide will assume that until …",
+      "text": "The guide will assume that until specified otherwise you will be wearing a ring of dueling. — When you have extra inventory space (not now since we will need it soon) you can make extra rings of dueling to restore run energy at Ferox Enclave.",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-042a",
+      "title": "Run south",
+      "text": "Run south",
+      "manual": true,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-042b",
+      "title": "buy 3 bronze bars from Shantay",
+      "text": "buy 3 bronze bars from Shantay",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2349,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 2349,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2349,
+      "npc": 4642,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-043a",
+      "title": "Teleport to Camelot",
+      "text": "Teleport to Camelot",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-043b",
+      "title": "walk to the charter ships in …",
+      "text": "walk to the charter ships in Catherby",
+      "manual": true,
+      "npc": 1520,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-043c",
+      "title": "buy a pot and a bucket …",
+      "text": "buy a pot and a bucket of slime",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1925,
+      "world": [
+        2803,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-044a",
+      "title": "Teleport to Varrock",
+      "text": "Teleport to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "starting-on-farming-jump-044b",
+      "title": "smith the 3 bronze bars into …",
+      "text": "smith the 3 bronze bars into bronze wires on the anvil",
+      "manual": true,
+      "object": 2097,
+      "world": [
+        2613,
+        3081,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-045",
+      "title": "If you do not have your …",
+      "text": "If you do not have your ghostspeak amulet still, get a new one",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-046",
+      "title": "Head to Morytania and complete Creature …",
+      "text": "Head to Morytania and complete Creature of Fenkenstrain. — When you need to smith the lightning rod, use the one in Port Phasmatys. Get some ecto tokens to enter using your bucket of slime and pot, bones from an undead chicken at the nearby farm. While there, you can start Ghosts Ahoy up to the part where you visit the crone (this quest is not required for this guide, however)",
+      "complete": {
+        "op": "quest",
+        "quest": "CREATURE_OF_FENKENSTRAIN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3197,
+        3353,
+        0
+      ]
+    },
+    {
+      "id": "starting-on-farming-jump-047",
+      "title": "Keep the ring of charos!",
+      "text": "Keep the ring of charos!",
+      "manual": true
+    },
+    {
+      "id": "starting-on-farming-jump-048",
+      "title": "Complete the Nature Spirit",
+      "text": "Complete the Nature Spirit",
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3405,
+        3507,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "QOL / tips",
+  "steps": [
+    {
+      "id": "qol-tips-001",
+      "title": "71 craft + 4 boost, unlock …",
+      "text": "71 craft + 4 boost, unlock slayer rings",
+      "manual": true
+    },
+    {
+      "id": "qol-tips-002",
+      "title": "Train att and def to 75 …",
+      "text": "Train att and def to 75 to unlock Dihns bulwark for speccing at kalph, dags, ankou in catacombs",
+      "complete": {
+        "op": "skill",
+        "skill": "DEFENCE",
+        "level": 75,
+        "cmp": ">="
+      },
+      "note": "Nightmare Zone; note Ancient Magicks on Defensive or chinning maniacal monkeys on Long-range give more Defence XP/hr than melee.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
+    },
+    {
+      "id": "qol-tips-003",
+      "title": "Get 80 attack if you can …",
+      "text": "Get 80 attack if you can afford a Ghrazi Rapier",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 80,
+        "cmp": ">="
+      },
+      "note": "Nightmare Zone for fastest solo Attack XP; Dharok's set becomes optimal at 92+ Hitpoints, else Blood Moon / Obsidian.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "qol-tips-004",
+      "title": "Bludgeon is slightly better for kalphite …",
+      "text": "Bludgeon is slightly better for kalphite and trolls but using whip + fremennik shield is probably better for afking trolls",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "qol-tips-005",
+      "title": "Place your house in Relekka to …",
+      "text": "Place your house in Relekka to get to dagannoths in lighthouse (30con)",
+      "manual": true,
+      "world": [
+        2509,
+        3641,
+        0
+      ]
+    },
+    {
+      "id": "qol-tips-006a",
+      "title": "Use glory tele to al kharid …",
+      "text": "Use glory tele to al kharid or redirection scroll on house tab to Pollnivneach",
+      "manual": true,
+      "world": [
+        3358,
+        2974,
+        0
+      ]
+    },
+    {
+      "id": "qol-tips-006b",
+      "title": "take the carpet to get to …",
+      "text": "take the carpet to get to kalphites",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "qol-tips-007",
+      "title": "Catacomb ankou are more afk but …",
+      "text": "Catacomb ankou are more afk but slower",
+      "manual": true
+    },
+    {
+      "id": "qol-tips-008",
+      "title": "For suqah you might have to …",
+      "text": "For suqah you might have to do 2 trips if no bandos/barrows",
+      "manual": true
+    },
+    {
+      "id": "qol-tips-009",
+      "title": "Can sometimes skip suqah if you …",
+      "text": "Can sometimes skip suqah if you get close to max amount and if you have enough points",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "qol-tips-010",
+      "title": "Use battlefornt teleport to get to …",
+      "text": "Use battlefornt teleport to get to the Chasm of Fire, bring antidote for lizardmen",
+      "manual": true,
+      "object": 30236,
+      "world": [
+        1436,
+        3671,
+        0
+      ]
+    },
+    {
+      "id": "qol-tips-011",
+      "title": "Slayer sheet: https://docs.google.com/spreadsheets/d/1ftKGzCWc4l71qjVJ",
+      "text": "Slayer sheet: https://docs.google.com/spreadsheets/d/1ftKGzCWc4l71qjVJv9obHbM_-GCm-xsAqmh7b90ZscA/edit#gid=1094778124",
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    }
+  ]
+}

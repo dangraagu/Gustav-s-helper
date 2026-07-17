@@ -1,0 +1,11 @@
+{
+  "_comment": "Auto-generated from raw/max-spec-transfer-alt.json by build_raw_guide.py",
+  "sections": [
+    "01-overview.json",
+    "02-magic-92.json",
+    "03-nonbudget.json",
+    "04-budget.json",
+    "05-fairy-ring.json",
+    "06-poh-loading.json"
+  ]
+}

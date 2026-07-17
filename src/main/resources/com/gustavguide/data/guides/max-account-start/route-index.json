@@ -1,0 +1,12 @@
+{
+  "_comment": "Auto-generated from raw/max-account-start.json by build_raw_guide.py",
+  "sections": [
+    "01-intro.json",
+    "02-order.json",
+    "03-security.json",
+    "04-early.json",
+    "05-lunar.json",
+    "06-alt.json",
+    "07-main.json"
+  ]
+}

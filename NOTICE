@@ -1,4 +1,4 @@
-Osiris Guide (RuneLite plugin)
+Gustav's Helper (RuneLite plugin)
 ==============================
 
 Route content
@@ -18,6 +18,12 @@ Additional bundled guides (selectable in config) and their sources/licenses:
     https://oldschool.runescape.wiki/w/User:AtelierLogic2/Guide:Ironman_PvM_Rush
   - "BRUHsailer Complete Guide" — community OSRS guide (no explicit content
     license stated); https://umkyzn.github.io/BRUHsailer/
+  - "UIM Walkthrough to Prifddinas (Old Route)" — Old School RuneScape Wiki,
+    CC BY-NC-SA 3.0 (marked outdated by the wiki); https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup
+  - "Max - Account Start" and the "Max - *" alt guides (Slayer-Lure, Rune Dragon /
+    DS2, Vyrewatch, Spec-Transfer, Blood-RC) — community OSRS alt guides by Max
+    (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit
+    content license stated.
 Each guide's route is the work of its authors, used here for a companion tool
 with attribution. OSRS Wiki content is licensed CC BY-NC-SA 3.0 (attribution,
 non-commercial, share-alike); the per-guide source + license are recorded in each

@@ -1,0 +1,407 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Early game quests",
+  "steps": [
+    {
+      "id": "early-quests-001",
+      "title": "Do early game quests (world 330 …",
+      "text": "Do early game quests (world 330 for someone's house for teleports)",
+      "manual": true
+    },
+    {
+      "id": "early-quests-002",
+      "title": "witch's house",
+      "text": "witch's house",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-003",
+      "title": "waterfall quest",
+      "text": "waterfall quest",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-004",
+      "title": "tree gnome village",
+      "text": "tree gnome village",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "object": 16673,
+      "world": [
+        2518,
+        3430,
+        1
+      ]
+    },
+    {
+      "id": "early-quests-005",
+      "title": "fight arena",
+      "text": "fight arena",
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-006",
+      "title": "monks friend",
+      "text": "monks friend",
+      "manual": true,
+      "world": [
+        2607,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-007",
+      "title": "plague city",
+      "text": "plague city",
+      "complete": {
+        "op": "quest",
+        "quest": "PLAGUE_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-008",
+      "title": "Get 30 thieving while in ardy …",
+      "text": "Get 30 thieving while in ardy (can do Tribal totem at 21 thiev for 1775 xp)",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 30,
+        "cmp": ">="
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-009",
+      "title": "Knight's sword",
+      "text": "Knight's sword",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-010",
+      "title": "Get 10 fletching",
+      "text": "Get 10 fletching",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 10,
+        "cmp": ">="
+      },
+      "note": "Skip low levels with quests; fletch arrow shafts (1-5) then start cutting & stringing bows. Darts are the fastest passive option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-011",
+      "title": "tourist trap (use lamps on agility …",
+      "text": "tourist trap (use lamps on agility x2 )",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_TOURIST_TRAP",
+        "state": "FINISHED"
+      },
+      "world": [
+        3304,
+        3112,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-012",
+      "title": "the grand tree",
+      "text": "the grand tree",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-013",
+      "title": "dwarf cannon",
+      "text": "dwarf cannon",
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-014",
+      "title": "druidic ritual",
+      "text": "druidic ritual",
+      "complete": {
+        "op": "quest",
+        "quest": "DRUIDIC_RITUAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2925,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-015",
+      "title": "priest in peril",
+      "text": "priest in peril",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2932,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-016",
+      "title": "black knights fortress",
+      "text": "black knights fortress",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-017",
+      "title": "recruitment drive",
+      "text": "recruitment drive",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-018",
+      "title": "restless ghost",
+      "text": "restless ghost",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3206,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-019",
+      "title": "rune mysteries",
+      "text": "rune mysteries",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "FINISHED"
+      },
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-020",
+      "title": "vampire slayer",
+      "text": "vampire slayer",
+      "manual": true,
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-021",
+      "title": "a porcine of intrest",
+      "text": "a porcine of intrest",
+      "manual": true,
+      "world": [
+        3205,
+        3208,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-022",
+      "title": "dorics quest",
+      "text": "dorics quest",
+      "manual": true,
+      "world": [
+        2951,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-023",
+      "title": "goblin diplomacy",
+      "text": "goblin diplomacy",
+      "complete": {
+        "op": "quest",
+        "quest": "GOBLIN_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2954,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-024",
+      "title": "the lost tribe",
+      "text": "the lost tribe",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_LOST_TRIBE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-025",
+      "title": "enter the abbys",
+      "text": "enter the abbys",
+      "manual": true,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-026",
+      "title": "wanted",
+      "text": "wanted",
+      "complete": {
+        "op": "quest",
+        "quest": "WANTED",
+        "state": "FINISHED"
+      },
+      "world": [
+        2997,
+        3373,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-027",
+      "title": "varrock museum quiz",
+      "text": "varrock museum quiz",
+      "manual": true,
+      "npc": 5214,
+      "world": [
+        3257,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-028",
+      "title": "dragon slayer",
+      "text": "dragon slayer",
+      "manual": true,
+      "world": [
+        3257,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "early-quests-029",
+      "title": "Monkey madness (get the attack and …",
+      "text": "Monkey madness (get the attack and defence training)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=669912848",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Upgrades",
+  "steps": [
+    {
+      "id": "upgrades-001",
+      "title": "82/83 Construction for Ornate Pool + …",
+      "text": "82/83 Construction for Ornate Pool + mounted digsite pendant",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "upgrades-002",
+      "title": "Higher prayer level for more restore …",
+      "text": "Higher prayer level for more restore (80 prayer gives ~55 more prayer points per trip over lvl 70 prayer)",
+      "manual": true
+    },
+    {
+      "id": "upgrades-003",
+      "title": "69 slayer, 70 crafting, 60 hunter …",
+      "text": "69 slayer, 70 crafting, 60 hunter for MM2 for dragon jav drops",
+      "manual": true
+    }
+  ]
+}

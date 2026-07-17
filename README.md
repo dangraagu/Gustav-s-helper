@@ -1,4 +1,4 @@
-# Osiris Guide — RuneLite plugin
+# Gustav's Helper — RuneLite plugin
 
 A step-by-step Old School RuneScape **ironman progression helper**, in the style of
 [Quest Helper](https://github.com/Zoinkwiz/quest-helper), that walks you through the
@@ -14,7 +14,7 @@ detects your skills, quests, items, and varbits changing.
 
 ## How it works
 
-- The route is a **data file** (`src/main/resources/com/osirisguide/data/route/*.json`) —
+- The route is a **data file** (`src/main/resources/com/gustavguide/data/route/*.json`) —
   an ordered list of steps, each with a description, an optional map location, requirements,
   and a **completion condition** (e.g. `skill:PRAYER>=43`, `quest:DRUIDIC_RITUAL=FINISHED`,
   `item:1059`, `varbit:1234=5`).
@@ -36,7 +36,7 @@ dependencies — see [`docs/HUB.md`](docs/HUB.md).
 
 1. **Install JDK 11** (required by RuneLite): double-click **`setup-jdk.bat`** (uses winget).
 2. Build: `./gradlew build`
-3. Launch a dev client with the plugin loaded: `./gradlew run` (or double-click **`run-osiris.bat`**).
+3. Launch a dev client with the plugin loaded: `./gradlew run` (or double-click **`run-gustav.bat`**).
    Log in following the [Using Jagex Accounts](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts) wiki.
 4. Sideloadable jar: `./gradlew shadowJar` → `build/libs/osiris-guide-*-all.jar`.
 
@@ -59,16 +59,16 @@ hide-completed.
 
 ```
 setup-jdk.bat            JDK 11 bootstrap (winget)
-run-osiris.bat           ./gradlew run launcher
+run-gustav.bat           ./gradlew run launcher
 build.gradle             RuneLite plugin build (Java 11, client provided-scope)
-src/main/java/com/osirisguide/
-  OsirisGuidePlugin.java   config, engine wiring, event handling
+src/main/java/com/gustavguide/
+  GustavGuidePlugin.java   config, engine wiring, event handling
   engine/                  Route, RouteStep, Condition tree, evaluator, progression
   requirement/             requirement model (adapted from Quest Helper)
   overlay/                 world arrow, minimap arrow, highlights (adapted from Quest Helper)
   panel/                   side panel UI
-src/main/resources/com/osirisguide/data/route/   route JSON, per section
-src/test/java/com/osirisguide/                    engine + schema + progression tests
+src/main/resources/com/gustavguide/data/route/   route JSON, per section
+src/test/java/com/gustavguide/                    engine + schema + progression tests
 tools/                     guide scraper + enricher (build-time, not shipped)
 docs/                      design spec + status
 ```

@@ -1,0 +1,125 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=778512750",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Quest for 100 qp",
+  "steps": [
+    {
+      "id": "quests-100qp-001",
+      "title": "Romeo & Juliet (5 QP)",
+      "text": "Romeo & Juliet (5 QP)",
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
+      "world": [
+        3211,
+        3422,
+        0
+      ]
+    },
+    {
+      "id": "quests-100qp-002",
+      "title": "Goblin Diplomacy (5 QP)",
+      "text": "Goblin Diplomacy (5 QP)",
+      "complete": {
+        "op": "quest",
+        "quest": "GOBLIN_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2954,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "quests-100qp-003",
+      "title": "Alfred Grimhand's Barcrawl (0 QP)",
+      "text": "Alfred Grimhand's Barcrawl (0 QP)",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2544,
+        3568,
+        0
+      ]
+    },
+    {
+      "id": "quests-100qp-004",
+      "title": "Horror from the deep (2 QP) …",
+      "text": "Horror from the deep (2 QP) — Unlocks dagannoths",
+      "complete": {
+        "op": "quest",
+        "quest": "HORROR_FROM_THE_DEEP",
+        "state": "FINISHED"
+      },
+      "world": [
+        2507,
+        3634,
+        0
+      ]
+    },
+    {
+      "id": "quests-100qp-005",
+      "title": "Fishing contest (1 QP) — better …",
+      "text": "Fishing contest (1 QP) — better to do b4 nmz so you can use rock cake to stay low hp",
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "quests-100qp-006",
+      "title": "Cook's assistent (1 QP)",
+      "text": "Cook's assistent (1 QP)",
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "quests-100qp-007",
+      "title": "RFD Cook (1 QP)",
+      "text": "RFD Cook (1 QP)",
+      "manual": true
+    },
+    {
+      "id": "quests-100qp-008",
+      "title": "RFD Dwarf (1 QP) — Rock …",
+      "text": "RFD Dwarf (1 QP) — Rock cake for nmz",
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "quests-100qp-009",
+      "title": "START Fremennik isles (0 QP) — …",
+      "text": "START Fremennik isles (0 QP) — unlocks ice trolls",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_ISLES",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2644,
+        3709,
+        0
+      ]
+    }
+  ]
+}

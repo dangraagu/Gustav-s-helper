@@ -1,0 +1,109 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=201018721",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Myreque quest line",
+  "steps": [
+    {
+      "id": "myreque-001",
+      "title": "Do the myreque quest line",
+      "text": "Do the myreque quest line",
+      "manual": true
+    },
+    {
+      "id": "myreque-002",
+      "title": "Nature spirit",
+      "text": "Nature spirit",
+      "complete": {
+        "op": "quest",
+        "quest": "NATURE_SPIRIT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3405,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "myreque-003",
+      "title": "In search of the Myreque",
+      "text": "In search of the Myreque",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_SEARCH_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3503,
+        3477,
+        0
+      ]
+    },
+    {
+      "id": "myreque-004",
+      "title": "In aid of the Myreque",
+      "text": "In aid of the Myreque",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_AID_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3506,
+        9837,
+        0
+      ]
+    },
+    {
+      "id": "myreque-005",
+      "title": "Darkness of Hallowvale (use xp reward …",
+      "text": "Darkness of Hallowvale (use xp reward on slayer x3)",
+      "complete": {
+        "op": "quest",
+        "quest": "DARKNESS_OF_HALLOWVALE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3490,
+        9632,
+        0
+      ]
+    },
+    {
+      "id": "myreque-006",
+      "title": "A taste of hope (use xp …",
+      "text": "A taste of hope (use xp reward on slayer x3)",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TASTE_OF_HOPE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3668,
+        3217,
+        0
+      ]
+    },
+    {
+      "id": "myreque-007",
+      "title": "Sins of the father",
+      "text": "Sins of the father",
+      "complete": {
+        "op": "quest",
+        "quest": "SINS_OF_THE_FATHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3729,
+        3318,
+        0
+      ]
+    },
+    {
+      "id": "myreque-008",
+      "title": "GZ on your vyre alt(s)",
+      "text": "GZ on your vyre alt(s)",
+      "manual": true
+    }
+  ]
+}

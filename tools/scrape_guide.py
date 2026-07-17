@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Scrape the ironman.guide route into Osiris Guide route JSON.
+Scrape the ironman.guide route into Gustav's Helper route JSON.
 
 The guide pages embed schema.org `HowTo` JSON-LD with ordered `HowToStep` entries
 (position, name, and a `HowToDirection` giving a location). We turn each HowToStep into a
@@ -20,7 +20,7 @@ from pathlib import Path
 
 # --- Guide config -------------------------------------------------------------
 # To add a NEW guide: give it an id (folder name), a source-URL template, and its section list;
-# then also add a matching value to com.osirisguide.Guide and an entry in data/guides.json.
+# then also add a matching value to com.gustavguide.Guide and an entry in data/guides.json.
 GUIDE_ID = "osiris-ironman"
 GUIDE_URL = "https://ironman.guide/guide/{slug}"
 
@@ -35,7 +35,7 @@ SECTIONS = [
     ("07", "sailing",                    "Sailing (optional)",            "sail"),
 ]
 
-_RES = Path(__file__).resolve().parent.parent / "src" / "main" / "resources" / "com" / "osirisguide"
+_RES = Path(__file__).resolve().parent.parent / "src" / "main" / "resources" / "com" / "gustavguide"
 OUT_DIR = _RES / "data" / "guides" / GUIDE_ID
 
 # RuneLite net.runelite.api.Skill enum names, keyed by words that appear in guide text.
@@ -70,7 +70,7 @@ SKILL_RE_1 = re.compile(r'\b(?:to|until|reach|get|hit|for)\s+(\d{1,2})\s+([a-zA-
 SKILL_RE_2 = re.compile(r'\b([a-zA-Z]+)\s+to\s+(\d{1,2})\b', re.I)
 
 
-USER_AGENT = "OsirisGuide-scraper/1.0 (+https://github.com/dangraagu/Osiris-guide; build-time content import)"
+USER_AGENT = "GustavGuide-scraper/1.0 (+https://github.com/dangraagu/Osiris-guide; build-time content import)"
 
 
 def fetch(url: str) -> str:
@@ -258,7 +258,7 @@ def skill_note(skill_enum, level):
 
 # --- Gear highlight: equip/bring rows point at the ITEM in inventory/bank ------
 # "Equip Fire cape" / "Bring Super attack(4)" have no location — the useful cue is highlighting the
-# item (OsirisItemOverlay draws step.item in inv/bank). This resolves the item name -> id WITHOUT a
+# item (GustavItemOverlay draws step.item in inv/bank). This resolves the item name -> id WITHOUT a
 # completion condition (equipping is not acquiring): the step stays manual, it just gets a highlight.
 _EQUIP_VERB_RE = re.compile(r"^\s*(equip|wield|wear|bring|carry)\b", re.IGNORECASE)
 NORM_ITEM_INDEX = {}  # normalised item name -> lowest id
@@ -402,31 +402,63 @@ def load_quest_start(quest_map):
 
 _QUEST_START_VERB_RE = re.compile(r"^\s*(start|begin)\b", re.IGNORECASE)
 
+# A step that lists quests you must NOT do (e.g. slayer-lure "DONT complete the following: ...")
+# must never bind its completion to one of those quests.
+_QUEST_LIST_WARN_RE = re.compile(r"complete the following", re.IGNORECASE)
+# Cues that a quest is named in a negative / conditional / optional aside rather than as the
+# step's actual action ("dont do X", "if you did X", "you could do X"). Checked on the normalised
+# text in a short window immediately before the matched quest name.
+_QUEST_NEG_RE = re.compile(
+    r"(do ?n.?t|dont|do not|avoid|never|no need|"
+    r"if you (?:would|want|did|have|already|plan|like)|would like|"
+    r"you could|you can also|optional|bother)",
+    re.IGNORECASE)
+_ROMAN_TOKENS = [(" iii", " 3"), (" ii", " 2"), (" iv", " 4"), (" i", " 1")]
+
+
+def _arabic_variant(nn):
+    """Roman-numeral quest name -> arabic form, so a guide's 'Dragon Slayer 2' matches the canonical
+    'Dragon Slayer II'. Returns None if the name has no trailing roman numeral to convert."""
+    v = nn
+    for roman, arabic in _ROMAN_TOKENS:
+        v = re.sub(re.escape(roman) + r"(?=\s|$)", arabic, v)
+    return v if v != nn else None
+
 
 def detect_quest(text: str, quest_map):
     """
     If a quest's display name appears in the step, complete the step when that quest is done.
     Dynamic: for an existing account this auto-skips a quest AND its prep/start steps once it's done.
-    Longest name wins. Punctuation is normalised on both sides so "Cook's Assistant" matches, and a
-    leading "The" is optional so the guide's "Restless ghost" still matches "The Restless Ghost".
-    A "Start <quest>" step uses IN_PROGRESS (started OR finished); other steps use FINISHED.
+    Longest name wins. Punctuation is normalised on both sides so "Cook's Assistant" matches, a leading
+    "The" is optional so "Restless ghost" still matches "The Restless Ghost", and roman numerals match
+    arabic ("Dragon Slayer 2" -> "Dragon Slayer II"). A "Start <quest>" step uses IN_PROGRESS (started
+    OR finished); other steps use FINISHED. Steps that name a quest negatively/conditionally (warnings,
+    "if you did X", asides) do NOT bind, so they can't auto-complete on the wrong / a forbidden quest.
     """
     if not quest_map:
         return None
+    if _QUEST_LIST_WARN_RE.search(text or ""):
+        return None
     padded = _norm(text)
-    best_len, best_const = 0, None
+    best_len, best_const, best_cand = 0, None, None
     for name, const in quest_map.items():
         nn = _norm(name)  # " the restless ghost " ; _norm also maps "&" -> "and"
         cands = [nn]
         if nn.startswith(" the ") and len(nn) - 5 >= 6:
             cands.append(" " + nn[5:])  # article-optional: " restless ghost "
+        av = _arabic_variant(nn)
+        if av:
+            cands.append(av)  # roman -> arabic: " dragon slayer 2 "
         for cand in cands:
             core = cand.strip()
             if len(core) < 4:
                 continue
             if cand in padded and len(core) > best_len:
-                best_len, best_const = len(core), const
+                best_len, best_const, best_cand = len(core), const, cand
     if best_const is None:
+        return None
+    pos = padded.find(best_cand)
+    if pos > 0 and _QUEST_NEG_RE.search(padded[max(0, pos - 70):pos]):
         return None
     state = "IN_PROGRESS" if _QUEST_START_VERB_RE.match(text or "") else "FINISHED"
     return {"op": "quest", "quest": best_const, "state": state}

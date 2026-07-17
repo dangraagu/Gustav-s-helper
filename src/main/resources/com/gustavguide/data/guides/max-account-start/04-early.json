@@ -1,0 +1,920 @@
+{
+  "_source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
+  "_license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "section": "Early game quests and NMZ unlocks",
+  "steps": [
+    {
+      "id": "early-001",
+      "title": "Bond up + 1 extra bond …",
+      "text": "Bond up + 1 extra bond for gp if starting out fresh",
+      "manual": true
+    },
+    {
+      "id": "early-002",
+      "title": "Make your way over to the …",
+      "text": "Make your way over to the GE or trade over teleport tabs and some ring of wealths (5) + GP (ring of the elements is around 1m gp and is very useful for early game quests)",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-003a",
+      "title": "Start X marks the spot, rune …",
+      "text": "Start X marks the spot, rune mysteries and restless ghost",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "early-003b",
+      "title": "trade over eye of newt, burnt …",
+      "text": "trade over eye of newt, burnt meat, onion, all 4 beads and a necklace of passage + some stamina pots",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-004",
+      "title": "Do X marks the spot (lamp …",
+      "text": "Do X marks the spot (lamp on magic) and visit zeah once, imp catcher, witch's potion, complete rune mysteries and restless ghost",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "early-005",
+      "title": "Get 43 prayer (POH or wildy)",
+      "text": "Get 43 prayer (POH or wildy)",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 43,
+        "cmp": ">="
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+      "world": [
+        3087,
+        3522,
+        0
+      ]
+    },
+    {
+      "id": "early-006",
+      "title": "Get 30 construction",
+      "text": "Get 30 construction",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "Build crude chairs -> bookcases -> oak larders in your POH (bring saw, hammer, steel nails); Mahogany Homes is a cheaper alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-007",
+      "title": "1 - 15 (84 planks + …",
+      "text": "1 - 15 (84 planks + 300 steel nails, build bookcases at lvl 4)",
+      "manual": true
+    },
+    {
+      "id": "early-008a",
+      "title": "15 - 30 (184 oak planks, …",
+      "text": "15 - 30 (184 oak planks, build workshop at lvl 15",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-008b",
+      "title": "make oak repair benches)",
+      "text": "make oak repair benches)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-009",
+      "title": "Move your house to Hosidius for …",
+      "text": "Move your house to Hosidius for Mage sand crabs (make sure you have visited zeah once)",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "early-010",
+      "title": "Do witch's house (Bring ~20 earth …",
+      "text": "Do witch's house (Bring ~20 earth strikes to get lvl 13, fire strike/bolt all quest bosses from now on)",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "early-011",
+      "title": "Druidic ritual (bring the 4 meats …",
+      "text": "Druidic ritual (bring the 4 meats and ores for dorics quest)",
+      "complete": {
+        "op": "quest",
+        "quest": "DRUIDIC_RITUAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2925,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "early-012",
+      "title": "Doric's Quest",
+      "text": "Doric's Quest",
+      "complete": {
+        "op": "quest",
+        "quest": "DORICS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2951,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "early-013",
+      "title": "Knights sword",
+      "text": "Knights sword",
+      "manual": true,
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "early-014",
+      "title": "Get 10 fletching (arrows)",
+      "text": "Get 10 fletching (arrows)",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 10,
+        "cmp": ">="
+      },
+      "note": "Skip low levels with quests; fletch arrow shafts (1-5) then start cutting & stringing bows. Darts are the fastest passive option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-015",
+      "title": "Tourist trap (both rewards on agility)",
+      "text": "Tourist trap (both rewards on agility)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_TOURIST_TRAP",
+        "state": "FINISHED"
+      },
+      "world": [
+        3304,
+        3112,
+        0
+      ]
+    },
+    {
+      "id": "early-016",
+      "title": "Dwarf cannon",
+      "text": "Dwarf cannon",
+      "complete": {
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "FINISHED"
+      },
+      "world": [
+        2567,
+        3460,
+        0
+      ]
+    },
+    {
+      "id": "early-017",
+      "title": "Waterfall quest",
+      "text": "Waterfall quest",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "early-018",
+      "title": "Tree gnome village (khazard warlord nmz)",
+      "text": "Tree gnome village (khazard warlord nmz)",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "early-019",
+      "title": "Grand tree (5 kudos)",
+      "text": "Grand tree (5 kudos)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "early-020",
+      "title": "Fight arena",
+      "text": "Fight arena",
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "early-021",
+      "title": "Monks friend",
+      "text": "Monks friend",
+      "manual": true,
+      "world": [
+        2607,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "early-022",
+      "title": "Hazeel cult (5 kudos)",
+      "text": "Hazeel cult (5 kudos)",
+      "complete": {
+        "op": "quest",
+        "quest": "HAZEEL_CULT",
+        "state": "FINISHED"
+      },
+      "world": [
+        2569,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "early-023",
+      "title": "Get 21 thieving (steal cakes)",
+      "text": "Get 21 thieving (steal cakes)",
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 21,
+        "cmp": ">="
+      },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-024",
+      "title": "Tribal totem",
+      "text": "Tribal totem",
+      "complete": {
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "early-025",
+      "title": "Plague city",
+      "text": "Plague city",
+      "complete": {
+        "op": "quest",
+        "quest": "PLAGUE_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2568,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "early-026",
+      "title": "Biohazard",
+      "text": "Biohazard",
+      "complete": {
+        "op": "quest",
+        "quest": "BIOHAZARD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2592,
+        3336,
+        0
+      ]
+    },
+    {
+      "id": "early-027",
+      "title": "Vampire slayer (count draynor in nmz)",
+      "text": "Vampire slayer (count draynor in nmz)",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "early-028",
+      "title": "Enter the abyss miniquest",
+      "text": "Enter the abyss miniquest",
+      "complete": {
+        "op": "quest",
+        "quest": "ENTER_THE_ABYSS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3102,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "early-029",
+      "title": "Do zeah quests on w330, use …",
+      "text": "Do zeah quests on w330, use some1 elses house for xeric talisman teleports",
+      "manual": true,
+      "world": [
+        1538,
+        3475,
+        0
+      ]
+    },
+    {
+      "id": "early-030",
+      "title": "Client of kourend (favour on Piscarilius …",
+      "text": "Client of kourend (favour on Piscarilius and one lamp on rc other on slayer)",
+      "complete": {
+        "op": "quest",
+        "quest": "CLIENT_OF_KOUREND",
+        "state": "FINISHED"
+      },
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "early-031",
+      "title": "Get 20% hosidius favour",
+      "text": "Get 20% hosidius favour",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "early-032",
+      "title": "Depths of despair (sand snake nmz)",
+      "text": "Depths of despair (sand snake nmz)",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_DEPTHS_OF_DESPAIR",
+        "state": "FINISHED"
+      },
+      "world": [
+        1782,
+        3572,
+        0
+      ]
+    },
+    {
+      "id": "early-033",
+      "title": "Temple of the eye",
+      "text": "Temple of the eye",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "early-034",
+      "title": "get 35 rc at GOTR",
+      "text": "get 35 rc at GOTR",
+      "complete": {
+        "op": "skill",
+        "skill": "RUNECRAFT",
+        "level": 35,
+        "cmp": ">="
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-035",
+      "title": "Murder Mystery",
+      "text": "Murder Mystery",
+      "complete": {
+        "op": "quest",
+        "quest": "MURDER_MYSTERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2741,
+        3561,
+        0
+      ]
+    },
+    {
+      "id": "early-036",
+      "title": "Merlins crystal (5 kudos + 1k …",
+      "text": "Merlins crystal (5 kudos + 1k xp lamp from museum on slayer)",
+      "manual": true,
+      "object": 62,
+      "world": [
+        2768,
+        3494,
+        2
+      ]
+    },
+    {
+      "id": "early-037",
+      "title": "Get 10 herblore (6 guam(unf), 6 …",
+      "text": "Get 10 herblore (6 guam(unf), 6 eye of newt, 21 marrentill(unf), 21 unicorn horn dust, keep the antidotes for quests)",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 10,
+        "cmp": ">="
+      },
+      "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-038",
+      "title": "The Digsite",
+      "text": "The Digsite",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "early-039",
+      "title": "What lies below (king roald nmz) …",
+      "text": "What lies below (king roald nmz) + bring the dagon hai book to the museum for 5 kudos",
+      "complete": {
+        "op": "quest",
+        "quest": "WHAT_LIES_BELOW",
+        "state": "FINISHED"
+      },
+      "world": [
+        3266,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "early-040",
+      "title": "Museum quiz + cleaning finds = …",
+      "text": "Museum quiz + cleaning finds = 100 kudos (after you got the clean necklace, buy ruby enchant tabs and ruby necklace to get some digsite pendants)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1660,
+            "qty": 100
+          },
+          {
+            "op": "item",
+            "id": 1660,
+            "qty": 100,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1660,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "early-041",
+      "title": "Bone voyage",
+      "text": "Bone voyage",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3257,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "early-042",
+      "title": "Fossil island unlocked",
+      "text": "Fossil island unlocked",
+      "manual": true,
+      "world": [
+        3730,
+        3807,
+        0
+      ]
+    },
+    {
+      "id": "early-043a",
+      "title": "Start doing birdhouse runs on your …",
+      "text": "Start doing birdhouse runs on your main account",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-043b",
+      "title": "Get atleast level 44 but more …",
+      "text": "Get atleast level 44 but more wont hurt",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-044",
+      "title": "Alt Note: With 26 craft and …",
+      "text": "Alt Note: With 26 craft and 29 con you can now make drift nets for 400-500k gp/h (can get 61 craft here if planning on doing lunar diplomacy)",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 61,
+        "cmp": ">="
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-045",
+      "title": "If you are not tight on …",
+      "text": "If you are not tight on gp you can cut gems later on but 61 craft with drift nets profits you 3,5 - 4,5m gp compared to cutting rubies",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-046",
+      "title": "[ALT] can also do birdhouses from …",
+      "text": "[ALT] can also do birdhouses from now on if you want to do mm2 (60 hunt)",
+      "manual": true
+    },
+    {
+      "id": "early-047",
+      "title": "Get 28 (11k xp) crafting (Best …",
+      "text": "Get 28 (11k xp) crafting (Best leather item to 20, sapphires to 11k xp)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-048",
+      "title": "Jungle potion",
+      "text": "Jungle potion",
+      "complete": {
+        "op": "quest",
+        "quest": "JUNGLE_POTION",
+        "state": "FINISHED"
+      },
+      "world": [
+        2809,
+        3085,
+        0
+      ]
+    },
+    {
+      "id": "early-049",
+      "title": "Shilo village (should get you to …",
+      "text": "Shilo village (should get you to 31 crafting)",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 31,
+        "cmp": ">="
+      },
+      "world": [
+        2884,
+        2951,
+        0
+      ]
+    },
+    {
+      "id": "early-050",
+      "title": "Get 36 wc",
+      "text": "Get 36 wc",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 36,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-051",
+      "title": "Lost city (tree spirit nmz) (get …",
+      "text": "Lost city (tree spirit nmz) (get multiple dramen staves + 2 dramen branch for Koschei the deathless in Frem trials and sir amik varze subquest)",
+      "complete": {
+        "op": "quest",
+        "quest": "LOST_CITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3151,
+        3207,
+        0
+      ]
+    },
+    {
+      "id": "early-052",
+      "title": "Get 30 firemaking",
+      "text": "Get 30 firemaking",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 30,
+        "cmp": ">="
+      },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-053",
+      "title": "Sea slug",
+      "text": "Sea slug",
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
+      "world": [
+        2717,
+        3303,
+        0
+      ]
+    },
+    {
+      "id": "early-054",
+      "title": "Holy grail",
+      "text": "Holy grail",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "early-055",
+      "title": "Get atleast 43 pray",
+      "text": "Get atleast 43 pray",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-056",
+      "title": "Monkey Madness 1 (choose att and …",
+      "text": "Monkey Madness 1 (choose att and defence training)",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKEY_MADNESS_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2465,
+        3496,
+        0
+      ]
+    },
+    {
+      "id": "early-057",
+      "title": "Get 40 Woodcutting",
+      "text": "Get 40 Woodcutting",
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 40,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-058",
+      "title": "Get 40 Crafting (gems)",
+      "text": "Get 40 Crafting (gems)",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 40,
+        "cmp": ">="
+      },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-059",
+      "title": "Get 25 fletching (arrows/darts during the …",
+      "text": "Get 25 fletching (arrows/darts during the quest)",
+      "complete": {
+        "op": "skill",
+        "skill": "FLETCHING",
+        "level": 25,
+        "cmp": ">="
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-060",
+      "title": "Fremennik trials",
+      "text": "Fremennik trials",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3669,
+        0
+      ]
+    },
+    {
+      "id": "early-061",
+      "title": "Sell ring of the elements if …",
+      "text": "Sell ring of the elements if you need gp",
+      "manual": true,
+      "world": [
+        2642,
+        3678,
+        0
+      ]
+    }
+  ]
+}

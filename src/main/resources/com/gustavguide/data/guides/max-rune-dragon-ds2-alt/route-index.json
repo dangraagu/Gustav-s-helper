@@ -1,0 +1,10 @@
+{
+  "_comment": "Auto-generated from raw/max-rune-dragon-ds2-alt.json by build_raw_guide.py",
+  "sections": [
+    "01-intro.json",
+    "02-barrows-gloves.json",
+    "03-to-200-qp.json",
+    "04-ds2-finish.json",
+    "05-upgrades.json"
+  ]
+}

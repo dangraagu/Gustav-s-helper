@@ -1,0 +1,615 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas_Old_Route_Backup",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Old Route Backup); CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Marked OUTDATED by the wiki.",
+  "section": "Early Blue Dragons",
+  "steps": [
+    {
+      "id": "early-blue-dragons-001a",
+      "title": "Head south west into the Lumbridge …",
+      "text": "Head south west into the Lumbridge Swamp",
+      "world": [
+        3197,
+        3166,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3197,
+        "y": 3166,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-blue-dragons-001b",
+      "title": "pick up a pair of Leather …",
+      "text": "pick up a pair of Leather gloves from Father Urhneys house",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1059,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1059,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1059,
+      "world": [
+        3197,
+        3166,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-002a",
+      "title": "Head into Draynor Village",
+      "text": "Head into Draynor Village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-blue-dragons-002b",
+      "title": "pick up a few Cheese from …",
+      "text": "pick up a few Cheese from the spawn near Aggie",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1985,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1985,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1985,
+      "npc": 4284,
+      "world": [
+        3086,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-003",
+      "title": "Head north into Barbarian Village",
+      "text": "Head north into Barbarian Village",
+      "world": [
+        3080,
+        3427,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3080,
+        "y": 3427,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-blue-dragons-004",
+      "title": "Hop worlds, collect a mostly full …",
+      "text": "Hop worlds, collect a mostly full inventory of cooked meat from the north building. leave a few slots open",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2142,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 2142,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2142
+    },
+    {
+      "id": "early-blue-dragons-005a",
+      "title": "Complete the Stronghold of Security",
+      "text": "Complete the Stronghold of Security",
+      "manual": true,
+      "object": 20790,
+      "world": [
+        3081,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-005b",
+      "title": "get 10,000 coins",
+      "text": "get 10,000 coins",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-006a",
+      "title": "Head to Varrock",
+      "text": "Head to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-blue-dragons-006b",
+      "title": "buy a staff of fire from …",
+      "text": "buy a staff of fire from zaff",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1387,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1387,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1387,
+      "npc": 2880,
+      "world": [
+        3202,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-007a",
+      "title": "Head to Aubury",
+      "text": "Head to Aubury",
+      "manual": true,
+      "npc": 11434,
+      "world": [
+        3253,
+        3401,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-007b",
+      "title": "buy 300 mind runes, 700 air …",
+      "text": "buy 300 mind runes, 700 air runes, 100 water runes, 150 earth runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 557,
+            "qty": 850
+          },
+          {
+            "op": "item",
+            "id": 557,
+            "qty": 850,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 557,
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-008a",
+      "title": "Head to Taverley",
+      "text": "Head to Taverley",
+      "manual": true,
+      "object": 16680,
+      "world": [
+        2884,
+        3397,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-008b",
+      "title": "complete Witch's house. Safespot all forms …",
+      "text": "complete Witch's house. Safespot all forms of the witch's experiment to avoid having to tank them. https://www.youtube.com/watch?v=bDB351j-qZI&t=180s",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-009",
+      "title": "Minigame teleport to Clan Wars",
+      "text": "Minigame teleport to Clan Wars",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-010a",
+      "title": "Walk outside",
+      "text": "Walk outside",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-010b",
+      "title": "kill some rats with magic until …",
+      "text": "kill some rats with magic until you get a Looting Bag",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-011a",
+      "title": "Head to the Bone Yard",
+      "text": "Head to the Bone Yard",
+      "manual": true
+    },
+    {
+      "id": "early-blue-dragons-011b",
+      "title": "pick up an iron scimitar from …",
+      "text": "pick up an iron scimitar from the spawn there",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1323,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1323,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1323,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-012a",
+      "title": "Head into the Lava Maze",
+      "text": "Head into the Lava Maze",
+      "manual": true,
+      "npc": 6593,
+      "world": [
+        3209,
+        3848,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-012b",
+      "title": "collect a full inventory and looting …",
+      "text": "collect a full inventory and looting bag full of steel platebodys from the spawn there. Be careful not to die to the Lesser Demon",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1119,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1119,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1119,
+      "world": [
+        3209,
+        3848,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-013",
+      "title": "Leave the Lava Maze and return …",
+      "text": "Leave the Lava Maze and return to the Ferox Enclave. Make sure to remember your scimitar for the webs. — You should be able to make it through the maze without food with full run energy and the extra hp from witch's house. If you are worried, you can keep a few food.",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-014a",
+      "title": "Head to Varrock",
+      "text": "Head to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-blue-dragons-014b",
+      "title": "sell the platebodies to Horvik",
+      "text": "sell the platebodies to Horvik",
+      "manual": true,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-014c",
+      "title": "Sell 2 per world",
+      "text": "Sell 2 per world",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-015a",
+      "title": "Head back to the wilderness, destroy …",
+      "text": "Head back to the wilderness, destroy the looting bag",
+      "world": [
+        3087,
+        3522,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3087,
+        "y": 3522,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-blue-dragons-015b",
+      "title": "get your platebodies",
+      "text": "get your platebodies",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-015c",
+      "title": "sell those to Horvik",
+      "text": "sell those to Horvik",
+      "manual": true,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-016",
+      "title": "Head to Aubury and purchase runes …",
+      "text": "Head to Aubury and purchase runes until you have 4500 mind, and 9000 air runes. — Optionally, you could only buy about 1100 casts of fire strike at a time, then store the extra money at clan wars. Then buy a new set of runes after each inventory of bones. This mitigates the risk of dying at the altar, but does take longer to walk around.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 556,
+            "qty": 9400
+          },
+          {
+            "op": "item",
+            "id": 556,
+            "qty": 9400,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 556,
+      "npc": 11434,
+      "world": [
+        3253,
+        3401,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-017a",
+      "title": "Head to the Isle of Souls …",
+      "text": "Head to the Isle of Souls Dungeon and safespot blue dragons there",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "early-blue-dragons-017b",
+      "title": "Make sure to have high run …",
+      "text": "Make sure to have high run energy when you enter the dungeon so you can run past everything",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-018",
+      "title": "Once you have a full inventory …",
+      "text": "Once you have a full inventory of Dragon Bones, minigame teleport to clan wars",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-019",
+      "title": "Deposit all extra coins there. This …",
+      "text": "Deposit all extra coins there. This is a reserve to replace the money used in the rest of the guide normally obtained from the stronghold of security",
+      "manual": true,
+      "object": 20790,
+      "world": [
+        3081,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-020",
+      "title": "Walk to the chaos altar and …",
+      "text": "Walk to the chaos altar and use the bones. — Dying here is very costly, so be careful and ready to log out at any sign of danger. If you want, you could bring some food to greatly increase the chance of surviving a pvp encounter. Some options include wine from draynor village, chocolate cake from Ardougne, or Karambwans from Brimhaven. If you bring 20 dragon bones per trip, you will reach 43 prayer in 5 trips on average. You may want to do 21or 22 though in case you have bad luck.",
+      "complete": {
+        "op": "skill",
+        "skill": "PRAYER",
+        "level": 43,
+        "cmp": ">="
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
+      "object": 411,
+      "world": [
+        2947,
+        3821,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-021a",
+      "title": "Return to the Isle of Souls …",
+      "text": "Return to the Isle of Souls dungeon (note that the Ferox enclave connects to Soul Wars)",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-021b",
+      "title": "get more bones, and repeat",
+      "text": "get more bones, and repeat",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-022",
+      "title": "43 prayer should take around 4 …",
+      "text": "43 prayer should take around 4 inventories, depending on your luck. If you are a bit short, you can get bones from the Bone Yard to make up the difference. Also, some of the early quests in the guide have small prayer experience rewards.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "early-blue-dragons-023",
+      "title": "If you do this method, then …",
+      "text": "If you do this method, then you will likely want to keep the law rune reward from Monk's Friend, get a few extra teleports early on",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
+    }
+  ]
+}
