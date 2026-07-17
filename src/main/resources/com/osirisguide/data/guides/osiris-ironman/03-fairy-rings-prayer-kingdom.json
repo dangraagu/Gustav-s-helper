@@ -63,7 +63,7 @@
       "complete": {
         "op": "quest",
         "quest": "PRIEST_IN_PERIL",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3208,
@@ -313,7 +313,7 @@
       "complete": {
         "op": "quest",
         "quest": "LOST_CITY",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3151,
@@ -1269,7 +1269,7 @@
       "complete": {
         "op": "quest",
         "quest": "GHOSTS_AHOY",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3660,
@@ -1414,7 +1414,11 @@
       "id": "frp-093",
       "title": "Do Fremennik trials",
       "text": "Do Fremennik trials\nLocation: Rellekka",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      },
       "world": [
         2658,
         3669,
@@ -1560,7 +1564,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_GIANT_DWARF",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2732,

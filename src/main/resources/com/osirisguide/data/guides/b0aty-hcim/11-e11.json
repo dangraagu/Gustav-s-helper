@@ -163,7 +163,16 @@
       "id": "e11-011",
       "title": "Complete Path of Glouphrie (easy)",
       "text": "Complete Path of Glouphrie (easy)",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_PATH_OF_GLOUPHRIE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2515,
+        3161,
+        0
+      ]
     },
     {
       "id": "e11-012",
