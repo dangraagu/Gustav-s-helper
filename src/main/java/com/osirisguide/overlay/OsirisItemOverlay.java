@@ -11,12 +11,14 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import javax.inject.Inject;
+import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.WidgetItem;
 import net.runelite.client.ui.overlay.WidgetItemOverlay;
 
 /**
- * Highlights the item the current step wants you to get/use, wherever it appears in your inventory
- * or bank — the Quest-Helper-style item marker. Read-only rendering; never interacts with items.
+ * Highlights the item the current step wants you to get/use, wherever it appears — inventory, bank,
+ * equipment, and the SHOP stock interface (so "Buy X from Y" outlines X in the shop) — the
+ * Quest-Helper-style item marker. Read-only rendering; never interacts with items.
  */
 public class OsirisItemOverlay extends WidgetItemOverlay
 {
@@ -31,6 +33,7 @@ public class OsirisItemOverlay extends WidgetItemOverlay
 		showOnInventory();
 		showOnBank();
 		showOnEquipment();
+		showOnInterfaces(InterfaceID.SHOPMAIN);  // 300 — the shop's stock grid
 	}
 
 	@Override
