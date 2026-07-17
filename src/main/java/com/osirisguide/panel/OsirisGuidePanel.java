@@ -37,6 +37,7 @@ public class OsirisGuidePanel extends PluginPanel
 	private final JLabel titleLabel = new JLabel();
 	private final JLabel textLabel = new JLabel();
 	private final JLabel noteLabel = new JLabel();
+	private final JLabel teleportLabel = new JLabel();
 	private final JPanel reqContainer = new JPanel();
 	private final JPanel upcomingContainer = new JPanel();
 	private final JLabel upcomingHeader = new JLabel("Coming up");
@@ -119,6 +120,11 @@ public class OsirisGuidePanel extends PluginPanel
 		noteLabel.setFont(FontManager.getRunescapeSmallFont());
 		noteLabel.setBorder(BorderFactory.createEmptyBorder(4, 0, 0, 0));
 
+		teleportLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		teleportLabel.setForeground(ColorScheme.PROGRESS_INPROGRESS_COLOR);
+		teleportLabel.setFont(FontManager.getRunescapeSmallFont());
+		teleportLabel.setBorder(BorderFactory.createEmptyBorder(4, 0, 0, 0));
+
 		reqContainer.setLayout(new BoxLayout(reqContainer, BoxLayout.Y_AXIS));
 		reqContainer.setAlignmentX(Component.LEFT_ALIGNMENT);
 		reqContainer.setBorder(BorderFactory.createEmptyBorder(6, 0, 6, 0));
@@ -142,6 +148,7 @@ public class OsirisGuidePanel extends PluginPanel
 		center.add(titleLabel);
 		center.add(textLabel);
 		center.add(noteLabel);
+		center.add(teleportLabel);
 		center.add(reqContainer);
 		center.add(buttons);
 		center.add(upcomingHeader);
@@ -238,6 +245,7 @@ public class OsirisGuidePanel extends PluginPanel
 		boolean hasCurrent = m.loggedIn && !m.finished && !m.routeEmpty;
 
 		noteLabel.setVisible(false);
+		teleportLabel.setVisible(false);
 		if (m.finished && !m.routeEmpty && m.loggedIn)
 		{
 			sectionLabel.setText("");
@@ -253,6 +261,11 @@ public class OsirisGuidePanel extends PluginPanel
 			{
 				noteLabel.setText("<html><body style='width:190px'>💡 " + escape(m.note) + "</body></html>");
 				noteLabel.setVisible(true);
+			}
+			if (m.teleportHint != null && !m.teleportHint.isEmpty())
+			{
+				teleportLabel.setText("<html><body style='width:190px'>➤ " + escape(m.teleportHint) + "</body></html>");
+				teleportLabel.setVisible(true);
 			}
 			for (PanelModel.ReqView r : m.requirements)
 			{

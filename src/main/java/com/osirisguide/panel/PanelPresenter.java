@@ -53,6 +53,11 @@ public class PanelPresenter
 	 */
 	public void showProgress(Progression progression, Route route, ConditionContext ctx)
 	{
+		showProgress(progression, route, ctx, null);
+	}
+
+	public void showProgress(Progression progression, Route route, ConditionContext ctx, String teleportHint)
+	{
 		if (panel == null || progression == null || route == null)
 		{
 			return;
@@ -81,6 +86,7 @@ public class PanelPresenter
 				m.requirements.add(new PanelModel.ReqView(r.getText(), r.check(ctx)));
 			}
 			m.upcoming = upcomingTitles(progression, route, current, UPCOMING_COUNT);
+			m.teleportHint = teleportHint;
 		}
 		panel.update(m);
 	}

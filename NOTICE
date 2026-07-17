@@ -54,4 +54,18 @@ data/qh_dialogue.json were likewise harvested at build time from Quest Helper's
 source (BSD 2-Clause, credited above); only the resulting option strings are
 shipped as data, not Quest Helper's code. Extractor: tools/data/qh_dialogue.py.
 
+Teleport data
+-------------
+data/teleports.json (teleport names, destinations and unlock requirements, for
+the "fastest unlocked teleport" hint) was extracted from the Shortest Path plugin's
+open-source transport data:
+
+    Shortest Path - https://github.com/Skretzo/shortest-path
+    Copyright (c) Skretzo and contributors
+    Licensed under the BSD 2-Clause License
+
+Only the resulting factual teleport data is shipped — none of Shortest Path's code
+or its collision-map data. The plugin optionally drives an installed Shortest Path
+instance over RuneLite's public plugin-message bus (no code dependency).
+
 Not affiliated with Jagex Ltd. Old School RuneScape is a trademark of Jagex Ltd.
