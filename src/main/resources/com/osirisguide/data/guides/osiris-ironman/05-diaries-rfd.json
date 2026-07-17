@@ -7,7 +7,15 @@
       "id": "dr-001",
       "title": "Do all of the RFD subquests",
       "text": "Do all of the RFD subquests\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3214,
+        0
+      ],
+      "npcs": [
+        4626
+      ]
     },
     {
       "id": "dr-002a",
@@ -282,7 +290,15 @@
       "id": "dr-020",
       "title": "Do Desert Treasure",
       "text": "Do Desert Treasure\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        3178,
+        3043,
+        0
+      ],
+      "npcs": [
+        12162
+      ]
     },
     {
       "id": "dr-021a",

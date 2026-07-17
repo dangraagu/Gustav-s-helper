@@ -164,7 +164,12 @@
       "id": "e3-011",
       "title": "Herb Seed Farm Run Methods (Priority …",
       "text": "Herb Seed Farm Run Methods (Priority Harralanders & Irits due to easy secondary)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2670,
+        3374,
+        0
+      ]
     },
     {
       "id": "e3-012",
@@ -305,7 +310,12 @@
       "id": "e3-022",
       "title": "Plant Jute Seeds in patch [Kandarin …",
       "text": "Plant Jute Seeds in patch [Kandarin Easy Diary] (Supplies in Leprechaun)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
     },
     {
       "id": "e3-023",
@@ -474,8 +484,8 @@
       "text": "pick it up 5x [Karamja Easy Diary]",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2708,
+        3209,
         0
       ]
     },
@@ -485,8 +495,8 @@
       "text": "Cross Rope Swing to Moss Giant Island [Karamja Easy Diary]",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2708,
+        3209,
         0
       ]
     },
@@ -496,8 +506,8 @@
       "text": "Mine a Gold Ore to complete Karamja Easy Diary",
       "manual": true,
       "world": [
-        2745,
-        3150,
+        2731,
+        3225,
         0
       ]
     },
@@ -811,8 +821,8 @@
       "text": "Make a Bowl [Varrock Easy Diary] Drop this",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3206,
+        3417,
         0
       ]
     },
@@ -898,8 +908,8 @@
       "text": "Take the shortcut back and forth[Falador Medium Diary]",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2932,
+        3213,
         0
       ]
     },
@@ -989,8 +999,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3485,
-        3088,
+        3209,
+        3215,
         0
       ]
     },
@@ -1532,8 +1542,8 @@
       },
       "item": 245,
       "world": [
-        3000,
-        3360,
+        2932,
+        3213,
         0
       ]
     },
@@ -1630,7 +1640,12 @@
       "id": "e3-110",
       "title": "Complete Pirates Treasure [Keep Ring for …",
       "text": "Complete Pirates Treasure [Keep Ring for Mournings End pt 2]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "e3-111",
@@ -1638,8 +1653,8 @@
       "text": "Bank Everything at East Bank",
       "manual": true,
       "world": [
-        3015,
-        3357,
+        3045,
+        3234,
         0
       ]
     },
@@ -1833,8 +1848,8 @@
       },
       "item": 40,
       "world": [
-        2917,
-        3745,
+        2823,
+        3443,
         0
       ]
     },
@@ -1844,8 +1859,8 @@
       "text": "Fletch the Iron Arrows",
       "manual": true,
       "world": [
-        2917,
-        3745,
+        2823,
+        3443,
         0
       ]
     },
@@ -1871,19 +1886,34 @@
       "id": "e3-128b",
       "title": "burn some oak logs [Fremennik Easy …",
       "text": "burn some oak logs [Fremennik Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2724,
+        3773,
+        0
+      ]
     },
     {
       "id": "e3-129",
       "title": "Fill a bucket of Water at …",
       "text": "Fill a bucket of Water at the Well [Fremennik Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2897,
+        10219,
+        0
+      ]
     },
     {
       "id": "e3-130",
       "title": "Start Fremennik Trials Quest",
       "text": "Start Fremennik Trials Quest",
-      "manual": true
+      "manual": true,
+      "world": [
+        2659,
+        3670,
+        0
+      ]
     },
     {
       "id": "e3-131",
@@ -2264,7 +2294,12 @@
           }
         ]
       },
-      "item": 1891
+      "item": 1891,
+      "world": [
+        2724,
+        3773,
+        0
+      ]
     },
     {
       "id": "e3-158",
@@ -2535,10 +2570,9 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
-      "object": 4913,
       "world": [
-        3440,
-        3232,
+        3102,
+        3557,
         0
       ]
     },
@@ -2961,7 +2995,15 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        2958,
+        3371,
+        0
+      ],
+      "npcs": [
+        1316
+      ]
     },
     {
       "id": "e3-204",
@@ -3000,8 +3042,8 @@
       },
       "item": 1891,
       "world": [
-        2958,
-        3508,
+        3213,
+        3221,
         0
       ]
     },
@@ -3021,7 +3063,12 @@
       "id": "e3-207",
       "title": "Complete Lost Tribe",
       "text": "Complete Lost Tribe",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
     },
     {
       "id": "e3-208",
@@ -3045,8 +3092,8 @@
       },
       "item": 8880,
       "world": [
-        3165,
-        3490,
+        3209,
+        3216,
         0
       ]
     },
@@ -3732,7 +3779,12 @@
       "id": "e3-258",
       "title": "Complete Dwarf RFD",
       "text": "Complete Dwarf RFD",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "e3-259",
@@ -3751,8 +3803,8 @@
         "cmp": ">="
       },
       "world": [
-        3165,
-        3490,
+        3093,
+        3357,
         0
       ]
     },
@@ -4076,8 +4128,8 @@
       "text": "Cut a Hollow Tree [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ]
     },
@@ -4195,8 +4247,8 @@
       "text": "Make cannonballs on the Furnance [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ]
     },
@@ -4236,7 +4288,12 @@
       "id": "e3-294",
       "title": "Dig for the Book of Haricanto …",
       "text": "Dig for the Book of Haricanto [Ghost's Ahoy]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3660,
+        3508,
+        0
+      ]
     },
     {
       "id": "e3-295",
@@ -4254,7 +4311,15 @@
       "id": "e3-296",
       "title": "Talk to Ak-Haranu (1) [Ghost's Ahoy]",
       "text": "Talk to Ak-Haranu (1) [Ghost's Ahoy]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3690,
+        3497,
+        0
+      ],
+      "npcs": [
+        2989
+      ]
     },
     {
       "id": "e3-297",
@@ -4272,7 +4337,15 @@
       "id": "e3-298",
       "title": "Talk to Ak-Haranu for Translation Manual …",
       "text": "Talk to Ak-Haranu for Translation Manual [Ghost's Ahoy]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3690,
+        3497,
+        0
+      ],
+      "npcs": [
+        2989
+      ]
     },
     {
       "id": "e3-299",
@@ -4448,8 +4521,8 @@
       "text": "Ectophial teleport [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ]
     },
@@ -4716,9 +4789,12 @@
       "text": "Get a task from Vannaka [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3147,
+        9914,
         0
+      ],
+      "npcs": [
+        403
       ]
     },
     {
@@ -4726,14 +4802,14 @@
       "title": "Go through the pipe to Moss …",
       "text": "Go through the pipe to Moss Giants [Varrock Hard Diary]",
       "world": [
-        3210,
-        3448,
+        3081,
+        3420,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3210,
-        "y": 3448,
+        "x": 3081,
+        "y": 3420,
         "z": 0,
         "radius": 8
       }
@@ -4924,7 +5000,12 @@
       "id": "e3-346",
       "title": "Enter Player Owned House [Desert Medium …",
       "text": "Enter Player Owned House [Desert Medium Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        2329,
+        3495,
+        0
+      ]
     },
     {
       "id": "e3-347",
@@ -5068,7 +5149,12 @@
       "id": "e3-359",
       "title": "Kill a Vulture [Desert Easy Diary]",
       "text": "Kill a Vulture [Desert Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3304,
+        3116,
+        0
+      ]
     },
     {
       "id": "e3-360",
@@ -5092,7 +5178,12 @@
       "id": "e3-362",
       "title": "Open the Sarcophagus [Desert Easy Diary]",
       "text": "Open the Sarcophagus [Desert Easy Diary]",
-      "manual": true
+      "manual": true,
+      "world": [
+        3304,
+        3116,
+        0
+      ]
     },
     {
       "id": "e3-363",
@@ -5443,7 +5534,12 @@
       "id": "e3-395",
       "title": "NOTE: MAKE SURE YOU HAVE SPACE …",
       "text": "NOTE: MAKE SURE YOU HAVE SPACE BEFORE YOU LOOT THE CHEST",
-      "manual": true
+      "manual": true,
+      "world": [
+        2658,
+        2625,
+        0
+      ]
     },
     {
       "id": "e3-396",

@@ -273,7 +273,12 @@
       "id": "s11-016",
       "title": "Minigame teleport to Soul Wars. Chop …",
       "text": "Minigame teleport to Soul Wars. Chop teak logs on a forestry world - world 444 is recommended as it is usually the most popular - and burn them to level 50 firemaking (note: it would theoretically be faster to 2t, but the birds will actually just kill you at your current stats).",
-      "manual": true
+      "manual": true,
+      "world": [
+        2185,
+        2988,
+        0
+      ]
     },
     {
       "id": "s11-017",

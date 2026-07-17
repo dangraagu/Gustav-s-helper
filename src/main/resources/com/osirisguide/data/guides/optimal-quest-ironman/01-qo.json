@@ -780,8 +780,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2809,
-        3085,
+        2763,
+        3044,
         0
       ]
     },
@@ -1174,7 +1174,12 @@
         "skill": "WOODCUTTING",
         "level": 15,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3192,
+        3223,
+        0
+      ]
     },
     {
       "id": "qo-082",
@@ -1283,8 +1288,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2958,
-        3508,
+        2718,
+        3628,
         0
       ]
     },
@@ -1560,7 +1565,12 @@
         "skill": "WOODCUTTING",
         "level": 45,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3192,
+        3223,
+        0
+      ]
     },
     {
       "id": "qo-109",
@@ -1883,8 +1893,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3000,
-        3360,
+        3213,
+        3221,
         0
       ]
     },
@@ -1965,8 +1975,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3094,
-        3493,
+        3213,
+        3221,
         0
       ]
     },
@@ -2026,7 +2036,12 @@
       "id": "qo-142",
       "title": "Easy Desert Diary",
       "text": "Easy Desert Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        3304,
+        3116,
+        0
+      ]
     },
     {
       "id": "qo-143",
@@ -2038,8 +2053,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3491,
-        3230,
+        3490,
+        9632,
         0
       ]
     },
@@ -2079,8 +2094,8 @@
       "text": "Easy Falador Diary",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2947,
+        3382,
         0
       ]
     },
@@ -2269,8 +2284,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3222,
-        3218,
+        3213,
+        3221,
         0
       ]
     },
@@ -2977,8 +2992,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2629,
-        3693,
+        2511,
+        3865,
         0
       ]
     },
@@ -2992,8 +3007,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2629,
-        3693,
+        2506,
+        3849,
         0
       ]
     },
@@ -3192,8 +3207,8 @@
       "text": "Medium Falador Diary",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2932,
+        3213,
         0
       ]
     },
@@ -3203,8 +3218,8 @@
       "text": "Medium Varrock Diary",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3195,
+        3404,
         0
       ]
     },
@@ -3552,8 +3567,8 @@
       "text": "Knight Waves Training Grounds (miniquest)\nLocation: Camelot",
       "manual": true,
       "world": [
-        2758,
-        3507,
+        2747,
+        3493,
         0
       ]
     },
@@ -3618,7 +3633,12 @@
         "skill": "WOODCUTTING",
         "level": 71,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3192,
+        3223,
+        0
+      ]
     },
     {
       "id": "qo-264",
@@ -3741,8 +3761,8 @@
       "text": "Medium Wilderness Diary",
       "manual": true,
       "world": [
-        3087,
-        3522,
+        3227,
+        3666,
         0
       ]
     },
@@ -3763,8 +3783,8 @@
       "text": "Medium Kourend & Kebos Diary",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        2658,
+        3230,
         0
       ]
     },
@@ -3786,8 +3806,8 @@
       "text": "Medium Morytania Diary",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ]
     },
@@ -4267,7 +4287,12 @@
       "id": "qo-317",
       "title": "Medium Fremennik Diary",
       "text": "Medium Fremennik Diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        2749,
+        3732,
+        0
+      ]
     },
     {
       "id": "qo-318",
@@ -4489,7 +4514,12 @@
         "skill": "WOODCUTTING",
         "level": 74,
         "cmp": ">="
-      }
+      },
+      "world": [
+        3192,
+        3223,
+        0
+      ]
     },
     {
       "id": "qo-336",
@@ -4532,7 +4562,12 @@
         "op": "quest",
         "quest": "THE_BLOOD_MOON_RISES",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3696,
+        3184,
+        0
+      ]
     },
     {
       "id": "qo-340",

@@ -194,13 +194,26 @@
       "id": "e11-014",
       "title": "Buy an Isafdor Painting from Ser …",
       "text": "Buy an Isafdor Painting from Ser Renitee",
-      "manual": true
+      "manual": true,
+      "world": [
+        2982,
+        3341,
+        1
+      ],
+      "npcs": [
+        3100
+      ]
     },
     {
       "id": "e11-015",
       "title": "Complete In Aid of Myreque (All …",
       "text": "Complete In Aid of Myreque (All the items should be in the bank except for the mackeral/axes &/or snails & maybe the bars if you used them all)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3015,
+        3357,
+        0
+      ]
     },
     {
       "id": "e11-016",
@@ -296,14 +309,14 @@
       "title": "Teleport to POH -> Kharyrll Portal …",
       "text": "Teleport to POH -> Kharyrll Portal [Morytania Hard Diary]",
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3493,
-        "y": 3488,
+        "x": 3440,
+        "y": 3232,
         "z": 0,
         "radius": 8
       }
@@ -320,8 +333,8 @@
       "text": "climb both of the Spike climbs [Morytania Hard Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ]
     },
@@ -343,8 +356,8 @@
       "text": "Use the Garlic on the Restore Potion, then the crushed Silver to make a Guthix Balanace [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3440,
+        3232,
         0
       ]
     },
@@ -603,8 +616,8 @@
       "text": "Cast Monster Examine on a Troll [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1657,
+        3505,
         0
       ]
     },
@@ -620,8 +633,8 @@
       "text": "Mine a Lovakite Ore [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1435,
+        3855,
         0
       ]
     },
@@ -679,8 +692,8 @@
       "text": "Plant a Logavano Seed at the Tithe Farm [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1823,
+        3497,
         0
       ]
     },
@@ -702,8 +715,8 @@
       "text": "Enter the Woodcut Guild [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1614,
+        3499,
         0
       ]
     },
@@ -883,18 +896,24 @@
       "id": "e11-075",
       "title": "Head to Mount Karuulm",
       "text": "Head to Mount Karuulm",
-      "manual": true
+      "world": [
+        1311,
+        3807,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1311,
+        "y": 3807,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e11-076a",
       "title": "Buy Brimstone boots",
       "text": "Buy Brimstone boots",
-      "manual": true,
-      "world": [
-        1520,
-        3589,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-076b",
@@ -902,8 +921,8 @@
       "text": "kill 1 Wyrm [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1657,
+        3505,
         0
       ]
     },
@@ -912,14 +931,14 @@
       "title": "Teleport to Xerics Heart on Xerics …",
       "text": "Teleport to Xerics Heart on Xerics Talisman [Kourend Hard Diary]",
       "world": [
-        1630,
-        3730,
+        1657,
+        3505,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 1630,
-        "y": 3730,
+        "x": 1657,
+        "y": 3505,
         "z": 0,
         "radius": 8
       }
@@ -930,9 +949,12 @@
       "text": "Talk to Tyss to complete Kourend Hard Diary (Lamp on Herblore)",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1714,
+        3883,
         0
+      ],
+      "npcs": [
+        7050
       ]
     },
     {

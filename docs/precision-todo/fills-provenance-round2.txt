@@ -1,0 +1,505 @@
+Grounding provenance - b0aty-hcim e1..e8 (source: oldschool.runescape.wiki {{Map}} templates, fetched via MediaWiki API)
+Format: step_id | wiki page | manual key -> value | exact {{Map}} line quoted
+
+e1-052a  | Robyn                        | key="trade robyn" -> {"world": [1508, 3592, 0], "npc": 11042} | {{Map|name=Robyn|1508,3592|mtype=pin}}
+e1-063b  | Gertrude                     | key="talk to gertude (1) [gertrudes cat]" -> {"world": [3151, 3409, 0], "npc": 7284} | {{Map|name=Gertrude|3151,3409|mtype=square|r=3}}
+e1-119   | Hunter Guild                 | key="head west to the hunter's guild" -> [1559, 3048, 0] | {{Map|name=Hunter Guild|1559,3048|zoom=2}}
+e1-158   | Luthas                       | key="talk to luthas and ask for employment (1)" -> {"world": [2939, 3154, 0], "npc": 3647} | {{Map|name=Luthas|x=2939|y=3154|plane=0|r=5|mtype=square}}
+e1-165a  | Wydin                        | key="trade wydin" -> {"world": [3013, 3207, 0], "npc": 2890} | {{Map|name=Wydin|x=3013|y=3207|plane=0|r=5|mtype=square}}
+e1-198   | Baraek                       | key="talk to baraek (3,1) [shield of arrav]" -> {"world": [3217, 3435, 0], "npc": 2881} | {{Map|3217,3435|r=3|mtype=square|bucket=yes}}
+e1-212a  | Heckel Funch                 | key="trade heckel funch or hudo" -> {"world": [2493, 3488, 1], "npc": 16} | {{Map|plane=1|mtype=pin|2493,3488}}
+e1-226a  | Wydin                        | key="trade wydin" -> {"world": [3013, 3207, 0], "npc": 2890} | {{Map|name=Wydin|x=3013|y=3207|plane=0|r=5|mtype=square}}
+e1-250   | Irena                        | key="start tourist trap" -> {"world": [3303, 3112, 0], "npc": 4640} | {{Map|name=Irena|x=3303|y=3112|plane=0|r=4|mtype=square}}
+e1-316   | Hudo                         | key="trade hudo north" -> {"world": [2449, 3510, 1], "npc": 12} | {{Map|name=Hudo|x=2449|y=3510|plane=1|r=4|mtype=square}}
+e2-060   | Guildmaster                  | key="start dragon slayer (2,1) [varock medium diary]" -> {"world": [3191, 3360, 0], "npc": 814} | {{Map|name=Guildmaster|x=3191|y=3360|plane=0|r=4|mtype=square}}
+e2-080   | Constantinius                | key="pickpocket constantinius in the main house for chest key" -> [1449, 2932, 0] | {{Map|name=Constantinius|1449,2932|r=2|mtype=square}}
+e2-170   | Curator Haig Halen           | key="talk to haig halen to continue digsite (1)" -> {"world": [3260, 3451, 0], "npc": 5214} | {{Map|name=Curator Haig Halen|3260,3451|mtype=square|r=3}}
+e2-262a  | Historian Minas              | key="talk to historian minas to obtain 103 kudos" -> {"world": [3265, 3454, 1], "npc": 1902} | {{Map|name=Historian Minas|x=3265|y=3454|plane=1|r=3|mtype=square}}
+e2-289   | Mazchna                      | key="get a slayer task from mazchna [morytania easy diary]" -> {"world": [3511, 3509, 0], "npc": 13620} | {{Map|name=Mazchna|x=3511|y=3509|r=3|mtype=square}}
+e2-337   | Frizzy Skernip               | key="talk to frizzy skernip (1) [fairy tale part i] (1/5 farmers)" -> {"world": [3057, 3259, 0], "npc": 2684} | {{Map|name=Frizzy Skernip|x=3057|y=3259|r=1|mtype=square}}
+e3-124   | Hickton's Archery Emporium.  | key="buy 2,100 iron arrowtips from hickton's archery emporium (optinally fletch while running and doing the next steps)" -> [2823, 3443, 0] | {{Map|2823,3443|mtype=square|r=2.5|bucket=yes}}
+e3-130   | Brundt the Chieftain         | key="start fremennik trials quest" -> [2659, 3670, 0] | {{Map|name=Brundt the Chieftain|2659,3670|rectX=8|rectY=12|mtype=rectangle}}
+e3-203   | Kaylee                       | key="talk to kaylee (2) [recipe for disaster]" -> {"world": [2958, 3371, 0], "npc": 1316} | {{Map|name=Kaylee|x=2958|y=3371|r=4|mtype=square}}
+e3-296   | Ak-Haranu                    | key="talk to ak-haranu (1) [ghost's ahoy]" -> {"world": [3690, 3497, 0], "npc": 2989} | {{Map|name=Ak-Haranu|x=3690|y=3497|r=1|mtype=square}}
+e3-298   | Ak-Haranu                    | key="talk to ak-haranu for translation manual [ghost's ahoy]" -> {"world": [3690, 3497, 0], "npc": 2989} | {{Map|name=Ak-Haranu|x=3690|y=3497|r=1|mtype=square}}
+e3-331   | Vannaka                      | key="get a task from vannaka [varrock medium diary]" -> {"world": [3147, 9914, 0], "npc": 403} | {{Map|name=Vannaka|x=3147|y=9914|mapID=12|r=3|mtype=square}}
+e4-023   | Ned                          | key="talk to ned (1) [dragon slayer]" -> {"world": [3099, 3259, 0], "npc": 4280} | {{Map|name=Ned|x=3099|y=3259|plane=0|r=3|mtype=square}}
+e4-233   | Lord Kandur Hosidius         | key="talk to lord kandur (2,1) [depths of despair]" -> [1782, 3572, 0] | {{Map|name=Lord Kandur Hosidius|x=1782|y=3572|r=3|mtype=square}}
+e4-253   | Ignisia                      | key="talk to ignisia [forsaken tower]" -> {"world": [1634, 3949, 0], "npc": 7374} | {{Map|name=Ignisia|x=1634|y=3949|plane=0|r=3|mtype=square}}
+e4-403   | Eadgar                       | key="free eadger at the end" -> {"world": [2890, 3677, 0], "npc": 4118} | {{Map|mtype=pin|2890,3677}}
+e4-445   | Rantz                        | key="talk to rantz again (1,2,3) [recipe for disaster]" -> [2630, 2981, 0] | {{Map|name=Rantz|x=2630|y=2981|r=4|mtype=square}}
+e4-452   | Rantz                        | key="talk to rantz (2) [recipe for disaster]" -> [2630, 2981, 0] | {{Map|name=Rantz|x=2630|y=2981|r=4|mtype=square}}
+e4-454   | Rantz                        | key="talk to rantz (2) [recipe for disaster]" -> [2630, 2981, 0] | {{Map|name=Rantz|x=2630|y=2981|r=4|mtype=square}}
+e4-528   | Safta Doc                    | key="talk to safta doc & buy a red topaz machete [karamja medium diary]" -> {"world": [2791, 3102, 0], "npc": 6422} | {{Map|name=Safta Doc|x=2791|y=3102|plane=0|r=4|mtype=square}}
+e4-556   | My Arm                       | key="start my arms big adventure" -> [2830, 3697, 0] | {{Map|name=My Arm|x=2830|y=3697|r=3|mtype=square}}
+e4-672   | Yrsa                         | key="check shoes at yrsa [fremmenik easy diary]" -> {"world": [2624, 3674, 0], "npc": 3933} | {{Map|name=Yrsa|x=2624|y=3674|r=3|mtype=square}}
+e4-719   | King Narnode Shareen         | key="start monkey madness" -> {"world": [2466, 3496, 0], "npc": 8019} | {{Map|name=King Narnode Shareen|x=2466|y=3496|plane=0|r=4|mtype=square}}
+e5-004   | Brimstail                    | key="start eyes of glouphrie" -> [2409, 9817, 0] | {{Map|name=Brimstail|x=2409|y=9817|r=2|mapID=19|mtype=square}}
+e5-116   | Oronwen                      | key="trade oronwen 2x red, yellow, blue, green dye [mournings end pt 1]" -> {"world": [2326, 3178, 0], "npc": 1478} | {{Map|name=Oronwen|x=2326|y=3178|r=5|mtype=square}}
+e5-149   | Arianwyn                     | key="start mournings end pt 2" -> [2353, 3172, 0] | {{Map|name=Arianwyn|x=2353|y=3172|r=4|mtype=square}}
+e5-185   | Malak                        | key="talk to malak in the canifis pub (5,1,3) [desert treasure]" -> {"world": [3496, 3475, 0], "npc": 686} | {{Map|name=Malak|x=3496|y=3475|plane=0|r=4|mtype=square}}
+e5-195   | Wise Old Man                 | key="talk to wise old man (3,2,5) [recipe for disaster]" -> [3089, 3254, 0] | {{Map|name=Wise Old Man|x=3089|y=3254|mtype=pin}}
+e5-196   | Ruantun                      | key="talk to ruantun for a silver pot [desert treasure]" -> {"world": [3113, 9691, 0], "npc": 3461} | {{Map|3113,9691|mapID=12|r=5|mtype=square}}
+e5-210   | Malak                        | key="talk to malak [desert treasure]" -> {"world": [3496, 3475, 0], "npc": 686} | {{Map|name=Malak|x=3496|y=3475|plane=0|r=4|mtype=square}}
+e5-220   | Malak                        | key="talk to malak [desert treasure]" -> {"world": [3496, 3475, 0], "npc": 686} | {{Map|name=Malak|x=3496|y=3475|plane=0|r=4|mtype=square}}
+e5-223   | Veliaf Hurtz                 | key="talk to veliaf hurtz (1) [in aid of myreque]" -> [3494, 3464, 0] | {{Map|name=Veliaf Hurtz|x=3494|y=3464|plane=0|r=2|mtype=square}}
+Provenance for b0aty-hcim precision fills (e9-e15)
+Source wiki: oldschool.runescape.wiki (raw wikitext / API prop=revisions)
+Coords are OSRS [x,y,plane]. Point Maps used as-is; polygon Maps -> centroid; LocLine pins -> an exact listed pin.
+
+e9-009	=> Sunlight antelope
+    key: head east towards the sunlight antelopes
+    value: {"world": [1746, 3011, 0], "npc": 13133}
+    wiki: {{LocLine|Name=Sunlight antelope|location=[[Avium Savannah]] ... |x:1735,y:3008|x:1738,y:3003|x:1744,y:3006|x:1746,y:3011|...}} ; infobox id=13133
+
+e9-010	=> Sunlight antelope
+    key: catch 3x sunlight antelopes (keep the fur)
+    value: {"world": [1746, 3011, 0], "npc": 13133}
+    wiki: {{LocLine ... Avium Savannah ... x:1746,y:3011 ...}} ; infobox id=13133
+
+e9-013a	=> Pellem
+    key: talk to pellem
+    value: {"world": [1565, 3035, 0], "npc": 13130}
+    wiki: |map = {{Map|mtype=polygon|1562,3035|1562,3034|1563,3033|1567,3033|1568,3034|1568,3035|1567,3036|1563,3036}} ; |id = 13130 ; |location=[[Hunter Guild]] (centroid 1565,3035)
+
+e9-019b	=> Moonlight moth
+    key: catch moonlight moths to the south
+    value: {"world": [1562, 9441, 0], "npc": 12771}
+    wiki: {{LocLine|Name=Moonlight moth|location=[[Hunter Guild]]|x:1554,y:9433|x:1557,y:9427|x:1562,y:9441|x:1565,y:9432|...}} ; |id = 12771,12772,12773
+
+e10-018	=> Stonemason
+    key: head west & buy 11x gold leaves, 10x marble blocks, 15x limestone bricks, 1x magic stone
+    value: [2849, 10185, 0]
+    wiki: |map = {{Map|name=Stonemason|x=2849|y=10185|mapID=10|r=4|mtype=square}} ; |location=[[Keldagrim]]
+
+e10-024	=> Tyss
+    key: talk to tyss for arceuss signet
+    value: {"world": [1714, 3883, 0], "npc": 7050}
+    wiki: |map = {{Map|name=Tyss|x=1714|y=3883|plane=0|r=4|mtype=square}} ; |id = 7050 (Dark Altar, Arceuus)
+
+e10-086	=> Mastering Mixology
+    key: head to mastering mixology and dump a good portion of your herbs here
+    value: [1389, 2918, 0]
+    wiki: {{Map|name=Mastering Mixology|x=1389|y=2918|zoom=3}} ; |location=[[Aldarin]]
+
+e10-117b	=> Heroes' Guild
+    key: head to the heroes guild
+    value: [2893, 3510, 0]
+    wiki: {{Map|name=Heroes' Guild|2893,3510}} ; |location=[[Burthorpe]] (surface entrance)
+
+e10-118	=> Fountain of Heroes
+    key: charge the glory amulet in the fountain
+    value: [2918, 9894, 0]
+    wiki: {{Map|zoom=3|mapID=20|plane=0|x=2918|y=9894|r=2|mtype=square}} ; |location=[[Heroes' Guild]] basement
+
+e10-135	=> Gem rocks
+    key: mine gem rocks for opals: expeditious bracelets, jades: amulet of chemistry, topaz: slaughter bracelets
+    value: [2835, 9398, 0]
+    wiki: {{LocLine ... |location = [[Shilo Village mine]] (underground)|x:2833,y:9398|x:2835,y:9398|x:2836,y:9398|...}}
+
+e11-014	=> Sir Renitee
+    key: buy an isafdor painting from ser renitee
+    value: {"world": [2982, 3341, 1], "npc": 3100}
+    wiki: |map = {{Map|name=Sir Renitee|x=2982|y=3341|r=3|plane=1|mtype=square}} ; |id = 3100 ; |location=[[White Knights' Castle]] in [[Falador]]
+
+e11-052	=> Lovakite rocks
+    key: mine a lovakite ore [kourend hard diary]
+    value: [1435, 3855, 0]
+    wiki: {{LocLine ... [[Lovakite Mine]] ... |x:1434,y:3856|x:1435,y:3855|x:1437,y:3853|x:1423,y:3852|x:1438,y:3852|...}}
+
+e11-058	=> Tithe Farm
+    key: plant a logavano seed at the tithe farm [kourend hard diary]
+    value: [1823, 3497, 0]
+    wiki: {{Map|name=Tithe Farm|mtype=polygon|1796,3505|1796,3498|1807,3498|...|1807,3505}} ; |location=[[Hosidius]] (polygon centroid 1823,3497)
+
+e11-060	=> Woodcutting Guild
+    key: enter the woodcut guild [kourend hard diary]
+    value: [1614, 3499, 0]
+    wiki: {{Map|name=Woodcutting Guild|mtype=polygon|1565,3499|1563,3497|1563,3478|...}} ; |location=[[Hosidius]] (polygon centroid 1614,3499)
+
+e11-075	=> Mount Karuulm
+    key: head to mount karuulm
+    value: [1311, 3807, 0]
+    wiki: {{Map|name=Mount Karuulm|x=1311|y=3807|height=350|width=300|zoom=2}} ; |location=[[Kebos Lowlands]]
+
+e11-078	=> Tyss
+    key: talk to tyss to complete kourend hard diary (lamp on herblore)
+    value: {"world": [1714, 3883, 0], "npc": 7050}
+    wiki: |map = {{Map|name=Tyss|x=1714|y=3883|plane=0|r=4|mtype=square}} ; |id = 7050 (Dark Altar, Arceuus)
+Provenance for manual_fills.json (osiris-ironman) - every coordinate grounded in OSRS Wiki page data
+(oldschool.runescape.wiki, action=raw, redirects followed, User-Agent set; fetched 2026-07-16).
+Format: step id -> page -> quoted coordinate line + basis. Key in manual_fills.json = exact step first-line text, lowercased.
+
+FILLED (21):
+
+eg-007 -> https://oldschool.runescape.wiki/w/Cook_(Lumbridge)  (+ Lumbridge_Castle)
+  step: Pick up every item spawn in the castle, including the ones in cellar
+  fill: [3209, 3214, 0]
+  quote: Cook (Lumbridge) |map = {{Map|x:3209,y:3214|r=3|mtype=square}} ; "found in the Lumbridge Castle kitchen on the ground floor"
+         Lumbridge_Castle: "A trapdoor in the kitchen leads down to a cellar containing bucket and knife spawns"
+  basis: castle-interior (kitchen) anchor tile on the main floor, adjacent to the cellar trapdoor that holds the cellar item spawns.
+
+eg-008 -> https://oldschool.runescape.wiki/w/Cook_(Lumbridge)  (+ Lumbridge_Castle)
+  step: Fill a jug with water
+  fill: [3209, 3214, 0]
+  quote: Cook (Lumbridge) |map = {{Map|x:3209,y:3214|r=3|mtype=square}} (kitchen tile)
+         Lumbridge_Castle: "The ground floor is home to various water sources ... Cooking range ... two quests: Cook's Assistant and Recipe for Disaster"
+  basis: castle kitchen water source; grounded to the kitchen tile (Cook's location). No page exposes a discrete sink coordinate.
+
+eg-011 -> https://oldschool.runescape.wiki/w/Lumbridge_Castle_bank  (+ Lumbridge_Castle floor-2 note)
+  step: Light the 4 logs until 15 Firemaking
+  fill: [3209, 3219, 2]
+  quote: |map = {{Map|name=Lumbridge Castle bank|x=3209|y=3219|mtype=square|r=5|plane=2|zoom=3|type=maplink}}
+         Lumbridge_Castle: "The 2nd floor has a bank ... There are also 4 log spawns, great for beginners training Firemaking and Fletching."
+  basis: the 4 log spawns AND the bank are on the same plane-2 floor.
+
+eg-012 -> https://oldschool.runescape.wiki/w/Lumbridge_Castle_bank  (+ Lumbridge_Castle floor-2 note)
+  step: After that fletch the same logs into 1000 arrow shafts
+  fill: [3209, 3219, 2]
+  quote: same plane-2 map {{Map|name=Lumbridge Castle bank|x=3209|y=3219|plane=2}} ; "4 log spawns ... Firemaking and Fletching" (fletch the same logs, same floor)
+
+eg-013 -> https://oldschool.runescape.wiki/w/Lumbridge_Castle_bank
+  step: Bank at least 4 ashes
+  fill: [3209, 3219, 2]
+  quote: |map = {{Map|name=Lumbridge Castle bank|x=3209|y=3219|mtype=square|r=5|plane=2}}
+
+eg-014 -> https://oldschool.runescape.wiki/w/Lumbridge_Castle_bank
+  step: Bank 7 logs for later
+  fill: [3209, 3219, 2]
+  quote: |map = {{Map|name=Lumbridge Castle bank|x=3209|y=3219|mtype=square|r=5|plane=2}}
+
+eg-117a -> https://oldschool.runescape.wiki/w/Fountain
+  step: Fill 1 inventory of buckets with water (Varrock)
+  fill: [3238, 3434, 0]
+  quote: |map8 = {{Map|3238,3434|3190,3472|3190,3468|mapID=-1|group=8|mtype=pin}} (version8 |location8 = [[Varrock]])
+  basis: first Varrock fountain coord = Varrock Square central fountain (the two 3190,347x are the castle-courtyard fountains).
+
+eg-184 -> https://oldschool.runescape.wiki/w/H.A.M._Hideout
+  step: Pickpocket HAM members for a rusty sword (interior)
+  fill: [3168, 9632, 0]
+  quote: |map = {{Map|mtype=focusarea|3137,9663|3199,9663|3199,9601|3137,9601|3137,9600|mapID=-1|zoom=2}}
+  basis: centroid of the hideout interior (underground) focusarea box -> ((3137+3199)/2, (9601+9663)/2). Pickpocketing happens inside, not at the surface trapdoor.
+
+eg-194 -> https://oldschool.runescape.wiki/w/Map:The_Restless_Ghost  (Map data page)
+  step: Get the Ghost's skull in the basement (Wizards' Tower)
+  fill: [3105, 3161, 0]
+  quote: x:3105,y:3161,desc:Wizard Tower's basement
+  basis: wiki's own quest map pin for the basement altar where the skull is taken (Ghost's skull page: "found in the Wizards' Tower basement by searching the altar").
+
+frp-020 -> https://oldschool.runescape.wiki/w/Big_frog
+  step: Get big frog leg (you need to go in to the caves)
+  fill: [3244, 9570, 0]
+  quote: {{LocLine |name = Big frog |location = [[Lumbridge Swamp Caves]] |mapID = 12 |plane = 0 |x:3244,y:9570|x:3248,y:9567|x:3250,y:9573|...}}
+  basis: step says "go in to the caves" -> Lumbridge Swamp Caves big-frog LocLine (first coord). Big frog leg drops here during Rag and Bone Man I.
+
+frp-024 -> https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains
+  step: Dig up the skull for fairytale part 1 while you're in the area (Draynor Manor)
+  fill: [3106, 3384, 0]
+  quote: {{Map|3106,3384|width=220|height=220|mtype=rectangle|rectX=1|rectY=4|zoom=2|caption=Draynor Skull's location.}}
+  basis: Coarse-table extra; wiki map for the Draynor skull dig spot used in Fairytale I.
+
+frp-047 -> https://oldschool.runescape.wiki/w/Oracle
+  step: Get the 3rd map piece for dragon slayer (Ice Mountain)
+  fill: [3011, 3501, 0]
+  quote: |map = {{Map|name=Oracle|x=3011|y=3501|plane=0|r=4|mtype=square}} (|location = [[Ice Mountain]])
+  basis: guide context = Ice Mountain; grounded to the Oracle's tile per task.
+
+frp-061a -> https://oldschool.runescape.wiki/w/Miltog
+  step: Use swamp tar on the lamp still next to Miltog (Dorgesh-Kaan)
+  fill: {"world": [2721, 5322, 0], "npc": 2297}
+  quote: |map = {{Map|name=Miltog|x=2721|y=5322|zoom=2|mapID=5|r=4|mtype=square}} ; |id = 2297 ; "There is also a lamp still next to her shop."
+  basis: replaces prior wrong surface tile [3169,3172,0]; matches frp-060 (buy lantern from Miltog).
+
+frp-061b -> https://oldschool.runescape.wiki/w/Miltog
+  step: use your empty lantern on the [lamp still]
+  fill: {"world": [2721, 5322, 0], "npc": 2297}
+  quote: |map = {{Map|name=Miltog|x=2721|y=5322|mapID=5}} ; |id = 2297 ; lamp still next to Miltog's shop.
+
+sg-018a -> https://oldschool.runescape.wiki/w/Ash_pile
+  step: Mine Volcanic ash for ultracompost (Fossil Island)
+  fill: [3804, 3826, 0]
+  quote: {{ObjectLocLine |name = Rocks |location = [[Fossil Island Volcano]] |x:3804,y:3826|x:3785,y:3823|x:3794,y:3818|...}}
+  basis: first ash-pile rock coord in the Fossil Island Volcano.
+
+sg-023a -> https://oldschool.runescape.wiki/w/Log_storage
+  step: Start at Castle wars
+  fill: [2458, 3110, 0]
+  quote: {{ObjectLocLine |name = Log storage |location = East of [[Castle Wars]] |mapID = 0 |plane = 0 |x:2458,y:3110}}
+  basis: the Castle Wars balloon station (log storage) where the woodcutting/deposit loop starts.
+
+sg-023c -> https://oldschool.runescape.wiki/w/Log_storage
+  step: deposit them to the log storage
+  fill: [2458, 3110, 0]
+  quote: {{ObjectLocLine |name = Log storage |location = East of [[Castle Wars]] |x:2458,y:3110}}
+
+sg-039 -> https://oldschool.runescape.wiki/w/Blast_Furnace
+  step: Get 60 smithing, remember to wear goldsmith gauntlets (Keldagrim)
+  fill: [2930, 10197, 0]
+  quote: |map = {{Map|name=Blast Furnace|2930,10197|mapID=10|mtype=rectangle|rectX=5|rectY=4}}
+  basis: Keldagrim Blast Furnace (mapID=10, underground y-offset). goldsmith gauntlets are worn here for 60 smithing.
+
+abg-036 -> https://oldschool.runescape.wiki/w/Gwenith_Hunter_area
+  step: Hunt 15k red chins at the Prif hunter area
+  fill: [2270, 3408, 0]
+  quote: |map = {{Map|name=Gwenith Hunter area|x=2270|y=3408|height=300|width=300|zoom=3}}
+  basis: Gwenith Hunter area (carnivorous/red chinchompas), north-east of Prifddinas. Replaces prior wrong [3263,6083,0].
+
+dr-015 -> https://oldschool.runescape.wiki/w/Void_Knights%27_Outpost
+  step: For Lumby 50 range req, ranging at pest control with bone cbow
+  fill: [2656, 2656, 0]
+  quote: |map = {{Map|name=Void Knights' Outpost|x=2656|y=2656}}
+  basis: Pest Control landers are boarded from the Void Knights' Outpost; confirms existing value.
+
+abg-032 -> https://oldschool.runescape.wiki/w/Void_Knights%27_Outpost
+  step: Get 60 range with bone crossbow at pest control
+  fill: [2656, 2656, 0]
+  quote: |map = {{Map|name=Void Knights' Outpost|x=2656|y=2656}}
+  basis: same Void Knights' Outpost anchor.
+
+SKIPPED (could not ground - no eligible coordinate in wiki page data):
+
+eg-021 (Kill a rat / safespot with wind strike, "West of Lumbridge"):
+  Giant_rat page has NO "West of Lumbridge" spawn LocLine. It only notes "Lighter grey giant rats can be found ... behind Lumbridge Castle" (prose, no coords); its coordinate LocLines are West Ruins, Lovakengj, Wilderness Bandit Camp, Gnome maze, West of Kourend, N of Land's End, N of Hosidius, and Lumbridge Swamp (south, not west). No groundable west-of-Lumbridge tile -> skip per task instruction.
+
+eg-099b (get the 2 keys in Varrock):
+  Ambiguous. These are Demon Slayer keys obtained from NPCs/objects (Sir Prysin, a wizard, a drain), not a discrete key item-spawn tile with wiki coordinates. Task said skip if ambiguous -> skip.
+
+frp-030 (Flinch Tanglefoot in this spot, Zanaris):
+  Tanglefoot page has NO {{Map}}/LocLine coordinate. Fairytale_I_-_Growing_Pains describes the fight in prose only ("travel south-west, past the agility shortcuts, to the Cosmic Altar ... into the tunnel ... stand one tile east of the southern end of the corridor") with no tile coordinate for the flinch spot -> ungroundable, skip.
+Osiris-ironman guide coordinate grounding — provenance
+All coordinates sourced from OSRS Wiki raw pages (curl "...?action=raw", -L follow redirects, custom User-Agent). NO memory guesses.
+Format: <step id> "<first-line text lowercased = manual key>" -> wiki page -> quoted raw {{Map}}/{{Infobox}} line -> chosen [x,y,plane](+npc)
+
+=== FILLED (8) ===
+
+dr-001  "do all of the rfd subquests"
+  Page: Recipe_for_Disaster  Infobox Quest: |start = Talk to the [[Cook (Lumbridge)|Cook]] in the kitchen of [[Lumbridge Castle]].
+  Page: Cook_(Lumbridge)     |map = {{Map|x:3209,y:3214|r=3|mtype=square}}   |id = 4626
+  -> {"world":[3209,3214,0],"npc":4626}   (RFD start NPC = the Cook, Lumbridge Castle kitchen)
+
+dr-020  "do desert treasure"
+  Page: Desert_Treasure_I    Infobox Quest: |start = Talk to [[Asgarnia Smith]] at the [[Bedabin Camp]].
+  Page: Asgarnia_Smith       |map = {{Map|name=Asgarnia Smith|x=3178|y=3043|plane=0|r=3|mtype=square}}   |id = 12162,12291,12292
+  -> {"world":[3178,3043,0],"npc":12162}   (DT1 start NPC = Asgarnia Smith, Bedabin Camp)
+
+abg-053 "complete desert treasure ii quest"
+  Page: Desert_Treasure_II_-_The_Fallen_Empire  Infobox Quest: |start = Investigate the [[Ancient Vault]] north-east of [[Nardah]].
+  Page: Ancient_Vault        |map = {{Map|name=Ancient Vault|x=3508|y=2971|zoom=2}}   (plane unspecified -> 0)
+  -> [3508,2971,0]   (DT2 start location = Ancient Vault, NE of Nardah)
+
+abg-054 "farm dt2 bosses: vardorvis first for ultor ring + soulreaper axe"
+  Page: Vardorvis           |location = [[The Stranglewood]] - Ritual Site  (NB: Vardorvis page has NO {{Map}} template)
+  Page: Vardorvis (body): "The site can be accessed by climbing over [[rocks (Vardorvis)|rocks]] leading to it."
+  Page: Rocks_(Vardorvis)    |map = {{Map|x:1118,y:3428|mtype = pin}}   |location = [[The Stranglewood]]
+  -> [1118,3428,0]   (Vardorvis fight entrance = the rocks leading into the Stranglewood Ritual Site)
+
+abg-030 "do mahogany homes with teak planks for 70 construction"
+  Page: Mahogany_Homes       Infobox Minigame: |item1 = {{Map|2989,3363|mtype=pin}}  (Falador contractor pin = Amy)
+  Page: Amy                  |map = {{Map|mtype=polygon|2988,3368|2988,3363|2995,3363|2995,3366|2992,3366|2992,3368...}}   |id = 6439,7417   |location = [[Falador]]
+  -> {"world":[2989,3363,0],"npc":6439}   (Mahogany Homes start NPC = Amy in Falador)
+
+abg-003 "if you ever need something afk to do, just go to ammonite crabs with either b"
+  Page: Ammonite_Crab (resolved via API opensearch; "Ammonite Crab" singular capital-C is canonical)
+  Infobox NPC/Monster: |location = [[Fossil Island]]  ("found on most of the coastal areas and northern beaches of Fossil Island")
+  Mushroom Forest LocLine first point: |x:3800,y:3752|x:3802,y:3756|x:3806,y:3755|x:3817,y:3760...
+  -> [3800,3752,0]   (representative Fossil Island ammonite crab spawn; npc ids 7799/7800 if needed)
+
+sail-004 "train sailing to 22 (barracuda trials unlock at 30 and are the fastest xp)"
+sail-006 "train sailing to 45 via barracuda trials (~2-3 hours - good to chip away duri"
+  Page: Barracuda_Trials     (activity page — NO single coordinate; three trials at different spots)
+  Page: The_Tempor_Tantrum   Infobox Activity: |map = {{Map|x=3032|y=2850|zoom=0}}   |location = [[The Storm Tempor]]
+     "...a [[Barracuda Trial]] located in the [[Storm Tempor]]... requires level 30 [[Sailing]]" (= the lvl-30 unlock the steps cite)
+  -> [3032,2850,0] for both   (Barracuda Trials location = The Tempor Tantrum, the lvl-30 entry trial)
+
+=== SKIPPED ===
+
+dr-016  "do slayer until 60 attack"                         -> SKIP: no slayer master named in step; none grounded (do not guess a master)
+abg-013 "do slayer until 65 attack and 65 str, if you don't have them already" -> SKIP: same (no master named/grounded)
+abg-025 "keep doing slayer until level 75"                  -> SKIP: same (no master named/grounded)
+sail-011 "deep-sea trawling for marlin -> extended ..."     -> SKIP: Deep_sea_trawling is a roaming-shoal activity; no fixed dock / no {{Map}} coordinate on the wiki
+RFD subquest-specific rows (e.g. "Start Evil Dave subquest", "Skrach") -> NONE EXIST in the guide (only dr-001 "Do all of the RFD subquests", dr-021a "Finish RFD" & dr-021b "buy B gloves", both already carrying world coords). Nothing extra to add.
+sg-042 -> ignored per instruction (already located)
+Provenance for manual_fills.json — coords grounded in OSRS Wiki page data
+(oldschool.runescape.wiki, ?action=raw, redirects followed, User-Agent set; fetched 2026-07-16/17).
+Key in manual_fills.json = each step's EXACT first-line text, lowercased (pulled directly from the guide JSON).
+Format: guide / step id -> wiki page -> fill -> quoted coordinate line + basis.
+
+Rule applied: item "Obtain X" rows grounded to the item's PRIMARY IRONMAN SOURCE spot from the item's
+wiki page prose, coordinate taken from the source NPC/monster/shop/scenery page's {{Map}}/LocLine/
+ObjectLocLine. Purely-tradeable items with no single ironman source spot were SKIPPED (see bottom).
+
+=======================================================================================
+GUIDE: ironman-pvm-rush   (weapons + armour "Obtain X" rows)
+=======================================================================================
+
+wep-001  "Obtain a Zombie axe"
+  page: https://oldschool.runescape.wiki/w/Zombie_axe  (+ Armoured_zombie_(Zemouregal's_Base))
+  fill: [3526, 4570, 0]
+  quote: Zombie_axe — "created by taking a [[broken zombie axe]], obtained as a drop from [[armoured zombie]]s, to an anvil and repairing it with 70 [[Smithing]]"
+         Armoured_zombie_(Zemouregal's_Base) — {{LocLine |location=[[Zemouregal's Base]] ... |x:3526,y:4570|...}} ; {{DropsLine|name=Broken zombie axe|rarity=1/800}}
+  basis: broken zombie axe drops from the (post-Defender-of-Varrock, farmable) armoured zombies in Zemouregal's Base; first LocLine tile. (Instanced base region.)
+
+wep-002  "Obtain a Dragon scimitar"
+  page: https://oldschool.runescape.wiki/w/Dragon_scimitar  (+ Daga)
+  fill: {"world": [2759, 2775, 0], "npc": 5250}
+  quote: Dragon_scimitar — "It may be purchased from [[Daga]] on [[Ape Atoll]] for 100,000 coins."
+         Daga — |map = {{Map|name=Daga|x=2759|y=2775|plane=0|r=3|mtype=square}} ; |id = 5250
+  basis: Daga's Scimitar Smithy on Ape Atoll — the ironman source shop.
+
+wep-004  "Obtain a Bone dagger"
+  page: https://oldschool.runescape.wiki/w/Bone_dagger  (+ Nardok's_Bone_Weapons)
+  fill: [3322, 9608, 0]
+  quote: Bone_dagger — "Bone daggers can be bought from [[Nardok's Bone Weapons]] in the [[Dorgeshuun Mines]] outside [[Dorgesh-Kaan]] for 2,000 coins."
+         Nardok's_Bone_Weapons — |map = {{Map|name=Nardok's Bone Weapons|x=3322|y=9608|zoom=2|mapID=12|r=3|mtype=square}}
+  basis: the Nardok's Bone Weapons shop (Dorgesh-Kaan mine).
+
+wep-005  "Obtain a Crystal halberd"
+  page: https://oldschool.runescape.wiki/w/Crystal_halberd  (+ Singing_bowl)
+  fill: [3239, 6066, 0]
+  quote: Crystal_halberd — "the [[singing bowl]] can be used with 78 Crafting and Smithing and 40 [[crystal shard]]s to turn a crystal weapon seed into a crystal halberd"
+         Singing_bowl — {{ObjectLocLine |location=[[Prifddinas]] Ithell district ... |x:3239,y:6066 ...}}
+  basis: post-Song-of-the-Elves ironman make-spot = the Prifddinas singing bowl (Ithell district). (Seed from the Gauntlet.)
+
+wep-006  "Obtain one of: Sulphur blades, Glacial temotli, or Dual macuahuitl"
+  page: https://oldschool.runescape.wiki/w/Sulphur_blades  (+ Sulphur_Nagua)
+  fill: [1351, 9574, 0]
+  quote: Sulphur_blades — "obtained as a rare drop from [[sulphur nagua]] in [[Neypotzli]]"
+         Sulphur_Nagua — {{LocLine |location=[[Neypotzli]] - Ancient Prison ... |x:1351,y:9574|...}} ; |id = 13033
+  basis: grounded to the first-listed sulphur nagua spawn (Neypotzli Ancient Prison) — source of the Sulphur blades option.
+
+wep-008  "Obtain a Crystal bow"
+  page: https://oldschool.runescape.wiki/w/Crystal_bow  (+ Singing_bowl)
+  fill: [3239, 6066, 0]
+  quote: Crystal_bow — "the [[singing bowl]] can be used with 78 Crafting and Smithing and 40 [[Crystal shard|crystal shards]] to turn a crystal weapon seed into a crystal bow"
+         Singing_bowl — {{ObjectLocLine |location=[[Prifddinas]] Ithell district ... |x:3239,y:6066 ...}}
+  basis: same Prifddinas singing bowl make-spot as the halberd.
+
+wep-009  "Obtain a Warped sceptre"
+  page: https://oldschool.runescape.wiki/w/Warped_sceptre  (+ Warped_Terrorbird)
+  fill: [1487, 4291, 1]
+  quote: Warped_sceptre — "available as a drop from [[Warped Terrorbird|warped terrorbird]]s or [[Warped Tortoise|warped tortoise]]s with level 56 [[Slayer]]"
+         Warped_Terrorbird — {{LocLine |location=[[Poison Waste Dungeon]] - main level |plane=1 ... |1487,4291|...}}
+  basis: first LocLine tile of the warped terrorbird room (Poison Waste Dungeon, plane 1).
+
+gear-001  "Obtain all styles of Void Knight equipment and upgrade to Elite Void as fast as possible"
+  page: https://oldschool.runescape.wiki/w/Void_Knight_equipment  (+ Void_Knights'_Outpost)
+  fill: [2656, 2656, 0]
+  quote: Void_Knight_equipment — "a set of armour which can be purchased from the Void Knights with the [[commendation points]] earned from [[Pest Control]]"
+         Void_Knights'_Outpost — |map = {{Map|name=Void Knights' Outpost|x=2656|y=2656}}
+  basis: the Void Knights' Outpost / Pest Control island (commendation exchange).
+
+gear-002  "Obtain a Berserker ring"
+  page: https://oldschool.runescape.wiki/w/Berserker_ring  (+ Dagannoth_Rex)
+  fill: {"world": [2633, 9661, 0], "npc": 2267}
+  quote: Berserker_ring — "dropped by [[Dagannoth Rex]] in the [[Waterbirth Island Dungeon]]"
+         Dagannoth_Rex — {{LocLine |location=[[Waterbirth Island Dungeon]] ... |x:2633,y:9661}} ; |id = 2267
+  basis: Dagannoth Rex is the only Berserker-ring source; main-lair spawn tile.
+
+gear-004  "Obtain a Dragon defender"
+  page: https://oldschool.runescape.wiki/w/Dragon_defender  (+ Cyclops)
+  fill: [2842, 9992, 0]
+  quote: Dragon_defender — "can only be obtained from the stronger level 106 [[Cyclops|Cyclopes]] found exclusively in the [[Warriors' Guild]]'s basement"
+         Cyclops — {{LocLine |location=[[Warriors' Guild]] (basement) |levels = 106 ... |x:2842,y:9992|...}}
+  basis: first level-106 cyclops tile in the Warriors' Guild basement (dragon-defender drop room).
+
+gear-006  "Obtain a green Ava's device (Ava's accumulator)"
+  page: https://oldschool.runescape.wiki/w/Ava's_accumulator  (+ Ava)
+  fill: {"world": [3094, 3357, 0], "npc": 4407}
+  quote: Ava's_accumulator — "awarded to the player by completing the quest [[Animal Magnetism]] if the player is level 50 [[Ranged]] or above"; "[[Ava]] (found in [[Draynor Manor]]) will upgrade the attractor ..."
+         Ava — |map = {{Map|name=Ava|x=3094|y=3357|plane=0|r=4|mtype=square}} ; |id = 4407
+  basis: Ava in Draynor Manor (Animal Magnetism reward / upgrade to accumulator at 50 Ranged).
+
+=======================================================================================
+GUIDE: optimal-quest-ironman   (Unlocated rows that are real quests)
+=======================================================================================
+
+qo-339  "The Blood Moon Rises"
+  page: https://oldschool.runescape.wiki/w/The_Blood_Moon_Rises
+  fill: [3696, 3184, 0]
+  quote: {{Infobox Quest}} — |start = Talk to [[Sarius Guile]] in the [[Icyene Graveyard]]. ; |startmap = 3696,3184
+  basis: quest infobox start point (Sarius Guile, Icyene Graveyard).
+
+=======================================================================================
+GUIDE: bruhsailer   (Coarse/Unlocated rows naming a concrete spot)
+=======================================================================================
+
+s11-016  "Minigame teleport to Soul Wars. Chop teak logs on a forestry world - world 444 ..."
+  page: https://oldschool.runescape.wiki/w/Teak_tree
+  fill: [2185, 2988, 0]
+  quote: "The [[Isle of Souls]] is a popular location for cutting teak trees in [[Forestry]] worlds with no requirements."
+         {{ObjectLocLine |location=[[Isle of Souls]] |plane=0 |2185,2988|2185,2990|2187,2992 ...}}
+  basis: Isle-of-Souls teak trees (the Soul-Wars-adjacent teak spot the step means); first ObjectLocLine tile.
+
+s22-036  "Catch ~1.5k grey chins for level 55 ranging (at Soul Wars ...)"
+  page: https://oldschool.runescape.wiki/w/Chinchompa_(Hunter)   (redirect from Grey_chinchompa)
+  fill: [2126, 2952, 0]
+  quote: {{LocLine |location = [[Isle of Souls]] ({{fairycode|BJP}}) ... |x:2126,y:2952|...}}
+  basis: the grey-chinchompa hunter ground on the Isle of Souls (= "at Soul Wars"); first LocLine tile.
+
+s22-037  "Read this step in its entirety carefully. This step contains the Hallowed Sepulchre grind ..."
+  page: https://oldschool.runescape.wiki/w/Hallowed_Sepulchre
+  fill: [3654, 3387, 0]
+  quote: |map = {{Map|name=Hallowed Sepulchre|3654,3387|mtype=rectangle|rectX=5|rectY=4}} ; "located beneath [[Darkmeyer]]"
+  basis: Hallowed Sepulchre entrance/lobby (Darkmeyer) from the infobox map.
+
+s23-004b  "kill 125 chompies for the diary"
+  page: https://oldschool.runescape.wiki/w/Chompy_bird
+  fill: [2598, 2966, 0]
+  quote: Locations — [[Feldip Hills]] : {{Map|name=Chompy bird|x=2598|y=2966|r=5|mtype=square}}
+  basis: the Feldip Hills chompy-bird hunting ground (Western Provinces Diary chompy kills).
+
+s32-001  "Go to Guardians of the Rift, participate in the minigame until you have the full Raiments ..."
+  page: https://oldschool.runescape.wiki/w/Guardians_of_the_Rift
+  fill: [3616, 9492, 0]
+  quote: |map = {{Map|name=Temple of the Eye (location)|x=3616|y=9492|plane=0|zoom=2|mapID=-1}}
+  basis: the Temple of the Eye where the GotR minigame runs.
+
+s31-005  "Camp Cave Horrors off-task for a black mask ..."
+  page: https://oldschool.runescape.wiki/w/Cave_horror
+  fill: [3777, 9449, 0]
+  quote: {{LocLine |location = [[Mos Le'Harmless Cave]] |plane = 0 |x:3777,y:9449|...}}
+  basis: cave-horror spawns in the Mos Le'Harmless Cave (first LocLine tile). Refines the row off its wrong Nightmare-Zone centre.
+
+s31-016  "Do Corrupted Gauntlet for 6 armour seeds and one enhanced weapon seed (~70 hours) ..."
+  page: https://oldschool.runescape.wiki/w/The_Gauntlet
+  fill: [3228, 6116, 0]
+  quote: |map = {{Map|x=3228|y=6116|r=4|mapID=29|mtype=square}} ; "After completing the Gauntlet once, players may try the Corrupted Gauntlet"; "The Gauntlet can be found by entering the [[Gauntlet Portal]], found in the north-western part of [[Prifddinas]]."
+  basis: The Gauntlet / Corrupted Gauntlet portal in NW Prifddinas (shared entrance). Refines the row off its GE centre.
+
+s32-006  "Get a fire cape off task (if you don't have one yet)"
+  page: https://oldschool.runescape.wiki/w/TzHaar_Fight_Cave   (redirect from Fight_Caves)
+  fill: [2439, 5172, 0]
+  quote: |map = {{Map|name=TzHaar Fight Cave|x=2439|y=5172|zoom=3|mapID=23}} ; "if they manage to defeat [[TzTok-Jad]], they will be rewarded with the [[fire cape]]"
+  basis: the TzHaar Fight Cave (Mor Ul Rek) — fire cape source. Refines the row off its GE centre.
+
+s22-010b  "claim the easy and medium Karamja diaries (lamps on Slayer)"
+  page: https://oldschool.runescape.wiki/w/Pirate_Jackie_the_Fruit
+  fill: {"world": [2809, 3193, 0], "npc": 7650}
+  quote: |map = {{Map|name=Pirate Jackie the Fruit|x=2809|y=3193|r=3|mtype=square}} ; "She also awards players the [[Karamja gloves]] for completing easy, medium, hard and elite [[Karamja Diary]] tasks." ; |id1 = 7650
+  basis: Pirate Jackie the Fruit (Brimhaven Agility Arena entrance) — the Karamja diary reward NPC.
+
+=======================================================================================
+SKIPPED (could not / should not ground)
+=======================================================================================
+
+ironman-pvm-rush:
+  wep-003 Dragon dagger — tradeable; no single ironman source spot (many monster drops + shop list); left at GE.
+  wep-007 Magic shortbow — tradeable; fletched from magic logs, no single source spot.
+  gear-003 Amulet of glory — tradeable; crafted (dragonstone amulet + Lvl-5 Enchant); no single "obtain" source spot (Fountain of Heroes is a charge point, not a source). Rule = SKIP purely-tradeable no-source items.
+  gear-005 MA2 cape — already had a grounded coord in the guide ([3106,3915,0], Mage Arena); left as-is.
+  gear-007 Mage's book — already had a grounded coord in the guide ([3364,3312,0], Mage Training Arena); left as-is.
+  eq-*, inv-*, bs-*, qd-*, boss-*, raid-* — out of stated scope (equip/bring inventory-prep, meta, or already-located).
+
+optimal-quest-ironman:
+  All "Train <skill> to N" rows — skill-training meta (no location).
+  qo-142 Easy Desert Diary, qo-233 Medium Kandarin Diary, qo-317 Medium Fremennik Diary — achievement diaries, not quests (no {{Infobox Quest}} start); region-wide, no single grounded start tile.
+  qo-228 All Easy Achievement Diaries — meta.
+
+bruhsailer:
+  s22-027 ("... Complete Recipe for Disaster by following the steps below:") — meta.
+  s23-010b ("complete the quest:") — meta/incomplete.
+  s32-013 (mahogany planks / construction) — vague, no single spot.
+  s11-006b (eat food), s14-009 ("Zeah:"), s21-011 (stardust), s22-039/s31-011 (notes) — meta/vague.
+  s13-001, s13-031, s14-010a, s14-019, s14-029, s21-042b, s31-002 — already sitting on their correct named place-centre; not refined.
+  s14-027, s22-013 — travel/quest continuation, vague.
+  s21-039 (skiff upgrade), s22-035 (silver stall ambiguous + sailing), s23-008c (severed leg random drop), s23-010a (RaBM II many kills), s31-003 (POH construction), s31-007 (sand/seaweed multi-spot), s31-008 (broad arrowheads, unspecified slayer shop), s32-007 (dragon pickaxe multi-drop), s32-008 (herblore MOG), s32-009 (elite diary tasks) — vague / multi-spot / no single grounded spot.

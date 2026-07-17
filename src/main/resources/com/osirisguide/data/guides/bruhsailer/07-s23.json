@@ -66,7 +66,12 @@
       "id": "s23-004b",
       "title": "kill 125 chompies for the diary",
       "text": "kill 125 chompies for the diary",
-      "manual": true
+      "manual": true,
+      "world": [
+        2598,
+        2966,
+        0
+      ]
     },
     {
       "id": "s23-004c",

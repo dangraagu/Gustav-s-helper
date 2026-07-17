@@ -7,7 +7,12 @@
       "id": "gear-001",
       "title": "Obtain all styles of Void Knight …",
       "text": "Obtain all styles of Void Knight equipment and upgrade to Elite Void as fast as possible",
-      "manual": true
+      "manual": true,
+      "world": [
+        2656,
+        2656,
+        0
+      ]
     },
     {
       "id": "gear-002",
@@ -29,7 +34,15 @@
           }
         ]
       },
-      "item": 6737
+      "item": 6737,
+      "world": [
+        2633,
+        9661,
+        0
+      ],
+      "npcs": [
+        2267
+      ]
     },
     {
       "id": "gear-003",
@@ -57,7 +70,12 @@
       "id": "gear-004",
       "title": "Obtain a Dragon defender",
       "text": "Obtain a Dragon defender",
-      "manual": true
+      "manual": true,
+      "world": [
+        2842,
+        9992,
+        0
+      ]
     },
     {
       "id": "gear-005",
@@ -65,8 +83,8 @@
       "text": "Obtain the Mage Arena 2 (MA2) cape",
       "manual": true,
       "world": [
-        3106,
-        3915,
+        3090,
+        3956,
         0
       ]
     },
@@ -74,7 +92,15 @@
       "id": "gear-006",
       "title": "Obtain a green Ava's device (Ava's …",
       "text": "Obtain a green Ava's device (Ava's accumulator)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3094,
+        3357,
+        0
+      ],
+      "npcs": [
+        4407
+      ]
     },
     {
       "id": "gear-007",

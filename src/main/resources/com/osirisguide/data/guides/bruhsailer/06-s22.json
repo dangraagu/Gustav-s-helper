@@ -158,9 +158,12 @@
       "text": "claim the easy and medium Karamja diaries (lamps on Slayer)",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2809,
+        3193,
         0
+      ],
+      "npcs": [
+        7650
       ]
     },
     {
@@ -551,8 +554,8 @@
       },
       "item": 21483,
       "world": [
-        3165,
-        3490,
+        3045,
+        2997,
         0
       ]
     },
@@ -560,13 +563,23 @@
       "id": "s22-036",
       "title": "Catch ~1.5k grey chins for level …",
       "text": "Catch ~1.5k grey chins for level 55 ranging (at Soul Wars - you can take an axe to chop the nearby teaks in case you mess up your knife-log). Catch ~1.5k red chins between Kastori and Tal Teklan (TalTeklanChinSpot.png). Follow this guide for catching chins: OSRS Easy 1t Hunter Guide (In-Depth) for the methods (regardless of location and chin type). Train your ranging in the MM1 tunnels (short fuse) to level 62 (55 with grey, 55-62 with red). Make sure to equip a salve amulet (ei).",
-      "manual": true
+      "manual": true,
+      "world": [
+        2126,
+        2952,
+        0
+      ]
     },
     {
       "id": "s22-037",
       "title": "Read this step in its entirety …",
       "text": "Read this step in its entirety carefully. This step contains the Hallowed Sepulchre grind to level 82 agility",
-      "manual": true
+      "manual": true,
+      "world": [
+        3654,
+        3387,
+        0
+      ]
     },
     {
       "id": "s22-038",
@@ -578,8 +591,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3140,
-        9874,
+        3300,
+        3318,
         0
       ]
     },

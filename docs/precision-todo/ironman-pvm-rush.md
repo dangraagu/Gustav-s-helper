@@ -9,18 +9,8 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | id | step | fill |
 |---|---|---|
 | bs-002 | Rush 99 Strength and roughly 90 Attack | |
-| wep-001 | Obtain a Zombie axe | |
-| wep-002 | Obtain a Dragon scimitar | |
-| wep-005 | Obtain a Crystal halberd | |
-| wep-006 | Obtain one of: Sulphur blades, Glacial temotli, or Dual macuahuitl | |
 | wep-007 | Obtain a Magic shortbow | |
-| wep-008 | Obtain a Crystal bow | |
-| wep-009 | Obtain a Warped sceptre | |
-| gear-001 | Obtain all styles of Void Knight equipment and upgrade to Elite Void as fast as possible | |
-| gear-002 | Obtain a Berserker ring | |
 | gear-003 | Obtain an Amulet of glory | |
-| gear-004 | Obtain a Dragon defender | |
-| gear-006 | Obtain a green Ava's device (Ava's accumulator) | |
 | qd-002 | Complete Recipe for Disaster | |
 | qd-003 | Complete the hard Western Provinces Diary | |
 | eq-001 | Equip Void melee helm | |
@@ -52,13 +42,11 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | id | step | currently at | fill |
 |---|---|---|---|
 | wep-003 | Obtain a Dragon dagger (DDS) | centre of grand exchange | |
-| wep-004 | Obtain a Bone dagger | centre of grand exchange | |
-| gear-005 | Obtain the Mage Arena 2 (MA2) cape | centre of mage arena | |
+| gear-001 | Obtain all styles of Void Knight equipment and upgrade to Elite Void as fast as  | centre of pest control | |
+| gear-005 | Obtain the Mage Arena 2 (MA2) cape | centre of mage bank | |
 | gear-007 | Once you reach ToA, obtain a Mage's book from the Mage Training Arena | centre of mage training arena | |
 | inv-001 | Bring Dragon dagger(p++) | centre of grand exchange | |
 | inv-003 | Bring Void ranger helm | centre of grand exchange | |
 | inv-008 | Bring Void mage helm | centre of grand exchange | |
 | boss-001 | Kill the Royal Titans for prayers | centre of royal titans | |
 | boss-002 | Do Wilderness bosses for gear upgrades | centre of edgeville ditch | |
-| raid-001 | Start the Theatre of Blood once the minimum requirements above are met | centre of theatre of blood | |
-| raid-002 | Start Tombs of Amascut once the requirements are met and you own a Bowfa | centre of toa | |

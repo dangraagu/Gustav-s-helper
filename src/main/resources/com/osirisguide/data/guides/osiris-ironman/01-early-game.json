@@ -9,8 +9,8 @@
       "text": "Start as a female character, don't forget to make yourself an ironman before",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3209,
+        3215,
         0
       ]
     },
@@ -115,8 +115,8 @@
       "text": "Pick up every item spawn in the castle, including the ones in cellar, don't f\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
-        3216,
-        3219,
+        3209,
+        3214,
         0
       ]
     },
@@ -126,8 +126,8 @@
       "text": "Fill a jug with water\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
-        3216,
-        3219,
+        3209,
+        3214,
         0
       ]
     },
@@ -185,9 +185,9 @@
         "cmp": ">="
       },
       "world": [
-        3216,
+        3209,
         3219,
-        0
+        2
       ]
     },
     {
@@ -196,9 +196,9 @@
       "text": "After that fletch the same logs into 1000 arrow shafts\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
-        3216,
+        3209,
         3219,
-        0
+        2
       ]
     },
     {
@@ -207,9 +207,9 @@
       "text": "Bank at least 4 ashes\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
-        3216,
+        3209,
         3219,
-        0
+        2
       ]
     },
     {
@@ -218,9 +218,9 @@
       "text": "Bank 7 logs for later\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
-        3216,
+        3209,
         3219,
-        0
+        2
       ]
     },
     {
@@ -2071,8 +2071,8 @@
       "text": "Fill 1 inventory of buckets with water\nLocation: Varrock",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3238,
+        3434,
         0
       ]
     },
@@ -3041,8 +3041,8 @@
       "text": "Finish waterfall\nLocation: Baxtorian Falls",
       "manual": true,
       "world": [
-        2513,
-        3483,
+        2521,
+        3495,
         0
       ]
     },
@@ -3221,8 +3221,8 @@
       "text": "Pickpocket HAM members for a rusty sword\nLocation: HAM Hideout",
       "manual": true,
       "world": [
-        3166,
-        3251,
+        3168,
+        9632,
         0
       ]
     },
@@ -3301,8 +3301,8 @@
       "text": "Start Vampire slayer\nLocation: Draynor Village",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3209,
+        3215,
         0
       ]
     },
@@ -3389,8 +3389,8 @@
       "text": "Get the Ghost's skull in the basement\nLocation: Wizard Tower",
       "manual": true,
       "world": [
-        3109,
-        3160,
+        3105,
+        3161,
         0
       ]
     },
@@ -4256,8 +4256,8 @@
       "text": "Do Black knight's fortress\nLocation: Falador",
       "manual": true,
       "world": [
-        3000,
-        3360,
+        2955,
+        3339,
         0
       ]
     },
@@ -4643,8 +4643,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2809,
-        3085,
+        2763,
+        3044,
         0
       ]
     },
@@ -4804,8 +4804,8 @@
       "text": "Continue Lost tribe\nLocation: Goblin Village",
       "manual": true,
       "world": [
-        2958,
-        3508,
+        3209,
+        3216,
         0
       ]
     },
@@ -4826,8 +4826,8 @@
       "text": "Finish Lost tribe\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3209,
+        3216,
         0
       ]
     },

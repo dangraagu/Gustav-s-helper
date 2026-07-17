@@ -7,7 +7,18 @@
       "id": "s32-001",
       "title": "Go to Guardians of the Rift, …",
       "text": "Go to Guardians of the Rift, participate in the minigame until you have the full Raiments of the Eye and the colossal pouch",
-      "manual": true
+      "world": [
+        3616,
+        9492,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3616,
+        "y": 9492,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "s32-002",
@@ -78,8 +89,8 @@
       "text": "Get a fire cape off task (if you don’t have one yet)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2439,
+        5172,
         0
       ]
     },

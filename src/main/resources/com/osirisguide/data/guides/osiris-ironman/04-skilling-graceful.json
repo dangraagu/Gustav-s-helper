@@ -235,8 +235,8 @@
       "text": "Mine Volcanic ash for ultracompost\nLocation: Fossil Island",
       "manual": true,
       "world": [
-        3730,
-        3807,
+        3804,
+        3826,
         0
       ]
     },
@@ -302,7 +302,12 @@
       "id": "sg-022",
       "title": "Construction method: Make 10+ dueling rings, …",
       "text": "Construction method: Make 10+ dueling rings, equip whichever axe you got from\nLocation: Various",
-      "manual": true
+      "manual": true,
+      "world": [
+        2834,
+        3352,
+        0
+      ]
     },
     {
       "id": "sg-023a",
@@ -310,8 +315,8 @@
       "text": "Start at Castle wars\nLocation: Castle Wars",
       "manual": true,
       "world": [
-        2407,
-        3105,
+        2458,
+        3110,
         0
       ]
     },
@@ -332,8 +337,8 @@
       "text": "deposit them to the log storage\nLocation: Castle Wars",
       "manual": true,
       "world": [
-        2407,
-        3105,
+        2458,
+        3110,
         0
       ]
     },
@@ -559,8 +564,8 @@
         "cmp": ">="
       },
       "world": [
-        2728,
-        3714,
+        2930,
+        10197,
         0
       ]
     },
@@ -700,8 +705,8 @@
       "text": "Do Hand in the sand quest\nLocation: Yanille",
       "manual": true,
       "world": [
-        2577,
-        3090,
+        2551,
+        3099,
         0
       ]
     }

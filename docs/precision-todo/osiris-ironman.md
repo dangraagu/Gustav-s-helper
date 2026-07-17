@@ -13,28 +13,18 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | sg-004 | Put 15 pineapples into each of the compost bins at the allotment patches, rem | |
 | sg-015 | While waiting for the willow trees to grow, do these steps: | |
 | sg-019 | Do a farm run of limpwurts, harralanders and ultracompost | |
-| sg-022 | Construction method: Make 10+ dueling rings, equip whichever axe you got from | |
 | sg-029 | Do these quests while fletching iron darts: Big chompy bird hunt, Rag and bon | |
 | sg-030 | I'll assume you have fletched all of them now, if you haven't, finish the | |
-| dr-001 | Do all of the RFD subquests | |
 | dr-014 | Do all easy and medium diaries | |
 | dr-016 | Do Slayer until 60 attack | |
-| dr-020 | Do Desert Treasure | |
-| abg-003 | If you ever need something AFK to do, just go to ammonite crabs with either b | |
 | abg-012 | Strength amulet is as good as a glory ammy for melee slayer (sometimes even b | |
 | abg-013 | Do slayer until 65 attack and 65 str, if you don't have them already | |
 | abg-015 | Prioritize STR training during slayer, I like to go for 65/80/65 melee stats | |
 | abg-018 | I recommend doing hard clues, they're good gp/h at this point of the account | |
 | abg-019 | Prioritize slayer points on: Superior slayer > Blocklist > Extend your favori | |
 | abg-025 | Keep doing slayer until level 75 | |
-| abg-030 | Do Mahogany homes with teak planks for 70 construction | |
-| abg-031 | Finish 70 woodcutting with any method | |
 | abg-041 | Ending the guide here, you can pretty much do whatever you want from here | |
 | abg-045 | Phase 2 Complete: Post-Bowfa progression begins here | |
-| abg-053 | Complete Desert Treasure II quest | |
-| abg-054 | Farm DT2 bosses: Vardorvis first for Ultor Ring + Soulreaper Axe | |
-| sail-004 | Train Sailing to 22 (Barracuda Trials unlock at 30 and are the fastest XP) | |
-| sail-006 | Train Sailing to 45 via Barracuda Trials (~2-3 hours - good to chip away duri | |
 | sail-009 | Build a teleport focus at Sailing 55 (needs 49 Construction) to unlock Sailin | |
 | sail-010 | Higher milestones: Gwenith Glide Barracuda Trial (72), Crystal Extractor (73) | |
 | sail-011 | Deep-sea trawling for Marlin -> Extended Stamina potions (85 Herblore + a mar | |
@@ -43,14 +33,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 
 | id | step | currently at | fill |
 |---|---|---|---|
-| eg-001 | Start as a female character, don't forget to make yourself an ironman before | centre of grand exchange | |
-| eg-007 | Pick up every item spawn in the castle, including the ones in cellar, don't f | centre of lumbridge castle | |
-| eg-008 | Fill a jug with water | centre of lumbridge castle | |
 | eg-010b | bank everything | centre of lumbridge castle | |
-| eg-011 | Light the 4 logs until 15 Firemaking | centre of lumbridge castle | |
-| eg-012 | After that fletch the same logs into 1000 arrow shafts | centre of lumbridge castle | |
-| eg-013 | Bank at least 4 ashes | centre of lumbridge castle | |
-| eg-014 | Bank 7 logs for later | centre of lumbridge castle | |
 | eg-016 | Thieve men until 5 thieving | centre of lumbridge | |
 | eg-021 | Kill a rat (safespot with wind strike) for its meat | centre of west of lumbridge | |
 | eg-022a | Hug the fence, run west | centre of west of lumbridge | |
@@ -83,7 +66,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | eg-101 | Do Shield of Arrav on any visit to Varrock | centre of varrock | |
 | eg-108 | Do museum for 9 Hunter and Slayer | centre of varrock museum | |
 | eg-110b | talk to him again for the notes | centre of varrock | |
-| eg-117a | Fill 1 inventory of buckets with water | centre of varrock | |
 | eg-120 | Chronicle tele | centre of varrock | |
 | eg-125b | burn it on the fire in the bar | centre of barbarian village | |
 | eg-126 | Safespot barbarians in the bar for 13 magic | centre of barbarian village | |
@@ -96,15 +78,11 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | eg-153 | Minigame tele to fish trawler | centre of khazard | |
 | eg-154 | Cook whatever low level raw food you got from wintertodt for 15 cooking on th | centre of khazard | |
 | eg-171b | get amulet and the urn | centre of baxtorian falls | |
-| eg-172 | Finish waterfall | centre of baxtorian falls | |
 | eg-173 | Minigame tele to fish trawler | centre of khazard | |
 | eg-178 | Home tele, Lumby | centre of lumbridge | |
 | eg-181 | Make 5 soft clay | centre of lumbridge | |
-| eg-184 | Pickpocket HAM members for a rusty sword | centre of ham hideout | |
-| eg-189a | Start Vampire slayer | centre of draynor | |
 | eg-189b | get 3 garlic upstairs from the cupboard | centre of draynor | |
 | eg-190b | get as many as you can be bothered for now | centre of draynor | |
-| eg-194 | Get the Ghost's skull in the basement | centre of wizard tower | |
 | eg-196 | Chronicle tele | centre of varrock | |
 | eg-200a | Return to Varrock | centre of varrock | |
 | eg-207 | Clan wars minigame tele, recharge energy, go to castle wars | centre of castle wars | |
@@ -116,7 +94,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | eg-231 | Use mind bomb and camelot tele | centre of camelot | |
 | eg-232b | talk to Gawain and Lancelot | centre of camelot | |
 | eg-238a | Kill Mordred | centre of keep le faye | |
-| eg-246 | Do Black knight's fortress | centre of falador | |
 | eg-252 | Minigame tele to clan wars, recharge energy, go to castle wars | centre of castle wars | |
 | eg-253 | Hop worlds for super antipoison(1), decant them until you have like 6 full pots | centre of castle wars | |
 | eg-255 | HOME TELE, Lumby | centre of lumbridge | |
@@ -128,9 +105,7 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | eg-270 | Trade cat for 200 death runes | centre of ardougne | |
 | eg-272 | Cloak tele back to Ardy | centre of ardougne | |
 | eg-281 | Falador teleport | centre of falador | |
-| eg-283 | Continue Lost tribe | centre of goblin village | |
 | eg-284 | Home tele, Lumby | centre of lumbridge | |
-| eg-285 | Finish Lost tribe | centre of lumbridge | |
 | tfm-003b | make a sickle and unstrung holy symbol, keep 3 bars | centre of al kharid | |
 | tfm-007 | IF you're planning on 3-tick fishing then home tele to lumby, pick up 15+ | centre of lumbridge | |
 | tfm-010 | Cut uncut gems until level 32 crafting | centre of shilo village | |
@@ -143,12 +118,9 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | tfm-019 | Do the rogue's den minigame for full rogue outfit | centre of rogues den | |
 | tfm-020a | Equip the set | centre of pollnivneach | |
 | tfm-022 | If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the | centre of al kharid | |
-| tfm-031 | Complete Varrock easy diary for the armour, makes next step a bit faster | centre of varrock | |
 | frp-011 | Use Chronicle tele | centre of varrock | |
 | frp-014 | Camelot tele | centre of camelot | |
 | frp-017 | Lumby | centre of lumbridge | |
-| frp-020 | Get big frog leg (you need to go in to the caves), giant rat bone (both for r | centre of lumbridge swamp | |
-| frp-024 | Dig up the skull for fairytale part 1 while you're in the area to save some t | centre of draynor manor | |
 | frp-027b | make 2 staffs | centre of entrana | |
 | frp-029 | Start Fairytale part 1 | centre of draynor | |
 | frp-030 | Flinch Tanglefoot in this spot | centre of zanaris | |
@@ -157,17 +129,12 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | frp-041 | Tele to POH and do Melzar's maze (Dragon slayer quest) | centre of rimmington | |
 | frp-043 | Buy and repair the ship (dragon slayer) | centre of port sarim | |
 | frp-044 | Tele to Fally | centre of falador | |
-| frp-047 | Get the 3rd map piece for dragon slayer | centre of ice mountain | |
 | frp-048 | Tele to Lumby | centre of lumbridge | |
 | frp-051 | Kill Elvarg, you can do as many trips as you want | centre of crandor | |
 | frp-052a | Finish dragon slayer | centre of edgeville | |
 | frp-053a | Wear gloves | centre of edgeville | |
-| frp-054 | Make the stew for Evil Dave while you're at Edgeville | centre of edgeville | |
 | frp-055 | Tele to Lumby | centre of lumbridge | |
 | frp-056a | Fill a bowl with water, put nettles in it | centre of lumbridge | |
-| frp-057 | Finish Evil Dave subquest | centre of lumbridge | |
-| frp-061a | Use swamp tar on the lamp still next to Miltog | centre of dorgesh-kaan | |
-| frp-061b | use your empty lantern on the | centre of dorgesh-kaan | |
 | frp-066 | Try Calcified Rocks for Mining XP plus bankable Prayer shards (41 Mining, Var | centre of civitas illa fortis | |
 | frp-067 | Kill tree spirits with fire strike for a mithril axe AND either another mith | centre of enchanted valley | |
 | frp-073 | Upgrade the iban staff | centre of underground pass | |
@@ -179,7 +146,6 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | frp-087 | Do Monkey madness, focus the reward on attack and defense | centre of ape atoll | |
 | frp-090 | Do Shades of morton quest | centre of mort'ton | |
 | frp-091 | Get 25 herblore if you don't have yet | centre of grand exchange | |
-| frp-093 | Do Fremennik trials | centre of rellekka | |
 | frp-096 | Put at least 750k gp to kingdom, set it on 10 maples and 5 herbs | centre of miscellania | |
 | frp-098 | Clean finds at the museum until you've found all 5 of the items you can get f | centre of varrock museum | |
 | frp-100 | Set up your first bird houses | centre of fossil island | |
@@ -194,11 +160,8 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | sg-009 | Minigame tele to blast furnace | centre of bf | |
 | sg-011 | These next 2 quests have times where you have to wait for stuff to happen, sm | centre of keldagrim | |
 | sg-013 | Garden of tranquility quest | centre of varrock | |
-| sg-018a | Mine Volcanic ash for ultracompost | centre of fossil island | |
 | sg-018b | get like 2k so you don't have to constant | centre of fossil island | |
 | sg-021b | unlock Varrock and Castle wars balloons | centre of entrana | |
-| sg-023a | Start at Castle wars | centre of castle wars | |
-| sg-023c | deposit them to the log storage | centre of castle wars | |
 | sg-024a | Balloon to Varrock, cut full inventory of oak logs | centre of varrock | |
 | sg-024b | turn them into planks | centre of varrock | |
 | sg-027 | Move your house to kourend now for farm patch | centre of great kourend | |
@@ -208,14 +171,13 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | sg-035 | Cut all of your uncut gems | centre of fossil island | |
 | sg-036 | If u have any molten glass left, blow all of it into unpowered orbs, make 2 l | centre of fossil island | |
 | sg-037 | Do seaweed farming every time u do birdhouse run from now on, very important! | centre of fossil island | |
-| sg-039 | Get 60 smithing, remember to wear goldsmith gauntlets | centre of keldagrim | |
+| sg-039 | Get 60 smithing, remember to wear goldsmith gauntlets | centre of bf | |
 | sg-042 | If you have 60 magic, get mage arena cape while you're here anyway | centre of mage bank | |
 | sg-043b | get some cosmics too if you need more | centre of mage bank | |
 | sg-044 | Do agility until full graceful, 50-60 at Canifis, 60+ at Seers | centre of canifis | |
 | sg-045 | Consider the Colossal Wyrm Agility Course as an AFK-ish alternative (requires | centre of civitas illa fortis | |
 | sg-047 | Should get to 70+ mage by the time you're done with agility for now | centre of grand exchange | |
 | sg-048 | Kingdom reminder! If u haven't already, take out all gp from the coffers afte | centre of miscellania | |
-| sg-050 | Do Hand in the sand quest | centre of yanille | |
 | dr-002b | make energy pots | centre of lumbridge | |
 | dr-003 | Plant some Toadflax seeds, agility potion is needed soon for a quest | centre of toa | |
 | dr-006 | Complete Perilous Moons quest when you reach 48 Slayer (requires Twilight's P | centre of civitas illa fortis | |
@@ -244,15 +206,12 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | abg-032 | Get 60 range with bone crossbow at pest control if you haven't already got 60 | centre of pest control | |
 | abg-033 | Get 70 smithing | centre of keldagrim | |
 | abg-034 | Make botanical pies and +4 herblore boost for sara brews | centre of keldagrim | |
-| abg-036 | Hunt 15k red chins at the Prif hunter area | centre of prif | |
 | abg-037 | Get range void from PC | centre of pest control | |
 | abg-038 | Unlock MM2 chinning area and chin to at least 87 range | centre of ape atoll | |
 | abg-039 | Do Dragon slayer 2 | centre of varrock | |
-| abg-040 | Start using kingdom again now that you'll be getting constant GP easily, put | centre of miscellania | |
 | abg-042 | Moons of Peril: Farm Blue Moon boss first for its magic-oriented hybrid armou | centre of civitas illa fortis | |
 | abg-043 | Farm Royal Titans for Twinflame Staff, Deadeye and Mystic Vigour prayer scrol | centre of royal titans | |
 | abg-044 | By far the best thing to do next is to camp Corrupted Gauntlet until 2 enhanc | centre of prif | |
-| abg-048 | Start ToA at Entry Mode, push to 150 invocations for unique drops | centre of toa | |
 | abg-049 | Farm ToA for Osmumten's Fang and Lightbearer as priority drops | centre of toa | |
 | abg-052 | Get 77 Herblore for Stamina Potions (if not already from WGS lamps) | centre of grand exchange | |
 | abg-055 | GWD: Farm Bandos for melee armour, Armadyl for ranged armour | centre of god wars dungeon | |
@@ -262,4 +221,3 @@ Fill the **fill** column with either exact coords `x,y[,plane]` or a place I can
 | abg-061 | Begin Yama farming for Oathplate armour (duo recommended, Surge potions are a | centre of yama | |
 | abg-062 | Farm Doom of Mokhaiotl delves for Eye of Ayak and Avernic Treads (requires Th | centre of doom of mokhaiotl | |
 | abg-063 | Continue ToA for Masori armour and Tumeken's Shadow | centre of toa | |
-| sail-002 | Train Sailing to 12 via sea charting + courier tasks (~20 min) | centre of port sarim | |

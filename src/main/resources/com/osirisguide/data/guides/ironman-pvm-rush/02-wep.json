@@ -23,7 +23,12 @@
           }
         ]
       },
-      "item": 28810
+      "item": 28810,
+      "world": [
+        3526,
+        4570,
+        0
+      ]
     },
     {
       "id": "wep-002",
@@ -45,7 +50,15 @@
           }
         ]
       },
-      "item": 4587
+      "item": 4587,
+      "world": [
+        2759,
+        2775,
+        0
+      ],
+      "npcs": [
+        5250
+      ]
     },
     {
       "id": "wep-003",
@@ -96,8 +109,8 @@
       },
       "item": 8872,
       "world": [
-        3165,
-        3490,
+        3322,
+        9608,
         0
       ]
     },
@@ -105,7 +118,12 @@
       "id": "wep-005",
       "title": "Obtain a Crystal halberd",
       "text": "Obtain a Crystal halberd",
-      "manual": true
+      "manual": true,
+      "world": [
+        3239,
+        6066,
+        0
+      ]
     },
     {
       "id": "wep-006",
@@ -127,7 +145,12 @@
           }
         ]
       },
-      "item": 28997
+      "item": 28997,
+      "world": [
+        1351,
+        9574,
+        0
+      ]
     },
     {
       "id": "wep-007",
@@ -155,13 +178,23 @@
       "id": "wep-008",
       "title": "Obtain a Crystal bow",
       "text": "Obtain a Crystal bow",
-      "manual": true
+      "manual": true,
+      "world": [
+        3239,
+        6066,
+        0
+      ]
     },
     {
       "id": "wep-009",
       "title": "Obtain a Warped sceptre",
       "text": "Obtain a Warped sceptre",
-      "manual": true
+      "manual": true,
+      "world": [
+        1487,
+        4291,
+        1
+      ]
     }
   ]
 }

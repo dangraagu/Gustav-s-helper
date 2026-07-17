@@ -301,8 +301,8 @@
       "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
-        3197,
-        3166,
+        3244,
+        9570,
         0
       ]
     },
@@ -354,8 +354,8 @@
       "text": "Dig up the skull for fairytale part 1 while you're in the area to save some t\nLocation: Draynor Manor",
       "manual": true,
       "world": [
-        3108,
-        3358,
+        3106,
+        3384,
         0
       ]
     },
@@ -664,8 +664,8 @@
       "text": "Get the 3rd map piece for dragon slayer\nLocation: Ice Mountain",
       "manual": true,
       "world": [
-        3010,
-        3486,
+        3011,
+        3501,
         0
       ]
     },
@@ -783,8 +783,8 @@
       "text": "Make the stew for Evil Dave while you're at Edgeville\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3094,
-        3493,
+        3213,
+        3221,
         0
       ]
     },
@@ -827,8 +827,8 @@
       "text": "Finish Evil Dave subquest\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3213,
+        3221,
         0
       ]
     },
@@ -907,9 +907,12 @@
       "text": "Use swamp tar on the lamp still next to Miltog\nLocation: Dorgesh-Kaan",
       "manual": true,
       "world": [
-        3169,
-        3172,
+        2721,
+        5322,
         0
+      ],
+      "npcs": [
+        2297
       ]
     },
     {
@@ -918,9 +921,12 @@
       "text": "use your empty lantern on the\nLocation: Dorgesh-Kaan",
       "manual": true,
       "world": [
-        3169,
-        3172,
+        2721,
+        5322,
         0
+      ],
+      "npcs": [
+        2297
       ]
     },
     {
@@ -1398,7 +1404,7 @@
       "manual": true,
       "world": [
         2658,
-        3677,
+        3669,
         0
       ]
     },
@@ -1412,8 +1418,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2629,
-        3693,
+        2511,
+        3865,
         0
       ]
     },
@@ -1427,8 +1433,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2629,
-        3693,
+        2506,
+        3849,
         0
       ]
     },
