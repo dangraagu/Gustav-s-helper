@@ -1405,7 +1405,23 @@
       "id": "e2-088",
       "title": "Withdraw: Coins, Chronicle, Barcrawl Card, all …",
       "text": "Withdraw: Coins, Chronicle, Barcrawl Card, all Wines",
-      "manual": true
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 22
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 33,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993
     },
     {
       "id": "e2-089",
@@ -3293,7 +3309,23 @@
       "id": "e2-206",
       "title": "Buy wines from the bar to …",
       "text": "Buy wines from the bar to heal. Don’t die here, it’s possible, but only if you’re not paying attention",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 23
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 33,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
       "world": [
         3359,
         2957,
@@ -5648,7 +5680,23 @@
       "id": "e2-355",
       "title": "Withdraw: 10x Wine",
       "text": "Withdraw: 10x Wine",
-      "manual": true,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 33
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 33,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
       "world": [
         3209,
         3219,

@@ -1,0 +1,7 @@
+{
+  "_comment": "Colloquial guide item phrases -> canonical OSRS item id, used ONLY when normal item-name detection finds nothing (so 'wine of zamorak' etc. still win via the real name). Phrase = lowercased words as they appear in the step. Grow this from in-game reports.",
+  "wine": 1993,
+  "wines": 1993,
+  "jug of wine": 1993,
+  "jugs of wine": 1993
+}

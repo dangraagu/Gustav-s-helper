@@ -83,6 +83,7 @@ def main():
     print("loading shared enricher data ...")
     item_map = sg.fetch_item_map()
     sg.build_item_index(item_map)
+    sg.load_item_aliases()
     quest_map = sg.load_quest_map()
     sg.load_location_coords()
     nqs = sg.load_quest_start(quest_map)

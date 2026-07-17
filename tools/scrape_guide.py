@@ -119,6 +119,23 @@ ACQUIRE_VERBS = ("buy", "purchase", "pick up", "pickup", "collect", "grab", "loo
                  "obtain", "withdraw", "steal", "gather")
 _INT_RE = re.compile(r'\d+')
 
+# Colloquial guide phrase -> canonical item id, for cases the wiki item names miss ("wine" is sold as
+# "Jug of wine"; "jugs of wine" plurals the wrong word). Applied only when the real-name match fails.
+ITEM_ALIASES = {}
+
+
+def load_item_aliases():
+    p = Path(__file__).parent / "data" / "item_aliases.json"
+    if not p.exists():
+        return 0
+    try:
+        for k, v in json.loads(p.read_text(encoding="utf-8")).items():
+            if not k.startswith("_"):
+                ITEM_ALIASES[_norm(k).strip()] = int(v)
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read item_aliases.json ({e})", file=sys.stderr)
+    return len(ITEM_ALIASES)
+
 
 def fetch_item_map():
     """name(lowercased) -> item id, from the OSRS Wiki tradeable-item mapping."""
@@ -235,6 +252,11 @@ def detect_item_id_qty(text: str, item_map):
         if (" " + name + " ") in padded or (" " + name + "s ") in padded:
             if best_name is None or len(name) > len(best_name):
                 best_name, best_id = name, iid
+    if best_id is None and ITEM_ALIASES:
+        # real item name missed — try a colloquial alias ("wine" -> Jug of wine). Longest phrase wins.
+        for phrase, iid in ITEM_ALIASES.items():
+            if (" " + phrase + " ") in padded and (best_name is None or len(phrase) > len(best_name)):
+                best_name, best_id = phrase, iid
     if best_id is None:
         return None
     # quantity: only an integer appearing BEFORE the item name (e.g. "pick up 5 swamp tar").
@@ -1151,6 +1173,7 @@ def main():
         old.unlink()  # wipe stale section files so a renamed/removed section never lingers
     item_map = fetch_item_map()
     build_item_index(item_map)
+    load_item_aliases()
     quest_map = load_quest_map()
     load_location_coords()
     nqs = load_quest_start(quest_map)
