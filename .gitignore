@@ -13,3 +13,4 @@ nbproject/
 /tools/.venv/
 /tools/__pycache__/
 /_vendor-src/
+dist/
