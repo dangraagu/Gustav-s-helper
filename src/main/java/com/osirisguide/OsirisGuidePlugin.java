@@ -19,6 +19,8 @@ import com.osirisguide.engine.Route;
 import com.osirisguide.engine.RouteLoader;
 import com.osirisguide.engine.RouteStep;
 import com.osirisguide.engine.ledger.ItemLedger;
+import com.osirisguide.engine.teleport.ClientGameSnapshot;
+import com.osirisguide.engine.teleport.TeleportDb;
 import com.osirisguide.overlay.DialogueOverlay;
 import com.osirisguide.overlay.OsirisItemOverlay;
 import com.osirisguide.overlay.OsirisMinimapOverlay;
@@ -56,7 +58,9 @@ import net.runelite.api.events.NpcSpawned;
 import net.runelite.client.Notifier;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
+import net.runelite.client.eventbus.EventBus;
 import net.runelite.client.eventbus.Subscribe;
+import net.runelite.client.events.PluginMessage;
 import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.plugins.Plugin;
@@ -116,6 +120,10 @@ public class OsirisGuidePlugin extends Plugin
 	private PluginManager pluginManager;
 	@Inject
 	private Notifier notifier;
+	@Inject
+	private EventBus eventBus;
+	@Inject
+	private TeleportDb teleportDb;
 
 	// Loaded guide state (rebuilt by loadGuide()).
 	private Route route;
@@ -134,6 +142,10 @@ public class OsirisGuidePlugin extends Plugin
 	// Birdhouse reminder (per account; loaded on account resolve, persisted periodically).
 	private ReminderTimer birdhouseTimer;
 	private long birdhousePersistedVisit;
+
+	// Teleport hint / Shortest Path drive.
+	private String teleportHint;
+	private boolean drivingShortestPath;
 
 	// Transient bookkeeping.
 	private boolean pendingReconcile;
@@ -157,6 +169,13 @@ public class OsirisGuidePlugin extends Plugin
 	DialogueDb provideDialogueDb(Gson gson)
 	{
 		return DialogueDb.load(gson);
+	}
+
+	@Provides
+	@Singleton
+	TeleportDb provideTeleportDb(Gson gson)
+	{
+		return TeleportDb.load(gson);
 	}
 
 	@Override
@@ -210,6 +229,7 @@ public class OsirisGuidePlugin extends Plugin
 		overlayManager.remove(dialogueOverlay);
 		clearWorldMapPoint();
 		stopDrivingQuestHelper();
+		driveShortestPath(null); // stop pathing the Shortest Path plugin when we shut down
 		if (navButton != null)
 		{
 			clientToolbar.removeNavigation(navButton);
@@ -399,6 +419,17 @@ public class OsirisGuidePlugin extends Plugin
 				progression.setMode(config.mode());
 				lastCurrentStepId = null; // force target + panel refresh
 				pendingReconcile = true;
+				recompute(true);
+			});
+		}
+		else if ("driveShortestPath".equals(e.getKey()) || "teleportHint".equals(e.getKey()))
+		{
+			// Apply the toggle immediately instead of waiting for the next step change: re-drive or
+			// CLEAR Shortest Path, and refresh the panel so the hint appears/disappears now.
+			clientThread.invoke(() ->
+			{
+				RouteStep current = progression.getCurrentStep();
+				driveShortestPath(config.driveShortestPath() ? guideDest(current) : null);
 				recompute(true);
 			});
 		}
@@ -592,6 +623,9 @@ public class OsirisGuidePlugin extends Plugin
 		{
 			stopDrivingQuestHelper();
 		}
+		// Drive Shortest Path to this step's destination (on step change only); the panel hint is
+		// recomputed separately in refreshPanel so it stays fresh within a step.
+		driveShortestPath(config.driveShortestPath() ? guideDest(current) : null);
 		if (current == null)
 		{
 			return;
@@ -693,7 +727,65 @@ public class OsirisGuidePlugin extends Plugin
 
 	private void refreshPanel(ConditionContext ctx)
 	{
-		presenter.showProgress(progression, route, ctx);
+		// Recompute the teleport hint on every panel refresh (cheap) so it self-corrects on a mid-step
+		// spellbook/level change; the Shortest Path DRIVE is posted only on step change (below).
+		computeTeleportHint(progression == null ? null : progression.getCurrentStep());
+		presenter.showProgress(progression, route, ctx, teleportHint);
+	}
+
+	// ---- Teleport hint + Shortest Path drive --------------------------------
+	// Only for a step with a real destination that is meaningfully far. The hint suggests the fastest
+	// UNLOCKED teleport (checked against live game state); the drive posts the destination to the
+	// Shortest Path plugin over RuneLite's plugin-message bus (a no-op if it isn't installed).
+	private static final int GUIDE_MIN_DIST = 25;
+
+	/** The step's destination if it's a worthwhile far target to guide toward, else null. */
+	private WorldPoint guideDest(RouteStep step)
+	{
+		WorldPoint dest = step == null ? null : step.getWorldPoint();
+		if (dest == null || client.getGameState() != GameState.LOGGED_IN)
+		{
+			return null;
+		}
+		Player p = client.getLocalPlayer();
+		WorldPoint here = p == null ? null : p.getWorldLocation();
+		return (here == null || here.distanceTo(dest) > GUIDE_MIN_DIST) ? dest : null;
+	}
+
+	/** Recompute the fastest-unlocked-teleport hint string (no bus post). */
+	private void computeTeleportHint(RouteStep step)
+	{
+		teleportHint = null;
+		WorldPoint dest = guideDest(step);
+		if (dest == null || !config.teleportHint() || teleportDb.isEmpty())
+		{
+			return;
+		}
+		Player p = client.getLocalPlayer();
+		TeleportDb.Teleport t = teleportDb.best(dest, p == null ? null : p.getWorldLocation(),
+			new ClientGameSnapshot(client));
+		if (t != null)
+		{
+			teleportHint = "Fastest: " + t.getName()
+				+ (t.getReqText() != null && !t.getReqText().isEmpty() ? " (" + t.getReqText() + ")" : "");
+		}
+	}
+
+	/** Path the Shortest Path plugin to {@code dest} (or clear it) via the plugin-message bus. */
+	private void driveShortestPath(WorldPoint dest)
+	{
+		if (dest != null)
+		{
+			Map<String, Object> data = new HashMap<>();
+			data.put("target", dest);
+			eventBus.post(new PluginMessage("shortestpath", "path", data));
+			drivingShortestPath = true;
+		}
+		else if (drivingShortestPath)
+		{
+			eventBus.post(new PluginMessage("shortestpath", "clear"));
+			drivingShortestPath = false;
+		}
 	}
 
 	private void updateWorldMapPoint(RouteStep step)

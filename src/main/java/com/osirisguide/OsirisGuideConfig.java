@@ -91,6 +91,30 @@ public interface OsirisGuideConfig extends Config
 	}
 
 	@ConfigItem(
+		keyName = "teleportHint",
+		name = "Teleport hint",
+		description = "Suggest the fastest teleport you have UNLOCKED to reach the current step.",
+		section = generalSection,
+		position = 4
+	)
+	default boolean teleportHint()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "driveShortestPath",
+		name = "Drive Shortest Path",
+		description = "If the Shortest Path plugin is installed, auto-path it to the current step's destination.",
+		section = generalSection,
+		position = 5
+	)
+	default boolean driveShortestPath()
+	{
+		return true;
+	}
+
+	@ConfigItem(
 		keyName = "showWorldArrow",
 		name = "World arrow",
 		description = "Draw an arrow over the current step's destination tile.",
