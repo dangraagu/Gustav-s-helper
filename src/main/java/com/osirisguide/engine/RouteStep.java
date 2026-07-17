@@ -30,21 +30,22 @@ public class RouteStep
 	private final Set<IronmanMode> modes;  // empty = all modes
 	private final List<Requirement> requirements;
 	private final Condition complete;
+	private final String note;             // optional panel tip (e.g. a skill-training method), nullable
 
-	/** Single-npc convenience overload (also what the tests use). */
+	/** Single-npc convenience overload (also what the tests use); no note. */
 	public RouteStep(String id, String section, String title, String text, String wikiUrl,
 					 WorldPoint worldPoint, int highlightNpcId, int highlightObjectId, int highlightItemId,
 					 boolean manual, Set<IronmanMode> modes, List<Requirement> requirements, Condition complete)
 	{
 		this(id, section, title, text, wikiUrl, worldPoint,
 			highlightNpcId >= 0 ? Collections.singletonList(highlightNpcId) : Collections.emptyList(),
-			highlightObjectId, highlightItemId, manual, modes, requirements, complete);
+			highlightObjectId, highlightItemId, manual, modes, requirements, complete, null);
 	}
 
 	public RouteStep(String id, String section, String title, String text, String wikiUrl,
 					 WorldPoint worldPoint, List<Integer> highlightNpcIds, int highlightObjectId,
 					 int highlightItemId, boolean manual, Set<IronmanMode> modes,
-					 List<Requirement> requirements, Condition complete)
+					 List<Requirement> requirements, Condition complete, String note)
 	{
 		this.id = id;
 		this.section = section;
@@ -59,6 +60,13 @@ public class RouteStep
 		this.modes = modes == null ? Collections.emptySet() : modes;
 		this.requirements = requirements == null ? Collections.emptyList() : requirements;
 		this.complete = complete;
+		this.note = note;
+	}
+
+	/** Optional tip shown under the step text (skill-training method, etc.); null if none. */
+	public String getNote()
+	{
+		return note;
 	}
 
 	public String getId()

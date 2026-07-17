@@ -24,6 +24,8 @@
         "level": 77,
         "cmp": ">="
       },
+      "note": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
       "world": [
         3209,
         3215,
@@ -194,6 +196,8 @@
         "level": 15,
         "cmp": ">="
       },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
       "world": [
         3209,
         3219,
@@ -258,6 +262,8 @@
         "level": 5,
         "cmp": ">="
       },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "npcs": [
         3106,
         3107,
@@ -768,6 +774,8 @@
         "level": 35,
         "cmp": ">="
       },
+      "note": "Chop oak trees (slightly faster than willows here); keep dropping the logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
         2624,
         3300,
@@ -784,6 +792,8 @@
         "level": 20,
         "cmp": ">="
       },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "world": [
         2624,
         3300,
@@ -800,6 +810,8 @@
         "level": 25,
         "cmp": ">="
       },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "world": [
         2662,
         3314,
@@ -1265,6 +1277,8 @@
         "level": 50,
         "cmp": ">="
       },
+      "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
       "world": [
         2386,
         3086,
@@ -1927,6 +1941,8 @@
         "level": 9,
         "cmp": ">="
       },
+      "note": "Do the Natural History Quiz in Varrock Museum (1,000 XP, straight to level 9).",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training",
       "world": [
         3260,
         3449,
@@ -2255,6 +2271,8 @@
         "level": 13,
         "cmp": ">="
       },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
       "world": [
         3080,
         3427,
@@ -2752,6 +2770,8 @@
         "level": 15,
         "cmp": ">="
       },
+      "note": "1-tick cook raw karambwan into poison karambwan (fastest, no reqs); or cook fish sardine->salmon on a range for a cheaper option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training",
       "world": [
         2653,
         3159,
@@ -3874,6 +3894,7 @@
       "title": "Equip Gas mask",
       "text": "Equip Gas mask\nLocation: Gnome Stronghold",
       "manual": true,
+      "item": 1506,
       "object": 2542,
       "world": [
         2514,
@@ -4473,6 +4494,8 @@
         "level": 10,
         "cmp": ">="
       },
+      "note": "Skip early levels with quests (Client of Kourend etc.); the Guardians of the Rift minigame opens at 27.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
       "world": [
         3109,
         3160,

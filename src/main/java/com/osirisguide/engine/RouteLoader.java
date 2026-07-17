@@ -65,6 +65,7 @@ public final class RouteLoader
 		String title;
 		String text;
 		String wiki;
+		String note;           // optional panel tip (skill-training method, etc.)
 		String quest;          // convenience: default complete = this quest FINISHED
 		int[] world;           // [x, y, plane]
 		Integer npc;           // highlight npc id
@@ -207,7 +208,8 @@ public final class RouteLoader
 			manual,
 			modes,
 			reqs,
-			complete);
+			complete,
+			dto.note);
 	}
 
 	private static Condition resolveComplete(StepDto dto, boolean manual)

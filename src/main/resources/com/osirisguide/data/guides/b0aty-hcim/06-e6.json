@@ -432,7 +432,9 @@
         "skill": "RUNECRAFT",
         "level": 35,
         "cmp": ">="
-      }
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training"
     },
     {
       "id": "e6-038",
@@ -522,7 +524,9 @@
         "skill": "SLAYER",
         "level": 48,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "e6-047",
@@ -721,7 +725,9 @@
         "skill": "STRENGTH",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "e6-060a",
@@ -872,7 +878,9 @@
         "skill": "ATTACK",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "e6-073a",

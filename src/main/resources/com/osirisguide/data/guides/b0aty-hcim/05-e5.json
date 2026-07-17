@@ -1579,6 +1579,8 @@
         "level": 60,
         "cmp": ">="
       },
+      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
         3165,
         3490,
@@ -2157,6 +2159,7 @@
       "title": "Wear: Monk Robes, Holy Symbol, Damaged …",
       "text": "Wear: Monk Robes, Holy Symbol, Damaged Book, for prayer bonus. Camp prayer Melee entire quest",
       "manual": true,
+      "item": 1718,
       "world": [
         3165,
         3490,
@@ -2339,6 +2342,8 @@
         "level": 45,
         "cmp": ">="
       },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
       "world": [
         3165,
         3490,

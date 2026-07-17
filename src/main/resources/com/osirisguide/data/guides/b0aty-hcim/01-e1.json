@@ -674,6 +674,8 @@
         "level": 5,
         "cmp": ">="
       },
+      "note": "Skip early levels with quests (The Tourist Trap -> 26), or start a rooftop course for marks of grace / the graceful outfit.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "object": 24009,
       "world": [
         3227,
@@ -1341,6 +1343,7 @@
       "title": "Wear Brown Apron & Pink Skirt …",
       "text": "Wear Brown Apron & Pink Skirt in honour of Faux",
       "manual": true,
+      "item": 1757,
       "world": [
         3216,
         3416,
@@ -1825,6 +1828,8 @@
         "level": 9,
         "cmp": ">="
       },
+      "note": "Get tasks from Turael/Spria (Burthorpe/Draynor, any level); block or skip disliked tasks. Slayer XP tracks combat, so train combat too.",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
       "world": [
         3257,
         3449,
@@ -5469,6 +5474,7 @@
       "title": "Wield Air Staff, Gloves & Boots",
       "text": "Wield Air Staff, Gloves & Boots",
       "manual": true,
+      "item": 1379,
       "world": [
         2544,
         3568,

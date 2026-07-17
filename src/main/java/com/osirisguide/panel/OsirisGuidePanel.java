@@ -36,6 +36,7 @@ public class OsirisGuidePanel extends PluginPanel
 	private final JLabel sectionLabel = new JLabel();
 	private final JLabel titleLabel = new JLabel();
 	private final JLabel textLabel = new JLabel();
+	private final JLabel noteLabel = new JLabel();
 	private final JPanel reqContainer = new JPanel();
 	private final JPanel upcomingContainer = new JPanel();
 	private final JLabel upcomingHeader = new JLabel("Coming up");
@@ -113,6 +114,11 @@ public class OsirisGuidePanel extends PluginPanel
 		textLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		textLabel.setForeground(Color.LIGHT_GRAY);
 
+		noteLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		noteLabel.setForeground(ColorScheme.BRAND_ORANGE);
+		noteLabel.setFont(FontManager.getRunescapeSmallFont());
+		noteLabel.setBorder(BorderFactory.createEmptyBorder(4, 0, 0, 0));
+
 		reqContainer.setLayout(new BoxLayout(reqContainer, BoxLayout.Y_AXIS));
 		reqContainer.setAlignmentX(Component.LEFT_ALIGNMENT);
 		reqContainer.setBorder(BorderFactory.createEmptyBorder(6, 0, 6, 0));
@@ -135,6 +141,7 @@ public class OsirisGuidePanel extends PluginPanel
 		center.add(sectionLabel);
 		center.add(titleLabel);
 		center.add(textLabel);
+		center.add(noteLabel);
 		center.add(reqContainer);
 		center.add(buttons);
 		center.add(upcomingHeader);
@@ -230,6 +237,7 @@ public class OsirisGuidePanel extends PluginPanel
 
 		boolean hasCurrent = m.loggedIn && !m.finished && !m.routeEmpty;
 
+		noteLabel.setVisible(false);
 		if (m.finished && !m.routeEmpty && m.loggedIn)
 		{
 			sectionLabel.setText("");
@@ -241,6 +249,11 @@ public class OsirisGuidePanel extends PluginPanel
 			sectionLabel.setText(m.section);
 			titleLabel.setText(m.title);
 			textLabel.setText("<html><body style='width:190px'>" + escape(m.text) + "</body></html>");
+			if (m.note != null && !m.note.isEmpty())
+			{
+				noteLabel.setText("<html><body style='width:190px'>💡 " + escape(m.note) + "</body></html>");
+				noteLabel.setVisible(true);
+			}
 			for (PanelModel.ReqView r : m.requirements)
 			{
 				JLabel l = new JLabel((r.met ? "✓ " : "✗ ") + r.text);

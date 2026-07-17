@@ -1238,6 +1238,7 @@
       "title": "Wield the Initiate",
       "text": "Wield the Initiate",
       "manual": true,
+      "item": 5575,
       "object": 410,
       "world": [
         2925,
@@ -2928,7 +2929,9 @@
         "skill": "FISHING",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick Barbarian Fishing (also gives Agility/Strength); drift net fishing on Fossil Island if training Hunter too.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training"
     },
     {
       "id": "e4-207",
@@ -3074,7 +3077,9 @@
         "skill": "CRAFTING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "e4-216",
@@ -3186,6 +3191,8 @@
         "level": 50,
         "cmp": ">="
       },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
       "world": [
         3110,
         3499,
@@ -4522,6 +4529,8 @@
         "level": 53,
         "cmp": ">="
       },
+      "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training",
       "world": [
         2870,
         3544,
@@ -5031,6 +5040,8 @@
         "level": 45,
         "cmp": ">="
       },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
         3165,
         3490,
@@ -7195,6 +7206,8 @@
         "level": 30,
         "cmp": ">="
       },
+      "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
       "world": [
         3165,
         3490,
@@ -7711,6 +7724,7 @@
       "title": "Wield games necklace, Ardy Cloak + …",
       "text": "Wield games necklace, Ardy Cloak + Climbing Boots",
       "manual": true,
+      "item": 3105,
       "world": [
         2624,
         3300,
@@ -7941,7 +7955,9 @@
         "skill": "WOODCUTTING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "e4-554",
@@ -9001,6 +9017,7 @@
       "title": "Wield Desert Robes",
       "text": "Wield Desert Robes",
       "manual": true,
+      "item": 6386,
       "world": [
         2560,
         3870,

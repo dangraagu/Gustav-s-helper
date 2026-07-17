@@ -391,6 +391,8 @@
         "level": 50,
         "cmp": ">="
       },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
       "world": [
         2949,
         3215,
@@ -473,6 +475,8 @@
         "level": 55,
         "cmp": ">="
       },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
       "world": [
         3730,
         3807,
@@ -563,6 +567,8 @@
         "level": 60,
         "cmp": ">="
       },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
       "world": [
         2930,
         10197,

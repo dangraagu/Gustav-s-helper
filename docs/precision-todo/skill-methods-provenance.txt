@@ -1,0 +1,153 @@
+PROVENANCE - skill_methods.json
+Source: OSRS Wiki training-guide pages, fetched raw via ?action=raw on 2026-07-16/17.
+User-Agent: osiris-guide-research/1.0 (dagr95@gmail.com)
+Every tip summarizes wording that appears on the cited page (section headers + intro sentences quoted below).
+Redirect notes: "<Skill>_training" often redirects to "Pay-to-play <Skill> training". Defence_training and
+Hitpoints_training are disambiguation pages; Defence uses the shared Pay-to-play Melee training page,
+Hitpoints uses Pay-to-play Hitpoints training.
+
+=== ATTACK / STRENGTH / DEFENCE  (shared page) ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training
+- "==Fastest Experience==" section headers: "Levels 1-30: Questing" (Waterfall Quest at level 1 -> 30 Att/Str,
+  "no requirements, making it the fastest way to train a brand-new account"), "Levels 30 to 50: Crabs"
+  (Gemstone Crab/Tlati Rainforest; Ammonite Crab/Fossil Island; Sand Crab/Hosidius/Crabclaw/Avium Savannah),
+  "Levels 50-70: Nightmare Zone - Normal Rumble" (AFK w/ absorption+overload, needs 5 quests),
+  "Levels 70-99: Nightmare Zone" ("Fastest solo experience per hour for Attack and Strength"; Dharok's
+  "becomes optimal at Hitpoints 92+").
+- General training notes: aggressive->Strength; "Defence can be trained by using Ancient Magicks on defensive
+  or chinchompas on Long fuse against Maniacal monkeys for more experience per hour than using melee."
+  Style guidance (accurate/aggressive/defensive/controlled) underpins the DEFENCE Defensive/Controlled tip.
+
+=== HITPOINTS ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Hitpoints_training
+- "Each point of damage dealt directly by the player yields 1.33 Hitpoints XP... any combat training method
+  that offers a high XP rate will also train Hitpoints." Links to melee/magic/ranged training.
+- "Ice Burst/Barrage" section: cast on Skeletal Monkeys / maniacal monkeys at Ape Atoll (70 Magic + Monkey
+  Madness). "Chinchompas" section: chin maniacal monkeys for fast Ranged + HP.
+
+=== RANGED ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training
+- "Levels 1-45: Using dwarf multicannon" (needs Dwarf Cannon; ogres east of Castle Wars ~40k xp/h).
+- "Levels 45-99: Chinning maniacal monkeys" ("the fastest way to train Ranged", Kruk's Dungeon/Ape Atoll,
+  needs Monkey Madness II chapter II). "Levels 1-45/70: Crabs" AFK cheaper alt; darts recommended weapon.
+
+=== PRAYER ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training
+- Starting off: quests (The Restless Ghost, Priest in Peril, Recruitment Drive, Holy Grail -> 1..30).
+- "Offering bones at a gilded altar" = "The fastest way to train Prayer... 350% experience per bone" (POH,
+  both incense burners lit, 75 Con). "offer bones at the Chaos altar in the Wilderness instead... only
+  slightly slower but offers twice as much experience per bone."
+
+=== MAGIC ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training
+- "Levels 4-55/99: Enchanting bolts" ("one of the fastest ways to train magic", "very expensive");
+  "switch to casting Low Level Alchemy at level 21, as this is much cheaper."
+- "Level 55+: High Level Alchemy" ("one of the best training methods for gaining passive Magic experience").
+- "Levels 62-99: Bursting/barraging on Ancient Magicks" (needs Desert Treasure I; Slayer tasks - dust devils,
+  Greater Nechryaels - "one of the most efficient ways to train Slayer and Magic").
+
+=== RUNECRAFT ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training
+- "Levels 1-32/34: Questing" (Client of Kourend etc.). "Levels 27-99: Guardians of the Rift".
+- "Levels 23-99: Lava runes" ("the fastest way to train Runecraft when not using essence runners", Fire Altar,
+  earth runes, binding necklace). "Levels 77-99: Crafting blood/soul runes in Arceuus".
+
+=== CONSTRUCTION ===
+https://oldschool.runescape.wiki/w/Construction_training
+- "Levels 1-33: Starting off" (crude chair -> wooden bookcase -> larder -> oak tables; saw+hammer, steel nails).
+- "Levels 33-52/74: Oak larders" (Kitchen, 8 oak planks, 480 xp; oak dungeon doors at 74).
+- "Levels 52-99: Mahogany furniture" ("fastest viable training method at level 52... very expensive";
+  mahogany tables then gnome benches, demon butler). "Levels 1-99: Mahogany Homes" cheaper alt.
+
+=== AGILITY ===
+https://oldschool.runescape.wiki/w/Agility_training
+- "Levels 1-26/33: Questing" (The Tourist Trap -> 26). "Levels 20-47: Brimhaven Agility Arena" (floor spikes
+  trap from lvl 20, tag pillars). "Levels 47-62: Wilderness Agility Course" ("fastest experience rates from
+  level 47 to 62", deep Wilderness/PKers). "Levels 62-99: Hallowed Sepulchre" (needs Sins of the Father).
+  "Levels 1-99: Rooftop Agility Courses" (marks of grace / graceful outfit).
+
+=== HERBLORE ===
+https://oldschool.runescape.wiki/w/Herblore_training
+- "==Making potions==": "The most efficient way to gain Herblore experience is to make potions... The fastest
+  Herblore experience is gained by simply making potions that offer the highest experience per hour."
+- Potion level ladder from the table (level -> potion): 3 Attack, 12 Strength, 26 Energy, 38 Prayer,
+  45 Super attack, 52 Super energy, 55 Super strength, 63 Super restore, 72 Ranging, 81 Saradomin brew,
+  90 Super combat. Amulet of chemistry / prescription goggles noted as cost savers.
+
+=== THIEVING ===
+https://oldschool.runescape.wiki/w/Thieving_training
+- "Levels 1-36/45: Chambers of Xeric thieving room" (lockpick). "Levels 36-45: Chests in Aldarin Villas".
+- "Levels 45-49, 65-84/91/99: Blackjacking" (Pollnivneach, needs partial The Feud; rogue equipment, Sara brews;
+  Bearded bandits 45-55, Pollnivnian bandits 55-65, Menaphite Thugs 65+).
+- "Levels 49-65/99: Stealing artefacts" (Port Piscarilius). "Levels 91-99: Pyramid Plunder".
+
+=== CRAFTING ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training
+- "Levels 1-20: Leather items" (highest leather item, needle+thread). "Levels 20-62/77/99: Cutting gems"
+  ("fastest experience up to level 77"; keep cutting diamonds to 62). "Levels 54-77/99: Battlestaves".
+  "Levels 63/77-99: D'hide bodies".
+
+=== FLETCHING ===
+https://oldschool.runescape.wiki/w/Fletching_training
+- "Zero time methods" - Darts: "arguably the most feasible option for zero-time training" (amethyst/mithril/
+  adamant). "Level 1-5/10: Arrow shafts". "Level 5-99: Bows" (cut & string; unstrung more AFK, stringing faster).
+
+=== SLAYER ===
+https://oldschool.runescape.wiki/w/Slayer_training
+- "Access to Slayer masters": "obtain tasks from the highest-level Slayer master that your Combat and Slayer
+  levels allow." Master gates: Turael/Spria any level; Mazchna 20 cb (Canifis); Vannaka 40 cb (Edgeville
+  Dungeon); Chaeldar 70 cb (Zanaris, Lost City); Konar 75 cb; Nieve/Steve 85 cb (MM2); Duradel 100 cb+50
+  Slayer (Shilo). Two-master switching for 10th/50th/100th/250th/1000th milestone points.
+
+=== HUNTER ===
+https://oldschool.runescape.wiki/w/Hunter_training
+- "Levels 1-9: Natural History Quiz" (Varrock Museum, 1,000 xp). "Levels 9-44/80/99: Bird house trapping"
+  ("fastest Hunter experience effectively up to level 80", Fossil Island, needs Bone Voyage, runs ~50 min;
+  switch to drift net fishing at 44 if also training Fishing). "Levels 73-99: Black chinchompas" and
+  "Levels 72/91-99: Hunters' Rumours" under Fastest active methods; "Levels 80-99: Herbiboar" (AFK).
+
+=== MINING ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training
+- "Levels 1-15: Copper/Tin ore" (powermine/drop; Lumbridge Swamp). "Levels 15-45/70: Iron ore" (3-rock
+  triangle spots; Varrock armour 10% double ore; Mining Guild best from 60). "Levels 45-99: Granite"
+  (3-tick "3t4g" at Bandit Camp Quarry or Cape Conch mine = "fastest Mining experience from level 45";
+  no tick-manip -> iron to 70 then Volcanic Mine). "Levels 30-99: Motherlode Mine" (low-effort AFK alt).
+
+=== SMITHING ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training
+- "Levels 1-39: Questing" (The Knight's Sword 12,725 xp etc.). "Levels 1-40: Anvil smithing" (highest item
+  at west Varrock anvil). "Levels 40-99: Blast Furnace gold bars" ("fastest viable training method at level
+  40", goldsmith gauntlets). "Levels 15-99: Giants' Foundry" alt.
+
+=== FISHING ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training
+- "Levels 1-24/33: Questing" (Sea Slug -> 24). "Levels 20-47/58: Fly fishing" (3-tick trout/salmon "fastest
+  Fishing experience up to level 58"; static spot SE of Prifddinas; Tempoross faster if no tick-manip past 35).
+  "Levels 47-99: Drift net fishing" (best for Fishing+Hunter together). "Levels 58-71/99: Barbarian Fishing"
+  (3-tick, passive Agility & Strength). "Levels 71-99: 2-tick harpooning swordfish/tuna".
+
+=== COOKING ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training
+- "Levels 1-30: Poison karambwan" (1-tick, no reqs) and "Levels 1-30: Cooking fish" (sardine->salmon, cheaper).
+- "Levels 30-99: Cooked karambwan" ("1-tick cooking karambwan provides the fastest Cooking experience", needs
+  Tai Bwo Wannai Trio; Rogues' Den / Myths' Guild / Mor Ul Rek bankside; AFK -> Hosidius kitchen).
+
+=== FIREMAKING ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training
+- "Levels 1-30: Creating pyre logs" (1-tick redwood/rosewood pyre logs, needs Shades of Mort'ton, fastest to 30).
+- "Levels 1/30-99: Burning logs" ("one of the fastest ways to train Firemaking"; best at east Grand Exchange,
+  bank 1 tile away; willow->teak->arctic pine->maple->mahogany->yew->magic->redwood). "Levels 50-99: Wintertodt".
+
+=== WOODCUTTING ===
+https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training
+- "Fastest experience": drop logs (powerchop). "Levels 1-15: Regular trees". "Levels 15-35: Oak trees"
+  ("cutting oak trees offers slightly faster experience" than willows). "Levels 35-99: Teak trees"
+  ("1.5-tick woodcutting teaks on Fossil Island is the fastest training method in the game"; no tick-manip ->
+  teaks to 65 then sulliuscep).
+
+=== FARMING ===
+https://oldschool.runescape.wiki/w/Farming_training
+- "Levels 1-38: Questing" (skips low-level farming). "Levels 1-15: Bagged plants" (POH, "fastest way to train
+  the early levels... significantly more expensive"). "Levels 15-99: Tree runs" ("the most effective way to
+  gain Farming experience... by far the fastest effective experience"; plant highest tree/fruit tree/hardwood
+  saplings, check health for XP, replant; herb runs for profit).

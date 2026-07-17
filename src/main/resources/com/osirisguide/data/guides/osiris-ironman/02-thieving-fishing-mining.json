@@ -96,6 +96,8 @@
         "level": 50,
         "cmp": ">="
       },
+      "note": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "world": [
         3359,
         2957,
@@ -176,6 +178,8 @@
         "level": 58,
         "cmp": ">="
       },
+      "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
       "world": [
         2855,
         2974,
@@ -225,6 +229,8 @@
         "level": 50,
         "cmp": ">="
       },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "world": [
         2502,
         3489,

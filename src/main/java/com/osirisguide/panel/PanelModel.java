@@ -36,6 +36,7 @@ public class PanelModel
 	public String section = "";
 	public String title = "";
 	public String text = "";
+	public String note;      // optional tip shown under the step text (e.g. a skill-training method)
 	public String wikiUrl;
 	public boolean currentIsManual;
 

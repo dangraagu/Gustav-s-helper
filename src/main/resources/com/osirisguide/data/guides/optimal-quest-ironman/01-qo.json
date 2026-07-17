@@ -854,7 +854,9 @@
         "skill": "COOKING",
         "level": 15,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick cook raw karambwan into poison karambwan (fastest, no reqs); or cook fish sardine->salmon on a range for a cheaper option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "qo-059",
@@ -895,7 +897,9 @@
         "skill": "AGILITY",
         "level": 18,
         "cmp": ">="
-      }
+      },
+      "note": "Skip early levels with quests (The Tourist Trap -> 26), or start a rooftop course for marks of grace / the graceful outfit.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "qo-062",
@@ -966,7 +970,9 @@
         "skill": "AGILITY",
         "level": 25,
         "cmp": ">="
-      }
+      },
+      "note": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "qo-067",
@@ -1148,7 +1154,9 @@
         "skill": "MAGIC",
         "level": 20,
         "cmp": ">="
-      }
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-080",
@@ -1175,6 +1183,8 @@
         "level": 15,
         "cmp": ">="
       },
+      "note": "Chop regular trees and drop the logs; Woodcutting quests can skip you to 26.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
         3192,
         3223,
@@ -1205,7 +1215,9 @@
         "skill": "WOODCUTTING",
         "level": 36,
         "cmp": ">="
-      }
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "qo-084",
@@ -1216,7 +1228,9 @@
         "skill": "FIREMAKING",
         "level": 16,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-085",
@@ -1392,7 +1406,9 @@
         "skill": "MAGIC",
         "level": 33,
         "cmp": ">="
-      }
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-097",
@@ -1566,6 +1582,8 @@
         "level": 45,
         "cmp": ">="
       },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
         3192,
         3223,
@@ -1672,6 +1690,8 @@
         "level": 37,
         "cmp": ">="
       },
+      "note": "Cannon monsters with a dwarf multicannon (needs Dwarf Cannon), e.g. ogres east of Castle Wars; or AFK crabs with the best darts.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
         3165,
         3490,
@@ -1792,7 +1812,9 @@
         "skill": "FIREMAKING",
         "level": 20,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-124",
@@ -1818,7 +1840,9 @@
         "skill": "FIREMAKING",
         "level": 30,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-126",
@@ -1907,7 +1931,9 @@
         "skill": "COOKING",
         "level": 20,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick cook raw karambwan into poison karambwan (fastest, no reqs); or cook fish sardine->salmon on a range for a cheaper option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "qo-133",
@@ -1933,7 +1959,9 @@
         "skill": "COOKING",
         "level": 22,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick cook raw karambwan into poison karambwan (fastest, no reqs); or cook fish sardine->salmon on a range for a cheaper option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "qo-135",
@@ -2019,7 +2047,9 @@
         "skill": "HERBLORE",
         "level": 30,
         "cmp": ">="
-      }
+      },
+      "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "qo-141",
@@ -2138,7 +2168,9 @@
         "skill": "FLETCHING",
         "level": 25,
         "cmp": ">="
-      }
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "qo-150",
@@ -2194,7 +2226,9 @@
         "skill": "CONSTRUCTION",
         "level": 20,
         "cmp": ">="
-      }
+      },
+      "note": "Build crude chairs -> bookcases -> oak larders in your POH (bring saw, hammer, steel nails); Mahogany Homes is a cheaper alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "qo-154",
@@ -2205,7 +2239,9 @@
         "skill": "WOODCUTTING",
         "level": 56,
         "cmp": ">="
-      }
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "qo-155",
@@ -2216,7 +2252,9 @@
         "skill": "CRAFTING",
         "level": 46,
         "cmp": ">="
-      }
+      },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "qo-156",
@@ -2257,7 +2295,9 @@
         "skill": "COOKING",
         "level": 41,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "qo-159",
@@ -2313,7 +2353,9 @@
         "skill": "MINING",
         "level": 40,
         "cmp": ">="
-      }
+      },
+      "note": "Powermine iron at a 3-rock triangle spot (Al Kharid etc.); Varrock armour gives 10% double ore; Mining Guild best from 60+.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-163",
@@ -2365,7 +2407,9 @@
         "skill": "MAGIC",
         "level": 46,
         "cmp": ">="
-      }
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-167",
@@ -2406,7 +2450,9 @@
         "skill": "FIREMAKING",
         "level": 40,
         "cmp": ">="
-      }
+      },
+      "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-170",
@@ -2443,7 +2489,9 @@
         "skill": "FIREMAKING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-173",
@@ -2470,6 +2518,8 @@
         "level": 40,
         "cmp": ">="
       },
+      "note": "Cannon monsters with a dwarf multicannon (needs Dwarf Cannon), e.g. ogres east of Castle Wars; or AFK crabs with the best darts.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
         3165,
         3490,
@@ -2530,7 +2580,9 @@
         "skill": "SMITHING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training"
     },
     {
       "id": "qo-179",
@@ -2541,7 +2593,9 @@
         "skill": "SLAYER",
         "level": 30,
         "cmp": ">="
-      }
+      },
+      "note": "Take tasks from Mazchna in Canifis (20 combat) - use the highest master your combat level allows.",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-180",
@@ -2597,7 +2651,9 @@
         "skill": "CONSTRUCTION",
         "level": 34,
         "cmp": ">="
-      }
+      },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "qo-184",
@@ -2608,7 +2664,9 @@
         "skill": "HUNTER",
         "level": 10,
         "cmp": ">="
-      }
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "qo-185",
@@ -2634,7 +2692,9 @@
         "skill": "HUNTER",
         "level": 12,
         "cmp": ">="
-      }
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "qo-187",
@@ -2660,7 +2720,9 @@
         "skill": "HUNTER",
         "level": 27,
         "cmp": ">="
-      }
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "qo-189",
@@ -2701,7 +2763,9 @@
         "skill": "SLAYER",
         "level": 42,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-192",
@@ -2757,7 +2821,9 @@
         "skill": "FISHING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training"
     },
     {
       "id": "qo-196",
@@ -2768,7 +2834,9 @@
         "skill": "PRAYER",
         "level": 47,
         "cmp": ">="
-      }
+      },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training"
     },
     {
       "id": "qo-197",
@@ -2779,7 +2847,9 @@
         "skill": "FARMING",
         "level": 40,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "qo-198",
@@ -2850,7 +2920,9 @@
         "skill": "CONSTRUCTION",
         "level": 38,
         "cmp": ">="
-      }
+      },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "qo-203",
@@ -2876,7 +2948,9 @@
         "skill": "CRAFTING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "qo-205",
@@ -2902,7 +2976,9 @@
         "skill": "MINING",
         "level": 45,
         "cmp": ">="
-      }
+      },
+      "note": "Powermine iron at a 3-rock triangle spot (Al Kharid etc.); Varrock armour gives 10% double ore; Mining Guild best from 60+.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-207",
@@ -2943,7 +3019,9 @@
         "skill": "MINING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-210",
@@ -2954,7 +3032,9 @@
         "skill": "COOKING",
         "level": 53,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "qo-211",
@@ -2965,7 +3045,9 @@
         "skill": "FISHING",
         "level": 53,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training"
     },
     {
       "id": "qo-212",
@@ -3021,7 +3103,9 @@
         "skill": "MAGIC",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-216",
@@ -3032,7 +3116,9 @@
         "skill": "THIEVING",
         "level": 53,
         "cmp": ">="
-      }
+      },
+      "note": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "qo-217",
@@ -3058,7 +3144,9 @@
         "skill": "MAGIC",
         "level": 59,
         "cmp": ">="
-      }
+      },
+      "note": "Cast High Level Alchemy (alching) while doing other activities - the best passive Magic XP and profits per cast.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-219",
@@ -3069,7 +3157,9 @@
         "skill": "MINING",
         "level": 52,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-220",
@@ -3080,7 +3170,9 @@
         "skill": "AGILITY",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "qo-221",
@@ -3181,7 +3273,9 @@
         "skill": "FARMING",
         "level": 44,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "qo-228",
@@ -3232,7 +3326,9 @@
         "skill": "FLETCHING",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "qo-233",
@@ -3264,7 +3360,9 @@
         "skill": "FARMING",
         "level": 46,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "qo-236",
@@ -3290,7 +3388,9 @@
         "skill": "AGILITY",
         "level": 54,
         "cmp": ">="
-      }
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "qo-238",
@@ -3316,7 +3416,9 @@
         "skill": "SLAYER",
         "level": 48,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-240",
@@ -3327,7 +3429,9 @@
         "skill": "MINING",
         "level": 55,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-241",
@@ -3368,7 +3472,9 @@
         "skill": "COOKING",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "qo-244",
@@ -3394,7 +3500,9 @@
         "skill": "AGILITY",
         "level": 56,
         "cmp": ">="
-      }
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "qo-246",
@@ -3436,6 +3544,8 @@
         "level": 60,
         "cmp": ">="
       },
+      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
         3165,
         3490,
@@ -3481,7 +3591,9 @@
         "skill": "MAGIC",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-252",
@@ -3492,7 +3604,9 @@
         "skill": "CRAFTING",
         "level": 61,
         "cmp": ">="
-      }
+      },
+      "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "qo-253",
@@ -3503,7 +3617,9 @@
         "skill": "MINING",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-254",
@@ -3544,7 +3660,9 @@
         "skill": "DEFENCE",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Nightmare Zone north of Yanille; Venator bow on Long-range earns Defence, or absorption Rumble for AFK.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "qo-257",
@@ -3581,7 +3699,9 @@
         "skill": "MAGIC",
         "level": 66,
         "cmp": ">="
-      }
+      },
+      "note": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-260",
@@ -3592,7 +3712,9 @@
         "skill": "FISHING",
         "level": 57,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training"
     },
     {
       "id": "qo-261",
@@ -3634,6 +3756,8 @@
         "level": 71,
         "cmp": ">="
       },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
         3192,
         3223,
@@ -3649,7 +3773,9 @@
         "skill": "THIEVING",
         "level": 58,
         "cmp": ">="
-      }
+      },
+      "note": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "qo-265",
@@ -3675,7 +3801,9 @@
         "skill": "SLAYER",
         "level": 69,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-267",
@@ -3701,7 +3829,9 @@
         "skill": "HUNTER",
         "level": 46,
         "cmp": ">="
-      }
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "qo-269",
@@ -3727,7 +3857,9 @@
         "skill": "HUNTER",
         "level": 52,
         "cmp": ">="
-      }
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "qo-271",
@@ -3738,7 +3870,9 @@
         "skill": "SMITHING",
         "level": 55,
         "cmp": ">="
-      }
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training"
     },
     {
       "id": "qo-272",
@@ -3820,7 +3954,9 @@
         "skill": "SMITHING",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training"
     },
     {
       "id": "qo-279",
@@ -3831,7 +3967,9 @@
         "skill": "RUNECRAFT",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training"
     },
     {
       "id": "qo-280",
@@ -3857,7 +3995,9 @@
         "skill": "RUNECRAFT",
         "level": 52,
         "cmp": ">="
-      }
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training"
     },
     {
       "id": "qo-282",
@@ -3868,7 +4008,9 @@
         "skill": "FLETCHING",
         "level": 52,
         "cmp": ">="
-      }
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "qo-283",
@@ -3879,7 +4021,9 @@
         "skill": "THIEVING",
         "level": 66,
         "cmp": ">="
-      }
+      },
+      "note": "Blackjack Menaphite Thugs in Pollnivneach (fastest to 84); Pyramid Plunder becomes fastest past 91.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "qo-284",
@@ -3905,7 +4049,9 @@
         "skill": "SLAYER",
         "level": 54,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-286",
@@ -3916,7 +4062,9 @@
         "skill": "CONSTRUCTION",
         "level": 41,
         "cmp": ">="
-      }
+      },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "qo-287",
@@ -3942,7 +4090,9 @@
         "skill": "SLAYER",
         "level": 56,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-289",
@@ -3968,7 +4118,9 @@
         "skill": "CRAFTING",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Craft battlestaves (fire/earth, cheaper) or keep cutting gems - both good up to 77.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "qo-291",
@@ -3979,7 +4131,9 @@
         "skill": "SLAYER",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-292",
@@ -3990,7 +4144,9 @@
         "skill": "RUNECRAFT",
         "level": 55,
         "cmp": ">="
-      }
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training"
     },
     {
       "id": "qo-293",
@@ -4001,7 +4157,9 @@
         "skill": "FISHING",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick Barbarian Fishing (also gives Agility/Strength); drift net fishing on Fossil Island if training Hunter too.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training"
     },
     {
       "id": "qo-294",
@@ -4027,7 +4185,9 @@
         "skill": "FLETCHING",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "qo-296",
@@ -4053,7 +4213,9 @@
         "skill": "AGILITY",
         "level": 62,
         "cmp": ">="
-      }
+      },
+      "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "qo-298",
@@ -4064,7 +4226,9 @@
         "skill": "FIREMAKING",
         "level": 55,
         "cmp": ">="
-      }
+      },
+      "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-299",
@@ -4090,7 +4254,9 @@
         "skill": "MINING",
         "level": 64,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-301",
@@ -4102,6 +4268,8 @@
         "level": 62,
         "cmp": ">="
       },
+      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
         3165,
         3490,
@@ -4117,7 +4285,9 @@
         "skill": "STRENGTH",
         "level": 58,
         "cmp": ">="
-      }
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "qo-303",
@@ -4143,7 +4313,9 @@
         "skill": "AGILITY",
         "level": 68,
         "cmp": ">="
-      }
+      },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "qo-305",
@@ -4154,7 +4326,9 @@
         "skill": "MINING",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "qo-306",
@@ -4165,7 +4339,9 @@
         "skill": "FIREMAKING",
         "level": 66,
         "cmp": ">="
-      }
+      },
+      "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-307",
@@ -4197,7 +4373,9 @@
         "skill": "CONSTRUCTION",
         "level": 50,
         "cmp": ">="
-      }
+      },
+      "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "qo-310",
@@ -4244,7 +4422,9 @@
         "skill": "CRAFTING",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Craft battlestaves (fire/earth, cheaper) or keep cutting gems - both good up to 77.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "qo-314",
@@ -4255,7 +4435,9 @@
         "skill": "HUNTER",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "qo-315",
@@ -4266,7 +4448,9 @@
         "skill": "SLAYER",
         "level": 69,
         "cmp": ">="
-      }
+      },
+      "note": "Use Vannaka (Edgeville Dungeon, 40 cb), then Chaeldar in Zanaris (70 cb, needs Lost City).",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-316",
@@ -4318,7 +4502,9 @@
         "skill": "MAGIC",
         "level": 75,
         "cmp": ">="
-      }
+      },
+      "note": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "qo-320",
@@ -4329,7 +4515,9 @@
         "skill": "SMITHING",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training"
     },
     {
       "id": "qo-321",
@@ -4370,7 +4558,9 @@
         "skill": "FARMING",
         "level": 65,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "qo-324",
@@ -4381,7 +4571,9 @@
         "skill": "THIEVING",
         "level": 72,
         "cmp": ">="
-      }
+      },
+      "note": "Blackjack Menaphite Thugs in Pollnivneach (fastest to 84); Pyramid Plunder becomes fastest past 91.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "qo-325",
@@ -4407,7 +4599,9 @@
         "skill": "CONSTRUCTION",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "qo-327",
@@ -4418,7 +4612,9 @@
         "skill": "FARMING",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "qo-328",
@@ -4429,7 +4625,9 @@
         "skill": "HERBLORE",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "qo-329",
@@ -4440,7 +4638,9 @@
         "skill": "HUNTER",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "qo-330",
@@ -4466,7 +4666,9 @@
         "skill": "FIREMAKING",
         "level": 75,
         "cmp": ">="
-      }
+      },
+      "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "qo-332",
@@ -4477,7 +4679,9 @@
         "skill": "RUNECRAFT",
         "level": 60,
         "cmp": ">="
-      }
+      },
+      "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training"
     },
     {
       "id": "qo-333",
@@ -4503,7 +4707,9 @@
         "skill": "SLAYER",
         "level": 74,
         "cmp": ">="
-      }
+      },
+      "note": "Use the highest master you can: Konar (75 cb), Nieve/Steve (85 cb), then Duradel (100 cb+50 Slay); switch two masters for milestone points.",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "qo-335",
@@ -4515,6 +4721,8 @@
         "level": 74,
         "cmp": ">="
       },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
         3192,
         3223,
@@ -4530,7 +4738,9 @@
         "skill": "SMITHING",
         "level": 72,
         "cmp": ">="
-      }
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training"
     },
     {
       "id": "qo-337",
@@ -4541,7 +4751,9 @@
         "skill": "COOKING",
         "level": 72,
         "cmp": ">="
-      }
+      },
+      "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "qo-338",
@@ -4552,7 +4764,9 @@
         "skill": "FLETCHING",
         "level": 70,
         "cmp": ">="
-      }
+      },
+      "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "qo-339",

@@ -187,6 +187,8 @@
         "level": 16,
         "cmp": ">="
       },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
       "world": [
         2698,
         3396,
@@ -407,6 +409,7 @@
         "quest": "SHADES_OF_MORTTON",
         "state": "FINISHED"
       },
+      "item": 33138,
       "world": [
         3481,
         3279,
@@ -423,6 +426,8 @@
         "level": 43,
         "cmp": ">="
       },
+      "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
       "world": [
         3126,
         3635,

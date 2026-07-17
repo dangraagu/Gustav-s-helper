@@ -82,6 +82,7 @@ def main():
         return
     print("loading shared enricher data ...")
     item_map = sg.fetch_item_map()
+    sg.build_item_index(item_map)
     quest_map = sg.load_quest_map()
     sg.load_location_coords()
     nqs = sg.load_quest_start(quest_map)
@@ -89,6 +90,7 @@ def main():
     nres = sg.load_resources()
     sg.load_manual()
     sg.load_qh_steps()
+    sg.load_skill_methods()
     entities = sg.load_qh_entities()
     print(f"  ({nqs} quest-start tiles, {len(sg.GAZETTEER)} locations, {nam} town amenities, "
           f"{nres} resource sites bridged)")
