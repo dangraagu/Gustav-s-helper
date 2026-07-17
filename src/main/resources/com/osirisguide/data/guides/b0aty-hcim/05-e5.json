@@ -2827,12 +2827,12 @@
           {
             "op": "itemAcquired",
             "id": 590,
-            "qty": 32
+            "qty": 30
           },
           {
             "op": "item",
             "id": 590,
-            "qty": 32,
+            "qty": 30,
             "scope": "ANY"
           }
         ]

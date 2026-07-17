@@ -137,6 +137,74 @@ def load_item_aliases():
     return len(ITEM_ALIASES)
 
 
+# Seller stock: "buy X from <seller>" resolves X against what that seller ACTUALLY sells (so the
+# guide's colloquial "wine" -> Fortunato's "Jug of wine"). seller name -> [(normalised item name, id)].
+SHOP_STOCK = {}
+_SELLER_STOP = {"buy", "buys", "buying", "purchase", "from", "talk", "to", "get", "hop", "worlds",
+                "and", "the", "a", "of", "for", "your", "some", "then", "at", "in", "on", "with",
+                "world", "each", "one", "few"}
+
+
+def load_shop_stock():
+    p = Path(__file__).parent / "data" / "shop_stock.json"
+    if not p.exists():
+        return 0
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read shop_stock.json ({e})", file=sys.stderr)
+        return 0
+    for seller, info in data.items():
+        if seller.startswith("_") or not isinstance(info, dict):
+            continue
+        items = [(_norm(it["name"]).strip(), int(it["id"]))
+                 for it in info.get("items", []) if it.get("name") and it.get("id") is not None]
+        if items:
+            SHOP_STOCK[seller.strip().lower()] = items
+    return len(SHOP_STOCK)
+
+
+def _content_words(padded):
+    return {w for w in padded.split() if len(w) >= 3 and w not in _SELLER_STOP}
+
+
+def detect_seller(padded):
+    """Longest known seller name appearing in the step text."""
+    best = None
+    for seller in SHOP_STOCK:
+        if (" " + seller + " ") in padded and (best is None or len(seller) > len(best)):
+            best = seller
+    return best
+
+
+def shop_item_match(text):
+    """Match the bought item against the named seller's real stock. Returns (id, qty) or None. Prefers
+    a stock item whose name contains all the step's item words; ties -> shortest name, then lowest id."""
+    if not SHOP_STOCK:
+        return None
+    padded = _norm(text)
+    seller = detect_seller(padded)
+    if not seller:
+        return None
+    phrase = _content_words(padded) - _content_words(" " + seller + " ")
+    if not phrase:
+        return None
+    best = None
+    for name, iid in SHOP_STOCK[seller]:
+        ntok = {w for w in name.split() if len(w) >= 3}
+        if not (phrase & ntok):
+            continue
+        subset = phrase <= ntok
+        score = (1 if subset else 0, -len(name), -iid)  # all words matched > shorter name > lower id
+        if best is None or score > best[0]:
+            best = (score, iid)
+    if best is None:
+        return None
+    nums = [int(m.group()) for m in _INT_RE.finditer(padded)]
+    qty = max(1, min(nums[0] if nums else 1, 100000))
+    return (best[1], qty)
+
+
 def fetch_item_map():
     """name(lowercased) -> item id, from the OSRS Wiki tradeable-item mapping."""
     try:
@@ -244,6 +312,12 @@ def detect_item_id_qty(text: str, item_map):
     low = text.lower()
     if not any(v in low for v in ACQUIRE_VERBS):
         return None
+    # A named seller's stock is AUTHORITATIVE for "buy X from <seller>" — it beats a greedy generic
+    # real-name match ("air staff" -> Staff of air, not the plain Staff). Only fires when the bought
+    # item is actually in that seller's stock; otherwise fall through to real-name matching.
+    sm = shop_item_match(text)
+    if sm:
+        return sm
     padded = _norm(text)
     best_name, best_id = None, None
     for name, iid in item_map.items():
@@ -252,8 +326,9 @@ def detect_item_id_qty(text: str, item_map):
         if (" " + name + " ") in padded or (" " + name + "s ") in padded:
             if best_name is None or len(name) > len(best_name):
                 best_name, best_id = name, iid
-    if best_id is None and ITEM_ALIASES:
-        # real item name missed — try a colloquial alias ("wine" -> Jug of wine). Longest phrase wins.
+    if best_id is None:
+        # Real item name missed and no seller stock matched — try a colloquial alias ("wine" with no
+        # named seller -> Jug of wine).
         for phrase, iid in ITEM_ALIASES.items():
             if (" " + phrase + " ") in padded and (best_name is None or len(phrase) > len(best_name)):
                 best_name, best_id = phrase, iid
@@ -1174,6 +1249,7 @@ def main():
     item_map = fetch_item_map()
     build_item_index(item_map)
     load_item_aliases()
+    load_shop_stock()
     quest_map = load_quest_map()
     load_location_coords()
     nqs = load_quest_start(quest_map)
