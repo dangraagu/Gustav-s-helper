@@ -3,12 +3,6 @@ BSD 2-Clause License
 Copyright (c) 2026, dangraagu
 All rights reserved.
 
-Portions of this software (world/minimap direction-arrow rendering and the
-requirement display model) are adapted from RuneLite Quest Helper,
-Copyright (c) 2019-2024, Zoinkwiz and contributors, also under the BSD 2-Clause
-License. The original copyright notices are retained in the affected source
-files. See NOTICE for attribution details.
-
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
