@@ -543,7 +543,66 @@
       "id": "e4-035",
       "title": "Discover the wall for Diary [Karamja …",
       "text": "Discover the wall for Diary [Karamja Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "and",
+        "of": [
+          {
+            "op": "diary",
+            "area": "ardougne",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "desert",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "falador",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "fremennik",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "kandarin",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "kourend",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "lumbridge",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "morytania",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "varrock",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "western",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "wilderness",
+            "tier": "medium"
+          }
+        ]
+      },
       "world": [
         2809,
         3194,

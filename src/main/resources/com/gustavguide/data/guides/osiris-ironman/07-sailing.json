@@ -118,13 +118,30 @@
       "manual": true
     },
     {
-      "id": "sail-010",
+      "id": "sail-010a",
+      "title": "At 62 Sailing, unlock Wyrmscraig",
+      "text": "At 62 Sailing, unlock Wyrmscraig\nLocation: Wyrmscraig",
+      "manual": true
+    },
+    {
+      "id": "sail-010b",
+      "title": "complete Fallen From Grace (also needs …",
+      "text": "complete Fallen From Grace (also needs 6\nLocation: Wyrmscraig",
+      "manual": true,
+      "world": [
+        3186,
+        2405,
+        0
+      ]
+    },
+    {
+      "id": "sail-011",
       "title": "Higher milestones: Gwenith Glide Barracuda Trial …",
       "text": "Higher milestones: Gwenith Glide Barracuda Trial (72), Crystal Extractor (73)\nLocation: Various",
       "manual": true
     },
     {
-      "id": "sail-011",
+      "id": "sail-012",
       "title": "Deep-sea trawling for Marlin -> Extended …",
       "text": "Deep-sea trawling for Marlin -> Extended Stamina potions (85 Herblore + a mar\nLocation: Various",
       "manual": true

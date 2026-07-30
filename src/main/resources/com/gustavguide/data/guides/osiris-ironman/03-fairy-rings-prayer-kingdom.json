@@ -251,11 +251,14 @@
       "id": "frp-016",
       "title": "Do Elemental workshop 2",
       "text": "Do Elemental workshop 2\nLocation: Seers Village",
-      "manual": true,
-      "object": 3415,
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_II",
+        "state": "FINISHED"
+      },
       "world": [
-        2711,
-        3498,
+        3367,
+        3335,
         0
       ]
     },

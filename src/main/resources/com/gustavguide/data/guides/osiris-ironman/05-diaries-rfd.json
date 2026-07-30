@@ -218,7 +218,121 @@
       "id": "dr-014",
       "title": "Do all easy and medium diaries",
       "text": "Do all easy and medium diaries\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "and",
+        "of": [
+          {
+            "op": "diary",
+            "area": "ardougne",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "desert",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "falador",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "fremennik",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "kandarin",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "kourend",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "lumbridge",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "morytania",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "varrock",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "western",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "wilderness",
+            "tier": "medium"
+          },
+          {
+            "op": "diary",
+            "area": "ardougne",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "desert",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "falador",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "fremennik",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "kandarin",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "kourend",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "lumbridge",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "morytania",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "varrock",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "western",
+            "tier": "easy"
+          },
+          {
+            "op": "diary",
+            "area": "wilderness",
+            "tier": "easy"
+          }
+        ]
+      }
     },
     {
       "id": "dr-015",

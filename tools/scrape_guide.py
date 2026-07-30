@@ -1219,9 +1219,14 @@ def detect_diary(text: str):
     if "diar" not in t or len(text or "") > _DIARY_MAX_LEN:
         return None
     area = next((a for a in _DIARY_AREAS if a in t), None)
-    tier = next((tr for tr in _DIARY_TIERS if tr in t), None)
-    if area and tier:
-        return {"op": "diary", "area": area, "tier": tier}
+    tiers = [tr for tr in _DIARY_TIERS if tr in t]
+    if area and tiers:
+        return {"op": "diary", "area": area, "tier": tiers[0]}  # one specific diary
+    # Bulk goal: "do all easy and medium diaries" (tier(s), no single area) -> completed only when
+    # every one of the 11 standard areas' listed tiers is done. Karamja is excluded (not in the list).
+    if tiers and not area and ("all" in t or "diaries" in t):
+        of = [{"op": "diary", "area": a, "tier": tr} for tr in tiers for a in _DIARY_AREAS]
+        return {"op": "and", "of": of}
     return None
 
 

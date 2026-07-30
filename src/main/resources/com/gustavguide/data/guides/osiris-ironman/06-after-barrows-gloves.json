@@ -276,14 +276,11 @@
       "id": "abg-021",
       "title": "If you have around 65/80/65 melee …",
       "text": "If you have around 65/80/65 melee stats now, do Making friends with my arm qu\nLocation: Weiss",
-      "complete": {
-        "op": "quest",
-        "quest": "MAKING_FRIENDS_WITH_MY_ARM",
-        "state": "FINISHED"
-      },
+      "manual": true,
+      "npc": 742,
       "world": [
-        2839,
-        3690,
+        2830,
+        3698,
         0
       ]
     },
@@ -352,10 +349,14 @@
       "id": "abg-026",
       "title": "Do Mage arena 2",
       "text": "Do Mage arena 2\nLocation: Mage Arena",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MAGE_ARENA_II",
+        "state": "FINISHED"
+      },
       "world": [
-        3106,
-        3915,
+        3090,
+        3956,
         0
       ]
     },
@@ -548,10 +549,14 @@
       "id": "abg-039",
       "title": "Do Dragon slayer 2",
       "text": "Do Dragon slayer 2\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_II",
+        "state": "FINISHED"
+      },
       "world": [
-        3210,
-        3448,
+        2458,
+        2869,
         0
       ]
     },
@@ -561,8 +566,8 @@
       "text": "Start using kingdom again now that you'll be getting constant GP easily, put\nLocation: Miscellania",
       "manual": true,
       "world": [
-        3209,
-        3215,
+        2560,
+        3870,
         0
       ]
     },

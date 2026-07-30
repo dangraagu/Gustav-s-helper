@@ -4851,11 +4851,14 @@
       "id": "eg-279",
       "title": "Do Elemental workshop 1",
       "text": "Do Elemental workshop 1\nLocation: Seers Village",
-      "manual": true,
-      "object": 3415,
+      "complete": {
+        "op": "quest",
+        "quest": "ELEMENTAL_WORKSHOP_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2711,
-        3498,
+        2716,
+        3482,
         0
       ]
     },

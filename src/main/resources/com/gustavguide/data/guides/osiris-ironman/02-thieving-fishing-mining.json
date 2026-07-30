@@ -476,7 +476,11 @@
       "id": "tfm-031",
       "title": "Complete Varrock easy diary for the …",
       "text": "Complete Varrock easy diary for the armour, makes next step a bit faster\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
+      },
       "world": [
         3206,
         3417,
