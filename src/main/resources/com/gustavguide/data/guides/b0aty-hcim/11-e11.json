@@ -241,7 +241,11 @@
       "id": "e11-016",
       "title": "Complete a Hard Temple Trek [Morytania …",
       "text": "Complete a Hard Temple Trek [Morytania Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "hard"
+      },
       "npc": 1563,
       "world": [
         3477,
@@ -297,7 +301,11 @@
       "id": "e11-019",
       "title": "Enter the Nature Grotto & pray …",
       "text": "Enter the Nature Grotto & pray piety on the Altar [Morytania Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "hard"
+      },
       "object": 3516,
       "world": [
         3440,
@@ -324,7 +332,11 @@
       "id": "e11-021",
       "title": "Mine a Mithril Deposit [Morytania Hard …",
       "text": "Mine a Mithril Deposit [Morytania Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "hard"
+      },
       "world": [
         3304,
         3305,
@@ -335,18 +347,16 @@
       "id": "e11-022",
       "title": "Teleport to POH -> Kharyrll Portal …",
       "text": "Teleport to POH -> Kharyrll Portal [Morytania Hard Diary]",
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "hard"
+      },
       "world": [
         3440,
         3232,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3440,
-        "y": 3232,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e11-023a",
@@ -363,7 +373,11 @@
       "id": "e11-023b",
       "title": "climb both of the Spike climbs …",
       "text": "climb both of the Spike climbs [Morytania Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "hard"
+      },
       "world": [
         3440,
         3232,
@@ -455,7 +469,11 @@
       "id": "e11-032b",
       "title": "complete Morytania Medium & Hard Diary",
       "text": "complete Morytania Medium & Hard Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "hard"
+      },
       "object": 22355,
       "world": [
         3795,
@@ -485,7 +503,11 @@
       "id": "e11-035",
       "title": "Check Health on Palm Tree [Western …",
       "text": "Check Health on Palm Tree [Western Province Hard Diary]",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "hard"
+      }
     },
     {
       "id": "e11-036",
@@ -497,7 +519,11 @@
       "id": "e11-037",
       "title": "Kill a Dust Devil wearing the …",
       "text": "Kill a Dust Devil wearing the Slayer Helmet [Desert Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "hard"
+      },
       "world": [
         1713,
         10020,
@@ -570,7 +596,11 @@
       "id": "e11-043",
       "title": "Complete Desert Hard Diary at Jarr …",
       "text": "Complete Desert Hard Diary at Jarr (Lamp on Herblore)",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "hard"
+      },
       "npc": 5520,
       "world": [
         3303,
@@ -661,7 +691,11 @@
       "id": "e11-050",
       "title": "Cast Monster Examine on a Troll …",
       "text": "Cast Monster Examine on a Troll [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         1657,
         3505,
@@ -678,7 +712,11 @@
       "id": "e11-052",
       "title": "Mine a Lovakite Ore [Kourend Hard …",
       "text": "Mine a Lovakite Ore [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         1435,
         3855,
@@ -695,7 +733,11 @@
       "id": "e11-054",
       "title": "Smelt an Adamant Bar [Kourend Hard …",
       "text": "Smelt an Adamant Bar [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "object": 2097,
       "world": [
         3190,
@@ -713,7 +755,11 @@
       "id": "e11-056",
       "title": "Deliver an Artefact to Captain Khaled …",
       "text": "Deliver an Artefact to Captain Khaled [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "npc": 6971,
       "world": [
         1845,
@@ -737,7 +783,11 @@
       "id": "e11-058",
       "title": "Plant a Logavano Seed at the …",
       "text": "Plant a Logavano Seed at the Tithe Farm [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         1823,
         3497,
@@ -760,7 +810,11 @@
       "id": "e11-060",
       "title": "Enter the Woodcut Guild [Kourend Hard …",
       "text": "Enter the Woodcut Guild [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         1614,
         3499,
@@ -794,7 +848,11 @@
       "id": "e11-063",
       "title": "Kill a Zombie in the Shayzien …",
       "text": "Kill a Zombie in the Shayzien Crypts [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         3122,
         9658,
@@ -1001,7 +1059,11 @@
       "id": "e11-076b",
       "title": "kill 1 Wyrm [Kourend Hard Diary]",
       "text": "kill 1 Wyrm [Kourend Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         1657,
         3505,
@@ -1012,24 +1074,26 @@
       "id": "e11-077",
       "title": "Teleport to Xerics Heart on Xerics …",
       "text": "Teleport to Xerics Heart on Xerics Talisman [Kourend Hard Diary]",
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         1657,
         3505,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1657,
-        "y": 3505,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e11-078",
       "title": "Talk to Tyss to complete Kourend …",
       "text": "Talk to Tyss to complete Kourend Hard Diary (Lamp on Herblore)",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "hard"
+      },
       "world": [
         1714,
         3883,

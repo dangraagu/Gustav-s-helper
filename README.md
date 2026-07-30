@@ -12,6 +12,9 @@ detects your skills, quests, items, and varbits changing.
 > RuneLite **Quest Helper** (BSD-2-Clause). See [`NOTICE`](NOTICE). Not affiliated with
 > Jagex, Oziris, or ironman.guide.
 
+> **Want another guide added?** Open a [GitHub issue](https://github.com/dangraagu/Gustav-s-helper/issues)
+> suggesting the guide (link + author) and it can be considered for a future release.
+
 ## How it works
 
 - The route is a **data file** (`src/main/resources/com/gustavguide/data/route/*.json`) —

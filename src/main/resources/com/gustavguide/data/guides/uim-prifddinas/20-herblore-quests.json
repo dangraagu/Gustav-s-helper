@@ -325,7 +325,11 @@
       "id": "herblore-quests-022a",
       "title": "Complete the Ardougne easy diary",
       "text": "Complete the Ardougne easy diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "world": [
         2566,
         3083,

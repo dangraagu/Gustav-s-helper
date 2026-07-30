@@ -32,7 +32,11 @@
       "id": "qd-003",
       "title": "Complete the hard Western Provinces Diary",
       "text": "Complete the hard Western Provinces Diary",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "hard"
+      }
     }
   ]
 }

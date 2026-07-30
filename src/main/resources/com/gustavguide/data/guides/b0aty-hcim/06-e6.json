@@ -45,18 +45,16 @@
       "id": "e6-003",
       "title": "Head North & cut a Mahogany …",
       "text": "Head North & cut a Mahogany Log [Kourend Medium Diary]",
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "medium"
+      },
       "world": [
         1630,
         3730,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1630,
-        "y": 3730,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e6-004",
@@ -74,7 +72,11 @@
       "id": "e6-005",
       "title": "Talk to Elise & complete Kourend …",
       "text": "Talk to Elise & complete Kourend Medium Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "medium"
+      },
       "npc": 8538,
       "world": [
         1647,
@@ -378,7 +380,11 @@
       "id": "e6-033",
       "title": "Use Earth Runes on Fire Altar …",
       "text": "Use Earth Runes on Fire Altar [Lumbridge Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "medium"
+      },
       "world": [
         3273,
         3195,
@@ -587,7 +593,11 @@
       "id": "e6-051",
       "title": "Kill a Brine Rat [Fremennik Medium …",
       "text": "Kill a Brine Rat [Fremennik Medium Diary]",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "fremennik",
+        "tier": "medium"
+      }
     },
     {
       "id": "e6-052",

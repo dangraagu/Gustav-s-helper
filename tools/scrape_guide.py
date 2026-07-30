@@ -1199,6 +1199,32 @@ TRAVEL_RADIUS = 8  # tiles; wide enough to register an area arrival, tight enoug
                    # waypoints in one town don't overlap too much (kept small on purpose)
 
 
+# Achievement-diary completion syncs like skills/quests: a "complete <area> <tier> diary" step
+# auto-completes once that tier's completion varbit is set (resolved to a Varbits.DIARY_* id in Java).
+# Karamja is intentionally omitted — its completion varbits aren't clean 0/1 flags like the other areas.
+_DIARY_AREAS = ("ardougne", "desert", "falador", "fremennik", "kandarin", "kourend",
+                "lumbridge", "morytania", "varrock", "western", "wilderness")
+_DIARY_TIERS = ("elite", "hard", "medium", "easy")
+
+
+_DIARY_MAX_LEN = 85  # a diary step is a short task/goal; longer = prose where the diary is incidental
+
+
+def detect_diary(text: str):
+    """A step whose SUBJECT is an achievement diary (a short "<area> <tier> diary" task/goal) -> a
+    diary completion condition, so it auto-syncs like a skill/quest on an already-advanced account.
+    Deliberately skips long prose steps that only mention a diary in passing (e.g. a big grind whose
+    completion is NOT the same as the whole diary tier being done)."""
+    t = (text or "").lower()
+    if "diar" not in t or len(text or "") > _DIARY_MAX_LEN:
+        return None
+    area = next((a for a in _DIARY_AREAS if a in t), None)
+    tier = next((tr for tr in _DIARY_TIERS if tr in t), None)
+    if area and tier:
+        return {"op": "diary", "area": area, "tier": tier}
+    return None
+
+
 def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative, total_needed, entities,
                sub=None, anchor=None):
     sid = f"{prefix}-{position:03d}" if isinstance(position, int) else f"{prefix}-{position}"
@@ -1210,8 +1236,8 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     step = {"id": sid, "title": heading(name), "text": text}
     if url and isinstance(url, str) and url.startswith("http"):
         step["wiki"] = url
-    # Precedence: skill target > quest completion > item acquisition (different kinds of goal).
-    cond = detect_skill(name) or detect_quest(name, quest_map)
+    # Precedence: skill target > quest completion > achievement-diary completion > item acquisition.
+    cond = detect_skill(name) or detect_quest(name, quest_map) or detect_diary(name)
     item_id = None
     if not cond:
         iq = detect_item_id_qty(name, item_map)

@@ -176,4 +176,22 @@ public class ConditionFactoryTest
 		// A valid id still builds a real condition.
 		assertNotEquals("manual", parse("{\"op\":\"varbit\",\"id\":100,\"value\":1}").describe());
 	}
+
+	@Test
+	public void diaryConditionSyncsToTierVarbit()
+	{
+		// Diary steps auto-sync like skills/quests: they resolve to the tier's completion varbit.
+		// 4458 == Varbits.DIARY_ARDOUGNE_EASY, 4461 == DIARY_ARDOUGNE_ELITE — hard-coded here so a
+		// wrong area/tier -> varbit mapping is caught.
+		Client client = mock(Client.class);
+		when(client.getVarbitValue(4458)).thenReturn(1);   // Ardougne easy complete
+		when(client.getVarbitValue(4461)).thenReturn(0);   // Ardougne elite not complete
+		ConditionContext ctx = new ConditionContext(client);
+
+		assertTrue(parse("{\"op\":\"diary\",\"area\":\"ardougne\",\"tier\":\"easy\"}").isMet(ctx));
+		assertFalse(parse("{\"op\":\"diary\",\"area\":\"ardougne\",\"tier\":\"elite\"}").isMet(ctx));
+		// Unknown area/tier, and the intentionally-excluded Karamja, degrade to MANUAL (never auto-skip).
+		assertEquals("manual", parse("{\"op\":\"diary\",\"area\":\"atlantis\",\"tier\":\"easy\"}").describe());
+		assertEquals("manual", parse("{\"op\":\"diary\",\"area\":\"karamja\",\"tier\":\"easy\"}").describe());
+	}
 }

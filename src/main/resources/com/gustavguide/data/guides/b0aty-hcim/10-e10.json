@@ -705,7 +705,11 @@
       "id": "e10-045",
       "title": "Complete a lap of Pollnivneach Agility …",
       "text": "Complete a lap of Pollnivneach Agility Course [Desert Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "hard"
+      },
       "world": [
         3228,
         3109,
@@ -757,7 +761,11 @@
       "id": "e10-049",
       "title": "Return to the maze & kill …",
       "text": "Return to the maze & kill the ranger Locus Rider nearby [Desert Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "hard"
+      },
       "world": [
         3228,
         3109,
@@ -822,7 +830,11 @@
       "id": "e10-053",
       "title": "Light a fire on the Mayor’s …",
       "text": "Light a fire on the Mayor’s Balcony [Desert Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "hard"
+      },
       "world": [
         3228,
         3109,
@@ -833,7 +845,11 @@
       "id": "e10-054",
       "title": "Smith a Mithril Platebody [Desert Hard …",
       "text": "Smith a Mithril Platebody [Desert Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "hard"
+      },
       "world": [
         3228,
         3109,
@@ -928,7 +944,7 @@
           {
             "op": "itemAcquired",
             "id": 1523,
-            "qty": 52
+            "qty": 27
           },
           {
             "op": "item",

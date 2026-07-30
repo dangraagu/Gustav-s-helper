@@ -22,11 +22,14 @@ import com.gustavguide.engine.condition.SkillCondition;
 import com.gustavguide.engine.condition.VarbitCondition;
 import com.gustavguide.engine.condition.VarpCondition;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Quest;
 import net.runelite.api.QuestState;
 import net.runelite.api.Skill;
+import net.runelite.api.Varbits;
 import net.runelite.api.coords.WorldPoint;
 
 /**
@@ -42,6 +45,59 @@ public final class ConditionFactory
 {
 	/** Default arrival radius (tiles) for a position condition when the data omits an explicit one. */
 	private static final int DEFAULT_POSITION_RADIUS = 8;
+
+	/** Achievement-diary completion varbits (>= 1 when that tier is complete), keyed "area|tier".
+	 *  Lets a diary step auto-sync at login like a skill/quest. Karamja is intentionally omitted —
+	 *  its completion varbits aren't clean 0/1 flags like the other 11 areas. */
+	private static final Map<String, Integer> DIARY_VARBITS = new HashMap<>();
+
+	static
+	{
+		DIARY_VARBITS.put("ardougne|easy", Varbits.DIARY_ARDOUGNE_EASY);
+		DIARY_VARBITS.put("ardougne|medium", Varbits.DIARY_ARDOUGNE_MEDIUM);
+		DIARY_VARBITS.put("ardougne|hard", Varbits.DIARY_ARDOUGNE_HARD);
+		DIARY_VARBITS.put("ardougne|elite", Varbits.DIARY_ARDOUGNE_ELITE);
+		DIARY_VARBITS.put("desert|easy", Varbits.DIARY_DESERT_EASY);
+		DIARY_VARBITS.put("desert|medium", Varbits.DIARY_DESERT_MEDIUM);
+		DIARY_VARBITS.put("desert|hard", Varbits.DIARY_DESERT_HARD);
+		DIARY_VARBITS.put("desert|elite", Varbits.DIARY_DESERT_ELITE);
+		DIARY_VARBITS.put("falador|easy", Varbits.DIARY_FALADOR_EASY);
+		DIARY_VARBITS.put("falador|medium", Varbits.DIARY_FALADOR_MEDIUM);
+		DIARY_VARBITS.put("falador|hard", Varbits.DIARY_FALADOR_HARD);
+		DIARY_VARBITS.put("falador|elite", Varbits.DIARY_FALADOR_ELITE);
+		DIARY_VARBITS.put("fremennik|easy", Varbits.DIARY_FREMENNIK_EASY);
+		DIARY_VARBITS.put("fremennik|medium", Varbits.DIARY_FREMENNIK_MEDIUM);
+		DIARY_VARBITS.put("fremennik|hard", Varbits.DIARY_FREMENNIK_HARD);
+		DIARY_VARBITS.put("fremennik|elite", Varbits.DIARY_FREMENNIK_ELITE);
+		DIARY_VARBITS.put("kandarin|easy", Varbits.DIARY_KANDARIN_EASY);
+		DIARY_VARBITS.put("kandarin|medium", Varbits.DIARY_KANDARIN_MEDIUM);
+		DIARY_VARBITS.put("kandarin|hard", Varbits.DIARY_KANDARIN_HARD);
+		DIARY_VARBITS.put("kandarin|elite", Varbits.DIARY_KANDARIN_ELITE);
+		DIARY_VARBITS.put("kourend|easy", Varbits.DIARY_KOUREND_EASY);
+		DIARY_VARBITS.put("kourend|medium", Varbits.DIARY_KOUREND_MEDIUM);
+		DIARY_VARBITS.put("kourend|hard", Varbits.DIARY_KOUREND_HARD);
+		DIARY_VARBITS.put("kourend|elite", Varbits.DIARY_KOUREND_ELITE);
+		DIARY_VARBITS.put("lumbridge|easy", Varbits.DIARY_LUMBRIDGE_EASY);
+		DIARY_VARBITS.put("lumbridge|medium", Varbits.DIARY_LUMBRIDGE_MEDIUM);
+		DIARY_VARBITS.put("lumbridge|hard", Varbits.DIARY_LUMBRIDGE_HARD);
+		DIARY_VARBITS.put("lumbridge|elite", Varbits.DIARY_LUMBRIDGE_ELITE);
+		DIARY_VARBITS.put("morytania|easy", Varbits.DIARY_MORYTANIA_EASY);
+		DIARY_VARBITS.put("morytania|medium", Varbits.DIARY_MORYTANIA_MEDIUM);
+		DIARY_VARBITS.put("morytania|hard", Varbits.DIARY_MORYTANIA_HARD);
+		DIARY_VARBITS.put("morytania|elite", Varbits.DIARY_MORYTANIA_ELITE);
+		DIARY_VARBITS.put("varrock|easy", Varbits.DIARY_VARROCK_EASY);
+		DIARY_VARBITS.put("varrock|medium", Varbits.DIARY_VARROCK_MEDIUM);
+		DIARY_VARBITS.put("varrock|hard", Varbits.DIARY_VARROCK_HARD);
+		DIARY_VARBITS.put("varrock|elite", Varbits.DIARY_VARROCK_ELITE);
+		DIARY_VARBITS.put("western|easy", Varbits.DIARY_WESTERN_EASY);
+		DIARY_VARBITS.put("western|medium", Varbits.DIARY_WESTERN_MEDIUM);
+		DIARY_VARBITS.put("western|hard", Varbits.DIARY_WESTERN_HARD);
+		DIARY_VARBITS.put("western|elite", Varbits.DIARY_WESTERN_ELITE);
+		DIARY_VARBITS.put("wilderness|easy", Varbits.DIARY_WILDERNESS_EASY);
+		DIARY_VARBITS.put("wilderness|medium", Varbits.DIARY_WILDERNESS_MEDIUM);
+		DIARY_VARBITS.put("wilderness|hard", Varbits.DIARY_WILDERNESS_HARD);
+		DIARY_VARBITS.put("wilderness|elite", Varbits.DIARY_WILDERNESS_ELITE);
+	}
 
 	private ConditionFactory()
 	{
@@ -148,6 +204,18 @@ public final class ConditionFactory
 					return ConstantCondition.MANUAL;
 				}
 				return new VarpCondition(id, getInt(o, "value", 0), Op.fromString(getString(o, "cmp", ">=")));
+			}
+			case "diary":
+			{
+				// Achievement-diary completion syncs like a skill/quest: the tier's varbit is >= 1 when done.
+				Integer vb = DIARY_VARBITS.get(
+					getString(o, "area", "").toLowerCase() + "|" + getString(o, "tier", "").toLowerCase());
+				if (vb == null)
+				{
+					log.warn("Gustav's Helper: unknown diary area/tier in step '{}'", stepId);
+					return ConstantCondition.MANUAL;
+				}
+				return new VarbitCondition(vb, 1, Op.fromString(">="));
 			}
 			case "position":
 			case "reached":

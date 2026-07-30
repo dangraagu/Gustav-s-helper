@@ -405,7 +405,11 @@
       "id": "qo-028",
       "title": "Easy Ardougne Diary",
       "text": "Easy Ardougne Diary\nLocation: Ardougne",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "world": [
         2624,
         3300,
@@ -2054,7 +2058,11 @@
       "id": "qo-141",
       "title": "Easy Varrock Diary",
       "text": "Easy Varrock Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
+      },
       "world": [
         3210,
         3448,
@@ -2065,7 +2073,11 @@
       "id": "qo-142",
       "title": "Easy Desert Diary",
       "text": "Easy Desert Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "world": [
         3304,
         3116,
@@ -2121,7 +2133,11 @@
       "id": "qo-146",
       "title": "Easy Falador Diary",
       "text": "Easy Falador Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "easy"
+      },
       "world": [
         2947,
         3382,
@@ -3286,7 +3302,11 @@
       "id": "qo-229",
       "title": "Medium Ardougne Diary",
       "text": "Medium Ardougne Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "medium"
+      },
       "world": [
         2624,
         3300,
@@ -3297,7 +3317,11 @@
       "id": "qo-230",
       "title": "Medium Falador Diary",
       "text": "Medium Falador Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "medium"
+      },
       "world": [
         2932,
         3213,
@@ -3308,7 +3332,11 @@
       "id": "qo-231",
       "title": "Medium Varrock Diary",
       "text": "Medium Varrock Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "medium"
+      },
       "world": [
         3195,
         3404,
@@ -3332,7 +3360,11 @@
       "id": "qo-233",
       "title": "Medium Kandarin Diary",
       "text": "Medium Kandarin Diary",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "kandarin",
+        "tier": "medium"
+      }
     },
     {
       "id": "qo-234",
@@ -3891,7 +3923,11 @@
       "id": "qo-273",
       "title": "Medium Wilderness Diary",
       "text": "Medium Wilderness Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "wilderness",
+        "tier": "medium"
+      },
       "world": [
         3227,
         3666,
@@ -3913,7 +3949,11 @@
       "id": "qo-275",
       "title": "Medium Kourend & Kebos Diary",
       "text": "Medium Kourend & Kebos Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "medium"
+      },
       "world": [
         2658,
         3230,
@@ -3924,7 +3964,11 @@
       "id": "qo-276",
       "title": "Medium Lumbridge & Draynor Diary",
       "text": "Medium Lumbridge & Draynor Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "medium"
+      },
       "object": 24009,
       "world": [
         3227,
@@ -3936,7 +3980,11 @@
       "id": "qo-277",
       "title": "Medium Morytania Diary",
       "text": "Medium Morytania Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "medium"
+      },
       "world": [
         3440,
         3232,
@@ -4469,7 +4517,11 @@
       "id": "qo-317",
       "title": "Medium Fremennik Diary",
       "text": "Medium Fremennik Diary",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "fremennik",
+        "tier": "medium"
+      },
       "world": [
         2749,
         3732,

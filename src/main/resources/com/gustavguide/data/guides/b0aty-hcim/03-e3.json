@@ -132,7 +132,11 @@
       "id": "e3-008",
       "title": "Use the sack on a hay …",
       "text": "Use the sack on a hay bale [Morytania Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "easy"
+      },
       "object": 8713,
       "world": [
         3019,
@@ -292,7 +296,11 @@
       "id": "e3-020",
       "title": "Ardougne Cape Teleport->ALS [Kandarin Medium Diary]",
       "text": "Ardougne Cape Teleport->ALS [Kandarin Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "medium"
+      },
       "world": [
         2624,
         3300,
@@ -318,7 +326,11 @@
       "id": "e3-022",
       "title": "Plant Jute Seeds in patch [Kandarin …",
       "text": "Plant Jute Seeds in patch [Kandarin Easy Diary] (Supplies in Leprechaun)",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kandarin",
+        "tier": "easy"
+      },
       "world": [
         2841,
         3432,
@@ -367,7 +379,11 @@
       "id": "e3-025",
       "title": "Cross Log to Coal Mine [Kandarin …",
       "text": "Cross Log to Coal Mine [Kandarin Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kandarin",
+        "tier": "easy"
+      },
       "world": [
         3027,
         9724,
@@ -378,7 +394,11 @@
       "id": "e3-026",
       "title": "Mine 1x Coal [Kandarin Easy Diary]",
       "text": "Mine 1x Coal [Kandarin Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kandarin",
+        "tier": "easy"
+      },
       "world": [
         3027,
         9724,
@@ -841,7 +861,11 @@
       "id": "e3-056",
       "title": "Fish a Trout [Varrock Easy Diary] …",
       "text": "Fish a Trout [Varrock Easy Diary] Drop this",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
+      },
       "world": [
         3104,
         3424,
@@ -852,7 +876,11 @@
       "id": "e3-057",
       "title": "Make a Bowl [Varrock Easy Diary] …",
       "text": "Make a Bowl [Varrock Easy Diary] Drop this",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
+      },
       "world": [
         3206,
         3417,
@@ -939,7 +967,11 @@
       "id": "e3-063",
       "title": "Take the shortcut back and forth[Falador …",
       "text": "Take the shortcut back and forth[Falador Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "medium"
+      },
       "world": [
         2932,
         3213,
@@ -1041,7 +1073,11 @@
       "id": "e3-070",
       "title": "Cut the teak tree while here …",
       "text": "Cut the teak tree while here (This must be livestreamed) [Desert Medium Diary]",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "medium"
+      }
     },
     {
       "id": "e3-071",
@@ -1193,7 +1229,11 @@
       "id": "e3-079",
       "title": "Mine 5 clay while yoinking the …",
       "text": "Mine 5 clay while yoinking the bird feather [Desert Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "world": [
         3429,
         9633,
@@ -1204,7 +1244,11 @@
       "id": "e3-080",
       "title": "Catch a Golden warbler [Desert Easy …",
       "text": "Catch a Golden warbler [Desert Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "object": 9375,
       "world": [
         3404,
@@ -1579,22 +1623,10 @@
       "title": "Telegrab a Wine of Zamorak [Falador …",
       "text": "Telegrab a Wine of Zamorak [Falador Medium Diary]",
       "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 245,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 245,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
+        "op": "diary",
+        "area": "falador",
+        "tier": "medium"
       },
-      "item": 245,
       "world": [
         2932,
         3213,
@@ -1954,7 +1986,11 @@
       "id": "e3-128b",
       "title": "burn some oak logs [Fremennik Easy …",
       "text": "burn some oak logs [Fremennik Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "fremennik",
+        "tier": "easy"
+      },
       "world": [
         2724,
         3773,
@@ -1965,7 +2001,11 @@
       "id": "e3-129",
       "title": "Fill a bucket of Water at …",
       "text": "Fill a bucket of Water at the Well [Fremennik Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "fremennik",
+        "tier": "easy"
+      },
       "world": [
         2897,
         10219,
@@ -2288,7 +2328,11 @@
       "id": "e3-151",
       "title": "Do 1 lap of Barbarian Agility …",
       "text": "Do 1 lap of Barbarian Agility [Kandarin Medium Diary]",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "kandarin",
+        "tier": "medium"
+      }
     },
     {
       "id": "e3-152",
@@ -2354,22 +2398,10 @@
       "title": "Steal a cake [Fremennik Easy Diary] …",
       "text": "Steal a cake [Fremennik Easy Diary] (Drop this)",
       "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 1891,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 1891,
-            "qty": 2,
-            "scope": "ANY"
-          }
-        ]
+        "op": "diary",
+        "area": "fremennik",
+        "tier": "easy"
       },
-      "item": 1891,
       "world": [
         2724,
         3773,
@@ -2433,7 +2465,11 @@
       "id": "e3-161",
       "title": "Mine an iron Ore [Kourend Easy …",
       "text": "Mine an iron Ore [Kourend Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "easy"
+      },
       "world": [
         2710,
         3328,
@@ -2586,7 +2622,11 @@
       "id": "e3-172",
       "title": "Ardy Cloak->DIS [Lumbridge Medium Diary]",
       "text": "Ardy Cloak->DIS [Lumbridge Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "medium"
+      },
       "object": 24009,
       "world": [
         3227,
@@ -3142,7 +3182,7 @@
           {
             "op": "itemAcquired",
             "id": 1891,
-            "qty": 2
+            "qty": 1
           },
           {
             "op": "item",
@@ -3163,7 +3203,11 @@
       "id": "e3-206",
       "title": "Cut some Willow Logs & Burn …",
       "text": "Cut some Willow Logs & Burn in Taverley [Falador Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "medium"
+      },
       "object": 16680,
       "world": [
         2884,
@@ -4292,7 +4336,11 @@
       "id": "e3-281",
       "title": "Cut a Hollow Tree [Morytania Medium …",
       "text": "Cut a Hollow Tree [Morytania Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "medium"
+      },
       "world": [
         3440,
         3232,
@@ -4436,7 +4484,11 @@
       "id": "e3-291",
       "title": "Make cannonballs on the Furnance [Morytania …",
       "text": "Make cannonballs on the Furnance [Morytania Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "medium"
+      },
       "world": [
         3440,
         3232,
@@ -4710,7 +4762,11 @@
       "id": "e3-312",
       "title": "Ectophial teleport [Morytania Medium Diary]",
       "text": "Ectophial teleport [Morytania Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "medium"
+      },
       "world": [
         3440,
         3232,
@@ -4988,7 +5044,11 @@
       "id": "e3-331",
       "title": "Get a task from Vannaka [Varrock …",
       "text": "Get a task from Vannaka [Varrock Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "medium"
+      },
       "world": [
         3147,
         9914,
@@ -5002,18 +5062,16 @@
       "id": "e3-332",
       "title": "Go through the pipe to Moss …",
       "text": "Go through the pipe to Moss Giants [Varrock Hard Diary]",
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "hard"
+      },
       "world": [
         3081,
         3420,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3081,
-        "y": 3420,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e3-333",
@@ -5166,7 +5224,11 @@
       "id": "e3-343",
       "title": "Enter Kalphite Lair [Desert Easy Diary]",
       "text": "Enter Kalphite Lair [Desert Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "world": [
         2624,
         3300,
@@ -5210,7 +5272,11 @@
       "id": "e3-346",
       "title": "Enter Player Owned House [Desert Medium …",
       "text": "Enter Player Owned House [Desert Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "medium"
+      },
       "world": [
         2329,
         3495,
@@ -5259,7 +5325,11 @@
       "id": "e3-350",
       "title": "Talk to Zahur to clean a …",
       "text": "Talk to Zahur to clean a Grimy Herb [Desert Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "npc": 4753,
       "world": [
         3425,
@@ -5271,7 +5341,11 @@
       "id": "e3-351",
       "title": "IF 47 Hunter: Catch Orange Salamander …",
       "text": "IF 47 Hunter: Catch Orange Salamander while passing[Desert Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "medium"
+      },
       "world": [
         3165,
         3490,
@@ -5282,7 +5356,11 @@
       "id": "e3-352",
       "title": "Kill a Desert Lizard [Desert Medium …",
       "text": "Kill a Desert Lizard [Desert Medium Diary]",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "medium"
+      }
     },
     {
       "id": "e3-353",
@@ -5314,7 +5392,11 @@
       "id": "e3-355",
       "title": "Pray at Altar for Diary [Desert …",
       "text": "Pray at Altar for Diary [Desert Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "medium"
+      },
       "world": [
         3426,
         2930,
@@ -5364,7 +5446,11 @@
       "id": "e3-359",
       "title": "Kill a Vulture [Desert Easy Diary]",
       "text": "Kill a Vulture [Desert Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "world": [
         3304,
         3116,
@@ -5393,7 +5479,11 @@
       "id": "e3-362",
       "title": "Open the Sarcophagus [Desert Easy Diary]",
       "text": "Open the Sarcophagus [Desert Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "world": [
         3304,
         3116,
@@ -5404,7 +5494,11 @@
       "id": "e3-363",
       "title": "Leave, trade this in at the …",
       "text": "Leave, trade this in at the Agility Pyramid [Desert Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "easy"
+      },
       "object": 11948,
       "world": [
         3335,

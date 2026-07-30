@@ -51,7 +51,11 @@
       "id": "e5-003",
       "title": "Cut Oak Tree & fletch Oak …",
       "text": "Cut Oak Tree & fletch Oak Shortbow. String it [Western Province Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "easy"
+      },
       "world": [
         2474,
         3435,
@@ -77,7 +81,11 @@
       "id": "e5-005",
       "title": "Kill a terrorbird in the enclosure …",
       "text": "Kill a terrorbird in the enclosure to the west [Western Province Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "easy"
+      },
       "npc": 2064,
       "world": [
         2379,
@@ -101,7 +109,11 @@
       "id": "e5-007",
       "title": "Collect a Swamp Toad [Western Province …",
       "text": "Collect a Swamp Toad [Western Province Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "easy"
+      },
       "npc": 1473,
       "world": [
         2602,
@@ -113,7 +125,11 @@
       "id": "e5-008",
       "title": "Score a goal during Gnome Ball …",
       "text": "Score a goal during Gnome Ball [Western Province Easy Diary]",
-      "manual": true
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "easy"
+      }
     },
     {
       "id": "e5-009",
@@ -134,7 +150,11 @@
       "id": "e5-010",
       "title": "Turn the Crystal Seed into a …",
       "text": "Turn the Crystal Seed into a Saw [Western Province Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "medium"
+      },
       "world": [
         2466,
         3495,
@@ -145,7 +165,11 @@
       "id": "e5-011",
       "title": "Teleport to Essence mine via Brimstail …",
       "text": "Teleport to Essence mine via Brimstail [Western Province Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "easy"
+      },
       "object": 17209,
       "world": [
         2403,
@@ -773,22 +797,10 @@
       "title": "Buy Raw Chicken & Redberries from …",
       "text": "Buy Raw Chicken & Redberries from Wydin [Ardougne Medium Diary]",
       "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 2138,
-            "qty": 2
-          },
-          {
-            "op": "item",
-            "id": 2138,
-            "qty": 2,
-            "scope": "ANY"
-          }
-        ]
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "medium"
       },
-      "item": 2138,
       "world": [
         2656,
         3310,
@@ -1011,7 +1023,11 @@
       "id": "e5-067",
       "title": "Take 2x Cave nightshade during the …",
       "text": "Take 2x Cave nightshade during the quest [Ardougne Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "medium"
+      },
       "world": [
         2556,
         3072,
@@ -1650,7 +1666,11 @@
       "id": "e5-105",
       "title": "Upgrade to Ava's Accumulator [Lumbridge Medium …",
       "text": "Upgrade to Ava's Accumulator [Lumbridge Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "medium"
+      },
       "object": 24009,
       "world": [
         3227,
@@ -2515,7 +2535,11 @@
       "id": "e5-164b",
       "title": "pick pet rock up [Fremennik Medium …",
       "text": "pick pet rock up [Fremennik Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "fremennik",
+        "tier": "medium"
+      },
       "world": [
         3165,
         3490,
@@ -2592,7 +2616,11 @@
       "id": "e5-170",
       "title": "Kill a Mogre [Falador Medium Diary]",
       "text": "Kill a Mogre [Falador Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "medium"
+      },
       "npc": 2592,
       "world": [
         2988,
@@ -3032,7 +3060,11 @@
       "id": "e5-200",
       "title": "Take the Balloon back to Entrana …",
       "text": "Take the Balloon back to Entrana then back to Castle Wars [Ardougne Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "medium"
+      },
       "npc": 4062,
       "world": [
         2851,
@@ -3256,7 +3288,11 @@
       "id": "e5-216",
       "title": "Catch a Swamp Lizard [Morytania Medium …",
       "text": "Catch a Swamp Lizard [Morytania Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "morytania",
+        "tier": "medium"
+      },
       "world": [
         3493,
         3488,
@@ -3418,7 +3454,7 @@
           {
             "op": "itemAcquired",
             "id": 1523,
-            "qty": 51
+            "qty": 26
           },
           {
             "op": "item",
@@ -3507,7 +3543,11 @@
       "id": "e5-235",
       "title": "Kill a Shadowhound [Kandarin Hard Diary]",
       "text": "Kill a Shadowhound [Kandarin Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "kandarin",
+        "tier": "hard"
+      },
       "world": [
         2884,
         3397,
@@ -3674,7 +3714,11 @@
       "id": "e5-246",
       "title": "Switch to Regular spells then back …",
       "text": "Switch to Regular spells then back to Ancients [Desert Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "desert",
+        "tier": "hard"
+      },
       "world": [
         3228,
         3109,
@@ -3685,18 +3729,16 @@
       "id": "e5-247",
       "title": "Teleport to Padewana [Varrock Hard Diary]",
       "text": "Teleport to Padewana [Varrock Hard Diary]",
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "hard"
+      },
       "world": [
         3081,
         3420,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3081,
-        "y": 3420,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e5-248",
@@ -3720,7 +3762,7 @@
           {
             "op": "itemAcquired",
             "id": 2003,
-            "qty": 16
+            "qty": 15
           },
           {
             "op": "item",
@@ -4203,7 +4245,11 @@
       "id": "e5-282",
       "title": "Catch Essence/Eclectic Impling [Lumbridge Medium Diary]",
       "text": "Catch Essence/Eclectic Impling [Lumbridge Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "medium"
+      },
       "object": 24009,
       "world": [
         3227,
@@ -4274,7 +4320,11 @@
       "id": "e5-288",
       "title": "Complete Ape Atoll Agility Lap [Western …",
       "text": "Complete Ape Atoll Agility Lap [Western Province Hard Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "hard"
+      },
       "npc": 1454,
       "world": [
         2892,

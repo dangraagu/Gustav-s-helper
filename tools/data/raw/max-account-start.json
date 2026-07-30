@@ -1,15 +1,15 @@
 {
   "id": "max-account-start",
-  "name": "Max — Account Start (Main/Alt)",
+  "name": "heboxjonge — Account Start (Main/Alt)",
   "source": "https://docs.google.com/spreadsheets/d/1vcJ_CKCaTpp-kB51Zg64NpDtinroYkBe7nqxmrpobTY/edit?gid=1314060782",
-  "license": "Community OSRS alt guide by Max (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
+  "license": "Community OSRS alt guide by heboxjonge (Discord: he box jonge#0494), shared publicly via Google Sheets; no explicit content license stated.",
   "sections": [
     {
       "section": "Introduction and general notes",
       "prefix": "intro",
       "steps": [
         { "name": "Welcome. In this guide I give you a fairly optimal questing and skill training route for starting a Main or a new alt", "loc": null },
-        { "name": "feel free to deviate from it and if you encounter any mistakes pls dm me on discord: Max / he box jonge#0494", "loc": null },
+        { "name": "feel free to deviate from it and if you encounter any mistakes pls dm me on discord: heboxjonge (he box jonge#0494)", "loc": null },
         { "name": "VERY IMPORTANT: If you want to make this alt into a slayer lure alt, DO NOT complete the following quests:", "loc": null },
         { "name": "Dragon Slayer 1, Priest in Peril, Elemental workshop, Contact!, Death Plateau, Olaf's quest, Cabin fever, Regicide and Desert Treasure", "loc": null },
         { "name": "Note on Magic training: When away from PC, if possible, fire strike/bolt sand crabs on hosidius beach (Chrome remote desktop / Mobile) (NPC aggression timer)", "loc": null },

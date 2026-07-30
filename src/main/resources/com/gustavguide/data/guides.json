@@ -33,33 +33,33 @@
     },
     {
       "id": "max-account-start",
-      "name": "Max - Account Start (Main/Alt)",
-      "description": "Max's account-start questing + skill-training route, branching into alt types (community Google Sheets guide)."
+      "name": "heboxjonge - Account Start (Main/Alt)",
+      "description": "heboxjonge's account-start questing + skill-training route, branching into alt types (community Google Sheets guide)."
     },
     {
       "id": "max-slayer-lure-alt",
-      "name": "Max - Slayer-Lure Alt",
-      "description": "Max's slayer-lure alt route (community Google Sheets guide)."
+      "name": "heboxjonge - Slayer-Lure Alt",
+      "description": "heboxjonge's slayer-lure alt route (community Google Sheets guide)."
     },
     {
       "id": "max-rune-dragon-ds2-alt",
-      "name": "Max - Rune Dragon / DS2 Alt",
-      "description": "Max's Rune Dragon / Dragon Slayer II alt route (community Google Sheets guide)."
+      "name": "heboxjonge - Rune Dragon / DS2 Alt",
+      "description": "heboxjonge's Rune Dragon / Dragon Slayer II alt route (community Google Sheets guide)."
     },
     {
       "id": "max-vyrewatch-alt",
-      "name": "Max - Vyrewatch Alt",
-      "description": "Max's Vyrewatch alt route (community Google Sheets guide)."
+      "name": "heboxjonge - Vyrewatch Alt",
+      "description": "heboxjonge's Vyrewatch alt route (community Google Sheets guide)."
     },
     {
       "id": "max-spec-transfer-alt",
-      "name": "Max - Spec-Transfer Alt",
-      "description": "Max's spec-transfer alt route (community Google Sheets guide)."
+      "name": "heboxjonge - Spec-Transfer Alt",
+      "description": "heboxjonge's spec-transfer alt route (community Google Sheets guide)."
     },
     {
       "id": "max-blood-rc-alt",
-      "name": "Max - Blood-RC Alt",
-      "description": "Max's blood-rune-crafting alt route (community Google Sheets guide)."
+      "name": "heboxjonge - Blood-RC Alt",
+      "description": "heboxjonge's blood-rune-crafting alt route (community Google Sheets guide)."
     }
   ]
 }

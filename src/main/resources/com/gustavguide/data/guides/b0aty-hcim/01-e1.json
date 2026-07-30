@@ -28,7 +28,11 @@
       "id": "e1-003",
       "title": "Pickpocket a man/woman [Lumbridge Easy Diary]",
       "text": "Pickpocket a man/woman [Lumbridge Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "easy"
+      },
       "object": 24009,
       "world": [
         3227,
@@ -110,7 +114,11 @@
       "id": "e1-007",
       "title": "Check playtime on Hans [Lumbridge Easy …",
       "text": "Check playtime on Hans [Lumbridge Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "easy"
+      },
       "npc": 3105,
       "world": [
         3215,
@@ -1326,7 +1334,11 @@
       "id": "e1-070",
       "title": "Head South & Trade Thessalia [Varrock …",
       "text": "Head South & Trade Thessalia [Varrock Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
+      },
       "npc": 10477,
       "world": [
         3206,
@@ -2027,7 +2039,11 @@
       "id": "e1-102",
       "title": "Cut the Dying tree [Varrock Easy …",
       "text": "Cut the Dying tree [Varrock Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
+      },
       "world": [
         3206,
         3417,
@@ -2911,7 +2927,11 @@
       "id": "e1-148",
       "title": "Teleport to Rune Essence Mine [Lumbridge …",
       "text": "Teleport to Rune Essence Mine [Lumbridge Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "easy"
+      },
       "npc": 10681,
       "world": [
         3253,
@@ -3525,7 +3545,11 @@
       "id": "e1-179",
       "title": "Take Falador Crumbling wall Shortcut [Falador …",
       "text": "Take Falador Crumbling wall Shortcut [Falador Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "easy"
+      },
       "world": [
         2947,
         3382,
@@ -3586,7 +3610,11 @@
       "id": "e1-182",
       "title": "Get a haircut North [Falador Easy …",
       "text": "Get a haircut North [Falador Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "easy"
+      },
       "world": [
         2947,
         3382,
@@ -3597,7 +3625,11 @@
       "id": "e1-183",
       "title": "Fill Bucket on Pump [Falador Easy …",
       "text": "Fill Bucket on Pump [Falador Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "easy"
+      },
       "world": [
         2947,
         3382,
@@ -3658,7 +3690,11 @@
       "id": "e1-186",
       "title": "Kill a duck in Falador Park …",
       "text": "Kill a duck in Falador Park [Falador Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "falador",
+        "tier": "easy"
+      },
       "world": [
         3003,
         3380,
@@ -4105,7 +4141,11 @@
       "id": "e1-211",
       "title": "Complete Gnome Agility Course [Western Province …",
       "text": "Complete Gnome Agility Course [Western Province Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "easy"
+      },
       "world": [
         2474,
         3435,
@@ -4223,7 +4263,11 @@
       "id": "e1-219",
       "title": "Check Probita for Pets [Ardougne Easy …",
       "text": "Check Probita for Pets [Ardougne Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "npc": 5906,
       "world": [
         2621,
@@ -4922,7 +4966,11 @@
       "id": "e1-262a",
       "title": "Trade Aleck [Ardougne Easy Diary]",
       "text": "Trade Aleck [Ardougne Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "world": [
         2566,
         3083,
@@ -5314,7 +5362,11 @@
       "id": "e1-284",
       "title": "Pray at Altar [Ardougne Easy Diary]",
       "text": "Pray at Altar [Ardougne Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "world": [
         2617,
         3309,
@@ -5770,7 +5822,11 @@
       "id": "e1-312",
       "title": "Take Spirit Tree to Gnome Stronghold …",
       "text": "Take Spirit Tree to Gnome Stronghold (2) [Western Province Medium Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "western",
+        "tier": "medium"
+      },
       "world": [
         2440,
         3460,
@@ -6173,7 +6229,11 @@
       "id": "e1-337",
       "title": "Return to Ardougne via Captain Barnaby …",
       "text": "Return to Ardougne via Captain Barnaby [Karamja Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "npc": 8764,
       "world": [
         2772,
@@ -6238,7 +6298,11 @@
       "id": "e1-341",
       "title": "Sell Silk to the Silk merchant …",
       "text": "Sell Silk to the Silk merchant for 60 coins (3,2) [Ardougne Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "world": [
         2656,
         3310,
@@ -6271,7 +6335,11 @@
       "id": "e1-343",
       "title": "Teleport to Essence Mine via right …",
       "text": "Teleport to Essence Mine via right click Wizard Cromperty [Ardougne Easy Diary]",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "npc": 8480,
       "world": [
         2684,
@@ -6489,7 +6557,7 @@
           {
             "op": "item",
             "id": 555,
-            "qty": 10,
+            "qty": 8,
             "scope": "ANY"
           }
         ]

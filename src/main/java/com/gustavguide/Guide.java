@@ -17,12 +17,12 @@ public enum Guide
 	IRONMAN_PVM_RUSH("ironman-pvm-rush", "Ironman PvM Rush"),
 	BRUHSAILER("bruhsailer", "BRUHsailer Complete Guide"),
 	UIM_PRIFDDINAS("uim-prifddinas", "UIM Walkthrough to Prifddinas (Old Route)"),
-	MAX_ACCOUNT_START("max-account-start", "Max - Account Start (Main/Alt)"),
-	MAX_SLAYER_LURE_ALT("max-slayer-lure-alt", "Max - Slayer-Lure Alt"),
-	MAX_RUNE_DRAGON_DS2_ALT("max-rune-dragon-ds2-alt", "Max - Rune Dragon / DS2 Alt"),
-	MAX_VYREWATCH_ALT("max-vyrewatch-alt", "Max - Vyrewatch Alt"),
-	MAX_SPEC_TRANSFER_ALT("max-spec-transfer-alt", "Max - Spec-Transfer Alt"),
-	MAX_BLOOD_RC_ALT("max-blood-rc-alt", "Max - Blood-RC Alt");
+	MAX_ACCOUNT_START("max-account-start", "heboxjonge - Account Start (Main/Alt)"),
+	MAX_SLAYER_LURE_ALT("max-slayer-lure-alt", "heboxjonge - Slayer-Lure Alt"),
+	MAX_RUNE_DRAGON_DS2_ALT("max-rune-dragon-ds2-alt", "heboxjonge - Rune Dragon / DS2 Alt"),
+	MAX_VYREWATCH_ALT("max-vyrewatch-alt", "heboxjonge - Vyrewatch Alt"),
+	MAX_SPEC_TRANSFER_ALT("max-spec-transfer-alt", "heboxjonge - Spec-Transfer Alt"),
+	MAX_BLOOD_RC_ALT("max-blood-rc-alt", "heboxjonge - Blood-RC Alt");
 
 	private final String id;
 	private final String displayName;
