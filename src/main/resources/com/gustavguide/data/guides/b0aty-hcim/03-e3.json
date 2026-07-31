@@ -4216,26 +4216,14 @@
       ]
     },
     {
-      "id": "e3-275a",
-      "title": "Go back into port phasmatys",
-      "text": "Go back into port phasmatys",
+      "id": "e3-275",
+      "title": "Go back into port phasmatys, Talk …",
+      "text": "Go back into port phasmatys, Talk to Velorina again. (1)",
       "manual": true,
       "npc": 3005,
       "world": [
         3791,
         3559,
-        0
-      ]
-    },
-    {
-      "id": "e3-275b",
-      "title": "Talk to Velorina again. (1)",
-      "text": "Talk to Velorina again. (1)",
-      "manual": true,
-      "npc": 2985,
-      "world": [
-        3677,
-        3508,
         0
       ]
     },

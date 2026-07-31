@@ -9,8 +9,12 @@ import scrape_guide as sg  # noqa: E402
 
 CASES = [
     # (input, expected atoms)
+    # travel + talk MERGE (the NPC is the target); a following distinct action still splits off
     ("Go to Draynor, talk to Aggie, then mine 3 clay",
-     ["Go to Draynor", "talk to Aggie", "mine 3 clay"]),
+     ["Go to Draynor, talk to Aggie", "mine 3 clay"]),
+    ("Head to Lumbridge, speak to the Cook", ["Head to Lumbridge, speak to the Cook"]),
+    # travel + a NON-interact action (buy/skill) is NOT merged — those are separate targets
+    ("Run to Draynor and buy a spade", ["Run to Draynor", "buy a spade"]),
     ("Sell your bronze and buy 3 nets and run to the fishing spot",
      ["Sell your bronze", "buy 3 nets", "run to the fishing spot"]),
     # 'and' NOT followed by an action verb => stays one task (no false split)

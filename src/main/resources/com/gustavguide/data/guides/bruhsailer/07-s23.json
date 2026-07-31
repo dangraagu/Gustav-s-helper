@@ -147,20 +147,8 @@
     },
     {
       "id": "s23-008a",
-      "title": "Teleport (tab) to Rellekka",
-      "text": "Teleport (tab) to Rellekka",
-      "manual": true,
-      "npc": 1940,
-      "world": [
-        2420,
-        3781,
-        0
-      ]
-    },
-    {
-      "id": "s23-008b",
-      "title": "speak with General Khazard to give …",
-      "text": "speak with General Khazard to give him the message",
+      "title": "Teleport (tab) to Rellekka, speak with …",
+      "text": "Teleport (tab) to Rellekka, speak with General Khazard to give him the message",
       "manual": true,
       "npc": 3510,
       "world": [
@@ -170,7 +158,7 @@
       ]
     },
     {
-      "id": "s23-008c",
+      "id": "s23-008b",
       "title": "get a severed leg",
       "text": "get a severed leg",
       "manual": true,

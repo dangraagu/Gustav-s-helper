@@ -71,20 +71,9 @@
       ]
     },
     {
-      "id": "e12-006a",
-      "title": "Head South",
-      "text": "Head South",
-      "manual": true,
-      "world": [
-        1753,
-        3074,
-        0
-      ]
-    },
-    {
-      "id": "e12-006b",
-      "title": "talk to Emelio (1) [Meat and …",
-      "text": "talk to Emelio (1) [Meat and Greet]",
+      "id": "e12-006",
+      "title": "Head South, talk to Emelio (1) …",
+      "text": "Head South, talk to Emelio (1) [Meat and Greet]",
       "complete": {
         "op": "quest",
         "quest": "MEAT_AND_GREET",

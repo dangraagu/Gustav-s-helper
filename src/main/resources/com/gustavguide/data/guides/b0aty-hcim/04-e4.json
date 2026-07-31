@@ -1268,20 +1268,9 @@
       "manual": true
     },
     {
-      "id": "e4-088a",
-      "title": "Go upstairs",
-      "text": "Go upstairs",
-      "manual": true,
-      "world": [
-        2900,
-        3566,
-        1
-      ]
-    },
-    {
-      "id": "e4-088b",
-      "title": "talk to Eohric (1) [Death Plateau]",
-      "text": "talk to Eohric (1) [Death Plateau]",
+      "id": "e4-088",
+      "title": "Go upstairs, talk to Eohric (1) …",
+      "text": "Go upstairs, talk to Eohric (1) [Death Plateau]",
       "complete": {
         "op": "quest",
         "quest": "DEATH_PLATEAU",
@@ -1398,20 +1387,9 @@
       }
     },
     {
-      "id": "e4-097a",
-      "title": "Go upstairs",
-      "text": "Go upstairs",
-      "manual": true,
-      "world": [
-        2900,
-        3566,
-        1
-      ]
-    },
-    {
-      "id": "e4-097b",
-      "title": "talk to Eohric [Death Plateau]",
-      "text": "talk to Eohric [Death Plateau]",
+      "id": "e4-097",
+      "title": "Go upstairs, talk to Eohric [Death …",
+      "text": "Go upstairs, talk to Eohric [Death Plateau]",
       "complete": {
         "op": "quest",
         "quest": "DEATH_PLATEAU",
@@ -4154,19 +4132,8 @@
     },
     {
       "id": "e4-298a",
-      "title": "Head south",
-      "text": "Head south",
-      "manual": true,
-      "world": [
-        1824,
-        3690,
-        0
-      ]
-    },
-    {
-      "id": "e4-298b",
-      "title": "talk to Veos",
-      "text": "talk to Veos",
+      "title": "Head south, talk to Veos",
+      "text": "Head south, talk to Veos",
       "manual": true,
       "npc": 10727,
       "world": [
@@ -4176,7 +4143,7 @@
       ]
     },
     {
-      "id": "e4-298c",
+      "id": "e4-298b",
       "title": "take boat to Lands End [Kourend …",
       "text": "take boat to Lands End [Kourend Easy Diary]",
       "manual": true,
@@ -5110,20 +5077,9 @@
       ]
     },
     {
-      "id": "e4-361a",
-      "title": "Go up the ladder 3 times",
-      "text": "Go up the ladder 3 times",
-      "manual": true,
-      "world": [
-        2701,
-        3408,
-        0
-      ]
-    },
-    {
-      "id": "e4-361b",
-      "title": "talk to Thormac to complete Scorpion …",
-      "text": "talk to Thormac to complete Scorpion Catcher",
+      "id": "e4-361",
+      "title": "Go up the ladder 3 times, …",
+      "text": "Go up the ladder 3 times, talk to Thormac to complete Scorpion Catcher",
       "complete": {
         "op": "quest",
         "quest": "SCORPION_CATCHER",

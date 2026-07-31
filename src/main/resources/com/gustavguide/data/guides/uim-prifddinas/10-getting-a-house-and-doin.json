@@ -810,29 +810,18 @@
     },
     {
       "id": "getting-a-house-and-doin-034a",
-      "title": "Head to Lumbridge kitchen",
-      "text": "Head to Lumbridge kitchen",
+      "title": "Head to Lumbridge kitchen, speak to …",
+      "text": "Head to Lumbridge kitchen, speak to the chef",
       "manual": true,
       "object": 24009,
       "world": [
-        3212,
-        3215,
+        3227,
+        3257,
         0
       ]
     },
     {
       "id": "getting-a-house-and-doin-034b",
-      "title": "speak to the chef",
-      "text": "speak to the chef",
-      "manual": true,
-      "world": [
-        3212,
-        3215,
-        0
-      ]
-    },
-    {
-      "id": "getting-a-house-and-doin-034c",
       "title": "complete the Recipe for Disaster cook …",
       "text": "complete the Recipe for Disaster cook segment",
       "complete": {

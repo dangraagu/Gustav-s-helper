@@ -1186,6 +1186,10 @@ ACTION_VERBS = TRAVEL_VERBS | {
     "trade", "exchange", "read", "operate", "drink", "eat", "unlock", "claim", "hand", "give", "start",
     "finish", "train", "make", "smash", "dig", "loot", "turn", "set", "activate", "toggle", "select",
 }
+# Interact verbs whose object is a specific NPC/target. "Travel to X, <interact> Y" is ONE step: the
+# NPC Y is the real target (highlight + arrow + completes on the interaction), so a preceding pure-travel
+# atom is merged into it rather than shipped as a separate "walk there" waypoint.
+INTERACT_VERBS = {"talk", "speak", "tell", "ask"}
 # Steps longer than this are prose/notes (multi-sentence paragraphs with conditionals), not a clean
 # imperative action list — atomising them produces noise, so they're left whole.
 MAX_SPLIT_LEN = 180
@@ -1232,7 +1236,21 @@ def split_atoms(name):
     if len(merged) >= 2 and not _starts_with_action(merged[0]):
         merged[1] = (merged[0] + ", " + merged[1]).strip()
         merged.pop(0)
-    return merged or [s]
+    # Merge "travel to X" + "<interact> Y" into one step — the NPC/target Y is what the player clicks,
+    # not a separate arrival waypoint. Only a pure-travel atom directly before a talk/speak atom.
+    combined = []
+    i = 0
+    while i < len(merged):
+        cur = merged[i]
+        nxt = merged[i + 1] if i + 1 < len(merged) else None
+        nm = _FIRST_WORD_RE.match(nxt) if nxt else None
+        if nxt is not None and is_travel(cur) and nm and nm.group(1).lower() in INTERACT_VERBS:
+            combined.append((cur + ", " + nxt).strip())
+            i += 2
+        else:
+            combined.append(cur)
+            i += 1
+    return combined or [s]
 
 
 def is_travel(name):

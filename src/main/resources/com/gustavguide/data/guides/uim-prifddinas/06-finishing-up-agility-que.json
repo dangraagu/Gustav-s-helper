@@ -70,26 +70,9 @@
       ]
     },
     {
-      "id": "finishing-up-agility-que-006a",
-      "title": "Go to Falador Castle",
-      "text": "Go to Falador Castle",
-      "world": [
-        3000,
-        3360,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3000,
-        "y": 3360,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "finishing-up-agility-que-006b",
-      "title": "speak to Sir Amike Varze to …",
-      "text": "speak to Sir Amike Varze to finish Black Knights' Fortress",
+      "id": "finishing-up-agility-que-006",
+      "title": "Go to Falador Castle, speak to …",
+      "text": "Go to Falador Castle, speak to Sir Amike Varze to finish Black Knights' Fortress",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",

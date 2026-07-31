@@ -120,20 +120,9 @@
       ]
     },
     {
-      "id": "e1-008a",
-      "title": "Go upstairs",
-      "text": "Go upstairs",
-      "manual": true,
-      "world": [
-        3210,
-        3220,
-        1
-      ]
-    },
-    {
-      "id": "e1-008b",
-      "title": "Talk to Duke Horacio (1,1) [Rune …",
-      "text": "Talk to Duke Horacio (1,1) [Rune Mysteries]",
+      "id": "e1-008",
+      "title": "Go upstairs, Talk to Duke Horacio …",
+      "text": "Go upstairs, Talk to Duke Horacio (1,1) [Rune Mysteries]",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
@@ -780,21 +769,9 @@
       ]
     },
     {
-      "id": "e1-041a",
-      "title": "Head West to Port Sarim",
-      "text": "Head West to Port Sarim",
-      "manual": true,
-      "npc": 3648,
-      "world": [
-        2954,
-        3147,
-        0
-      ]
-    },
-    {
-      "id": "e1-041b",
-      "title": "talk to Veos to complete X …",
-      "text": "talk to Veos to complete X Marks The Spot",
+      "id": "e1-041",
+      "title": "Head West to Port Sarim, talk …",
+      "text": "Head West to Port Sarim, talk to Veos to complete X Marks The Spot",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -892,26 +869,9 @@
       ]
     },
     {
-      "id": "e1-049a",
-      "title": "Head west to the General store",
-      "text": "Head west to the General store",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "e1-049b",
-      "title": "Talk to Jennifer_(Shayzien) for Client of …",
-      "text": "Talk to Jennifer_(Shayzien) for Client of Kourend (3,2)",
+      "id": "e1-049",
+      "title": "Head west to the General store, …",
+      "text": "Head west to the General store, Talk to Jennifer_(Shayzien) for Client of Kourend (3,2)",
       "complete": {
         "op": "quest",
         "quest": "CLIENT_OF_KOUREND",
@@ -1159,29 +1119,21 @@
       "item": 2142
     },
     {
-      "id": "e1-063a",
-      "title": "Head east",
-      "text": "Head east",
-      "manual": true,
+      "id": "e1-063",
+      "title": "Head east, Talk to Gertude (1) …",
+      "text": "Head east, Talk to Gertude (1) [Gertrudes Cat]",
       "world": [
-        3151,
-        3409,
-        0
-      ]
-    },
-    {
-      "id": "e1-063b",
-      "title": "Talk to Gertude (1) [Gertrudes Cat]",
-      "text": "Talk to Gertude (1) [Gertrudes Cat]",
-      "manual": true,
-      "world": [
-        3151,
-        3409,
+        3148,
+        3413,
         0
       ],
-      "npcs": [
-        7284
-      ]
+      "complete": {
+        "op": "position",
+        "x": 3148,
+        "y": 3413,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e1-064",
@@ -1419,19 +1371,8 @@
     },
     {
       "id": "e1-073a",
-      "title": "Head East",
-      "text": "Head East",
-      "manual": true,
-      "world": [
-        3222,
-        3399,
-        0
-      ]
-    },
-    {
-      "id": "e1-073b",
-      "title": "talk to Dr Harlow (2",
-      "text": "talk to Dr Harlow (2",
+      "title": "Head East, talk to Dr Harlow …",
+      "text": "Head East, talk to Dr Harlow (2",
       "manual": true,
       "npc": 3480,
       "world": [
@@ -1441,7 +1382,7 @@
       ]
     },
     {
-      "id": "e1-073c",
+      "id": "e1-073b",
       "title": "talk again)[Vampyre Slayer]",
       "text": "talk again)[Vampyre Slayer]",
       "complete": {
@@ -1547,20 +1488,9 @@
       ]
     },
     {
-      "id": "e1-080a",
-      "title": "Go down North West 2x Stairs",
-      "text": "Go down North West 2x Stairs",
-      "manual": true,
-      "world": [
-        3203,
-        3472,
-        0
-      ]
-    },
-    {
-      "id": "e1-080b",
-      "title": "talk to Sir Prysin in the …",
-      "text": "talk to Sir Prysin in the SW room (3,1,2,2,1,1) [Demon Slayer]",
+      "id": "e1-080",
+      "title": "Go down North West 2x Stairs, …",
+      "text": "Go down North West 2x Stairs, talk to Sir Prysin in the SW room (3,1,2,2,1,1) [Demon Slayer]",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -1586,19 +1516,8 @@
     },
     {
       "id": "e1-081b",
-      "title": "go up 2x Stairs",
-      "text": "go up 2x Stairs",
-      "manual": true,
-      "world": [
-        3205,
-        3498,
-        2
-      ]
-    },
-    {
-      "id": "e1-081c",
-      "title": "talk to Captain Rovin (3,1,2,2,3,1) [Demon …",
-      "text": "talk to Captain Rovin (3,1,2,2,3,1) [Demon Slayer]",
+      "title": "go up 2x Stairs, talk to …",
+      "text": "go up 2x Stairs, talk to Captain Rovin (3,1,2,2,3,1) [Demon Slayer]",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -1849,28 +1768,23 @@
     },
     {
       "id": "e1-091b",
-      "title": "head downstairs",
-      "text": "head downstairs",
-      "manual": true,
-      "world": [
-        3257,
-        3449,
-        0
-      ]
-    },
-    {
-      "id": "e1-091c",
-      "title": "talk to Orlando Smith (1)",
-      "text": "talk to Orlando Smith (1)",
-      "manual": true,
+      "title": "head downstairs, talk to Orlando Smith …",
+      "text": "head downstairs, talk to Orlando Smith (1)",
       "world": [
         3228,
         3436,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3228,
+        "y": 3436,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
-      "id": "e1-091d",
+      "id": "e1-091c",
       "title": "complete the Natural History Quiz for …",
       "text": "complete the Natural History Quiz for 9 slayer and hunter and 28 kudos",
       "complete": {
@@ -3045,20 +2959,9 @@
       ]
     },
     {
-      "id": "e1-154a",
-      "title": "Head West",
-      "text": "Head West",
-      "manual": true,
-      "world": [
-        3053,
-        3251,
-        0
-      ]
-    },
-    {
-      "id": "e1-154b",
-      "title": "talk to Redbeard Frank to start …",
-      "text": "talk to Redbeard Frank to start Pirate's Treasure (1,1)",
+      "id": "e1-154",
+      "title": "Head West, talk to Redbeard Frank …",
+      "text": "Head West, talk to Redbeard Frank to start Pirate's Treasure (1,1)",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -3617,19 +3520,8 @@
     },
     {
       "id": "e1-184a",
-      "title": "Head South",
-      "text": "Head South",
-      "manual": true,
-      "world": [
-        2978,
-        3341,
-        0
-      ]
-    },
-    {
-      "id": "e1-184b",
-      "title": "talk to the Squire",
-      "text": "talk to the Squire",
+      "title": "Head South, talk to the Squire",
+      "text": "Head South, talk to the Squire",
       "manual": true,
       "npc": 4737,
       "world": [
@@ -3639,7 +3531,7 @@
       ]
     },
     {
-      "id": "e1-184c",
+      "id": "e1-184b",
       "title": "start Knight's Sword (1,2,1,1)",
       "text": "start Knight's Sword (1,2,1,1)",
       "complete": {
@@ -3760,9 +3652,9 @@
       ]
     },
     {
-      "id": "e1-189a",
-      "title": "Head to Taverley",
-      "text": "Head to Taverley",
+      "id": "e1-189",
+      "title": "Head to Taverley, talk to the …",
+      "text": "Head to Taverley, talk to the boy to start Witches House (1,1)",
       "manual": true,
       "object": 16680,
       "world": [
@@ -3772,32 +3664,9 @@
       ]
     },
     {
-      "id": "e1-189b",
-      "title": "talk to the boy to start …",
-      "text": "talk to the boy to start Witches House (1,1)",
-      "manual": true,
-      "npc": 3994,
-      "world": [
-        2928,
-        3456,
-        0
-      ]
-    },
-    {
-      "id": "e1-190a",
-      "title": "Head North",
-      "text": "Head North",
-      "manual": true,
-      "world": [
-        2925,
-        3486,
-        0
-      ]
-    },
-    {
-      "id": "e1-190b",
-      "title": "talk to Kaqemeex to start Druidic …",
-      "text": "talk to Kaqemeex to start Druidic Ritual (2,1)",
+      "id": "e1-190",
+      "title": "Head North, talk to Kaqemeex to …",
+      "text": "Head North, talk to Kaqemeex to start Druidic Ritual (2,1)",
       "complete": {
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",

@@ -85,22 +85,6 @@
       ],
       "npc": 3503
     },
-    "making-the-loop-around-f-023a": {
-      "world": [
-        3241,
-        3471,
-        0
-      ],
-      "npc": 10408
-    },
-    "making-the-loop-around-f-023b": {
-      "world": [
-        3241,
-        3471,
-        0
-      ],
-      "npc": 10408
-    },
     "making-the-loop-around-f-039a": {
       "world": [
         3253,
@@ -172,6 +156,14 @@
         0
       ],
       "npc": 10619
+    },
+    "making-the-loop-around-f-023": {
+      "world": [
+        3241,
+        3471,
+        0
+      ],
+      "npc": 10408
     }
   },
   "b0aty-hcim": {

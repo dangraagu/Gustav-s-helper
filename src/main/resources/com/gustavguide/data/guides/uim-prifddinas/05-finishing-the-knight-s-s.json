@@ -228,20 +228,9 @@
       }
     },
     {
-      "id": "finishing-the-knight-s-s-012a",
-      "title": "Head to the castle",
-      "text": "Head to the castle",
-      "manual": true,
-      "world": [
-        2978,
-        3341,
-        0
-      ]
-    },
-    {
-      "id": "finishing-the-knight-s-s-012b",
-      "title": "speak to the squire to complete …",
-      "text": "speak to the squire to complete The Knight's Sword",
+      "id": "finishing-the-knight-s-s-012",
+      "title": "Head to the castle, speak to …",
+      "text": "Head to the castle, speak to the squire to complete The Knight's Sword",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",

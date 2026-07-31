@@ -653,20 +653,9 @@
       ]
     },
     {
-      "id": "into-ardougne-and-plague-033a",
-      "title": "Run north",
-      "text": "Run north",
-      "manual": true,
-      "world": [
-        2465,
-        3496,
-        0
-      ]
-    },
-    {
-      "id": "into-ardougne-and-plague-033b",
-      "title": "speak to King Narnode to start …",
-      "text": "speak to King Narnode to start the The Grand Tree",
+      "id": "into-ardougne-and-plague-033",
+      "title": "Run north, speak to King Narnode …",
+      "text": "Run north, speak to King Narnode to start the The Grand Tree",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -798,20 +787,9 @@
       ]
     },
     {
-      "id": "into-ardougne-and-plague-042a",
-      "title": "Go upstairs in the building",
-      "text": "Go upstairs in the building",
-      "manual": true,
-      "world": [
-        2677,
-        3087,
-        1
-      ]
-    },
-    {
-      "id": "into-ardougne-and-plague-042b",
-      "title": "speak with Hazelmere to continue The …",
-      "text": "speak with Hazelmere to continue The Grand Tree",
+      "id": "into-ardougne-and-plague-042",
+      "title": "Go upstairs in the building, speak …",
+      "text": "Go upstairs in the building, speak with Hazelmere to continue The Grand Tree",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -989,20 +967,9 @@
       ]
     },
     {
-      "id": "into-ardougne-and-plague-054a",
+      "id": "into-ardougne-and-plague-054",
       "title": "Head north of the Flying Horse …",
-      "text": "Head north of the Flying Horse Inn",
-      "manual": true,
-      "world": [
-        2568,
-        3333,
-        0
-      ]
-    },
-    {
-      "id": "into-ardougne-and-plague-054b",
-      "title": "speak with Edmond",
-      "text": "speak with Edmond",
+      "text": "Head north of the Flying Horse Inn, speak with Edmond",
       "manual": true,
       "npc": 4256,
       "world": [

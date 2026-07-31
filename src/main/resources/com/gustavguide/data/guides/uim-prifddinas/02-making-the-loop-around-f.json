@@ -375,25 +375,8 @@
     },
     {
       "id": "making-the-loop-around-f-014a",
-      "title": "Head north into Falador",
-      "text": "Head north into Falador",
-      "world": [
-        3000,
-        3360,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3000,
-        "y": 3360,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "making-the-loop-around-f-014b",
-      "title": "Speak with Wyson the gardener in …",
-      "text": "Speak with Wyson the gardener in Falador Park",
+      "title": "Head north into Falador, Speak with …",
+      "text": "Head north into Falador, Speak with Wyson the gardener in Falador Park",
       "manual": true,
       "npc": 3651,
       "world": [
@@ -403,7 +386,7 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-014c",
+      "id": "making-the-loop-around-f-014b",
       "title": "buy 2 woad leaves",
       "text": "buy 2 woad leaves",
       "complete": {
@@ -430,26 +413,9 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-015a",
-      "title": "Go to Falador Castle",
-      "text": "Go to Falador Castle",
-      "world": [
-        3000,
-        3360,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3000,
-        "y": 3360,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "making-the-loop-around-f-015b",
-      "title": "speak with the Squire to begin …",
-      "text": "speak with the Squire to begin The Knight's Sword",
+      "id": "making-the-loop-around-f-015",
+      "title": "Go to Falador Castle, speak with …",
+      "text": "Go to Falador Castle, speak with the Squire to begin The Knight's Sword",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
@@ -513,20 +479,9 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-019a",
-      "title": "Head east",
-      "text": "Head east",
-      "manual": true,
-      "world": [
-        3151,
-        3413,
-        0
-      ]
-    },
-    {
-      "id": "making-the-loop-around-f-019b",
-      "title": "speak to Gertrude to start Gertrude's …",
-      "text": "speak to Gertrude to start Gertrude's Cat",
+      "id": "making-the-loop-around-f-019",
+      "title": "Head east, speak to Gertrude to …",
+      "text": "Head east, speak to Gertrude to start Gertrude's Cat",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -646,21 +601,9 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-023a",
-      "title": "Head north-east",
-      "text": "Head north-east",
-      "manual": true,
-      "world": [
-        3241,
-        3471,
-        0
-      ],
-      "npc": 10408
-    },
-    {
-      "id": "making-the-loop-around-f-023b",
-      "title": "speak with Marlo near the Estate …",
-      "text": "speak with Marlo near the Estate Agent to start Daddy's Home",
+      "id": "making-the-loop-around-f-023",
+      "title": "Head north-east, speak with Marlo near …",
+      "text": "Head north-east, speak with Marlo near the Estate Agent to start Daddy's Home",
       "complete": {
         "op": "quest",
         "quest": "DADDYS_HOME",
@@ -1090,20 +1033,9 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-048a",
-      "title": "Head west into castle",
-      "text": "Head west into castle",
-      "manual": true,
-      "world": [
-        3211,
-        3494,
-        0
-      ]
-    },
-    {
-      "id": "making-the-loop-around-f-048b",
-      "title": "speak with Reldo and continue The …",
-      "text": "speak with Reldo and continue The Knight's Sword",
+      "id": "making-the-loop-around-f-048",
+      "title": "Head west into castle, speak with …",
+      "text": "Head west into castle, speak with Reldo and continue The Knight's Sword",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",

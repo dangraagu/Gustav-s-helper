@@ -558,26 +558,9 @@
       "manual": true
     },
     {
-      "id": "e2-036a",
+      "id": "e2-036",
       "title": "Head North to the Piscarillius General …",
-      "text": "Head North to the Piscarillius General Store",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "e2-036b",
-      "title": "talk to Leenz(3,2)",
-      "text": "talk to Leenz(3,2)",
+      "text": "Head North to the Piscarillius General Store, talk to Leenz(3,2)",
       "manual": true,
       "npc": 6986,
       "world": [
@@ -659,26 +642,9 @@
       ]
     },
     {
-      "id": "e2-041a",
+      "id": "e2-041",
       "title": "Head East and slightly North to …",
-      "text": "Head East and slightly North to the General Store",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "e2-041b",
-      "title": "talk to Munty (4,2)",
-      "text": "talk to Munty (4,2)",
+      "text": "Head East and slightly North to the General Store, talk to Munty (4,2)",
       "manual": true,
       "npc": 7088,
       "world": [
@@ -726,26 +692,9 @@
       ]
     },
     {
-      "id": "e2-044a",
+      "id": "e2-044",
       "title": "Head directly North on the path …",
-      "text": "Head directly North on the path to Arceuus general Store",
-      "world": [
-        1718,
-        3726,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 1718,
-        "y": 3726,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "e2-044b",
-      "title": "talk to Regath (4,2) [Client of …",
-      "text": "talk to Regath (4,2) [Client of Kourend]",
+      "text": "Head directly North on the path to Arceuus general Store, talk to Regath (4,2) [Client of Kourend]",
       "complete": {
         "op": "quest",
         "quest": "CLIENT_OF_KOUREND",
@@ -759,21 +708,9 @@
       ]
     },
     {
-      "id": "e2-045a",
-      "title": "Walk to the Hosidius General Store",
-      "text": "Walk to the Hosidius General Store",
-      "manual": true,
-      "object": 28823,
-      "world": [
-        1767,
-        3597,
-        0
-      ]
-    },
-    {
-      "id": "e2-045b",
-      "title": "talk to Horace (3,2)",
-      "text": "talk to Horace (3,2)",
+      "id": "e2-045",
+      "title": "Walk to the Hosidius General Store, …",
+      "text": "Walk to the Hosidius General Store, talk to Horace (3,2)",
       "manual": true,
       "npc": 6943,
       "world": [
@@ -1308,26 +1245,21 @@
       ]
     },
     {
-      "id": "e2-081a",
+      "id": "e2-081",
       "title": "Go downstairs into the wine cellar …",
-      "text": "Go downstairs into the wine cellar and through the book cases",
-      "manual": true,
+      "text": "Go downstairs into the wine cellar and through the book cases, Talk to Costumer to get Costume Needle",
       "world": [
         3165,
         3490,
         0
-      ]
-    },
-    {
-      "id": "e2-081b",
-      "title": "Talk to Costumer to get Costume …",
-      "text": "Talk to Costumer to get Costume Needle",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e2-082",
@@ -3862,21 +3794,9 @@
       ]
     },
     {
-      "id": "e2-239a",
-      "title": "Run to Taverley",
-      "text": "Run to Taverley",
-      "manual": true,
-      "object": 16680,
-      "world": [
-        2884,
-        3397,
-        0
-      ]
-    },
-    {
-      "id": "e2-239b",
-      "title": "talk to Lady of the Lake …",
-      "text": "talk to Lady of the Lake (3)",
+      "id": "e2-239",
+      "title": "Run to Taverley, talk to Lady …",
+      "text": "Run to Taverley, talk to Lady of the Lake (3)",
       "manual": true,
       "npc": 3530,
       "world": [
@@ -4505,26 +4425,9 @@
       ]
     },
     {
-      "id": "e2-277a",
-      "title": "Teleport to Varrock",
-      "text": "Teleport to Varrock",
-      "world": [
-        3210,
-        3448,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3210,
-        "y": 3448,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "e2-277b",
-      "title": "speak to King Roald",
-      "text": "speak to King Roald",
+      "id": "e2-277",
+      "title": "Teleport to Varrock, speak to King …",
+      "text": "Teleport to Varrock, speak to King Roald",
       "manual": true,
       "npc": 5215,
       "world": [
@@ -5800,20 +5703,9 @@
       "manual": true
     },
     {
-      "id": "e2-360a",
-      "title": "Head North",
-      "text": "Head North",
-      "manual": true,
-      "world": [
-        3189,
-        3273,
-        0
-      ]
-    },
-    {
-      "id": "e2-360b",
-      "title": "talk to Fred the Farmer (3) …",
-      "text": "talk to Fred the Farmer (3) [One Small Favour]",
+      "id": "e2-360",
+      "title": "Head North, talk to Fred the …",
+      "text": "Head North, talk to Fred the Farmer (3) [One Small Favour]",
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
@@ -6307,20 +6199,9 @@
       ]
     },
     {
-      "id": "e2-391a",
-      "title": "Head west",
-      "text": "Head west",
-      "manual": true,
-      "world": [
-        3171,
-        3277,
-        0
-      ]
-    },
-    {
-      "id": "e2-391b",
-      "title": "talk to Cassius to get a …",
-      "text": "talk to Cassius to get a milk sample [The Ides of Milk]",
+      "id": "e2-391",
+      "title": "Head west, talk to Cassius to …",
+      "text": "Head west, talk to Cassius to get a milk sample [The Ides of Milk]",
       "complete": {
         "op": "quest",
         "quest": "THE_IDES_OF_MILK",
@@ -6890,20 +6771,9 @@
       ]
     },
     {
-      "id": "e2-426a",
-      "title": "Head West",
-      "text": "Head West",
-      "manual": true,
-      "world": [
-        2436,
-        3346,
-        0
-      ]
-    },
-    {
-      "id": "e2-426b",
-      "title": "talk to Jorral (1,1) (You can …",
-      "text": "talk to Jorral (1,1) (You can skip this walk if you plan to make Necklace's of Passage later - BEFORE GHOST'S AHOY)[Making History]",
+      "id": "e2-426",
+      "title": "Head West, talk to Jorral (1,1) …",
+      "text": "Head West, talk to Jorral (1,1) (You can skip this walk if you plan to make Necklace's of Passage later - BEFORE GHOST'S AHOY)[Making History]",
       "manual": true,
       "npc": 3490,
       "world": [
