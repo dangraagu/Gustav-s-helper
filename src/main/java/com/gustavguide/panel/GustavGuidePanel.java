@@ -158,13 +158,6 @@ public class GustavGuidePanel extends PluginPanel
 		reqContainer.setAlignmentX(Component.LEFT_ALIGNMENT);
 		reqContainer.setBorder(BorderFactory.createEmptyBorder(6, 0, 6, 0));
 
-		JPanel buttons = new JPanel(new GridLayout(1, 3, 4, 0));
-		buttons.setAlignmentX(Component.LEFT_ALIGNMENT);
-		buttons.setMaximumSize(new Dimension(Integer.MAX_VALUE, 26));
-		buttons.add(doneButton);
-		buttons.add(skipButton);
-		buttons.add(wikiButton);
-
 		upcomingHeader.setFont(FontManager.getRunescapeSmallFont());
 		upcomingHeader.setForeground(Color.GRAY);
 		upcomingHeader.setAlignmentX(Component.LEFT_ALIGNMENT);
@@ -179,7 +172,6 @@ public class GustavGuidePanel extends PluginPanel
 		center.add(noteLabel);
 		center.add(teleportLabel);
 		center.add(reqContainer);
-		center.add(buttons);
 		center.add(upcomingHeader);
 		center.add(upcomingContainer);
 		return center;
@@ -187,9 +179,19 @@ public class GustavGuidePanel extends PluginPanel
 
 	private JPanel buildGuideSouth()
 	{
-		JPanel south = new JPanel(new BorderLayout());
-		south.setBorder(BorderFactory.createEmptyBorder(12, 0, 0, 0));
-		south.add(resetButton, BorderLayout.CENTER);
+		// Action buttons live OUTSIDE the scrolling content so they stay in the SAME place at the bottom
+		// of the panel no matter how long the current step's description is (inside the scroll area they
+		// slid up and down with the text, and could scroll out of view entirely).
+		JPanel buttons = new JPanel(new GridLayout(1, 3, 4, 0));
+		buttons.setMaximumSize(new Dimension(Integer.MAX_VALUE, 26));
+		buttons.add(doneButton);
+		buttons.add(skipButton);
+		buttons.add(wikiButton);
+
+		JPanel south = new JPanel(new BorderLayout(0, 6));
+		south.setBorder(BorderFactory.createEmptyBorder(8, 0, 0, 0));
+		south.add(buttons, BorderLayout.NORTH);
+		south.add(resetButton, BorderLayout.SOUTH);
 		return south;
 	}
 
