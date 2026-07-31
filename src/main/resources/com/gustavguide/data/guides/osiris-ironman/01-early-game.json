@@ -150,7 +150,7 @@
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3205,
@@ -1137,11 +1137,13 @@
         ]
       },
       "item": 2108,
-      "npc": 6531,
       "world": [
-        2482,
-        3491,
+        2493,
+        3488,
         1
+      ],
+      "npcs": [
+        16
       ]
     },
     {
@@ -1776,12 +1778,13 @@
       "complete": {
         "op": "quest",
         "quest": "ROMEO__JULIET",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 5035,
       "world": [
-        3211,
-        3422,
-        0
+        3158,
+        3427,
+        1
       ]
     },
     {
@@ -1819,9 +1822,10 @@
         "quest": "THE_KNIGHTS_SWORD",
         "state": "FINISHED"
       },
+      "npc": 4243,
       "world": [
-        2978,
-        3341,
+        3211,
+        3494,
         0
       ]
     },
@@ -2547,8 +2551,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2978,
-        3341,
+        3000,
+        3145,
         0
       ]
     },
@@ -3389,8 +3393,8 @@
       "text": "Start Vampire slayer\nLocation: Draynor Village",
       "manual": true,
       "world": [
-        3209,
-        3215,
+        3098,
+        3268,
         0
       ]
     },
@@ -3466,8 +3470,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3205,
-        3208,
+        3109,
+        3160,
         0
       ]
     },
@@ -4831,8 +4835,8 @@
       "manual": true,
       "npc": 3529,
       "world": [
-        1907,
-        4281,
+        2763,
+        3513,
         0
       ]
     },

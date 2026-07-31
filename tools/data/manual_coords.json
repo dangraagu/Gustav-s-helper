@@ -2050,5 +2050,13 @@
     2856,
     3168,
     0
-  ]
+  ],
+  "buy these items from heckel funch (east of blurberry): 1 pineapple, 1 orange": {
+    "world": [
+      2493,
+      3488,
+      1
+    ],
+    "npc": 16
+  }
 }
