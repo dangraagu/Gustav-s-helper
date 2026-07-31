@@ -31,7 +31,10 @@ import net.runelite.client.util.LinkBrowser;
 public class GustavGuidePanel extends PluginPanel
 {
 	/** Width (px) the wrapping HTML labels are constrained to, so text wraps to the panel. */
-	private static final int PANEL_HTML_WIDTH = 210;
+	// Wrap width for the HTML labels. Must stay UNDER the panel's usable width once the guide-tab scroll
+	// pane reserves its vertical scrollbar (~16px) — otherwise long lines clip off the right edge. The
+	// RuneLite PluginPanel is 225px wide; 185 leaves margin for the scrollbar + tab insets.
+	private static final int PANEL_HTML_WIDTH = 185;
 
 	private final PanelActions actions;
 
