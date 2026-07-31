@@ -7,10 +7,13 @@ entire [ironman.guide](https://ironman.guide/) route as **one continuous, auto-t
 highlights the NPC/object/item you need, lists requirements, and **auto-advances** as it
 detects your skills, quests, items, and varbits changing.
 
-> **Attribution.** The route is based on the guide by **Oziris** ([@OzirisLoL](https://twitter.com/ozirislol))
-> and the community at ironman.guide. Rendering & requirement display are adapted from
-> RuneLite **Quest Helper** (BSD-2-Clause). See [`NOTICE`](NOTICE). Not affiliated with
-> Jagex, Oziris, or ironman.guide.
+> **Attribution.** Each bundled route is the work of its authors, used here for a companion tool:
+> **Oziris** ([@OzirisLoL](https://twitter.com/ozirislol)) and the **ironman.guide** community (the
+> default route); **B0aty** (HCIM guide); **BRUHsailer**; **heboxjonge** (the alt routes); and the
+> **OSRS Wiki** (the UIM→Prifddinas walkthroughs, Optimal Quest, and PvM Rush — CC BY-NC-SA 3.0).
+> Direction-arrow rendering & requirement display are adapted from RuneLite **Quest Helper**
+> (BSD-2-Clause). See [`NOTICE`](NOTICE) for full per-guide sources and licenses. Not affiliated with or
+> endorsed by Jagex, Oziris, ironman.guide, B0aty, BRUHsailer, heboxjonge, or the OSRS Wiki.
 
 > **Want another guide added?** Open a [GitHub issue](https://github.com/dangraagu/Gustav-s-helper/issues)
 > suggesting the guide (link + author) and it can be considered for a future release.
