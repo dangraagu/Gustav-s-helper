@@ -9,6 +9,7 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GridLayout;
+import java.awt.Insets;
 import java.awt.Rectangle;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -66,6 +67,10 @@ public class GustavGuidePanel extends PluginPanel
 
 	public GustavGuidePanel(PanelActions actions)
 	{
+		// wrap=false: take the FULL sidebar height instead of PluginPanel's default preferred-height
+		// scroll wrapper. Without this the action row sits directly under the content (floating in the
+		// middle of the panel) rather than pinned to the bottom of the page.
+		super(false);
 		this.actions = actions;
 		setLayout(new BorderLayout());
 		setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 6));
@@ -184,17 +189,26 @@ public class GustavGuidePanel extends PluginPanel
 		// of the panel no matter how long the current step's description is (inside the scroll area they
 		// slid up and down with the text, and could scroll out of view entirely).
 		undoButton.setToolTipText("Go back one step (reopens the previous step)");
-		JPanel buttons = new JPanel(new GridLayout(1, 4, 4, 0));
-		buttons.setMaximumSize(new Dimension(Integer.MAX_VALUE, 26));
-		buttons.add(doneButton);
-		buttons.add(skipButton);
-		buttons.add(undoButton);
-		buttons.add(wikiButton);
 
-		JPanel south = new JPanel(new BorderLayout(0, 6));
+		// Three buttons per row keeps each wide enough for its label to be readable; Wiki and Reset get
+		// their own full-width rows below. All of it lives in SOUTH, pinned to the bottom of the panel.
+		JPanel primary = new JPanel(new GridLayout(1, 3, 4, 0));
+		primary.add(doneButton);
+		primary.add(skipButton);
+		primary.add(undoButton);
+
+		JPanel south = new JPanel(new GridLayout(3, 1, 0, 4));
 		south.setBorder(BorderFactory.createEmptyBorder(8, 0, 0, 0));
-		south.add(buttons, BorderLayout.NORTH);
-		south.add(resetButton, BorderLayout.SOUTH);
+		south.add(primary);
+		south.add(wikiButton);
+		south.add(resetButton);
+
+		for (JButton b : new JButton[]{doneButton, skipButton, undoButton, wikiButton, resetButton})
+		{
+			b.setFont(FontManager.getRunescapeFont());   // legible, matches the client UI
+			b.setMargin(new Insets(2, 2, 2, 2));         // don't let padding squeeze the label out
+			b.setFocusPainted(false);
+		}
 		return south;
 	}
 
