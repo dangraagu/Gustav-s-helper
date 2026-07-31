@@ -9,6 +9,7 @@ import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GridLayout;
+import java.awt.Rectangle;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -18,6 +19,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 import javax.swing.JTabbedPane;
+import javax.swing.JTextArea;
+import javax.swing.Scrollable;
 import javax.swing.SwingUtilities;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
@@ -31,10 +34,10 @@ import net.runelite.client.util.LinkBrowser;
 public class GustavGuidePanel extends PluginPanel
 {
 	/** Width (px) the wrapping HTML labels are constrained to, so text wraps to the panel. */
-	// Wrap width for the HTML labels. Must stay UNDER the panel's usable width once the guide-tab scroll
-	// pane reserves its vertical scrollbar (~16px) — otherwise long lines clip off the right edge. The
-	// RuneLite PluginPanel is 225px wide; 185 leaves margin for the scrollbar + tab insets.
-	private static final int PANEL_HTML_WIDTH = 185;
+	// Wrap width for the SHORT HTML labels (title/note/teleport/upcoming). Kept well under the panel's
+	// usable width so they can't clip. The long step DESCRIPTION uses a JTextArea that wraps to the real
+	// width instead (see textArea), so it adapts to any sidebar width with no fixed guess.
+	private static final int PANEL_HTML_WIDTH = 170;
 
 	private final PanelActions actions;
 
@@ -43,7 +46,7 @@ public class GustavGuidePanel extends PluginPanel
 	private final JProgressBar progressBar = new JProgressBar(0, 100);
 	private final JLabel sectionLabel = new JLabel();
 	private final JLabel titleLabel = new JLabel();
-	private final JLabel textLabel = new JLabel();
+	private final JTextArea textArea = new JTextArea();
 	private final JLabel noteLabel = new JLabel();
 	private final JLabel teleportLabel = new JLabel();
 	private final JPanel reqContainer = new JPanel();
@@ -116,7 +119,7 @@ public class GustavGuidePanel extends PluginPanel
 
 	private JPanel buildGuideCenter()
 	{
-		JPanel center = new JPanel();
+		JPanel center = new WidthPanel();  // fills the scroll viewport width so textArea wraps to it
 		center.setLayout(new BoxLayout(center, BoxLayout.Y_AXIS));
 		center.setBorder(BorderFactory.createEmptyBorder(10, 0, 0, 0));
 
@@ -126,10 +129,20 @@ public class GustavGuidePanel extends PluginPanel
 		titleLabel.setFont(FontManager.getRunescapeBoldFont());
 		titleLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 
-		textLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
-		textLabel.setForeground(Color.LIGHT_GRAY);
-		// Bigger, more legible current-step description (the main thing the user reads each step).
-		textLabel.setFont(FontManager.getRunescapeFont().deriveFont(FontManager.getRunescapeFont().getSize2D() + 2f));
+		// Step description: a JTextArea that WRAPS TO ITS ACTUAL WIDTH (unlike a fixed-px HTML label), so
+		// it fits any sidebar width and can never clip off the right edge. Non-editable, transparent,
+		// styled to match the panel; a bit larger for legibility. The width-tracking center panel (below)
+		// gives it the viewport width to wrap into.
+		textArea.setLineWrap(true);
+		textArea.setWrapStyleWord(true);
+		textArea.setEditable(false);
+		textArea.setOpaque(false);
+		textArea.setFocusable(false);
+		textArea.setBorder(null);
+		textArea.setForeground(Color.LIGHT_GRAY);
+		textArea.setFont(FontManager.getRunescapeFont().deriveFont(FontManager.getRunescapeFont().getSize2D() + 2f));
+		textArea.setAlignmentX(Component.LEFT_ALIGNMENT);
+		textArea.setMaximumSize(new Dimension(Integer.MAX_VALUE, Integer.MAX_VALUE));
 
 		noteLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		noteLabel.setForeground(ColorScheme.BRAND_ORANGE);
@@ -162,7 +175,7 @@ public class GustavGuidePanel extends PluginPanel
 
 		center.add(sectionLabel);
 		center.add(titleLabel);
-		center.add(textLabel);
+		center.add(textArea);
 		center.add(noteLabel);
 		center.add(teleportLabel);
 		center.add(reqContainer);
@@ -280,13 +293,13 @@ public class GustavGuidePanel extends PluginPanel
 		{
 			sectionLabel.setText("");
 			titleLabel.setText("Route complete ✓");
-			textLabel.setText(wrap("You have finished the guide. Nice."));
+			textArea.setText("You have finished the guide. Nice.");
 		}
 		else if (hasCurrent)
 		{
 			sectionLabel.setText(m.section);
 			titleLabel.setText(m.title);
-			textLabel.setText(wrap(escape(m.text)));
+			textArea.setText(m.text);
 			if (m.note != null && !m.note.isEmpty())
 			{
 				noteLabel.setText(wrap("💡 " + escape(m.note)));
@@ -317,7 +330,7 @@ public class GustavGuidePanel extends PluginPanel
 		{
 			sectionLabel.setText("");
 			titleLabel.setText("");
-			textLabel.setText(m.routeEmpty ? "<html>Route data is missing.</html>" : "");
+			textArea.setText(m.routeEmpty ? "Route data is missing." : "");
 		}
 
 		doneButton.setEnabled(hasCurrent);
@@ -409,5 +422,43 @@ public class GustavGuidePanel extends PluginPanel
 	private static String wrap(String bodyHtml)
 	{
 		return "<html><body style='width:" + PANEL_HTML_WIDTH + "px'>" + bodyHtml + "</body></html>";
+	}
+
+	/**
+	 * A BoxLayout panel that reports it tracks the scroll viewport's WIDTH, so its children (the
+	 * wrapping step-text area) get the real available width to wrap into instead of overflowing and
+	 * clipping. Height is not tracked, so tall content still scrolls vertically.
+	 */
+	private static final class WidthPanel extends JPanel implements Scrollable
+	{
+		@Override
+		public Dimension getPreferredScrollableViewportSize()
+		{
+			return getPreferredSize();
+		}
+
+		@Override
+		public int getScrollableUnitIncrement(Rectangle visible, int orientation, int direction)
+		{
+			return 16;
+		}
+
+		@Override
+		public int getScrollableBlockIncrement(Rectangle visible, int orientation, int direction)
+		{
+			return visible.height;
+		}
+
+		@Override
+		public boolean getScrollableTracksViewportWidth()
+		{
+			return true;
+		}
+
+		@Override
+		public boolean getScrollableTracksViewportHeight()
+		{
+			return false;
+		}
 	}
 }
