@@ -885,6 +885,24 @@ public class GustavGuidePlugin extends Plugin
 		}
 
 		@Override
+		public void undoLast()
+		{
+			clientThread.invoke(() ->
+			{
+				if (progression == null)
+				{
+					return;
+				}
+				if (progression.stepBack())
+				{
+					persist();
+					lastCurrentStepId = null;   // force the overlays/world marker to re-point at the reopened step
+					recompute(true);
+				}
+			});
+		}
+
+		@Override
 		public void resetProgress()
 		{
 			clientThread.invoke(() ->

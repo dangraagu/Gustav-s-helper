@@ -266,6 +266,65 @@ public class ProgressionTest
 	}
 
 	@Test
+	public void stepBackUncompletesThePreviousStep()
+	{
+		// "Undo": go back one step. The nearest COMPLETED applicable step before the current one is
+		// un-completed and becomes current again — so a mis-clicked Done/Skip is recoverable.
+		RouteStep a = step("a", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep b = step("b", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep c = step("c", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(a, b, c)), IronmanMode.REGULAR);
+
+		p.markComplete("a");
+		p.markComplete("b");
+		assertEquals("c", p.getCurrentStep().getId());
+
+		assertTrue(p.stepBack());                       // undo 'b'
+		assertEquals("b", p.getCurrentStep().getId());
+		assertFalse(p.isComplete("b"));
+		assertTrue(p.isComplete("a"));                  // earlier progress untouched
+
+		assertTrue(p.stepBack());                       // undo 'a'
+		assertEquals("a", p.getCurrentStep().getId());
+		assertFalse(p.isComplete("a"));
+
+		assertFalse("nothing left to undo", p.stepBack());
+		assertEquals("a", p.getCurrentStep().getId());
+	}
+
+	@Test
+	public void stepBackFromAFinishedRouteReopensTheLastStep()
+	{
+		// With every step complete there is no "current" step; undo must reopen the LAST one.
+		RouteStep a = step("a", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep b = step("b", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(a, b)), IronmanMode.REGULAR);
+		p.markComplete("a");
+		p.markComplete("b");
+		assertNull(p.getCurrentStep());
+
+		assertTrue(p.stepBack());
+		assertEquals("b", p.getCurrentStep().getId());
+	}
+
+	@Test
+	public void stepBackSkipsStepsForOtherModes()
+	{
+		// A step that doesn't apply to the active mode is invisible to undo.
+		RouteStep a = step("a", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep hcOnly = step("hc", ConstantCondition.MANUAL, true, EnumSet.of(IronmanMode.HCIM));
+		RouteStep c = step("c", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(a, hcOnly, c)), IronmanMode.REGULAR);
+		p.markComplete("a");
+		p.markComplete("hc");
+		assertEquals("c", p.getCurrentStep().getId());
+
+		assertTrue(p.stepBack());
+		assertEquals("a", p.getCurrentStep().getId());  // 'hc' skipped (not applicable in REGULAR)
+		assertTrue("other-mode step stays as it was", p.isComplete("hc"));
+	}
+
+	@Test
 	public void resetAndPersistenceRoundTrip()
 	{
 		RouteStep a = step("a", ConstantCondition.ALWAYS_TRUE, false, Collections.emptySet());

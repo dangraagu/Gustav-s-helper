@@ -16,6 +16,9 @@ public interface PanelActions
 	/** Skip the current step (also marks it complete). */
 	void skipCurrent();
 
+	/** Undo: reopen the previous step, so a mis-clicked Done/Skip can be taken back. */
+	void undoLast();
+
 	/** Clear all saved progress for the current account. */
 	void resetProgress();
 }

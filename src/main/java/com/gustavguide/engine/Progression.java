@@ -208,6 +208,33 @@ public class Progression
 		}
 	}
 
+	/**
+	 * "Undo": go back one step. Un-completes the nearest <b>completed</b> step (applicable to the current
+	 * mode) that sits before the current step, so a mis-clicked Done/Skip — or a step you want to redo —
+	 * becomes current again. With the route finished, the last completed step is reopened.
+	 *
+	 * <p>Note a step whose real condition is genuinely met (a finished quest, a reached level) will simply
+	 * auto-complete again on the next evaluation: you cannot un-earn game progress. Undo is meaningful for
+	 * the manual steps, which is where mis-clicks happen.</p>
+	 *
+	 * @return true if a step was reopened (caller should refresh UI / persist)
+	 */
+	public boolean stepBack()
+	{
+		List<RouteStep> steps = route.getSteps();
+		RouteStep current = getCurrentStep();
+		int from = current == null ? steps.size() - 1 : route.indexOf(current.getId()) - 1;
+		for (int i = from; i >= 0; i--)
+		{
+			RouteStep s = steps.get(i);
+			if (s.appliesTo(mode) && completed.remove(s.getId()))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
 	public void reset()
 	{
 		completed.clear();

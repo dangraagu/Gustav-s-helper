@@ -54,6 +54,7 @@ public class GustavGuidePanel extends PluginPanel
 	private final JLabel upcomingHeader = new JLabel("Coming up");
 	private final JButton doneButton = new JButton("Done");
 	private final JButton skipButton = new JButton("Skip");
+	private final JButton undoButton = new JButton("Undo");
 	private final JButton wikiButton = new JButton("Wiki");
 	private final JButton resetButton = new JButton("Reset progress");
 	private String wikiUrl;
@@ -182,10 +183,12 @@ public class GustavGuidePanel extends PluginPanel
 		// Action buttons live OUTSIDE the scrolling content so they stay in the SAME place at the bottom
 		// of the panel no matter how long the current step's description is (inside the scroll area they
 		// slid up and down with the text, and could scroll out of view entirely).
-		JPanel buttons = new JPanel(new GridLayout(1, 3, 4, 0));
+		undoButton.setToolTipText("Go back one step (reopens the previous step)");
+		JPanel buttons = new JPanel(new GridLayout(1, 4, 4, 0));
 		buttons.setMaximumSize(new Dimension(Integer.MAX_VALUE, 26));
 		buttons.add(doneButton);
 		buttons.add(skipButton);
+		buttons.add(undoButton);
 		buttons.add(wikiButton);
 
 		JPanel south = new JPanel(new BorderLayout(0, 6));
@@ -232,6 +235,7 @@ public class GustavGuidePanel extends PluginPanel
 	{
 		doneButton.addActionListener(e -> actions.completeCurrent());
 		skipButton.addActionListener(e -> actions.skipCurrent());
+		undoButton.addActionListener(e -> actions.undoLast());
 		resetButton.addActionListener(e ->
 		{
 			// Confirm first — a stray click otherwise wipes every completed step + the ledger for this
@@ -337,6 +341,9 @@ public class GustavGuidePanel extends PluginPanel
 
 		doneButton.setEnabled(hasCurrent);
 		skipButton.setEnabled(hasCurrent);
+		// Undo stays available on a finished route (to reopen the last step), and only when something
+		// has actually been completed.
+		undoButton.setEnabled(m.loggedIn && !m.routeEmpty && m.completed > 0);
 		wikiButton.setEnabled(hasCurrent && m.wikiUrl != null && !m.wikiUrl.isEmpty());
 		upcomingHeader.setVisible(hasCurrent && !m.upcoming.isEmpty());
 
