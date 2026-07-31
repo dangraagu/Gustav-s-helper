@@ -1,0 +1,18 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Chambers of Xeric",
+  "steps": [
+    {
+      "id": "chambers-of-xeric-001",
+      "title": "Raid until you get a Dexterous …",
+      "text": "Raid until you get a Dexterous prayer scroll and an Arcane prayer scroll",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

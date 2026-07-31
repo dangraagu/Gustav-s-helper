@@ -107,13 +107,24 @@ def extract_howto_steps(html: str):
     return out
 
 
+# A number right after a skill word that counts a RESOURCE, not a level ("1 prayer point",
+# "restore 5 hitpoints", "3 run energy"). Such a step must never become a skill-level condition.
+_SKILL_UNIT_RE = re.compile(r"^\s*(?:point|pts?|tick|xp|exp|experience|run|energy)\b", re.IGNORECASE)
+
+
 def detect_skill(text: str):
-    """Return {'op':'skill',...} if the text states a clear training target, else None."""
+    """Return {'op':'skill',...} if the text states a clear training target, else None.
+
+    Level 1 is universally true (every account has every skill >= 1), so it can never be a real
+    training goal: treating "eat a jangerberry for 1 prayer point" as skill:PRAYER>=1 auto-completes
+    the step on EVERY account and the milestone-fold then wipes every prior flavour step. Require
+    level >= 2, and reject "<n> <skill> point/tick/energy" phrasings where the number is a resource
+    count rather than a level."""
     for rx, si, li in ((SKILL_RE_1, 1, 0), (SKILL_RE_2, 0, 1)):
         for m in rx.finditer(text):
             word = m.group(1 + si).lower()
             level = int(m.group(1 + li))
-            if word in SKILL_WORDS and 1 <= level <= 99:
+            if word in SKILL_WORDS and 2 <= level <= 99 and not _SKILL_UNIT_RE.match(text[m.end():]):
                 return {"op": "skill", "skill": SKILL_WORDS[word], "level": level, "cmp": ">="}
     return None
 
@@ -422,6 +433,14 @@ def load_quest_start(quest_map):
 
 
 _QUEST_START_VERB_RE = re.compile(r"^\s*(start|begin)\b", re.IGNORECASE)
+# A purpose-form start verb directly governing the quest name ("...to start The Restless Ghost",
+# "run to Draynor Manor to start Animal Magnetism"). Requires the infinitive "to start/begin" right
+# before the quest name, so a temporal/coordinating aside where starting is NOT the step's action
+# ("sell ... when starting One Small Favour", "also start Curse of the Empty Lord during ...") keeps
+# its FINISHED binding instead of completing the wrong step the moment that quest is begun. A step
+# that literally opens with "Start/Begin <quest>" is caught separately by _QUEST_START_VERB_RE.
+_QUEST_START_NEAR_RE = re.compile(r"\bto\s+(?:start|begin)(?:\s+the)?$", re.IGNORECASE)
+QUEST_START_WINDOW = 24
 
 # A step that lists quests you must NOT do (e.g. slayer-lure "DONT complete the following: ...")
 # must never bind its completion to one of those quests.
@@ -481,7 +500,13 @@ def detect_quest(text: str, quest_map):
     pos = padded.find(best_cand)
     if pos > 0 and _QUEST_NEG_RE.search(padded[max(0, pos - QUEST_NEG_WINDOW):pos]):
         return None
-    state = "IN_PROGRESS" if _QUEST_START_VERB_RE.match(text or "") else "FINISHED"
+    # A "start/begin the quest" step completes when the quest is merely STARTED (IN_PROGRESS or
+    # FINISHED), not only when the whole quest is done — otherwise "speak to X to start <quest>" never
+    # ticks off when you actually start it. Detect the start verb either at the head of the step OR
+    # governing the quest name ("...to start The Restless Ghost").
+    pre = padded[max(0, pos - QUEST_START_WINDOW):pos]
+    started = bool(_QUEST_START_VERB_RE.match(text or "")) or bool(_QUEST_START_NEAR_RE.search(pre))
+    state = "IN_PROGRESS" if started else "FINISHED"
     return {"op": "quest", "quest": best_const, "state": state}
 
 
@@ -1093,11 +1118,35 @@ def _match_named(text, table):
     return None
 
 
+_TALK_RE = re.compile(r"\b(speak|talk|tell|ask)\b", re.IGNORECASE)
+# A step that OPENS with an optional cue is advice, not a required gate. Left as a hard skill/quest
+# gate it would block every downstream arrival/fold for a player who skips it (e.g. "(Optional) ...
+# 43 Prayer at the start"). Anchored at the start so only genuinely-optional steps are affected.
+_OPTIONAL_RE = re.compile(r"^\s*[\(\[]?\s*(optional|optionally|if you (?:want|prefer|like))\b", re.IGNORECASE)
+
+
 def enrich_entity(step, text, cond_op, item_id, entities):
     """Set a precise NPC/object highlight id + tile from the QH reference table where the step names a
-    specific entity. Skips quest steps (an arbitrary highlight there would be wrong) and skips object
-    matches on item-buy steps (avoids matching a bought vegetable as a scenery object)."""
+    specific entity. Skips object matches on item-buy steps (avoids matching a bought vegetable as a
+    scenery object)."""
     if cond_op == "quest":
+        # On a quest step, only highlight the specific NPC the step tells you to TALK to ("speak to
+        # Father Urhney", "speak with Duke Horacio to start Rune Mysteries"). Its exact tile then beats
+        # the generic quest-START coordinate, which otherwise sends you to the quest's opening NPC even
+        # on a later sub-step about a different person. A quest step with no talk verb (e.g. "complete
+        # <quest>") still gets no arbitrary highlight — falls through to the quest-start tile.
+        tm = _TALK_RE.search(text or "")
+        if not tm:
+            return
+        # Match only the NPC named right AFTER the talk verb ("speak with <NPC> …"), within a short
+        # window — otherwise an incidental entity later in the step ("…receive an air talisman") can
+        # shadow the real target and, at instanced coords, drop the highlight entirely.
+        hit = _match_named(text[tm.start():tm.start() + 45], entities["npcs"])
+        if hit:
+            w = hit[2]
+            if len(w) >= 2 and w[1] < UNDERGROUND_Y_OFFSET:
+                step["npc"] = hit[1]
+                step["world"] = [w[0], w[1], w[2] if len(w) > 2 else 0]
         return
     hit = _match_named(text, entities["npcs"])
     key = "npc"
@@ -1216,6 +1265,12 @@ def detect_diary(text: str):
     Deliberately skips long prose steps that only mention a diary in passing (e.g. a big grind whose
     completion is NOT the same as the whole diary tier being done)."""
     t = (text or "").lower()
+    # A bracketed "[<Area> <Tier> Diary]" is a per-task TAG marking which diary a single task feeds,
+    # NOT an instruction to complete the whole tier. Strip bracketed spans first so a task like
+    # "Pickpocket a man/woman [Ardougne Easy Diary]" is not bound to the entire tier's varbit (which
+    # would pre-complete every such task on an account that finished the tier, and make the individual
+    # tasks only tick together when the whole tier is done).
+    t = re.sub(r"\[[^\]]*\]", " ", t)
     if "diar" not in t or len(text or "") > _DIARY_MAX_LEN:
         return None
     area = next((a for a in _DIARY_AREAS if a in t), None)
@@ -1242,9 +1297,11 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     if url and isinstance(url, str) and url.startswith("http"):
         step["wiki"] = url
     # Precedence: skill target > quest completion > achievement-diary completion > item acquisition.
-    cond = detect_skill(name) or detect_quest(name, quest_map) or detect_diary(name)
+    # An OPTIONAL step never becomes an auto gate — it stays manual so it can't block the fold/arrivals.
+    optional = bool(_OPTIONAL_RE.match(name))
+    cond = None if optional else (detect_skill(name) or detect_quest(name, quest_map) or detect_diary(name))
     item_id = None
-    if not cond:
+    if not cond and not optional:
         iq = detect_item_id_qty(name, item_map)
         if iq:
             item_id, qty = iq

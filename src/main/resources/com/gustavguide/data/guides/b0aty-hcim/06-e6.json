@@ -45,16 +45,18 @@
       "id": "e6-003",
       "title": "Head North & cut a Mahogany …",
       "text": "Head North & cut a Mahogany Log [Kourend Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kourend",
-        "tier": "medium"
-      },
       "world": [
         1630,
         3730,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3730,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e6-004",
@@ -291,7 +293,7 @@
       },
       "npc": 2582,
       "world": [
-        3258,
+        3259,
         3383,
         0
       ]
@@ -380,11 +382,7 @@
       "id": "e6-033",
       "title": "Use Earth Runes on Fire Altar …",
       "text": "Use Earth Runes on Fire Altar [Lumbridge Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         3273,
         3195,
@@ -593,11 +591,7 @@
       "id": "e6-051",
       "title": "Kill a Brine Rat [Fremennik Medium …",
       "text": "Kill a Brine Rat [Fremennik Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "fremennik",
-        "tier": "medium"
-      }
+      "manual": true
     },
     {
       "id": "e6-052",
@@ -693,8 +687,8 @@
       },
       "npc": 6618,
       "world": [
-        3947,
-        3706,
+        1360,
+        9563,
         0
       ]
     },
@@ -814,23 +808,7 @@
       "id": "e6-065",
       "title": "OPTIONAL: Medium Combat Achievements before Barrows …",
       "text": "OPTIONAL: Medium Combat Achievements before Barrows are fairly difficult to achieve at this point but possible, especially with friends to help with TOB entry mode. If you're planning to complete Medium Combat Achievements before Barrows the below CA's are all possible and recommended on the first KC run. Buy Dragon Halberd to safespot Bats & Healers.",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 3204,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 3204,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 3204,
+      "manual": true,
       "world": [
         3663,
         3219,

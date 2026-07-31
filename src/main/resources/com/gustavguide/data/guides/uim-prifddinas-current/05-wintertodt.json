@@ -1,0 +1,258 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Wintertodt",
+  "steps": [
+    {
+      "id": "wintertodt-001",
+      "title": "Get your cash stack back from …",
+      "text": "Get your cash stack back from the Ferox Enclave",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-002",
+      "title": "Buy some of each elemental rune …",
+      "text": "Buy some of each elemental rune and law runes from Ali Morrisane. — You will be dropping all of these again eventually",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 556,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 556,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 556,
+      "npc": 3533,
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-003",
+      "title": "Head to Auburnvale and purchase an …",
+      "text": "Head to Auburnvale and purchase an adamant axe",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1357,
+            "qty": 27
+          },
+          {
+            "op": "item",
+            "id": 1357,
+            "qty": 28,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1357,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-004a",
+      "title": "Buy a spade",
+      "text": "Buy a spade",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 952,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 952,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-004b",
+      "title": "dig up the Clue Hunter Gloves …",
+      "text": "dig up the Clue Hunter Gloves and Clue Hunter Boots. — Destroy the boots. — Wear the gloves",
+      "manual": true,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-005",
+      "title": "Get a Tinderbox",
+      "text": "Get a Tinderbox",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-006a",
+      "title": "Head to Draynor Village",
+      "text": "Head to Draynor Village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "wintertodt-006b",
+      "title": "get a Forestry kit from the …",
+      "text": "get a Forestry kit from the Forestry Shop. — You can drop the Ardounge Cloak now. — Hop to world 444 for all of your woodcutting",
+      "manual": true,
+      "world": [
+        3192,
+        3223,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-007",
+      "title": "Buy a Rainbow Scarf from Diango",
+      "text": "Buy a Rainbow Scarf from Diango",
+      "manual": true,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-008",
+      "title": "Store your cash stack again at …",
+      "text": "Store your cash stack again at the Ferox Enclave",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-009",
+      "title": "Cut and burn logs until you …",
+      "text": "Cut and burn logs until you reach 50 Firemaking. — Do any Forestry events you see. You need a log basket eventually. — Make sure to keep any leaves you get in your Forestry kit. They can actually be used on a compost bin and turned into supercompost with a Compost potion. — At level 35 Woodcutting and Firemaking, move to cutting teak logs on the north part of the Isle of Souls.",
+      "complete": {
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 50,
+        "cmp": ">="
+      },
+      "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
+      "world": [
+        3192,
+        3223,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-010",
+      "title": "Complete Death to the Dorgeshuun",
+      "text": "Complete Death to the Dorgeshuun",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_TO_THE_DORGESHUUN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-011",
+      "title": "Complete Tears of Guthix. — Bring …",
+      "text": "Complete Tears of Guthix. — Bring a Swamp tar and buy a Bullseye lantern (empty) from Miltog's Lamps. You don't need to make it, but you will need to light it with oil created via the still next to Miltog. — Drink the tears for Sailing xp. You will passively train Sailing to at least level 30 this way. — Strongly consider going higher than this. Sailing boat upgrades are extremely tedious on UIM. Skipping the early tiers is very helpful. — Once you are done with this, you can train Sailing at your leisure. It isn't used for the remainder of the guide.",
+      "complete": {
+        "op": "quest",
+        "quest": "TEARS_OF_GUTHIX",
+        "state": "FINISHED"
+      },
+      "world": [
+        3169,
+        3172,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-012",
+      "title": "Go to Vale Totems and get …",
+      "text": "Go to Vale Totems and get the Fletching knife with Maple logs. — Again, do Forestry until you can get a Log basket. Then quickly get one as it is useful for Vale Totems. — Note that as a UIM you can turn in logs to the Forester an inventory at a time for the basket. You don't need noted logs. — Use up any loot you can and drop the rest. Due to the heavy RNG nature of this grind the guide doesn't rely on any specific amount of loot.",
+      "complete": {
+        "op": "quest",
+        "quest": "VALE_TOTEMS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1365,
+        3366,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-013",
+      "title": "Head to Wintertodt and train until …",
+      "text": "Head to Wintertodt and train until you have level 50 Construction from the braziers. — Listen to this video for some more context on this Wintertodt grind. — While here, complete all of the combat achievements. — Once you reach 38 Construction, take a quick break and complete Scrambled!. — Ferox Minigame tele, get a bit of gp, home tele, buy a few teleport/combat runes at Ali Morrisane. — Buy just enough for the quest so you can go back to Wintertodt after. — The best method is to use the Wintertodt Scouter plugin to hop between worlds. See the videos for details on this, as it is a significant xp boost. — Solos do give a lot faster Construction xp, but are overall less efficient than mass worlds due to being much slower Firemaking xp. You can still do them if you want though. — If you are doing mass worlds as recommended then this will actually take most of the way to 99 Firemaking. The xp rates are really fast, so it isn't as bad as it sounds. — If at any point you just CBA to do more Wintertodt, then you can get 50 Construction with Mahogany Homes and the Auburnvale Sawmill in just a few hours. — You don't need ice gloves for the steel bars, just use the bucket and water at the Blast Furnace and pay the fee. — You could also just use Superheat to make the steel bars and buy the ore. — Seriously don't feel bad for doing this, it is a totally fine option. You really just need to do enough Wintertodt to get some Magic logs, Uncut diamonds, and the combat achievement points.",
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 38,
+        "cmp": ">="
+      },
+      "npc": 3533,
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "wintertodt-014",
+      "title": "DO NOT LOOT THE CART YET!",
+      "text": "DO NOT LOOT THE CART YET!",
+      "manual": true
+    }
+  ]
+}

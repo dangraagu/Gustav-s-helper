@@ -1,0 +1,29 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Corrupted Gauntlet",
+  "steps": [
+    {
+      "id": "corrupted-gauntlet-001",
+      "title": "Complete The Gauntlet until you receive …",
+      "text": "Complete The Gauntlet until you receive an Enhanced crystal weapon seed and 6 Crystal armour seeds. — If you happen to get 2 Enhanced seeds, keep the second one! You can use it as a blade of saeldor. — If you don't get the lucky second enhanced, read the notable alternatives section about continuing on for a blade.",
+      "manual": true,
+      "world": [
+        3228,
+        6116,
+        0
+      ]
+    },
+    {
+      "id": "corrupted-gauntlet-002",
+      "title": "Make the Bow of faerdhinen, and …",
+      "text": "Make the Bow of faerdhinen, and crystal armour",
+      "manual": true,
+      "world": [
+        3228,
+        6116,
+        0
+      ]
+    }
+  ]
+}

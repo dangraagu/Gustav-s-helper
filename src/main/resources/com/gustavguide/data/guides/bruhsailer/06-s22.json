@@ -17,8 +17,8 @@
       "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "object": 4771,
       "world": [
-        2803,
-        2765,
+        2500,
+        3488,
         0
       ]
     },
@@ -291,9 +291,10 @@
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
       },
+      "npc": 8722,
       "world": [
-        2662,
-        3161,
+        2658,
+        3316,
         0
       ]
     },
@@ -306,9 +307,10 @@
         "quest": "A_TAIL_OF_TWO_CATS",
         "state": "FINISHED"
       },
+      "npc": 4286,
       "world": [
-        2927,
-        3547,
+        3286,
+        3180,
         0
       ]
     },
@@ -336,9 +338,10 @@
         "quest": "A_TAIL_OF_TWO_CATS",
         "state": "FINISHED"
       },
+      "npc": 5036,
       "world": [
-        2919,
-        3559,
+        3195,
+        3404,
         0
       ]
     },
@@ -426,9 +429,10 @@
         "quest": "RAG_AND_BONE_MAN_II",
         "state": "FINISHED"
       },
+      "npc": 2108,
       "world": [
-        3031,
-        3203,
+        3089,
+        3254,
         0
       ]
     },
@@ -517,8 +521,8 @@
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
       "object": 4771,
       "world": [
-        2803,
-        2765,
+        2500,
+        3488,
         0
       ]
     },

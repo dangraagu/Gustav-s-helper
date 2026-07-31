@@ -46,10 +46,11 @@
         "quest": "THE_GENERALS_SHADOW",
         "state": "FINISHED"
       },
+      "npc": 3515,
       "world": [
-        2837,
-        3244,
-        0
+        2702,
+        3473,
+        1
       ]
     },
     {
@@ -256,10 +257,11 @@
         "quest": "THE_GREAT_BRAIN_ROBBERY",
         "state": "FINISHED"
       },
+      "npc": 4016,
       "world": [
-        3710,
-        3496,
-        0
+        3714,
+        3497,
+        1
       ]
     },
     {

@@ -68,8 +68,8 @@
       "item": 8778,
       "npc": 13833,
       "world": [
-        1426,
-        2919,
+        2956,
+        3232,
         0
       ]
     },
@@ -96,8 +96,8 @@
       "item": 8780,
       "npc": 13833,
       "world": [
-        1426,
-        2919,
+        3730,
+        3807,
         0
       ]
     },
@@ -111,8 +111,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2659,
-        9548,
+        3158,
+        9895,
         0
       ]
     },
@@ -139,8 +139,8 @@
       "item": 53,
       "npc": 3097,
       "world": [
-        2638,
-        3293,
+        2983,
+        3369,
         0
       ]
     },
@@ -168,9 +168,10 @@
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
       },
+      "npc": 4894,
       "world": [
-        2868,
-        10209,
+        3022,
+        3453,
         0
       ]
     },
@@ -255,9 +256,10 @@
         "quest": "ONE_SMALL_FAVOUR",
         "state": "IN_PROGRESS"
       },
+      "npc": 2892,
       "world": [
-        2836,
-        2983,
+        3027,
+        3249,
         0
       ]
     },
@@ -270,9 +272,10 @@
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
       },
+      "npc": 4284,
       "world": [
-        2836,
-        2983,
+        3086,
+        3258,
         0
       ]
     },
@@ -315,9 +318,10 @@
         "quest": "RAG_AND_BONE_MAN_II",
         "state": "FINISHED"
       },
+      "npc": 5036,
       "world": [
-        3169,
-        3172,
+        3195,
+        3404,
         0
       ]
     },
@@ -345,9 +349,10 @@
         "quest": "ICTHLARINS_LITTLE_HELPER",
         "state": "IN_PROGRESS"
       },
+      "npc": 5231,
       "world": [
-        3316,
-        2849,
+        2710,
+        3484,
         0
       ]
     },
@@ -680,8 +685,8 @@
       "item": 4675,
       "npc": 3097,
       "world": [
-        2638,
-        3293,
+        2983,
+        3369,
         0
       ]
     },
@@ -690,14 +695,14 @@
       "title": "Teleport to Barbarian Assault, do at …",
       "text": "Teleport to Barbarian Assault, do at least one full queen run in any role",
       "world": [
-        2500,
-        3488,
+        2533,
+        3571,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2500,
-        "y": 3488,
+        "x": 2533,
+        "y": 3571,
         "z": 0,
         "radius": 8
       }
@@ -732,12 +737,7 @@
       "id": "s21-044",
       "title": "Optional and recommended: go to the …",
       "text": "Optional and recommended: go to the PVP Arena and imbue your berserker ring. The PVP Arena method involves either an alt/friend to boost points (go at off-peak hours, hope to get matched with each other, quickly die to the other/kill the other for points, repeat) or just suiciding to randoms for quick points Imbue Any Item in Just 10 Minutes with This Amazing Method. Next, alch your granite body. Train slayer to level 40 with shit tier tasks with your ancient staff (you might barely cross 70 combat near the end of this training, so get a Chaeldar task for the diary step if so), training melee on accurate to 60 attack. Buy a dragon scimitar and dragon dagger if you hit level 60 attack. You can use smoke burst (on accurate/magic) on jellies and ankou tasks. Make sure to complete your final task at the end. NOTE: it is difficult for us to keep track of all small amounts of combat xp obtained so far, so all combat levels and experience trackers in BRUHsailer are estimates. Do not worry if you are several levels off in either direction. Get on normal spellbook, go to Falador and start The Slug Menace. Pay the estate agent to move your POH to Kourend. Teleport to Ardougne with the cloak, start Eagles’ Peak in the Ardougne Zoo. Continue The Slug Menace in Witchhaven. Necklace of passage to Jorral, start Making History. Run to Eagles’ Peak, collect two dashing kebbit fur for Varrock Hard diary (if you have the hunter level, it’s fine if you do not), catch a copper longtail for the diary, mine some iron ore, and continue Eagles’ Peak until you have to make the disguise, make sure to collect the feathers. Teleport to Ardougne, resume The Slug Menace until you have chiselled the five special runestones.",
-      "complete": {
-        "op": "skill",
-        "skill": "ATTACK",
-        "level": 60,
-        "cmp": ">="
-      },
+      "manual": true,
       "npc": 845,
       "world": [
         2596,

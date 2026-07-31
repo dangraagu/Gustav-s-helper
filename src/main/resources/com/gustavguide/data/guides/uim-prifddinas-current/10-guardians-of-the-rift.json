@@ -1,0 +1,196 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Guardians of the Rift",
+  "steps": [
+    {
+      "id": "guardians-of-the-rift-001",
+      "title": "Complete Regicide",
+      "text": "Complete Regicide",
+      "complete": {
+        "op": "quest",
+        "quest": "REGICIDE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2572,
+        3296,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-002",
+      "title": "Complete Roving Elves. — You can …",
+      "text": "Complete Roving Elves. — You can choose the crystal bow and store it in the stash unit in case you want it later. It is a good option for the Fight caves for example",
+      "complete": {
+        "op": "quest",
+        "quest": "ROVING_ELVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2207,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-003",
+      "title": "Complete Mourning's End Part I",
+      "text": "Complete Mourning's End Part I",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2207,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-004",
+      "title": "Complete Mourning's End Part II until …",
+      "text": "Complete Mourning's End Part II until the end where you need the death talisman",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2354,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-005",
+      "title": "Mine a few pure essence",
+      "text": "Mine a few pure essence",
+      "manual": true
+    },
+    {
+      "id": "guardians-of-the-rift-006a",
+      "title": "Complete Temple of the Eye. — …",
+      "text": "Complete Temple of the Eye. — During the quest when you are teleported to the abyss, leave via the earth altar",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-006b",
+      "title": "craft the essence for a diary …",
+      "text": "craft the essence for a diary step",
+      "manual": true,
+      "world": [
+        3285,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-007",
+      "title": "Complete the easy Varrock diary. — …",
+      "text": "Complete the easy Varrock diary. — Keep the armor",
+      "complete": {
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
+      },
+      "world": [
+        3206,
+        3417,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-008",
+      "title": "Death bank and Play Guardians of …",
+      "text": "Death bank and Play Guardians of the Rift until level 65 Runecraft. — Make weak guardians between rounds for extra crafting experience. — See this video for details on this. — At level 50, search until you get a Large Pouch and 25+ pearls to unlock the ability to repair pouches.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-009",
+      "title": "Loot your pulls and hope to …",
+      "text": "Loot your pulls and hope to get a Catalytic talisman. — If you don't get one, then just keep going until you do or just do the item list",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 26798,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 26798,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 26798,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-010",
+      "title": "Finish Mourning's End Part II",
+      "text": "Finish Mourning's End Part II",
+      "complete": {
+        "op": "quest",
+        "quest": "MOURNINGS_END_PART_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        2354,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-011",
+      "title": "Go back to Guardians of the …",
+      "text": "Go back to Guardians of the Rift and train there until you complete the full Rainments of the eye set. — If you get an Abyssal Lantern you could consider holding on to it and go for a Divine rune pouch and finishing Sins of the Father as soon as you can. Then go for 95+ Runecraft early. — Otherwise, just sell the lantern to finish the outfit sooner and move on with your life. — You could skip this grind, but you will need to figure out a different way to get 61 Crafting. This is a great way to do it. — If you do get a catalytic talisman, make sure to use it on your hat. It is important for being able to craft blood runes at the Blood Altar later if you ever want to do that. — Keep in mind you can only have 1 talisman set this way, even if you have multiple differently colored outfits. They all use the last talisman you set on any hat.",
+      "complete": {
+        "op": "skill",
+        "skill": "CRAFTING",
+        "level": 61,
+        "cmp": ">="
+      },
+      "npc": 415,
+      "world": [
+        3420,
+        3569,
+        2
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-012",
+      "title": "Inventory check: small pouch, Medium pouch, …",
+      "text": "Inventory check: small pouch, Medium pouch, Abyssal pearls, Rune pouch, Chisel",
+      "manual": true,
+      "npc": 415,
+      "world": [
+        3420,
+        3569,
+        2
+      ]
+    }
+  ]
+}

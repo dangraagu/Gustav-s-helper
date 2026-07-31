@@ -23,23 +23,13 @@
           }
         ]
       },
-      "item": 558,
-      "world": [
-        3253,
-        3402,
-        0
-      ]
+      "item": 558
     },
     {
       "id": "getting-a-house-and-doin-001b",
       "title": "buy more",
       "text": "buy more",
-      "manual": true,
-      "world": [
-        3216,
-        3416,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "getting-a-house-and-doin-002",
@@ -109,7 +99,7 @@
       "item": 1931,
       "npc": 1520,
       "world": [
-        2841,
+        2803,
         3432,
         0
       ]
@@ -299,8 +289,8 @@
       "text": "get a pickaxe from the spawn in the tower",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3227,
+        3257,
         0
       ]
     },
@@ -635,8 +625,8 @@
       },
       "item": 221,
       "world": [
-        1630,
-        3981,
+        2898,
+        3428,
         0
       ]
     },
@@ -825,8 +815,8 @@
       "manual": true,
       "object": 24009,
       "world": [
-        3227,
-        3257,
+        3212,
+        3215,
         0
       ]
     },
@@ -836,8 +826,8 @@
       "text": "speak to the chef",
       "manual": true,
       "world": [
-        3227,
-        3257,
+        3212,
+        3215,
         0
       ]
     },
@@ -863,7 +853,7 @@
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3209,

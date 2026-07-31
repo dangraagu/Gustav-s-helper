@@ -71,7 +71,7 @@ import net.runelite.client.util.ImageUtil;
 @Slf4j
 @PluginDescriptor(
 	name = "Gustav's Helper",
-	description = "Step-by-step ironman progression helper following the ironman.guide route",
+	description = "Step-by-step ironman progression helper (ironman.guide + OSRS Wiki routes). Suggest more guides via the GitHub repo.",
 	tags = {"ironman", "quest", "guide", "progression", "osiris", "efficiency"}
 )
 public class GustavGuidePlugin extends Plugin

@@ -73,8 +73,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3362,
-        3337,
+        3485,
+        3088,
         0
       ]
     },
@@ -102,9 +102,10 @@
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
       },
+      "npc": 5215,
       "world": [
-        3003,
-        3435,
+        3222,
+        3473,
         0
       ]
     },
@@ -118,8 +119,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3048,
-        9775,
+        2716,
+        3482,
         0
       ]
     },
@@ -146,8 +147,8 @@
       "item": 557,
       "npc": 3097,
       "world": [
-        2638,
-        3293,
+        3240,
+        3476,
         0
       ]
     },
@@ -175,9 +176,10 @@
         "quest": "THE_FREMENNIK_TRIALS",
         "state": "FINISHED"
       },
+      "npc": 8402,
       "world": [
-        2897,
-        10219,
+        2659,
+        3660,
         0
       ]
     },
@@ -190,9 +192,10 @@
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
       },
+      "npc": 10659,
       "world": [
-        3003,
-        3435,
+        2956,
+        3367,
         0
       ]
     },
@@ -291,9 +294,10 @@
         "quest": "MERLINS_CRYSTAL",
         "state": "FINISHED"
       },
+      "npc": 2582,
       "world": [
-        3126,
-        3635,
+        3102,
+        3557,
         0
       ]
     },
@@ -306,9 +310,10 @@
         "quest": "SHADOW_OF_THE_STORM",
         "state": "FINISHED"
       },
+      "npc": 2874,
       "world": [
-        3139,
-        9875,
+        3286,
+        3211,
         0
       ]
     },
@@ -348,9 +353,10 @@
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
       },
+      "npc": 822,
       "world": [
-        3003,
-        3435,
+        3068,
+        3517,
         0
       ]
     },
@@ -393,9 +399,10 @@
         "quest": "ELEMENTAL_WORKSHOP_II",
         "state": "FINISHED"
       },
+      "npc": 4227,
       "world": [
-        3367,
-        3335,
+        2694,
+        3493,
         0
       ]
     },
@@ -423,9 +430,10 @@
         "quest": "BONE_VOYAGE",
         "state": "FINISHED"
       },
+      "npc": 1335,
       "world": [
-        2662,
-        3161,
+        3050,
+        3257,
         0
       ]
     },
@@ -433,14 +441,11 @@
       "id": "s13-025",
       "title": "Optional: clan wars teleport to Edgeville, …",
       "text": "Optional: clan wars teleport to Edgeville, make two rings of recoil for the Koschei fight (using a dwarven stout to smelt gold ore). Teleport to Camelot, pay the estate agent to move your POH to Rellekka. Grab premade gnome food/your best food, a knife, a dramen branch, your recoil rings, a ring of dueling and POH teleport runes (no staff). House teleport, do the Thorvald/Koschei fight converting one of the dramen branches into a staff during the fight (using the aggressive style). Teleport to clan wars after. Grab Camelot teleport runes and the items needed below (check the list below!). Teleport to Camelot, run to Galahad’s house and obtain the holy table napkin (Holy Grail) and have him make you a cup of tea (diary). Cross the coal truck log shortcut and mine a coal for the diary. House teleport, buy a workshop and build a crafting table 2, make five clockworks. Have Peer the Seer bank all your items except juggle a dueling ring for speed if you want, then do the Peer the Seer step (juggle dueling or home teleport after), teleport to castle wars with your dueling ring/Lumbridge, rebank and teleport to your house, complete The Fremennik Trials. Mine a coal and then a silver in the mine, smelt it into a bar and make it into a tiara for the diary. Browse Yrsa’s Shoe Store for the diary, steal from the fish stall, collect a pet rock, take the boat to Waterbirth Island and collect 5 snape grass for the diary (can pick up and re-drop one, but collect at least 2).",
-      "complete": {
-        "op": "quest",
-        "quest": "THE_FREMENNIK_TRIALS",
-        "state": "FINISHED"
-      },
+      "manual": true,
+      "npc": 3097,
       "world": [
-        2941,
-        3288,
+        2638,
+        3293,
         0
       ]
     },
@@ -515,9 +520,10 @@
         "quest": "HOLY_GRAIL",
         "state": "FINISHED"
       },
+      "npc": 3531,
       "world": [
-        2763,
-        3513,
+        1867,
+        4235,
         0
       ]
     },

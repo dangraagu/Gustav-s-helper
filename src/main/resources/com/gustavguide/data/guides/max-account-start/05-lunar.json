@@ -22,7 +22,12 @@
       "id": "lunar-002",
       "title": "Watch tower (15k magic xp, requires …",
       "text": "Watch tower (15k magic xp, requires 40 mining)",
-      "manual": true
+      "manual": true,
+      "world": [
+        2548,
+        3119,
+        0
+      ]
     },
     {
       "id": "lunar-003",

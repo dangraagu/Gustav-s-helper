@@ -1,0 +1,498 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Questing for Combats",
+  "steps": [
+    {
+      "id": "questing-for-combats-001",
+      "title": "Collect your items from your death …",
+      "text": "Collect your items from your death bank and store your things in your looting bag. — Keep a Marrentil out of your bag. — Gear up for questing. — You can get Looting bags from points at Last man standing. Or kill Thugs in the Edgeville Dungeon for a slight risk. — You can bag items while at the Ferox Enclave. You don't need to risk going into the Wilderness.",
+      "manual": true,
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-002",
+      "title": "Get a kitten from Gertrude and …",
+      "text": "Get a kitten from Gertrude and start growing it. Put it in your house when it has grown. — You can fish karambwanji for stackable fish. Bring a small fishing net. — (Optional) After it grows you can also complete Icthlarin's Little Helper and Ratcatchers to get a wily cat.",
+      "manual": true,
+      "npc": 7723,
+      "world": [
+        3151,
+        3413,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-003",
+      "title": "Complete Recipe for Disaster/Freeing the Mountain …",
+      "text": "Complete Recipe for Disaster/Freeing the Mountain Dwarf",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3213,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-004",
+      "title": "Complete Death Plateau. — You might …",
+      "text": "Complete Death Plateau. — You might need to juggle items on the ground for a bit to clear enough space for the items",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_PLATEAU",
+        "state": "FINISHED"
+      },
+      "world": [
+        2896,
+        3529,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-005",
+      "title": "Complete Troll Stronghold",
+      "text": "Complete Troll Stronghold",
+      "complete": {
+        "op": "quest",
+        "quest": "TROLL_STRONGHOLD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2895,
+        3528,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-006",
+      "title": "Complete Making History",
+      "text": "Complete Making History",
+      "complete": {
+        "op": "quest",
+        "quest": "MAKING_HISTORY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2436,
+        3346,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-007",
+      "title": "Complete Bone Voyage. — Make sure …",
+      "text": "Complete Bone Voyage. — Make sure to get your lamps from Historian Minas for some Herblore xp. — You can now start farming your seeds with Ultracompost if you would like. — You can buy Pineapples from the Trader Crewmember in Catherby and note them at the Farming patch to the north. — If you have any leaves left in your Forestry kit, you can use those as a stackable item to fill the compost bin. Then make some Compost potions to turn it into supercompost and then the ultracompost. — Make sure you clean the herbs before you note them. It saves a lot of time.",
+      "complete": {
+        "op": "quest",
+        "quest": "BONE_VOYAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2820,
+        3462,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-008",
+      "title": "Unlock Barbarian Farming so you don't …",
+      "text": "Unlock Barbarian Farming so you don't need a Seed dibber anymore",
+      "manual": true,
+      "world": [
+        2500,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-009",
+      "title": "Complete The Golem",
+      "text": "Complete The Golem",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GOLEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3485,
+        3088,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-010",
+      "title": "Complete Shadow of the Storm. — …",
+      "text": "Complete Shadow of the Storm. — Watch the videos for some notes on the boss fight. — Put the experience on Ranged",
+      "complete": {
+        "op": "quest",
+        "quest": "SHADOW_OF_THE_STORM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3270,
+        3159,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-011",
+      "title": "Complete Recipe for Disaster/Freeing Evil Dave",
+      "text": "Complete Recipe for Disaster/Freeing Evil Dave",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3213,
+        3221,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-012",
+      "title": "Complete Big Chompy Bird Hunting",
+      "text": "Complete Big Chompy Bird Hunting",
+      "complete": {
+        "op": "quest",
+        "quest": "BIG_CHOMPY_BIRD_HUNTING",
+        "state": "FINISHED"
+      },
+      "world": [
+        2631,
+        2982,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-013",
+      "title": "Complete Recipe for Disaster/Freeing Skrach Uglogwee",
+      "text": "Complete Recipe for Disaster/Freeing Skrach Uglogwee",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "questing-for-combats-014",
+      "title": "Complete Recipe for Disaster/Freeing Pirate Pete",
+      "text": "Complete Recipe for Disaster/Freeing Pirate Pete",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "questing-for-combats-015",
+      "title": "Complete Recipe for Disaster/Freeing the Lumbridge …",
+      "text": "Complete Recipe for Disaster/Freeing the Lumbridge Guide",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-016",
+      "title": "Complete Wanted!",
+      "text": "Complete Wanted!",
+      "complete": {
+        "op": "quest",
+        "quest": "WANTED",
+        "state": "FINISHED"
+      },
+      "world": [
+        2997,
+        3373,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-017",
+      "title": "Complete Animal Magnetism",
+      "text": "Complete Animal Magnetism",
+      "complete": {
+        "op": "quest",
+        "quest": "ANIMAL_MAGNETISM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3093,
+        3357,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-018",
+      "title": "At this point you could start …",
+      "text": "At this point you could start training Ranged in your downtime, but the guide is going to prepare for melee as well before settling in for the combat grind",
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-019",
+      "title": "Author Note: This is as far …",
+      "text": "Author Note: This is as far as I got on the test account. From here on, I will be adding notes for some specific steps I want feedback on. — This also means there are probably some mistakes or oversights I missed. Tell me if something is off!",
+      "manual": true
+    },
+    {
+      "id": "questing-for-combats-020",
+      "title": "Complete Spirits of the Elid. — …",
+      "text": "Complete Spirits of the Elid. — You can boost to 37 Ranged with a Lizardkicker",
+      "complete": {
+        "op": "skill",
+        "skill": "RANGED",
+        "level": 37,
+        "cmp": ">="
+      },
+      "world": [
+        3443,
+        2915,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-021",
+      "title": "(Optional) Complete Meat and Greet. — …",
+      "text": "(Optional) Complete Meat and Greet. — The boss fight for this quest is rather challenging with these stats, but is possible. It is totally fine to skip it",
+      "manual": true
+    },
+    {
+      "id": "questing-for-combats-022",
+      "title": "Obtain 70 Cooking. — An easy …",
+      "text": "Obtain 70 Cooking. — An easy method is to buy and cook fish from Frankie's Fishing Emporium, however there are other options. Ultimate Ironman Guide/Cooking. — You can use an alt to light fires to cook the fish without going to the range. — If you have an alt you could also go for Tai Bwo Wannai Trio at cook Karambwans from the shop and have the alt make a fire. — You can get an Agility potion from Dr Jekyll if you carry a clean irit around with you. This could take awhile so you can do other stuff in the meantime and just come back to this later when you get it.",
+      "manual": true,
+      "world": [
+        2796,
+        3066,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-023",
+      "title": "Complete Zogre Flesh Eaters. — Save …",
+      "text": "Complete Zogre Flesh Eaters. — Save the Super Restores to help during Monkey Madness 1",
+      "complete": {
+        "op": "quest",
+        "quest": "ZOGRE_FLESH_EATERS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2447,
+        3049,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-024",
+      "title": "Complete Monkey Madness I. — Get …",
+      "text": "Complete Monkey Madness I. — Get all the greegrees needed for Recipe for Disaster/Freeing King Awowogei during this this quest. — Give Zooknock the materials for a second Ninja monkey greegree but don't take the greegree yet, come back and claim it when needed for Monkey Madness II. — Do the training with Daero focused on Strength after the quest. — Be careful not to die to the Jungle Demon as getting your stuff back is very annoying.",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-025",
+      "title": "Complete Recipe for Disaster/Freeing King Awowogei. …",
+      "text": "Complete Recipe for Disaster/Freeing King Awowogei. — Purchase a Dragon Scimitar from Daga before dropping your M'speak amulet and greegrees",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-026",
+      "title": "Complete Dragon Slayer I. — You …",
+      "text": "Complete Dragon Slayer I. — You can buy a rune sword for the combat sections, you will want it for training later anyway",
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-027",
+      "title": "Complete Heroes' Quest. — You will …",
+      "text": "Complete Heroes' Quest. — You will need to briefly visit Entrana",
+      "complete": {
+        "op": "quest",
+        "quest": "HEROES_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2904,
+        3511,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-028",
+      "title": "Complete Icthlarin's Little Helper",
+      "text": "Complete Icthlarin's Little Helper",
+      "complete": {
+        "op": "quest",
+        "quest": "ICTHLARINS_LITTLE_HELPER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3316,
+        2849,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-029",
+      "title": "Complete Contact!. — Put the xp …",
+      "text": "Complete Contact!. — Put the xp on Ranged",
+      "complete": {
+        "op": "quest",
+        "quest": "CONTACT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3281,
+        2772,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-030",
+      "title": "Complete The Fremennik Trials. — Remember …",
+      "text": "Complete The Fremennik Trials. — Remember that you can use protection from melee for the fight, so if you can prayer flick well you don't need to prepare very much. You don't need to beat the 4th form, just let it down you and it will still count. — You will need to death pile for this.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3280,
+        2774,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-031",
+      "title": "Complete The Fremennik Isles. — Put …",
+      "text": "Complete The Fremennik Isles. — Put the xp on Strength. — Use fire blast on the 10 troll kills, melee the boss. — Either gear up now with your melee setup for the boss, or use this cheese strategy : https://youtu.be/tfDBAyn_ExY?si=3qsaTR8Nz9AtbqrE",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_ISLES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2644,
+        3709,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-032",
+      "title": "Gear up for combat training using …",
+      "text": "Gear up for combat training using the setup at the bottom of this section. — If you are planning to boost your Fighter Torso, you could do it now. Otherwise wait for better combat stats. — Switch to the Helm of neitiznot once you get 55 Defense. It can be alched and bought back later.",
+      "complete": {
+        "op": "skill",
+        "skill": "DEFENCE",
+        "level": 55,
+        "cmp": ">="
+      },
+      "note": "Nightmare Zone north of Yanille; Venator bow on Long-range earns Defence, or absorption Rumble for AFK.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
+      "npc": 1883,
+      "world": [
+        2644,
+        3710,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-033",
+      "title": "Train at ammonite crabs until you …",
+      "text": "Train at ammonite crabs until you reach 65 Attack and Strength. — Go for 56 Strength, then 60 Attack, then 65 Strength, then 65 Attack. — During this grind do birdhouse runs until at least 57 Hunter, but you can go higher. Store needed logs in your log basket. — 57 unlocks medium Hunter Rumours for getting level 70 later. — You can also train with normal Hunter methods if you would like. — Buy seeds from one of the seed shops such as Amelia's Seed Shop to use. — (Optional) Train some Defense levels as well. They will come in handy. — Farm tree seeds during this grind, especially fruit trees. You are hoping to get a Hespori seed for death banking. — If you happen to get a spirit seed, save it and use it to make a Spirit tree (Construction). You will want to make an effort to get your Farming up to use it sooner than you would otherwise. — The reason the guide recommends ammonite crabs is for the fossils. These can be stored in Fossil storage and used for lamps later. This will actually add up to a large amount of experience, but the guide doesn't rely on it. — You are welcome to other methods such as the Gemstone crab, Sand crabs, or Nightmare Zone.",
+      "complete": {
+        "op": "skill",
+        "skill": "ATTACK",
+        "level": 65,
+        "cmp": ">="
+      },
+      "note": "Nightmare Zone Normal Rumble north of Yanille - very AFK with absorption + overload potions (needs ~5 quests).",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
+      "npc": 8180,
+      "world": [
+        1540,
+        3545,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-034",
+      "title": "After you finish with melee, buy …",
+      "text": "After you finish with melee, buy a bone crossbow and an ava's attractor then switch to range training until level 60 Ranged",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 837,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 837,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 837,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "questing-for-combats-035",
+      "title": "Inventory check: Dragon battleaxe",
+      "text": "Inventory check: Dragon battleaxe",
+      "manual": true
+    }
+  ]
+}

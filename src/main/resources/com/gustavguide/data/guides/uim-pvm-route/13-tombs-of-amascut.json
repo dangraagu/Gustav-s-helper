@@ -1,0 +1,24 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Tombs of Amascut",
+  "steps": [
+    {
+      "id": "tombs-of-amascut-001",
+      "title": "Complete the Tombs of Amascut until …",
+      "text": "Complete the Tombs of Amascut until you receive an Osmumten's fang",
+      "manual": true,
+      "world": [
+        3345,
+        2725,
+        0
+      ]
+    },
+    {
+      "id": "tombs-of-amascut-002",
+      "title": "In the setups, you can store …",
+      "text": "In the setups, you can store the pickaxe in the raid and utilize the lasting poison resistance from Ambrosia in a previous raid. They are just there to remind you to bring them the first time. — Depending on your boss order, you might be able to drop the ranging potion or super combat potion.",
+      "manual": true
+    }
+  ]
+}

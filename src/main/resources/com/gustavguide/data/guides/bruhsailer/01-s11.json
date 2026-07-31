@@ -27,11 +27,12 @@
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 3105,
       "world": [
-        3228,
-        3242,
+        3215,
+        3219,
         0
       ]
     },
@@ -84,11 +85,12 @@
       "complete": {
         "op": "quest",
         "quest": "MONKS_FRIEND",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 12085,
       "world": [
-        2607,
-        3211,
+        2569,
+        3275,
         0
       ]
     },
@@ -168,7 +170,7 @@
       "complete": {
         "op": "quest",
         "quest": "TRIBAL_TOTEM",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2794,
@@ -201,9 +203,10 @@
         "quest": "BLACK_KNIGHTS_FORTRESS",
         "state": "FINISHED"
       },
+      "npc": 3479,
       "world": [
-        3045,
-        3234,
+        3098,
+        3268,
         0
       ]
     },
@@ -216,9 +219,10 @@
         "quest": "CHILDREN_OF_THE_SUN",
         "state": "FINISHED"
       },
+      "npc": 11868,
       "world": [
-        3225,
-        3426,
+        3204,
+        3424,
         0
       ]
     },
@@ -226,12 +230,7 @@
       "id": "s11-013",
       "title": "Optional but recommended: slap the combat …",
       "text": "Optional but recommended: slap the combat dummies to get 5 attack so you can equip your steel axe later at wintertodt. Go to the Varrock East bank, take the Pirates’ Treasure key, research package, hammer, saw, some runes for casting wind strike and coins. Note: if you want to join the Phoenix gang, follow the instructions to complete Shield of Arrav in this guide step (yellow, italicized). However, it is recommended to postpone the quest and join the Black Arm Gang later (red, underlined), since that is usually in higher demand. Go to the Varrock center, talk to Baraek and pay him 20gp to progress Shield of Arrav (Phoenix clan) make sure to check all dialogue options. Make sure you have at least 3704 gp left after the next Aubury shopping trip. Go to Aubury, give him the research notes and continue the dialogue to get offered a cup of tea - this restores your run energy. Buy 100 mind, 100 air, 50 water, 50 earth and 20 fire runes (no rune packs). Speak with Dimintheis in Varrock East to start Family Crest. Head to Old Man Yarlo for Daddy’s home and progress the miniquest to the point you collect the waxwood logs from the crates in the kitchen. Head south to the Phoenix hideout and talk to Straven to progress Shield of Arrav then head to the Blue Moon Inn, go upstairs and open the chest at the end of the hall, read the message (you can drop it after). Go back downstairs and kill Johnny the beard (with magic) and pick up the report. Talk to Dr Harlow to progress Vampyre Slayer, buy him a beer. Buy an extra beer for later. Go back to Straven, give him the report to get the Weapon store key. Grab half of the Shield of Arrav. From now on every time you are in Varrock you may complete Shield of Arrav with a partner, at your own convenience (sooner is better). Use clan chat “osrs soa” to find a partner. If you plan to join the Black Arm Gang: head southwest to Charlie the Tramp, speak with him, then enter the Black Arm Gang hideout to the west, speak with Katrine and progress the quest.",
-      "complete": {
-        "op": "skill",
-        "skill": "ATTACK",
-        "level": 5,
-        "cmp": ">="
-      },
+      "manual": true,
       "npc": 11434,
       "world": [
         3253,
@@ -248,9 +247,10 @@
         "quest": "RAG_AND_BONE_MAN_I",
         "state": "FINISHED"
       },
+      "npc": 12885,
       "world": [
-        3362,
-        3502,
+        3281,
+        3413,
         0
       ]
     },
@@ -261,8 +261,9 @@
       "complete": {
         "op": "quest",
         "quest": "WITCHS_POTION",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 4619,
       "world": [
         2968,
         3205,
@@ -289,6 +290,7 @@
         "quest": "CLIENT_OF_KOUREND",
         "state": "FINISHED"
       },
+      "npc": 10727,
       "world": [
         1824,
         3690,

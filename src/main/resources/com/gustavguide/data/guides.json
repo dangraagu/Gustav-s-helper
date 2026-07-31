@@ -32,6 +32,16 @@
       "description": "Ultimate Ironman route to Song of the Elves / Prifddinas (OSRS Wiki, CC BY-NC-SA 3.0). OLD route backup - marked outdated by the wiki."
     },
     {
+      "id": "uim-prifddinas-current",
+      "name": "UIM Walkthrough to Prifddinas (Current Route)",
+      "description": "Ultimate Ironman route to Song of the Elves / Prifddinas (OSRS Wiki, CC BY-NC-SA 3.0). CURRENT actively-maintained route."
+    },
+    {
+      "id": "uim-pvm-route",
+      "name": "UIM Walkthrough — PvM Route",
+      "description": "Ultimate Ironman PvM progression route after Song of the Elves (OSRS Wiki, CC BY-NC-SA 3.0)."
+    },
+    {
       "id": "max-account-start",
       "name": "heboxjonge - Account Start (Main/Alt)",
       "description": "heboxjonge's account-start questing + skill-training route, branching into alt types (community Google Sheets guide)."

@@ -7,11 +7,7 @@
       "id": "overview-001",
       "title": "IF you want a fairy ring …",
       "text": "IF you want a fairy ring in your house keep in mind that you will be unlocking a lot of slayer monster by doing priest in peril so not recommended to this this b4 slayer",
-      "complete": {
-        "op": "quest",
-        "quest": "PRIEST_IN_PERIL",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
         3222,
         3473,

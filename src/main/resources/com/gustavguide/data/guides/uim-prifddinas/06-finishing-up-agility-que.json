@@ -36,8 +36,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3211,
-        3381,
+        3103,
+        3265,
         0
       ]
     },
@@ -53,8 +53,8 @@
       "text": "pick up your last house tablet",
       "manual": true,
       "world": [
-        3211,
-        3381,
+        3103,
+        3265,
         0
       ]
     },
@@ -64,8 +64,8 @@
       "text": "Use the teleport to house tab",
       "manual": true,
       "world": [
-        3211,
-        3381,
+        3103,
+        3265,
         0
       ]
     },
@@ -108,7 +108,7 @@
       "complete": {
         "op": "quest",
         "quest": "RECRUITMENT_DRIVE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2955,
@@ -467,9 +467,10 @@
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
       },
+      "npc": 8019,
       "world": [
-        2466,
-        3495,
+        2465,
+        3496,
         0
       ]
     },
@@ -926,7 +927,12 @@
       "id": "finishing-up-agility-que-065",
       "title": "Natural history quiz (Miniquest)",
       "text": "Natural history quiz (Miniquest)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3260,
+        3449,
+        0
+      ]
     }
   ]
 }

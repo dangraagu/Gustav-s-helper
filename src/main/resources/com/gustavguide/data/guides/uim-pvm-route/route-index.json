@@ -1,0 +1,18 @@
+{
+  "_comment": "Auto-generated from raw/uim-pvm-route.json by build_raw_guide.py",
+  "sections": [
+    "01-introduction.json",
+    "02-combat-xp.json",
+    "03-divine-rune-pouch.json",
+    "04-moons-of-peril.json",
+    "05-royal-titans.json",
+    "06-corrupted-gauntlet.json",
+    "07-optional-zulrah.json",
+    "08-god-wars-dungeon.json",
+    "09-inferno.json",
+    "10-early-raids.json",
+    "11-chambers-of-xeric.json",
+    "12-theatre-of-blood.json",
+    "13-tombs-of-amascut.json"
+  ]
+}

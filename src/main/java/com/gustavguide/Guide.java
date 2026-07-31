@@ -17,6 +17,8 @@ public enum Guide
 	IRONMAN_PVM_RUSH("ironman-pvm-rush", "Ironman PvM Rush"),
 	BRUHSAILER("bruhsailer", "BRUHsailer Complete Guide"),
 	UIM_PRIFDDINAS("uim-prifddinas", "UIM Walkthrough to Prifddinas (Old Route)"),
+	UIM_PRIFDDINAS_CURRENT("uim-prifddinas-current", "UIM Walkthrough to Prifddinas (Current Route)"),
+	UIM_PVM_ROUTE("uim-pvm-route", "UIM Walkthrough — PvM Route"),
 	MAX_ACCOUNT_START("max-account-start", "heboxjonge - Account Start (Main/Alt)"),
 	MAX_SLAYER_LURE_ALT("max-slayer-lure-alt", "heboxjonge - Slayer-Lure Alt"),
 	MAX_RUNE_DRAGON_DS2_ALT("max-rune-dragon-ds2-alt", "heboxjonge - Rune Dragon / DS2 Alt"),

@@ -552,9 +552,10 @@
         "quest": "LUNAR_DIPLOMACY",
         "state": "FINISHED"
       },
+      "npc": 9263,
       "world": [
-        2620,
-        3693,
+        2658,
+        3666,
         0
       ]
     },
@@ -591,8 +592,8 @@
       "text": "Bank at Lunar Bank (DO NOT DEPOSIT ALL ARMOUR SETS)",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        2101,
+        3919,
         0
       ]
     },
@@ -705,11 +706,7 @@
       "id": "e10-045",
       "title": "Complete a lap of Pollnivneach Agility …",
       "text": "Complete a lap of Pollnivneach Agility Course [Desert Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "hard"
-      },
+      "manual": true,
       "world": [
         3228,
         3109,
@@ -736,9 +733,10 @@
         "quest": "CONTACT",
         "state": "FINISHED"
       },
+      "npc": 4206,
       "world": [
-        3280,
-        2774,
+        3281,
+        2772,
         0
       ]
     },
@@ -761,11 +759,7 @@
       "id": "e10-049",
       "title": "Return to the maze & kill …",
       "text": "Return to the maze & kill the ranger Locus Rider nearby [Desert Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "hard"
-      },
+      "manual": true,
       "world": [
         3228,
         3109,
@@ -830,11 +824,7 @@
       "id": "e10-053",
       "title": "Light a fire on the Mayor’s …",
       "text": "Light a fire on the Mayor’s Balcony [Desert Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "hard"
-      },
+      "manual": true,
       "world": [
         3228,
         3109,
@@ -845,11 +835,7 @@
       "id": "e10-054",
       "title": "Smith a Mithril Platebody [Desert Hard …",
       "text": "Smith a Mithril Platebody [Desert Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "hard"
-      },
+      "manual": true,
       "world": [
         3228,
         3109,
@@ -944,7 +930,7 @@
           {
             "op": "itemAcquired",
             "id": 1523,
-            "qty": 27
+            "qty": 52
           },
           {
             "op": "item",

@@ -1,0 +1,299 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Wilderness Agility",
+  "steps": [
+    {
+      "id": "wilderness-agility-001",
+      "title": "(Optional) If this gets too frustrating, …",
+      "text": "(Optional) If this gets too frustrating, then you can always go out of your way to get the Rogues outfit and get all of your money from Thieving instead. — Seriously though, Wilderness Agility is OP. If you are worried about deaths then look at the options for being safer before you give up. — You can also make decent early money at Giant's Foundry with iron/steel plates while also training a skill. — If you go for Thieving you will also want to rush some form of Construction (such as with the Auburnvale sawmill) to be able to store the outfit in your house. — You still need to get 70+ Agility. The Brimhaven course works well for this. Seers is also an option if you want Graceful.",
+      "manual": true,
+      "npc": 3101,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-002",
+      "title": "Collect gp until you have 160k …",
+      "text": "Collect gp until you have 160k total at the Agility Pyramid to get started. This should also get you 52 Agility. — If you die on your first trip out you will sadly have to come back here for more gp. — If you ever get frustrated at the Wildy Couse, remember this grind and how much slower gp your alternatives are. Agility Pyramid (with some more Agility levels) is about the same gp/h as Thieving.",
+      "manual": true,
+      "object": 11948,
+      "world": [
+        3335,
+        2829,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-003",
+      "title": "Train at the Wilderness Agility Course …",
+      "text": "Train at the Wilderness Agility Course until you have 70+ Agility and at least 10m gp. — YOU NEED TO WATCH THE VIDEO ON HOW TO TANK AT THE COURSE. — Yes it is long, but I spent the time to make it to keep your ass alive! — Ok, for real. At least watch the first part where I show you the skeleton mechanics even if you skip the rest. — Use the setup shown in the example below. — See This Video for how to re-gear when you die. — Buy the Cooked karambwans at The Shrimp and Parrot for your first trip out. — You will get a looting bag automatically when you pay the 150k fee. — Use blighted supplies on later trips once you get them. — Sell your loot to Martin Thwait's Lost and Found after each trip. — Destroy your looting bag IN THE WILDERNESS to get the loot out and pick it up. Note that other players can see this loot instantly! — Store your extra coins in the coffers at Last Man Standing as you go. — Sell at least 2-3 per world. Not 1, as it takes too long to be worth it. — For your first time out, do about 50 laps and then leave. On later trips, do 100-150+ laps depending on your risk tolerance, build, PKer activity, and tanking skills. — If you are interested in making this grind safer/more consistent check out the sections below for some build options and about mass worlds. — 10m is just the minimum needed to safely finish the guide, but I highly recommend going for at least 15-20m.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3144,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 3144,
+            "qty": 11,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3144,
+      "npc": 5832,
+      "world": [
+        3077,
+        3263,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-004",
+      "title": "Work towards one of the other …",
+      "text": "Work towards one of the other build options. — Remember simply cleaning finds for more lamps is always a chill option as well",
+      "manual": true
+    },
+    {
+      "id": "wilderness-agility-005",
+      "title": "Fishing to level 53+",
+      "text": "Fishing to level 53+",
+      "manual": true
+    },
+    {
+      "id": "wilderness-agility-006",
+      "title": "Wintertodt to level 99. — Do …",
+      "text": "Wintertodt to level 99. — Do Daddy's Home and Tower of Life to get a few Construction levels first. — Make some headless arrows for a few starting Fletching levels. Going to level 20 is fine. — Do Forestry as you get the 50 Firemaking to work towards a log basket. — You can save your bark in the Forestry kit by death piling and letting the kit de-spawn if you don't have a Magic wardrobe.",
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2637,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-007",
+      "title": "Vale Totems for the Fletching knife. …",
+      "text": "Vale Totems for the Fletching knife. — Make sure to have a Magic wardrobe first. Doing solo Wintertodt can help get this",
+      "complete": {
+        "op": "quest",
+        "quest": "VALE_TOTEMS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1365,
+        3366,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-008",
+      "title": "Cooking to level 70",
+      "text": "Cooking to level 70",
+      "manual": true
+    },
+    {
+      "id": "wilderness-agility-009",
+      "title": "Mining to level 52",
+      "text": "Mining to level 52",
+      "manual": true
+    },
+    {
+      "id": "wilderness-agility-010",
+      "title": "Giant's Foundry for the Smith's outfit. …",
+      "text": "Giant's Foundry for the Smith's outfit. — Just use the bucket of water rather than ice gloves",
+      "manual": true
+    },
+    {
+      "id": "wilderness-agility-011",
+      "title": "Read the rules and abide by …",
+      "text": "Read the rules and abide by any instructions for the clan you are going with. — If you are running with Agility FC, you must wear a ranged weapon so swap your training sword to a crossbow and bring something else for the webs. — You don't need bolts as you won't attack anyone or it would ruin your build. Just look scary...",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-012",
+      "title": "It is viable to only do …",
+      "text": "It is viable to only do Agility during the masses and work on other skilling grinds in the meantime. — This is a (relatively) safe option but you have to pay attention to when masses are running.",
+      "manual": true
+    },
+    {
+      "id": "wilderness-agility-013",
+      "title": "Read the next section first and …",
+      "text": "Read the next section first and decide if you want to go for Watchtower with your limited remaining combat xp before spending it here",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-014",
+      "title": "Complete the easy Varrock Diary. — …",
+      "text": "Complete the easy Varrock Diary. — Remember you can get bones from the boneyard if needed. — Complete Enter the abyss, then craft 1 inventory of runes at the Ourania Altar. — Consider getting 41/52 Mining now to use the Rune pickaxe. — Complete Temple of the eye. — Bring some pure essence with you and leave the Abyss through the Earth portal to craft the runes. — Play some Guardians of the rift and loot after each round until you have enough Abyssal pearls for a Mind talisman. — You can use the Varrock armour 1.",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_THE_EYE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3285,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-015",
+      "title": "Complete the easy Falador Diary. — …",
+      "text": "Complete the easy Falador Diary. — Complete Daddy's home and Tower of life then use the planks on a few Mahogany homes contracts for the Construction level. — Use some of your Magic or Ranged xp on the duck.",
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2637,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-016",
+      "title": "Complete the easy Lumbridge & Draynor …",
+      "text": "Complete the easy Lumbridge & Draynor Diary. — You will need 2 poisons to complete this. — After you are done, you can add the Explorer's ring 1 to your setup for an extra Prayer bonus. — To kill the cave bug you have to do a bit extra because of their very high HP regen. — Bring your dagger and ranged/magic. — Poison the bug as normal. — After it gets hit by a 4, attack with with Ranged or Magic to get an extra hit of damage in.",
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-017",
+      "title": "If you still have combat xp …",
+      "text": "If you still have combat xp for the Jogre (it takes 2 poisons), complete the easy Karamja Diary. This should get you 36 Hitpoints. — If you are out of xp, just clean finds for a few lamps and call it a day. This diary only gives 1k xp.",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-018",
+      "title": "It isn't the end of the …",
+      "text": "It isn't the end of the world if you have to gain an extra Attack or Defense level, but if you are out of combat xp you can try to go for growing nightshade instead. — There are also lots of methods involving alts that you could look into.",
+      "manual": true
+    },
+    {
+      "id": "wilderness-agility-019",
+      "title": "Partially complete Tai Bwo Wannai Trio …",
+      "text": "Partially complete Tai Bwo Wannai Trio until you can use the kp poison on an iron spear. — There is a reasonably good chance you will have to get the 65 Fishing requirement as you can burn the 1 Karambwan you get.",
+      "complete": {
+        "op": "quest",
+        "quest": "TAI_BWO_WANNAI_TRIO",
+        "state": "FINISHED"
+      },
+      "world": [
+        2782,
+        3087,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-020",
+      "title": "Use the kp spear to kill …",
+      "text": "Use the kp spear to kill a Green dragon in the far east wilderness for the Dragon bones",
+      "manual": true,
+      "world": [
+        3087,
+        3522,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-021",
+      "title": "Partially complete Watchtower until you get …",
+      "text": "Partially complete Watchtower until you get the Skavid map. — There is another npc to poison in the quest",
+      "complete": {
+        "op": "quest",
+        "quest": "WATCHTOWER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2548,
+        3119,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-022",
+      "title": "Get the Firemaking level for the …",
+      "text": "Get the Firemaking level for the dynamite and look up guides on how to do quests as a skiller",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-023",
+      "title": "Complete quests like One Small Favor, …",
+      "text": "Complete quests like One Small Favor, A Tail of Two Cats or more diaries for extra Hitpoints",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2919,
+        3559,
+        0
+      ]
+    },
+    {
+      "id": "wilderness-agility-024",
+      "title": "Inventory check: Looting bag, Wilderness agility …",
+      "text": "Inventory check: Looting bag, Wilderness agility ticket, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3144,
+            "qty": 11
+          },
+          {
+            "op": "item",
+            "id": 3144,
+            "qty": 11,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3144,
+      "world": [
+        3087,
+        3522,
+        0
+      ]
+    }
+  ]
+}

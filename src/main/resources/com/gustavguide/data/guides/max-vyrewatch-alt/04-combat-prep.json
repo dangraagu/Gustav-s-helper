@@ -16,8 +16,8 @@
       "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
       "world": [
-        3209,
-        3215,
+        3165,
+        3490,
         0
       ]
     },
@@ -67,8 +67,8 @@
       "text": "Get dragon defender (full obby + berserker neck) (train strength)",
       "manual": true,
       "world": [
-        3283,
-        3501,
+        2864,
+        3544,
         0
       ]
     },
@@ -213,8 +213,8 @@
       "text": "Get a fire cape (optional)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2856,
+        3168,
         0
       ]
     }

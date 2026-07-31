@@ -1,0 +1,422 @@
+{
+  "id": "uim-pvm-route",
+  "name": "UIM Walkthrough — PvM Route",
+  "source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "sections": [
+    {
+      "section": "Introduction",
+      "prefix": "introduction",
+      "steps": [
+        {
+          "name": "The Elite Lumbridge & Draynor Diary is extremely nice to have done.",
+          "loc": null
+        },
+        {
+          "name": "Ability to craft Wrath runes.",
+          "loc": null
+        },
+        {
+          "name": "Build an Ornate rejuvenation pool.",
+          "loc": null
+        },
+        {
+          "name": "Agility level for various high-level shortcuts.",
+          "loc": null
+        },
+        {
+          "name": "Ability to make super combat potions.",
+          "loc": null
+        },
+        {
+          "name": "Ability to steal from master farmers without failing.",
+          "loc": null
+        },
+        {
+          "name": "Crafting requirements for powerful jewelry.",
+          "loc": null
+        },
+        {
+          "name": "Ability to fletch Amethyst darts.",
+          "loc": null
+        },
+        {
+          "name": "Lots of loot from Hunter rumours, and/or fast Ranged training with chinchompas.",
+          "loc": null
+        },
+        {
+          "name": "Mining level for Amethyst.",
+          "loc": null
+        },
+        {
+          "name": "Smithing level for diaries and to craft the crystal equipment.",
+          "loc": null
+        },
+        {
+          "name": "Ability to fish Minnows for noted Sharks.",
+          "loc": null
+        },
+        {
+          "name": "Ability to cook noted sharks.",
+          "loc": null
+        },
+        {
+          "name": "Lots of loot and xp from Wintertodt.",
+          "loc": null
+        },
+        {
+          "name": "Diary unlocks from higher Woodcutting.",
+          "loc": null
+        },
+        {
+          "name": "Farm higher level seeds and extra spirit trees.",
+          "loc": null
+        },
+        {
+          "name": "There are plenty more. Skills are important!",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Combat Xp",
+      "prefix": "combat-xp",
+      "steps": [
+        {
+          "name": "Recommended minimum combat stats before jumping into PvM. — 80 Attack — 85 Strength — 80 Defense — 85 Ranged — 70 Prayer (Piety) — 80 Magic (Blood Blitz/Charge)",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Divine Rune Pouch",
+      "prefix": "divine-rune-pouch",
+      "steps": [
+        {
+          "name": "Make an amulet of fury. — You need high Crafting eventually, but just getting an amulet of glory is also fine for now.",
+          "loc": null
+        },
+        {
+          "name": "Obtain a Hunters' sunlight crossbow. — Either type of ammo works. — The Magic shortbow(i) is also fine.",
+          "loc": null
+        },
+        {
+          "name": "Obtain full Void Knight equipment. — Complete the easy tier of Combat Achievements first. — Obtain 100 combat to use the veteran boat first. — Complete the hard Western Provinces Diary and upgrade to Elite Void.",
+          "loc": null
+        },
+        {
+          "name": "Complete the Fight Caves for a Fire Cape. — Preferably do this on a Slayer task.",
+          "loc": null
+        },
+        {
+          "name": "Complete Mage arena 2. — Make sure to get the Zamorak Cape.",
+          "loc": null
+        },
+        {
+          "name": "Obtain a Warped sceptre. — Preferably do this on a Slayer task.",
+          "loc": null
+        },
+        {
+          "name": "Kill Dagannoth Rex for a Berserker Ring — Use iban blast or a warped scepter with blood spells to heal. — Preferably do this on a Slayer task.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Final Dawn for the Arkan blade.",
+          "loc": null
+        },
+        {
+          "name": "Complete 0 invocation raids at the Tombs of Amascut until you get a Thread of elidinis. — If you have a team you could go for higher level raids, but you really shouldn't be trying to grind out drops right now. You actively DON'T want to recieve the yellow gem for the first time now due to the dry protection. If you do get it, you will have to just alch it and accept that when you come back much later it will be a relatively rare drop to reobtain. Do not hold on to it, you won't be back to TOA for a very long time.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Moons of Peril",
+      "prefix": "moons-of-peril",
+      "steps": [
+        {
+          "name": "If you want to do all 3 moons, you will need some barrows tank gear and a zombie axe.",
+          "loc": null
+        },
+        {
+          "name": "Kill Amoxliatl or Frost Nagua for some Glacial temotli. — These can be stored in the Nest (nice) if you would like.",
+          "loc": null
+        },
+        {
+          "name": "Kill the Blue Moon for the full Blue moon armour.",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: crystal halberd, Moonlight potion, Moonlight potion, Moonlight potion, Cooked moss lizard, Cooked moss lizard",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Royal Titans",
+      "prefix": "royal-titans",
+      "steps": [
+        {
+          "name": "Kill the Royal Titans until you get the Deadeye prayer scroll and Mystic vigour prayer scroll. — Ideally do this on a Fire Giants or Ice Giants Slayer task. — The Zombie Axe and defender is slightly better dps here if you have it, but isn't worth grinding just for this fight. — It also puts your Magic attack bonus slightly below 70 if you are using an imbued Slayer Helm. — You should take almost no damage in this fight once you learn it, but learner can take some extra food. — Minigame teleport to Clan Wars to re-gear.",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: Hunters' sunlight crossbow, Black d'hide chaps, Super attack, Super strength, Black d'hide body, Ava's accumulator",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Corrupted Gauntlet",
+      "prefix": "corrupted-gauntlet",
+      "steps": [
+        {
+          "name": "Complete The Gauntlet until you receive an Enhanced crystal weapon seed and 6 Crystal armour seeds. — If you happen to get 2 Enhanced seeds, keep the second one! You can use it as a blade of saeldor. — If you don't get the lucky second enhanced, read the notable alternatives section about continuing on for a blade.",
+          "loc": null
+        },
+        {
+          "name": "Make the Bow of faerdhinen, and crystal armour.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "(Optional) Zulrah",
+      "prefix": "optional-zulrah",
+      "steps": [
+        {
+          "name": "Get yourself a ring of suffering from Demonic gorillas. — Ideally do this on task. — You can use Arclight for a good melee weapon. — Arclight is storable in a STASH unit. You will want it later. — You could also go for a necklace of anguish, but honestly the extra defense, magic attack, and prayer bonus on the fury is very nice for the upcoming sections. — (Optional) You could choose to completely skip the Suffering and just make recoils manually at Zulrah. Technically the Suffering is an optional upgrade, but it is really nice to have. — You should ONLY consider this if you are already experienced at the fight. Don't do this if you are learning Zulrah on a UIM, just get the ring.",
+          "loc": null
+        },
+        {
+          "name": "Kill Zulrah until you get a Tanzanite fang. — this video has some tips on using the Twinflame staff. Using the pillar stalling makes a huge difference! — Keep in mind that the Toxic Blowpipe is a good candidate for storage at the Blue Moon boss when you don't need it. — Sunfire runes are a nice damage upgrade, and can be made in bulk using Twisted extracts. — An ornate rejuvenation pool is very nice to restore after each kill. — The Cure Me spell is a good alternative to anti-venom potions, but can't be used with the Twinflame staff. — Keep the stack of antidotes you get to use at Araxxor later. — You can use 2 doses of anti-venom per kill and still profit antidotes on average. — Adjust the supplies to match your stats and method.",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: Bow of faerdhinen, Crystal legs, Ranging potion, Super defence, Crystal body, Crystal helm, Anti-venom, Prayer potion, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "God Wars Dungeon",
+      "prefix": "god-wars-dungeon",
+      "steps": [
+        {
+          "name": "Obtain a Chugging barrel if you have not yet already to save space. — You could optional try to add some Prayer regeneration potions to your setup for longer trips.",
+          "loc": null
+        },
+        {
+          "name": "Make sure to have a troll stronghold teleport in your house.",
+          "loc": null
+        },
+        {
+          "name": "Have blood burst or blood barrage in your rune pouch. — If you would like, you could go out of your way to get Bloodbark armour. This might be nice to do if you plan to do a lot of GWD.",
+          "loc": null
+        },
+        {
+          "name": "Kill K'ril Tsutsaroth until you get a zamorakian spear, then turn it into a zamorakian hasta. — Use some variation of the 6:0 range method. — Do this on a greater demons task. — Again, going for a Necklace of Anguish first is perfectly fine instead of using the fury. — Don't bother breaking down your crystal helm because this should be a short grind. — If you would like, you can also delay getting a hasta until you have a Scorching bow. See the notable alternatives section for more notes on delaying or skipping the hasta.",
+          "loc": null
+        },
+        {
+          "name": "(Optional but not recommended) Kill General Graardor until you get Bandos tassets, a Bandos chestplate, and a Bandos hilt. — Use some variation of the 6:0 range method.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Also kill Commander Zilyana for a Saradomin godsword. — Use some variation of the ranged kiting method. — A Serpentine helm can be especially useful here to venom the minions at the start of each kill. — The Armadyl crossbow is of limited use without a Twisted Buckler. — You may also want to wait and come back with the Slayer level to kill spiritual creatures.",
+          "loc": null
+        },
+        {
+          "name": "Do not kill Kree'arra at this time.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Inferno",
+      "prefix": "inferno",
+      "steps": [
+        {
+          "name": "General stat recommendations for Inferno. — 95+ Ranged — 90+ Defense — 95+ Magic",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Do some kills at The Hueycoatl for Huasca seeds to make 1-2 Prayer regeneration potions for your setup.",
+          "loc": null
+        },
+        {
+          "name": "Kill vorkath to get a Vorkath's head. — This can be used on a Ranging cape to store the enhanced ammo saving effect if you have that. — If you are experienced, you might be able to get a Dizana's quiver instead. — Use your hasta to melee him. — Remember you can get to the boss quickly by taking your Lunar Isle teleport in your poh, then talking to a citizen to get kicked from the island.",
+          "loc": null
+        },
+        {
+          "name": "Complete the Inferno. — Inferno is a safe death, so you can keep your other items in death storage. — Adjust the setup to your preference.",
+          "loc": null
+        },
+        {
+          "name": "Depending on your future goals, you may now be ready to drop your ring of suffering. — Make sure you have plenty of zulrah scales in reserve!",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: blue moon spear, Blue moon tassets, Saradomin brew, Divine rune pouch, blue moon chestplate, Toxic blowpipe, Saradomin brew, Saradomin brew, Saradomin brew, Saradomin brew",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Early Raids",
+      "prefix": "early-raids",
+      "steps": [
+        {
+          "name": "Train to 95+ Slayer to level your combat stats efficiently and unlock lots of gear along the way. — All of the below monsters and bosses should be killed on a Slayer task. — If you want to raid early, the sections farther down include some example setups.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Kill Basilisk Knights for a Basilisk jaw.",
+          "loc": null
+        },
+        {
+          "name": "Kill Lizardman shamans for a Dragon warhammer.",
+          "loc": null
+        },
+        {
+          "name": "Kill Tormented Demons to get an Emberlight and Purging staff. The other items are optional.",
+          "loc": null
+        },
+        {
+          "name": "Kill Demonic Gorillas for a Necklace of anguish, Amulet of Torture, and a Tormented Bracelet.",
+          "loc": null
+        },
+        {
+          "name": "Kill Spiritual mages for Dragon boots.",
+          "loc": null
+        },
+        {
+          "name": "Kill abyssal demons for an abyssal whip.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Kill Cave kraken for a trident of sea and make a trident of the swamp. The kraken tentacle is optional as well. — This is optional because you can just go for an Eye of ayak later and skip the trident.",
+          "loc": null
+        },
+        {
+          "name": "Kill Cerberus for the 3 crystals. — Optionally only go for Prims now and come back for the others once you have the Avernic treads.",
+          "loc": null
+        },
+        {
+          "name": "Kill Araxxor for the Amulet of rancour and a Noxious halberd.",
+          "loc": null
+        },
+        {
+          "name": "Kill the Thermonuclear smoke devil for an occult necklace.",
+          "loc": null
+        },
+        {
+          "name": "Kill the Alchemical hydra for Ferocious gloves and a dragon hunter lance.",
+          "loc": null
+        },
+        {
+          "name": "You want some way to get to your house while on different spellbooks. Some ideas include: — Construct. cape — Explorer's ring 4 with a spirit tree in Port Sarim. Having the ring on you is nice to be able to use the alchemy effect when not on the standard spellbook. — Any teleport near a Fairy Ring such as the Quest Point Cape with a fairy ring in your POH — The Rada's blessing 3 teleports you near a minecart, which can take you near the Spirit Tree in Hosidius if you have that. — Just make a lot of teleport to house tablets. They can be made relatively easily using soft clay rocks.",
+          "loc": null
+        },
+        {
+          "name": "Some way to get tasks, ideally from Duradel. Some ideas include: — Karamja gloves 3 or Karamja gloves 4 — Use Astral Contact, can be done from your POH after swapping to lunars at your altar — Have a spirit tree in Brimhaven and take the cart to Shilo Village",
+          "loc": null
+        },
+        {
+          "name": "Bring whatever runes you would like for the spells you plan to use. Using teleport portals in your POH allows you to avoid carrying a lot of basic teleport runes.",
+          "loc": null
+        },
+        {
+          "name": "Break down and bag your crystal helm as a crystal armour seed. — You could consider breaking down your other crystal armour pieces to clear space. They are not required for much, and the blowpipe can be used for ranged when you need it.",
+          "loc": null
+        },
+        {
+          "name": "Start out with a lot of point boosting to get all the unlocks and blocks you want up front.",
+          "loc": null
+        },
+        {
+          "name": "If you would like, it is easy to make a lot of combination runes using twisted extracts. This could be useful depending on which spells you decide to bring with you.",
+          "loc": null
+        },
+        {
+          "name": "An Occult altar is really nice, as well as other house upgrades.",
+          "loc": null
+        },
+        {
+          "name": "Make sure to have the landing site built to get to your Blue Moon storage quickly.",
+          "loc": null
+        },
+        {
+          "name": "Remember that Emberlight is really good on demon tasks once you get it. It is actually viable to tailor a block/skip list with a focus on doing demon and burst tasks.",
+          "loc": null
+        },
+        {
+          "name": "You should probably use Prayer potions for most tasks, but if you would like Bones to peaches is a good option for normal food during tasks.",
+          "loc": null
+        },
+        {
+          "name": "Optionally bring a dps special attack weapon or other useful weapons such as your Toxic blowpipe.",
+          "loc": null
+        },
+        {
+          "name": "Your Chugging barrel can carry useful potions, and can be refilled periodically by making new potions from seed drops or by storing potions in smaller stacks in death storage. Example setup: — Ranging potions — Super combat potions — Super restores — Saradomin brews — Goading potions (for burst tasks))",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Chambers of Xeric",
+      "prefix": "chambers-of-xeric",
+      "steps": [
+        {
+          "name": "Raid until you get a Dexterous prayer scroll and an Arcane prayer scroll.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Theatre of Blood",
+      "prefix": "theatre-of-blood",
+      "steps": [
+        {
+          "name": "Do Theatre of Blood/Hard Mode if you have the skills and team to do so.",
+          "loc": null
+        },
+        {
+          "name": "The Justiciar armour can be stored in your house and if you get the full set it might be nice for something in the future.",
+          "loc": null
+        },
+        {
+          "name": "Remember that you can leave stacks of 100k in your GE bond offer slots to pay for death fees more quickly.",
+          "loc": null
+        },
+        {
+          "name": "You may want to add a seed box to hold the seed drops if you can afford the slot.",
+          "loc": null
+        },
+        {
+          "name": "Use thralls in all setups, the damage adds up. — You can clan wars minigame teleport after each raid to bag your loot.",
+          "loc": null
+        },
+        {
+          "name": "Use extra supplies from the raid to refill your Chugging barrel. You may want to intentionally start the raid with a few slots empty if you don't need the extra supplies. — Prayer potions can also be used in place of a few Super restores as they cost fewer points to buy.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Tombs of Amascut",
+      "prefix": "tombs-of-amascut",
+      "steps": [
+        {
+          "name": "Complete the Tombs of Amascut until you receive an Osmumten's fang.",
+          "loc": null
+        },
+        {
+          "name": "In the setups, you can store the pickaxe in the raid and utilize the lasting poison resistance from Ambrosia in a previous raid. They are just there to remind you to bring them the first time. — Depending on your boss order, you might be able to drop the ranging potion or super combat potion.",
+          "loc": null
+        }
+      ]
+    }
+  ]
+}

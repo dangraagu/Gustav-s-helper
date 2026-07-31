@@ -17,9 +17,46 @@ import scrape_guide as sg
 RAW_DIR = Path(__file__).parent / "data" / "raw"
 
 
-def build(raw_path, item_map, quest_map, entities):
+def load_manual_conditions():
+    """guide id -> { step id -> "manual" | {complete, item} }. A human override (like manual_coords.json)
+    that beats the enricher for a specific built step without touching the shared detectors, so it can
+    never ripple onto another guide. "manual" drops the auto completion+highlight; the object form
+    replaces them."""
+    p = Path(__file__).parent / "data" / "manual_conditions.json"
+    if not p.exists():
+        return {}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] could not read manual_conditions.json ({e})", file=sys.stderr)
+        return {}
+    return {gid: steps for gid, steps in data.items()
+            if not gid.startswith("_") and isinstance(steps, dict)}
+
+
+def apply_override(step, ov):
+    """Replace a built step's completion/highlight from the manual_conditions override. Returns True
+    if it changed the step. World/coord is left untouched (that is manual_coords.json's job)."""
+    if ov == "manual":
+        for k in ("complete", "note", "item"):
+            step.pop(k, None)
+        step["manual"] = True
+        return True
+    if isinstance(ov, dict):
+        if "complete" in ov:
+            step["complete"] = ov["complete"]
+            step.pop("manual", None)
+            step.pop("note", None)
+        if "item" in ov:
+            step["item"] = ov["item"]
+        return "complete" in ov or "item" in ov
+    return False
+
+
+def build(raw_path, item_map, quest_map, entities, overrides=None):
     raw = json.loads(raw_path.read_text(encoding="utf-8"))
     gid, name, source = raw["id"], raw.get("name", raw["id"]), raw.get("source", "")
+    guide_ov = (overrides or {}).get(gid, {})
     sections = raw.get("sections", [])
     out_dir = sg._RES / "data" / "guides" / gid
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -35,7 +72,7 @@ def build(raw_path, item_map, quest_map, entities):
     cumulative = {}
     anchor = None
     index = {"_comment": f"Auto-generated from raw/{gid}.json by build_raw_guide.py", "sections": []}
-    total = enr = 0
+    total = enr = forced = 0
     for i, sec in enumerate(sections, 1):
         prefix = sec.get("prefix") or f"s{i}"
         steps = []
@@ -49,6 +86,9 @@ def build(raw_path, item_map, quest_map, entities):
                 built = sg.build_step(prefix, pos, atom, st.get("loc"), None,
                                       item_map, quest_map, cumulative, total_needed, entities,
                                       sub=sub, anchor=anchor)
+                ov = guide_ov.get(built["id"])
+                if ov is not None and apply_override(built, ov):
+                    forced += 1
                 steps.append(built)
                 if "world" in built:
                     anchor = built["world"]  # route continuity: the next step resolves near here
@@ -64,7 +104,11 @@ def build(raw_path, item_map, quest_map, entities):
              "steps": steps}, indent=2, ensure_ascii=False), encoding="utf-8")
         index["sections"].append(fname)
     (out_dir / "route-index.json").write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"  {gid:24s} {total:5d} steps, {len(index['sections'])} sections, {enr} precise targets -> {out_dir.name}")
+    extra = f", {forced} overridden" if forced else ""
+    if guide_ov and forced != len(guide_ov):
+        print(f"  [!] {gid}: manual_conditions listed {len(guide_ov)} id(s) but matched {forced} "
+              f"(stale override? ids may have shifted after a re-scrape)", file=sys.stderr)
+    print(f"  {gid:24s} {total:5d} steps, {len(index['sections'])} sections, {enr} precise targets{extra} -> {out_dir.name}")
 
 
 def main():
@@ -81,8 +125,9 @@ def main():
     entities = enr["entities"]
     print(f"  ({enr['nqs']} quest-start tiles, {len(sg.GAZETTEER)} locations, {enr['nam']} town amenities, "
           f"{enr['nres']} resource sites bridged)")
+    overrides = load_manual_conditions()
     for f in files:
-        build(f, item_map, quest_map, entities)
+        build(f, item_map, quest_map, entities, overrides)
 
 
 if __name__ == "__main__":

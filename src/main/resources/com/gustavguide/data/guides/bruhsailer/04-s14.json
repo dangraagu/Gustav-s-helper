@@ -27,9 +27,10 @@
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
       },
+      "npc": 2678,
       "world": [
-        3492,
-        3474,
+        2936,
+        3438,
         0
       ]
     },
@@ -130,9 +131,10 @@
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
       },
+      "npc": 10727,
       "world": [
-        2466,
-        3495,
+        1824,
+        3690,
         0
       ]
     },
@@ -217,9 +219,10 @@
         "quest": "THE_EYES_OF_GLOUPHRIE",
         "state": "FINISHED"
       },
+      "npc": 8019,
       "world": [
-        2861,
-        3287,
+        2465,
+        3496,
         0
       ]
     },
@@ -232,9 +235,10 @@
         "quest": "GARDEN_OF_TRANQUILLITY",
         "state": "FINISHED"
       },
+      "npc": 5037,
       "world": [
-        3230,
-        3478,
+        3211,
+        3422,
         0
       ]
     },
@@ -247,9 +251,10 @@
         "quest": "GARDEN_OF_TRANQUILLITY",
         "state": "FINISHED"
       },
+      "npc": 2108,
       "world": [
-        3230,
-        3478,
+        3089,
+        3254,
         0
       ]
     },
@@ -536,9 +541,10 @@
         "quest": "DRAGON_SLAYER_I",
         "state": "FINISHED"
       },
+      "npc": 819,
       "world": [
-        2999,
-        3208,
+        3044,
+        3203,
         0
       ]
     },

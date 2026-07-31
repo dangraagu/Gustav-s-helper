@@ -16,8 +16,8 @@
       "manual": true,
       "npc": 3648,
       "world": [
-        2954,
-        3147,
+        3029,
+        3221,
         0
       ]
     },
@@ -58,8 +58,8 @@
       "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
       "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "world": [
-        3165,
-        3490,
+        1767,
+        3599,
         0
       ]
     },
@@ -133,8 +133,8 @@
       },
       "item": 1993,
       "world": [
-        3165,
-        3490,
+        3359,
+        2957,
         0
       ]
     },
@@ -150,8 +150,8 @@
       "text": "Drop your mind runes for some space",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3358,
+        2974,
         0
       ]
     },
@@ -177,8 +177,8 @@
       },
       "item": 564,
       "world": [
-        3165,
-        3490,
+        3358,
+        2974,
         0
       ]
     },

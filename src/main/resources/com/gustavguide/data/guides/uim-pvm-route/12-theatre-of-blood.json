@@ -1,0 +1,68 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Theatre of Blood",
+  "steps": [
+    {
+      "id": "theatre-of-blood-001",
+      "title": "Do Theatre of Blood/Hard Mode if …",
+      "text": "Do Theatre of Blood/Hard Mode if you have the skills and team to do so",
+      "manual": true,
+      "world": [
+        3663,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "theatre-of-blood-002",
+      "title": "The Justiciar armour can be stored …",
+      "text": "The Justiciar armour can be stored in your house and if you get the full set it might be nice for something in the future",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "theatre-of-blood-003",
+      "title": "Remember that you can leave stacks …",
+      "text": "Remember that you can leave stacks of 100k in your GE bond offer slots to pay for death fees more quickly",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "theatre-of-blood-004",
+      "title": "You may want to add a …",
+      "text": "You may want to add a seed box to hold the seed drops if you can afford the slot",
+      "manual": true
+    },
+    {
+      "id": "theatre-of-blood-005",
+      "title": "Use thralls in all setups, the …",
+      "text": "Use thralls in all setups, the damage adds up. — You can clan wars minigame teleport after each raid to bag your loot",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "theatre-of-blood-006",
+      "title": "Use extra supplies from the raid …",
+      "text": "Use extra supplies from the raid to refill your Chugging barrel. You may want to intentionally start the raid with a few slots empty if you don't need the extra supplies. — Prayer potions can also be used in place of a few Super restores as they cost fewer points to buy.",
+      "world": [
+        3126,
+        3635,
+        0
+      ],
+      "manual": true
+    }
+  ]
+}

@@ -162,23 +162,7 @@
       "id": "s32-011",
       "title": "Optional but recommended: now that you …",
       "text": "Optional but recommended: now that you have daeyalt mining https://streamable.com/it7kry unlocked and the full raiments of the eye set, there is almost nothing holding you back from training runecrafting, e.g. with spellbook swap Vile Vigour fletching (multiskill) ZMI runecrafting (or non-spellbook swap stamina potions). It is macroefficient to complete level 90 or 95 runecrafting sooner rather than later, to have access to ample wrath runes for offering spells during slayer. Weave in the runecrafting grind at your own convenience, immediately is recommended. Blow glass while ZMI crafting, then when out of glass swap over to fletching instead (buy broad arrowhead packs and arrow shafts as needed).",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 52,
-            "qty": 95
-          },
-          {
-            "op": "item",
-            "id": 52,
-            "qty": 95,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 52,
+      "manual": true,
       "npc": 3690,
       "world": [
         2389,

@@ -1,0 +1,24 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Royal Titans",
+  "steps": [
+    {
+      "id": "royal-titans-001",
+      "title": "Kill the Royal Titans until you …",
+      "text": "Kill the Royal Titans until you get the Deadeye prayer scroll and Mystic vigour prayer scroll. — Ideally do this on a Fire Giants or Ice Giants Slayer task. — The Zombie Axe and defender is slightly better dps here if you have it, but isn't worth grinding just for this fight. — It also puts your Magic attack bonus slightly below 70 if you are using an imbued Slayer Helm. — You should take almost no damage in this fight once you learn it, but learner can take some extra food. — Minigame teleport to Clan Wars to re-gear.",
+      "manual": true,
+      "world": [
+        3008,
+        3150,
+        0
+      ]
+    },
+    {
+      "id": "royal-titans-002",
+      "title": "Inventory check: Hunters' sunlight crossbow, Black …",
+      "text": "Inventory check: Hunters' sunlight crossbow, Black d'hide chaps, Super attack, Super strength, Black d'hide body, Ava's accumulator",
+      "manual": true
+    }
+  ]
+}

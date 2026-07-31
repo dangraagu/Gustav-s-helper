@@ -40,9 +40,10 @@
         "quest": "THE_KNIGHTS_SWORD",
         "state": "FINISHED"
       },
+      "npc": 4733,
       "world": [
-        1803,
-        3788,
+        3000,
+        3145,
         0
       ]
     },
@@ -55,9 +56,10 @@
         "quest": "THE_QUEEN_OF_THIEVES",
         "state": "FINISHED"
       },
+      "npc": 3097,
       "world": [
-        1808,
-        3726,
+        1781,
+        3628,
         0
       ]
     },
@@ -70,10 +72,11 @@
         "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
         "state": "FINISHED"
       },
+      "npc": 3100,
       "world": [
-        1721,
-        3165,
-        0
+        2982,
+        3341,
+        1
       ]
     },
     {
@@ -85,9 +88,10 @@
         "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
         "state": "FINISHED"
       },
+      "npc": 5905,
       "world": [
-        1721,
-        3165,
+        3014,
+        3258,
         0
       ]
     },
@@ -100,9 +104,10 @@
         "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
         "state": "FINISHED"
       },
+      "npc": 5214,
       "world": [
-        1721,
-        3165,
+        3258,
+        3449,
         0
       ]
     },
@@ -147,9 +152,10 @@
         "quest": "BELOW_ICE_MOUNTAIN",
         "state": "FINISHED"
       },
+      "npc": 10656,
       "world": [
-        3003,
-        3435,
+        3088,
+        3470,
         0
       ]
     },
@@ -225,8 +231,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2456,
-        2893,
+        2906,
+        3537,
         0
       ]
     },

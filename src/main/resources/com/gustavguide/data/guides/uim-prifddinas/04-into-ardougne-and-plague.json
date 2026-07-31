@@ -91,14 +91,14 @@
       "title": "Run west across the bridge, then …",
       "text": "Run west across the bridge, then south of the castle",
       "world": [
-        3165,
-        3490,
+        2569,
+        3275,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3165,
-        "y": 3490,
+        "x": 2569,
+        "y": 3275,
         "z": 0,
         "radius": 8
       }
@@ -326,8 +326,8 @@
       },
       "item": 1941,
       "world": [
-        3165,
-        3490,
+        2467,
+        3287,
         0
       ]
     },
@@ -496,8 +496,8 @@
       "text": "sell the pearls to the general store",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2614,
+        3293,
         0
       ]
     },
@@ -507,8 +507,8 @@
       "text": "Drop the torch, sticks, glass, and small fishing net (if you picked one up earlier)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2614,
+        3293,
         0
       ]
     },
@@ -573,9 +573,9 @@
       "manual": true,
       "npc": 6649,
       "world": [
-        2222,
-        3796,
-        2
+        2549,
+        3558,
+        0
       ]
     },
     {
@@ -658,8 +658,8 @@
       "text": "Run north",
       "manual": true,
       "world": [
-        2466,
-        3495,
+        2465,
+        3496,
         0
       ]
     },
@@ -670,12 +670,12 @@
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "npc": 8019,
       "world": [
-        2466,
-        3495,
+        2465,
+        3496,
         0
       ]
     },
@@ -685,22 +685,27 @@
       "text": "Go upstairs",
       "manual": true,
       "world": [
-        2571,
-        9850,
-        0
+        2465,
+        3496,
+        1
       ]
     },
     {
       "id": "into-ardougne-and-plague-034b",
       "title": "head west and north to find …",
       "text": "head west and north to find Hudo",
-      "manual": true,
-      "object": 1,
       "world": [
-        2571,
-        9850,
-        0
-      ]
+        2465,
+        3496,
+        1
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2465,
+        "y": 3496,
+        "z": 1,
+        "radius": 8
+      }
     },
     {
       "id": "into-ardougne-and-plague-035",
@@ -722,13 +727,23 @@
           }
         ]
       },
-      "item": 1927
+      "item": 1927,
+      "world": [
+        2465,
+        3496,
+        1
+      ]
     },
     {
       "id": "into-ardougne-and-plague-036",
       "title": "Be careful not to eat the …",
       "text": "Be careful not to eat the dwellberries",
-      "manual": true
+      "manual": true,
+      "world": [
+        2442,
+        3414,
+        0
+      ]
     },
     {
       "id": "into-ardougne-and-plague-037",
@@ -736,8 +751,8 @@
       "text": "Use the chocolate dust on the bucket of milk",
       "manual": true,
       "world": [
-        2571,
-        9850,
+        2442,
+        3414,
         0
       ]
     },
@@ -747,8 +762,8 @@
       "text": "Use your snape grass on the bucket of chocolate milk to make the hangover cure",
       "manual": true,
       "world": [
-        2571,
-        9850,
+        2442,
+        3414,
         0
       ]
     },
@@ -777,8 +792,8 @@
       "manual": true,
       "object": 17047,
       "world": [
-        2556,
-        3072,
+        2677,
+        3087,
         0
       ]
     },
@@ -788,9 +803,9 @@
       "text": "Go upstairs in the building",
       "manual": true,
       "world": [
-        2466,
-        3495,
-        0
+        2677,
+        3087,
+        1
       ]
     },
     {
@@ -802,10 +817,11 @@
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
       },
+      "npc": 1422,
       "world": [
-        2466,
-        3495,
-        0
+        2677,
+        3087,
+        1
       ]
     },
     {
@@ -814,9 +830,9 @@
       "text": "Drop the translation book but keep the scroll",
       "manual": true,
       "world": [
-        2466,
-        3495,
-        0
+        2677,
+        3087,
+        1
       ]
     },
     {
@@ -825,8 +841,8 @@
       "text": "After getting the message, head to the Gnome Maze",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2541,
+        3170,
         0
       ]
     },
@@ -858,8 +874,8 @@
       "text": "Use the key on the door to the west path",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2514,
+        9580,
         0
       ]
     },
@@ -869,8 +885,8 @@
       "text": "speak to Golrie for Glarial's Pebble",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2514,
+        9580,
         0
       ]
     },
@@ -1054,8 +1070,8 @@
       },
       "item": 954,
       "world": [
-        3165,
-        3490,
+        2614,
+        3293,
         0
       ]
     },

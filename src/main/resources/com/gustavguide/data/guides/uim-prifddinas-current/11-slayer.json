@@ -1,0 +1,207 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Slayer",
+  "steps": [
+    {
+      "id": "slayer-001",
+      "title": "While you are completing the next …",
+      "text": "While you are completing the next quests and Slayer section, use up your Nature Runes alching as you go. — It doesn't matter what you alch, but if you want a bit of money then Volcanic ash is easy to get and alchs for 120 each. — The other runes can be used up or saved for later as you would like.",
+      "manual": true,
+      "world": [
+        2917,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "slayer-002",
+      "title": "Complete Ghosts Ahoy. — The Ectophial …",
+      "text": "Complete Ghosts Ahoy. — The Ectophial is close to the undead farm, where you can complete several of the tasks for Tureal",
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3660,
+        3508,
+        0
+      ]
+    },
+    {
+      "id": "slayer-003",
+      "title": "Complete Lunar Diplomacy. — If you …",
+      "text": "Complete Lunar Diplomacy. — If you are missing any of the stats, get them however you would like. — Author Note: Going for Astral Contact with Lunars is a new addition to the guide. Let me know if I overlooked anything!",
+      "complete": {
+        "op": "quest",
+        "quest": "LUNAR_DIPLOMACY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2620,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "slayer-004",
+      "title": "If you have 85 Combat, complete …",
+      "text": "If you have 85 Combat, complete Dream Mentor",
+      "manual": true
+    },
+    {
+      "id": "slayer-005",
+      "title": "Create a Lunar altar in your …",
+      "text": "Create a Lunar altar in your house. — (Optional) Go for a Pharaoh's sceptre and boost to make the Occult altar. It is really handy to have locked in early!",
+      "manual": true,
+      "world": [
+        2620,
+        3693,
+        0
+      ]
+    },
+    {
+      "id": "slayer-006",
+      "title": "Create a Mahogany eagle lectern in …",
+      "text": "Create a Mahogany eagle lectern in your house. — (Optional) Create a Marble lectern instead, but it costs a lot more",
+      "manual": true,
+      "object": 19922,
+      "world": [
+        2005,
+        4972,
+        3
+      ]
+    },
+    {
+      "id": "slayer-007",
+      "title": "Complete more quests until you have …",
+      "text": "Complete more quests until you have 250 Quest Points if you don't have it. — (Optional) Go for 300 Quest points for another block. You need all the quests done eventually anyway. — You can look ahead in the guide for quest ideas, there are plenty that could be easily done now rather than waiting until later.",
+      "manual": true
+    },
+    {
+      "id": "slayer-008",
+      "title": "Make Super attack potions if you …",
+      "text": "Make Super attack potions if you have not already. — Remember your Dragon Battleaxe will cover Strength",
+      "manual": true,
+      "world": [
+        2005,
+        4972,
+        3
+      ]
+    },
+    {
+      "id": "slayer-009",
+      "title": "Make about ~250 Teleport to house …",
+      "text": "Make about ~250 Teleport to house (tablet)s. — This Video shows an easy method. — If you don't have Humidify you can make some Bracelets of Clay instead. — Make ~500 tablets if you plan to go for a 500 Task streak rather than 250.",
+      "manual": true,
+      "world": [
+        2005,
+        4972,
+        3
+      ]
+    },
+    {
+      "id": "slayer-010",
+      "title": "Do Slayer Point Boosting for starting …",
+      "text": "Do Slayer Point Boosting for starting points. Use Astral Contact to get tasks, and the portals or fairy ring in your house to get to each task. — Complete tasks with Tureal to build streak. — Complete the 10th task bonuses at Mazchna. — Complete the 50ths task bonuses at Konar. — Consider switching back to normal spellbook and using Bones to Peaches if it makes sense for your task. — Do this until your 250th or (Preferably) your 500th task. — You can make your own block lists with your least favorite tasks. — Remember that each master has their own block lists now.",
+      "complete": {
+        "op": "quest",
+        "quest": "CONTACT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3281,
+        2772,
+        0
+      ]
+    },
+    {
+      "id": "slayer-011",
+      "title": "After you are done point boosting, …",
+      "text": "After you are done point boosting, continue training Slayer until level 58. — Use whatever master you want. — Once you reach 30 Slayer you can complete Slug Menace for the proselyte armour. — You can get to the altars through Guardians of the rift (pre-make the items as you can't bring in pure essence) or through the abyss. — If you have 60 Defense you can get a Dragon Defender. — Consider unlocking Vampyre tasks and use task storage on one for the Vampyre quest bosses later. — Mazchna can also assign it by default, so you might get one that way during point boosting.",
+      "complete": {
+        "op": "skill",
+        "skill": "SLAYER",
+        "level": 30,
+        "cmp": ">="
+      },
+      "object": 409,
+      "world": [
+        2995,
+        3177,
+        0
+      ]
+    },
+    {
+      "id": "slayer-012",
+      "title": "Complete Rum Deal",
+      "text": "Complete Rum Deal",
+      "complete": {
+        "op": "quest",
+        "quest": "RUM_DEAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3680,
+        3537,
+        0
+      ]
+    },
+    {
+      "id": "slayer-013",
+      "title": "Complete Cabin Fever",
+      "text": "Complete Cabin Fever",
+      "complete": {
+        "op": "quest",
+        "quest": "CABIN_FEVER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3678,
+        3494,
+        0
+      ]
+    },
+    {
+      "id": "slayer-014",
+      "title": "Kill Cave Horrors for a Black …",
+      "text": "Kill Cave Horrors for a Black mask",
+      "manual": true
+    },
+    {
+      "id": "slayer-015",
+      "title": "Make a Slayer Helmet. — Imbue …",
+      "text": "Make a Slayer Helmet. — Imbue it. The method you use to imbue doesn't matter to the guide",
+      "manual": true,
+      "world": [
+        3678,
+        3494,
+        0
+      ]
+    },
+    {
+      "id": "slayer-016",
+      "title": "Obtain a Dragon Defender if you …",
+      "text": "Obtain a Dragon Defender if you have not done so yet",
+      "manual": true,
+      "world": [
+        3283,
+        3501,
+        0
+      ]
+    },
+    {
+      "id": "slayer-017",
+      "title": "Build the Master Stash unit in …",
+      "text": "Build the Master Stash unit in the Warriors Guild to to store your Slayer Helm, Battleaxe, and Defender",
+      "manual": true,
+      "object": 24318,
+      "world": [
+        2877,
+        3546,
+        0
+      ]
+    }
+  ]
+}

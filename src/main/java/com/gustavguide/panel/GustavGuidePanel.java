@@ -13,6 +13,8 @@ import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 import javax.swing.JTabbedPane;
@@ -29,7 +31,7 @@ import net.runelite.client.util.LinkBrowser;
 public class GustavGuidePanel extends PluginPanel
 {
 	/** Width (px) the wrapping HTML labels are constrained to, so text wraps to the panel. */
-	private static final int PANEL_HTML_WIDTH = 190;
+	private static final int PANEL_HTML_WIDTH = 210;
 
 	private final PanelActions actions;
 
@@ -76,7 +78,13 @@ public class GustavGuidePanel extends PluginPanel
 		JPanel tab = new JPanel(new BorderLayout());
 		tab.setBorder(BorderFactory.createEmptyBorder(6, 2, 2, 2));
 		tab.add(buildGuideNorth(), BorderLayout.NORTH);
-		tab.add(buildGuideCenter(), BorderLayout.CENTER);
+		// The step description can wrap to many lines; inside a fixed-height tab it was clipped at the
+		// bottom. Scroll the centre content vertically (never horizontally) so the full text is reachable.
+		JScrollPane centerScroll = new JScrollPane(buildGuideCenter(),
+			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		centerScroll.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
+		centerScroll.getVerticalScrollBar().setUnitIncrement(16);
+		tab.add(centerScroll, BorderLayout.CENTER);
 		tab.add(buildGuideSouth(), BorderLayout.SOUTH);
 		return tab;
 	}
@@ -117,6 +125,8 @@ public class GustavGuidePanel extends PluginPanel
 
 		textLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		textLabel.setForeground(Color.LIGHT_GRAY);
+		// Bigger, more legible current-step description (the main thing the user reads each step).
+		textLabel.setFont(FontManager.getRunescapeFont().deriveFont(FontManager.getRunescapeFont().getSize2D() + 2f));
 
 		noteLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		noteLabel.setForeground(ColorScheme.BRAND_ORANGE);
@@ -204,7 +214,19 @@ public class GustavGuidePanel extends PluginPanel
 	{
 		doneButton.addActionListener(e -> actions.completeCurrent());
 		skipButton.addActionListener(e -> actions.skipCurrent());
-		resetButton.addActionListener(e -> actions.resetProgress());
+		resetButton.addActionListener(e ->
+		{
+			// Confirm first — a stray click otherwise wipes every completed step + the ledger for this
+			// guide on this account (and on a developed account they re-complete from live state anyway).
+			int choice = JOptionPane.showConfirmDialog(resetButton,
+				"Reset progress for the current guide on this account?\n"
+					+ "This clears completed steps and the item ledger for this guide only.",
+				"Reset guide progress", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+			if (choice == JOptionPane.YES_OPTION)
+			{
+				actions.resetProgress();
+			}
+		});
 		wikiButton.addActionListener(e ->
 		{
 			if (wikiUrl != null && !wikiUrl.isEmpty())
@@ -238,7 +260,9 @@ public class GustavGuidePanel extends PluginPanel
 		}
 		else
 		{
-			progressLabel.setText(m.mode + " — " + m.completed + " / " + m.total + " steps");
+			// "… — 259 / 971 done" reads as a COUNT (completed of total), not a step index, so a
+			// developed account resuming mid-route isn't misread as "stuck on step 259".
+			progressLabel.setText(m.mode + " — " + m.completed + " / " + m.total + " done");
 		}
 
 		reqContainer.removeAll();

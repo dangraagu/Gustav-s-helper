@@ -1,0 +1,83 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "God Wars Dungeon",
+  "steps": [
+    {
+      "id": "god-wars-dungeon-001",
+      "title": "Obtain a Chugging barrel if you …",
+      "text": "Obtain a Chugging barrel if you have not yet already to save space. — You could optional try to add some Prayer regeneration potions to your setup for longer trips",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "manual": true
+    },
+    {
+      "id": "god-wars-dungeon-002",
+      "title": "Make sure to have a troll …",
+      "text": "Make sure to have a troll stronghold teleport in your house",
+      "complete": {
+        "op": "quest",
+        "quest": "TROLL_STRONGHOLD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2895,
+        3528,
+        0
+      ]
+    },
+    {
+      "id": "god-wars-dungeon-003",
+      "title": "Have blood burst or blood barrage …",
+      "text": "Have blood burst or blood barrage in your rune pouch. — If you would like, you could go out of your way to get Bloodbark armour. This might be nice to do if you plan to do a lot of GWD.",
+      "manual": true,
+      "world": [
+        2918,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "god-wars-dungeon-004",
+      "title": "Kill K'ril Tsutsaroth until you get …",
+      "text": "Kill K'ril Tsutsaroth until you get a zamorakian spear, then turn it into a zamorakian hasta. — Use some variation of the 6:0 range method. — Do this on a greater demons task. — Again, going for a Necklace of Anguish first is perfectly fine instead of using the fury. — Don't bother breaking down your crystal helm because this should be a short grind. — If you would like, you can also delay getting a hasta until you have a Scorching bow. See the notable alternatives section for more notes on delaying or skipping the hasta.",
+      "manual": true,
+      "world": [
+        2918,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "god-wars-dungeon-005",
+      "title": "(Optional but not recommended) Kill General …",
+      "text": "(Optional but not recommended) Kill General Graardor until you get Bandos tassets, a Bandos chestplate, and a Bandos hilt. — Use some variation of the 6:0 range method",
+      "manual": true,
+      "world": [
+        2918,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "god-wars-dungeon-006",
+      "title": "(Optional) Also kill Commander Zilyana for …",
+      "text": "(Optional) Also kill Commander Zilyana for a Saradomin godsword. — Use some variation of the ranged kiting method. — A Serpentine helm can be especially useful here to venom the minions at the start of each kill. — The Armadyl crossbow is of limited use without a Twisted Buckler. — You may also want to wait and come back with the Slayer level to kill spiritual creatures.",
+      "manual": true,
+      "world": [
+        2918,
+        3745,
+        0
+      ]
+    },
+    {
+      "id": "god-wars-dungeon-007",
+      "title": "Do not kill Kree'arra at this …",
+      "text": "Do not kill Kree'arra at this time",
+      "manual": true
+    }
+  ]
+}

@@ -331,8 +331,8 @@
         "tier": "easy"
       },
       "world": [
-        2566,
-        3083,
+        2624,
+        3300,
         0
       ]
     },
@@ -342,8 +342,8 @@
       "text": "use the lamp on Herblore",
       "manual": true,
       "world": [
-        2566,
-        3083,
+        2624,
+        3300,
         0
       ]
     },
@@ -411,12 +411,7 @@
       "id": "herblore-quests-027",
       "title": "(Optional) Get 61 Crafting. Use the …",
       "text": "(Optional) Get 61 Crafting. Use the crafting guide if you have not already. If your inventory is full, you can death storage at the Nightmare boss. — This is to set yourself up for Lunar Diplomacy, as well as get crafting for some useful unlocks later on. The guide assumes you do this, but it isn't strictly needed.",
-      "complete": {
-        "op": "skill",
-        "skill": "CRAFTING",
-        "level": 61,
-        "cmp": ">="
-      },
+      "manual": true,
       "world": [
         2620,
         3693,

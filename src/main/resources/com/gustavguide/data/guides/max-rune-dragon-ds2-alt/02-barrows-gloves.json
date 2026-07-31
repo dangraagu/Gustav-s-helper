@@ -13,9 +13,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3208,
-        3494,
-        1
+        3222,
+        3473,
+        0
       ]
     },
     {
@@ -52,7 +52,12 @@
       "id": "barrows-gloves-004",
       "title": "Animal Megnetism",
       "text": "Animal Megnetism",
-      "manual": true
+      "manual": true,
+      "world": [
+        3093,
+        3357,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-005",
@@ -69,7 +74,12 @@
       "id": "barrows-gloves-006",
       "title": "Itchlarin's Little Helper",
       "text": "Itchlarin's Little Helper",
-      "manual": true
+      "manual": true,
+      "world": [
+        3316,
+        2849,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-007",
@@ -381,7 +391,12 @@
       "id": "barrows-gloves-026",
       "title": "RFD monkey (boost with chefs delight)",
       "text": "RFD monkey (boost with chefs delight)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-027",
@@ -440,7 +455,12 @@
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3210,
+        3494,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-031",
@@ -635,19 +655,34 @@
       "id": "barrows-gloves-043",
       "title": "RFD Goblin",
       "text": "RFD Goblin",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-044",
       "title": "RFD Pirate",
       "text": "RFD Pirate",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-045",
       "title": "RFD Lumby G",
       "text": "RFD Lumby G",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-046",
@@ -676,7 +711,12 @@
       "id": "barrows-gloves-048",
       "title": "RFD Varze",
       "text": "RFD Varze",
-      "manual": true
+      "manual": true,
+      "world": [
+        3213,
+        3221,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-049",
@@ -699,8 +739,8 @@
       "text": "shades of morton",
       "manual": true,
       "world": [
-        2782,
-        3087,
+        3481,
+        3279,
         0
       ]
     },
@@ -765,7 +805,12 @@
       "id": "barrows-gloves-055",
       "title": "Pirate treasure",
       "text": "Pirate treasure",
-      "manual": true
+      "manual": true,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-056",

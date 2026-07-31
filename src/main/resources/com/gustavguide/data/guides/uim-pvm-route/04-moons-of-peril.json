@@ -1,0 +1,42 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Moons of Peril",
+  "steps": [
+    {
+      "id": "moons-of-peril-001",
+      "title": "If you want to do all …",
+      "text": "If you want to do all 3 moons, you will need some barrows tank gear and a zombie axe",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "moons-of-peril-002",
+      "title": "Kill Amoxliatl or Frost Nagua for …",
+      "text": "Kill Amoxliatl or Frost Nagua for some Glacial temotli. — These can be stored in the Nest (nice) if you would like",
+      "manual": true,
+      "npc": 13685,
+      "world": [
+        1365,
+        4510,
+        0
+      ]
+    },
+    {
+      "id": "moons-of-peril-003",
+      "title": "Kill the Blue Moon for the …",
+      "text": "Kill the Blue Moon for the full Blue moon armour",
+      "manual": true
+    },
+    {
+      "id": "moons-of-peril-004",
+      "title": "Inventory check: crystal halberd, Moonlight potion, …",
+      "text": "Inventory check: crystal halberd, Moonlight potion, Moonlight potion, Moonlight potion, Cooked moss lizard, Cooked moss lizard",
+      "manual": true
+    }
+  ]
+}

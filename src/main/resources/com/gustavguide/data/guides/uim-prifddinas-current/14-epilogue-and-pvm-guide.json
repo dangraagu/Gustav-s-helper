@@ -1,0 +1,134 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Epilogue and PvM Guide",
+  "steps": [
+    {
+      "id": "epilogue-and-pvm-guide-001",
+      "title": "Ability to craft Wrath runes",
+      "text": "Ability to craft Wrath runes",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-002",
+      "title": "Build an Ornate rejuvenation pool",
+      "text": "Build an Ornate rejuvenation pool",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-003",
+      "title": "Agility level for various high-level shortcuts",
+      "text": "Agility level for various high-level shortcuts",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-004",
+      "title": "Ability to make super combat potions",
+      "text": "Ability to make super combat potions",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-005",
+      "title": "Ability to steal from master farmers …",
+      "text": "Ability to steal from master farmers without failing",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-006",
+      "title": "Crafting requirements for powerful jewelry",
+      "text": "Crafting requirements for powerful jewelry",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-007",
+      "title": "Ability to fletch Amethyst darts",
+      "text": "Ability to fletch Amethyst darts",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-008",
+      "title": "Lots of loot from Hunter rumours, …",
+      "text": "Lots of loot from Hunter rumours, and/or fast Ranged training with chinchompas",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10033,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 10033,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 10033,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "epilogue-and-pvm-guide-009",
+      "title": "Mining level for Amethyst",
+      "text": "Mining level for Amethyst",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-010",
+      "title": "Smithing level for diaries and to …",
+      "text": "Smithing level for diaries and to craft the crystal equipment",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-011",
+      "title": "Ability to fish Minnows for noted …",
+      "text": "Ability to fish Minnows for noted Sharks",
+      "manual": true,
+      "world": [
+        2609,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "epilogue-and-pvm-guide-012",
+      "title": "Ability to cook noted sharks",
+      "text": "Ability to cook noted sharks",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-013",
+      "title": "Lots of loot and xp from …",
+      "text": "Lots of loot and xp from Wintertodt",
+      "manual": true,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "epilogue-and-pvm-guide-014",
+      "title": "Diary unlocks from higher Woodcutting",
+      "text": "Diary unlocks from higher Woodcutting",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-015",
+      "title": "Farm higher level seeds and extra …",
+      "text": "Farm higher level seeds and extra spirit trees",
+      "manual": true
+    },
+    {
+      "id": "epilogue-and-pvm-guide-016",
+      "title": "There are plenty more. Skills are …",
+      "text": "There are plenty more. Skills are important!",
+      "manual": true
+    }
+  ]
+}

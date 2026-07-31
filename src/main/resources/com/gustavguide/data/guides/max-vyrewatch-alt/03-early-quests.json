@@ -48,11 +48,10 @@
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
       },
-      "object": 16673,
       "world": [
-        2518,
-        3430,
-        1
+        2541,
+        3170,
+        0
       ]
     },
     {
@@ -215,8 +214,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2932,
-        3513,
+        3222,
+        3473,
         0
       ]
     },
@@ -229,9 +228,10 @@
         "quest": "BLACK_KNIGHTS_FORTRESS",
         "state": "FINISHED"
       },
+      "object": 2337,
       "world": [
-        2955,
-        3339,
+        3016,
+        3514,
         0
       ]
     },
@@ -286,8 +286,8 @@
       "text": "vampire slayer",
       "manual": true,
       "world": [
-        3205,
-        3208,
+        3098,
+        3268,
         0
       ]
     },
@@ -297,8 +297,8 @@
       "text": "a porcine of intrest",
       "manual": true,
       "world": [
-        3205,
-        3208,
+        3086,
+        3251,
         0
       ]
     },
@@ -349,8 +349,8 @@
       "text": "enter the abbys",
       "manual": true,
       "world": [
-        3209,
-        3216,
+        3102,
+        3557,
         0
       ]
     },
@@ -387,8 +387,8 @@
       "text": "dragon slayer",
       "manual": true,
       "world": [
-        3257,
-        3449,
+        3190,
+        3360,
         0
       ]
     },
@@ -398,8 +398,8 @@
       "text": "Monkey madness (get the attack and defence training)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2465,
+        3496,
         0
       ]
     }

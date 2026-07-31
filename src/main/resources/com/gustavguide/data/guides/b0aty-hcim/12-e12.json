@@ -90,6 +90,7 @@
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
       },
+      "npc": 13804,
       "world": [
         1753,
         3074,
@@ -145,9 +146,10 @@
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
       },
+      "npc": 13337,
       "world": [
-        1753,
-        3074,
+        1685,
+        3101,
         0
       ]
     },
@@ -157,8 +159,8 @@
       "text": "Open the box code 2546",
       "manual": true,
       "world": [
-        1753,
-        3074,
+        1685,
+        3101,
         0
       ]
     },
@@ -183,9 +185,10 @@
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
       },
+      "npc": 814,
       "world": [
-        1554,
-        3033,
+        3190,
+        3360,
         0
       ]
     },
@@ -225,9 +228,10 @@
         "quest": "MEAT_AND_GREET",
         "state": "FINISHED"
       },
+      "npc": 13807,
       "world": [
-        1753,
-        3074,
+        1587,
+        3126,
         0
       ]
     },
@@ -323,9 +327,10 @@
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
       },
+      "npc": 12933,
       "world": [
-        1554,
-        3033,
+        1696,
+        3063,
         0
       ]
     },
@@ -434,6 +439,7 @@
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
       },
+      "npc": 14054,
       "world": [
         1681,
         3168,
@@ -563,6 +569,7 @@
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
       },
+      "npc": 14054,
       "world": [
         1681,
         3168,
@@ -601,6 +608,7 @@
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
       },
+      "npc": 14054,
       "world": [
         1681,
         3168,
@@ -616,9 +624,10 @@
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
       },
+      "npc": 12861,
       "world": [
-        1681,
-        3168,
+        1435,
+        3124,
         0
       ]
     },
@@ -659,6 +668,7 @@
         "quest": "THE_FINAL_DAWN",
         "state": "FINISHED"
       },
+      "npc": 14054,
       "world": [
         1681,
         3168,
@@ -707,6 +717,7 @@
         "quest": "SCRAMBLED",
         "state": "FINISHED"
       },
+      "npc": 14475,
       "world": [
         1247,
         3167,
@@ -808,9 +819,10 @@
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
       },
+      "npc": 14208,
       "world": [
-        1396,
-        3356,
+        1394,
+        3354,
         0
       ]
     },
@@ -823,9 +835,10 @@
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
       },
+      "npc": 14660,
       "world": [
-        1396,
-        3356,
+        1391,
+        3354,
         0
       ]
     },
@@ -886,9 +899,10 @@
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
       },
+      "npc": 14212,
       "world": [
-        1396,
-        3356,
+        1409,
+        3375,
         0
       ]
     },
@@ -1193,8 +1207,8 @@
       "text": "Sell Chaos & Death Runes for Onyx’s (260,000 tokkul per onyx)",
       "manual": true,
       "world": [
-        3253,
-        3402,
+        2465,
+        5149,
         0
       ]
     },

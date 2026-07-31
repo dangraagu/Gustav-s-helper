@@ -15,7 +15,6 @@
       },
       "note": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful.",
       "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
-      "object": 14412,
       "world": [
         3221,
         3414,
@@ -61,8 +60,8 @@
       "text": "Get a bronze pickaxe from the tower",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3188,
+        3220,
         0
       ]
     },
@@ -116,8 +115,8 @@
       "text": "Buy 5 more charges for your Chronicle from Diango",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3081,
+        3246,
         0
       ]
     },
@@ -137,9 +136,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3208,
-        3494,
-        1
+        3222,
+        3473,
+        0
       ]
     },
     {

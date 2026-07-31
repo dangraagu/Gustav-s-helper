@@ -1,0 +1,100 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Divine Rune Pouch",
+  "steps": [
+    {
+      "id": "divine-rune-pouch-001",
+      "title": "Make an amulet of fury. — …",
+      "text": "Make an amulet of fury. — You need high Crafting eventually, but just getting an amulet of glory is also fine for now",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "divine-rune-pouch-002",
+      "title": "Obtain a Hunters' sunlight crossbow. — …",
+      "text": "Obtain a Hunters' sunlight crossbow. — Either type of ammo works. — The Magic shortbow(i) is also fine",
+      "manual": true
+    },
+    {
+      "id": "divine-rune-pouch-003",
+      "title": "Obtain full Void Knight equipment. — …",
+      "text": "Obtain full Void Knight equipment. — Complete the easy tier of Combat Achievements first. — Obtain 100 combat to use the veteran boat first. — Complete the hard Western Provinces Diary and upgrade to Elite Void.",
+      "manual": true
+    },
+    {
+      "id": "divine-rune-pouch-004",
+      "title": "Complete the Fight Caves for a …",
+      "text": "Complete the Fight Caves for a Fire Cape. — Preferably do this on a Slayer task",
+      "manual": true,
+      "world": [
+        2856,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "divine-rune-pouch-005",
+      "title": "Complete Mage arena 2. — Make …",
+      "text": "Complete Mage arena 2. — Make sure to get the Zamorak Cape",
+      "complete": {
+        "op": "quest",
+        "quest": "MAGE_ARENA_II",
+        "state": "FINISHED"
+      },
+      "world": [
+        3090,
+        3956,
+        0
+      ]
+    },
+    {
+      "id": "divine-rune-pouch-006",
+      "title": "Obtain a Warped sceptre. — Preferably …",
+      "text": "Obtain a Warped sceptre. — Preferably do this on a Slayer task",
+      "manual": true
+    },
+    {
+      "id": "divine-rune-pouch-007",
+      "title": "Kill Dagannoth Rex for a Berserker …",
+      "text": "Kill Dagannoth Rex for a Berserker Ring — Use iban blast or a warped scepter with blood spells to heal. — Preferably do this on a Slayer task",
+      "manual": true,
+      "npc": 980,
+      "world": [
+        2518,
+        4640,
+        0
+      ]
+    },
+    {
+      "id": "divine-rune-pouch-008",
+      "title": "Complete The Final Dawn for the …",
+      "text": "Complete The Final Dawn for the Arkan blade",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FINAL_DAWN",
+        "state": "FINISHED"
+      },
+      "world": [
+        1681,
+        3168,
+        0
+      ]
+    },
+    {
+      "id": "divine-rune-pouch-009",
+      "title": "Complete 0 invocation raids at the …",
+      "text": "Complete 0 invocation raids at the Tombs of Amascut until you get a Thread of elidinis. — If you have a team you could go for higher level raids, but you really shouldn't be trying to grind out drops right now. You actively DON'T want to recieve the yellow gem for the first time now due to the dry protection. If you do get it, you will have to just alch it and accept that when you come back much later it will be a relatively rare drop to reobtain. Do not hold on to it, you won't be back to TOA for a very long time.",
+      "world": [
+        3345,
+        2725,
+        0
+      ],
+      "manual": true
+    }
+  ]
+}

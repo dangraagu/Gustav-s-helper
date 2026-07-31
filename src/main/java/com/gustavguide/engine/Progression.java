@@ -118,34 +118,48 @@ public class Progression
 	}
 
 	/**
-	 * Auto-completes <b>manual</b> steps that sit before the furthest milestone the player has already
-	 * reached. Rationale: you cannot have completed a later step without passing the earlier flavour
-	 * steps ("sell bronze", "drop runes") that have no detectable trigger — so a manual step behind a
-	 * reached milestone is folded done. A step with its own real (non-manual) trigger is <b>never</b>
-	 * folded, even if it sits before the milestone: that would skip real work whose condition simply is
-	 * not met yet. Call this after {@link #process}; it is what gives the "steps advance by themselves"
-	 * feel for the ~60% of steps that carry no game-state trigger.
+	 * Auto-completes <b>manual</b> flavour steps ("sell bronze", "drop runes") that sit before a point the
+	 * player has <b>provably reached by walking there</b>. This is what gives the "steps advance by
+	 * themselves" feel for the steps that carry no detectable trigger.
+	 *
+	 * <p>The fold boundary is the furthest completed <b>arrival</b> — a position/travel step. An arrival
+	 * is the only safe proof of sequential reach: {@link #process} refuses to complete a position step
+	 * while any earlier real gate is still unmet ({@code realGatePending}), so a completed arrival
+	 * guarantees you physically passed everything before it. A skill/quest/item completion is
+	 * <b>deliberately NOT</b> a fold boundary — those conditions can be satisfied OUT OF ORDER (a quest
+	 * done long ago, referenced again deep in the route), and folding behind them wipes every flavour
+	 * step before the reference. That out-of-order cascade was the "162 steps complete on a fresh route"
+	 * bug; keying the fold to arrivals removes it for every under-progressed account. The remaining
+	 * guarantee rests on a DATA invariant as well as this code: {@link #process} only completes an
+	 * arrival when no earlier real gate is unmet, so a completed arrival implies the earlier gates are
+	 * met — but two overlapping arrival waypoints (a recurring bank/GE tile) with NO unmet gate between
+	 * them could still complete the deeper one out of order. Guide data must not place two such
+	 * waypoints in an all-flavour stretch; a fresh account is safe regardless (an early real gate trips
+	 * realGatePending, so nothing arrives at spawn — pinned by FreshAccountInvariantTest).</p>
+	 *
+	 * <p>A step with its own real (non-manual) trigger, or a manual step that highlights an NPC/object
+	 * ("talk to the Duke"), is real work and is never folded. Call after {@link #process}.</p>
 	 *
 	 * @return true if any step was folded complete (caller should refresh UI / persist)
 	 */
 	public boolean foldManualBehindMilestones()
 	{
 		List<RouteStep> steps = route.getSteps();
-		int furthest = -1;
+		int reached = -1;
 		for (int i = 0; i < steps.size(); i++)
 		{
 			RouteStep s = steps.get(i);
-			if (s.appliesTo(mode) && completed.contains(s.getId()))
+			if (s.appliesTo(mode) && s.isPositionTriggered() && completed.contains(s.getId()))
 			{
-				furthest = i;
+				reached = i;  // furthest ARRIVAL — proof you walked through everything before it
 			}
 		}
-		if (furthest < 0)
+		if (reached < 0)
 		{
 			return false;
 		}
 		boolean changed = false;
-		for (int i = 0; i < furthest; i++)
+		for (int i = 0; i < reached; i++)
 		{
 			RouteStep s = steps.get(i);
 			// Fold only genuine flavour steps: manual, no NPC/object to interact with. A manual step that

@@ -102,16 +102,18 @@
       "id": "e9-006",
       "title": "Head East & Mine an Adamantite …",
       "text": "Head East & Mine an Adamantite Ore [Western Province Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "hard"
-      },
       "world": [
         3140,
         9874,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3140,
+        "y": 9874,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e9-007a",
@@ -297,6 +299,7 @@
         "quest": "AT_FIRST_LIGHT",
         "state": "FINISHED"
       },
+      "npc": 13120,
       "world": [
         1554,
         3033,

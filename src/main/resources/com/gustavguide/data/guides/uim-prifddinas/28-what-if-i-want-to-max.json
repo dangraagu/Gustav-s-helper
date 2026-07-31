@@ -270,8 +270,8 @@
       "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "npc": 6593,
       "world": [
-        3209,
-        3848,
+        2500,
+        3488,
         0
       ]
     },
@@ -408,8 +408,8 @@
       "text": "Renovate your house with the portal rooms outlined in the Renovating your home section of the guide. Most importantly you want the Arceuus teleports. You could even add some extra portal rooms if you want. — Having these teleports will help out during some of the early quests in the guide, especially those going to Morytania.",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        2956,
+        3232,
         0
       ]
     },
@@ -419,8 +419,8 @@
       "text": "You are now set to return to the main guide path! Still do the section for Farming and Kourend. You still need those things unlocked eventually, even if you already have construction. Follow all the steps and work towards Song of the Elves. Even if you are trying to max, finishing this quest is a huge milestone and should be a centerpiece of your earlygame goals.",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        2566,
+        3337,
         0
       ]
     }

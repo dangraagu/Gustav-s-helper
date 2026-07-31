@@ -1,0 +1,19 @@
+{
+  "_comment": "Auto-generated from raw/uim-prifddinas-current.json by build_raw_guide.py",
+  "sections": [
+    "01-setting-up-for-agility.json",
+    "02-wilderness-agility.json",
+    "03-mta-and-protect-melee.json",
+    "04-tempoross-and-wintertodt.json",
+    "05-wintertodt.json",
+    "06-smithing-and-renovations.json",
+    "07-farming-and-more-constru.json",
+    "08-questing-for-combats.json",
+    "09-herblore-and-barrows-glo.json",
+    "10-guardians-of-the-rift.json",
+    "11-slayer.json",
+    "12-70-herblore-and-other-sk.json",
+    "13-song-of-the-elves.json",
+    "14-epilogue-and-pvm-guide.json"
+  ]
+}

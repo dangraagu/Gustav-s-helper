@@ -1,0 +1,836 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "MTA and Protect Melee",
+  "steps": [
+    {
+      "id": "mta-and-protect-melee-001",
+      "title": "Keep all of your blighted supplies …",
+      "text": "Keep all of your blighted supplies in your inventory for now. They will be turned into Bounty Hunter Crates later",
+      "manual": true
+    },
+    {
+      "id": "mta-and-protect-melee-002",
+      "title": "Head to the Grand Exchange",
+      "text": "Head to the Grand Exchange",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "mta-and-protect-melee-003",
+      "title": "Put up a purchase order for …",
+      "text": "Put up a purchase order for a bond for 2m, then cancel the offer. Leave the money there",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-004",
+      "title": "Go to the Ferox Enclave. Don't …",
+      "text": "Go to the Ferox Enclave. Don't use your minigame teleport",
+      "world": [
+        3137,
+        3623,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "mta-and-protect-melee-005",
+      "title": "Put all of your remaining money …",
+      "text": "Put all of your remaining money in the coffer there",
+      "manual": true
+    },
+    {
+      "id": "mta-and-protect-melee-006",
+      "title": "Unnote some food in case you …",
+      "text": "Unnote some food in case you are attacked on the way to mage bank",
+      "manual": true,
+      "world": [
+        3090,
+        3956,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-007",
+      "title": "Grab an iron dagger from the …",
+      "text": "Grab an iron dagger from the spawn north of the enclave in the graveyard",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1203,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1203,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1203,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-008",
+      "title": "Go to the Mage Arena bank. …",
+      "text": "Go to the Mage Arena bank. — Use the wilderness lever to get there faster",
+      "manual": true,
+      "object": 26761,
+      "world": [
+        3090,
+        3475,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-009",
+      "title": "Collect your money from the bond …",
+      "text": "Collect your money from the bond at the banker",
+      "manual": true,
+      "world": [
+        3095,
+        3494,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-010",
+      "title": "Buy the listed runes. — 500 …",
+      "text": "Buy the listed runes. — 500 Mind runes — 2000 Nature runes — 1000 Cosmic runes — 800 Law runes — 1000 Water runes — 1000 Earth runes",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 564,
+            "qty": 1000
+          },
+          {
+            "op": "item",
+            "id": 564,
+            "qty": 1003,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 564,
+      "world": [
+        3080,
+        3510,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-011",
+      "title": "Return to Ferox Enclave with your …",
+      "text": "Return to Ferox Enclave with your minigame teleport and put all but 4000 coins into the coffer",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-012",
+      "title": "Chronicle teleport or home teleport, walk/canoe …",
+      "text": "Chronicle teleport or home teleport, walk/canoe to Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-013a",
+      "title": "Head to Varrock",
+      "text": "Head to Varrock",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "mta-and-protect-melee-013b",
+      "title": "buy a staff of air and …",
+      "text": "buy a staff of air and a staff of fire",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1387,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1387,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1387,
+      "world": [
+        3203,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-014",
+      "title": "Head to the Edgeville Dungeon and …",
+      "text": "Head to the Edgeville Dungeon and kill Thugs for 15 Magic and a Looting bag. — Use Wind Strike with the staff of air equipped. — Put your blighted supplies in the Looting bag once you get it.",
+      "complete": {
+        "op": "skill",
+        "skill": "MAGIC",
+        "level": 15,
+        "cmp": ">="
+      },
+      "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
+      "object": 1581,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-015",
+      "title": "Drop the mind runes after",
+      "text": "Drop the mind runes after",
+      "manual": true,
+      "world": [
+        3097,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-016",
+      "title": "Head to Mage Training Arena and …",
+      "text": "Head to Mage Training Arena and get enough points to obtain Bones to Peaches, a Rune Pouch, and a Mud Rune. — DO NOT BUY THE RUNE POUCH OR Mud Rune YET! That will come later! — Creature Graveyard: 351 points — You can drop the earth and water runes after you are done and rebuy more later. — The other reward runes are not super important. You can drop them or save them to sell/alch/use later. — Telekinetic Theatre: 351 points — Keep the air staff, or drop it for space and buy another later. — You should have some extra law runes leftover, save them for teleports. — Enchanting Chamber with Lvl-3 Enchant until you have used all of your cosmic runes. You need at least 3515 points at the end. — Alchemist's Playground until you reach 501 points. — Use up any remaining nature runes as well for extra xp. — You can deliver coins in large stacks now if you would like. There isn't a maximum anymore.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 564,
+            "qty": 1003
+          },
+          {
+            "op": "item",
+            "id": 564,
+            "qty": 1003,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 564,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-017",
+      "title": "Buy Bones to Peaches",
+      "text": "Buy Bones to Peaches",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 526,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 526,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 526
+    },
+    {
+      "id": "mta-and-protect-melee-018",
+      "title": "Keep the staff of air",
+      "text": "Keep the staff of air",
+      "manual": true
+    },
+    {
+      "id": "mta-and-protect-melee-019",
+      "title": "Drop the staff of fire",
+      "text": "Drop the staff of fire",
+      "manual": true,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-020",
+      "title": "Minigame teleport to Clan Wars to …",
+      "text": "Minigame teleport to Clan Wars to get your cash stack back out",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-021",
+      "title": "Head to Varrock and buy some …",
+      "text": "Head to Varrock and buy some runes: — 500 Fire Runes — 500 Earth Runes — 500 Water Runes — 20 Air runes (For Waterfall) — 500 Death Runes for Wind blast (If you run out just buy more).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 560,
+            "qty": 500
+          },
+          {
+            "op": "item",
+            "id": 560,
+            "qty": 500,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 560,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-022",
+      "title": "Do Daddy's Home. — Pick up …",
+      "text": "Do Daddy's Home. — Pick up logs in the Lumberyard to make the planks. — Complete 2 beginner Mahogany Homes contracts with the supplies. — Remember you now have a house to teleport to.",
+      "complete": {
+        "op": "quest",
+        "quest": "DADDYS_HOME",
+        "state": "FINISHED"
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-023",
+      "title": "Re-obtain your Ardougne cloak 1 for …",
+      "text": "Re-obtain your Ardougne cloak 1 for the teleport. — Don't forget it is relatively close to a Spirit Tree",
+      "manual": true,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-024",
+      "title": "Get a Banana hat to improve …",
+      "text": "Get a Banana hat to improve your fashion",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-025",
+      "title": "Go pick up some Boots of …",
+      "text": "Go pick up some Boots of lightness from the Temple of Ikov (dungeon). — You will need a light source and a knife/slash weapon",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-026",
+      "title": "For the next sections, you can …",
+      "text": "For the next sections, you can get some cakes in Ardougne for food. — You can also buy rope and iron axe in the general store for the quests",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1349,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1349,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1349,
+      "world": [
+        2614,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-027",
+      "title": "Head to Barbarian Assault and skip …",
+      "text": "Head to Barbarian Assault and skip the tutorial to unlock the minigame teleport",
+      "world": [
+        2500,
+        3488,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2500,
+        "y": 3488,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "mta-and-protect-melee-028",
+      "title": "While there, start Alfred Grimhand's Barcrawl. …",
+      "text": "While there, start Alfred Grimhand's Barcrawl. — The guide will take you near several of the bars in the next few steps, you can complete them as you go if you would like",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2544,
+        3568,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-029a",
+      "title": "Complete Waterfall Quest until you go …",
+      "text": "Complete Waterfall Quest until you go to maze",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-029b",
+      "title": "get the pebble. — Just partially …",
+      "text": "get the pebble. — Just partially complete it for now, you will need to clear up your bagged items before going in the tomb",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-030",
+      "title": "Complete Tree Gnome Village and Fight …",
+      "text": "Complete Tree Gnome Village and Fight Arena while in the area",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-031",
+      "title": "Head to any spot where you …",
+      "text": "Head to any spot where you can go into the Wilderness and destroy your Looting Bag to get your blighted supplies back out. — YOU MUST BE STANDING IN THE WILDERNESS OR THE ITEMS WILL BE LOST. — Obviously be safe and don't do this if anyone is nearby.",
+      "world": [
+        3087,
+        3522,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3087,
+        "y": 3522,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "mta-and-protect-melee-032",
+      "title": "Head to Bounty Hunter and create …",
+      "text": "Head to Bounty Hunter and create as many Bounty supply crates as you can",
+      "manual": true
+    },
+    {
+      "id": "mta-and-protect-melee-033a",
+      "title": "Head to the Rogues Den",
+      "text": "Head to the Rogues Den",
+      "manual": true,
+      "object": 7257,
+      "world": [
+        2905,
+        3537,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-033b",
+      "title": "sell the crates. — 2 per …",
+      "text": "sell the crates. — 2 per world is good, but it is up to you",
+      "manual": true,
+      "world": [
+        2927,
+        3547,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-034",
+      "title": "Drop the leftover blighted supplies",
+      "text": "Drop the leftover blighted supplies",
+      "manual": true,
+      "world": [
+        2927,
+        3547,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-035a",
+      "title": "Finish Waterfall Quest. — During the …",
+      "text": "Finish Waterfall Quest. — During the quest, safe spot",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-035b",
+      "title": "kill a Fire Giant for a …",
+      "text": "kill a Fire Giant for a combat achievement",
+      "manual": true,
+      "npc": 2080,
+      "world": [
+        2566,
+        9887,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-036",
+      "title": "Complete the Natural History Quiz",
+      "text": "Complete the Natural History Quiz",
+      "manual": true
+    },
+    {
+      "id": "mta-and-protect-melee-037",
+      "title": "Minigame teleport to Fishing Trawler, buy …",
+      "text": "Minigame teleport to Fishing Trawler, buy a Noose wand at the Hunter shop in Yanille",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10150,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 10150,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 10150,
+      "world": [
+        2567,
+        3082,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-038",
+      "title": "Take a Spirit Tree to Feldip …",
+      "text": "Take a Spirit Tree to Feldip Hills",
+      "manual": true,
+      "world": [
+        2515,
+        2954,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-039",
+      "title": "Hunt Feldip Weasels for 4 feldip …",
+      "text": "Hunt Feldip Weasels for 4 feldip weasel fur",
+      "manual": true
+    },
+    {
+      "id": "mta-and-protect-melee-040a",
+      "title": "Head to the Fancy Clothes Store …",
+      "text": "Head to the Fancy Clothes Store in Varrock",
+      "world": [
+        3280,
+        3397,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3280,
+        "y": 3397,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "mta-and-protect-melee-040b",
+      "title": "make a Jungle camo top and …",
+      "text": "make a Jungle camo top and Jungle camo legs. — These are storable weight reducing clothing",
+      "manual": true,
+      "world": [
+        3280,
+        3397,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-041",
+      "title": "Complete Priest in Peril. — Buy …",
+      "text": "Complete Priest in Peril. — Buy an adamant sword in Varrock. — Just make 3 trips. It isn't that big of a deal. — Briefly walk into Morytania",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        3222,
+        3473,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-042",
+      "title": "Complete Alfred Grimhand's Barcrawl",
+      "text": "Complete Alfred Grimhand's Barcrawl",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2544,
+        3568,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-043a",
+      "title": "Complete Scorpion Catcher. — During the …",
+      "text": "Complete Scorpion Catcher. — During the quest, safespot",
+      "complete": {
+        "op": "quest",
+        "quest": "SCORPION_CATCHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2701,
+        3408,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-043b",
+      "title": "kill a Hellhound in the Taverly …",
+      "text": "kill a Hellhound in the Taverly Dungeon for a combat achievement",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-044",
+      "title": "Complete Merlin's Crystal if you have …",
+      "text": "Complete Merlin's Crystal if you have not already",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-045",
+      "title": "Complete Vampyre Slayer",
+      "text": "Complete Vampyre Slayer",
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-046",
+      "title": "Complete Ernest the Chicken",
+      "text": "Complete Ernest the Chicken",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-047",
+      "title": "Complete Holy Grail. — Flinch the …",
+      "text": "Complete Holy Grail. — Flinch the boss. — You will need to briefly visit Entrana. — If you would like, you can place combat items on a table and they will stay there up to 10 minutes. There is a table upstairs in Brian's Battleaxe Bazaar. — Keep in mind that the items are still going to be visible to other players, but hopefully nobody steals them.",
+      "complete": {
+        "op": "quest",
+        "quest": "HOLY_GRAIL",
+        "state": "FINISHED"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-048",
+      "title": "You should now have 43 Prayer …",
+      "text": "You should now have 43 Prayer for Protect from melee",
+      "manual": true,
+      "world": [
+        2694,
+        3462,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-049",
+      "title": "Complete The Feud",
+      "text": "Complete The Feud",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "FINISHED"
+      },
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "mta-and-protect-melee-050",
+      "title": "Do the runes section of Rogue …",
+      "text": "Do the runes section of Rogue Trader. — Use the Runedoku Helper plugin. — You can now buy teleport runes from Ali Morrisane when needed without having to go to the wilderness. — Keep in mind that there a few upcoming places you will want to drop all your runes for space, so don't load up too much.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 558,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 558,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 558,
+      "npc": 3533,
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    }
+  ]
+}

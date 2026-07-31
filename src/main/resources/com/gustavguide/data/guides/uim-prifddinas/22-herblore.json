@@ -9,8 +9,8 @@
       "text": "Get 65/82/85 Farming at Tithe farm first",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1800,
+        3502,
         0
       ]
     },
@@ -51,7 +51,12 @@
       "id": "herblore-004",
       "title": "Buy a seed box from Tithe …",
       "text": "Buy a seed box from Tithe Farm",
-      "manual": true
+      "manual": true,
+      "world": [
+        1800,
+        3501,
+        0
+      ]
     },
     {
       "id": "herblore-005a",
@@ -264,8 +269,8 @@
       "text": "At level 78 you unlock Dorgesh-Kaan Rich Chests. This is a very good alternative to blackjacking for fast experience after you get the money you need. — With more effort, you can alch and cut the loot from the chests for very efficient money and Magic/Crafting experience. While small, this would add up significantly if you are going to 99.",
       "manual": true,
       "world": [
-        2698,
-        3396,
+        2723,
+        5314,
         0
       ]
     },
@@ -459,7 +464,12 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      }
+      },
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "herblore-034",

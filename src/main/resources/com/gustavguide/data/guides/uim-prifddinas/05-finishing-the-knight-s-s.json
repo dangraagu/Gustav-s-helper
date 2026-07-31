@@ -140,14 +140,14 @@
       "title": "Head south to the Asgarnian Ice …",
       "text": "Head south to the Asgarnian Ice Dungeon",
       "world": [
-        3165,
-        3490,
+        3008,
+        3150,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3165,
-        "y": 3490,
+        "x": 3008,
+        "y": 3150,
         "z": 0,
         "radius": 8
       }
@@ -182,8 +182,8 @@
       "manual": true,
       "npc": 3648,
       "world": [
-        2954,
-        3147,
+        3013,
+        3207,
         0
       ]
     },
@@ -247,6 +247,7 @@
         "quest": "THE_KNIGHTS_SWORD",
         "state": "FINISHED"
       },
+      "npc": 4737,
       "world": [
         2978,
         3341,
@@ -259,9 +260,9 @@
       "text": "Climb the stairs to the west twice",
       "manual": true,
       "world": [
-        2955,
+        2959,
         3339,
-        0
+        2
       ]
     },
     {
@@ -271,12 +272,13 @@
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 4771,
       "world": [
-        2955,
+        2959,
         3339,
-        0
+        2
       ]
     },
     {
@@ -363,10 +365,9 @@
         ]
       },
       "item": 1139,
-      "object": 2337,
       "world": [
-        3016,
-        3514,
+        3075,
+        3429,
         0
       ]
     },
@@ -377,8 +378,8 @@
       "manual": true,
       "item": 1101,
       "world": [
-        3016,
-        3514,
+        3075,
+        3429,
         0
       ]
     },
@@ -387,14 +388,14 @@
       "title": "Head north then west to the …",
       "text": "Head north then west to the dwarf base",
       "world": [
-        3213,
-        3221,
+        3012,
+        3453,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3213,
-        "y": 3221,
+        "x": 3012,
+        "y": 3453,
         "z": 0,
         "radius": 8
       }
@@ -408,9 +409,10 @@
         "quest": "DWARF_CANNON",
         "state": "FINISHED"
       },
+      "npc": 1400,
       "world": [
-        2567,
-        3460,
+        3012,
+        3453,
         0
       ]
     },
@@ -512,8 +514,8 @@
       "text": "Climb the stairs to the top of the Tourist Information Centre",
       "manual": true,
       "world": [
-        3228,
-        3291,
+        2559,
+        3445,
         0
       ]
     },
@@ -524,8 +526,8 @@
       "manual": true,
       "object": 20790,
       "world": [
-        3081,
-        3420,
+        2559,
+        3445,
         0
       ]
     },
@@ -535,8 +537,8 @@
       "text": "Exit the building, run north east",
       "manual": true,
       "world": [
-        2865,
-        3609,
+        2559,
+        3445,
         0
       ]
     },
@@ -544,7 +546,13 @@
       "id": "finishing-the-knight-s-s-030",
       "title": "Retrieve Glarial's urn and Glarial's amulet …",
       "text": "Retrieve Glarial's urn and Glarial's amulet from Glarial's tomb",
-      "manual": true
+      "manual": true,
+      "object": 1993,
+      "world": [
+        2542,
+        9812,
+        0
+      ]
     },
     {
       "id": "finishing-the-knight-s-s-031a",
@@ -552,8 +560,8 @@
       "text": "Go back",
       "manual": true,
       "world": [
-        2865,
-        3609,
+        2559,
+        3445,
         0
       ]
     },
@@ -563,8 +571,8 @@
       "text": "pick up your items from the table",
       "manual": true,
       "world": [
-        2865,
-        3609,
+        2559,
+        3445,
         0
       ]
     },

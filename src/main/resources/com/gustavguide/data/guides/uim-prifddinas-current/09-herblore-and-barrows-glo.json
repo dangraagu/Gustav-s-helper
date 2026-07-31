@@ -1,0 +1,499 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Herblore and Barrows Gloves",
+  "steps": [
+    {
+      "id": "herblore-and-barrows-glo-001",
+      "title": "You can continue to do bird …",
+      "text": "You can continue to do bird house runs as you would like. Having the Mounted digsite pendant in your house makes this much easier. — The guide also assumes you will have Hespori for death banking now, but Nightmare is still an option until you get that. — If you are struggling to get a Hespori seed, you can open seed packs from Tithe Farm to go for one that way too.",
+      "manual": true,
+      "world": [
+        3354,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-002",
+      "title": "(Optional) Now that you have Hunter …",
+      "text": "(Optional) Now that you have Hunter started, you could choose to death bank and do Hunter Rumours at any point. — The main benefit of this would be to have a higher Prayer level for the guide. — The reason we don't do this now is simply to wait for a fairy ring in your POH and it being easier to use up the loot after you have progressed a bit more, but the difference is minor.",
+      "manual": true
+    },
+    {
+      "id": "herblore-and-barrows-glo-003",
+      "title": "Complete Shades of Morton",
+      "text": "Complete Shades of Morton",
+      "manual": true
+    },
+    {
+      "id": "herblore-and-barrows-glo-004",
+      "title": "Complete the easy Karamja Diary",
+      "text": "Complete the easy Karamja Diary",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-005",
+      "title": "You should have at least 30 …",
+      "text": "You should have at least 30 Herblore by now, if you don't you might need to make a few potions with your bagged herbs to get it",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-006",
+      "title": "Complete Shilo Village",
+      "text": "Complete Shilo Village",
+      "complete": {
+        "op": "quest",
+        "quest": "SHILO_VILLAGE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2884,
+        2951,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-007",
+      "title": "Complete One Small Favor",
+      "text": "Complete One Small Favor",
+      "manual": true
+    },
+    {
+      "id": "herblore-and-barrows-glo-008",
+      "title": "Obtain the Rogue equipment set. — …",
+      "text": "Obtain the Rogue equipment set. — Move your house to Taverley. — Death bank at Hespori. — Minigame teleport to Burthorpe. — Play the Rogues' Den. — As you get pieces, walk to your house and store them.",
+      "manual": true,
+      "object": 7257,
+      "world": [
+        2905,
+        3537,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-009",
+      "title": "Obtain a Fighter Torso while still …",
+      "text": "Obtain a Fighter Torso while still death banked. — DO NOT get your rune pouch and runes out! You can't bring it in with you. — The torso can be stored in your house when not in use.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-010",
+      "title": "Grab your ranarr weeds out of …",
+      "text": "Grab your ranarr weeds out of death bank and make Prayer potions. — You can collect Snape grass on the shore east of of Hosidius and note it at the grape vine farm nearby. — Make the potions at the Grand Exchange and note them there. See this video for a quick tutorial. — Keep these potions on you for questing. — Keep 1 unfinished potion for the next quest.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3406,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 3406,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3406,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-011",
+      "title": "You can collect your items from …",
+      "text": "You can collect your items from death bank now. — Don't forget to move your house back to Hosidius",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-012",
+      "title": "If you got fossils from Ammonite …",
+      "text": "If you got fossils from Ammonite crabs you can hand them in for lamps",
+      "manual": true
+    },
+    {
+      "id": "herblore-and-barrows-glo-013",
+      "title": "Complete His Faithful Servants for a …",
+      "text": "Complete His Faithful Servants for a quick 20k Prayer xp",
+      "complete": {
+        "op": "quest",
+        "quest": "HIS_FAITHFUL_SERVANTS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1733,
+        3572,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-014a",
+      "title": "Complete Eadgar's Ruse. — You can …",
+      "text": "Complete Eadgar's Ruse. — You can wait",
+      "complete": {
+        "op": "quest",
+        "quest": "EADGARS_RUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2899,
+        3429,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-014b",
+      "title": "collect the grain and chicken during …",
+      "text": "collect the grain and chicken during the quest",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1947,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1947,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1947,
+      "world": [
+        2899,
+        3429,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-015",
+      "title": "Complete My Arm's Big Adventure. — …",
+      "text": "Complete My Arm's Big Adventure. — Make sure to start the supercompost before starting the favor grind",
+      "complete": {
+        "op": "quest",
+        "quest": "MY_ARMS_BIG_ADVENTURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2839,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-016",
+      "title": "Complete the 5 Kourend quests. Put …",
+      "text": "Complete the 5 Kourend quests. Put each paper in your Kharedst's memoirs. — The Depths of Despair — The Queen of Thieves — The Ascent of Arceuus — The Forsaken Tower — Tale of the Righteous",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_ASCENT_OF_ARCEUUS",
+        "state": "FINISHED"
+      },
+      "world": [
+        1698,
+        3742,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-017",
+      "title": "Complete Eagles' Peak",
+      "text": "Complete Eagles' Peak",
+      "complete": {
+        "op": "quest",
+        "quest": "EAGLES_PEAK",
+        "state": "FINISHED"
+      },
+      "world": [
+        2607,
+        3264,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-018",
+      "title": "Complete the Kourend and Kebos easy …",
+      "text": "Complete the Kourend and Kebos easy and medium diaries",
+      "complete": {
+        "op": "diary",
+        "area": "kourend",
+        "tier": "medium"
+      },
+      "world": [
+        1630,
+        3730,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-019",
+      "title": "Complete the easy combat achievements. — …",
+      "text": "Complete the easy combat achievements. — You should have a lot of points already from Wintertodt and Tempoross. — All of the achievements from Brutus. — The Speed trial can be done with a Dragon Halberd if you want to go for it. You will need to do Regicide now, but that is fine. — Some quick tasks to consider: — Weed Whacker — A Greater Foe with Darklight to also get Not So Great After All — Into the Den of Giants — Mage of the Swamp — I'd Rather Be Illiterate — Avoiding Those Little Arms — Perfect Scurrius — Scurrius Novice — Author Note: Let me know if there are any other easy Achievements to go for I missed.",
+      "manual": true,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-020",
+      "title": "You should have 45 Herblore by …",
+      "text": "You should have 45 Herblore by now",
+      "manual": true
+    },
+    {
+      "id": "herblore-and-barrows-glo-021",
+      "title": "(Optional) Make some Super attack potions …",
+      "text": "(Optional) Make some Super attack potions to go with your Dragon Battleaxe. — Keep in mind you can use the normal Attack and Defense potions from the Warriors Guild to offset the Battleaxe stat drain.",
+      "manual": true,
+      "object": 24318,
+      "world": [
+        2877,
+        3546,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-022",
+      "title": "Go to the Warriors Guild and …",
+      "text": "Go to the Warriors Guild and get a Rune Defender. — Using Black Armour is pretty good for collecting tokens. You can buy all the pieces in shops. — Make sure to show the defender to Lorelai downstairs so you won't need to get it again later. — Bones to Peaches is really helpful here. — Don't get a Dragon Defender unless you have 60 Defense to use it.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 526,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 526,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 526,
+      "world": [
+        2856,
+        3546,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-023",
+      "title": "Complete Family Crest",
+      "text": "Complete Family Crest",
+      "complete": {
+        "op": "quest",
+        "quest": "FAMILY_CREST",
+        "state": "FINISHED"
+      },
+      "object": 2655,
+      "world": [
+        2746,
+        3573,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-024",
+      "title": "Complete Underground Pass. — Alch the …",
+      "text": "Complete Underground Pass. — Alch the staff after the quest. Don't upgrade it now, you will need the staff again later and you can upgrade it",
+      "complete": {
+        "op": "quest",
+        "quest": "UNDERGROUND_PASS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2572,
+        3296,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-025",
+      "title": "Complete Legends Quest. — Complete this …",
+      "text": "Complete Legends Quest. — Complete this quest one section at a time. Don't try to collect all the items at the start. — Of course use all the xp on Herblore. Be careful not to select the wrong skill.",
+      "complete": {
+        "op": "quest",
+        "quest": "LEGENDS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2729,
+        3348,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-026",
+      "title": "Complete Recipe for Disaster/Freeing Sir Amik …",
+      "text": "Complete Recipe for Disaster/Freeing Sir Amik Varze. — Make sure to collect all the items up front, as the unfinished dishes are lost on death and you need to get to Entrana",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        2840,
+        3358,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-027",
+      "title": "Complete A Kingdom Divided. — You …",
+      "text": "Complete A Kingdom Divided. — You need to actually prepare for the Xamphur fight, it is difficult with these stats. — You don't need to collect the defence potion, volcanic sulphur, molten glass, or dark essence block until after the fight.",
+      "complete": {
+        "op": "quest",
+        "quest": "A_KINGDOM_DIVIDED",
+        "state": "FINISHED"
+      },
+      "world": [
+        1664,
+        3670,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-028",
+      "title": "Steal from master farmers until you …",
+      "text": "Steal from master farmers until you get 4-6 limpwurt seeds. Farm them for 20 limpwurt roots. — Remember to use the Rogue's outfit. — You can also use up any other seeds you get, for example planting watermelon seeds or a Mushroom spore for diary steps later.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5321,
+            "qty": 20
+          },
+          {
+            "op": "item",
+            "id": 5321,
+            "qty": 20,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 5321,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-029",
+      "title": "Complete Temple of Ikov. — You …",
+      "text": "Complete Temple of Ikov. — You do not need a bow, just use steel knives from the Martin Thwait's Lost and Found with ice arrows in your ammo slot",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "world": [
+        2573,
+        3321,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-030",
+      "title": "Complete Desert Treasure I. — Do …",
+      "text": "Complete Desert Treasure I. — Do not overprepare for the fights. Just bring magic, some prayer potions, and a bit of food for the first 3 fights. For Kamil you do want a good amount of food though. — Fareed : Protection from melee and manual cast water spells. Super easy. — Damis : Bring runes for snare and kite him, or setup the safespot. — Dessous : Flick between pray range and pray melee each tick and he won't attack at all. — Kamil : Make 2 restore potions and use fire spells. Bring extra food for this fight. Also, use fire spells on the ice trolls. — You should have some Harrlander seeds in your seed box that you can farm while getting the other diamonds. — Keep the Ring of visibility. — You will need to briefly visit Entrana.",
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        2853,
+        3348,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-031",
+      "title": "Complete Curse of the Empty Lord. …",
+      "text": "Complete Curse of the Empty Lord. — Get your lamp from Historian Minas. — This might take you to Entrana",
+      "complete": {
+        "op": "quest",
+        "quest": "CURSE_OF_THE_EMPTY_LORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2556,
+        3445,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-032",
+      "title": "(Optional) You can make more portal …",
+      "text": "(Optional) You can make more portal rooms and add the Ancient spellbook portals to your house now if you would like. — I like having an upstairs area with all of the Ancients teleports together above the other portal rooms, but it is up to you.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-033",
+      "title": "Complete the Recipe for Disaster/Defeating the …",
+      "text": "Complete the Recipe for Disaster/Defeating the Culinaromancer. — The videos have a setup to use. — Buy some Barrows Gloves",
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "herblore-and-barrows-glo-034",
+      "title": "Complete Fairy Tale Part II. — …",
+      "text": "Complete Fairy Tale Part II. — You can now tea boost to put a fairy ring in your house. — Get the mushrooms from Sulliusceps",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

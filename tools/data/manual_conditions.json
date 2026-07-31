@@ -1,0 +1,73 @@
+{
+  "_comment": "Human override for a built step's completion/highlight, keyed by guide id -> step id. Value is either \"manual\" (drop the auto-detected completion + item highlight, so the step is ticked by hand) or an object { \"complete\": <condition>, \"item\": <id> } that REPLACES them. Use \"manual\" when the enricher grounded an incidental/secondary item; use the object form when the correct completion is knowable but the single-item auto-detector can't express it (e.g. own two different items). build_raw_guide.py applies this after building. Ids are stable per raw file; re-verify after a re-scrape.",
+  "uim-pvm-route": {
+    "introduction-009": "manual",
+    "divine-rune-pouch-002": "manual",
+    "divine-rune-pouch-009": "manual",
+    "god-wars-dungeon-001": "manual",
+    "theatre-of-blood-006": "manual"
+  },
+  "uim-prifddinas": {
+    "fresh-off-the-boat-005": {
+      "_note": "Buy a bucket AND a spade at the Lumbridge general store; auto-detector only tracked the spade. Complete once you own both. (Bucket=1925, Spade=952.)",
+      "complete": {
+        "op": "and",
+        "of": [
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 1,
+            "scope": "ANY"
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1925
+    },
+    "making-the-loop-around-f-002c": {
+      "_note": "complete on receiving the Research package (id 290), not on Rune Mysteries finishing",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 290,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 290,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 290
+    },
+    "making-the-loop-around-f-010b": {
+      "_note": "enricher highlighted the wrong fish (349); target is Raw sardine (327)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 327,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 327,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 327
+    }
+  }
+}

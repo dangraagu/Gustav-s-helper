@@ -15,10 +15,9 @@
       },
       "note": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful.",
       "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
-      "object": 15608,
       "world": [
-        2673,
-        3298,
+        3221,
+        3414,
         0
       ]
     },
@@ -61,8 +60,8 @@
       "text": "Get a bronze pickaxe from the tower",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3188,
+        3220,
         0
       ]
     },
@@ -72,8 +71,8 @@
       "text": "Get a knife from the kitchen",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3188,
+        3220,
         0
       ]
     },
@@ -169,8 +168,8 @@
       "text": "Buy 5 more charges for your Chronicle from Diango",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3081,
+        3246,
         0
       ]
     },
@@ -190,9 +189,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3208,
-        3494,
-        1
+        3222,
+        3473,
+        0
       ]
     },
     {
@@ -533,8 +532,8 @@
       },
       "item": 1349,
       "world": [
-        3165,
-        3490,
+        3229,
+        3204,
         0
       ]
     },
@@ -551,8 +550,8 @@
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
-        3165,
-        3490,
+        3192,
+        3223,
         0
       ]
     },
@@ -577,8 +576,8 @@
       "text": "Start playing Guardians of the Rift. The first goal is to get to level 50 Runecraft",
       "manual": true,
       "world": [
-        3209,
-        3215,
+        3109,
+        3160,
         0
       ]
     },

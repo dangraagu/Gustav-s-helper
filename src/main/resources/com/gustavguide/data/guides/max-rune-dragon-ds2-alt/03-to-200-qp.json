@@ -13,7 +13,12 @@
       "id": "to-200-qp-002",
       "title": "Taste of hope (xp on agi …",
       "text": "Taste of hope (xp on agi 3x)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3668,
+        3217,
+        0
+      ]
     },
     {
       "id": "to-200-qp-003",
@@ -115,7 +120,12 @@
       "id": "to-200-qp-009",
       "title": "Death to the Dorg",
       "text": "Death to the Dorg",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
     },
     {
       "id": "to-200-qp-010",
@@ -162,7 +172,12 @@
       "id": "to-200-qp-013",
       "title": "Eagles Peak (dont bother if you …",
       "text": "Eagles Peak (dont bother if you did recruitment drive, wanted!, slug manace, finish frem isles",
-      "manual": true
+      "manual": true,
+      "world": [
+        2607,
+        3264,
+        0
+      ]
     },
     {
       "id": "to-200-qp-014",
@@ -183,7 +198,12 @@
       "id": "to-200-qp-015",
       "title": "Enlighted Journey",
       "text": "Enlighted Journey",
-      "manual": true
+      "manual": true,
+      "world": [
+        3047,
+        3236,
+        0
+      ]
     },
     {
       "id": "to-200-qp-016",

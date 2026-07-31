@@ -266,8 +266,8 @@
       },
       "item": 1355,
       "world": [
-        3192,
-        3223,
+        1614,
+        3499,
         0
       ]
     },
@@ -296,8 +296,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3178,
-        3295,
+        3093,
+        3357,
         0
       ]
     },
@@ -307,8 +307,8 @@
       "text": "Drop the amulet of ghostspeak and destroy the axe",
       "manual": true,
       "world": [
-        3178,
-        3295,
+        3093,
+        3357,
         0
       ]
     },
@@ -380,8 +380,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2763,
-        3044,
+        3260,
+        3449,
         0
       ]
     },
@@ -413,8 +413,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3216,
-        3416,
+        2466,
+        3495,
         0
       ]
     },

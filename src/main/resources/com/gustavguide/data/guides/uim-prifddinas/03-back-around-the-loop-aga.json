@@ -22,8 +22,8 @@
       "manual": true,
       "object": 24009,
       "world": [
-        3227,
-        3257,
+        3248,
+        3195,
         0
       ]
     },
@@ -113,8 +113,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3205,
-        3208,
+        3109,
+        3160,
         0
       ]
     },
@@ -288,8 +288,8 @@
       "text": "Defeat Count Draynor using Magic spells. — Safespot him in the corner: https://www.youtube.com/watch?v&#61;ACUWxB0Skyo",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3108,
+        3358,
         0
       ]
     },
@@ -299,8 +299,8 @@
       "text": "Drop the garlic",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3108,
+        3358,
         0
       ]
     },
@@ -310,8 +310,8 @@
       "text": "Use a teleport to house tab, then exit your house",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3108,
+        3358,
         0
       ]
     },
@@ -321,8 +321,8 @@
       "text": "Use up the noted planks by unnoting them at Phials and building chairs in your house. — This will take a few trips, you can drop some items for a short time for extra space. — You only really need level 10 Construction so if you run out of nails before all your planks get used that is fine if you got level 10.",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2949,
+        3215,
         0
       ]
     },
@@ -332,8 +332,8 @@
       "text": "Exit your house, drop the extra nails, hammer, and saw",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2949,
+        3215,
         0
       ]
     },
@@ -344,8 +344,8 @@
       "manual": true,
       "npc": 3648,
       "world": [
-        2954,
-        3147,
+        3029,
+        3221,
         0
       ]
     },
@@ -371,8 +371,8 @@
       },
       "item": 1933,
       "world": [
-        2905,
-        3149,
+        3013,
+        3207,
         0
       ]
     },
@@ -402,12 +402,18 @@
       "id": "back-around-the-loop-aga-021a",
       "title": "Go to Wydin's Food Store",
       "text": "Go to Wydin's Food Store",
-      "manual": true,
       "world": [
-        3216,
-        3416,
+        3013,
+        3207,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3013,
+        "y": 3207,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "back-around-the-loop-aga-021b",
@@ -431,8 +437,8 @@
       },
       "item": 2132,
       "world": [
-        3216,
-        3416,
+        3013,
+        3207,
         0
       ]
     },
@@ -442,8 +448,8 @@
       "text": "Kill a giant rat to the west",
       "manual": true,
       "world": [
-        3239,
-        9864,
+        3200,
+        3174,
         0
       ]
     },
@@ -453,8 +459,8 @@
       "text": "Take the raw rat meat",
       "manual": true,
       "world": [
-        3239,
-        9864,
+        3200,
+        3174,
         0
       ]
     },
@@ -492,8 +498,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2978,
-        3341,
+        3000,
+        3145,
         0
       ]
     },
@@ -503,8 +509,8 @@
       "text": "Use a teleport to house tab and exit your house",
       "manual": true,
       "world": [
-        2978,
-        3341,
+        3000,
+        3145,
         0
       ]
     },
@@ -526,8 +532,8 @@
       "text": "Kill a chicken to the east",
       "manual": true,
       "world": [
-        3018,
-        3289,
+        2700,
+        3300,
         0
       ]
     },
@@ -537,8 +543,8 @@
       "text": "take the raw chicken",
       "manual": true,
       "world": [
-        3018,
-        3289,
+        2700,
+        3300,
         0
       ]
     },
@@ -546,7 +552,12 @@
       "id": "back-around-the-loop-aga-027a",
       "title": "Head north and safespot a bear",
       "text": "Head north and safespot a bear",
-      "manual": true
+      "manual": true,
+      "world": [
+        2700,
+        3300,
+        0
+      ]
     },
     {
       "id": "back-around-the-loop-aga-027b",
@@ -554,8 +565,8 @@
       "text": "Take the raw bear meat",
       "manual": true,
       "world": [
-        3018,
-        3289,
+        2700,
+        3300,
         0
       ]
     },
@@ -617,10 +628,10 @@
         "quest": "THE_KNIGHTS_SWORD",
         "state": "FINISHED"
       },
-      "npc": 1770,
+      "npc": 4737,
       "world": [
-        3041,
-        3202,
+        2978,
+        3341,
         0
       ]
     },

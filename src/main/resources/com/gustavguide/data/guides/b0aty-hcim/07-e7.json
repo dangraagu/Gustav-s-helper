@@ -15,8 +15,8 @@
       "text": "Complete a game of Trouble Brewing [Morytania Medium Diary] (can skip this if no alt/friend/active world and do later)",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3813,
+        2973,
         0
       ]
     },
@@ -26,8 +26,8 @@
       "text": "Kill Cave Horrors until Black Mask drop. Train on Defensive until 680,000 Defence Experience. Once you get it head through the dungeon & cut & burn mahogany logs [Morytania Hard Diary]",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3747,
+        9430,
         0
       ]
     },
@@ -120,9 +120,9 @@
       "item": 4151,
       "npc": 415,
       "world": [
-        3420,
-        3569,
-        2
+        3545,
+        4585,
+        0
       ]
     },
     {
@@ -272,8 +272,8 @@
       "manual": true,
       "npc": 12162,
       "world": [
-        3177,
-        3043,
+        3683,
+        3706,
         0
       ]
     },
@@ -340,8 +340,8 @@
       "text": "We are now going to do some Barrows. There are many ways to get there so choose which you want or unlock it before starting. We are only after tank gear so probably don't need to do much more than 100 chests. Use Wind Wave. Morytania hard for more runes is locked behind 70 prayer so not worth doing at this stage. Kill 2 skeletons 1 bloodworm every run to maintain blood runes.",
       "manual": true,
       "world": [
-        3251,
-        9916,
+        3567,
+        3291,
         0
       ]
     },

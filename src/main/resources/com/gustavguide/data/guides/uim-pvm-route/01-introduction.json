@@ -1,0 +1,134 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Introduction",
+  "steps": [
+    {
+      "id": "introduction-001",
+      "title": "The Elite Lumbridge & Draynor Diary …",
+      "text": "The Elite Lumbridge & Draynor Diary is extremely nice to have done",
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "elite"
+      },
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "introduction-002",
+      "title": "Ability to craft Wrath runes",
+      "text": "Ability to craft Wrath runes",
+      "manual": true
+    },
+    {
+      "id": "introduction-003",
+      "title": "Build an Ornate rejuvenation pool",
+      "text": "Build an Ornate rejuvenation pool",
+      "manual": true
+    },
+    {
+      "id": "introduction-004",
+      "title": "Agility level for various high-level shortcuts",
+      "text": "Agility level for various high-level shortcuts",
+      "manual": true
+    },
+    {
+      "id": "introduction-005",
+      "title": "Ability to make super combat potions",
+      "text": "Ability to make super combat potions",
+      "manual": true
+    },
+    {
+      "id": "introduction-006",
+      "title": "Ability to steal from master farmers …",
+      "text": "Ability to steal from master farmers without failing",
+      "manual": true
+    },
+    {
+      "id": "introduction-007",
+      "title": "Crafting requirements for powerful jewelry",
+      "text": "Crafting requirements for powerful jewelry",
+      "manual": true
+    },
+    {
+      "id": "introduction-008",
+      "title": "Ability to fletch Amethyst darts",
+      "text": "Ability to fletch Amethyst darts",
+      "manual": true
+    },
+    {
+      "id": "introduction-009",
+      "title": "Lots of loot from Hunter rumours, …",
+      "text": "Lots of loot from Hunter rumours, and/or fast Ranged training with chinchompas",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "manual": true
+    },
+    {
+      "id": "introduction-010",
+      "title": "Mining level for Amethyst",
+      "text": "Mining level for Amethyst",
+      "manual": true
+    },
+    {
+      "id": "introduction-011",
+      "title": "Smithing level for diaries and to …",
+      "text": "Smithing level for diaries and to craft the crystal equipment",
+      "manual": true
+    },
+    {
+      "id": "introduction-012",
+      "title": "Ability to fish Minnows for noted …",
+      "text": "Ability to fish Minnows for noted Sharks",
+      "manual": true,
+      "world": [
+        2609,
+        3424,
+        0
+      ]
+    },
+    {
+      "id": "introduction-013",
+      "title": "Ability to cook noted sharks",
+      "text": "Ability to cook noted sharks",
+      "manual": true
+    },
+    {
+      "id": "introduction-014",
+      "title": "Lots of loot and xp from …",
+      "text": "Lots of loot and xp from Wintertodt",
+      "manual": true,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "introduction-015",
+      "title": "Diary unlocks from higher Woodcutting",
+      "text": "Diary unlocks from higher Woodcutting",
+      "manual": true
+    },
+    {
+      "id": "introduction-016",
+      "title": "Farm higher level seeds and extra …",
+      "text": "Farm higher level seeds and extra spirit trees",
+      "manual": true
+    },
+    {
+      "id": "introduction-017",
+      "title": "There are plenty more. Skills are …",
+      "text": "There are plenty more. Skills are important!",
+      "manual": true
+    }
+  ]
+}

@@ -51,11 +51,7 @@
       "id": "e5-003",
       "title": "Cut Oak Tree & fletch Oak …",
       "text": "Cut Oak Tree & fletch Oak Shortbow. String it [Western Province Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2474,
         3435,
@@ -81,11 +77,7 @@
       "id": "e5-005",
       "title": "Kill a terrorbird in the enclosure …",
       "text": "Kill a terrorbird in the enclosure to the west [Western Province Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 2064,
       "world": [
         2379,
@@ -109,11 +101,7 @@
       "id": "e5-007",
       "title": "Collect a Swamp Toad [Western Province …",
       "text": "Collect a Swamp Toad [Western Province Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 1473,
       "world": [
         2602,
@@ -125,11 +113,7 @@
       "id": "e5-008",
       "title": "Score a goal during Gnome Ball …",
       "text": "Score a goal during Gnome Ball [Western Province Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "easy"
-      }
+      "manual": true
     },
     {
       "id": "e5-009",
@@ -150,11 +134,7 @@
       "id": "e5-010",
       "title": "Turn the Crystal Seed into a …",
       "text": "Turn the Crystal Seed into a Saw [Western Province Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         2466,
         3495,
@@ -165,11 +145,7 @@
       "id": "e5-011",
       "title": "Teleport to Essence mine via Brimstail …",
       "text": "Teleport to Essence mine via Brimstail [Western Province Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 17209,
       "world": [
         2403,
@@ -242,6 +218,7 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5815,
       "world": [
         2551,
         3099,
@@ -312,10 +289,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
-      "object": 6847,
+      "npc": 881,
       "world": [
         2598,
-        3085,
+        3087,
         0
       ]
     },
@@ -357,10 +334,11 @@
         "quest": "WATCHTOWER",
         "state": "FINISHED"
       },
+      "npc": 4397,
       "world": [
-        2548,
-        3119,
-        0
+        2546,
+        3114,
+        2
       ]
     },
     {
@@ -387,10 +365,11 @@
         "quest": "WATCHTOWER",
         "state": "FINISHED"
       },
+      "npc": 4397,
       "world": [
-        2548,
-        3119,
-        0
+        2546,
+        3114,
+        2
       ]
     },
     {
@@ -448,6 +427,7 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5815,
       "world": [
         2551,
         3099,
@@ -484,9 +464,10 @@
         "quest": "WATCHTOWER",
         "state": "FINISHED"
       },
+      "npc": 4365,
       "world": [
-        2548,
-        3119,
+        2511,
+        3086,
         0
       ]
     },
@@ -502,8 +483,8 @@
       "text": "take the hole (North of the Death Rune Spawn)",
       "manual": true,
       "world": [
-        2548,
-        3119,
+        2511,
+        3086,
         0
       ]
     },
@@ -531,9 +512,10 @@
         "quest": "WATCHTOWER",
         "state": "FINISHED"
       },
+      "npc": 4366,
       "world": [
-        2548,
-        3119,
+        2574,
+        3027,
         0
       ]
     },
@@ -546,9 +528,10 @@
         "quest": "WATCHTOWER",
         "state": "FINISHED"
       },
+      "npc": 4366,
       "world": [
-        2548,
-        3119,
+        2574,
+        3027,
         0
       ]
     },
@@ -558,8 +541,8 @@
       "text": "Search the chest",
       "manual": true,
       "world": [
-        2548,
-        3119,
+        2574,
+        3027,
         0
       ]
     },
@@ -713,9 +696,10 @@
         "quest": "WATCHTOWER",
         "state": "FINISHED"
       },
+      "npc": 4365,
       "world": [
-        2548,
-        3119,
+        2511,
+        3086,
         0
       ]
     },
@@ -728,6 +712,7 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5815,
       "world": [
         2551,
         3099,
@@ -773,10 +758,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
-      "object": 6847,
+      "npc": 881,
       "world": [
         2598,
-        3085,
+        3087,
         0
       ]
     },
@@ -797,10 +782,22 @@
       "title": "Buy Raw Chicken & Redberries from …",
       "text": "Buy Raw Chicken & Redberries from Wydin [Ardougne Medium Diary]",
       "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "medium"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2138,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 2138,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 2138,
       "world": [
         2656,
         3310,
@@ -816,9 +813,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5905,
       "world": [
-        2551,
-        3099,
+        3014,
+        3258,
         0
       ]
     },
@@ -828,8 +826,8 @@
       "text": "Use Redberries on bottled water",
       "manual": true,
       "world": [
-        2599,
-        2966,
+        3165,
+        3490,
         0
       ]
     },
@@ -839,8 +837,8 @@
       "text": "use whiteberries to get pink dye",
       "manual": true,
       "world": [
-        2599,
-        2966,
+        3165,
+        3490,
         0
       ]
     },
@@ -868,9 +866,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5905,
       "world": [
-        2551,
-        3099,
+        3014,
+        3258,
         0
       ]
     },
@@ -889,9 +888,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5905,
       "world": [
-        2551,
-        3099,
+        3014,
+        3258,
         0
       ]
     },
@@ -916,9 +916,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5384,
       "world": [
-        2551,
-        3099,
+        2790,
+        3175,
         0
       ]
     },
@@ -953,9 +954,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
+      "npc": 5384,
       "world": [
-        2551,
-        3099,
+        2790,
+        3175,
         0
       ]
     },
@@ -1023,11 +1025,7 @@
       "id": "e5-067",
       "title": "Take 2x Cave nightshade during the …",
       "text": "Take 2x Cave nightshade during the quest [Ardougne Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         2556,
         3072,
@@ -1066,10 +1064,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
-      "object": 6847,
+      "npc": 881,
       "world": [
         2598,
-        3085,
+        3087,
         0
       ]
     },
@@ -1082,10 +1080,10 @@
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
       },
-      "object": 6847,
+      "npc": 881,
       "world": [
         2598,
-        3085,
+        3087,
         0
       ]
     },
@@ -1098,10 +1096,11 @@
         "quest": "WATCHTOWER",
         "state": "FINISHED"
       },
+      "npc": 4397,
       "world": [
-        2548,
-        3119,
-        0
+        2546,
+        3114,
+        2
       ]
     },
     {
@@ -1666,11 +1665,7 @@
       "id": "e5-105",
       "title": "Upgrade to Ava's Accumulator [Lumbridge Medium …",
       "text": "Upgrade to Ava's Accumulator [Lumbridge Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "medium"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -2049,6 +2044,7 @@
         "quest": "GRIM_TALES",
         "state": "FINISHED"
       },
+      "npc": 5118,
       "world": [
         2892,
         3454,
@@ -2139,6 +2135,7 @@
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
       },
+      "npc": 1470,
       "world": [
         2630,
         2981,
@@ -2535,11 +2532,7 @@
       "id": "e5-164b",
       "title": "pick pet rock up [Fremennik Medium …",
       "text": "pick pet rock up [Fremennik Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "fremennik",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         3165,
         3490,
@@ -2616,11 +2609,7 @@
       "id": "e5-170",
       "title": "Kill a Mogre [Falador Medium Diary]",
       "text": "Kill a Mogre [Falador Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "medium"
-      },
+      "manual": true,
       "npc": 2592,
       "world": [
         2988,
@@ -3001,6 +2990,7 @@
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
       },
+      "npc": 2108,
       "world": [
         3089,
         3254,
@@ -3060,11 +3050,7 @@
       "id": "e5-200",
       "title": "Take the Balloon back to Entrana …",
       "text": "Take the Balloon back to Entrana then back to Castle Wars [Ardougne Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "medium"
-      },
+      "manual": true,
       "npc": 4062,
       "world": [
         2851,
@@ -3288,11 +3274,7 @@
       "id": "e5-216",
       "title": "Catch a Swamp Lizard [Morytania Medium …",
       "text": "Catch a Swamp Lizard [Morytania Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "morytania",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         3493,
         3488,
@@ -3454,7 +3436,7 @@
           {
             "op": "itemAcquired",
             "id": 1523,
-            "qty": 26
+            "qty": 51
           },
           {
             "op": "item",
@@ -3543,11 +3525,7 @@
       "id": "e5-235",
       "title": "Kill a Shadowhound [Kandarin Hard Diary]",
       "text": "Kill a Shadowhound [Kandarin Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kandarin",
-        "tier": "hard"
-      },
+      "manual": true,
       "world": [
         2884,
         3397,
@@ -3714,11 +3692,7 @@
       "id": "e5-246",
       "title": "Switch to Regular spells then back …",
       "text": "Switch to Regular spells then back to Ancients [Desert Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "hard"
-      },
+      "manual": true,
       "world": [
         3228,
         3109,
@@ -3729,16 +3703,18 @@
       "id": "e5-247",
       "title": "Teleport to Padewana [Varrock Hard Diary]",
       "text": "Teleport to Padewana [Varrock Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "hard"
-      },
       "world": [
         3081,
         3420,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3081,
+        "y": 3420,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-248",
@@ -3762,7 +3738,7 @@
           {
             "op": "itemAcquired",
             "id": 2003,
-            "qty": 15
+            "qty": 16
           },
           {
             "op": "item",
@@ -4245,11 +4221,7 @@
       "id": "e5-282",
       "title": "Catch Essence/Eclectic Impling [Lumbridge Medium Diary]",
       "text": "Catch Essence/Eclectic Impling [Lumbridge Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "medium"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -4320,11 +4292,7 @@
       "id": "e5-288",
       "title": "Complete Ape Atoll Agility Lap [Western …",
       "text": "Complete Ape Atoll Agility Lap [Western Province Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "hard"
-      },
+      "manual": true,
       "npc": 1454,
       "world": [
         2892,

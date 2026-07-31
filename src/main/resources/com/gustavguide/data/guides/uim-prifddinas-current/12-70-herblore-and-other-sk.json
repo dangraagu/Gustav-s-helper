@@ -1,0 +1,276 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "70 Herblore and Other Skills",
+  "steps": [
+    {
+      "id": "70-herblore-and-other-sk-001",
+      "title": "This final section of the guide …",
+      "text": "This final section of the guide is mostly focused on getting as much Herblore xp you can without training normally. — Some quests have skill requirements you may or may not have depending on what you have done before. If you are missing something, just get the levels however you would like. — At any point you can just farm herbs and do Mastering Mixology if you CBA, but questing is more efficient and you need a Quest Point Cape and diaries done eventually anyway. — The order you do items in the section doesn't really matter much.",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-002",
+      "title": "Finish getting level 70 in the …",
+      "text": "Finish getting level 70 in the other skills you need for Song of the Elves. Use whatever method you want, but each skill will have a recommended method. — Agility (Should be done). — Construction (Should be done). — Farming (Might be done, but Tithe Farm can make up the difference if needed). — Hunter (Do Hunter Rumours or get it passively with Birdhouses). — Mining (Lots of options depending on how much effort you want to put in, but Calcified deposits give nice passive Prayer xp). — Smithing (Should be done). — Woodcutting (Should probably be done, but Sulliusceps are good xp and give fossils).",
+      "complete": {
+        "op": "quest",
+        "quest": "SONG_OF_THE_ELVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-003",
+      "title": "Complete At First Light",
+      "text": "Complete At First Light",
+      "complete": {
+        "op": "quest",
+        "quest": "AT_FIRST_LIGHT",
+        "state": "FINISHED"
+      },
+      "world": [
+        1554,
+        3033,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-004",
+      "title": "Complete Grim Tales",
+      "text": "Complete Grim Tales",
+      "complete": {
+        "op": "quest",
+        "quest": "GRIM_TALES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2892,
+        3454,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-005",
+      "title": "Complete A Tail of Two Cats",
+      "text": "Complete A Tail of Two Cats",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2919,
+        3559,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-006",
+      "title": "Complete Another Slice of H.A.M",
+      "text": "Complete Another Slice of H.A.M",
+      "complete": {
+        "op": "quest",
+        "quest": "ANOTHER_SLICE_OF_HAM",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-007",
+      "title": "Complete Land of the Goblins. — …",
+      "text": "Complete Land of the Goblins. — (Optional) Complete Hopespear's Will for a chunk of Prayer xp. — This depends on your stats. You may want to just come back for this later",
+      "complete": {
+        "op": "quest",
+        "quest": "LAND_OF_THE_GOBLINS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3207,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-008",
+      "title": "Complete The Great Brain Robbery",
+      "text": "Complete The Great Brain Robbery",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GREAT_BRAIN_ROBBERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3710,
+        3496,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-009",
+      "title": "Complete King's Ransom",
+      "text": "Complete King's Ransom",
+      "complete": {
+        "op": "quest",
+        "quest": "KINGS_RANSOM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2741,
+        3557,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-010",
+      "title": "Complete In Search of the Myreque",
+      "text": "Complete In Search of the Myreque",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_SEARCH_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3503,
+        3477,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-011",
+      "title": "Complete In Aid of the Myreque",
+      "text": "Complete In Aid of the Myreque",
+      "complete": {
+        "op": "quest",
+        "quest": "IN_AID_OF_THE_MYREQUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3506,
+        9837,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-012",
+      "title": "Complete Darkness of Hallowvale",
+      "text": "Complete Darkness of Hallowvale",
+      "complete": {
+        "op": "quest",
+        "quest": "DARKNESS_OF_HALLOWVALE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3490,
+        9632,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-013",
+      "title": "Complete A Taste of Hope",
+      "text": "Complete A Taste of Hope",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TASTE_OF_HOPE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3668,
+        3217,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-014",
+      "title": "(Optional) Complete A Night at the …",
+      "text": "(Optional) Complete A Night at the Theater. — You can have someone help you to complete an Entry Mode Theater of Blood",
+      "manual": true
+    },
+    {
+      "id": "70-herblore-and-other-sk-015",
+      "title": "Complete Sins of the Father",
+      "text": "Complete Sins of the Father",
+      "complete": {
+        "op": "quest",
+        "quest": "SINS_OF_THE_FATHER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3729,
+        3318,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-016",
+      "title": "You could try to go for …",
+      "text": "You could try to go for the requirements for While Guthix Sleeps for that juicy xp reward, but it is a big detour",
+      "manual": true
+    },
+    {
+      "id": "70-herblore-and-other-sk-017",
+      "title": "(Optional) Collect more fossils to turn …",
+      "text": "(Optional) Collect more fossils to turn into at the Varrock Museum. — Chopping Sulliusceps is great woodcutting xp and gives fossils relatively often",
+      "manual": true,
+      "npc": 5214,
+      "world": [
+        3257,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-018",
+      "title": "Complete as many Achievement Diaries as …",
+      "text": "Complete as many Achievement Diaries as you can. — Yes they are tedious, but you want the rewards from them eventually",
+      "manual": true
+    },
+    {
+      "id": "70-herblore-and-other-sk-019",
+      "title": "At this point you should be …",
+      "text": "At this point you should be most of the way to 70 Herblore. You should be able to finish out the remainder of the xp you need from farming herbs and using them at Mastering Mixology. — There are lots of ways to get seeds, but some ideas include: — Farming Contracts (Great if you like to check-in on Mobile or something for passive xp, but require a lot of inventory commitment). — Master Farmers (If you want to make a detour for 94 Thieving and the Ardougne Hard Diary). — Hunter Rumours. — Hallowed Sepulcher. — Go back to Wintertodt. — Seed packs from Tithe Farm. — Farm Coral at the Coral nursery (patch). — Go back to Slayer. — Shipwreck salvaging can (rarely) provide relics for xp lamps and at a higher level Opulent salvage gives seeds.",
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
+      "world": [
+        1630,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "70-herblore-and-other-sk-020",
+      "title": "Keep in mind you will need …",
+      "text": "Keep in mind you will need a Cadantine seed and some Belladonna seeds for Song of the Elves",
+      "complete": {
+        "op": "quest",
+        "quest": "SONG_OF_THE_ELVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    }
+  ]
+}

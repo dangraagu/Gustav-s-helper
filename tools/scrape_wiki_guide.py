@@ -95,6 +95,7 @@ def checklist_steps(block: str):
     inner = block[2:-2]  # drop {{ }}
     inner = re.sub(r"^\s*Checklist\s*", "", inner)      # template name
     inner = re.sub(r"^\|?\s*title=[^\n|]*", "", inner)  # optional title= param
+    inner = re.sub(r"^\|?\s*\d+\s*=\s*", "", inner)     # optional positional-param marker (e.g. {{Checklist|1=* ...}})
     inner = inner.lstrip("|")
     steps = []
     for line in inner.split("\n"):

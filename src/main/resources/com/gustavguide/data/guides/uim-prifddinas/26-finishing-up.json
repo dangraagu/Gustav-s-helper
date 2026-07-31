@@ -10,24 +10,19 @@
       "manual": true,
       "npc": 4771,
       "world": [
-        2959,
-        3339,
-        2
+        3209,
+        3215,
+        0
       ]
     },
     {
       "id": "finishing-up-002",
       "title": "(Optional) Complete Monkey Madness I for …",
       "text": "(Optional) Complete Monkey Madness I for a large amount of combat experience. — You could even go out of your way to get 70 cooking and do the monkey section of Recipe for Disaster right after Monkey Madness, as it is much easier to do them together. Additionally this makes getting a dragon scimitar much easier later on if you are not getting one now.",
-      "complete": {
-        "op": "skill",
-        "skill": "COOKING",
-        "level": 70,
-        "cmp": ">="
-      },
+      "manual": true,
       "world": [
-        3165,
-        3490,
+        2465,
+        3496,
         0
       ]
     },
@@ -56,8 +51,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2698,
-        3396,
+        3177,
+        3043,
         0
       ]
     },
@@ -119,8 +114,8 @@
       "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
-        2808,
-        3192,
+        2207,
+        3159,
         0
       ]
     },
@@ -134,8 +129,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2698,
-        3396,
+        2207,
+        3159,
         0
       ]
     },
@@ -175,8 +170,8 @@
         "state": "FINISHED"
       },
       "world": [
-        1664,
-        3670,
+        2566,
+        3337,
         0
       ]
     }

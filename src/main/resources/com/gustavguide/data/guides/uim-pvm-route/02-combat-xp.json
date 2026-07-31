@@ -1,0 +1,18 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Combat Xp",
+  "steps": [
+    {
+      "id": "combat-xp-001",
+      "title": "Recommended minimum combat stats before jumping …",
+      "text": "Recommended minimum combat stats before jumping into PvM. — 80 Attack — 85 Strength — 80 Defense — 85 Ranged — 70 Prayer (Piety) — 80 Magic (Blood Blitz/Charge)",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    }
+  ]
+}

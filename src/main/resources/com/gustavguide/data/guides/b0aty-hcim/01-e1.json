@@ -18,9 +18,10 @@
         "quest": "THE_RESTLESS_GHOST",
         "state": "FINISHED"
       },
+      "npc": 2812,
       "world": [
-        3243,
-        3206,
+        3244,
+        3210,
         0
       ]
     },
@@ -28,11 +29,7 @@
       "id": "e1-003",
       "title": "Pickpocket a man/woman [Lumbridge Easy Diary]",
       "text": "Pickpocket a man/woman [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -114,11 +111,7 @@
       "id": "e1-007",
       "title": "Check playtime on Hans [Lumbridge Easy …",
       "text": "Check playtime on Hans [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 3105,
       "world": [
         3215,
@@ -132,9 +125,9 @@
       "text": "Go upstairs",
       "manual": true,
       "world": [
-        3205,
-        3208,
-        0
+        3210,
+        3220,
+        1
       ]
     },
     {
@@ -146,10 +139,11 @@
         "quest": "RUNE_MYSTERIES",
         "state": "FINISHED"
       },
+      "npc": 815,
       "world": [
-        3205,
-        3208,
-        0
+        3210,
+        3220,
+        1
       ]
     },
     {
@@ -442,8 +436,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3205,
-        3208,
+        3104,
+        3162,
         0
       ]
     },
@@ -453,8 +447,8 @@
       "text": "Kill a Chicken",
       "manual": true,
       "world": [
-        3178,
-        3295,
+        3018,
+        3289,
         0
       ]
     },
@@ -762,7 +756,7 @@
       "complete": {
         "op": "quest",
         "quest": "A_PORCINE_OF_INTEREST",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3086,
@@ -806,9 +800,10 @@
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
       },
+      "npc": 10727,
       "world": [
-        3228,
-        3242,
+        1824,
+        3690,
         0
       ]
     },
@@ -818,9 +813,9 @@
       "text": "Destroy the lamp. You can collect this later as you can't bank it",
       "manual": true,
       "world": [
-        3209,
-        3219,
-        2
+        1803,
+        3788,
+        0
       ]
     },
     {
@@ -844,6 +839,7 @@
         "quest": "CLIENT_OF_KOUREND",
         "state": "FINISHED"
       },
+      "npc": 10727,
       "world": [
         1824,
         3690,
@@ -921,9 +917,10 @@
         "quest": "CLIENT_OF_KOUREND",
         "state": "FINISHED"
       },
+      "npc": 305,
       "world": [
-        1824,
-        3690,
+        1518,
+        3586,
         0
       ]
     },
@@ -933,8 +930,8 @@
       "text": "Take the Tinderbox",
       "manual": true,
       "world": [
-        1824,
-        3690,
+        1518,
+        3586,
         0
       ]
     },
@@ -1334,11 +1331,7 @@
       "id": "e1-070",
       "title": "Head South & Trade Thessalia [Varrock …",
       "text": "Head South & Trade Thessalia [Varrock Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 10477,
       "world": [
         3206,
@@ -1477,10 +1470,11 @@
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
       },
+      "npc": 5035,
       "world": [
-        3211,
-        3422,
-        0
+        3158,
+        3427,
+        1
       ]
     },
     {
@@ -1558,8 +1552,8 @@
       "text": "Go down North West 2x Stairs",
       "manual": true,
       "world": [
-        3204,
-        3424,
+        3203,
+        3472,
         0
       ]
     },
@@ -1572,9 +1566,10 @@
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
       },
+      "npc": 5083,
       "world": [
-        3204,
-        3424,
+        3203,
+        3472,
         0
       ]
     },
@@ -1584,9 +1579,9 @@
       "text": "Head North",
       "manual": true,
       "world": [
-        3204,
-        3424,
-        0
+        3205,
+        3498,
+        2
       ]
     },
     {
@@ -1595,9 +1590,9 @@
       "text": "go up 2x Stairs",
       "manual": true,
       "world": [
-        3204,
-        3424,
-        0
+        3205,
+        3498,
+        2
       ]
     },
     {
@@ -1609,10 +1604,11 @@
         "quest": "DEMON_SLAYER",
         "state": "FINISHED"
       },
+      "npc": 5085,
       "world": [
-        3204,
-        3424,
-        0
+        3205,
+        3498,
+        2
       ]
     },
     {
@@ -1950,9 +1946,10 @@
         "quest": "RUNE_MYSTERIES",
         "state": "FINISHED"
       },
+      "npc": 11434,
       "world": [
-        3205,
-        3208,
+        3253,
+        3401,
         0
       ]
     },
@@ -1989,9 +1986,10 @@
         "quest": "DADDYS_HOME",
         "state": "FINISHED"
       },
+      "npc": 10425,
       "world": [
-        3241,
-        3471,
+        3240,
+        3395,
         0
       ]
     },
@@ -2001,8 +1999,8 @@
       "text": "Take 2x Logs & 2x ashes after cutscene",
       "manual": true,
       "world": [
-        3241,
-        3471,
+        3240,
+        3395,
         0
       ]
     },
@@ -2039,11 +2037,7 @@
       "id": "e1-102",
       "title": "Cut the Dying tree [Varrock Easy …",
       "text": "Cut the Dying tree [Varrock Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3206,
         3417,
@@ -2918,8 +2912,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3205,
-        3208,
+        3104,
+        3162,
         0
       ]
     },
@@ -2927,11 +2921,7 @@
       "id": "e1-148",
       "title": "Teleport to Rune Essence Mine [Lumbridge …",
       "text": "Teleport to Rune Essence Mine [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 10681,
       "world": [
         3253,
@@ -3072,8 +3062,9 @@
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 3643,
       "world": [
         3053,
         3251,
@@ -3545,11 +3536,7 @@
       "id": "e1-179",
       "title": "Take Falador Crumbling wall Shortcut [Falador …",
       "text": "Take Falador Crumbling wall Shortcut [Falador Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2947,
         3382,
@@ -3610,11 +3597,7 @@
       "id": "e1-182",
       "title": "Get a haircut North [Falador Easy …",
       "text": "Get a haircut North [Falador Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2947,
         3382,
@@ -3625,11 +3608,7 @@
       "id": "e1-183",
       "title": "Fill Bucket on Pump [Falador Easy …",
       "text": "Fill Bucket on Pump [Falador Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2947,
         3382,
@@ -3690,11 +3669,7 @@
       "id": "e1-186",
       "title": "Kill a duck in Falador Park …",
       "text": "Kill a duck in Falador Park [Falador Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3003,
         3380,
@@ -3826,8 +3801,9 @@
       "complete": {
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 5045,
       "world": [
         2925,
         3486,
@@ -4104,9 +4080,10 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
+      "npc": 2582,
       "world": [
-        3102,
-        3557,
+        3259,
+        3383,
         0
       ]
     },
@@ -4141,11 +4118,7 @@
       "id": "e1-211",
       "title": "Complete Gnome Agility Course [Western Province …",
       "text": "Complete Gnome Agility Course [Western Province Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2474,
         3435,
@@ -4263,11 +4236,7 @@
       "id": "e1-219",
       "title": "Check Probita for Pets [Ardougne Easy …",
       "text": "Check Probita for Pets [Ardougne Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 5906,
       "world": [
         2621,
@@ -4322,9 +4291,10 @@
         "quest": "BIOHAZARD",
         "state": "FINISHED"
       },
+      "npc": 1146,
       "world": [
-        2592,
-        3336,
+        2933,
+        3210,
         0
       ]
     },
@@ -4966,11 +4936,7 @@
       "id": "e1-262a",
       "title": "Trade Aleck [Ardougne Easy Diary]",
       "text": "Trade Aleck [Ardougne Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2566,
         3083,
@@ -5362,11 +5328,7 @@
       "id": "e1-284",
       "title": "Pray at Altar [Ardougne Easy Diary]",
       "text": "Pray at Altar [Ardougne Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2617,
         3309,
@@ -5822,11 +5784,7 @@
       "id": "e1-312",
       "title": "Take Spirit Tree to Gnome Stronghold …",
       "text": "Take Spirit Tree to Gnome Stronghold (2) [Western Province Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "western",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         2440,
         3460,
@@ -5844,8 +5802,8 @@
       },
       "npc": 8019,
       "world": [
-        2466,
-        3495,
+        2465,
+        3496,
         0
       ]
     },
@@ -6152,10 +6110,11 @@
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
       },
+      "npc": 1422,
       "world": [
-        2466,
-        3495,
-        0
+        2677,
+        3087,
+        1
       ]
     },
     {
@@ -6219,6 +6178,7 @@
         "quest": "TRIBAL_TOTEM",
         "state": "FINISHED"
       },
+      "npc": 5316,
       "world": [
         2794,
         3182,
@@ -6229,11 +6189,7 @@
       "id": "e1-337",
       "title": "Return to Ardougne via Captain Barnaby …",
       "text": "Return to Ardougne via Captain Barnaby [Karamja Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 8764,
       "world": [
         2772,
@@ -6298,11 +6254,7 @@
       "id": "e1-341",
       "title": "Sell Silk to the Silk merchant …",
       "text": "Sell Silk to the Silk merchant for 60 coins (3,2) [Ardougne Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2656,
         3310,
@@ -6335,11 +6287,7 @@
       "id": "e1-343",
       "title": "Teleport to Essence Mine via right …",
       "text": "Teleport to Essence Mine via right click Wizard Cromperty [Ardougne Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 8480,
       "world": [
         2684,

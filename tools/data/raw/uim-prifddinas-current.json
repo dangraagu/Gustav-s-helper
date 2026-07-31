@@ -1,0 +1,1792 @@
+{
+  "id": "uim-prifddinas-current",
+  "name": "UIM Walkthrough to Prifddinas (Current Route)",
+  "source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "sections": [
+    {
+      "section": "Setting up for Agility",
+      "prefix": "setting-up-for-agility",
+      "steps": [
+        {
+          "name": "(OPTIONAL) If you want to listen to me ramble about the route for an hour listen to this video.",
+          "loc": null
+        },
+        {
+          "name": "Sell all of your starting items to the general store except your Bread and Shrimps.",
+          "loc": null
+        },
+        {
+          "name": "Speak to Count Check and have him teleport you to the Stronghold of security.",
+          "loc": null
+        },
+        {
+          "name": "Pick up some Cooked meat in the longhouse to the north. — Hop worlds for more. 6 should be plenty but you could get more if you are scared.",
+          "loc": null
+        },
+        {
+          "name": "Complete the first 3 levels of the Stronghold of security to get your free 10k gp.",
+          "loc": null
+        },
+        {
+          "name": "Home teleport.",
+          "loc": null
+        },
+        {
+          "name": "Buy a bronze axe and a steel axe from Bob.",
+          "loc": null
+        },
+        {
+          "name": "Drop any extra food.",
+          "loc": null
+        },
+        {
+          "name": "Buy a Spade and an empty jug from the general store.",
+          "loc": null
+        },
+        {
+          "name": "Complete X Marks the Spot. — Fill the jug with water in the kitchen when you pass by. — Do not use the lamp, destroy it to be reclaimed later.",
+          "loc": null
+        },
+        {
+          "name": "Get level 20 Agility at the Draynor Village Rooftop Course.",
+          "loc": null
+        },
+        {
+          "name": "Purchase a Chronicle and 20 Teleport cards.",
+          "loc": null
+        },
+        {
+          "name": "Walk to Ardougne and complete Hazeel Cult. — Take the boat in Rimmington to get there. — Make sure to side with Hazeel.",
+          "loc": null
+        },
+        {
+          "name": "Complete Monk's Friend. — Chop some logs nearby. — Make sure to pop some balloons so you don't curse your accounts RNG.",
+          "loc": null
+        },
+        {
+          "name": "Head to the general store in Port Khazard and purchase some Swamp paste and a tinderbox.",
+          "loc": null
+        },
+        {
+          "name": "Chop and burn logs in the area until you reach 30 Firemaking.",
+          "loc": null
+        },
+        {
+          "name": "Complete Sea slug.",
+          "loc": null
+        },
+        {
+          "name": "Drop all of your items except your coins.",
+          "loc": null
+        },
+        {
+          "name": "Get 25 Thieving at cake stalls. — Complete Tribal Totem when you can.",
+          "loc": null
+        },
+        {
+          "name": "Get an inventory of cakes, then head over to the Brimhaven Agility Arena.",
+          "loc": null
+        },
+        {
+          "name": "Train there until level 50 Agility. — Start by jumping over the Floor spikes (Brimhaven Agility Arena) until you can start collecting tickets consistently. You will need 30 agility to do most, and 40 agility to do all the obstacles.",
+          "loc": null
+        },
+        {
+          "name": "Chronicle teleport to Varrock.",
+          "loc": null
+        },
+        {
+          "name": "Complete Shield of Arrav. — Join the Phoenix Gang. — Buy a shortbow and some iron arrows from the Archery shop to kill Jonny the Beard to save melee xp. — If you have an alt, you can join the Black Arm gang and have them kill the Weaponsmaster for you. — This saves a lot of combat xp and is easy to do, so strongly consider it.",
+          "loc": null
+        },
+        {
+          "name": "Complete Children of the Sun.",
+          "loc": null
+        },
+        {
+          "name": "Head to Varlamore and complete Ethically Acquired Antiquities until you are in Port Sarim. — Use the Charter ship to get to Port Sarim.",
+          "loc": null
+        },
+        {
+          "name": "Buy a Feather from Gerrant",
+          "loc": null
+        },
+        {
+          "name": "Head over to Kourend and complete Client of Kourend. Veos might return your lamp from X marks the spot, destroy it again. — During this quest, steal from Fruit stalls until level 31 Thieving. — Save any Strange fruit you get for some free run restoration. — Use the Client of Kourend lamps on Hitpoints. DO NOT USE THE X MARKS THE SPOT LAMP. — During the quest, quickly change to the Arceuus spellbook and back so that you can make house portals with the teleports later.",
+          "loc": null
+        },
+        {
+          "name": "Continue and complete Ethically Acquired Antiquities.",
+          "loc": null
+        },
+        {
+          "name": "Head over to Aldarin in Varlamore.",
+          "loc": null
+        },
+        {
+          "name": "Complete Death on the Isle. — Do not fight back during the first fight. It will be completed when you are almost dead. — Attacking with the Prop sword does not give xp.",
+          "loc": null
+        },
+        {
+          "name": "Minigame teleport to Clan wars.",
+          "loc": null
+        },
+        {
+          "name": "Store any gp you have in the coffer there.",
+          "loc": null
+        },
+        {
+          "name": "Completely empty your inventory after that.",
+          "loc": null
+        },
+        {
+          "name": "Get 40 Prayer by picking up big bones at the Boneyard and using them on the Chaos Altar. — Don't go for Protection from melee at this time. — Do not kill anything for a Looting bag. You don't want to level up.",
+          "loc": null
+        },
+        {
+          "name": "Get an iron dagger(p) and a Lockpick from pickpocketing Rogues in the deep wilderness. — Get some cakes from Ardougne to use as food. Use the wilderness lever from Ardougne to complete the diary step. — When you are poisoning things in the next sections, be careful not to waste combat xp you don't need to. You should have enough on average, but if you waste xp then bad luck could force you to gain an extra level. — Seriously, I have had numerous people tell me they had to gain an extra level because they were careless with their xp. — Use the Poison plugin on Runelite to help track your attacks and timer.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) If you have an alternate account, you can use a venom alt to help out killing things and conserving combat xp. — Watch this video for a quick tutorial on how to do this. — Using Wind strike is often a good way to get the needed damage on your UIM in the short time window.",
+          "loc": null
+        },
+        {
+          "name": "Get you cash stack back out of the coffers at Clan Wars. Don't use your minigame teleport to get there.",
+          "loc": null
+        },
+        {
+          "name": "Steal from Aldarin chests until level 50 Thieving. — Fishing Trawler minigame teleport, then take the charter ship to Aldarin. — You can drop the Lockpick after you are done. — Drop all of the loot other than coins.",
+          "loc": null
+        },
+        {
+          "name": "Once finished, Home Teleport.",
+          "loc": null
+        },
+        {
+          "name": "Speak to Duke Horacio in the castle to start Rune Mysteries.",
+          "loc": null
+        },
+        {
+          "name": "Start The Restless Ghost and complete it until you get the skull. — Get some Leather Gloves from the spawn by Father Urhney. DO NOT FORGET THIS.",
+          "loc": null
+        },
+        {
+          "name": "Speak to Archmage Sedridor to continue Rune Mysteries.",
+          "loc": null
+        },
+        {
+          "name": "Head to Draynor Village and buy a Chronicle again. — It should still have some charges, but buy more if you ever run out.",
+          "loc": null
+        },
+        {
+          "name": "Chronicle Teleport and continue Rune Mysteries by speaking to Aubury.",
+          "loc": null
+        },
+        {
+          "name": "Chronicle Teleport, then walk back to Lumbridge and complete The Restless Ghost.",
+          "loc": null
+        },
+        {
+          "name": "Claim a Training bow and Training arrows from the Ranged combat tutor.",
+          "loc": null
+        },
+        {
+          "name": "Continue and complete Rune Mysteries.",
+          "loc": null
+        },
+        {
+          "name": "Buy wine from Fortunato and head to the H.A.M. Hideout.",
+          "loc": null
+        },
+        {
+          "name": "Steal from H.A.M. Members until you get a Rusty sword and an uncut opal. — There is technically a 1/96 chance your rusty sword won't work, so you could get 2.",
+          "loc": null
+        },
+        {
+          "name": "Reclaim your lamp from X Marks the Spot. Save it for now.",
+          "loc": null
+        },
+        {
+          "name": "Head to Port Sarim and purchase some items from Wydin. — a few cheese — raw beef — raw chicken — A few other random items for food like cabbage and bananas. Wine lowers you combat stats so you don't want it for this.",
+          "loc": null
+        },
+        {
+          "name": "Safepot and kill a Giant rat nearby with Ranged for the meat. — Drop the bow and arrows afterwards.",
+          "loc": null
+        },
+        {
+          "name": "Take the boat to Ardougne.",
+          "loc": null
+        },
+        {
+          "name": "Head north to safe spot and poison a bear for some raw bear meat.",
+          "loc": null
+        },
+        {
+          "name": "Take the boat back to Rimmington.",
+          "loc": null
+        },
+        {
+          "name": "Collect some snape grass west of the Crafting guild for later.",
+          "loc": null
+        },
+        {
+          "name": "Complete Druidic Ritual.",
+          "loc": null
+        },
+        {
+          "name": "Complete Witch's House. — Safe spot the boss and kill it with poison. — If you don't know how to safe spot the first 2 phases watch the video. — Keep the first form in combat with you by occasionally tanking a hit, or it can despawn.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) If you would like, you could accept more risk and start the Wilderness Agility section right now rather than continue to gain more Hitpoints levels. — This video talks about some pros and cons of doing this. — You will still need to come back and finish the remaining quests from this section later. — If you go this route, use the X Marks the Spot lamp on Hitpoints. — Also collect your 1k xp lamp from Historian Minas and use it on Hitpoints.",
+          "loc": null
+        },
+        {
+          "name": "Use the X Marks the Spot lamp on Herblore. — If you are coming back later after having used this lamp already, you can buy a Greenman's ale to boost to level 10 during the Dig Site.",
+          "loc": null
+        },
+        {
+          "name": "Use the Fishing Trawler minigame teleport.",
+          "loc": null
+        },
+        {
+          "name": "Head south into Yanille and view Aleck's Hunter Emporium for the diary step.",
+          "loc": null
+        },
+        {
+          "name": "Return north and have Tindel Marchant identify your rusty sword for the diary step.",
+          "loc": null
+        },
+        {
+          "name": "Head out on a game of Fishing Trawler for the diary step. — You don't need to finish the game.",
+          "loc": null
+        },
+        {
+          "name": "Head into Ardougne and steal a silk. Hold on to it for later.",
+          "loc": null
+        },
+        {
+          "name": "Have Wizard Cromperty teleport you to the Rune essence mine for the diary step.",
+          "loc": null
+        },
+        {
+          "name": "Check what pets you have insured with Probita for the diary step.",
+          "loc": null
+        },
+        {
+          "name": "Use some prayer and restore your prayer points at the Ardougne church for the diary step.",
+          "loc": null
+        },
+        {
+          "name": "Buy a rope from the general store.",
+          "loc": null
+        },
+        {
+          "name": "Head to the Gnome Stronghold and into the Grand Tree.",
+          "loc": null
+        },
+        {
+          "name": "Buy some items from Hudo for Plague City quest. — Dwellberries — Chocolate dust — Bucket of milk",
+          "loc": null
+        },
+        {
+          "name": "Return to Ardougne and complete Plague City. — There is a bucket spawn near the start of the quest.",
+          "loc": null
+        },
+        {
+          "name": "Sell your silk to the Silk trader for 60 coins for the diary step.",
+          "loc": null
+        },
+        {
+          "name": "Steal some cakes.",
+          "loc": null
+        },
+        {
+          "name": "Complete Biohazard. — You will need to poison the Mourner. — Keep him in combat by tanking hits as he can despawn. — Don't forget your Fishing Trawler minigame teleport to get back to the area.",
+          "loc": null
+        },
+        {
+          "name": "Enter the Combat Training Camp for the final step of the Ardougne Easy Diary. — Do not collect the rewards at this time.",
+          "loc": null
+        },
+        {
+          "name": "Head to Karamja and complete Jungle Potion.",
+          "loc": null
+        },
+        {
+          "name": "Purchase the needed items for The Dig Site in the Karamja General Store. Get the tea during the quest from the tea stall in east Varrock.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Dig Site.",
+          "loc": null
+        },
+        {
+          "name": "Complete Merlin's Crystal. — Make sure you still have some combat xp available to kill 2 enemies with poison. — If you don't, you can clean more finds to make this up. — If you have an alt you can use it to help with Sir Mordred: https://www.youtube.com/watch?v=DvnhLKAi5xI",
+          "loc": null
+        },
+        {
+          "name": "Claim your xp lamps from Historian Minas and use them on Hitpoints.",
+          "loc": null
+        },
+        {
+          "name": "Clean finds in the Varrock Museum for Antique lamp (Varrock Museum) until you reach 30 Hitpoints so you can use the diary lamps, plus 1 additional lamp. — This will be 6 lamps total if I have done my math right and takes about 1.5-2 hours depending on RNG and effort. — Remember this lamping is optional if you just don't want to do it. It is just there to give you more HP at the course. — If you are on the fence, you can always just try it at lower hp and see how goes, then decide if you want to come back or not.",
+          "loc": null
+        },
+        {
+          "name": "Fishing Trawler minigame teleport and collect your rewards from the Ardougne Easy Diary. — Use the lamp on Hitpoints to reach 32 Hitpoints. If you are short a bit, just go back and clean finds for 1 more lamp.",
+          "loc": null
+        },
+        {
+          "name": "Start Dragon Slayer I so you can get an Anti-dragon shield.",
+          "loc": null
+        },
+        {
+          "name": "This is the default tank build setup with 32 Hitpoints, 40 Prayer and 13 combat. — The next section will discuss some other optional builds you could go for.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Wilderness Agility",
+      "prefix": "wilderness-agility",
+      "steps": [
+        {
+          "name": "(Optional) If this gets too frustrating, then you can always go out of your way to get the Rogues outfit and get all of your money from Thieving instead. — Seriously though, Wilderness Agility is OP. If you are worried about deaths then look at the options for being safer before you give up. — You can also make decent early money at Giant's Foundry with iron/steel plates while also training a skill. — If you go for Thieving you will also want to rush some form of Construction (such as with the Auburnvale sawmill) to be able to store the outfit in your house. — You still need to get 70+ Agility. The Brimhaven course works well for this. Seers is also an option if you want Graceful.",
+          "loc": null
+        },
+        {
+          "name": "Collect gp until you have 160k total at the Agility Pyramid to get started. This should also get you 52 Agility. — If you die on your first trip out you will sadly have to come back here for more gp. — If you ever get frustrated at the Wildy Couse, remember this grind and how much slower gp your alternatives are. Agility Pyramid (with some more Agility levels) is about the same gp/h as Thieving.",
+          "loc": null
+        },
+        {
+          "name": "Train at the Wilderness Agility Course until you have 70+ Agility and at least 10m gp. — YOU NEED TO WATCH THE VIDEO ON HOW TO TANK AT THE COURSE. — Yes it is long, but I spent the time to make it to keep your ass alive! — Ok, for real. At least watch the first part where I show you the skeleton mechanics even if you skip the rest. — Use the setup shown in the example below. — See This Video for how to re-gear when you die. — Buy the Cooked karambwans at The Shrimp and Parrot for your first trip out. — You will get a looting bag automatically when you pay the 150k fee. — Use blighted supplies on later trips once you get them. — Sell your loot to Martin Thwait's Lost and Found after each trip. — Destroy your looting bag IN THE WILDERNESS to get the loot out and pick it up. Note that other players can see this loot instantly! — Store your extra coins in the coffers at Last Man Standing as you go. — Sell at least 2-3 per world. Not 1, as it takes too long to be worth it. — For your first time out, do about 50 laps and then leave. On later trips, do 100-150+ laps depending on your risk tolerance, build, PKer activity, and tanking skills. — If you are interested in making this grind safer/more consistent check out the sections below for some build options and about mass worlds. — 10m is just the minimum needed to safely finish the guide, but I highly recommend going for at least 15-20m.",
+          "loc": null
+        },
+        {
+          "name": "Work towards one of the other build options. — Remember simply cleaning finds for more lamps is always a chill option as well.",
+          "loc": null
+        },
+        {
+          "name": "Fishing to level 53+.",
+          "loc": null
+        },
+        {
+          "name": "Wintertodt to level 99. — Do Daddy's Home and Tower of Life to get a few Construction levels first. — Make some headless arrows for a few starting Fletching levels. Going to level 20 is fine. — Do Forestry as you get the 50 Firemaking to work towards a log basket. — You can save your bark in the Forestry kit by death piling and letting the kit de-spawn if you don't have a Magic wardrobe.",
+          "loc": null
+        },
+        {
+          "name": "Vale Totems for the Fletching knife. — Make sure to have a Magic wardrobe first. Doing solo Wintertodt can help get this.",
+          "loc": null
+        },
+        {
+          "name": "Cooking to level 70.",
+          "loc": null
+        },
+        {
+          "name": "Mining to level 52.",
+          "loc": null
+        },
+        {
+          "name": "Giant's Foundry for the Smith's outfit. — Just use the bucket of water rather than ice gloves.",
+          "loc": null
+        },
+        {
+          "name": "Read the rules and abide by any instructions for the clan you are going with. — If you are running with Agility FC, you must wear a ranged weapon so swap your training sword to a crossbow and bring something else for the webs. — You don't need bolts as you won't attack anyone or it would ruin your build. Just look scary...",
+          "loc": null
+        },
+        {
+          "name": "It is viable to only do Agility during the masses and work on other skilling grinds in the meantime. — This is a (relatively) safe option but you have to pay attention to when masses are running.",
+          "loc": null
+        },
+        {
+          "name": "Read the next section first and decide if you want to go for Watchtower with your limited remaining combat xp before spending it here.",
+          "loc": null
+        },
+        {
+          "name": "Complete the easy Varrock Diary. — Remember you can get bones from the boneyard if needed. — Complete Enter the abyss, then craft 1 inventory of runes at the Ourania Altar. — Consider getting 41/52 Mining now to use the Rune pickaxe. — Complete Temple of the eye. — Bring some pure essence with you and leave the Abyss through the Earth portal to craft the runes. — Play some Guardians of the rift and loot after each round until you have enough Abyssal pearls for a Mind talisman. — You can use the Varrock armour 1.",
+          "loc": null
+        },
+        {
+          "name": "Complete the easy Falador Diary. — Complete Daddy's home and Tower of life then use the planks on a few Mahogany homes contracts for the Construction level. — Use some of your Magic or Ranged xp on the duck.",
+          "loc": null
+        },
+        {
+          "name": "Complete the easy Lumbridge & Draynor Diary. — You will need 2 poisons to complete this. — After you are done, you can add the Explorer's ring 1 to your setup for an extra Prayer bonus. — To kill the cave bug you have to do a bit extra because of their very high HP regen. — Bring your dagger and ranged/magic. — Poison the bug as normal. — After it gets hit by a 4, attack with with Ranged or Magic to get an extra hit of damage in.",
+          "loc": null
+        },
+        {
+          "name": "If you still have combat xp for the Jogre (it takes 2 poisons), complete the easy Karamja Diary. This should get you 36 Hitpoints. — If you are out of xp, just clean finds for a few lamps and call it a day. This diary only gives 1k xp.",
+          "loc": null
+        },
+        {
+          "name": "It isn't the end of the world if you have to gain an extra Attack or Defense level, but if you are out of combat xp you can try to go for growing nightshade instead. — There are also lots of methods involving alts that you could look into.",
+          "loc": null
+        },
+        {
+          "name": "Partially complete Tai Bwo Wannai Trio until you can use the kp poison on an iron spear. — There is a reasonably good chance you will have to get the 65 Fishing requirement as you can burn the 1 Karambwan you get.",
+          "loc": null
+        },
+        {
+          "name": "Use the kp spear to kill a Green dragon in the far east wilderness for the Dragon bones.",
+          "loc": null
+        },
+        {
+          "name": "Partially complete Watchtower until you get the Skavid map. — There is another npc to poison in the quest.",
+          "loc": null
+        },
+        {
+          "name": "Get the Firemaking level for the dynamite and look up guides on how to do quests as a skiller.",
+          "loc": null
+        },
+        {
+          "name": "Complete quests like One Small Favor, A Tail of Two Cats or more diaries for extra Hitpoints.",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: Looting bag, Wilderness agility ticket, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "MTA and Protect Melee",
+      "prefix": "mta-and-protect-melee",
+      "steps": [
+        {
+          "name": "Keep all of your blighted supplies in your inventory for now. They will be turned into Bounty Hunter Crates later.",
+          "loc": null
+        },
+        {
+          "name": "Head to the Grand Exchange.",
+          "loc": null
+        },
+        {
+          "name": "Put up a purchase order for a bond for 2m, then cancel the offer. Leave the money there.",
+          "loc": null
+        },
+        {
+          "name": "Go to the Ferox Enclave. Don't use your minigame teleport.",
+          "loc": null
+        },
+        {
+          "name": "Put all of your remaining money in the coffer there.",
+          "loc": null
+        },
+        {
+          "name": "Unnote some food in case you are attacked on the way to mage bank.",
+          "loc": null
+        },
+        {
+          "name": "Grab an iron dagger from the spawn north of the enclave in the graveyard.",
+          "loc": null
+        },
+        {
+          "name": "Go to the Mage Arena bank. — Use the wilderness lever to get there faster.",
+          "loc": null
+        },
+        {
+          "name": "Collect your money from the bond at the banker.",
+          "loc": null
+        },
+        {
+          "name": "Buy the listed runes. — 500 Mind runes — 2000 Nature runes — 1000 Cosmic runes — 800 Law runes — 1000 Water runes — 1000 Earth runes",
+          "loc": null
+        },
+        {
+          "name": "Return to Ferox Enclave with your minigame teleport and put all but 4000 coins into the coffer.",
+          "loc": null
+        },
+        {
+          "name": "Chronicle teleport or home teleport and walk/canoe to Varrock.",
+          "loc": null
+        },
+        {
+          "name": "Head to Varrock and buy a staff of air and a staff of fire.",
+          "loc": null
+        },
+        {
+          "name": "Head to the Edgeville Dungeon and kill Thugs for 15 Magic and a Looting bag. — Use Wind Strike with the staff of air equipped. — Put your blighted supplies in the Looting bag once you get it.",
+          "loc": null
+        },
+        {
+          "name": "Drop the mind runes after.",
+          "loc": null
+        },
+        {
+          "name": "Head to Mage Training Arena and get enough points to obtain Bones to Peaches, a Rune Pouch, and a Mud Rune. — DO NOT BUY THE RUNE POUCH OR Mud Rune YET! That will come later! — Creature Graveyard: 351 points — You can drop the earth and water runes after you are done and rebuy more later. — The other reward runes are not super important. You can drop them or save them to sell/alch/use later. — Telekinetic Theatre: 351 points — Keep the air staff, or drop it for space and buy another later. — You should have some extra law runes leftover, save them for teleports. — Enchanting Chamber with Lvl-3 Enchant until you have used all of your cosmic runes. You need at least 3515 points at the end. — Alchemist's Playground until you reach 501 points. — Use up any remaining nature runes as well for extra xp. — You can deliver coins in large stacks now if you would like. There isn't a maximum anymore.",
+          "loc": null
+        },
+        {
+          "name": "Buy Bones to Peaches.",
+          "loc": null
+        },
+        {
+          "name": "Keep the staff of air.",
+          "loc": null
+        },
+        {
+          "name": "Drop the staff of fire.",
+          "loc": null
+        },
+        {
+          "name": "Minigame teleport to Clan Wars to get your cash stack back out.",
+          "loc": null
+        },
+        {
+          "name": "Head to Varrock and buy some runes: — 500 Fire Runes — 500 Earth Runes — 500 Water Runes — 20 Air runes (For Waterfall) — 500 Death Runes for Wind blast (If you run out just buy more).",
+          "loc": null
+        },
+        {
+          "name": "Do Daddy's Home. — Pick up logs in the Lumberyard to make the planks. — Complete 2 beginner Mahogany Homes contracts with the supplies. — Remember you now have a house to teleport to.",
+          "loc": null
+        },
+        {
+          "name": "Re-obtain your Ardougne cloak 1 for the teleport. — Don't forget it is relatively close to a Spirit Tree.",
+          "loc": null
+        },
+        {
+          "name": "Get a Banana hat to improve your fashion.",
+          "loc": null
+        },
+        {
+          "name": "Go pick up some Boots of lightness from the Temple of Ikov (dungeon). — You will need a light source and a knife/slash weapon.",
+          "loc": null
+        },
+        {
+          "name": "For the next sections, you can get some cakes in Ardougne for food. — You can also buy rope and iron axe in the general store for the quests.",
+          "loc": null
+        },
+        {
+          "name": "Head to Barbarian Assault and skip the tutorial to unlock the minigame teleport.",
+          "loc": null
+        },
+        {
+          "name": "While there, start Alfred Grimhand's Barcrawl. — The guide will take you near several of the bars in the next few steps, you can complete them as you go if you would like.",
+          "loc": null
+        },
+        {
+          "name": "Complete Waterfall Quest until you go to maze and get the pebble. — Just partially complete it for now, you will need to clear up your bagged items before going in the tomb.",
+          "loc": null
+        },
+        {
+          "name": "Complete Tree Gnome Village and Fight Arena while in the area.",
+          "loc": null
+        },
+        {
+          "name": "Head to any spot where you can go into the Wilderness and destroy your Looting Bag to get your blighted supplies back out. — YOU MUST BE STANDING IN THE WILDERNESS OR THE ITEMS WILL BE LOST. — Obviously be safe and don't do this if anyone is nearby.",
+          "loc": null
+        },
+        {
+          "name": "Head to Bounty Hunter and create as many Bounty supply crates as you can.",
+          "loc": null
+        },
+        {
+          "name": "Head to the Rogues Den and sell the crates. — 2 per world is good, but it is up to you.",
+          "loc": null
+        },
+        {
+          "name": "Drop the leftover blighted supplies.",
+          "loc": null
+        },
+        {
+          "name": "Finish Waterfall Quest. — During the quest, safe spot and kill a Fire Giant for a combat achievement.",
+          "loc": null
+        },
+        {
+          "name": "Complete the Natural History Quiz.",
+          "loc": null
+        },
+        {
+          "name": "Minigame teleport to Fishing Trawler and buy a Noose wand at the Hunter shop in Yanille.",
+          "loc": null
+        },
+        {
+          "name": "Take a Spirit Tree to Feldip Hills.",
+          "loc": null
+        },
+        {
+          "name": "Hunt Feldip Weasels for 4 feldip weasel fur.",
+          "loc": null
+        },
+        {
+          "name": "Head to the Fancy Clothes Store in Varrock and make a Jungle camo top and Jungle camo legs. — These are storable weight reducing clothing.",
+          "loc": null
+        },
+        {
+          "name": "Complete Priest in Peril. — Buy an adamant sword in Varrock. — Just make 3 trips. It isn't that big of a deal. — Briefly walk into Morytania.",
+          "loc": null
+        },
+        {
+          "name": "Complete Alfred Grimhand's Barcrawl.",
+          "loc": null
+        },
+        {
+          "name": "Complete Scorpion Catcher. — During the quest, safespot and kill a Hellhound in the Taverly Dungeon for a combat achievement.",
+          "loc": null
+        },
+        {
+          "name": "Complete Merlin's Crystal if you have not already.",
+          "loc": null
+        },
+        {
+          "name": "Complete Vampyre Slayer.",
+          "loc": null
+        },
+        {
+          "name": "Complete Ernest the Chicken.",
+          "loc": null
+        },
+        {
+          "name": "Complete Holy Grail. — Flinch the boss. — You will need to briefly visit Entrana. — If you would like, you can place combat items on a table and they will stay there up to 10 minutes. There is a table upstairs in Brian's Battleaxe Bazaar. — Keep in mind that the items are still going to be visible to other players, but hopefully nobody steals them.",
+          "loc": null
+        },
+        {
+          "name": "You should now have 43 Prayer for Protect from melee.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Feud.",
+          "loc": null
+        },
+        {
+          "name": "Do the runes section of Rogue Trader. — Use the Runedoku Helper plugin. — You can now buy teleport runes from Ali Morrisane when needed without having to go to the wilderness. — Keep in mind that there a few upcoming places you will want to drop all your runes for space, so don't load up too much.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Tempoross and Wintertodt Setup",
+      "prefix": "tempoross-and-wintertodt",
+      "steps": [
+        {
+          "name": "Complete Tower of Life.",
+          "loc": null
+        },
+        {
+          "name": "Complete Cook's Assistant. — The items can all be obtained in the farm area north of Lumbridge Castle. — Get an extra bucket of milk when milking the cow for Gertrude's Cat.",
+          "loc": null
+        },
+        {
+          "name": "Complete Gertrude's Cat.",
+          "loc": null
+        },
+        {
+          "name": "Complete Murder Mystery.",
+          "loc": null
+        },
+        {
+          "name": "Complete Fishing Contest.",
+          "loc": null
+        },
+        {
+          "name": "Complete Twilight's Promise.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Ribbiting Tale of a Lily Pad Labour Dispute.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Knight's Sword. — A pie dish can be obtained in the Varrock Kitchen during the quest after speaking to Reldo. — Get the Iron bars from the spawn in Sunset Coast docks.",
+          "loc": null
+        },
+        {
+          "name": "Complete Black Knights Fortress.",
+          "loc": null
+        },
+        {
+          "name": "Complete Sleeping Giants.",
+          "loc": null
+        },
+        {
+          "name": "Get a Forestry kit. — Go to the Forestry world 444 and do events during all of the upcoming Woodcutting segments. — Keep any leaves you get in the kit.",
+          "loc": null
+        },
+        {
+          "name": "Start The Giant Dwarf for access to Keldagrim. — Remember you can get to the Blast Furnace with the minigame teleport or the GE minecart.",
+          "loc": null
+        },
+        {
+          "name": "Smith an inventory of Steel bars at the Blast Furnace. — Just pay the fee. — Withdraw 5 with the withdraw X option. — Use the nearby bucket spawn and water source to cool the bars.",
+          "loc": null
+        },
+        {
+          "name": "Quickly train to level 26 Construction with Mahogany Homes. — Use beginner contracts to level 20, then oak to 26. — Buy an Adamant axe from Lunami's Axe Shop. — If you are not 31 Woodcutting get a Mithril axe as well to use until then. — Use the Auburnvale sawmill. — Don't overthink this, it should only take a few contracts.",
+          "loc": null
+        },
+        {
+          "name": "Chop Logs and fletch them into 900 arrow shafts.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Tourist Trap. — Buy 15000 feathers from Shantay. Fletch 900 headless arrows for the 10 Fletching. — Put the xp reward on Fletching.",
+          "loc": null
+        },
+        {
+          "name": "Chop more logs and Fletch them into 14100 arrow shafts. — Start with Oak logs and then switch to Willow logs at 30 Fletching. — Make headless arrows as you go to get 30 faster. — After you are done, you can death pile and let the Forestry kit despawn on the ground. If you do it this way, it will keep the bark you have collected. — You can quickly die by picking nettles at the Draynor Village Jail and also tanking a guard there.",
+          "loc": null
+        },
+        {
+          "name": "Continue with the guide questing and fletch your 15000 headless arrows as you walk around.",
+          "loc": null
+        },
+        {
+          "name": "Once you have finished making those, head to Hickton's Archery Emporium and purchase 15000 Steel arrowtips. — Purchase 250 per world. This will only cost about 200k total.",
+          "loc": null
+        },
+        {
+          "name": "Then you will continue questing as before and fletch 15000 Steel arrows. — You should end with at least 50 Fletching. — Drop the arrows once finished, they are just for the xp.",
+          "loc": null
+        },
+        {
+          "name": "Complete Elemental Workshop I.",
+          "loc": null
+        },
+        {
+          "name": "Complete Elemental Workshop II.",
+          "loc": null
+        },
+        {
+          "name": "Make Rings of Dueling and a Games necklace for teleports and to restore run energy at the Ferox Enclave. — The Gold bars can be tele-grabbed in the Varrock West Bank basement. — Buy the gems and other supplies in Al Kharid. — Make 3-4 rings at a time and restock when you run out. — Just make 1 necklace and wear it, you don't use that one as often.",
+          "loc": null
+        },
+        {
+          "name": "Complete Horror from the Deep.",
+          "loc": null
+        },
+        {
+          "name": "Complete Pandemonium.",
+          "loc": null
+        },
+        {
+          "name": "Complete Enter the abyss.",
+          "loc": null
+        },
+        {
+          "name": "Complete Goblin Diplomacy.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Another Cook's Quest.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing the Goblin generals.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Lost Tribe. — (Optional) Keep the ring of life for some extra safety while death banked later. — You can now easily death pile in the Lumbridge Basement. Check out this video for a quick tutorial.",
+          "loc": null
+        },
+        {
+          "name": "Complete Getting Ahead.",
+          "loc": null
+        },
+        {
+          "name": "Complete all of the free-to-play quests EXCEPT: — Dragon Slayer I. — Below Ice Mountain. (You could do this if you want, it is just a bit easier when you have the Mind Altar teleport later).",
+          "loc": null
+        },
+        {
+          "name": "Complete Dwarf Cannon. — Remember your Soul Wars minigame tele.",
+          "loc": null
+        },
+        {
+          "name": "Complete A Porcine of Interest.",
+          "loc": null
+        },
+        {
+          "name": "Complete Sheep Herder.",
+          "loc": null
+        },
+        {
+          "name": "Complete Observatory Quest.",
+          "loc": null
+        },
+        {
+          "name": "Complete Clock Tower.",
+          "loc": null
+        },
+        {
+          "name": "Head to Gerrant's Fishy Business in Port Sarim.",
+          "loc": null
+        },
+        {
+          "name": "Purchase raw sardiness and cook them on the nearby range until 15 Cooking.",
+          "loc": null
+        },
+        {
+          "name": "Purchase a fly fishing rod and 500 feathers.",
+          "loc": null
+        },
+        {
+          "name": "Head to Barbarian Village.",
+          "loc": null
+        },
+        {
+          "name": "Fish and cook there until you reach 35 Fishing.",
+          "loc": null
+        },
+        {
+          "name": "Put all of your coins in the coffer at the Ferox Enclave.",
+          "loc": null
+        },
+        {
+          "name": "Drop any runes and items you have on you for a clean inventory. — Keep your Ardougne Cloak, boots of lightness, staff of air, and jungle camo.",
+          "loc": null
+        },
+        {
+          "name": "Head to Tempoross. Train there until at least level 53 Fishing. — Make an effort to repair the masts and totems as much as you can. — Complete all of the combat achievements except Dress Like You Mean It and Why Cook?. — Don't bother cooking. You are here for the Fishing and Construction xp, not the loot. — Going higher than level 53 is perfectly fine if you would like.",
+          "loc": null
+        },
+        {
+          "name": "After you are finished, pull all your loot. — Drop all the Spirit flakes. — Open and sell the loot from any Caskets at the Rogues Den. — Drop any Soaked pages unless you get a Tome of water. — Drop the Fish barrel if you get it. — Drop the Tackle box if you get it. — Drop the Big harpoonfish if you get it. — Sell the Dragon Harpoon if you get it unless you want to do 2t harpoon fishing in the future or more Tempoross. — Keep the Tome of water if you get it and put your pages in it for now. — It is up to you if you want to keep this longer-term. It is nice sometimes, but not critical. — Cook and drop all the fish at the Rogues Den. — Drop the Seaweed, Steel nails, Feathers, and Fishing bait. — Use up all the planks at your house, you can quickly unnoted them at Phials.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Wintertodt",
+      "prefix": "wintertodt",
+      "steps": [
+        {
+          "name": "Get your cash stack back from the Ferox Enclave.",
+          "loc": null
+        },
+        {
+          "name": "Buy some of each elemental rune and law runes from Ali Morrisane. — You will be dropping all of these again eventually.",
+          "loc": null
+        },
+        {
+          "name": "Head to Auburnvale and purchase an adamant axe.",
+          "loc": null
+        },
+        {
+          "name": "Buy a spade and dig up the Clue Hunter Gloves and Clue Hunter Boots. — Destroy the boots. — Wear the gloves.",
+          "loc": null
+        },
+        {
+          "name": "Get a Tinderbox.",
+          "loc": null
+        },
+        {
+          "name": "Head to Draynor Village and get a Forestry kit from the Forestry Shop. — You can drop the Ardounge Cloak now. — Hop to world 444 for all of your woodcutting.",
+          "loc": null
+        },
+        {
+          "name": "Buy a Rainbow Scarf from Diango.",
+          "loc": null
+        },
+        {
+          "name": "Store your cash stack again at the Ferox Enclave.",
+          "loc": null
+        },
+        {
+          "name": "Cut and burn logs until you reach 50 Firemaking. — Do any Forestry events you see. You need a log basket eventually. — Make sure to keep any leaves you get in your Forestry kit. They can actually be used on a compost bin and turned into supercompost with a Compost potion. — At level 35 Woodcutting and Firemaking, move to cutting teak logs on the north part of the Isle of Souls.",
+          "loc": null
+        },
+        {
+          "name": "Complete Death to the Dorgeshuun.",
+          "loc": null
+        },
+        {
+          "name": "Complete Tears of Guthix. — Bring a Swamp tar and buy a Bullseye lantern (empty) from Miltog's Lamps. You don't need to make it, but you will need to light it with oil created via the still next to Miltog. — Drink the tears for Sailing xp. You will passively train Sailing to at least level 30 this way. — Strongly consider going higher than this. Sailing boat upgrades are extremely tedious on UIM. Skipping the early tiers is very helpful. — Once you are done with this, you can train Sailing at your leisure. It isn't used for the remainder of the guide.",
+          "loc": null
+        },
+        {
+          "name": "Go to Vale Totems and get the Fletching knife with Maple logs. — Again, do Forestry until you can get a Log basket. Then quickly get one as it is useful for Vale Totems. — Note that as a UIM you can turn in logs to the Forester an inventory at a time for the basket. You don't need noted logs. — Use up any loot you can and drop the rest. Due to the heavy RNG nature of this grind the guide doesn't rely on any specific amount of loot.",
+          "loc": null
+        },
+        {
+          "name": "Head to Wintertodt and train until you have level 50 Construction from the braziers. — Listen to this video for some more context on this Wintertodt grind. — While here, complete all of the combat achievements. — Once you reach 38 Construction, take a quick break and complete Scrambled!. — Ferox Minigame tele, get a bit of gp, home tele, buy a few teleport/combat runes at Ali Morrisane. — Buy just enough for the quest so you can go back to Wintertodt after. — The best method is to use the Wintertodt Scouter plugin to hop between worlds. See the videos for details on this, as it is a significant xp boost. — Solos do give a lot faster Construction xp, but are overall less efficient than mass worlds due to being much slower Firemaking xp. You can still do them if you want though. — If you are doing mass worlds as recommended then this will actually take most of the way to 99 Firemaking. The xp rates are really fast, so it isn't as bad as it sounds. — If at any point you just CBA to do more Wintertodt, then you can get 50 Construction with Mahogany Homes and the Auburnvale Sawmill in just a few hours. — You don't need ice gloves for the steel bars, just use the bucket and water at the Blast Furnace and pay the fee. — You could also just use Superheat to make the steel bars and buy the ore. — Seriously don't feel bad for doing this, it is a totally fine option. You really just need to do enough Wintertodt to get some Magic logs, Uncut diamonds, and the combat achievement points.",
+          "loc": null
+        },
+        {
+          "name": "DO NOT LOOT THE CART YET!",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Smithing and Renovations",
+      "prefix": "smithing-and-renovations",
+      "steps": [
+        {
+          "name": "Retrieve your cash and buy a few teleport runes. Again, not too many.",
+          "loc": null
+        },
+        {
+          "name": "Train to level 60 Woodcutting and finish getting your 5000 Anima-infused bark if you have not gotten both of those already.",
+          "loc": null
+        },
+        {
+          "name": "Buy a log basket if you have not already done so.",
+          "loc": null
+        },
+        {
+          "name": "Make an Oak magic wardrobe and Oak armour case in your house. — You can add other stuff now too if you want, but the guide will do it all at once later. — Remember you can get to the Auburnvale sawmill quickly with the Varlamore teleport and bird transport.",
+          "loc": null
+        },
+        {
+          "name": "Store your Log basket, Forestry kit, and jungle camo outfit (and Fletching knife if you got it).",
+          "loc": null
+        },
+        {
+          "name": "Buy a Chronicle, make sure to have some charges.",
+          "loc": null
+        },
+        {
+          "name": "Go to the Dwarven mines and buy pickaxes up to rune from Nurmof's Pickaxe Shop to train with.",
+          "loc": null
+        },
+        {
+          "name": "Train Mining until level 52. — The guide doesn't care how you train, but power-mining iron is pretty solid.",
+          "loc": null
+        },
+        {
+          "name": "Obtain some Ice gloves from the Ice Queen. — Bring some casts of fire blast to kill her.",
+          "loc": null
+        },
+        {
+          "name": "Clear out your inventory and gear. You can sell or alch the rune pickaxe: — Wearing Ice gloves. — Wearing the Chronicle. — Coins in your inventory and nothing else.",
+          "loc": null
+        },
+        {
+          "name": "Train Smithing at Giant's Foundry until level 70+. — Method Link — You can switch to steel/mith at level 50, or stick to iron/steel to save money. — Consider staying until you can complete the Smiths' Uniform so that you can have the storable smiths gloves (i). You will need ice gloves later in the guide, and throughout the life of your account. — Still buy the moulds you can first, they make a big difference in your xp and gp. It is OK to stay here awhile as you need Smithing eventually for the Lumbridge Elite Diary. — Make sure you buy the Smiths tunic last, otherwise you'll have to go back to your house to store it. — At level 70, you can switch to adamant and mith platebodies if you would like. They can be purchased in the Varlamore shop.",
+          "loc": null
+        },
+        {
+          "name": "Store your cash stack and the outfit if you got it.",
+          "loc": null
+        },
+        {
+          "name": "Clear out ALL of your items and equipment.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recruitment Drive.",
+          "loc": null
+        },
+        {
+          "name": "You may now finally buy your Rune Pouch from Mage Training Arena.",
+          "loc": null
+        },
+        {
+          "name": "Gear up for questing: — Buy teleport runes. — Buy some Death Runes. — Buy a staff of air. — Get your Ardougne Cloak back. — Get another pair of boots of lightness. — Pull our your jungle camo again.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Grand Tree.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Eyes of Glouphrie. — Get the mud rune from your extra Mage Training Arena points. — Make the Crystal saw once you are finished.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Complete Watchtower. — Read the teleport scroll.",
+          "loc": null
+        },
+        {
+          "name": "Change to the Arceuus spellbook and back if you have never done so. — You should have done this during Client of Kourend at the start of the guide.",
+          "loc": null
+        },
+        {
+          "name": "It is now time to renovate your house! You can lay it out however you want. — Buy another adamant axe and get out your log basket.",
+          "loc": null
+        },
+        {
+          "name": "Go to your house. Remove your parlor and add these rooms: — 5 portal chambers — 1 chapel — 1 workshop — 1 menagerie — 1 kitchen",
+          "loc": null
+        },
+        {
+          "name": "Build with oak planks: — oak toy box — oak fancy dress box — oak treasure chest — oak altar — tool stores 1, 2, 3, and 4 — upgrade to carved oak wardrobe — oak larder — clockmakers bench 1 — Oak house",
+          "loc": null
+        },
+        {
+          "name": "Make 7 steel bars from the Blast Furnace. — Remember the minigame teleport, but you can also take the minecart from the Grand Exchange.",
+          "loc": null
+        },
+        {
+          "name": "Get a pickaxe from Lumbridge. Chronicle teleport and mine 8 clay from south of Varrock. — Use buckets of water on the clay to make 8 soft clay.",
+          "loc": null
+        },
+        {
+          "name": "Make 3 more oak planks.",
+          "loc": null
+        },
+        {
+          "name": "Teleport back to your house and make: — pump and drain — firepit with hook — oak shelves 2",
+          "loc": null
+        },
+        {
+          "name": "Teleport to Ardougne, head north to Rasolo and buy 10 limestone bricks.",
+          "loc": null
+        },
+        {
+          "name": "Make a molten glass.",
+          "loc": null
+        },
+        {
+          "name": "Make a teleport focus in each portal chamber.",
+          "loc": null
+        },
+        {
+          "name": "Make a clockmakers bench 2.",
+          "loc": null
+        },
+        {
+          "name": "Get 6 more oak planks",
+          "loc": null
+        },
+        {
+          "name": "Make some tea in your house. — Make an oak cape rack. — Make a tool store 5.",
+          "loc": null
+        },
+        {
+          "name": "Cut teak trees in Varlamore and use them to make teak planks. — Remember your log basket.",
+          "loc": null
+        },
+        {
+          "name": "Make teak portal frames for all of the portals.",
+          "loc": null
+        },
+        {
+          "name": "Buy runes from Ali Morrisane for the portals, or risk going to Mage Bank for lower prices. — You can do this safely by using the bond trick from before and death piling your rune pouch for a bit.",
+          "loc": null
+        },
+        {
+          "name": "You will need: — 1800 Law runes — 500 Soul runes — 200 Minds runes — 500 Water runes — 400 Fire runes — 1400 Air runes — 700 Earth runes",
+          "loc": null
+        },
+        {
+          "name": "Create the following teleports in your house: — Salve Graveyard — Fenkenstrain's Castle — Battlefront — Arceuus Library — Draynor Manor — West Ardougne — Mind Altar — Varrock — Ardougne — Falador — Lumbridge — Camelot — Kourend — Civitas illa Fortis — (Optional) Watchtower. Runes not included in original numbers.",
+          "loc": null
+        },
+        {
+          "name": "Move your house to Hosidius. — You can get to your house when you deathbank with the Tithe Farm minigame teleport. Then take the Battlefront teleport to the Farming Guild. — (Optional) Complete the The Forsaken Tower and for free minecart usage and you can use that to the Farming Guild instead.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Farming and More Construction!",
+      "prefix": "farming-and-more-constru",
+      "steps": [
+        {
+          "name": "Remember that you now have useful teleports in your house. Especially the Arceuss ones to Morytania.",
+          "loc": null
+        },
+        {
+          "name": "Complete Nature Spirit.",
+          "loc": null
+        },
+        {
+          "name": "Complete Lost City. — You will need to visit Entrana. — You will need a teleport out, but the home teleport works fine.",
+          "loc": null
+        },
+        {
+          "name": "Complete Fairy Tale Part 1. — Hope you don't have to get a Nature Talisman. If you do, then you can make a detour and do Guardians of the rift for it, or try to kill Abyssal leechs in the Abyss. Be careful though, as your prayer get instantly drained when you go in the Abyss and you can die easily. — Reminder that you can store the Magic secateurs at any Tool Leprechaun.",
+          "loc": null
+        },
+        {
+          "name": "Partially complete Fairytale II until you can use fairy rings. — Your salve graveyard teleport will get you to a fairy ring very quickly.",
+          "loc": null
+        },
+        {
+          "name": "Complete Garden of Death. — Remember your house is near the minecart, which is pretty useful in this quest.",
+          "loc": null
+        },
+        {
+          "name": "Train to level 34 Farming. — Option 1 (Optimal) — Complete The Giant Dwarf. — Complete Forgettable Tale. — Complete Creature of Fenkenstrain. — Complete Garden of Tranquility. — Don't bother getting a fishing rod when you get up to the Edgeville monastery section, it's faster to simply destroy your Ring of charos and pickpocket a new one from Dr Fenkenstrain on the top floor of Fenkenstrain's Castle. — Option 2 (Lazy) — Purchase and use bagged plant 1s to get to level 31 (or 34) Farming. — Buy a chef's hat from Shayzien Styles. — Purchase garden pies in the Cooking Guild to boost to level 34.",
+          "loc": null
+        },
+        {
+          "name": "Train at Tithe Farm until level 65 Farming.",
+          "loc": null
+        },
+        {
+          "name": "Purchase a seed box and auto weed. — The extra points should be saved for later. — Keep Guam, Marrentil, and Harrlander seeds as 3 of your seeds. There are a few quests that need these, so you might want to pre-plant some. — It really isn't critical to rush to farm your seeds during questing. It is much easier to farm them while you settle into skilling grinds later.",
+          "loc": null
+        },
+        {
+          "name": "Clean up your inventory as it is time to loot Wintertodt. — Make a games necklace and ring of dueling to help put items in your looting bag as you go.",
+          "loc": null
+        },
+        {
+          "name": "Watch the videos for a more detailed explanation: — KEEP: — Herbs — Seeds — Gems — Magic Logs — Burnt pages (Drop if you don't get the Tome of Fire). — (Optional) Teak Logs — Can be made into planks during Construction. — DROP: — Ores — Other Logs — Fish — Saltpeter, pure essence, dynamite",
+          "loc": null
+        },
+        {
+          "name": "NOTE: My opinion on the Tome of Fire is more mild now. It is nice to have, but not as critical really. You don't need to go back for it if you miss it unless you just want to. — Also, even if you do get the Tome, remember you will eventually drop it. Only hold it for awhile when you have extra bag space or if you want to use it at Zulrah with the Twinflame staff.",
+          "loc": null
+        },
+        {
+          "name": "Buy a few thousand Air runes. Drop the staff of air.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) If you have extra Anima-infused bark from earlier you can buy some Sawmill vouchers to save a bit of gp.",
+          "loc": null
+        },
+        {
+          "name": "Configure your Rune Pouch to have Air, Earth, and Law runes in it.",
+          "loc": null
+        },
+        {
+          "name": "Death bank at the Nightmare boss. — You can Tithe Farm minigame teleport to you house, then take the Fenkenstrain Castle teleport to get back to the area. — (Optional) You could do the 70 Cooking grind right now while your inventory is clear. You will need it in the next section. — The step in the next section has more information about methods, but in short just do whatever you want the guide doesn't really care how you train.",
+          "loc": null
+        },
+        {
+          "name": "Collect the following items from your death bank. — Guam leafs — uncut sapphires — uncut emeralds — uncut rubys. — Do NOT grab the uncut diamonds. You need those at the end of the guide. — Coins stack — Rune Pouch. Do NOT grab the water and fire runes for now. — You will use the portals in your house to teleport around for a bit.",
+          "loc": null
+        },
+        {
+          "name": "Cut your sapphires and emeralds and sell them at the Rogues' Den.",
+          "loc": null
+        },
+        {
+          "name": "Cut your rubies and turn them in to the Museum Curator.",
+          "loc": null
+        },
+        {
+          "name": "Turn all of the guams into attack potions. Drop the potions.",
+          "loc": null
+        },
+        {
+          "name": "Train to level 50 Crafting by blowing glass in Port Phasmatys. — Method Link.",
+          "loc": null
+        },
+        {
+          "name": "Return to your death bank and pull out the items needed for Construction. Look at the inventory setup at the bottom of this section for reference. — You can buy the rune axe at Perry's Chop-chop Shop. — If you get lucky and happen to get a Dragon axe from Wintertodt then you can use that. It's worth keeping because you can put it in a STASH unit once you finish the construction grind. — Replace the fire runes with your tome of fire if you got it.",
+          "loc": null
+        },
+        {
+          "name": "Purchase another Banana hat to improve your fashion.",
+          "loc": null
+        },
+        {
+          "name": "Train Construction until level 82 using teak Mahogany Homes. — Listen to this video for some notes on this. — Buy a Plank sack when you can. Save the extra points for the future. — Use the Auburnvale sawmill. (If you happen to have the Ring of the Elements from previous versions of the guide, it's better to use the Varrock Sawmill. — Don't worry about farming seeds right now. — If you don't want to go all the way to level 82, you could stop at 75 and use a spicy stew boost to make the jewelry box. This isn't as good, but does get you on your way a lot sooner. — There are aggressive Ghouls outside of the Salve Graveyard teleport. Don't full afk right after teleporting and die. Several people have done this already. — If you are playing with lower attention, you might want to make a ring of life if you don't have one left over from The Lost Tribe. — You can also just take everything out of death bank and keep it in a looting bag for safety. — You can also use a different method to reach a fairy ring, such as from the Ardougne cloak 1. — Seriously guys, please heed this warning! Another person died... It can happen to you! If you are not paying full attention take precautions!!!",
+          "loc": null
+        },
+        {
+          "name": "Make some Teak shelves 2 so you can create tea with a +3 boost.",
+          "loc": null
+        },
+        {
+          "name": "Make an Achievement gallery and then basic jewlery box in your house.",
+          "loc": null
+        },
+        {
+          "name": "Create a Portal nexus and then a Mounted digsite pendant. — Rubies can be bought at various gem stalls, but one in Aldarin has a cut and uncut in stock.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Make a Restoration pool, which will be useful later and can be upgraded in the future.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Build a bedroom and Servant's money bag to store up to 3m gp in your house.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Upgrade your POH storage furniture — Teak planks — Teak armour case — Teak fancy dress box — Teak magic wardrobe — Carved teak magic wardrobe — Teak treasure chest — Mahogany planks — Mahogany armour case — Mahogany fancy dress box — Mahogany magic wardrobe — Mahogany treasure chest",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Questing for Combats",
+      "prefix": "questing-for-combats",
+      "steps": [
+        {
+          "name": "Collect your items from your death bank and store your things in your looting bag. — Keep a Marrentil out of your bag. — Gear up for questing. — You can get Looting bags from points at Last man standing. Or kill Thugs in the Edgeville Dungeon for a slight risk. — You can bag items while at the Ferox Enclave. You don't need to risk going into the Wilderness.",
+          "loc": null
+        },
+        {
+          "name": "Get a kitten from Gertrude and start growing it. Put it in your house when it has grown. — You can fish karambwanji for stackable fish. Bring a small fishing net. — (Optional) After it grows you can also complete Icthlarin's Little Helper and Ratcatchers to get a wily cat.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing the Mountain Dwarf.",
+          "loc": null
+        },
+        {
+          "name": "Complete Death Plateau. — You might need to juggle items on the ground for a bit to clear enough space for the items.",
+          "loc": null
+        },
+        {
+          "name": "Complete Troll Stronghold.",
+          "loc": null
+        },
+        {
+          "name": "Complete Making History.",
+          "loc": null
+        },
+        {
+          "name": "Complete Bone Voyage. — Make sure to get your lamps from Historian Minas for some Herblore xp. — You can now start farming your seeds with Ultracompost if you would like. — You can buy Pineapples from the Trader Crewmember in Catherby and note them at the Farming patch to the north. — If you have any leaves left in your Forestry kit, you can use those as a stackable item to fill the compost bin. Then make some Compost potions to turn it into supercompost and then the ultracompost. — Make sure you clean the herbs before you note them. It saves a lot of time.",
+          "loc": null
+        },
+        {
+          "name": "Unlock Barbarian Farming so you don't need a Seed dibber anymore.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Golem.",
+          "loc": null
+        },
+        {
+          "name": "Complete Shadow of the Storm. — Watch the videos for some notes on the boss fight. — Put the experience on Ranged.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing Evil Dave.",
+          "loc": null
+        },
+        {
+          "name": "Complete Big Chompy Bird Hunting.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing Skrach Uglogwee.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing Pirate Pete.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing the Lumbridge Guide.",
+          "loc": null
+        },
+        {
+          "name": "Complete Wanted!.",
+          "loc": null
+        },
+        {
+          "name": "Complete Animal Magnetism.",
+          "loc": null
+        },
+        {
+          "name": "At this point you could start training Ranged in your downtime, but the guide is going to prepare for melee as well before settling in for the combat grind.",
+          "loc": null
+        },
+        {
+          "name": "Author Note: This is as far as I got on the test account. From here on, I will be adding notes for some specific steps I want feedback on. — This also means there are probably some mistakes or oversights I missed. Tell me if something is off!",
+          "loc": null
+        },
+        {
+          "name": "Complete Spirits of the Elid. — You can boost to 37 Ranged with a Lizardkicker.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Complete Meat and Greet. — The boss fight for this quest is rather challenging with these stats, but is possible. It is totally fine to skip it.",
+          "loc": null
+        },
+        {
+          "name": "Obtain 70 Cooking. — An easy method is to buy and cook fish from Frankie's Fishing Emporium, however there are other options. Ultimate Ironman Guide/Cooking. — You can use an alt to light fires to cook the fish without going to the range. — If you have an alt you could also go for Tai Bwo Wannai Trio at cook Karambwans from the shop and have the alt make a fire. — You can get an Agility potion from Dr Jekyll if you carry a clean irit around with you. This could take awhile so you can do other stuff in the meantime and just come back to this later when you get it.",
+          "loc": null
+        },
+        {
+          "name": "Complete Zogre Flesh Eaters. — Save the Super Restores to help during Monkey Madness 1.",
+          "loc": null
+        },
+        {
+          "name": "Complete Monkey Madness I. — Get all the greegrees needed for Recipe for Disaster/Freeing King Awowogei during this this quest. — Give Zooknock the materials for a second Ninja monkey greegree but don't take the greegree yet, come back and claim it when needed for Monkey Madness II. — Do the training with Daero focused on Strength after the quest. — Be careful not to die to the Jungle Demon as getting your stuff back is very annoying.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing King Awowogei. — Purchase a Dragon Scimitar from Daga before dropping your M'speak amulet and greegrees.",
+          "loc": null
+        },
+        {
+          "name": "Complete Dragon Slayer I. — You can buy a rune sword for the combat sections, you will want it for training later anyway.",
+          "loc": null
+        },
+        {
+          "name": "Complete Heroes' Quest. — You will need to briefly visit Entrana.",
+          "loc": null
+        },
+        {
+          "name": "Complete Icthlarin's Little Helper.",
+          "loc": null
+        },
+        {
+          "name": "Complete Contact!. — Put the xp on Ranged.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Fremennik Trials. — Remember that you can use protection from melee for the fight, so if you can prayer flick well you don't need to prepare very much. You don't need to beat the 4th form, just let it down you and it will still count. — You will need to death pile for this.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Fremennik Isles. — Put the xp on Strength. — Use fire blast on the 10 troll kills, melee the boss. — Either gear up now with your melee setup for the boss, or use this cheese strategy : https://youtu.be/tfDBAyn_ExY?si=3qsaTR8Nz9AtbqrE",
+          "loc": null
+        },
+        {
+          "name": "Gear up for combat training using the setup at the bottom of this section. — If you are planning to boost your Fighter Torso, you could do it now. Otherwise wait for better combat stats. — Switch to the Helm of neitiznot once you get 55 Defense. It can be alched and bought back later.",
+          "loc": null
+        },
+        {
+          "name": "Train at ammonite crabs until you reach 65 Attack and Strength. — Go for 56 Strength, then 60 Attack, then 65 Strength, then 65 Attack. — During this grind do birdhouse runs until at least 57 Hunter, but you can go higher. Store needed logs in your log basket. — 57 unlocks medium Hunter Rumours for getting level 70 later. — You can also train with normal Hunter methods if you would like. — Buy seeds from one of the seed shops such as Amelia's Seed Shop to use. — (Optional) Train some Defense levels as well. They will come in handy. — Farm tree seeds during this grind, especially fruit trees. You are hoping to get a Hespori seed for death banking. — If you happen to get a spirit seed, save it and use it to make a Spirit tree (Construction). You will want to make an effort to get your Farming up to use it sooner than you would otherwise. — The reason the guide recommends ammonite crabs is for the fossils. These can be stored in Fossil storage and used for lamps later. This will actually add up to a large amount of experience, but the guide doesn't rely on it. — You are welcome to other methods such as the Gemstone crab, Sand crabs, or Nightmare Zone.",
+          "loc": null
+        },
+        {
+          "name": "After you finish with melee, buy a bone crossbow and an ava's attractor then switch to range training until level 60 Ranged.",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: Dragon battleaxe",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Herblore and Barrows Gloves",
+      "prefix": "herblore-and-barrows-glo",
+      "steps": [
+        {
+          "name": "You can continue to do bird house runs as you would like. Having the Mounted digsite pendant in your house makes this much easier. — The guide also assumes you will have Hespori for death banking now, but Nightmare is still an option until you get that. — If you are struggling to get a Hespori seed, you can open seed packs from Tithe Farm to go for one that way too.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Now that you have Hunter started, you could choose to death bank and do Hunter Rumours at any point. — The main benefit of this would be to have a higher Prayer level for the guide. — The reason we don't do this now is simply to wait for a fairy ring in your POH and it being easier to use up the loot after you have progressed a bit more, but the difference is minor.",
+          "loc": null
+        },
+        {
+          "name": "Complete Shades of Morton.",
+          "loc": null
+        },
+        {
+          "name": "Complete the easy Karamja Diary.",
+          "loc": null
+        },
+        {
+          "name": "You should have at least 30 Herblore by now, if you don't you might need to make a few potions with your bagged herbs to get it.",
+          "loc": null
+        },
+        {
+          "name": "Complete Shilo Village.",
+          "loc": null
+        },
+        {
+          "name": "Complete One Small Favor.",
+          "loc": null
+        },
+        {
+          "name": "Obtain the Rogue equipment set. — Move your house to Taverley. — Death bank at Hespori. — Minigame teleport to Burthorpe. — Play the Rogues' Den. — As you get pieces, walk to your house and store them.",
+          "loc": null
+        },
+        {
+          "name": "Obtain a Fighter Torso while still death banked. — DO NOT get your rune pouch and runes out! You can't bring it in with you. — The torso can be stored in your house when not in use.",
+          "loc": null
+        },
+        {
+          "name": "Grab your ranarr weeds out of death bank and make Prayer potions. — You can collect Snape grass on the shore east of of Hosidius and note it at the grape vine farm nearby. — Make the potions at the Grand Exchange and note them there. See this video for a quick tutorial. — Keep these potions on you for questing. — Keep 1 unfinished potion for the next quest.",
+          "loc": null
+        },
+        {
+          "name": "You can collect your items from death bank now. — Don't forget to move your house back to Hosidius.",
+          "loc": null
+        },
+        {
+          "name": "If you got fossils from Ammonite crabs you can hand them in for lamps.",
+          "loc": null
+        },
+        {
+          "name": "Complete His Faithful Servants for a quick 20k Prayer xp.",
+          "loc": null
+        },
+        {
+          "name": "Complete Eadgar's Ruse. — You can wait and collect the grain and chicken during the quest.",
+          "loc": null
+        },
+        {
+          "name": "Complete My Arm's Big Adventure. — Make sure to start the supercompost before starting the favor grind.",
+          "loc": null
+        },
+        {
+          "name": "Complete the 5 Kourend quests. Put each paper in your Kharedst's memoirs. — The Depths of Despair — The Queen of Thieves — The Ascent of Arceuus — The Forsaken Tower — Tale of the Righteous",
+          "loc": null
+        },
+        {
+          "name": "Complete Eagles' Peak.",
+          "loc": null
+        },
+        {
+          "name": "Complete the Kourend and Kebos easy and medium diaries.",
+          "loc": null
+        },
+        {
+          "name": "Complete the easy combat achievements. — You should have a lot of points already from Wintertodt and Tempoross. — All of the achievements from Brutus. — The Speed trial can be done with a Dragon Halberd if you want to go for it. You will need to do Regicide now, but that is fine. — Some quick tasks to consider: — Weed Whacker — A Greater Foe with Darklight to also get Not So Great After All — Into the Den of Giants — Mage of the Swamp — I'd Rather Be Illiterate — Avoiding Those Little Arms — Perfect Scurrius — Scurrius Novice — Author Note: Let me know if there are any other easy Achievements to go for I missed.",
+          "loc": null
+        },
+        {
+          "name": "You should have 45 Herblore by now.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Make some Super attack potions to go with your Dragon Battleaxe. — Keep in mind you can use the normal Attack and Defense potions from the Warriors Guild to offset the Battleaxe stat drain.",
+          "loc": null
+        },
+        {
+          "name": "Go to the Warriors Guild and get a Rune Defender. — Using Black Armour is pretty good for collecting tokens. You can buy all the pieces in shops. — Make sure to show the defender to Lorelai downstairs so you won't need to get it again later. — Bones to Peaches is really helpful here. — Don't get a Dragon Defender unless you have 60 Defense to use it.",
+          "loc": null
+        },
+        {
+          "name": "Complete Family Crest.",
+          "loc": null
+        },
+        {
+          "name": "Complete Underground Pass. — Alch the staff after the quest. Don't upgrade it now, you will need the staff again later and you can upgrade it then.",
+          "loc": null
+        },
+        {
+          "name": "Complete Legends Quest. — Complete this quest one section at a time. Don't try to collect all the items at the start. — Of course use all the xp on Herblore. Be careful not to select the wrong skill.",
+          "loc": null
+        },
+        {
+          "name": "Complete Recipe for Disaster/Freeing Sir Amik Varze. — Make sure to collect all the items up front, as the unfinished dishes are lost on death and you need to get to Entrana.",
+          "loc": null
+        },
+        {
+          "name": "Complete A Kingdom Divided. — You need to actually prepare for the Xamphur fight, it is difficult with these stats. — You don't need to collect the defence potion, volcanic sulphur, molten glass, or dark essence block until after the fight.",
+          "loc": null
+        },
+        {
+          "name": "Steal from master farmers until you get 4-6 limpwurt seeds. Farm them for 20 limpwurt roots. — Remember to use the Rogue's outfit. — You can also use up any other seeds you get, for example planting watermelon seeds or a Mushroom spore for diary steps later.",
+          "loc": null
+        },
+        {
+          "name": "Complete Temple of Ikov. — You do not need a bow, just use steel knives from the Martin Thwait's Lost and Found with ice arrows in your ammo slot.",
+          "loc": null
+        },
+        {
+          "name": "Complete Desert Treasure I. — Do not overprepare for the fights. Just bring magic, some prayer potions, and a bit of food for the first 3 fights. For Kamil you do want a good amount of food though. — Fareed : Protection from melee and manual cast water spells. Super easy. — Damis : Bring runes for snare and kite him, or setup the safespot. — Dessous : Flick between pray range and pray melee each tick and he won't attack at all. — Kamil : Make 2 restore potions and use fire spells. Bring extra food for this fight. Also, use fire spells on the ice trolls. — You should have some Harrlander seeds in your seed box that you can farm while getting the other diamonds. — Keep the Ring of visibility. — You will need to briefly visit Entrana.",
+          "loc": null
+        },
+        {
+          "name": "Complete Curse of the Empty Lord. — Get your lamp from Historian Minas. — This might take you to Entrana.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) You can make more portal rooms and add the Ancient spellbook portals to your house now if you would like. — I like having an upstairs area with all of the Ancients teleports together above the other portal rooms, but it is up to you.",
+          "loc": null
+        },
+        {
+          "name": "Complete the Recipe for Disaster/Defeating the Culinaromancer. — The videos have a setup to use. — Buy some Barrows Gloves.",
+          "loc": null
+        },
+        {
+          "name": "Complete Fairy Tale Part II. — You can now tea boost to put a fairy ring in your house. — Get the mushrooms from Sulliusceps.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Guardians of the Rift",
+      "prefix": "guardians-of-the-rift",
+      "steps": [
+        {
+          "name": "Complete Regicide.",
+          "loc": null
+        },
+        {
+          "name": "Complete Roving Elves. — You can choose the crystal bow and store it in the stash unit in case you want it later. It is a good option for the Fight caves for example.",
+          "loc": null
+        },
+        {
+          "name": "Complete Mourning's End Part I.",
+          "loc": null
+        },
+        {
+          "name": "Complete Mourning's End Part II until the end where you need the death talisman.",
+          "loc": null
+        },
+        {
+          "name": "Mine a few pure essence.",
+          "loc": null
+        },
+        {
+          "name": "Complete Temple of the Eye. — During the quest when you are teleported to the abyss, leave via the earth altar and craft the essence for a diary step.",
+          "loc": null
+        },
+        {
+          "name": "Complete the easy Varrock diary. — Keep the armor.",
+          "loc": null
+        },
+        {
+          "name": "Death bank and Play Guardians of the Rift until level 65 Runecraft. — Make weak guardians between rounds for extra crafting experience. — See this video for details on this. — At level 50, search until you get a Large Pouch and 25+ pearls to unlock the ability to repair pouches.",
+          "loc": null
+        },
+        {
+          "name": "Loot your pulls and hope to get a Catalytic talisman. — If you don't get one, then just keep going until you do or just do the item list.",
+          "loc": null
+        },
+        {
+          "name": "Finish Mourning's End Part II.",
+          "loc": null
+        },
+        {
+          "name": "Go back to Guardians of the Rift and train there until you complete the full Rainments of the eye set. — If you get an Abyssal Lantern you could consider holding on to it and go for a Divine rune pouch and finishing Sins of the Father as soon as you can. Then go for 95+ Runecraft early. — Otherwise, just sell the lantern to finish the outfit sooner and move on with your life. — You could skip this grind, but you will need to figure out a different way to get 61 Crafting. This is a great way to do it. — If you do get a catalytic talisman, make sure to use it on your hat. It is important for being able to craft blood runes at the Blood Altar later if you ever want to do that. — Keep in mind you can only have 1 talisman set this way, even if you have multiple differently colored outfits. They all use the last talisman you set on any hat.",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: small pouch, Medium pouch, Abyssal pearls, Rune pouch, Chisel",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Slayer",
+      "prefix": "slayer",
+      "steps": [
+        {
+          "name": "While you are completing the next quests and Slayer section, use up your Nature Runes alching as you go. — It doesn't matter what you alch, but if you want a bit of money then Volcanic ash is easy to get and alchs for 120 each. — The other runes can be used up or saved for later as you would like.",
+          "loc": null
+        },
+        {
+          "name": "Complete Ghosts Ahoy. — The Ectophial is close to the undead farm, where you can complete several of the tasks for Tureal.",
+          "loc": null
+        },
+        {
+          "name": "Complete Lunar Diplomacy. — If you are missing any of the stats, get them however you would like. — Author Note: Going for Astral Contact with Lunars is a new addition to the guide. Let me know if I overlooked anything!",
+          "loc": null
+        },
+        {
+          "name": "If you have 85 Combat, complete Dream Mentor.",
+          "loc": null
+        },
+        {
+          "name": "Create a Lunar altar in your house. — (Optional) Go for a Pharaoh's sceptre and boost to make the Occult altar. It is really handy to have locked in early!",
+          "loc": null
+        },
+        {
+          "name": "Create a Mahogany eagle lectern in your house. — (Optional) Create a Marble lectern instead, but it costs a lot more.",
+          "loc": null
+        },
+        {
+          "name": "Complete more quests until you have 250 Quest Points if you don't have it. — (Optional) Go for 300 Quest points for another block. You need all the quests done eventually anyway. — You can look ahead in the guide for quest ideas, there are plenty that could be easily done now rather than waiting until later.",
+          "loc": null
+        },
+        {
+          "name": "Make Super attack potions if you have not already. — Remember your Dragon Battleaxe will cover Strength.",
+          "loc": null
+        },
+        {
+          "name": "Make about ~250 Teleport to house (tablet)s. — This Video shows an easy method. — If you don't have Humidify you can make some Bracelets of Clay instead. — Make ~500 tablets if you plan to go for a 500 Task streak rather than 250.",
+          "loc": null
+        },
+        {
+          "name": "Do Slayer Point Boosting for starting points. Use Astral Contact to get tasks, and the portals or fairy ring in your house to get to each task. — Complete tasks with Tureal to build streak. — Complete the 10th task bonuses at Mazchna. — Complete the 50ths task bonuses at Konar. — Consider switching back to normal spellbook and using Bones to Peaches if it makes sense for your task. — Do this until your 250th or (Preferably) your 500th task. — You can make your own block lists with your least favorite tasks. — Remember that each master has their own block lists now.",
+          "loc": null
+        },
+        {
+          "name": "After you are done point boosting, continue training Slayer until level 58. — Use whatever master you want. — Once you reach 30 Slayer you can complete Slug Menace for the proselyte armour. — You can get to the altars through Guardians of the rift (pre-make the items as you can't bring in pure essence) or through the abyss. — If you have 60 Defense you can get a Dragon Defender. — Consider unlocking Vampyre tasks and use task storage on one for the Vampyre quest bosses later. — Mazchna can also assign it by default, so you might get one that way during point boosting.",
+          "loc": null
+        },
+        {
+          "name": "Complete Rum Deal.",
+          "loc": null
+        },
+        {
+          "name": "Complete Cabin Fever.",
+          "loc": null
+        },
+        {
+          "name": "Kill Cave Horrors for a Black mask.",
+          "loc": null
+        },
+        {
+          "name": "Make a Slayer Helmet. — Imbue it. The method you use to imbue doesn't matter to the guide.",
+          "loc": null
+        },
+        {
+          "name": "Obtain a Dragon Defender if you have not done so yet.",
+          "loc": null
+        },
+        {
+          "name": "Build the Master Stash unit in the Warriors Guild to to store your Slayer Helm, Battleaxe, and Defender.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "70 Herblore and Other Skills",
+      "prefix": "70-herblore-and-other-sk",
+      "steps": [
+        {
+          "name": "This final section of the guide is mostly focused on getting as much Herblore xp you can without training normally. — Some quests have skill requirements you may or may not have depending on what you have done before. If you are missing something, just get the levels however you would like. — At any point you can just farm herbs and do Mastering Mixology if you CBA, but questing is more efficient and you need a Quest Point Cape and diaries done eventually anyway. — The order you do items in the section doesn't really matter much.",
+          "loc": null
+        },
+        {
+          "name": "Finish getting level 70 in the other skills you need for Song of the Elves. Use whatever method you want, but each skill will have a recommended method. — Agility (Should be done). — Construction (Should be done). — Farming (Might be done, but Tithe Farm can make up the difference if needed). — Hunter (Do Hunter Rumours or get it passively with Birdhouses). — Mining (Lots of options depending on how much effort you want to put in, but Calcified deposits give nice passive Prayer xp). — Smithing (Should be done). — Woodcutting (Should probably be done, but Sulliusceps are good xp and give fossils).",
+          "loc": null
+        },
+        {
+          "name": "Complete At First Light.",
+          "loc": null
+        },
+        {
+          "name": "Complete Grim Tales.",
+          "loc": null
+        },
+        {
+          "name": "Complete A Tail of Two Cats.",
+          "loc": null
+        },
+        {
+          "name": "Complete Another Slice of H.A.M.",
+          "loc": null
+        },
+        {
+          "name": "Complete Land of the Goblins. — (Optional) Complete Hopespear's Will for a chunk of Prayer xp. — This depends on your stats. You may want to just come back for this later.",
+          "loc": null
+        },
+        {
+          "name": "Complete The Great Brain Robbery.",
+          "loc": null
+        },
+        {
+          "name": "Complete King's Ransom.",
+          "loc": null
+        },
+        {
+          "name": "Complete In Search of the Myreque.",
+          "loc": null
+        },
+        {
+          "name": "Complete In Aid of the Myreque.",
+          "loc": null
+        },
+        {
+          "name": "Complete Darkness of Hallowvale.",
+          "loc": null
+        },
+        {
+          "name": "Complete A Taste of Hope.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Complete A Night at the Theater. — You can have someone help you to complete an Entry Mode Theater of Blood.",
+          "loc": null
+        },
+        {
+          "name": "Complete Sins of the Father.",
+          "loc": null
+        },
+        {
+          "name": "You could try to go for the requirements for While Guthix Sleeps for that juicy xp reward, but it is a big detour.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Collect more fossils to turn into at the Varrock Museum. — Chopping Sulliusceps is great woodcutting xp and gives fossils relatively often.",
+          "loc": null
+        },
+        {
+          "name": "Complete as many Achievement Diaries as you can. — Yes they are tedious, but you want the rewards from them eventually.",
+          "loc": null
+        },
+        {
+          "name": "At this point you should be most of the way to 70 Herblore. You should be able to finish out the remainder of the xp you need from farming herbs and using them at Mastering Mixology. — There are lots of ways to get seeds, but some ideas include: — Farming Contracts (Great if you like to check-in on Mobile or something for passive xp, but require a lot of inventory commitment). — Master Farmers (If you want to make a detour for 94 Thieving and the Ardougne Hard Diary). — Hunter Rumours. — Hallowed Sepulcher. — Go back to Wintertodt. — Seed packs from Tithe Farm. — Farm Coral at the Coral nursery (patch). — Go back to Slayer. — Shipwreck salvaging can (rarely) provide relics for xp lamps and at a higher level Opulent salvage gives seeds.",
+          "loc": null
+        },
+        {
+          "name": "Keep in mind you will need a Cadantine seed and some Belladonna seeds for Song of the Elves.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Song of the Elves",
+      "prefix": "song-of-the-elves",
+      "steps": [
+        {
+          "name": "As you start getting close to taking on the quest, start planting your Belladonna seeds for a stack of Nightshade.",
+          "loc": null
+        },
+        {
+          "name": "Complete Song of the Elves. — a runite bar can be easily obtained by trading a pair of rune platelegs to the Nest (nice). — Reclaim your Iban's staff and upgrade it for the fight. — After you are done with it, you can start Perilous Moons and store the staff at Blue Moon if you think you might want it again.",
+          "loc": null
+        },
+        {
+          "name": "Inventory check: Maple shortbow, Nightshade, Pineapple pizza, Pineapple pizza, Pineapple pizza, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Super restore, Super restore, Super restore, Phoenix necklace, Super restore, Super restore, Coins, rune pouch",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Epilogue and PvM Guide",
+      "prefix": "epilogue-and-pvm-guide",
+      "steps": [
+        {
+          "name": "Ability to craft Wrath runes.",
+          "loc": null
+        },
+        {
+          "name": "Build an Ornate rejuvenation pool.",
+          "loc": null
+        },
+        {
+          "name": "Agility level for various high-level shortcuts.",
+          "loc": null
+        },
+        {
+          "name": "Ability to make super combat potions.",
+          "loc": null
+        },
+        {
+          "name": "Ability to steal from master farmers without failing.",
+          "loc": null
+        },
+        {
+          "name": "Crafting requirements for powerful jewelry.",
+          "loc": null
+        },
+        {
+          "name": "Ability to fletch Amethyst darts.",
+          "loc": null
+        },
+        {
+          "name": "Lots of loot from Hunter rumours, and/or fast Ranged training with chinchompas.",
+          "loc": null
+        },
+        {
+          "name": "Mining level for Amethyst.",
+          "loc": null
+        },
+        {
+          "name": "Smithing level for diaries and to craft the crystal equipment.",
+          "loc": null
+        },
+        {
+          "name": "Ability to fish Minnows for noted Sharks.",
+          "loc": null
+        },
+        {
+          "name": "Ability to cook noted sharks.",
+          "loc": null
+        },
+        {
+          "name": "Lots of loot and xp from Wintertodt.",
+          "loc": null
+        },
+        {
+          "name": "Diary unlocks from higher Woodcutting.",
+          "loc": null
+        },
+        {
+          "name": "Farm higher level seeds and extra spirit trees.",
+          "loc": null
+        },
+        {
+          "name": "There are plenty more. Skills are important!",
+          "loc": null
+        }
+      ]
+    }
+  ]
+}

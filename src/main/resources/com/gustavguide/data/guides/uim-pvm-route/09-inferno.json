@@ -1,0 +1,64 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide/PvM_Route",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide/PvM Route; CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Inferno",
+  "steps": [
+    {
+      "id": "inferno-001",
+      "title": "General stat recommendations for Inferno. — …",
+      "text": "General stat recommendations for Inferno. — 95+ Ranged — 90+ Defense — 95+ Magic",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "inferno-002",
+      "title": "(Optional) Do some kills at The …",
+      "text": "(Optional) Do some kills at The Hueycoatl for Huasca seeds to make 1-2 Prayer regeneration potions for your setup",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "inferno-003",
+      "title": "Kill vorkath to get a Vorkath's …",
+      "text": "Kill vorkath to get a Vorkath's head. — This can be used on a Ranging cape to store the enhanced ammo saving effect if you have that. — If you are experienced, you might be able to get a Dizana's quiver instead. — Use your hasta to melee him. — Remember you can get to the boss quickly by taking your Lunar Isle teleport in your poh, then talking to a citizen to get kicked from the island.",
+      "manual": true,
+      "npc": 8026,
+      "world": [
+        2273,
+        4065,
+        0
+      ]
+    },
+    {
+      "id": "inferno-004",
+      "title": "Complete the Inferno. — Inferno is …",
+      "text": "Complete the Inferno. — Inferno is a safe death, so you can keep your other items in death storage. — Adjust the setup to your preference",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "inferno-005",
+      "title": "Depending on your future goals, you …",
+      "text": "Depending on your future goals, you may now be ready to drop your ring of suffering. — Make sure you have plenty of zulrah scales in reserve!",
+      "manual": true
+    },
+    {
+      "id": "inferno-006",
+      "title": "Inventory check: blue moon spear, Blue …",
+      "text": "Inventory check: blue moon spear, Blue moon tassets, Saradomin brew, Divine rune pouch, blue moon chestplate, Toxic blowpipe, Saradomin brew, Saradomin brew, Saradomin brew, Saradomin brew",
+      "manual": true
+    }
+  ]
+}

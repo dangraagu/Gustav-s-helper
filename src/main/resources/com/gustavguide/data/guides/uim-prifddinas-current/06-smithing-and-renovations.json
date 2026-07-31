@@ -1,0 +1,607 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Ultimate_Ironman_Walkthrough_Guide_To_Prifddinas",
+  "_license": "OSRS Wiki - Ultimate Ironman Walkthrough Guide To Prifddinas (Current Route); CC BY-NC-SA 3.0 (oldschool.runescape.wiki).",
+  "section": "Smithing and Renovations",
+  "steps": [
+    {
+      "id": "smithing-and-renovations-001",
+      "title": "Retrieve your cash, buy a few …",
+      "text": "Retrieve your cash, buy a few teleport runes. Again, not too many",
+      "manual": true,
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-002a",
+      "title": "Train to level 60 Woodcutting",
+      "text": "Train to level 60 Woodcutting",
+      "manual": true,
+      "world": [
+        3192,
+        3223,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-002b",
+      "title": "finish getting your 5000 Anima-infused bark …",
+      "text": "finish getting your 5000 Anima-infused bark if you have not gotten both of those already",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-003",
+      "title": "Buy a log basket if you …",
+      "text": "Buy a log basket if you have not already done so",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5376,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 5376,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 5376,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-004",
+      "title": "Make an Oak magic wardrobe and …",
+      "text": "Make an Oak magic wardrobe and Oak armour case in your house. — You can add other stuff now too if you want, but the guide will do it all at once later. — Remember you can get to the Auburnvale sawmill quickly with the Varlamore teleport and bird transport.",
+      "manual": true,
+      "npc": 3101,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-005",
+      "title": "Store your Log basket, Forestry kit, …",
+      "text": "Store your Log basket, Forestry kit, and jungle camo outfit (and Fletching knife if you got it)",
+      "manual": true
+    },
+    {
+      "id": "smithing-and-renovations-006a",
+      "title": "Buy a Chronicle",
+      "text": "Buy a Chronicle",
+      "manual": true,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-006b",
+      "title": "make sure to have some charges",
+      "text": "make sure to have some charges",
+      "manual": true,
+      "object": 2859,
+      "world": [
+        2970,
+        3210,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-007a",
+      "title": "Go to the Dwarven mines",
+      "text": "Go to the Dwarven mines",
+      "manual": true,
+      "object": 16664,
+      "world": [
+        3058,
+        3376,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-007b",
+      "title": "buy pickaxes up to rune from …",
+      "text": "buy pickaxes up to rune from Nurmof's Pickaxe Shop to train with",
+      "manual": true,
+      "world": [
+        3058,
+        3376,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-008",
+      "title": "Train Mining until level 52. — …",
+      "text": "Train Mining until level 52. — The guide doesn't care how you train, but power-mining iron is pretty solid",
+      "manual": true,
+      "world": [
+        3039,
+        9777,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-009",
+      "title": "Obtain some Ice gloves from the …",
+      "text": "Obtain some Ice gloves from the Ice Queen. — Bring some casts of fire blast to kill her",
+      "manual": true
+    },
+    {
+      "id": "smithing-and-renovations-010",
+      "title": "Clear out your inventory and gear. …",
+      "text": "Clear out your inventory and gear. You can sell or alch the rune pickaxe: — Wearing Ice gloves. — Wearing the Chronicle. — Coins in your inventory and nothing else",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-011",
+      "title": "Train Smithing at Giant's Foundry until …",
+      "text": "Train Smithing at Giant's Foundry until level 70+. — Method Link — You can switch to steel/mith at level 50, or stick to iron/steel to save money. — Consider staying until you can complete the Smiths' Uniform so that you can have the storable smiths gloves (i). You will need ice gloves later in the guide, and throughout the life of your account. — Still buy the moulds you can first, they make a big difference in your xp and gp. It is OK to stay here awhile as you need Smithing eventually for the Lumbridge Elite Diary. — Make sure you buy the Smiths tunic last, otherwise you'll have to go back to your house to store it. — At level 70, you can switch to adamant and mith platebodies if you would like. They can be purchased in the Varlamore shop.",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-012",
+      "title": "Store your cash stack and the …",
+      "text": "Store your cash stack and the outfit if you got it",
+      "manual": true
+    },
+    {
+      "id": "smithing-and-renovations-013",
+      "title": "Clear out ALL of your items …",
+      "text": "Clear out ALL of your items and equipment",
+      "manual": true
+    },
+    {
+      "id": "smithing-and-renovations-014",
+      "title": "Complete Recruitment Drive",
+      "text": "Complete Recruitment Drive",
+      "complete": {
+        "op": "quest",
+        "quest": "RECRUITMENT_DRIVE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-015",
+      "title": "You may now finally buy your …",
+      "text": "You may now finally buy your Rune Pouch from Mage Training Arena",
+      "manual": true,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-016",
+      "title": "Gear up for questing: — Buy …",
+      "text": "Gear up for questing: — Buy teleport runes. — Buy some Death Runes. — Buy a staff of air. — Get your Ardougne Cloak back. — Get another pair of boots of lightness. — Pull our your jungle camo again.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1381,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1381,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1381,
+      "world": [
+        2656,
+        3310,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-017",
+      "title": "Complete The Grand Tree",
+      "text": "Complete The Grand Tree",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-018",
+      "title": "Complete The Eyes of Glouphrie. — …",
+      "text": "Complete The Eyes of Glouphrie. — Get the mud rune from your extra Mage Training Arena points. — Make the Crystal saw once you are finished",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_EYES_OF_GLOUPHRIE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-019",
+      "title": "(Optional) Complete Watchtower. — Read the …",
+      "text": "(Optional) Complete Watchtower. — Read the teleport scroll",
+      "manual": true,
+      "world": [
+        2548,
+        3119,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-020",
+      "title": "Change to the Arceuus spellbook and …",
+      "text": "Change to the Arceuus spellbook and back if you have never done so. — You should have done this during Client of Kourend at the start of the guide",
+      "manual": true,
+      "world": [
+        1700,
+        3800,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-021",
+      "title": "It is now time to renovate …",
+      "text": "It is now time to renovate your house! You can lay it out however you want. — Buy another adamant axe, get out your log basket",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1357,
+            "qty": 28
+          },
+          {
+            "op": "item",
+            "id": 1357,
+            "qty": 28,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1357,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-022",
+      "title": "Go to your house. Remove your …",
+      "text": "Go to your house. Remove your parlor and add these rooms: — 5 portal chambers — 1 chapel — 1 workshop — 1 menagerie — 1 kitchen",
+      "world": [
+        3165,
+        3490,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3165,
+        "y": 3490,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "smithing-and-renovations-023",
+      "title": "Build with oak planks: — oak …",
+      "text": "Build with oak planks: — oak toy box — oak fancy dress box — oak treasure chest — oak altar — tool stores 1, 2, 3, and 4 — upgrade to carved oak wardrobe — oak larder — clockmakers bench 1 — Oak house",
+      "manual": true,
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-024",
+      "title": "Make 7 steel bars from the …",
+      "text": "Make 7 steel bars from the Blast Furnace. — Remember the minigame teleport, but you can also take the minecart from the Grand Exchange",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-025a",
+      "title": "Get a pickaxe from Lumbridge. Chronicle …",
+      "text": "Get a pickaxe from Lumbridge. Chronicle teleport",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-025b",
+      "title": "mine 8 clay from south of …",
+      "text": "mine 8 clay from south of Varrock. — Use buckets of water on the clay to make 8 soft clay",
+      "manual": true,
+      "world": [
+        3180,
+        3372,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-026",
+      "title": "Make 3 more oak planks",
+      "text": "Make 3 more oak planks",
+      "manual": true,
+      "world": [
+        3180,
+        3372,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-027a",
+      "title": "Teleport back to your house",
+      "text": "Teleport back to your house",
+      "manual": true
+    },
+    {
+      "id": "smithing-and-renovations-027b",
+      "title": "make: — pump and drain — …",
+      "text": "make: — pump and drain — firepit with hook — oak shelves 2",
+      "manual": true,
+      "world": [
+        3180,
+        3372,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-028a",
+      "title": "Teleport to Ardougne",
+      "text": "Teleport to Ardougne",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "smithing-and-renovations-028b",
+      "title": "head north to Rasolo",
+      "text": "head north to Rasolo",
+      "manual": true,
+      "npc": 679,
+      "world": [
+        2531,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-028c",
+      "title": "buy 10 limestone bricks",
+      "text": "buy 10 limestone bricks",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 3420,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 3420,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 3420,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-029",
+      "title": "Make a molten glass",
+      "text": "Make a molten glass",
+      "manual": true,
+      "world": [
+        2602,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-030",
+      "title": "Make a teleport focus in each …",
+      "text": "Make a teleport focus in each portal chamber",
+      "manual": true,
+      "world": [
+        2602,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-031",
+      "title": "Make a clockmakers bench 2",
+      "text": "Make a clockmakers bench 2",
+      "manual": true,
+      "world": [
+        2602,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-032",
+      "title": "Get 6 more oak planks",
+      "text": "Get 6 more oak planks",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-033",
+      "title": "Make some tea in your house. …",
+      "text": "Make some tea in your house. — Make an oak cape rack. — Make a tool store 5",
+      "manual": true,
+      "world": [
+        3165,
+        3490,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-034a",
+      "title": "Cut teak trees in Varlamore",
+      "text": "Cut teak trees in Varlamore",
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-034b",
+      "title": "use them to make teak planks. …",
+      "text": "use them to make teak planks. — Remember your log basket",
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-035",
+      "title": "Make teak portal frames for all …",
+      "text": "Make teak portal frames for all of the portals",
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-036",
+      "title": "Buy runes from Ali Morrisane for …",
+      "text": "Buy runes from Ali Morrisane for the portals, or risk going to Mage Bank for lower prices. — You can do this safely by using the bond trick from before and death piling your rune pouch for a bit.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 556,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 556,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 556,
+      "npc": 3533,
+      "world": [
+        3304,
+        3211,
+        0
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-037",
+      "title": "You will need: — 1800 Law …",
+      "text": "You will need: — 1800 Law runes — 500 Soul runes — 200 Minds runes — 500 Water runes — 400 Fire runes — 1400 Air runes — 700 Earth runes",
+      "manual": true
+    },
+    {
+      "id": "smithing-and-renovations-038",
+      "title": "Create the following teleports in your …",
+      "text": "Create the following teleports in your house: — Salve Graveyard — Fenkenstrain's Castle — Battlefront — Arceuus Library — Draynor Manor — West Ardougne — Mind Altar — Varrock — Ardougne — Falador — Lumbridge — Camelot — Kourend — Civitas illa Fortis — (Optional) Watchtower. Runes not included in original numbers.",
+      "manual": true,
+      "npc": 1270,
+      "world": [
+        3548,
+        3555,
+        2
+      ]
+    },
+    {
+      "id": "smithing-and-renovations-039",
+      "title": "Move your house to Hosidius. — …",
+      "text": "Move your house to Hosidius. — You can get to your house when you deathbank with the Tithe Farm minigame teleport. Then take the Battlefront teleport to the Farming Guild. — (Optional) Complete the The Forsaken Tower and for free minecart usage and you can use that to the Farming Guild instead.",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    }
+  ]
+}

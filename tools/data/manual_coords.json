@@ -1077,5 +1077,978 @@
     3176,
     3363,
     0
+  ],
+  "buy a bucket and spade from the general store. you should have 2 buckets total": [
+    3227,
+    3257,
+    0
+  ],
+  "head back south to the castle area": [
+    3222,
+    3218,
+    0
+  ],
+  "destroy the notes, drop the knife and tinderbox. keep the bucket of water, and gems": [
+    3237,
+    3155,
+    0
+  ],
+  "get the research package": [
+    3109,
+    3160,
+    0
+  ],
+  "enter the room to the east": [
+    3104,
+    3160,
+    0
+  ],
+  "run from the skeleton": [
+    3104,
+    3160,
+    0
+  ],
+  "dig for the third clue in draynor village to continue x marks the spot": [
+    3108,
+    3262,
+    0
+  ],
+  "continue west then south to port sarim, speak with veos to complete x marks the spot": {
+    "world": [
+      3048,
+      3231,
+      0
+    ],
+    "npc": 10727
+  },
+  "head east to aubury's rune shop": [
+    3253,
+    3402,
+    0
+  ],
+  "give the research package to aubury to continue rune mysteries. — make sure to speak with him twice to get the notes": [
+    3253,
+    3402,
+    0
+  ],
+  "pick up 10 logs from the spawns": [
+    3302,
+    3492,
+    0
+  ],
+  "head east to port sarim": [
+    3029,
+    3221,
+    0
+  ],
+  "buy one redberries and a pot of flour from wydin's food store": [
+    3013,
+    3207,
+    0
+  ],
+  "go to wydin's food store": [
+    3013,
+    3207,
+    0
+  ],
+  "buy one raw beef. — (optional) buy 1-2 extra cheese in case you make a mistake during witch's house": [
+    3013,
+    3207,
+    0
+  ],
+  "speak with him to continue the knight's sword": [
+    3000,
+    3145,
+    0
+  ],
+  "kill a chicken to the east": [
+    2700,
+    3300,
+    0
+  ],
+  "take the raw bear meat": [
+    2700,
+    3300,
+    0
+  ],
+  "run west across the bridge, then south of the castle": [
+    2569,
+    3275,
+    0
+  ],
+  "buy swamp paste from the general store": [
+    2467,
+    3287,
+    0
+  ],
+  "sell the pearls to the general store": [
+    2614,
+    3293,
+    0
+  ],
+  "speak with captain cain to unlock the minigame teleport to barbarian assault. (say you are an expert already.)": [
+    2549,
+    3558,
+    0
+  ],
+  "head west and north to find hudo": [
+    2465,
+    3496,
+    1
+  ],
+  "after getting the message, head to the gnome maze": [
+    2541,
+    3170,
+    0
+  ],
+  "speak to golrie for glarial's pebble": [
+    2514,
+    9580,
+    0
+  ],
+  "buy another rope from the general store": [
+    2614,
+    3293,
+    0
+  ],
+  "head south to the asgarnian ice dungeon": [
+    3008,
+    3150,
+    0
+  ],
+  "buy some from wydin's food store in port sarim": [
+    3013,
+    3207,
+    0
+  ],
+  "buy a bronze med helm from peska": [
+    3075,
+    3429,
+    0
+  ],
+  "head north then west to the dwarf base": [
+    3012,
+    3453,
+    0
+  ],
+  "climb the stairs to the top of the tourist information centre": [
+    2559,
+    3445,
+    0
+  ],
+  "place any combat items you have on the table in the south-east part of the room. this should be your runes, staff, and axe. — you could also just drop them in front of the tomb. — these will stay on the table for up to 10 minutes since they are on a table rather than the ground. — if you have boots from the stronghold of security, destroy them.": [
+    2559,
+    3445,
+    0
+  ],
+  "pick up your items from the table": [
+    2559,
+    3445,
+    0
+  ],
+  "attack a guard. do not kill him. lure him a short distance away from the jail and let him kill you. you can pick some nettles to die quicker. (you are \"death piling\" for recruitment drive.) — the death pile allows your items to remain on the ground for up to 60 minutes before despawning (without other players being able to loot it). use your timer to keep track of how long you have left. you should have plenty of time. the timer only runs when you are logged in.": [
+    3103,
+    3265,
+    0
+  ],
+  "thieve fruit stalls until 30 thieving. save any strange fruit you get and use them as you go for energy. — optionally go to 43 thieving instead so you don't have to come back later. the feud should push you to 45 so you can blackjack once you get rogues.": [
+    1767,
+    3599,
+    0
+  ],
+  "buy 5 more charges for your chronicle from diango": [
+    3081,
+    3246,
+    0
+  ],
+  "buy wine for food from the bar. look in the discussion tab of this page if you don't know how to safespot the fights": [
+    3359,
+    2957,
+    0
+  ],
+  "buy runes from ali. you can open large caskets from ali using the runeduku plugin to get cosmic runes faster. buy all cosmic, law, and nature runes from the chests as they cost less this way. — 400 law runes. — 1,200 nature runes. — 500 cosmic runes. — 500 air runes. — 500 earth runes. — 500 water runes.": [
+    3358,
+    2974,
+    0
+  ],
+  "home teleport, walk to port sarim": [
+    3029,
+    3221,
+    0
+  ],
+  "(optional but recommended): now that you have 55 magic, you can do also do last man standing for rune arrows to high level alchemy as you quest. this guide involves a lot of time walking, so this gives you something to do. how efficient doing this is depends on how many points you can get per hour. if you can get at least 15 points an hour, then this is a great way to make some extra cash and work on magic xp (you need level 82 eventually). the guide will not be reminding you to do this, so it is on you.": [
+    3130,
+    3622,
+    0
+  ],
+  "drop your mind runes for some space": [
+    3358,
+    2974,
+    0
+  ],
+  "get a pickaxe from the spawn in the tower": [
+    3227,
+    3257,
+    0
+  ],
+  "buy an eye of newt from jatix": [
+    2898,
+    3428,
+    0
+  ],
+  "buy an orange from the charter ships": [
+    2803,
+    3432,
+    0
+  ],
+  "buy fishing bait and a fishing rod from the fishing shop": [
+    2834,
+    3445,
+    0
+  ],
+  "buy a spade from the farming shop": [
+    2820,
+    3462,
+    0
+  ],
+  "complete the goblin section of recipe for disaster": [
+    3213,
+    3221,
+    0
+  ],
+  "buy a spade from the general store": [
+    3212,
+    3247,
+    0
+  ],
+  "buy 1 emerald from the gem shop": [
+    3287,
+    3211,
+    0
+  ],
+  "head to the crafting shop": [
+    3321,
+    3194,
+    0
+  ],
+  "buy a ring mould, and a sickle mould": [
+    3321,
+    3194,
+    0
+  ],
+  "smith the 3 bronze bars into bronze wires on the anvil": [
+    3228,
+    3436,
+    0
+  ],
+  "if you do not have your ghostspeak amulet still, get a new one": [
+    3197,
+    3166,
+    0
+  ],
+  "head to morytania and complete creature of fenkenstrain. — when you need to smith the lightning rod, use the one in port phasmatys. get some ecto tokens to enter using your bucket of slime and pot, bones from an undead chicken at the nearby farm. while there, you can start ghosts ahoy up to the part where you visit the crone (this quest is not required for this guide, however)": [
+    3492,
+    3474,
+    0
+  ],
+  "teleport to lumbridge then run to draynor village and start fairytale i - growing pains. — teleport to falador and talk to the farmer in the park. then run south and talk to the farmer near sarah's farming shop. then purchase 1 compost pack and a set of basic farming tools from sarah along with an additional secateurs and spade. (if you have room, buy some plant cure.) — run south and talk to the farmer above port sarim's pub. store the basic set and cure at the leprechaun but keep a secateurs and a spade. then head east and buy ~10 barley seeds from the stall. — teleport to camelot and run north west to the hops farming patch. plant your barley and pay the farmer 3 compost to watch over them. do the same in the lumbridge hops patch (north east of lumbridge castle). remember to talk to the farmers to continue the quest. — continue the quest guide. — this quest's difficulty is very random depending on the items you have to collect. some items are easy to collect while others are harder to obtain, such as a nature talisman. — if you do happen to get tasked to collect a nature talisman, the most viable option is to do enter the abyss and kill the abyssal leechs or complete temple of the eye too and do guardians of the rift until you acquire 50 abyssal pearls from the rewards. there is a safespot for them at a specific part of the abyss. killing them is extremely difficult though as getting into the safespot is very hard with our current stats, and if you die there it will be difficult to get your items back. it is worthwhile to simply go off the guide path and get 43 prayer now. safespot blue dragons with fire strike then use the bones on the wilderness altar. death pile your items to be safe when using the bones. this is a slow, but vastly better than wiping in the abyss. note that you can also change your respawn location to falador. you will also need to get some sort of prayer restoration since the abyss drains your prayer. starting zogre flesh eaters is potential way to get this. or just don't be unlucky next time. — flinch the boss. the best spot is the small hallway before the fork to the final room. be patient.": [
+    3078,
+    3256,
+    0
+  ],
+  "head back to martin and progress through fairytale ii - curing a queen until you unlock fairy rings. — while in the area, buy redberries from the shop in port sarim and cook a redberry pie.": [
+    3078,
+    3256,
+    0
+  ],
+  "cook the barley into barley malt on the range": [
+    3212,
+    3215,
+    0
+  ],
+  "go to the basement to buy 2 buckets from the recipe for disaster chest": [
+    3209,
+    3218,
+    0
+  ],
+  "minigame teleport to the blast furnace and complete the forgettable tale. while waiting for the things to grow: — start some supercompost by buying pineapples from the catherby charters and composting them to the north. — buy an axe and tinderbox in lumbridge. — go to port sarim fish store and buy/cook sardines until 22 cooking. — store the farming tools for some extra space but make sure to get them back out after. — use the axe and tinderbox to make a fire right outside the shop to cook on. — buy a fishing rod at the fishing shop. — buy 6 marigold, cabbage, and onion seeds from olivia in draynor village. — buy a filled plant pot from the farming shop. — buy some compost (if you bought the compost pack ignore) — mine a pure essence. — buy a pestle and mortar from the taverley herblore store. — buy a hammer from varrock. — if you are not 36 crafting, buy, cut, and resell some sapphires and emeralds in al kharid until you get 36 crafting (you should be at it or very close already). — if you still have some extra time chop wood.": [
+    2930,
+    10197,
+    0
+  ],
+  "buy an adamant pickaxe in the dwarven mines": [
+    3019,
+    3339,
+    0
+  ],
+  "get a knife and a bucket from the recipe for disaster chest": [
+    3209,
+    3216,
+    0
+  ],
+  "buy a lot of hops seeds from olivia in draynor village. you could also thieve them from master farmers if you want to go out of your way for that. keep in mind you don't want to clog up your inventory with seeds until after prayer, so don't go too crazy at master farmers yet. — how many you get will depend on how actively you think you will do birdhouse runs.": [
+    3103,
+    3265,
+    0
+  ],
+  "buy a mithril axe from the woodcutting guild, or kill more tree spirits for it": [
+    1614,
+    3499,
+    0
+  ],
+  "go to the varrock museum and talk to historian minas to get some kudos and three experience lamps. use them on herblore. — you should be at level 20 herblore, but if you are short somehow doing jungle potion should get you there.": [
+    3260,
+    3449,
+    0
+  ],
+  "go to fossil island and kill ammonite crabs for range xp. your range gear is basic, but since the crabs have no defence it doesn't really matter. — do birdhouse runs whenever you can. you will have to manage getting higher level logs as needed (you will need to teleport out and come back). — when you need higher crafting you can make molten glass in port phasmatys. you can death storage at volcanic mine once you have some numulite. 61 crafting is a good goal for lunar diplomacy later on. — you can make some digsite pendants if you want. rubies can be bought in ardougne. — you can farm any seeds you want as you get them. you will have to balance what seeds you keep vs how many spaces you leave open. — if you don't want to drop some higher level seeds, then you could do tithe farm now so you can use them. also it is notable to keep in mind that you will be doing more birdhouses a bit later when you train melee at ammonite crabs. this may influence how much farming you want to do right now. — if you want to put in extra effort, you can actually alch while killing the crabs for very efficient magic xp. — at level 40 wear your green dhide chaps and vambs. — at level 50 go upgrade your avas to an ava's accumulator. — setup runelite to notify you on any fossil drops. when you fill up on fossils put them in the fossil storage on the north side of the island. also pick up enough calcite and pyrophosphate for any fossils you want to use for prayer.": [
+    3730,
+    3807,
+    0
+  ],
+  "buy 2 vodka from heckel funch in the grand tree": [
+    2466,
+    3495,
+    0
+  ],
+  "minigame teleport to fishing trawler. — pick up 2 planks from the spawn in the area. — buy a bucket of sand and soda ash from the charter ship": [
+    2653,
+    3159,
+    0
+  ],
+  "steal from the bakery stall until you get a bread and 10 cakes. do not eat the bread for food, it is a quest item": [
+    2668,
+    3310,
+    0
+  ],
+  "complete the ardougne easy diary": [
+    2624,
+    3300,
+    0
+  ],
+  "store all but 200,000 coins coins in the coffer by last man standing. this prevents you from losing all your money to a disconnection, get more money out as needed": [
+    3137,
+    3623,
+    0
+  ],
+  "get 65/82/85 farming at tithe farm first": [
+    1800,
+    3502,
+    0
+  ],
+  "do tithe farm until level 65. then medium contracts and birdhouses will get you to at least 70. — if you are not 34 farming, buy some plants in falador and use them in your house to knock out the last bit of xp to get 34. — going all the way to 85 farming at tithe farm is an option as it unlocks hard contracts at the farming guild. this will also increase the loot from master farmers. you will also get a decent amount of herbs from boxes. this is a tradeoff option though as training farming later with tree seeds is much easier than tithe farm. — a compromise would be to get 82 farming, and use garden pies from the cooking guild to boost to do hard contracts. you will have to wear a chef's hat to get into the cooking guild. you can store a chef's hat in the stash unit outside of the clothes store at varrock center.": [
+    1800,
+    3502,
+    0
+  ],
+  "at level 78 you unlock dorgesh-kaan rich chests. this is a very good alternative to blackjacking for fast experience after you get the money you need. — with more effort, you can alch and cut the loot from the chests for very efficient money and magic/crafting experience. while small, this would add up significantly if you are going to 99.": [
+    2723,
+    5314,
+    0
+  ],
+  "recipe for disaster (20,000 experience)": [
+    3209,
+    3215,
+    0
+  ],
+  "buy a seed box from tithe farm": [
+    1800,
+    3501,
+    0
+  ],
+  "(optional) go out of your way a bit to complete all the recipe for disaster subquests except sir amik varze and king awowogei": [
+    3209,
+    3215,
+    0
+  ],
+  "(optional) complete monkey madness i for a large amount of combat experience. — you could even go out of your way to get 70 cooking and do the monkey section of recipe for disaster right after monkey madness, as it is much easier to do them together. additionally this makes getting a dragon scimitar much easier later on if you are not getting one now.": [
+    2465,
+    3496,
+    0
+  ],
+  "complete desert treasure i. — chop the magic logs or get them from wintertodt. — do not buy an ancient staff. — you can use the diamonds on the pyramid as you get them, you don't have to get all 4 first.": [
+    3177,
+    3043,
+    0
+  ],
+  "complete roving elves. — make some rings of recoil and make an amulet of strength for the boss. — also buy a goblin paint cannon to make the fight easier. — buy some karambwans from brimhaven for food. — flinch the moss guardian if needed. — if you plan to use range for the combat sections in song of the elves then make sure to pick the bow. also you will need to get 70 range at ammonite crabs to use it. don't waste bow charges as it doesn't have that many, and the bow is very expensive to recharge. — if you have not finished other preparations for song of the elves and want to use the bow, keep in mind that once you get it you will have to hold on to it until you are finished preparing. it is untradeable as a bow so you can't bag it, and recharging it from a seed costs 750,000 coins coins. if you want to finish mourning's end part ii early for the diary or guardians of the rift, consider just using the dragon scimitar for song of the elves instead of the bow.": [
+    2207,
+    3159,
+    0
+  ],
+  "complete mourning's end part i. — chop your own magic logs if you got 75 woodcutting, otherwise do wintertodt for them": [
+    2207,
+    3159,
+    0
+  ],
+  "buy a lockpick from burthope": [
+    2870,
+    3544,
+    0
+  ],
+  "thieve dorgesh kaan rich chests until you get 9 uncut diamonds and a sapphire": [
+    2703,
+    5348,
+    1
+  ],
+  "you could buy an ancient staff from elbis to replace your fire staff. keep in mind though that the ancient staff can only be obtained once this way and you should be manual casting in the fight anyway to control which spell you use.": [
+    3184,
+    2989,
+    0
+  ],
+  "do varrock rooftop course course until 40 agility": [
+    3221,
+    3414,
+    0
+  ],
+  "head into the lava maze": [
+    3072,
+    3854,
+    0
+  ],
+  "buy an axe from bob": [
+    3229,
+    3204,
+    0
+  ],
+  "do barbarian fishing for slow but efficient agility and strength training. — you need to get at least level 56 agility, but going until level 60 would be better. — if you plan to do hallowed sepulchre and skip graceful you could go to 62 agility to get the second floor. — going all the way to 60 agility will require about 45,000 feathers (also count your fishing bait from tempoross). — if you are short on cash for the feathers, make an extra trip to the lava maze for an inventory and looting bag of steel platebodies. don't get derailed going for another money making method when a quick 20 minute trip there can solve the issue. you will need to deathpile first in lumbridge castle's basement.": [
+    2500,
+    3488,
+    0
+  ],
+  "renovate your house with the portal rooms outlined in the renovating your home section of the guide. most importantly you want the arceuus teleports. you could even add some extra portal rooms if you want. — having these teleports will help out during some of the early quests in the guide, especially those going to morytania.": [
+    2956,
+    3232,
+    0
+  ],
+  "start playing guardians of the rift. the first goal is to get to level 50 runecraft": [
+    3109,
+    3160,
+    0
+  ],
+  "get a bronze pickaxe from the tower": [
+    3188,
+    3220,
+    0
+  ],
+  "get a knife from the kitchen": [
+    3188,
+    3220,
+    0
+  ],
+  "start merlins crystal by talking to king arthur (1)": [
+    2765,
+    3511,
+    0
+  ],
+  "talk to king arthur (1)": [
+    2765,
+    3511,
+    0
+  ],
+  "talk to merlin (1)": [
+    2763,
+    3513,
+    0
+  ],
+  "head to the basement & talk to sedridor to continue rune mysteries (1,2,1)": [
+    3104,
+    3162,
+    0
+  ],
+  "complete rune mysteries": [
+    3104,
+    3162,
+    0
+  ],
+  "deranged archaeologist; (magic only & dodging books) [genuinely be careful on this one. he can hit hard]": [
+    3683,
+    3706,
+    0
+  ],
+  "train on sulpha naguas until 60 attack (if you ever want to afk, the naguas are vastly superior to most things as you also passively get runecrafting while crazy combat experience. karambwans and naguas should be your go to afks before gem crab/shooting stars. it is advised to complete perilous moons before afking naguas as you will get crazy rates with dual macahuitl’s and bloodmoon.": [
+    1360,
+    9563,
+    0
+  ],
+  "armoured zombies drop the zombie axe which is an excellent mid tier weapon (used until abyssal whip). it is advised to hunt for this now using ice burst (if 70 magic). the best way is buying ice sacks from lms and using them in a pvp world. (important: once you get to the cave with the zombies do not continue the quest by looking over the ledges). alternatively you can buy the runes.": [
+    3545,
+    4585,
+    0
+  ],
+  "kill cave horrors until black mask drop. train on defensive until 680,000 defence experience. once you get it head through the dungeon & cut & burn mahogany logs [morytania hard diary]": [
+    3747,
+    9430,
+    0
+  ],
+  "we are now going to do some barrows. there are many ways to get there so choose which you want or unlock it before starting. we are only after tank gear so probably don't need to do much more than 100 chests. use wind wave. morytania hard for more runes is locked behind 70 prayer so not worth doing at this stage. kill 2 skeletons 1 bloodworm every run to maintain blood runes.": [
+    3567,
+    3291,
+    0
+  ],
+  "complete a game of trouble brewing [morytania medium diary] (can skip this if no alt/friend/active world and do later)": [
+    3813,
+    2973,
+    0
+  ],
+  "bank at lunar bank (do not deposit all armour sets)": [
+    2101,
+    3919,
+    0
+  ],
+  "talk to le sabre": [
+    3464,
+    3480,
+    0
+  ],
+  "complete morytania medium & hard diary": [
+    3464,
+    3480,
+    0
+  ],
+  "smelt an adamant bar [kourend hard diary]": [
+    1483,
+    3747,
+    0
+  ],
+  "complete in aid of myreque (all the items should be in the bank except for the mackeral/axes &/or snails & maybe the bars if you used them all)": [
+    3506,
+    9837,
+    0
+  ],
+  "complete path of glouphrie (easy)": [
+    2515,
+    3161,
+    0
+  ],
+  "sell chaos & death runes for onyx’s (260,000 tokkul per onyx)": [
+    2465,
+    5149,
+    0
+  ],
+  "start the golem": [
+    3485,
+    3088,
+    0
+  ],
+  "talk to reldo for the knight's sword quest": [
+    3211,
+    3494,
+    0
+  ],
+  "give the pie to thurgo, and ask about knight's sword": [
+    3000,
+    3145,
+    0
+  ],
+  "start vampire slayer": [
+    3098,
+    3268,
+    0
+  ],
+  "get ned as your captain for dragon slayer": [
+    3098,
+    3257,
+    0
+  ],
+  "do the feud": [
+    3358,
+    2974,
+    0
+  ],
+  "talk to merlin": [
+    2763,
+    3513,
+    0
+  ],
+  "natural history quiz (miniquest)": [
+    3260,
+    3449,
+    0
+  ],
+  "jungle potion": [
+    2809,
+    3085,
+    0
+  ],
+  "recipe for disaster: goblin generals": [
+    2958,
+    3508,
+    0
+  ],
+  "shield of arrav": [
+    3210,
+    3494,
+    0
+  ],
+  "medium kourend & kebos diary": [
+    1630,
+    3730,
+    0
+  ],
+  "sell everything to lumbridge general store but your: — bucket — pot — coins": [
+    3212,
+    3247,
+    0
+  ],
+  "sell the uncut gems to lumbridge general store": [
+    3212,
+    3247,
+    0
+  ],
+  "head back north to the lumbridge graveyard": [
+    3248,
+    3195,
+    0
+  ],
+  "speak with archmage sedridor to continue rune mysteries": [
+    3109,
+    3160,
+    0
+  ],
+  "dig the fourth clue for x marks the spot": [
+    3078,
+    3259,
+    0
+  ],
+  "go to the lumbridge graveyard": [
+    3248,
+    3195,
+    0
+  ],
+  "finish rune mysteries": [
+    3109,
+    3160,
+    0
+  ],
+  "defeat count draynor using magic spells. — safespot him in the corner: https://www.youtube.com/watch?v&#61;acuwxb0skyo": [
+    3108,
+    3358,
+    0
+  ],
+  "head to the island to the east of yanille": [
+    2677,
+    3087,
+    0
+  ],
+  "buy from hudo: — 1 dwellberries — 1 bucket of milk — 1 chocolate dust": [
+    2465,
+    3496,
+    1
+  ],
+  "use up the noted planks by unnoting them at phials and building chairs in your house. — this will take a few trips, you can drop some items for a short time for extra space. — you only really need level 10 construction so if you run out of nails before all your planks get used that is fine if you got level 10.": [
+    2949,
+    3215,
+    0
+  ],
+  "buy a pot from the general store in catherby. also buy a bucket of sand and soda ash from the charter ships": [
+    2803,
+    3432,
+    0
+  ],
+  "head to lumbridge kitchen": [
+    3212,
+    3215,
+    0
+  ],
+  "get pestle and mortar from the herblore shop in taverley": [
+    2898,
+    3428,
+    0
+  ],
+  "complete animal magnetism. — remember the draynor manor and fenkenstrain's castle teleports are in your house. — kill undead chickens for the bones to get the ecto tokens": [
+    3093,
+    3357,
+    0
+  ],
+  "complete song of the elves until the final boss fight. — complete the quest one section at a time, don't try to collect all the items at the start. — you should have a cadantine seed from farming. — get a runite bar from magpie implings. — use either your dragon scimitar or crystal bow for the combat sections other than the final boss. — death pile and knock out mage arena i and optionally mage arena ii before prepping for the boss. — it may be possible to complete a kingdom divided now for a better off-hand, but it isn't needed.": [
+    2566,
+    3337,
+    0
+  ],
+  "pick up a pair of leather gloves from father urhneys house": [
+    3147,
+    3175,
+    0
+  ],
+  "deposit all extra coins there. this is a reserve to replace the money used in the rest of the guide normally obtained from the stronghold of security": [
+    3130,
+    3622,
+    0
+  ],
+  "go to the varrock east bank. grab a bucket of milk, raw sardine, doogle leaves, steel axe, chronicle, 3650 gp, waxwood logs, knife and all but 10 of your logs (if you have more than that remaining). fletch remaining logs (of the original 100, so 1500 arrow shafts) into arrow shafts as you run to the east and speak with regulus cento to take the quetzal to varlamore. travel back to varrock via quetzal and run north to the sawmill. enter the lumber yard, proceed with gertrude's cat until the cat goes home. chop down a dying tree. make the logs into a plank, buy 5 bolts of cloth and 100 steel nails, turn the waxwood logs into planks. head east and start rag and bone man i. teleport using the chronicle, speak to gertrude and complete the quest. speak with juliet. go to the bank and grab a saw, hammer, 10 planks, 5 bolts of cloth, 3 waxwood logs, julia’s letter and your steel nails. give the letter to romeo. go to old man yarlo and fix his house. go to marlo and complete daddy’s home, enter the church and speak with father lawrence to progress romeo & juliet.": [
+    3281,
+    3413,
+    0
+  ],
+  "teleport to the ferox enclave (minigame teleport), run south to the mage of zamorak and start enter the abyss. teleport to varrock, complete demon slayer (you can use magic for the fight as long as you equip silverlight as a weapon, but melee is fine as well). give a dog a bone. speak with the mage of zamorak to obtain the scrying orb and progress enter the abyss. have aubury teleport you to the rune essence mine with your scrying orb (first scrying orb charge), check the zamorakian temple’s altar for the inscription (merlin’s crystal). buy a studded body, studded chaps, iron chainbody, two steel chainbodies, a steel platebody and a mithril platebody from horvik, make 7 bronze wires at horvik’s anvils, buy an oak longbow and a willow shortbow from lowe (optionally also buy 200 mithril arrows), move your poh to pollnivneach at the estate agent, visit the museum and collect the xp lamp from historian minas, put them on herblore. you now have 103 kudos. grab the information clerk xp bonuses, start bone voyage.": [
+    3102,
+    3557,
+    0
+  ],
+  "house teleport (spell) to pollnivneach, run to the ruins of uzer, start the golem up to the step where you need to visit the dig site. get 2 black mushrooms as mentioned on wiki. chop some teak logs for the diary.": [
+    3485,
+    3088,
+    0
+  ],
+  "teleport to varrock and move your poh to rellekka at the estate agent. grab chisel, gp, earth runes from the bank along the way. show your level 3 certificate to the museum curator and claim ‘something to drink’ (make sure to go through the dialogue carefully!), take the museum quiz. do not claim xp lamp from historian minas – this is for herblore later but has a level 20 requirement. clean finds to get the following:": [
+    3240,
+    3476,
+    0
+  ],
+  "teleport to falador, pay the estate agent to move your poh to hosidius. use teak homes (mahogany homes with teak planks, adept tier contracts only) for 352 carpenter points (88 completed contracts) while on the regular spellbook for transportation. accept the cups of tea after contracts to restore run energy as necessary. buy the plank sack. if you have excess logs (from wintertodt) cut them into arrow shafts as you run and make headless arrows (purchase feathers as necessary, you should have plenty from bird runs).": [
+    2983,
+    3369,
+    0
+  ],
+  "teleport to falador, smelt your lead ore into 11 bars. pay the estate agent to move your house to rellekka. house teleport. grab the fremennik easy diary, putting the lamp on herblore. collect a few pet rocks. put at least one in your poh menagerie and collect it again for the diary. buy a berserker helmet. your attack should be at least level 50 by now, if it is not do a bit of slayer (see below in this same step) first. train slayer to get to level 50 defence, using your ancient staff as a melee weapon.": [
+    2983,
+    3369,
+    0
+  ],
+  "run to piscarilius, grab wind strike runes and your stew, start the queen of thieves and continue the quest until you are asked to search councillor hughes’ home (browse the warrens general store in between for the diary). head south and kill a giant rat northeast of hosidius square for its meat and the giant rat bone, talk to the estate agent (this is needed to be able to move your poh to kourend later). buy a compost pack from vannah. pickpocket from the fruit stalls in the house on the east of hosidius square to level 36 thieving. bank one jangerberry (optionally: bank two as it’s a possible fairytale pt. 1 item), all the strange fruit and the golovanova tops (you will need at least 2 tops). run west and dig up a saltpetre for the diary, then run to land’s end and charter a ship to aldarin. there thieve the upstairs chest in the western villa (chest (aldarin villas) - osrs wiki) to a bit over level 42 thieving (46,512 xp!).": [
+    1781,
+    3628,
+    0
+  ],
+  "minigame teleport to burthorpe, buy 5 asgarnian ale, 39 wizard’s mind bombs and 12 dwarven stouts. collect the rogues outfit and crack a wall safe in the main area for the diary. buy 75 lockpicks and 25 ropes. cook fish (salmon, trout and all raw fish from tempoross, but save at least one raw swordfish for making a swordchick at the tower of life later for the ardougne medium diary) between the games to replenish run energy (you can 2t cook it). make sure you have at least 10 trout for death plateau and 15 salmon for in aid of the myreque, and got to at least level 43 cooking. grab your gp, blackjack and a poh tab (equip full rogues), run south and complete fishing contest.": [
+    2906,
+    3537,
+    0
+  ],
+  "if you still have unclaimed rewards from wintertodt, open those now to get 8-12 coal. teleport to camelot, if necessary run to the coal trucks and mine 8 coal (12 if you wish to own your own mind shield). return to seers village and do elemental workshop i. kill one of each elemental for the diary, but 3 earth elementals instead of 1 to save time for elemental workshop ii later (these are some tough fights - take your best food and gear, or flinch the elementals as needed). make 3 elemental bars, only make one elemental shield to complete the quest.": [
+    2716,
+    3482,
+    0
+  ],
+  "do barbarian fishing to 65 agility (~88 fishing) at cox (buy as many feathers as needed), make sure to do barblore as much as possible. cut-eat the fish for cooking xp, you will need at least level 70 cooking for rfd/awowogei.": [
+    2500,
+    3488,
+    0
+  ],
+  "do barbarian fishing to 99 fishing at cox (buy as many feathers as needed), make sure to do barblore as much as possible. cut-eat the fish for cooking xp, you will need at least level 70 cooking for rfd/awowogei.": [
+    2500,
+    3488,
+    0
+  ],
+  "train construction to level 50 using oak logs at the rimmington portal. method: https://www.youtube.com/watch?v=gfh6-ojrj0o should be ~1200 oak planks for 38-50 construction, 60 xp per plank. don’t wait for the servant to come back, this method will bank the planks (if your poh instance is closed while your servant returns the planks will go straight to your bank) and you can use them from the bank later (have the servant grab the planks from the bank for you while you stay in the poh), for example with oak larders. buy a study and swap your servant for the demon butler (in ardougne). if you started below level 40 it is worth upgrading the cook to the butler at level 40 (by revisiting the servant’s guild in ardougne). buy a menagerie and build a house (oak or teak) so you can keep a cat for questing in your poh while raising kittens without worry.": [
+    2956,
+    3232,
+    0
+  ],
+  "if you have (at least) two grown teak trees on fossil island, use the butler method to chop and make 1175 teak planks (example video of 2 tick teaks with butler plankmake: https://www.youtube.com/watch?v=ga987x97akq) using digsite pendants instead of a mounted digsite and dueling rings to bank for more necklaces and/or run energy as necessary (alternatively you can grab a necklace from the museum camp bank chest on fossil island after it breaks). note that you have to take the long way (east) instead of the shortcut to the trees.": [
+    3730,
+    3807,
+    0
+  ],
+  "start the theatre of blood once the minimum requirements above are met": [
+    3663,
+    3219,
+    0
+  ],
+  "start tombs of amascut once the requirements are met and you own a bowfa": [
+    3345,
+    2725,
+    0
+  ],
+  "ability to fish minnows for noted sharks": [
+    2609,
+    3424,
+    0
+  ],
+  "complete the gauntlet until you receive an enhanced crystal weapon seed and 6 crystal armour seeds. — if you happen to get 2 enhanced seeds, keep the second one! you can use it as a blade of saeldor. — if you don't get the lucky second enhanced, read the notable alternatives section about continuing on for a blade.": [
+    3228,
+    6116,
+    0
+  ],
+  "make the bow of faerdhinen, and crystal armour": [
+    3228,
+    6116,
+    0
+  ],
+  "kill k'ril tsutsaroth until you get a zamorakian spear, then turn it into a zamorakian hasta. — use some variation of the 6:0 range method. — do this on a greater demons task. — again, going for a necklace of anguish first is perfectly fine instead of using the fury. — don't bother breaking down your crystal helm because this should be a short grind. — if you would like, you can also delay getting a hasta until you have a scorching bow. see the notable alternatives section for more notes on delaying or skipping the hasta.": [
+    2918,
+    3745,
+    0
+  ],
+  "(optional but not recommended) kill general graardor until you get bandos tassets, a bandos chestplate, and a bandos hilt. — use some variation of the 6:0 range method": [
+    2918,
+    3745,
+    0
+  ],
+  "(optional) also kill commander zilyana for a saradomin godsword. — use some variation of the ranged kiting method. — a serpentine helm can be especially useful here to venom the minions at the start of each kill. — the armadyl crossbow is of limited use without a twisted buckler. — you may also want to wait and come back with the slayer level to kill spiritual creatures.": [
+    2918,
+    3745,
+    0
+  ],
+  "kill the royal titans until you get the deadeye prayer scroll and mystic vigour prayer scroll. — ideally do this on a fire giants or ice giants slayer task. — the zombie axe and defender is slightly better dps here if you have it, but isn't worth grinding just for this fight. — it also puts your magic attack bonus slightly below 70 if you are using an imbued slayer helm. — you should take almost no damage in this fight once you learn it, but learner can take some extra food. — minigame teleport to clan wars to re-gear.": [
+    3008,
+    3150,
+    0
+  ],
+  "can start making other runes trough abyss": [
+    3104,
+    3560,
+    0
+  ],
+  "shades of morton": [
+    3481,
+    3279,
+    0
+  ],
+  "museum quiz + cleaning finds = 100 kudos (after you got the clean necklace, buy ruby enchant tabs and ruby necklace to get some digsite pendants)": [
+    3260,
+    3449,
+    0
+  ],
+  "start crafting mud runes at the water altar (see the sheet for gp/hr figures)": [
+    3184,
+    3164,
+    0
+  ],
+  "watch tower (15k magic xp, requires 40 mining)": [
+    2548,
+    3119,
+    0
+  ],
+  "animal megnetism": [
+    3093,
+    3357,
+    0
+  ],
+  "itchlarin's little helper": [
+    3316,
+    2849,
+    0
+  ],
+  "pirate treasure": [
+    3053,
+    3251,
+    0
+  ],
+  "taste of hope (xp on agi 3x)": [
+    3668,
+    3217,
+    0
+  ],
+  "death to the dorg": [
+    3209,
+    3216,
+    0
+  ],
+  "eagles peak (dont bother if you did recruitment drive, wanted!, slug manace, finish frem isles": [
+    2607,
+    3264,
+    0
+  ],
+  "enlighted journey": [
+    3047,
+    3236,
+    0
+  ],
+  "rfd monkey (boost with chefs delight)": [
+    3213,
+    3221,
+    0
+  ],
+  "rfd goblin": [
+    3213,
+    3221,
+    0
+  ],
+  "rfd pirate": [
+    3213,
+    3221,
+    0
+  ],
+  "rfd lumby g": [
+    3213,
+    3221,
+    0
+  ],
+  "rfd varze": [
+    3213,
+    3221,
+    0
+  ],
+  "get dragon defender (full obby + berserker neck) (train strength)": [
+    2864,
+    3544,
+    0
+  ],
+  "kings ransom (1 qp) — use lamp on woodcutting if doing sins of the father later": [
+    2741,
+    3557,
+    0
+  ],
+  "use custom rumble in nmz with: king roald, count draynor, tree spirit, sand snake, khazard warlord and me": [
+    2605,
+    3115,
+    0
+  ],
+  "get a fire cape with melee if possible": [
+    2856,
+    3168,
+    0
+  ],
+  "do porcine of intrest for 30 more slayer points and block black demon and fire giant when you get them": [
+    3086,
+    3251,
+    0
+  ],
+  "priest in peril (unlocks a lot of slayer monsters!)": [
+    3222,
+    3473,
+    0
+  ],
+  "tree gnome village": [
+    2541,
+    3170,
+    0
+  ],
+  "priest in peril": [
+    3222,
+    3473,
+    0
+  ],
+  "vampire slayer": [
+    3098,
+    3268,
+    0
+  ],
+  "a porcine of intrest": [
+    3086,
+    3251,
+    0
+  ],
+  "enter the abbys": [
+    3102,
+    3557,
+    0
+  ],
+  "dragon slayer": [
+    3190,
+    3360,
+    0
+  ],
+  "monkey madness (get the attack and defence training)": [
+    2465,
+    3496,
+    0
+  ],
+  "get a fire cape (optional)": [
+    2856,
+    3168,
+    0
+  ],
+  "use black demon, tree spirit, khazard warlord, count draynor and bouncer": [
+    2605,
+    3115,
+    0
+  ],
+  "get a fire cape if you didnt do it b4 nmz": [
+    2856,
+    3168,
+    0
   ]
 }

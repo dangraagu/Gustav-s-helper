@@ -56,11 +56,7 @@
       "id": "e2-003",
       "title": "Take Spirit Tree to Gnome Stronghold …",
       "text": "Take Spirit Tree to Gnome Stronghold (2) [Varrock Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         3195,
         3404,
@@ -374,8 +370,9 @@
       "complete": {
         "op": "quest",
         "quest": "THE_IDES_OF_MILK",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 15632,
       "world": [
         3171,
         3277,
@@ -397,11 +394,7 @@
       "id": "e2-024b",
       "title": "Take bones. [Lumbridge Easy Diary]",
       "text": "Take bones. [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -758,9 +751,10 @@
         "quest": "CLIENT_OF_KOUREND",
         "state": "FINISHED"
       },
+      "npc": 7056,
       "world": [
-        1824,
-        3690,
+        1720,
+        3724,
         0
       ]
     },
@@ -814,11 +808,7 @@
       "id": "e2-047",
       "title": "Steal from the Fruit stall [Kourend …",
       "text": "Steal from the Fruit stall [Kourend Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kourend",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         1630,
         3730,
@@ -994,11 +984,7 @@
       "id": "e2-058",
       "title": "Trade Warrens General Store [Kourend Easy …",
       "text": "Trade Warrens General Store [Kourend Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kourend",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         1630,
         3730,
@@ -1038,11 +1024,7 @@
       "id": "e2-061",
       "title": "Jump over the Fence south of …",
       "text": "Jump over the Fence south of Varrock [Varrock Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3206,
         3417,
@@ -1064,11 +1046,7 @@
       "id": "e2-063",
       "title": "Mine an Iron Ore [Varrock Easy …",
       "text": "Mine an Iron Ore [Varrock Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3139,
         9875,
@@ -1602,10 +1580,22 @@
       "title": "Trade Candle maker & buy candle …",
       "text": "Trade Candle maker & buy candle [Kandarin Easy Diary]",
       "complete": {
-        "op": "diary",
-        "area": "kandarin",
-        "tier": "easy"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 36,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 36,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 36,
       "npc": 3199,
       "world": [
         2799,
@@ -1657,23 +1647,7 @@
       "id": "e2-107",
       "title": "OPTIONAL: Buy your 100 Soda Ash/Sand …",
       "text": "OPTIONAL: Buy your 100 Soda Ash/Sand if haven't yet",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 1781,
-            "qty": 100
-          },
-          {
-            "op": "item",
-            "id": 1781,
-            "qty": 300,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 1781,
+      "manual": true,
       "world": [
         2803,
         3432,
@@ -1849,8 +1823,8 @@
       "manual": true,
       "npc": 3531,
       "world": [
-        1867,
-        4235,
+        2765,
+        3511,
         0
       ]
     },
@@ -1910,11 +1884,7 @@
       "id": "e2-121",
       "title": "Talk to Sherlock [Kandarin Easy Diary]",
       "text": "Talk to Sherlock [Kandarin Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kandarin",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 6586,
       "world": [
         2735,
@@ -1937,11 +1907,7 @@
       "id": "e2-123",
       "title": "Pick 5 Flax [Kandarin Easy Diary][Mournings …",
       "text": "Pick 5 Flax [Kandarin Easy Diary][Mournings End Pt 2]",
-      "complete": {
-        "op": "diary",
-        "area": "kandarin",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 14896,
       "world": [
         2742,
@@ -1958,9 +1924,10 @@
         "quest": "MERLINS_CRYSTAL",
         "state": "FINISHED"
       },
+      "npc": 3199,
       "world": [
-        2763,
-        3513,
+        2799,
+        3439,
         0
       ]
     },
@@ -2046,11 +2013,7 @@
       "id": "e2-129",
       "title": "Play the Organ after the first …",
       "text": "Play the Organ after the first completion [Kandarin Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kandarin",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2841,
         3432,
@@ -2150,10 +2113,22 @@
       "title": "Buy a stew during the quest …",
       "text": "Buy a stew during the quest also from the Bartender [Kandarin Easy Diary]",
       "complete": {
-        "op": "diary",
-        "area": "kandarin",
-        "tier": "easy"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2003,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2003,
+            "qty": 16,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 2003,
       "npc": 14660,
       "world": [
         1391,
@@ -2321,11 +2296,7 @@
       "id": "e2-145",
       "title": "Complete 1x Lap of Al Kharid …",
       "text": "Complete 1x Lap of Al Kharid Agility Course [Lumbridge Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "medium"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -2599,11 +2570,7 @@
       "id": "e2-159b",
       "title": "cut a cactus one trip banking …",
       "text": "cut a cactus one trip banking at Nardah [Desert Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 4756,
       "world": [
         3443,
@@ -2731,11 +2698,7 @@
       "id": "e2-166",
       "title": "Steal a tea [Varrock Easy Diary]",
       "text": "Steal a tea [Varrock Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 635,
       "world": [
         3270,
@@ -3379,16 +3342,18 @@
       "id": "e2-207",
       "title": "Teleport to Ardougne [Ardougne Medium Diary]",
       "text": "Teleport to Ardougne [Ardougne Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "medium"
-      },
       "world": [
         2624,
         3300,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e2-208",
@@ -3680,14 +3645,11 @@
       "id": "e2-227",
       "title": "OPTIONAL: Withdraw items obtained from Shilo …",
       "text": "OPTIONAL: Withdraw items obtained from Shilo Village quest, sell to Yanni Salika for 2,000gp when starting One Small Favour",
-      "complete": {
-        "op": "quest",
-        "quest": "ONE_SMALL_FAVOUR",
-        "state": "FINISHED"
-      },
+      "manual": true,
+      "npc": 5361,
       "world": [
-        2825,
-        2959,
+        2836,
+        2983,
         0
       ]
     },
@@ -3804,7 +3766,7 @@
           {
             "op": "itemAcquired",
             "id": 1781,
-            "qty": 200
+            "qty": 100
           },
           {
             "op": "item",
@@ -3825,26 +3787,24 @@
       "id": "e2-234",
       "title": "Teleport to Falador [Falador Medium Diary]",
       "text": "Teleport to Falador [Falador Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "medium"
-      },
       "world": [
         2932,
         3213,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2932,
+        "y": 3213,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e2-235",
       "title": "Pickpocket a guard [Falador Medium Diary]",
       "text": "Pickpocket a guard [Falador Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "medium"
-      },
+      "manual": true,
       "npc": 3269,
       "world": [
         2961,
@@ -3961,9 +3921,10 @@
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
       },
+      "npc": 2892,
       "world": [
-        2836,
-        2983,
+        3027,
+        3249,
         0
       ]
     },
@@ -3971,16 +3932,18 @@
       "id": "e2-243",
       "title": "Teleport to Varrock [Varrock Medium Diary]",
       "text": "Teleport to Varrock [Varrock Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "medium"
-      },
       "world": [
-        3210,
-        3448,
+        3195,
+        3404,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3195,
+        "y": 3404,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e2-244",
@@ -4075,8 +4038,8 @@
       "manual": true,
       "npc": 3531,
       "world": [
-        1867,
-        4235,
+        2765,
+        3511,
         0
       ]
     },
@@ -4087,8 +4050,8 @@
       "manual": true,
       "npc": 3529,
       "world": [
-        1907,
-        4281,
+        2763,
+        3513,
         0
       ]
     },
@@ -4463,9 +4426,10 @@
         "quest": "BONE_VOYAGE",
         "state": "FINISHED"
       },
+      "npc": 1938,
       "world": [
-        3257,
-        3448,
+        3364,
+        3445,
         0
       ]
     },
@@ -4671,11 +4635,7 @@
       "id": "e2-285",
       "title": "Complete a lap of Canifis Agility …",
       "text": "Complete a lap of Canifis Agility Course [Morytania Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "morytania",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         3440,
         3232,
@@ -4729,11 +4689,7 @@
       "id": "e2-289",
       "title": "Get a slayer task from Mazchna …",
       "text": "Get a slayer task from Mazchna [Morytania Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "morytania",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3511,
         3509,
@@ -4747,11 +4703,7 @@
       "id": "e2-290",
       "title": "Buy an Ice Cooler [Desert Medium …",
       "text": "Buy an Ice Cooler [Desert Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         3477,
         3497,
@@ -4777,11 +4729,7 @@
       "id": "e2-292",
       "title": "Kill any citizen with Wolfbane wielded …",
       "text": "Kill any citizen with Wolfbane wielded [Morytania Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "morytania",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3434,
         3461,
@@ -4841,11 +4789,7 @@
       "id": "e2-295b",
       "title": "Make a Snelm & take Thin …",
       "text": "Make a Snelm & take Thin Snail meat [Morytania Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "morytania",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3434,
         3461,
@@ -4905,11 +4849,7 @@
       "id": "e2-299",
       "title": "Pray at Nature Altar once completed …",
       "text": "Pray at Nature Altar once completed [Morytania Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "morytania",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3434,
         3461,
@@ -4982,11 +4922,7 @@
       "id": "e2-305",
       "title": "Make Bread Dough & cook on …",
       "text": "Make Bread Dough & cook on the range [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -5108,11 +5044,7 @@
       "id": "e2-313b",
       "title": "burn Oak logs [Lumbridge Easy Diary]",
       "text": "burn Oak logs [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -5187,11 +5119,7 @@
       "id": "e2-318",
       "title": "Pickpocket Martin the Master Farmer [Lumbridge …",
       "text": "Pickpocket Martin the Master Farmer [Lumbridge Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "medium"
-      },
+      "manual": true,
       "npc": 5832,
       "world": [
         3077,
@@ -5203,11 +5131,7 @@
       "id": "e2-319",
       "title": "Cut 2x Willow Log [Lumbridge Medium …",
       "text": "Cut 2x Willow Log [Lumbridge Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "medium"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -5239,9 +5163,10 @@
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
       },
+      "npc": 4284,
       "world": [
-        2836,
-        2983,
+        3086,
+        3258,
         0
       ]
     },
@@ -5251,8 +5176,8 @@
       "text": "Buy all seeds from Olivia (hop worlds ~10 times). You can use them all for [Birdhouse Runs]",
       "manual": true,
       "world": [
-        2825,
-        2959,
+        3078,
+        3251,
         0
       ]
     },
@@ -5278,8 +5203,8 @@
       },
       "item": 5096,
       "world": [
-        3165,
-        3490,
+        2841,
+        3432,
         0
       ]
     },
@@ -5326,11 +5251,7 @@
       "id": "e2-326",
       "title": "Travel to Entrana [Falador Easy Diary]",
       "text": "Travel to Entrana [Falador Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "easy"
-      },
+      "manual": true,
       "npc": 4062,
       "world": [
         2851,
@@ -5347,9 +5268,10 @@
         "quest": "HOLY_GRAIL",
         "state": "FINISHED"
       },
+      "npc": 4206,
       "world": [
-        2853,
-        3348,
+        3281,
+        2772,
         0
       ]
     },
@@ -5415,11 +5337,7 @@
       "id": "e2-332",
       "title": "Teleport to Lumbridge [Lumbridge Medium Diary]",
       "text": "Teleport to Lumbridge [Lumbridge Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "medium"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -5534,10 +5452,22 @@
       "title": "buy Secateurs [Falador Easy Diary]",
       "text": "buy Secateurs [Falador Easy Diary]",
       "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "easy"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5329,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 5329,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 5329,
       "world": [
         2957,
         3388,
@@ -5694,11 +5624,12 @@
       "complete": {
         "op": "quest",
         "quest": "FAMILY_CREST",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 4984,
       "world": [
         3280,
-        3402,
+        3404,
         0
       ]
     },
@@ -5711,9 +5642,10 @@
         "quest": "BIOHAZARD",
         "state": "FINISHED"
       },
+      "npc": 2887,
       "world": [
-        2592,
-        3336,
+        3277,
+        3397,
         0
       ]
     },
@@ -5838,11 +5770,7 @@
       "id": "e2-357b",
       "title": "enter HAM Hideout [Lumbridge Easy Diary]",
       "text": "enter HAM Hideout [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "object": 24009,
       "world": [
         3227,
@@ -5877,8 +5805,8 @@
       "text": "Head North",
       "manual": true,
       "world": [
-        2836,
-        2983,
+        3189,
+        3273,
         0
       ]
     },
@@ -5891,9 +5819,10 @@
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
       },
+      "npc": 732,
       "world": [
-        2836,
-        2983,
+        3189,
+        3273,
         0
       ]
     },
@@ -5952,11 +5881,7 @@
       "id": "e2-363",
       "title": "Quickly bop a Cave Bug [Lumbridge …",
       "text": "Quickly bop a Cave Bug [Lumbridge Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "lumbridge",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         3222,
         3218,
@@ -6301,9 +6226,10 @@
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
       },
+      "npc": 1351,
       "world": [
-        2836,
-        2983,
+        3228,
+        3291,
         0
       ]
     },
@@ -6316,9 +6242,10 @@
         "quest": "THE_IDES_OF_MILK",
         "state": "FINISHED"
       },
+      "npc": 4628,
       "world": [
-        3171,
-        3277,
+        3253,
+        3270,
         0
       ]
     },
@@ -6331,9 +6258,10 @@
         "quest": "THE_IDES_OF_MILK",
         "state": "FINISHED"
       },
+      "npc": 1351,
       "world": [
-        3171,
-        3277,
+        3228,
+        3291,
         0
       ]
     },
@@ -6544,11 +6472,7 @@
       "id": "e2-398b",
       "title": "fish a Shrimp/Anchovy [Ardougne Medium Diary]",
       "text": "fish a Shrimp/Anchovy [Ardougne Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         2924,
         3181,
@@ -6789,7 +6713,7 @@
           {
             "op": "itemAcquired",
             "id": 1781,
-            "qty": 300
+            "qty": 200
           },
           {
             "op": "item",
@@ -6876,16 +6800,18 @@
       "id": "e2-420",
       "title": "Go out on the Fishing Trawler …",
       "text": "Go out on the Fishing Trawler (W370) [Ardougne Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "ardougne",
-        "tier": "easy"
-      },
       "world": [
         2566,
         3083,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2566,
+        "y": 3083,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e2-421",
@@ -6938,12 +6864,13 @@
       "complete": {
         "op": "quest",
         "quest": "UNDERGROUND_PASS",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
+      "npc": 9005,
       "world": [
-        2572,
-        3296,
-        0
+        2578,
+        3293,
+        1
       ]
     },
     {
@@ -7273,11 +7200,7 @@
       "id": "e2-447",
       "title": "Make Blurite Limbs [Falador Easy Diary] …",
       "text": "Make Blurite Limbs [Falador Easy Diary] (drop these)",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         2947,
         3382,
@@ -7451,11 +7374,7 @@
       "id": "e2-460",
       "title": "Dig a Salt Petre South-East [Kourend …",
       "text": "Dig a Salt Petre South-East [Kourend Easy Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kourend",
-        "tier": "easy"
-      },
+      "manual": true,
       "world": [
         1630,
         3730,
@@ -7679,11 +7598,7 @@
       "id": "e2-477",
       "title": "Complete Varrock Agility Course [Varrock Medium …",
       "text": "Complete Varrock Agility Course [Varrock Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "varrock",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         3195,
         3404,
@@ -8849,6 +8764,7 @@
         "quest": "DEATH_PLATEAU",
         "state": "FINISHED"
       },
+      "npc": 4083,
       "world": [
         2896,
         3529,
@@ -8859,11 +8775,7 @@
       "id": "e2-555",
       "title": "Crack a wall safe [Falador Hard …",
       "text": "Crack a wall safe [Falador Hard Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "falador",
-        "tier": "hard"
-      },
+      "manual": true,
       "world": [
         2982,
         3514,
@@ -8881,10 +8793,22 @@
       "title": "Buy 25x lockpick [Kandarin Medium Diary][Desert …",
       "text": "Buy 25x lockpick [Kandarin Medium Diary][Desert Treasure]",
       "complete": {
-        "op": "diary",
-        "area": "desert",
-        "tier": "medium"
-      }
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1523,
+            "qty": 25
+          },
+          {
+            "op": "item",
+            "id": 1523,
+            "qty": 52,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1523
     },
     {
       "id": "e2-558",
@@ -8933,7 +8857,7 @@
           {
             "op": "itemAcquired",
             "id": 1523,
-            "qty": 25
+            "qty": 50
           },
           {
             "op": "item",
@@ -9252,10 +9176,11 @@
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
       },
+      "npc": 5035,
       "world": [
-        3211,
-        3422,
-        0
+        3158,
+        3427,
+        1
       ]
     },
     {
@@ -9264,9 +9189,9 @@
       "text": "Enter Cooks Guild",
       "manual": true,
       "world": [
-        3211,
-        3422,
-        0
+        3158,
+        3427,
+        1
       ]
     },
     {
@@ -9334,11 +9259,7 @@
       "id": "e2-584",
       "title": "Take Edgeville Fairy ring to CIR …",
       "text": "Take Edgeville Fairy ring to CIR [Kourend Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kourend",
-        "tier": "medium"
-      },
+      "manual": true,
       "object": 1581,
       "world": [
         3097,
@@ -9350,11 +9271,7 @@
       "id": "e2-585",
       "title": "Enter Farming Guild [Kourend Medium Diary]",
       "text": "Enter Farming Guild [Kourend Medium Diary]",
-      "complete": {
-        "op": "diary",
-        "area": "kourend",
-        "tier": "medium"
-      },
+      "manual": true,
       "world": [
         1249,
         3737,
@@ -9466,23 +9383,7 @@
       "id": "e2-594",
       "title": "OPTIONAL: Buy 22 Baskets, fill with …",
       "text": "OPTIONAL: Buy 22 Baskets, fill with oranges at Grand Tree to protect Maples",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 5376,
-            "qty": 22
-          },
-          {
-            "op": "item",
-            "id": 5376,
-            "qty": 22,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 5376,
+      "manual": true,
       "world": [
         3165,
         3490,
