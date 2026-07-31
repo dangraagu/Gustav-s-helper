@@ -624,10 +624,11 @@
       "text": "Speak with Wilough in the north-east section of the square",
       "manual": true,
       "world": [
-        3148,
-        3413,
+        3220,
+        3435,
         0
-      ]
+      ],
+      "npc": 3503
     },
     {
       "id": "making-the-loop-around-f-022b",
@@ -650,10 +651,11 @@
       "text": "Head north-east",
       "manual": true,
       "world": [
-        2638,
-        3293,
+        3241,
+        3471,
         0
-      ]
+      ],
+      "npc": 10408
     },
     {
       "id": "making-the-loop-around-f-023b",
@@ -664,10 +666,10 @@
         "quest": "DADDYS_HOME",
         "state": "IN_PROGRESS"
       },
-      "npc": 3097,
+      "npc": 10408,
       "world": [
-        2638,
-        3293,
+        3241,
+        3471,
         0
       ]
     },
@@ -941,10 +943,10 @@
       "title": "Head east to Aubury's Rune Shop",
       "text": "Head east to Aubury's Rune Shop",
       "manual": true,
-      "npc": 1788,
+      "npc": 11434,
       "world": [
         3253,
-        3402,
+        3401,
         0
       ]
     },

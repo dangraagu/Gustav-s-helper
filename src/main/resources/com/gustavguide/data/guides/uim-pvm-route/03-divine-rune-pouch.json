@@ -63,10 +63,10 @@
       "title": "Kill Dagannoth Rex for a Berserker …",
       "text": "Kill Dagannoth Rex for a Berserker Ring — Use iban blast or a warped scepter with blood spells to heal. — Preferably do this on a Slayer task",
       "manual": true,
-      "npc": 980,
+      "npc": 2267,
       "world": [
-        2518,
-        4640,
+        2633,
+        9661,
         0
       ]
     },

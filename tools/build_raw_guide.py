@@ -43,13 +43,32 @@ def apply_override(step, ov):
         step["manual"] = True
         return True
     if isinstance(ov, dict):
+        changed = False
         if "complete" in ov:
             step["complete"] = ov["complete"]
             step.pop("manual", None)
             step.pop("note", None)
+            changed = True
         if "item" in ov:
             step["item"] = ov["item"]
-        return "complete" in ov or "item" in ov
+            changed = True
+        # Human-grounded coordinate / highlight override (from the NPC-id sweep). Beats the enricher.
+        if "world" in ov:
+            w = ov["world"]
+            step["world"] = [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0]
+            changed = True
+        if "npc" in ov:
+            step["npc"] = int(ov["npc"])
+            step.pop("npcs", None)
+            changed = True
+        if "npcs" in ov:
+            step["npcs"] = [int(i) for i in ov["npcs"]]
+            step.pop("npc", None)
+            changed = True
+        if "object" in ov:
+            step["object"] = int(ov["object"])
+            changed = True
+        return changed
     return False
 
 

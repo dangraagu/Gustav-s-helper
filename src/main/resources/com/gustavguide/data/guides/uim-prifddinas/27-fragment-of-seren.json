@@ -75,10 +75,10 @@
       "title": "Get a candle from Catherby",
       "text": "Get a candle from Catherby",
       "manual": true,
-      "npc": 1520,
+      "npc": 3199,
       "world": [
-        2841,
-        3432,
+        2799,
+        3439,
         0
       ]
     },
@@ -88,8 +88,8 @@
       "text": "light it",
       "manual": true,
       "world": [
-        2841,
-        3432,
+        2799,
+        3439,
         0
       ]
     },
@@ -323,7 +323,8 @@
         3184,
         2989,
         0
-      ]
+      ],
+      "npc": 688
     },
     {
       "id": "fragment-of-seren-022",

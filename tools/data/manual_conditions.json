@@ -5,7 +5,15 @@
     "divine-rune-pouch-002": "manual",
     "divine-rune-pouch-009": "manual",
     "god-wars-dungeon-001": "manual",
-    "theatre-of-blood-006": "manual"
+    "theatre-of-blood-006": "manual",
+    "divine-rune-pouch-007": {
+      "world": [
+        2633,
+        9661,
+        0
+      ],
+      "npc": 2267
+    }
   },
   "uim-prifddinas": {
     "fresh-off-the-boat-005": {
@@ -68,6 +76,186 @@
         ]
       },
       "item": 327
+    },
+    "making-the-loop-around-f-022a": {
+      "world": [
+        3220,
+        3435,
+        0
+      ],
+      "npc": 3503
+    },
+    "making-the-loop-around-f-023a": {
+      "world": [
+        3241,
+        3471,
+        0
+      ],
+      "npc": 10408
+    },
+    "making-the-loop-around-f-023b": {
+      "world": [
+        3241,
+        3471,
+        0
+      ],
+      "npc": 10408
+    },
+    "making-the-loop-around-f-039a": {
+      "world": [
+        3253,
+        3401,
+        0
+      ],
+      "npc": 11434
+    },
+    "into-ardougne-and-plague-028": {
+      "world": [
+        2534,
+        3570,
+        0
+      ],
+      "npc": 1657
+    },
+    "fairy-rings-and-more-far-006": {
+      "world": [
+        3077,
+        3263,
+        0
+      ],
+      "npc": 5832
+    },
+    "fairy-rings-and-more-far-009": {
+      "world": [
+        3077,
+        3263,
+        0
+      ],
+      "npc": 5832
+    },
+    "ammonite-crabs-006": {
+      "world": [
+        3079,
+        3250,
+        0
+      ],
+      "npc": 500
+    },
+    "fragment-of-seren-006a": {
+      "world": [
+        2799,
+        3439,
+        0
+      ],
+      "npc": 3199
+    },
+    "fragment-of-seren-021": {
+      "world": [
+        3184,
+        2989,
+        0
+      ],
+      "npc": 688
+    },
+    "guardians-of-the-rift-ea-007": {
+      "world": [
+        3098,
+        3257,
+        0
+      ],
+      "npc": 4280
+    },
+    "guardians-of-the-rift-ea-032a": {
+      "world": [
+        3231,
+        3203,
+        0
+      ],
+      "npc": 10619
+    }
+  },
+  "b0aty-hcim": {
+    "e2-149": {
+      "world": [
+        3286,
+        3180,
+        0
+      ],
+      "npc": 4286
+    },
+    "e1-075": {
+      "world": [
+        3211,
+        3422,
+        0
+      ],
+      "npc": 5037
+    },
+    "e3-048": {
+      "world": [
+        3211,
+        3422,
+        0
+      ],
+      "npc": 5037
+    },
+    "e4-639": {
+      "world": [
+        3211,
+        3422,
+        0
+      ],
+      "npc": 5037
+    },
+    "e2-336a": {
+      "world": [
+        3077,
+        3263,
+        0
+      ],
+      "npc": 5832
+    },
+    "e2-361": {
+      "world": [
+        3077,
+        3263,
+        0
+      ],
+      "npc": 5832
+    },
+    "e13-001": {
+      "world": [
+        4139,
+        4383,
+        0
+      ],
+      "npc": 13599
+    },
+    "e12-013": {
+      "world": [
+        1623,
+        2982,
+        0
+      ],
+      "npc": 12932
+    },
+    "e12-061": {
+      "world": [
+        1366,
+        3367,
+        0
+      ],
+      "npc": 14577
+    }
+  },
+  "osiris-ironman": {
+    "eg-061": {
+      "world": [
+        2493,
+        3488,
+        1
+      ],
+      "npc": 16
     }
   }
 }

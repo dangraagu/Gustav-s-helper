@@ -731,11 +731,11 @@
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
       },
-      "npc": 5035,
+      "npc": 5037,
       "world": [
-        3158,
-        3427,
-        1
+        3211,
+        3422,
+        0
       ]
     },
     {
@@ -744,9 +744,9 @@
       "text": "Fill the buckets",
       "manual": true,
       "world": [
-        3158,
-        3427,
-        1
+        3211,
+        3422,
+        0
       ]
     },
     {
@@ -755,9 +755,9 @@
       "text": "make 2x Soft Clay. Refill the Buckets",
       "manual": true,
       "world": [
-        3158,
-        3427,
-        1
+        3211,
+        3422,
+        0
       ]
     },
     {

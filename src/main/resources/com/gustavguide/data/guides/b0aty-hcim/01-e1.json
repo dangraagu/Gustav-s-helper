@@ -1470,11 +1470,11 @@
         "quest": "ROMEO__JULIET",
         "state": "FINISHED"
       },
-      "npc": 5035,
+      "npc": 5037,
       "world": [
-        3158,
-        3427,
-        1
+        3211,
+        3422,
+        0
       ]
     },
     {

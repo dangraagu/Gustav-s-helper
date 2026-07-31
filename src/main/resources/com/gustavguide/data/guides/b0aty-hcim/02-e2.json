@@ -2416,10 +2416,10 @@
         "quest": "PRINCE_ALI_RESCUE",
         "state": "FINISHED"
       },
-      "npc": 11579,
+      "npc": 4286,
       "world": [
-        3123,
-        3240,
+        3286,
+        3180,
         0
       ]
     },
@@ -5403,10 +5403,10 @@
       "title": "Talk to Martin the Master Gardener …",
       "text": "Talk to Martin the Master Gardener in Draynor",
       "manual": true,
-      "npc": 3651,
+      "npc": 5832,
       "world": [
-        2999,
-        3383,
+        3077,
+        3263,
         0
       ]
     },
@@ -5831,10 +5831,10 @@
       "title": "Return to Martin the Master Gardener …",
       "text": "Return to Martin the Master Gardener & Continue Fairy Tale Part I (2)",
       "manual": true,
-      "npc": 3651,
+      "npc": 5832,
       "world": [
-        2999,
-        3383,
+        3077,
+        3263,
         0
       ]
     },
@@ -5860,8 +5860,8 @@
       },
       "item": 1379,
       "world": [
-        3015,
-        3357,
+        3093,
+        3244,
         0
       ]
     },

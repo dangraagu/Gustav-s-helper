@@ -107,10 +107,10 @@
       "title": "Buy a lot of hops seeds …",
       "text": "Buy a lot of hops seeds from Olivia in Draynor Village. You could also thieve them from Master farmers if you want to go out of your way for that. Keep in mind you don't want to clog up your inventory with seeds until after prayer, so don't go too crazy at master farmers yet. — How many you get will depend on how actively you think you will do birdhouse runs.",
       "manual": true,
-      "npc": 6618,
+      "npc": 500,
       "world": [
-        3103,
-        3265,
+        3079,
+        3250,
         0
       ]
     },

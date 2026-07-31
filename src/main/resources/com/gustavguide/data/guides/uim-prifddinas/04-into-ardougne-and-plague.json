@@ -571,10 +571,10 @@
       "title": "Speak with Captain Cain to unlock …",
       "text": "Speak with Captain Cain to unlock the minigame teleport to Barbarian Assault. (Say you are an expert already.)",
       "manual": true,
-      "npc": 6649,
+      "npc": 1657,
       "world": [
-        2549,
-        3558,
+        2534,
+        3570,
         0
       ]
     },
