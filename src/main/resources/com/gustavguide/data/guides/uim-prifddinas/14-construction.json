@@ -7,6 +7,57 @@
       "id": "construction-001",
       "title": "Inventory check: steel bar, Steel bar, …",
       "text": "Inventory check: steel bar, Steel bar, Steel bar, Saw, hammer, Adamant axe, Law rune, Rune pouch, Coins",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 2353,
+          "qty": 3,
+          "name": "steel bar",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 8794,
+          "qty": 1,
+          "name": "Saw",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2347,
+          "qty": 1,
+          "name": "hammer",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1357,
+          "qty": 1,
+          "name": "Adamant axe",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 563,
+          "qty": 1,
+          "name": "Law rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 12791,
+          "qty": 1,
+          "name": "Rune pouch",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "Coins",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     },
     {

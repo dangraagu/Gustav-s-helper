@@ -492,6 +492,15 @@
       "id": "questing-for-combats-035",
       "title": "Inventory check: Dragon battleaxe",
       "text": "Inventory check: Dragon battleaxe",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 1377,
+          "qty": 1,
+          "name": "Dragon battleaxe",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     }
   ]

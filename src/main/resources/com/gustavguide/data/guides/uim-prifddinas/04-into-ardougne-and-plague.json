@@ -1052,6 +1052,78 @@
       "id": "into-ardougne-and-plague-059",
       "title": "Inventory check: Cake, Cake, Cake, Cake, …",
       "text": "Inventory check: Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Cake, Teleport to house (tablet), Rope, Hazelmere's scroll, Glarial's pebble, Earth rune, Water rune, Air rune, Mind rune, Portrait, Tinderbox, Steel axe, Coins",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 1891,
+          "qty": 12,
+          "name": "Cake",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 8013,
+          "qty": 1,
+          "name": "Teleport to house (tablet)",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 954,
+          "qty": 1,
+          "name": "Rope",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 557,
+          "qty": 1,
+          "name": "Earth rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 555,
+          "qty": 1,
+          "name": "Water rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 556,
+          "qty": 1,
+          "name": "Air rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 558,
+          "qty": 1,
+          "name": "Mind rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 590,
+          "qty": 1,
+          "name": "Tinderbox",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1353,
+          "qty": 1,
+          "name": "Steel axe",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "Coins",
+          "scope": "ANY"
+        }
+      ],
       "manual": true,
       "npc": 1422,
       "world": [

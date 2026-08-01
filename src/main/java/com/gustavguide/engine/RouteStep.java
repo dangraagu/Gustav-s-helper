@@ -8,8 +8,10 @@ import com.gustavguide.IronmanMode;
 import com.gustavguide.engine.condition.Condition;
 import com.gustavguide.engine.condition.PositionCondition;
 import com.gustavguide.engine.condition.QuestCondition;
+import com.gustavguide.requirement.ItemRequirement;
 import com.gustavguide.requirement.Requirement;
 import java.util.Collections;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 import net.runelite.api.coords.WorldPoint;
@@ -33,6 +35,10 @@ public class RouteStep
 	private final List<Requirement> requirements;
 	private final Condition complete;
 	private final String note;             // optional panel tip (e.g. a skill-training method), nullable
+	// Every item this step wants highlighted: the single highlight id PLUS each item requirement (an
+	// "Inventory check: A, B, C" step lists them all). Precomputed — the item overlay reads it per slot,
+	// per frame, so it must not allocate or walk the requirement list on the hot path.
+	private final Set<Integer> highlightItemIds;
 
 	/** Single-npc convenience overload (also what the tests use); no note. */
 	public RouteStep(String id, String section, String title, String text, String wikiUrl,
@@ -63,6 +69,33 @@ public class RouteStep
 		this.requirements = requirements == null ? Collections.emptyList() : requirements;
 		this.complete = complete;
 		this.note = note;
+
+		Set<Integer> items = new LinkedHashSet<>();
+		if (highlightItemId >= 0)
+		{
+			items.add(highlightItemId);
+		}
+		for (Requirement r : this.requirements)
+		{
+			if (r instanceof ItemRequirement)
+			{
+				int itemId = ((ItemRequirement) r).getItemId();
+				if (itemId >= 0)
+				{
+					items.add(itemId);
+				}
+			}
+		}
+		this.highlightItemIds = Collections.unmodifiableSet(items);
+	}
+
+	/**
+	 * Every item id this step wants highlighted in the inventory/bank/shop — the single highlight item
+	 * plus each item requirement, so an "Inventory check" step outlines its whole checklist.
+	 */
+	public Set<Integer> getHighlightItemIds()
+	{
+		return highlightItemIds;
 	}
 
 	/** Optional tip shown under the step text (skill-training method, etc.); null if none. */

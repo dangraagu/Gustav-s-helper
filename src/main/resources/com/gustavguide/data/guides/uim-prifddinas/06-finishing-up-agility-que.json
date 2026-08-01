@@ -478,6 +478,50 @@
       "id": "finishing-up-agility-que-035",
       "title": "Inventory check: Premade choc bomb, Premade …",
       "text": "Inventory check: Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Premade choc bomb, Mind rune, Air rune, Water rune, Earth rune, coins",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 2229,
+          "qty": 8,
+          "name": "Premade choc bomb",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 558,
+          "qty": 1,
+          "name": "Mind rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 556,
+          "qty": 1,
+          "name": "Air rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 555,
+          "qty": 1,
+          "name": "Water rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 557,
+          "qty": 1,
+          "name": "Earth rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "coins",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     },
     {

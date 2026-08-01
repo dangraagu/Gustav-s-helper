@@ -58,6 +58,43 @@
       "id": "inferno-006",
       "title": "Inventory check: blue moon spear, Blue …",
       "text": "Inventory check: blue moon spear, Blue moon tassets, Saradomin brew, Divine rune pouch, blue moon chestplate, Toxic blowpipe, Saradomin brew, Saradomin brew, Saradomin brew, Saradomin brew",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 28988,
+          "qty": 1,
+          "name": "blue moon spear",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 29016,
+          "qty": 1,
+          "name": "Blue moon tassets",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 27281,
+          "qty": 1,
+          "name": "Divine rune pouch",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 29013,
+          "qty": 1,
+          "name": "blue moon chestplate",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 12924,
+          "qty": 1,
+          "name": "Toxic blowpipe",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     }
   ]

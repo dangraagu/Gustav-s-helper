@@ -1202,6 +1202,148 @@
       "id": "making-the-loop-around-f-057",
       "title": "Inventory check: Chocolate cake, Stew, Bucket …",
       "text": "Inventory check: Chocolate cake, Stew, Bucket of water, Pie dish, Redberries, Redberries, Redberries, Woad leaf, Onion, Onion, Cheese, Stake, Steel nails, plank;n\\25, hammer, Saw, Falador teleport (tablet), Teleport to house (tablet), Earth rune, Water rune, Air rune, Mind rune, Antique lamp (Easy Combat Achievements), Ghost's skull, Research notes (Rune Mysteries), coins",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 1897,
+          "qty": 1,
+          "name": "Chocolate cake",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2003,
+          "qty": 1,
+          "name": "Stew",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1929,
+          "qty": 1,
+          "name": "Bucket of water",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2313,
+          "qty": 1,
+          "name": "Pie dish",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1951,
+          "qty": 3,
+          "name": "Redberries",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1793,
+          "qty": 1,
+          "name": "Woad leaf",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1957,
+          "qty": 2,
+          "name": "Onion",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1985,
+          "qty": 1,
+          "name": "Cheese",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1549,
+          "qty": 1,
+          "name": "Stake",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1539,
+          "qty": 1,
+          "name": "Steel nails",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2347,
+          "qty": 1,
+          "name": "hammer",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 8794,
+          "qty": 1,
+          "name": "Saw",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 8009,
+          "qty": 1,
+          "name": "Falador teleport (tablet)",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 8013,
+          "qty": 1,
+          "name": "Teleport to house (tablet)",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 557,
+          "qty": 1,
+          "name": "Earth rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 555,
+          "qty": 1,
+          "name": "Water rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 556,
+          "qty": 1,
+          "name": "Air rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 558,
+          "qty": 1,
+          "name": "Mind rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 291,
+          "qty": 1,
+          "name": "Research notes",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "coins",
+          "scope": "ANY"
+        }
+      ],
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",

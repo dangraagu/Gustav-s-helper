@@ -388,6 +388,43 @@
       "id": "fresh-off-the-boat-021",
       "title": "Inventory check: Mysterious orb (X Marks …",
       "text": "Inventory check: Mysterious orb (X Marks the Spot), Spade, Bucket of water, Bucket of milk, Air talisman, Coins",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 952,
+          "qty": 1,
+          "name": "Spade",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1929,
+          "qty": 1,
+          "name": "Bucket of water",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1927,
+          "qty": 1,
+          "name": "Bucket of milk",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1438,
+          "qty": 1,
+          "name": "Air talisman",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "Coins",
+          "scope": "ANY"
+        }
+      ],
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",

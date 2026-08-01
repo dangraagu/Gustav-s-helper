@@ -23,6 +23,12 @@ public class ItemRequirement implements Requirement
 		this.scope = scope;
 	}
 
+	/** The item this requirement wants — used to highlight it in the inventory/bank/shop. */
+	public int getItemId()
+	{
+		return itemId;
+	}
+
 	@Override
 	public boolean check(ConditionContext ctx)
 	{

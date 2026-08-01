@@ -29,6 +29,29 @@
       "id": "optional-zulrah-003",
       "title": "Inventory check: Bow of faerdhinen, Crystal …",
       "text": "Inventory check: Bow of faerdhinen, Crystal legs, Ranging potion, Super defence, Crystal body, Crystal helm, Anti-venom, Prayer potion, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese, Potato with cheese",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 25865,
+          "qty": 1,
+          "name": "Bow of faerdhinen",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2444,
+          "qty": 1,
+          "name": "Ranging potion",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 6705,
+          "qty": 11,
+          "name": "Potato with cheese",
+          "scope": "ANY"
+        }
+      ],
       "manual": true,
       "world": [
         3208,

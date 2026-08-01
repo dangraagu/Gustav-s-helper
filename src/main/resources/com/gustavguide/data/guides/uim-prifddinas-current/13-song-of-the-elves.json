@@ -33,6 +33,50 @@
       "id": "song-of-the-elves-003",
       "title": "Inventory check: Maple shortbow, Nightshade, Pineapple …",
       "text": "Inventory check: Maple shortbow, Nightshade, Pineapple pizza, Pineapple pizza, Pineapple pizza, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Super restore, Super restore, Super restore, Phoenix necklace, Super restore, Super restore, Coins, rune pouch",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 853,
+          "qty": 1,
+          "name": "Maple shortbow",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2398,
+          "qty": 1,
+          "name": "Nightshade",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2301,
+          "qty": 3,
+          "name": "Pineapple pizza",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 11090,
+          "qty": 16,
+          "name": "Phoenix necklace",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "Coins",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 12791,
+          "qty": 1,
+          "name": "rune pouch",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     }
   ]

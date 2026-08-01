@@ -170,6 +170,134 @@
       "id": "herblore-013",
       "title": "Inventory check: Jangerberry seed, Snape grass …",
       "text": "Inventory check: Jangerberry seed, Snape grass seed, Strawberry seed, Watermelon seed, Limpwurt seed, Whiteberry seed, Kwuarm seed, Avantoe seed, Irit seed, Toadflax seed, Ranarr seed, Harralander seed, Lantadyme seed, Snapdragon seed, Seed box, Looting bag, Coins, Rune pouch",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 5104,
+          "qty": 1,
+          "name": "Jangerberry seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 22879,
+          "qty": 1,
+          "name": "Snape grass seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5323,
+          "qty": 1,
+          "name": "Strawberry seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5321,
+          "qty": 1,
+          "name": "Watermelon seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5100,
+          "qty": 1,
+          "name": "Limpwurt seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5105,
+          "qty": 1,
+          "name": "Whiteberry seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5299,
+          "qty": 1,
+          "name": "Kwuarm seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5298,
+          "qty": 1,
+          "name": "Avantoe seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5297,
+          "qty": 1,
+          "name": "Irit seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5296,
+          "qty": 1,
+          "name": "Toadflax seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5295,
+          "qty": 1,
+          "name": "Ranarr seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5294,
+          "qty": 1,
+          "name": "Harralander seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5302,
+          "qty": 1,
+          "name": "Lantadyme seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 5300,
+          "qty": 1,
+          "name": "Snapdragon seed",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 13639,
+          "qty": 1,
+          "name": "Seed box",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 11941,
+          "qty": 1,
+          "name": "Looting bag",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "Coins",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 12791,
+          "qty": 1,
+          "name": "Rune pouch",
+          "scope": "ANY"
+        }
+      ],
       "complete": {
         "op": "or",
         "of": [

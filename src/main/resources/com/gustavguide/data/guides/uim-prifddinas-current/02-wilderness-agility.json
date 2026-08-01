@@ -272,6 +272,22 @@
       "id": "wilderness-agility-024",
       "title": "Inventory check: Looting bag, Wilderness agility …",
       "text": "Inventory check: Looting bag, Wilderness agility ticket, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan, Cooked karambwan",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 11941,
+          "qty": 1,
+          "name": "Looting bag",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 3144,
+          "qty": 15,
+          "name": "Cooked karambwan",
+          "scope": "ANY"
+        }
+      ],
       "complete": {
         "op": "or",
         "of": [

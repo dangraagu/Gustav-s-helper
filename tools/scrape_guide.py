@@ -376,6 +376,44 @@ def detect_item_id_qty(text: str, item_map):
     return (best_id, qty)
 
 
+# "Inventory check: Rope, Spade, Coins" — a checklist step. Each named item becomes a REQUIREMENT so the
+# panel can show it green (carried) or red (missing) and the overlay can highlight the whole list.
+_CHECK_RE = re.compile(r"^\s*(?:inventory|inv|equipment|gear)\s*check\s*:\s*(.+)$",
+                       re.IGNORECASE | re.DOTALL)
+_PAREN_RE = re.compile(r"\s*\([^)]*\)")
+
+
+def parse_check_items(text):
+    """For an "<Inventory|Equipment> check: A, B, C" step, return requirement dicts for every item name
+    we can GROUND in the item index (repeats collapse into a quantity). Unrecognised names are dropped
+    rather than guessed, so a requirement never points at the wrong item. Returns [] for other steps."""
+    m = _CHECK_RE.match(text or "")
+    if not m:
+        return []
+    counts, order = {}, []
+    for raw in m.group(1).split(","):
+        name = raw.strip().rstrip(".").strip()
+        # Sub-note separators ("—") end the checklist portion of the step.
+        name = re.split(r"[—–]", name)[0].strip()
+        if not name:
+            continue
+        iid = None
+        for cand in (name, _PAREN_RE.sub("", name).strip()):
+            key = _norm(cand).strip()
+            if key:
+                iid = NORM_ITEM_INDEX.get(key)
+            if iid is not None:
+                name = cand
+                break
+        if iid is None:
+            continue  # not groundable -> leave it out rather than mis-highlight
+        if iid not in counts:
+            order.append((iid, name))
+        counts[iid] = counts.get(iid, 0) + 1
+    return [{"type": "item", "id": iid, "qty": counts[iid], "name": nm, "scope": "ANY"}
+            for iid, nm in order]
+
+
 def item_condition(item_id, cumulative_qty, total_qty):
     """
     Complete a pickup step when EITHER:
@@ -1314,6 +1352,11 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     step = {"id": sid, "title": heading(name), "text": text}
     if url and isinstance(url, str) and url.startswith("http"):
         step["wiki"] = url
+    # "Inventory check: A, B, C" -> one item requirement per listed item, so the panel marks each carried
+    # (green) or missing (red) and the overlay highlights the whole checklist.
+    check_reqs = parse_check_items(name)
+    if check_reqs:
+        step["requirements"] = check_reqs
     # Precedence: skill target > quest completion > achievement-diary completion > item acquisition.
     # An OPTIONAL step never becomes an auto gate — it stays manual so it can't block the fold/arrivals.
     optional = bool(_OPTIONAL_RE.match(name))

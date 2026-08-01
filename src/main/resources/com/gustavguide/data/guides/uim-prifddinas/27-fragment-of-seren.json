@@ -370,6 +370,50 @@
       "id": "fragment-of-seren-025",
       "title": "Inventory check: Yew shortbow, Guthix rest, …",
       "text": "Inventory check: Yew shortbow, Guthix rest, Phoenix necklace, Cave nightshade, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Cave nightshade, Cave nightshade, Cave nightshade, Cave nightshade, Phoenix necklace, Phoenix necklace, Phoenix necklace, Phoenix necklace, Cave nightshade, Cave nightshade, Cave nightshade, Cave nightshade, Cave nightshade, Super restore, Super restore, Super restore, Seed box, Coins, Looting bag, rune pouch",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 857,
+          "qty": 1,
+          "name": "Yew shortbow",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 11090,
+          "qty": 9,
+          "name": "Phoenix necklace",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 13639,
+          "qty": 1,
+          "name": "Seed box",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "Coins",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 11941,
+          "qty": 1,
+          "name": "Looting bag",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 12791,
+          "qty": 1,
+          "name": "rune pouch",
+          "scope": "ANY"
+        }
+      ],
       "complete": {
         "op": "or",
         "of": [

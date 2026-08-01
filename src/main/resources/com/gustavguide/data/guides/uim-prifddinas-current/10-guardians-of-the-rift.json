@@ -184,6 +184,22 @@
       "id": "guardians-of-the-rift-012",
       "title": "Inventory check: small pouch, Medium pouch, …",
       "text": "Inventory check: small pouch, Medium pouch, Abyssal pearls, Rune pouch, Chisel",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 12791,
+          "qty": 1,
+          "name": "Rune pouch",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1755,
+          "qty": 1,
+          "name": "Chisel",
+          "scope": "ANY"
+        }
+      ],
       "manual": true,
       "npc": 415,
       "world": [

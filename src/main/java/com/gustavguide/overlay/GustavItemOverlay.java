@@ -48,8 +48,10 @@ public class GustavItemOverlay extends WidgetItemOverlay
 		{
 			return;
 		}
-		int wantId = step.getHighlightItemId();
-		if (wantId < 0 || wantId != itemId)
+		// Highlight EVERY item the step wants — an "Inventory check: A, B, C" step lists them all as
+		// requirements, so the whole checklist lights up, not just one item. The set is precomputed on
+		// RouteStep; contains() on a small set is cheap enough for this per-slot, per-frame path.
+		if (!step.getHighlightItemIds().contains(itemId))
 		{
 			return;
 		}

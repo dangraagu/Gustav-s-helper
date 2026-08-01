@@ -69,6 +69,29 @@
       "id": "prayer-005",
       "title": "Inventory check: Dwarven rock cake, coins, …",
       "text": "Inventory check: Dwarven rock cake, coins, Fire rune, Rune pouch",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "coins",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 554,
+          "qty": 1,
+          "name": "Fire rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 12791,
+          "qty": 1,
+          "name": "Rune pouch",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     },
     {

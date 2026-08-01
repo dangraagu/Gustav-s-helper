@@ -18,6 +18,36 @@
       "id": "royal-titans-002",
       "title": "Inventory check: Hunters' sunlight crossbow, Black …",
       "text": "Inventory check: Hunters' sunlight crossbow, Black d'hide chaps, Super attack, Super strength, Black d'hide body, Ava's accumulator",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 28869,
+          "qty": 1,
+          "name": "Hunters' sunlight crossbow",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2497,
+          "qty": 1,
+          "name": "Black d'hide chaps",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 2503,
+          "qty": 1,
+          "name": "Black d'hide body",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 10499,
+          "qty": 1,
+          "name": "Ava's accumulator",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     }
   ]

@@ -702,6 +702,57 @@
       "id": "finishing-the-knight-s-s-039",
       "title": "Inventory check: Air rune, Water rune, …",
       "text": "Inventory check: Air rune, Water rune, Earth rune, Mind rune, Hazelmere's scroll, Teleport to house (tablet), Steel axe, Coins",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 556,
+          "qty": 1,
+          "name": "Air rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 555,
+          "qty": 1,
+          "name": "Water rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 557,
+          "qty": 1,
+          "name": "Earth rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 558,
+          "qty": 1,
+          "name": "Mind rune",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 8013,
+          "qty": 1,
+          "name": "Teleport to house (tablet)",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 1353,
+          "qty": 1,
+          "name": "Steel axe",
+          "scope": "ANY"
+        },
+        {
+          "type": "item",
+          "id": 995,
+          "qty": 1,
+          "name": "Coins",
+          "scope": "ANY"
+        }
+      ],
       "manual": true,
       "npc": 1422,
       "world": [

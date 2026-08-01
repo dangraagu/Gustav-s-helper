@@ -36,6 +36,15 @@
       "id": "moons-of-peril-004",
       "title": "Inventory check: crystal halberd, Moonlight potion, …",
       "text": "Inventory check: crystal halberd, Moonlight potion, Moonlight potion, Moonlight potion, Cooked moss lizard, Cooked moss lizard",
+      "requirements": [
+        {
+          "type": "item",
+          "id": 23987,
+          "qty": 1,
+          "name": "crystal halberd",
+          "scope": "ANY"
+        }
+      ],
       "manual": true
     }
   ]
