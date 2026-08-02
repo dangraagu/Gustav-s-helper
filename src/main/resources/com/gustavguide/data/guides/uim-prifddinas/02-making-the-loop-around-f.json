@@ -374,7 +374,7 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-014a",
+      "id": "making-the-loop-around-f-014at",
       "title": "Head north into Falador, Speak with …",
       "text": "Head north into Falador, Speak with Wyson the gardener in Falador Park",
       "manual": true,
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-014b",
+      "id": "making-the-loop-around-f-014c",
       "title": "buy 2 woad leaves",
       "text": "buy 2 woad leaves",
       "complete": {
@@ -413,7 +413,7 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-015",
+      "id": "making-the-loop-around-f-015at",
       "title": "Go to Falador Castle, speak with …",
       "text": "Go to Falador Castle, speak with the Squire to begin The Knight's Sword",
       "complete": {
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-019",
+      "id": "making-the-loop-around-f-019at",
       "title": "Head east, speak to Gertrude to …",
       "text": "Head east, speak to Gertrude to start Gertrude's Cat",
       "complete": {
@@ -601,7 +601,7 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-023",
+      "id": "making-the-loop-around-f-023at",
       "title": "Head north-east, speak with Marlo near …",
       "text": "Head north-east, speak with Marlo near the Estate Agent to start Daddy's Home",
       "complete": {
@@ -1033,7 +1033,7 @@
       ]
     },
     {
-      "id": "making-the-loop-around-f-048",
+      "id": "making-the-loop-around-f-048at",
       "title": "Head west into castle, speak with …",
       "text": "Head west into castle, speak with Reldo and continue The Knight's Sword",
       "complete": {

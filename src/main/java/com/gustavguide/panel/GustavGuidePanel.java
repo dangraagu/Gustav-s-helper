@@ -241,7 +241,13 @@ public class GustavGuidePanel extends PluginPanel
 		ledgerRows.setLayout(new BoxLayout(ledgerRows, BoxLayout.Y_AXIS));
 
 		tab.add(top, BorderLayout.NORTH);
-		tab.add(ledgerRows, BorderLayout.CENTER);
+		// The panel takes the full sidebar height (PluginPanel(false)) and so has no outer scroll pane —
+		// the ledger can list far more item rows than fit, so it needs its own, like the Guide tab.
+		JScrollPane ledgerScroll = new JScrollPane(ledgerRows,
+			JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		ledgerScroll.setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));
+		ledgerScroll.getVerticalScrollBar().setUnitIncrement(16);
+		tab.add(ledgerScroll, BorderLayout.CENTER);
 		return tab;
 	}
 

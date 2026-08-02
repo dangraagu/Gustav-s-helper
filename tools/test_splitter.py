@@ -56,8 +56,33 @@ TRAVEL_CASES = [
     ("Climb the ladder", False),
 ]
 
+# split_atoms_indexed keeps each atom's ORIGINAL index, so the id suffix (-a/-b/-c) of a surviving atom
+# does not shift when an earlier pair merges. Without this, "3 atoms -> 2" silently re-points an existing
+# step id at different work, and a saved completion marks a step the player never did.
+INDEXED_CASES = [
+    # (atom, original index, merged?) — a MERGED atom is flagged so the builder can give it a distinct id.
+    # Re-using the travel atom's old id would silently re-point it at "travel + talk", marking the talk
+    # complete for anyone who had only walked there. A distinct id makes the step reappear instead.
+    ("Go to Draynor, talk to Aggie, then mine 3 clay",
+     [("Go to Draynor, talk to Aggie", 0, True), ("mine 3 clay", 2, False)]),
+    # no merge -> indices consecutive, nothing flagged
+    ("Sell your bronze and buy 3 nets and run to the fishing spot",
+     [("Sell your bronze", 0, False), ("buy 3 nets", 1, False), ("run to the fishing spot", 2, False)]),
+    # single atom
+    ("Talk to the Cook", [("Talk to the Cook", 0, False)]),
+    # a whole step that is itself travel+talk merges into ONE atom, and is still flagged
+    ("Head to Lumbridge, speak to the Cook",
+     [("Head to Lumbridge, speak to the Cook", 0, True)]),
+]
+
+
 def main():
     fails = 0
+    for src, want in INDEXED_CASES:
+        got = sg.split_atoms_indexed(src)
+        if got != want:
+            fails += 1
+            print(f"FAIL split_atoms_indexed({src!r})\n   got  {got}\n   want {want}")
     for src, want in CASES:
         got = sg.split_atoms(src)
         if got != want:
@@ -68,7 +93,7 @@ def main():
         if got != want:
             fails += 1
             print(f"FAIL is_travel({src!r}) got {got} want {want}")
-    total = len(CASES) + len(TRAVEL_CASES)
+    total = len(CASES) + len(TRAVEL_CASES) + len(INDEXED_CASES)
     print(f"{total - fails}/{total} passed")
     sys.exit(1 if fails else 0)
 

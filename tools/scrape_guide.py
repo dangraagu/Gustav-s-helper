@@ -1241,8 +1241,8 @@ def _starts_with_action(fragment):
     return bool(m) and m.group(1).lower() in ACTION_VERBS
 
 
-def split_atoms(name):
-    """Split a step into single-action atoms at action boundaries, preserving the original wording.
+def split_atoms_indexed(name):
+    """Split a step into (atom, original_index, merged) triples at action boundaries, preserving the original wording.
     A separator only splits when the text after it begins with an action verb; trailing 'and'/'then'
     fragments merge back so 'buy a bucket and a rope' stays one task. Returns >=1 atom; a step with no
     internal boundary is returned unchanged."""
@@ -1250,7 +1250,7 @@ def split_atoms(name):
     if not s:
         return []
     if len(s) > MAX_SPLIT_LEN:
-        return [s]  # long prose isn't a clean action list — don't shred it into noise
+        return [(s, 0, False)]  # long prose isn't a clean action list — don't shred it into noise
     atoms = []
     start = 0
     for m in _BOUNDARY_RE.finditer(s):
@@ -1276,6 +1276,9 @@ def split_atoms(name):
         merged.pop(0)
     # Merge "travel to X" + "<interact> Y" into one step — the NPC/target Y is what the player clicks,
     # not a separate arrival waypoint. Only a pure-travel atom directly before a talk/speak atom.
+    # Each atom keeps its ORIGINAL index so the id suffix of a later atom does not shift when an earlier
+    # pair merges (a shifted suffix silently re-points an existing step id at different work, and a saved
+    # completion would then tick a step the player never did).
     combined = []
     i = 0
     while i < len(merged):
@@ -1283,12 +1286,17 @@ def split_atoms(name):
         nxt = merged[i + 1] if i + 1 < len(merged) else None
         nm = _FIRST_WORD_RE.match(nxt) if nxt else None
         if nxt is not None and is_travel(cur) and nm and nm.group(1).lower() in INTERACT_VERBS:
-            combined.append((cur + ", " + nxt).strip())
+            combined.append(((cur + ", " + nxt).strip(), i, True))
             i += 2
         else:
-            combined.append(cur)
+            combined.append((cur, i, False))
             i += 1
-    return combined or [s]
+    return combined or [(s, 0, False)]
+
+
+def split_atoms(name):
+    """Atom TEXTS only (see split_atoms_indexed for the (atom, index, merged) triples)."""
+    return [a for a, _, _ in split_atoms_indexed(name)]
 
 
 def is_travel(name):
@@ -1435,7 +1443,10 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     # "go to X" advances by itself. Only when the atom is still manual (no skill/quest/item goal) AND
     # resolved no interaction target — a talk/interact step (npc/object) must not complete from walking
     # past it, even if phrased with a travel verb ("Return to Aggie").
-    if (step.get("manual") and "world" in step and is_travel(name)
+    # ...and NOT when the step also tells you to talk to someone. A merged "travel to X, speak to Y" step
+    # leads with a travel verb, but arriving is not doing it — an arrival trigger there would complete the
+    # step just for walking past, skipping the conversation.
+    if (step.get("manual") and "world" in step and is_travel(name) and not _TALK_RE.search(name)
             and "npc" not in step and "object" not in step):
         x, y, z = step["world"]
         step["complete"] = {"op": "position", "x": x, "y": y, "z": z, "radius": TRAVEL_RADIUS}

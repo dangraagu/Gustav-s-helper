@@ -39,6 +39,7 @@ public class RouteStep
 	// "Inventory check: A, B, C" step lists them all). Precomputed — the item overlay reads it per slot,
 	// per frame, so it must not allocate or walk the requirement list on the hot path.
 	private final Set<Integer> highlightItemIds;
+	private final int[] highlightItemIdArray;  // same ids, boxing-free for the per-frame overlay
 
 	/** Single-npc convenience overload (also what the tests use); no note. */
 	public RouteStep(String id, String section, String title, String text, String wikiUrl,
@@ -87,6 +88,29 @@ public class RouteStep
 			}
 		}
 		this.highlightItemIds = Collections.unmodifiableSet(items);
+		this.highlightItemIdArray = new int[items.size()];
+		int n = 0;
+		for (Integer wanted : items)
+		{
+			this.highlightItemIdArray[n++] = wanted;
+		}
+	}
+
+	/**
+	 * Zero-allocation "does this step want that item?" for the overlay's hot path — it runs for every
+	 * item slot (a full bank is ~800) every frame, so it must not box an int or hash. The array is tiny
+	 * (a checklist is ~10 items), so a linear int scan beats a Set lookup and allocates nothing.
+	 */
+	public boolean wantsItem(int itemId)
+	{
+		for (int id : highlightItemIdArray)
+		{
+			if (id == itemId)
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 
 	/**

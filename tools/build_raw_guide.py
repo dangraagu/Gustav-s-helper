@@ -110,9 +110,17 @@ def build(raw_path, item_map, quest_map, entities, overrides=None):
             # manual_conditions.json are keyed by step id and must not shift).
             if HEADER_ONLY_RE.match(nm):
                 continue
-            atoms = sg.split_atoms(nm)
-            for ai, atom in enumerate(atoms):  # NOT 'i' — that's the section index used for the filename
+            # (atom, ORIGINAL index) — the suffix comes from the original index so a later atom keeps its
+            # id when an earlier travel+talk pair merges. Re-using the shifted index would silently point
+            # an existing step id at different work and mark saved progress the player never did.
+            atoms = sg.split_atoms_indexed(nm)
+            for atom, ai, was_merged in atoms:  # NOT 'i' — that's the section index (filename)
                 sub = None if len(atoms) == 1 else (chr(97 + ai) if ai < 26 else str(ai))
+                if was_merged:
+                    # A merged travel+talk atom gets a DISTINCT id: re-using the travel atom's old id
+                    # would silently re-point it at "travel + talk" and mark the talk done for anyone
+                    # who had only walked there. A new id makes the step reappear (safe direction).
+                    sub = (sub or "a") + "t"
                 built = sg.build_step(prefix, pos, atom, st.get("loc"), None,
                                       item_map, quest_map, cumulative, total_needed, entities,
                                       sub=sub, anchor=anchor)

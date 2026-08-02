@@ -1268,7 +1268,7 @@
       "manual": true
     },
     {
-      "id": "e4-088",
+      "id": "e4-088at",
       "title": "Go upstairs, talk to Eohric (1) …",
       "text": "Go upstairs, talk to Eohric (1) [Death Plateau]",
       "complete": {
@@ -1387,7 +1387,7 @@
       }
     },
     {
-      "id": "e4-097",
+      "id": "e4-097at",
       "title": "Go upstairs, talk to Eohric [Death …",
       "text": "Go upstairs, talk to Eohric [Death Plateau]",
       "complete": {
@@ -4131,7 +4131,7 @@
       }
     },
     {
-      "id": "e4-298a",
+      "id": "e4-298at",
       "title": "Head south, talk to Veos",
       "text": "Head south, talk to Veos",
       "manual": true,
@@ -4143,7 +4143,7 @@
       ]
     },
     {
-      "id": "e4-298b",
+      "id": "e4-298c",
       "title": "take boat to Lands End [Kourend …",
       "text": "take boat to Lands End [Kourend Easy Diary]",
       "manual": true,
@@ -5077,7 +5077,7 @@
       ]
     },
     {
-      "id": "e4-361",
+      "id": "e4-361at",
       "title": "Go up the ladder 3 times, …",
       "text": "Go up the ladder 3 times, talk to Thormac to complete Scorpion Catcher",
       "complete": {

@@ -558,7 +558,7 @@
       "manual": true
     },
     {
-      "id": "e2-036",
+      "id": "e2-036at",
       "title": "Head North to the Piscarillius General …",
       "text": "Head North to the Piscarillius General Store, talk to Leenz(3,2)",
       "manual": true,
@@ -642,7 +642,7 @@
       ]
     },
     {
-      "id": "e2-041",
+      "id": "e2-041at",
       "title": "Head East and slightly North to …",
       "text": "Head East and slightly North to the General Store, talk to Munty (4,2)",
       "manual": true,
@@ -692,7 +692,7 @@
       ]
     },
     {
-      "id": "e2-044",
+      "id": "e2-044at",
       "title": "Head directly North on the path …",
       "text": "Head directly North on the path to Arceuus general Store, talk to Regath (4,2) [Client of Kourend]",
       "complete": {
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "id": "e2-045",
+      "id": "e2-045at",
       "title": "Walk to the Hosidius General Store, …",
       "text": "Walk to the Hosidius General Store, talk to Horace (3,2)",
       "manual": true,
@@ -1245,21 +1245,15 @@
       ]
     },
     {
-      "id": "e2-081",
+      "id": "e2-081at",
       "title": "Go downstairs into the wine cellar …",
       "text": "Go downstairs into the wine cellar and through the book cases, Talk to Costumer to get Costume Needle",
+      "manual": true,
       "world": [
         3165,
         3490,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e2-082",
@@ -3794,7 +3788,7 @@
       ]
     },
     {
-      "id": "e2-239",
+      "id": "e2-239at",
       "title": "Run to Taverley, talk to Lady …",
       "text": "Run to Taverley, talk to Lady of the Lake (3)",
       "manual": true,
@@ -4425,7 +4419,7 @@
       ]
     },
     {
-      "id": "e2-277",
+      "id": "e2-277at",
       "title": "Teleport to Varrock, speak to King …",
       "text": "Teleport to Varrock, speak to King Roald",
       "manual": true,
@@ -5703,7 +5697,7 @@
       "manual": true
     },
     {
-      "id": "e2-360",
+      "id": "e2-360at",
       "title": "Head North, talk to Fred the …",
       "text": "Head North, talk to Fred the Farmer (3) [One Small Favour]",
       "complete": {
@@ -6199,7 +6193,7 @@
       ]
     },
     {
-      "id": "e2-391",
+      "id": "e2-391at",
       "title": "Head west, talk to Cassius to …",
       "text": "Head west, talk to Cassius to get a milk sample [The Ides of Milk]",
       "complete": {
@@ -6771,7 +6765,7 @@
       ]
     },
     {
-      "id": "e2-426",
+      "id": "e2-426at",
       "title": "Head West, talk to Jorral (1,1) …",
       "text": "Head West, talk to Jorral (1,1) (You can skip this walk if you plan to make Necklace's of Passage later - BEFORE GHOST'S AHOY)[Making History]",
       "manual": true,

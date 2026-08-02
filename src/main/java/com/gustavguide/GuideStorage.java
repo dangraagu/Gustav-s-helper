@@ -7,9 +7,8 @@ package com.gustavguide;
 import com.gustavguide.engine.Progression;
 import com.gustavguide.engine.ledger.ItemLedger;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import net.runelite.client.config.ConfigManager;
 
 /**
