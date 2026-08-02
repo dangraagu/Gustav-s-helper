@@ -325,6 +325,90 @@ public class ProgressionTest
 	}
 
 	@Test
+	public void undoSticksEvenWhenTheConditionIsStillMet()
+	{
+		// Undo must HOLD on an auto-completing step: stepping back suppresses it, so the evaluator leaves
+		// it alone instead of instantly re-completing it on the next tick.
+		RouteStep auto = step("auto", ConstantCondition.ALWAYS_TRUE, false, Collections.emptySet());
+		RouteStep next = step("next", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(auto, next)), IronmanMode.REGULAR);
+
+		p.process(ctx());
+		assertTrue(p.isComplete("auto"));
+
+		assertTrue(p.stepBack());
+		assertFalse(p.isComplete("auto"));
+
+		p.process(ctx());                                   // condition still true — must NOT re-complete
+		assertFalse("an explicitly undone step stays undone", p.isComplete("auto"));
+		assertEquals("auto", p.getCurrentStep().getId());
+	}
+
+	@Test
+	public void aSuppressedStepIsNotFoldedEither()
+	{
+		// The milestone-fold must respect the undo too, or an arrival would quietly re-complete it.
+		RouteStep flavour = step("flavour", ConstantCondition.MANUAL, true, Collections.emptySet());
+		RouteStep go = positionStep("go", 3200, 3200, 10);
+		Progression p = new Progression(new Route(Arrays.asList(flavour, go)), IronmanMode.REGULAR);
+
+		p.process(ctxAt(3200, 3200, 0));
+		p.foldManualBehindMilestones();
+		assertTrue(p.isComplete("flavour"));
+
+		// Undo twice: the first takes back the arrival (the last completed step), the second the flavour
+		// step behind it — leaving flavour suppressed while the arrival's condition is still true.
+		assertTrue(p.stepBack());
+		assertTrue(p.stepBack());
+		assertFalse(p.isComplete("flavour"));
+
+		p.process(ctxAt(3200, 3200, 0));                    // still standing on the arrival tile
+		p.foldManualBehindMilestones();
+		assertFalse("fold must not undo the user's undo", p.isComplete("flavour"));
+		assertFalse("the undone arrival must not re-complete either", p.isComplete("go"));
+	}
+
+	@Test
+	public void completingAnUndoneStepClearsItsSuppression()
+	{
+		// Doing the step yourself (Done) lifts the suppression, so normal auto-tracking resumes.
+		RouteStep auto = step("auto", ConstantCondition.ALWAYS_TRUE, false, Collections.emptySet());
+		RouteStep next = step("next", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Progression p = new Progression(new Route(Arrays.asList(auto, next)), IronmanMode.REGULAR);
+
+		p.process(ctx());
+		p.stepBack();
+		p.markComplete("auto");                             // user clicks Done
+		assertTrue(p.isComplete("auto"));
+		assertTrue(p.getSuppressedIds().isEmpty());
+
+		p.process(ctx());
+		assertTrue(p.isComplete("auto"));                   // stays complete
+	}
+
+	@Test
+	public void suppressionSurvivesPersistenceAndResetClearsIt()
+	{
+		RouteStep auto = step("auto", ConstantCondition.ALWAYS_TRUE, false, Collections.emptySet());
+		RouteStep next = step("next", ConstantCondition.MANUAL, true, Collections.emptySet());
+		Route route = new Route(Arrays.asList(auto, next));
+		Progression p = new Progression(route, IronmanMode.REGULAR);
+		p.process(ctx());
+		p.stepBack();
+
+		Progression restored = new Progression(route, IronmanMode.REGULAR);
+		restored.setCompletedIds(p.getCompletedIds());
+		restored.setSuppressedIds(p.getSuppressedIds());
+		restored.process(ctx());                            // relog: still must not re-complete
+		assertFalse(restored.isComplete("auto"));
+
+		restored.reset();
+		assertTrue(restored.getSuppressedIds().isEmpty());   // reset is a clean slate
+		restored.process(ctx());
+		assertTrue(restored.isComplete("auto"));
+	}
+
+	@Test
 	public void resetAndPersistenceRoundTrip()
 	{
 		RouteStep a = step("a", ConstantCondition.ALWAYS_TRUE, false, Collections.emptySet());

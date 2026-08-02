@@ -6,6 +6,8 @@ package com.gustavguide;
 
 import com.gustavguide.engine.Progression;
 import com.gustavguide.engine.ledger.ItemLedger;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Arrays;
 import java.util.Collections;
 import net.runelite.client.config.ConfigManager;
@@ -27,6 +29,9 @@ class GuideStorage
 		this.configManager = configManager;
 	}
 
+	/** Marks an explicitly-undone step id inside the saved progress value (see saveProgress). */
+	private static final char SUPPRESSED_PREFIX = '!';
+
 	private static String progressKey(String guideId, String accountKey)
 	{
 		return "progress_" + guideId + "_" + accountKey;
@@ -40,8 +45,18 @@ class GuideStorage
 	/** Persist the completed-step ids as a comma-joined list. */
 	void saveProgress(String guideId, String accountKey, Progression progression)
 	{
-		String value = String.join(",", progression.getCompletedIds());
-		configManager.setConfiguration(GustavGuideConfig.GROUP, progressKey(guideId, accountKey), value);
+		// Completed ids plain; explicitly-undone (suppressed) ids carry a "!" prefix in the SAME value.
+		// Backward compatible: values written before undo existed simply have no "!" entries.
+		StringBuilder sb = new StringBuilder(String.join(",", progression.getCompletedIds()));
+		for (String id : progression.getSuppressedIds())
+		{
+			if (sb.length() > 0)
+			{
+				sb.append(',');
+			}
+			sb.append(SUPPRESSED_PREFIX).append(id);
+		}
+		configManager.setConfiguration(GustavGuideConfig.GROUP, progressKey(guideId, accountKey), sb.toString());
 	}
 
 	/** Load the completed-step ids into {@code progression} (empty if nothing saved). */
@@ -51,9 +66,28 @@ class GuideStorage
 		if (value == null || value.isEmpty())
 		{
 			progression.setCompletedIds(Collections.emptyList());
+			progression.setSuppressedIds(Collections.emptyList());
 			return;
 		}
-		progression.setCompletedIds(Arrays.asList(value.split(",")));
+		List<String> done = new ArrayList<>();
+		List<String> undone = new ArrayList<>();
+		for (String part : value.split(","))
+		{
+			if (part.isEmpty())
+			{
+				continue;
+			}
+			if (part.charAt(0) == SUPPRESSED_PREFIX)
+			{
+				undone.add(part.substring(1));
+			}
+			else
+			{
+				done.add(part);
+			}
+		}
+		progression.setCompletedIds(done);
+		progression.setSuppressedIds(undone);
 	}
 
 	/** Persist the ledger's acquired totals (display history). */

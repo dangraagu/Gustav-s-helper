@@ -24,6 +24,13 @@ public class Progression
 {
 	private final Route route;
 	private final Set<String> completed = new LinkedHashSet<>();
+	/**
+	 * Steps the player explicitly took back with Undo. A suppressed step is never auto-completed or
+	 * folded — otherwise undoing a step whose quest/level/item condition is genuinely met would be
+	 * reversed on the very next tick. Cleared for a step when the player completes it themselves, and
+	 * wholesale on reset.
+	 */
+	private final Set<String> suppressed = new LinkedHashSet<>();
 	private IronmanMode mode;
 
 	public Progression(Route route, IronmanMode mode)
@@ -92,6 +99,16 @@ public class Progression
 		{
 			if (!s.appliesTo(mode) || completed.contains(s.getId()))
 			{
+				continue;
+			}
+			if (suppressed.contains(s.getId()))
+			{
+				// Explicitly undone by the player — don't re-complete it, and treat it like any other
+				// pending step for ordering (below) so later arrivals can't leapfrog it.
+				if (!s.isManual() && !s.isPositionTriggered())
+				{
+					realGatePending = true;
+				}
 				continue;
 			}
 			boolean met = isAutoCompleteSafe(s, ctx);
@@ -164,7 +181,8 @@ public class Progression
 			RouteStep s = steps.get(i);
 			// Fold only genuine flavour steps: manual, no NPC/object to interact with. A manual step that
 			// highlights an NPC/object ("talk to the Duke") is real work and is never skipped.
-			if (s.appliesTo(mode) && s.isManual() && !s.hasInteractionTarget() && !completed.contains(s.getId()))
+			if (s.appliesTo(mode) && s.isManual() && !s.hasInteractionTarget()
+				&& !completed.contains(s.getId()) && !suppressed.contains(s.getId()))
 			{
 				completed.add(s.getId());
 				changed = true;
@@ -205,6 +223,7 @@ public class Progression
 		if (route.getById(id) != null)
 		{
 			completed.add(id);
+			suppressed.remove(id);  // the player did it themselves — resume normal auto-tracking
 		}
 	}
 
@@ -229,6 +248,9 @@ public class Progression
 			RouteStep s = steps.get(i);
 			if (s.appliesTo(mode) && completed.remove(s.getId()))
 			{
+				// Remember the undo so the evaluator/fold don't immediately put it back (its condition
+				// may still be genuinely met — a finished quest, a reached level).
+				suppressed.add(s.getId());
 				return true;
 			}
 		}
@@ -238,6 +260,22 @@ public class Progression
 	public void reset()
 	{
 		completed.clear();
+		suppressed.clear();
+	}
+
+	/** Steps the player explicitly undid; persisted so an undo survives a relog. */
+	public Set<String> getSuppressedIds()
+	{
+		return new LinkedHashSet<>(suppressed);
+	}
+
+	public void setSuppressedIds(Collection<String> ids)
+	{
+		suppressed.clear();
+		if (ids != null)
+		{
+			suppressed.addAll(ids);
+		}
 	}
 
 	// ---- Progress / persistence --------------------------------------------
