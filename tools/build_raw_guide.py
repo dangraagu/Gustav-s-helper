@@ -9,12 +9,17 @@ Usage:  py -3 tools/build_raw_guide.py            # build every raw/*.json (exce
         py -3 tools/build_raw_guide.py <id> ...   # build only these ids
 """
 import json
+import re
 import sys
 from pathlib import Path
 
 import scrape_guide as sg
 
 RAW_DIR = Path(__file__).parent / "data" / "raw"
+
+# "Inventory check:" / "Equipment check" with nothing after it — a section header the source guide emits
+# before the real list. Carries no action and no items, so it is not shipped as a step.
+HEADER_ONLY_RE = re.compile(r"^\s*(?:inventory|inv|equipment|gear)\s*check\s*[:.\s]*$", re.IGNORECASE)
 
 
 def load_manual_conditions():
@@ -98,6 +103,12 @@ def build(raw_path, item_map, quest_map, entities, overrides=None):
         for pos, st in enumerate(sec.get("steps", []), 1):
             nm = st.get("name") or ""
             if not nm:
+                continue
+            # A bare "Inventory check:" header (the item list lives in the NEXT raw step) is a step with
+            # nothing to do — drop it instead of making the player tick an empty checklist. Skipped INSIDE
+            # the enumerate loop so the surviving steps keep their original position ids (overrides in
+            # manual_conditions.json are keyed by step id and must not shift).
+            if HEADER_ONLY_RE.match(nm):
                 continue
             atoms = sg.split_atoms(nm)
             for ai, atom in enumerate(atoms):  # NOT 'i' — that's the section index used for the filename

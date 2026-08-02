@@ -2674,9 +2674,10 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
+      "object": 4913,
       "world": [
-        3102,
-        3557,
+        3440,
+        3232,
         0
       ]
     },
