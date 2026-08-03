@@ -57,7 +57,9 @@ public class GustavGuidePanel extends PluginPanel
 	private final JButton skipButton = new JButton("Skip");
 	private final JButton undoButton = new JButton("Undo");
 	private final JButton wikiButton = new JButton("Wiki");
+	private final JButton reportButton = new JButton("⚑ Report wrong / missing info");
 	private final JButton resetButton = new JButton("Reset progress");
+	private String reportBody;
 	private String wikiUrl;
 
 	// Ledger tab
@@ -189,21 +191,25 @@ public class GustavGuidePanel extends PluginPanel
 		// of the panel no matter how long the current step's description is (inside the scroll area they
 		// slid up and down with the text, and could scroll out of view entirely).
 		undoButton.setToolTipText("Go back one step (reopens the previous step)");
+		reportButton.setToolTipText("Tell us this step is wrong or missing something — the guide, step "
+			+ "number, location and NPC/item ids are attached automatically");
+		reportButton.setForeground(ColorScheme.BRAND_ORANGE);
 
-		// Three buttons per row keeps each wide enough for its label to be readable; Wiki and Reset get
-		// their own full-width rows below. All of it lives in SOUTH, pinned to the bottom of the panel.
+		// Three buttons per row keeps each wide enough for its label to be readable; the report link,
+		// Wiki and Reset get their own full-width rows. All of it lives in SOUTH, pinned to the bottom.
 		JPanel primary = new JPanel(new GridLayout(1, 3, 4, 0));
 		primary.add(doneButton);
 		primary.add(skipButton);
 		primary.add(undoButton);
 
-		JPanel south = new JPanel(new GridLayout(3, 1, 0, 4));
+		JPanel south = new JPanel(new GridLayout(4, 1, 0, 4));
 		south.setBorder(BorderFactory.createEmptyBorder(8, 0, 0, 0));
+		south.add(reportButton);   // above the action row, per the "report what & where" flow
 		south.add(primary);
 		south.add(wikiButton);
 		south.add(resetButton);
 
-		for (JButton b : new JButton[]{doneButton, skipButton, undoButton, wikiButton, resetButton})
+		for (JButton b : new JButton[]{doneButton, skipButton, undoButton, wikiButton, resetButton, reportButton})
 		{
 			b.setFont(FontManager.getRunescapeFont());   // legible, matches the client UI
 			b.setMargin(new Insets(2, 2, 2, 2));         // don't let padding squeeze the label out
@@ -256,6 +262,7 @@ public class GustavGuidePanel extends PluginPanel
 		doneButton.addActionListener(e -> actions.completeCurrent());
 		skipButton.addActionListener(e -> actions.skipCurrent());
 		undoButton.addActionListener(e -> actions.undoLast());
+		reportButton.addActionListener(e -> promptAndSendReport());
 		resetButton.addActionListener(e ->
 		{
 			// Confirm first — a stray click otherwise wipes every completed step + the ledger for this
@@ -303,13 +310,16 @@ public class GustavGuidePanel extends PluginPanel
 		else
 		{
 			// "… — 259 / 971 done" reads as a COUNT (completed of total), not a step index, so a
-			// developed account resuming mid-route isn't misread as "stuck on step 259".
-			progressLabel.setText(m.mode + " — " + m.completed + " / " + m.total + " done");
+			// developed account resuming mid-route isn't misread as "stuck on step 259". The step you
+			// are actually ON is shown separately, which is what people want when comparing notes.
+			String progress = m.mode + " — " + m.completed + " / " + m.total + " done";
+			progressLabel.setText(m.stepNumber > 0 ? (progress + " · Step " + m.stepNumber) : progress);
 		}
 
 		reqContainer.removeAll();
 		upcomingContainer.removeAll();
 		this.wikiUrl = m.wikiUrl;
+		this.reportBody = m.reportBody;
 
 		boolean hasCurrent = m.loggedIn && !m.finished && !m.routeEmpty;
 
@@ -364,6 +374,7 @@ public class GustavGuidePanel extends PluginPanel
 		// Undo stays available on a finished route (to reopen the last step), and only when something
 		// has actually been completed.
 		undoButton.setEnabled(m.loggedIn && !m.routeEmpty && m.completed > 0);
+		reportButton.setEnabled(m.canReport && hasCurrent);
 		wikiButton.setEnabled(hasCurrent && m.wikiUrl != null && !m.wikiUrl.isEmpty());
 		upcomingHeader.setVisible(hasCurrent && !m.upcoming.isEmpty());
 
@@ -451,6 +462,55 @@ public class GustavGuidePanel extends PluginPanel
 	private static String wrap(String bodyHtml)
 	{
 		return "<html><body style='width:" + PANEL_HTML_WIDTH + "px'>" + bodyHtml + "</body></html>";
+	}
+
+	/**
+	 * Asks what is wrong with the current step, SHOWS the exact text that will be sent (nothing about the
+	 * account is included), and sends it only if the user confirms. Everything happens on the Swing thread;
+	 * the send itself is asynchronous and reports back here.
+	 */
+	private void promptAndSendReport()
+	{
+		if (reportBody == null || reportBody.isEmpty())
+		{
+			return;
+		}
+		JTextArea input = new JTextArea(4, 28);
+		input.setLineWrap(true);
+		input.setWrapStyleWord(true);
+
+		JTextArea preview = new JTextArea(reportBody);
+		preview.setEditable(false);
+		preview.setLineWrap(true);
+		preview.setWrapStyleWord(true);
+		preview.setFont(FontManager.getRunescapeSmallFont());
+		JScrollPane previewScroll = new JScrollPane(preview);
+		previewScroll.setPreferredSize(new Dimension(360, 150));
+
+		JPanel form = new JPanel(new BorderLayout(0, 6));
+		form.add(new JLabel("What's wrong with this step?"), BorderLayout.NORTH);
+		form.add(new JScrollPane(input), BorderLayout.CENTER);
+		JPanel south = new JPanel(new BorderLayout(0, 4));
+		south.add(new JLabel("This will be sent (no account info):"), BorderLayout.NORTH);
+		south.add(previewScroll, BorderLayout.CENTER);
+		form.add(south, BorderLayout.SOUTH);
+
+		int choice = JOptionPane.showConfirmDialog(reportButton, form, "Report this step",
+			JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+		if (choice != JOptionPane.OK_OPTION)
+		{
+			return;
+		}
+		actions.reportStep(input.getText());
+	}
+
+	/** Result of a send, surfaced to the user (called from a background thread). */
+	public void showReportResult(String error)
+	{
+		SwingUtilities.invokeLater(() -> JOptionPane.showMessageDialog(reportButton,
+			error == null ? "Thanks — report sent." : error,
+			error == null ? "Report sent" : "Report not sent",
+			error == null ? JOptionPane.INFORMATION_MESSAGE : JOptionPane.WARNING_MESSAGE));
 	}
 
 	/**

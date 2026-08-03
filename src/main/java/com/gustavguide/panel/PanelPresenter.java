@@ -33,6 +33,21 @@ public class PanelPresenter
 
 	/** Last rendered ledger signature — skip the Swing rebuild when the numbers are unchanged. */
 	private String lastLedgerSignature;
+	private String guideId = "";
+	private String guideName = "";
+	private String pluginVersion = "";
+
+	/** Which guide is loaded — carried into a step report so we know which route to fix. */
+	public void setGuide(String guideId, String guideName)
+	{
+		this.guideId = guideId == null ? "" : guideId;
+		this.guideName = guideName == null ? "" : guideName;
+	}
+
+	public void setPluginVersion(String version)
+	{
+		this.pluginVersion = version == null ? "" : version;
+	}
 
 	public PanelPresenter(GustavGuidePanel panel, ItemManager itemManager)
 	{
@@ -86,8 +101,30 @@ public class PanelPresenter
 			}
 			m.upcoming = upcomingTitles(progression, route, current, UPCOMING_COUNT);
 			m.teleportHint = teleportHint;
+			m.stepNumber = applicableIndexOf(progression, route, current);
+			m.reportBody = StepReport.body(guideId, guideName, current, m.stepNumber, m.total,
+				"", pluginVersion);
+			m.canReport = true;
 		}
 		panel.update(m);
+	}
+
+	/** 1-based position of {@code current} among the steps that apply to the active mode. */
+	private static int applicableIndexOf(Progression progression, Route route, RouteStep current)
+	{
+		int n = 0;
+		for (RouteStep s : route.getSteps())
+		{
+			if (s.appliesTo(progression.getMode()))
+			{
+				n++;
+				if (s.getId().equals(current.getId()))
+				{
+					return n;
+				}
+			}
+		}
+		return 0;
 	}
 
 	private List<String> upcomingTitles(Progression progression, Route route, RouteStep current, int count)

@@ -252,6 +252,19 @@ public interface GustavGuideConfig extends Config
 		return 4;
 	}
 
+	@ConfigItem(
+		keyName = "reportEndpoint",
+		name = "Report endpoint (advanced)",
+		description = "Where the \"Report wrong / missing info\" button sends step reports. Leave blank to "
+			+ "use the project's own reporting channel. Set your own Discord webhook URL here to send "
+			+ "reports to your channel instead.",
+		position = 90
+	)
+	default String reportEndpoint()
+	{
+		return "";
+	}
+
 	/** How the target NPC / object is marked in the world. */
 	enum HighlightStyle
 	{

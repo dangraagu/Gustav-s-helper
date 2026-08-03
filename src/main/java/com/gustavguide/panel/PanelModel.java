@@ -28,6 +28,11 @@ public class PanelModel
 	public String mode = "";
 	public int completed;
 	public int total;
+	/** 1-based position of the CURRENT step among the applicable steps (0 when there is none). */
+	public int stepNumber;
+	/** Everything the "report this step" button needs — prebuilt on the client thread. */
+	public String reportBody;
+	public boolean canReport;
 	public int percent;
 	public boolean loggedIn;
 	public boolean finished;

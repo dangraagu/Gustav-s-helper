@@ -76,6 +76,17 @@ import net.runelite.client.util.ImageUtil;
 )
 public class GustavGuidePlugin extends Plugin
 {
+	/**
+	 * Default destination for step reports sent with the panel's "Report wrong / missing info" button.
+	 *
+	 * <p>PASTE THE DISCORD WEBHOOK URL (or your own forwarding endpoint) HERE. Note this ships INSIDE the
+	 * plugin, so treat it as public: anyone can read it out of the jar and post to that channel. Keep the
+	 * channel isolated, and if it gets spammed, regenerate the webhook (which needs a new release) — or
+	 * point this at an endpoint you control that holds the webhook privately, which is why it is one
+	 * constant. Blank = the report button reports that no endpoint is configured.</p>
+	 */
+	private static final String DEFAULT_REPORT_ENDPOINT = "";
+
 	private static final int PANEL_REFRESH_TICKS = 5;
 	private static final int NAV_PRIORITY = 7;
 
@@ -89,6 +100,9 @@ public class GustavGuidePlugin extends Plugin
 	private Client client;
 	@Inject
 	private ClientThread clientThread;
+
+	@Inject
+	private com.gustavguide.panel.ReportSender reportSender;
 	@Inject
 	private GustavGuideConfig config;
 	@Inject
@@ -151,6 +165,13 @@ public class GustavGuidePlugin extends Plugin
 	private int wantedObjectId = -1;
 	private List<Integer> wantedNpcIds = Collections.emptyList();
 	private int tickCounter;
+
+	/** Version string for a step report — from the jar manifest, "dev" when running from source. */
+	private String pluginVersion()
+	{
+		String v = getClass().getPackage() == null ? null : getClass().getPackage().getImplementationVersion();
+		return v == null ? "dev" : v;
+	}
 
 	@Provides
 	GustavGuideConfig provideConfig(ConfigManager configManager)
@@ -250,6 +271,11 @@ public class GustavGuidePlugin extends Plugin
 	private void loadGuide()
 	{
 		loadedGuideId = config.guide().getId();
+		if (presenter != null)
+		{
+			presenter.setGuide(config.guide().getId(), config.guide().toString());
+			presenter.setPluginVersion(pluginVersion());
+		}
 		route = RouteLoader.load(gson, loadedGuideId);
 		progression = new Progression(route, config.mode());
 		ledger = new ItemLedger();
@@ -899,6 +925,43 @@ public class GustavGuidePlugin extends Plugin
 					lastCurrentStepId = null;   // force the overlays/world marker to re-point at the reopened step
 					recompute(true);
 				}
+			});
+		}
+
+		@Override
+		public void reportStep(String userNote)
+		{
+			// Build the body on the CLIENT thread (it reads the current step), then send off-thread.
+			clientThread.invoke(() ->
+			{
+				if (progression == null)
+				{
+					return;
+				}
+				RouteStep current = progression.getCurrentStep();
+				if (current == null)
+				{
+					return;
+				}
+				Guide g = config.guide();
+				int number = 0, n = 0;
+				for (RouteStep s : route.getSteps())
+				{
+					if (s.appliesTo(progression.getMode()))
+					{
+						n++;
+						if (s.getId().equals(current.getId()))
+						{
+							number = n;
+							break;
+						}
+					}
+				}
+				String body = com.gustavguide.panel.StepReport.body(g.getId(), g.toString(), current,
+					number, progression.applicableCount(), userNote, pluginVersion());
+				String endpoint = config.reportEndpoint() == null || config.reportEndpoint().trim().isEmpty()
+					? DEFAULT_REPORT_ENDPOINT : config.reportEndpoint();
+				reportSender.send(endpoint, body, panel::showReportResult);
 			});
 		}
 
