@@ -36,7 +36,7 @@ public class ReportSender
 	private static final Duration MIN_INTERVAL = Duration.ofSeconds(20);
 
 	private final OkHttpClient httpClient;   // provided by RuneLite — no extra dependency is shipped
-	private Instant lastSent = Instant.EPOCH;
+	private volatile Instant lastSent = Instant.EPOCH;
 
 	@Inject
 	public ReportSender(OkHttpClient httpClient)
@@ -68,12 +68,34 @@ public class ReportSender
 		}
 		lastSent = Instant.now();
 
-		Request request = new Request.Builder()
+		// An explicit User-Agent is required, not cosmetic: Discord sits behind Cloudflare, which rejects
+		// a POST with a missing/generic agent (HTTP 403, error 1010) — verified against the live endpoint.
+		Request request;
+		try
+		{
+			request = buildRequest(endpoint, body);
+		}
+		catch (IllegalArgumentException badUrl)
+		{
+			// A hand-typed endpoint in the config can be anything; report it instead of failing silently.
+			onResult.accept("That report endpoint isn't a valid URL.");
+			return;
+		}
+		httpClient.newCall(request).enqueue(callback(onResult));
+	}
+
+	private Request buildRequest(String endpoint, String body)
+	{
+		return new Request.Builder()
 			.url(endpoint.trim())
+			.header("User-Agent", "GustavsHelper (+https://github.com/dangraagu/Gustav-s-helper)")
 			.post(RequestBody.create(JSON, StepReport.discordPayload(body)))
 			.build();
+	}
 
-		httpClient.newCall(request).enqueue(new Callback()
+	private Callback callback(Consumer<String> onResult)
+	{
+		return new Callback()
 		{
 			@Override
 			public void onFailure(Call call, IOException e)
@@ -98,6 +120,6 @@ public class ReportSender
 					}
 				}
 			}
-		});
+		};
 	}
 }

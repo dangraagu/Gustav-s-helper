@@ -1,0 +1,32 @@
+[Unit]
+Description=Gustav's Helper step-report forwarder (plugin -> Discord)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gustavreport
+Group=gustavreport
+WorkingDirectory=/opt/gustav-report
+# The Discord webhook lives ONLY here, root-owned and 0600 — never in the plugin, never in git.
+EnvironmentFile=/etc/gustav-report.env
+ExecStart=/opt/gustav-report/venv/bin/uvicorn app:app --host 127.0.0.1 --port 8123 --workers 1
+Restart=on-failure
+RestartSec=5
+
+# Hardening — this service only needs to read its own dir and make outbound HTTPS.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadOnlyPaths=/opt/gustav-report
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_INET6
+LockPersonality=true
+MemoryMax=256M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

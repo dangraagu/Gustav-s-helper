@@ -38,6 +38,17 @@ public final class StepReport
 	public static String body(String guideId, String guideName, RouteStep step, int stepNumber, int stepTotal,
 							  String userNote, String pluginVersion)
 	{
+		return withProblem(details(guideId, guideName, step, stepNumber, stepTotal, pluginVersion), userNote);
+	}
+
+	/**
+	 * Everything except the user's description — built once when the panel refreshes, shown as the
+	 * preview, and sent verbatim. Keeping the preview and the payload the SAME string means a step that
+	 * auto-completes while the dialog is open cannot change what gets sent behind the user's back.
+	 */
+	public static String details(String guideId, String guideName, RouteStep step, int stepNumber,
+								 int stepTotal, String pluginVersion)
+	{
 		StringBuilder sb = new StringBuilder();
 		sb.append("**Step report** — ").append(nz(guideName)).append(" (`").append(nz(guideId)).append("`)\n");
 		if (step != null)
@@ -72,8 +83,14 @@ public final class StepReport
 		{
 			line(sb, "Plugin", pluginVersion);
 		}
-		sb.append("\n**Problem:** ").append(clip(blankToDash(userNote), MAX_USER_NOTE));
-		return clip(sb.toString(), MAX_MESSAGE);
+		return sb.toString();
+	}
+
+	/** Appends what the user typed to the previewed details, and caps the whole thing for Discord. */
+	public static String withProblem(String details, String userNote)
+	{
+		return clip((details == null ? "" : details)
+			+ "\n**Problem:** " + clip(blankToDash(userNote), MAX_USER_NOTE), MAX_MESSAGE);
 	}
 
 	/**

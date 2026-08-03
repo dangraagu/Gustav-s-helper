@@ -102,8 +102,8 @@ public class PanelPresenter
 			m.upcoming = upcomingTitles(progression, route, current, UPCOMING_COUNT);
 			m.teleportHint = teleportHint;
 			m.stepNumber = applicableIndexOf(progression, route, current);
-			m.reportBody = StepReport.body(guideId, guideName, current, m.stepNumber, m.total,
-				"", pluginVersion);
+			m.reportBody = StepReport.details(guideId, guideName, current, m.stepNumber, m.total,
+				pluginVersion);
 			m.canReport = true;
 		}
 		panel.update(m);

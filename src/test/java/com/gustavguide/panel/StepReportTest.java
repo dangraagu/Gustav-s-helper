@@ -59,6 +59,19 @@ public class StepReportTest
 	}
 
 	@Test
+	public void whatIsPreviewedIsExactlyWhatIsSent()
+	{
+		// The panel previews details(...) and sends withProblem(previewed, typed) — the sent body must be
+		// the previewed text plus the note, never a rebuild (a rebuild could pick up a different step if
+		// the route advanced while the dialog was open).
+		String previewed = StepReport.details("uim-prifddinas", "UIM", step(), 42, 960, "1.0");
+		String sent = StepReport.withProblem(previewed, "wrong npc");
+		assertTrue("the previewed text is carried verbatim", sent.startsWith(previewed));
+		assertTrue(sent.contains("**Problem:** wrong npc"));
+		assertFalse("details alone carries no problem line", previewed.contains("**Problem:**"));
+	}
+
+	@Test
 	public void aVeryLongStepCannotOverflowDiscordsLimit()
 	{
 		StringBuilder huge = new StringBuilder();
@@ -68,9 +81,11 @@ public class StepReportTest
 		}
 		RouteStep big = new RouteStep("x-001", "S", "t", huge.toString(), null,
 			null, -1, -1, -1, true, Collections.emptySet(), Collections.emptyList(), ConstantCondition.MANUAL);
-		String payload = StepReport.discordPayload(
-			StepReport.body("g", "G", big, 1, 1, huge.toString(), "1.0"));
-		assertTrue("payload stays under Discord's 2000-char message cap", payload.length() < 2100);
+		String body = StepReport.body("g", "G", big, 1, 1, huge.toString(), "1.0");
+		// Discord's 2000-char cap applies to the DECODED content, not the escaped JSON payload.
+		assertTrue("content stays under Discord's 2000-char message cap, was " + body.length(),
+			body.length() <= 1801);
+		assertTrue(StepReport.discordPayload(body).startsWith("{\"content\":"));
 	}
 
 	@Test

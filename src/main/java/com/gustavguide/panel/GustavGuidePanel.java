@@ -501,7 +501,9 @@ public class GustavGuidePanel extends PluginPanel
 		{
 			return;
 		}
-		actions.reportStep(input.getText());
+		// Send EXACTLY what was previewed plus what was typed — not a rebuild, so a step that
+		// auto-completes while the dialog is open cannot change the report behind the user's back.
+		actions.reportStep(StepReport.withProblem(reportBody, input.getText()));
 	}
 
 	/** Result of a send, surfaced to the user (called from a background thread). */

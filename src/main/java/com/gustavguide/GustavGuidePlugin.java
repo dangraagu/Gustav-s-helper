@@ -77,15 +77,16 @@ import net.runelite.client.util.ImageUtil;
 public class GustavGuidePlugin extends Plugin
 {
 	/**
-	 * Default destination for step reports sent with the panel's "Report wrong / missing info" button.
+	 * Where the panel's "Report wrong / missing info" button sends step reports.
 	 *
-	 * <p>PASTE THE DISCORD WEBHOOK URL (or your own forwarding endpoint) HERE. Note this ships INSIDE the
-	 * plugin, so treat it as public: anyone can read it out of the jar and post to that channel. Keep the
-	 * channel isolated, and if it gets spammed, regenerate the webhook (which needs a new release) — or
-	 * point this at an endpoint you control that holds the webhook privately, which is why it is one
-	 * constant. Blank = the report button reports that no endpoint is configured.</p>
+	 * <p>This is a forwarding endpoint we control, NOT the Discord webhook. The plugin ships in a public
+	 * repo, so anything here is public — a raw webhook URL could be extracted and used to @everyone-ping
+	 * the server or delete the webhook outright (and GitHub's secret scanning would likely revoke it
+	 * anyway). The forwarder holds the webhook privately, rebuilds the payload so nothing but plain text
+	 * gets through, and can rate-limit or block abuse without shipping a new plugin release.
+	 * See tools/report-proxy/. Users may override this with their own webhook in the config.</p>
 	 */
-	private static final String DEFAULT_REPORT_ENDPOINT = "";
+	private static final String DEFAULT_REPORT_ENDPOINT = "https://gustav.yamaduo.no/report";
 
 	private static final int PANEL_REFRESH_TICKS = 5;
 	private static final int NAV_PRIORITY = 7;
@@ -202,6 +203,10 @@ public class GustavGuidePlugin extends Plugin
 
 		panel = new GustavGuidePanel(new Actions());
 		presenter = new PanelPresenter(panel, itemManager);
+		// loadGuide() ran before the presenter existed, so seed it here or the report preview would show
+		// an empty guide until the user switches guide.
+		presenter.setGuide(config.guide().getId(), config.guide().toString());
+		presenter.setPluginVersion(pluginVersion());
 		pluginIcon = ImageUtil.loadImageResource(getClass(), "/com/gustavguide/icon.png");
 		navButton = NavigationButton.builder()
 			.tooltip("Gustav's Helper")
@@ -929,40 +934,14 @@ public class GustavGuidePlugin extends Plugin
 		}
 
 		@Override
-		public void reportStep(String userNote)
+		public void reportStep(String reportBody)
 		{
-			// Build the body on the CLIENT thread (it reads the current step), then send off-thread.
-			clientThread.invoke(() ->
-			{
-				if (progression == null)
-				{
-					return;
-				}
-				RouteStep current = progression.getCurrentStep();
-				if (current == null)
-				{
-					return;
-				}
-				Guide g = config.guide();
-				int number = 0, n = 0;
-				for (RouteStep s : route.getSteps())
-				{
-					if (s.appliesTo(progression.getMode()))
-					{
-						n++;
-						if (s.getId().equals(current.getId()))
-						{
-							number = n;
-							break;
-						}
-					}
-				}
-				String body = com.gustavguide.panel.StepReport.body(g.getId(), g.toString(), current,
-					number, progression.applicableCount(), userNote, pluginVersion());
-				String endpoint = config.reportEndpoint() == null || config.reportEndpoint().trim().isEmpty()
-					? DEFAULT_REPORT_ENDPOINT : config.reportEndpoint();
-				reportSender.send(endpoint, body, panel::showReportResult);
-			});
+			// The body was built + shown on the panel; send it verbatim. No client-thread work needed,
+			// so nothing can differ between what the user approved and what is sent.
+			String configured = config.reportEndpoint();
+			String endpoint = (configured == null || configured.trim().isEmpty())
+				? DEFAULT_REPORT_ENDPOINT : configured;
+			reportSender.send(endpoint, reportBody, panel::showReportResult);
 		}
 
 		@Override

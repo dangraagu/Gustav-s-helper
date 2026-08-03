@@ -19,8 +19,8 @@ public interface PanelActions
 	/** Undo: reopen the previous step, so a mis-clicked Done/Skip can be taken back. */
 	void undoLast();
 
-	/** Send a "this step is wrong / something is missing" report for the current step. */
-	void reportStep(String userNote);
+	/** Send a "this step is wrong / something is missing" report — the exact body the user was shown. */
+	void reportStep(String reportBody);
 
 	/** Clear all saved progress for the current account. */
 	void resetProgress();
