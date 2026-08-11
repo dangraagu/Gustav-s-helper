@@ -158,121 +158,7 @@
       "id": "s22-010b",
       "title": "claim the easy and medium Karamja …",
       "text": "claim the easy and medium Karamja diaries (lamps on Slayer)",
-      "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "diary",
-            "area": "ardougne",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "desert",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "falador",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "fremennik",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "kandarin",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "kourend",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "lumbridge",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "morytania",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "varrock",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "western",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "wilderness",
-            "tier": "medium"
-          },
-          {
-            "op": "diary",
-            "area": "ardougne",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "desert",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "falador",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "fremennik",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "kandarin",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "kourend",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "lumbridge",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "morytania",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "varrock",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "western",
-            "tier": "easy"
-          },
-          {
-            "op": "diary",
-            "area": "wilderness",
-            "tier": "easy"
-          }
-        ]
-      },
+      "manual": true,
       "world": [
         2809,
         3193,
@@ -370,8 +256,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2919,
-        3559,
+        2662,
+        3161,
         0
       ]
     },

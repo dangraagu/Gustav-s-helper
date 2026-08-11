@@ -60,6 +60,13 @@ DIARY_CASES = [
     ("Collect Khardian shards for the diary", None),
     # a real single diary still resolves
     ("Pickpocket a man for the Ardougne easy diary", {"op": "diary", "area": "ardougne", "tier": "easy"}),
+    # Karamja is a real diary the engine cannot express. Naming it must yield NO condition — it must
+    # never fall through to the bulk branch and bind the step to all 11 areas, which can never complete.
+    ("claim the easy and medium Karamja diaries (lamps on Slayer)", None),
+    ("Do the Karamja diary", None),
+    # the bulk goal itself still works when no area is named
+    ("Do all easy diaries", {"op": "and", "of": [{"op": "diary", "area": a, "tier": "easy"}
+                                                 for a in sg._DIARY_AREAS]}),
 ]
 
 

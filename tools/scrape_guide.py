@@ -624,7 +624,12 @@ def _facility_pattern(key):
 
 AMENITY_ACTIONS = [
     (re.compile(r"\b(buy|buys|buying|purchase|sell|selling|shop\s?keeper)\b", re.IGNORECASE), "general store"),
-    (re.compile(r"\b(bank|banker|banking|deposit|withdraw|unnote)\b", re.IGNORECASE), "bank"),
+    # "rebank" means the building ("rebank in Canifis"), and is not the word "bank", so whole-word
+    # facility matching misses it and the step falls through to the route anchor's town — which put a
+    # Canifis rebank on Draynor Manor, 420 tiles and a members' barrier away. Bare "banked" is NOT
+    # included: in these guides it is almost always "death banked", a UIM death-pile technique that
+    # has nothing to do with a bank building.
+    (re.compile(r"\b(rebank|rebanking|bank|banker|banking|deposit|withdraw|unnote)\b", re.IGNORECASE), "bank"),
     (re.compile(r"\b(smelt|furnace)\b", re.IGNORECASE), "furnace"),
     (re.compile(r"\b(smith|anvil)\b", re.IGNORECASE), "anvil"),
     (re.compile(r"\b(cook|range)\b", re.IGNORECASE), "range"),
@@ -1371,6 +1376,12 @@ TRAVEL_RADIUS = 8  # tiles; wide enough to register an area arrival, tight enoug
 # Karamja is intentionally omitted — its completion varbits aren't clean 0/1 flags like the other areas.
 _DIARY_AREAS = ("ardougne", "desert", "falador", "fremennik", "kandarin", "kourend",
                 "lumbridge", "morytania", "varrock", "western", "wilderness")
+# Karamja is a real diary the engine's "diary" op cannot express, so it is not in _DIARY_AREAS. It
+# still has to be RECOGNISED as an area name: "claim the easy and medium Karamja diaries" names one
+# area, but with karamja unknown the bulk-goal branch below saw no area at all and bound the step to
+# every area's easy AND medium diary — 22 conditions, a step that can never complete and stalls the
+# route. An area we cannot express means no condition, not a condition over everything else.
+_DIARY_AREAS_UNSUPPORTED = ("karamja",)
 _DIARY_TIERS = ("elite", "hard", "medium", "easy")
 
 
@@ -1401,6 +1412,8 @@ def detect_diary(text: str):
         return {"op": "diary", "area": area, "tier": tiers[0]}  # one specific diary
     # Bulk goal: "do all easy and medium diaries" (tier(s), no single area) -> completed only when
     # every one of the 11 standard areas' listed tiers is done. Karamja is excluded (not in the list).
+    if any(_place_pattern(a).search(t) for a in _DIARY_AREAS_UNSUPPORTED):
+        return None
     if tiers and not area and ("all" in t or "diaries" in t):
         of = [{"op": "diary", "area": a, "tier": tr} for tr in tiers for a in _DIARY_AREAS]
         return {"op": "and", "of": of}

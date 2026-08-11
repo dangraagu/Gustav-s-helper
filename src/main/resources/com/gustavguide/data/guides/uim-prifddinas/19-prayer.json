@@ -7,7 +7,15 @@
       "id": "prayer-001",
       "title": "Get a dwarven rock cake and …",
       "text": "Get a dwarven rock cake and cool it",
-      "manual": true
+      "manual": true,
+      "world": [
+        3008,
+        3471,
+        0
+      ],
+      "npcs": [
+        3140
+      ]
     },
     {
       "id": "prayer-002a",
@@ -35,7 +43,12 @@
       "id": "prayer-002b",
       "title": "drop the fire staff (Not technically …",
       "text": "drop the fire staff (Not technically needed, but makes things a bit simpler)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3008,
+        3471,
+        0
+      ]
     },
     {
       "id": "prayer-003",

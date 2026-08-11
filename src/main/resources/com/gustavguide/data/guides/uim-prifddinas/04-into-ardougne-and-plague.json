@@ -263,8 +263,8 @@
       },
       "item": 590,
       "world": [
-        2656,
-        3152,
+        2467,
+        3287,
         0
       ]
     },
@@ -287,8 +287,8 @@
       "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
       "world": [
-        2656,
-        3152,
+        2467,
+        3287,
         0
       ]
     },
@@ -298,8 +298,8 @@
       "text": "Drop your remaining food for inventory space",
       "manual": true,
       "world": [
-        2656,
-        3152,
+        2467,
+        3287,
         0
       ]
     },
