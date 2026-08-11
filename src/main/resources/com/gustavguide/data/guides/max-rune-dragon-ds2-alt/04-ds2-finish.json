@@ -14,12 +14,7 @@
         "cmp": ">="
       },
       "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training"
     },
     {
       "id": "ds2-finish-002",
@@ -32,12 +27,7 @@
         "cmp": ">="
       },
       "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "ds2-finish-003",
@@ -50,12 +40,7 @@
         "cmp": ">="
       },
       "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "ds2-finish-004",
@@ -68,12 +53,7 @@
         "cmp": ">="
       },
       "note": "Wilderness Agility Course - fastest here (deep Wilderness, keep risk low and watch for PKers).",
-      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "ds2-finish-005",
@@ -86,12 +66,7 @@
         "cmp": ">="
       },
       "note": "Build oak larders in the POH Kitchen (8 oak planks each) - cheap and fast; switch to oak dungeon doors at 74 to stay cheap.",
-      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "ds2-finish-006",
@@ -104,12 +79,7 @@
         "cmp": ">="
       },
       "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training"
     },
     {
       "id": "ds2-finish-007",
@@ -136,12 +106,7 @@
       "id": "ds2-finish-009",
       "title": "Buy gear - Justi + lance/fang",
       "text": "Buy gear - Justi + lance/fang",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ds2-finish-010",

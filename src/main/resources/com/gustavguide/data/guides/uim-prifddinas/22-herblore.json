@@ -64,8 +64,8 @@
       "text": "Get a Kharedst's memoirs again",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1767,
+        3597,
         0
       ]
     },
@@ -85,12 +85,7 @@
       "id": "herblore-006",
       "title": "Get a rune pickaxe from a …",
       "text": "Get a rune pickaxe from a shop",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-007",
@@ -102,29 +97,13 @@
       "id": "herblore-008",
       "title": "Go to each compost bin around …",
       "text": "Go to each compost bin around the world you have access to and fill them with pineapples. When they are done you can come back to harvest them. — Use the volcanic ash on the bin before harvesting the compost. — You will want to get moving on this even though you don't have herb seeds yet so that you can clear up the 2 inventory slots for pineapples and volcanic ash. — Keep 15 inventory slots open until you are done making compost.",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "herblore-009",
       "title": "Put away your graceful, get out …",
       "text": "Put away your graceful, get out your rogues set",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-010",
@@ -314,12 +293,7 @@
           }
         ]
       },
-      "item": 5294,
-      "world": [
-        3345,
-        2725,
-        0
-      ]
+      "item": 5294
     },
     {
       "id": "herblore-014",

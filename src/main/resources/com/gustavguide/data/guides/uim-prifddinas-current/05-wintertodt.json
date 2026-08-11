@@ -111,12 +111,7 @@
       "id": "wintertodt-005",
       "title": "Get a Tinderbox",
       "text": "Get a Tinderbox",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "wintertodt-006a",
@@ -141,8 +136,8 @@
       "text": "get a Forestry kit from the Forestry Shop. — You can drop the Ardounge Cloak now. — Hop to world 444 for all of your woodcutting",
       "manual": true,
       "world": [
-        3192,
-        3223,
+        3103,
+        3265,
         0
       ]
     },
@@ -152,8 +147,8 @@
       "text": "Buy a Rainbow Scarf from Diango",
       "manual": true,
       "world": [
-        3212,
-        3247,
+        3081,
+        3246,
         0
       ]
     },
@@ -179,12 +174,7 @@
         "cmp": ">="
       },
       "note": "Burn the best logs you can (willow->teak->maple->yew->magic->redwood) at east Grand Exchange; Wintertodt at 50+ is a good XP+loot option.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
-      "world": [
-        3192,
-        3223,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "wintertodt-010",
@@ -211,8 +201,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3169,
-        3172,
+        3212,
+        3247,
         0
       ]
     },

@@ -7,12 +7,7 @@
       "id": "order-001",
       "title": "Account start (main/alt) > Spec transfer …",
       "text": "Account start (main/alt) > Spec transfer OR Blood rc / runner alt",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "order-002",
@@ -30,12 +25,7 @@
       "id": "order-004",
       "title": "If you want to make a …",
       "text": "If you want to make a wyvern or brutal alt I recommend just following \"Account start\" and \"Slayer alt\"",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "order-005",

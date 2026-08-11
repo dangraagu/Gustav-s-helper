@@ -7,23 +7,13 @@
       "id": "e12-001a",
       "title": "Withdraw: Combat Gear (Blood Moon with …",
       "text": "Withdraw: Combat Gear (Blood Moon with Dual Macahuitl’s are best), Coins",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-001b",
       "title": "Teleport Runes, Dramen Staff, Costume Needle, …",
       "text": "Teleport Runes, Dramen Staff, Costume Needle, Hammer, 2x Box Traps, Potions & Food",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-002",
@@ -53,6 +43,7 @@
       "title": "Inspect Empty Display Case (1) [Ethically …",
       "text": "Inspect Empty Display Case (1) [Ethically Acquired Antiques]",
       "manual": true,
+      "object": 54693,
       "world": [
         1721,
         3165,
@@ -388,8 +379,8 @@
       "text": "Take the Quetzal to Quetzacalli Gorge",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1725,
+        3128,
         0
       ]
     },
@@ -441,8 +432,8 @@
       "text": "Take the Quetzal to Quetzacalli Gorge",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1681,
+        3168,
         0
       ]
     },
@@ -450,45 +441,25 @@
       "id": "e12-034",
       "title": "Bank all",
       "text": "Bank all",
-      "manual": true,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-035",
       "title": "Withdraw: Blood Moon & Dual Macahuitl’s, …",
       "text": "Withdraw: Blood Moon & Dual Macahuitl’s, combat potions & food",
-      "manual": true,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-036",
       "title": "Kill Frost Nagua’s until you get …",
       "text": "Kill Frost Nagua’s until you get Pendant of ates (OPTIONAL: Glacial Temotli’s)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-037",
       "title": "Recommended: Kill Amoxiatl instead for the …",
       "text": "Recommended: Kill Amoxiatl instead for the combat achievements; You may get it here passively. The 30 second one you may want to return for",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-038",
@@ -581,12 +552,7 @@
       "id": "e12-043",
       "title": "Withdraw: Combat Gear, Food & Potions",
       "text": "Withdraw: Combat Gear, Food & Potions",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-044",
@@ -690,12 +656,7 @@
           }
         ]
       },
-      "item": 960,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 960
     },
     {
       "id": "e12-051",
@@ -738,18 +699,7 @@
       "id": "e12-054",
       "title": "Head North over the bridge & …",
       "text": "Head North over the bridge & bank",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "e12-055",
@@ -771,12 +721,7 @@
           }
         ]
       },
-      "item": 847,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 847
     },
     {
       "id": "e12-056",
@@ -921,23 +866,13 @@
       "id": "e12-068a",
       "title": "Withdraw: Combat Gear (Melee & Range), …",
       "text": "Withdraw: Combat Gear (Melee & Range), Food & Potions",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-068b",
       "title": "Teleport Runes",
       "text": "Teleport Runes",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-069",
@@ -945,8 +880,8 @@
       "text": "Take North Quetzal to Teklan",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1396,
+        3356,
         0
       ]
     },
@@ -1100,12 +1035,7 @@
       "id": "e12-080",
       "title": "Camulet to inside. Upgrade to infinite …",
       "text": "Camulet to inside. Upgrade to infinite charges then camulet outside",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-081",
@@ -1172,18 +1102,7 @@
       "id": "e12-086",
       "title": "Teleport to POH with the Tablet …",
       "text": "Teleport to POH with the Tablet & change to Regular Spellbook",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "e12-087",
@@ -1218,23 +1137,13 @@
       "id": "e12-090",
       "title": "Infuse the Zenyte’s and Onyx’s together",
       "text": "Infuse the Zenyte’s and Onyx’s together",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-091",
       "title": "Hunt Orange spices for +5 boosts …",
       "text": "Hunt Orange spices for +5 boosts as necessary and create your Zenyte Jewellry",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-092",
@@ -1267,23 +1176,13 @@
       "id": "e12-093",
       "title": "Gear: (Make sure Suffering is imbued …",
       "text": "Gear: (Make sure Suffering is imbued & recoil effect activated. Replace Inferno with Accumulator if you don’t have (I preferred a bit extra range defence for tanz phases). Rune pouch with ‘Cure Me’ missing",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-094",
       "title": "As we have no good way …",
       "text": "As we have no good way to cure venom right now we will use the ‘Cure Me’ Lunar spell. Using this we want to camp only range (which is very effective) until we get a Serpentine Visage drop or we unlock Antivenoms.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e12-095",

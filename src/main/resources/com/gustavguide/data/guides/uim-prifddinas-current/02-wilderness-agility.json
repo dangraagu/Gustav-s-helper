@@ -121,8 +121,8 @@
       "text": "Read the rules and abide by any instructions for the clan you are going with. — If you are running with Agility FC, you must wear a ranged weapon so swap your training sword to a crossbow and bring something else for the webs. — You don't need bolts as you won't attack anyone or it would ruin your build. Just look scary...",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1365,
+        3366,
         0
       ]
     },
@@ -138,8 +138,8 @@
       "text": "Read the next section first and decide if you want to go for Watchtower with your limited remaining combat xp before spending it here",
       "manual": true,
       "world": [
-        2917,
-        3745,
+        1365,
+        3366,
         0
       ]
     },
@@ -179,8 +179,8 @@
       "text": "Complete the easy Lumbridge & Draynor Diary. — You will need 2 poisons to complete this. — After you are done, you can add the Explorer's ring 1 to your setup for an extra Prayer bonus. — To kill the cave bug you have to do a bit extra because of their very high HP regen. — Bring your dagger and ranged/magic. — Poison the bug as normal. — After it gets hit by a 4, attack with with Ranged or Magic to get an extra hit of damage in.",
       "manual": true,
       "world": [
-        3212,
-        3215,
+        3243,
+        3207,
         0
       ]
     },
@@ -246,12 +246,7 @@
       "id": "wilderness-agility-022",
       "title": "Get the Firemaking level for the …",
       "text": "Get the Firemaking level for the dynamite and look up guides on how to do quests as a skiller",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "wilderness-agility-023",

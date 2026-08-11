@@ -804,8 +804,8 @@
       "text": "get 3 waxwood planks",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3302,
+        3492,
         0
       ]
     },
@@ -1080,14 +1080,14 @@
       "title": "Head south to the general store",
       "text": "Head south to the general store",
       "world": [
-        3165,
-        3490,
+        3216,
+        3416,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3165,
-        "y": 3490,
+        "x": 3216,
+        "y": 3416,
         "z": 0,
         "radius": 8
       }
@@ -1110,8 +1110,8 @@
       "text": "Sell items to the general store. If you don't hop worlds for the cloth and planks you will be short on money later. — 4 bolts of cloth — 5 oak planks — The 5 steel bars — The 50 mithril nails",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3216,
+        3416,
         0
       ]
     },

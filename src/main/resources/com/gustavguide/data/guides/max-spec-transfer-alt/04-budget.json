@@ -14,45 +14,25 @@
         "cmp": ">="
       },
       "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
-      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "budget-002a",
       "title": "build Revitalisation pool (only spec",
       "text": "build Revitalisation pool (only spec",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "budget-002b",
       "title": "run)",
       "text": "run)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "budget-003",
       "title": "build portal room",
       "text": "build portal room",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "budget-004",

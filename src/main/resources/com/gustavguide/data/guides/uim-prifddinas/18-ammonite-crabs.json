@@ -68,12 +68,7 @@
       "id": "ammonite-crabs-004",
       "title": "Get an Ava's Attractor from Ava …",
       "text": "Get an Ava's Attractor from Ava if you don't still have it",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ammonite-crabs-005",
@@ -97,8 +92,8 @@
       },
       "item": 8880,
       "world": [
-        3165,
-        3490,
+        3216,
+        3416,
         0
       ]
     },
@@ -190,12 +185,7 @@
       "id": "ammonite-crabs-010",
       "title": "Buy an axe or get one …",
       "text": "Buy an axe or get one from tree spirits",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ammonite-crabs-011",
@@ -204,8 +194,8 @@
       "manual": true,
       "object": 10820,
       "world": [
-        3190,
-        3247,
+        2714,
+        3664,
         0
       ]
     },
@@ -235,12 +225,7 @@
         "cmp": ">="
       },
       "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training"
     }
   ]
 }

@@ -7,12 +7,7 @@
       "id": "combat-xp-001",
       "title": "Recommended minimum combat stats before jumping …",
       "text": "Recommended minimum combat stats before jumping into PvM. — 80 Attack — 85 Strength — 80 Defense — 85 Ranged — 70 Prayer (Piety) — 80 Magic (Blood Blitz/Charge)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     }
   ]
 }

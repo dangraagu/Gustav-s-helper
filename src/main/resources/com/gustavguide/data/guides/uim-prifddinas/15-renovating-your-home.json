@@ -7,62 +7,31 @@
       "id": "renovating-your-home-001",
       "title": "Go to your house. Remove your …",
       "text": "Go to your house. Remove your parlor and add these rooms: — 3 portal chambers — 1 costume room — 1 chapel — 1 workshop — 1 menagerie — 1 kitchen",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "renovating-your-home-002a",
       "title": "Get an inventory of oak planks",
       "text": "Get an inventory of oak planks",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "renovating-your-home-002b",
       "title": "make: — oak toy box — …",
       "text": "make: — oak toy box — oak fancy dress box — oak treasure chest — oak armour case — oak altar — tool stores 1, 2, 3, and 4",
-      "manual": true,
-      "world": [
-        3208,
-        3494,
-        1
-      ]
+      "manual": true
     },
     {
       "id": "renovating-your-home-003a",
       "title": "Get another inventory of oak planks",
       "text": "Get another inventory of oak planks",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "renovating-your-home-003b",
       "title": "make: — Oak magic wardrobe — …",
       "text": "make: — Oak magic wardrobe — upgrade to carved oak wardrobe — oak larder — clockmakers bench 1",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "renovating-your-home-004",
@@ -284,12 +253,7 @@
       "id": "renovating-your-home-015",
       "title": "Get 6 more oak planks, 9 …",
       "text": "Get 6 more oak planks, 9 more teak planks, and 2 more limestone bricks",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "renovating-your-home-016a",
@@ -297,8 +261,8 @@
       "text": "Make a tea, and upgrade your tool storage to level 5",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2531,
+        3420,
         0
       ]
     },
@@ -308,8 +272,8 @@
       "text": "make an oak house in the menagerie",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2531,
+        3420,
         0
       ]
     },
@@ -319,8 +283,8 @@
       "text": "Make another portal focus and 3 teak portal frames",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2531,
+        3420,
         0
       ]
     },
@@ -334,12 +298,7 @@
       "id": "renovating-your-home-019",
       "title": "Get a bucket of water",
       "text": "Get a bucket of water",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "renovating-your-home-020",

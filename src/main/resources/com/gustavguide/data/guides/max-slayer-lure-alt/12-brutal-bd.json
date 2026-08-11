@@ -26,12 +26,7 @@
         "cmp": ">="
       },
       "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training"
     },
     {
       "id": "brutal-bd-003",
@@ -43,23 +38,13 @@
       "id": "brutal-bd-004",
       "title": "Buy DHCB, rigour, anguish and blessed …",
       "text": "Buy DHCB, rigour, anguish and blessed d hide (~110m)",
-      "manual": true,
-      "world": [
-        3216,
-        3416,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "brutal-bd-005",
       "title": "Optional: get higher prayer lvl for …",
       "text": "Optional: get higher prayer lvl for less ppots used",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "brutal-bd-006",

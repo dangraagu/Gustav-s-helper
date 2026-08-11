@@ -382,8 +382,8 @@
       "text": "Make a redberry pie — Use the pot of flour with your bucket of water to create pastry dough. — Use the pastry dough on your pie dish to make a pie shell. — Use the redberry on the pie shell to make an uncooked berry pie. — Head north and cook the pie on the range. — If you burn the pie, empty the pan and repeat the steps from before to try again. There is a water source for the bucket to the north.",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3212,
+        3215,
         0
       ]
     },
@@ -393,8 +393,8 @@
       "text": "Drop the pot(s) and empty bucket once you have the redberry pie",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3212,
+        3215,
         0
       ]
     },

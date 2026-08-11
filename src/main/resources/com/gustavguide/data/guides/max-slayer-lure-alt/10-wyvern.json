@@ -7,12 +7,7 @@
       "id": "wyvern-001",
       "title": "Wyverns ~150m bis Gear — 1m+ …",
       "text": "Wyverns ~150m bis Gear — 1m+ gp/h",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "wyvern-002",
@@ -35,8 +30,8 @@
       "text": "Read section in the skilling methods discord. basically just need gear and you can start",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2716,
+        3482,
         0
       ]
     }

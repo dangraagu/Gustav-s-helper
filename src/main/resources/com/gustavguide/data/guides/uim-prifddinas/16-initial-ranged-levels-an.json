@@ -51,12 +51,7 @@
       "id": "initial-ranged-levels-an-004",
       "title": "Get a dwarven rock cake",
       "text": "Get a dwarven rock cake",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "initial-ranged-levels-an-005",
@@ -104,12 +99,7 @@
       "id": "initial-ranged-levels-an-009",
       "title": "Get a tinderbox",
       "text": "Get a tinderbox",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "initial-ranged-levels-an-010",
@@ -216,12 +206,7 @@
       "id": "initial-ranged-levels-an-014",
       "title": "Get a bucket of water",
       "text": "Get a bucket of water",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "initial-ranged-levels-an-015",

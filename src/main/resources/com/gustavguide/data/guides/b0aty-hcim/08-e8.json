@@ -166,12 +166,7 @@
       "id": "e8-014",
       "title": "Zombie Axe Blue Moon on Crush …",
       "text": "Zombie Axe Blue Moon on Crush (Use the Boppers if you get them, step under every hit)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e8-015",
@@ -249,8 +244,8 @@
       "text": "Water orbs: Make Battlestaffs & alch (You can alch the staffs while doing the next hunter staff and repeat the process)",
       "manual": true,
       "world": [
-        2917,
-        3745,
+        1435,
+        3124,
         0
       ]
     },

@@ -25,12 +25,7 @@
       "id": "intro-003",
       "title": "But we still need to get …",
       "text": "But we still need to get 100 QP more and level up some skills to meet the requirements",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "intro-004",

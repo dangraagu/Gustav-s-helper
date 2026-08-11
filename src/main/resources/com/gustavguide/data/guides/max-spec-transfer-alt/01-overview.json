@@ -18,12 +18,7 @@
       "id": "overview-002",
       "title": "Spectransfering yourself with slayer can be …",
       "text": "Spectransfering yourself with slayer can be a really efficient way to get a lot of melee xp while still getting good slayer xp/h. ideally you want to have 2 xfer alts",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "overview-003",
@@ -37,8 +32,8 @@
       "text": "having 82 con to boost for an ornate pool in your poh would be ideal but you can also get the Revitalisation pool and just bring food to heal yourself again on the alt (you only have to cast heal other a couple times per task)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3222,
+        3473,
         0
       ]
     },

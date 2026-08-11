@@ -33,23 +33,13 @@
         "cmp": ">="
       },
       "note": "Nightmare Zone for fastest solo Attack XP; Dharok's set becomes optimal at 92+ Hitpoints, else Blood Moon / Obsidian.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training"
     },
     {
       "id": "qol-tips-004",
       "title": "Bludgeon is slightly better for kalphite …",
       "text": "Bludgeon is slightly better for kalphite and trolls but using whip + fremennik shield is probably better for afking trolls",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "qol-tips-005",
@@ -79,8 +69,8 @@
       "text": "take the carpet to get to kalphites",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3358,
+        2974,
         0
       ]
     },
@@ -100,12 +90,7 @@
       "id": "qol-tips-009",
       "title": "Can sometimes skip suqah if you …",
       "text": "Can sometimes skip suqah if you get close to max amount and if you have enough points",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "qol-tips-010",
@@ -123,12 +108,7 @@
       "id": "qol-tips-011",
       "title": "Slayer sheet: https://docs.google.com/spreadsheets/d/1ftKGzCWc4l71qjVJ",
       "text": "Slayer sheet: https://docs.google.com/spreadsheets/d/1ftKGzCWc4l71qjVJv9obHbM_-GCm-xsAqmh7b90ZscA/edit#gid=1094778124",
-      "manual": true,
-      "world": [
-        2407,
-        3105,
-        0
-      ]
+      "manual": true
     }
   ]
 }

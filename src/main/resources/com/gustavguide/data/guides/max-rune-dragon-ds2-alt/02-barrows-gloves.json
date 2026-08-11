@@ -63,12 +63,7 @@
       "id": "barrows-gloves-005",
       "title": "Gerturde's Cat",
       "text": "Gerturde's Cat",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "barrows-gloves-006",
@@ -152,12 +147,7 @@
         "cmp": ">="
       },
       "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
-      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "barrows-gloves-012",
@@ -196,12 +186,7 @@
         "cmp": ">="
       },
       "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
-      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "barrows-gloves-015",
@@ -289,12 +274,7 @@
         "cmp": ">="
       },
       "note": "Blackjack bandits in Pollnivneach (needs partial The Feud) with rogue equipment + Saradomin brews.",
-      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "barrows-gloves-021",
@@ -315,12 +295,7 @@
       "id": "barrows-gloves-022",
       "title": "Get 75% favour with sand worms",
       "text": "Get 75% favour with sand worms",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "barrows-gloves-023a",
@@ -335,8 +310,8 @@
       "note": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65.",
       "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "world": [
-        3165,
-        3490,
+        1796,
+        3781,
         0
       ]
     },
@@ -346,8 +321,8 @@
       "text": "make use of the bridge safespot) https://i.imgur.com/x0e3te6.png",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1796,
+        3781,
         0
       ]
     },
@@ -362,12 +337,7 @@
         "cmp": ">="
       },
       "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training"
     },
     {
       "id": "barrows-gloves-025",
@@ -473,12 +443,7 @@
         "cmp": ">="
       },
       "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training"
     },
     {
       "id": "barrows-gloves-032",
@@ -539,12 +504,7 @@
         "cmp": ">="
       },
       "note": "Make Super attack (45) -> Super energy (52) -> Super strength (55) -> Super restore (63); always the highest-XP potion you can afford.",
-      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "barrows-gloves-036",
@@ -688,12 +648,7 @@
       "id": "barrows-gloves-046",
       "title": "RFD Evil Dave",
       "text": "RFD Evil Dave",
-      "manual": true,
-      "world": [
-        3213,
-        3221,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "barrows-gloves-047",

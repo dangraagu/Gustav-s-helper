@@ -320,9 +320,10 @@
       "title": "Plant Jute Seeds in patch [Kandarin …",
       "text": "Plant Jute Seeds in patch [Kandarin Easy Diary] (Supplies in Leprechaun)",
       "manual": true,
+      "object": 8176,
       "world": [
-        2841,
-        3432,
+        2669,
+        3523,
         0
       ]
     },
@@ -492,8 +493,8 @@
       },
       "item": 401,
       "world": [
-        2708,
-        3209,
+        2843,
+        3070,
         0
       ]
     },
@@ -503,8 +504,8 @@
       "text": "Drop this",
       "manual": true,
       "world": [
-        2708,
-        3209,
+        2843,
+        3070,
         0
       ]
     },
@@ -514,8 +515,8 @@
       "text": "pick it up 5x [Karamja Easy Diary]",
       "manual": true,
       "world": [
-        2708,
-        3209,
+        2843,
+        3070,
         0
       ]
     },
@@ -525,8 +526,8 @@
       "text": "Cross Rope Swing to Moss Giant Island [Karamja Easy Diary]",
       "manual": true,
       "world": [
-        2708,
-        3209,
+        2843,
+        3070,
         0
       ]
     },
@@ -536,8 +537,8 @@
       "text": "Mine a Gold Ore to complete Karamja Easy Diary",
       "manual": true,
       "world": [
-        2731,
-        3225,
+        2745,
+        3150,
         0
       ]
     },
@@ -700,8 +701,8 @@
       },
       "item": 1271,
       "world": [
-        3165,
-        3490,
+        2810,
+        3442,
         0
       ]
     },
@@ -858,8 +859,8 @@
       "text": "Make a Bowl [Varrock Easy Diary] Drop this",
       "manual": true,
       "world": [
-        3206,
-        3417,
+        3210,
+        3448,
         0
       ]
     },
@@ -947,8 +948,8 @@
       "text": "Take the shortcut back and forth[Falador Medium Diary]",
       "manual": true,
       "world": [
-        2932,
-        3213,
+        3000,
+        3360,
         0
       ]
     },
@@ -1038,8 +1039,8 @@
         "state": "IN_PROGRESS"
       },
       "world": [
-        3209,
-        3215,
+        3485,
+        3088,
         0
       ]
     },
@@ -1339,8 +1340,8 @@
       },
       "item": 1139,
       "world": [
-        3165,
-        3490,
+        2725,
+        3492,
         0
       ]
     },
@@ -1605,8 +1606,8 @@
       },
       "item": 245,
       "world": [
-        2932,
-        3213,
+        3000,
+        3360,
         0
       ]
     },
@@ -1676,10 +1677,11 @@
         "quest": "FAMILY_CREST",
         "state": "FINISHED"
       },
+      "npc": 3100,
       "world": [
-        3280,
-        3402,
-        0
+        2982,
+        3341,
+        1
       ]
     },
     {
@@ -1790,12 +1792,7 @@
       "id": "e3-116",
       "title": "OPTIONAL: Bring Sunbeam Ale as well …",
       "text": "OPTIONAL: Bring Sunbeam Ale as well if 69 agility to use shortcut",
-      "manual": true,
-      "world": [
-        2612,
-        3255,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-117",
@@ -1954,8 +1951,8 @@
       "text": "Chop",
       "manual": true,
       "world": [
-        2724,
-        3773,
+        3059,
+        3253,
         0
       ]
     },
@@ -1964,9 +1961,10 @@
       "title": "burn some oak logs [Fremennik Easy …",
       "text": "burn some oak logs [Fremennik Easy Diary]",
       "manual": true,
+      "object": 10819,
       "world": [
-        2724,
-        3773,
+        3059,
+        3253,
         0
       ]
     },
@@ -1976,8 +1974,8 @@
       "text": "Fill a bucket of Water at the Well [Fremennik Easy Diary]",
       "manual": true,
       "world": [
-        2897,
-        10219,
+        3059,
+        3253,
         0
       ]
     },
@@ -2000,12 +1998,7 @@
       "id": "e3-131",
       "title": "Cabbage, potato and onion can be …",
       "text": "Cabbage, potato and onion can be harvested in Pontaks backyard",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-132",
@@ -2202,8 +2195,8 @@
       },
       "item": 359,
       "world": [
-        3165,
-        3490,
+        2642,
+        3678,
         0
       ]
     },
@@ -2229,8 +2222,8 @@
       },
       "item": 3099,
       "world": [
-        3216,
-        3416,
+        2642,
+        3678,
         0
       ]
     },
@@ -2298,7 +2291,13 @@
       "id": "e3-151",
       "title": "Do 1 lap of Barbarian Agility …",
       "text": "Do 1 lap of Barbarian Agility [Kandarin Medium Diary]",
-      "manual": true
+      "manual": true,
+      "object": 20210,
+      "world": [
+        2552,
+        3560,
+        0
+      ]
     },
     {
       "id": "e3-152",
@@ -2379,12 +2378,7 @@
           }
         ]
       },
-      "item": 1891,
-      "world": [
-        2724,
-        3773,
-        0
-      ]
+      "item": 1891
     },
     {
       "id": "e3-158",
@@ -2552,12 +2546,7 @@
       "id": "e3-169",
       "title": "Mould Order: Flamberge Blade -> Stiletto …",
       "text": "Mould Order: Flamberge Blade -> Stiletto Fortre -> Serpent Blade -> Defender Base -> Defenders Tip -> Claymore Blade -> Serrated Tip -> Juggernaut Forte -> Needle Point",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-170",
@@ -2674,10 +2663,9 @@
         "quest": "ENTER_THE_ABYSS",
         "state": "FINISHED"
       },
-      "object": 4913,
       "world": [
-        3440,
-        3232,
+        3102,
+        3557,
         0
       ]
     },
@@ -3162,8 +3150,8 @@
       },
       "item": 1891,
       "world": [
-        3213,
-        3221,
+        2958,
+        3508,
         0
       ]
     },
@@ -3216,8 +3204,8 @@
       },
       "item": 8880,
       "world": [
-        3209,
-        3216,
+        3212,
+        3247,
         0
       ]
     },
@@ -3354,12 +3342,7 @@
       "id": "e3-217",
       "title": "Check Recoil has over 20 charges. …",
       "text": "Check Recoil has over 20 charges. (Make sure you have a 2nd in inventory)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-218",
@@ -3382,8 +3365,8 @@
       "text": "NOTE: Quest helper may be bugged here, so follow these steps:",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2573,
+        3321,
         0
       ]
     },
@@ -3406,12 +3389,7 @@
       "id": "e3-221",
       "title": "WARNING (HCIM): Be careful crossing the …",
       "text": "WARNING (HCIM): Be careful crossing the bridge, if you weight more than 0kg, you will fall, take 20 hp damage",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-222",
@@ -3425,8 +3403,8 @@
       "text": "Cross the bridge in the north room",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2637,
+        9819,
         0
       ]
     },
@@ -3782,8 +3760,8 @@
       },
       "item": 1133,
       "world": [
-        3165,
-        3490,
+        2613,
+        3093,
         0
       ]
     },
@@ -3791,18 +3769,7 @@
       "id": "e3-247b",
       "title": "Teleport Runes, Enchanted Gem, Dwarven Cake, …",
       "text": "Teleport Runes, Enchanted Gem, Dwarven Cake, Pickaxe (13 Inventory Slots)",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "e3-248",
@@ -3868,9 +3835,10 @@
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
       },
+      "npc": 3024,
       "world": [
-        2732,
-        3713,
+        3043,
+        9796,
         0
       ]
     },
@@ -3950,12 +3918,7 @@
       "id": "e3-258",
       "title": "Complete Dwarf RFD",
       "text": "Complete Dwarf RFD",
-      "manual": true,
-      "world": [
-        3213,
-        3221,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-259",
@@ -4143,8 +4106,8 @@
       },
       "item": 536,
       "world": [
-        3165,
-        3490,
+        3692,
+        3468,
         0
       ]
     },
@@ -4266,12 +4229,7 @@
       "id": "e3-279",
       "title": "Get the Obsidian Star",
       "text": "Get the Obsidian Star",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-280",
@@ -4294,8 +4252,8 @@
       "text": "Cut a Hollow Tree [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -4305,8 +4263,8 @@
       "text": "Use Star on Experiment Entrance (Don't enter)",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -4314,18 +4272,7 @@
       "id": "e3-283",
       "title": "Head to the wrecked ship and …",
       "text": "Head to the wrecked ship and dye the toy ship to match the wrecked ship (If you get bad rng here you may need a bad combination of dyes)",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "e3-284",
@@ -4339,8 +4286,8 @@
       "text": "Use the key on the chest for the 1st map piece [Ghost's Ahoy]",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3493,
+        3488,
         0
       ]
     },
@@ -4362,8 +4309,8 @@
       "text": "Return to the farm",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        3477,
+        3497,
         0
       ]
     },
@@ -4377,8 +4324,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3216,
-        3416,
+        3477,
+        3497,
         0
       ]
     },
@@ -4438,8 +4385,8 @@
       "text": "Make cannonballs on the Furnance [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -4479,12 +4426,7 @@
       "id": "e3-294",
       "title": "Dig for the Book of Haricanto …",
       "text": "Dig for the Book of Haricanto [Ghost's Ahoy]",
-      "manual": true,
-      "world": [
-        3660,
-        3508,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-295",
@@ -4577,12 +4519,7 @@
       "id": "e3-302",
       "title": "When getting the signatures, find 2 …",
       "text": "When getting the signatures, find 2 ghosts near each other and if they ask for Ectotokens or deny you, return the other and repeat until 10 signatures",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-303",
@@ -4713,8 +4650,8 @@
       "text": "Ectophial teleport [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -4746,8 +4683,8 @@
       },
       "item": 10496,
       "world": [
-        3165,
-        3490,
+        3512,
+        3478,
         0
       ]
     },
@@ -5005,14 +4942,14 @@
       "title": "Go through the pipe to Moss …",
       "text": "Go through the pipe to Moss Giants [Varrock Hard Diary]",
       "world": [
-        3081,
-        3420,
+        3210,
+        3448,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3081,
-        "y": 3420,
+        "x": 3210,
+        "y": 3448,
         "z": 0,
         "radius": 8
       }
@@ -5049,12 +4986,7 @@
       "id": "e3-335",
       "title": "OPTIONAL: You can Scurrius boost here …",
       "text": "OPTIONAL: You can Scurrius boost here but you will still need 60 range eventually",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-336",
@@ -5075,12 +5007,7 @@
       "id": "e3-337",
       "title": "OPTIONAL: ^ AFK range at crabs",
       "text": "OPTIONAL: ^ AFK range at crabs",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-338",
@@ -5088,8 +5015,8 @@
       "text": "OPTIONAL: IF GP is no issue (LMS/Early revs) You can buy a Cannon. Using the Double Mould from Giant's Foundry & buying ores at Blast Furnace you probably get more range/slayer xp/hour through that process, but you won't get Hitpoints. I personally chose to maximise hitpoints as you will already be doing Song of the Elves with mid 50s",
       "manual": true,
       "world": [
-        2930,
-        10197,
+        2566,
+        3337,
         0
       ]
     },
@@ -5210,8 +5137,8 @@
       "text": "Enter Player Owned House [Desert Medium Diary]",
       "manual": true,
       "world": [
-        2329,
-        3495,
+        2624,
+        3300,
         0
       ]
     },
@@ -5269,12 +5196,7 @@
       "id": "e3-351",
       "title": "IF 47 Hunter: Catch Orange Salamander …",
       "text": "IF 47 Hunter: Catch Orange Salamander while passing[Desert Medium Diary]",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-352",
@@ -5288,8 +5210,8 @@
       "text": "Use the Runite Spear on Stab/Slash/Crush for Golems. Safespot & Flinch them",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3425,
+        2909,
         0
       ]
     },
@@ -5362,18 +5284,18 @@
       "id": "e3-359",
       "title": "Kill a Vulture [Desert Easy Diary]",
       "text": "Kill a Vulture [Desert Easy Diary]",
-      "manual": true,
-      "world": [
-        3304,
-        3116,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-360",
       "title": "Start Icthlarins Little Helper",
       "text": "Start Icthlarins Little Helper",
-      "manual": true
+      "manual": true,
+      "world": [
+        3316,
+        2849,
+        0
+      ]
     },
     {
       "id": "e3-361",
@@ -5393,8 +5315,8 @@
       "text": "Open the Sarcophagus [Desert Easy Diary]",
       "manual": true,
       "world": [
-        3304,
-        3116,
+        3289,
+        2800,
         0
       ]
     },
@@ -5494,8 +5416,8 @@
       "text": "Plant Bittercap Mushroom in the patch (If this isn’t in your seed vault, return to this step when you get one from a contract). Keep 1x Weeds. Farm these and replant so you have 10 in the bank for MUCH later.",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -5511,8 +5433,8 @@
       "text": "enter the swamp",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -5522,8 +5444,8 @@
       "text": "Fill your Druid pouch with at least 6 Mort myre fungus",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -5699,8 +5621,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3564,
-        3294,
+        3602,
+        3366,
         0
       ]
     },
@@ -5734,8 +5656,8 @@
       "text": "Kill Ahrim with protect from magic, bring jangerberries to restore 1 prayer point if you get drained and 1-tick/lazy flick",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3604,
+        3354,
         0
       ]
     },
@@ -5743,12 +5665,7 @@
       "id": "e3-390",
       "title": "Find your tunnel (Enter a Melee …",
       "text": "Find your tunnel (Enter a Melee brother Mound, search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-391",
@@ -5760,12 +5677,7 @@
       "id": "e3-392",
       "title": "Turn NPC 'Attack' Options to 'Always …",
       "text": "Turn NPC 'Attack' Options to 'Always Right-click'",
-      "manual": true,
-      "world": [
-        2658,
-        2625,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e3-393",
@@ -5773,8 +5685,8 @@
       "text": "Open Crypt doors to force spawn the Melee brothers. Safespot approprietly until all 4 are dead",
       "manual": true,
       "world": [
-        2658,
-        2625,
+        3604,
+        3354,
         0
       ]
     },
@@ -5790,8 +5702,8 @@
       "text": "NOTE: MAKE SURE YOU HAVE SPACE BEFORE YOU LOOT THE CHEST",
       "manual": true,
       "world": [
-        2658,
-        2625,
+        3604,
+        3354,
         0
       ]
     },

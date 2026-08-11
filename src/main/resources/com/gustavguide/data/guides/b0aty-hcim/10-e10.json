@@ -40,12 +40,7 @@
           }
         ]
       },
-      "item": 1755,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1755
     },
     {
       "id": "e10-003",
@@ -59,8 +54,8 @@
       "text": "Fletch Arrowshafts from Maple Logs 45-52 Fletching in similar style",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3730,
+        3807,
         0
       ]
     },
@@ -581,8 +576,8 @@
       "manual": true,
       "item": 9083,
       "world": [
-        3165,
-        3490,
+        2620,
+        3693,
         0
       ]
     },
@@ -603,8 +598,8 @@
       "text": "Withdraw: Bow of Faerdhinen & Crystal Armour, Seal of Passage, 3 lots of 7 random cooked food",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2101,
+        3919,
         0
       ]
     },
@@ -695,21 +690,17 @@
       "id": "e10-044",
       "title": "Once off, wait for your character …",
       "text": "Once off, wait for your character to drink a waterskin, cast Humidify [Desert Hard Diary]",
-      "manual": true,
-      "world": [
-        3228,
-        3109,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-045",
       "title": "Complete a lap of Pollnivneach Agility …",
       "text": "Complete a lap of Pollnivneach Agility Course [Desert Hard Diary]",
       "manual": true,
+      "object": 14935,
       "world": [
-        3228,
-        3109,
+        3351,
+        2962,
         0
       ]
     },
@@ -759,12 +750,7 @@
       "id": "e10-049",
       "title": "Return to the maze & kill …",
       "text": "Return to the maze & kill the ranger Locus Rider nearby [Desert Hard Diary]",
-      "manual": true,
-      "world": [
-        3228,
-        3109,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-050",
@@ -826,8 +812,8 @@
       "text": "Light a fire on the Mayor’s Balcony [Desert Hard Diary]",
       "manual": true,
       "world": [
-        3228,
-        3109,
+        3427,
+        2891,
         0
       ]
     },
@@ -837,8 +823,8 @@
       "text": "Smith a Mithril Platebody [Desert Hard Diary]",
       "manual": true,
       "world": [
-        3228,
-        3109,
+        3409,
+        2921,
         0
       ]
     },
@@ -971,8 +957,8 @@
       "text": "Use all Sceptre Charges so it is empty",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3289,
+        2800,
         0
       ]
     },
@@ -1062,23 +1048,13 @@
       "id": "e10-073",
       "title": "Build a portal nexus West of …",
       "text": "Build a portal nexus West of the superior garden",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-074",
       "title": "Build a Marble portal nexus. Upgrade …",
       "text": "Build a Marble portal nexus. Upgrade it to Gilded portal nexus",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-075",
@@ -1186,12 +1162,7 @@
       "id": "e10-081a",
       "title": "Catch Rats",
       "text": "Catch Rats",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-081b",
@@ -1199,8 +1170,8 @@
       "text": "use Orange Spice to Boost Construction",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2455,
+        3312,
         0
       ]
     },
@@ -1208,12 +1179,7 @@
       "id": "e10-082",
       "title": "If you get a +2 boost …",
       "text": "If you get a +2 boost (85+), you can bank, make the Fairy Ring in the POH as you will have time",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-083a",
@@ -1221,8 +1187,8 @@
       "text": "When you get a +5 boost (88), pick up your cat",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2455,
+        3312,
         0
       ]
     },
@@ -1232,8 +1198,8 @@
       "text": "teleport to POH",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2455,
+        3312,
         0
       ]
     },
@@ -1243,9 +1209,9 @@
       "text": "make the Occult Altar in the Achievement Gallery",
       "manual": true,
       "world": [
-        3208,
-        3494,
-        1
+        2455,
+        3312,
+        0
       ]
     },
     {
@@ -1268,23 +1234,13 @@
           }
         ]
       },
-      "item": 1379,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "item": 1379
     },
     {
       "id": "e10-084b",
       "title": "Teleport Runes",
       "text": "Teleport Runes",
-      "manual": true,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-085",
@@ -1555,12 +1511,7 @@
       "id": "e10-104",
       "title": "If you are 80 crafting from …",
       "text": "If you are 80 crafting from the gems & battlestaffs then you can immediately skip to the glory steps. Else you may need to craft a bit & sending 85 for a fury instantly which isn’t a bad idea.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-105",
@@ -1605,12 +1556,7 @@
       "id": "e10-108",
       "title": "Mine Sandstone and put in the …",
       "text": "Mine Sandstone and put in the grinder until you have enough for 80 or 85 respectively (your choice; i’d recommend 85 to get it out of the way)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-109",
@@ -1861,12 +1807,7 @@
       "id": "e10-123",
       "title": "Catch rats for Orange Spices for …",
       "text": "Catch rats for Orange Spices for a +5 boost crafting boost",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-124a",
@@ -1918,12 +1859,7 @@
       "id": "e10-127",
       "title": "If you haven’t got 44 RuneCraft …",
       "text": "If you haven’t got 44 RuneCraft go to Guardians of the Rift, get this level quickly (This level varies on Sulphua Nagua drops)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-128",
@@ -2007,8 +1943,8 @@
       "text": "Make sure your amulet of glory has 1 charge minimum",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2528,
+        5160,
         0
       ]
     },
@@ -2044,12 +1980,7 @@
       "id": "e10-136",
       "title": "Get around 30 Topaz, 100 Opals …",
       "text": "Get around 30 Topaz, 100 Opals and 50 Jades",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-137",

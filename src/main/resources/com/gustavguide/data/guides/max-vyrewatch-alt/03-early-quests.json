@@ -137,12 +137,7 @@
         "cmp": ">="
       },
       "note": "Skip low levels with quests; fletch arrow shafts (1-5) then start cutting & stringing bows. Darts are the fastest passive option.",
-      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "early-quests-011",

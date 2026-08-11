@@ -129,12 +129,7 @@
       "id": "farming-and-more-constru-011",
       "title": "Watch the videos for a more …",
       "text": "Watch the videos for a more detailed explanation: — KEEP: — Herbs — Seeds — Gems — Magic Logs — Burnt pages (Drop if you don't get the Tome of Fire). — (Optional) Teak Logs — Can be made into planks during Construction. — DROP: — Ores — Other Logs — Fish — Saltpeter, pure essence, dynamite",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "farming-and-more-constru-012",
@@ -142,8 +137,8 @@
       "text": "NOTE: My opinion on the Tome of Fire is more mild now. It is nice to have, but not as critical really. You don't need to go back for it if you miss it unless you just want to. — Also, even if you do get the Tome, remember you will eventually drop it. Only hold it for awhile when you have extra bag space or if you want to use it at Zulrah with the Twinflame staff.",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1630,
+        3938,
         0
       ]
     },
@@ -167,12 +162,7 @@
           }
         ]
       },
-      "item": 556,
-      "world": [
-        3253,
-        3402,
-        0
-      ]
+      "item": 556
     },
     {
       "id": "farming-and-more-constru-013b",
@@ -180,8 +170,8 @@
       "text": "Drop the staff of air",
       "manual": true,
       "world": [
-        3253,
-        3402,
+        1630,
+        3938,
         0
       ]
     },
@@ -443,12 +433,7 @@
       "id": "farming-and-more-constru-030",
       "title": "(Optional) Upgrade your POH storage furniture …",
       "text": "(Optional) Upgrade your POH storage furniture — Teak planks — Teak armour case — Teak fancy dress box — Teak magic wardrobe — Carved teak magic wardrobe — Teak treasure chest — Mahogany planks — Mahogany armour case — Mahogany fancy dress box — Mahogany magic wardrobe — Mahogany treasure chest",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     }
   ]
 }

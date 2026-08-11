@@ -7,12 +7,7 @@
       "id": "chambers-of-xeric-001",
       "title": "Raid until you get a Dexterous …",
       "text": "Raid until you get a Dexterous prayer scroll and an Arcane prayer scroll",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     }
   ]
 }

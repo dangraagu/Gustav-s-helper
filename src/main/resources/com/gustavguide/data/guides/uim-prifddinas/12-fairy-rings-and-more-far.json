@@ -300,8 +300,8 @@
       "text": "(OPTIONAL) With the release of The Garden of Death it is now possible to skip completing both Forgettable Tale and Garden of Tranquillity and instead complete The Garden of Death and go straight to Enlightened Journey. — If you do this you will need to make up the 5k cooking xp from Forgettable Tale somewhere else. — Keep in mind that Garden of Tranquillity is a requirement for the Varrock Diary.",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3230,
+        3478,
         0
       ]
     },
@@ -436,8 +436,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3045,
-        3234,
+        3013,
+        3207,
         0
       ]
     },

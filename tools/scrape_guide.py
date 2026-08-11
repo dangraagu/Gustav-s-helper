@@ -16,6 +16,7 @@ import json
 import re
 import sys
 import urllib.request
+from functools import lru_cache
 from pathlib import Path
 
 # --- Guide config -------------------------------------------------------------
@@ -567,14 +568,29 @@ GAZETTEER = {
 }
 
 
+@lru_cache(maxsize=4096)
+def _place_pattern(key):
+    """A whole-word matcher for one place name.
+
+    Anchored with lookarounds rather than \\b so keys that start or end with a non-word
+    character still work: \\b before "'rana" would demand a word char to its left, which the
+    space in "the 'rana" does not provide."""
+    return re.compile(r"(?<![0-9A-Za-z])" + re.escape(key) + r"(?![0-9A-Za-z])")
+
+
 def gazetteer_key(text):
-    """The longest gazetteer place name appearing in the text, or None — i.e. the step's context town."""
+    """The longest gazetteer place name appearing in the text, or None — i.e. the step's context town.
+
+    Matches whole words only. The gazetteer holds abbreviations ("ge", "wt", "pc", "cw"), so a plain
+    substring test resolves "take 3 or more damage" to the Grand Exchange — that pinned 472 steps onto
+    the GE marker, including steps inside the Stronghold of Security and 212 steps of a hardcore
+    ironman guide, which cannot use the Grand Exchange at all."""
     if not text:
         return None
     low = text.lower()
     best = None
     for key in GAZETTEER:
-        if key in low and (best is None or len(key) > len(best)):
+        if (best is None or len(key) > len(best)) and _place_pattern(key).search(low):
             best = key
     return best
 
@@ -589,6 +605,22 @@ def gazetteer_lookup(loc):
 # (wiki-harvested) maps town -> {amenity/shop name -> [x,y,plane]}; the step's action keyword (or a
 # named shop in the text) picks the facility, the loc/text picks the town.
 AMENITIES = {}
+
+# "as well" is an idiom, never a reference to the town well. Without this, "grab each elemental rune
+# as well" and "bring a rope as well" resolve to a well tile — and whole-word matching cannot help,
+# because there "well" genuinely IS a whole word.
+_AS_WELL_RE = re.compile(r"\bas\s+well\b", re.IGNORECASE)
+
+
+@lru_cache(maxsize=2048)
+def _facility_pattern(key):
+    """Whole-word matcher for one amenity name, tolerating a trailing plural.
+
+    Amenity keys are short common nouns ("bank", "well", "range", "anvil"), so a plain substring test
+    matched them inside "banked", "dwellberries", "Ranged" and "ranger" — 19 steps shipped pointing at
+    a facility the step never mentions. The optional "s" keeps "use one of the anvils" working."""
+    return re.compile(r"(?<![0-9A-Za-z])" + re.escape(key) + r"s?(?![0-9A-Za-z])")
+
 
 AMENITY_ACTIONS = [
     (re.compile(r"\b(buy|buys|buying|purchase|sell|selling|shop\s?keeper)\b", re.IGNORECASE), "general store"),
@@ -679,10 +711,10 @@ def amenity_lookup(name, loc, anchor=None):
     spots = AMENITIES.get(town) if town else None
     if not spots:
         return None
-    low = (name or "").lower()
+    low = _AS_WELL_RE.sub(" ", (name or "").lower())
     best = None
     for key in spots:  # a named shop/facility mentioned verbatim in the step text
-        if key in low and (best is None or len(key) > len(best)):
+        if (best is None or len(key) > len(best)) and _facility_pattern(key).search(low):
             best = key
     if best is None and _BUY_SELL_RE.search(low):
         best = _shop_by_item(low, spots)
@@ -862,7 +894,11 @@ QH_MATCH_REGION = 250  # tiles: a matched tile must be in the step's own region,
 
 
 def _content_tokens(text):
-    t = (text or "").lower().replace("'", "").replace("’", "")
+    # Bracketed tags are metadata naming which diary/quest a step COUNTS TOWARD — they are not part of
+    # the instruction. "Enter Fight Caves & wait for Wave 1 [Karamja Easy Diary]" is an errand in the
+    # TzHaar city; feeding "karamja/easy/diary" to the helper index matched the Karamja Easy DIARY
+    # helper and sent the player to a Brimhaven ropeswing instead. detect_diary already strips these.
+    t = re.sub(r"\[[^\]]*\]", " ", text or "").lower().replace("'", "").replace("’", "")
     return {w for w in re.findall(r"[a-z]{3,}", t) if w not in _QH_STOPWORDS}
 
 
@@ -918,13 +954,31 @@ def _index_helper_names(data):
         # RFD subquests are referred to by their tail ("Evil Dave subquest")
         if qkey.startswith("RECIPE_FOR_DISASTER_"):
             tail = [t for t in qkey[len("RECIPE_FOR_DISASTER_"):].lower().split("_") if len(t) >= 3]
-            if tail:
+            if tail and not (len(tail) == 1 and tail[0] in HELPER_NAME_STOPWORDS):
                 _register_helper_name(tail, world)
+            # The opener is written "Start RFD (1,2,1,1)", never "Recipe for Disaster start", so the
+            # tail token "start" is blocked as too generic — register the abbreviation instead.
+            if qkey == "RECIPE_FOR_DISASTER_START":
+                _register_helper_name(["rfd"], world)
         # a single, long, distinctive token works alone ("barcrawl")
         for t in toks:
-            if len(t) >= 8:
+            if len(t) >= 8 and t not in HELPER_NAME_STOPWORDS:
                 _register_helper_name([t], world)
 
+
+# Words that must never identify a quest helper ON THEIR OWN. A single-token key is matched as a bag
+# of words, so registering an ordinary English word pins every step containing it: "start" (from
+# RECIPE_FOR_DISASTER_START) put 16 steps on the Lumbridge Cook, including "start Fairy Tale Part 2",
+# and "woodcutting" (from the WOODCUTTING helper) pinned 14 training grinds to the Lumbridge tutorial
+# tile. Only those two fire against today's data — the rest are guards, since the registration paths
+# above admit any RFD tail token or any token >= 8 chars. Multi-token keys stay registered, so RFD's
+# own subquests still resolve ("dwarf" via {disaster, recipe, dwarf}), as does WOODCUTTING_MEMBER.
+HELPER_NAME_STOPWORDS = frozenset({
+    "start", "begin", "finish", "complete", "continue",
+    "attack", "strength", "defence", "ranged", "prayer", "magic", "runecraft", "construction",
+    "hitpoints", "agility", "herblore", "thieving", "crafting", "fletching", "slayer", "hunter",
+    "mining", "smithing", "fishing", "cooking", "firemaking", "woodcutting", "farming",
+})
 
 QH_HELPER_REGION = 400  # a diary/quest-start can be a bit further from the route anchor than a step
 
@@ -1337,8 +1391,12 @@ def detect_diary(text: str):
     t = re.sub(r"\[[^\]]*\]", " ", t)
     if "diar" not in t or len(text or "") > _DIARY_MAX_LEN:
         return None
-    area = next((a for a in _DIARY_AREAS if a in t), None)
-    tiers = [tr for tr in _DIARY_TIERS if tr in t]
+    # Whole-word only: "elite" hides inside "RuneLite" and "hard" inside "Khardian"/"shards", which
+    # would bind an unrelated step to an AND over all 11 areas' elite diaries — a condition that can
+    # never complete, silently stalling the route. Exact match, not the plural-tolerant amenity one:
+    # a diary tier has no plural form, so "elites" must not resolve to the elite tier.
+    area = next((a for a in _DIARY_AREAS if _place_pattern(a).search(t)), None)
+    tiers = [tr for tr in _DIARY_TIERS if _place_pattern(tr).search(t)]
     if area and tiers:
         return {"op": "diary", "area": area, "tier": tiers[0]}  # one specific diary
     # Bulk goal: "do all easy and medium diaries" (tier(s), no single area) -> completed only when
@@ -1433,6 +1491,16 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
             qs = QUEST_START_BY_CONST.get(cq.get("quest"))
             if qs:
                 world = list(qs)
+        if not world and quest_map:
+            # The step names a quest but did NOT end up with a quest condition — an incidental phrase
+            # won the condition instead ("Complete Spirits of the Elid. You can boost to 37 Ranged"
+            # took a RANGED>=37 skill condition), so the branch above cannot fire and a grounded
+            # start tile goes unused. Coordinate only; the condition is left exactly as detected.
+            nq = detect_quest(name, quest_map)
+            if nq:
+                qs = QUEST_START_BY_CONST.get(nq.get("quest"))
+                if qs:
+                    world = list(qs)
         if not world:
             world = gazetteer_lookup(loc)
         if not world:

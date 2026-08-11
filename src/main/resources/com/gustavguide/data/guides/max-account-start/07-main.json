@@ -133,8 +133,8 @@
       "note": "Craft d'hide bodies (green -> blue -> red -> black dragonhide) near a bank - fastest to 99.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
       "world": [
-        3165,
-        3490,
+        3321,
+        3194,
         0
       ]
     },
@@ -142,12 +142,7 @@
       "id": "main-010",
       "title": "Mud runes pre 99 vid: https://www.youtube.com/watch?v=Nd7ukpqbfmg",
       "text": "Mud runes pre 99 vid: https://www.youtube.com/watch?v=Nd7ukpqbfmg",
-      "manual": true,
-      "world": [
-        2930,
-        10197,
-        0
-      ]
+      "manual": true
     }
   ]
 }

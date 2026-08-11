@@ -13,12 +13,7 @@
       "id": "intro-002",
       "title": "feel free to deviate from it …",
       "text": "feel free to deviate from it and if you encounter any mistakes pls dm me on discord: heboxjonge (he box jonge#0494)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "intro-003",
@@ -36,9 +31,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3208,
-        3494,
-        1
+        3190,
+        3360,
+        0
       ]
     },
     {
@@ -64,12 +59,7 @@
         "cmp": ">="
       },
       "note": "Fastest: enchant gem-tipped bolts (expensive). Cheaper passive: cast Low Level Alchemy from 21 while doing other things.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "intro-007",
@@ -83,8 +73,8 @@
       "text": "Use quest helper plugin on RuneLite for optimal questing!",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1767,
+        3597,
         0
       ]
     },
@@ -94,8 +84,8 @@
       "text": "This does not inlcude all quest items, just buy them as you get around to do each quest",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1773,
+        3588,
         0
       ]
     }

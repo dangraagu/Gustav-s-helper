@@ -18,12 +18,7 @@
       "id": "setup-002",
       "title": "Get membership either with a bond …",
       "text": "Get membership either with a bond or irl money",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "setup-003",

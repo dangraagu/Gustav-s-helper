@@ -7,34 +7,19 @@
       "id": "nonbudget-001",
       "title": "get 82-83 con and boost with …",
       "text": "get 82-83 con and boost with stew and crystal saw to 90",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "nonbudget-002",
       "title": "build ornate pool",
       "text": "build ornate pool",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "nonbudget-003",
       "title": "build portal nexus and portal room …",
       "text": "build portal nexus and portal room (1t faster compared to portal)",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "nonbudget-004",

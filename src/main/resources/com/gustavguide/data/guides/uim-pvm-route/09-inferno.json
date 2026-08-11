@@ -7,23 +7,13 @@
       "id": "inferno-001",
       "title": "General stat recommendations for Inferno. — …",
       "text": "General stat recommendations for Inferno. — 95+ Ranged — 90+ Defense — 95+ Magic",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "inferno-002",
       "title": "(Optional) Do some kills at The …",
       "text": "(Optional) Do some kills at The Hueycoatl for Huasca seeds to make 1-2 Prayer regeneration potions for your setup",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "inferno-003",
@@ -41,12 +31,7 @@
       "id": "inferno-004",
       "title": "Complete the Inferno. — Inferno is …",
       "text": "Complete the Inferno. — Inferno is a safe death, so you can keep your other items in death storage. — Adjust the setup to your preference",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "inferno-005",

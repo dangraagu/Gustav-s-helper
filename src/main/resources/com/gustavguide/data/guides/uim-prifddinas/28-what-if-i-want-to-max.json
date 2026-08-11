@@ -9,9 +9,9 @@
       "text": "Start by getting 43 Prayer at the Boneyard when prompted at the start",
       "manual": true,
       "world": [
-        3209,
-        3215,
-        0
+        3051,
+        3498,
+        1
       ]
     },
     {
@@ -33,12 +33,7 @@
       "id": "what-if-i-want-to-max-003",
       "title": "After you have finished the Getting …",
       "text": "After you have finished the Getting Started section, rather than train Agility through rooftop courses, you are going to instead make a detour to train Fishing",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "what-if-i-want-to-max-004",
@@ -128,12 +123,7 @@
       "id": "what-if-i-want-to-max-008a",
       "title": "Train at Tempoross until level 58 …",
       "text": "Train at Tempoross until level 58 Fishing",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "what-if-i-want-to-max-008b",
@@ -141,8 +131,8 @@
       "text": "Use the points-focused methods (cooking) so that you will get better loot. Don't collect any rewards until the end",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2605,
+        3115,
         0
       ]
     },
@@ -158,8 +148,8 @@
       "text": "Drop the Spirit flakes, Seaweed, and Tackle box/Fish barrel if you got them",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2605,
+        3115,
         0
       ]
     },
@@ -226,7 +216,7 @@
       "manual": true,
       "world": [
         2956,
-        3214,
+        3232,
         0
       ]
     },
@@ -234,12 +224,7 @@
       "id": "what-if-i-want-to-max-015",
       "title": "The feathers and bait will be …",
       "text": "The feathers and bait will be used in the next section",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "what-if-i-want-to-max-016",
@@ -362,8 +347,8 @@
       "text": "Use up the extra loot you get as before. — Optionally save some higher level fish for food later",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2500,
+        3488,
         0
       ]
     },

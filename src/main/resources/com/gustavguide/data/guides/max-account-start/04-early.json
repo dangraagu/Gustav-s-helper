@@ -47,8 +47,8 @@
       "text": "trade over eye of newt, burnt meat, onion, all 4 beads and a necklace of passage + some stamina pots",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3228,
+        3242,
         0
       ]
     },
@@ -96,12 +96,7 @@
         "cmp": ">="
       },
       "note": "Build crude chairs -> bookcases -> oak larders in your POH (bring saw, hammer, steel nails); Mahogany Homes is a cheaper alternative.",
-      "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "early-007",
@@ -115,8 +110,8 @@
       "text": "15 - 30 (184 oak planks, build workshop at lvl 15",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3087,
+        3522,
         0
       ]
     },
@@ -126,8 +121,8 @@
       "text": "make oak repair benches)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3087,
+        3522,
         0
       ]
     },
@@ -210,12 +205,7 @@
         "cmp": ">="
       },
       "note": "Skip low levels with quests; fletch arrow shafts (1-5) then start cutting & stringing bows. Darts are the fastest passive option.",
-      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "early-015",
@@ -344,12 +334,7 @@
         "cmp": ">="
       },
       "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
-      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "early-024",
@@ -503,8 +488,8 @@
       "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
       "world": [
-        3165,
-        3490,
+        3285,
+        3232,
         0
       ]
     },
@@ -546,12 +531,7 @@
         "cmp": ">="
       },
       "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
-      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "early-038",
@@ -636,23 +616,13 @@
       "id": "early-043a",
       "title": "Start doing birdhouse runs on your …",
       "text": "Start doing birdhouse runs on your main account",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-043b",
       "title": "Get atleast level 44 but more …",
       "text": "Get atleast level 44 but more wont hurt",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-044",
@@ -665,8 +635,8 @@
         "cmp": ">="
       },
       "world": [
-        3165,
-        3490,
+        2620,
+        3693,
         0
       ]
     },
@@ -674,12 +644,7 @@
       "id": "early-045",
       "title": "If you are not tight on …",
       "text": "If you are not tight on gp you can cut gems later on but 61 craft with drift nets profits you 3,5 - 4,5m gp compared to cutting rubies",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-046",
@@ -691,12 +656,7 @@
       "id": "early-047",
       "title": "Get 28 (11k xp) crafting (Best …",
       "text": "Get 28 (11k xp) crafting (Best leather item to 20, sapphires to 11k xp)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-048",
@@ -740,12 +700,7 @@
         "cmp": ">="
       },
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "early-051",
@@ -773,12 +728,7 @@
         "cmp": ">="
       },
       "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "early-053",
@@ -816,8 +766,8 @@
       "text": "Get atleast 43 pray",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2694,
+        3462,
         0
       ]
     },
@@ -847,12 +797,7 @@
         "cmp": ">="
       },
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "early-058",
@@ -865,12 +810,7 @@
         "cmp": ">="
       },
       "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "early-059",
@@ -883,12 +823,7 @@
         "cmp": ">="
       },
       "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
-      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "early-060",

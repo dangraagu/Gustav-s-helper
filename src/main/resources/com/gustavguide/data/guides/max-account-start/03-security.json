@@ -13,23 +13,13 @@
       "id": "security-002a",
       "title": "Make an unique recovery email",
       "text": "Make an unique recovery email",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "security-002b",
       "title": "use a password manager",
       "text": "use a password manager",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "security-003",

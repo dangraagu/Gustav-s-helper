@@ -7,23 +7,13 @@
       "id": "poh-loading-001",
       "title": "DONT forget to remove your Dungeon …",
       "text": "DONT forget to remove your Dungeon if you did Oak doors to 82 to have the fastest loading time for you poh",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "poh-loading-002",
       "title": "Remove doors in your POH to …",
       "text": "Remove doors in your POH to save 1t running from pool to portal nexus",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     }
   ]
 }

@@ -307,8 +307,8 @@
       "text": "Buy a new Chronicle and a few charges. 3 should be fine",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3212,
+        3247,
         0
       ]
     },
@@ -467,12 +467,7 @@
       "id": "finishing-up-agility-que-034",
       "title": "Getting Started Section final status check. …",
       "text": "Getting Started Section final status check. — If you did not start the guide from the beginning, this will let you know what is expected to have been completed",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "finishing-up-agility-que-035",

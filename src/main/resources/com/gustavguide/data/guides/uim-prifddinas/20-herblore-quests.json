@@ -7,34 +7,19 @@
       "id": "herblore-quests-001",
       "title": "Drop or table all your ranging …",
       "text": "Drop or table all your ranging gear",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-quests-002",
       "title": "Get a dramen staff again",
       "text": "Get a dramen staff again",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-quests-003",
       "title": "Get your graceful outfit, staff of …",
       "text": "Get your graceful outfit, staff of fire, mind and water runes back",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-quests-004",
@@ -166,12 +151,7 @@
       "id": "herblore-quests-012",
       "title": "Get a few cakes for food …",
       "text": "Get a few cakes for food to be safe for the next quest",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-quests-013",
@@ -192,12 +172,7 @@
       "id": "herblore-quests-014",
       "title": "Get: — 50 death runes so …",
       "text": "Get: — 50 death runes so you can use some blast spells. — Some extra cakes if you are low on food. — A tinderbox. — An axe. — A hammer. — 2 ashes",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-quests-015",
@@ -218,12 +193,7 @@
       "id": "herblore-quests-016",
       "title": "Clean up your inventory again, get …",
       "text": "Clean up your inventory again, get a few more cakes if needed",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-quests-017",
@@ -244,12 +214,7 @@
       "id": "herblore-quests-018a",
       "title": "Get a few more cakes if …",
       "text": "Get a few more cakes if needed",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "herblore-quests-018b",
@@ -273,8 +238,8 @@
       },
       "item": 562,
       "world": [
-        3253,
-        3402,
+        2809,
+        3085,
         0
       ]
     },
@@ -372,8 +337,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2825,
+        2959,
         0
       ]
     },

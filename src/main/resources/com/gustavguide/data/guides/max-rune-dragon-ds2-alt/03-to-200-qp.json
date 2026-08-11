@@ -31,12 +31,7 @@
         "cmp": ">="
       },
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "to-200-qp-004",
@@ -49,12 +44,7 @@
         "cmp": ">="
       },
       "note": "Cut & string the best bows you can (oak->willow->maple->yew->magic), or fletch darts in 'zero time' while questing/Slayer/Agility.",
-      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Fletching_training"
     },
     {
       "id": "to-200-qp-005",

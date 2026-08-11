@@ -37,12 +37,7 @@
         "cmp": ">="
       },
       "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
-      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "blood-rc-005",
@@ -55,12 +50,7 @@
         "cmp": ">="
       },
       "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training"
     },
     {
       "id": "blood-rc-006",
@@ -68,8 +58,8 @@
       "text": "buy the raiments of the eye outfit (1350 pearls = 630 searches on avg)",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        1538,
+        3475,
         0
       ]
     },
@@ -95,8 +85,8 @@
       },
       "item": 26390,
       "world": [
-        3216,
-        3416,
+        1538,
+        3475,
         0
       ]
     },

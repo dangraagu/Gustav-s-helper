@@ -9,8 +9,8 @@
       "text": "Get yourself a ring of suffering from Demonic gorillas. — Ideally do this on task. — You can use Arclight for a good melee weapon. — Arclight is storable in a STASH unit. You will want it later. — You could also go for a necklace of anguish, but honestly the extra defense, magic attack, and prayer bonus on the fury is very nice for the upcoming sections. — (Optional) You could choose to completely skip the Suffering and just make recoils manually at Zulrah. Technically the Suffering is an optional upgrade, but it is really nice to have. — You should ONLY consider this if you are already experienced at the fight. Don't do this if you are learning Zulrah on a UIM, just get the ring.",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3246,
+        6116,
         0
       ]
     },
@@ -18,12 +18,7 @@
       "id": "optional-zulrah-002",
       "title": "Kill Zulrah until you get a …",
       "text": "Kill Zulrah until you get a Tanzanite fang. — this video has some tips on using the Twinflame staff. Using the pillar stalling makes a huge difference! — Keep in mind that the Toxic Blowpipe is a good candidate for storage at the Blue Moon boss when you don't need it. — Sunfire runes are a nice damage upgrade, and can be made in bulk using Twisted extracts. — An ornate rejuvenation pool is very nice to restore after each kill. — The Cure Me spell is a good alternative to anti-venom potions, but can't be used with the Twinflame staff. — Keep the stack of antidotes you get to use at Araxxor later. — You can use 2 doses of anti-venom per kill and still profit antidotes on average. — Adjust the supplies to match your stats and method.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "optional-zulrah-003",
@@ -54,9 +49,9 @@
       ],
       "manual": true,
       "world": [
-        3208,
-        3494,
-        1
+        3246,
+        6116,
+        0
       ]
     }
   ]

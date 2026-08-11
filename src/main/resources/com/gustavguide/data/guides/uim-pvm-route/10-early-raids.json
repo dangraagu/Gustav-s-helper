@@ -7,12 +7,7 @@
       "id": "early-raids-001",
       "title": "Train to 95+ Slayer to level …",
       "text": "Train to 95+ Slayer to level your combat stats efficiently and unlock lots of gear along the way. — All of the below monsters and bosses should be killed on a Slayer task. — If you want to raid early, the sections farther down include some example setups.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-raids-002",
@@ -48,12 +43,7 @@
       "id": "early-raids-006",
       "title": "Kill Spiritual mages for Dragon boots",
       "text": "Kill Spiritual mages for Dragon boots",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-raids-007",
@@ -134,23 +124,13 @@
       "id": "early-raids-016",
       "title": "Break down and bag your crystal …",
       "text": "Break down and bag your crystal helm as a crystal armour seed. — You could consider breaking down your other crystal armour pieces to clear space. They are not required for much, and the blowpipe can be used for ranged when you need it.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-raids-017",
       "title": "Start out with a lot of …",
       "text": "Start out with a lot of point boosting to get all the unlocks and blocks you want up front",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-raids-018",
@@ -162,12 +142,7 @@
       "id": "early-raids-019",
       "title": "An Occult altar is really nice, …",
       "text": "An Occult altar is really nice, as well as other house upgrades",
-      "manual": true,
-      "world": [
-        3243,
-        3207,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-raids-020",
@@ -175,8 +150,8 @@
       "text": "Make sure to have the landing site built to get to your Blue Moon storage quickly",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2884,
+        2951,
         0
       ]
     },
@@ -184,23 +159,13 @@
       "id": "early-raids-021",
       "title": "Remember that Emberlight is really good …",
       "text": "Remember that Emberlight is really good on demon tasks once you get it. It is actually viable to tailor a block/skip list with a focus on doing demon and burst tasks",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-raids-022",
       "title": "You should probably use Prayer potions …",
       "text": "You should probably use Prayer potions for most tasks, but if you would like Bones to peaches is a good option for normal food during tasks",
-      "manual": true,
-      "world": [
-        3208,
-        3494,
-        1
-      ]
+      "manual": true
     },
     {
       "id": "early-raids-023",
@@ -212,12 +177,7 @@
       "id": "early-raids-024",
       "title": "Your Chugging barrel can carry useful …",
       "text": "Your Chugging barrel can carry useful potions, and can be refilled periodically by making new potions from seed drops or by storing potions in smaller stacks in death storage. Example setup: — Ranging potions — Super combat potions — Super restores — Saradomin brews — Goading potions (for burst tasks))",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     }
   ]
 }

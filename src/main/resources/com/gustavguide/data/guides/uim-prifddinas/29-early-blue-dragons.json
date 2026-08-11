@@ -149,8 +149,8 @@
       "text": "get 10,000 coins",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3081,
+        3420,
         0
       ]
     },
@@ -280,12 +280,7 @@
       "id": "early-blue-dragons-010a",
       "title": "Walk outside",
       "text": "Walk outside",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "early-blue-dragons-010b",
@@ -293,8 +288,8 @@
       "text": "kill some rats with magic until you get a Looting Bag",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3130,
+        3622,
         0
       ]
     },
@@ -326,8 +321,8 @@
       },
       "item": 1323,
       "world": [
-        3165,
-        3490,
+        3130,
+        3622,
         0
       ]
     },
@@ -448,8 +443,8 @@
       "text": "get your platebodies",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3087,
+        3522,
         0
       ]
     },
@@ -497,18 +492,12 @@
       "id": "early-blue-dragons-017a",
       "title": "Head to the Isle of Souls …",
       "text": "Head to the Isle of Souls Dungeon and safespot blue dragons there",
+      "manual": true,
       "world": [
-        3165,
-        3490,
+        3253,
+        3401,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "early-blue-dragons-017b",
@@ -516,8 +505,8 @@
       "text": "Make sure to have high run energy when you enter the dungeon so you can run past everything",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3253,
+        3401,
         0
       ]
     },
@@ -580,8 +569,8 @@
       "text": "get more bones, and repeat",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3137,
+        3623,
         0
       ]
     },
@@ -591,8 +580,8 @@
       "text": "43 prayer should take around 4 inventories, depending on your luck. If you are a bit short, you can get bones from the Bone Yard to make up the difference. Also, some of the early quests in the guide have small prayer experience rewards.",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3126,
+        3635,
         0
       ]
     },

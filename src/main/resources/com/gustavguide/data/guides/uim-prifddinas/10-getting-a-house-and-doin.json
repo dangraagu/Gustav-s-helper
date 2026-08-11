@@ -355,12 +355,7 @@
       "id": "getting-a-house-and-doin-014",
       "title": "Pickpocket ham members for an uncut …",
       "text": "Pickpocket ham members for an uncut opal if you didn't get one during the quest",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "getting-a-house-and-doin-015a",
@@ -707,18 +702,7 @@
       "id": "getting-a-house-and-doin-030",
       "title": "Head east across the bridge by …",
       "text": "Head east across the bridge by the goblins",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "getting-a-house-and-doin-031a",
@@ -732,8 +716,8 @@
       "text": "burn them with your tinderbox",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3229,
+        3204,
         0
       ]
     },
@@ -743,8 +727,8 @@
       "text": "Head east to the Emir's Arena",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        3212,
+        3247,
         0
       ]
     },
@@ -770,8 +754,8 @@
       },
       "item": 1982,
       "world": [
-        3216,
-        3416,
+        3212,
+        3247,
         0
       ]
     },
@@ -803,8 +787,8 @@
       },
       "item": 592,
       "world": [
-        3216,
-        3416,
+        3212,
+        3247,
         0
       ]
     },

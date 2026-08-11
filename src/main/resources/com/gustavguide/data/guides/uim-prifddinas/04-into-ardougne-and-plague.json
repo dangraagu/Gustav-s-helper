@@ -262,10 +262,9 @@
         ]
       },
       "item": 590,
-      "object": 37332,
       "world": [
-        2469,
-        3287,
+        2656,
+        3152,
         0
       ]
     },
@@ -288,8 +287,8 @@
       "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
       "world": [
-        2469,
-        3287,
+        2656,
+        3152,
         0
       ]
     },
@@ -299,8 +298,8 @@
       "text": "Drop your remaining food for inventory space",
       "manual": true,
       "world": [
-        2469,
-        3287,
+        2656,
+        3152,
         0
       ]
     },
@@ -727,12 +726,7 @@
       "id": "into-ardougne-and-plague-036",
       "title": "Be careful not to eat the …",
       "text": "Be careful not to eat the dwellberries",
-      "manual": true,
-      "world": [
-        2442,
-        3414,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "into-ardougne-and-plague-037",
@@ -740,9 +734,9 @@
       "text": "Use the chocolate dust on the bucket of milk",
       "manual": true,
       "world": [
-        2442,
-        3414,
-        0
+        2465,
+        3496,
+        1
       ]
     },
     {
@@ -751,9 +745,9 @@
       "text": "Use your snape grass on the bucket of chocolate milk to make the hangover cure",
       "manual": true,
       "world": [
-        2442,
-        3414,
-        0
+        2465,
+        3496,
+        1
       ]
     },
     {
@@ -828,21 +822,17 @@
       "id": "into-ardougne-and-plague-045",
       "title": "Proceed through the maze, go down …",
       "text": "Proceed through the maze, go down the ladder right before you get reach the railing in the center",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "into-ardougne-and-plague-046",
       "title": "Search the off-coloured crate in the …",
       "text": "Search the off-coloured crate in the east room for a key",
       "manual": true,
+      "object": 1990,
       "world": [
-        3165,
-        3490,
+        2548,
+        9565,
         0
       ]
     },
@@ -851,9 +841,10 @@
       "title": "Use the key on the door …",
       "text": "Use the key on the door to the west path",
       "manual": true,
+      "object": 2622,
       "world": [
-        2514,
-        9580,
+        2781,
+        3197,
         0
       ]
     },
@@ -874,8 +865,8 @@
       "text": "Exit the dungeon",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2514,
+        9580,
         0
       ]
     },
@@ -883,12 +874,7 @@
       "id": "into-ardougne-and-plague-049",
       "title": "Squeeze through the railing to get …",
       "text": "Squeeze through the railing to get into the center area of the maze",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "into-ardougne-and-plague-050",
@@ -899,9 +885,10 @@
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
       },
+      "object": 7963,
       "world": [
-        2541,
-        3170,
+        2490,
+        3180,
         0
       ]
     },
@@ -911,8 +898,8 @@
       "text": "Drop the gnome amulet",
       "manual": true,
       "world": [
-        2541,
-        3170,
+        2490,
+        3180,
         0
       ]
     },
@@ -961,8 +948,8 @@
       "text": "Get plenty, as you will soon be taking a lot of damage",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2624,
+        3300,
         0
       ]
     },

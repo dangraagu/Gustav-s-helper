@@ -367,12 +367,7 @@
       "id": "e9-022",
       "title": "Throw the Chinchompas to get 75+ …",
       "text": "Throw the Chinchompas to get 75+ Range",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e9-023",
@@ -404,23 +399,13 @@
       "id": "e9-025",
       "title": "These are 0 damage if you …",
       "text": "These are 0 damage if you use Water/Fire Wave on the Elementals, kill both giants roughly at the same time so very safe on HCIM",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e9-026",
       "title": "This is now a comfortable point …",
       "text": "This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted Gauntlet with Tier 3 Preparation",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e9-027",

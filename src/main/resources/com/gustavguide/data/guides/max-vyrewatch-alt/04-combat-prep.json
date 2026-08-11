@@ -14,12 +14,7 @@
         "cmp": ">="
       },
       "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training"
     },
     {
       "id": "combat-prep-002",
@@ -41,12 +36,7 @@
           }
         ]
       },
-      "item": 11128,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 11128
     },
     {
       "id": "combat-prep-003",
@@ -83,12 +73,7 @@
         "cmp": ">="
       },
       "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "combat-prep-006",
@@ -101,12 +86,7 @@
         "cmp": ">="
       },
       "note": "Craft lava runes at the Fire Altar (essence + earth runes, wear a binding necklace) - fastest solo; or play Guardians of the Rift.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Runecraft_training"
     },
     {
       "id": "combat-prep-007",
@@ -119,12 +99,7 @@
         "cmp": ">="
       },
       "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training"
     },
     {
       "id": "combat-prep-008",
@@ -137,12 +112,7 @@
         "cmp": ">="
       },
       "note": "Take tasks from Mazchna in Canifis (20 combat) - use the highest master your combat level allows.",
-      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training"
     },
     {
       "id": "combat-prep-009",
@@ -185,12 +155,7 @@
         "cmp": ">="
       },
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
-      "world": [
-        3192,
-        3223,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "combat-prep-012",

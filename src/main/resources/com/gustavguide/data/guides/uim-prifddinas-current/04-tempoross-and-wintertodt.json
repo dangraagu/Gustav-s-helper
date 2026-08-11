@@ -157,12 +157,7 @@
       "id": "tempoross-and-wintertodt-011",
       "title": "Get a Forestry kit. — Go …",
       "text": "Get a Forestry kit. — Go to the Forestry world 444 and do events during all of the upcoming Woodcutting segments. — Keep any leaves you get in the kit",
-      "manual": true,
-      "world": [
-        3192,
-        3223,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "tempoross-and-wintertodt-012",
@@ -315,8 +310,8 @@
       },
       "item": 41,
       "world": [
-        1630,
-        3981,
+        3080,
+        3510,
         0
       ]
     },
@@ -479,8 +474,8 @@
       },
       "world": [
         3209,
-        3219,
-        2
+        3216,
+        0
       ]
     },
     {
@@ -613,8 +608,8 @@
       "note": "1-tick cook raw karambwan into poison karambwan (fastest, no reqs); or cook fish sardine->salmon on a range for a cheaper option.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training",
       "world": [
-        3165,
-        3490,
+        2905,
+        3149,
         0
       ]
     },
@@ -640,8 +635,8 @@
       },
       "item": 309,
       "world": [
-        3216,
-        3416,
+        2905,
+        3149,
         0
       ]
     },

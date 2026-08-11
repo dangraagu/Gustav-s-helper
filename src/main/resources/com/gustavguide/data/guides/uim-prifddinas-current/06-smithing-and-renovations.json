@@ -18,12 +18,7 @@
       "id": "smithing-and-renovations-002a",
       "title": "Train to level 60 Woodcutting",
       "text": "Train to level 60 Woodcutting",
-      "manual": true,
-      "world": [
-        3192,
-        3223,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "smithing-and-renovations-002b",
@@ -31,8 +26,8 @@
       "text": "finish getting your 5000 Anima-infused bark if you have not gotten both of those already",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3315,
+        3182,
         0
       ]
     },
@@ -58,8 +53,8 @@
       },
       "item": 5376,
       "world": [
-        3216,
-        3416,
+        3315,
+        3182,
         0
       ]
     },
@@ -150,8 +145,8 @@
       "text": "Clear out your inventory and gear. You can sell or alch the rune pickaxe: — Wearing Ice gloves. — Wearing the Chronicle. — Coins in your inventory and nothing else",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2957,
+        3388,
         0
       ]
     },
@@ -306,8 +301,8 @@
       },
       "item": 1357,
       "world": [
-        3165,
-        3490,
+        1718,
+        3726,
         0
       ]
     },
@@ -315,18 +310,7 @@
       "id": "smithing-and-renovations-022",
       "title": "Go to your house. Remove your …",
       "text": "Go to your house. Remove your parlor and add these rooms: — 5 portal chambers — 1 chapel — 1 workshop — 1 menagerie — 1 kitchen",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "smithing-and-renovations-023",
@@ -334,9 +318,9 @@
       "text": "Build with oak planks: — oak toy box — oak fancy dress box — oak treasure chest — oak altar — tool stores 1, 2, 3, and 4 — upgrade to carved oak wardrobe — oak larder — clockmakers bench 1 — Oak house",
       "manual": true,
       "world": [
-        3208,
-        3494,
-        1
+        1688,
+        3792,
+        2
       ]
     },
     {
@@ -494,12 +478,7 @@
       "id": "smithing-and-renovations-032",
       "title": "Get 6 more oak planks",
       "text": "Get 6 more oak planks",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "smithing-and-renovations-033",
@@ -507,8 +486,8 @@
       "text": "Make some tea in your house. — Make an oak cape rack. — Make a tool store 5",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2602,
+        3312,
         0
       ]
     },

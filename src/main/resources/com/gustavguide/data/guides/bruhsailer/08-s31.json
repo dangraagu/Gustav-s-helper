@@ -63,8 +63,8 @@
         "state": "FINISHED"
       },
       "world": [
-        1681,
-        3168,
+        2620,
+        3895,
         0
       ]
     },
@@ -143,12 +143,7 @@
           }
         ]
       },
-      "item": 1704,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1704
     },
     {
       "id": "s31-008",
@@ -215,8 +210,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3186,
-        2405,
+        2782,
+        3094,
         0
       ]
     },
@@ -264,18 +259,7 @@
       "id": "s31-015",
       "title": "Go to Guardians of the Rift, …",
       "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "s31-016",

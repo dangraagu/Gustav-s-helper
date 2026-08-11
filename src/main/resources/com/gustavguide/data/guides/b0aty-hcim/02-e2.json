@@ -58,8 +58,8 @@
       "text": "Take Spirit Tree to Gnome Stronghold (2) [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3195,
-        3404,
+        2440,
+        3460,
         0
       ]
     },
@@ -186,8 +186,8 @@
       },
       "item": 970,
       "world": [
-        3165,
-        3490,
+        2614,
+        3293,
         0
       ]
     },
@@ -746,9 +746,10 @@
       "title": "Steal from the Fruit stall [Kourend …",
       "text": "Steal from the Fruit stall [Kourend Easy Diary]",
       "manual": true,
+      "object": 28823,
       "world": [
-        1630,
-        3730,
+        1767,
+        3597,
         0
       ]
     },
@@ -768,18 +769,7 @@
       "id": "e2-049",
       "title": "Run between both stalls as it …",
       "text": "Run between both stalls as it is faster. Once you are 0 energy, recharge at 1 stall",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "e2-050",
@@ -803,8 +793,8 @@
       },
       "item": 590,
       "world": [
-        3185,
-        3441,
+        3045,
+        3234,
         0
       ]
     },
@@ -922,9 +912,10 @@
       "title": "Trade Warrens General Store [Kourend Easy …",
       "text": "Trade Warrens General Store [Kourend Easy Diary]",
       "manual": true,
+      "npc": 7913,
       "world": [
-        1630,
-        3730,
+        1775,
+        10148,
         0
       ]
     },
@@ -962,9 +953,10 @@
       "title": "Jump over the Fence south of …",
       "text": "Jump over the Fence south of Varrock [Varrock Easy Diary]",
       "manual": true,
+      "object": 16518,
       "world": [
-        3206,
-        3417,
+        3240,
+        3335,
         0
       ]
     },
@@ -1139,12 +1131,7 @@
       "id": "e2-075a",
       "title": "Head west",
       "text": "Head west",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-075b",
@@ -1166,12 +1153,7 @@
           }
         ]
       },
-      "item": 307,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "item": 307
     },
     {
       "id": "e2-076",
@@ -1248,12 +1230,7 @@
       "id": "e2-081at",
       "title": "Go downstairs into the wine cellar …",
       "text": "Go downstairs into the wine cellar and through the book cases, Talk to Costumer to get Costume Needle",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-082",
@@ -1261,8 +1238,8 @@
       "text": "Open the Fancy Chest hidden in the Southwest corner of the cellar",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1449,
+        2932,
         0
       ]
     },
@@ -1272,8 +1249,8 @@
       "text": "Search the South-western Fountain outside",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1449,
+        2932,
         0
       ]
     },
@@ -1283,8 +1260,8 @@
       "text": "Use the Icon on the Statue (Ates) on the North-East coast to unlock Pendant of ates teleport",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1449,
+        2932,
         0
       ]
     },
@@ -1433,12 +1410,7 @@
       "id": "e2-097",
       "title": "OPTIONAL: Install the Detached Camera plugin …",
       "text": "OPTIONAL: Install the Detached Camera plugin on Runelite. It lets you use mouse keys to jump over Floor Spikes. The Mouse keys wiki page explains how to turn it on. Just keep your mouse on the spikes and afk click while watching a movie}}",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-098",
@@ -1799,10 +1771,9 @@
         "quest": "MERLINS_CRYSTAL",
         "state": "FINISHED"
       },
-      "npc": 2834,
       "world": [
-        2757,
-        3401,
+        2763,
+        3513,
         0
       ]
     },
@@ -1910,12 +1881,7 @@
       "id": "e2-127",
       "title": "OPTIONAL: Hop to Foresty World with …",
       "text": "OPTIONAL: Hop to Foresty World with Forestry kit. Cut a regular tree every 3 laps to qualify for Forestry events. Complete any that spawn that are worth. (You will also get more MoG doing this)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-128",
@@ -1939,12 +1905,7 @@
       "id": "e2-129",
       "title": "Play the Organ after the first …",
       "text": "Play the Organ after the first completion [Kandarin Easy Diary]",
-      "manual": true,
-      "world": [
-        2841,
-        3432,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-130",
@@ -2252,8 +2213,8 @@
         "state": "IN_PROGRESS"
       },
       "world": [
-        3209,
-        3215,
+        3304,
+        3211,
         0
       ]
     },
@@ -2279,8 +2240,8 @@
       },
       "item": 4593,
       "world": [
-        3212,
-        3247,
+        3315,
+        3182,
         0
       ]
     },
@@ -2290,8 +2251,8 @@
       "text": "Make desert disguise",
       "manual": true,
       "world": [
-        3212,
-        3247,
+        3315,
+        3182,
         0
       ]
     },
@@ -2301,8 +2262,8 @@
       "text": "equip",
       "manual": true,
       "world": [
-        3212,
-        3247,
+        3315,
+        3182,
         0
       ]
     },
@@ -2328,8 +2289,8 @@
       },
       "item": 20742,
       "world": [
-        3165,
-        3490,
+        3315,
+        3182,
         0
       ]
     },
@@ -2548,8 +2509,8 @@
       },
       "item": 1923,
       "world": [
-        3165,
-        3490,
+        3216,
+        3416,
         0
       ]
     },
@@ -2615,8 +2576,8 @@
       "text": "Buy a few packs of each elemental rune as well (maybe 500 runes each)",
       "manual": true,
       "world": [
-        3269,
-        3407,
+        3253,
+        3402,
         0
       ]
     },
@@ -2625,10 +2586,9 @@
       "title": "Steal a tea [Varrock Easy Diary]",
       "text": "Steal a tea [Varrock Easy Diary]",
       "manual": true,
-      "object": 635,
       "world": [
-        3270,
-        3411,
+        3210,
+        3448,
         0
       ]
     },
@@ -3060,8 +3020,8 @@
       },
       "item": 566,
       "world": [
-        3165,
-        3490,
+        3315,
+        3182,
         0
       ]
     },
@@ -3120,12 +3080,7 @@
       "id": "e2-199",
       "title": "Get 1 Telekenetic, 1 Graveyard & …",
       "text": "Get 1 Telekenetic, 1 Graveyard & 15 Enchantment points",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-200",
@@ -3137,8 +3092,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3253,
-        3402,
+        2404,
+        3419,
         0
       ]
     },
@@ -3148,9 +3103,9 @@
       "text": "Bank at Emir's Arena bank",
       "manual": true,
       "world": [
-        3185,
-        3441,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
@@ -3175,9 +3130,9 @@
       },
       "item": 34035,
       "world": [
-        3185,
-        3441,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
@@ -3202,9 +3157,9 @@
       },
       "item": 4600,
       "world": [
-        3185,
-        3441,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
@@ -3455,12 +3410,7 @@
       "id": "e2-218",
       "title": "Collect 2x Snake Weed & Adrigal …",
       "text": "Collect 2x Snake Weed & Adrigal [Legend's Quest]",
-      "manual": true,
-      "world": [
-        2729,
-        3348,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-219",
@@ -3468,8 +3418,8 @@
       "text": "Kill a Jogre during Rogue’s Purse [Karamja Easy Diary]",
       "manual": true,
       "world": [
-        2708,
-        3209,
+        2843,
+        3070,
         0
       ]
     },
@@ -3714,14 +3664,14 @@
       "title": "Teleport to Falador [Falador Medium Diary]",
       "text": "Teleport to Falador [Falador Medium Diary]",
       "world": [
-        2932,
-        3213,
+        3000,
+        3360,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2932,
-        "y": 3213,
+        "x": 3000,
+        "y": 3360,
         "z": 0,
         "radius": 8
       }
@@ -3731,10 +3681,9 @@
       "title": "Pickpocket a guard [Falador Medium Diary]",
       "text": "Pickpocket a guard [Falador Medium Diary]",
       "manual": true,
-      "npc": 3269,
       "world": [
-        2961,
-        3381,
+        3000,
+        3360,
         0
       ]
     },
@@ -3847,14 +3796,14 @@
       "title": "Teleport to Varrock [Varrock Medium Diary]",
       "text": "Teleport to Varrock [Varrock Medium Diary]",
       "world": [
-        3195,
-        3404,
+        3210,
+        3448,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3195,
-        "y": 3404,
+        "x": 3210,
+        "y": 3448,
         "z": 0,
         "radius": 8
       }
@@ -4093,8 +4042,8 @@
       },
       "item": 1295,
       "world": [
-        3165,
-        3490,
+        3207,
+        3400,
         0
       ]
     },
@@ -4124,12 +4073,7 @@
       "id": "e2-261a",
       "title": "Head to the Museum",
       "text": "Head to the Museum",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-261b",
@@ -4153,8 +4097,8 @@
       },
       "item": 1660,
       "world": [
-        3165,
-        3490,
+        3185,
+        3441,
         0
       ]
     },
@@ -4533,9 +4477,10 @@
       "title": "Complete a lap of Canifis Agility …",
       "text": "Complete a lap of Canifis Agility Course [Morytania Medium Diary]",
       "manual": true,
+      "object": 14843,
       "world": [
-        3440,
-        3232,
+        3507,
+        3489,
         0
       ]
     },
@@ -4543,7 +4488,12 @@
       "id": "e2-286",
       "title": "Bank at Canafis Bank",
       "text": "Bank at Canafis Bank",
-      "manual": true
+      "manual": true,
+      "world": [
+        3512,
+        3478,
+        0
+      ]
     },
     {
       "id": "e2-287",
@@ -4565,7 +4515,12 @@
           }
         ]
       },
-      "item": 1331
+      "item": 1331,
+      "world": [
+        3512,
+        3478,
+        0
+      ]
     },
     {
       "id": "e2-288",
@@ -4577,8 +4532,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3489,
-        3297,
+        3477,
+        3497,
         0
       ]
     },
@@ -4628,8 +4583,8 @@
       "text": "Kill any citizen with Wolfbane wielded [Morytania Easy Diary]",
       "manual": true,
       "world": [
-        3434,
-        3461,
+        3493,
+        3488,
         0
       ]
     },
@@ -4677,8 +4632,8 @@
       "text": "Kill a Myre Blamish Snail",
       "manual": true,
       "world": [
-        3434,
-        3461,
+        3493,
+        3488,
         0
       ]
     },
@@ -4688,8 +4643,8 @@
       "text": "Make a Snelm & take Thin Snail meat [Morytania Easy Diary]",
       "manual": true,
       "world": [
-        3434,
-        3461,
+        3493,
+        3488,
         0
       ]
     },
@@ -4748,8 +4703,8 @@
       "text": "Pray at Nature Altar once completed [Morytania Easy Diary]",
       "manual": true,
       "world": [
-        3434,
-        3461,
+        2868,
+        3018,
         0
       ]
     },
@@ -4798,22 +4753,32 @@
       },
       "item": 1331,
       "world": [
-        1630,
-        3981,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
       "id": "e2-303",
       "title": "Complete Cooks Assistant (1,1)",
       "text": "Complete Cooks Assistant (1,1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3212,
+        3246,
+        0
+      ]
     },
     {
       "id": "e2-304",
       "title": "Start RFD (1,2,1,1)",
       "text": "Start RFD (1,2,1,1)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "e2-305",
@@ -4876,8 +4841,8 @@
       "text": "Take Earth Talisman if you get it",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2836,
+        2983,
         0
       ]
     },
@@ -4903,8 +4868,8 @@
       },
       "item": 233,
       "world": [
-        3185,
-        3441,
+        2852,
+        2955,
         0
       ]
     },
@@ -4919,12 +4884,7 @@
         "cmp": ">="
       },
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
-      "world": [
-        3192,
-        3223,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "e2-313a",
@@ -5100,8 +5060,8 @@
       },
       "item": 5096,
       "world": [
-        2841,
-        3432,
+        3078,
+        3251,
         0
       ]
     },
@@ -5313,8 +5273,8 @@
       "text": "start Fairy Tale Part I (2,1,1)",
       "manual": true,
       "world": [
-        3209,
-        3215,
+        3077,
+        3263,
         0
       ]
     },
@@ -5916,12 +5876,7 @@
       "id": "e2-374",
       "title": "Start Fairy Tale Part 2",
       "text": "Start Fairy Tale Part 2",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-375",
@@ -6376,12 +6331,7 @@
       "id": "e2-400",
       "title": "Keep 7 Iron Ore [Dorics Quest/Steel …",
       "text": "Keep 7 Iron Ore [Dorics Quest/Steel Bars]",
-      "manual": true,
-      "world": [
-        2951,
-        3451,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-401",
@@ -6389,8 +6339,8 @@
       "text": "Mine 12 Coal [Steel Bars]",
       "manual": true,
       "world": [
-        3048,
-        9775,
+        3027,
+        9724,
         0
       ]
     },
@@ -6676,14 +6626,14 @@
       "title": "Go out on the Fishing Trawler …",
       "text": "Go out on the Fishing Trawler (W370) [Ardougne Easy Diary]",
       "world": [
-        2566,
-        3083,
+        2624,
+        3300,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2566,
-        "y": 3083,
+        "x": 2624,
+        "y": 3300,
         "z": 0,
         "radius": 8
       }
@@ -6922,8 +6872,8 @@
       },
       "item": 233,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -6933,8 +6883,8 @@
       "text": "Use Spice on Bait",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -6944,8 +6894,8 @@
       "text": "Use Dye on Orange Slices",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -7033,8 +6983,8 @@
       },
       "item": 436,
       "world": [
-        3165,
-        3490,
+        3185,
+        3441,
         0
       ]
     },
@@ -7066,8 +7016,8 @@
       "text": "Make Blurite Limbs [Falador Easy Diary] (drop these)",
       "manual": true,
       "world": [
-        2947,
-        3382,
+        3000,
+        3360,
         0
       ]
     },
@@ -7131,8 +7081,8 @@
       "text": "Complete Goblin RFD Stage",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3209,
+        3215,
         0
       ]
     },
@@ -7142,9 +7092,9 @@
       "text": "Withdraw: Coins",
       "manual": true,
       "world": [
-        3185,
-        3441,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
@@ -7464,8 +7414,8 @@
       "text": "Complete Varrock Agility Course [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3195,
-        3404,
+        3210,
+        3448,
         0
       ]
     },
@@ -7590,8 +7540,8 @@
       "text": "Use the Magic Mushtree from House on the Hill to get back to Mushroom Meadow",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3284,
+        3213,
         0
       ]
     },
@@ -7601,8 +7551,8 @@
       "text": "Construct the bank chest",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        3269,
+        3167,
         0
       ]
     },
@@ -7612,8 +7562,8 @@
       "text": "Pet Dog opposite side of bank chest",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        3269,
+        3167,
         0
       ]
     },
@@ -7623,8 +7573,8 @@
       "text": "Take rope shortcut up towards Volcanic Mine",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        3269,
+        3167,
         0
       ]
     },
@@ -7646,8 +7596,8 @@
       "text": "Take Mushtree to Mushroom Meadow",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        3269,
+        3167,
         0
       ]
     },
@@ -8304,8 +8254,8 @@
       "note": "Cut gems for fastest XP: sapphire -> emerald -> ruby -> diamond; keep cutting diamonds to 62.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Crafting_training",
       "world": [
-        3165,
-        3490,
+        3110,
+        3499,
         0
       ]
     },
@@ -8548,12 +8498,7 @@
         "cmp": ">="
       },
       "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
-      "wiki": "https://oldschool.runescape.wiki/w/Farming_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "e2-550",
@@ -8641,8 +8586,8 @@
       "text": "Crack a wall safe [Falador Hard Diary]",
       "manual": true,
       "world": [
-        2982,
-        3514,
+        3000,
+        3360,
         0
       ]
     },
@@ -8650,7 +8595,12 @@
       "id": "e2-556",
       "title": "Buy Graceful Legs",
       "text": "Buy Graceful Legs",
-      "manual": true
+      "manual": true,
+      "world": [
+        2957,
+        3388,
+        0
+      ]
     },
     {
       "id": "e2-557",
@@ -8672,7 +8622,12 @@
           }
         ]
       },
-      "item": 1523
+      "item": 1523,
+      "world": [
+        2957,
+        3388,
+        0
+      ]
     },
     {
       "id": "e2-558",
@@ -8731,12 +8686,7 @@
           }
         ]
       },
-      "item": 1523,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1523
     },
     {
       "id": "e2-562",
@@ -8777,12 +8727,7 @@
         "cmp": ">="
       },
       "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
-      "wiki": "https://oldschool.runescape.wiki/w/Farming_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "e2-564",
@@ -8930,12 +8875,7 @@
       "id": "e2-573a",
       "title": "Buy Autoweed (Come back",
       "text": "Buy Autoweed (Come back",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-573b",
@@ -8943,8 +8883,8 @@
       "text": "buy herb sack from here after legends)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3354,
+        3420,
         0
       ]
     },
@@ -8952,12 +8892,7 @@
       "id": "e2-574",
       "title": "Buy Seedbox from Tithe Farm",
       "text": "Buy Seedbox from Tithe Farm",
-      "manual": true,
-      "world": [
-        3216,
-        3416,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-575",
@@ -8985,12 +8920,7 @@
           }
         ]
       },
-      "item": 1923,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "item": 1923
     },
     {
       "id": "e2-577",
@@ -9091,8 +9021,8 @@
       "text": "Use 2x Nettle Tea on Range upstairs",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3216,
+        3416,
         0
       ]
     },
@@ -9114,8 +9044,8 @@
       "text": "pick nettles next to yew tree",
       "manual": true,
       "world": [
-        2917,
-        3745,
+        3097,
+        3468,
         0
       ]
     },
@@ -9212,8 +9142,8 @@
       "text": "Plant Hespori asap with Garden Pie. When this is fully grown the next day come in, pray magic (You may not have protect magic prayer unlocked yet by the time its grown. If so wait until you get the prayer level), and start the fight with your bronze/iron/steel knives and kill all 4 flowers for a hard CA. You will not be ready to actually kill the hespori so just get the CA and quick-escape on the cave exit. Hespori is VERY dangerous at this stage so be careful.",
       "manual": true,
       "world": [
-        2917,
-        3745,
+        2617,
+        3309,
         0
       ]
     },
@@ -9236,12 +9166,7 @@
       "id": "e2-593",
       "title": "Medium preplant is Maple, Irit, Cactus, …",
       "text": "Medium preplant is Maple, Irit, Cactus, Jangerberries, Watermelon, Limpwurt",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e2-594",
@@ -9249,8 +9174,8 @@
       "text": "OPTIONAL: Buy 22 Baskets, fill with oranges at Grand Tree to protect Maples",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2614,
+        3293,
         0
       ]
     },

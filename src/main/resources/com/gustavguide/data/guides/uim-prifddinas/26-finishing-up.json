@@ -153,12 +153,7 @@
       "id": "finishing-up-011",
       "title": "If you are planning to use …",
       "text": "If you are planning to use ranged for the quest, you need at least level 70 and a crystal bow. If you plan to use melee, you will need to train stats for that at ammonite crabs and use a dragon scimitar.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "finishing-up-012",

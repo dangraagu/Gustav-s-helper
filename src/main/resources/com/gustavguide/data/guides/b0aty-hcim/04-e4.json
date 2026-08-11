@@ -513,9 +513,10 @@
       "title": "When you climb down the rope …",
       "text": "When you climb down the rope at Crandor, climb up again [Karamja Medium Diary]",
       "manual": true,
+      "object": 25213,
       "world": [
-        2809,
-        3194,
+        2833,
+        9657,
         0
       ]
     },
@@ -531,8 +532,8 @@
       "text": "Note: You should be able to facetank Elvarg with the food you bring, but you can choose to flinch if you prefer. There are guides for that on YouTube",
       "manual": true,
       "world": [
-        2809,
-        3194,
+        2833,
+        9657,
         0
       ]
     },
@@ -542,8 +543,8 @@
       "text": "Discover the wall for Diary [Karamja Medium Diary]",
       "manual": true,
       "world": [
-        2809,
-        3194,
+        2843,
+        3070,
         0
       ]
     },
@@ -553,8 +554,8 @@
       "text": "Pick up some Red Spider Eggs [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3195,
-        3404,
+        3210,
+        3448,
         0
       ]
     },
@@ -764,12 +765,7 @@
       "id": "e4-053",
       "title": "Plant Cabbages in both patches with …",
       "text": "Plant Cabbages in both patches with Ultra Compost [Garden of Tranquility]",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-054",
@@ -859,12 +855,7 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      },
-      "world": [
-        2841,
-        3432,
-        0
-      ]
+      }
     },
     {
       "id": "e4-060",
@@ -925,23 +916,13 @@
       "id": "e4-064",
       "title": "Fish a fish [Kandarin Easy Diary]",
       "text": "Fish a fish [Kandarin Easy Diary]",
-      "manual": true,
-      "world": [
-        2841,
-        3432,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-065",
       "title": "Fish for a Mackeral south [Kandarin …",
       "text": "Fish for a Mackeral south [Kandarin Easy Diary]",
-      "manual": true,
-      "world": [
-        2841,
-        3432,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-066a",
@@ -1316,6 +1297,7 @@
       "title": "Use Plant Cure on the Vine …",
       "text": "Use Plant Cure on the Vine [Garden of Tranquility]",
       "manual": true,
+      "object": 9254,
       "world": [
         2915,
         3534,
@@ -1464,9 +1446,9 @@
       "text": "Use Plant Cure on Vines to get Vine Seeds [Garden of Tranquility]",
       "manual": true,
       "world": [
-        3165,
-        3490,
-        0
+        2906,
+        3540,
+        1
       ]
     },
     {
@@ -1941,12 +1923,7 @@
       "id": "e4-137",
       "title": "Catch a Copper Longtail [Western Province …",
       "text": "Catch a Copper Longtail [Western Province Easy Diary]",
-      "manual": true,
-      "world": [
-        2474,
-        3435,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-138",
@@ -1957,10 +1934,9 @@
         "quest": "EAGLES_PEAK",
         "state": "FINISHED"
       },
-      "object": 19790,
       "world": [
-        2329,
-        3495,
+        2607,
+        3264,
         0
       ]
     },
@@ -2184,9 +2160,10 @@
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
       },
+      "npc": 4890,
       "world": [
-        2732,
-        3713,
+        2822,
+        10167,
         0
       ]
     },
@@ -2235,12 +2212,7 @@
       "id": "e4-158",
       "title": "Catch a Spined Larupia [Western Province …",
       "text": "Catch a Spined Larupia [Western Province Medium Diary]",
-      "manual": true,
-      "world": [
-        2466,
-        3495,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-159",
@@ -2578,8 +2550,8 @@
       "text": "[Optional] Wait for a farming growth cycle, pick a fruit from the White Tree or do it at a later step. [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3195,
-        3404,
+        3210,
+        3448,
         0
       ]
     },
@@ -2633,8 +2605,8 @@
       },
       "item": 1440,
       "world": [
-        3165,
-        3490,
+        3185,
+        3441,
         0
       ]
     },
@@ -2725,8 +2697,8 @@
       "text": "Re-enter the dungeon [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3195,
-        3404,
+        3210,
+        3448,
         0
       ]
     },
@@ -2963,12 +2935,7 @@
       "id": "e4-207",
       "title": "MANDATORY: Only loot points after 65 …",
       "text": "MANDATORY: Only loot points after 65 Fishing. This will ensure you get the best fish to train cooking later",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-208",
@@ -2982,8 +2949,8 @@
       "text": "OPTIONAL: If you feel like it, fill your inventory with empty buckets from the crates at the end of each game",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        3269,
+        3167,
         0
       ]
     },
@@ -2993,8 +2960,8 @@
       "text": "bank them, can bank 1000+ throughout the grind doing so",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        3269,
+        3167,
         0
       ]
     },
@@ -3246,12 +3213,7 @@
       "id": "e4-226",
       "title": "Keep 1 Unpowered Orb [Legend's Quest]",
       "text": "Keep 1 Unpowered Orb [Legend's Quest]",
-      "manual": true,
-      "world": [
-        2729,
-        3348,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-227",
@@ -3419,8 +3381,8 @@
       "text": "Hand a book in Library [Kourend Easy Diary]",
       "manual": true,
       "world": [
-        1275,
-        3817,
+        1630,
+        3730,
         0
       ]
     },
@@ -3476,8 +3438,8 @@
       "text": "Pray at the Altar in the castle (Top floor go upstairs) [Kourend Easy Diary]",
       "manual": true,
       "world": [
-        1275,
-        3817,
+        1630,
+        3730,
         0
       ]
     },
@@ -3509,8 +3471,8 @@
       "text": "Head North East",
       "manual": true,
       "world": [
-        1275,
-        3817,
+        1630,
+        3730,
         0
       ]
     },
@@ -3520,8 +3482,8 @@
       "text": "make a Strength Potion in the Pub (Vial > Tarromin > Limpwurt) [Kourend Easy Diary]",
       "manual": true,
       "world": [
-        1275,
-        3817,
+        1630,
+        3730,
         0
       ]
     },
@@ -3838,8 +3800,8 @@
       "text": "Switch to Arceuss Spellbook & back [Kourend Medium Diary]",
       "manual": true,
       "world": [
-        2658,
-        3230,
+        1630,
+        3730,
         0
       ]
     },
@@ -3964,9 +3926,10 @@
       "title": "Do a lap of the Shayzien …",
       "text": "Do a lap of the Shayzien Agility Course [Kourend Easy Diary]",
       "manual": true,
+      "object": 42209,
       "world": [
-        1275,
-        3817,
+        1554,
+        3631,
         0
       ]
     },
@@ -3976,8 +3939,8 @@
       "text": "NOTE: Take an antipoison and some food for next step",
       "manual": true,
       "world": [
-        2917,
-        3745,
+        1554,
+        3631,
         0
       ]
     },
@@ -4053,12 +4016,7 @@
       "id": "e4-291",
       "title": "Option 3: Scout Ice Demon first …",
       "text": "Option 3: Scout Ice Demon first room, complete Cryo No More, Blizzard Dodger, or Kill it with Fire. (12 points if you get all 3)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-292",
@@ -4147,9 +4105,10 @@
       "title": "take boat to Lands End [Kourend …",
       "text": "take boat to Lands End [Kourend Easy Diary]",
       "manual": true,
+      "npc": 10932,
       "world": [
-        1630,
-        3730,
+        1826,
+        3691,
         0
       ]
     },
@@ -4218,10 +4177,9 @@
       "title": "Re-enter POH [Kourend Easy Diary]",
       "text": "Re-enter POH [Kourend Easy Diary]",
       "manual": true,
-      "object": 31695,
       "world": [
-        1711,
-        9823,
+        1630,
+        3730,
         0
       ]
     },
@@ -4263,9 +4221,9 @@
       "text": "Collect an Intelligence",
       "manual": true,
       "world": [
-        3165,
-        3490,
-        0
+        2222,
+        3796,
+        2
       ]
     },
     {
@@ -4645,8 +4603,8 @@
       },
       "item": 313,
       "world": [
-        2701,
-        3408,
+        2843,
+        3543,
         0
       ]
     },
@@ -4704,9 +4662,10 @@
       "title": "Climb down Ratpits entrance [Falador Medium …",
       "text": "Climb down Ratpits entrance [Falador Medium Diary]",
       "manual": true,
+      "object": 20790,
       "world": [
-        2932,
-        3213,
+        3081,
+        3420,
         0
       ]
     },
@@ -5115,8 +5074,8 @@
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
-        3165,
-        3490,
+        2729,
+        3481,
         0
       ]
     },
@@ -5914,12 +5873,7 @@
       "id": "e4-413",
       "title": "Get 100% approval from your kingdom. …",
       "text": "Get 100% approval from your kingdom. [Fremennik Hard Diary]",
-      "manual": true,
-      "world": [
-        2725,
-        3770,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-414",
@@ -5931,8 +5885,8 @@
         "state": "IN_PROGRESS"
       },
       "world": [
-        2629,
-        3693,
+        2506,
+        3849,
         0
       ]
     },
@@ -5942,8 +5896,8 @@
       "text": "Bank at Etceteria",
       "manual": true,
       "world": [
-        2634,
-        3668,
+        2620,
+        3895,
         0
       ]
     },
@@ -5969,8 +5923,8 @@
       },
       "item": 453,
       "world": [
-        3165,
-        3490,
+        2620,
+        3895,
         0
       ]
     },
@@ -5984,8 +5938,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2629,
-        3693,
+        2506,
+        3849,
         0
       ]
     },
@@ -6161,12 +6115,7 @@
       "id": "e4-429",
       "title": "Talking to Competition Judge",
       "text": "Talking to Competition Judge",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-430a",
@@ -6340,7 +6289,12 @@
       "id": "e4-439",
       "title": "Inspect all at the RFD table",
       "text": "Inspect all at the RFD table",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "e4-440a",
@@ -6390,8 +6344,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3345,
-        2725,
+        2624,
+        3300,
         0
       ]
     },
@@ -6522,12 +6476,7 @@
       "id": "e4-451",
       "title": "Place the toads down (Kill a …",
       "text": "Place the toads down (Kill a chompy when it appears but you can do the next steps while waiting)",
-      "manual": true,
-      "world": [
-        3345,
-        2725,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-452",
@@ -6554,9 +6503,10 @@
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
       },
+      "object": 12549,
       "world": [
-        2630,
-        2981,
+        2655,
+        2963,
         0
       ]
     },
@@ -6734,8 +6684,8 @@
       },
       "item": 1275,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -6744,9 +6694,10 @@
       "title": "Pickpocket a Master Farmer [Ardougne Medium …",
       "text": "Pickpocket a Master Farmer [Ardougne Medium Diary]",
       "manual": true,
+      "npc": 5730,
       "world": [
-        2624,
-        3300,
+        2637,
+        3362,
         0
       ]
     },
@@ -6830,8 +6781,8 @@
       },
       "item": 1929,
       "world": [
-        3165,
-        3490,
+        3185,
+        3441,
         0
       ]
     },
@@ -7328,12 +7279,7 @@
         "cmp": ">="
       },
       "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
-      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "e4-502",
@@ -7386,9 +7332,10 @@
         "quest": "LEGENDS_QUEST",
         "state": "FINISHED"
       },
+      "object": 11380,
       "world": [
-        2729,
-        3348,
+        2823,
+        2999,
         0
       ]
     },
@@ -7401,9 +7348,10 @@
         "quest": "LEGENDS_QUEST",
         "state": "FINISHED"
       },
+      "object": 11380,
       "world": [
-        2729,
-        3348,
+        2823,
+        2999,
         0
       ]
     },
@@ -7451,8 +7399,8 @@
       "text": "Trap a Horned Graahk before crossing to Cairn Isle[Karamja Medium Diary]",
       "manual": true,
       "world": [
-        2809,
-        3194,
+        2765,
+        2976,
         0
       ]
     },
@@ -7551,8 +7499,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2845,
-        3041,
+        2760,
+        3080,
         0
       ]
     },
@@ -7619,8 +7567,8 @@
       "text": "Kill a Jungle Spider",
       "manual": true,
       "world": [
-        2809,
-        3194,
+        2843,
+        3070,
         0
       ]
     },
@@ -7646,8 +7594,8 @@
       },
       "item": 6291,
       "world": [
-        2809,
-        3194,
+        2843,
+        3070,
         0
       ]
     },
@@ -7655,23 +7603,13 @@
       "id": "e4-523",
       "title": "Cut Dense Forest until Gout Tuber …",
       "text": "Cut Dense Forest until Gout Tuber (These roll the highest Gout Tuber:Time chance)[You can also do this whenever but get 100% favour first]",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-524",
       "title": "If you get Gout Tuber before …",
       "text": "If you get Gout Tuber before 100% Favour, you can kill Jungle Spiders for 100% Favour",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-525",
@@ -7704,12 +7642,7 @@
       "id": "e4-527",
       "title": "Mine Gems until you have enough …",
       "text": "Mine Gems until you have enough to sell for 1,200 trading sticks",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-528",
@@ -7780,8 +7713,8 @@
       "text": "Eat the fish pie & catch a Karambwan [Karamja Medium Diary]",
       "manual": true,
       "world": [
-        2809,
-        3194,
+        2843,
+        3070,
         0
       ]
     },
@@ -7956,8 +7889,8 @@
       "text": "use the vodka pineapple chunks on the Aviary Hatch to get a Drunk parrot",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2612,
+        3285,
         0
       ]
     },
@@ -7995,23 +7928,13 @@
       "id": "e4-547",
       "title": "Collect 3x Goutweed with Protect from …",
       "text": "Collect 3x Goutweed with Protect from Missiles for 0 damage",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-548",
       "title": "Complete Eadger's Ruse",
       "text": "Complete Eadger's Ruse",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-549",
@@ -8019,8 +7942,8 @@
       "text": "Bank anywhere",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        2843,
+        3543,
         0
       ]
     },
@@ -8175,8 +8098,8 @@
       "text": "Withdraw: Best Earth Spell, Antifire Shield, Few Food, Magic Gear",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2617,
+        3333,
         0
       ]
     },
@@ -8210,8 +8133,8 @@
       "text": "Chop the Vines [Karamja Medium Diary]",
       "manual": true,
       "world": [
-        2809,
-        3194,
+        2843,
+        3070,
         0
       ]
     },
@@ -8295,8 +8218,8 @@
       },
       "item": 3105,
       "world": [
-        2624,
-        3300,
+        2662,
+        3161,
         0
       ]
     },
@@ -8306,8 +8229,8 @@
       "text": "You can buy all the tools+cure from the Tool Leprechaun during the quest",
       "manual": true,
       "world": [
-        2614,
-        3293,
+        2656,
+        3152,
         0
       ]
     },
@@ -8317,8 +8240,8 @@
       "text": "Use ultracompost instead of supercompost if you don't have any",
       "manual": true,
       "world": [
-        2614,
-        3293,
+        2656,
+        3152,
         0
       ]
     },
@@ -8328,8 +8251,8 @@
       "text": "Use your best air spell on the Giant Roc as it has a 35% air magic weakness",
       "manual": true,
       "world": [
-        2614,
-        3293,
+        2656,
+        3152,
         0
       ]
     },
@@ -8339,8 +8262,8 @@
       "text": "Use Protect from Missiles on the Giant Roc",
       "manual": true,
       "world": [
-        2614,
-        3293,
+        2656,
+        3152,
         0
       ]
     },
@@ -8443,8 +8366,8 @@
       "text": "Glider -> Feldip Hills -> Back to Al Kharid [Western Province Medium Diary]",
       "manual": true,
       "world": [
-        2466,
-        3495,
+        2515,
+        2954,
         0
       ]
     },
@@ -8486,18 +8409,7 @@
       "id": "e4-585",
       "title": "Head North & start Enakrah's Lament",
       "text": "Head North & start Enakrah's Lament",
-      "world": [
-        3209,
-        3215,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3209,
-        "y": 3215,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "e4-586",
@@ -8506,8 +8418,8 @@
       "manual": true,
       "world": [
         3209,
-        3215,
-        0
+        3219,
+        2
       ]
     },
     {
@@ -8611,9 +8523,10 @@
       "title": "Minigame Teleport to Pest Control [Western …",
       "text": "Minigame Teleport to Pest Control [Western Province Medium Diary]",
       "manual": true,
+      "npc": 1770,
       "world": [
-        2656,
-        2656,
+        3041,
+        3202,
         0
       ]
     },
@@ -8726,12 +8639,7 @@
       "id": "e4-604",
       "title": "YOU WILL GET STALLED AND THE …",
       "text": "YOU WILL GET STALLED AND THE TERRORDOGS WILL hit a couple times so have Pray Melee on. (Safespot the terrordogs, the rest doesn't hit much)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-605",
@@ -8739,8 +8647,8 @@
       "text": "Kill a Terrordog [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -8750,8 +8658,8 @@
       "text": "Create Salve Amulet (e)",
       "manual": true,
       "world": [
-        3273,
-        3187,
+        3657,
+        3336,
         0
       ]
     },
@@ -8777,8 +8685,8 @@
       },
       "item": 5418,
       "world": [
-        3269,
-        3167,
+        3512,
+        3478,
         0
       ]
     },
@@ -8966,12 +8874,7 @@
       "id": "e4-621",
       "title": "Optional you can try to get …",
       "text": "Optional you can try to get the other CA's here if you'd like. (10 KC, don't get hit, 2 second kill)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-622",
@@ -9202,8 +9105,8 @@
       "text": "Complete the 4th floor & use all 4 emotes [Varrock Medium Diary]",
       "manual": true,
       "world": [
-        3195,
-        3404,
+        3210,
+        3448,
         0
       ]
     },
@@ -9762,8 +9665,8 @@
       },
       "item": 231,
       "world": [
-        2724,
-        3773,
+        2620,
+        3685,
         0
       ]
     },
@@ -9783,12 +9686,7 @@
       "id": "e4-676",
       "title": "You can take significant damage here …",
       "text": "You can take significant damage here so keep the correct prayers on and heal accordingly and you won't have a problem. Probably want about 10 Karambwans. Quest helper for the diary will tell you what to pray in advance.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-677",
@@ -9917,16 +9815,22 @@
       "id": "e4-684",
       "title": "OPTIONAL: If you got the 4 …",
       "text": "OPTIONAL: If you got the 4 beads you can go to DIS first to turn in the beads for Imp Catcher",
-      "manual": true
+      "manual": true,
+      "world": [
+        3103,
+        3159,
+        0
+      ]
     },
     {
       "id": "e4-685",
       "title": "Take Fairy Ring to CKS",
       "text": "Take Fairy Ring to CKS",
       "manual": true,
+      "npc": 3955,
       "world": [
-        2624,
-        3300,
+        2861,
+        2942,
         0
       ]
     },
@@ -9952,9 +9856,10 @@
       "title": "Use Scarecrow on Flower patch [Morytania …",
       "text": "Use Scarecrow on Flower patch [Morytania Easy Diary]",
       "manual": true,
+      "object": 7850,
       "world": [
-        3434,
-        3461,
+        3602,
+        3526,
         0
       ]
     },
@@ -10036,8 +9941,8 @@
       "text": "Repair a Motherload Mine wheel [Falador Easy Diary]",
       "manual": true,
       "world": [
-        2947,
-        3382,
+        3000,
+        3360,
         0
       ]
     },
@@ -10090,8 +9995,8 @@
       "text": "Craft a Water Rune [Lumbridge Easy Diary]",
       "manual": true,
       "world": [
-        3103,
-        3279,
+        3222,
+        3218,
         0
       ]
     },
@@ -10118,8 +10023,8 @@
       "text": "Make a Mind Tiara [Falador Easy Diary]",
       "manual": true,
       "world": [
-        2947,
-        3382,
+        3000,
+        3360,
         0
       ]
     },
@@ -10382,8 +10287,8 @@
       "text": "Upgrade the Iban Staff [Ardougne Medium Diary]",
       "manual": true,
       "world": [
-        2556,
-        3072,
+        2624,
+        3300,
         0
       ]
     },
@@ -10392,10 +10297,11 @@
       "title": "Leave, take the Spirit Tree to …",
       "text": "Leave, take the Spirit Tree to Gnome Stronghold(2)",
       "manual": true,
+      "npc": 1444,
       "world": [
-        2440,
-        3460,
-        0
+        2482,
+        3486,
+        1
       ]
     },
     {
@@ -10579,16 +10485,22 @@
       "text": "Make a Chocolate Bomb [Western Province Medium Diary]",
       "manual": true,
       "world": [
-        2466,
-        3495,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
       "id": "e4-733",
       "title": "Complete an easy delivery for the …",
       "text": "Complete an easy delivery for the Gnome Restaurant [Western Province Medium Diary]",
-      "manual": true
+      "manual": true,
+      "npc": 2547,
+      "world": [
+        2439,
+        3502,
+        1
+      ]
     },
     {
       "id": "e4-734",
@@ -10680,8 +10592,8 @@
       "text": "Complete Legend's Quest (All items are in the bank)",
       "manual": true,
       "world": [
-        2729,
-        3348,
+        2617,
+        3333,
         0
       ]
     },
@@ -10691,8 +10603,8 @@
       "text": "IMPORTANT WARNING: Before Nezikchened spawns use Pray Melee. Keep pray melee on during the last fight with him!!! (Use Ibans to kill)",
       "manual": true,
       "world": [
-        2728,
-        3282,
+        2617,
+        3309,
         0
       ]
     },
@@ -10714,8 +10626,8 @@
       "text": "Collect 1x Palm leaf Drop 5x [Karamja Hard Diary]",
       "manual": true,
       "world": [
-        2857,
-        3169,
+        2843,
+        3070,
         0
       ]
     },
@@ -10724,9 +10636,10 @@
       "title": "Kill a Death wing [Karamja Hard …",
       "text": "Kill a Death wing [Karamja Hard Diary]",
       "manual": true,
+      "npc": 509,
       "world": [
-        2857,
-        3169,
+        2810,
+        9300,
         0
       ]
     },
@@ -10748,9 +10661,9 @@
       "text": "Drop trick for roughly 30 Germinated Seeds",
       "manual": true,
       "world": [
-        3165,
-        3490,
-        0
+        1928,
+        4907,
+        2
       ]
     },
     {
@@ -10759,8 +10672,8 @@
       "text": "NOTE: Chop a Teak and Mahogany log while here for the Karamja Medium Diary to save 100 trading sticks",
       "manual": true,
       "world": [
-        2809,
-        3194,
+        2843,
+        3070,
         0
       ]
     },
@@ -10816,8 +10729,8 @@
       "text": "Bank at Legend's Guild",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2810,
+        3442,
         0
       ]
     },
@@ -10827,8 +10740,8 @@
       "text": "NOTE: You can go get your herb sack now from Tithe Farm reward shop",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2810,
+        3442,
         0
       ]
     }

@@ -98,12 +98,7 @@
       "id": "lunar-009",
       "title": "You can probably get to this …",
       "text": "You can probably get to this point with ~20 - 25h of playtime (excluding 0time mage training)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     }
   ]
 }

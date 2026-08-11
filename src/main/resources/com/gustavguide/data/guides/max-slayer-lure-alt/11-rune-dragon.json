@@ -7,23 +7,13 @@
       "id": "rune-dragon-001",
       "title": "Rune dragons ~100m Bis Gear — …",
       "text": "Rune dragons ~100m Bis Gear — 1.3m gp/h",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "rune-dragon-002",
       "title": "In depth guide on next tab",
       "text": "In depth guide on next tab",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "rune-dragon-003",
@@ -41,12 +31,7 @@
       "id": "rune-dragon-005",
       "title": "Get stats for ds2",
       "text": "Get stats for ds2",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "rune-dragon-006",
@@ -54,8 +39,8 @@
       "text": "most notable: 70 smith, 68 mining",
       "manual": true,
       "world": [
-        3228,
-        3436,
+        2713,
+        3492,
         0
       ]
     },

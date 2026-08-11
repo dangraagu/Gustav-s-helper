@@ -93,8 +93,8 @@
       },
       "item": 1203,
       "world": [
-        3165,
-        3490,
+        3090,
+        3956,
         0
       ]
     },
@@ -378,12 +378,7 @@
       "id": "mta-and-protect-melee-024",
       "title": "Get a Banana hat to improve …",
       "text": "Get a Banana hat to improve your fashion",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "mta-and-protect-melee-025",
@@ -480,8 +475,8 @@
       "text": "get the pebble. — Just partially complete it for now, you will need to clear up your bagged items before going in the tomb",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2521,
+        3495,
         0
       ]
     },
@@ -713,8 +708,8 @@
       "text": "kill a Hellhound in the Taverly Dungeon for a combat achievement",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2701,
+        3408,
         0
       ]
     },

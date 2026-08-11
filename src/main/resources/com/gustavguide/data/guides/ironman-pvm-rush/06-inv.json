@@ -8,12 +8,7 @@
       "title": "Bring Dragon dagger(p++)",
       "text": "Bring Dragon dagger(p++)",
       "manual": true,
-      "item": 1231,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1231
     },
     {
       "id": "inv-002",
@@ -27,12 +22,7 @@
       "title": "Bring Void ranger helm",
       "text": "Bring Void ranger helm",
       "manual": true,
-      "item": 11664,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 11664
     },
     {
       "id": "inv-004",
@@ -67,12 +57,7 @@
       "title": "Bring Void mage helm",
       "text": "Bring Void mage helm",
       "manual": true,
-      "item": 11663,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 11663
     },
     {
       "id": "inv-009",
@@ -95,9 +80,9 @@
       "manual": true,
       "item": 2434,
       "world": [
-        3208,
-        3494,
-        1
+        1733,
+        3572,
+        0
       ]
     },
     {

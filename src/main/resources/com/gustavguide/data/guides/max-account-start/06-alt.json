@@ -51,8 +51,8 @@
       "text": "slayer alt: Requires a decent amout of gp ~50 - 100m depending on gear. very easy to kill wyverns or rune dragons afterwards",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2461,
+        4367,
         0
       ]
     },
@@ -62,8 +62,8 @@
       "text": "spec transfer: Either splash the magic lvl or make tele tabs, string jewellery at lvl 80 to speed it up",
       "manual": true,
       "world": [
-        3269,
-        3407,
+        2461,
+        4367,
         0
       ]
     },
@@ -71,12 +71,7 @@
       "id": "alt-009",
       "title": "Blood rc alt: Takes around 60 …",
       "text": "Blood rc alt: Takes around 60 hours to start rcing",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "alt-010",

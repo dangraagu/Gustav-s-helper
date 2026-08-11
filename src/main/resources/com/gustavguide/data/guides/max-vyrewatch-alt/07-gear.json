@@ -7,12 +7,7 @@
       "id": "gear-001",
       "title": "Gear: https://i.imgur.com/GAJxEON.png",
       "text": "Gear: https://i.imgur.com/GAJxEON.png",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "gear-002",

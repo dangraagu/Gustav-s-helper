@@ -93,13 +93,19 @@
       "id": "quests-100qp-007",
       "title": "RFD Cook (1 QP)",
       "text": "RFD Cook (1 QP)",
-      "manual": true
+      "manual": true,
+      "world": [
+        3209,
+        3215,
+        0
+      ]
     },
     {
       "id": "quests-100qp-008",
       "title": "RFD Dwarf (1 QP) — Rock …",
       "text": "RFD Dwarf (1 QP) — Rock cake for nmz",
       "manual": true,
+      "object": 12349,
       "world": [
         3213,
         3221,

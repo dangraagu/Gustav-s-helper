@@ -13,12 +13,7 @@
       "id": "setting-up-for-agility-002",
       "title": "Sell all of your starting items …",
       "text": "Sell all of your starting items to the general store except your Bread and Shrimps",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "setting-up-for-agility-003",
@@ -54,8 +49,8 @@
       },
       "item": 2142,
       "world": [
-        3165,
-        3490,
+        3238,
+        3199,
         0
       ]
     },
@@ -130,12 +125,7 @@
           }
         ]
       },
-      "item": 1935,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1935
     },
     {
       "id": "setting-up-for-agility-010",
@@ -332,8 +322,8 @@
       "text": "Get an inventory of cakes",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2789,
+        3174,
         0
       ]
     },
@@ -582,12 +572,7 @@
       "id": "setting-up-for-agility-036",
       "title": "(Optional) If you have an alternate …",
       "text": "(Optional) If you have an alternate account, you can use a venom alt to help out killing things and conserving combat xp. — Watch this video for a quick tutorial on how to do this. — Using Wind strike is often a good way to get the needed damage on your UIM in the short time window.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "setting-up-for-agility-037",
@@ -714,8 +699,8 @@
       "text": "buy a Chronicle again. — It should still have some charges, but buy more if you ever run out",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3103,
+        3265,
         0
       ]
     },
@@ -767,8 +752,8 @@
       "text": "Claim a Training bow and Training arrows from the Ranged combat tutor",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3243,
+        3206,
         0
       ]
     },
@@ -846,12 +831,7 @@
           }
         ]
       },
-      "item": 1625,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1625
     },
     {
       "id": "setting-up-for-agility-050",
@@ -998,8 +978,8 @@
       "text": "(Optional) If you would like, you could accept more risk and start the Wilderness Agility section right now rather than continue to gain more Hitpoints levels. — This video talks about some pros and cons of doing this. — You will still need to come back and finish the remaining quests from this section later. — If you go this route, use the X Marks the Spot lamp on Hitpoints. — Also collect your 1k xp lamp from Historian Minas and use it on Hitpoints.",
       "manual": true,
       "world": [
-        3087,
-        3522,
+        3228,
+        3242,
         0
       ]
     },
@@ -1013,8 +993,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3080,
-        3510,
+        3212,
+        3247,
         0
       ]
     },
@@ -1023,9 +1003,10 @@
       "title": "Use the Fishing Trawler minigame teleport",
       "text": "Use the Fishing Trawler minigame teleport",
       "manual": true,
+      "npc": 1770,
       "world": [
-        3080,
-        3510,
+        3041,
+        3202,
         0
       ]
     },
@@ -1160,8 +1141,8 @@
       },
       "item": 954,
       "world": [
-        3165,
-        3490,
+        2614,
+        3293,
         0
       ]
     },
@@ -1174,9 +1155,10 @@
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
       },
+      "object": 17209,
       "world": [
-        2466,
-        3495,
+        2404,
+        3419,
         0
       ]
     },
@@ -1190,8 +1172,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2442,
-        3414,
+        2568,
+        3333,
         0
       ]
     },
@@ -1438,9 +1420,9 @@
       "text": "This is the default tank build setup with 32 Hitpoints, 40 Prayer and 13 combat. — The next section will discuss some other optional builds you could go for",
       "manual": true,
       "world": [
-        2917,
-        3745,
-        0
+        3208,
+        3494,
+        1
       ]
     }
   ]

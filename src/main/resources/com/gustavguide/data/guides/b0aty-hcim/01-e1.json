@@ -60,8 +60,8 @@
       "text": "Sell Bronze Dagger, Sword, Wooden Shield & Shortbow to General Store",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3212,
+        3247,
         0
       ]
     },
@@ -87,8 +87,8 @@
       },
       "item": 1755,
       "world": [
-        3216,
-        3416,
+        3212,
+        3247,
         0
       ]
     },
@@ -1033,12 +1033,7 @@
       "id": "e1-058a",
       "title": "On Floor 3, Spider max is …",
       "text": "On Floor 3, Spider max is 7 so if you take 3 or more damage, drink a wine before going through the door to avoid being stacked",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-058b",
@@ -1046,8 +1041,8 @@
       "text": "Take the east doors",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3081,
+        3420,
         0
       ]
     },
@@ -1055,12 +1050,7 @@
       "id": "e1-059",
       "title": "Catablepon Max is 9 so drink …",
       "text": "Catablepon Max is 9 so drink on any damage",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-060",
@@ -1116,12 +1106,7 @@
       "id": "e1-063at",
       "title": "Head east, Talk to Gertude (1) …",
       "text": "Head east, Talk to Gertude (1) [Gertrudes Cat]",
-      "manual": true,
-      "world": [
-        3148,
-        3413,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-064",
@@ -1546,8 +1531,8 @@
         "state": "IN_PROGRESS"
       },
       "world": [
-        3209,
-        3215,
+        3211,
+        3494,
         0
       ]
     },
@@ -1930,8 +1915,8 @@
       "text": "Cut the Dying tree [Varrock Easy Diary]",
       "manual": true,
       "world": [
-        3206,
-        3417,
+        3210,
+        3448,
         0
       ]
     },
@@ -2493,23 +2478,13 @@
       "id": "e1-133",
       "title": "Pick a Cabbage [Black Knight's Fortress]",
       "text": "Pick a Cabbage [Black Knight's Fortress]",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-134a",
       "title": "Bank South",
       "text": "Bank South",
-      "manual": true,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-134b",
@@ -2517,8 +2492,8 @@
       "text": "Deposit all",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        1413,
+        2972,
         0
       ]
     },
@@ -2526,12 +2501,7 @@
       "id": "e1-135",
       "title": "Withdraw: 28x Red Eclipse",
       "text": "Withdraw: 28x Red Eclipse",
-      "manual": true,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-136a",
@@ -2539,8 +2509,8 @@
       "text": "Head West",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        1413,
+        2972,
         0
       ]
     },
@@ -2550,8 +2520,8 @@
       "text": "trade Antonius",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        1413,
+        2972,
         0
       ]
     },
@@ -2561,8 +2531,8 @@
       "text": "sell all 28 at once",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        1413,
+        2972,
         0
       ]
     },
@@ -2571,14 +2541,14 @@
       "title": "Head East after selling Eclipse reds",
       "text": "Head East after selling Eclipse reds",
       "world": [
-        3216,
-        3416,
+        1413,
+        2972,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3216,
-        "y": 3416,
+        "x": 1413,
+        "y": 2972,
         "z": 0,
         "radius": 8
       }
@@ -2630,29 +2600,18 @@
           }
         ]
       },
-      "item": 1623,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1623
     },
     {
       "id": "e1-139",
       "title": "Head South to Mistrock & deposit …",
       "text": "Head South to Mistrock & deposit all there",
+      "manual": true,
       "world": [
-        3185,
-        3441,
+        2810,
+        3442,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3185,
-        "y": 3441,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "e1-140",
@@ -2674,12 +2633,7 @@
           }
         ]
       },
-      "item": 1269,
-      "world": [
-        3203,
-        3434,
-        0
-      ]
+      "item": 1269
     },
     {
       "id": "e1-141a",
@@ -2687,8 +2641,8 @@
       "text": "Bank at Mistrock",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        2810,
+        3442,
         0
       ]
     },
@@ -2698,8 +2652,8 @@
       "text": "deposit all",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        2810,
+        3442,
         0
       ]
     },
@@ -2725,8 +2679,8 @@
       },
       "item": 1265,
       "world": [
-        3185,
-        3441,
+        2810,
+        3442,
         0
       ]
     },
@@ -2919,8 +2873,8 @@
       "text": "Use Pages on Chronicle",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3081,
+        3246,
         0
       ]
     },
@@ -2930,8 +2884,8 @@
       "text": "wield",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3081,
+        3246,
         0
       ]
     },
@@ -3253,8 +3207,8 @@
       },
       "item": 221,
       "world": [
-        1630,
-        3981,
+        3014,
+        3258,
         0
       ]
     },
@@ -3262,12 +3216,7 @@
       "id": "e1-171a",
       "title": "Head South-West",
       "text": "Head South-West",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-171b",
@@ -3275,8 +3224,8 @@
       "text": "complete Witches Potion (Beef twice on range to burn)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3014,
+        3258,
         0
       ]
     },
@@ -3286,8 +3235,8 @@
       "text": "Take 2x Logs when getting the rat tail",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3014,
+        3258,
         0
       ]
     },
@@ -3405,12 +3354,7 @@
       "id": "e1-178",
       "title": "Shear a sheep by the Makeover …",
       "text": "Shear a sheep by the Makeover Mage",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-179",
@@ -3418,8 +3362,8 @@
       "text": "Take Falador Crumbling wall Shortcut [Falador Easy Diary]",
       "manual": true,
       "world": [
-        2947,
-        3382,
+        3000,
+        3360,
         0
       ]
     },
@@ -3479,8 +3423,8 @@
       "text": "Get a haircut North [Falador Easy Diary]",
       "manual": true,
       "world": [
-        2947,
-        3382,
+        3000,
+        3360,
         0
       ]
     },
@@ -3490,8 +3434,8 @@
       "text": "Fill Bucket on Pump [Falador Easy Diary]",
       "manual": true,
       "world": [
-        2947,
-        3382,
+        3000,
+        3360,
         0
       ]
     },
@@ -3872,12 +3816,7 @@
           }
         ]
       },
-      "item": 560,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 560
     },
     {
       "id": "e1-205",
@@ -3910,12 +3849,7 @@
       "id": "e1-207",
       "title": "Here I would recommend Private off …",
       "text": "Here I would recommend Private off and hop to avoid being bagged up",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-208",
@@ -3965,6 +3899,7 @@
       "title": "Complete Gnome Agility Course [Western Province …",
       "text": "Complete Gnome Agility Course [Western Province Easy Diary]",
       "manual": true,
+      "object": 23145,
       "world": [
         2474,
         3435,
@@ -3995,8 +3930,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2442,
-        3414,
+        2568,
+        3333,
         0
       ]
     },
@@ -4073,8 +4008,8 @@
       "text": "Fill your inventory with Balls of wool when passing the general store",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2825,
+        2959,
         0
       ]
     },
@@ -4247,18 +4182,7 @@
       "id": "e1-229",
       "title": "Head into Asgarnia dungeon (Chronicle is …",
       "text": "Head into Asgarnia dungeon (Chronicle is emergency teleport if you gargle)",
-      "world": [
-        3165,
-        3490,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3165,
-        "y": 3490,
-        "z": 0,
-        "radius": 8
-      }
+      "manual": true
     },
     {
       "id": "e1-230",
@@ -4784,8 +4708,8 @@
       "text": "Trade Aleck [Ardougne Easy Diary]",
       "manual": true,
       "world": [
-        2566,
-        3083,
+        2624,
+        3300,
         0
       ]
     },
@@ -4811,8 +4735,8 @@
       },
       "item": 10010,
       "world": [
-        2566,
-        3083,
+        2614,
+        3293,
         0
       ]
     },
@@ -5203,8 +5127,8 @@
       },
       "item": 1737,
       "world": [
-        3165,
-        3490,
+        2614,
+        3293,
         0
       ]
     },
@@ -5799,12 +5723,7 @@
           }
         ]
       },
-      "item": 2025,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 2025
     },
     {
       "id": "e1-324",
@@ -5814,12 +5733,7 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      },
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      }
     },
     {
       "id": "e1-325",
@@ -5831,9 +5745,9 @@
         "state": "FINISHED"
       },
       "world": [
-        3165,
-        3490,
-        0
+        2482,
+        3491,
+        1
       ]
     },
     {
@@ -5856,12 +5770,7 @@
           }
         ]
       },
-      "item": 2015,
-      "world": [
-        3216,
-        3416,
-        0
-      ]
+      "item": 2015
     },
     {
       "id": "e1-327a",
@@ -5869,9 +5778,9 @@
       "text": "Bank west",
       "manual": true,
       "world": [
-        3185,
-        3441,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
@@ -5880,9 +5789,9 @@
       "text": "deposit all",
       "manual": true,
       "world": [
-        3185,
-        3441,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
@@ -5907,9 +5816,9 @@
       },
       "item": 558,
       "world": [
-        3185,
-        3441,
-        0
+        2444,
+        3485,
+        1
       ]
     },
     {
@@ -6408,12 +6317,7 @@
       "id": "e1-360",
       "title": "Somebody will get Rune Scimitar on …",
       "text": "Somebody will get Rune Scimitar on this kill. I hope that's you",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-361",

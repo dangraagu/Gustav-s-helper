@@ -12,7 +12,12 @@
         "skill": "SMITHING",
         "level": 30,
         "cmp": ">="
-      }
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "quests-piety-002",

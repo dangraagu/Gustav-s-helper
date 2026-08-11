@@ -20,12 +20,7 @@
         "cmp": ">="
       },
       "note": "Offer bones at a gilded altar in a POH with both incense burners lit (fastest); Chaos altar in the Wilderness is ~half the cost.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Prayer_training"
     },
     {
       "id": "combat-prep-003",
@@ -47,12 +42,7 @@
           }
         ]
       },
-      "item": 11128,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 11128
     },
     {
       "id": "combat-prep-004",

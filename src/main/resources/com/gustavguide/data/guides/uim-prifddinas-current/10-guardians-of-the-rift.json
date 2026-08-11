@@ -116,8 +116,8 @@
       "text": "Death bank and Play Guardians of the Rift until level 65 Runecraft. — Make weak guardians between rounds for extra crafting experience. — See this video for details on this. — At level 50, search until you get a Large Pouch and 25+ pearls to unlock the ability to repair pouches.",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3185,
+        3441,
         0
       ]
     },
@@ -141,12 +141,7 @@
           }
         ]
       },
-      "item": 26798,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 26798
     },
     {
       "id": "guardians-of-the-rift-010",

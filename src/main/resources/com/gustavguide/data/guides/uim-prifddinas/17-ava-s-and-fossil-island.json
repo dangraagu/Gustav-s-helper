@@ -46,12 +46,7 @@
       "id": "ava-s-and-fossil-island-002",
       "title": "Get a pickaxe",
       "text": "Get a pickaxe",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-003",
@@ -100,12 +95,7 @@
       "id": "ava-s-and-fossil-island-006",
       "title": "Get a spade",
       "text": "Get a spade",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-007",
@@ -149,12 +139,7 @@
       "id": "ava-s-and-fossil-island-010",
       "title": "Pickpocket H.A.M. Members until you get …",
       "text": "Pickpocket H.A.M. Members until you get buttons. — Polish them",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-011",
@@ -178,8 +163,8 @@
       },
       "item": 1925,
       "world": [
-        3216,
-        3416,
+        2527,
+        3161,
         0
       ]
     },
@@ -226,12 +211,7 @@
       "id": "ava-s-and-fossil-island-014",
       "title": "Get a hammer",
       "text": "Get a hammer",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-015",

@@ -7,12 +7,7 @@
       "id": "song-of-the-elves-001",
       "title": "As you start getting close to …",
       "text": "As you start getting close to taking on the quest, start planting your Belladonna seeds for a stack of Nightshade",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "song-of-the-elves-002",

@@ -425,8 +425,8 @@
       "text": "use most of your essence to get level 10 Runecraft. — Save 3 essence in your small pouch for later",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2452,
+        3231,
         0
       ]
     },
@@ -552,8 +552,8 @@
       "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training",
       "world": [
-        3192,
-        3223,
+        3231,
+        3203,
         0
       ]
     },
@@ -587,23 +587,13 @@
       "id": "guardians-of-the-rift-ea-035",
       "title": "Keep Cosmic, Chaos, and Nature runes. …",
       "text": "Keep Cosmic, Chaos, and Nature runes. — Do not do any searches until at least level 50, so that you can get the large pouch. Your medium pouch will degrade, but that is alright",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "guardians-of-the-rift-ea-036",
       "title": "Once you reach level 50 Runecraft, …",
       "text": "Once you reach level 50 Runecraft, pull all your searches. You should get the Large Pouch, as well as a large amount of runes. You will also get pearls and potentially other items. — What you do with the pearls will depend on your future plans and how quickly you plan to return to the minigame. If you do not plan to return for a long time, it won't be worth keeping them as they use an inventory slot. — It is also a reasonable option to just stay here at Guardians of the Rift until around 65 Runecraft and aim to get the ring of the elements now. The down side to this is that you will be down 2 inventory spaces due to not having a Rune Pouch, but it isn't really a huge difference. If you choose to do this, charge the ring before you dispose of your Runes and Pouches!",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "guardians-of-the-rift-ea-037",
@@ -641,8 +631,8 @@
       "text": "Start Questing and work towards 750 total level to get a rune pouch from Last Man Standing. You can follow the main guide path, or go a bit out of order for quests that give a lot of total levels. Additionally, you could just skill by training skills like Firemaking or Woodcutting. — Keep in mind that you still need 70 Agility, and getting the graceful outfit would be a good idea. Also, while the need for money has been greatly offset by getting runes from Guardians of the Rift, there are still other things the require money. You will probably have to do at least some laps at the Agility Pyramid or another money making method while going on this side quest for 750 total level, or just to continue moving forward in the guide. — A good idea would be to return to Agility, get the Graceful Outfit, do a bit of Agility Pyramid for cash, then follow the guide until you finish the 50 construction grind. This will allow you to store your graceful top so it doesn't conflict with the varrock armour as well as provide a lot of total levels along the way. Having the essence pouches in your inventory is a bit of a hassle, but is manageable. You could also just drop the pouches and reobtain them later.",
       "manual": true,
       "world": [
-        3269,
-        3407,
+        3210,
+        3448,
         0
       ]
     },

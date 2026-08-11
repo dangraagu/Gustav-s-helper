@@ -70,3 +70,44 @@ tasks.register('shadowJar', Jar) {
 	archiveClassifier.set('shadow')
 	archiveFileName.set("${rootProject.name}-${project.version}-all.jar")
 }
+
+// The route data is produced by tools/*.py, so the matcher guards that keep 6000+ steps pointing at
+// the right tile are Python tests. Wire them into `check` so they cannot silently rot — a name
+// matcher regressing here is invisible to the Java tests but ships wrong coordinates to every user.
+// Skipped (not failed) when no Python is on PATH, so a Java-only contributor is never blocked.
+tasks.register('pythonToolTests') {
+	group = 'verification'
+	description = 'Run the route-builder matcher tests in tools/test_*.py'
+	doLast {
+		def exe = ['py', 'python3', 'python'].find { candidate ->
+			try {
+				def p = new ProcessBuilder(candidate, '--version').redirectErrorStream(true).start()
+				p.waitFor() == 0
+			} catch (ignored) {
+				false
+			}
+		}
+		if (exe == null) {
+			logger.lifecycle('pythonToolTests: no Python interpreter found on PATH — skipping')
+			return
+		}
+		def suites = fileTree('tools').matching { include 'test_*.py' }.files.sort { it.name }
+		def failed = []
+		suites.each { suite ->
+			def result = exec {
+				commandLine exe, suite.absolutePath
+				workingDir projectDir
+				ignoreExitValue true
+			}
+			if (result.exitValue != 0) {
+				failed << suite.name
+			}
+		}
+		if (failed) {
+			throw new GradleException("Python tool tests failed: ${failed.join(', ')}")
+		}
+		logger.lifecycle("pythonToolTests: ${suites.size()} suite(s) passed")
+	}
+}
+
+tasks.named('check') { dependsOn 'pythonToolTests' }

@@ -92,8 +92,8 @@
       },
       "item": 1965,
       "world": [
-        3165,
-        3490,
+        3227,
+        3257,
         0
       ]
     },
@@ -103,8 +103,8 @@
       "text": "Use a teleport to house tab",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3227,
+        3257,
         0
       ]
     },
@@ -130,8 +130,8 @@
       },
       "item": 1265,
       "world": [
-        3165,
-        3490,
+        3227,
+        3257,
         0
       ]
     },
@@ -687,8 +687,8 @@
       "text": "Sell the diamonds and gold bars to the general store, as well as the mithril seeds",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3212,
+        3247,
         0
       ]
     },

@@ -242,12 +242,7 @@
       "id": "questing-for-combats-018",
       "title": "At this point you could start …",
       "text": "At this point you could start training Ranged in your downtime, but the guide is going to prepare for melee as well before settling in for the combat grind",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "questing-for-combats-019",
@@ -311,12 +306,7 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      },
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      }
     },
     {
       "id": "questing-for-combats-025",
@@ -326,12 +316,7 @@
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      },
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      }
     },
     {
       "id": "questing-for-combats-026",
@@ -343,8 +328,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3253,
-        3402,
+        3190,
+        3360,
         0
       ]
     },
@@ -483,8 +468,8 @@
       },
       "item": 837,
       "world": [
-        3165,
-        3490,
+        1520,
+        3589,
         0
       ]
     },

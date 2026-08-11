@@ -18,12 +18,7 @@
       "id": "theatre-of-blood-002",
       "title": "The Justiciar armour can be stored …",
       "text": "The Justiciar armour can be stored in your house and if you get the full set it might be nice for something in the future",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "theatre-of-blood-003",

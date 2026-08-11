@@ -172,8 +172,8 @@
         "state": "FINISHED"
       },
       "world": [
-        1483,
-        3747,
+        1520,
+        3589,
         0
       ]
     },
@@ -199,8 +199,8 @@
       },
       "item": 4164,
       "world": [
-        1553,
-        3750,
+        1520,
+        3589,
         0
       ]
     },
@@ -208,12 +208,7 @@
       "id": "kourend-upgrading-the-me-010",
       "title": "Add all the pages to the …",
       "text": "Add all the pages to the Kharedst's memoirs so the book has extra charges",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "kourend-upgrading-the-me-011",
@@ -221,8 +216,8 @@
       "text": "Fletch a dramen branch if you don't have a staff already",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1520,
+        3589,
         0
       ]
     },
@@ -230,12 +225,7 @@
       "id": "kourend-upgrading-the-me-012",
       "title": "Get some cakes for food. 10 …",
       "text": "Get some cakes for food. 10 cakes should be enough",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "kourend-upgrading-the-me-013",

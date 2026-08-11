@@ -7,12 +7,7 @@
       "id": "moons-of-peril-001",
       "title": "If you want to do all …",
       "text": "If you want to do all 3 moons, you will need some barrows tank gear and a zombie axe",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "moons-of-peril-002",

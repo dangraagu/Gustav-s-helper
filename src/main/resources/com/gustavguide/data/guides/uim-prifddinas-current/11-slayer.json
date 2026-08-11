@@ -7,12 +7,7 @@
       "id": "slayer-001",
       "title": "While you are completing the next …",
       "text": "While you are completing the next quests and Slayer section, use up your Nature Runes alching as you go. — It doesn't matter what you alch, but if you want a bit of money then Volcanic ash is easy to get and alchs for 120 each. — The other runes can be used up or saved for later as you would like.",
-      "manual": true,
-      "world": [
-        2917,
-        3745,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "slayer-002",

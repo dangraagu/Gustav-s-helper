@@ -123,23 +123,13 @@
       "id": "e11-007",
       "title": "Order of points usage: Bigger & …",
       "text": "Order of points usage: Bigger & Badder, Blocking Tasks, Slayer Helmet, Ring Bling, Broad Arrows",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-008",
       "title": "If you can buy all of …",
       "text": "If you can buy all of the above through boosting before 69 Slayer then stack as many points as possible doing the same method until 69",
-      "manual": true,
-      "world": [
-        3216,
-        3416,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-009",
@@ -147,8 +137,8 @@
       "text": "Withdraw: Bow of Faerdhinen, Crystal Armour & combat gear",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2843,
+        3543,
         0
       ]
     },
@@ -207,9 +197,9 @@
         "state": "FINISHED"
       },
       "world": [
-        2907,
-        3450,
-        0
+        3208,
+        3494,
+        1
       ]
     },
     {
@@ -269,23 +259,13 @@
           }
         ]
       },
-      "item": 1379,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 1379
     },
     {
       "id": "e11-017b",
       "title": "Teleport Runes, Slayer Helmet, Spade, Ectophial, …",
       "text": "Teleport Runes, Slayer Helmet, Spade, Ectophial, Silver Bar, Pot, Restore Potion (3), Garlic, Elf Teleport Crystal",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-018",
@@ -336,14 +316,14 @@
       "title": "Teleport to POH -> Kharyrll Portal …",
       "text": "Teleport to POH -> Kharyrll Portal [Morytania Hard Diary]",
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3440,
-        "y": 3232,
+        "x": 3493,
+        "y": 3488,
         "z": 0,
         "radius": 8
       }
@@ -354,8 +334,8 @@
       "text": "Head to the Slayer Tower",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -365,8 +345,8 @@
       "text": "climb both of the Spike climbs [Morytania Hard Diary]",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -388,8 +368,8 @@
       "text": "Use the Garlic on the Restore Potion, then the crushed Silver to make a Guthix Balanace [Morytania Medium Diary]",
       "manual": true,
       "world": [
-        3440,
-        3232,
+        3493,
+        3488,
         0
       ]
     },
@@ -482,7 +462,13 @@
       "id": "e11-034",
       "title": "Kill an elf with a crystal …",
       "text": "Kill an elf with a crystal bow using your Bow of Faerdhinen [Western Province Hard Diary]",
-      "manual": true
+      "manual": true,
+      "npc": 5295,
+      "world": [
+        2333,
+        3171,
+        0
+      ]
     },
     {
       "id": "e11-035",
@@ -541,8 +527,8 @@
       },
       "item": 954,
       "world": [
-        3165,
-        3490,
+        3269,
+        3167,
         0
       ]
     },
@@ -558,8 +544,8 @@
       "text": "Use Rope to Enter and peak at the end for a free world",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3269,
+        3167,
         0
       ]
     },
@@ -613,8 +599,8 @@
       },
       "item": 449,
       "world": [
-        3165,
-        3490,
+        3269,
+        3167,
         0
       ]
     },
@@ -628,12 +614,7 @@
       "id": "e11-047",
       "title": "Change Spellbook to Lunars on Occult …",
       "text": "Change Spellbook to Lunars on Occult Altar",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-048",
@@ -669,9 +650,10 @@
       "title": "Cast Monster Examine on a Troll …",
       "text": "Cast Monster Examine on a Troll [Kourend Hard Diary]",
       "manual": true,
+      "npc": 936,
       "world": [
-        1657,
-        3505,
+        1240,
+        3515,
         0
       ]
     },
@@ -858,12 +840,7 @@
       "id": "e11-068",
       "title": "Change back to Regular Spellbook",
       "text": "Change back to Regular Spellbook",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-069",
@@ -908,12 +885,7 @@
       "id": "e11-072a",
       "title": "Head North",
       "text": "Head North",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-072b",
@@ -921,8 +893,8 @@
       "text": "kill a Lizardmen until you get a Xerics Talisman Drop",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1487,
+        3593,
         0
       ]
     },
@@ -932,8 +904,8 @@
       "text": "Take all Fangs",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1487,
+        3593,
         0
       ]
     },
@@ -943,8 +915,8 @@
       "text": "Wear the Crystal",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1487,
+        3593,
         0
       ]
     },
@@ -999,8 +971,8 @@
       "text": "Buy Brimstone boots",
       "manual": true,
       "world": [
-        1657,
-        3505,
+        1630,
+        3730,
         0
       ]
     },
@@ -1010,8 +982,8 @@
       "text": "kill 1 Wyrm [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1657,
-        3505,
+        1630,
+        3730,
         0
       ]
     },
@@ -1020,14 +992,14 @@
       "title": "Teleport to Xerics Heart on Xerics …",
       "text": "Teleport to Xerics Heart on Xerics Talisman [Kourend Hard Diary]",
       "world": [
-        1657,
-        3505,
+        1630,
+        3730,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 1657,
-        "y": 3505,
+        "x": 1630,
+        "y": 3730,
         "z": 0,
         "radius": 8
       }
@@ -1054,12 +1026,7 @@
       "id": "e11-079",
       "title": "Now we have the Bone Crusher, …",
       "text": "Now we have the Bone Crusher, Ash Sanctifier & Soul Bearer we can begin the slayer grind towards Raids. This is where we can detour towards the Noxious Halberd if you did not get the Blade of Saeldor",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-080",
@@ -1103,23 +1070,13 @@
       "id": "e11-083",
       "title": "Ankou (Barrage in Catacombs, no alt …",
       "text": "Ankou (Barrage in Catacombs, no alt needed)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-084",
       "title": "Bloodvelds (Barrage with Alts in Catacombs …",
       "text": "Bloodvelds (Barrage with Alts in Catacombs or Saeldor them. Extend if barraging)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-085",
@@ -1155,23 +1112,13 @@
       "id": "e11-088",
       "title": "Dust Devils (Ice Barrage in Catacombs. …",
       "text": "Dust Devils (Ice Barrage in Catacombs. Extend ASAP)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-089",
       "title": "Nechryaeel (Ice Barrage in Catacombs. Extend …",
       "text": "Nechryaeel (Ice Barrage in Catacombs. Extend Asap)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-090",
@@ -1204,12 +1151,7 @@
       "id": "e11-093",
       "title": "Tormented Synapse Order: Purging Staff -> …",
       "text": "Tormented Synapse Order: Purging Staff -> Scorching Bow -> Emberlight (Revert the Purging Staff to Scorching Bow when your Arclight has 0 charges)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-094",
@@ -1237,12 +1179,7 @@
       "id": "e11-096",
       "title": "If you skipped Blade of Saeldor …",
       "text": "If you skipped Blade of Saeldor you can get Kraken Whip which is decent before Nox Hally",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     }
   ]
 }

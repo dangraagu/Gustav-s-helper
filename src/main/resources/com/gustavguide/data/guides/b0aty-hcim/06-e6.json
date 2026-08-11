@@ -121,8 +121,8 @@
       "text": "Kill a greater demon with Darklight (2 CA points) (Don't get alfie'd by the iron dragons)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1518,
+        3586,
         0
       ]
     },
@@ -138,8 +138,8 @@
       "text": "run west",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1518,
+        3586,
         0
       ]
     },
@@ -161,8 +161,8 @@
       "text": "kill each of the 3 giants (Fire, Hill, Moss). (1 Point)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1518,
+        3586,
         0
       ]
     },
@@ -172,8 +172,8 @@
       "text": "NOTE: You should now have the Easy CA's Unlocked after this task. If you do not, ensure you have the following CA's done:",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        1518,
+        3586,
         0
       ]
     },
@@ -384,8 +384,8 @@
       "text": "Use Earth Runes on Fire Altar [Lumbridge Medium Diary]",
       "manual": true,
       "world": [
-        3273,
-        3195,
+        3312,
+        3254,
         0
       ]
     },
@@ -536,12 +536,7 @@
       "id": "e6-047",
       "title": "Gear: Ancient Staff, Amulet of Strength, …",
       "text": "Gear: Ancient Staff, Amulet of Strength, Barrows Gloves, Climbing Boots, Berserker Helmet",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e6-048",
@@ -563,12 +558,7 @@
           }
         ]
       },
-      "item": 952,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "item": 952
     },
     {
       "id": "e6-049",
@@ -761,12 +751,7 @@
       "id": "e6-061",
       "title": "OPTIONAL: Rum Deal requires 47 Prayer …",
       "text": "OPTIONAL: Rum Deal requires 47 Prayer (Boostable), you may have enough ensouled heads from 58 slayer to get this level",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e6-062",

@@ -7,13 +7,7 @@
       "id": "prayer-001",
       "title": "Get a dwarven rock cake and …",
       "text": "Get a dwarven rock cake and cool it",
-      "manual": true,
-      "npc": 3140,
-      "world": [
-        3008,
-        3471,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "prayer-002a",
@@ -41,12 +35,7 @@
       "id": "prayer-002b",
       "title": "drop the fire staff (Not technically …",
       "text": "drop the fire staff (Not technically needed, but makes things a bit simpler)",
-      "manual": true,
-      "world": [
-        3008,
-        3471,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "prayer-003",
@@ -116,8 +105,8 @@
       },
       "item": 8880,
       "world": [
-        3165,
-        3490,
+        3126,
+        3635,
         0
       ]
     }

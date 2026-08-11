@@ -30,12 +30,7 @@
       "id": "further-upgrades-003",
       "title": "Higher prayer level for longer afk",
       "text": "Higher prayer level for longer afk",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "further-upgrades-004",
@@ -43,8 +38,8 @@
       "text": "ferocious gloves (ds2 , 200 qp)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2644,
+        3710,
         0
       ]
     }

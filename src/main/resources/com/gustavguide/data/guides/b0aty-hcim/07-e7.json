@@ -90,12 +90,7 @@
       "id": "e7-009",
       "title": "OPTIONAL: If you are not & …",
       "text": "OPTIONAL: If you are not & want 70 Magic to burst Zombies and are confident going to DKS in Rune Armour, you can Iban Blast Rex for Berserker ring and some magic levels. Otherwise we do this after Barrows Gear. You can also alch at Rex waiting for them to spawn.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e7-010",
@@ -129,34 +124,19 @@
       "id": "e7-011",
       "title": "ANOTHER WARNING: DO NOT LOOK OVER …",
       "text": "ANOTHER WARNING: DO NOT LOOK OVER THE LEDGES OR THE INSTANCE IS OVER AND YOU CAN GET BAGGED UP BY PKERS",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e7-012",
       "title": "IT IS HIGHLY RECOMMENDED TO SCOUT …",
       "text": "IT IS HIGHLY RECOMMENDED TO SCOUT THE LADDER WITH AN ALT TO MAKE SURE YOU DON'T GET BAGGED UP IF DOING PVP WORLD METHOD",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e7-013",
       "title": "Also remember to change off PvP …",
       "text": "Also remember to change off PvP world if you bank but you can stay on 1 trip for 1,000+ KC (over drop rate)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e7-014",
@@ -169,12 +149,7 @@
         "cmp": ">="
       },
       "note": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael).",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "e7-015",
@@ -211,12 +186,7 @@
         "cmp": ">="
       },
       "note": "Burst/barrage monsters on Ancient Magicks (needs Desert Treasure I) in multi-combat, ideally on Slayer tasks (dust devils, nechryael).",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training",
-      "world": [
-        3213,
-        3221,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Magic_training"
     },
     {
       "id": "e7-020",
@@ -281,12 +251,7 @@
       "id": "e7-028",
       "title": "Giant Mole; (No damage kill)",
       "text": "Giant Mole; (No damage kill)",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e7-029",
@@ -304,12 +269,7 @@
       "id": "e7-031",
       "title": "Jad Challenges; (Second Challenge + only …",
       "text": "Jad Challenges; (Second Challenge + only melee) [This one is challenging so attempt for fun or skip]",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e7-032",
@@ -357,8 +317,8 @@
       "text": "Salve Graveyard portal (Home teleport, recharge prayer on altar/pool, take salve graveyard portal->BKR fairy ring->Boat to barrows)",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        3604,
+        3354,
         0
       ]
     },

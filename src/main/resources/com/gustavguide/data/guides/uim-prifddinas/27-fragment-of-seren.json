@@ -34,12 +34,7 @@
       "id": "fragment-of-seren-002",
       "title": "Get your noted super restores out …",
       "text": "Get your noted super restores out of your bag if you don't have them",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "fragment-of-seren-003",
@@ -54,8 +49,8 @@
       "manual": true,
       "item": 1379,
       "world": [
-        3165,
-        3490,
+        3216,
+        3416,
         0
       ]
     },
@@ -63,12 +58,7 @@
       "id": "fragment-of-seren-005",
       "title": "Start out by making a Guthix …",
       "text": "Start out by making a Guthix rest with the herbs you left planted from farming. If you forgot to do this, then you could farm them now, or just use a karambwan/pineapple pizza",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "fragment-of-seren-006a",
@@ -257,12 +247,7 @@
       "id": "fragment-of-seren-017",
       "title": "Collect 10 cave nightshade. You will …",
       "text": "Collect 10 cave nightshade. You will need to reobtain the skavid map. — Practice eating a few nightshade to get used to it. Eating a nightshade is a right click option with a text box! — The extra nightshade is there in case you mess up and need 1 more.",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "fragment-of-seren-018",
@@ -270,8 +255,8 @@
       "text": "Drop the candle",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2591,
+        3088,
         0
       ]
     },
@@ -291,12 +276,7 @@
       "id": "fragment-of-seren-020",
       "title": "Change to the ancient spellbook",
       "text": "Change to the ancient spellbook",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "fragment-of-seren-021",
