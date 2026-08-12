@@ -7,12 +7,7 @@
       "id": "eg-001",
       "title": "Start as a female character, don't …",
       "text": "Start as a female character, don't forget to make yourself an ironman before",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "eg-002",
@@ -25,23 +20,13 @@
         "cmp": ">="
       },
       "note": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost.",
-      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "eg-003",
       "title": "Use Authenticator AND 2-step verification on …",
       "text": "Use Authenticator AND 2-step verification on registered e-mail",
-      "manual": true,
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "eg-004",
@@ -1067,8 +1052,8 @@
       "text": "Start Barcrawl miniquest\nLocation: Barbarian Assault",
       "manual": true,
       "world": [
-        2533,
-        3571,
+        2544,
+        3568,
         0
       ]
     },
@@ -1177,14 +1162,14 @@
       "title": "Walk to Ardy with rope, dwellberries, …",
       "text": "Walk to Ardy with rope, dwellberries, hangover cure\nLocation: Ardougne",
       "world": [
-        2612,
-        3255,
+        2624,
+        3300,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2612,
-        "y": 3255,
+        "x": 2624,
+        "y": 3300,
         "z": 0,
         "radius": 8
       }
@@ -3567,34 +3552,14 @@
       ]
     },
     {
-      "id": "eg-199a",
+      "id": "eg-199",
       "title": "Walk north from Varrock to the …",
-      "text": "Walk north from Varrock to the Wilderness (level 4-7)\nLocation: Wilderness",
+      "text": "Walk north from Varrock to the Wilderness (level 4-7), talk to the Mage of\nLocation: Wilderness",
+      "manual": true,
       "world": [
         3087,
         3522,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3087,
-        "y": 3522,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "eg-199b",
-      "title": "talk to the Mage of",
-      "text": "talk to the Mage of\nLocation: Wilderness",
-      "manual": true,
-      "world": [
-        3107,
-        3555,
-        0
-      ],
-      "npcs": [
-        2580
       ]
     },
     {
@@ -4278,26 +4243,9 @@
       ]
     },
     {
-      "id": "eg-242a",
-      "title": "Go under the mountain",
-      "text": "Go under the mountain\nLocation: Taverley",
-      "world": [
-        2910,
-        3451,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 2910,
-        "y": 3451,
-        "z": 0,
-        "radius": 8
-      }
-    },
-    {
-      "id": "eg-242b",
-      "title": "speak to Lady of the lake …",
-      "text": "speak to Lady of the lake in Taverly\nLocation: Taverley",
+      "id": "eg-242",
+      "title": "Go under the mountain, speak to …",
+      "text": "Go under the mountain, speak to Lady of the lake in Taverly\nLocation: Taverley",
       "manual": true,
       "npc": 3530,
       "world": [

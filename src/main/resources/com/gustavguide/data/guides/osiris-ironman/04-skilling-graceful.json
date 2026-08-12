@@ -414,12 +414,7 @@
       "id": "sg-028",
       "title": "Start doing daily tree runs from …",
       "text": "Start doing daily tree runs from now on with the seeds you get from birdhouse\nLocation: Various",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "sg-029",
@@ -672,12 +667,7 @@
       "id": "sg-047",
       "title": "Should get to 70+ mage by …",
       "text": "Should get to 70+ mage by the time you're done with agility for now\nLocation: Various",
-      "manual": true,
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "sg-048",

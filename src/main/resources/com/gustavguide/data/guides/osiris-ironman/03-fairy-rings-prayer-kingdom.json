@@ -200,18 +200,12 @@
       "id": "frp-012",
       "title": "Go champion's guild and continue Dragon …",
       "text": "Go champion's guild and continue Dragon slayer, ask every question\nLocation: Champions Guild",
+      "manual": true,
       "world": [
         3191,
         3357,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3191,
-        "y": 3357,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "frp-013",
@@ -433,8 +427,8 @@
       "text": "Start Fairytale part 1\nLocation: Draynor",
       "manual": true,
       "world": [
-        3103,
-        3265,
+        3078,
+        3256,
         0
       ]
     },
@@ -1392,12 +1386,7 @@
         "cmp": ">="
       },
       "note": "Make the highest potion you can as you level: Attack (3) -> Strength (12) -> Energy (26) -> Prayer (38). Quests skip the early grind.",
-      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training",
-      "world": [
-        3165,
-        3490,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "frp-092",

@@ -59,12 +59,7 @@
       "id": "dr-003",
       "title": "Plant some Toadflax seeds, agility potion …",
       "text": "Plant some Toadflax seeds, agility potion is needed soon for a quest\nLocation: Various",
-      "manual": true,
-      "world": [
-        3345,
-        2725,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "dr-004",
@@ -72,8 +67,8 @@
       "text": "Make a mithril grapple\nLocation: Various",
       "manual": true,
       "world": [
-        3409,
-        2921,
+        2710,
+        5273,
         0
       ]
     },
@@ -87,8 +82,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3209,
-        3216,
+        3307,
+        3454,
         0
       ]
     },
@@ -103,8 +98,8 @@
         "cmp": ">="
       },
       "world": [
-        1725,
-        3128,
+        1435,
+        3124,
         0
       ]
     },
@@ -134,8 +129,8 @@
         "cmp": ">="
       },
       "world": [
-        3297,
-        2783,
+        3311,
+        2779,
         0
       ]
     },
@@ -422,8 +417,8 @@
       "text": "Finish RFD\nLocation: Lumbridge",
       "manual": true,
       "world": [
-        3222,
-        3218,
+        3209,
+        3215,
         0
       ]
     },

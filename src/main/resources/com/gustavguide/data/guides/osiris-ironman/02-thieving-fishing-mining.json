@@ -379,21 +379,9 @@
       ]
     },
     {
-      "id": "tfm-026a",
-      "title": "Go to Edgeville",
-      "text": "Go to Edgeville\nLocation: Edgeville",
-      "manual": true,
-      "object": 1581,
-      "world": [
-        3097,
-        3468,
-        0
-      ]
-    },
-    {
-      "id": "tfm-026b",
-      "title": "talk to Oziach to continue Dragon …",
-      "text": "talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
+      "id": "tfm-026",
+      "title": "Go to Edgeville, talk to Oziach …",
+      "text": "Go to Edgeville, talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
       "manual": true,
       "npc": 822,
       "world": [
