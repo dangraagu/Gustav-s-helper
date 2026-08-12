@@ -1,5 +1,5 @@
 {
- "_status": "UNVERIFIED - the adversarial verify stage failed on a spend limit. Do NOT apply without independent re-derivation; prior rounds showed a material share of agent findings are wrong.",
+ "_status": "UNVERIFIED and now MEASURABLY UNRELIABLE. Verify stage died on a spend limit. Two classes were since checked deterministically: false_completion_risk claimed 178, real count 9 (tools/check_dup_arrivals.py); wrong_npc/missing_npc claimed 60, of which 40 are provably false (current id already matches qh_entities.json). Treat every remaining finding as a lead, never a fix.",
  "steps_reviewed": 6377,
  "findings": [
   {
