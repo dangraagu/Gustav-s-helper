@@ -1,0 +1,23 @@
+position conditions that a player already satisfied earlier, with NO real gate between:
+  total: 9
+      8  b0aty-hcim
+      1  osiris-ironman
+
+  b0aty-hcim       e1-234                   step#298   ticks at e1-231                 (step#295)  (3000, 3360, 0)
+                                                         'Walk back to Falador after you get the sword'
+  b0aty-hcim       e3-098                   step#1198  ticks at e3-097                 (step#1197)  (3000, 3360, 0)
+                                                         'Head North-East of Falador'
+  b0aty-hcim       e4-051                   step#1570  ticks at e4-050                 (step#1569)  (2624, 3300, 0)
+                                                         'Head to Ardougne Allotment Patch'
+  b0aty-hcim       e4-109                   step#1632  ticks at e4-107                 (step#1630)  (2624, 3300, 0)
+                                                         'Teleport to Ardougne'
+  b0aty-hcim       e4-309                   step#1842  ticks at e4-305                 (step#1837)  (1630, 3730, 0)
+                                                         'Teleport to Kourend'
+  b0aty-hcim       e4-643                   step#2203  ticks at e4-641                 (step#2201)  (3210, 3448, 0)
+                                                         'Teleport to Varrock'
+  b0aty-hcim       e11-064                  step#3045  ticks at e11-061                (step#3042)  (1517, 3592, 0)
+                                                         'Teleport to Shayzien'
+  b0aty-hcim       e11-077                  step#3065  ticks at e11-048                (step#3029)  (1630, 3730, 0)
+                                                         'Teleport to Xerics Heart on Xerics Talisman [Kourend Hard '
+  osiris-ironman   eg-144c                  step#170   ticks at eg-142a                (step#163)  (2999, 3122, 0)
+                                                         'run back to Falador\nLocation: Mudskipper Point'
