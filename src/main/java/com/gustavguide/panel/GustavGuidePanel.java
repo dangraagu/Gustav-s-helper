@@ -337,6 +337,13 @@ public class GustavGuidePanel extends PluginPanel
 			sectionLabel.setText(m.section);
 			titleLabel.setText(m.title);
 			textArea.setText(m.text);
+			// "Why will/did this tick?" — the engine's own description of the completion condition,
+			// so a surprising auto-complete is explainable on hover instead of feeling like a bug.
+			String why = m.completesOn == null
+				? "Completes manually — click Done when finished."
+				: "Auto-completes when: " + m.completesOn;
+			textArea.setToolTipText(why);
+			titleLabel.setToolTipText(why);
 			if (m.note != null && !m.note.isEmpty())
 			{
 				noteLabel.setText(wrap("💡 " + escape(m.note)));
