@@ -1,0 +1,68 @@
+# Weekly check: has ironman.guide's route drifted from the osiris-ironman data we bundle?
+#
+# osiris-ironman is the one NETWORK-scraped guide, so upstream edits are invisible until someone
+# re-scrapes by hand. This job re-scrapes into a scratch copy, diffs against the bundled JSON, and
+# opens (or updates) a single issue when they differ. It never commits — a re-scrape must go through
+# the local gates (tests, fresh-account invariant, risk diff) before shipping.
+name: scrape-drift
+
+on:
+  schedule:
+    - cron: '23 5 * * 1'   # Mondays 05:23 UTC — off the :00 stampede
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Re-scrape into a scratch copy and diff
+        id: diff
+        run: |
+          set -e
+          cp -r src/main/resources/com/gustavguide/data/guides/osiris-ironman /tmp/bundled
+          python tools/scrape_guide.py
+          if diff -r /tmp/bundled src/main/resources/com/gustavguide/data/guides/osiris-ironman > /tmp/drift.txt 2>&1; then
+            echo "drift=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "drift=true" >> "$GITHUB_OUTPUT"
+            head -c 6000 /tmp/drift.txt > /tmp/drift-head.txt
+          fi
+          git checkout -- src/main/resources/com/gustavguide/data/guides/osiris-ironman
+
+      - name: Open or update the drift issue
+        if: steps.diff.outputs.drift == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = 'Weekly scrape-drift check: ironman.guide no longer matches the bundled '
+              + 'osiris-ironman data. Re-scrape locally with `py -3 tools/scrape_guide.py`, run the '
+              + 'gates (`gradlew check` + the risk diff), and ship if clean.\n\n```diff\n'
+              + fs.readFileSync('/tmp/drift-head.txt', 'utf8') + '\n```';
+            const title = 'osiris-ironman has drifted from ironman.guide';
+            const open = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'scrape-drift',
+            });
+            if (open.data.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: open.data[0].number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['scrape-drift'],
+              });
+            }
