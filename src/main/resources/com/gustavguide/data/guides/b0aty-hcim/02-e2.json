@@ -1031,7 +1031,14 @@
       "id": "e2-068",
       "title": "Finish 15 Woodcutting & light all …",
       "text": "Finish 15 Woodcutting & light all the logs",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 15,
+        "cmp": ">="
+      },
+      "note": "Chop regular trees and drop the logs; Woodcutting quests can skip you to 26.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "e2-069",
@@ -1929,7 +1936,14 @@
       "id": "e2-132",
       "title": "AFTER 65 Agility:",
       "text": "AFTER 65 Agility:",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 65,
+        "cmp": ">="
+      },
+      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
       "id": "e2-133",
@@ -8644,7 +8658,14 @@
       "id": "e2-559",
       "title": "Cook all Trout then Salmon while …",
       "text": "Cook all Trout then Salmon while recharging energy (You want 32 Cooking)",
-      "manual": true,
+      "complete": {
+        "op": "skill",
+        "skill": "COOKING",
+        "level": 32,
+        "cmp": ">="
+      },
+      "note": "1-tick cook karambwan (needs Tai Bwo Wannai Trio) at a bankside fire - Rogues' Den, Myths' Guild or Mor Ul Rek; AFK: Hosidius kitchen.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Cooking_training",
       "world": [
         2870,
         3544,

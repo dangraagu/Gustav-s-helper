@@ -91,7 +91,7 @@ tasks.register('pythonToolTests') {
 			logger.lifecycle('pythonToolTests: no Python interpreter found on PATH — skipping')
 			return
 		}
-		def suites = fileTree('tools').matching { include 'test_*.py' }.files.sort { it.name }
+		def suites = fileTree('tools').matching { include 'test_*.py'; include 'check_*.py' }.files.sort { it.name }
 		def failed = []
 		suites.each { suite ->
 			def result = exec {

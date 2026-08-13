@@ -7,7 +7,7 @@ ticks itself at step M -- and everything between folds with it. This is the 259-
 Pure data analysis, no agents: for each guide, walk steps in route order and flag any position
 condition whose tile was already visited by an earlier position condition in the same guide.
 """
-import json, os, glob, collections
+import json, os, glob, sys, collections
 
 BASE = 'src/main/resources/com/gustavguide/data/guides'
 REAL_GATES = {'quest', 'skill', 'item', 'itemBank', 'itemEquipped', 'itemAcquired',
@@ -90,3 +90,26 @@ print()
 for r in rows[:25]:
     print('  %-16s %-24s step#%-5d ticks at %-22s (step#%d)  %s' % (r[0], r[2], r[3], r[4], r[5], r[6]))
     print('  %54s %r' % ('', r[7]))
+
+# ---- lint gate ------------------------------------------------------------------------------
+# These cases are KNOWN and accepted as a product decision (arrival at a town the route revisits
+# 1-5 steps later completes the revisit, which is usually what the player wants). Anything NOT on
+# this list is a new duplicate arrival - the shape that mass-folds a section (the 259-step bug) -
+# and fails the build. To accept a new one deliberately, add its (guide, step_id) here with a note.
+ACCEPTED = {
+    ('b0aty-hcim', 'e1-234'), ('b0aty-hcim', 'e3-098'), ('b0aty-hcim', 'e4-051'),
+    ('b0aty-hcim', 'e4-109'), ('b0aty-hcim', 'e4-309'), ('b0aty-hcim', 'e4-643'),
+    ('b0aty-hcim', 'e11-064'), ('b0aty-hcim', 'e11-077'),
+    ('osiris-ironman', 'eg-144c'),
+}
+new = [(g, sid) for g, _, sid, *_ in rows if (g, sid) not in ACCEPTED]
+if new:
+    print('\nFAIL: %d NEW duplicate arrival(s) not on the accepted list:' % len(new))
+    for g, sid in new:
+        print('   %s / %s' % (g, sid))
+    sys.exit(1)
+fixed = ACCEPTED - {(g, sid) for g, _, sid, *_ in rows}
+if fixed:
+    print('\nNOTE: %d accepted case(s) no longer occur - prune them from ACCEPTED: %s'
+          % (len(fixed), sorted(fixed)))
+print('\nOK: only known-accepted duplicate arrivals present')

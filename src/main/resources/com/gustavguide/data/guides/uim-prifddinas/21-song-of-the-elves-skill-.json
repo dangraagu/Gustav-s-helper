@@ -13,43 +13,92 @@
       "id": "song-of-the-elves-skill--002",
       "title": "70 Farming",
       "text": "70 Farming",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "FARMING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Do tree runs 1-2x/day: plant the best tree/fruit-tree/hardwood saplings you can, check for XP, replant - by far the fastest effective XP.",
+      "wiki": "https://oldschool.runescape.wiki/w/Farming_training"
     },
     {
       "id": "song-of-the-elves-skill--003",
       "title": "70 Herblore",
       "text": "70 Herblore",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "HERBLORE",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Make Super restore (63) -> Ranging (72) -> Saradomin brew (81) -> Super combat (90); amulet of chemistry / goggles cut the cost.",
+      "wiki": "https://oldschool.runescape.wiki/w/Herblore_training"
     },
     {
       "id": "song-of-the-elves-skill--004",
       "title": "70 Construction",
       "text": "70 Construction",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "CONSTRUCTION",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Build mahogany tables then gnome benches in the Dining room with a demon butler - fastest XP but expensive (teak/oak to save gp).",
+      "wiki": "https://oldschool.runescape.wiki/w/Construction_training"
     },
     {
       "id": "song-of-the-elves-skill--005",
       "title": "70 Hunter",
       "text": "70 Hunter",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "HUNTER",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Bird house trapping on Fossil Island (needs Bone Voyage) - passive runs every 50 min, fastest XP to ~80; drift net at 44 if training Fishing.",
+      "wiki": "https://oldschool.runescape.wiki/w/Hunter_training"
     },
     {
       "id": "song-of-the-elves-skill--006",
       "title": "70 Mining",
       "text": "70 Mining",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "MINING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "3-tick mine granite (3t4g) at Bandit Camp Quarry / Cape Conch for fastest XP; no-tick: iron to 70 then Volcanic Mine. AFK: Motherlode Mine.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Mining_training"
     },
     {
       "id": "song-of-the-elves-skill--007",
       "title": "70 Woodcutting",
       "text": "70 Woodcutting",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "song-of-the-elves-skill--008",
       "title": "70 Smithing",
       "text": "70 Smithing",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "SMITHING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Smelt gold bars at the Blast Furnace with goldsmith gauntlets (fastest viable); Giants' Foundry is a good XP + profit alternative.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Smithing_training"
     },
     {
       "id": "song-of-the-elves-skill--009",

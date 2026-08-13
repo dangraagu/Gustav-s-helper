@@ -49,7 +49,14 @@
       "id": "fairy-ring-005",
       "title": "40 thieving",
       "text": "40 thieving",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 40,
+        "cmp": ">="
+      },
+      "note": "Pickpocket the Chambers of Xeric thieving room (bring a lockpick), or steal Aldarin Villas chests (36-45); quests skip to 42.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "fairy-ring-006",

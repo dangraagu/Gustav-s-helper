@@ -67,8 +67,12 @@ SKILL_WORDS = {
 }
 
 # "to/until/reach/get 43 prayer"  and  "prayer to 43"
-SKILL_RE_1 = re.compile(r'\b(?:to|until|reach|get|hit|for)\s+(\d{1,2})\s+([a-zA-Z]+)', re.I)
-SKILL_RE_2 = re.compile(r'\b([a-zA-Z]+)\s+to\s+(\d{1,2})\b', re.I)
+SKILL_RE_1 = re.compile(r'\b(?:to|until|reach|get|hit|for|finish|want)\s+(\d{1,2})\s+([a-zA-Z]+)', re.I)
+SKILL_RE_2 = re.compile(r'\b([a-zA-Z]+)\s+(?:to|until)\s+(\d{1,2})\b', re.I)
+# A whole step that IS a level header — "65 Agility:" / "AFTER 65 Agility" — states the training
+# goal and nothing else, so it may bind. Anchored both ends: a level+skill mention INSIDE a longer
+# instruction ("Boost from 51 Farming using…") is context, not this step's goal, and must not bind.
+SKILL_RE_HEADER = re.compile(r'^\s*(?:after\s+)?(\d{1,2})\s+([a-zA-Z]+)\s*[:.]?\s*$', re.I)
 
 
 USER_AGENT = "GustavGuide-scraper/1.0 (+https://github.com/dangraagu/Gustav-s-helper; build-time content import)"
@@ -121,7 +125,7 @@ def detect_skill(text: str):
     the step on EVERY account and the milestone-fold then wipes every prior flavour step. Require
     level >= 2, and reject "<n> <skill> point/tick/energy" phrasings where the number is a resource
     count rather than a level."""
-    for rx, si, li in ((SKILL_RE_1, 1, 0), (SKILL_RE_2, 0, 1)):
+    for rx, si, li in ((SKILL_RE_1, 1, 0), (SKILL_RE_2, 0, 1), (SKILL_RE_HEADER, 1, 0)):
         for m in rx.finditer(text):
             word = m.group(1 + si).lower()
             level = int(m.group(1 + li))

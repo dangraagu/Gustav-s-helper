@@ -872,7 +872,14 @@
       "id": "e10-057b",
       "title": "train thieving until 71 (Blackjack Bandits …",
       "text": "train thieving until 71 (Blackjack Bandits until 65 then Menaphites to 71)",
-      "manual": true,
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 71,
+        "cmp": ">="
+      },
+      "note": "Blackjack Menaphite Thugs in Pollnivneach (fastest to 84); Pyramid Plunder becomes fastest past 91.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "npc": 3549,
       "world": [
         3347,
@@ -966,7 +973,14 @@
       "id": "e10-064",
       "title": "If you spoon it, finish 72 …",
       "text": "If you spoon it, finish 72 Thieving off at either Menaphites or Pyramid Plunder (Looting Room 5 & 6 fully)",
-      "manual": true,
+      "complete": {
+        "op": "skill",
+        "skill": "THIEVING",
+        "level": 72,
+        "cmp": ">="
+      },
+      "note": "Blackjack Menaphite Thugs in Pollnivneach (fastest to 84); Pyramid Plunder becomes fastest past 91.",
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
       "npc": 3549,
       "world": [
         3347,
