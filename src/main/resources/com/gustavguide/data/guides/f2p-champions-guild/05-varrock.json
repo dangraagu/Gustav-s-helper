@@ -1,0 +1,428 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Varrock",
+  "steps": [
+    {
+      "id": "varrock-001",
+      "title": "Go through every dialogue option with …",
+      "text": "Go through every dialogue option with Death, then leave",
+      "manual": true
+    },
+    {
+      "id": "varrock-002",
+      "title": "Run west out of Lumbridge castle …",
+      "text": "Run west out of Lumbridge castle to Draynor jail",
+      "manual": true,
+      "object": 14880,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "varrock-003",
+      "title": "Talk to Lady Keli to get …",
+      "text": "Talk to Lady Keli to get the key print",
+      "manual": true,
+      "npc": 11578,
+      "world": [
+        3127,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "varrock-004",
+      "title": "File:Chronicle.png Chronicle teleport",
+      "text": "File:Chronicle.png Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "varrock-005",
+      "title": "Run east through the Dark wizards …",
+      "text": "Run east through the Dark wizards to the berry bushes",
+      "manual": true
+    },
+    {
+      "id": "varrock-006",
+      "title": "Pick a File:Cadava_berries.png cadava berry and …",
+      "text": "Pick a File:Cadava_berries.png cadava berry and File:Redberries.png 4 Redberries",
+      "manual": true
+    },
+    {
+      "id": "varrock-007",
+      "title": "File:Chronicle.png Chronicle teleport",
+      "text": "File:Chronicle.png Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "varrock-008",
+      "title": "File:Death%27s_Office_icon.png Reclaim your gravestone, pick up …",
+      "text": "File:Death%27s_Office_icon.png Reclaim your gravestone, pick up the File:Bones.png Bones that appeared when you died. If you skip this, your ores will end up in death's office",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 526,
+            "qty": 27
+          },
+          {
+            "op": "item",
+            "id": 526,
+            "qty": 53,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 526
+    },
+    {
+      "id": "varrock-009",
+      "title": "File:Skull_(status)_icon.png Die to a Dark wizard …",
+      "text": "File:Skull_(status)_icon.png Die to a Dark wizard (We do this to restore our run energy)",
+      "manual": true,
+      "npc": 7753,
+      "world": [
+        2455,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "varrock-010",
+      "title": "File:Chronicle.png Chronicle teleport",
+      "text": "File:Chronicle.png Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "varrock-011",
+      "title": "File:Death%27s_Office_icon.png Reclaim your gravestone again",
+      "text": "File:Death%27s_Office_icon.png Reclaim your gravestone again",
+      "manual": true
+    },
+    {
+      "id": "varrock-012",
+      "title": "Go to the Blue Moon Inn",
+      "text": "Go to the Blue Moon Inn",
+      "manual": true
+    },
+    {
+      "id": "varrock-013",
+      "title": "Talk to the bartender to buy …",
+      "text": "Talk to the bartender to buy File:Beer.png beer",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1917,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1917,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1917,
+      "npc": 14660,
+      "world": [
+        1391,
+        3354,
+        0
+      ]
+    },
+    {
+      "id": "varrock-014a",
+      "title": "Go upstairs",
+      "text": "Go upstairs",
+      "manual": true
+    },
+    {
+      "id": "varrock-014b",
+      "title": "open the chest at the end …",
+      "text": "open the chest at the end of the hall",
+      "manual": true,
+      "world": [
+        1391,
+        3354,
+        0
+      ]
+    },
+    {
+      "id": "varrock-015",
+      "title": "Read the File:Pirate_message.png message message and …",
+      "text": "Read the File:Pirate_message.png message message and File:Tap-to-drop_mode.png drop it",
+      "manual": true,
+      "world": [
+        1391,
+        3354,
+        0
+      ]
+    },
+    {
+      "id": "varrock-016",
+      "title": "Go back downstairs",
+      "text": "Go back downstairs",
+      "manual": true,
+      "world": [
+        1391,
+        3354,
+        0
+      ]
+    },
+    {
+      "id": "varrock-017",
+      "title": "Talk to Dr. Harlow",
+      "text": "Talk to Dr. Harlow",
+      "manual": true,
+      "npc": 3480,
+      "world": [
+        3222,
+        3399,
+        0
+      ]
+    },
+    {
+      "id": "varrock-018a",
+      "title": "Talk to Dr. Harlow again to …",
+      "text": "Talk to Dr. Harlow again to give the beer",
+      "manual": true,
+      "npc": 3480,
+      "world": [
+        3222,
+        3399,
+        0
+      ]
+    },
+    {
+      "id": "varrock-018b",
+      "title": "get the stake",
+      "text": "get the stake",
+      "manual": true,
+      "world": [
+        3222,
+        3399,
+        0
+      ]
+    },
+    {
+      "id": "varrock-019",
+      "title": "Go to Thesselia's Fine Clothes — …",
+      "text": "Go to Thesselia's Fine Clothes — Buy: File:Pink_skirt.png Pink skirt",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1013,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1013,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1013,
+      "world": [
+        3207,
+        3415,
+        0
+      ]
+    },
+    {
+      "id": "varrock-020",
+      "title": "Talk to Aris. — Screenshot the …",
+      "text": "Talk to Aris. — Screenshot the Delrith incantaction in the cutscene. Do NOT accidentally click a floor tile. You WILL have to restart this and the previous step",
+      "manual": true,
+      "npc": 5079,
+      "world": [
+        3227,
+        3370,
+        0
+      ]
+    },
+    {
+      "id": "varrock-021",
+      "title": "(Optional) Go to Zaff's Staffs. (if …",
+      "text": "(Optional) Go to Zaff's Staffs. (if money doesn't work out after this, sell some runes to the general store) — Buy: File:Staff.png Staff",
+      "manual": true,
+      "npc": 2880,
+      "world": [
+        3202,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "varrock-022",
+      "title": "Talk to Romeo until he takes …",
+      "text": "Talk to Romeo until he takes the letter",
+      "manual": true,
+      "npc": 5037,
+      "world": [
+        3211,
+        3422,
+        0
+      ]
+    },
+    {
+      "id": "varrock-023",
+      "title": "Go to Horvik's Armour shop. — …",
+      "text": "Go to Horvik's Armour shop. — Buy: File:Iron_chainbody.png Iron chainbody",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1067,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1067,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1067,
+      "npc": 2882,
+      "world": [
+        3229,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "varrock-024",
+      "title": "Go to Varrock Castle",
+      "text": "Go to Varrock Castle",
+      "manual": true,
+      "object": 11793,
+      "world": [
+        3203,
+        3498,
+        2
+      ]
+    },
+    {
+      "id": "varrock-025",
+      "title": "Fill up your File:Bucket_of_water.png bucket with …",
+      "text": "Fill up your File:Bucket_of_water.png bucket with water from the castle's fountain",
+      "manual": true,
+      "world": [
+        3203,
+        3498,
+        2
+      ]
+    },
+    {
+      "id": "varrock-026",
+      "title": "Talk to Sir Prysin",
+      "text": "Talk to Sir Prysin",
+      "manual": true,
+      "npc": 5083,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "varrock-027",
+      "title": "Talk to Captain Rovin on the …",
+      "text": "Talk to Captain Rovin on the of the castle's north-west corner",
+      "manual": true,
+      "npc": 5085,
+      "world": [
+        3205,
+        3498,
+        2
+      ]
+    },
+    {
+      "id": "varrock-028",
+      "title": "Go to the castle kitchen and …",
+      "text": "Go to the castle kitchen and pour water down the drain outside",
+      "manual": true
+    },
+    {
+      "id": "varrock-029",
+      "title": "Refill your File:Bucket_of_water.png bucket at the …",
+      "text": "Refill your File:Bucket_of_water.png bucket at the castle's fountain",
+      "manual": true
+    },
+    {
+      "id": "varrock-030",
+      "title": "Go to Varrock's north-east church",
+      "text": "Go to Varrock's north-east church",
+      "world": [
+        3208,
+        3494,
+        1
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3208,
+        "y": 3494,
+        "z": 1,
+        "radius": 8
+      }
+    },
+    {
+      "id": "varrock-031",
+      "title": "Talk to Father Lawrence",
+      "text": "Talk to Father Lawrence",
+      "manual": true,
+      "npc": 5038,
+      "world": [
+        3254,
+        3483,
+        0
+      ]
+    },
+    {
+      "id": "varrock-032a",
+      "title": "Enter the sewers",
+      "text": "Enter the sewers",
+      "manual": true,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "varrock-032b",
+      "title": "grab the File:Silverlight_key_(Sir_Prysin).png second key from …",
+      "text": "grab the File:Silverlight_key_(Sir_Prysin).png second key from the west path",
+      "manual": true,
+      "npc": 5083,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "varrock-033",
+      "title": "File:Minigame_icon.png Minigame teleport to Clan wars, …",
+      "text": "File:Minigame_icon.png Minigame teleport to Clan wars, taking you to Ferox Enclave",
+      "manual": true,
+      "world": [
+        3137,
+        3623,
+        0
+      ]
+    }
+  ]
+}

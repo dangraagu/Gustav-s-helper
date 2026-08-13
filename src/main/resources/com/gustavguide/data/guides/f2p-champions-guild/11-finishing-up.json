@@ -1,0 +1,145 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Finishing up",
+  "steps": [
+    {
+      "id": "finishing-up-001",
+      "title": "File:Chronicle.png Chronicle teleport",
+      "text": "File:Chronicle.png Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-002",
+      "title": "Talk to the apothecary to get …",
+      "text": "Talk to the apothecary to get the File:Cadava_potion.png Cadava potion",
+      "manual": true,
+      "npc": 5036,
+      "world": [
+        3195,
+        3404,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-003",
+      "title": "Talk to Juliet and watch the …",
+      "text": "Talk to Juliet and watch the cutscene",
+      "manual": true,
+      "npc": 5035,
+      "world": [
+        3158,
+        3427,
+        1
+      ]
+    },
+    {
+      "id": "finishing-up-004",
+      "title": "File:Bank_icon.png Bank at Varrock west bank. …",
+      "text": "File:Bank_icon.png Bank at Varrock west bank. — Withdraw: All keys, all runes, wine (optional). — {{Inventory |Chronicle |Silverlight key (Wizard Traiborn) |Silverlight key (Captain Rovin) |Silverlight key (Sir Prysin) |Water rune\\40 |Mind rune\\15 |Air rune\\25 | |Jug of wine |Jug of wine | | | | | | | | | | | | | | | | | | }}",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 26
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 26,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "npc": 5081,
+      "world": [
+        3114,
+        3163,
+        1
+      ]
+    },
+    {
+      "id": "finishing-up-005a",
+      "title": "Talk to Romeo to watch the …",
+      "text": "Talk to Romeo to watch the cutscene",
+      "manual": true,
+      "npc": 5037,
+      "world": [
+        3211,
+        3422,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-005b",
+      "title": "complete Romeo & Juliet",
+      "text": "complete Romeo & Juliet",
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
+      "world": [
+        3211,
+        3422,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-006",
+      "title": "Talk to Sir Prysin to get …",
+      "text": "Talk to Sir Prysin to get the Silverlight. — File:Chronicle.png Chronicle teleport as soon as the sword is automatically equipped",
+      "manual": true,
+      "npc": 5083,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-007",
+      "title": "Go into the Wizards' circle and …",
+      "text": "Go into the Wizards' circle and beat Delrith. — Enter from the south and stay behind the middle southern pillar. — Manually cast Water Strike on Delrith with Silverlight equipped. — Always step back behind the pillar after casting so the Dark wizards do not attack you. — If a Dark wizard is attacking you, walk a few tiles away from the pillar to exit the cutscene and re-enter.",
+      "manual": true,
+      "npc": 5083,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-008",
+      "title": "Enter the incantation",
+      "text": "Enter the incantation",
+      "manual": true,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-009",
+      "title": "File:Chronicle.png Chronicle teleport",
+      "text": "File:Chronicle.png Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "finishing-up-010",
+      "title": "Enter the Champions' Guild to complete …",
+      "text": "Enter the Champions' Guild to complete the run!",
+      "manual": true,
+      "object": 1805,
+      "world": [
+        3191,
+        3363,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Start",
+  "steps": [
+    {
+      "id": "start-001",
+      "title": "Navigate to the Create Your Account …",
+      "text": "Navigate to the Create Your Account page (Jagex launcher → hover over username → Account)",
+      "manual": true
+    },
+    {
+      "id": "start-002",
+      "title": "Enter an actual email address for …",
+      "text": "Enter an actual email address for your login name. You do need to verify your email. — An easy way to do this for multiple accounts while using only one gmail account is to put a +# somewhere in the address. — Any email of the format +@gmail.com will send the email to @gmail.com — So if your email is cow1337killer@gmail.com, you can create an account with the name cow1337killer+1@gmail.com or cow1337killer+A@gmail.com and the confirmation email will arrive at your cow1337killer@gmail.com inbox.",
+      "manual": true
+    },
+    {
+      "id": "start-003",
+      "title": "Fill out the rest of your …",
+      "text": "Fill out the rest of your account details and press Play Now",
+      "manual": true
+    },
+    {
+      "id": "start-004",
+      "title": "Wait for the verification email to …",
+      "text": "Wait for the verification email to arrive, then click to verify your email. Do this before logging in to the website",
+      "manual": true
+    },
+    {
+      "id": "start-005",
+      "title": "Click 'Account' on runescape.com or 'Account …",
+      "text": "Click 'Account' on runescape.com or 'Account Settings' on oldschool.runescape.com and log in to the new account",
+      "manual": true
+    },
+    {
+      "id": "start-006",
+      "title": "Set a display name first",
+      "text": "Set a display name first",
+      "manual": true
+    },
+    {
+      "id": "start-007",
+      "title": "Set up your Authenticator by scanning …",
+      "text": "Set up your Authenticator by scanning the code with an authenticator app and entering the code it gives you on the website. For speedrunning, the following Chrome Web Extension is recommended.",
+      "manual": true
+    },
+    {
+      "id": "start-008",
+      "title": "Log in to the Oldschool Runescape …",
+      "text": "Log in to the Oldschool Runescape client, enter your authentication code. Press \"remember me for 30 days\" and you will not have to type it again",
+      "manual": true
+    },
+    {
+      "id": "start-009",
+      "title": "Timer starts when you press accept …",
+      "text": "Timer starts when you press accept on the character creation screen",
+      "manual": true
+    }
+  ]
+}

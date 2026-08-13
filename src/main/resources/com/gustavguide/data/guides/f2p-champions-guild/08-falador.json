@@ -1,0 +1,183 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Falador",
+  "steps": [
+    {
+      "id": "falador-001",
+      "title": "Run to Death's Domain to collect …",
+      "text": "Run to Death's Domain to collect your lost items for free",
+      "manual": true
+    },
+    {
+      "id": "falador-002",
+      "title": "Exit Death's Domain and spin your …",
+      "text": "Exit Death's Domain and spin your wool upstairs in Lumbridge castle",
+      "manual": true,
+      "object": 14880,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "falador-003a",
+      "title": "Go to the cook",
+      "text": "Go to the cook",
+      "world": [
+        3212,
+        3215,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3212,
+        "y": 3215,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "falador-003b",
+      "title": "complete Cook's Assistant",
+      "text": "complete Cook's Assistant",
+      "complete": {
+        "op": "quest",
+        "quest": "COOKS_ASSISTANT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "falador-004",
+      "title": "Run to Draynor bank — Deposit …",
+      "text": "Run to Draynor bank — Deposit all — Withdraw 20 coins, spade — {{Inventory |Coins\\20 |Spade | | | | | | | | | | | | | | | | | | | | | | | | | | }}",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 952,
+            "qty": 20
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 20,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 952,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "falador-005",
+      "title": "File:Spade.png Dig in the centre of …",
+      "text": "File:Spade.png Dig in the centre of the park to spawn the gardener for Pirate's Treasure",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "falador-006",
+      "title": "Talk to Wyson to buy File:Woad_leaf_2.png …",
+      "text": "Talk to Wyson to buy File:Woad_leaf_2.png 2 woad leaves",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1793,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1793,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1793,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "falador-007",
+      "title": "File:Spade.png Dig in the centre of …",
+      "text": "File:Spade.png Dig in the centre of the park again to complete Pirate's Treasure",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "falador-008",
+      "title": "Go to Falador castle. — File:Tap-to-drop_mode.png …",
+      "text": "Go to Falador castle. — File:Tap-to-drop_mode.png Drop File:Spade.png Spade and the File:Casket (Pirate's Treasure).png Casket",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "falador-009",
+      "title": "Talk to Sir Amik Varze on …",
+      "text": "Talk to Sir Amik Varze on the of the eastern staircase in the castle",
+      "manual": true,
+      "npc": 4771,
+      "world": [
+        2959,
+        3339,
+        2
+      ]
+    },
+    {
+      "id": "falador-010",
+      "title": "File:Skull_(status)_icon.png Die to the two knights …",
+      "text": "File:Skull_(status)_icon.png Die to the two knights on the top floor of the castle. — File:Tap-to-drop_mode.png Destroy File:Dossier (Black Knights' Fortress).png Dossier",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    }
+  ]
+}

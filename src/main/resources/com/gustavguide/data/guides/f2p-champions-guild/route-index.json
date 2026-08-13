@@ -1,0 +1,16 @@
+{
+  "_comment": "Auto-generated from raw/f2p-champions-guild.json by build_raw_guide.py",
+  "sections": [
+    "01-start.json",
+    "02-tutorial-island.json",
+    "03-lumbridge.json",
+    "04-port-sarim.json",
+    "05-varrock.json",
+    "06-ferox-enclave.json",
+    "07-draynor-manor.json",
+    "08-falador.json",
+    "09-draynor-village.json",
+    "10-black-knights-fortress.json",
+    "11-finishing-up.json"
+  ]
+}

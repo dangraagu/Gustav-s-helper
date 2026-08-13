@@ -1,0 +1,103 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Tutorial Island",
+  "steps": [
+    {
+      "id": "tutorial-island-001",
+      "title": "Talk to the RuneScape Guide",
+      "text": "Talk to the RuneScape Guide",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-002",
+      "title": "Click the settings panel",
+      "text": "Click the settings panel",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-003",
+      "title": "Talk to the RuneScape Guide again",
+      "text": "Talk to the RuneScape Guide again",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-004",
+      "title": "Click the door to exit the …",
+      "text": "Click the door to exit the starting building",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-005",
+      "title": "Complete the Survival Expert segment",
+      "text": "Complete the Survival Expert segment",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-006",
+      "title": "As you have time running around, …",
+      "text": "As you have time running around, enable shift click drop (if necessary)",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-007",
+      "title": "Drop your items as you go …",
+      "text": "Drop your items as you go to maintain as much stamina as possible",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-008",
+      "title": "Finish the cooking, quest, and mining …",
+      "text": "Finish the cooking, quest, and mining guide segments",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-009",
+      "title": "Complete the combat guide segment, using …",
+      "text": "Complete the combat guide segment, using rapid for ranged",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-010",
+      "title": "Complete the bank segment",
+      "text": "Complete the bank segment",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-011",
+      "title": "Skip the poll booth segment by: …",
+      "text": "Skip the poll booth segment by: — Clicking the poll both, keeping a \"Open Door\" prompt open. — Clicking that prompt when the camera view changes",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-012",
+      "title": "Complete the account and prayer guide …",
+      "text": "Complete the account and prayer guide segment",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-013",
+      "title": "Become an Ironman by talking to …",
+      "text": "Become an Ironman by talking to Paul. — Select the \"Standard Iron Man\" option, and setup bank pin now. — You will need to enter a bank pin twice here, and the pin cannot be too simple or it will be rejected (however, something like 1212 works).",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-014",
+      "title": "Finish the magic guide segment",
+      "text": "Finish the magic guide segment",
+      "manual": true
+    },
+    {
+      "id": "tutorial-island-015",
+      "title": "File:Lumbridge_Teleport.png Teleport off of Tutorial Island",
+      "text": "File:Lumbridge_Teleport.png Teleport off of Tutorial Island",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    }
+  ]
+}

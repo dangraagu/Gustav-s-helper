@@ -1,0 +1,251 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Draynor Village",
+  "steps": [
+    {
+      "id": "draynor-village-001a",
+      "title": "Open the casket",
+      "text": "Open the casket",
+      "manual": true
+    },
+    {
+      "id": "draynor-village-001b",
+      "title": "drop the emerald and the ring",
+      "text": "drop the emerald and the ring",
+      "manual": true
+    },
+    {
+      "id": "draynor-village-002",
+      "title": "Run to Draynor bank",
+      "text": "Run to Draynor bank",
+      "world": [
+        3093,
+        3244,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3093,
+        "y": 3244,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "draynor-village-003",
+      "title": "File:Bank_icon.png [Bank] Bucket of water, 3 …",
+      "text": "File:Bank_icon.png [Bank] Bucket of water, 3 Beers, 4 Onions, Pot of flour, 4 Redberries, 3 Balls of wool, Pink skirt, Ashes. — {{Inventory |Woad leaf\\2 |Coins\\450 | | |Bucket of water |Pot of flour |Ashes |Pink skirt |Beer |Beer |Beer | |Ball of wool |Ball of wool |Ball of wool | |Redberries |Redberries |Redberries |Redberries |Onion |Onion |Onion |Onion |Bronze key (Prince Ali Rescue) | | | }}",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-004",
+      "title": "Talk to Ned to make a …",
+      "text": "Talk to Ned to make a wig. — Buy: File:Rope.png Rope from Ned",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 954,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 954,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 954,
+      "world": [
+        3099,
+        3259,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-005",
+      "title": "Use your onions, redberries, and woad …",
+      "text": "Use your onions, redberries, and woad leaves on Aggie to make 4 dyes",
+      "manual": true,
+      "npc": 4284,
+      "world": [
+        3086,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-006",
+      "title": "Use your yellow and red dyes …",
+      "text": "Use your yellow and red dyes on each other to make File:Orange_dye.png orange dye",
+      "manual": true,
+      "world": [
+        3086,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-007",
+      "title": "Talk to Aggie to make File:Paste.png …",
+      "text": "Talk to Aggie to make File:Paste.png skin paste",
+      "manual": true,
+      "npc": 4284,
+      "world": [
+        3086,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-008",
+      "title": "Dye the File:Wig_(dyed).png wig yellow",
+      "text": "Dye the File:Wig_(dyed).png wig yellow",
+      "manual": true
+    },
+    {
+      "id": "draynor-village-009",
+      "title": "Talk to Leela",
+      "text": "Talk to Leela",
+      "manual": true,
+      "npc": 4274,
+      "world": [
+        3113,
+        3262,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-010",
+      "title": "Use a File:Beer.png Beer on Joe …",
+      "text": "Use a File:Beer.png Beer on Joe in Draynor Jail",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-011",
+      "title": "Use the File:Rope.png Rope on Lady …",
+      "text": "Use the File:Rope.png Rope on Lady Keli",
+      "manual": true,
+      "npc": 11578,
+      "world": [
+        3127,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-012",
+      "title": "Talk to Prince Ali",
+      "text": "Talk to Prince Ali",
+      "manual": true,
+      "npc": 11579,
+      "world": [
+        3123,
+        3240,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-013",
+      "title": "File:Bank_icon.png Go to Draynor bank. — …",
+      "text": "File:Bank_icon.png Go to Draynor bank. — Deposit: all. — Withdraw: 25 File:Bones.png Bones. — {{Inventory | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | | | }}",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 526,
+            "qty": 53
+          },
+          {
+            "op": "item",
+            "id": 526,
+            "qty": 53,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 526,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "draynor-village-014",
+      "title": "Go to the Wizards' Tower's",
+      "text": "Go to the Wizards' Tower's",
+      "world": [
+        3109,
+        3160,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3109,
+        "y": 3160,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "draynor-village-015",
+      "title": "Talk to Traiborn about the DS …",
+      "text": "Talk to Traiborn about the DS key",
+      "manual": true,
+      "npc": 5081,
+      "world": [
+        3114,
+        3163,
+        1
+      ]
+    },
+    {
+      "id": "draynor-village-016a",
+      "title": "Talk to Traiborn again to give …",
+      "text": "Talk to Traiborn again to give him the bones",
+      "manual": true,
+      "npc": 5081,
+      "world": [
+        3114,
+        3163,
+        1
+      ]
+    },
+    {
+      "id": "draynor-village-016b",
+      "title": "get the key",
+      "text": "get the key",
+      "manual": true,
+      "world": [
+        3114,
+        3163,
+        1
+      ]
+    },
+    {
+      "id": "draynor-village-017",
+      "title": "File:Skull_(status)_icon.png Die to a Wizard",
+      "text": "File:Skull_(status)_icon.png Die to a Wizard",
+      "manual": true
+    }
+  ]
+}

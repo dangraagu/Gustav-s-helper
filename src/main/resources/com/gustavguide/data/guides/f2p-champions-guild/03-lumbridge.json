@@ -1,0 +1,160 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Lumbridge",
+  "steps": [
+    {
+      "id": "lumbridge-001",
+      "title": "Walk to the Lumbridge general store. …",
+      "text": "Walk to the Lumbridge general store. — On the way, drop File:Bronze_axe.png axe, File:Tinderbox.png tinderbox, File:Small_fishing_net.png net, File:Shrimps.png shrimps, File:Bread.png bread, File:Pot.png pot, File:Bronze_arrow_5.png arrows, File:Earth_rune.png earth runes, File:Body_rune.png body runes. — Type ::toggleroofs into the chat box to toggle roofs (if necessary). — Sell: File:Bronze_dagger.png Dagger, File:Bronze_sword.png Sword, File:Wooden_shield.png Shield, File:Shortbow.png Bow — Buy: File:Spade.png Spade — {{Inventory |Coins\\39 |Spade | | |Bronze pickaxe | | | | | |Air rune\\25 |Mind rune\\15 |Bucket | | |Water rune\\6 | | | | | | | | | | | | }}",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1931,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1931,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1931,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-002",
+      "title": "Run to Veos in The Sheared …",
+      "text": "Run to Veos in The Sheared Ram to start X Marks the Spot",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3229,
+        3239,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-003",
+      "title": "Pass through the Gate into Al …",
+      "text": "Pass through the Gate into Al Kharid, run to Chancellor Hassan to start Prince Ali Rescue",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3298,
+        3163,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-004at",
+      "title": "Run out of the palace, talk …",
+      "text": "Run out of the palace, talk to Osman",
+      "manual": true,
+      "npc": 4286,
+      "world": [
+        3286,
+        3180,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-005",
+      "title": "File:Spade.png Dig north of the house …",
+      "text": "File:Spade.png Dig north of the house connected to Bob's Axes for X Marks the Spot (north of the west window)",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-006",
+      "title": "File:Transportation_icon.png Talk to Count Check in …",
+      "text": "File:Transportation_icon.png Talk to Count Check in the graveyard to teleport to the Stronghold of Security",
+      "manual": true,
+      "npc": 7414,
+      "world": [
+        3238,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-007",
+      "title": "Enter the Stronghold of Security, complete …",
+      "text": "Enter the Stronghold of Security, complete only the first level, and claim the 2000 Coins. — Take the far north path. — The questions are randomized, but if you spam click the doors you will eventually get no question and be allowed straight through. — If you cannot claim the 2000 Coins, reread the top of this guide for info on how to enable Authenticator.",
+      "manual": true,
+      "object": 20790,
+      "world": [
+        3081,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-008",
+      "title": "File:Bank_icon.png Deposit all items except for …",
+      "text": "File:Bank_icon.png Deposit all items except for your spade at the Varrock west bank deposit box",
+      "manual": true,
+      "world": [
+        3185,
+        3440,
+        0
+      ]
+    },
+    {
+      "id": "lumbridge-009",
+      "title": "Talk to Romeo to start Romeo …",
+      "text": "Talk to Romeo to start Romeo & Juliet",
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 5035,
+      "world": [
+        3158,
+        3427,
+        1
+      ]
+    },
+    {
+      "id": "lumbridge-010",
+      "title": "Talk to Juliet upstairs after running …",
+      "text": "Talk to Juliet upstairs after running west",
+      "manual": true,
+      "npc": 5035,
+      "world": [
+        3158,
+        3427,
+        1
+      ]
+    },
+    {
+      "id": "lumbridge-011",
+      "title": "File:Skull_(status)_icon.png Die to a Guard",
+      "text": "File:Skull_(status)_icon.png Die to a Guard",
+      "manual": true
+    }
+  ]
+}

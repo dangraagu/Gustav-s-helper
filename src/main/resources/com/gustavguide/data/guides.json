@@ -70,6 +70,11 @@
       "id": "max-blood-rc-alt",
       "name": "heboxjonge - Blood-RC Alt",
       "description": "heboxjonge's blood-rune-crafting alt route (community Google Sheets guide)."
+    },
+    {
+      "id": "f2p-champions-guild",
+      "name": "F2P Champions' Guild Ironman (Speedrun)",
+      "description": "Free-to-play ironman speedrun to the Champions' Guild (OSRS Wiki, CC BY-NC-SA)."
     }
   ]
 }

@@ -1,0 +1,373 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Draynor Manor",
+  "steps": [
+    {
+      "id": "draynor-manor-001",
+      "title": "Go to the Lumbridge general store. …",
+      "text": "Go to the Lumbridge general store. — Buy File:Bucket.png Bucket, File:Shears.png Shears, File:Hammer.png Hammer, File:Tinderbox.png Tinderbox — If you do not have the 5gp to afford this, sell a few runes. — You can drop the remaining few coins.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1735,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1735,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1735,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-002",
+      "title": "Smelt twice at the Lumbridge furnace. …",
+      "text": "Smelt twice at the Lumbridge furnace. — File:Bronze_bar.png Bronze bar — File:Bronze key (Prince Ali Rescue).png Bronze key",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-003",
+      "title": "Shear 3 sheep for 3 File:Wool.png …",
+      "text": "Shear 3 sheep for 3 File:Wool.png Wool. — File:Tap-to-drop_mode.png Drop File:Shears.png shears",
+      "manual": true
+    },
+    {
+      "id": "draynor-manor-004",
+      "title": "Exit by climbing over the stile",
+      "text": "Exit by climbing over the stile",
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-005a",
+      "title": "Run west into the pen",
+      "text": "Run west into the pen",
+      "manual": true
+    },
+    {
+      "id": "draynor-manor-005b",
+      "title": "grab an File:Egg.png egg",
+      "text": "grab an File:Egg.png egg",
+      "manual": true,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-006",
+      "title": "Run north into the cow pen …",
+      "text": "Run north into the cow pen and milk a File:Bucket_of_milk.png Dairy cow",
+      "manual": true
+    },
+    {
+      "id": "draynor-manor-007",
+      "title": "Start Ernest the Chicken by talking …",
+      "text": "Start Ernest the Chicken by talking to Veronica",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-008",
+      "title": "Enter the manor",
+      "text": "Enter the manor",
+      "manual": true,
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-009",
+      "title": "Pick up the File:Fish_food.png fish food …",
+      "text": "Pick up the File:Fish_food.png fish food from the",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 272,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 272,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 272,
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-010",
+      "title": "Pick up the File:Poison_(item).png poison from …",
+      "text": "Pick up the File:Poison_(item).png poison from the kitchen",
+      "manual": true,
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-011",
+      "title": "Combine fish food and poison",
+      "text": "Combine fish food and poison",
+      "manual": true
+    },
+    {
+      "id": "draynor-manor-012",
+      "title": "Go to the basement and File:Tinderbox.png …",
+      "text": "Go to the basement and File:Tinderbox.png light your logs to let them burn while you do the lever puzzle to get File:Ashes.png Ashes",
+      "manual": true,
+      "object": 26761,
+      "world": [
+        3090,
+        3475,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-013",
+      "title": "Complete the basement level puzzle to …",
+      "text": "Complete the basement level puzzle to get the oil can. [BA, D, BA, FE, C, E]",
+      "manual": true
+    },
+    {
+      "id": "draynor-manor-014",
+      "title": "Don't forget to pick up your …",
+      "text": "Don't forget to pick up your File:Ashes.png ashes as soon as your fire goes out",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 592,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 592,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 592
+    },
+    {
+      "id": "draynor-manor-015",
+      "title": "Use the eastern manor stairs",
+      "text": "Use the eastern manor stairs",
+      "manual": true,
+      "world": [
+        3090,
+        3475,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-016",
+      "title": "Kill Count Draynor",
+      "text": "Kill Count Draynor",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-017",
+      "title": "Safespot him by: — Going south, …",
+      "text": "Safespot him by: — Going south, to the tile east of the skeleton on the southern wall. — Going one tile north to step under him — If he paths south, walk one tile west for the safespot, otherwise repeat.",
+      "manual": true
+    },
+    {
+      "id": "draynor-manor-018",
+      "title": "Maximising damage on Count Draynor: with …",
+      "text": "Maximising damage on Count Draynor: with garlic in inventory, your first attack will deal 10 additional damage and lower his stats. The count also has a 6x health regen rate. — The garlic effect only triggers on punches or auto-casts, and will not trigger if only manual casting in the safespot. It also only deals the 10 damage if the Count is at full health. — A consistent way to work with this is to turn off auto-retaliate before the fight, use the staff to autocast and start attacking only after the safespot is set up completely. — Otherwise, punch draynor once immediately and make sure not to drop any ticks manual casting while setting up the safespot, only healing if absolutely necessary.",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-019",
+      "title": "Pick up a File:Spade.png spade and …",
+      "text": "Pick up a File:Spade.png spade and a File:Bronze_med_helm.png bronze med helm by the manor back door",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1139,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1139,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1139,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-020",
+      "title": "Exit the mansion, head around the …",
+      "text": "Exit the mansion, head around the north side. — File:Tap-to-drop_mode.png Drop File:Hammer.png hammer, File:Garlic.png garlic, File:Empty_jug.png wine/jug",
+      "manual": true,
+      "world": [
+        3103,
+        3265,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-021",
+      "title": "Get the File:Key_(Ernest_the_Chicken).png key from the …",
+      "text": "Get the File:Key_(Ernest_the_Chicken).png key from the compost pile to the west of the manor",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-022a",
+      "title": "Use the poisoned fish food on …",
+      "text": "Use the poisoned fish food on the fountain",
+      "manual": true,
+      "object": 153,
+      "world": [
+        3088,
+        3335,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-022b",
+      "title": "get the File:Pressure_gauge.png pressure gauge from …",
+      "text": "get the File:Pressure_gauge.png pressure gauge from it",
+      "manual": true,
+      "world": [
+        3088,
+        3335,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-023",
+      "title": "Re-enter the mansion through the front …",
+      "text": "Re-enter the mansion through the front door",
+      "manual": true
+    },
+    {
+      "id": "draynor-manor-024",
+      "title": "Pick up the File:Rubber_tube.png tube from …",
+      "text": "Pick up the File:Rubber_tube.png tube from the locked skeleton room behind the stairs",
+      "manual": true,
+      "world": [
+        3088,
+        3335,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-025",
+      "title": "Talk to Professor Oddenstein on the",
+      "text": "Talk to Professor Oddenstein on the",
+      "manual": true,
+      "npc": 3562,
+      "world": [
+        3116,
+        3364,
+        2
+      ]
+    },
+    {
+      "id": "draynor-manor-026",
+      "title": "Talk to him again to finish …",
+      "text": "Talk to him again to finish Ernest the Chicken",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    },
+    {
+      "id": "draynor-manor-027",
+      "title": "File:Skull_(status)_icon.png Go back downstairs and die …",
+      "text": "File:Skull_(status)_icon.png Go back downstairs and die to the skeleton in the locked room. — File:Tap-to-drop_mode.png Drop the File:Key_(Ernest_the_Chicken).png key to the room",
+      "complete": {
+        "op": "quest",
+        "quest": "ERNEST_THE_CHICKEN",
+        "state": "FINISHED"
+      },
+      "world": [
+        3109,
+        3329,
+        0
+      ]
+    }
+  ]
+}

@@ -24,7 +24,8 @@ public enum Guide
 	MAX_RUNE_DRAGON_DS2_ALT("max-rune-dragon-ds2-alt", "heboxjonge - Rune Dragon / DS2 Alt"),
 	MAX_VYREWATCH_ALT("max-vyrewatch-alt", "heboxjonge - Vyrewatch Alt"),
 	MAX_SPEC_TRANSFER_ALT("max-spec-transfer-alt", "heboxjonge - Spec-Transfer Alt"),
-	MAX_BLOOD_RC_ALT("max-blood-rc-alt", "heboxjonge - Blood-RC Alt");
+	MAX_BLOOD_RC_ALT("max-blood-rc-alt", "heboxjonge - Blood-RC Alt"),
+	F2P_CHAMPIONS_GUILD("f2p-champions-guild", "F2P Champions' Guild Ironman (Speedrun)");
 
 	private final String id;
 	private final String displayName;

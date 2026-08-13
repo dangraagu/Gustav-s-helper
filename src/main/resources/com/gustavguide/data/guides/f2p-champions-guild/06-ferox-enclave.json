@@ -1,0 +1,152 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Ferox Enclave",
+  "steps": [
+    {
+      "id": "ferox-enclave-001",
+      "title": "File:Bank_icon.png Deposit all items at the …",
+      "text": "File:Bank_icon.png Deposit all items at the Banker (Ferox Enclave)",
+      "manual": true,
+      "world": [
+        3130,
+        3629,
+        0
+      ]
+    },
+    {
+      "id": "ferox-enclave-002",
+      "title": "Run west until you are met …",
+      "text": "Run west until you are met with the white Clan Wars portal",
+      "world": [
+        3130,
+        3622,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3130,
+        "y": 3622,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "ferox-enclave-003",
+      "title": "Enter and exit the portal to …",
+      "text": "Enter and exit the portal to replenish all your stamina",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "ferox-enclave-004",
+      "title": "Run and exit the Ferox Enclave …",
+      "text": "Run and exit the Ferox Enclave south",
+      "world": [
+        3137,
+        3623,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "ferox-enclave-005",
+      "title": "Run southeast to the field of …",
+      "text": "Run southeast to the field of File:Bones.png Bones. — Pick up 24 File:Bones.png Bones. Since there are 12 in the field, you must world hop once",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 526,
+            "qty": 28
+          },
+          {
+            "op": "item",
+            "id": 526,
+            "qty": 53,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 526
+    },
+    {
+      "id": "ferox-enclave-006",
+      "title": "Run back into the Ferox Enclave",
+      "text": "Run back into the Ferox Enclave",
+      "world": [
+        3137,
+        3623,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3137,
+        "y": 3623,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "ferox-enclave-007",
+      "title": "File:Bank_icon.png Bank at the Banker (Ferox …",
+      "text": "File:Bank_icon.png Bank at the Banker (Ferox Enclave). — Deposit: All the File:Bones.png Bones. — Withdraw: Exactly the following (staff is optional, and at least 1 wine): — {{Inventory |Coins\\5 |Tin ore |Copper ore |Key print |Logs |Pot of flour |Garlic |Stake |Air rune |Mind rune |Water rune |Jug of wine | | | | | | | | |Staff |Jug of wine |Jug of wine | | | | | }}",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1933,
+            "qty": 6
+          },
+          {
+            "op": "item",
+            "id": 1933,
+            "qty": 6,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1933,
+      "world": [
+        3130,
+        3629,
+        0
+      ]
+    },
+    {
+      "id": "ferox-enclave-008",
+      "title": "Enter (no exit necessary) the white …",
+      "text": "Enter (no exit necessary) the white portal to refresh your run energy",
+      "manual": true,
+      "world": [
+        3130,
+        3629,
+        0
+      ]
+    },
+    {
+      "id": "ferox-enclave-009",
+      "title": "File:Lumbridge Home_Teleport.png Home teleport",
+      "text": "File:Lumbridge Home_Teleport.png Home teleport",
+      "manual": true,
+      "object": 24009,
+      "world": [
+        3227,
+        3257,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "id": "f2p-champions-guild",
+  "name": "F2P Champions' Guild Ironman",
+  "source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "sections": [
+    {
+      "section": "Start",
+      "prefix": "start",
+      "steps": [
+        {
+          "name": "Navigate to the Create Your Account page (Jagex launcher → hover over username → Account)",
+          "loc": null
+        },
+        {
+          "name": "Enter an actual email address for your login name. You do need to verify your email. — An easy way to do this for multiple accounts while using only one gmail account is to put a +# somewhere in the address. — Any email of the format +@gmail.com will send the email to @gmail.com — So if your email is cow1337killer@gmail.com, you can create an account with the name cow1337killer+1@gmail.com or cow1337killer+A@gmail.com and the confirmation email will arrive at your cow1337killer@gmail.com inbox.",
+          "loc": null
+        },
+        {
+          "name": "Fill out the rest of your account details and press Play Now.",
+          "loc": null
+        },
+        {
+          "name": "Wait for the verification email to arrive, then click to verify your email. Do this before logging in to the website.",
+          "loc": null
+        },
+        {
+          "name": "Click 'Account' on runescape.com or 'Account Settings' on oldschool.runescape.com and log in to the new account.",
+          "loc": null
+        },
+        {
+          "name": "Set a display name first.",
+          "loc": null
+        },
+        {
+          "name": "Set up your Authenticator by scanning the code with an authenticator app and entering the code it gives you on the website. For speedrunning, the following Chrome Web Extension is recommended.",
+          "loc": null
+        },
+        {
+          "name": "Log in to the Oldschool Runescape client and enter your authentication code. Press \"remember me for 30 days\" and you will not have to type it again.",
+          "loc": null
+        },
+        {
+          "name": "Timer starts when you press accept on the character creation screen.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Tutorial Island",
+      "prefix": "tutorial-island",
+      "steps": [
+        {
+          "name": "Talk to the RuneScape Guide.",
+          "loc": null
+        },
+        {
+          "name": "Click the settings panel.",
+          "loc": null
+        },
+        {
+          "name": "Talk to the RuneScape Guide again.",
+          "loc": null
+        },
+        {
+          "name": "Click the door to exit the starting building",
+          "loc": null
+        },
+        {
+          "name": "Complete the Survival Expert segment.",
+          "loc": null
+        },
+        {
+          "name": "As you have time running around, enable shift click drop (if necessary).",
+          "loc": null
+        },
+        {
+          "name": "Drop your items as you go to maintain as much stamina as possible.",
+          "loc": null
+        },
+        {
+          "name": "Finish the cooking, quest, and mining guide segments.",
+          "loc": null
+        },
+        {
+          "name": "Complete the combat guide segment, using rapid for ranged.",
+          "loc": null
+        },
+        {
+          "name": "Complete the bank segment.",
+          "loc": null
+        },
+        {
+          "name": "Skip the poll booth segment by: — Clicking the poll both, keeping a \"Open Door\" prompt open. — Clicking that prompt when the camera view changes.",
+          "loc": null
+        },
+        {
+          "name": "Complete the account and prayer guide segment.",
+          "loc": null
+        },
+        {
+          "name": "Become an Ironman by talking to Paul. — Select the \"Standard Iron Man\" option, and setup bank pin now. — You will need to enter a bank pin twice here, and the pin cannot be too simple or it will be rejected (however, something like 1212 works).",
+          "loc": null
+        },
+        {
+          "name": "Finish the magic guide segment.",
+          "loc": null
+        },
+        {
+          "name": "File:Lumbridge_Teleport.png Teleport off of Tutorial Island.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Lumbridge",
+      "prefix": "lumbridge",
+      "steps": [
+        {
+          "name": "Walk to the Lumbridge general store. — On the way, drop File:Bronze_axe.png axe, File:Tinderbox.png tinderbox, File:Small_fishing_net.png net, File:Shrimps.png shrimps, File:Bread.png bread, File:Pot.png pot, File:Bronze_arrow_5.png arrows, File:Earth_rune.png earth runes, File:Body_rune.png body runes. — Type ::toggleroofs into the chat box to toggle roofs (if necessary). — Sell: File:Bronze_dagger.png Dagger, File:Bronze_sword.png Sword, File:Wooden_shield.png Shield, File:Shortbow.png Bow — Buy: File:Spade.png Spade — {{Inventory |Coins\\39 |Spade | | |Bronze pickaxe | | | | | |Air rune\\25 |Mind rune\\15 |Bucket | | |Water rune\\6 | | | | | | | | | | | | }}",
+          "loc": null
+        },
+        {
+          "name": "Run to Veos in The Sheared Ram to start X Marks the Spot.",
+          "loc": null
+        },
+        {
+          "name": "Pass through the Gate into Al Kharid, then run to Chancellor Hassan to start Prince Ali Rescue.",
+          "loc": null
+        },
+        {
+          "name": "Run out of the palace and talk to Osman.",
+          "loc": null
+        },
+        {
+          "name": "File:Spade.png Dig north of the house connected to Bob's Axes for X Marks the Spot (north of the west window).",
+          "loc": null
+        },
+        {
+          "name": "File:Transportation_icon.png Talk to Count Check in the graveyard to teleport to the Stronghold of Security.",
+          "loc": null
+        },
+        {
+          "name": "Enter the Stronghold of Security, complete only the first level, and claim the 2000 Coins. — Take the far north path. — The questions are randomized, but if you spam click the doors you will eventually get no question and be allowed straight through. — If you cannot claim the 2000 Coins, reread the top of this guide for info on how to enable Authenticator.",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png Deposit all items except for your spade at the Varrock west bank deposit box.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Romeo to start Romeo & Juliet.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Juliet upstairs after running west.",
+          "loc": null
+        },
+        {
+          "name": "File:Skull_(status)_icon.png Die to a Guard.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Port Sarim",
+      "prefix": "port-sarim",
+      "steps": [
+        {
+          "name": "File:Spade.png Dig outside of the back Lumbridge castle door for X Marks the Spot (west of the crate).",
+          "loc": null
+        },
+        {
+          "name": "Drop the File:Mysterious orb (X Marks the Spot).png Orb and Pick File:Onion.png 5 onions from behind Farmer Fred's house.",
+          "loc": null
+        },
+        {
+          "name": "File:Spade.png Run to the north of Draynor Jail and dig for X Marks the Spot (brown patch of four tiles north, one tile east of the bush)",
+          "loc": null
+        },
+        {
+          "name": "Talk to Morgan to start Vampyre Slayer",
+          "loc": null
+        },
+        {
+          "name": "Go upstairs in Morgan's house and take a File:Garlic.png garlic from his cabinet.",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png Bank at Draynor bank. — Deposit: File:Onion.png 4 onions, File:Garlic.png garlic. — Withdraw: All coins, bronze pickaxe, bucket, letter — {{Inventory |Bronze_pickaxe |Message_(Romeo_%26_Juliet) |Bucket |Coins\\2044 | | | | | | | | | | | | | | | | | | | | | |Treasure scroll |Onion |Spade }}",
+          "loc": null
+        },
+        {
+          "name": "Head into Draynor Market. — Optional for safety: Buy up to File:Jug_of_wine.png 5 wines from Fortunato. High level speedrunners take 2 total in a run. — Buy: File:Teleport_card.png 7 chronicle cards and a File:Chronicle.png chronicle from Diango. — Money here is tight, so buy 2 cards, then buy the chronicle, then buy 5 cards. — If you accidentally spend a bit too much, you can just buy fewer of each rune later, or sell a few water runes to the general store.",
+          "loc": null
+        },
+        {
+          "name": "File:Spade.png Dig in the Draynor pig pen for X Marks the Spot.",
+          "loc": null
+        },
+        {
+          "name": "Grab a File:Cabbage.png Cabbage from the field northwest of the pig pen.",
+          "loc": null
+        },
+        {
+          "name": "Run south to the Port Sarim docks and Talk to Redbeard Frank to start Pirate's Treasure.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Veos to finish X Marks the Spot and use the rewarded lamp on Magic.",
+          "loc": null
+        },
+        {
+          "name": "File:Transportation_icon.png Take the boat to Karamja by talking to either Seaman Lorris, Captain Tobias, or Seaman Thresnor. — File:Tap-to-drop_mode.png Drop File:Clue_scroll_(beginner).png Clue scroll (beginner) and File:Spade.png spade.",
+          "loc": null
+        },
+        {
+          "name": "Go to Zembo. — Buy: File:Beer.png 3 Beer, File:Karamjan_rum.png 1 Rum, File:Jug_of_wine.png Wine (Wine is optional for safety).",
+          "loc": null
+        },
+        {
+          "name": "Pick 10 bananas from the plantation.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Luthas.",
+          "loc": null
+        },
+        {
+          "name": "Right click and \"Fill\" the crate with bananas.",
+          "loc": null
+        },
+        {
+          "name": "Put the rum in the crate.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Luthas again to get your payment and send the crate.",
+          "loc": null
+        },
+        {
+          "name": "File:Transportation_icon.png Take the boat back to Port Sarim.",
+          "loc": null
+        },
+        {
+          "name": "Take a File:White_apron.png White apron from the fishing shop and equip it.",
+          "loc": null
+        },
+        {
+          "name": "Go to Wydin's Food Store. — Buy: File:Pot_of_flour.png 2 pots of flour, File:Raw_beef.png 1 raw beef. — Hop worlds if the flour is out of stock due to bots.",
+          "loc": null
+        },
+        {
+          "name": "Click the door to the back room to get in.",
+          "loc": null
+        },
+        {
+          "name": "Take your File:Karamjan_rum.png rum from the banana crate.",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png Use the deposit box by the Monks of Entrana to deposit all File:Pot_of_flour.png pots of flour, File:Jug_of_wine.png wines, and File:Beer.png beers. — File:Tap-to-drop_mode.png Drop File:White_apron.png white apron.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Redbeard Frank again and trade your rum for a key.",
+          "loc": null
+        },
+        {
+          "name": "Go to Betty's Magic Emporium. — Buy: File:Air_rune.png 50 Air runes, File:Mind_rune.png 50 Mind runes, File:Water_rune.png 50 Water runes, File:Eye_of_newt.png Eye of newt — If you plan to buy a beginner staff and backup wines, buy 10 fewer air runes to ensure you have enough coins for later.",
+          "loc": null
+        },
+        {
+          "name": "Enter Rimmington mine from the north. — Mine File:Copper_ore.png copper, File:Clay.png clay, and File:Tin_ore.png tin.",
+          "loc": null
+        },
+        {
+          "name": "Go to Rimmington. — File:Tap-to-drop_mode.png Drop the File:Bronze_pickaxe.png bronze pickaxe.",
+          "loc": null
+        },
+        {
+          "name": "Burn your File:Burnt_meat.png meat on the range in the north-eastern house (cook it again if it cooks successfully).",
+          "loc": null
+        },
+        {
+          "name": "Fill your File:Bucket_of_water.png bucket in the sink. — Use it to File:soft_clay.png wet your clay.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Hetty to start Witch's Potion.",
+          "loc": null
+        },
+        {
+          "name": "Kill a rat in the ranging shop with wind strikes and pick up its File:Rat%27s_tail.png tail.",
+          "loc": null
+        },
+        {
+          "name": "Pick up a File:Logs.png log in the ranging shop.",
+          "loc": null
+        },
+        {
+          "name": "Go back to Hetty and complete Witch's Potion by talking to her then clicking the cauldron.",
+          "loc": null
+        },
+        {
+          "name": "File:Chronicle.png Chronicle teleport.",
+          "loc": null
+        },
+        {
+          "name": "File:Skull_(status)_icon.png Die to a Dark wizard. It is highly recommended to find a Level 20 Dark Wizard, as they will kill you faster. They have an Attack range of 4 tiles, so use that to your advantage.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Varrock",
+      "prefix": "varrock",
+      "steps": [
+        {
+          "name": "Go through every dialogue option with Death, then leave.",
+          "loc": null
+        },
+        {
+          "name": "Run west out of Lumbridge castle to Draynor jail.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Lady Keli to get the key print",
+          "loc": null
+        },
+        {
+          "name": "File:Chronicle.png Chronicle teleport.",
+          "loc": null
+        },
+        {
+          "name": "Run east through the Dark wizards to the berry bushes.",
+          "loc": null
+        },
+        {
+          "name": "Pick a File:Cadava_berries.png cadava berry and File:Redberries.png 4 Redberries.",
+          "loc": null
+        },
+        {
+          "name": "File:Chronicle.png Chronicle teleport.",
+          "loc": null
+        },
+        {
+          "name": "File:Death%27s_Office_icon.png Reclaim your gravestone and pick up the File:Bones.png Bones that appeared when you died. If you skip this, your ores will end up in death's office.",
+          "loc": null
+        },
+        {
+          "name": "File:Skull_(status)_icon.png Die to a Dark wizard (We do this to restore our run energy).",
+          "loc": null
+        },
+        {
+          "name": "File:Chronicle.png Chronicle teleport.",
+          "loc": null
+        },
+        {
+          "name": "File:Death%27s_Office_icon.png Reclaim your gravestone again.",
+          "loc": null
+        },
+        {
+          "name": "Go to the Blue Moon Inn.",
+          "loc": null
+        },
+        {
+          "name": "Talk to the bartender to buy File:Beer.png beer.",
+          "loc": null
+        },
+        {
+          "name": "Go upstairs and open the chest at the end of the hall.",
+          "loc": null
+        },
+        {
+          "name": "Read the File:Pirate_message.png message message and File:Tap-to-drop_mode.png drop it.",
+          "loc": null
+        },
+        {
+          "name": "Go back downstairs.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Dr. Harlow.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Dr. Harlow again to give the beer and get the stake.",
+          "loc": null
+        },
+        {
+          "name": "Go to Thesselia's Fine Clothes — Buy: File:Pink_skirt.png Pink skirt.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Aris. — Screenshot the Delrith incantaction in the cutscene. Do NOT accidentally click a floor tile. You WILL have to restart this and the previous step.",
+          "loc": null
+        },
+        {
+          "name": "(Optional) Go to Zaff's Staffs. (if money doesn't work out after this then sell some runes to the general store) — Buy: File:Staff.png Staff.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Romeo until he takes the letter.",
+          "loc": null
+        },
+        {
+          "name": "Go to Horvik's Armour shop. — Buy: File:Iron_chainbody.png Iron chainbody.",
+          "loc": null
+        },
+        {
+          "name": "Go to Varrock Castle.",
+          "loc": null
+        },
+        {
+          "name": "Fill up your File:Bucket_of_water.png bucket with water from the castle's fountain.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Sir Prysin.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Captain Rovin on the of the castle's north-west corner.",
+          "loc": null
+        },
+        {
+          "name": "Go to the castle kitchen and pour water down the drain outside.",
+          "loc": null
+        },
+        {
+          "name": "Refill your File:Bucket_of_water.png bucket at the castle's fountain.",
+          "loc": null
+        },
+        {
+          "name": "Go to Varrock's north-east church.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Father Lawrence.",
+          "loc": null
+        },
+        {
+          "name": "Enter the sewers and grab the File:Silverlight_key_(Sir_Prysin).png second key from the west path.",
+          "loc": null
+        },
+        {
+          "name": "File:Minigame_icon.png Minigame teleport to Clan wars, taking you to Ferox Enclave.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Ferox Enclave",
+      "prefix": "ferox-enclave",
+      "steps": [
+        {
+          "name": "File:Bank_icon.png Deposit all items at the Banker (Ferox Enclave).",
+          "loc": null
+        },
+        {
+          "name": "Run west until you are met with the white Clan Wars portal.",
+          "loc": null
+        },
+        {
+          "name": "Enter and exit the portal to replenish all your stamina.",
+          "loc": null
+        },
+        {
+          "name": "Run and exit the Ferox Enclave south.",
+          "loc": null
+        },
+        {
+          "name": "Run southeast to the field of File:Bones.png Bones. — Pick up 24 File:Bones.png Bones. Since there are 12 in the field, you must world hop once.",
+          "loc": null
+        },
+        {
+          "name": "Run back into the Ferox Enclave.",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png Bank at the Banker (Ferox Enclave). — Deposit: All the File:Bones.png Bones. — Withdraw: Exactly the following (staff is optional, and at least 1 wine): — {{Inventory |Coins\\5 |Tin ore |Copper ore |Key print |Logs |Pot of flour |Garlic |Stake |Air rune |Mind rune |Water rune |Jug of wine | | | | | | | | |Staff |Jug of wine |Jug of wine | | | | | }}",
+          "loc": null
+        },
+        {
+          "name": "Enter (no exit necessary) the white portal to refresh your run energy.",
+          "loc": null
+        },
+        {
+          "name": "File:Lumbridge Home_Teleport.png Home teleport.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Draynor Manor",
+      "prefix": "draynor-manor",
+      "steps": [
+        {
+          "name": "Go to the Lumbridge general store. — Buy File:Bucket.png Bucket, File:Shears.png Shears, File:Hammer.png Hammer, File:Tinderbox.png Tinderbox — If you do not have the 5gp to afford this, sell a few runes. — You can drop the remaining few coins.",
+          "loc": null
+        },
+        {
+          "name": "Smelt twice at the Lumbridge furnace. — File:Bronze_bar.png Bronze bar — File:Bronze key (Prince Ali Rescue).png Bronze key",
+          "loc": null
+        },
+        {
+          "name": "Shear 3 sheep for 3 File:Wool.png Wool. — File:Tap-to-drop_mode.png Drop File:Shears.png shears.",
+          "loc": null
+        },
+        {
+          "name": "Exit by climbing over the stile.",
+          "loc": null
+        },
+        {
+          "name": "Run west into the pen and grab an File:Egg.png egg.",
+          "loc": null
+        },
+        {
+          "name": "Run north into the cow pen and milk a File:Bucket_of_milk.png Dairy cow.",
+          "loc": null
+        },
+        {
+          "name": "Start Ernest the Chicken by talking to Veronica.",
+          "loc": null
+        },
+        {
+          "name": "Enter the manor.",
+          "loc": null
+        },
+        {
+          "name": "Pick up the File:Fish_food.png fish food from the .",
+          "loc": null
+        },
+        {
+          "name": "Pick up the File:Poison_(item).png poison from the kitchen.",
+          "loc": null
+        },
+        {
+          "name": "Combine fish food and poison.",
+          "loc": null
+        },
+        {
+          "name": "Go to the basement and File:Tinderbox.png light your logs to let them burn while you do the lever puzzle to get File:Ashes.png Ashes.",
+          "loc": null
+        },
+        {
+          "name": "Complete the basement level puzzle to get the oil can. [BA, D, BA, FE, C, E]",
+          "loc": null
+        },
+        {
+          "name": "Don't forget to pick up your File:Ashes.png ashes as soon as your fire goes out.",
+          "loc": null
+        },
+        {
+          "name": "Use the eastern manor stairs.",
+          "loc": null
+        },
+        {
+          "name": "Kill Count Draynor.",
+          "loc": null
+        },
+        {
+          "name": "Safespot him by: — Going south, to the tile east of the skeleton on the southern wall. — Going one tile north to step under him — If he paths south, walk one tile west for the safespot, otherwise repeat.",
+          "loc": null
+        },
+        {
+          "name": "Maximising damage on Count Draynor: with garlic in inventory, your first attack will deal 10 additional damage and lower his stats. The count also has a 6x health regen rate. — The garlic effect only triggers on punches or auto-casts, and will not trigger if only manual casting in the safespot. It also only deals the 10 damage if the Count is at full health. — A consistent way to work with this is to turn off auto-retaliate before the fight, use the staff to autocast and start attacking only after the safespot is set up completely. — Otherwise, punch draynor once immediately and make sure not to drop any ticks manual casting while setting up the safespot, only healing if absolutely necessary.",
+          "loc": null
+        },
+        {
+          "name": "Pick up a File:Spade.png spade and a File:Bronze_med_helm.png bronze med helm by the manor back door.",
+          "loc": null
+        },
+        {
+          "name": "Exit the mansion and head around the north side. — File:Tap-to-drop_mode.png Drop File:Hammer.png hammer, File:Garlic.png garlic, File:Empty_jug.png wine/jug.",
+          "loc": null
+        },
+        {
+          "name": "Get the File:Key_(Ernest_the_Chicken).png key from the compost pile to the west of the manor.",
+          "loc": null
+        },
+        {
+          "name": "Use the poisoned fish food on the fountain and get the File:Pressure_gauge.png pressure gauge from it.",
+          "loc": null
+        },
+        {
+          "name": "Re-enter the mansion through the front door.",
+          "loc": null
+        },
+        {
+          "name": "Pick up the File:Rubber_tube.png tube from the locked skeleton room behind the stairs.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Professor Oddenstein on the",
+          "loc": null
+        },
+        {
+          "name": "Talk to him again to finish Ernest the Chicken.",
+          "loc": null
+        },
+        {
+          "name": "File:Skull_(status)_icon.png Go back downstairs and die to the skeleton in the locked room. — File:Tap-to-drop_mode.png Drop the File:Key_(Ernest_the_Chicken).png key to the room.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Falador",
+      "prefix": "falador",
+      "steps": [
+        {
+          "name": "Run to Death's Domain to collect your lost items for free.",
+          "loc": null
+        },
+        {
+          "name": "Exit Death's Domain and spin your wool upstairs in Lumbridge castle.",
+          "loc": null
+        },
+        {
+          "name": "Go to the cook and complete Cook's Assistant. .",
+          "loc": null
+        },
+        {
+          "name": "Run to Draynor bank — Deposit all — Withdraw 20 coins, spade — {{Inventory |Coins\\20 |Spade | | | | | | | | | | | | | | | | | | | | | | | | | | }}",
+          "loc": null
+        },
+        {
+          "name": "File:Spade.png Dig in the centre of the park to spawn the gardener for Pirate's Treasure.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Wyson to buy File:Woad_leaf_2.png 2 woad leaves",
+          "loc": null
+        },
+        {
+          "name": "File:Spade.png Dig in the centre of the park again to complete Pirate's Treasure.",
+          "loc": null
+        },
+        {
+          "name": "Go to Falador castle. — File:Tap-to-drop_mode.png Drop File:Spade.png Spade and the File:Casket (Pirate's Treasure).png Casket.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Sir Amik Varze on the of the eastern staircase in the castle.",
+          "loc": null
+        },
+        {
+          "name": "File:Skull_(status)_icon.png Die to the two knights on the top floor of the castle. — File:Tap-to-drop_mode.png Destroy File:Dossier (Black Knights' Fortress).png Dossier.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Draynor Village",
+      "prefix": "draynor-village",
+      "steps": [
+        {
+          "name": "Open the casket and drop the emerald and the ring.",
+          "loc": null
+        },
+        {
+          "name": "Run to Draynor bank",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png [Bank] Bucket of water, 3 Beers, 4 Onions, Pot of flour, 4 Redberries, 3 Balls of wool, Pink skirt, Ashes. — {{Inventory |Woad leaf\\2 |Coins\\450 | | |Bucket of water |Pot of flour |Ashes |Pink skirt |Beer |Beer |Beer | |Ball of wool |Ball of wool |Ball of wool | |Redberries |Redberries |Redberries |Redberries |Onion |Onion |Onion |Onion |Bronze key (Prince Ali Rescue) | | | }}",
+          "loc": null
+        },
+        {
+          "name": "Talk to Ned to make a wig. — Buy: File:Rope.png Rope from Ned.",
+          "loc": null
+        },
+        {
+          "name": "Use your onions, redberries, and woad leaves on Aggie to make 4 dyes.",
+          "loc": null
+        },
+        {
+          "name": "Use your yellow and red dyes on each other to make File:Orange_dye.png orange dye.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Aggie to make File:Paste.png skin paste.",
+          "loc": null
+        },
+        {
+          "name": "Dye the File:Wig_(dyed).png wig yellow.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Leela.",
+          "loc": null
+        },
+        {
+          "name": "Use a File:Beer.png Beer on Joe in Draynor Jail.",
+          "loc": null
+        },
+        {
+          "name": "Use the File:Rope.png Rope on Lady Keli.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Prince Ali.",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png Go to Draynor bank. — Deposit: all. — Withdraw: 25 File:Bones.png Bones. — {{Inventory | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | Bones | | | }}",
+          "loc": null
+        },
+        {
+          "name": "Go to the Wizards' Tower's .",
+          "loc": null
+        },
+        {
+          "name": "Talk to Traiborn about the DS key.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Traiborn again to give him the bones and get the key.",
+          "loc": null
+        },
+        {
+          "name": "File:Skull_(status)_icon.png Die to a Wizard.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Black Knights' Fortress",
+      "prefix": "black-knights-fortress",
+      "steps": [
+        {
+          "name": "Run and talk to Chancellor Hassan to finish Prince Ali Rescue. — File:Minigame_icon.png Prepare a Clan wars teleport.",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png Talk to the Banker (Ferox Enclave). — Deposit: Silverlight key. — Withdraw: Orange dye, Blue dye, Bronze med helm, Iron chainbody, Cabbage, Cadava berry, Chronicle, (1-3) Wine — {{Inventory |Orange dye |Blue dye |Bronze med helm |Iron chainbody |Cabbage |Cadava berries |Chronicle |Jug of wine | | | | | | | | | | | | | | | | | | | | }}",
+          "loc": null
+        },
+        {
+          "name": "Run south-west through the wilderness, to the wilderness ditch west of the Black knights' fortress. — Equip File:Bronze_med_helm.png Bronze med helm File:Iron_chainbody.png Iron chainbody.",
+          "loc": null
+        },
+        {
+          "name": "Go to the Black Knights' Fortress.",
+          "loc": null
+        },
+        {
+          "name": "Drink the wine as needed in the black knights' fortress. — Black Knights have a max hit of 4.",
+          "loc": null
+        },
+        {
+          "name": "Enter castle and follow hidden route through the north wall to listen at the grate.",
+          "loc": null
+        },
+        {
+          "name": "Go back to the main entrance and follow the east path to drop the cabbage in the hole.",
+          "loc": null
+        },
+        {
+          "name": "Exit the Black Knights' Fortress. — File:Tap-to-drop_mode.png Drop File:Bronze_med_helm.png bronze med helm File:Iron_chainbody.png iron chainbody.",
+          "loc": null
+        },
+        {
+          "name": "Run directly west from the fortress past the wilderness ditch and down the west side of the Goblin Village to get to the Goblin Village.",
+          "loc": null
+        },
+        {
+          "name": "Pick up 3 goblin mail. Locations: Up ladder, in mid-left hut, behind generals' hut(right side).",
+          "loc": null
+        },
+        {
+          "name": "Dye 1 body blue and 1 body orange.",
+          "loc": null
+        },
+        {
+          "name": "Start Goblin Diplomacy by talking to generals.",
+          "loc": null
+        },
+        {
+          "name": "Use the armour on the generals and watch the cutscenes - orange, then blue, then brown. — You can right click and select the goblin mails while in the cutscene — File:Tap-to-drop_mode.png Drop File:Gold_bar.png gold bar.",
+          "loc": null
+        },
+        {
+          "name": "Run to Falador castle.",
+          "loc": null
+        },
+        {
+          "name": "Speak to Sir Amik Varze to complete Black Knights' Fortress.",
+          "loc": null
+        },
+        {
+          "name": "File:Skull_(status)_icon.png Deathwarp using the White knights on the top floor.",
+          "loc": null
+        }
+      ]
+    },
+    {
+      "section": "Finishing up",
+      "prefix": "finishing-up",
+      "steps": [
+        {
+          "name": "File:Chronicle.png Chronicle teleport.",
+          "loc": null
+        },
+        {
+          "name": "Talk to the apothecary to get the File:Cadava_potion.png Cadava potion.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Juliet and watch the cutscene.",
+          "loc": null
+        },
+        {
+          "name": "File:Bank_icon.png Bank at Varrock west bank. — Withdraw: All keys, all runes, wine (optional). — {{Inventory |Chronicle |Silverlight key (Wizard Traiborn) |Silverlight key (Captain Rovin) |Silverlight key (Sir Prysin) |Water rune\\40 |Mind rune\\15 |Air rune\\25 | |Jug of wine |Jug of wine | | | | | | | | | | | | | | | | | | }}",
+          "loc": null
+        },
+        {
+          "name": "Talk to Romeo to watch the cutscene and complete Romeo & Juliet.",
+          "loc": null
+        },
+        {
+          "name": "Talk to Sir Prysin to get the Silverlight. — File:Chronicle.png Chronicle teleport as soon as the sword is automatically equipped.",
+          "loc": null
+        },
+        {
+          "name": "Go into the Wizards' circle and beat Delrith. — Enter from the south and stay behind the middle southern pillar. — Manually cast Water Strike on Delrith with Silverlight equipped. — Always step back behind the pillar after casting so the Dark wizards do not attack you. — If a Dark wizard is attacking you, walk a few tiles away from the pillar to exit the cutscene and re-enter.",
+          "loc": null
+        },
+        {
+          "name": "Enter the incantation.",
+          "loc": null
+        },
+        {
+          "name": "File:Chronicle.png Chronicle teleport.",
+          "loc": null
+        },
+        {
+          "name": "Enter the Champions' Guild to complete the run!",
+          "loc": null
+        }
+      ]
+    }
+  ]
+}

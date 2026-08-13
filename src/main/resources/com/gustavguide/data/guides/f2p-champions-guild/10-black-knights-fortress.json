@@ -1,0 +1,243 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Black Knights' Fortress",
+  "steps": [
+    {
+      "id": "black-knights-fortress-001at",
+      "title": "Run, talk to Chancellor Hassan to …",
+      "text": "Run, talk to Chancellor Hassan to finish Prince Ali Rescue. — File:Minigame_icon.png Prepare a Clan wars teleport",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "FINISHED"
+      },
+      "npc": 4285,
+      "world": [
+        3298,
+        3163,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-002",
+      "title": "File:Bank_icon.png Talk to the Banker (Ferox …",
+      "text": "File:Bank_icon.png Talk to the Banker (Ferox Enclave). — Deposit: Silverlight key. — Withdraw: Orange dye, Blue dye, Bronze med helm, Iron chainbody, Cabbage, Cadava berry, Chronicle, (1-3) Wine — {{Inventory |Orange dye |Blue dye |Bronze med helm |Iron chainbody |Cabbage |Cadava berries |Chronicle |Jug of wine | | | | | | | | | | | | | | | | | | | | }}",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1139,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1139,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1139,
+      "npc": 5083,
+      "world": [
+        3203,
+        3472,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-003",
+      "title": "Run south-west through the wilderness, to …",
+      "text": "Run south-west through the wilderness, to the wilderness ditch west of the Black knights' fortress. — Equip File:Bronze_med_helm.png Bronze med helm File:Iron_chainbody.png Iron chainbody.",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-004",
+      "title": "Go to the Black Knights' Fortress",
+      "text": "Go to the Black Knights' Fortress",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-005",
+      "title": "Drink the wine as needed in …",
+      "text": "Drink the wine as needed in the black knights' fortress. — Black Knights have a max hit of 4",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-006",
+      "title": "Enter castle and follow hidden route …",
+      "text": "Enter castle and follow hidden route through the north wall to listen at the grate",
+      "manual": true,
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-007",
+      "title": "Go back to the main entrance …",
+      "text": "Go back to the main entrance and follow the east path to drop the cabbage in the hole",
+      "manual": true,
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-008",
+      "title": "Exit the Black Knights' Fortress. — …",
+      "text": "Exit the Black Knights' Fortress. — File:Tap-to-drop_mode.png Drop File:Bronze_med_helm.png bronze med helm File:Iron_chainbody.png iron chainbody",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2955,
+        3339,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-009",
+      "title": "Run directly west from the fortress …",
+      "text": "Run directly west from the fortress past the wilderness ditch and down the west side of the Goblin Village to get to the Goblin Village",
+      "manual": true,
+      "object": 23,
+      "world": [
+        2962,
+        3506,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-010",
+      "title": "Pick up 3 goblin mail. Locations: …",
+      "text": "Pick up 3 goblin mail. Locations: Up ladder, in mid-left hut, behind generals' hut(right side)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 288,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 288,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 288,
+      "world": [
+        2718,
+        3628,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-011",
+      "title": "Dye 1 body blue and 1 …",
+      "text": "Dye 1 body blue and 1 body orange",
+      "manual": true
+    },
+    {
+      "id": "black-knights-fortress-012",
+      "title": "Start Goblin Diplomacy by talking to …",
+      "text": "Start Goblin Diplomacy by talking to generals",
+      "complete": {
+        "op": "quest",
+        "quest": "GOBLIN_DIPLOMACY",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2954,
+        3497,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-013",
+      "title": "Use the armour on the generals …",
+      "text": "Use the armour on the generals and watch the cutscenes - orange, then blue, then brown. — You can right click and select the goblin mails while in the cutscene — File:Tap-to-drop_mode.png Drop File:Gold_bar.png gold bar.",
+      "manual": true,
+      "world": [
+        2718,
+        3628,
+        0
+      ]
+    },
+    {
+      "id": "black-knights-fortress-014",
+      "title": "Run to Falador castle",
+      "text": "Run to Falador castle",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "black-knights-fortress-015",
+      "title": "Speak to Sir Amik Varze to …",
+      "text": "Speak to Sir Amik Varze to complete Black Knights' Fortress",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      },
+      "npc": 4771,
+      "world": [
+        2959,
+        3339,
+        2
+      ]
+    },
+    {
+      "id": "black-knights-fortress-016",
+      "title": "File:Skull_(status)_icon.png Deathwarp using the White knights …",
+      "text": "File:Skull_(status)_icon.png Deathwarp using the White knights on the top floor",
+      "manual": true
+    }
+  ]
+}

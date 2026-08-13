@@ -1,0 +1,638 @@
+{
+  "_source": "https://oldschool.runescape.wiki/w/Guide:Speedrunning_guide/F2P_Champions'_Guild_Ironman",
+  "_license": "OSRS Wiki content, CC BY-NC-SA 3.0 (oldschool.runescape.wiki). Attribution: the wiki authors of the linked page.",
+  "section": "Port Sarim",
+  "steps": [
+    {
+      "id": "port-sarim-001",
+      "title": "File:Spade.png Dig outside of the back …",
+      "text": "File:Spade.png Dig outside of the back Lumbridge castle door for X Marks the Spot (west of the crate)",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-002a",
+      "title": "Drop the File:Mysterious orb (X Marks …",
+      "text": "Drop the File:Mysterious orb (X Marks the Spot).png Orb",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-002b",
+      "title": "Pick File:Onion.png 5 onions from behind …",
+      "text": "Pick File:Onion.png 5 onions from behind Farmer Fred's house",
+      "manual": true,
+      "npc": 732,
+      "world": [
+        3189,
+        3273,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-003",
+      "title": "File:Spade.png Run to the north of …",
+      "text": "File:Spade.png Run to the north of Draynor Jail, dig for X Marks the Spot (brown patch of four tiles north, one tile east of the bush)",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-004",
+      "title": "Talk to Morgan to start Vampyre …",
+      "text": "Talk to Morgan to start Vampyre Slayer",
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 3479,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-005a",
+      "title": "Go upstairs in Morgan's house",
+      "text": "Go upstairs in Morgan's house",
+      "manual": true,
+      "npc": 3479,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-005b",
+      "title": "take a File:Garlic.png garlic from his …",
+      "text": "take a File:Garlic.png garlic from his cabinet",
+      "manual": true,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-006",
+      "title": "File:Bank_icon.png Bank at Draynor bank. — …",
+      "text": "File:Bank_icon.png Bank at Draynor bank. — Deposit: File:Onion.png 4 onions, File:Garlic.png garlic. — Withdraw: All coins, bronze pickaxe, bucket, letter — {{Inventory |Bronze_pickaxe |Message_(Romeo_%26_Juliet) |Bucket |Coins\\2044 | | | | | | | | | | | | | | | | | | | | | |Treasure scroll |Onion |Spade }}",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1265,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 1265,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1265,
+      "npc": 5035,
+      "world": [
+        3158,
+        3427,
+        1
+      ]
+    },
+    {
+      "id": "port-sarim-007",
+      "title": "Head into Draynor Market. — Optional …",
+      "text": "Head into Draynor Market. — Optional for safety: Buy up to File:Jug_of_wine.png 5 wines from Fortunato. High level speedrunners take 2 total in a run. — Buy: File:Teleport_card.png 7 chronicle cards and a File:Chronicle.png chronicle from Diango. — Money here is tight, so buy 2 cards, then buy the chronicle, then buy 5 cards. — If you accidentally spend a bit too much, you can just buy fewer of each rune later, or sell a few water runes to the general store.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1935,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1935,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1935,
+      "npc": 1260,
+      "world": [
+        3085,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-008",
+      "title": "File:Spade.png Dig in the Draynor pig …",
+      "text": "File:Spade.png Dig in the Draynor pig pen for X Marks the Spot",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-009",
+      "title": "Grab a File:Cabbage.png Cabbage from the …",
+      "text": "Grab a File:Cabbage.png Cabbage from the field northwest of the pig pen",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1965,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1965,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1965,
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-010at",
+      "title": "Run south to the Port Sarim …",
+      "text": "Run south to the Port Sarim docks, Talk to Redbeard Frank to start Pirate's Treasure",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 3643,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-011a",
+      "title": "Talk to Veos to finish X …",
+      "text": "Talk to Veos to finish X Marks the Spot",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-011b",
+      "title": "use the rewarded lamp on Magic",
+      "text": "use the rewarded lamp on Magic",
+      "manual": true,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-012",
+      "title": "File:Transportation_icon.png Take the boat to Karamja …",
+      "text": "File:Transportation_icon.png Take the boat to Karamja by talking to either Seaman Lorris, Captain Tobias, or Seaman Thresnor. — File:Tap-to-drop_mode.png Drop File:Clue_scroll_(beginner).png Clue scroll (beginner) and File:Spade.png spade.",
+      "manual": true,
+      "npc": 6649,
+      "world": [
+        2222,
+        3796,
+        2
+      ]
+    },
+    {
+      "id": "port-sarim-013",
+      "title": "Go to Zembo. — Buy: File:Beer.png …",
+      "text": "Go to Zembo. — Buy: File:Beer.png 3 Beer, File:Karamjan_rum.png 1 Rum, File:Jug_of_wine.png Wine (Wine is optional for safety)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 26,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "npc": 13655,
+      "world": [
+        2927,
+        3144,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-014",
+      "title": "Pick 10 bananas from the plantation",
+      "text": "Pick 10 bananas from the plantation",
+      "manual": true,
+      "object": 2073,
+      "world": [
+        2916,
+        3162,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-015",
+      "title": "Talk to Luthas",
+      "text": "Talk to Luthas",
+      "manual": true,
+      "world": [
+        2916,
+        3162,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-016",
+      "title": "Right click and \"Fill\" the crate …",
+      "text": "Right click and \"Fill\" the crate with bananas",
+      "manual": true,
+      "object": 2072,
+      "world": [
+        2939,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-017",
+      "title": "Put the rum in the crate",
+      "text": "Put the rum in the crate",
+      "manual": true,
+      "object": 2072,
+      "world": [
+        2939,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-018",
+      "title": "Talk to Luthas again to get …",
+      "text": "Talk to Luthas again to get your payment and send the crate",
+      "manual": true,
+      "world": [
+        2939,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-019",
+      "title": "File:Transportation_icon.png Take the boat back to …",
+      "text": "File:Transportation_icon.png Take the boat back to Port Sarim",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-020a",
+      "title": "Take a File:White_apron.png White apron from …",
+      "text": "Take a File:White_apron.png White apron from the fishing shop",
+      "manual": true,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-020b",
+      "title": "equip it",
+      "text": "equip it",
+      "manual": true,
+      "world": [
+        2954,
+        3147,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-021",
+      "title": "Go to Wydin's Food Store. — …",
+      "text": "Go to Wydin's Food Store. — Buy: File:Pot_of_flour.png 2 pots of flour, File:Raw_beef.png 1 raw beef. — Hop worlds if the flour is out of stock due to bots",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1933,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1933,
+            "qty": 6,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1933,
+      "world": [
+        2905,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-022",
+      "title": "Click the door to the back …",
+      "text": "Click the door to the back room to get in",
+      "manual": true
+    },
+    {
+      "id": "port-sarim-023",
+      "title": "Take your File:Karamjan_rum.png rum from the …",
+      "text": "Take your File:Karamjan_rum.png rum from the banana crate",
+      "manual": true,
+      "world": [
+        2905,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-024",
+      "title": "File:Bank_icon.png Use the deposit box by …",
+      "text": "File:Bank_icon.png Use the deposit box by the Monks of Entrana to deposit all File:Pot_of_flour.png pots of flour, File:Jug_of_wine.png wines, and File:Beer.png beers. — File:Tap-to-drop_mode.png Drop File:White_apron.png white apron.",
+      "manual": true,
+      "npc": 4062,
+      "world": [
+        2851,
+        3350,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-025a",
+      "title": "Talk to Redbeard Frank again",
+      "text": "Talk to Redbeard Frank again",
+      "manual": true,
+      "npc": 3643,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-025b",
+      "title": "trade your rum for a key",
+      "text": "trade your rum for a key",
+      "manual": true,
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-026",
+      "title": "Go to Betty's Magic Emporium. — …",
+      "text": "Go to Betty's Magic Emporium. — Buy: File:Air_rune.png 50 Air runes, File:Mind_rune.png 50 Mind runes, File:Water_rune.png 50 Water runes, File:Eye_of_newt.png Eye of newt — If you plan to buy a beginner staff and backup wines, buy 10 fewer air runes to ensure you have enough coins for later.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 556,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 556,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 556,
+      "npc": 5905,
+      "world": [
+        3014,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-027",
+      "title": "Enter Rimmington mine from the north. …",
+      "text": "Enter Rimmington mine from the north. — Mine File:Copper_ore.png copper, File:Clay.png clay, and File:Tin_ore.png tin",
+      "manual": true,
+      "world": [
+        2977,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-028",
+      "title": "Go to Rimmington. — File:Tap-to-drop_mode.png Drop …",
+      "text": "Go to Rimmington. — File:Tap-to-drop_mode.png Drop the File:Bronze_pickaxe.png bronze pickaxe",
+      "world": [
+        2956,
+        3232,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2956,
+        "y": 3232,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "port-sarim-029",
+      "title": "Burn your File:Burnt_meat.png meat on the …",
+      "text": "Burn your File:Burnt_meat.png meat on the range in the north-eastern house (cook it again if it cooks successfully)",
+      "manual": true,
+      "world": [
+        2956,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-030",
+      "title": "Fill your File:Bucket_of_water.png bucket in the …",
+      "text": "Fill your File:Bucket_of_water.png bucket in the sink. — Use it to File:soft_clay.png wet your clay",
+      "manual": true,
+      "world": [
+        2956,
+        3232,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-031",
+      "title": "Talk to Hetty to start Witch's …",
+      "text": "Talk to Hetty to start Witch's Potion",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_POTION",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 4619,
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-032a",
+      "title": "Kill a rat in the ranging …",
+      "text": "Kill a rat in the ranging shop with wind strikes",
+      "manual": true
+    },
+    {
+      "id": "port-sarim-032b",
+      "title": "pick up its File:Rat%27s_tail.png tail",
+      "text": "pick up its File:Rat%27s_tail.png tail",
+      "manual": true,
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-033",
+      "title": "Pick up a File:Logs.png log in …",
+      "text": "Pick up a File:Logs.png log in the ranging shop",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1511,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1511,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1511,
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-034a",
+      "title": "Go back to Hetty",
+      "text": "Go back to Hetty",
+      "manual": true,
+      "npc": 4619,
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-034b",
+      "title": "complete Witch's Potion by talking to …",
+      "text": "complete Witch's Potion by talking to her then clicking the cauldron",
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_POTION",
+        "state": "FINISHED"
+      },
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "port-sarim-035",
+      "title": "File:Chronicle.png Chronicle teleport",
+      "text": "File:Chronicle.png Chronicle teleport",
+      "manual": true
+    },
+    {
+      "id": "port-sarim-036",
+      "title": "File:Skull_(status)_icon.png Die to a Dark wizard. …",
+      "text": "File:Skull_(status)_icon.png Die to a Dark wizard. It is highly recommended to find a Level 20 Dark Wizard, as they will kill you faster. They have an Attack range of 4 tiles, so use that to your advantage.",
+      "manual": true,
+      "npc": 7753,
+      "world": [
+        2455,
+        3312,
+        0
+      ]
+    }
+  ]
+}
