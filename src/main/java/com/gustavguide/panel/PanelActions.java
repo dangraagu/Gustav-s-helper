@@ -35,6 +35,13 @@ public interface PanelActions
 	/** Save (or clear, when blank) the player's note for the current step. */
 	void setUserNote(String note);
 
+	/**
+	 * Offer to mark the flavour steps behind the furthest completed real gate as done ("sync to my
+	 * account"). The implementation MUST show the count and get explicit confirmation first — this is
+	 * the fold the engine refuses to do automatically, safe only as an informed user action.
+	 */
+	void fastForward();
+
 	/** Clear all saved progress for the current account. */
 	void resetProgress();
 }

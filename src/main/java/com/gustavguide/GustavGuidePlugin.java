@@ -973,6 +973,51 @@ public class GustavGuidePlugin extends Plugin
 		}
 
 		@Override
+		public void fastForward()
+		{
+			clientThread.invoke(() ->
+			{
+				if (progression == null)
+				{
+					return;
+				}
+				java.util.List<String> ids = progression.fastForwardCandidates();
+				javax.swing.SwingUtilities.invokeLater(() ->
+				{
+					if (ids.isEmpty())
+					{
+						javax.swing.JOptionPane.showMessageDialog(panel,
+							"Nothing to fast-forward — no earlier flavour steps sit behind a completed gate.",
+							"Fast-forward", javax.swing.JOptionPane.INFORMATION_MESSAGE);
+						return;
+					}
+					int ok = javax.swing.JOptionPane.showConfirmDialog(panel,
+						"Mark " + ids.size() + " earlier step(s) as done?\n"
+							+ "These are note/travel steps sitting before progress your account already has.\n"
+							+ "Undo takes back one step at a time if this goes too far.",
+						"Fast-forward", javax.swing.JOptionPane.OK_CANCEL_OPTION);
+					if (ok != javax.swing.JOptionPane.OK_OPTION)
+					{
+						return;
+					}
+					clientThread.invoke(() ->
+					{
+						if (progression == null)
+						{
+							return;
+						}
+						for (String id : ids)
+						{
+							progression.markComplete(id);
+						}
+						persist();
+						recompute(true);
+					});
+				});
+			});
+		}
+
+		@Override
 		public String userNote()
 		{
 			if (progression == null || accountKey == null || loadedGuideId == null)

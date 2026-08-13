@@ -192,6 +192,42 @@ public class Progression
 	}
 
 	/**
+	 * The flavour steps a USER-CONFIRMED fast-forward would mark complete: every applicable manual step
+	 * with no interaction target sitting before the furthest completed REAL gate (a non-manual,
+	 * non-arrival condition — a quest done, a level reached).
+	 *
+	 * <p>This is exactly the fold {@link #foldManualBehindMilestones} deliberately refuses to do on its
+	 * own: real gates satisfy OUT OF ORDER (a quest finished long ago, referenced deep in the route), so
+	 * folding behind them automatically wiped guides — the "162 steps complete" bug. It becomes safe
+	 * only as an explicit user action: the candidates are counted and shown first, nothing happens
+	 * without confirmation, and {@link #stepBack} undoes a mistake. Never call this automatically.</p>
+	 */
+	public List<String> fastForwardCandidates()
+	{
+		List<RouteStep> steps = route.getSteps();
+		int furthestGate = -1;
+		for (int i = 0; i < steps.size(); i++)
+		{
+			RouteStep s = steps.get(i);
+			if (s.appliesTo(mode) && !s.isManual() && !s.isPositionTriggered() && completed.contains(s.getId()))
+			{
+				furthestGate = i;
+			}
+		}
+		List<String> out = new java.util.ArrayList<>();
+		for (int i = 0; i < furthestGate; i++)
+		{
+			RouteStep s = steps.get(i);
+			if (s.appliesTo(mode) && s.isManual() && !s.hasInteractionTarget()
+				&& !completed.contains(s.getId()) && !suppressed.contains(s.getId()))
+			{
+				out.add(s.getId());
+			}
+		}
+		return out;
+	}
+
+	/**
 	 * Full pass used on login / mode-change so an existing account resumes at the right place.
 	 * Identical to {@link #process} (every applicable step is evaluated); kept as a named entry
 	 * point for readability at those call sites.

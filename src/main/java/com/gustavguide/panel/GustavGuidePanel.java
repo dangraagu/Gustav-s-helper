@@ -62,6 +62,7 @@ public class GustavGuidePanel extends PluginPanel
 	private final JButton noteButton = new JButton("✎ Note");
 	private final JButton reportButton = new JButton("⚑ Report wrong / missing info");
 	private final JButton resetButton = new JButton("Reset progress");
+	private final JButton syncButton = new JButton("⏩ Sync");
 	private String reportBody;
 	private String wikiUrl;
 
@@ -218,9 +219,12 @@ public class GustavGuidePanel extends PluginPanel
 		wikiRow.add(wikiButton);
 		wikiRow.add(noteButton);
 		south.add(wikiRow);
-		south.add(resetButton);
+		JPanel bottomRow = new JPanel(new GridLayout(1, 2, 4, 0));
+		bottomRow.add(resetButton);
+		bottomRow.add(syncButton);
+		south.add(bottomRow);
 
-		for (JButton b : new JButton[]{doneButton, skipButton, undoButton, wikiButton, noteButton, resetButton, reportButton})
+		for (JButton b : new JButton[]{doneButton, skipButton, undoButton, wikiButton, noteButton, resetButton, syncButton, reportButton})
 		{
 			b.setFont(FontManager.getRunescapeFont());   // legible, matches the client UI
 			b.setMargin(new Insets(2, 2, 2, 2));         // don't let padding squeeze the label out
@@ -274,6 +278,9 @@ public class GustavGuidePanel extends PluginPanel
 		skipButton.addActionListener(e -> actions.skipCurrent());
 		undoButton.addActionListener(e -> actions.undoLast());
 		reportButton.addActionListener(e -> promptAndSendReport());
+		syncButton.setToolTipText("Mark earlier note/travel steps done when your account already has the "
+			+ "progress behind them - shows the count and asks first");
+		syncButton.addActionListener(e -> actions.fastForward());
 		noteButton.addActionListener(e ->
 		{
 			String existing = actions.userNote();
