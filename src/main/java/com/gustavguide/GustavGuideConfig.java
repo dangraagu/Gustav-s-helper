@@ -199,6 +199,18 @@ public interface GustavGuideConfig extends Config
 		return true;
 	}
 
+	@ConfigItem(
+		keyName = "showStepOverlay",
+		name = "On-screen step text",
+		description = "Show the current step's text as an on-screen panel, so the sidebar can stay closed.",
+		section = overlaySection,
+		position = 8
+	)
+	default boolean showStepOverlay()
+	{
+		return true;
+	}
+
 	@Alpha
 	@ConfigItem(
 		keyName = "highlightColor",

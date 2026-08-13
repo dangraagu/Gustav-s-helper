@@ -125,6 +125,8 @@ public class GustavGuidePlugin extends Plugin
 	@Inject
 	private DialogueOverlay dialogueOverlay;
 	@Inject
+	private com.gustavguide.overlay.StepTextOverlay stepTextOverlay;
+	@Inject
 	private ItemManager itemManager;
 	@Inject
 	private WorldMapPointManager worldMapPointManager;
@@ -220,6 +222,7 @@ public class GustavGuidePlugin extends Plugin
 		overlayManager.add(minimapOverlay);
 		overlayManager.add(itemOverlay);
 		overlayManager.add(dialogueOverlay);
+		overlayManager.add(stepTextOverlay);
 
 		if (client.getGameState() == GameState.LOGGED_IN)
 		{
@@ -247,6 +250,7 @@ public class GustavGuidePlugin extends Plugin
 		overlayManager.remove(minimapOverlay);
 		overlayManager.remove(itemOverlay);
 		overlayManager.remove(dialogueOverlay);
+		overlayManager.remove(stepTextOverlay);
 		clearWorldMapPoint();
 		driveShortestPath(null); // stop pathing the Shortest Path plugin when we shut down
 		if (navButton != null)
