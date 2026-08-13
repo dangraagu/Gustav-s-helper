@@ -14,6 +14,7 @@ import java.awt.Rectangle;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
@@ -487,12 +488,23 @@ public class GustavGuidePanel extends PluginPanel
 		JScrollPane previewScroll = new JScrollPane(preview);
 		previewScroll.setPreferredSize(new Dimension(360, 150));
 
+		// Opt-in crowd-fix: standing where the step ACTUALLY happens and attaching that tile is the
+		// fastest way to correct a wrong coordinate. Off by default — a report carries no position
+		// unless the user ticks this for this one report.
+		String tile = actions.playerTile();
+		JCheckBox attachPos = new JCheckBox("Attach my position as the proposed spot"
+			+ (tile != null ? " (" + tile + ")" : ""));
+		attachPos.setEnabled(tile != null);
+
 		JPanel form = new JPanel(new BorderLayout(0, 6));
 		form.add(new JLabel("What's wrong with this step?"), BorderLayout.NORTH);
 		form.add(new JScrollPane(input), BorderLayout.CENTER);
 		JPanel south = new JPanel(new BorderLayout(0, 4));
-		south.add(new JLabel("This will be sent (no account info):"), BorderLayout.NORTH);
-		south.add(previewScroll, BorderLayout.CENTER);
+		south.add(attachPos, BorderLayout.NORTH);
+		JPanel previewBlock = new JPanel(new BorderLayout(0, 4));
+		previewBlock.add(new JLabel("This will be sent (no account info):"), BorderLayout.NORTH);
+		previewBlock.add(previewScroll, BorderLayout.CENTER);
+		south.add(previewBlock, BorderLayout.CENTER);
 		form.add(south, BorderLayout.SOUTH);
 
 		int choice = JOptionPane.showConfirmDialog(reportButton, form, "Report this step",
@@ -503,7 +515,12 @@ public class GustavGuidePanel extends PluginPanel
 		}
 		// Send EXACTLY what was previewed plus what was typed — not a rebuild, so a step that
 		// auto-completes while the dialog is open cannot change the report behind the user's back.
-		actions.reportStep(StepReport.withProblem(reportBody, input.getText()));
+		String note = input.getText();
+		if (attachPos.isSelected() && tile != null)
+		{
+			note = (note == null ? "" : note) + "\nProposed spot (player-supplied): " + tile;
+		}
+		actions.reportStep(StepReport.withProblem(reportBody, note));
 	}
 
 	/** Result of a send, surfaced to the user (called from a background thread). */

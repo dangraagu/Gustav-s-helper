@@ -945,6 +945,21 @@ public class GustavGuidePlugin extends Plugin
 		}
 
 		@Override
+		public String playerTile()
+		{
+			// Read-only snapshot for the opt-in "attach my position" report checkbox. WorldPoint is
+			// immutable and the fields are plain reads, so a Swing-thread read cannot corrupt anything;
+			// at worst it is one tick stale, which is fine for a proposed coordinate.
+			net.runelite.api.Player p = client.getLocalPlayer();
+			if (p == null)
+			{
+				return null;
+			}
+			net.runelite.api.coords.WorldPoint w = p.getWorldLocation();
+			return w == null ? null : w.getX() + ", " + w.getY() + ", plane " + w.getPlane();
+		}
+
+		@Override
 		public void resetProgress()
 		{
 			clientThread.invoke(() ->

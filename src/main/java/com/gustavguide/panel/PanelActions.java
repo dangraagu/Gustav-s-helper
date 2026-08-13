@@ -22,6 +22,13 @@ public interface PanelActions
 	/** Send a "this step is wrong / something is missing" report — the exact body the user was shown. */
 	void reportStep(String reportBody);
 
+	/**
+	 * The player's current tile as "x, y, plane p", or null when not logged in. Used ONLY when the
+	 * user ticks "attach my position" on a report, so a wrong step coordinate can be fixed from the
+	 * spot the step actually happens — the report never carries a position otherwise.
+	 */
+	String playerTile();
+
 	/** Clear all saved progress for the current account. */
 	void resetProgress();
 }
