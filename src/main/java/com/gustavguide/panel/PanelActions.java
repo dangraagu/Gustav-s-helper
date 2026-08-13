@@ -29,6 +29,12 @@ public interface PanelActions
 	 */
 	String playerTile();
 
+	/** The player's own saved note for the current step, or null. */
+	String userNote();
+
+	/** Save (or clear, when blank) the player's note for the current step. */
+	void setUserNote(String note);
+
 	/** Clear all saved progress for the current account. */
 	void resetProgress();
 }

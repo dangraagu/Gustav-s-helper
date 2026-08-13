@@ -768,7 +768,16 @@ public class GustavGuidePlugin extends Plugin
 		// Recompute the teleport hint on every panel refresh (cheap) so it self-corrects on a mid-step
 		// spellbook/level change; the Shortest Path DRIVE is posted only on step change (below).
 		computeTeleportHint(progression == null ? null : progression.getCurrentStep());
-		presenter.showProgress(progression, route, ctx, teleportHint);
+		String userNote = null;
+		if (progression != null && accountKey != null && loadedGuideId != null)
+		{
+			RouteStep cur = progression.getCurrentStep();
+			if (cur != null)
+			{
+				userNote = storage.loadNotes(loadedGuideId, accountKey).get(cur.getId());
+			}
+		}
+		presenter.showProgress(progression, route, ctx, teleportHint, userNote);
 	}
 
 	// ---- Teleport hint + Shortest Path drive --------------------------------
@@ -961,6 +970,35 @@ public class GustavGuidePlugin extends Plugin
 			}
 			net.runelite.api.coords.WorldPoint w = p.getWorldLocation();
 			return w == null ? null : w.getX() + ", " + w.getY() + ", plane " + w.getPlane();
+		}
+
+		@Override
+		public String userNote()
+		{
+			if (progression == null || accountKey == null || loadedGuideId == null)
+			{
+				return null;
+			}
+			RouteStep c = progression.getCurrentStep();
+			return c == null ? null : storage.loadNotes(loadedGuideId, accountKey).get(c.getId());
+		}
+
+		@Override
+		public void setUserNote(String note)
+		{
+			clientThread.invoke(() ->
+			{
+				if (progression == null || accountKey == null || loadedGuideId == null)
+				{
+					return;
+				}
+				RouteStep c = progression.getCurrentStep();
+				if (c != null)
+				{
+					storage.saveNote(loadedGuideId, accountKey, c.getId(), note);
+					recompute(true);
+				}
+			});
 		}
 
 		@Override

@@ -50,6 +50,7 @@ public class GustavGuidePanel extends PluginPanel
 	private final JLabel titleLabel = new JLabel();
 	private final JTextArea textArea = new JTextArea();
 	private final JLabel noteLabel = new JLabel();
+	private final JLabel userNoteLabel = new JLabel();
 	private final JLabel teleportLabel = new JLabel();
 	private final JPanel reqContainer = new JPanel();
 	private final JPanel upcomingContainer = new JPanel();
@@ -58,6 +59,7 @@ public class GustavGuidePanel extends PluginPanel
 	private final JButton skipButton = new JButton("Skip");
 	private final JButton undoButton = new JButton("Undo");
 	private final JButton wikiButton = new JButton("Wiki");
+	private final JButton noteButton = new JButton("✎ Note");
 	private final JButton reportButton = new JButton("⚑ Report wrong / missing info");
 	private final JButton resetButton = new JButton("Reset progress");
 	private String reportBody;
@@ -179,6 +181,11 @@ public class GustavGuidePanel extends PluginPanel
 		center.add(titleLabel);
 		center.add(textArea);
 		center.add(noteLabel);
+		userNoteLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		userNoteLabel.setForeground(ColorScheme.BRAND_ORANGE.brighter());
+		userNoteLabel.setFont(FontManager.getRunescapeSmallFont());
+		userNoteLabel.setBorder(BorderFactory.createEmptyBorder(4, 0, 0, 0));
+		center.add(userNoteLabel);
 		center.add(teleportLabel);
 		center.add(reqContainer);
 		center.add(upcomingHeader);
@@ -207,10 +214,13 @@ public class GustavGuidePanel extends PluginPanel
 		south.setBorder(BorderFactory.createEmptyBorder(8, 0, 0, 0));
 		south.add(reportButton);   // above the action row, per the "report what & where" flow
 		south.add(primary);
-		south.add(wikiButton);
+		JPanel wikiRow = new JPanel(new GridLayout(1, 2, 4, 0));
+		wikiRow.add(wikiButton);
+		wikiRow.add(noteButton);
+		south.add(wikiRow);
 		south.add(resetButton);
 
-		for (JButton b : new JButton[]{doneButton, skipButton, undoButton, wikiButton, resetButton, reportButton})
+		for (JButton b : new JButton[]{doneButton, skipButton, undoButton, wikiButton, noteButton, resetButton, reportButton})
 		{
 			b.setFont(FontManager.getRunescapeFont());   // legible, matches the client UI
 			b.setMargin(new Insets(2, 2, 2, 2));         // don't let padding squeeze the label out
@@ -264,6 +274,17 @@ public class GustavGuidePanel extends PluginPanel
 		skipButton.addActionListener(e -> actions.skipCurrent());
 		undoButton.addActionListener(e -> actions.undoLast());
 		reportButton.addActionListener(e -> promptAndSendReport());
+		noteButton.addActionListener(e ->
+		{
+			String existing = actions.userNote();
+			String note = (String) JOptionPane.showInputDialog(noteButton,
+				"Your note for this step (blank removes it):", "Step note",
+				JOptionPane.PLAIN_MESSAGE, null, null, existing == null ? "" : existing);
+			if (note != null)   // null = cancelled; empty = deliberate clear
+			{
+				actions.setUserNote(note);
+			}
+		});
 		resetButton.addActionListener(e ->
 		{
 			// Confirm first — a stray click otherwise wipes every completed step + the ledger for this
@@ -325,6 +346,7 @@ public class GustavGuidePanel extends PluginPanel
 		boolean hasCurrent = m.loggedIn && !m.finished && !m.routeEmpty;
 
 		noteLabel.setVisible(false);
+		userNoteLabel.setVisible(false);
 		teleportLabel.setVisible(false);
 		if (m.finished && !m.routeEmpty && m.loggedIn)
 		{
@@ -348,6 +370,11 @@ public class GustavGuidePanel extends PluginPanel
 			{
 				noteLabel.setText(wrap("💡 " + escape(m.note)));
 				noteLabel.setVisible(true);
+			}
+			if (m.userNote != null && !m.userNote.isEmpty())
+			{
+				userNoteLabel.setText(wrap("✎ " + escape(m.userNote)));
+				userNoteLabel.setVisible(true);
 			}
 			if (m.teleportHint != null && !m.teleportHint.isEmpty())
 			{
@@ -384,6 +411,7 @@ public class GustavGuidePanel extends PluginPanel
 		undoButton.setEnabled(m.loggedIn && !m.routeEmpty && m.completed > 0);
 		reportButton.setEnabled(m.canReport && hasCurrent);
 		wikiButton.setEnabled(hasCurrent && m.wikiUrl != null && !m.wikiUrl.isEmpty());
+		noteButton.setEnabled(hasCurrent);
 		upcomingHeader.setVisible(hasCurrent && !m.upcoming.isEmpty());
 
 		revalidate();

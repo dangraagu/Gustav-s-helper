@@ -107,6 +107,72 @@ class GuideStorage
 		ledger.clearSnapshots();
 	}
 
+	// Per-step user notes. One config value per guide+account; step ids never contain '=' or ',' and
+	// the note text is URL-encoded, so "id=encoded,id=encoded" round-trips any text the user types.
+
+	private static String notesKey(String guideId, String accountKey)
+	{
+		return "notes_" + guideId + "_" + accountKey;
+	}
+
+	void saveNote(String guideId, String accountKey, String stepId, String note)
+	{
+		java.util.Map<String, String> notes = loadNotes(guideId, accountKey);
+		if (note == null || note.trim().isEmpty())
+		{
+			notes.remove(stepId);
+		}
+		else
+		{
+			notes.put(stepId, note.trim());
+		}
+		StringBuilder sb = new StringBuilder();
+		for (java.util.Map.Entry<String, String> e : notes.entrySet())
+		{
+			if (sb.length() > 0)
+			{
+				sb.append(',');
+			}
+			try
+			{
+				sb.append(e.getKey()).append('=')
+					.append(java.net.URLEncoder.encode(e.getValue(), "UTF-8"));
+			}
+			catch (java.io.UnsupportedEncodingException impossible)
+			{
+				// UTF-8 is guaranteed by the JVM spec.
+			}
+		}
+		configManager.setConfiguration(GustavGuideConfig.GROUP, notesKey(guideId, accountKey), sb.toString());
+	}
+
+	java.util.Map<String, String> loadNotes(String guideId, String accountKey)
+	{
+		java.util.Map<String, String> out = new java.util.LinkedHashMap<>();
+		String value = configManager.getConfiguration(GustavGuideConfig.GROUP, notesKey(guideId, accountKey));
+		if (value == null || value.isEmpty())
+		{
+			return out;
+		}
+		for (String part : value.split(","))
+		{
+			int eq = part.indexOf('=');
+			if (eq <= 0)
+			{
+				continue;
+			}
+			try
+			{
+				out.put(part.substring(0, eq), java.net.URLDecoder.decode(part.substring(eq + 1), "UTF-8"));
+			}
+			catch (Exception ignored)
+			{
+				// a malformed entry loses only itself, never the whole map
+			}
+		}
+		return out;
+	}
+
 	// Birdhouse-run reminder state is per ACCOUNT (not per guide): the run cycle is a property of the
 	// account's real birdhouses, whichever guide is selected.
 

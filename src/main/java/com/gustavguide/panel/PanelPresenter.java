@@ -73,6 +73,12 @@ public class PanelPresenter
 
 	public void showProgress(Progression progression, Route route, ConditionContext ctx, String teleportHint)
 	{
+		showProgress(progression, route, ctx, teleportHint, null);
+	}
+
+	public void showProgress(Progression progression, Route route, ConditionContext ctx, String teleportHint,
+		String userNote)
+	{
 		if (panel == null || progression == null || route == null)
 		{
 			return;
@@ -102,6 +108,7 @@ public class PanelPresenter
 			m.upcoming = upcomingTitles(progression, route, current, UPCOMING_COUNT);
 			m.teleportHint = teleportHint;
 			m.completesOn = current.getComplete() == null ? null : current.getComplete().describe();
+			m.userNote = userNote;
 			m.stepNumber = applicableIndexOf(progression, route, current);
 			m.reportBody = StepReport.details(guideId, guideName, current, m.stepNumber, m.total,
 				pluginVersion);

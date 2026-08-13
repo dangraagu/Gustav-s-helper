@@ -44,6 +44,7 @@ public class PanelModel
 	public String note;          // optional tip shown under the step text (e.g. a skill-training method)
 	public String teleportHint;  // "Fastest: <teleport>" for the current step, or null
 	public String completesOn;   // human description of the auto-complete condition, or null when manual
+	public String userNote;      // the player's own note for the current step, or null
 	public String wikiUrl;
 
 	public List<ReqView> requirements = new ArrayList<>();
