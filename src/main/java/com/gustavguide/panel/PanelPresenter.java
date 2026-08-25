@@ -36,6 +36,7 @@ public class PanelPresenter
 	private String guideId = "";
 	private String guideName = "";
 	private String pluginVersion = "";
+	private boolean reportsEnabled;
 
 	/** Which guide is loaded — carried into a step report so we know which route to fix. */
 	public void setGuide(String guideId, String guideName)
@@ -47,6 +48,12 @@ public class PanelPresenter
 	public void setPluginVersion(String version)
 	{
 		this.pluginVersion = version == null ? "" : version;
+	}
+
+	/** Mirrors the enableStepReports config toggle, so the report button greys out when reports are off. */
+	public void setReportsEnabled(boolean enabled)
+	{
+		this.reportsEnabled = enabled;
 	}
 
 	public PanelPresenter(GustavGuidePanel panel, ItemManager itemManager)
@@ -112,7 +119,7 @@ public class PanelPresenter
 			m.stepNumber = applicableIndexOf(progression, route, current);
 			m.reportBody = StepReport.details(guideId, guideName, current, m.stepNumber, m.total,
 				pluginVersion);
-			m.canReport = true;
+			m.canReport = reportsEnabled;
 		}
 		panel.update(m);
 	}

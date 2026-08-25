@@ -209,6 +209,7 @@ public class GustavGuidePlugin extends Plugin
 		// an empty guide until the user switches guide.
 		presenter.setGuide(config.guide().getId(), config.guide().toString());
 		presenter.setPluginVersion(pluginVersion());
+		presenter.setReportsEnabled(config.enableStepReports());
 		pluginIcon = ImageUtil.loadImageResource(getClass(), "/com/gustavguide/icon.png");
 		navButton = NavigationButton.builder()
 			.tooltip("Gustav's Helper")
@@ -448,6 +449,12 @@ public class GustavGuidePlugin extends Plugin
 	{
 		if (!GustavGuideConfig.GROUP.equals(e.getGroup()) || progression == null)
 		{
+			return;
+		}
+		if ("enableStepReports".equals(e.getKey()))
+		{
+			presenter.setReportsEnabled(config.enableStepReports());
+			clientThread.invoke(() -> recompute(true));   // repaint so the report button greys/ungreys now
 			return;
 		}
 		if ("guide".equals(e.getKey()))
@@ -900,6 +907,21 @@ public class GustavGuidePlugin extends Plugin
 
 	// ---- Panel actions (Swing thread -> client thread) ----------------------
 
+	/**
+	 * The ONLY method in the plugin that performs the opt-in network call (Plugin Hub requirement:
+	 * every opt-in networking call lives in a dedicated method whose body is exactly the config
+	 * check and the call). {@code enableStepReports} defaults to false, so no report can ever leave
+	 * the client unless the user enabled the toggle and accepted its warning dialog.
+	 */
+	private void sendStepReport(String endpoint, String reportBody)
+	{
+		if (!config.enableStepReports())
+		{
+			return;
+		}
+		reportSender.send(endpoint, reportBody, panel::showReportResult);
+	}
+
 	private class Actions implements PanelActions
 	{
 		@Override
@@ -954,7 +976,7 @@ public class GustavGuidePlugin extends Plugin
 			String configured = config.reportEndpoint();
 			String endpoint = (configured == null || configured.trim().isEmpty())
 				? DEFAULT_REPORT_ENDPOINT : configured;
-			reportSender.send(endpoint, reportBody, panel::showReportResult);
+			sendStepReport(endpoint, reportBody);
 		}
 
 		@Override

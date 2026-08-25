@@ -264,6 +264,23 @@ public interface GustavGuideConfig extends Config
 		return 4;
 	}
 
+	// Plugin Hub requirement: networking to a 3rd-party server must be ENTIRELY opt-in — a boolean
+	// that defaults to false and fully disables the calls, with this exact warning text. The warning
+	// makes RuneLite show a confirmation dialog before the toggle can be enabled.
+	@ConfigItem(
+		keyName = "enableStepReports",
+		name = "Enable step reports",
+		description = "Allow the \"Report wrong / missing info\" button to send step reports. Nothing is "
+			+ "ever sent unless this is on AND you press the button and confirm the previewed text.",
+		warning = "This feature submits your IP address and various account data to a 3rd-party server "
+			+ "not controlled or verified by Runelite developers.",
+		position = 89
+	)
+	default boolean enableStepReports()
+	{
+		return false;
+	}
+
 	@ConfigItem(
 		keyName = "reportEndpoint",
 		name = "Report endpoint (advanced)",
