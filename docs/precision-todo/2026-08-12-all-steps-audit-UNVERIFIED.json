@@ -1,5 +1,5 @@
 {
- "_status": "UNVERIFIED and now MEASURABLY UNRELIABLE. Verify stage died on a spend limit. Two classes were since checked deterministically: false_completion_risk claimed 178, real count 9 (tools/check_dup_arrivals.py); wrong_npc/missing_npc claimed 60, of which 40 are provably false (current id already matches qh_entities.json). Treat every remaining finding as a lead, never a fix.",
+ "_status": "RESOLVED 2026-09-05. Every class dispositioned: false_completion_risk 178 claimed / 9 real (deterministic checker, accepted as product decisions); wrong_npc 60 claimed / 40 provably false, rest unverifiable; wrong_coord 125 high-confidence -> 123 still live -> 3-agent adversarial re-derivation -> 117 CONFIRMED+grounded and APPLIED in commit 68a0f9f, 2 refuted (guide was right), 4 unsupported (correct fix = remove the coordinate; POH/instance steps). Remaining kinds (multi_action, missed_autocomplete, other, missing_*) = low-value leads, no action planned.",
  "steps_reviewed": 6377,
  "findings": [
   {
