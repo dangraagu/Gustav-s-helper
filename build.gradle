@@ -91,7 +91,11 @@ tasks.register('pythonToolTests') {
 			logger.lifecycle('pythonToolTests: no Python interpreter found on PATH — skipping')
 			return
 		}
-		def suites = fileTree('tools').matching { include 'test_*.py'; include 'check_*.py' }.files.sort { it.name }
+		// check_wiki_drift.py is EXCLUDED: it fetches wiki pages over the network, which has no place
+		// in a local build gate - the weekly scrape-drift Action runs it instead.
+		def suites = fileTree('tools').matching {
+			include 'test_*.py'; include 'check_*.py'; exclude 'check_wiki_drift.py'
+		}.files.sort { it.name }
 		def failed = []
 		suites.each { suite ->
 			def result = exec {

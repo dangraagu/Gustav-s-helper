@@ -32,13 +32,19 @@ jobs:
           set -e
           cp -r src/main/resources/com/gustavguide/data/guides/osiris-ironman /tmp/bundled
           python tools/scrape_guide.py
-          if diff -r /tmp/bundled src/main/resources/com/gustavguide/data/guides/osiris-ironman > /tmp/drift.txt 2>&1; then
-            echo "drift=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "drift=true" >> "$GITHUB_OUTPUT"
-            head -c 6000 /tmp/drift.txt > /tmp/drift-head.txt
+          : > /tmp/drift-head.txt
+          DRIFT=false
+          if ! diff -r /tmp/bundled src/main/resources/com/gustavguide/data/guides/osiris-ironman > /tmp/drift.txt 2>&1; then
+            DRIFT=true
+            { echo "osiris-ironman re-scrape diff:"; head -c 5000 /tmp/drift.txt; } >> /tmp/drift-head.txt
           fi
           git checkout -- src/main/resources/com/gustavguide/data/guides/osiris-ironman
+          # Wiki-sourced guides: hash upstream pages against the baseline from the last scrape.
+          if ! python tools/check_wiki_drift.py > /tmp/wiki-drift.txt 2>&1; then
+            DRIFT=true
+            { echo; echo "wiki-sourced guide drift:"; head -c 1500 /tmp/wiki-drift.txt; } >> /tmp/drift-head.txt
+          fi
+          echo "drift=$DRIFT" >> "$GITHUB_OUTPUT"
 
       - name: Open or update the drift issue
         if: steps.diff.outputs.drift == 'true'
@@ -46,11 +52,13 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const body = 'Weekly scrape-drift check: ironman.guide no longer matches the bundled '
-              + 'osiris-ironman data. Re-scrape locally with `py -3 tools/scrape_guide.py`, run the '
-              + 'gates (`gradlew check` + the risk diff), and ship if clean.\n\n```diff\n'
+            const body = 'Weekly scrape-drift check: a bundled guide no longer matches its upstream '
+              + 'source. Re-scrape locally (`py -3 tools/scrape_guide.py` for osiris, '
+              + '`py -3 tools/scrape_wiki_guide.py` for a wiki guide, then re-seed with '
+              + '`py -3 tools/check_wiki_drift.py --seed`), run the gates (`gradlew check` + the '
+              + 'risk diff), and ship if clean.\n\n```\n'
               + fs.readFileSync('/tmp/drift-head.txt', 'utf8') + '\n```';
-            const title = 'osiris-ironman has drifted from ironman.guide';
+            const title = 'A bundled guide has drifted from its upstream source';
             const open = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo,
               state: 'open', labels: 'scrape-drift',

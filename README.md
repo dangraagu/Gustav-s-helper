@@ -58,8 +58,28 @@ core; the 575-step content is transcribed from the guide and tightened over time
 ## Config
 
 Ironman mode (Regular / HCIM / UIM / GIM) filters mode-specific steps; toggles for
-auto-advance, world arrow, minimap arrow, object/item highlight, arrow colour, and
-hide-completed.
+auto-advance, world arrow, minimap arrow, object/item highlight, arrow colour,
+hide-completed, and the on-screen step text overlay.
+
+### Step reports are opt-in (default OFF)
+
+The "Report wrong / missing info" button does nothing until you enable
+**Enable step reports** in the plugin config and accept RuneLite's warning dialog —
+a Plugin Hub requirement for any plugin that talks to a third-party server. Once
+enabled, a report sends only guide data (guide, step id, step text, the tile and ids
+the plugin pointed at) plus what you type; never your name, account, or position —
+unless you tick **Attach my position** on a specific report, which adds your current
+tile as the proposed fix. Standing where the step actually happens and attaching your
+position is the single most useful report you can send: maintainers apply it directly
+with `tools/apply_report.py`.
+
+### Other quality-of-life
+
+- **✎ Note** — your own note on the current step, saved per guide and account.
+- **⏩ Sync** — offers to mark earlier note/travel steps done when your account
+  already has the progress behind them; shows the count and asks first, Undo takes
+  it back.
+- Hover the step text to see exactly what will auto-complete it.
 
 ## Repo layout
 
