@@ -7,12 +7,7 @@
       "id": "smithing-and-renovations-001",
       "title": "Retrieve your cash, buy a few …",
       "text": "Retrieve your cash, buy a few teleport runes. Again, not too many",
-      "manual": true,
-      "world": [
-        3315,
-        3182,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "smithing-and-renovations-002a",
@@ -24,12 +19,7 @@
       "id": "smithing-and-renovations-002b",
       "title": "finish getting your 5000 Anima-infused bark …",
       "text": "finish getting your 5000 Anima-infused bark if you have not gotten both of those already",
-      "manual": true,
-      "world": [
-        3315,
-        3182,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "smithing-and-renovations-003",
@@ -51,12 +41,7 @@
           }
         ]
       },
-      "item": 5376,
-      "world": [
-        3315,
-        3182,
-        0
-      ]
+      "item": 5376
     },
     {
       "id": "smithing-and-renovations-004",
@@ -82,8 +67,8 @@
       "text": "Buy a Chronicle",
       "manual": true,
       "world": [
-        3216,
-        3416,
+        3081,
+        3246,
         0
       ]
     },
@@ -92,10 +77,9 @@
       "title": "make sure to have some charges",
       "text": "make sure to have some charges",
       "manual": true,
-      "object": 2859,
       "world": [
-        2970,
-        3210,
+        3081,
+        3246,
         0
       ]
     },
@@ -157,8 +141,8 @@
       "manual": true,
       "object": 24009,
       "world": [
-        3227,
-        3257,
+        3360,
+        3151,
         0
       ]
     },
@@ -329,8 +313,8 @@
       "text": "Make 7 steel bars from the Blast Furnace. — Remember the minigame teleport, but you can also take the minecart from the Grand Exchange",
       "manual": true,
       "world": [
-        3165,
-        3490,
+        2930,
+        10197,
         0
       ]
     },

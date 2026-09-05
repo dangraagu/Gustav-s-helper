@@ -526,8 +526,8 @@
       "text": "Cross Rope Swing to Moss Giant Island [Karamja Easy Diary]",
       "manual": true,
       "world": [
-        2843,
-        3070,
+        2708,
+        3209,
         0
       ]
     },
@@ -537,8 +537,8 @@
       "text": "Mine a Gold Ore to complete Karamja Easy Diary",
       "manual": true,
       "world": [
-        2745,
-        3150,
+        2731,
+        3225,
         0
       ]
     },
@@ -771,8 +771,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        3229,
+        3437,
         0
       ]
     },
@@ -782,8 +782,8 @@
       "text": "Smith a Bullseye Lantern",
       "manual": true,
       "world": [
-        2652,
-        3164,
+        3228,
+        3436,
         0
       ]
     },
@@ -963,8 +963,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2968,
+        9811,
         0
       ]
     },
@@ -973,14 +973,14 @@
       "title": "Teleport Anywhere to bank",
       "text": "Teleport Anywhere to bank",
       "world": [
-        2852,
-        2955,
+        3015,
+        3357,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 2852,
-        "y": 2955,
+        "x": 3015,
+        "y": 3357,
         "z": 0,
         "radius": 8
       }
@@ -991,8 +991,8 @@
       "text": "Withdraw: Coins",
       "manual": true,
       "world": [
-        2852,
-        2955,
+        3015,
+        3357,
         0
       ]
     },
@@ -1756,8 +1756,8 @@
       "manual": true,
       "object": 410,
       "world": [
-        2925,
-        3483,
+        2997,
+        3373,
         0
       ]
     },
@@ -2282,8 +2282,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2701,
-        3408,
+        2553,
+        3570,
         0
       ]
     },
@@ -3415,8 +3415,8 @@
       "manual": true,
       "object": 26761,
       "world": [
-        3090,
-        3475,
+        2637,
+        9819,
         0
       ]
     },
@@ -3427,8 +3427,8 @@
       "manual": true,
       "object": 26761,
       "world": [
-        3090,
-        3475,
+        2671,
+        9804,
         0
       ]
     },
@@ -3439,8 +3439,8 @@
       "manual": true,
       "object": 26761,
       "world": [
-        3090,
-        3475,
+        2671,
+        9804,
         0
       ]
     },
@@ -3450,8 +3450,8 @@
       "text": "Pick up your items from the ground and continue the quest entering the south gate",
       "manual": true,
       "world": [
-        3090,
-        3475,
+        2671,
+        9804,
         0
       ]
     },
@@ -3461,8 +3461,8 @@
       "text": "Search the chests for Ice Arrows only need a few you won’t use them since you'll be using knives",
       "manual": true,
       "world": [
-        3090,
-        3475,
+        2671,
+        9804,
         0
       ]
     },
@@ -3470,7 +3470,13 @@
       "id": "e3-228",
       "title": "Return back to the entry room …",
       "text": "Return back to the entry room when you have some ice arrows",
-      "manual": true
+      "manual": true,
+      "object": 89,
+      "world": [
+        2662,
+        9803,
+        0
+      ]
     },
     {
       "id": "e3-229",
@@ -3479,8 +3485,8 @@
       "manual": true,
       "object": 26761,
       "world": [
-        3090,
-        3475,
+        2665,
+        9855,
         0
       ]
     },
@@ -3491,8 +3497,8 @@
       "manual": true,
       "item": 1097,
       "world": [
-        3090,
-        3475,
+        2665,
+        9855,
         0
       ]
     },
@@ -3500,7 +3506,13 @@
       "id": "e3-231",
       "title": "Try to enter the far north …",
       "text": "Try to enter the far north door. Be prepared to fight Lesarkus, kill him using your knives",
-      "manual": true
+      "manual": true,
+      "object": 93,
+      "world": [
+        2646,
+        9870,
+        0
+      ]
     },
     {
       "id": "e3-232",
@@ -4028,8 +4040,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3093,
-        3357,
+        3618,
+        3526,
         0
       ]
     },
@@ -4040,8 +4052,8 @@
       "manual": true,
       "npc": 3005,
       "world": [
-        3791,
-        3559,
+        3660,
+        3508,
         0
       ]
     },
@@ -4068,8 +4080,8 @@
       "manual": true,
       "npc": 3005,
       "world": [
-        3791,
-        3559,
+        3692,
+        3468,
         0
       ]
     },
@@ -4079,8 +4091,8 @@
       "text": "deposit all",
       "manual": true,
       "world": [
-        3791,
-        3559,
+        3692,
+        3468,
         0
       ]
     },
@@ -4118,8 +4130,8 @@
       "manual": true,
       "npc": 3005,
       "world": [
-        3791,
-        3559,
+        3679,
+        3486,
         0
       ]
     },
@@ -4143,7 +4155,12 @@
           }
         ]
       },
-      "item": 1925
+      "item": 1925,
+      "world": [
+        3659,
+        3477,
+        0
+      ]
     },
     {
       "id": "e3-273",
@@ -4309,8 +4326,8 @@
       "text": "Return to the farm",
       "manual": true,
       "world": [
-        3477,
-        3497,
+        3618,
+        3526,
         0
       ]
     },
@@ -4324,8 +4341,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3477,
-        3497,
+        3618,
+        3526,
         0
       ]
     },
@@ -4773,8 +4790,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3003,
-        3435,
+        3087,
+        3415,
         0
       ]
     },
@@ -4856,8 +4873,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3093,
-        3357,
+        3052,
+        3490,
         0
       ]
     },

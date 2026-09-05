@@ -1361,8 +1361,8 @@
       "text": "Complete the Barcrawl at Musa Point",
       "manual": true,
       "world": [
-        2544,
-        3568,
+        2925,
+        3145,
         0
       ]
     },
@@ -3784,8 +3784,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2763,
-        3513,
+        3013,
+        3247,
         0
       ]
     },
@@ -4586,8 +4586,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3093,
-        3357,
+        3490,
+        3501,
         0
       ]
     },
@@ -4816,8 +4816,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        3229,
+        3204,
         0
       ]
     },
@@ -4833,8 +4833,8 @@
       "text": "Take as many bones as possible & bury to replace with better items",
       "manual": true,
       "world": [
-        2836,
-        2983,
+        3229,
+        3204,
         0
       ]
     },
@@ -4844,8 +4844,8 @@
       "text": "Take anything you think is useful (Grimy Herbs)",
       "manual": true,
       "world": [
-        2836,
-        2983,
+        3229,
+        3204,
         0
       ]
     },
@@ -4855,8 +4855,8 @@
       "text": "Take Earth Talisman if you get it",
       "manual": true,
       "world": [
-        2836,
-        2983,
+        3229,
+        3204,
         0
       ]
     },
@@ -4882,9 +4882,9 @@
       },
       "item": 233,
       "world": [
-        2852,
-        2955,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
@@ -5460,8 +5460,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2516,
-        3865,
+        3236,
+        3425,
         0
       ]
     },
@@ -5659,8 +5659,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        3171,
+        9619,
         0
       ]
     },
@@ -5732,8 +5732,8 @@
       "manual": true,
       "object": 2097,
       "world": [
-        3190,
-        3938,
+        3093,
+        3244,
         0
       ]
     },
@@ -6141,8 +6141,8 @@
       "text": "Search the shelves in Seth's farmhouse for The groats principles book",
       "manual": true,
       "world": [
-        2836,
-        2983,
+        3228,
+        3291,
         0
       ]
     },
@@ -7815,8 +7815,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2566,
-        3337,
+        2849,
+        10184,
         0
       ]
     },
@@ -7842,8 +7842,8 @@
       },
       "item": 1335,
       "world": [
-        2614,
-        3293,
+        2873,
+        10209,
         0
       ]
     },
@@ -7867,12 +7867,7 @@
           }
         ]
       },
-      "item": 1339,
-      "world": [
-        2614,
-        3293,
-        0
-      ]
+      "item": 1339
     },
     {
       "id": "e2-509",
@@ -7894,12 +7889,7 @@
           }
         ]
       },
-      "item": 1275,
-      "world": [
-        2614,
-        3293,
-        0
-      ]
+      "item": 1275
     },
     {
       "id": "e2-510",
@@ -8611,8 +8601,8 @@
       "text": "Buy Graceful Legs",
       "manual": true,
       "world": [
-        2957,
-        3388,
+        2906,
+        3537,
         0
       ]
     },
@@ -8638,8 +8628,8 @@
       },
       "item": 1523,
       "world": [
-        2957,
-        3388,
+        2870,
+        3544,
         0
       ]
     },

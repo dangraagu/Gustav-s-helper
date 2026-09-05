@@ -1,16 +1,28 @@
 {
   "_comment": "Human-verified step data. Key = EXACT step text (case-insensitive). Value = [x, y, plane] shorthand, or {\"world\": [x,y,plane], \"npc\": id, \"npcs\": [ids]} - npcs = 'any of these' highlight. Beats every automatic layer. Fill from docs/precision-todo/*.md and regenerate.",
   "get a dwarven rock cake and cool it": {
-    "world": [3008, 3471, 0],
+    "world": [
+      3008,
+      3471,
+      0
+    ],
     "npc": 3140,
     "_why": "Quest Helper RECIPE_FOR_DISASTER_DWARF: 'Kill an icefiend to cool the rock cake' — Ice Mountain. Automatic layers cannot reach it because the step text names no place."
   },
   "buy a tinderbox at the general store": {
-    "world": [2467, 3287, 0],
+    "world": [
+      2467,
+      3287,
+      0
+    ],
     "_why": "West Ardougne general store (amenities.json west ardougne). The section is 'Into Ardougne and Plague City'; without this the route anchor picks the Khazard store, a different town. Deliberately no object id: the id this step used to carry, 37332, is the Song of the Elves GRAIN outside the store, not the shop."
   },
   "buy some items from hudo for plague city quest. — dwellberries — chocolate dust — bucket of milk": {
-    "world": [2440, 3460, 0],
+    "world": [
+      2440,
+      3460,
+      0
+    ],
     "_why": "Hudo Glenfad's shop is in the Gnome Stronghold; this is the gazetteer's stronghold centre (area-level, as designed). Hudo has no entry in qh_entities/amenities, so a more precise tile cannot be grounded from repo data — do not guess one."
   },
   "do birdhouse runs every 50mins": [
@@ -2071,5 +2083,40 @@
       1
     ],
     "npc": 16
-  }
+  },
+  "talk to the high priest for holy grail": [
+    2851,
+    3350,
+    0
+  ],
+  "do sea slug, fish shrimp while doing quest for diary": [
+    2717,
+    3303,
+    0
+  ],
+  "run to zmi bank and safespot the zamorak warrior until you get a rune scimitar": [
+    2452,
+    3231,
+    0
+  ],
+  "buy a black wizards hat from betty at port sarim magic store": [
+    3014,
+    3259,
+    0
+  ],
+  "walk to port sarim": [
+    3045,
+    3234,
+    0
+  ],
+  "walk to the pub north-east of varrock": [
+    3282,
+    3497,
+    0
+  ],
+  "mine 2300 iron ore at ardy monastery, superheat them while walking to ardy ba": [
+    2606,
+    3212,
+    0
+  ]
 }

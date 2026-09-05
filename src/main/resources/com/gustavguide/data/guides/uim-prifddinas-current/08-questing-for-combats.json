@@ -388,8 +388,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        2774,
+        2658,
+        3677,
         0
       ]
     },
@@ -441,8 +441,8 @@
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Melee_training",
       "npc": 8180,
       "world": [
-        1540,
-        3545,
+        3730,
+        3807,
         0
       ]
     },
@@ -466,12 +466,7 @@
           }
         ]
       },
-      "item": 837,
-      "world": [
-        1520,
-        3589,
-        0
-      ]
+      "item": 837
     },
     {
       "id": "questing-for-combats-035",

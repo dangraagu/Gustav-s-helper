@@ -159,8 +159,8 @@
       "manual": true,
       "npc": 300,
       "world": [
-        2930,
-        9692,
+        3049,
+        9566,
         0
       ]
     },
@@ -170,8 +170,8 @@
       "text": "mine a blurite ore. — Beware of the monsters. If you need food",
       "manual": true,
       "world": [
-        2930,
-        9692,
+        3049,
+        9566,
         0
       ]
     },
@@ -492,8 +492,8 @@
       "manual": true,
       "npc": 1351,
       "world": [
-        3228,
-        3291,
+        2500,
+        3305,
         0
       ]
     },

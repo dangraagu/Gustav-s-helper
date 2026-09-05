@@ -64,8 +64,8 @@
       },
       "item": 1357,
       "world": [
-        3315,
-        3182,
+        1380,
+        3348,
         0
       ]
     },
@@ -89,12 +89,7 @@
           }
         ]
       },
-      "item": 952,
-      "world": [
-        3315,
-        3182,
-        0
-      ]
+      "item": 952
     },
     {
       "id": "wintertodt-004b",
@@ -102,8 +97,8 @@
       "text": "dig up the Clue Hunter Gloves and Clue Hunter Boots. — Destroy the boots. — Wear the gloves",
       "manual": true,
       "world": [
-        3315,
-        3182,
+        1380,
+        3348,
         0
       ]
     },
@@ -233,8 +228,8 @@
       },
       "npc": 3533,
       "world": [
-        3304,
-        3211,
+        1630,
+        3981,
         0
       ]
     },

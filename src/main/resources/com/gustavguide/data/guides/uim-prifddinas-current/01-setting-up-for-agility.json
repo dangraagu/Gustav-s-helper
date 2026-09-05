@@ -49,8 +49,8 @@
       },
       "item": 2142,
       "world": [
-        3238,
-        3199,
+        3080,
+        3427,
         0
       ]
     },
@@ -487,8 +487,8 @@
       "title": "Head over to Aldarin in Varlamore",
       "text": "Head over to Aldarin in Varlamore",
       "world": [
-        1725,
-        3128,
+        1391,
+        2935,
         0
       ],
       "complete": {
@@ -671,8 +671,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3205,
-        3208,
+        3109,
+        3160,
         0
       ]
     },
@@ -714,8 +714,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3205,
-        3208,
+        3253,
+        3402,
         0
       ]
     },
@@ -806,8 +806,8 @@
       "text": "head to the H.A.M. Hideout",
       "manual": true,
       "world": [
-        3085,
-        3251,
+        3166,
+        3252,
         0
       ]
     },
@@ -1305,8 +1305,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3216,
-        3416,
+        2905,
+        3149,
         0
       ]
     },
@@ -1346,9 +1346,9 @@
       "text": "Claim your xp lamps from Historian Minas",
       "manual": true,
       "world": [
-        2763,
-        3513,
-        0
+        3265,
+        3454,
+        1
       ]
     },
     {
@@ -1357,9 +1357,9 @@
       "text": "use them on Hitpoints",
       "manual": true,
       "world": [
-        2763,
-        3513,
-        0
+        3265,
+        3454,
+        1
       ]
     },
     {

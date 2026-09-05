@@ -858,8 +858,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2924,
-        3181,
+        2717,
+        3303,
         0
       ]
     },
@@ -1431,8 +1431,8 @@
       "manual": true,
       "npc": 3648,
       "world": [
-        2954,
-        3147,
+        3045,
+        3234,
         0
       ]
     },
@@ -2060,14 +2060,14 @@
       "title": "Walk to the pub north-east of …",
       "text": "Walk to the pub north-east of Varrock\nLocation: Varrock",
       "world": [
-        3210,
-        3448,
+        3282,
+        3497,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3210,
-        "y": 3448,
+        "x": 3282,
+        "y": 3497,
         "z": 0,
         "radius": 8
       }
@@ -2978,8 +2978,8 @@
       "manual": true,
       "npc": 1158,
       "world": [
-        3151,
-        3207,
+        2452,
+        3231,
         0
       ]
     },
@@ -4368,8 +4368,8 @@
       "item": 1017,
       "npc": 3648,
       "world": [
-        2954,
-        3147,
+        3014,
+        3259,
         0
       ]
     },

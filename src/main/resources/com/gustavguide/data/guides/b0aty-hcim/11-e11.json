@@ -306,8 +306,8 @@
       "text": "Mine a Mithril Deposit [Morytania Hard Diary]",
       "manual": true,
       "world": [
-        3304,
-        3305,
+        2806,
+        4439,
         0
       ]
     },
@@ -334,8 +334,8 @@
       "text": "Head to the Slayer Tower",
       "manual": true,
       "world": [
-        3493,
-        3488,
+        3428,
+        3537,
         0
       ]
     },
@@ -380,8 +380,8 @@
       "manual": true,
       "npc": 3005,
       "world": [
-        3791,
-        3559,
+        3679,
+        3486,
         0
       ]
     },
@@ -391,8 +391,8 @@
       "text": "Take boat to Mos Le’Harmless",
       "manual": true,
       "world": [
-        3791,
-        3559,
+        3679,
+        3486,
         0
       ]
     },
@@ -488,8 +488,8 @@
       "text": "Kill a Dust Devil wearing the Slayer Helmet [Desert Hard Diary]",
       "manual": true,
       "world": [
-        1713,
-        10020,
+        3219,
+        9370,
         0
       ]
     },
@@ -544,8 +544,8 @@
       "text": "Use Rope to Enter and peak at the end for a free world",
       "manual": true,
       "world": [
-        3269,
-        3167,
+        3228,
+        3109,
         0
       ]
     },
@@ -621,8 +621,8 @@
       "title": "Teleport to Kourend Woodland",
       "text": "Teleport to Kourend Woodland",
       "world": [
-        1630,
-        3730,
+        1554,
+        3461,
         0
       ],
       "complete": {
@@ -785,9 +785,9 @@
       "text": "Kill a Zombie in the Shayzien Crypts [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        3122,
-        9658,
-        0
+        1491,
+        9949,
+        3
       ]
     },
     {
@@ -971,8 +971,8 @@
       "text": "Buy Brimstone boots",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1282,
+        10189,
         0
       ]
     },
@@ -982,8 +982,8 @@
       "text": "kill 1 Wyrm [Kourend Hard Diary]",
       "manual": true,
       "world": [
-        1630,
-        3730,
+        1282,
+        10189,
         0
       ]
     },
@@ -992,8 +992,8 @@
       "title": "Teleport to Xerics Heart on Xerics …",
       "text": "Teleport to Xerics Heart on Xerics Talisman [Kourend Hard Diary]",
       "world": [
-        1630,
-        3730,
+        1644,
+        3673,
         0
       ],
       "complete": {

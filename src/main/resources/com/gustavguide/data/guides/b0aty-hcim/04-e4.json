@@ -1038,8 +1038,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        3402,
+        3295,
+        3275,
         0
       ]
     },
@@ -1134,8 +1134,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        3402,
+        2984,
+        9810,
         0
       ]
     },
@@ -1407,9 +1407,9 @@
       "item": 1905,
       "npc": 1316,
       "world": [
-        2954,
-        3368,
-        0
+        2906,
+        3540,
+        1
       ]
     },
     {
@@ -2680,8 +2680,8 @@
       "manual": true,
       "npc": 1429,
       "world": [
-        3000,
-        3044,
+        3305,
+        3473,
         0
       ]
     },
@@ -2689,7 +2689,12 @@
       "id": "e4-191",
       "title": "Complete A Souls Bane (Use Bronze …",
       "text": "Complete A Souls Bane (Use Bronze Knives Knives on the Confusions (Put knives on rapid))",
-      "manual": true
+      "manual": true,
+      "world": [
+        3307,
+        3454,
+        0
+      ]
     },
     {
       "id": "e4-192",
@@ -4805,8 +4810,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2997,
-        3373,
+        2891,
+        9681,
         0
       ]
     },
@@ -5568,8 +5573,8 @@
       "item": 2351,
       "npc": 6593,
       "world": [
-        3209,
-        3848,
+        3185,
+        3441,
         0
       ]
     },
@@ -6208,8 +6213,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2621,
+        9835,
         0
       ]
     },
@@ -6268,8 +6273,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2678,
+        3153,
         0
       ]
     },
@@ -6711,8 +6716,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2617,
+        9837,
         0
       ]
     },
@@ -7120,8 +7125,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        3171,
+        9619,
         0
       ]
     },
@@ -8378,8 +8383,8 @@
       "manual": true,
       "object": 24009,
       "world": [
-        3227,
-        3257,
+        3269,
+        3167,
         0
       ]
     },
@@ -8389,8 +8394,8 @@
       "text": "Take boat to Unkah",
       "manual": true,
       "world": [
-        3227,
-        3257,
+        3269,
+        3167,
         0
       ]
     },
@@ -8400,9 +8405,9 @@
       "text": "Bank Small Fishing Net",
       "manual": true,
       "world": [
-        3209,
-        3219,
-        2
+        3269,
+        3167,
+        0
       ]
     },
     {
@@ -8417,9 +8422,9 @@
       "text": "Make Combat Potion & drop it [Desert Medium Diary]",
       "manual": true,
       "world": [
-        3209,
-        3219,
-        2
+        3269,
+        3167,
+        0
       ]
     },
     {
@@ -10729,8 +10734,8 @@
       "text": "Bank at Legend's Guild",
       "manual": true,
       "world": [
-        2810,
-        3442,
+        2729,
+        3348,
         0
       ]
     },
@@ -10740,8 +10745,8 @@
       "text": "NOTE: You can go get your herb sack now from Tithe Farm reward shop",
       "manual": true,
       "world": [
-        2810,
-        3442,
+        2729,
+        3348,
         0
       ]
     }

@@ -141,9 +141,9 @@
       "text": "Go upstairs again",
       "manual": true,
       "world": [
-        2541,
-        3170,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
@@ -156,9 +156,9 @@
         "state": "FINISHED"
       },
       "world": [
-        2541,
-        3170,
-        0
+        3209,
+        3219,
+        2
       ]
     },
     {
@@ -169,8 +169,8 @@
       "object": 14880,
       "world": [
         3209,
-        3216,
-        0
+        3219,
+        2
       ]
     },
     {
@@ -286,8 +286,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2607,
-        3211,
+        3222,
+        3218,
         0
       ]
     },
@@ -327,8 +327,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2925,
-        3486,
+        3200,
+        3174,
         0
       ]
     },
@@ -552,8 +552,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2928,
-        3456,
+        3086,
+        3258,
         0
       ]
     },
@@ -647,8 +647,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2821,
-        3486,
+        3098,
+        3268,
         0
       ]
     },
@@ -666,8 +666,8 @@
       "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "object": 24009,
       "world": [
-        3227,
-        3257,
+        3103,
+        3265,
         0
       ]
     },
@@ -773,8 +773,8 @@
       },
       "npc": 10727,
       "world": [
-        1824,
-        3690,
+        3054,
+        3245,
         0
       ]
     },
@@ -784,8 +784,8 @@
       "text": "Destroy the lamp. You can collect this later as you can't bank it",
       "manual": true,
       "world": [
-        1803,
-        3788,
+        3045,
+        3234,
         0
       ]
     },
@@ -1836,8 +1836,8 @@
       "manual": true,
       "npc": 1788,
       "world": [
-        3011,
-        3260,
+        3240,
+        3395,
         0
       ]
     },
@@ -1915,8 +1915,8 @@
       "text": "Cut the Dying tree [Varrock Easy Diary]",
       "manual": true,
       "world": [
-        3210,
-        3448,
+        3302,
+        3492,
         0
       ]
     },
@@ -2575,8 +2575,8 @@
       },
       "item": 29409,
       "world": [
-        2884,
-        3398,
+        1413,
+        2972,
         0
       ]
     },
@@ -2600,18 +2600,18 @@
           }
         ]
       },
-      "item": 1623
+      "item": 1623,
+      "world": [
+        1430,
+        2975,
+        0
+      ]
     },
     {
       "id": "e1-139",
       "title": "Head South to Mistrock & deposit …",
       "text": "Head South to Mistrock & deposit all there",
-      "manual": true,
-      "world": [
-        2810,
-        3442,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-140",
@@ -2633,18 +2633,18 @@
           }
         ]
       },
-      "item": 1269
+      "item": 1269,
+      "world": [
+        1413,
+        2972,
+        0
+      ]
     },
     {
       "id": "e1-141a",
       "title": "Bank at Mistrock",
       "text": "Bank at Mistrock",
-      "manual": true,
-      "world": [
-        2810,
-        3442,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-141b",
@@ -2652,8 +2652,8 @@
       "text": "deposit all",
       "manual": true,
       "world": [
-        2810,
-        3442,
+        1413,
+        2972,
         0
       ]
     },
@@ -2677,12 +2677,7 @@
           }
         ]
       },
-      "item": 1265,
-      "world": [
-        2810,
-        3442,
-        0
-      ]
+      "item": 1265
     },
     {
       "id": "e1-143",
@@ -3734,8 +3729,8 @@
       "text": "Bank at East Bank",
       "manual": true,
       "world": [
-        3185,
-        3441,
+        3254,
+        3420,
         0
       ]
     },
@@ -3828,8 +3823,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2955,
-        3339,
+        3080,
+        3427,
         0
       ]
     },
@@ -3930,9 +3925,9 @@
         "state": "FINISHED"
       },
       "world": [
-        2568,
-        3333,
-        0
+        2493,
+        3488,
+        1
       ]
     },
     {
@@ -5412,8 +5407,8 @@
       "manual": true,
       "npc": 14660,
       "world": [
-        1391,
-        3354,
+        2576,
+        3323,
         0
       ]
     },
@@ -5907,8 +5902,8 @@
       "text": "Head to the Bar",
       "manual": true,
       "world": [
-        1391,
-        3354,
+        2795,
+        3161,
         0
       ]
     },
@@ -5919,8 +5914,8 @@
       "manual": true,
       "npc": 14660,
       "world": [
-        1391,
-        3354,
+        2795,
+        3161,
         0
       ]
     },
@@ -6093,8 +6088,8 @@
       "text": "Bank all Bread at South Bank",
       "manual": true,
       "world": [
-        2543,
-        5144,
+        2617,
+        3333,
         0
       ]
     },

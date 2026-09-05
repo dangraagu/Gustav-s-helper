@@ -427,8 +427,8 @@
       "title": "Head to Barbarian Assault and skip …",
       "text": "Head to Barbarian Assault and skip the tutorial to unlock the minigame teleport",
       "world": [
-        2500,
-        3488,
+        2533,
+        3571,
         0
       ],
       "complete": {
@@ -708,8 +708,8 @@
       "text": "kill a Hellhound in the Taverly Dungeon for a combat achievement",
       "manual": true,
       "world": [
-        2701,
-        3408,
+        2884,
+        3398,
         0
       ]
     },

@@ -28,8 +28,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2664,
-        3348,
+        3212,
+        3246,
         0
       ]
     },
@@ -245,8 +245,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3220,
-        3426,
+        3303,
+        3112,
         0
       ]
     },
@@ -272,8 +272,8 @@
       },
       "item": 53,
       "world": [
-        3111,
-        3487,
+        3167,
+        3272,
         0
       ]
     },
@@ -283,8 +283,8 @@
       "text": "Continue with the guide questing and fletch your 15000 headless arrows as you walk around",
       "manual": true,
       "world": [
-        3111,
-        3487,
+        3167,
+        3272,
         0
       ]
     },
@@ -310,8 +310,8 @@
       },
       "item": 41,
       "world": [
-        3080,
-        3510,
+        2823,
+        3443,
         0
       ]
     },
@@ -663,8 +663,8 @@
       "text": "Fish",
       "manual": true,
       "world": [
-        3212,
-        3215,
+        3106,
+        3428,
         0
       ]
     },
