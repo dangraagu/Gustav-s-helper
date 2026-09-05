@@ -418,7 +418,14 @@
       "id": "abg-031",
       "title": "Finish 70 woodcutting with any method",
       "text": "Finish 70 woodcutting with any method\nLocation: Various",
-      "manual": true
+      "complete": {
+        "op": "skill",
+        "skill": "WOODCUTTING",
+        "level": 70,
+        "cmp": ">="
+      },
+      "note": "Chop teak trees - 1.5-tick teaks on Fossil Island is the fastest in game. AFK/no-tick: teaks to 65 then sulliuscep mushrooms.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
       "id": "abg-032",
