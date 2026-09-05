@@ -51,9 +51,10 @@ dependencies — see [`docs/HUB.md`](docs/HUB.md).
 
 ## Status
 
-See [`docs/STATUS.md`](docs/STATUS.md) for exactly what is implemented, what content is real
-vs. stub, and what remains. The engine, overlays, panel, config, and tests are the stable
-core; the 575-step content is transcribed from the guide and tightened over time.
+See [`docs/STATUS.md`](docs/STATUS.md) for exactly what is implemented and what remains. The
+engine, overlays, panel, config, and tests are the stable core; the content — 15 guides,
+6,500+ steps — is scraped from its sources and tightened over time, with weekly drift checks
+against the upstream pages.
 
 ## Config
 

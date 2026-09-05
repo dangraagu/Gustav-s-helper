@@ -1,75 +1,72 @@
 # Status — what's real vs. what's next
 
-*Last updated: 2026-07-15. Honest accounting, not a wishlist.*
+*Last updated: 2026-09-05. Honest accounting, not a wishlist.*
 
-## ✅ Built, compiles, unit-tested (13 tests green)
+## ✅ Live on the RuneLite Plugin Hub
 
-- **Condition engine** — data-driven boolean conditions: `skill`, `quest`, `item`/`itemBank`/`itemEquipped`,
-  **`itemAcquired`** / **`itemConsumed`** (ledger-backed), `varbit`, `varp`, `qp`, and `and`/`or`/`not`
-  combinators, plus `manual`. Fail-safe parsing (a bad condition degrades to manual, never crashes,
-  never false-completes).
-- **Item ledger** — passive, ToS-safe tracking over `ItemContainerChanged` (the plugin never moves
-  items). Per (route-referenced) item it shows the **disposition** of what you collected: **acquired**
-  (ever obtained), **carrying** (inventory+equipped), **banked**, and **used/dropped**. Per-tick net
-  accounting means moving an item to the bank is *not* miscounted as re-acquiring it; a baseline is
-  seeded on first sight so held items aren't counted; state persists per-account. Powers `itemAcquired`
-  ("ever collected N of X" — stays complete after you use them) and `itemConsumed`, plus a **Ledger
-  tab**. Read-only observation, exactly like Loot Tracker — see [`HUB.md`](HUB.md).
-- **Progression** — ordered route, current-step tracking, auto-advance, **sticky** completion,
-  out-of-order completion, login **reconcile** (an existing account resumes at the right place),
-  mode filtering (Regular/HCIM/UIM/GIM), progress %, **per-account persistence** via ConfigManager.
-- **Overlays** — world arrow + destination tile outline, minimap arrow, object/NPC clickbox highlight.
-  Direction-arrow rendering adapted from Quest Helper (BSD-2, attributed). Targets tracked via
-  spawn/despawn events + a one-time scene scan on step change (not per tick).
-- **Side panel** — overall progress bar, current step (section, instruction, requirements green/red),
-  Done / Skip / Reset buttons, wiki link, short lookahead of upcoming steps.
-- **Config** — mode, auto-advance toggle, per-overlay toggles, highlight colour, hide-completed.
-- **Build** — `./gradlew build` green; `./gradlew shadowJar` produces a sideloadable jar; `./gradlew run`
-  launches a dev client with the plugin loaded.
+Installable from the in-client Plugin Hub since 2026-07-30; current hub release pins `dedaf62`.
+Every release ships through the same gates: 83 Java tests (including a fresh-account invariant that
+proves a brand-new account auto-completes **nothing** in any guide × mode), 8 Python suites for the
+route-builder matchers (over 1,000 assertions), and a duplicate-arrival lint that fails the build if
+the waypoint pattern behind the old mass-fold bug ever reappears.
 
-## 📋 Content — all 575 steps present
+## 📋 Content — 15 guides, 6,583 steps
 
-- Scraped from ironman.guide's schema.org `HowTo` structured data (`tools/scrape_guide.py`), all **7
-  sections** in the guide's own order (1.1 → 2.0, plus the optional Sailing track):
-  Early Game (286), Thieving/Fishing/Mining (33), Fairy Rings/Prayer/Kingdom (111),
-  Skilling/Graceful (50), Diaries & RFD (21), After Barrows Gloves (63), Sailing (11) = **575**.
-- Each step has the real instruction text, a location note where the guide gives one, and a wiki link
-  where present.
-- **Auto-detection: 94 / 575** — 39 skill targets + 55 item-acquisition steps (conservatively mapped
-  from the guide text via the OSRS Wiki item list, exact-name only). The rest are manual-advance.
+| Source | Guides |
+|---|---|
+| ironman.guide (Oziris) | osiris-ironman (network-scraped) |
+| OSRS Wiki | B0aty HCIM V3, UIM→Prifddinas (current + old-route backup), UIM PvM Route, Optimal Quest (Ironman), Ironman PvM Rush, F2P Champions' Guild speedrun |
+| BRUHsailer | bruhsailer |
+| heboxjonge | 6 alt/max routes |
+
+- **45% of steps auto-complete** (quest / skill / item-ledger / arrival / diary conditions); the rest
+  are manual-advance. Coverage grows only where a condition is safe by construction — a wrong
+  auto-complete is treated as worse than a manual click.
+- Coordinates are matched whole-word against wiki-grounded gazetteers, amenities, and Quest Helper
+  tiles; ~200 human-verified overrides beat every automatic layer.
+- **Drift watchdogs**: a weekly GitHub Action re-scrapes ironman.guide and hashes the six wiki source
+  pages against a seeded baseline, opening an issue when upstream edits invalidate bundled data.
+
+## ✅ Features
+
+- Condition engine (skill/quest/item/itemAcquired/itemConsumed/varbit/varp/qp/diary/position +
+  and/or/not; a bad condition degrades to manual, never crashes, never false-completes).
+- Passive item ledger (read-only `ItemContainerChanged` observation, per-tick net accounting).
+- Progression with sticky completion, login reconcile, Undo, user-confirmed ⏩ fast-forward, and
+  per-guide + per-account persistence.
+- Overlays: world/minimap arrows, tile + NPC/object highlight, dialogue-option highlight, inventory
+  item highlight, on-screen current-step text.
+- Panel: progress, current step with requirements, upcoming steps, step number, per-step user notes,
+  completes-when tooltip, wiki link.
+- **Opt-in step reports** (default OFF; Plugin Hub requirement): with the toggle enabled and the
+  preview confirmed, a report goes to a forwarding endpoint we control — optionally with the
+  player's own tile attached as the proposed fix, which maintainers apply directly via
+  `tools/apply_report.py`.
+- Shortest Path integration (plugin-message bus), birdhouse-run reminder.
 
 ## ⚠️ Known limitations (the honest part)
 
-1. **Auto-detection is partial: 94 / 575 steps** (39 skill + 55 item-acquisition). The other **481 are
-   manual-advance** (tick them in the panel). The guide's steps are very granular ("bank 7 logs") and
-   the source exposes no machine-checkable state for many, so coverage grows via enrichment (mapping
-   quests → `net.runelite.api.Quest`, more items → ids, varbits). Item mapping is conservative but not
-   perfect — a few steps may map to a near-item or a wrong quantity; these fail toward *not*
-   auto-completing (you tick manually), and any mis-fire is fixable in the JSON. Turn off "Auto-advance"
-   in config if a heuristic ever mis-fires.
-2. **Guidance overlays — partial, growing.** Working now: **336 steps** carry an approximate area
-   `world` point (from a location gazetteer), so each shows a **world-map marker** (snaps to the map
-   edge pointing toward the destination) and an in-scene arrow/tile when you're nearby; **55 item
-   steps** highlight the item in your inventory/bank (Quest-Helper style). Still needs per-step
-   enrichment: exact **object/NPC ids** to highlight the precise thing to click, and precise tile
-   coords (the gazetteer is town-level, not the exact NPC). The overlay code is done — it lights up as
-   steps gain `object`/`npc`/precise `world` data.
-3. **Not verified in-game.** Per RuneLite's own guidance, only a human can confirm in-game behaviour, and
-   automating the game client is a bannable offence — so I did **not** and **will not** drive RuneScape.
-   A clean build + passing unit tests is **not** a functional in-game test.
-4. **Not on the Plugin Hub.** Runs from source / sideload. Hub submission needs review and, ideally,
-   Oziris's OK for the route content.
+1. **~55% of steps are manual-advance.** The guides' steps are granular and often expose no
+   machine-checkable state; coverage grows only through safe-by-construction conditions and
+   human-verified overrides.
+2. **Not verified in-game by the maintainer.** Automating the game client is bannable, so in-game
+   behaviour rests on human spot-checks and player reports. A clean build + green tests is not a
+   functional in-game test.
+3. **Long multi-action steps** in some guides remain single steps; splitting them further is a
+   judgment call deferred until someone reads them in-game.
+4. **9 known duplicate-arrival waypoints** are accepted deliberately (revisit-a-town steps complete
+   on the revisit); the lint pins the list so no new ones slip in.
 
-## Enrichment path (how auto-detection + arrows improve)
+## Enrichment path
 
-Edit the section JSON under `src/main/resources/com/gustavguide/data/route/`:
-- add `"complete": { "op": "quest", "quest": "COOKS_ASSISTANT", "state": "FINISHED" }` (or `item`/`varbit`)
-  to make a step auto-complete;
-- add `"world": [x, y, plane]` and/or `"npc": <id>` / `"object": <id>` to light up arrows/highlights;
-- or extend `tools/scrape_guide.py`'s enricher to do it in bulk.
-Then rebuild. `RouteLoaderTest` validates the JSON on every build.
+Per-step fixes: `tools/data/manual_coords.json` (osiris, keyed by exact step text) and
+`tools/data/manual_conditions.json` (raw-built guides, keyed by guide + step id) beat every automatic
+layer — or paste a player report into `tools/apply_report.py`. Bulk improvements go into
+`tools/scrape_guide.py`'s enrichers, guarded by the Python suites. Rebuild with
+`py -3 tools/build_raw_guide.py` (osiris: `py -3 tools/scrape_guide.py`); `gradlew check` runs every gate.
 
 ## Attribution
 
-Route by **Oziris** (@OzirisLoL) / ironman.guide. Rendering & requirements adapted from
-**Quest Helper** (BSD-2, Zoinkwiz). See [`../NOTICE`](../NOTICE). Not affiliated with Jagex.
+Routes by **Oziris** (@OzirisLoL, ironman.guide), **B0aty**, the **OSRS Wiki** community,
+**BRUHsailer**, and **heboxjonge**. Rendering & requirements adapted from **Quest Helper**
+(BSD-2, Zoinkwiz). See [`../NOTICE`](../NOTICE). Not affiliated with Jagex.
