@@ -69,7 +69,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_QUEEN_OF_THIEVES",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "npc": 3097,
       "world": [
@@ -133,7 +133,7 @@
           {
             "op": "quest",
             "quest": "FISHING_CONTEST",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -269,7 +269,7 @@
           {
             "op": "quest",
             "quest": "ALFRED_GRIMHANDS_BARCRAWL",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -279,7 +279,7 @@
           {
             "op": "quest",
             "quest": "DWARF_CANNON",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -322,7 +322,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2444,

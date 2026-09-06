@@ -482,7 +482,9 @@ _QUEST_START_VERB_RE = re.compile(r"^\s*(start|begin)\b", re.IGNORECASE)
 # ("sell ... when starting One Small Favour", "also start Curse of the Empty Lord during ...") keeps
 # its FINISHED binding instead of completing the wrong step the moment that quest is begun. A step
 # that literally opens with "Start/Begin <quest>" is caught separately by _QUEST_START_VERB_RE.
-_QUEST_START_NEAR_RE = re.compile(r"\b(?:to|and|then)\s+(?:start|begin)(?:\s+the)?$", re.IGNORECASE)
+# "start/begin" as the last word(s) before the quest name, however it is reached ("to start X",
+# "and start X", "tele, start X" - commas normalise to spaces). \b keeps "restart" from matching.
+_QUEST_START_NEAR_RE = re.compile(r"\b(?:start|begin)(?:\s+the)?$", re.IGNORECASE)
 QUEST_START_WINDOW = 24
 # "<quest> required/needed/unlocked" right after the name = a prerequisite aside ("burst jellies
 # in catacombs (Desert treasure required)"), not the step's action — never bind it.
@@ -535,6 +537,30 @@ QUEST_ALIASES = {
     "one small favor": "ONE_SMALL_FAVOUR",
     "digsite quest": "THE_DIG_SITE",
     "fairy tale pt 1": "FAIRYTALE_I__GROWING_PAINS",
+    # RFD subquest slash forms - "/" normalises to a space. The long wiki forms out-span the base
+    # "recipe for disaster" match, so overlap dedup keeps only the subquest; the "rfd <sub>" short
+    # forms never contain the base name at all. Bare "rfd" stays un-aliased (too generic).
+    "rfd cook": "RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST",
+    "rfd dwarf": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
+    "rfd goblin": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE",
+    "rfd pirate": "RECIPE_FOR_DISASTER__PIRATE_PETE",
+    "rfd evil dave": "RECIPE_FOR_DISASTER__EVIL_DAVE",
+    "rfd awowogei": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
+    "rfd mm": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
+    "rfd lumbridge guide": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE",
+    "rfd sir amik varze": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
+    "rfd varze": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
+    "rfd skrach": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE",
+    "recipe for disaster another cooks quest": "RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST",
+    "recipe for disaster freeing evil dave": "RECIPE_FOR_DISASTER__EVIL_DAVE",
+    "recipe for disaster freeing king awowogei": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
+    "recipe for disaster freeing pirate pete": "RECIPE_FOR_DISASTER__PIRATE_PETE",
+    "recipe for disaster freeing sir amik varze": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
+    "recipe for disaster freeing skrach uglogwee": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE",
+    "recipe for disaster freeing the goblin generals": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE",
+    "recipe for disaster freeing the lumbridge guide": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE",
+    "recipe for disaster freeing the mountain dwarf": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
+    "recipe for disaster defeating the culinaromancer": "RECIPE_FOR_DISASTER__CULINAROMANCER",
 }
 
 # Whole-step-text bindings for names too generic to match as substrings ("waterfall", "rfd" would

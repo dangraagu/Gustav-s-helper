@@ -3054,7 +3054,11 @@
       "id": "e3-197",
       "title": "Inspect RFD Dwarf & Evil Dave",
       "text": "Inspect RFD Dwarf & Evil Dave",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
+        "state": "FINISHED"
+      },
       "object": 12349,
       "world": [
         3213,

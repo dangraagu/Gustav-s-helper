@@ -166,6 +166,33 @@ d = sg.detect_quest("Complete Song of the Elves. — Reclaim your staff. — Aft
 check("instructed quest binds ALONE when the other mention is a 'you can start' aside",
       d == {"op": "quest", "quest": "SONG_OF_THE_ELVES", "state": "FINISHED"})
 
+# --- RFD subquest slash forms (real shipped-guide phrasings) ---------------------------------
+check("'Recipe for Disaster/Freeing Evil Dave' binds the SUBQUEST, not base RFD",
+      q("Complete Recipe for Disaster/Freeing Evil Dave. If your cat is not grown, do this "
+        "when it does grow") == ("RECIPE_FOR_DISASTER__EVIL_DAVE", "FINISHED"))
+check("'RFD/Goblin' short form binds Wartface & Bentnoze",
+      q("run to the Goblin Village and continue RFD/Goblin to get a Slop of compromise")
+      == ("RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE", "FINISHED"))
+check("'RFD/Cook' short form binds Another Cook's Quest",
+      q("run to the chest and complete RFD/Cook")
+      == ("RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST", "FINISHED"))
+check("'RFD/MM' binds King Awowogei", qc("do RFD/MM") == "RECIPE_FOR_DISASTER__KING_AWOWOGEI")
+check("'RFD/Varze' binds Sir Amik Varze",
+      qc("speak with the Wise Old Man for RFD/Varze") == "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE")
+check("'Freeing the Mountain Dwarf' wiki form",
+      qc("Complete Recipe for Disaster/Freeing the Mountain Dwarf")
+      == "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF")
+check("'Defeating the Culinaromancer' wiki form",
+      qc("Complete Recipe for Disaster/Defeating the Culinaromancer")
+      == "RECIPE_FOR_DISASTER__CULINAROMANCER")
+check("bare 'rfd' still never binds as a substring",
+      q("Bank your rfd lamps in Lumbridge") is None)
+
+# --- bare 'start <quest>' adjacency (commas are normalised away: 'tele, start X') -------------
+check("', start X' = IN_PROGRESS",
+      q("Chronicle tele, start Dragon slayer at champion's guild")
+      == ("DRAGON_SLAYER_I", "IN_PROGRESS"))
+
 # --- 'and start X' mid-text is a start step for X --------------------------------------------
 check("'and start X' = IN_PROGRESS",
       q("run south to the Mage of Zamorak and start Enter the Abyss")

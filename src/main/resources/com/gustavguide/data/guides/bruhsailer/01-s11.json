@@ -281,7 +281,7 @@
           {
             "op": "quest",
             "quest": "PIRATES_TREASURE",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -291,12 +291,12 @@
           {
             "op": "quest",
             "quest": "THE_KNIGHTS_SWORD",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
             "quest": "BLACK_KNIGHTS_FORTRESS",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -352,7 +352,7 @@
           {
             "op": "quest",
             "quest": "DADDYS_HOME",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },

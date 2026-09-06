@@ -73,7 +73,7 @@
           {
             "op": "quest",
             "quest": "THE_GOLEM",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -99,6 +99,11 @@
           {
             "op": "quest",
             "quest": "MERLINS_CRYSTAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
             "state": "FINISHED"
           },
           {
@@ -219,22 +224,30 @@
       "title": "Teleport to Lumbridge, make a necklace …",
       "text": "Teleport to Lumbridge, make a necklace of passage and two rings of dueling at the furnace. If you have extra gold/silver bars and the corresponding gems (from Tempoross), make as many more as you want (focus on rings of dueling and a few necklaces of passage). Hop to PVP world to rebank for all items while standing in the middle of the castle courtyard, then hop back (or just go to the top of the castle). From now on you are always assumed to wear a ring of dueling. Whenever you teleport, if you are low on run energy instead teleport to Ferox Enclave, restore your run energy, then teleport where you were going. If you run out of gold bars before you complete Forgettable Tale…, tough luck. Start and complete Cook’s Assistant, then start and complete RFD/Cook. Start RFD/Goblin, RFD/Dwarf and RFD/Pirate (talk to the cook again after starting this last one to learn the recipe!). Buy two spice, three pots of flour, two buckets of milk, two eggs from the chest. Prepare two uncooked redberry pies (buy ingredients in the Culinaromancer’s Chest if needed) and a bread dough. Cook the bread for the diary and the redberry pies on the range, add both nettles to two bowl of water and cook it to make two nettle tea. Leave one redberry in the bank. Run to the Al-Kharid gate and kill 20 goblins for their bones (attack training with your rune shortsword recommended) and the Goblin skull. If you get a bronze spear, keep it. Kill three cows or cow calfs for the bones and cowhides. Bank them at castle wars.",
       "complete": {
-        "op": "or",
+        "op": "and",
         "of": [
           {
-            "op": "itemAcquired",
-            "id": 1921,
-            "qty": 1
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST",
+            "state": "FINISHED"
           },
           {
-            "op": "item",
-            "id": 1921,
-            "qty": 1,
-            "scope": "ANY"
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
+            "state": "FINISHED"
           }
         ]
       },
-      "item": 1921,
       "npc": 4878,
       "world": [
         1900,
@@ -252,7 +265,7 @@
           {
             "op": "quest",
             "quest": "THE_FREMENNIK_TRIALS",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -278,9 +291,19 @@
       "title": "Teleport to Falador and pay Emily …",
       "text": "Teleport to Falador and pay Emily in the Rising Sun Inn to progress RFD/Dwarf, continue the barcrawl and speak to Burntof for Below Ice Mountain while you’re here. Pickpocket a guard for the diary. Move your POH to Taverley at the estate agent. Buy 8 woad leaves from Wyson the gardener (offer to pay 20gp to get two at a time). You should have at least 3,170 Herblore experience by now (level 17) – if not bankstand some herblore with Wintertodt herbs. Complete a lap of the Falador rooftop course for the diary. Make sure you are wearing leather gloves and collect all items in advance for the next steps, and that you have at least 12 empty inventory spaces.",
       "complete": {
-        "op": "quest",
-        "quest": "BELOW_ICE_MOUNTAIN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BELOW_ICE_MOUNTAIN",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 10659,
       "world": [
@@ -322,9 +345,19 @@
       "title": "Teleport to your POH (bank in …",
       "text": "Teleport to your POH (bank in between, for example with Ferox minigame teleport or games necklace, if you don’t have enough inv space/don’t have all the items on you), collect the white pear for Mountain Daughter, teleport again, enter the dwarven tunnel under White Wolf Mountain, collect two rock cakes from An old dwarf (Rohak, make sure you complete the dialogue or you’ll have to get new asgoldian ales). Teleport a third time, speak with the Lady of the Lake for Merlin’s Crystal, chop and burn some willow logs for the diary, go to Doric and smith Blurite limbs on his anvil, run north and telegrab a wine of zamorak for the diary, run to the Goblin Village and continue RFD/Goblin to get a Slop of compromise.",
       "complete": {
-        "op": "quest",
-        "quest": "MERLINS_CRYSTAL",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "MERLINS_CRYSTAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 3529,
       "world": [
@@ -353,7 +386,7 @@
           {
             "op": "quest",
             "quest": "LOST_CITY",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -389,7 +422,7 @@
           {
             "op": "quest",
             "quest": "FORGETTABLE_TALE",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -425,7 +458,7 @@
           {
             "op": "quest",
             "quest": "BONE_VOYAGE",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -545,7 +578,7 @@
           {
             "op": "quest",
             "quest": "NATURE_SPIRIT",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -626,7 +659,7 @@
           {
             "op": "quest",
             "quest": "THE_DEPTHS_OF_DESPAIR",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -649,6 +682,11 @@
       "complete": {
         "op": "and",
         "of": [
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
+            "state": "FINISHED"
+          },
           {
             "op": "quest",
             "quest": "BONE_VOYAGE",
@@ -695,12 +733,12 @@
           {
             "op": "quest",
             "quest": "THE_LOST_TRIBE",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
             "quest": "THE_IDES_OF_MILK",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -726,7 +764,7 @@
           {
             "op": "quest",
             "quest": "FAIRYTALE_I__GROWING_PAINS",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -803,7 +841,7 @@
           {
             "op": "quest",
             "quest": "RAG_AND_BONE_MAN_II",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",

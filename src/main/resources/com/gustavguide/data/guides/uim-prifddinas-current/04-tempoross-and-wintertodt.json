@@ -465,7 +465,7 @@
       "text": "Complete Recipe for Disaster/Freeing the Goblin generals",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE",
         "state": "FINISHED"
       },
       "world": [

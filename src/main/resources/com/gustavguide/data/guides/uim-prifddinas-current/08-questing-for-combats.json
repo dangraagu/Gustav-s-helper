@@ -33,7 +33,7 @@
       "text": "Complete Recipe for Disaster/Freeing the Mountain Dwarf",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
         "state": "FINISHED"
       },
       "world": [
@@ -149,7 +149,7 @@
       "text": "Complete Recipe for Disaster/Freeing Evil Dave",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE",
         "state": "FINISHED"
       },
       "world": [
@@ -179,7 +179,7 @@
       "text": "Complete Recipe for Disaster/Freeing Skrach Uglogwee",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE",
         "state": "FINISHED"
       }
     },
@@ -189,7 +189,7 @@
       "text": "Complete Recipe for Disaster/Freeing Pirate Pete",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
         "state": "FINISHED"
       }
     },
@@ -199,7 +199,7 @@
       "text": "Complete Recipe for Disaster/Freeing the Lumbridge Guide",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE",
         "state": "FINISHED"
       },
       "world": [
@@ -323,7 +323,7 @@
           },
           {
             "op": "quest",
-            "quest": "RECIPE_FOR_DISASTER",
+            "quest": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
             "state": "FINISHED"
           }
         ]
@@ -335,7 +335,7 @@
       "text": "Complete Recipe for Disaster/Freeing King Awowogei. — Purchase a Dragon Scimitar from Daga before dropping your M'speak amulet and greegrees",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
         "state": "FINISHED"
       }
     },

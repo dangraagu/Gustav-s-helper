@@ -628,7 +628,11 @@
       "id": "barrows-gloves-043",
       "title": "RFD Goblin",
       "text": "RFD Goblin",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3221,
@@ -639,7 +643,11 @@
       "id": "barrows-gloves-044",
       "title": "RFD Pirate",
       "text": "RFD Pirate",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3221,
@@ -661,7 +669,11 @@
       "id": "barrows-gloves-046",
       "title": "RFD Evil Dave",
       "text": "RFD Evil Dave",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "barrows-gloves-047",
@@ -679,7 +691,11 @@
       "id": "barrows-gloves-048",
       "title": "RFD Varze",
       "text": "RFD Varze",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
+        "state": "FINISHED"
+      },
       "world": [
         3213,
         3221,

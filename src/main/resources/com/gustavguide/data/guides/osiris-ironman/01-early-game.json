@@ -4618,7 +4618,7 @@
       "complete": {
         "op": "quest",
         "quest": "DRAGON_SLAYER_I",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3191,

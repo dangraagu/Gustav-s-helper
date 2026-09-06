@@ -1859,7 +1859,7 @@
       "text": "Recipe for Disaster: Freeing the Mountain Dwarf\nLocation: Falador",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
         "state": "FINISHED"
       },
       "world": [
@@ -1945,7 +1945,7 @@
       "text": "Recipe for Disaster: Freeing Evil Dave\nLocation: Edgeville",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE",
         "state": "FINISHED"
       },
       "world": [
@@ -2063,7 +2063,7 @@
       "text": "Recipe for Disaster: Freeing Pirate Pete\nLocation: Lumbridge",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
         "state": "FINISHED"
       },
       "world": [
@@ -2263,7 +2263,7 @@
       "text": "Recipe for Disaster: Freeing the Lumbridge Guide\nLocation: Lumbridge",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE",
         "state": "FINISHED"
       },
       "world": [
@@ -2278,7 +2278,7 @@
       "text": "Recipe for Disaster: Freeing Skrach Uglogwee\nLocation: Lumbridge",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE",
         "state": "FINISHED"
       },
       "world": [
@@ -3178,7 +3178,7 @@
       "text": "Recipe for Disaster: Freeing Sir Amik Varze\nLocation: Lumbridge",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
         "state": "FINISHED"
       },
       "world": [
@@ -3509,7 +3509,7 @@
       "text": "Recipe for Disaster: Freeing King Awowogei\nLocation: Ape Atoll",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
         "state": "FINISHED"
       },
       "world": [

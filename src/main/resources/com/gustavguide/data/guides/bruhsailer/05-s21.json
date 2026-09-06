@@ -267,7 +267,7 @@
           {
             "op": "quest",
             "quest": "WANTED",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -339,9 +339,19 @@
       "title": "Run (or teleport) to Lumbridge. Start …",
       "text": "Run (or teleport) to Lumbridge. Start RFD/Evil Dave. Buy six buckets of milk, a pot of cream, two eggs, two pots of flour, five cheese, make two bowls of water and continue and complete Death to the Dorgeshuun (and light your mining helmet in the cellar for the diary along the way). Get a bullseye lantern (Dorgesh-kaan average chest), pickpocket a Dorgesh-kaan rich chest for the diary. Note: this requires 78 thieving.",
       "complete": {
-        "op": "quest",
-        "quest": "DEATH_TO_THE_DORGESHUUN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "DEATH_TO_THE_DORGESHUUN",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         2718,
@@ -454,7 +464,7 @@
           {
             "op": "quest",
             "quest": "SCORPION_CATCHER",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -596,7 +606,7 @@
           {
             "op": "quest",
             "quest": "ANIMAL_MAGNETISM",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -658,7 +668,7 @@
           {
             "op": "quest",
             "quest": "IN_AID_OF_THE_MYREQUE",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -891,7 +901,7 @@
           {
             "op": "quest",
             "quest": "PRYING_TIMES",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },

@@ -57,7 +57,7 @@
           {
             "op": "quest",
             "quest": "THE_GENERALS_SHADOW",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",

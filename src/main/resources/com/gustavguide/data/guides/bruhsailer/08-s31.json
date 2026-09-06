@@ -196,7 +196,7 @@
           {
             "op": "quest",
             "quest": "MONKEY_MADNESS_II",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -243,7 +243,7 @@
       "complete": {
         "op": "quest",
         "quest": "THE_RED_REEF",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2782,

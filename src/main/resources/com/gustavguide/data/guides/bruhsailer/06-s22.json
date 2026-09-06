@@ -13,8 +13,6 @@
         "level": 65,
         "cmp": ">="
       },
-      "note": "Hallowed Sepulchre (needs Sins of the Father) for fastest XP + profit; rooftop courses if you still need graceful.",
-      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "object": 4771,
       "world": [
         2500,
@@ -57,13 +55,23 @@
       "title": "Teleport to the mind altar, create …",
       "text": "Teleport to the mind altar, create the special runestone for The Slug menace and a mind tiara for the diary. Fairy ring DKR to edgeville, continue RFD/Evil Dave. Visit the following four altars through the abyss: air altar, fire altar (carry 10+ pure essence, a full inv is fine, a binding necklace, your earth talisman and a stack of earth runes, then use the earth runes on the altar to make lava runes), water altar and earth altar in that order, creating your lunar staff/staves and the special runestones for The Slug menace.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_SLUG_MENACE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_SLUG_MENACE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        2996,
-        3373,
+        3305,
+        3473,
         0
       ]
     },
@@ -139,7 +147,7 @@
           {
             "op": "quest",
             "quest": "COLD_WAR",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -200,6 +208,11 @@
           {
             "op": "quest",
             "quest": "RAG_AND_BONE_MAN_II",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
             "state": "FINISHED"
           }
         ]
@@ -464,13 +477,44 @@
       "title": "Get to Lumbridge, continue Cold War, …",
       "text": "Get to Lumbridge, continue Cold War, complete RFD/Evil Dave, start RFD/Awowogei, RFD/Sir Amik Varze (speak with the cook to learn the recipe), RFD/Lumbridge Guide and RFD/Skrach. Buy black gloves.",
       "complete": {
-        "op": "quest",
-        "quest": "COLD_WAR",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "COLD_WAR",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 306,
       "world": [
-        3212,
-        3247,
+        3238,
+        3220,
         0
       ]
     },
@@ -481,6 +525,16 @@
       "complete": {
         "op": "and",
         "of": [
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE",
+            "state": "FINISHED"
+          },
           {
             "op": "quest",
             "quest": "RAG_AND_BONE_MAN_II",
@@ -618,8 +672,6 @@
         "level": 99,
         "cmp": ">="
       },
-      "note": "3-tick Barbarian Fishing (also gives Agility/Strength); drift net fishing on Fossil Island if training Hunter too.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
       "object": 4771,
       "world": [
         2500,

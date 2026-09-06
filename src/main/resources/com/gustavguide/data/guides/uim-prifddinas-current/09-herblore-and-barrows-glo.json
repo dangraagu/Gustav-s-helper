@@ -395,7 +395,7 @@
       "text": "Complete Recipe for Disaster/Freeing Sir Amik Varze. — Make sure to collect all the items up front, as the unfinished dishes are lost on death and you need to get to Entrana",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
         "state": "FINISHED"
       },
       "world": [
@@ -498,7 +498,7 @@
       "text": "Complete the Recipe for Disaster/Defeating the Culinaromancer. — The videos have a setup to use. — Buy some Barrows Gloves",
       "complete": {
         "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
+        "quest": "RECIPE_FOR_DISASTER__CULINAROMANCER",
         "state": "FINISHED"
       }
     },

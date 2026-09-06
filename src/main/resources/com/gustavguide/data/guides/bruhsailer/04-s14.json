@@ -94,7 +94,7 @@
           {
             "op": "quest",
             "quest": "DEATH_TO_THE_DORGESHUUN",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -176,7 +176,7 @@
           {
             "op": "quest",
             "quest": "FAIRYTALE_II__CURE_A_QUEEN",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -242,7 +242,7 @@
           {
             "op": "quest",
             "quest": "TROLL_ROMANCE",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -391,7 +391,7 @@
           {
             "op": "quest",
             "quest": "GARDEN_OF_TRANQUILLITY",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",
@@ -767,7 +767,7 @@
           {
             "op": "quest",
             "quest": "THE_HAND_IN_THE_SAND",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           }
         ]
       },
@@ -836,7 +836,7 @@
           {
             "op": "quest",
             "quest": "CURSE_OF_THE_EMPTY_LORD",
-            "state": "FINISHED"
+            "state": "IN_PROGRESS"
           },
           {
             "op": "quest",

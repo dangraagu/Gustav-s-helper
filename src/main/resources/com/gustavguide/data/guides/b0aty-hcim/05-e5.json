@@ -3987,12 +3987,15 @@
       "id": "e5-273",
       "title": "Continue RFD Sir Amik Varze",
       "text": "Continue RFD Sir Amik Varze",
-      "manual": true,
-      "npc": 4771,
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
+        "state": "FINISHED"
+      },
       "world": [
-        2959,
-        3339,
-        2
+        3227,
+        3257,
+        0
       ]
     },
     {

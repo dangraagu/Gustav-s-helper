@@ -6786,7 +6786,11 @@
       "id": "e4-461",
       "title": "Continue RFD Pirate segment until you …",
       "text": "Continue RFD Pirate segment until you have 3x Crab Meat & 3x Kelp",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
+        "state": "FINISHED"
+      },
       "world": [
         2664,
         3160,
