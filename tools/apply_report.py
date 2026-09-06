@@ -83,8 +83,10 @@ def apply(report_text, coords_path=None, conditions_path=None):
     scraped = guide_id in SCRAPED_GUIDES
     if known is not None and guide_id not in known:
         return Result(False, "unknown guide id %r - refusing to guess where the override belongs" % guide_id)
-    if known is None and not scraped and guide_id not in _load(conditions_path) \
-            and not _plausible_guide_id(guide_id):
+    if known is None and not scraped and guide_id not in _load(conditions_path):
+        # Outside the repo there is no guides dir to consult: only the scraped guide or a guide
+        # already present in the conditions file may be written to - a plausible-LOOKING slug is
+        # not evidence the guide exists.
         return Result(False, "unknown guide id %r - refusing to guess where the override belongs" % guide_id)
 
     world = [x, y, plane]
@@ -120,10 +122,6 @@ def apply(report_text, coords_path=None, conditions_path=None):
         guide[step_id] = {"world": world}
     _save(conditions_path, data)
     return Result(True, "override written", target=conditions_path.name, key=guide_id + "/" + step_id)
-
-
-def _plausible_guide_id(gid):
-    return bool(re.fullmatch(r"[a-z0-9][a-z0-9-]{2,40}", gid or ""))
 
 
 def _load(p):

@@ -17,6 +17,7 @@ Usage:
 import hashlib
 import json
 import sys
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -30,6 +31,22 @@ WIKI = "oldschool.runescape.wiki"
 # Backup" page, which has since been deleted - our bundled copy IS the surviving backup, so there
 # is nothing to drift against and a weekly 404 would be pure noise.
 KNOWN_GONE = {"uim-prifddinas"}
+
+
+def _is_wiki(src):
+    """True only when the source URL's HOSTNAME is the wiki - a substring check would accept
+    https://evil.example/oldschool.runescape.wiki or oldschool.runescape.wiki.evil.com."""
+    try:
+        return urllib.parse.urlparse(src or "").hostname == WIKI
+    except ValueError:
+        return False
+
+
+def _merge_baseline(stored, current):
+    """--seed merges into the stored baseline instead of replacing it: a guide whose fetch
+    errors during seeding keeps its old hash rather than silently losing its baseline (which
+    would make the next weekly run report it as NEW/drifted)."""
+    return {**stored, **current}
 
 
 def sources():
@@ -61,7 +78,7 @@ def main():
 
     drifted, errors, current = [], [], {}
     for gid, src in sources().items():
-        if WIKI not in src:
+        if not _is_wiki(src):
             print("SKIP  %-26s (non-wiki source)" % gid)
             continue
         if gid in KNOWN_GONE:
@@ -86,7 +103,11 @@ def main():
             print("OK    %-26s" % gid)
 
     if seed:
-        HASHES.write_text(json.dumps(current, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        HASHES.write_text(json.dumps(_merge_baseline(stored, current), indent=2, sort_keys=True)
+                          + "\n", encoding="utf-8")
+        if errors:
+            print("NOTE: %d fetch error(s) during seed - those guides KEEP their old baseline"
+                  % len(errors))
         print("baseline written -> %s" % HASHES)
         return
     if drifted:

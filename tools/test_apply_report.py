@@ -126,5 +126,25 @@ r, coords, conds = run_case(
     {}, {})
 check("unknown guide refused", not r.applied)
 
+# 6b. same refusal OUTSIDE the repo (guides dir missing): a plausible-shaped but unknown guide id
+# must NOT be accepted just because it looks like a slug - only SCRAPED_GUIDES or a guide already
+# present in the conditions file may be written to.
+_orig_guides_dir = ar.GUIDES_DIR
+ar.GUIDES_DIR = Path(tempfile.gettempdir()) / "definitely-not-a-guides-dir-xyz"
+try:
+    r, coords, conds = run_case(
+        report("not-a-guide", "Mystery", "x-001", "Do a thing", "3000, 3360, plane 0"),
+        {}, {})
+    check("outside-repo unknown guide refused", not r.applied and "unknown guide" in r.reason)
+    check("outside-repo refusal leaves files", conds == {})
+    r, coords, conds = run_case(
+        report("b0aty-hcim", "B0aty HCIM Guide V3", "e1-234", "Walk back to Falador",
+               "2965, 3380, plane 0"),
+        {}, {"b0aty-hcim": {"e9-005": "manual"}})
+    check("outside-repo guide already in conditions file still accepted",
+          r.applied and conds["b0aty-hcim"]["e1-234"]["world"] == [2965, 3380, 0])
+finally:
+    ar.GUIDES_DIR = _orig_guides_dir
+
 print("%d check(s) failed" % fails)
 sys.exit(1 if fails else 0)

@@ -52,12 +52,15 @@ jobs:
         with:
           script: |
             const fs = require('fs');
+            // The snippet embeds scraped UPSTREAM content - neutralise backtick runs so a page
+            // containing ``` cannot break out of the code fence in the issue body.
+            const snippet = fs.readFileSync('/tmp/drift-head.txt', 'utf8').replace(/`{3,}/g, '~~~');
             const body = 'Weekly scrape-drift check: a bundled guide no longer matches its upstream '
               + 'source. Re-scrape locally (`py -3 tools/scrape_guide.py` for osiris, '
               + '`py -3 tools/scrape_wiki_guide.py` for a wiki guide, then re-seed with '
               + '`py -3 tools/check_wiki_drift.py --seed`), run the gates (`gradlew check` + the '
               + 'risk diff), and ship if clean.\n\n```\n'
-              + fs.readFileSync('/tmp/drift-head.txt', 'utf8') + '\n```';
+              + snippet + '\n```';
             const title = 'A bundled guide has drifted from its upstream source';
             const open = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo,

@@ -4,10 +4,11 @@
 
 ## ✅ Live on the RuneLite Plugin Hub
 
-Installable from the in-client Plugin Hub since 2026-07-30; current hub release pins `dedaf62`.
+Installable from the in-client Plugin Hub since 2026-07-30; current hub release pins `dedaf62`,
+with `23ed18d` submitted as plugin-hub PR #16124.
 Every release ships through the same gates: 83 Java tests (including a fresh-account invariant that
-proves a brand-new account auto-completes **nothing** in any guide × mode), 8 Python suites for the
-route-builder matchers (over 1,000 assertions), and a duplicate-arrival lint that fails the build if
+proves a brand-new account auto-completes **nothing** in any guide × mode), 11 Python suites for the
+route-builder matchers (over 1,200 assertions), and a duplicate-arrival lint that fails the build if
 the waypoint pattern behind the old mass-fold bug ever reappears.
 
 ## 📋 Content — 15 guides, 6,583 steps
