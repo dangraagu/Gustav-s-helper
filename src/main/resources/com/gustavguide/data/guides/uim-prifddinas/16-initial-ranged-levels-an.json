@@ -330,19 +330,9 @@
       "title": "Complete Recipe for Disaster/Freeing Evil Dave. …",
       "text": "Complete Recipe for Disaster/Freeing Evil Dave. If your cat is not grown, do this when it does grow. — You can complete Ratcatchers for a wily cat, if you would like a higher success rate whilst catching rats.",
       "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "quest",
-            "quest": "RECIPE_FOR_DISASTER",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "RATCATCHERS",
-            "state": "FINISHED"
-          }
-        ]
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
       }
     },
     {

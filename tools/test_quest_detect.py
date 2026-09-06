@@ -154,6 +154,17 @@ check("bare Contact! still binds", qc("Complete Contact!") == "CONTACT")
 # --- conditional-aside cues ------------------------------------------------------------------
 check("'consider ... until you can complete X' does NOT bind",
       q("consider taking a break until you can complete Sins of the Father") is None)
+# "you can start/complete/do X" is a suggestion, not the step's action (deploy-gate CORR-1):
+# binding it as an AND member stalls the step on an optional side quest forever.
+check("'you can complete X' suggestion does NOT bind",
+      q("You can complete Ratcatchers for a wily cat, if you would like a higher success rate "
+        "whilst catching rats") is None)
+check("'you can start X' suggestion does NOT bind",
+      q("While there, you can start Ghosts Ahoy up to the part where you visit the crone") is None)
+d = sg.detect_quest("Complete Song of the Elves. — Reclaim your staff. — After you are done with "
+                    "it, you can start Perilous Moons and store the staff", QM)
+check("instructed quest binds ALONE when the other mention is a 'you can start' aside",
+      d == {"op": "quest", "quest": "SONG_OF_THE_ELVES", "state": "FINISHED"})
 
 # --- 'and start X' mid-text is a start step for X --------------------------------------------
 check("'and start X' = IN_PROGRESS",

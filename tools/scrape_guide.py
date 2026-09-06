@@ -498,7 +498,8 @@ _QUEST_LIST_WARN_RE = re.compile(r"complete the following", re.IGNORECASE)
 _QUEST_NEG_RE = re.compile(
     r"(do ?n.?t|dont|do not|avoid|never|no need|"
     r"if you (?:would|want|did|have|already|plan|like)|would like|"
-    r"you could|you can also|optional|bother|consider|until you can|"
+    r"you could|you can also|you can (?:start|complete|do)|optional|bother|consider|"
+    r"until you can|"
     r"before you (?:complete|finish|do|start)|partially complete|progress through)",
     re.IGNORECASE)
 

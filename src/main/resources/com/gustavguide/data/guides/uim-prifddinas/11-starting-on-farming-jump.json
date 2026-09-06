@@ -1199,21 +1199,10 @@
       "title": "Head to Morytania and complete Creature …",
       "text": "Head to Morytania and complete Creature of Fenkenstrain. — When you need to smith the lightning rod, use the one in Port Phasmatys. Get some ecto tokens to enter using your bucket of slime and pot, bones from an undead chicken at the nearby farm. While there, you can start Ghosts Ahoy up to the part where you visit the crone (this quest is not required for this guide, however)",
       "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "quest",
-            "quest": "CREATURE_OF_FENKENSTRAIN",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "GHOSTS_AHOY",
-            "state": "FINISHED"
-          }
-        ]
+        "op": "quest",
+        "quest": "CREATURE_OF_FENKENSTRAIN",
+        "state": "FINISHED"
       },
-      "npc": 3005,
       "world": [
         3492,
         3474,

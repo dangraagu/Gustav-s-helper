@@ -97,8 +97,8 @@ for r in rows[:25]:
 # this list is a new duplicate arrival - the shape that mass-folds a section (the 259-step bug) -
 # and fails the build. To accept a new one deliberately, add its (guide, step_id) here with a note.
 ACCEPTED = {
-    ('b0aty-hcim', 'e1-234'), ('b0aty-hcim', 'e3-098'), ('b0aty-hcim', 'e4-051'),
-    ('b0aty-hcim', 'e4-109'), ('b0aty-hcim', 'e4-309'), ('b0aty-hcim', 'e4-643'),
+    ('b0aty-hcim', 'e3-098'), ('b0aty-hcim', 'e4-051'),
+    ('b0aty-hcim', 'e4-309'), ('b0aty-hcim', 'e4-643'),
     ('b0aty-hcim', 'e11-064'), ('b0aty-hcim', 'e11-077'),
     ('osiris-ironman', 'eg-144c'),
 }

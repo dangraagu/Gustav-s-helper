@@ -112,6 +112,8 @@
         "level": 30,
         "cmp": ">="
       },
+      "note": "Take tasks from Mazchna in Canifis (20 combat) - use the highest master your combat level allows.",
+      "wiki": "https://oldschool.runescape.wiki/w/Slayer_training",
       "object": 409,
       "world": [
         2995,

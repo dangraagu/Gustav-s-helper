@@ -14,20 +14,15 @@
       "title": "Complete Song of the Elves. — …",
       "text": "Complete Song of the Elves. — a runite bar can be easily obtained by trading a pair of rune platelegs to the Nest (nice). — Reclaim your Iban's staff and upgrade it for the fight. — After you are done with it, you can start Perilous Moons and store the staff at Blue Moon if you think you might want it again.",
       "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "quest",
-            "quest": "SONG_OF_THE_ELVES",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "PERILOUS_MOONS",
-            "state": "FINISHED"
-          }
-        ]
-      }
+        "op": "quest",
+        "quest": "SONG_OF_THE_ELVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
     },
     {
       "id": "song-of-the-elves-003",

@@ -830,11 +830,6 @@
         "of": [
           {
             "op": "quest",
-            "quest": "TEMPLE_OF_IKOV",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
             "quest": "DESERT_TREASURE_I",
             "state": "FINISHED"
           },
