@@ -11,7 +11,7 @@ proves a brand-new account auto-completes **nothing** in any guide × mode), 11 
 route-builder matchers (over 1,200 assertions), and a duplicate-arrival lint that fails the build if
 the waypoint pattern behind the old mass-fold bug ever reappears.
 
-## 📋 Content — 15 guides, 6,583 steps
+## 📋 Content — 15 guides, 7,749 steps
 
 | Source | Guides |
 |---|---|
