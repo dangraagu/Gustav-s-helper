@@ -457,10 +457,21 @@
       "title": "Head over to Kourend and complete …",
       "text": "Head over to Kourend and complete Client of Kourend. Veos might return your lamp from X marks the spot, destroy it again. — During this quest, steal from Fruit stalls until level 31 Thieving. — Save any Strange fruit you get for some free run restoration. — Use the Client of Kourend lamps on Hitpoints. DO NOT USE THE X MARKS THE SPOT LAMP. — During the quest, quickly change to the Arceuus spellbook and back so that you can make house portals with the teleports later.",
       "complete": {
-        "op": "quest",
-        "quest": "CLIENT_OF_KOUREND",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "CLIENT_OF_KOUREND",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "X_MARKS_THE_SPOT",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 10727,
       "world": [
         1824,
         3690,
@@ -988,9 +999,19 @@
       "title": "Use the X Marks the Spot …",
       "text": "Use the X Marks the Spot lamp on Herblore. — If you are coming back later after having used this lamp already, you can buy a Greenman's ale to boost to level 10 during the Dig Site.",
       "complete": {
-        "op": "quest",
-        "quest": "X_MARKS_THE_SPOT",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "X_MARKS_THE_SPOT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_DIG_SITE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         3212,
@@ -1255,7 +1276,11 @@
       "id": "setting-up-for-agility-076",
       "title": "Enter the Combat Training Camp for …",
       "text": "Enter the Combat Training Camp for the final step of the Ardougne Easy Diary. — Do not collect the rewards at this time",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "ardougne",
+        "tier": "easy"
+      },
       "object": 2041,
       "world": [
         2518,

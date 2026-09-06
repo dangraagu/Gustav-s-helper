@@ -72,12 +72,22 @@
       "title": "Wintertodt to level 99. — Do …",
       "text": "Wintertodt to level 99. — Do Daddy's Home and Tower of Life to get a few Construction levels first. — Make some headless arrows for a few starting Fletching levels. Going to level 20 is fine. — Do Forestry as you get the 50 Firemaking to work towards a log basket. — You can save your bark in the Forestry kit by death piling and letting the kit de-spawn if you don't have a Magic wardrobe.",
       "complete": {
-        "op": "quest",
-        "quest": "TOWER_OF_LIFE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DADDYS_HOME",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TOWER_OF_LIFE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        2637,
+        2639,
         3218,
         0
       ]
@@ -148,14 +158,15 @@
       "title": "Complete the easy Varrock Diary. — …",
       "text": "Complete the easy Varrock Diary. — Remember you can get bones from the boneyard if needed. — Complete Enter the abyss, then craft 1 inventory of runes at the Ourania Altar. — Consider getting 41/52 Mining now to use the Rune pickaxe. — Complete Temple of the eye. — Bring some pure essence with you and leave the Abyss through the Earth portal to craft the runes. — Play some Guardians of the rift and loot after each round until you have enough Abyssal pearls for a Mind talisman. — You can use the Varrock armour 1.",
       "complete": {
-        "op": "quest",
-        "quest": "TEMPLE_OF_THE_EYE",
-        "state": "FINISHED"
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
       },
+      "npc": 415,
       "world": [
-        3285,
-        3232,
-        0
+        3420,
+        3569,
+        2
       ]
     },
     {
@@ -163,12 +174,12 @@
       "title": "Complete the easy Falador Diary. — …",
       "text": "Complete the easy Falador Diary. — Complete Daddy's home and Tower of life then use the planks on a few Mahogany homes contracts for the Construction level. — Use some of your Magic or Ranged xp on the duck.",
       "complete": {
-        "op": "quest",
-        "quest": "TOWER_OF_LIFE",
-        "state": "FINISHED"
+        "op": "diary",
+        "area": "falador",
+        "tier": "easy"
       },
       "world": [
-        2637,
+        2639,
         3218,
         0
       ]
@@ -177,7 +188,11 @@
       "id": "wilderness-agility-016",
       "title": "Complete the easy Lumbridge & Draynor …",
       "text": "Complete the easy Lumbridge & Draynor Diary. — You will need 2 poisons to complete this. — After you are done, you can add the Explorer's ring 1 to your setup for an extra Prayer bonus. — To kill the cave bug you have to do a bit extra because of their very high HP regen. — Bring your dagger and ranged/magic. — Poison the bug as normal. — After it gets hit by a 4, attack with with Ranged or Magic to get an extra hit of damage in.",
-      "manual": true,
+      "complete": {
+        "op": "diary",
+        "area": "lumbridge",
+        "tier": "easy"
+      },
       "world": [
         3243,
         3207,
@@ -205,11 +220,7 @@
       "id": "wilderness-agility-019",
       "title": "Partially complete Tai Bwo Wannai Trio …",
       "text": "Partially complete Tai Bwo Wannai Trio until you can use the kp poison on an iron spear. — There is a reasonably good chance you will have to get the 65 Fishing requirement as you can burn the 1 Karambwan you get.",
-      "complete": {
-        "op": "quest",
-        "quest": "TAI_BWO_WANNAI_TRIO",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
         2782,
         3087,
@@ -231,16 +242,7 @@
       "id": "wilderness-agility-021",
       "title": "Partially complete Watchtower until you get …",
       "text": "Partially complete Watchtower until you get the Skavid map. — There is another npc to poison in the quest",
-      "complete": {
-        "op": "quest",
-        "quest": "WATCHTOWER",
-        "state": "FINISHED"
-      },
-      "world": [
-        2548,
-        3119,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "wilderness-agility-022",
@@ -253,9 +255,19 @@
       "title": "Complete quests like One Small Favor, …",
       "text": "Complete quests like One Small Favor, A Tail of Two Cats or more diaries for extra Hitpoints",
       "complete": {
-        "op": "quest",
-        "quest": "A_TAIL_OF_TWO_CATS",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ONE_SMALL_FAVOUR",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "A_TAIL_OF_TWO_CATS",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         2919,

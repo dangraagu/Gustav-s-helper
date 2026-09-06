@@ -99,7 +99,7 @@
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3228,
@@ -151,10 +151,22 @@
       "title": "Collect 4x logs on the top …",
       "text": "Collect 4x logs on the top floor [Tree Gnome Village]",
       "complete": {
-        "op": "quest",
-        "quest": "TREE_GNOME_VILLAGE",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1511,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 1511,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1511,
       "world": [
         3209,
         3219,
@@ -322,10 +334,22 @@
       "title": "collect the Bones + Raw Rat …",
       "text": "collect the Bones + Raw Rat Meat [Druidic Ritual]",
       "complete": {
-        "op": "quest",
-        "quest": "DRUIDIC_RITUAL",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2134,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2134,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 2134,
       "world": [
         3200,
         3174,
@@ -405,13 +429,25 @@
       "title": "Collect 3x Logs next to the …",
       "text": "Collect 3x Logs next to the stairs [Tree Gnome Village]",
       "complete": {
-        "op": "quest",
-        "quest": "TREE_GNOME_VILLAGE",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1511,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 1511,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1511,
       "world": [
-        2541,
-        3170,
+        2455,
+        3301,
         0
       ]
     },
@@ -446,13 +482,23 @@
       "title": "Take Everything (Make sure you get …",
       "text": "Take Everything (Make sure you get a feather, else hop worlds and repeat)[Client of Kourend + Druidic Ritual]",
       "complete": {
-        "op": "quest",
-        "quest": "CLIENT_OF_KOUREND",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "CLIENT_OF_KOUREND",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DRUIDIC_RITUAL",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        1824,
-        3690,
+        1630,
+        3730,
         0
       ]
     },
@@ -461,13 +507,25 @@
       "title": "Collect 3x Logs [Tree Gnome Village]",
       "text": "Collect 3x Logs [Tree Gnome Village]",
       "complete": {
-        "op": "quest",
-        "quest": "TREE_GNOME_VILLAGE",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1511,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 1511,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1511,
       "world": [
-        2541,
-        3170,
+        2455,
+        3301,
         0
       ]
     },
@@ -547,10 +605,23 @@
       "title": "Collect Cheese from Aggie [Witch's House]",
       "text": "Collect Cheese from Aggie [Witch's House]",
       "complete": {
-        "op": "quest",
-        "quest": "WITCHS_HOUSE",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1985,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1985,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1985,
+      "npc": 4284,
       "world": [
         3086,
         3258,
@@ -894,9 +965,19 @@
       "title": "Take Wizard Hat & Orange Dye …",
       "text": "Take Wizard Hat & Orange Dye [Shadow of the Storm, Goblin Diplomacy] from house to the west (Shayzien Styles)",
       "complete": {
-        "op": "quest",
-        "quest": "SHADOW_OF_THE_STORM",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "SHADOW_OF_THE_STORM",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "GOBLIN_DIPLOMACY",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         1511,
@@ -1106,7 +1187,11 @@
       "id": "e1-063at",
       "title": "Head east, Talk to Gertude (1) …",
       "text": "Head east, Talk to Gertude (1) [Gertrudes Cat]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e1-064",
@@ -1364,8 +1449,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3098,
-        3268,
+        3222,
+        3399,
         0
       ]
     },
@@ -1422,7 +1507,11 @@
       "id": "e1-077",
       "title": "Talk to Shilop to continue Gertrudes …",
       "text": "Talk to Shilop to continue Gertrudes Cat (2,2)",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      },
       "npc": 3501,
       "world": [
         3222,
@@ -1440,8 +1529,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3225,
-        3426,
+        3222,
+        3435,
         0
       ]
     },
@@ -1625,8 +1714,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2978,
-        3341,
+        3225,
+        3496,
         0
       ]
     },
@@ -1930,7 +2019,7 @@
           {
             "op": "itemAcquired",
             "id": 1511,
-            "qty": 1
+            "qty": 11
           },
           {
             "op": "item",
@@ -2199,10 +2288,21 @@
       "title": "pick 2 Nettles [Ghost's Ahoy][Skippy & …",
       "text": "pick 2 Nettles [Ghost's Ahoy][Skippy & The Mogres]",
       "complete": {
-        "op": "quest",
-        "quest": "SKIPPY_AND_THE_MOGRES",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "GHOSTS_AHOY",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SKIPPY_AND_THE_MOGRES",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 2587,
       "world": [
         2982,
         3194,
@@ -2214,10 +2314,22 @@
       "title": "Collect 1 Sweetcorn [Recipe for Disaster]",
       "text": "Collect 1 Sweetcorn [Recipe for Disaster]",
       "complete": {
-        "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
-        "state": "FINISHED"
-      }
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5986,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 5986,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 5986
     },
     {
       "id": "e1-119",
@@ -2478,7 +2590,11 @@
       "id": "e1-133",
       "title": "Pick a Cabbage [Black Knight's Fortress]",
       "text": "Pick a Cabbage [Black Knight's Fortress]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e1-134a",
@@ -3571,11 +3687,14 @@
       "id": "e1-189at",
       "title": "Head to Taverley, talk to the …",
       "text": "Head to Taverley, talk to the boy to start Witches House (1,1)",
-      "manual": true,
-      "object": 16680,
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "IN_PROGRESS"
+      },
       "world": [
-        2884,
-        3397,
+        2928,
+        3456,
         0
       ]
     },
@@ -3599,7 +3718,16 @@
       "id": "e1-191",
       "title": "Complete Witches House quest - Safespot …",
       "text": "Complete Witches House quest - Safespot guide for the spider: https://youtu.be/bDB351j-qZI?t=178",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "WITCHS_HOUSE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2928,
+        3456,
+        0
+      ]
     },
     {
       "id": "e1-192",
@@ -3635,8 +3763,8 @@
       },
       "item": 227,
       "world": [
-        2925,
-        3486,
+        2928,
+        3456,
         0
       ]
     },
@@ -3715,7 +3843,11 @@
       "id": "e1-199",
       "title": "Talk to Reldo (2) [Knights Sword]",
       "text": "Talk to Reldo (2) [Knights Sword]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "npc": 4243,
       "world": [
         3211,
@@ -3818,10 +3950,22 @@
       "title": "Buy 2x Bronze Med Helm in …",
       "text": "Buy 2x Bronze Med Helm in Barbarian Village [Black Knights Fortress][Mournings End Pt 2][Kings Ransom]",
       "complete": {
-        "op": "quest",
-        "quest": "BLACK_KNIGHTS_FORTRESS",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1139,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1139,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1139,
       "world": [
         3080,
         3427,
@@ -3920,10 +4064,22 @@
       "title": "buy Dwellberries, 2x Bucket of Milk, …",
       "text": "buy Dwellberries, 2x Bucket of Milk, 2x Chocolate Dust [Plague City]",
       "complete": {
-        "op": "quest",
-        "quest": "PLAGUE_CITY",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1927,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 1927,
+            "qty": 9,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1927,
       "world": [
         2493,
         3488,
@@ -3992,8 +4148,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2592,
+        3336,
         0
       ]
     },
@@ -4003,8 +4159,8 @@
       "text": "Fill your inventory with Balls of wool when passing the general store",
       "manual": true,
       "world": [
-        2825,
-        2959,
+        2614,
+        3293,
         0
       ]
     },
@@ -4165,11 +4321,14 @@
       "id": "e1-228",
       "title": "WALK South to Thurgo and continue …",
       "text": "WALK South to Thurgo and continue Knights Sword (2,1) (you want run energy for next step)",
-      "manual": true,
-      "npc": 4733,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
-        3000,
-        3145,
+        2978,
+        3341,
         0
       ]
     },
@@ -4206,7 +4365,11 @@
       "id": "e1-232",
       "title": "Continue Knights Sword",
       "text": "Continue Knights Sword",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
         2978,
         3341,
@@ -4246,7 +4409,11 @@
       "id": "e1-235",
       "title": "Complete Knights Sword",
       "text": "Complete Knights Sword",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
         2978,
         3341,
@@ -4545,8 +4712,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3204,
-        3424,
+        3271,
+        3029,
         0
       ]
     },
@@ -4739,12 +4906,7 @@
       "id": "e1-263a",
       "title": "Head North",
       "text": "Head North",
-      "manual": true,
-      "world": [
-        2607,
-        3211,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e1-263b",
@@ -4756,8 +4918,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2607,
-        3211,
+        2614,
+        3293,
         0
       ]
     },
@@ -4766,13 +4928,25 @@
       "title": "Buy 2x Rotten Tomato at Pelters' …",
       "text": "Buy 2x Rotten Tomato at Pelters' Veg Stall [Recipe for Disaster][Mournings End pt 2]",
       "complete": {
-        "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1982,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1982,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1982,
       "world": [
         2656,
-        3152,
+        3310,
         0
       ]
     },
@@ -5029,7 +5203,16 @@
       "id": "e1-280",
       "title": "Complete Monks Friend",
       "text": "Complete Monks Friend",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
+      "world": [
+        2607,
+        3211,
+        0
+      ]
     },
     {
       "id": "e1-281",
@@ -5447,15 +5630,22 @@
       "title": "Collect 2x Purple Dye when passing …",
       "text": "Collect 2x Purple Dye when passing [Goblin RFD][Song of the Elves]",
       "complete": {
-        "op": "quest",
-        "quest": "SONG_OF_THE_ELVES",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1773,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1773,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
       },
-      "world": [
-        2566,
-        3337,
-        0
-      ]
+      "item": 1773
     },
     {
       "id": "e1-306",
@@ -5495,12 +5685,7 @@
         "op": "quest",
         "quest": "WATERFALL_QUEST",
         "state": "FINISHED"
-      },
-      "world": [
-        2521,
-        3495,
-        0
-      ]
+      }
     },
     {
       "id": "e1-309",
@@ -5511,11 +5696,11 @@
         "quest": "TREE_GNOME_VILLAGE",
         "state": "FINISHED"
       },
-      "object": 16673,
+      "object": 7963,
       "world": [
-        2518,
-        3430,
-        1
+        2490,
+        3180,
+        0
       ]
     },
     {
@@ -5540,8 +5725,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3204,
-        3424,
+        2615,
+        3143,
         0
       ]
     },
@@ -5629,10 +5814,22 @@
       "title": "Buy 1x Gnome Spice [Recipe for …",
       "text": "Buy 1x Gnome Spice [Recipe for Disaster Goblin]",
       "complete": {
-        "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
-        "state": "FINISHED"
-      }
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2169,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2169,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2169
     },
     {
       "id": "e1-318",
@@ -6116,12 +6313,7 @@
         "op": "quest",
         "quest": "FAMILY_CREST",
         "state": "FINISHED"
-      },
-      "world": [
-        3280,
-        3402,
-        0
-      ]
+      }
     },
     {
       "id": "e1-350",
@@ -6143,12 +6335,7 @@
           }
         ]
       },
-      "item": 2114,
-      "world": [
-        3216,
-        3416,
-        0
-      ]
+      "item": 2114
     },
     {
       "id": "e1-351",
@@ -6213,8 +6400,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2442,
-        3186,
+        2441,
+        3162,
         0
       ]
     },

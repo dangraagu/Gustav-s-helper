@@ -24,7 +24,16 @@
       "id": "herblore-and-barrows-glo-003",
       "title": "Complete Shades of Morton",
       "text": "Complete Shades of Morton",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SHADES_OF_MORTTON",
+        "state": "FINISHED"
+      },
+      "world": [
+        3481,
+        3279,
+        0
+      ]
     },
     {
       "id": "herblore-and-barrows-glo-004",
@@ -62,7 +71,16 @@
       "id": "herblore-and-barrows-glo-007",
       "title": "Complete One Small Favor",
       "text": "Complete One Small Favor",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "ONE_SMALL_FAVOUR",
+        "state": "FINISHED"
+      },
+      "world": [
+        2836,
+        2983,
+        0
+      ]
     },
     {
       "id": "herblore-and-barrows-glo-008",
@@ -204,13 +222,38 @@
       "title": "Complete the 5 Kourend quests. Put …",
       "text": "Complete the 5 Kourend quests. Put each paper in your Kharedst's memoirs. — The Depths of Despair — The Queen of Thieves — The Ascent of Arceuus — The Forsaken Tower — Tale of the Righteous",
       "complete": {
-        "op": "quest",
-        "quest": "THE_ASCENT_OF_ARCEUUS",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_DEPTHS_OF_DESPAIR",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_QUEEN_OF_THIEVES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_ASCENT_OF_ARCEUUS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_FORSAKEN_TOWER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TALE_OF_THE_RIGHTEOUS",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        1698,
-        3742,
+        1700,
+        3800,
         0
       ]
     },

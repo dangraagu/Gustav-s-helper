@@ -63,7 +63,16 @@
       "id": "barrows-gloves-005",
       "title": "Gerturde's Cat",
       "text": "Gerturde's Cat",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3148,
+        3413,
+        0
+      ]
     },
     {
       "id": "barrows-gloves-006",
@@ -153,7 +162,11 @@
       "id": "barrows-gloves-012",
       "title": "Eadgars Ruse (get 3 goutweed!!)",
       "text": "Eadgars Ruse (get 3 goutweed!!)",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "EADGARS_RUSE",
+        "state": "FINISHED"
+      },
       "world": [
         2899,
         3429,
@@ -692,7 +705,11 @@
       "id": "barrows-gloves-050",
       "title": "shades of morton",
       "text": "shades of morton",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "SHADES_OF_MORTTON",
+        "state": "FINISHED"
+      },
       "world": [
         3481,
         3279,

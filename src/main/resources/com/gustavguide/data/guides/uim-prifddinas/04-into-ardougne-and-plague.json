@@ -608,13 +608,23 @@
       "title": "Complete Waterfall Quest until you have …",
       "text": "Complete Waterfall Quest until you have to visit Tree Gnome Village",
       "complete": {
-        "op": "quest",
-        "quest": "TREE_GNOME_VILLAGE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "WATERFALL_QUEST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TREE_GNOME_VILLAGE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        2541,
-        3170,
+        2455,
+        3301,
         0
       ]
     },
@@ -624,8 +634,8 @@
       "text": "Drop the book you obtained",
       "manual": true,
       "world": [
-        2541,
-        3170,
+        2455,
+        3301,
         0
       ]
     },
@@ -635,8 +645,8 @@
       "text": "Run south then west",
       "manual": true,
       "world": [
-        2440,
-        3460,
+        2450,
+        3433,
         0
       ]
     },
@@ -646,8 +656,8 @@
       "text": "enter the Gnome Stronghold",
       "manual": true,
       "world": [
-        2440,
-        3460,
+        2450,
+        3433,
         0
       ]
     },

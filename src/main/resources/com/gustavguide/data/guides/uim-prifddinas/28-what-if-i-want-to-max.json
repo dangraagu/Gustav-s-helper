@@ -402,7 +402,11 @@
       "id": "what-if-i-want-to-max-029",
       "title": "You are now set to return …",
       "text": "You are now set to return to the main guide path! Still do the section for Farming and Kourend. You still need those things unlocked eventually, even if you already have construction. Follow all the steps and work towards Song of the Elves. Even if you are trying to max, finishing this quest is a huge milestone and should be a centerpiece of your earlygame goals.",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "SONG_OF_THE_ELVES",
+        "state": "FINISHED"
+      },
       "world": [
         2566,
         3337,

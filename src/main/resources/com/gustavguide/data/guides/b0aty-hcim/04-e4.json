@@ -71,7 +71,16 @@
       "id": "e4-005",
       "title": "Complete Shades of Morton",
       "text": "Complete Shades of Morton",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "SHADES_OF_MORTTON",
+        "state": "FINISHED"
+      },
+      "world": [
+        3481,
+        3279,
+        0
+      ]
     },
     {
       "id": "e4-006",
@@ -79,8 +88,8 @@
       "text": "Bank anywhere",
       "manual": true,
       "world": [
-        2617,
-        3333,
+        3602,
+        3366,
         0
       ]
     },
@@ -106,8 +115,8 @@
       },
       "item": 1539,
       "world": [
-        2617,
-        3333,
+        3602,
+        3366,
         0
       ]
     },
@@ -144,7 +153,11 @@
       "id": "e4-010",
       "title": "Use Compost on Empty Plant Pots …",
       "text": "Use Compost on Empty Plant Pots (North of the Picnic Bench) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
         3230,
         3478,
@@ -221,10 +234,14 @@
       "id": "e4-015",
       "title": "Continue Dragon Slayer by doing the …",
       "text": "Continue Dragon Slayer by doing the Melzar's Maze [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2956,
-        3232,
+        3190,
+        3360,
         0
       ]
     },
@@ -244,11 +261,14 @@
       "id": "e4-016b",
       "title": "kill Wormbrain to get the map …",
       "text": "kill Wormbrain to get the map part [Dragon Slayer]",
-      "manual": true,
-      "npc": 820,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        3015,
-        3195,
+        2954,
+        3147,
         0
       ]
     },
@@ -280,11 +300,14 @@
       "id": "e4-018b",
       "title": "buy Lady Lumbridge from him [Dragon …",
       "text": "buy Lady Lumbridge from him [Dragon Slayer]",
-      "manual": true,
-      "npc": 3530,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2924,
-        3404,
+        3212,
+        3247,
         0
       ]
     },
@@ -298,10 +321,14 @@
       "id": "e4-019b",
       "title": "climb down the ladder and repair …",
       "text": "climb down the ladder and repair the hole 3 times [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2924,
-        3404,
+        3212,
+        3247,
         0
       ]
     },
@@ -310,15 +337,20 @@
       "title": "Complete The pandemonium quest while you …",
       "text": "Complete The pandemonium quest while you are here to get sailing xp from Tears of Guthix",
       "complete": {
-        "op": "quest",
-        "quest": "TEARS_OF_GUTHIX",
-        "state": "FINISHED"
-      },
-      "world": [
-        3169,
-        3172,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "PANDEMONIUM",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TEARS_OF_GUTHIX",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "e4-021",
@@ -341,7 +373,11 @@
       "id": "e4-022",
       "title": "Withdraw the first map piece and …",
       "text": "Withdraw the first map piece and combine the three map pieces [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
         3093,
         3244,
@@ -352,7 +388,11 @@
       "id": "e4-023",
       "title": "Talk to Ned (1) [Dragon Slayer]",
       "text": "Talk to Ned (1) [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
         3099,
         3259,
@@ -399,7 +439,11 @@
       "id": "e4-026",
       "title": "Talk to Wise Old Man (1)[Garden …",
       "text": "Talk to Wise Old Man (1)[Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2108,
       "world": [
         3089,
@@ -428,7 +472,11 @@
       "id": "e4-028",
       "title": "Talk to Elstan (1,2,3,2,2,1) [Garden of …",
       "text": "Talk to Elstan (1,2,3,2,2,1) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2663,
       "world": [
         3056,
@@ -489,7 +537,11 @@
       "id": "e4-030c",
       "title": "Pick up food. [Garden of Tranquility]",
       "text": "Pick up food. [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
         3093,
         3244,
@@ -524,7 +576,11 @@
       "id": "e4-033",
       "title": "Kill Elvarg [Dragon Slayer]",
       "text": "Kill Elvarg [Dragon Slayer]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e4-034",
@@ -608,7 +664,11 @@
       "id": "e4-040",
       "title": "Talk to Oziach to complete Dragon …",
       "text": "Talk to Oziach to complete Dragon Slayer",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "npc": 822,
       "world": [
         3068,
@@ -631,7 +691,11 @@
       "id": "e4-042",
       "title": "Talk to Brother Althric (2) [Garden …",
       "text": "Talk to Brother Althric (2) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 1397,
       "world": [
         3052,
@@ -643,11 +707,14 @@
       "id": "e4-043",
       "title": "Use Ring of Chaos on Edgeville …",
       "text": "Use Ring of Chaos on Edgeville Well [Garden of Tranquility]",
-      "manual": true,
-      "object": 1581,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
-        3097,
-        3468,
+        3083,
+        3503,
         0
       ]
     },
@@ -661,10 +728,14 @@
       "id": "e4-044b",
       "title": "pick 4x Red/Pink/White Roses [Garden of …",
       "text": "pick 4x Red/Pink/White Roses [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
-        3097,
-        3468,
+        3083,
+        3503,
         0
       ]
     },
@@ -672,7 +743,11 @@
       "id": "e4-045",
       "title": "Return & fish for Ring of …",
       "text": "Return & fish for Ring of Charos [Garden of Tranquility]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e4-046",
@@ -701,7 +776,11 @@
       "id": "e4-048",
       "title": "Talk to Lyra (1,2,2,2,2,2,2,2,1) [Garden of …",
       "text": "Talk to Lyra (1,2,2,2,2,2,2,2,1) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2666,
       "world": [
         3608,
@@ -713,7 +792,11 @@
       "id": "e4-049",
       "title": "Plant Onions in both patches with …",
       "text": "Plant Onions in both patches with Ultra Compost [Garden of Tranquility]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e4-050",
@@ -753,7 +836,11 @@
       "id": "e4-052",
       "title": "Talk to Kragen (1,2,2,2,2,2,1) [Garden of …",
       "text": "Talk to Kragen (1,2,2,2,2,2,1) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2665,
       "world": [
         2668,
@@ -765,7 +852,11 @@
       "id": "e4-053",
       "title": "Plant Cabbages in both patches with …",
       "text": "Plant Cabbages in both patches with Ultra Compost [Garden of Tranquility]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e4-054",
@@ -800,7 +891,11 @@
       "id": "e4-056",
       "title": "Talk to Dantaera (1,2,2,2) [Garden of …",
       "text": "Talk to Dantaera (1,2,2,2) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2664,
       "world": [
         2812,
@@ -867,8 +962,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        3402,
+        2810,
+        3442,
         0
       ]
     },
@@ -876,7 +971,13 @@
       "id": "e4-061a",
       "title": "Head east towards the fishing shop",
       "text": "Head east towards the fishing shop",
-      "manual": true
+      "manual": true,
+      "npc": 4789,
+      "world": [
+        2734,
+        3291,
+        0
+      ]
     },
     {
       "id": "e4-061b",
@@ -884,8 +985,8 @@
       "text": "Fill the Fishbowl at the sink",
       "manual": true,
       "world": [
-        3280,
-        3402,
+        2734,
+        3291,
         0
       ]
     },
@@ -895,8 +996,8 @@
       "text": "Use Seaweed on Fishbowl",
       "manual": true,
       "world": [
-        3280,
-        3402,
+        2734,
+        3291,
         0
       ]
     },
@@ -930,8 +1031,8 @@
       "text": "Fish for a Bass",
       "manual": true,
       "world": [
-        3280,
-        3402,
+        2833,
+        3443,
         0
       ]
     },
@@ -945,8 +1046,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        3402,
+        2833,
+        3443,
         0
       ]
     },
@@ -972,8 +1073,8 @@
       },
       "item": 5354,
       "world": [
-        3185,
-        3441,
+        2810,
+        3442,
         0
       ]
     },
@@ -1087,7 +1188,11 @@
       "id": "e4-076b",
       "title": "go to the Ice Mountain There …",
       "text": "go to the Ice Mountain There use Secateurs on White Tree [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "object": 9263,
       "world": [
         3008,
@@ -1099,7 +1204,11 @@
       "id": "e4-077",
       "title": "Plant the White Tree Shoot in …",
       "text": "Plant the White Tree Shoot in the Plant pot & water it [Garden of Tranquility]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e4-078a",
@@ -1160,7 +1269,11 @@
       "id": "e4-081",
       "title": "Plant the Roses & White Tree …",
       "text": "Plant the Roses & White Tree Sapling in Varrock Garden [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
         3210,
         3448,
@@ -1177,7 +1290,11 @@
       "id": "e4-083",
       "title": "Talk to Queen Ellamaria for the …",
       "text": "Talk to Queen Ellamaria for the Trolley [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 1390,
       "world": [
         3230,
@@ -1284,7 +1401,11 @@
       "id": "e4-090",
       "title": "Talk to Bernald (2,1) [Garden of …",
       "text": "Talk to Bernald (2,1) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 1389,
       "world": [
         2915,
@@ -1296,7 +1417,11 @@
       "id": "e4-091",
       "title": "Use Plant Cure on the Vine …",
       "text": "Use Plant Cure on the Vine [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "object": 9254,
       "world": [
         2915,
@@ -1308,7 +1433,11 @@
       "id": "e4-092",
       "title": "Talk to Bernald [Garden of Tranquility]",
       "text": "Talk to Bernald [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 1389,
       "world": [
         2915,
@@ -1332,7 +1461,11 @@
       "id": "e4-094",
       "title": "Head South & talk to Alain …",
       "text": "Head South & talk to Alain at the Taverley Tree Patch (1)[Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2678,
       "world": [
         2936,
@@ -1344,7 +1477,11 @@
       "id": "e4-095",
       "title": "Use Essence on Hammer, Shards with …",
       "text": "Use Essence on Hammer, Shards with Pestle & Dust with Plant Cure [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
         2936,
         3438,
@@ -1444,7 +1581,11 @@
       "id": "e4-101",
       "title": "Use Plant Cure on Vines to …",
       "text": "Use Plant Cure on Vines to get Vine Seeds [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
         2906,
         3540,
@@ -1478,7 +1619,11 @@
       "id": "e4-104",
       "title": "Talk to Elstan (1) [Garden of …",
       "text": "Talk to Elstan (1) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2663,
       "world": [
         3056,
@@ -1496,7 +1641,11 @@
       "id": "e4-106",
       "title": "Talk to Lyra (1) [Garden of …",
       "text": "Talk to Lyra (1) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2666,
       "world": [
         3608,
@@ -1525,7 +1674,11 @@
       "id": "e4-108",
       "title": "Talk to Kragen (1) [Garden of …",
       "text": "Talk to Kragen (1) [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "npc": 2665,
       "world": [
         2668,
@@ -1592,8 +1745,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        3402,
+        2976,
+        3369,
         0
       ]
     },
@@ -1601,7 +1754,11 @@
       "id": "e4-113",
       "title": "Use Trolley on Statue & push …",
       "text": "Use Trolley on Statue & push it North. Place it Correctly in Varrock [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
         3210,
         3448,
@@ -1630,8 +1787,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3280,
-        3402,
+        3210,
+        3448,
         0
       ]
     },
@@ -1811,8 +1968,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3102,
-        3557,
+        3104,
+        3560,
         0
       ]
     },
@@ -2146,8 +2303,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        2829,
+        10129,
         0
       ]
     },
@@ -2241,8 +2398,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        3000,
+        3360,
         0
       ]
     },
@@ -2267,8 +2424,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        2624,
+        3300,
         0
       ]
     },
@@ -2332,8 +2489,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        2617,
+        3333,
         0
       ]
     },
@@ -2347,8 +2504,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        2617,
+        3333,
         0
       ]
     },
@@ -2510,8 +2667,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        2591,
+        2966,
         0
       ]
     },
@@ -2531,7 +2688,11 @@
       "id": "e4-179",
       "title": "Use Trolley on Statue and place …",
       "text": "Use Trolley on Statue and place in Varrock [Garden of Tranquility]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
         3210,
         3448,
@@ -2542,7 +2703,16 @@
       "id": "e4-180",
       "title": "Complete Garden of Tranquility",
       "text": "Complete Garden of Tranquility",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3230,
+        3478,
+        0
+      ]
     },
     {
       "id": "e4-181",
@@ -2638,8 +2808,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3151,
-        3413,
+        3237,
+        3458,
         0
       ]
     },
@@ -2651,12 +2821,7 @@
         "op": "quest",
         "quest": "RATCATCHERS",
         "state": "FINISHED"
-      },
-      "world": [
-        3151,
-        3413,
-        0
-      ]
+      }
     },
     {
       "id": "e4-189",
@@ -2668,8 +2833,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3151,
-        3413,
+        3237,
+        3458,
         0
       ]
     },
@@ -2689,7 +2854,11 @@
       "id": "e4-191",
       "title": "Complete A Souls Bane (Use Bronze …",
       "text": "Complete A Souls Bane (Use Bronze Knives Knives on the Confusions (Put knives on rapid))",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "A_SOULS_BANE",
+        "state": "FINISHED"
+      },
       "world": [
         3307,
         3454,
@@ -2875,10 +3044,22 @@
       "title": "Buy Steel Platelegs [Song of the …",
       "text": "Buy Steel Platelegs [Song of the Elves]",
       "complete": {
-        "op": "quest",
-        "quest": "SONG_OF_THE_ELVES",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1069,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1069,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1069,
       "world": [
         2614,
         3293,
@@ -3100,8 +3281,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2896,
-        3529,
+        2870,
+        3544,
         0
       ]
     },
@@ -3218,7 +3399,11 @@
       "id": "e4-226",
       "title": "Keep 1 Unpowered Orb [Legend's Quest]",
       "text": "Keep 1 Unpowered Orb [Legend's Quest]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "LEGENDS_QUEST",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e4-227",
@@ -3230,8 +3415,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2551,
-        3099,
+        3000,
+        3360,
         0
       ]
     },
@@ -3241,8 +3426,8 @@
       "text": "Use Lantern Lense on Bullseye Lantern",
       "manual": true,
       "world": [
-        2551,
-        3099,
+        3000,
+        3360,
         0
       ]
     },
@@ -3881,8 +4066,8 @@
         "state": "FINISHED"
       },
       "world": [
-        1632,
-        3808,
+        1700,
+        3800,
         0
       ]
     },
@@ -4684,8 +4869,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3151,
-        3413,
+        3081,
+        3420,
         0
       ]
     },
@@ -4825,8 +5010,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2997,
-        3373,
+        2891,
+        9681,
         0
       ]
     },
@@ -4863,12 +5048,7 @@
       "id": "e4-351a",
       "title": "Kill a Blue Dragon with Water …",
       "text": "Kill a Blue Dragon with Water Blast",
-      "manual": true,
-      "world": [
-        2548,
-        3119,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e4-351b",
@@ -4880,8 +5060,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2548,
-        3119,
+        2930,
+        9685,
         0
       ]
     },
@@ -4897,8 +5077,8 @@
       "text": "Take the Baby Dragon Bone [Mournings End Pt 2]",
       "manual": true,
       "world": [
-        2548,
-        3119,
+        2930,
+        9685,
         0
       ]
     },
@@ -4911,9 +5091,10 @@
         "quest": "HEROES_QUEST",
         "state": "FINISHED"
       },
+      "npc": 4928,
       "world": [
-        2904,
-        3511,
+        2898,
+        9764,
         0
       ]
     },
@@ -5009,8 +5190,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2904,
-        3511,
+        2702,
+        3406,
         0
       ]
     },
@@ -5020,8 +5201,8 @@
       "text": "Drink tea",
       "manual": true,
       "world": [
-        2836,
-        2983,
+        2702,
+        3406,
         0
       ]
     },
@@ -5035,8 +5216,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2702,
+        3406,
         0
       ]
     },
@@ -5337,12 +5518,7 @@
         "op": "quest",
         "quest": "ENLIGHTENED_JOURNEY",
         "state": "FINISHED"
-      },
-      "world": [
-        3047,
-        3236,
-        0
-      ]
+      }
     },
     {
       "id": "e4-381",
@@ -5441,12 +5617,7 @@
         "op": "quest",
         "quest": "HEROES_QUEST",
         "state": "FINISHED"
-      },
-      "world": [
-        2904,
-        3511,
-        0
-      ]
+      }
     },
     {
       "id": "e4-386",
@@ -5500,8 +5671,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2782,
-        3087,
+        2795,
+        3065,
         0
       ]
     },
@@ -5661,7 +5832,7 @@
           {
             "op": "itemAcquired",
             "id": 1927,
-            "qty": 7
+            "qty": 9
           },
           {
             "op": "item",
@@ -5771,7 +5942,11 @@
       "id": "e4-406",
       "title": "Talk to Dunstan again (2,1) to …",
       "text": "Talk to Dunstan again (2,1) to create Spiked Boots [Desert Treasure]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "npc": 4105,
       "world": [
         2920,
@@ -6448,12 +6623,7 @@
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
         "state": "FINISHED"
-      },
-      "world": [
-        2836,
-        2983,
-        0
-      ]
+      }
     },
     {
       "id": "e4-449",
@@ -6568,8 +6738,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2836,
-        2983,
+        2630,
+        2981,
         0
       ]
     },
@@ -6595,8 +6765,8 @@
       },
       "item": 1794,
       "world": [
-        2852,
-        2955,
+        2613,
+        3093,
         0
       ]
     },
@@ -6873,13 +7043,26 @@
       "title": "Buy Steel, Black Platebody from Horvik …",
       "text": "Buy Steel, Black Platebody from Horvik [Song of the Elves][Kings Ransom]",
       "complete": {
-        "op": "quest",
-        "quest": "SONG_OF_THE_ELVES",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1115,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1115,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1115,
+      "npc": 2882,
       "world": [
-        3230,
-        3437,
+        3229,
+        3436,
         0
       ]
     },
@@ -6942,8 +7125,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3003,
-        3435,
+        3010,
+        3486,
         0
       ]
     },
@@ -6953,8 +7136,8 @@
       "text": "Make a Steak Sandwich",
       "manual": true,
       "world": [
-        3003,
-        3435,
+        3010,
+        3486,
         0
       ]
     },
@@ -7057,8 +7240,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3171,
-        3277,
+        3253,
+        3270,
         0
       ]
     },
@@ -7072,8 +7255,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3188,
-        3318,
+        3255,
+        3278,
         0
       ]
     },
@@ -8052,7 +8235,11 @@
       "id": "e4-556",
       "title": "Start My Arms Big Adventure",
       "text": "Start My Arms Big Adventure",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MY_ARMS_BIG_ADVENTURE",
+        "state": "IN_PROGRESS"
+      },
       "world": [
         2830,
         3697,
@@ -8443,7 +8630,11 @@
       "id": "e4-589",
       "title": "Mine a Granite [Kings Ransom][Desert Hard …",
       "text": "Mine a Granite [Kings Ransom][Desert Hard Diary]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "KINGS_RANSOM",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e4-590",
@@ -8503,8 +8694,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3151,
-        3413,
+        3358,
+        2974,
         0
       ]
     },
@@ -8517,9 +8708,10 @@
         "quest": "RATCATCHERS",
         "state": "FINISHED"
       },
+      "object": 6230,
       "world": [
-        3151,
-        3413,
+        3355,
+        2953,
         0
       ]
     },
@@ -8528,10 +8720,9 @@
       "title": "Minigame Teleport to Pest Control [Western …",
       "text": "Minigame Teleport to Pest Control [Western Province Medium Diary]",
       "manual": true,
-      "npc": 1770,
       "world": [
-        3041,
-        3202,
+        2656,
+        2656,
         0
       ]
     },
@@ -8678,7 +8869,7 @@
           {
             "op": "itemAcquired",
             "id": 5418,
-            "qty": 11
+            "qty": 19
           },
           {
             "op": "item",
@@ -10340,7 +10531,11 @@
       "id": "e4-719",
       "title": "Start Monkey Madness",
       "text": "Start Monkey Madness",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MONKEY_MADNESS_I",
+        "state": "IN_PROGRESS"
+      },
       "world": [
         2466,
         3496,
@@ -10595,7 +10790,11 @@
       "id": "e4-740",
       "title": "Complete Legend's Quest (All items are …",
       "text": "Complete Legend's Quest (All items are in the bank)",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "LEGENDS_QUEST",
+        "state": "FINISHED"
+      },
       "world": [
         2617,
         3333,
@@ -10715,7 +10914,11 @@
       "id": "e4-753",
       "title": "Complete Legend's Quest",
       "text": "Complete Legend's Quest",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "LEGENDS_QUEST",
+        "state": "FINISHED"
+      },
       "world": [
         2729,
         3348,

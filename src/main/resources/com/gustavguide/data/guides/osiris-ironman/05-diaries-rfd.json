@@ -77,9 +77,19 @@
       "title": "Do these quests for QP and …",
       "text": "Do these quests for QP and diaries: A soul's bane, Another slice of H.A.M, Ic\nLocation: Various",
       "complete": {
-        "op": "quest",
-        "quest": "ANOTHER_SLICE_OF_HAM",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "A_SOULS_BANE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ANOTHER_SLICE_OF_HAM",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         3307,
@@ -129,8 +139,8 @@
         "cmp": ">="
       },
       "world": [
-        3311,
-        2779,
+        3297,
+        2783,
         0
       ]
     },
@@ -139,13 +149,23 @@
       "title": "Complete At First Light quest (now …",
       "text": "Complete At First Light quest (now that Eagles' Peak is done; also needs 46 H\nLocation: Varlamore",
       "complete": {
-        "op": "quest",
-        "quest": "AT_FIRST_LIGHT",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "AT_FIRST_LIGHT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "EAGLES_PEAK",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        1554,
-        3033,
+        1725,
+        3128,
         0
       ]
     },
@@ -401,7 +421,11 @@
       "id": "dr-020",
       "title": "Do Desert Treasure",
       "text": "Do Desert Treasure\nLocation: Various",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "world": [
         3178,
         3043,
@@ -415,7 +439,11 @@
       "id": "dr-021a",
       "title": "Finish RFD",
       "text": "Finish RFD\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RECIPE_FOR_DISASTER",
+        "state": "FINISHED"
+      },
       "world": [
         3209,
         3215,

@@ -26,10 +26,56 @@
       "title": "Dragon Slayer 1, Priest in Peril, …",
       "text": "Dragon Slayer 1, Priest in Peril, Elemental workshop, Contact!, Death Plateau, Olaf's quest, Cabin fever, Regicide and Desert Treasure",
       "complete": {
-        "op": "quest",
-        "quest": "DRAGON_SLAYER_I",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DRAGON_SLAYER_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "PRIEST_IN_PERIL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ELEMENTAL_WORKSHOP_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CONTACT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DEATH_PLATEAU",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "OLAFS_QUEST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CABIN_FEVER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "REGICIDE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DESERT_TREASURE_I",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 626,
       "world": [
         3190,
         3360,

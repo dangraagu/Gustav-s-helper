@@ -308,12 +308,7 @@
         "op": "quest",
         "quest": "FISHING_CONTEST",
         "state": "FINISHED"
-      },
-      "world": [
-        2821,
-        3486,
-        0
-      ]
+      }
     },
     {
       "id": "e3-022",
@@ -396,12 +391,7 @@
         "op": "quest",
         "quest": "WATCHTOWER",
         "state": "FINISHED"
-      },
-      "world": [
-        2548,
-        3119,
-        0
-      ]
+      }
     },
     {
       "id": "e3-028",
@@ -437,8 +427,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2763,
-        3513,
+        3108,
+        3353,
         0
       ]
     },
@@ -604,10 +594,22 @@
       "title": "Buy 8 Empty Sacks from Vanessa's …",
       "text": "Buy 8 Empty Sacks from Vanessa's Farming shop [Enlightened Journey]",
       "complete": {
-        "op": "quest",
-        "quest": "ENLIGHTENED_JOURNEY",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5418,
+            "qty": 11
+          },
+          {
+            "op": "item",
+            "id": 5418,
+            "qty": 11,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 5418,
       "world": [
         2820,
         3462,
@@ -868,7 +870,11 @@
       "id": "e3-058",
       "title": "Make an Unfired Bowl [Dragon Slayer]",
       "text": "Make an Unfired Bowl [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "object": 14887,
       "world": [
         3087,
@@ -1087,8 +1093,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3485,
-        3088,
+        3378,
+        3428,
         0
       ]
     },
@@ -1225,13 +1231,25 @@
       "title": "Collect the Shortbow north-west of the …",
       "text": "Collect the Shortbow north-west of the Uzer Hunter area [Underground Pass]",
       "complete": {
-        "op": "quest",
-        "quest": "UNDERGROUND_PASS",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 841,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 841,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 841,
       "world": [
-        2572,
-        3296,
+        2449,
+        3312,
         0
       ]
     },
@@ -1328,7 +1346,7 @@
           {
             "op": "itemAcquired",
             "id": 1139,
-            "qty": 1
+            "qty": 3
           },
           {
             "op": "item",
@@ -1355,7 +1373,11 @@
       "id": "e3-089",
       "title": "Talk to Guildmaster (2,1,1,1,2,3,2,3) [Dragon Slayer]",
       "text": "Talk to Guildmaster (2,1,1,1,2,3,2,3) [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "npc": 814,
       "world": [
         3190,
@@ -1368,9 +1390,19 @@
       "title": "Buy Black Full Helmet & Plate …",
       "text": "Buy Black Full Helmet & Plate legs [Heroes Quest/Kings Ransom]",
       "complete": {
-        "op": "quest",
-        "quest": "HEROES_QUEST",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "HEROES_QUEST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "KINGS_RANSOM",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         3216,
@@ -1394,7 +1426,11 @@
       "id": "e3-092",
       "title": "Talk to Duke Horacio (1,1,1,2) [Dragon …",
       "text": "Talk to Duke Horacio (1,1,1,2) [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "npc": 815,
       "world": [
         3210,
@@ -1423,9 +1459,19 @@
       "title": "Make sure to do the steps …",
       "text": "Make sure to do the steps for Dragon Slayer and Ides of Milk here",
       "complete": {
-        "op": "quest",
-        "quest": "THE_IDES_OF_MILK",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DRAGON_SLAYER_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_IDES_OF_MILK",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         3171,
@@ -1519,7 +1565,11 @@
       "id": "e3-100",
       "title": "Talk to Oracle [Dragon Slayer]",
       "text": "Talk to Oracle [Dragon Slayer]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "npc": 821,
       "world": [
         3014,
@@ -1531,13 +1581,11 @@
       "id": "e3-101",
       "title": "Head into Dwarven Mine & collect …",
       "text": "Head into Dwarven Mine & collect the Map Piece [Dragon Slayer]",
-      "manual": true,
-      "object": 11867,
-      "world": [
-        3019,
-        3450,
-        0
-      ]
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e3-102a",
@@ -1705,7 +1753,11 @@
       "id": "e3-110",
       "title": "Complete Pirates Treasure [Keep Ring for …",
       "text": "Complete Pirates Treasure [Keep Ring for Mournings End pt 2]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
       "world": [
         3053,
         3251,
@@ -2133,7 +2185,16 @@
       "id": "e3-142",
       "title": "Complete Fremmenik Trials",
       "text": "Complete Fremmenik Trials",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FREMENNIK_TRIALS",
+        "state": "FINISHED"
+      },
+      "world": [
+        2658,
+        3669,
+        0
+      ]
     },
     {
       "id": "e3-143",
@@ -2341,8 +2402,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        2624,
+        3300,
         0
       ]
     },
@@ -2483,13 +2544,23 @@
       "title": "Make Swords until until 731,000 Smithing …",
       "text": "Make Swords until until 731,000 Smithing XP. You will need to repeat the Mithril Claw & Steel Warhammer/Battleaxe steps to maintain. You should profit roughly 1M from Smithing which is a hard requirement for Song of the Elves. 70 is finished on Between a Rock quest.",
       "complete": {
-        "op": "quest",
-        "quest": "SONG_OF_THE_ELVES",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "SONG_OF_THE_ELVES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BETWEEN_A_ROCK",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        2566,
-        3337,
+        2710,
+        3328,
         0
       ]
     },
@@ -2499,8 +2570,8 @@
       "text": "Use 14 Mithril Claws and 7 B-Axes or War Hammers per inv",
       "manual": true,
       "world": [
-        2566,
-        3337,
+        2710,
+        3328,
         0
       ]
     },
@@ -2524,12 +2595,7 @@
           }
         ]
       },
-      "item": 401,
-      "world": [
-        2614,
-        3293,
-        0
-      ]
+      "item": 401
     },
     {
       "id": "e3-168",
@@ -2537,8 +2603,8 @@
       "text": "Fill a bucket up before you quench your sword as the beginning (Ice Gloves optional)",
       "manual": true,
       "world": [
-        2614,
-        3293,
+        2710,
+        3328,
         0
       ]
     },
@@ -2564,7 +2630,7 @@
           {
             "op": "itemAcquired",
             "id": 526,
-            "qty": 26
+            "qty": 41
           },
           {
             "op": "item",
@@ -2614,7 +2680,7 @@
           {
             "op": "itemAcquired",
             "id": 1511,
-            "qty": 4
+            "qty": 14
           },
           {
             "op": "item",
@@ -2664,8 +2730,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3102,
-        3557,
+        3104,
+        3560,
         0
       ]
     },
@@ -2679,8 +2745,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3204,
-        3424,
+        3109,
+        3160,
         0
       ]
     },
@@ -2694,7 +2760,7 @@
           {
             "op": "itemAcquired",
             "id": 1511,
-            "qty": 10
+            "qty": 20
           },
           {
             "op": "item",
@@ -3022,7 +3088,7 @@
           {
             "op": "itemAcquired",
             "id": 1927,
-            "qty": 3
+            "qty": 5
           },
           {
             "op": "item",
@@ -3650,8 +3716,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3492,
-        3474,
+        3185,
+        3441,
         0
       ]
     },
@@ -3665,8 +3731,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2404,
-        3419,
+        3185,
+        3441,
         0
       ]
     },
@@ -3760,7 +3826,7 @@
           {
             "op": "itemAcquired",
             "id": 1133,
-            "qty": 1
+            "qty": 2
           },
           {
             "op": "item",
@@ -3864,8 +3930,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        3043,
+        9796,
         0
       ]
     },
@@ -3892,12 +3958,7 @@
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",
         "state": "FINISHED"
-      },
-      "world": [
-        2732,
-        3713,
-        0
-      ]
+      }
     },
     {
       "id": "e3-256",
@@ -3909,8 +3970,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2732,
-        3713,
+        3030,
+        9810,
         0
       ]
     },
@@ -3947,12 +4008,7 @@
         "skill": "SLAYER",
         "level": 18,
         "cmp": ">="
-      },
-      "world": [
-        3093,
-        3357,
-        0
-      ]
+      }
     },
     {
       "id": "e3-261",
@@ -4256,12 +4312,7 @@
         "op": "quest",
         "quest": "CREATURE_OF_FENKENSTRAIN",
         "state": "FINISHED"
-      },
-      "world": [
-        3492,
-        3474,
-        0
-      ]
+      }
     },
     {
       "id": "e3-281",
@@ -4301,7 +4352,11 @@
       "id": "e3-285",
       "title": "Use the key on the chest …",
       "text": "Use the key on the chest for the 1st map piece [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "world": [
         3493,
         3488,
@@ -4312,13 +4367,21 @@
       "id": "e3-286",
       "title": "Cross the planks north for the …",
       "text": "Cross the planks north for the 2nd map piece [Ghost's Ahoy]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e3-287",
       "title": "Kill the lobster south for the …",
       "text": "Kill the lobster south for the 3rd map piece [Ghost's Ahoy]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e3-288a",
@@ -4443,7 +4506,11 @@
       "id": "e3-294",
       "title": "Dig for the Book of Haricanto …",
       "text": "Dig for the Book of Haricanto [Ghost's Ahoy]",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e3-295",
@@ -4461,7 +4528,11 @@
       "id": "e3-296",
       "title": "Talk to Ak-Haranu (1) [Ghost's Ahoy]",
       "text": "Talk to Ak-Haranu (1) [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "world": [
         3690,
         3497,
@@ -4475,7 +4546,11 @@
       "id": "e3-297",
       "title": "Talk to Robin Beat him 4 …",
       "text": "Talk to Robin Beat him 4 times in Runedraw [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "npc": 2995,
       "world": [
         3675,
@@ -4487,7 +4562,11 @@
       "id": "e3-298",
       "title": "Talk to Ak-Haranu for Translation Manual …",
       "text": "Talk to Ak-Haranu for Translation Manual [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "world": [
         3690,
         3497,
@@ -4501,7 +4580,11 @@
       "id": "e3-299",
       "title": "Talk to Ghost innkeeper (4,1) [Ghost's …",
       "text": "Talk to Ghost innkeeper (4,1) [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "npc": 3001,
       "world": [
         3681,
@@ -4524,7 +4607,11 @@
       "id": "e3-301",
       "title": "Talk to Gravingas (1) [Ghost's Ahoy]",
       "text": "Talk to Gravingas (1) [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "npc": 2987,
       "world": [
         3660,
@@ -4591,7 +4678,11 @@
       "id": "e3-307",
       "title": "Talk to Old Crone (1) [Ghost's …",
       "text": "Talk to Old Crone (1) [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "npc": 2996,
       "world": [
         3462,
@@ -4603,7 +4694,11 @@
       "id": "e3-308",
       "title": "Talk to Necrovarus (1) [Ghost's Ahoy]",
       "text": "Talk to Necrovarus (1) [Ghost's Ahoy]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "npc": 2986,
       "world": [
         3660,
@@ -4615,7 +4710,11 @@
       "id": "e3-309",
       "title": "Talk to Velorina to complete Ghost's …",
       "text": "Talk to Velorina to complete Ghost's Ahoy",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GHOSTS_AHOY",
+        "state": "FINISHED"
+      },
       "npc": 2985,
       "world": [
         3677,
@@ -4715,8 +4814,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3492,
-        3474,
+        3512,
+        3478,
         0
       ]
     },
@@ -4726,8 +4825,8 @@
       "text": "Drop Conductor Mould",
       "manual": true,
       "world": [
-        3492,
-        3474,
+        3512,
+        3478,
         0
       ]
     },
@@ -4843,8 +4942,8 @@
         "state": "FINISHED"
       },
       "world": [
-        3003,
-        3435,
+        3010,
+        3486,
         0
       ]
     },
@@ -4858,8 +4957,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2566,
-        3337,
+        2856,
+        3546,
         0
       ]
     },
@@ -5307,7 +5406,11 @@
       "id": "e3-360",
       "title": "Start Icthlarins Little Helper",
       "text": "Start Icthlarins Little Helper",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ICTHLARINS_LITTLE_HELPER",
+        "state": "IN_PROGRESS"
+      },
       "world": [
         3316,
         2849,

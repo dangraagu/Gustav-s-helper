@@ -68,10 +68,21 @@
       "title": "House teleport (spell) to Pollnivneach, run …",
       "text": "House teleport (spell) to Pollnivneach, run to the ruins of Uzer, start The Golem up to the step where you need to visit the Dig Site. Get 2 black mushrooms as mentioned on wiki. Chop some teak logs for the diary.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_DIG_SITE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_GOLEM",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_DIG_SITE",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 5136,
       "world": [
         3485,
         3088,
@@ -83,13 +94,24 @@
       "title": "Teleport to Camelot and continue Merlin's …",
       "text": "Teleport to Camelot and continue Merlin's Crystal up to the step where you need to visit the Lady of the Lake (use fire bolt or flinch, see https://youtu.be/yWmvm8ukssU?t=523, Sir Mordred. You cannot flinch with magic), buy two candles from the candle maker, buy a big net and fish two raw cods for RFD/Pirate and a raw mackerel for the diary and a bass when you’re in Catherby (you only need one cod if you’ve collected xp outside this guide and are at least 62 cooking) and cook the bass. Collect all the fish for Caleb and progress Family Crest to the step where you need to visit Avan. Make sure to kill two Giant Bats for their bones and one wing during Merlin’s Crystal. Train herblore in the bank to at least 1,170 xp or more (level 10). Buy a plant pot pack from Vanessa’s farming shop and open it.",
       "complete": {
-        "op": "quest",
-        "quest": "MERLINS_CRYSTAL",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "MERLINS_CRYSTAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "FAMILY_CREST",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 3199,
       "world": [
-        2810,
-        3442,
+        2799,
+        3439,
         0
       ]
     },
@@ -98,14 +120,44 @@
       "title": "Chronicle teleport to Varrock, buy a …",
       "text": "Chronicle teleport to Varrock, buy a rune sword (not a longsword!), green d’hide chaps, green d’hide vambraces from Scavvo in the Champions’ Guild, if you joined the Black Arm Gang during Shield of Arrav also buy black platelegs and a black full helm from Valaine and start Dragon Slayer I. Visit the Blue Moon Inn for the barcrawl learn how to make a steak sandwich from the cook for Below Ice Mountain. Do a lap of the Varrock Rooftop Course for the diary. Buy priest gown (bottom and top), a brown apron and a pink skirt from Thessalia, a newspaper from Benny, a black platebody from Horvik and a rotten tomato from the chest. Make a steak sandwich for Below Ice Mountain. Steal a cup of tea, bring ~10 food. Continue The Golem and start The Dig Site (only the very first step where you get the letter), continue Priests in Peril (kill the Temple Guardian with melee, accurate recommended, finish the dialogue at the temple), teleport back to Varrock, speak with King Roald, then visit Curator Haig Halen for both The Dig Site and The Golem, and proceed to complete The Dig Site (if you get polished buttons while digging save them for Animal Magnetism).",
       "complete": {
-        "op": "quest",
-        "quest": "BELOW_ICE_MOUNTAIN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "SHIELD_OF_ARRAV",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DRAGON_SLAYER_I",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "BELOW_ICE_MOUNTAIN",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_GOLEM",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_DIG_SITE",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "ANIMAL_MAGNETISM",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 5215,
+      "npc": 5214,
       "world": [
-        3222,
-        3473,
+        3258,
+        3449,
         0
       ]
     },
@@ -114,9 +166,19 @@
       "title": "If you still have unclaimed rewards …",
       "text": "If you still have unclaimed rewards from Wintertodt, open those now to get 8-12 coal. Teleport to Camelot, if necessary run to the Coal Trucks and mine 8 coal (12 if you wish to own your own mind shield). Return to Seers Village and do Elemental Workshop I. Kill one of each elemental for the diary, but 3 earth elementals instead of 1 to save time for Elemental Workshop II later (these are some tough fights - take your best food and gear, or flinch the elementals as needed). Make 3 elemental bars, only make one elemental shield to complete the quest.",
       "complete": {
-        "op": "quest",
-        "quest": "ELEMENTAL_WORKSHOP_II",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ELEMENTAL_WORKSHOP_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ELEMENTAL_WORKSHOP_II",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         2716,
@@ -157,14 +219,27 @@
       "title": "Teleport to Lumbridge, make a necklace …",
       "text": "Teleport to Lumbridge, make a necklace of passage and two rings of dueling at the furnace. If you have extra gold/silver bars and the corresponding gems (from Tempoross), make as many more as you want (focus on rings of dueling and a few necklaces of passage). Hop to PVP world to rebank for all items while standing in the middle of the castle courtyard, then hop back (or just go to the top of the castle). From now on you are always assumed to wear a ring of dueling. Whenever you teleport, if you are low on run energy instead teleport to Ferox Enclave, restore your run energy, then teleport where you were going. If you run out of gold bars before you complete Forgettable Tale…, tough luck. Start and complete Cook’s Assistant, then start and complete RFD/Cook. Start RFD/Goblin, RFD/Dwarf and RFD/Pirate (talk to the cook again after starting this last one to learn the recipe!). Buy two spice, three pots of flour, two buckets of milk, two eggs from the chest. Prepare two uncooked redberry pies (buy ingredients in the Culinaromancer’s Chest if needed) and a bread dough. Cook the bread for the diary and the redberry pies on the range, add both nettles to two bowl of water and cook it to make two nettle tea. Leave one redberry in the bank. Run to the Al-Kharid gate and kill 20 goblins for their bones (attack training with your rune shortsword recommended) and the Goblin skull. If you get a bronze spear, keep it. Kill three cows or cow calfs for the bones and cowhides. Bank them at castle wars.",
       "complete": {
-        "op": "quest",
-        "quest": "COOKS_ASSISTANT",
-        "state": "FINISHED"
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1921,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1921,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
       },
+      "item": 1921,
+      "npc": 4878,
       "world": [
-        3130,
-        3629,
-        0
+        1900,
+        5355,
+        2
       ]
     },
     {
@@ -172,9 +247,24 @@
       "title": "House teleport, fill a bucket at …",
       "text": "House teleport, fill a bucket at the well, start The Fremennik Trials with Manni, start working on getting his vote, continue with Olaf and get sent to collect a lyre - this is the wiki order, not the RuneLite plugin order. Regrettably these are not the same. Continue questing for Olaf’s vote up to the step where you cut a branch from the swaying tree (YOU DO NOT NEED 40 CRAFTING). Chop some oak logs and burn them for the diary and kill the unicorn for the unicorn bone and horn as you pass it, start and continue Mountain Daughter until you have spoken to Svidi, house teleport and speak to Askeladden (Fremmy Trials) and Brundt (Mountain Daughter), get the golden fleece (Fremmy Trials) and get half a rock (Mountain Daughter), continue Mountain Daughter until you need to get the white pearl seed, run back out of the camp and do The Giant Dwarf (right-click open the Stonemason’s shop at the start for the diary) to the step where you need to visit Thurgo. Steal from the crafting or baker’s stall, and then from the gem stall, for the diary. While in Keldagrim, buy a rune pickaxe from the store in the eastern section.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_FREMENNIK_TRIALS",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_FREMENNIK_TRIALS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MOUNTAIN_DAUGHTER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_GIANT_DWARF",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 8402,
       "world": [
@@ -232,22 +322,10 @@
       "title": "Teleport to your POH (bank in …",
       "text": "Teleport to your POH (bank in between, for example with Ferox minigame teleport or games necklace, if you don’t have enough inv space/don’t have all the items on you), collect the white pear for Mountain Daughter, teleport again, enter the dwarven tunnel under White Wolf Mountain, collect two rock cakes from An old dwarf (Rohak, make sure you complete the dialogue or you’ll have to get new asgoldian ales). Teleport a third time, speak with the Lady of the Lake for Merlin’s Crystal, chop and burn some willow logs for the diary, go to Doric and smith Blurite limbs on his anvil, run north and telegrab a wine of zamorak for the diary, run to the Goblin Village and continue RFD/Goblin to get a Slop of compromise.",
       "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 245,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 245,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
       },
-      "item": 245,
       "npc": 3529,
       "world": [
         1907,
@@ -260,14 +338,35 @@
       "title": "Teleport to Ferox Enclave with a …",
       "text": "Teleport to Ferox Enclave with a ring of dueling (already equipped), make 6 soft clay in the bank (leave in bank), grab a necklace of passage (equip), research notes (Rune Mysteries), a steel axe, a rune shortsword (equip) and fill your inventory with bones (make sure to leave one in the bank). Use your necklace of passage to teleport to the Wizards’ Tower. Give the bones to Wizard Traiborn, kill the chicken in the basement for the rest of the bones (if needed) and obtain the key for Demon Slayer. Complete Rune Mysteries, have Wizard Sedridor teleport you to the rune essence mine. Run to Draynor Village, start the Lost City quest (until you have to go to Entrana) and continue Prince Ali Rescue until you have the key imprint (rebank at Draynor). Have Aggie make you four blue dyes (you can use the woad leaves on Aggie to skip the dialogue). Pickpocket Martin the Master Gardener for the diary.",
       "complete": {
-        "op": "quest",
-        "quest": "PRINCE_ALI_RESCUE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "RUNE_MYSTERIES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DEMON_SLAYER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "LOST_CITY",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "PRINCE_ALI_RESCUE",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 5081,
       "world": [
-        3093,
-        3244,
-        0
+        3114,
+        3163,
+        1
       ]
     },
     {
@@ -275,13 +374,29 @@
       "title": "Grab 15 compostable items, fill the …",
       "text": "Grab 15 compostable items, fill the bin at the Falador patch. Run to Port Sarim, claim your previously destroyed XP lamps from Veos (one in Port Sarim, one in Piscarillius!) and put them all on Herblore (level 20). Give the bread to the beggar at the jewellery shop (Merlin’s Crystal). Visit Thurgo and complete The Giant Dwarf (if you get a bars task you can’t do you can refuse it by clicking out of the dialogue and logging out and back in, at the risk of having to go back to the secretary. You can join any consortium you prefer though the Purple Pewter is more efficient if you have full HAM robes - the ones on the east side tend to be fastest to buy ores at the blast furnace). Use the Blast Furnace (costs 2500 gp per 10 minutes) or Superheat Item to make the bars where needed. It is probably best to use the Blast furnace for larger tasks and Superheat for smaller tasks. Start Forgettable Tale… and get a kelda seed from the drunken dwarf. Find out what random item is required for another one (Rowdy Dwarf in the Laughing Miner pub). Figure out how to obtain the item and weave it into the steps below if you wish. Take the train cart to the pub under the White Wolf Mountain and get (the second) kelda seed from Khorvak.",
       "complete": {
-        "op": "quest",
-        "quest": "FORGETTABLE_TALE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "MERLINS_CRYSTAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_GIANT_DWARF",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "FORGETTABLE_TALE",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 3648,
       "world": [
-        3140,
-        3504,
+        2954,
+        3147,
         0
       ]
     },
@@ -290,9 +405,29 @@
       "title": "Teleport to the Ferox Enclave (minigame …",
       "text": "Teleport to the Ferox Enclave (minigame teleport), run south to the Mage of Zamorak and start Enter the Abyss. Teleport to Varrock, complete Demon Slayer (you can use magic for the fight as long as you equip silverlight as a weapon, but melee is fine as well). Give a dog a bone. Speak with the Mage of Zamorak to obtain the scrying orb and progress Enter the Abyss. Have Aubury teleport you to the Rune Essence mine with your scrying orb (first scrying orb charge), check the Zamorakian temple’s altar for the inscription (Merlin’s Crystal). Buy a studded body, studded chaps, iron chainbody, two steel chainbodies, a steel platebody and a mithril platebody from Horvik, make 7 bronze wires at Horvik’s anvils, buy an oak longbow and a willow shortbow from Lowe (optionally also buy 200 mithril arrows), move your POH to Pollnivneach at the estate agent, visit the museum and collect the XP lamp from Historian Minas, put them on herblore. You now have 103 kudos. Grab the information clerk xp bonuses, start Bone Voyage.",
       "complete": {
-        "op": "quest",
-        "quest": "MERLINS_CRYSTAL",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ENTER_THE_ABYSS",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "DEMON_SLAYER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MERLINS_CRYSTAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BONE_VOYAGE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 2582,
       "world": [
@@ -306,9 +441,24 @@
       "title": "Use your ring of dueling to …",
       "text": "Use your ring of dueling to teleport to Al-Kharid, speak with the gem trader and Avan for Family Crest, mine iron ore in the Al-kharid mine for the diary, give the items for Prince Ali Rescue to Osman. Do a lap of the agility course, rebank to grab quest items, then run south and fish some anchovies south of the bank for the diary, then start The Shadow of the Storm until you have the sigil mould and tome (take the carpet to Uzer the first time for a diary step) using your necklace of passage when convenient.",
       "complete": {
-        "op": "quest",
-        "quest": "SHADOW_OF_THE_STORM",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "FAMILY_CREST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "PRINCE_ALI_RESCUE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SHADOW_OF_THE_STORM",
+            "state": "IN_PROGRESS"
+          }
+        ]
       },
       "npc": 2874,
       "world": [
@@ -349,14 +499,24 @@
       "title": "Dueling ring teleport to Ferox, take …",
       "text": "Dueling ring teleport to Ferox, take the portal to Soul Wars, then to Edgeville. Give the steak sandwich to Marley to progress Below Ice Mountain. Speak with Oziach to progress Dragon Slayer I. Make 1600 molten glass at the furnace. Cut all your sapphires, emeralds and rubies. Make all minus one of your gold bars into digsite pendants (note: this is 0-1 gold bars, unless you got extra from Tempoross. Don’t worry if you can’t make any pendants here). Make two fishbowls.",
       "complete": {
-        "op": "quest",
-        "quest": "BELOW_ICE_MOUNTAIN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "BELOW_ICE_MOUNTAIN",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DRAGON_SLAYER_I",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 822,
+      "npc": 10656,
       "world": [
-        3068,
-        3517,
+        3088,
+        3470,
         0
       ]
     },
@@ -365,13 +525,33 @@
       "title": "Grab a digsite pendant (equip), rune …",
       "text": "Grab a digsite pendant (equip), rune sword (equip), a staff of air, chaos runes, a bucket and an inventory of pure essence. Use the digsite pendant to teleport to the digsite, run to the Paterdomus Temple and continue Priest in Peril until you are asked to hand over the pure essence. Teleport to the digsite, run south and start Elemental Workshop II. Teleport with the pendant again, continue Bone Voyage to the step where you need to visit the Woodcutting guild. Teleport to Ferox, bank (bank chaos runes, rune sword, food, grab ghostspeak amulet, spade, law runes), grab 25 pure essence and return to Drezel, repeat this for a second inventory to complete Priest in Peril. Start the Nature Spirit quest.",
       "complete": {
-        "op": "quest",
-        "quest": "ELEMENTAL_WORKSHOP_II",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "PRIEST_IN_PERIL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ELEMENTAL_WORKSHOP_II",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "BONE_VOYAGE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "NATURE_SPIRIT",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        3367,
-        3335,
+        1614,
+        3499,
         0
       ]
     },
@@ -380,13 +560,28 @@
       "title": "Enter Morytania. Do the Creature of …",
       "text": "Enter Morytania. Do the Creature of Fenkenstrain up to the step where you need to visit a furnace, chopping a hollow tree for bark along the way. Grab 15 compostable items, fill the bin at the Morytania patch along the way. Buy 7 raw chickens and a raw shark. Rebank. Do the Nature Spirit and Shades of Mort’ton (when you need to make the oil hop the official world, 377. It is recommended to do the rest of the quest on other worlds to avoid raggers) quests (make sure you have all the items on you for the last two before heading into the swamp, and take your best food in the rest of your inventory) and restoring your prayer at the end of Nature Spirit for the diary. Buy 13 planks from Razmire.",
       "complete": {
-        "op": "quest",
-        "quest": "CREATURE_OF_FENKENSTRAIN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "CREATURE_OF_FENKENSTRAIN",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "NATURE_SPIRIT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SHADES_OF_MORTTON",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        3492,
-        3474,
+        3493,
+        3488,
         0
       ]
     },
@@ -395,9 +590,24 @@
       "title": "Teleport to Camelot, complete Merlin’s Crystal …",
       "text": "Teleport to Camelot, complete Merlin’s Crystal (black candle, bat bones, Excalibur) and start Holy Grail up to the step you need to visit Entrana. Run to Seers, play the church organ (diary), spin your golden fleece on the spinning wheel, pay the estate agent to move your POH to Kourend, do the Elemental Workshop II quest, make a mind helmet for the diary, talk to the Poison Salesman to continue Fremmy Trials. Buy 10 stews for later (also completes a diary task), speak with the bartender to progress the barcrawl.",
       "complete": {
-        "op": "quest",
-        "quest": "ELEMENTAL_WORKSHOP_II",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "MERLINS_CRYSTAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "HOLY_GRAIL",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "ELEMENTAL_WORKSHOP_II",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 4227,
       "world": [
@@ -411,13 +621,24 @@
       "title": "Teleport to your POH, enter your …",
       "text": "Teleport to your POH, enter your house for the diary step. Start The Depths of Despair to the step where you are sent to Galana. Grab 20 mahogany logs. Run to the Woodcutting Guild, continue Bone Voyage. Use your Digsite pendant to teleport to the digsite, continue Bone Voyage until you need to go to Port Sarim. Make all mahogany logs into planks at once for the diary.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_DEPTHS_OF_DESPAIR",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_DEPTHS_OF_DESPAIR",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BONE_VOYAGE",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 3648,
       "world": [
-        1782,
-        3572,
+        2954,
+        3147,
         0
       ]
     },
@@ -426,9 +647,24 @@
       "title": "Fishing Trawler minigame teleport to Port …",
       "text": "Fishing Trawler minigame teleport to Port Khazard and make a fishcake for RFD/Pirate (take food with you underwater). Grab a knife, charter a ship to Musa Point, visit the Karamja Spirits Bar for the barcrawl. Then take the ship to Port Sarim, speak with Jack Seagull in the Rusty Anchor Inn to progress Bone Voyage. Continue the barcrawl as well. Take the boat to Entrana (bank everything besides runes/knife at Port Sarim), speak with the High Priest to progress Holy Grail, enter the tunnel and collect several dramen branches for Lost City. As many as can fit in your inventory; do NOT convert them just yet.",
       "complete": {
-        "op": "quest",
-        "quest": "BONE_VOYAGE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "BONE_VOYAGE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "HOLY_GRAIL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "LOST_CITY",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 1335,
       "world": [
@@ -454,13 +690,29 @@
       "title": "Teleport to Lumbridge, complete the three …",
       "text": "Teleport to Lumbridge, complete the three RFD quests started earlier. Buy steel gloves. Pick up a second knife for later. Make all your Golovanova fruit tops into botanical pies (cook them right away), prepare five more pie shells. Start The Lost Tribe by speaking to Sigmunt. Start The Ides of Milk, speaking with people along the way for The Lost Tribe and buying 10 bronze axes from Bob along the way. Continue and complete The Ides of Milk, putting the lamp on prayer. Continue The Lost Tribe up to the step where you need to visit Reldo. Cut and burn some oak logs for the diary. Finish Lost City (can convert all but one branch now), bring items to go down the Lumbridge swamp caves.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_IDES_OF_MILK",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_LOST_TRIBE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_IDES_OF_MILK",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "LOST_CITY",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 4243,
       "world": [
-        3171,
-        3277,
+        3211,
+        3494,
         0
       ]
     },
@@ -469,13 +721,29 @@
       "title": "Enter the Lumbridge Swamp, collect 25 …",
       "text": "Enter the Lumbridge Swamp, collect 25 swamp tar for quests. Enter the Lumbridge swamp caves and kill a big frog for the big frog leg and a cave bug for the diary step (do not go north with the candle as a light source, you will die). Catch a raw slimy eel. Run to Draynor, chop some willow logs for the diary. Buy 35 vinegar, 2000 seeds (buy all seeds in every world, they’re for bird runs in the future) along with 10 cabbage and 10 onion seeds and 5 marigold seeds, start Fairytale I. Do a lap on the agility course and go into the sewers and kill a zombie for the diary. Complete Vampyre Slayer, grab two whistles from Draynor Manor for Holy Grail, dig up the grave outside to collect the skull for Fairytale I. Optional: visit the Falador patch for compost. Run to Port Sarim, speak with Frizzy Skernip (spirit tree patch) along the way for Fairytale I.",
       "complete": {
-        "op": "quest",
-        "quest": "VAMPYRE_SLAYER",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "FAIRYTALE_I__GROWING_PAINS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "VAMPYRE_SLAYER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "HOLY_GRAIL",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 3648,
       "world": [
-        3167,
-        3272,
+        2954,
+        3147,
         0
       ]
     },
@@ -515,14 +783,45 @@
       "title": "Chronicle teleport to Varrock, speak with …",
       "text": "Chronicle teleport to Varrock, speak with Dreven at the bush patch and the Guildmaster to progress Dragon Slayer I (go through all dialogue options, get the maze key). Run south and speak with Vasquen at the hops patch. Plant barley in the patch (make sure to pay the farmer with 3 regular compost, also use compost on the patch itself. Keep the weeds.). Run around and hop over the fence for the diary, kill a ram in the for the ram skull. Grab two cadava berries and mine an iron ore in the southeast Varrock mine for the diary. Grab the Rag and Bone Man I items (including axe and tinderbox, no logs because of inv space - put the bones in the vinegar while bankstanding), 4 oak logs, hammer and an iron bar. Use a digsite pendant, speak with the Lead Navigator for Bone Voyage. Turn around, go to the sawmill and make the logs into planks, buy 250 steel nails. Visit the Odd Old Man for Bone Voyage and complete Rag and Bone Man I, start Rag and Bone Man II. Teleport to Varrock (chronicle), speak with the Apothecary for Bone Voyage and Romeo & Juliet and give him the Diary of Herbi Flax, show The Lost Tribe brooch to Reldo. Pay the estate agent to move your POH to Kourend. Grab a hammer, 2 oak planks, 5 steel nails, 1 iron bar. Continue and complete Bone Voyage at the boat north of the Digsite.",
       "complete": {
-        "op": "quest",
-        "quest": "RAG_AND_BONE_MAN_II",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DRAGON_SLAYER_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RAG_AND_BONE_MAN_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BONE_VOYAGE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RAG_AND_BONE_MAN_II",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ROMEO__JULIET",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_LOST_TRIBE",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 7761,
       "world": [
-        3216,
-        3416,
-        0
+        3363,
+        3453,
+        1
       ]
     },
     {

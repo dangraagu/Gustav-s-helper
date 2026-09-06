@@ -485,13 +485,23 @@
       "title": "Complete Tree Gnome Village and Fight …",
       "text": "Complete Tree Gnome Village and Fight Arena while in the area",
       "complete": {
-        "op": "quest",
-        "quest": "TREE_GNOME_VILLAGE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "TREE_GNOME_VILLAGE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "FIGHT_ARENA",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        2541,
-        3170,
+        2455,
+        3301,
         0
       ]
     },

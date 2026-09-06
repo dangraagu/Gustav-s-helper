@@ -13,7 +13,11 @@
       "id": "to-200-qp-002",
       "title": "Taste of hope (xp on agi …",
       "text": "Taste of hope (xp on agi 3x)",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "A_TASTE_OF_HOPE",
+        "state": "FINISHED"
+      },
       "world": [
         3668,
         3217,
@@ -66,15 +70,20 @@
       "title": "Also able to kill vyrewatches now …",
       "text": "Also able to kill vyrewatches now for GP (need to do recruitment drive, wanted!, slug manace, finish frem isles for bis prayer gear)",
       "complete": {
-        "op": "quest",
-        "quest": "RECRUITMENT_DRIVE",
-        "state": "FINISHED"
-      },
-      "world": [
-        2955,
-        3339,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "RECRUITMENT_DRIVE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "WANTED",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "to-200-qp-007",
@@ -110,7 +119,11 @@
       "id": "to-200-qp-009",
       "title": "Death to the Dorg",
       "text": "Death to the Dorg",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_TO_THE_DORGESHUUN",
+        "state": "FINISHED"
+      },
       "world": [
         3209,
         3216,
@@ -121,7 +134,11 @@
       "id": "to-200-qp-010",
       "title": "Another slice of HAM",
       "text": "Another slice of HAM",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ANOTHER_SLICE_OF_HAM",
+        "state": "FINISHED"
+      },
       "world": [
         3209,
         3216,
@@ -162,7 +179,11 @@
       "id": "to-200-qp-013",
       "title": "Eagles Peak (dont bother if you …",
       "text": "Eagles Peak (dont bother if you did recruitment drive, wanted!, slug manace, finish frem isles",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "EAGLES_PEAK",
+        "state": "FINISHED"
+      },
       "world": [
         2607,
         3264,
@@ -188,7 +209,11 @@
       "id": "to-200-qp-015",
       "title": "Enlighted Journey",
       "text": "Enlighted Journey",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "ENLIGHTENED_JOURNEY",
+        "state": "FINISHED"
+      },
       "world": [
         3047,
         3236,

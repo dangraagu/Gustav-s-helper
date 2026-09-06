@@ -689,7 +689,11 @@
       "id": "abg-053",
       "title": "Complete Desert Treasure II quest",
       "text": "Complete Desert Treasure II quest\nLocation: Various",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+        "state": "FINISHED"
+      },
       "world": [
         3508,
         2971,

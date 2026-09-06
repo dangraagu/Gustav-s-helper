@@ -34,15 +34,20 @@
       "title": "Complete Prying Times (Sailing 12, Smithing …",
       "text": "Complete Prying Times (Sailing 12, Smithing 30, The Knight's Sword)\nLocation: Various",
       "complete": {
-        "op": "quest",
-        "quest": "THE_KNIGHTS_SWORD",
-        "state": "FINISHED"
-      },
-      "world": [
-        2978,
-        3341,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "PRYING_TIMES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_KNIGHTS_SWORD",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "sail-004",

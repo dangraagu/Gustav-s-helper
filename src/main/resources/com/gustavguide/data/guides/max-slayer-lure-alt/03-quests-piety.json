@@ -23,7 +23,16 @@
       "id": "quests-piety-002",
       "title": "Muder Mystery (3 QP)",
       "text": "Muder Mystery (3 QP)",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "MURDER_MYSTERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        2741,
+        3561,
+        0
+      ]
     },
     {
       "id": "quests-piety-003",
@@ -45,9 +54,19 @@
       "title": "Kings ransom (1 QP) — use …",
       "text": "Kings ransom (1 QP) — use lamp on woodcutting if doing sins of the father later",
       "complete": {
-        "op": "quest",
-        "quest": "SINS_OF_THE_FATHER",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "KINGS_RANSOM",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SINS_OF_THE_FATHER",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         2741,

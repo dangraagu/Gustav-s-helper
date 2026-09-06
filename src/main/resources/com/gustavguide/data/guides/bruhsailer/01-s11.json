@@ -25,14 +25,24 @@
       "title": "Grab coins, a knife, 24 logs, …",
       "text": "Grab coins, a knife, 24 logs, your mind and air runes. Pickpocket men to 235 gp total, suiciding if you die (HCIM can grab cabbages by world hopping in the cellar). Fletch the logs into arrow shafts as you move. Talk with Hans to check your age for the diary step. Talk to Veos in The Sheared Ram pub to start X Marks the Spot. Drop your mind and air runes, talk with the magic tutor to get a set of starter runes, pick up your mind and air runes. Buy a spade, hammer and a chisel in the general store. Talk to father Aereck to start Restless Ghost. Buy a steel axe from Bob. Dig in the tile north of the north-western window of his house for X Marks the Spot. Don’t throw away your bronze axe from Tutorial Island.",
       "complete": {
-        "op": "quest",
-        "quest": "X_MARKS_THE_SPOT",
-        "state": "IN_PROGRESS"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "X_MARKS_THE_SPOT",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_RESTLESS_GHOST",
+            "state": "IN_PROGRESS"
+          }
+        ]
       },
-      "npc": 3105,
+      "npc": 2812,
       "world": [
-        3215,
-        3219,
+        3244,
+        3210,
         0
       ]
     },
@@ -83,9 +93,19 @@
       "title": "Fletch all but one logs into …",
       "text": "Fletch all but one logs into arrow shafts as you move south, talk to Ceril Carnillean to start Hazeel Cult. Grab two purple dyes (world hop to speed it up). Enter the cave east of the clocktower and talk to Clivet, side with Hazeel, exit the cave and run to the Monastery. Talk to Brother Omad to start Monk’s Friend.",
       "complete": {
-        "op": "quest",
-        "quest": "MONKS_FRIEND",
-        "state": "IN_PROGRESS"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "HAZEEL_CULT",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "MONKS_FRIEND",
+            "state": "IN_PROGRESS"
+          }
+        ]
       },
       "npc": 12085,
       "world": [
@@ -99,15 +119,25 @@
       "title": "TL;DR: do Clock Tower, Monk’s Friend, …",
       "text": "TL;DR: do Clock Tower, Monk’s Friend, Hazeel Cult, get level 35 woodcutting, burning the logs and swapping to oaks at 15",
       "complete": {
-        "op": "quest",
-        "quest": "MONKS_FRIEND",
-        "state": "FINISHED"
-      },
-      "world": [
-        2607,
-        3211,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "CLOCK_TOWER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MONKS_FRIEND",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "HAZEEL_CULT",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "s11-006b",
@@ -115,8 +145,8 @@
       "text": "Eat your food if you take damage",
       "manual": true,
       "world": [
-        2607,
-        3211,
+        2569,
+        3275,
         0
       ]
     },
@@ -168,13 +198,24 @@
       "title": "Take your gp, a small fishing …",
       "text": "Take your gp, a small fishing net, knife and 5 more logs (if you are running low: make sure to leave 10 in the bank for future quests), fletch as you move and take the boat to Brimhaven, buy a swamp paste, 7 soda ash, 7 buckets of sand, a cake tin and a glassblowing pipe from Trader Stan. Head to Kangai Mau in the Shrimp and Parrot to start Tribal Totem. Return to Witchhaven and do the Sea Slug quest. Fish an anchovy or shrimp after the quest for Ardy diary. Buy a raw sardine, two fishing rods, a fly fishing rod, a harpoon, 10 fishing bait and a lobster pot from Lovecraft’s Tackle (Witchhaven). Continue Tribal Totem to the point where you collect the totem. Sell 73 silk back to the trader (leave 11 in the bank) for 60gp each and sell your oyster pearls to the general store.",
       "complete": {
-        "op": "quest",
-        "quest": "TRIBAL_TOTEM",
-        "state": "IN_PROGRESS"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "TRIBAL_TOTEM",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "SEA_SLUG",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 5316,
       "world": [
         2794,
-        3187,
+        3182,
         0
       ]
     },
@@ -183,14 +224,35 @@
       "title": "Bring your coins, ghostspeak amulet, a …",
       "text": "Bring your coins, ghostspeak amulet, a spade, 20 balls of wool, the tribal totem and treasure scroll. Head to Brimhaven and complete Tribal Totem. Teleport to Lumbridge (optional: minigame teleport to clan wars first to restore run energy), talk to the restless ghost. Go to the back exit of Lumbridge Castle and dig to progress X Marks the Spot. Run north, and complete Sheep Shearer, grab seven onions. Run to Draynor and progress X Marks the Spot (twice). Buy a Chronicle, three teleport cards and a rainbow scarf from Diango. Put the cards in the chronicle. Grab the air talisman, a knife and logs (as before, make sure to leave 10 in the bank). Fletching as you move, head to the Wizards’ Tower with the air talisman, talk to Wizard Sedridor and trade the air talisman for a research package. Grab the ghost’s skull from the altar for Restless Ghost.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_RESTLESS_GHOST",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "TRIBAL_TOTEM",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_RESTLESS_GHOST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "X_MARKS_THE_SPOT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SHEEP_SHEARER",
+            "state": "FINISHED"
+          }
+        ]
       },
       "item": 33138,
+      "npc": 11434,
       "world": [
-        3243,
-        3206,
+        3253,
+        3401,
         0
       ]
     },
@@ -199,14 +261,49 @@
       "title": "Go back to Draynor bank. Read …",
       "text": "Go back to Draynor bank. Read the notice board to start a Porcine of Interest, talk to Morgan to start Vampyre Slayer and take three garlic. Grab coins, a small fishing net and one empty bucket. Walk to Port Sarim and speak to Veos to complete X Marks the Spot (destroy the lamp and reclaim them later to put them on herblore). Start Pirate’s Treasure, and continue the quest. Fish at Musa point for the diary, then continue Pirate’s Treasure until you get the rum from the crate in Port Sarim. Buy a raw chicken, three raw beef, two cheese, eight redberries, one banana and three pots of flour, depositing items (not the raw meat!) in the deposit box near the Entrana monks if you need inventory space. Buy 16 feather packs from Gerrant one by one. Open the packs while running north to the range. Use your incredible skill to leave one beef raw (no action needed), cook one beef and burn one beef on the range (cook twice if needed). Buy an eye of newt from Betty. Talk to Frank to get the pirate’s key. Deposit all items except the bucket and coins in the deposit box. Head to Entrana and collect 10 planks (near the law altar) and two eggs (bank at deposit box). Speak with Captain Tock to start The Corsair Curse. Go to Sarah to progress A Porcine of Interest, buy 9 sacks, secateurs, seed dibber, rake, trowel, 3 plant pots, 1 watering can, 2 plant cures, then collect a bucket of milk from the dairy cow. Head to Falador, grab your coins, raw sardine and chronicle. Buy 2 woad leaves (offer 20gp to Wyson), start The Knight’s Sword and get told to talk to Reldo, start Black Knights’ Fortress.",
       "complete": {
-        "op": "quest",
-        "quest": "BLACK_KNIGHTS_FORTRESS",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "A_PORCINE_OF_INTEREST",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "VAMPYRE_SLAYER",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "X_MARKS_THE_SPOT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "PIRATES_TREASURE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_CORSAIR_CURSE",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_KNIGHTS_SWORD",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BLACK_KNIGHTS_FORTRESS",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 3479,
+      "npc": 7956,
       "world": [
-        3098,
-        3268,
+        3030,
+        3273,
         0
       ]
     },
@@ -215,15 +312,55 @@
       "title": "Use your chronicle to teleport to …",
       "text": "Use your chronicle to teleport to Varrock (optional: clan wars teleport to restore run energy first). Start Gertrude's cat, pick up some doogle leaves, go to Varrock square. Talk to Aris Maye (formerly Gypsy Aris) to start Demon Slayer, Romeo to start Romeo and Juliet, Shilop and Wilough to progress Gertrude's Cat, Noah to start and complete Children of the Sun, Sir Prysin downstairs to progress Demon Slayer (and again), Captain Rovin to progress Demon Slayer, Reldo to progress The Knight's Sword and start Shield of Arrav (then check the book and speak with Reldo again), grab the pie dish in the kitchen, fill your bucket with water and use the bucket of water on the drain outside the kitchen to flush the Demon Slayer key, speak with King Roald to start Priest in Peril, head east down the manhole and collect the key, go back out and north to the estate agent and collect a saw, start Daddy’s Home.",
       "complete": {
-        "op": "quest",
-        "quest": "CHILDREN_OF_THE_SUN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DEMON_SLAYER",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "ROMEO__JULIET",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "GERTRUDES_CAT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CHILDREN_OF_THE_SUN",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_KNIGHTS_SWORD",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SHIELD_OF_ARRAV",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "PRIEST_IN_PERIL",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "DADDYS_HOME",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 11868,
+      "npc": 5085,
       "world": [
-        3204,
-        3424,
-        0
+        3205,
+        3498,
+        2
       ]
     },
     {
@@ -243,11 +380,31 @@
       "title": "Go to the Varrock East bank. …",
       "text": "Go to the Varrock East bank. Grab a bucket of milk, raw sardine, doogle leaves, steel axe, chronicle, 3650 gp, waxwood logs, knife and all but 10 of your logs (if you have more than that remaining). Fletch remaining logs (of the original 100, so 1500 arrow shafts) into arrow shafts as you run to the east and speak with Regulus Cento to take the quetzal to Varlamore. Travel back to Varrock via quetzal and run north to the sawmill. Enter the Lumber Yard, proceed with Gertrude's Cat until the cat goes home. Chop down a dying tree. Make the logs into a plank, buy 5 bolts of cloth and 100 steel nails, turn the waxwood logs into planks. Head east and start Rag and Bone Man I. Teleport using the chronicle, speak to Gertrude and complete the quest. Speak with Juliet. Go to the bank and grab a saw, hammer, 10 planks, 5 bolts of cloth, 3 waxwood logs, Julia’s letter and your steel nails. Give the letter to Romeo. Go to Old Man Yarlo and fix his house. Go to Marlo and complete Daddy’s Home, enter the church and speak with Father Lawrence to progress Romeo & Juliet.",
       "complete": {
-        "op": "quest",
-        "quest": "RAG_AND_BONE_MAN_I",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "GERTRUDES_CAT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RAG_AND_BONE_MAN_I",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "DADDYS_HOME",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ROMEO__JULIET",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 12885,
+      "npc": 5038,
       "world": [
         3281,
         3413,
@@ -286,14 +443,24 @@
       "title": "Minigame teleport to Fishing Trawler, grab …",
       "text": "Minigame teleport to Fishing Trawler, grab your gp, leather gloves, spade, hammer, saw, one beer, a house teleport, 1500 arrow shafts and 1501 feathers and head north. Complete the Tower of Life. Adding feathers to arrow shafts as you move, break another POH tab, walk to Port Sarim and talk to Veos to go to Zeah. Destroy the XP lamp again. Do the Client of Kourend quest up to and including the point where you activate the orb at the Dark Altar (use the mine cart system to move around). While visiting Jennifer, buy shears from her shop, then visit the Shayzien Styles directly west of her general store, buy a chef’s hat, grab an orange dye and a black wizard’s hat (spawn in the building), and do a lap of the Shayzien agility course for the diary. When leaving Shayzien dig up the Clue hunter garb along the way (just north of the bridge heading east, Clue hunter garb - OSRS Wiki). Continue the quest until visiting the Dark Altar (use the mine cart to get there), then head to Wintertodt (again, mine cart to Northern Tundras).",
       "complete": {
-        "op": "quest",
-        "quest": "CLIENT_OF_KOUREND",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "TOWER_OF_LIFE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CLIENT_OF_KOUREND",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 10727,
+      "npc": 3648,
       "world": [
-        1824,
-        3690,
+        2954,
+        3147,
         0
       ]
     },

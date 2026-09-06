@@ -332,10 +332,21 @@
       "title": "Complete Demon Slayer. — Visit the …",
       "text": "Complete Demon Slayer. — Visit the rune essence mine while at the Wizards Tower for Enter the Abyss, then walk to Ardougne and complete the next teleport before returning to Varrock. — While in the Lumbridge/Draynor area collect some items — A pickaxe (Spawn) — An Axe (Bob) — A Fly Fishing rod and some bait (Fishing Shop) — A rope (Ned)",
       "complete": {
-        "op": "quest",
-        "quest": "ENTER_THE_ABYSS",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DEMON_SLAYER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ENTER_THE_ABYSS",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 10681,
       "world": [
         3204,
         3424,
@@ -457,9 +468,9 @@
       "title": "Complete the Varrock Easy Diary. — …",
       "text": "Complete the Varrock Easy Diary. — Use the lamp on Prayer. — Start Temple of the Eye and use the one time teleport to the abyss to craft the earth runes from the essence in your pouch.",
       "complete": {
-        "op": "quest",
-        "quest": "TEMPLE_OF_THE_EYE",
-        "state": "FINISHED"
+        "op": "diary",
+        "area": "varrock",
+        "tier": "easy"
       },
       "world": [
         3208,
@@ -641,13 +652,24 @@
       "title": "When you are ready, return to …",
       "text": "When you are ready, return to Guardians of the Rift. — Consider waiting to return until you can use the NPC Contact spell to repair pouches. Otherwise, repair your pouches with pearls. — This is not a big deal until you have a Giant Pouch as the lower tier pouches do not degrade very quickly. — You can optionally not even worry about NPC contact, as using pearls to fix the pouches is also perfectly fine and sustainable. — Once you have the level for Law Runes, take a break and complete Death Plateau and Troll Stronghold. Or just do this before returning. — Once you have level 65, consider taking a break until you can complete Mourning's End Part II. — Once you have level 77, consider taking a break until you can complete Sins of the Father. You can also leave at this point and make blood runes on Zeah. This detours heavily from the main goal of this guide, but is a great source of cash. — You can consider buying the ring of the elements with your pearls to speed up the construction grind.",
       "complete": {
-        "op": "quest",
-        "quest": "MOURNINGS_END_PART_II",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DEATH_PLATEAU",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TROLL_STRONGHOLD",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "object": 3762,
       "world": [
-        2354,
-        3170,
+        2828,
+        3647,
         0
       ]
     }

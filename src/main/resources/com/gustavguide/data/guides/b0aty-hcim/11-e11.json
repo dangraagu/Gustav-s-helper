@@ -84,16 +84,8 @@
       "id": "e11-004",
       "title": "Inventory: amulet of glory & Sapphire …",
       "text": "Inventory: amulet of glory & Sapphire Lantern (Cave Slimes & Cave Bugs), Rope & Digsite Pendants (Skeletons & Bats), Ectophial (Zombies, Cows & Birds), Dramen Staff & House Teleports (POH Nexus: Kourend - Ghosts, Fairy ring - Bears(BLR), Crawling Hands(CKS) & Cave Crawlers(AJR), Grand Exchange - Minotaurs, Lumbridge - Goblins & Spiders. POH Occult Altar - Ancients, Lassar Teleport for Dwarves and Ice Fiends), Expeditious Bracelets, Super Strength Potion (not divine), Stamina Potion, Antipoison, Rune Pouch (NPC Contact Runes)",
-      "complete": {
-        "op": "quest",
-        "quest": "CONTACT",
-        "state": "FINISHED"
-      },
-      "world": [
-        3281,
-        2772,
-        0
-      ]
+      "manual": true,
+      "npc": 2481
     },
     {
       "id": "e11-005",
@@ -1055,16 +1047,7 @@
       "id": "e11-082",
       "title": "NPC Contact Duradel for a task. …",
       "text": "NPC Contact Duradel for a task. The only tasks you are looking for are",
-      "complete": {
-        "op": "quest",
-        "quest": "CONTACT",
-        "state": "FINISHED"
-      },
-      "world": [
-        3281,
-        2772,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e11-083",
@@ -1124,14 +1107,11 @@
       "id": "e11-090",
       "title": "If Duradel doesn’t offer any of …",
       "text": "If Duradel doesn’t offer any of these tasks, NPC Contact Aya and replace your task streak with a new assignment. You should be in your Turael slayer gear from earlier in the guide until you pull an above task, then change to the gear accordingly",
-      "complete": {
-        "op": "quest",
-        "quest": "CONTACT",
-        "state": "FINISHED"
-      },
+      "manual": true,
+      "npc": 13433,
       "world": [
-        3281,
-        2772,
+        2931,
+        3536,
         0
       ]
     },

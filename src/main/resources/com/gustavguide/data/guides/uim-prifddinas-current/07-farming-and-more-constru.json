@@ -87,14 +87,35 @@
       "title": "Train to level 34 Farming. — …",
       "text": "Train to level 34 Farming. — Option 1 (Optimal) — Complete The Giant Dwarf. — Complete Forgettable Tale. — Complete Creature of Fenkenstrain. — Complete Garden of Tranquility. — Don't bother getting a fishing rod when you get up to the Edgeville monastery section, it's faster to simply destroy your Ring of charos and pickpocket a new one from Dr Fenkenstrain on the top floor of Fenkenstrain's Castle. — Option 2 (Lazy) — Purchase and use bagged plant 1s to get to level 31 (or 34) Farming. — Buy a chef's hat from Shayzien Styles. — Purchase garden pies in the Cooking Guild to boost to level 34.",
       "complete": {
-        "op": "quest",
-        "quest": "CREATURE_OF_FENKENSTRAIN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_GIANT_DWARF",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "FORGETTABLE_TALE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CREATURE_OF_FENKENSTRAIN",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "GARDEN_OF_TRANQUILLITY",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 1270,
       "world": [
-        3492,
-        3474,
-        0
+        3548,
+        3555,
+        2
       ]
     },
     {

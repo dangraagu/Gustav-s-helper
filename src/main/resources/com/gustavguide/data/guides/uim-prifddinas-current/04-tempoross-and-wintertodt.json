@@ -23,10 +23,21 @@
       "title": "Complete Cook's Assistant. — The items …",
       "text": "Complete Cook's Assistant. — The items can all be obtained in the farm area north of Lumbridge Castle. — Get an extra bucket of milk when milking the cow for Gertrude's Cat",
       "complete": {
-        "op": "quest",
-        "quest": "COOKS_ASSISTANT",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "COOKS_ASSISTANT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "GERTRUDES_CAT",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 7723,
       "world": [
         3212,
         3246,
@@ -498,13 +509,23 @@
       "title": "Complete all of the free-to-play quests …",
       "text": "Complete all of the free-to-play quests EXCEPT: — Dragon Slayer I. — Below Ice Mountain. (You could do this if you want, it is just a bit easier when you have the Mind Altar teleport later).",
       "complete": {
-        "op": "quest",
-        "quest": "BELOW_ICE_MOUNTAIN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DRAGON_SLAYER_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BELOW_ICE_MOUNTAIN",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        3003,
-        3435,
+        3010,
+        3486,
         0
       ]
     },

@@ -47,7 +47,11 @@
       "id": "e9-003",
       "title": "Complete Kingdom Divided",
       "text": "Complete Kingdom Divided",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "A_KINGDOM_DIVIDED",
+        "state": "FINISHED"
+      },
       "world": [
         1664,
         3670,

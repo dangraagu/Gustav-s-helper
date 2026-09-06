@@ -27,9 +27,19 @@
       "title": "Do the Mage Arena I miniquest, …",
       "text": "Do the Mage Arena I miniquest, followed by the Mage Arena II miniquest. Pick your favourite god (Zamorak is slightly more useful than the others for protection in the God Wars Dungeon, but any choice is fine). Along the way/after mine a mithril ore at the Pirates’ Hideout mine and complete a lap of the Wilderness Agility course. Kill Chaos dwarves for a muddy key, open the muddy chest in the centre of the Lava Maze. Kill an ankou at the Forgotten Cemetery, then enter the God Wars Dungeon (god wars protection is necessary!) and kill a bloodveld",
       "complete": {
-        "op": "quest",
-        "quest": "MAGE_ARENA_II",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "MAGE_ARENA_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MAGE_ARENA_II",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         3106,
@@ -42,15 +52,25 @@
       "title": "(POH) teleport to Rellekka, start The …",
       "text": "(POH) teleport to Rellekka, start The General’s Shadow miniquest. Teleport to Seers and speak with Sin Seer, then teleport to Rellekka and speak with the general again. Make your way to Lunar Isle. Start and complete Dream Mentor (lamp on ranged). Swap to the Lunar spellbook, teleport to Waterbirth, visit Jatizso and mine 5 adamantite ores after this step for two diary steps. POH teleport, make a super defence potion in Rellekka and collect the Fremennik hard diary, putting the lamp on herblore. Swap to Arceuus spellbook. Teleport to Draynor Manor and run out west for a scout for The General’s Shadow.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_GENERALS_SHADOW",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_GENERALS_SHADOW",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DREAM_MENTOR",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 3515,
+      "npc": 5937,
       "world": [
-        2702,
-        3473,
-        1
+        2620,
+        3685,
+        0
       ]
     },
     {
@@ -105,9 +125,24 @@
       "title": "Teleport to Varrock, take the spirit …",
       "text": "Teleport to Varrock, take the spirit tree to The Grand Tree. Run south and meet the scout outside the gate for The General’s Shadow. POH tab to Brimhaven, run to The General’s Shadow scout north of Shilo village and progress the miniquest.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_GENERALS_SHADOW",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_GRAND_TREE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_GENERALS_SHADOW",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SHILO_VILLAGE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         2466,
@@ -173,13 +208,24 @@
       "title": "Teleport to Lumbridge. Go into the …",
       "text": "Teleport to Lumbridge. Go into the Dorgeshuun mines and start Land of the Goblins. After being teleported to the goblin caves, finish The General's Shadow, then continue Land of the Goblins and complete it in full (the transportation is awkward, you could swap to the Lunar spellbook but there is no good way to Draynor in that case. There is a crate with an unlimited supply of goblin mails directly east inside the temple, beyond the guards).",
       "complete": {
-        "op": "quest",
-        "quest": "THE_GENERALS_SHADOW",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "LAND_OF_THE_GOBLINS",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_GENERALS_SHADOW",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "object": 24009,
       "world": [
-        2718,
-        3628,
+        3227,
+        3257,
         0
       ]
     },
@@ -241,9 +287,24 @@
       "title": "Do Rum Deal (return with Ectophial), …",
       "text": "Do Rum Deal (return with Ectophial), killing a fever spider along the way for the diary. Do Cabin Fever (speak with Bill Teach after the quest for 10k gp) and complete a game of trouble brewing (recommended: do the watering buckets only strat to get enough points to buy “the stuff” for future brewing). Do The Great Brain Robbery (put the lamp on Herblore), planting watermelons in the allotment patch for the diary along the way. Complete the Morytania medium diary (and easy if you haven’t yet), putting the lamp(s) on Herblore.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_GREAT_BRAIN_ROBBERY",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "RUM_DEAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CABIN_FEVER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_GREAT_BRAIN_ROBBERY",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 4016,
       "world": [
@@ -257,13 +318,39 @@
       "title": "Make sure you have a runite …",
       "text": "Make sure you have a runite bar (if you do not you have three options: 1) hunt Magpie implings in Puro Puro; 2) kill Vyrewatch Sentinels for 1/46.5; 3) trade rune platelegs for one at Nest (nice) - OSRS Wiki. This third method is recommended). Do the entire elf quest line: Regicide, Roving Elves, Mourning’s End Part I, Mourning’s End Part II, Song of the Elves. Pick the crystal bow reward from Roving Elves. You have all but one item on the regular part of the 50 item list for MEPII – you are missing unicorn horn dust (and whiteberries if you didn’t save any). Furthermore you need the randomly chosen ticket, book and key (all are easy to obtain). You may also want a spare hammer and chisel. Also make sure to farm belladonna(/nightshade) in the Draynor patch to collect at least 8 nightshades for the Seren fight (optional: use explosive liquid from the digsite instead), and also buy blood+death runes and make 6-10 phoenix necklaces.",
       "complete": {
-        "op": "quest",
-        "quest": "MOURNINGS_END_PART_II",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "REGICIDE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ROVING_ELVES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MOURNINGS_END_PART_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MOURNINGS_END_PART_II",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SONG_OF_THE_ELVES",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 3709,
       "world": [
-        3078,
-        3251,
+        3615,
+        3263,
         0
       ]
     }

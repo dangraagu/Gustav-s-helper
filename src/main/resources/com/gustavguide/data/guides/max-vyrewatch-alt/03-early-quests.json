@@ -73,7 +73,11 @@
       "id": "early-quests-006",
       "title": "monks friend",
       "text": "monks friend",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
       "world": [
         2607,
         3211,
@@ -279,7 +283,11 @@
       "id": "early-quests-020",
       "title": "vampire slayer",
       "text": "vampire slayer",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "FINISHED"
+      },
       "world": [
         3098,
         3268,
@@ -290,7 +298,11 @@
       "id": "early-quests-021",
       "title": "a porcine of intrest",
       "text": "a porcine of intrest",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "A_PORCINE_OF_INTEREST",
+        "state": "FINISHED"
+      },
       "world": [
         3086,
         3251,
@@ -301,7 +313,11 @@
       "id": "early-quests-022",
       "title": "dorics quest",
       "text": "dorics quest",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DORICS_QUEST",
+        "state": "FINISHED"
+      },
       "world": [
         2951,
         3451,
@@ -380,7 +396,11 @@
       "id": "early-quests-028",
       "title": "dragon slayer",
       "text": "dragon slayer",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
         3190,
         3360,
@@ -391,7 +411,11 @@
       "id": "early-quests-029",
       "title": "Monkey madness (get the attack and …",
       "text": "Monkey madness (get the attack and defence training)",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MONKEY_MADNESS_I",
+        "state": "FINISHED"
+      },
       "world": [
         2465,
         3496,

@@ -482,8 +482,12 @@ _QUEST_START_VERB_RE = re.compile(r"^\s*(start|begin)\b", re.IGNORECASE)
 # ("sell ... when starting One Small Favour", "also start Curse of the Empty Lord during ...") keeps
 # its FINISHED binding instead of completing the wrong step the moment that quest is begun. A step
 # that literally opens with "Start/Begin <quest>" is caught separately by _QUEST_START_VERB_RE.
-_QUEST_START_NEAR_RE = re.compile(r"\bto\s+(?:start|begin)(?:\s+the)?$", re.IGNORECASE)
+_QUEST_START_NEAR_RE = re.compile(r"\b(?:to|and|then)\s+(?:start|begin)(?:\s+the)?$", re.IGNORECASE)
 QUEST_START_WINDOW = 24
+# "<quest> required/needed/unlocked" right after the name = a prerequisite aside ("burst jellies
+# in catacombs (Desert treasure required)"), not the step's action — never bind it.
+_QUEST_REQ_AFTER_RE = re.compile(r"^(?:is\s+)?(?:required|needed|unlocked)\b", re.IGNORECASE)
+QUEST_REQ_WINDOW = 14
 
 # A step that lists quests you must NOT do (e.g. slayer-lure "DONT complete the following: ...")
 # must never bind its completion to one of those quests.
@@ -494,9 +498,86 @@ _QUEST_LIST_WARN_RE = re.compile(r"complete the following", re.IGNORECASE)
 _QUEST_NEG_RE = re.compile(
     r"(do ?n.?t|dont|do not|avoid|never|no need|"
     r"if you (?:would|want|did|have|already|plan|like)|would like|"
-    r"you could|you can also|optional|bother)",
+    r"you could|you can also|optional|bother|consider|until you can|"
+    r"before you (?:complete|finish|do|start)|partially complete|progress through)",
     re.IGNORECASE)
+
+# A quest name that is also a spell/mechanic: the word right before the match disambiguates.
+# "NPC Contact" / "Astral Contact" is the Lunar spell, never the quest "Contact!".
+_QUEST_FALSE_PRECEDERS = {"CONTACT": ("npc", "astral")}
 _ROMAN_TOKENS = [(" iii", " 3"), (" ii", " 2"), (" iv", " 4"), (" i", " 1")]
+
+_QUEST_APOS_RE = re.compile(r"[’'`´]")
+
+
+def _qnorm(s: str) -> str:
+    """_norm with apostrophes REMOVED (not spaced): _norm turns "Knight's" into "knight s", which
+    can never match the apostrophe-free spellings guides actually use ("Knights Sword", "Monks
+    Friend", "dorics quest"). Used on BOTH sides of quest-name matching only."""
+    return _norm(_QUEST_APOS_RE.sub("", s or ""))
+
+
+# Guide misspellings/abbreviations seen in shipped guides -> RuneLite Quest constant. Matched with
+# exactly the same substring + negation-window rules as real quest names. Keys are _qnorm cores.
+QUEST_ALIASES = {
+    "witches house": "WITCHS_HOUSE",
+    "fremmenik trials": "THE_FREMENNIK_TRIALS",
+    "muder mystery": "MURDER_MYSTERY",
+    "vampire slayer": "VAMPYRE_SLAYER",
+    "porcine of intrest": "A_PORCINE_OF_INTEREST",
+    "enlighted journey": "ENLIGHTENED_JOURNEY",
+    "death to the dorg": "DEATH_TO_THE_DORGESHUUN",
+    "another slice of ham": "ANOTHER_SLICE_OF_HAM",
+    "gerturdes cat": "GERTRUDES_CAT",
+    "shades of morton": "SHADES_OF_MORTTON",
+    "garden of tranquility": "GARDEN_OF_TRANQUILLITY",
+    "one small favor": "ONE_SMALL_FAVOUR",
+    "digsite quest": "THE_DIG_SITE",
+    "fairy tale pt 1": "FAIRYTALE_I__GROWING_PAINS",
+}
+
+# Whole-step-text bindings for names too generic to match as substrings ("waterfall", "rfd" would
+# bind every step that merely mentions the place or the lamps). Keyed by the _qnorm'd FULL step
+# text (pre-"Location:" name), so only the literal step binds. Always FINISHED.
+QUEST_TEXT_EXACT = {
+    "finish waterfall": "WATERFALL_QUEST",
+    "finish rfd": "RECIPE_FOR_DISASTER",
+}
+
+
+def _quest_candidates(name, fullname_norms):
+    """All matchable variants of one quest display name (or alias): the _qnorm'd name; its
+    subtitle-stripped head ("Desert Treasure II - The Fallen Empire" -> "desert treasure ii") when
+    that head is not another quest's full name (the eleven "Recipe for Disaster - <sub>" names all
+    share the base quest's head and must never claim it); an article-optional form (leading
+    The/A/An dropped); roman->arabic; and a trailing-" i"-stripped base for long "... I" names so
+    a guide's bare "dragon slayer" means DRAGON_SLAYER_I (longest-match still prefers II/2 forms).
+    Every variant is padded with spaces for whole-word substring matching."""
+    forms = [_qnorm(name)]
+    if " - " in name:
+        head = _qnorm(name.split(" - ", 1)[0])
+        if head not in fullname_norms:
+            forms.append(head)
+    out = []
+    for f in forms:
+        cands = [f]
+        if f.startswith(" the ") and len(f) - 5 >= 6:
+            cands.append(" " + f[5:])
+        elif f.startswith(" a ") and len(f) - 3 >= 9:
+            cands.append(" " + f[3:])
+        elif f.startswith(" an ") and len(f) - 4 >= 9:
+            cands.append(" " + f[4:])
+        extra = []
+        for c in cands:
+            av = _arabic_variant(c)
+            if av:
+                extra.append(av)
+            if c.endswith(" i ") and len(c.strip()) >= 13:
+                # >= 13 keeps "dragon slayer"/"monkey madness"/"desert treasure" but excludes
+                # "mage arena" ("Mage Arena I" strips to the PLACE visited for the bank/lever).
+                extra.append(c[:-2])
+        out.extend(cands + extra)
+    return out
 
 
 def _arabic_variant(nn):
@@ -512,9 +593,13 @@ def detect_quest(text: str, quest_map):
     """
     If a quest's display name appears in the step, complete the step when that quest is done.
     Dynamic: for an existing account this auto-skips a quest AND its prep/start steps once it's done.
-    Longest name wins. Punctuation is normalised on both sides so "Cook's Assistant" matches, a leading
-    "The" is optional so "Restless ghost" still matches "The Restless Ghost", and roman numerals match
-    arabic ("Dragon Slayer 2" -> "Dragon Slayer II"). A "Start <quest>" step uses IN_PROGRESS (started
+    Longest name wins. Apostrophes are dropped on both sides so "Knights Sword" matches "The Knight's
+    Sword", a leading "The"/"A"/"An" is optional so "Restless ghost" and "Kingdom Divided" still match,
+    roman numerals match arabic ("Dragon Slayer 2" -> "Dragon Slayer II"), a bare base name means the
+    "... I" quest ("dragon slayer" -> DRAGON_SLAYER_I), subtitles are optional ("Desert Treasure II"
+    matches "... - The Fallen Empire"), QUEST_ALIASES covers shipped-guide misspellings, and
+    QUEST_TEXT_EXACT binds whole-step texts too generic for substrings. A "Start <quest>" step uses
+    IN_PROGRESS (started
     OR finished); other steps use FINISHED. Steps that name a quest negatively/conditionally (warnings,
     "if you did X", asides) do NOT bind, so they can't auto-complete on the wrong / a forbidden quest.
     """
@@ -522,35 +607,61 @@ def detect_quest(text: str, quest_map):
         return None
     if _QUEST_LIST_WARN_RE.search(text or ""):
         return None
-    padded = _norm(text)
-    best_len, best_const, best_cand = 0, None, None
-    for name, const in quest_map.items():
-        nn = _norm(name)  # " the restless ghost " ; _norm also maps "&" -> "and"
-        cands = [nn]
-        if nn.startswith(" the ") and len(nn) - 5 >= 6:
-            cands.append(" " + nn[5:])  # article-optional: " restless ghost "
-        av = _arabic_variant(nn)
-        if av:
-            cands.append(av)  # roman -> arabic: " dragon slayer 2 "
-        for cand in cands:
+    padded = _qnorm(text)
+    exact = QUEST_TEXT_EXACT.get(padded.strip())
+    if exact:
+        return {"op": "quest", "quest": exact, "state": "FINISHED"}
+    fullname_norms = {_qnorm(n) for n in quest_map}
+    # Collect EVERY occurrence of every candidate, then keep the longest match at each span — so
+    # "dragon slayer" (the DS1 base form) can never survive inside "dragon slayer 2", but a step
+    # naming several quests ("Dragon Slayer 1, Priest in Peril and Regicide") keeps them all.
+    matches = []  # (start, end, core_len, const)
+    for name, const in list(quest_map.items()) + list(QUEST_ALIASES.items()):
+        for cand in _quest_candidates(name, fullname_norms):
             core = cand.strip()
             if len(core) < 4:
                 continue
-            if cand in padded and len(core) > best_len:
-                best_len, best_const, best_cand = len(core), const, cand
-    if best_const is None:
+            start = padded.find(cand)
+            while start != -1:
+                # span of the CORE only (candidates carry one padding space each side; two adjacent
+                # quest names share that space and must not count as overlapping)
+                matches.append((start + 1, start + len(cand) - 1, len(core), const))
+                start = padded.find(cand, start + 1)
+    if not matches:
         return None
-    pos = padded.find(best_cand)
-    if pos > 0 and _QUEST_NEG_RE.search(padded[max(0, pos - QUEST_NEG_WINDOW):pos]):
+    matches.sort(key=lambda m: (-m[2], m[0]))
+    kept = []
+    for m in matches:
+        if any(m[0] < k[1] and k[0] < m[1] for k in kept):
+            continue  # overlaps a longer match
+        kept.append(m)
+    # Per-match guards: a name in a negated/conditional aside, or one immediately followed by
+    # "required/needed/unlocked" (a prerequisite, not the action), never binds. A "start/begin"
+    # verb governing the name — or heading the step, for the first name — means the quest need
+    # only be STARTED (IN_PROGRESS), not finished.
+    bound = []
+    first_start = min(m[0] for m in kept)
+    for start, end, _, const in sorted(kept):
+        if start > 0 and _QUEST_NEG_RE.search(padded[max(0, start - QUEST_NEG_WINDOW):start]):
+            continue
+        if _QUEST_REQ_AFTER_RE.match(padded[end:end + QUEST_REQ_WINDOW].lstrip()):
+            continue
+        prev_word = padded[:start].rsplit(None, 1)[-1] if padded[:start].strip() else ""
+        if prev_word in _QUEST_FALSE_PRECEDERS.get(const, ()):
+            continue  # "NPC Contact" is the spell, not the quest
+        if any(const == c for c, _ in bound):
+            continue  # the same quest named twice ("... Desert Treasure [Desert Treasure]")
+        pre = padded[max(0, start - QUEST_START_WINDOW):start].rstrip()
+        started = bool(_QUEST_START_NEAR_RE.search(pre)) or (
+            start == first_start and bool(_QUEST_START_VERB_RE.match(text or "")))
+        bound.append((const, "IN_PROGRESS" if started else "FINISHED"))
+    if not bound:
         return None
-    # A "start/begin the quest" step completes when the quest is merely STARTED (IN_PROGRESS or
-    # FINISHED), not only when the whole quest is done — otherwise "speak to X to start <quest>" never
-    # ticks off when you actually start it. Detect the start verb either at the head of the step OR
-    # governing the quest name ("...to start The Restless Ghost").
-    pre = padded[max(0, pos - QUEST_START_WINDOW):pos]
-    started = bool(_QUEST_START_VERB_RE.match(text or "")) or bool(_QUEST_START_NEAR_RE.search(pre))
-    state = "IN_PROGRESS" if started else "FINISHED"
-    return {"op": "quest", "quest": best_const, "state": state}
+    if len(bound) == 1:
+        return {"op": "quest", "quest": bound[0][0], "state": bound[0][1]}
+    # A step that names several quests is done when ALL of them are ("Dragon Slayer 1, Priest in
+    # Peril, ..."): an AND can only fire late, never early, so it is fresh-account safe.
+    return {"op": "and", "of": [{"op": "quest", "quest": c, "state": s} for c, s in bound]}
 
 
 # --- Location gazetteer (approximate area centres) ---------------------------
@@ -1392,6 +1503,17 @@ _DIARY_TIERS = ("elite", "hard", "medium", "easy")
 _DIARY_MAX_LEN = 85  # a diary step is a short task/goal; longer = prose where the diary is incidental
 
 
+def detect_quest_or_diary(name_untagged, name_full, quest_map):
+    """Quest completion vs achievement-diary completion for one step — quest first, EXCEPT when the
+    step's primary clause (before any ' — ' note) is a diary action and not a quest action: a diary
+    step whose notes mention helper quests ("Complete the easy Varrock Diary. — Complete Enter the
+    abyss, then ...") must bind the diary, not a note's quest."""
+    primary = name_untagged.split("—")[0]
+    if detect_diary(primary) is not None and detect_quest(primary, quest_map) is None:
+        return detect_diary(primary)
+    return detect_quest(name_untagged, quest_map) or detect_diary(name_full)
+
+
 def detect_diary(text: str):
     """A step whose SUBJECT is an achievement diary (a short "<area> <tier> diary" task/goal) -> a
     diary completion condition, so it auto-syncs like a skill/quest on an already-advanced account.
@@ -1440,10 +1562,15 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
     check_reqs = parse_check_items(name)
     if check_reqs:
         step["requirements"] = check_reqs
-    # Precedence: skill target > quest completion > achievement-diary completion > item acquisition.
+    # Precedence: skill target > quest completion > achievement-diary completion > item acquisition
+    # > quest named only in a [bracket tag]. A tag ("Pick a Cabbage [Black Knight's Fortress]") is
+    # context, not the action: the concrete item/action condition beats the distant quest-finish,
+    # and the tag must never pull the step to the quest's start tile (see the coordinate fallback).
     # An OPTIONAL step never becomes an auto gate — it stays manual so it can't block the fold/arrivals.
     optional = bool(_OPTIONAL_RE.match(name))
-    cond = None if optional else (detect_skill(name) or detect_quest(name, quest_map) or detect_diary(name))
+    name_untagged = re.sub(r"\[[^\]]*\]", " ", name)
+    cond = None if optional else (detect_skill(name)
+                                  or detect_quest_or_diary(name_untagged, name, quest_map))
     item_id = None
     if not cond and not optional:
         iq = detect_item_id_qty(name, item_map)
@@ -1452,6 +1579,8 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
             cumulative[item_id] = cumulative.get(item_id, 0) + qty
             cond = item_condition(item_id, cumulative[item_id],
                                   total_needed.get(item_id, cumulative[item_id]))
+        if not cond:
+            cond = detect_quest(name, quest_map)  # tag-only quest mention, weakest signal
     if cond:
         step["complete"] = cond
         # Show the wiki's recommended method only on a genuine training grind — NOT on a step that
@@ -1504,7 +1633,11 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
         # For a quest step, the quest-start NPC's exact tile beats the loc hint: the hint is almost
         # always just the town name (= a coarse centre), while the start tile is a real doorstep.
         cq = step.get("complete", {})
-        if not world and cq.get("op") == "quest":
+        if (not world and cq.get("op") == "quest"
+                and detect_quest(name_untagged, quest_map) is not None):
+            # Guard: a quest named ONLY in a [bracket tag] is route context — sending the player to
+            # that quest's start tile mid-quest is wrong AND it drags the anchor for the steps after
+            # it ("Pick a Cabbage [Black Knight's Fortress]" must not teleport the route to Falador).
             qs = QUEST_START_BY_CONST.get(cq.get("quest"))
             if qs:
                 world = list(qs)
@@ -1513,8 +1646,8 @@ def build_step(prefix, position, name, loc, url, item_map, quest_map, cumulative
             # won the condition instead ("Complete Spirits of the Elid. You can boost to 37 Ranged"
             # took a RANGED>=37 skill condition), so the branch above cannot fire and a grounded
             # start tile goes unused. Coordinate only; the condition is left exactly as detected.
-            nq = detect_quest(name, quest_map)
-            if nq:
+            nq = detect_quest(name_untagged, quest_map)
+            if nq and nq.get("op") == "quest":
                 qs = QUEST_START_BY_CONST.get(nq.get("quest"))
                 if qs:
                     world = list(qs)

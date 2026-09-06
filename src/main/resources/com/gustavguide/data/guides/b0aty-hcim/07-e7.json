@@ -54,7 +54,16 @@
       "id": "e7-006",
       "title": "Complete Kings Ransom",
       "text": "Complete Kings Ransom",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "KINGS_RANSOM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2741,
+        3557,
+        0
+      ]
     },
     {
       "id": "e7-007",

@@ -382,7 +382,11 @@
       "id": "tfm-026",
       "title": "Go to Edgeville, talk to Oziach …",
       "text": "Go to Edgeville, talk to Oziach to continue Dragon slayer\nLocation: Edgeville",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "npc": 822,
       "world": [
         3068,

@@ -648,7 +648,16 @@
       "id": "e6-055",
       "title": "Complete Twilights Promise",
       "text": "Complete Twilights Promise",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "TWILIGHTS_PROMISE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3281,
+        3413,
+        0
+      ]
     },
     {
       "id": "e6-056",
@@ -758,13 +767,24 @@
       "title": "Complete Rum Deal & Cabin Fever …",
       "text": "Complete Rum Deal & Cabin Fever once 58 Slayer after Defender",
       "complete": {
-        "op": "quest",
-        "quest": "CABIN_FEVER",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "RUM_DEAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CABIN_FEVER",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 626,
       "world": [
-        3678,
-        3494,
+        2141,
+        5103,
         0
       ]
     },

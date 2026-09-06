@@ -142,11 +142,7 @@
       "id": "qo-010",
       "title": "Partially complete: Pirate's Treasure",
       "text": "Partially complete: Pirate's Treasure\nLocation: Musa Point",
-      "complete": {
-        "op": "quest",
-        "quest": "PIRATES_TREASURE",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
         3053,
         3251,
@@ -240,11 +236,7 @@
       "id": "qo-017",
       "title": "Partially complete: Demon Slayer",
       "text": "Partially complete: Demon Slayer\nLocation: Varrock",
-      "complete": {
-        "op": "quest",
-        "quest": "DEMON_SLAYER",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
         3204,
         3424,
@@ -270,11 +262,7 @@
       "id": "qo-019",
       "title": "Partially complete: Enter the Abyss",
       "text": "Partially complete: Enter the Abyss\nLocation: Varrock",
-      "complete": {
-        "op": "quest",
-        "quest": "ENTER_THE_ABYSS",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
         3102,
         3557,
@@ -450,29 +438,16 @@
       "id": "qo-031",
       "title": "Partially complete: Dwarf Cannon",
       "text": "Partially complete: Dwarf Cannon\nLocation: Coal Trucks",
-      "complete": {
-        "op": "quest",
-        "quest": "DWARF_CANNON",
-        "state": "FINISHED"
-      },
-      "world": [
-        2567,
-        3460,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "qo-032",
       "title": "Unlock Barbarian Assault teleport; partially complete …",
       "text": "Unlock Barbarian Assault teleport; partially complete Alfred Grimhand's Barcrawl\nLocation: Barbarian Outpost",
-      "complete": {
-        "op": "quest",
-        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
-        2544,
-        3568,
+        2549,
+        3558,
         0
       ]
     },
@@ -690,16 +665,7 @@
       "id": "qo-047",
       "title": "Partially complete: Rag and Bone Man …",
       "text": "Partially complete: Rag and Bone Man I\nLocation: Paterdomus",
-      "complete": {
-        "op": "quest",
-        "quest": "RAG_AND_BONE_MAN_I",
-        "state": "FINISHED"
-      },
-      "world": [
-        3362,
-        3502,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "qo-048",
@@ -837,16 +803,7 @@
       "id": "qo-057",
       "title": "Partially complete: Rag and Bone Man …",
       "text": "Partially complete: Rag and Bone Man II\nLocation: Paterdomus",
-      "complete": {
-        "op": "quest",
-        "quest": "RAG_AND_BONE_MAN_II",
-        "state": "FINISHED"
-      },
-      "world": [
-        3169,
-        3172,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "qo-058",
@@ -1264,11 +1221,7 @@
       "id": "qo-087",
       "title": "Partially complete: Fairytale II - Cure …",
       "text": "Partially complete: Fairytale II - Cure a Queen\nLocation: Draynor Village",
-      "complete": {
-        "op": "quest",
-        "quest": "FAIRYTALE_II__CURE_A_QUEEN",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
         3078,
         3256,

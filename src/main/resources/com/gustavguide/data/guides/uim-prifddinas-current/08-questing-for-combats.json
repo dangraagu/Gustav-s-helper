@@ -288,13 +288,24 @@
       "title": "Complete Zogre Flesh Eaters. — Save …",
       "text": "Complete Zogre Flesh Eaters. — Save the Super Restores to help during Monkey Madness 1",
       "complete": {
-        "op": "quest",
-        "quest": "ZOGRE_FLESH_EATERS",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ZOGRE_FLESH_EATERS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MONKEY_MADNESS_I",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 2498,
       "world": [
-        2447,
-        3049,
+        2019,
+        5215,
         0
       ]
     },
@@ -303,9 +314,19 @@
       "title": "Complete Monkey Madness I. — Get …",
       "text": "Complete Monkey Madness I. — Get all the greegrees needed for Recipe for Disaster/Freeing King Awowogei during this this quest. — Give Zooknock the materials for a second Ninja monkey greegree but don't take the greegree yet, come back and claim it when needed for Monkey Madness II. — Do the training with Daero focused on Strength after the quest. — Be careful not to die to the Jungle Demon as getting your stuff back is very annoying.",
       "complete": {
-        "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "MONKEY_MADNESS_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER",
+            "state": "FINISHED"
+          }
+        ]
       }
     },
     {

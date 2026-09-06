@@ -320,15 +320,20 @@
       "title": "Complete Temple of the Eye. — …",
       "text": "Complete Temple of the Eye. — These quests may have already been completed if you had to hunt for a nature talisman back in Fairytale I - Growing Pains",
       "complete": {
-        "op": "quest",
-        "quest": "FAIRYTALE_I__GROWING_PAINS",
-        "state": "FINISHED"
-      },
-      "world": [
-        3078,
-        3256,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "TEMPLE_OF_THE_EYE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "FAIRYTALE_I__GROWING_PAINS",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "renovating-your-home-022a",

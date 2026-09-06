@@ -25,30 +25,55 @@
       "title": "Do While Guthix Sleeps if you …",
       "text": "Do While Guthix Sleeps if you haven’t already. Start and complete Dragon Slayer II (using your Bow of Faerdhinen to deal with the strong bosses – protect from magic and antifire potions will, when combined, provide decent dragonfire protection except against metal dragons and Galvek where you need the shield plus a rune crossbow), putting Ellen’s XP at the end on Strength. Kill Vorkath up to 50 times to get an Ava’s Assembler. Complete Monkey Madness II (put Duke’s xp on Strength).",
       "complete": {
-        "op": "quest",
-        "quest": "WHILE_GUTHIX_SLEEPS",
-        "state": "FINISHED"
-      },
-      "world": [
-        2907,
-        3450,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "WHILE_GUTHIX_SLEEPS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MONKEY_MADNESS_II",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "s32-003",
       "title": "Do Devious Minds, then Secrets of …",
       "text": "Do Devious Minds, then Secrets of the North (a bowfa is pretty strong against, well, everything). Do Beneath Cursed Sands (did you know the bowfa works very well against these enemies) and Into the Tombs (don’t make me say it). The best use for the lamp is on strength. Optional but recommended: kill the Phantom Muspah(/Grumbler) for an ancient icon to upgrade your ancient staff (make some mithril sapphire bolts (e) and a rune crossbow for the smite phase). Start and complete Desert Treasure II, putting the xp on prayer. Collect a quest cape.",
       "complete": {
-        "op": "quest",
-        "quest": "BENEATH_CURSED_SANDS",
-        "state": "FINISHED"
-      },
-      "world": [
-        2925,
-        3484,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DEVIOUS_MINDS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SECRETS_OF_THE_NORTH",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BENEATH_CURSED_SANDS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "INTO_THE_TOMBS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "s32-004",

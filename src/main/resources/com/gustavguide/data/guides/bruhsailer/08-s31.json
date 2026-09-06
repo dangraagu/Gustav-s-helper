@@ -161,13 +161,34 @@
       "title": "Do the Fremennik Exiles, A Night …",
       "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will, Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys)",
       "complete": {
-        "op": "quest",
-        "quest": "A_NIGHT_AT_THE_THEATRE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_FREMENNIK_EXILES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "A_NIGHT_AT_THE_THEATRE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "HOPESPEARS_WILL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MONKEY_MADNESS_II",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 5257,
       "world": [
-        3673,
-        3223,
+        2729,
+        2764,
         0
       ]
     },

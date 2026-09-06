@@ -175,10 +175,14 @@
       "id": "sg-013",
       "title": "Garden of tranquility quest",
       "text": "Garden of tranquility quest\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "GARDEN_OF_TRANQUILLITY",
+        "state": "FINISHED"
+      },
       "world": [
-        3210,
-        3448,
+        3230,
+        3478,
         0
       ]
     },
@@ -208,13 +212,23 @@
       "title": "Do Eyes of glouphrie and Tower …",
       "text": "Do Eyes of glouphrie and Tower of life\nLocation: Gnome Stronghold",
       "complete": {
-        "op": "quest",
-        "quest": "THE_EYES_OF_GLOUPHRIE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_EYES_OF_GLOUPHRIE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TOWER_OF_LIFE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        2404,
-        3419,
+        2440,
+        3460,
         0
       ]
     },
@@ -449,14 +463,10 @@
       "id": "sg-032",
       "title": "Consider Vale Totems for Fletching training …",
       "text": "Consider Vale Totems for Fletching training (20+ Fletching, Varlamore access)\nLocation: Varlamore",
-      "complete": {
-        "op": "quest",
-        "quest": "VALE_TOTEMS",
-        "state": "FINISHED"
-      },
+      "manual": true,
       "world": [
-        1365,
-        3366,
+        1725,
+        3128,
         0
       ]
     },

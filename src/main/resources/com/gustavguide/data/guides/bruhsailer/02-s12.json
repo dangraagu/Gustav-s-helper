@@ -36,14 +36,29 @@
       "title": "Walk to Port Sarim, make 3 …",
       "text": "Walk to Port Sarim, make 3 pastry doughs in the northern house with the water icon and one by one try to make them into a cooked redberry pie. Buy 16k feathers from Gerrant (for fly fishing later. If you do not have level 46 fletching yet, also buy feathers to get that level. You will gain 6.33 fletching xp per steel arrow made from scratch, or 6 xp per arrow made with the headless arrows already banked). Speak with Thurgo to progress The Knight’s Sword. Run to Betty and buy 1500 mind runes (pack), 500 air runes (pack), 1500 water runes (pack), 500 earth runes (pack), 500 fire runes (pack), 200 body runes (manual), 100 chaos runes (manual, 9396 gp vs 9950 gp), 150 death runes for Desert Treasure (manual). Talk to Veos to go to Zeah, talk to Veos again and complete the Client of Kourend (destroy the lamps and reclaim them later to put them on herblore), talk to Veos again to travel to Land’s End, grab 1-3 bird snares, five box traps and a butterfly net (https://imgur.com/a/bdU88Xo). Speak with Captain Magoro to return to Port Piscarilius.",
       "complete": {
-        "op": "quest",
-        "quest": "THE_KNIGHTS_SWORD",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_KNIGHTS_SWORD",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DESERT_TREASURE_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CLIENT_OF_KOUREND",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 4733,
+      "npc": 3648,
       "world": [
-        3000,
-        3145,
+        2954,
+        3147,
         0
       ]
     },
@@ -68,15 +83,65 @@
       "title": "Use your chronicle to teleport to …",
       "text": "Use your chronicle to teleport to Varrock, buy one of each elemental staff from Zaff. Use clan chat “osrs soa” to find a partner. Collect the weapon store key from your Shield of Arrav partner and kill the Weaponsmaster to grab two Phoenix crossbows for Shield of Arrav (this fight may be tough, use magic and bread or cakes), take them to Katrine and collect the half of the Shield of Arrav. Finish the Shield of Arrav at the Varrock Museum (optional: do this earlier so you don’t make your partner wait). Grab your soda ash, sand, spade, leather gloves, strike runes and Falador tab. Take the quetzal to Varlamore, start and continue Ethically Acquired Antiquities until the step where you have to visit Port Sarim. Break your Falador tab, collect the portrait for The Knight’s Sword, speak with Sir Renitee for the diary, turn the soda ash and sand into molten glass. Kill a duck (with magic), complete Pirate’s Treasure. Now bank, grab raw beef, chicken and rat meat, an orange and blue dye (make the orange dye with red + yellow if needed), 2 iron ore, 4 copper ore, 6 clay, 2 cheese, your gp stack and a couple of food (3+ cakes or wines). Optional: swap one cheese for one cake/wine for Witch’s House. Run north, do Doric’s Quest. Go back east and start Below Ice Mountain at Wilow, safespot a bear on the trees north of Falador for the meat, fur and ribs. Complete Goblin Diplomacy, Witch’s House (there are safespots for all the forms of the Witch’s experiment!) and Druidic Ritual. Buy an eye of newt pack, an empty vial (not a pack) and a pestle and mortar from Jatix. Start Fishing Contest. Minigame teleport to clan wars and restore run energy at Ferox, bank and grab two iron bars, a POH tab, the portrait, a few (3-5) cakes and a pickaxe.",
       "complete": {
-        "op": "quest",
-        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "SHIELD_OF_ARRAV",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_KNIGHTS_SWORD",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "PIRATES_TREASURE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DORICS_QUEST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "BELOW_ICE_MOUNTAIN",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "GOBLIN_DIPLOMACY",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "WITCHS_HOUSE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DRUIDIC_RITUAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "FISHING_CONTEST",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 3100,
+      "npc": 5214,
       "world": [
-        2982,
-        3341,
-        1
+        3257,
+        3449,
+        0
       ]
     },
     {
@@ -84,14 +149,24 @@
       "title": "Break another POH tab and return …",
       "text": "Break another POH tab and return to Thurgo. Mine two blurite ore. Go back to Thurgo and make the sword. Run to a trader crewmember in Port Sarim for Ethically Acquired Antiquities, then talk to Betty to progress that quest. Run to Falador east bank. Grab your coins, ghostspeak amulet and skull. Pay to move your house to Pollnivneach at the estate agent. Complete The Knight’s Sword. Smelt the blurite ore into a bar.",
       "complete": {
-        "op": "quest",
-        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_KNIGHTS_SWORD",
+            "state": "FINISHED"
+          }
+        ]
       },
-      "npc": 5905,
+      "npc": 3097,
       "world": [
-        3014,
-        3258,
+        2638,
+        3293,
         0
       ]
     },
@@ -100,9 +175,34 @@
       "title": "Ferox teleporting for run energy if …",
       "text": "Ferox teleporting for run energy if necessary, chronicle teleport to Varrock. Speak with Curator Haig Halen in the Varrock Museum and continue Ethically Acquired Antiquities until you have his confession, then take the quetzal to Varlamore and speak with Curator Herminius to complete Ethically Acquired Antiquities. Home teleport to Lumbridge, bank, grab items for the step below. Shear a sheep, complete the Restless Ghost. Cross the gate to Al-Kharid and start The Feud (buy the desert disguise). Run south and buy one of each mould in Dommik’s Crafting Store shop including tiara but not bolt, plus a second necklace mould, along with 3 needles and 10 thread, then some mithril platelegs. Go east, start and complete Sleeping Giants. Buy 9 bronze bars in the Shantay Pass, along with two sets of desert clothes (one pair of boots only), 5 Shantay passes, 16 bucket packs, 20 buckets of water, 4 bowls of water and 10 waterskins. Make 4 soft clay while you’re at the bank chest. Make sure to bring 5 buckets for Ugthanki dung and wear leather gloves during the following quests. Note: the following quests can be multiquested, but for the sake of inventory space and convenience it is fine to do Tourist Trap completely, then do The Feud after.",
       "complete": {
-        "op": "quest",
-        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_RESTLESS_GHOST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_FEUD",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "SLEEPING_GIANTS",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_TOURIST_TRAP",
+            "state": "FINISHED"
+          }
+        ]
       },
       "npc": 5214,
       "world": [
@@ -164,13 +264,29 @@
       "title": "Teleport to the barbarian outpost with …",
       "text": "Teleport to the barbarian outpost with your games necklace. Unlock the minigame teleport (start the teleport animation to confirm it worked, then just click away to cancel it), start Alfred Grimhand’s Barcrawl, go south and do the Waterfall quest until the step where you need the pebble (bring your rope). Buy a greenman’s ale from Rasolo. Start Dwarf Cannon up to the step where you need to find Lollk.",
       "complete": {
-        "op": "quest",
-        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "WATERFALL_QUEST",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DWARF_CANNON",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 679,
       "world": [
-        2544,
-        3568,
+        2531,
+        3420,
         0
       ]
     },
@@ -179,13 +295,23 @@
       "title": "Minigame teleport to Fishing Trawler, complete …",
       "text": "Minigame teleport to Fishing Trawler, complete Fight Arena and enter the Tree Gnome Village maze. Collect Glarial’s pebble along the way (don’t drop it after the quest). Start and complete Tree Gnome village.",
       "complete": {
-        "op": "quest",
-        "quest": "TREE_GNOME_VILLAGE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "FIGHT_ARENA",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TREE_GNOME_VILLAGE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        2541,
-        3170,
+        2455,
+        3301,
         0
       ]
     },
@@ -226,10 +352,31 @@
       "title": "Minigame teleport to Burthorpe, buy 5 …",
       "text": "Minigame teleport to Burthorpe, buy 5 Asgarnian ale, 39 Wizard’s mind bombs and 12 Dwarven stouts. Collect the Rogues outfit and crack a wall safe in the main area for the diary. Buy 75 lockpicks and 25 ropes. Cook fish (salmon, trout and all raw fish from Tempoross, but save at least one raw swordfish for making a swordchick at the Tower of Life later for the Ardougne medium diary) between the games to replenish run energy (you can 2t cook it). Make sure you have at least 10 trout for Death Plateau and 15 salmon for In Aid of the Myreque, and got to at least level 43 cooking. Grab your GP, blackjack and a POH tab (equip full rogues), run south and complete Fishing Contest.",
       "complete": {
-        "op": "quest",
-        "quest": "IN_AID_OF_THE_MYREQUE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "TOWER_OF_LIFE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DEATH_PLATEAU",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "IN_AID_OF_THE_MYREQUE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "FISHING_CONTEST",
+            "state": "FINISHED"
+          }
+        ]
       },
+      "npc": 1316,
       "world": [
         2906,
         3537,

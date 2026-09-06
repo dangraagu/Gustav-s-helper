@@ -103,7 +103,11 @@
       "id": "frp-006",
       "title": "Start Rag and bone man on …",
       "text": "Start Rag and bone man on the way to the temple\nLocation: Varrock",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "IN_PROGRESS"
+      },
       "world": [
         3360,
         3504,
@@ -200,10 +204,14 @@
       "id": "frp-012",
       "title": "Go champion's guild and continue Dragon …",
       "text": "Go champion's guild and continue Dragon slayer, ask every question\nLocation: Champions Guild",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        3191,
-        3357,
+        3190,
+        3360,
         0
       ]
     },
@@ -211,7 +219,11 @@
       "id": "frp-013",
       "title": "Kill the nearby ram, bear and …",
       "text": "Kill the nearby ram, bear and unicorn for their bones (Rag and bone man quest)\nLocation: Champions Guild",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "FINISHED"
+      },
       "world": [
         3283,
         3355,
@@ -233,11 +245,14 @@
       "id": "frp-015",
       "title": "Kill a giant bat (Rag and …",
       "text": "Kill a giant bat (Rag and bone man) south west of Catherby\nLocation: Catherby",
-      "manual": true,
-      "npc": 1520,
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2841,
-        3432,
+        3362,
+        3502,
         0
       ]
     },
@@ -285,7 +300,11 @@
       "id": "frp-019",
       "title": "Kill a goblin for the bone …",
       "text": "Kill a goblin for the bone for rag and bone man\nLocation: Lumbridge",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "FINISHED"
+      },
       "world": [
         3198,
         3255,
@@ -335,9 +354,19 @@
       "title": "Do Ernest the chicken, finish vampire …",
       "text": "Do Ernest the chicken, finish vampire slayer\nLocation: Draynor Manor",
       "complete": {
-        "op": "quest",
-        "quest": "ERNEST_THE_CHICKEN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "ERNEST_THE_CHICKEN",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "VAMPYRE_SLAYER",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         3109,
@@ -568,7 +597,11 @@
       "id": "frp-039",
       "title": "Speak to Martin for Fairytale 2",
       "text": "Speak to Martin for Fairytale 2\nLocation: Draynor",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_II__CURE_A_QUEEN",
+        "state": "FINISHED"
+      },
       "npc": 5832,
       "world": [
         3077,
@@ -592,10 +625,14 @@
       "id": "frp-041",
       "title": "Tele to POH and do Melzar's …",
       "text": "Tele to POH and do Melzar's maze (Dragon slayer quest)\nLocation: Rimmington",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2956,
-        3232,
+        3190,
+        3360,
         0
       ]
     },
@@ -603,7 +640,11 @@
       "id": "frp-042",
       "title": "Walk to port Sarim jail and …",
       "text": "Walk to port Sarim jail and telegrab 2nd map piece for Dragon Slayer\nLocation: Port Sarim",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "npc": 820,
       "world": [
         3015,
@@ -615,10 +656,14 @@
       "id": "frp-043",
       "title": "Buy and repair the ship (dragon …",
       "text": "Buy and repair the ship (dragon slayer)\nLocation: Port Sarim",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        3029,
-        3221,
+        3190,
+        3360,
         0
       ]
     },
@@ -660,7 +705,11 @@
       "id": "frp-047",
       "title": "Get the 3rd map piece for …",
       "text": "Get the 3rd map piece for dragon slayer\nLocation: Ice Mountain",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
         3011,
         3501,
@@ -682,8 +731,11 @@
       "id": "frp-049",
       "title": "Get Ned as your captain for …",
       "text": "Get Ned as your captain for dragon slayer\nLocation: Draynor",
-      "manual": true,
-      "npc": 6649,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
         3098,
         3257,
@@ -734,10 +786,14 @@
       "id": "frp-052a",
       "title": "Finish dragon slayer",
       "text": "Finish dragon slayer\nLocation: Edgeville",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DRAGON_SLAYER_I",
+        "state": "FINISHED"
+      },
       "world": [
-        3094,
-        3493,
+        3190,
+        3360,
         0
       ]
     },
@@ -981,13 +1037,23 @@
       "title": "Complete Twilight's Promise quest (requires Children …",
       "text": "Complete Twilight's Promise quest (requires Children of the Sun; ~40 combat r\nLocation: Varlamore",
       "complete": {
-        "op": "quest",
-        "quest": "CHILDREN_OF_THE_SUN",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "TWILIGHTS_PROMISE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "CHILDREN_OF_THE_SUN",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        3225,
-        3426,
+        1725,
+        3128,
         0
       ]
     },
@@ -1323,10 +1389,14 @@
       "id": "frp-087",
       "title": "Do Monkey madness, focus the reward …",
       "text": "Do Monkey madness, focus the reward on attack and defense\nLocation: Ape Atoll",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MONKEY_MADNESS_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2750,
-        2750,
+        2465,
+        3496,
         0
       ]
     },
@@ -1368,10 +1438,14 @@
       "id": "frp-090",
       "title": "Do Shades of morton quest",
       "text": "Do Shades of morton quest\nLocation: Mort'ton",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "SHADES_OF_MORTTON",
+        "state": "FINISHED"
+      },
       "world": [
-        3487,
-        3288,
+        3481,
+        3279,
         0
       ]
     },

@@ -47,7 +47,11 @@
       "id": "slayer-points-004",
       "title": "Do Porcine of intrest for 30 …",
       "text": "Do Porcine of intrest for 30 more slayer points and block Black demon and Fire Giant when you get them",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "A_PORCINE_OF_INTEREST",
+        "state": "FINISHED"
+      },
       "world": [
         3086,
         3251,

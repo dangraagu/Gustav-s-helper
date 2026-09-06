@@ -503,7 +503,7 @@
           {
             "op": "itemAcquired",
             "id": 526,
-            "qty": 27
+            "qty": 42
           },
           {
             "op": "item",
@@ -737,12 +737,7 @@
         "op": "quest",
         "quest": "SHADOWS_OF_CUSTODIA",
         "state": "FINISHED"
-      },
-      "world": [
-        1396,
-        3356,
-        0
-      ]
+      }
     },
     {
       "id": "e12-058",

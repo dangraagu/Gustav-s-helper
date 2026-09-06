@@ -91,25 +91,16 @@
       "text": "Make about ~250 Teleport to house (tablet)s. — This Video shows an easy method. — If you don't have Humidify you can make some Bracelets of Clay instead. — Make ~500 tablets if you plan to go for a 500 Task streak rather than 250.",
       "manual": true,
       "world": [
-        2005,
-        4972,
-        3
+        2528,
+        5160,
+        0
       ]
     },
     {
       "id": "slayer-010",
       "title": "Do Slayer Point Boosting for starting …",
       "text": "Do Slayer Point Boosting for starting points. Use Astral Contact to get tasks, and the portals or fairy ring in your house to get to each task. — Complete tasks with Tureal to build streak. — Complete the 10th task bonuses at Mazchna. — Complete the 50ths task bonuses at Konar. — Consider switching back to normal spellbook and using Bones to Peaches if it makes sense for your task. — Do this until your 250th or (Preferably) your 500th task. — You can make your own block lists with your least favorite tasks. — Remember that each master has their own block lists now.",
-      "complete": {
-        "op": "quest",
-        "quest": "CONTACT",
-        "state": "FINISHED"
-      },
-      "world": [
-        3281,
-        2772,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "slayer-011",

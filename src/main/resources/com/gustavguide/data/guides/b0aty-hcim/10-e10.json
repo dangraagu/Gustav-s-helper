@@ -343,7 +343,7 @@
           {
             "op": "itemAcquired",
             "id": 3420,
-            "qty": 15
+            "qty": 25
           },
           {
             "op": "item",
@@ -928,7 +928,7 @@
           {
             "op": "item",
             "id": 1523,
-            "qty": 52,
+            "qty": 27,
             "scope": "ANY"
           }
         ]
@@ -1121,7 +1121,7 @@
           {
             "op": "itemAcquired",
             "id": 3420,
-            "qty": 25
+            "qty": 35
           },
           {
             "op": "item",
@@ -1408,7 +1408,7 @@
           {
             "op": "itemAcquired",
             "id": 3420,
-            "qty": 30
+            "qty": 40
           },
           {
             "op": "item",

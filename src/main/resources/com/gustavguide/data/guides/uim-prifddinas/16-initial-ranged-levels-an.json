@@ -240,13 +240,23 @@
       "title": "Complete Demon Slayer. — You will …",
       "text": "Complete Demon Slayer. — You will have to make a second trip for bones. — Remember you can now fairy ring teleport to the Wizards' Tower (DIS) and if Temple of the Eye is completed, you can also Guardians of the Rift minigame teleport there as well. — Take the Salve Graveyard teleport in your house to get to a fairy ring.",
       "complete": {
-        "op": "quest",
-        "quest": "TEMPLE_OF_THE_EYE",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DEMON_SLAYER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "TEMPLE_OF_THE_EYE",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        3285,
-        3232,
+        3109,
+        3160,
         0
       ]
     },
@@ -320,9 +330,19 @@
       "title": "Complete Recipe for Disaster/Freeing Evil Dave. …",
       "text": "Complete Recipe for Disaster/Freeing Evil Dave. If your cat is not grown, do this when it does grow. — You can complete Ratcatchers for a wily cat, if you would like a higher success rate whilst catching rats.",
       "complete": {
-        "op": "quest",
-        "quest": "RECIPE_FOR_DISASTER",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "RECIPE_FOR_DISASTER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RATCATCHERS",
+            "state": "FINISHED"
+          }
+        ]
       }
     },
     {

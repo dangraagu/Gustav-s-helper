@@ -31,15 +31,25 @@
       "title": "Start X marks the spot, rune …",
       "text": "Start X marks the spot, rune mysteries and restless ghost",
       "complete": {
-        "op": "quest",
-        "quest": "X_MARKS_THE_SPOT",
-        "state": "IN_PROGRESS"
-      },
-      "world": [
-        3228,
-        3242,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "X_MARKS_THE_SPOT",
+            "state": "IN_PROGRESS"
+          },
+          {
+            "op": "quest",
+            "quest": "RUNE_MYSTERIES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_RESTLESS_GHOST",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "early-003b",
@@ -47,8 +57,8 @@
       "text": "trade over eye of newt, burnt meat, onion, all 4 beads and a necklace of passage + some stamina pots",
       "manual": true,
       "world": [
-        3228,
-        3242,
+        3165,
+        3490,
         0
       ]
     },
@@ -57,13 +67,38 @@
       "title": "Do X marks the spot (lamp …",
       "text": "Do X marks the spot (lamp on magic) and visit zeah once, imp catcher, witch's potion, complete rune mysteries and restless ghost",
       "complete": {
-        "op": "quest",
-        "quest": "X_MARKS_THE_SPOT",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "X_MARKS_THE_SPOT",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "IMP_CATCHER",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "WITCHS_POTION",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "RUNE_MYSTERIES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_RESTLESS_GHOST",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
-        3228,
-        3242,
+        1538,
+        3475,
         0
       ]
     },
@@ -158,15 +193,20 @@
       "title": "Druidic ritual (bring the 4 meats …",
       "text": "Druidic ritual (bring the 4 meats and ores for dorics quest)",
       "complete": {
-        "op": "quest",
-        "quest": "DRUIDIC_RITUAL",
-        "state": "FINISHED"
-      },
-      "world": [
-        2925,
-        3486,
-        0
-      ]
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "DRUIDIC_RITUAL",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "DORICS_QUEST",
+            "state": "FINISHED"
+          }
+        ]
+      }
     },
     {
       "id": "early-012",
@@ -187,7 +227,11 @@
       "id": "early-013",
       "title": "Knights sword",
       "text": "Knights sword",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
       "world": [
         2978,
         3341,
@@ -301,7 +345,11 @@
       "id": "early-021",
       "title": "Monks friend",
       "text": "Monks friend",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "FINISHED"
+      },
       "world": [
         2607,
         3211,
@@ -385,10 +433,14 @@
       "id": "early-027",
       "title": "Vampire slayer (count draynor in nmz)",
       "text": "Vampire slayer (count draynor in nmz)",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "FINISHED"
+      },
       "world": [
-        3103,
-        3265,
+        3098,
+        3268,
         0
       ]
     },
@@ -512,12 +564,15 @@
       "id": "early-036",
       "title": "Merlins crystal (5 kudos + 1k …",
       "text": "Merlins crystal (5 kudos + 1k xp lamp from museum on slayer)",
-      "manual": true,
-      "object": 62,
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "FINISHED"
+      },
       "world": [
-        2768,
-        3494,
-        2
+        2763,
+        3513,
+        0
       ]
     },
     {

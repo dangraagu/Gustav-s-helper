@@ -347,9 +347,9 @@
         "state": "FINISHED"
       },
       "world": [
-        2548,
-        3119,
-        0
+        2546,
+        3114,
+        2
       ]
     },
     {
@@ -446,8 +446,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2548,
-        3119,
+        2551,
+        3099,
         0
       ]
     },
@@ -492,12 +492,7 @@
         "op": "quest",
         "quest": "WATCHTOWER",
         "state": "FINISHED"
-      },
-      "world": [
-        2548,
-        3119,
-        0
-      ]
+      }
     },
     {
       "id": "e5-034",
@@ -664,8 +659,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2548,
-        3119,
+        2407,
+        3105,
         0
       ]
     },
@@ -679,8 +674,8 @@
         "state": "FINISHED"
       },
       "world": [
-        2548,
-        3119,
+        2407,
+        3105,
         0
       ]
     },
@@ -847,12 +842,7 @@
         "op": "quest",
         "quest": "THE_HAND_IN_THE_SAND",
         "state": "FINISHED"
-      },
-      "world": [
-        2551,
-        3099,
-        0
-      ]
+      }
     },
     {
       "id": "e5-056",
@@ -1354,7 +1344,7 @@
           {
             "op": "itemAcquired",
             "id": 841,
-            "qty": 1
+            "qty": 2
           },
           {
             "op": "item",
@@ -1741,7 +1731,7 @@
       "complete": {
         "op": "quest",
         "quest": "ROVING_ELVES",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2207,
@@ -2729,11 +2719,14 @@
       "id": "e5-180",
       "title": "Start Desert Treasure until talking to …",
       "text": "Start Desert Treasure until talking to Eblis at the Mirrors",
-      "manual": true,
-      "npc": 688,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "IN_PROGRESS"
+      },
       "world": [
-        3184,
-        2989,
+        3177,
+        3043,
         0
       ]
     },
@@ -2788,7 +2781,11 @@
       "id": "e5-185",
       "title": "Talk to Malak in the Canifis …",
       "text": "Talk to Malak in the Canifis Pub (5,1,3) [Desert Treasure]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "world": [
         3496,
         3475,
@@ -2970,7 +2967,11 @@
       "id": "e5-196",
       "title": "Talk to Ruantun for a Silver …",
       "text": "Talk to Ruantun for a Silver Pot [Desert Treasure]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "world": [
         3113,
         9691,
@@ -2996,7 +2997,11 @@
       "id": "e5-198",
       "title": "Talk to High Priest on Entrana …",
       "text": "Talk to High Priest on Entrana [Desert Treasure]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "npc": 4206,
       "world": [
         3281,
@@ -3035,12 +3040,7 @@
         "op": "quest",
         "quest": "MAKING_HISTORY",
         "state": "FINISHED"
-      },
-      "world": [
-        2436,
-        3346,
-        0
-      ]
+      }
     },
     {
       "id": "e5-202",
@@ -3090,7 +3090,11 @@
       "id": "e5-206",
       "title": "Talk to Rasolo (3) [Desert Treasure]",
       "text": "Talk to Rasolo (3) [Desert Treasure]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "npc": 679,
       "world": [
         2531,
@@ -3151,7 +3155,11 @@
       "id": "e5-210",
       "title": "Talk to Malak [Desert Treasure]",
       "text": "Talk to Malak [Desert Treasure]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "world": [
         3496,
         3475,
@@ -3216,13 +3224,11 @@
       "id": "e5-217",
       "title": "Kill Dessous (Alternate between Pray Melee …",
       "text": "Kill Dessous (Alternate between Pray Melee & Range and you take 0 damage) [Desert Treasure]",
-      "manual": true,
-      "npc": 3459,
-      "world": [
-        3570,
-        3403,
-        0
-      ]
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      }
     },
     {
       "id": "e5-218",
@@ -3245,7 +3251,11 @@
       "id": "e5-220",
       "title": "Talk to Malak [Desert Treasure]",
       "text": "Talk to Malak [Desert Treasure]",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "world": [
         3496,
         3475,
@@ -3372,7 +3382,7 @@
           {
             "op": "item",
             "id": 1523,
-            "qty": 52,
+            "qty": 27,
             "scope": "ANY"
           }
         ]
@@ -3528,10 +3538,14 @@
       "id": "e5-241",
       "title": "Continue Desert Treasure until you have …",
       "text": "Continue Desert Treasure until you have the Ice Diamond",
-      "manual": true,
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
       "world": [
-        2891,
-        3678,
+        3177,
+        3043,
         0
       ]
     },
@@ -3547,8 +3561,8 @@
       "text": "eat/restore accordingly. No real tricks & only hard fight",
       "manual": true,
       "world": [
-        2891,
-        3678,
+        3177,
+        3043,
         0
       ]
     },
@@ -3590,7 +3604,16 @@
       "id": "e5-245",
       "title": "Complete Desert Treasure",
       "text": "Complete Desert Treasure",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3177,
+        3043,
+        0
+      ]
     },
     {
       "id": "e5-246",
@@ -3828,7 +3851,7 @@
           {
             "op": "itemAcquired",
             "id": 1927,
-            "qty": 9
+            "qty": 11
           },
           {
             "op": "item",

@@ -111,8 +111,6 @@
         "level": 70,
         "cmp": ">="
       },
-      "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
         2207,
         3159,
@@ -160,9 +158,24 @@
       "title": "Complete Song of the Elves until …",
       "text": "Complete Song of the Elves until the final boss fight. — Complete the quest one section at a time, don't try to collect all the items at the start. — You should have a cadantine seed from farming. — Get a runite bar from magpie implings. — Use either your dragon scimitar or crystal bow for the combat sections other than the final boss. — Death pile and knock out Mage Arena I and optionally Mage Arena II before prepping for the boss. — It may be possible to complete A Kingdom Divided now for a better off-hand, but it isn't needed.",
       "complete": {
-        "op": "quest",
-        "quest": "A_KINGDOM_DIVIDED",
-        "state": "FINISHED"
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "SONG_OF_THE_ELVES",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "MAGE_ARENA_I",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "A_KINGDOM_DIVIDED",
+            "state": "FINISHED"
+          }
+        ]
       },
       "world": [
         2566,

@@ -43,7 +43,16 @@
       "id": "fairy-ring-004",
       "title": "Fairy tale pt.1",
       "text": "Fairy tale pt.1",
-      "manual": true
+      "complete": {
+        "op": "quest",
+        "quest": "FAIRYTALE_I__GROWING_PAINS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3078,
+        3256,
+        0
+      ]
     },
     {
       "id": "fairy-ring-005",
