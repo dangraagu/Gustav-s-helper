@@ -186,23 +186,13 @@
       "id": "fragment-of-seren-013a",
       "title": "Get your Mage Arena cape out …",
       "text": "Get your Mage Arena cape out of your house",
-      "manual": true,
-      "world": [
-        3106,
-        3915,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "fragment-of-seren-013b",
       "title": "equip it",
       "text": "equip it",
-      "manual": true,
-      "world": [
-        3106,
-        3915,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "fragment-of-seren-014",

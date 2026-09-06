@@ -108,6 +108,13 @@ def apply(report_text, coords_path=None, conditions_path=None):
         return Result(False, "step %s/%s has a 'manual' demotion override; a coordinate cannot be added "
                              "without dropping it - edit manual_conditions.json by hand" % (guide_id, step_id))
     if isinstance(ov, dict):
+        if "world" in ov and ov["world"] is None:
+            # {"world": null} = the coordinate was deliberately removed (POH / quest-instance step
+            # where ANY overworld tile is wrong; a player reporting from inside their POH proposes
+            # an instance tile). Never resurrect the pin from a crowd report.
+            return Result(False, "step %s/%s had its coordinate deliberately removed (world: null); "
+                                 "a reported spot cannot resurrect it - edit manual_conditions.json "
+                                 "by hand if this is truly intended" % (guide_id, step_id))
         ov["world"] = world
     else:
         guide[step_id] = {"world": world}

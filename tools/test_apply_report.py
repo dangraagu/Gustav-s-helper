@@ -109,6 +109,17 @@ r, coords, conds = run_case(
 check("manual demotion protected", not r.applied and "manual" in r.reason)
 check("manual demotion untouched", conds["b0aty-hcim"]["e9-005"] == "manual")
 
+# 5c. a step whose coordinate was deliberately REMOVED ({"world": null} - POH/instance steps where
+# any overworld tile is wrong) refuses a crowd-reported spot: a player reporting from inside their
+# POH proposes an instance tile that must not resurrect the pin.
+r, coords, conds = run_case(
+    report("uim-prifddinas", "UIM Prifddinas", "fragment-of-seren-013a",
+           "Get your Mage Arena cape out of your house", "1934, 5715, plane 0"),
+    {}, {"uim-prifddinas": {"fragment-of-seren-013a": {"world": None}}})
+check("null-world removal protected", not r.applied and "removed" in r.reason)
+check("null-world removal untouched",
+      conds["uim-prifddinas"]["fragment-of-seren-013a"] == {"world": None})
+
 # 6. a report for an unknown guide id is refused rather than guessed at
 r, coords, conds = run_case(
     report("not-a-guide", "Mystery", "x-001", "Do a thing", "3000, 3360, plane 0"),

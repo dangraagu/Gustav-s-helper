@@ -40,8 +40,10 @@ def load_manual_conditions():
 
 
 def apply_override(step, ov):
-    """Replace a built step's completion/highlight from the manual_conditions override. Returns True
-    if it changed the step. World/coord is left untouched (that is manual_coords.json's job)."""
+    """Replace a built step's completion/highlight/coordinate from the manual_conditions override.
+    Returns True if it changed the step. An explicit JSON null for world/npc/npcs/object REMOVES
+    that key — for steps whose only correct coordinate is "none" (Player-Owned House or
+    quest-instance steps, where any overworld tile is wrong)."""
     if ov == "manual":
         for k in ("complete", "note", "item"):
             step.pop(k, None)
@@ -60,21 +62,46 @@ def apply_override(step, ov):
         # Human-grounded coordinate / highlight override (from the NPC-id sweep). Beats the enricher.
         if "world" in ov:
             w = ov["world"]
-            step["world"] = [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0]
+            if w is None:
+                step.pop("world", None)
+            else:
+                step["world"] = [int(w[0]), int(w[1]), int(w[2]) if len(w) > 2 else 0]
             changed = True
         if "npc" in ov:
-            step["npc"] = int(ov["npc"])
-            step.pop("npcs", None)
+            if ov["npc"] is None:
+                step.pop("npc", None)
+            else:
+                step["npc"] = int(ov["npc"])
+                step.pop("npcs", None)
             changed = True
         if "npcs" in ov:
-            step["npcs"] = [int(i) for i in ov["npcs"]]
-            step.pop("npc", None)
+            if ov["npcs"] is None:
+                step.pop("npcs", None)
+            else:
+                step["npcs"] = [int(i) for i in ov["npcs"]]
+                step.pop("npc", None)
             changed = True
         if "object" in ov:
-            step["object"] = int(ov["object"])
+            if ov["object"] is None:
+                step.pop("object", None)
+            else:
+                step["object"] = int(ov["object"])
             changed = True
         return changed
     return False
+
+
+def strip_null_overrides(steps, guide_ov):
+    """Re-enforce explicit-null overrides AFTER the gap-fill passes. fill_location_gaps re-inherits
+    a neighbor's tile into any step missing world — exactly how POH/instance steps got a wrong tile
+    in the first place — so a {"world": null} removal must be applied again once the fills ran."""
+    for s in steps:
+        ov = guide_ov.get(s.get("id"))
+        if not isinstance(ov, dict):
+            continue
+        for k in ("world", "npc", "npcs", "object"):
+            if k in ov and ov[k] is None:
+                s.pop(k, None)
 
 
 def build(raw_path, item_map, quest_map, entities, overrides=None):
@@ -132,6 +159,7 @@ def build(raw_path, item_map, quest_map, entities, overrides=None):
                     anchor = built["world"]  # route continuity: the next step resolves near here
         sg.fill_craft_gaps(steps)
         sg.fill_location_gaps(steps)
+        strip_null_overrides(steps, guide_ov)
         if not steps:
             continue
         total += len(steps)

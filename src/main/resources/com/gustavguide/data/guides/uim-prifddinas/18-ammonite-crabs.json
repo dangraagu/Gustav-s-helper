@@ -113,13 +113,7 @@
       "id": "ammonite-crabs-007",
       "title": "Get a hammer and chisel",
       "text": "Get a hammer and chisel",
-      "manual": true,
-      "object": 7348,
-      "world": [
-        2476,
-        4937,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ammonite-crabs-008a",
@@ -163,23 +157,13 @@
       "id": "ammonite-crabs-009a",
       "title": "Make 4 clockwork in your house. …",
       "text": "Make 4 clockwork in your house. — If you didn't make a crafting bench earlier",
-      "manual": true,
-      "world": [
-        2869,
-        10202,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ammonite-crabs-009b",
       "title": "make one now",
       "text": "make one now",
-      "manual": true,
-      "world": [
-        2869,
-        10202,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "ammonite-crabs-010",
