@@ -33,8 +33,8 @@
     },
     {
       "id": "ava-s-and-fossil-island-001b",
-      "title": "Light the candle",
-      "text": "Light the candle",
+      "title": "Light the candle.",
+      "text": "Light the candle.",
       "manual": true,
       "world": [
         2518,
@@ -44,14 +44,14 @@
     },
     {
       "id": "ava-s-and-fossil-island-002",
-      "title": "Get a pickaxe",
-      "text": "Get a pickaxe",
+      "title": "Get a pickaxe.",
+      "text": "Get a pickaxe.",
       "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-003",
       "title": "If you are out of cakes, …",
-      "text": "If you are out of cakes, grab a few",
+      "text": "If you are out of cakes, grab a few.",
       "complete": {
         "op": "or",
         "of": [
@@ -88,19 +88,19 @@
     {
       "id": "ava-s-and-fossil-island-005",
       "title": "Clean out the random items from …",
-      "text": "Clean out the random items from your inventory",
+      "text": "Clean out the random items from your inventory.",
       "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-006",
-      "title": "Get a spade",
-      "text": "Get a spade",
+      "title": "Get a spade.",
+      "text": "Get a spade.",
       "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-007",
       "title": "Get your ghostspeak amulet back from …",
-      "text": "Get your ghostspeak amulet back from Father Urhney in Lumbridge swamp",
+      "text": "Get your ghostspeak amulet back from Father Urhney in Lumbridge swamp.",
       "manual": true,
       "npc": 923,
       "world": [
@@ -111,8 +111,8 @@
     },
     {
       "id": "ava-s-and-fossil-island-008",
-      "title": "Make a strung sapphire amulet",
-      "text": "Make a strung sapphire amulet",
+      "title": "Make a strung sapphire amulet.",
+      "text": "Make a strung sapphire amulet.",
       "manual": true,
       "world": [
         2710,
@@ -138,13 +138,13 @@
     {
       "id": "ava-s-and-fossil-island-010",
       "title": "Pickpocket H.A.M. Members until you get …",
-      "text": "Pickpocket H.A.M. Members until you get buttons. — Polish them",
+      "text": "Pickpocket H.A.M. Members until you get buttons. — Polish them.",
       "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-011",
       "title": "Buy 4 pots and 4 buckets …",
-      "text": "Buy 4 pots and 4 buckets of slime from a charter ship",
+      "text": "Buy 4 pots and 4 buckets of slime from a charter ship.",
       "complete": {
         "op": "or",
         "of": [
@@ -171,7 +171,7 @@
     {
       "id": "ava-s-and-fossil-island-012",
       "title": "Get a holy symbol — Buy …",
-      "text": "Get a holy symbol — Buy an unstrung symbol in Ardougne at the silver merchant. — Buy a ball of wool and string the symbol — Get it blessed at the Edgeville Monastery",
+      "text": "Get a holy symbol — Buy an unstrung symbol in Ardougne at the silver merchant. — Buy a ball of wool and string the symbol — Get it blessed at the Edgeville Monastery.",
       "complete": {
         "op": "or",
         "of": [
@@ -199,7 +199,7 @@
     {
       "id": "ava-s-and-fossil-island-013",
       "title": "Superheat 5 iron bars from Blast …",
-      "text": "Superheat 5 iron bars from Blast Furnace",
+      "text": "Superheat 5 iron bars from Blast Furnace.",
       "manual": true,
       "world": [
         2930,
@@ -209,14 +209,14 @@
     },
     {
       "id": "ava-s-and-fossil-island-014",
-      "title": "Get a hammer",
-      "text": "Get a hammer",
+      "title": "Get a hammer.",
+      "text": "Get a hammer.",
       "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-015",
       "title": "Get a hard leather by killing …",
-      "text": "Get a hard leather by killing a cow and tanning it in Al Kharid",
+      "text": "Get a hard leather by killing a cow and tanning it in Al Kharid.",
       "manual": true,
       "world": [
         3290,
@@ -227,7 +227,7 @@
     {
       "id": "ava-s-and-fossil-island-016",
       "title": "Buy a mithril axe from the …",
-      "text": "Buy a mithril axe from the Woodcutting Guild, or kill more tree spirits for it",
+      "text": "Buy a mithril axe from the Woodcutting Guild, or kill more tree spirits for it.",
       "complete": {
         "op": "or",
         "of": [
@@ -253,8 +253,8 @@
     },
     {
       "id": "ava-s-and-fossil-island-017",
-      "title": "Complete Ernest the Chicken",
-      "text": "Complete Ernest the Chicken",
+      "title": "Complete Ernest the Chicken.",
+      "text": "Complete Ernest the Chicken.",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",
@@ -269,39 +269,39 @@
     {
       "id": "ava-s-and-fossil-island-018",
       "title": "Complete Animal Magnetism. — Remember the …",
-      "text": "Complete Animal Magnetism. — Remember the Draynor Manor and Fenkenstrain's Castle teleports are in your house. — Kill undead chickens for the bones to get the ecto tokens",
+      "text": "Complete Animal Magnetism. — Remember the Draynor Manor and Fenkenstrain's Castle teleports are in your house. — Kill undead chickens for the bones to get the ecto tokens.",
       "complete": {
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
         "state": "FINISHED"
       },
       "world": [
-        3093,
-        3357,
+        3178,
+        3295,
         0
       ]
     },
     {
       "id": "ava-s-and-fossil-island-019",
       "title": "Drop the amulet of ghostspeak and …",
-      "text": "Drop the amulet of ghostspeak and destroy the axe",
+      "text": "Drop the amulet of ghostspeak and destroy the axe.",
       "manual": true,
       "world": [
-        3093,
-        3357,
+        3178,
+        3295,
         0
       ]
     },
     {
       "id": "ava-s-and-fossil-island-020",
-      "title": "Keep the Ava's Attractor",
-      "text": "Keep the Ava's Attractor",
+      "title": "Keep the Ava's Attractor.",
+      "text": "Keep the Ava's Attractor.",
       "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-021",
       "title": "Obtain: — Hammer (You should have …",
-      "text": "Obtain: — Hammer (You should have 1 already). — Knife. — Chisel. — Any axe (not the blessed one). — 100 feathers (buy them). — Some cakes from Ardougne to be safe",
+      "text": "Obtain: — Hammer (You should have 1 already). — Knife. — Chisel. — Any axe (not the blessed one). — 100 feathers (buy them). — Some cakes from Ardougne to be safe.",
       "complete": {
         "op": "or",
         "of": [
@@ -313,7 +313,7 @@
           {
             "op": "item",
             "id": 314,
-            "qty": 1000,
+            "qty": 1001,
             "scope": "ANY"
           }
         ]
@@ -328,7 +328,7 @@
     {
       "id": "ava-s-and-fossil-island-022",
       "title": "Complete Big Chompy Bird Hunting. (Fairy …",
-      "text": "Complete Big Chompy Bird Hunting. (Fairy ring code AKS.) — Pick up the other items in the area",
+      "text": "Complete Big Chompy Bird Hunting. (Fairy ring code AKS.) — Pick up the other items in the area.",
       "complete": {
         "op": "quest",
         "quest": "BIG_CHOMPY_BIRD_HUNTING",
@@ -343,7 +343,7 @@
     {
       "id": "ava-s-and-fossil-island-023",
       "title": "Complete Shield of Arrav. — The …",
-      "text": "Complete Shield of Arrav. — The \"osrs soa\" clan chat is a great place to find a partner, otherwise create an alternate account to help you complete this quest",
+      "text": "Complete Shield of Arrav. — The \"osrs soa\" clan chat is a great place to find a partner, otherwise create an alternate account to help you complete this quest.",
       "complete": {
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
@@ -368,7 +368,7 @@
     {
       "id": "ava-s-and-fossil-island-025",
       "title": "Clean finds in the Varrock Museum …",
-      "text": "Clean finds in the Varrock Museum until you get all 50 Kudos",
+      "text": "Clean finds in the Varrock Museum until you get all 50 Kudos.",
       "manual": true,
       "npc": 5214,
       "world": [
@@ -379,29 +379,29 @@
     },
     {
       "id": "ava-s-and-fossil-island-026",
-      "title": "Kill chaos druids for a marrentil",
-      "text": "Kill chaos druids for a marrentil",
+      "title": "Kill chaos druids for a marrentil.",
+      "text": "Kill chaos druids for a marrentil.",
       "manual": true
     },
     {
       "id": "ava-s-and-fossil-island-027",
       "title": "Buy 2 vodka from Heckel Funch …",
-      "text": "Buy 2 vodka from Heckel Funch in the Grand Tree",
+      "text": "Buy 2 vodka from Heckel Funch in the Grand Tree.",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
         "state": "FINISHED"
       },
       "world": [
-        2466,
-        3495,
+        3216,
+        3416,
         0
       ]
     },
     {
       "id": "ava-s-and-fossil-island-028",
-      "title": "Complete Bone Voyage",
-      "text": "Complete Bone Voyage",
+      "title": "Complete Bone Voyage.",
+      "text": "Complete Bone Voyage.",
       "complete": {
         "op": "quest",
         "quest": "BONE_VOYAGE",

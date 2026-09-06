@@ -6,7 +6,7 @@
     {
       "id": "farming-and-more-constru-001",
       "title": "Remember that you now have useful …",
-      "text": "Remember that you now have useful teleports in your house. Especially the Arceuss ones to Morytania",
+      "text": "Remember that you now have useful teleports in your house. Especially the Arceuss ones to Morytania.",
       "manual": true,
       "world": [
         3493,
@@ -16,8 +16,8 @@
     },
     {
       "id": "farming-and-more-constru-002",
-      "title": "Complete Nature Spirit",
-      "text": "Complete Nature Spirit",
+      "title": "Complete Nature Spirit.",
+      "text": "Complete Nature Spirit.",
       "complete": {
         "op": "quest",
         "quest": "NATURE_SPIRIT",
@@ -32,7 +32,7 @@
     {
       "id": "farming-and-more-constru-003",
       "title": "Complete Lost City. — You will …",
-      "text": "Complete Lost City. — You will need to visit Entrana. — You will need a teleport out, but the home teleport works fine",
+      "text": "Complete Lost City. — You will need to visit Entrana. — You will need a teleport out, but the home teleport works fine.",
       "complete": {
         "op": "quest",
         "quest": "LOST_CITY",
@@ -59,7 +59,7 @@
     {
       "id": "farming-and-more-constru-005",
       "title": "Partially complete Fairytale II until you …",
-      "text": "Partially complete Fairytale II until you can use fairy rings. — Your salve graveyard teleport will get you to a fairy ring very quickly",
+      "text": "Partially complete Fairytale II until you can use fairy rings. — Your salve graveyard teleport will get you to a fairy ring very quickly.",
       "manual": true,
       "world": [
         3078,
@@ -70,7 +70,7 @@
     {
       "id": "farming-and-more-constru-006",
       "title": "Complete Garden of Death. — Remember …",
-      "text": "Complete Garden of Death. — Remember your house is near the minecart, which is pretty useful in this quest",
+      "text": "Complete Garden of Death. — Remember your house is near the minecart, which is pretty useful in this quest.",
       "complete": {
         "op": "quest",
         "quest": "THE_GARDEN_OF_DEATH",
@@ -121,7 +121,7 @@
     {
       "id": "farming-and-more-constru-008",
       "title": "Train at Tithe Farm until level …",
-      "text": "Train at Tithe Farm until level 65 Farming",
+      "text": "Train at Tithe Farm until level 65 Farming.",
       "manual": true
     },
     {
@@ -138,7 +138,7 @@
     {
       "id": "farming-and-more-constru-010",
       "title": "Clean up your inventory as it …",
-      "text": "Clean up your inventory as it is time to loot Wintertodt. — Make a games necklace and ring of dueling to help put items in your looting bag as you go",
+      "text": "Clean up your inventory as it is time to loot Wintertodt. — Make a games necklace and ring of dueling to help put items in your looting bag as you go.",
       "manual": true,
       "world": [
         1630,
@@ -187,8 +187,8 @@
     },
     {
       "id": "farming-and-more-constru-013b",
-      "title": "Drop the staff of air",
-      "text": "Drop the staff of air",
+      "title": "Drop the staff of air.",
+      "text": "Drop the staff of air.",
       "manual": true,
       "world": [
         1630,
@@ -199,7 +199,7 @@
     {
       "id": "farming-and-more-constru-014",
       "title": "(Optional) If you have extra Anima-infused …",
-      "text": "(Optional) If you have extra Anima-infused bark from earlier you can buy some Sawmill vouchers to save a bit of gp",
+      "text": "(Optional) If you have extra Anima-infused bark from earlier you can buy some Sawmill vouchers to save a bit of gp.",
       "manual": true,
       "npc": 3101,
       "world": [
@@ -211,7 +211,7 @@
     {
       "id": "farming-and-more-constru-015",
       "title": "Configure your Rune Pouch to have …",
-      "text": "Configure your Rune Pouch to have Air, Earth, and Law runes in it",
+      "text": "Configure your Rune Pouch to have Air, Earth, and Law runes in it.",
       "manual": true
     },
     {
@@ -266,8 +266,8 @@
     },
     {
       "id": "farming-and-more-constru-018b",
-      "title": "sell them at the Rogues' Den",
-      "text": "sell them at the Rogues' Den",
+      "title": "sell them at the Rogues' Den.",
+      "text": "sell them at the Rogues' Den.",
       "manual": true,
       "object": 7257,
       "world": [
@@ -290,7 +290,7 @@
     {
       "id": "farming-and-more-constru-019b",
       "title": "turn them in to the Museum …",
-      "text": "turn them in to the Museum Curator",
+      "text": "turn them in to the Museum Curator.",
       "manual": true,
       "npc": 5214,
       "world": [
@@ -307,8 +307,8 @@
     },
     {
       "id": "farming-and-more-constru-020b",
-      "title": "Drop the potions",
-      "text": "Drop the potions",
+      "title": "Drop the potions.",
+      "text": "Drop the potions.",
       "manual": true,
       "world": [
         3258,
@@ -319,7 +319,7 @@
     {
       "id": "farming-and-more-constru-021",
       "title": "Train to level 50 Crafting by …",
-      "text": "Train to level 50 Crafting by blowing glass in Port Phasmatys. — Method Link",
+      "text": "Train to level 50 Crafting by blowing glass in Port Phasmatys. — Method Link.",
       "manual": true,
       "npc": 3005,
       "world": [
@@ -358,7 +358,7 @@
     {
       "id": "farming-and-more-constru-023",
       "title": "Purchase another Banana hat to improve …",
-      "text": "Purchase another Banana hat to improve your fashion",
+      "text": "Purchase another Banana hat to improve your fashion.",
       "complete": {
         "op": "or",
         "of": [
@@ -408,7 +408,7 @@
     {
       "id": "farming-and-more-constru-025",
       "title": "Make some Teak shelves 2 so …",
-      "text": "Make some Teak shelves 2 so you can create tea with a +3 boost",
+      "text": "Make some Teak shelves 2 so you can create tea with a +3 boost.",
       "manual": true,
       "world": [
         3302,
@@ -419,7 +419,7 @@
     {
       "id": "farming-and-more-constru-026",
       "title": "Make an Achievement gallery and then …",
-      "text": "Make an Achievement gallery and then basic jewlery box in your house",
+      "text": "Make an Achievement gallery and then basic jewlery box in your house.",
       "manual": true,
       "world": [
         3302,
@@ -430,7 +430,7 @@
     {
       "id": "farming-and-more-constru-027",
       "title": "Create a Portal nexus and then …",
-      "text": "Create a Portal nexus and then a Mounted digsite pendant. — Rubies can be bought at various gem stalls, but one in Aldarin has a cut and uncut in stock",
+      "text": "Create a Portal nexus and then a Mounted digsite pendant. — Rubies can be bought at various gem stalls, but one in Aldarin has a cut and uncut in stock.",
       "manual": true,
       "world": [
         1391,
@@ -441,13 +441,13 @@
     {
       "id": "farming-and-more-constru-028",
       "title": "(Optional) Make a Restoration pool, which …",
-      "text": "(Optional) Make a Restoration pool, which will be useful later and can be upgraded in the future",
+      "text": "(Optional) Make a Restoration pool, which will be useful later and can be upgraded in the future.",
       "manual": true
     },
     {
       "id": "farming-and-more-constru-029",
       "title": "(Optional) Build a bedroom and Servant's …",
-      "text": "(Optional) Build a bedroom and Servant's money bag to store up to 3m gp in your house",
+      "text": "(Optional) Build a bedroom and Servant's money bag to store up to 3m gp in your house.",
       "manual": true
     },
     {

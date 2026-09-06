@@ -6,7 +6,7 @@
     {
       "id": "abg-001",
       "title": "Get autoweed perk from Tithe farm …",
-      "text": "Get autoweed perk from Tithe farm (if 54 farming), herb sack IMO isn't even w\nLocation: Hosidius",
+      "text": "Get autoweed perk from Tithe farm (if 54 farming), herb sack IMO isn't even w...\nLocation: Hosidius",
       "manual": true,
       "world": [
         1762,
@@ -17,7 +17,7 @@
     {
       "id": "abg-002",
       "title": "Start doing farming contracts as soon …",
-      "text": "Start doing farming contracts as soon as you can do medium contracts, very im\nLocation: Farming Guild",
+      "text": "Start doing farming contracts as soon as you can do medium contracts, very im...\nLocation: Farming Guild",
       "manual": true,
       "world": [
         1249,
@@ -28,13 +28,8 @@
     {
       "id": "abg-003",
       "title": "If you ever need something AFK …",
-      "text": "If you ever need something AFK to do, just go to ammonite crabs with either b\nLocation: Various",
-      "manual": true,
-      "world": [
-        3800,
-        3752,
-        0
-      ]
+      "text": "If you ever need something AFK to do, just go to ammonite crabs with either b...\nLocation: Various",
+      "manual": true
     },
     {
       "id": "abg-004",
@@ -162,7 +157,7 @@
     {
       "id": "abg-012",
       "title": "Strength amulet is as good as …",
-      "text": "Strength amulet is as good as a glory ammy for melee slayer (sometimes even b\nLocation: Various",
+      "text": "Strength amulet is as good as a glory ammy for melee slayer (sometimes even b...\nLocation: Various",
       "manual": true
     },
     {
@@ -192,13 +187,13 @@
     {
       "id": "abg-015",
       "title": "Prioritize STR training during slayer, I …",
-      "text": "Prioritize STR training during slayer, I like to go for 65/80/65 melee stats\nLocation: Various",
+      "text": "Prioritize STR training during slayer, I like to go for 65/80/65 melee stats ...\nLocation: Various",
       "manual": true
     },
     {
       "id": "abg-016",
       "title": "If you completed Defender of Varrock …",
-      "text": "If you completed Defender of Varrock in section 1.5 and have 65 Attack, the Z\nLocation: Various",
+      "text": "If you completed Defender of Varrock in section 1.5 and have 65 Attack, the Z...\nLocation: Various",
       "complete": {
         "op": "quest",
         "quest": "DEFENDER_OF_VARROCK",
@@ -242,13 +237,13 @@
     {
       "id": "abg-018",
       "title": "I recommend doing hard clues, they're …",
-      "text": "I recommend doing hard clues, they're good gp/h at this point of the account\nLocation: Various",
+      "text": "I recommend doing hard clues, they're good gp/h at this point of the account....\nLocation: Various",
       "manual": true
     },
     {
       "id": "abg-019",
       "title": "Prioritize slayer points on: Superior slayer …",
-      "text": "Prioritize slayer points on: Superior slayer > Blocklist > Extend your favori\nLocation: Various",
+      "text": "Prioritize slayer points on: Superior slayer > Blocklist > Extend your favori...\nLocation: Various",
       "manual": true
     },
     {
@@ -265,7 +260,7 @@
     {
       "id": "abg-021",
       "title": "If you have around 65/80/65 melee …",
-      "text": "If you have around 65/80/65 melee stats now, do Making friends with my arm qu\nLocation: Weiss",
+      "text": "If you have around 65/80/65 melee stats now, do Making friends with my arm qu...\nLocation: Weiss",
       "manual": true,
       "npc": 742,
       "world": [
@@ -295,7 +290,7 @@
     {
       "id": "abg-022b",
       "title": "make few agility pots to use …",
-      "text": "make few agility pots to use the sho\nLocation: Rellekka",
+      "text": "make few agility pots to use the sho...\nLocation: Rellekka",
       "manual": true,
       "world": [
         2658,
@@ -348,7 +343,7 @@
     {
       "id": "abg-027",
       "title": "Get 77 herblore, you should have …",
-      "text": "Get 77 herblore, you should have it banked by now if you've been farming, if\nLocation: Various",
+      "text": "Get 77 herblore, you should have it banked by now if you've been farming, if ...\nLocation: Various",
       "complete": {
         "op": "skill",
         "skill": "HERBLORE",
@@ -372,20 +367,9 @@
       "wiki": "https://oldschool.runescape.wiki/w/Agility_training"
     },
     {
-      "id": "abg-029a",
-      "title": "Cut",
-      "text": "Cut\nLocation: Fossil Island",
-      "manual": true,
-      "world": [
-        3730,
-        3807,
-        0
-      ]
-    },
-    {
-      "id": "abg-029b",
-      "title": "bank 2.2k teak logs at fossil …",
-      "text": "bank 2.2k teak logs at fossil island, from the farming patch teaks\nLocation: Fossil Island",
+      "id": "abg-029",
+      "title": "Cut and bank 2.2k teak logs …",
+      "text": "Cut and bank 2.2k teak logs at fossil island, from the farming patch teaks\nLocation: Fossil Island",
       "manual": true,
       "world": [
         3730,
@@ -540,7 +524,7 @@
     {
       "id": "abg-040",
       "title": "Start using kingdom again now that …",
-      "text": "Start using kingdom again now that you'll be getting constant GP easily, put\nLocation: Miscellania",
+      "text": "Start using kingdom again now that you'll be getting constant GP easily, put ...\nLocation: Miscellania",
       "manual": true,
       "world": [
         2560,
@@ -557,7 +541,7 @@
     {
       "id": "abg-042",
       "title": "Moons of Peril: Farm Blue Moon …",
-      "text": "Moons of Peril: Farm Blue Moon boss first for its magic-oriented hybrid armou\nLocation: Varlamore",
+      "text": "Moons of Peril: Farm Blue Moon boss first for its magic-oriented hybrid armou...\nLocation: Varlamore",
       "manual": true,
       "world": [
         1725,
@@ -568,7 +552,7 @@
     {
       "id": "abg-043",
       "title": "Farm Royal Titans for Twinflame Staff, …",
-      "text": "Farm Royal Titans for Twinflame Staff, Deadeye and Mystic Vigour prayer scrol\nLocation: Royal Titans",
+      "text": "Farm Royal Titans for Twinflame Staff, Deadeye and Mystic Vigour prayer scrol...\nLocation: Royal Titans",
       "manual": true,
       "world": [
         3008,
@@ -579,7 +563,7 @@
     {
       "id": "abg-044",
       "title": "By far the best thing to …",
-      "text": "By far the best thing to do next is to camp Corrupted Gauntlet until 2 enhanc\nLocation: Prifddinas",
+      "text": "By far the best thing to do next is to camp Corrupted Gauntlet until 2 enhanc...\nLocation: Prifddinas",
       "manual": true,
       "world": [
         3263,
@@ -645,7 +629,7 @@
     {
       "id": "abg-050",
       "title": "Complete While Guthix Sleeps quest (requires …",
-      "text": "Complete While Guthix Sleeps quest (requires many prerequisites including Def\nLocation: Various",
+      "text": "Complete While Guthix Sleeps quest (requires many prerequisites including Def...\nLocation: Various",
       "complete": {
         "op": "quest",
         "quest": "WHILE_GUTHIX_SLEEPS",
@@ -782,7 +766,7 @@
     {
       "id": "abg-061",
       "title": "Begin Yama farming for Oathplate armour …",
-      "text": "Begin Yama farming for Oathplate armour (duo recommended, Surge potions are a\nLocation: Yama",
+      "text": "Begin Yama farming for Oathplate armour (duo recommended, Surge potions are a...\nLocation: Yama",
       "manual": true,
       "world": [
         1435,
@@ -793,7 +777,7 @@
     {
       "id": "abg-062",
       "title": "Farm Doom of Mokhaiotl delves for …",
-      "text": "Farm Doom of Mokhaiotl delves for Eye of Ayak and Avernic Treads (requires Th\nLocation: Doom of Mokhaiotl",
+      "text": "Farm Doom of Mokhaiotl delves for Eye of Ayak and Avernic Treads (requires Th...\nLocation: Doom of Mokhaiotl",
       "manual": true,
       "world": [
         1309,

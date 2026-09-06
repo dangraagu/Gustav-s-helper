@@ -11,8 +11,8 @@
     },
     {
       "id": "draynor-village-001b",
-      "title": "drop the emerald and the ring",
-      "text": "drop the emerald and the ring",
+      "title": "drop the emerald and the ring.",
+      "text": "drop the emerald and the ring.",
       "manual": true
     },
     {
@@ -50,7 +50,7 @@
     {
       "id": "draynor-village-004",
       "title": "Talk to Ned to make a …",
-      "text": "Talk to Ned to make a wig. — Buy: File:Rope.png Rope from Ned",
+      "text": "Talk to Ned to make a wig. — Buy: File:Rope.png Rope from Ned.",
       "complete": {
         "op": "or",
         "of": [
@@ -77,7 +77,7 @@
     {
       "id": "draynor-village-005",
       "title": "Use your onions, redberries, and woad …",
-      "text": "Use your onions, redberries, and woad leaves on Aggie to make 4 dyes",
+      "text": "Use your onions, redberries, and woad leaves on Aggie to make 4 dyes.",
       "manual": true,
       "npc": 4284,
       "world": [
@@ -89,7 +89,7 @@
     {
       "id": "draynor-village-006",
       "title": "Use your yellow and red dyes …",
-      "text": "Use your yellow and red dyes on each other to make File:Orange_dye.png orange dye",
+      "text": "Use your yellow and red dyes on each other to make File:Orange_dye.png orange dye.",
       "manual": true,
       "world": [
         3086,
@@ -100,7 +100,7 @@
     {
       "id": "draynor-village-007",
       "title": "Talk to Aggie to make File:Paste.png …",
-      "text": "Talk to Aggie to make File:Paste.png skin paste",
+      "text": "Talk to Aggie to make File:Paste.png skin paste.",
       "manual": true,
       "npc": 4284,
       "world": [
@@ -111,14 +111,14 @@
     },
     {
       "id": "draynor-village-008",
-      "title": "Dye the File:Wig_(dyed).png wig yellow",
-      "text": "Dye the File:Wig_(dyed).png wig yellow",
+      "title": "Dye the File:Wig_(dyed).png wig yellow.",
+      "text": "Dye the File:Wig_(dyed).png wig yellow.",
       "manual": true
     },
     {
       "id": "draynor-village-009",
-      "title": "Talk to Leela",
-      "text": "Talk to Leela",
+      "title": "Talk to Leela.",
+      "text": "Talk to Leela.",
       "manual": true,
       "npc": 4274,
       "world": [
@@ -130,7 +130,7 @@
     {
       "id": "draynor-village-010",
       "title": "Use a File:Beer.png Beer on Joe …",
-      "text": "Use a File:Beer.png Beer on Joe in Draynor Jail",
+      "text": "Use a File:Beer.png Beer on Joe in Draynor Jail.",
       "manual": true,
       "world": [
         3103,
@@ -141,7 +141,7 @@
     {
       "id": "draynor-village-011",
       "title": "Use the File:Rope.png Rope on Lady …",
-      "text": "Use the File:Rope.png Rope on Lady Keli",
+      "text": "Use the File:Rope.png Rope on Lady Keli.",
       "manual": true,
       "npc": 11578,
       "world": [
@@ -152,8 +152,8 @@
     },
     {
       "id": "draynor-village-012",
-      "title": "Talk to Prince Ali",
-      "text": "Talk to Prince Ali",
+      "title": "Talk to Prince Ali.",
+      "text": "Talk to Prince Ali.",
       "manual": true,
       "npc": 11579,
       "world": [
@@ -191,8 +191,8 @@
     },
     {
       "id": "draynor-village-014",
-      "title": "Go to the Wizards' Tower's",
-      "text": "Go to the Wizards' Tower's",
+      "title": "Go to the Wizards' Tower's .",
+      "text": "Go to the Wizards' Tower's .",
       "world": [
         3109,
         3160,
@@ -209,7 +209,7 @@
     {
       "id": "draynor-village-015",
       "title": "Talk to Traiborn about the DS …",
-      "text": "Talk to Traiborn about the DS key",
+      "text": "Talk to Traiborn about the DS key.",
       "manual": true,
       "npc": 5081,
       "world": [
@@ -232,8 +232,8 @@
     },
     {
       "id": "draynor-village-016b",
-      "title": "get the key",
-      "text": "get the key",
+      "title": "get the key.",
+      "text": "get the key.",
       "manual": true,
       "world": [
         3114,
@@ -243,8 +243,8 @@
     },
     {
       "id": "draynor-village-017",
-      "title": "File:Skull_(status)_icon.png Die to a Wizard",
-      "text": "File:Skull_(status)_icon.png Die to a Wizard",
+      "title": "File:Skull_(status)_icon.png Die to a Wizard.",
+      "text": "File:Skull_(status)_icon.png Die to a Wizard.",
       "manual": true
     }
   ]

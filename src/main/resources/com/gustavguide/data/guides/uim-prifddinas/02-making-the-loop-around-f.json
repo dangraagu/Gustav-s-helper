@@ -6,7 +6,7 @@
     {
       "id": "making-the-loop-around-f-001",
       "title": "Head west and then south to …",
-      "text": "Head west and then south to the Wizards' Tower",
+      "text": "Head west and then south to the Wizards' Tower.",
       "world": [
         3109,
         3160,
@@ -48,12 +48,12 @@
     },
     {
       "id": "making-the-loop-around-f-002c",
-      "title": "get the research package",
-      "text": "get the research package",
+      "title": "get the research package.",
+      "text": "get the research package.",
       "npc": 11434,
       "world": [
-        3109,
-        3160,
+        3253,
+        3401,
         0
       ],
       "complete": {
@@ -102,20 +102,14 @@
     },
     {
       "id": "making-the-loop-around-f-003c",
-      "title": "Run from the skeleton",
-      "text": "Run from the skeleton",
+      "title": "Run from the skeleton.",
+      "text": "Run from the skeleton.",
+      "manual": true,
       "world": [
         3104,
         3160,
         0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3104,
-        "y": 3160,
-        "z": 0,
-        "radius": 8
-      }
+      ]
     },
     {
       "id": "making-the-loop-around-f-004a",
@@ -131,15 +125,15 @@
     {
       "id": "making-the-loop-around-f-004b",
       "title": "dig for the third clue in …",
-      "text": "dig for the third clue in Draynor Village to continue X Marks the Spot",
+      "text": "dig for the third clue in Draynor Village to continue X Marks the Spot.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
       },
       "world": [
-        3108,
-        3262,
+        3228,
+        3242,
         0
       ]
     },
@@ -157,7 +151,7 @@
     {
       "id": "making-the-loop-around-f-005b",
       "title": "speak to Morgan to start Vampyre …",
-      "text": "speak to Morgan to start Vampyre Slayer. Do not worry about the garlic for now",
+      "text": "speak to Morgan to start Vampyre Slayer. Do not worry about the garlic for now.",
       "complete": {
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
@@ -190,44 +184,42 @@
     {
       "id": "making-the-loop-around-f-006b",
       "title": "dig the fourth clue for X …",
-      "text": "dig the fourth clue for X Marks the Spot",
+      "text": "dig the fourth clue for X Marks the Spot.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
       },
       "world": [
-        3078,
-        3259,
+        3228,
+        3242,
         0
       ]
     },
     {
       "id": "making-the-loop-around-f-007",
       "title": "Continue west then south to Port …",
-      "text": "Continue west then south to Port Sarim, speak with Veos to complete X Marks the Spot",
+      "text": "Continue west then south to Port Sarim, speak with Veos to complete X Marks the Spot.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
         "state": "FINISHED"
       },
+      "npc": 10727,
       "world": [
-        3048,
-        3231,
+        1824,
+        3690,
         0
-      ],
-      "npcs": [
-        10727
       ]
     },
     {
       "id": "making-the-loop-around-f-008",
       "title": "Drop the spade and the clue. …",
-      "text": "Drop the spade and the clue. Save the antique lamp for later",
+      "text": "Drop the spade and the clue. Save the antique lamp for later.",
       "manual": true,
       "world": [
-        3048,
-        3231,
+        1824,
+        3690,
         0
       ]
     },
@@ -245,7 +237,7 @@
     {
       "id": "making-the-loop-around-f-009b",
       "title": "buy an eye of newt from …",
-      "text": "buy an eye of newt from Betty's Magic Emporium",
+      "text": "buy an eye of newt from Betty's Magic Emporium.",
       "complete": {
         "op": "or",
         "of": [
@@ -284,7 +276,7 @@
     {
       "id": "making-the-loop-around-f-010b",
       "title": "buy a raw sardine from Gerrant's …",
-      "text": "buy a raw sardine from Gerrant's Fishy Business",
+      "text": "buy a raw sardine from Gerrant's Fishy Business.",
       "complete": {
         "op": "or",
         "of": [
@@ -350,7 +342,7 @@
     {
       "id": "making-the-loop-around-f-012b",
       "title": "pick 3 onions from the patch …",
-      "text": "pick 3 onions from the patch north of Rimmington",
+      "text": "pick 3 onions from the patch north of Rimmington.",
       "manual": true,
       "world": [
         2956,
@@ -387,8 +379,8 @@
     },
     {
       "id": "making-the-loop-around-f-014c",
-      "title": "buy 2 woad leaves",
-      "text": "buy 2 woad leaves",
+      "title": "buy 2 woad leaves.",
+      "text": "buy 2 woad leaves.",
       "complete": {
         "op": "or",
         "of": [
@@ -415,7 +407,7 @@
     {
       "id": "making-the-loop-around-f-015at",
       "title": "Go to Falador Castle, speak with …",
-      "text": "Go to Falador Castle, speak with the Squire to begin The Knight's Sword",
+      "text": "Go to Falador Castle, speak with the Squire to begin The Knight's Sword.",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
@@ -431,13 +423,13 @@
     {
       "id": "making-the-loop-around-f-016",
       "title": "Minigame teleport to Soul Wars. Exit …",
-      "text": "Minigame teleport to Soul Wars. Exit the portal",
+      "text": "Minigame teleport to Soul Wars. Exit the portal.",
       "manual": true
     },
     {
       "id": "making-the-loop-around-f-017",
-      "title": "Walk south to Barbarian Village",
-      "text": "Walk south to Barbarian Village",
+      "title": "Walk south to Barbarian Village.",
+      "text": "Walk south to Barbarian Village.",
       "world": [
         3080,
         3427,
@@ -481,7 +473,7 @@
     {
       "id": "making-the-loop-around-f-019at",
       "title": "Head east, speak to Gertrude to …",
-      "text": "Head east, speak to Gertrude to start Gertrude's Cat",
+      "text": "Head east, speak to Gertrude to start Gertrude's Cat.",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -508,8 +500,8 @@
     },
     {
       "id": "making-the-loop-around-f-020b",
-      "title": "use it on your raw sardine",
-      "text": "use it on your raw sardine",
+      "title": "use it on your raw sardine.",
+      "text": "use it on your raw sardine.",
       "manual": true,
       "world": [
         3151,
@@ -564,8 +556,8 @@
     },
     {
       "id": "making-the-loop-around-f-021c",
-      "title": "equip it",
-      "text": "equip it",
+      "title": "equip it.",
+      "text": "equip it.",
       "manual": true,
       "world": [
         3210,
@@ -588,7 +580,7 @@
     {
       "id": "making-the-loop-around-f-022b",
       "title": "Pay him for information to continue …",
-      "text": "Pay him for information to continue Gertrude's Cat",
+      "text": "Pay him for information to continue Gertrude's Cat.",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -603,7 +595,7 @@
     {
       "id": "making-the-loop-around-f-023at",
       "title": "Head north-east, speak with Marlo near …",
-      "text": "Head north-east, speak with Marlo near the Estate Agent to start Daddy's Home",
+      "text": "Head north-east, speak with Marlo near the Estate Agent to start Daddy's Home.",
       "complete": {
         "op": "quest",
         "quest": "DADDYS_HOME",
@@ -641,8 +633,8 @@
     },
     {
       "id": "making-the-loop-around-f-025b",
-      "title": "complete the Natural history quiz",
-      "text": "complete the Natural history quiz",
+      "title": "complete the Natural history quiz.",
+      "text": "complete the Natural history quiz.",
       "manual": true,
       "world": [
         3241,
@@ -653,7 +645,7 @@
     {
       "id": "making-the-loop-around-f-026",
       "title": "Buy a hammer from Varrock General …",
-      "text": "Buy a hammer from Varrock General Store",
+      "text": "Buy a hammer from Varrock General Store.",
       "complete": {
         "op": "or",
         "of": [
@@ -712,7 +704,7 @@
     {
       "id": "making-the-loop-around-f-027c",
       "title": "Make sure you get the stake …",
-      "text": "Make sure you get the stake from Dr Harlow",
+      "text": "Make sure you get the stake from Dr Harlow.",
       "manual": true,
       "npc": 3480,
       "world": [
@@ -724,7 +716,7 @@
     {
       "id": "making-the-loop-around-f-028",
       "title": "Head to Old Man Yarlo in …",
-      "text": "Head to Old Man Yarlo in the house east of the Blue Moon Inn",
+      "text": "Head to Old Man Yarlo in the house east of the Blue Moon Inn.",
       "manual": true,
       "npc": 10425,
       "world": [
@@ -736,7 +728,7 @@
     {
       "id": "making-the-loop-around-f-029",
       "title": "Speak with Old Man Yarlo, then …",
-      "text": "Speak with Old Man Yarlo, then remove his old furniture",
+      "text": "Speak with Old Man Yarlo, then remove his old furniture.",
       "manual": true,
       "npc": 10425,
       "world": [
@@ -753,8 +745,8 @@
     },
     {
       "id": "making-the-loop-around-f-030b",
-      "title": "go through the cutscene",
-      "text": "go through the cutscene",
+      "title": "go through the cutscene.",
+      "text": "go through the cutscene.",
       "manual": true,
       "world": [
         3240,
@@ -765,7 +757,7 @@
     {
       "id": "making-the-loop-around-f-031",
       "title": "After the cutscene search the crates …",
-      "text": "After the cutscene search the crates for 3 waxwood logs",
+      "text": "After the cutscene search the crates for 3 waxwood logs.",
       "manual": true,
       "object": 40214,
       "world": [
@@ -777,7 +769,7 @@
     {
       "id": "making-the-loop-around-f-032",
       "title": "Head north-east out of Varrock to …",
-      "text": "Head north-east out of Varrock to the Sawmill",
+      "text": "Head north-east out of Varrock to the Sawmill.",
       "manual": true,
       "npc": 3101,
       "world": [
@@ -800,8 +792,8 @@
     },
     {
       "id": "making-the-loop-around-f-033b",
-      "title": "get 3 waxwood planks",
-      "text": "get 3 waxwood planks",
+      "title": "get 3 waxwood planks.",
+      "text": "get 3 waxwood planks.",
       "manual": true,
       "world": [
         3302,
@@ -812,7 +804,7 @@
     {
       "id": "making-the-loop-around-f-034",
       "title": "Buy 5 bolt of cloth and …",
-      "text": "Buy 5 bolt of cloth and 100 steel nails from the sawmill operator. — You will likely need to hop worlds for the nails",
+      "text": "Buy 5 bolt of cloth and 100 steel nails from the sawmill operator. — You will likely need to hop worlds for the nails.",
       "complete": {
         "op": "or",
         "of": [
@@ -840,7 +832,7 @@
     {
       "id": "making-the-loop-around-f-035",
       "title": "Complete the lumberyard section of Gertrude's …",
-      "text": "Complete the lumberyard section of Gertrude's Cat",
+      "text": "Complete the lumberyard section of Gertrude's Cat.",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -854,8 +846,8 @@
     },
     {
       "id": "making-the-loop-around-f-036",
-      "title": "Drop the empty bucket",
-      "text": "Drop the empty bucket",
+      "title": "Drop the empty bucket.",
+      "text": "Drop the empty bucket.",
       "manual": true,
       "world": [
         3148,
@@ -866,7 +858,7 @@
     {
       "id": "making-the-loop-around-f-037",
       "title": "Head back into varrock to Old …",
-      "text": "Head back into varrock to Old Man Yarlo's house",
+      "text": "Head back into varrock to Old Man Yarlo's house.",
       "manual": true,
       "npc": 10425,
       "world": [
@@ -877,8 +869,8 @@
     },
     {
       "id": "making-the-loop-around-f-038",
-      "title": "Build his carpet and bed",
-      "text": "Build his carpet and bed",
+      "title": "Build his carpet and bed.",
+      "text": "Build his carpet and bed.",
       "manual": true
     },
     {
@@ -896,28 +888,28 @@
     {
       "id": "making-the-loop-around-f-039b",
       "title": "give the research package to Aubury …",
-      "text": "give the research package to Aubury to continue Rune Mysteries. — Make sure to speak with him twice to get the notes",
+      "text": "give the research package to Aubury to continue Rune Mysteries. — Make sure to speak with him twice to get the notes.",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
         "state": "FINISHED"
       },
       "world": [
-        3253,
-        3402,
+        3205,
+        3208,
         0
       ]
     },
     {
       "id": "making-the-loop-around-f-040",
-      "title": "Head back north-east to the Lumberyard",
-      "text": "Head back north-east to the Lumberyard",
+      "title": "Head back north-east to the Lumberyard.",
+      "text": "Head back north-east to the Lumberyard.",
       "manual": true
     },
     {
       "id": "making-the-loop-around-f-041",
       "title": "Pick up 10 logs from the …",
-      "text": "Pick up 10 logs from the spawns",
+      "text": "Pick up 10 logs from the spawns.",
       "complete": {
         "op": "or",
         "of": [
@@ -936,8 +928,8 @@
       },
       "item": 1511,
       "world": [
-        3302,
-        3492,
+        3205,
+        3208,
         0
       ]
     },
@@ -955,8 +947,8 @@
     },
     {
       "id": "making-the-loop-around-f-042b",
-      "title": "make 10 planks",
-      "text": "make 10 planks",
+      "title": "make 10 planks.",
+      "text": "make 10 planks.",
       "manual": true,
       "world": [
         3302,
@@ -967,7 +959,7 @@
     {
       "id": "making-the-loop-around-f-043",
       "title": "Head back into varrock to Old …",
-      "text": "Head back into varrock to Old Man Yarlo's house",
+      "text": "Head back into varrock to Old Man Yarlo's house.",
       "manual": true,
       "npc": 10425,
       "world": [
@@ -978,14 +970,14 @@
     },
     {
       "id": "making-the-loop-around-f-044",
-      "title": "Build the rest of his furniture",
-      "text": "Build the rest of his furniture",
+      "title": "Build the rest of his furniture.",
+      "text": "Build the rest of his furniture.",
       "manual": true
     },
     {
       "id": "making-the-loop-around-f-045",
-      "title": "Speak with Old Man Yarlo",
-      "text": "Speak with Old Man Yarlo",
+      "title": "Speak with Old Man Yarlo.",
+      "text": "Speak with Old Man Yarlo.",
       "manual": true,
       "npc": 10425,
       "world": [
@@ -1008,8 +1000,8 @@
     },
     {
       "id": "making-the-loop-around-f-046b",
-      "title": "complete Daddy's home",
-      "text": "complete Daddy's home",
+      "title": "complete Daddy's home.",
+      "text": "complete Daddy's home.",
       "complete": {
         "op": "quest",
         "quest": "DADDYS_HOME",
@@ -1023,8 +1015,8 @@
     },
     {
       "id": "making-the-loop-around-f-047",
-      "title": "Drop the Construction Guide",
-      "text": "Drop the Construction Guide",
+      "title": "Drop the Construction Guide.",
+      "text": "Drop the Construction Guide.",
       "manual": true,
       "world": [
         3241,
@@ -1035,7 +1027,7 @@
     {
       "id": "making-the-loop-around-f-048at",
       "title": "Head west into castle, speak with …",
-      "text": "Head west into castle, speak with Reldo and continue The Knight's Sword",
+      "text": "Head west into castle, speak with Reldo and continue The Knight's Sword.",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
@@ -1051,7 +1043,7 @@
     {
       "id": "making-the-loop-around-f-049",
       "title": "Pick up a pie dish from …",
-      "text": "Pick up a pie dish from the kitchen to the east",
+      "text": "Pick up a pie dish from the kitchen to the east.",
       "complete": {
         "op": "or",
         "of": [
@@ -1077,8 +1069,8 @@
     },
     {
       "id": "making-the-loop-around-f-050",
-      "title": "Head south to the general store",
-      "text": "Head south to the general store",
+      "title": "Head south to the general store.",
+      "text": "Head south to the general store.",
       "world": [
         3216,
         3416,
@@ -1094,8 +1086,8 @@
     },
     {
       "id": "making-the-loop-around-f-051",
-      "title": "Open Marlo's Crate",
-      "text": "Open Marlo's Crate",
+      "title": "Open Marlo's Crate.",
+      "text": "Open Marlo's Crate.",
       "manual": true,
       "npc": 10408,
       "world": [
@@ -1118,7 +1110,7 @@
     {
       "id": "making-the-loop-around-f-053",
       "title": "Hop worlds, sell the remaining 4 …",
-      "text": "Hop worlds, sell the remaining 4 bolts of cloth and 5 oak planks",
+      "text": "Hop worlds, sell the remaining 4 bolts of cloth and 5 oak planks.",
       "manual": true,
       "world": [
         3207,
@@ -1141,7 +1133,7 @@
     {
       "id": "making-the-loop-around-f-054b",
       "title": "buy — 300 mind runes — …",
-      "text": "buy — 300 mind runes — 600 air runes — 100 water runes — 200 earth runes",
+      "text": "buy — 300 mind runes — 600 air runes — 100 water runes — 200 earth runes.",
       "complete": {
         "op": "or",
         "of": [
@@ -1180,7 +1172,7 @@
     {
       "id": "making-the-loop-around-f-055b",
       "title": "complete Gertrude's Cat. — Keep the …",
-      "text": "complete Gertrude's Cat. — Keep the food, but not the kitten",
+      "text": "complete Gertrude's Cat. — Keep the food, but not the kitten.",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",

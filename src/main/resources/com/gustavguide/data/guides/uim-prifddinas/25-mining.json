@@ -6,7 +6,7 @@
     {
       "id": "mining-001",
       "title": "If you would like, you can …",
-      "text": "If you would like, you can get 72 Mining, complete Making Friends with My Arm for an extra patch and teleports",
+      "text": "If you would like, you can get 72 Mining, complete Making Friends with My Arm for an extra patch and teleports.",
       "complete": {
         "op": "skill",
         "skill": "MINING",

@@ -62,8 +62,8 @@
     },
     {
       "id": "construction-002",
-      "title": "Do Mahogany homes until 50 Construction",
-      "text": "Do Mahogany homes until 50 Construction",
+      "title": "Do Mahogany homes until 50 Construction.",
+      "text": "Do Mahogany homes until 50 Construction.",
       "complete": {
         "op": "skill",
         "skill": "CONSTRUCTION",
@@ -88,15 +88,15 @@
     {
       "id": "construction-003b",
       "title": "get a knife and a bucket …",
-      "text": "get a knife and a bucket from the Recipe for Disaster chest",
+      "text": "get a knife and a bucket from the Recipe for Disaster chest.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
       },
       "world": [
-        3209,
-        3216,
+        3227,
+        3257,
         0
       ]
     },
@@ -120,7 +120,7 @@
     {
       "id": "construction-004b",
       "title": "Use your knife on an evergreen …",
-      "text": "Use your knife on an evergreen tree to the east",
+      "text": "Use your knife on an evergreen tree to the east.",
       "manual": true,
       "world": [
         2758,
@@ -130,14 +130,14 @@
     },
     {
       "id": "construction-005",
-      "title": "Chop an oak log",
-      "text": "Chop an oak log",
+      "title": "Chop an oak log.",
+      "text": "Chop an oak log.",
       "manual": true
     },
     {
       "id": "construction-006",
       "title": "Chop a maple log by Seers …",
-      "text": "Chop a maple log by Seers bank",
+      "text": "Chop a maple log by Seers bank.",
       "manual": true,
       "world": [
         2725,
@@ -148,12 +148,12 @@
     {
       "id": "construction-007",
       "title": "Get pestle and mortar from the …",
-      "text": "Get pestle and mortar from the herblore shop in Taverley",
+      "text": "Get pestle and mortar from the herblore shop in Taverley.",
       "manual": true,
       "object": 16680,
       "world": [
-        2898,
-        3428,
+        2884,
+        3397,
         0
       ]
     },
@@ -177,7 +177,7 @@
     {
       "id": "construction-008b",
       "title": "buy a mud rune with your …",
-      "text": "buy a mud rune with your extra points",
+      "text": "buy a mud rune with your extra points.",
       "complete": {
         "op": "or",
         "of": [
@@ -219,7 +219,7 @@
     {
       "id": "construction-009b",
       "title": "complete The Eyes of Glouphrie. Nightmare …",
-      "text": "complete The Eyes of Glouphrie. Nightmare zone teleport to Hazelmere",
+      "text": "complete The Eyes of Glouphrie. Nightmare zone teleport to Hazelmere.",
       "complete": {
         "op": "quest",
         "quest": "THE_EYES_OF_GLOUPHRIE",
@@ -244,8 +244,8 @@
     },
     {
       "id": "construction-010b",
-      "title": "drop your other saw",
-      "text": "drop your other saw",
+      "title": "drop your other saw.",
+      "text": "drop your other saw.",
       "manual": true,
       "world": [
         2404,

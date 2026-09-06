@@ -6,7 +6,7 @@
     {
       "id": "sg-001",
       "title": "Thieve master farmers for a couple …",
-      "text": "Thieve master farmers for a couple of hours just to get some low level seeds\nLocation: Draynor",
+      "text": "Thieve master farmers for a couple of hours just to get some low level seeds ...\nLocation: Draynor",
       "manual": true,
       "world": [
         3103,
@@ -56,13 +56,13 @@
     {
       "id": "sg-004",
       "title": "Put 15 pineapples into each of …",
-      "text": "Put 15 pineapples into each of the compost bins at the allotment patches, rem\nLocation: Various",
+      "text": "Put 15 pineapples into each of the compost bins at the allotment patches, rem...\nLocation: Various",
       "manual": true
     },
     {
       "id": "sg-005",
       "title": "Buy ~200 chocolate from the grand …",
-      "text": "Buy ~200 chocolate from the grand tree food shop, don't buy too much since it\nLocation: Gnome Stronghold",
+      "text": "Buy ~200 chocolate from the grand tree food shop, don't buy too much since it...\nLocation: Gnome Stronghold",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -77,7 +77,7 @@
     {
       "id": "sg-006",
       "title": "Make energy pots, should have some …",
-      "text": "Make energy pots, should have some harralanders from kingdom if it's been ove\nLocation: Various",
+      "text": "Make energy pots, should have some harralanders from kingdom if it's been ove...\nLocation: Various",
       "manual": true,
       "world": [
         2466,
@@ -110,8 +110,8 @@
     },
     {
       "id": "sg-008b",
-      "title": "pay the farmer 3 nor",
-      "text": "pay the farmer 3 nor\nLocation: Seers Village",
+      "title": "pay the farmer 3 nor...",
+      "text": "pay the farmer 3 nor...\nLocation: Seers Village",
       "manual": true,
       "world": [
         2710,
@@ -148,7 +148,7 @@
     {
       "id": "sg-011",
       "title": "These next 2 quests have times …",
-      "text": "These next 2 quests have times where you have to wait for stuff to happen, sm\nLocation: Keldagrim",
+      "text": "These next 2 quests have times where you have to wait for stuff to happen, sm...\nLocation: Keldagrim",
       "manual": true,
       "world": [
         2728,
@@ -257,7 +257,7 @@
     {
       "id": "sg-018b",
       "title": "get like 2k so you don't …",
-      "text": "get like 2k so you don't have to constant\nLocation: Fossil Island",
+      "text": "get like 2k so you don't have to constant...\nLocation: Fossil Island",
       "manual": true,
       "world": [
         3730,
@@ -315,7 +315,7 @@
     {
       "id": "sg-022",
       "title": "Construction method: Make 10+ dueling rings, …",
-      "text": "Construction method: Make 10+ dueling rings, equip whichever axe you got from\nLocation: Various",
+      "text": "Construction method: Make 10+ dueling rings, equip whichever axe you got from...\nLocation: Various",
       "manual": true,
       "world": [
         2834,
@@ -347,12 +347,12 @@
     },
     {
       "id": "sg-023c",
-      "title": "deposit them to the log storage",
-      "text": "deposit them to the log storage\nLocation: Castle Wars",
+      "title": "deposit them to the log storage …",
+      "text": "deposit them to the log storage ...\nLocation: Castle Wars",
       "manual": true,
       "world": [
-        2458,
-        3110,
+        2407,
+        3105,
         0
       ]
     },
@@ -369,8 +369,8 @@
     },
     {
       "id": "sg-024b",
-      "title": "turn them into planks",
-      "text": "turn them into planks\nLocation: Varrock",
+      "title": "turn them into planks ...",
+      "text": "turn them into planks ...\nLocation: Varrock",
       "manual": true,
       "world": [
         3210,
@@ -427,25 +427,25 @@
     {
       "id": "sg-028",
       "title": "Start doing daily tree runs from …",
-      "text": "Start doing daily tree runs from now on with the seeds you get from birdhouse\nLocation: Various",
+      "text": "Start doing daily tree runs from now on with the seeds you get from birdhouse...\nLocation: Various",
       "manual": true
     },
     {
       "id": "sg-029",
       "title": "Do these quests while fletching iron …",
-      "text": "Do these quests while fletching iron darts: Big chompy bird hunt, Rag and bon\nLocation: Various",
+      "text": "Do these quests while fletching iron darts: Big chompy bird hunt, Rag and bon...\nLocation: Various",
       "manual": true
     },
     {
       "id": "sg-030",
       "title": "I'll assume you have fletched all …",
-      "text": "I'll assume you have fletched all of them now, if you haven't, finish the\nLocation: Various",
+      "text": "I'll assume you have fletched all of them now, if you haven't, finish the...\nLocation: Various",
       "manual": true
     },
     {
       "id": "sg-031",
       "title": "Go to the small island at …",
-      "text": "Go to the small island at fossil island with the bank, where you dive to seaw\nLocation: Fossil Island",
+      "text": "Go to the small island at fossil island with the bank, where you dive to seaw...\nLocation: Fossil Island",
       "world": [
         3730,
         3807,
@@ -513,7 +513,7 @@
     {
       "id": "sg-036",
       "title": "If u have any molten glass …",
-      "text": "If u have any molten glass left, blow all of it into unpowered orbs, make 2 l\nLocation: Fossil Island",
+      "text": "If u have any molten glass left, blow all of it into unpowered orbs, make 2 l...\nLocation: Fossil Island",
       "manual": true,
       "world": [
         3730,
@@ -595,11 +595,11 @@
     {
       "id": "sg-041",
       "title": "Craft the gold bars into gold …",
-      "text": "Craft the gold bars into gold BRACELETS, leave like 30 bars for teleport jewe\nLocation: Edgeville",
+      "text": "Craft the gold bars into gold BRACELETS, leave like 30 bars for teleport jewe...\nLocation: Edgeville",
       "manual": true,
       "world": [
-        3108,
-        3499,
+        3094,
+        3493,
         0
       ]
     },
@@ -653,7 +653,7 @@
     {
       "id": "sg-045",
       "title": "Consider the Colossal Wyrm Agility Course …",
-      "text": "Consider the Colossal Wyrm Agility Course as an AFK-ish alternative (requires\nLocation: Varlamore",
+      "text": "Consider the Colossal Wyrm Agility Course as an AFK-ish alternative (requires...\nLocation: Varlamore",
       "manual": true,
       "world": [
         1725,
@@ -664,7 +664,7 @@
     {
       "id": "sg-046",
       "title": "If you want a break from …",
-      "text": "If you want a break from agility, fish 3k raw karambwans. Banking at Zanaris\nLocation: Karamja",
+      "text": "If you want a break from agility, fish 3k raw karambwans. Banking at Zanaris ...\nLocation: Karamja",
       "manual": true,
       "object": 2406,
       "world": [
@@ -682,7 +682,7 @@
     {
       "id": "sg-048",
       "title": "Kingdom reminder! If u haven't already, …",
-      "text": "Kingdom reminder! If u haven't already, take out all gp from the coffers afte\nLocation: Miscellania",
+      "text": "Kingdom reminder! If u haven't already, take out all gp from the coffers afte...\nLocation: Miscellania",
       "manual": true,
       "world": [
         2560,

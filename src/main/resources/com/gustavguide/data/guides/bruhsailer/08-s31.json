@@ -34,7 +34,7 @@
     {
       "id": "s31-002",
       "title": "Optional but recommended: go to the …",
-      "text": "Optional but recommended: go to the Mage Training Arena, collect the Mage’s book and the infinity boots",
+      "text": "Optional but recommended: go to the Mage Training Arena, collect the Mage’s book and the infinity boots.",
       "world": [
         3364,
         3312,
@@ -58,9 +58,9 @@
       "item": 6889
     },
     {
-      "id": "s31-003",
+      "id": "s31-003a",
       "title": "Using your mahogany logs from Miscellania, …",
-      "text": "Using your mahogany logs from Miscellania, train construction to level 75 (do not go higher for now and keep 20 mahogany planks for sailing). Build the following in your POH, boosting when necessary:",
+      "text": "Using your mahogany logs from Miscellania, train construction to level 75 (do not go higher for now and keep 20 mahogany planks for sailing).",
       "manual": true,
       "world": [
         2560,
@@ -69,17 +69,79 @@
       ]
     },
     {
-      "id": "s31-004",
+      "id": "s31-003b",
+      "title": "Build the following in your POH, …",
+      "text": "Build the following in your POH, boosting when necessary:",
+      "manual": true,
+      "world": [
+        2560,
+        3870,
+        0
+      ]
+    },
+    {
+      "id": "s31-004a",
       "title": "Now that you have daeyalt mining …",
-      "text": "Now that you have daeyalt mining https://streamable.com/it7kry unlocked, mine 28k daeyalt essence (you can also just afk mine this). Make 275 binding necklaces, 175 rings of dueling, a fire tiara, buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to 425,000 xp (level 64, midway to level 65). After this, start and complete The Final Dawn, putting the xp on prayer. The Arkan blade is now your default special attack weapon when meleeing. It is stronger than the dragon dagger. The Arkan blade is also sometimes better (typically against stab weak enemies) than the Dragon scimitar as a mainhand weapon.",
+      "text": "Now that you have daeyalt mining https://streamable.com/it7kry unlocked, mine 28k daeyalt essence (you can also just afk mine this).",
+      "manual": true,
+      "npc": 3690,
+      "world": [
+        2389,
+        4624,
+        2
+      ]
+    },
+    {
+      "id": "s31-004b",
+      "title": "Make 275 binding necklaces, 175 rings …",
+      "text": "Make 275 binding necklaces, 175 rings of dueling, a fire tiara",
+      "manual": true,
+      "object": 21915,
+      "world": [
+        2651,
+        3213,
+        0
+      ]
+    },
+    {
+      "id": "s31-004c",
+      "title": "buy 28k earth runes (if needed). …",
+      "text": "buy 28k earth runes (if needed). Swap to the Lunar spellbook. Using magic imbue, your binding necklaces and hallowed crystal shards (teleports) for banking, lava runecraft to 425,000 xp (level 64, midway to level 65). After this",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5521,
+            "qty": 28
+          },
+          {
+            "op": "item",
+            "id": 5521,
+            "qty": 28,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 5521,
+      "world": [
+        2656,
+        3152,
+        0
+      ]
+    },
+    {
+      "id": "s31-004d",
+      "title": "start and complete The Final Dawn, …",
+      "text": "start and complete The Final Dawn, putting the xp on prayer. The Arkan blade is now your default special attack weapon when meleeing. It is stronger than the dragon dagger. The Arkan blade is also sometimes better (typically against stab weak enemies) than the Dragon scimitar as a mainhand weapon.",
       "complete": {
         "op": "quest",
         "quest": "THE_FINAL_DAWN",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
-        2620,
-        3895,
+        1681,
+        3168,
         0
       ]
     },
@@ -111,9 +173,9 @@
       ]
     },
     {
-      "id": "s31-006",
+      "id": "s31-006a",
       "title": "Buy 2300 sand (the goal is …",
-      "text": "Buy 2300 sand (the goal is to get to level 70 crafting, each sand is approximately 88.1 xp) from the grinder (buy bucket packs as needed, e.g. at Alice’s farming shop near the ectofuntus). Superglass Make them into glass (18:3 no pickup). Blow all the glass into unpowered orbs doing artefacts, i.e. doing arteglass, to get to level 70 crafting. Do Pyramid Plunder for one (or two, it is recommended to get the second at/after level 91 thieving) sceptre(s) using the sceptre + xp method - all chests, sarcs in level 51+ rooms, urns in the level 81 room optional. Collect gold artefacts along the way - just bank them when your inv fills up, you’ll only need ~200 or so later.",
+      "text": "Buy 2300 sand (the goal is to get to level 70 crafting, each sand is approximately 88.1 xp) from the grinder (buy bucket packs as needed, e.g. at Alice’s farming shop near the ectofuntus). Superglass Make them into glass (18:3 no pickup). Blow all the glass into unpowered orbs doing artefacts, i.e. doing arteglass, to get to level 70 crafting. Do Pyramid Plunder for one (or two, it is recommended to get the second at/after level 91 thieving) sceptre(s) using the sceptre + xp method - all chests, sarcs in level 51+ rooms, urns in the level 81 room optional.",
       "complete": {
         "op": "or",
         "of": [
@@ -139,31 +201,80 @@
       ]
     },
     {
-      "id": "s31-007",
+      "id": "s31-006b",
+      "title": "Collect gold artefacts along the way …",
+      "text": "Collect gold artefacts along the way - just bank them when your inv fills up, you’ll only need ~200 or so later.",
+      "manual": true,
+      "world": [
+        3692,
+        3468,
+        0
+      ]
+    },
+    {
+      "id": "s31-007a",
       "title": "Collect buckets of sand and giant …",
-      "text": "Collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass. Make an amulet of glory. Train slayer to get to 100cb. Your target stats are 78 Attack, 85 Strength, 75(+) Defence and 72(+) prayer, which should probably give you 78(+)Hitpoints and ~75 Slayer around the time you hit 100cb.",
+      "text": "Collect buckets of sand and giant seaweed to train your crafting level to 80 (or 75, boosting after) using SGM and arteglass.",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 1704,
-            "qty": 75
+            "id": 21504,
+            "qty": 1
           },
           {
             "op": "item",
-            "id": 1704,
-            "qty": 75,
+            "id": 21504,
+            "qty": 4,
             "scope": "ANY"
           }
         ]
       },
-      "item": 1704
+      "item": 21504,
+      "world": [
+        3688,
+        3480,
+        0
+      ]
     },
     {
-      "id": "s31-008",
+      "id": "s31-007b",
+      "title": "Make an amulet of glory.",
+      "text": "Make an amulet of glory.",
+      "manual": true,
+      "world": [
+        3688,
+        3480,
+        0
+      ]
+    },
+    {
+      "id": "s31-007c",
+      "title": "Train slayer to get to 100cb. …",
+      "text": "Train slayer to get to 100cb. Your target stats are 78 Attack, 85 Strength, 75(+) Defence and 72(+) prayer, which should probably give you 78(+)Hitpoints and ~75 Slayer around the time you hit 100cb.",
+      "manual": true,
+      "world": [
+        3688,
+        3480,
+        0
+      ]
+    },
+    {
+      "id": "s31-008a",
       "title": "Buy broad arrowhead packs with most …",
-      "text": "Buy broad arrowhead packs with most of your money, leaving 1250k in reserve. Buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower. Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
+      "text": "Buy broad arrowhead packs with most of your money, leaving 1250k in reserve.",
+      "manual": true,
+      "world": [
+        3659,
+        3477,
+        0
+      ]
+    },
+    {
+      "id": "s31-008b",
+      "title": "Buy the broad arrowtip packs at …",
+      "text": "Buy the broad arrowtip packs at any slayer master, if you are opening fast enough the stock will slowly deplete. Hop worlds if the stock ever hits 700 or lower. Do Pest Control, veteran i.e. 100+ cb boat, for enough points for full elite void range (other two helmets optional) while fletching – 1250 points for just ranging, 1650 points for a full set, fletching during the games and only contributing as much as necessary to get points. You can optionally get the other two helmets as well, or ignore them(/consider getting them later).",
       "manual": true,
       "world": [
         2656,
@@ -174,7 +285,7 @@
     {
       "id": "s31-009",
       "title": "Do the Fremennik Exiles, A Night …",
-      "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will, Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys)",
+      "text": "Do the Fremennik Exiles, A Night at the Theatre (lamps on ranging), Hopespear’s Will, Start Monkey Madness II until you have access to Kruk’s Dungeon (with the Maniacal monkeys).",
       "complete": {
         "op": "and",
         "of": [
@@ -208,9 +319,9 @@
       ]
     },
     {
-      "id": "s31-010",
+      "id": "s31-010a",
       "title": "Catch 20k red chinchompas between Tal …",
-      "text": "Catch 20k red chinchompas between Tal Teklan and Kastori TalTeklanChinSpot.png or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Follow this guide for catching chins: OSRS Easy 1t Hunter Guide (In-Depth). If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging, complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way), buy a crystal halberd, return and throw the chins to get to level 92 ranging.",
+      "text": "Catch 20k red chinchompas between Tal Teklan and Kastori TalTeklanChinSpot.png or 16k black chinchompas (for 92 ranged, if you have extras then can consider throwing for more Ranged XP or using them for your first fire cape if you’re good at speed strats) in the wilderness. Follow this guide for catching chins: OSRS Easy 1t Hunter Guide (In-Depth). If you want to catch red chinchompas but the Varlamore spot is too competitive, e.g. with bots, the second best option is catching them northeast of Prifddinas. Throw the chins in the cave to get to 70 ranging",
       "complete": {
         "op": "skill",
         "skill": "RANGED",
@@ -220,8 +331,41 @@
       "note": "Chin (throw chinchompas at) maniacal monkeys in Kruk's Dungeon, Ape Atoll (needs Monkey Madness II ch.II) - fastest Ranged XP.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Ranged_training",
       "world": [
-        3286,
-        6118,
+        3263,
+        6083,
+        0
+      ]
+    },
+    {
+      "id": "s31-010b",
+      "title": "complete the Western Provinces Hard Diary …",
+      "text": "complete the Western Provinces Hard Diary (this involves getting one Zulrah kill), upgrade your void to Elite, (optionally: grab an offtask fire cape at some point along the way)",
+      "manual": true,
+      "world": [
+        3263,
+        6083,
+        0
+      ]
+    },
+    {
+      "id": "s31-010c",
+      "title": "buy a crystal halberd",
+      "text": "buy a crystal halberd",
+      "manual": true,
+      "world": [
+        3302,
+        6052,
+        0
+      ]
+    },
+    {
+      "id": "s31-010d",
+      "title": "return and throw the chins to …",
+      "text": "return and throw the chins to get to level 92 ranging.",
+      "manual": true,
+      "world": [
+        3263,
+        6083,
         0
       ]
     },
@@ -237,24 +381,152 @@
       ]
     },
     {
-      "id": "s31-012",
+      "id": "s31-012a",
       "title": "Make sure you have at least …",
-      "text": "Make sure you have at least 75 mining (if not, do some gem mining first). Take a charter ship to The Great Conch (Summer Shore) start The Red Reef and complete the steps until you are sent to the Red Rock. Charter to Deepfin Point, mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite. Make sure you get at least 15 runite ore along the way. Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails. Teleport to The Great Conch (fairy ring CJQ) and chop and bank up to 505 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 236 vouchers (and 269 logs), saving 2,500 gp each (590k gp total). Make 473 camphor planks. Build the following ship upgrades:",
+      "text": "Make sure you have at least 75 mining (if not, do some gem mining first).",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "s31-012b",
+      "title": "Take a charter ship to The …",
+      "text": "Take a charter ship to The Great Conch (Summer Shore) start The Red Reef",
       "complete": {
         "op": "quest",
         "quest": "THE_RED_REEF",
         "state": "IN_PROGRESS"
       },
       "world": [
-        2782,
-        3094,
+        3186,
+        2405,
         0
       ]
     },
     {
-      "id": "s31-013",
+      "id": "s31-012c",
+      "title": "complete the steps until you are …",
+      "text": "complete the steps until you are sent to the Red Rock. Charter to Deepfin Point",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "s31-012d",
+      "title": "mine 24 nickel ore. Do blast …",
+      "text": "mine 24 nickel ore. Do blast mining (as before) to obtain 551 addy ore - you may have to convert some of the gems into alchs (cut sapphires, emeralds and even rubies are fine, or make ruby and diamond bracelets) for dynamite.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 11092,
+            "qty": 551
+          },
+          {
+            "op": "item",
+            "id": 11092,
+            "qty": 551,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 11092,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "s31-012e",
+      "title": "Make sure you get at least …",
+      "text": "Make sure you get at least 15 runite ore along the way.",
+      "manual": true,
+      "world": [
+        3186,
+        2405,
+        0
+      ]
+    },
+    {
+      "id": "s31-012f",
+      "title": "Smelt all the addy into bars, …",
+      "text": "Smelt all the addy into bars, all the nickel into cupronickel bars, then convert 71 addy bars into 1065 addy nails.",
+      "manual": true,
+      "world": [
+        3228,
+        3436,
+        0
+      ]
+    },
+    {
+      "id": "s31-012g",
+      "title": "Teleport to The Great Conch (fairy …",
+      "text": "Teleport to The Great Conch (fairy ring CJQ)",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "s31-012h",
+      "title": "chop and bank up to 505 …",
+      "text": "chop and bank up to 505 camphor logs. The fastest method is using a log basket and teleporting out to a bank, then using the fairy ring to get back. If you have (or plan to get) sawmill vouchers you can reduce the number of logs needed by 1 for each voucher for up to 236 vouchers (and 269 logs), saving 2,500 gp each (590k gp total).",
+      "manual": true,
+      "npc": 3101,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "s31-012i",
+      "title": "Make 473 camphor planks.",
+      "text": "Make 473 camphor planks.",
+      "manual": true,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "s31-012j",
+      "title": "Build the following ship upgrades:",
+      "text": "Build the following ship upgrades:",
+      "manual": true,
+      "world": [
+        2843,
+        3070,
+        0
+      ]
+    },
+    {
+      "id": "s31-013a",
       "title": "Recruit Cabin Boy Jenkins (and Adventurer …",
-      "text": "Recruit Cabin Boy Jenkins (and Adventurer Ada while you’re at it) so you can get most xp out of multiskilling while charting. Use your skiff to chart the Sunset Ocean and Western Ocean in full, the lower level seas in the Shrouded Ocean along with all Miscellaneous charts in the same areas. Buy 5k mithril cannonballs at Port Roberts. Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop.",
+      "text": "Recruit Cabin Boy Jenkins (and Adventurer Ada while you’re at it) so you can get most xp out of multiskilling while charting. Use your skiff to chart the Sunset Ocean and Western Ocean in full, the lower level seas in the Shrouded Ocean along with all Miscellaneous charts in the same areas.",
+      "manual": true,
+      "npc": 3856,
+      "world": [
+        2225,
+        3789,
+        3
+      ]
+    },
+    {
+      "id": "s31-013b",
+      "title": "Buy 5k mithril cannonballs at Port …",
+      "text": "Buy 5k mithril cannonballs at Port Roberts.",
       "complete": {
         "op": "or",
         "of": [
@@ -272,7 +544,17 @@
         ]
       },
       "item": 31910,
-      "npc": 3856,
+      "world": [
+        2225,
+        3789,
+        3
+      ]
+    },
+    {
+      "id": "s31-013c",
+      "title": "Collect your charting xp bonuses from …",
+      "text": "Collect your charting xp bonuses from Chartin’ Charles McAtless. Optional and recommended, if you care for the rewards below from ship combat: also buy 25 Perildance bitters. Recruit Oarswoman Olga and Jittery Jim (boost to recruit him) and assign them to your sloop.",
+      "manual": true,
       "world": [
         2225,
         3789,
@@ -282,7 +564,7 @@
     {
       "id": "s31-014",
       "title": "Boost to build an adamant helm …",
-      "text": "Boost to build an adamant helm on both your sloop and your skiff, then complete charting the Shrouded Ocean by charting to Deepfin Point and following the following route Shrouded Ocean, part 2.png.",
+      "text": "Boost to build an adamant helm on both your sloop and your skiff, complete charting the Shrouded Ocean by charting to Deepfin Point and following the following route Shrouded Ocean, part 2.png.",
       "manual": true,
       "object": 2097,
       "world": [
@@ -294,7 +576,7 @@
     {
       "id": "s31-015",
       "title": "Go to Guardians of the Rift, …",
-      "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems",
+      "text": "Go to Guardians of the Rift, participate in the minigame with the multiskilling method until you are completely out of uncut gems.",
       "manual": true
     },
     {
@@ -307,12 +589,12 @@
           {
             "op": "itemAcquired",
             "id": 1379,
-            "qty": 70
+            "qty": 71
           },
           {
             "op": "item",
             "id": 1379,
-            "qty": 70,
+            "qty": 71,
             "scope": "ANY"
           }
         ]

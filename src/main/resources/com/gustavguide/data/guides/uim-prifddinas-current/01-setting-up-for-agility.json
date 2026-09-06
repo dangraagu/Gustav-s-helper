@@ -6,19 +6,19 @@
     {
       "id": "setting-up-for-agility-001",
       "title": "(OPTIONAL) If you want to listen …",
-      "text": "(OPTIONAL) If you want to listen to me ramble about the route for an hour listen to this video",
+      "text": "(OPTIONAL) If you want to listen to me ramble about the route for an hour listen to this video.",
       "manual": true
     },
     {
       "id": "setting-up-for-agility-002",
       "title": "Sell all of your starting items …",
-      "text": "Sell all of your starting items to the general store except your Bread and Shrimps",
+      "text": "Sell all of your starting items to the general store except your Bread and Shrimps.",
       "manual": true
     },
     {
       "id": "setting-up-for-agility-003",
       "title": "Speak to Count Check and have …",
-      "text": "Speak to Count Check and have him teleport you to the Stronghold of security",
+      "text": "Speak to Count Check and have him teleport you to the Stronghold of security.",
       "manual": true,
       "npc": 7414,
       "world": [
@@ -30,7 +30,7 @@
     {
       "id": "setting-up-for-agility-004",
       "title": "Pick up some Cooked meat in …",
-      "text": "Pick up some Cooked meat in the longhouse to the north. — Hop worlds for more. 6 should be plenty but you could get more if you are scared",
+      "text": "Pick up some Cooked meat in the longhouse to the north. — Hop worlds for more. 6 should be plenty but you could get more if you are scared.",
       "complete": {
         "op": "or",
         "of": [
@@ -57,7 +57,7 @@
     {
       "id": "setting-up-for-agility-005",
       "title": "Complete the first 3 levels of …",
-      "text": "Complete the first 3 levels of the Stronghold of security to get your free 10k gp",
+      "text": "Complete the first 3 levels of the Stronghold of security to get your free 10k gp.",
       "manual": true,
       "object": 20790,
       "world": [
@@ -68,14 +68,14 @@
     },
     {
       "id": "setting-up-for-agility-006",
-      "title": "Home teleport",
-      "text": "Home teleport",
+      "title": "Home teleport.",
+      "text": "Home teleport.",
       "manual": true
     },
     {
       "id": "setting-up-for-agility-007",
       "title": "Buy a bronze axe and a …",
-      "text": "Buy a bronze axe and a steel axe from Bob",
+      "text": "Buy a bronze axe and a steel axe from Bob.",
       "complete": {
         "op": "or",
         "of": [
@@ -96,8 +96,8 @@
     },
     {
       "id": "setting-up-for-agility-008",
-      "title": "Drop any extra food",
-      "text": "Drop any extra food",
+      "title": "Drop any extra food.",
+      "text": "Drop any extra food.",
       "manual": true,
       "world": [
         3081,
@@ -108,7 +108,7 @@
     {
       "id": "setting-up-for-agility-009",
       "title": "Buy a Spade and an empty …",
-      "text": "Buy a Spade and an empty jug from the general store",
+      "text": "Buy a Spade and an empty jug from the general store.",
       "complete": {
         "op": "or",
         "of": [
@@ -130,7 +130,7 @@
     {
       "id": "setting-up-for-agility-010",
       "title": "Complete X Marks the Spot. — …",
-      "text": "Complete X Marks the Spot. — Fill the jug with water in the kitchen when you pass by. — Do not use the lamp, destroy it to be reclaimed later",
+      "text": "Complete X Marks the Spot. — Fill the jug with water in the kitchen when you pass by. — Do not use the lamp, destroy it to be reclaimed later.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -145,7 +145,7 @@
     {
       "id": "setting-up-for-agility-011",
       "title": "Get level 20 Agility at the …",
-      "text": "Get level 20 Agility at the Draynor Village Rooftop Course",
+      "text": "Get level 20 Agility at the Draynor Village Rooftop Course.",
       "manual": true,
       "world": [
         3103,
@@ -156,7 +156,7 @@
     {
       "id": "setting-up-for-agility-012",
       "title": "Purchase a Chronicle and 20 Teleport …",
-      "text": "Purchase a Chronicle and 20 Teleport cards",
+      "text": "Purchase a Chronicle and 20 Teleport cards.",
       "complete": {
         "op": "or",
         "of": [
@@ -195,7 +195,7 @@
     {
       "id": "setting-up-for-agility-013b",
       "title": "complete Hazeel Cult. — Take the …",
-      "text": "complete Hazeel Cult. — Take the boat in Rimmington to get there. — Make sure to side with Hazeel",
+      "text": "complete Hazeel Cult. — Take the boat in Rimmington to get there. — Make sure to side with Hazeel.",
       "complete": {
         "op": "quest",
         "quest": "HAZEEL_CULT",
@@ -210,7 +210,7 @@
     {
       "id": "setting-up-for-agility-014",
       "title": "Complete Monk's Friend. — Chop some …",
-      "text": "Complete Monk's Friend. — Chop some logs nearby. — Make sure to pop some balloons so you don't curse your accounts RNG",
+      "text": "Complete Monk's Friend. — Chop some logs nearby. — Make sure to pop some balloons so you don't curse your accounts RNG.",
       "complete": {
         "op": "quest",
         "quest": "MONKS_FRIEND",
@@ -225,7 +225,7 @@
     {
       "id": "setting-up-for-agility-015",
       "title": "Head to the general store in …",
-      "text": "Head to the general store in Port Khazard and purchase some Swamp paste and a tinderbox",
+      "text": "Head to the general store in Port Khazard and purchase some Swamp paste and a tinderbox.",
       "complete": {
         "op": "or",
         "of": [
@@ -251,15 +251,9 @@
       ]
     },
     {
-      "id": "setting-up-for-agility-016a",
-      "title": "Chop",
-      "text": "Chop",
-      "manual": true
-    },
-    {
-      "id": "setting-up-for-agility-016b",
-      "title": "burn logs in the area until …",
-      "text": "burn logs in the area until you reach 30 Firemaking",
+      "id": "setting-up-for-agility-016",
+      "title": "Chop and burn logs in the …",
+      "text": "Chop and burn logs in the area until you reach 30 Firemaking.",
       "complete": {
         "op": "skill",
         "skill": "FIREMAKING",
@@ -267,17 +261,12 @@
         "cmp": ">="
       },
       "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
-      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
-      "world": [
-        2615,
-        3143,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training"
     },
     {
       "id": "setting-up-for-agility-017",
-      "title": "Complete Sea slug",
-      "text": "Complete Sea slug",
+      "title": "Complete Sea slug.",
+      "text": "Complete Sea slug.",
       "complete": {
         "op": "quest",
         "quest": "SEA_SLUG",
@@ -292,7 +281,7 @@
     {
       "id": "setting-up-for-agility-018",
       "title": "Drop all of your items except …",
-      "text": "Drop all of your items except your coins",
+      "text": "Drop all of your items except your coins.",
       "manual": true,
       "world": [
         2717,
@@ -303,7 +292,7 @@
     {
       "id": "setting-up-for-agility-019",
       "title": "Get 25 Thieving at cake stalls. …",
-      "text": "Get 25 Thieving at cake stalls. — Complete Tribal Totem when you can",
+      "text": "Get 25 Thieving at cake stalls. — Complete Tribal Totem when you can.",
       "complete": {
         "op": "skill",
         "skill": "THIEVING",
@@ -330,7 +319,7 @@
     {
       "id": "setting-up-for-agility-020b",
       "title": "head over to the Brimhaven Agility …",
-      "text": "head over to the Brimhaven Agility Arena",
+      "text": "head over to the Brimhaven Agility Arena.",
       "manual": true,
       "object": 10805,
       "world": [
@@ -358,8 +347,8 @@
     },
     {
       "id": "setting-up-for-agility-022",
-      "title": "Chronicle teleport to Varrock",
-      "text": "Chronicle teleport to Varrock",
+      "title": "Chronicle teleport to Varrock.",
+      "text": "Chronicle teleport to Varrock.",
       "manual": true,
       "world": [
         3210,
@@ -384,8 +373,8 @@
     },
     {
       "id": "setting-up-for-agility-024",
-      "title": "Complete Children of the Sun",
-      "text": "Complete Children of the Sun",
+      "title": "Complete Children of the Sun.",
+      "text": "Complete Children of the Sun.",
       "complete": {
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
@@ -417,7 +406,7 @@
     {
       "id": "setting-up-for-agility-025b",
       "title": "complete Ethically Acquired Antiquities until you …",
-      "text": "complete Ethically Acquired Antiquities until you are in Port Sarim. — Use the Charter ship to get to Port Sarim",
+      "text": "complete Ethically Acquired Antiquities until you are in Port Sarim. — Use the Charter ship to get to Port Sarim.",
       "complete": {
         "op": "quest",
         "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
@@ -485,8 +474,8 @@
     },
     {
       "id": "setting-up-for-agility-028",
-      "title": "Continue, complete Ethically Acquired Antiquities",
-      "text": "Continue, complete Ethically Acquired Antiquities",
+      "title": "Continue and complete Ethically Acquired Antiquities.",
+      "text": "Continue and complete Ethically Acquired Antiquities.",
       "complete": {
         "op": "quest",
         "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
@@ -500,8 +489,8 @@
     },
     {
       "id": "setting-up-for-agility-029",
-      "title": "Head over to Aldarin in Varlamore",
-      "text": "Head over to Aldarin in Varlamore",
+      "title": "Head over to Aldarin in Varlamore.",
+      "text": "Head over to Aldarin in Varlamore.",
       "world": [
         1391,
         2935,
@@ -518,7 +507,7 @@
     {
       "id": "setting-up-for-agility-030",
       "title": "Complete Death on the Isle. — …",
-      "text": "Complete Death on the Isle. — Do not fight back during the first fight. It will be completed when you are almost dead. — Attacking with the Prop sword does not give xp",
+      "text": "Complete Death on the Isle. — Do not fight back during the first fight. It will be completed when you are almost dead. — Attacking with the Prop sword does not give xp.",
       "complete": {
         "op": "quest",
         "quest": "DEATH_ON_THE_ISLE",
@@ -532,8 +521,8 @@
     },
     {
       "id": "setting-up-for-agility-031",
-      "title": "Minigame teleport to Clan wars",
-      "text": "Minigame teleport to Clan wars",
+      "title": "Minigame teleport to Clan wars.",
+      "text": "Minigame teleport to Clan wars.",
       "manual": true,
       "world": [
         3130,
@@ -544,13 +533,13 @@
     {
       "id": "setting-up-for-agility-032",
       "title": "Store any gp you have in …",
-      "text": "Store any gp you have in the coffer there",
+      "text": "Store any gp you have in the coffer there.",
       "manual": true
     },
     {
       "id": "setting-up-for-agility-033",
-      "title": "Completely empty your inventory after that",
-      "text": "Completely empty your inventory after that",
+      "title": "Completely empty your inventory after that.",
+      "text": "Completely empty your inventory after that.",
       "manual": true
     },
     {
@@ -593,7 +582,7 @@
     {
       "id": "setting-up-for-agility-037",
       "title": "Get you cash stack back out …",
-      "text": "Get you cash stack back out of the coffers at Clan Wars. Don't use your minigame teleport to get there",
+      "text": "Get you cash stack back out of the coffers at Clan Wars. Don't use your minigame teleport to get there.",
       "manual": true,
       "world": [
         3130,
@@ -630,14 +619,14 @@
     },
     {
       "id": "setting-up-for-agility-039",
-      "title": "Once finished, Home Teleport",
-      "text": "Once finished, Home Teleport",
+      "title": "Once finished, Home Teleport.",
+      "text": "Once finished, Home Teleport.",
       "manual": true
     },
     {
       "id": "setting-up-for-agility-040",
       "title": "Speak to Duke Horacio in the …",
-      "text": "Speak to Duke Horacio in the castle to start Rune Mysteries",
+      "text": "Speak to Duke Horacio in the castle to start Rune Mysteries.",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
@@ -668,7 +657,7 @@
     {
       "id": "setting-up-for-agility-041b",
       "title": "complete it until you get the …",
-      "text": "complete it until you get the skull. — Get some Leather Gloves from the spawn by Father Urhney. DO NOT FORGET THIS",
+      "text": "complete it until you get the skull. — Get some Leather Gloves from the spawn by Father Urhney. DO NOT FORGET THIS.",
       "manual": true,
       "npc": 923,
       "world": [
@@ -680,7 +669,7 @@
     {
       "id": "setting-up-for-agility-042",
       "title": "Speak to Archmage Sedridor to continue …",
-      "text": "Speak to Archmage Sedridor to continue Rune Mysteries",
+      "text": "Speak to Archmage Sedridor to continue Rune Mysteries.",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
@@ -712,7 +701,7 @@
     {
       "id": "setting-up-for-agility-043b",
       "title": "buy a Chronicle again. — It …",
-      "text": "buy a Chronicle again. — It should still have some charges, but buy more if you ever run out",
+      "text": "buy a Chronicle again. — It should still have some charges, but buy more if you ever run out.",
       "manual": true,
       "world": [
         3103,
@@ -723,7 +712,7 @@
     {
       "id": "setting-up-for-agility-044",
       "title": "Chronicle Teleport and continue Rune Mysteries …",
-      "text": "Chronicle Teleport and continue Rune Mysteries by speaking to Aubury",
+      "text": "Chronicle Teleport and continue Rune Mysteries by speaking to Aubury.",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
@@ -749,8 +738,8 @@
     },
     {
       "id": "setting-up-for-agility-045b",
-      "title": "complete The Restless Ghost",
-      "text": "complete The Restless Ghost",
+      "title": "complete The Restless Ghost.",
+      "text": "complete The Restless Ghost.",
       "complete": {
         "op": "quest",
         "quest": "THE_RESTLESS_GHOST",
@@ -765,7 +754,7 @@
     {
       "id": "setting-up-for-agility-046",
       "title": "Claim a Training bow and Training …",
-      "text": "Claim a Training bow and Training arrows from the Ranged combat tutor",
+      "text": "Claim a Training bow and Training arrows from the Ranged combat tutor.",
       "manual": true,
       "world": [
         3243,
@@ -775,8 +764,8 @@
     },
     {
       "id": "setting-up-for-agility-047",
-      "title": "Continue, complete Rune Mysteries",
-      "text": "Continue, complete Rune Mysteries",
+      "title": "Continue and complete Rune Mysteries.",
+      "text": "Continue and complete Rune Mysteries.",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
@@ -818,8 +807,8 @@
     },
     {
       "id": "setting-up-for-agility-048b",
-      "title": "head to the H.A.M. Hideout",
-      "text": "head to the H.A.M. Hideout",
+      "title": "head to the H.A.M. Hideout.",
+      "text": "head to the H.A.M. Hideout.",
       "manual": true,
       "world": [
         3166,
@@ -830,7 +819,7 @@
     {
       "id": "setting-up-for-agility-049",
       "title": "Steal from H.A.M. Members until you …",
-      "text": "Steal from H.A.M. Members until you get a Rusty sword and an uncut opal. — There is technically a 1/96 chance your rusty sword won't work, so you could get 2",
+      "text": "Steal from H.A.M. Members until you get a Rusty sword and an uncut opal. — There is technically a 1/96 chance your rusty sword won't work, so you could get 2.",
       "complete": {
         "op": "or",
         "of": [
@@ -852,7 +841,7 @@
     {
       "id": "setting-up-for-agility-050",
       "title": "Reclaim your lamp from X Marks …",
-      "text": "Reclaim your lamp from X Marks the Spot. Save it for now",
+      "text": "Reclaim your lamp from X Marks the Spot. Save it for now.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -894,8 +883,8 @@
     },
     {
       "id": "setting-up-for-agility-052",
-      "title": "Safepot, kill a Giant rat nearby …",
-      "text": "Safepot, kill a Giant rat nearby with Ranged for the meat. — Drop the bow and arrows afterwards",
+      "title": "Safepot and kill a Giant rat …",
+      "text": "Safepot and kill a Giant rat nearby with Ranged for the meat. — Drop the bow and arrows afterwards.",
       "manual": true,
       "world": [
         3200,
@@ -905,8 +894,8 @@
     },
     {
       "id": "setting-up-for-agility-053",
-      "title": "Take the boat to Ardougne",
-      "text": "Take the boat to Ardougne",
+      "title": "Take the boat to Ardougne.",
+      "text": "Take the boat to Ardougne.",
       "manual": true,
       "world": [
         2624,
@@ -917,13 +906,13 @@
     {
       "id": "setting-up-for-agility-054",
       "title": "Head north to safe spot and …",
-      "text": "Head north to safe spot and poison a bear for some raw bear meat",
+      "text": "Head north to safe spot and poison a bear for some raw bear meat.",
       "manual": true
     },
     {
       "id": "setting-up-for-agility-055",
-      "title": "Take the boat back to Rimmington",
-      "text": "Take the boat back to Rimmington",
+      "title": "Take the boat back to Rimmington.",
+      "text": "Take the boat back to Rimmington.",
       "manual": true,
       "world": [
         2956,
@@ -934,7 +923,7 @@
     {
       "id": "setting-up-for-agility-056",
       "title": "Collect some snape grass west of …",
-      "text": "Collect some snape grass west of the Crafting guild for later",
+      "text": "Collect some snape grass west of the Crafting guild for later.",
       "complete": {
         "op": "or",
         "of": [
@@ -960,8 +949,8 @@
     },
     {
       "id": "setting-up-for-agility-057",
-      "title": "Complete Druidic Ritual",
-      "text": "Complete Druidic Ritual",
+      "title": "Complete Druidic Ritual.",
+      "text": "Complete Druidic Ritual.",
       "complete": {
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
@@ -1026,8 +1015,8 @@
     },
     {
       "id": "setting-up-for-agility-061",
-      "title": "Use the Fishing Trawler minigame teleport",
-      "text": "Use the Fishing Trawler minigame teleport",
+      "title": "Use the Fishing Trawler minigame teleport.",
+      "text": "Use the Fishing Trawler minigame teleport.",
       "manual": true,
       "npc": 1770,
       "world": [
@@ -1039,7 +1028,7 @@
     {
       "id": "setting-up-for-agility-062",
       "title": "Head south into Yanille and view …",
-      "text": "Head south into Yanille and view Aleck's Hunter Emporium for the diary step",
+      "text": "Head south into Yanille and view Aleck's Hunter Emporium for the diary step.",
       "manual": true,
       "object": 17047,
       "world": [
@@ -1051,7 +1040,7 @@
     {
       "id": "setting-up-for-agility-063",
       "title": "Return north and have Tindel Marchant …",
-      "text": "Return north and have Tindel Marchant identify your rusty sword for the diary step",
+      "text": "Return north and have Tindel Marchant identify your rusty sword for the diary step.",
       "manual": true,
       "npc": 1358,
       "world": [
@@ -1063,7 +1052,7 @@
     {
       "id": "setting-up-for-agility-064",
       "title": "Head out on a game of …",
-      "text": "Head out on a game of Fishing Trawler for the diary step. — You don't need to finish the game",
+      "text": "Head out on a game of Fishing Trawler for the diary step. — You don't need to finish the game.",
       "manual": true
     },
     {
@@ -1086,7 +1075,7 @@
     {
       "id": "setting-up-for-agility-065b",
       "title": "steal a silk. Hold on to …",
-      "text": "steal a silk. Hold on to it for later",
+      "text": "steal a silk. Hold on to it for later.",
       "complete": {
         "op": "or",
         "of": [
@@ -1113,7 +1102,7 @@
     {
       "id": "setting-up-for-agility-066",
       "title": "Have Wizard Cromperty teleport you to …",
-      "text": "Have Wizard Cromperty teleport you to the Rune essence mine for the diary step",
+      "text": "Have Wizard Cromperty teleport you to the Rune essence mine for the diary step.",
       "manual": true,
       "npc": 8480,
       "world": [
@@ -1125,7 +1114,7 @@
     {
       "id": "setting-up-for-agility-067",
       "title": "Check what pets you have insured …",
-      "text": "Check what pets you have insured with Probita for the diary step",
+      "text": "Check what pets you have insured with Probita for the diary step.",
       "manual": true,
       "npc": 5906,
       "world": [
@@ -1137,7 +1126,7 @@
     {
       "id": "setting-up-for-agility-068",
       "title": "Use some prayer and restore your …",
-      "text": "Use some prayer and restore your prayer points at the Ardougne church for the diary step",
+      "text": "Use some prayer and restore your prayer points at the Ardougne church for the diary step.",
       "manual": true,
       "world": [
         2617,
@@ -1148,7 +1137,7 @@
     {
       "id": "setting-up-for-agility-069",
       "title": "Buy a rope from the general …",
-      "text": "Buy a rope from the general store",
+      "text": "Buy a rope from the general store.",
       "complete": {
         "op": "or",
         "of": [
@@ -1175,7 +1164,7 @@
     {
       "id": "setting-up-for-agility-070",
       "title": "Head to the Gnome Stronghold and …",
-      "text": "Head to the Gnome Stronghold and into the Grand Tree",
+      "text": "Head to the Gnome Stronghold and into the Grand Tree.",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -1217,7 +1206,7 @@
     {
       "id": "setting-up-for-agility-072b",
       "title": "complete Plague City. — There is …",
-      "text": "complete Plague City. — There is a bucket spawn near the start of the quest",
+      "text": "complete Plague City. — There is a bucket spawn near the start of the quest.",
       "complete": {
         "op": "quest",
         "quest": "PLAGUE_CITY",
@@ -1232,7 +1221,7 @@
     {
       "id": "setting-up-for-agility-073",
       "title": "Sell your silk to the Silk …",
-      "text": "Sell your silk to the Silk trader for 60 coins for the diary step",
+      "text": "Sell your silk to the Silk trader for 60 coins for the diary step.",
       "manual": true,
       "world": [
         2614,
@@ -1242,8 +1231,8 @@
     },
     {
       "id": "setting-up-for-agility-074",
-      "title": "Steal some cakes",
-      "text": "Steal some cakes",
+      "title": "Steal some cakes.",
+      "text": "Steal some cakes.",
       "complete": {
         "op": "or",
         "of": [
@@ -1280,7 +1269,7 @@
     {
       "id": "setting-up-for-agility-076",
       "title": "Enter the Combat Training Camp for …",
-      "text": "Enter the Combat Training Camp for the final step of the Ardougne Easy Diary. — Do not collect the rewards at this time",
+      "text": "Enter the Combat Training Camp for the final step of the Ardougne Easy Diary. — Do not collect the rewards at this time.",
       "complete": {
         "op": "diary",
         "area": "ardougne",
@@ -1312,8 +1301,8 @@
     },
     {
       "id": "setting-up-for-agility-077b",
-      "title": "complete Jungle Potion",
-      "text": "complete Jungle Potion",
+      "title": "complete Jungle Potion.",
+      "text": "complete Jungle Potion.",
       "complete": {
         "op": "quest",
         "quest": "JUNGLE_POTION",
@@ -1328,7 +1317,7 @@
     {
       "id": "setting-up-for-agility-078",
       "title": "Purchase the needed items for The …",
-      "text": "Purchase the needed items for The Dig Site in the Karamja General Store, Get the tea during the quest from the tea stall in east Varrock",
+      "text": "Purchase the needed items for The Dig Site in the Karamja General Store, Get the tea during the quest from the tea stall in east Varrock.",
       "complete": {
         "op": "quest",
         "quest": "THE_DIG_SITE",
@@ -1342,8 +1331,8 @@
     },
     {
       "id": "setting-up-for-agility-079",
-      "title": "Complete The Dig Site",
-      "text": "Complete The Dig Site",
+      "title": "Complete The Dig Site.",
+      "text": "Complete The Dig Site.",
       "complete": {
         "op": "quest",
         "quest": "THE_DIG_SITE",
@@ -1383,8 +1372,8 @@
     },
     {
       "id": "setting-up-for-agility-081b",
-      "title": "use them on Hitpoints",
-      "text": "use them on Hitpoints",
+      "title": "use them on Hitpoints.",
+      "text": "use them on Hitpoints.",
       "manual": true,
       "world": [
         3265,
@@ -1432,7 +1421,7 @@
     {
       "id": "setting-up-for-agility-084",
       "title": "Start Dragon Slayer I so you …",
-      "text": "Start Dragon Slayer I so you can get an Anti-dragon shield",
+      "text": "Start Dragon Slayer I so you can get an Anti-dragon shield.",
       "complete": {
         "op": "quest",
         "quest": "DRAGON_SLAYER_I",
@@ -1447,7 +1436,7 @@
     {
       "id": "setting-up-for-agility-085",
       "title": "This is the default tank build …",
-      "text": "This is the default tank build setup with 32 Hitpoints, 40 Prayer and 13 combat. — The next section will discuss some other optional builds you could go for",
+      "text": "This is the default tank build setup with 32 Hitpoints, 40 Prayer and 13 combat. — The next section will discuss some other optional builds you could go for.",
       "manual": true,
       "world": [
         3208,

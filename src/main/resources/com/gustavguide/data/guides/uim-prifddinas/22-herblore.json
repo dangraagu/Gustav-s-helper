@@ -6,24 +6,19 @@
     {
       "id": "herblore-001",
       "title": "Get 65/82/85 Farming at Tithe farm …",
-      "text": "Get 65/82/85 Farming at Tithe farm first",
-      "manual": true,
-      "world": [
-        1800,
-        3502,
-        0
-      ]
+      "text": "Get 65/82/85 Farming at Tithe farm first.",
+      "manual": true
     },
     {
       "id": "herblore-002",
       "title": "Clean out your inventory to just …",
-      "text": "Clean out your inventory to just your rune pouch (air, earth, law), staff of fire, water runes, and coins",
+      "text": "Clean out your inventory to just your rune pouch (air, earth, law), staff of fire, water runes, and coins.",
       "manual": true
     },
     {
       "id": "herblore-003",
       "title": "Get 1020 noted pineapples from Brimhaven. …",
-      "text": "Get 1020 noted pineapples from Brimhaven. — Buy them at charters, note at the farming patch",
+      "text": "Get 1020 noted pineapples from Brimhaven. — Buy them at charters, note at the farming patch.",
       "complete": {
         "op": "or",
         "of": [
@@ -50,13 +45,8 @@
     {
       "id": "herblore-004",
       "title": "Buy a seed box from Tithe …",
-      "text": "Buy a seed box from Tithe Farm",
-      "manual": true,
-      "world": [
-        1800,
-        3501,
-        0
-      ]
+      "text": "Buy a seed box from Tithe Farm.",
+      "manual": true
     },
     {
       "id": "herblore-005a",
@@ -72,7 +62,7 @@
     {
       "id": "herblore-005b",
       "title": "wear it if you don't have …",
-      "text": "wear it if you don't have it. This will be your Hosidius teleport for Farming if you are blackjacking",
+      "text": "wear it if you don't have it. This will be your Hosidius teleport for Farming if you are blackjacking.",
       "manual": true,
       "object": 28823,
       "world": [
@@ -84,13 +74,13 @@
     {
       "id": "herblore-006",
       "title": "Get a rune pickaxe from a …",
-      "text": "Get a rune pickaxe from a shop",
+      "text": "Get a rune pickaxe from a shop.",
       "manual": true
     },
     {
       "id": "herblore-007",
       "title": "Mine 1,700 volcanic ash. Once done …",
-      "text": "Mine 1,700 volcanic ash. Once done you can alch the pickaxe",
+      "text": "Mine 1,700 volcanic ash. Once done you can alch the pickaxe.",
       "manual": true
     },
     {
@@ -102,13 +92,13 @@
     {
       "id": "herblore-009",
       "title": "Put away your graceful, get out …",
-      "text": "Put away your graceful, get out your rogues set",
+      "text": "Put away your graceful, get out your rogues set.",
       "manual": true
     },
     {
       "id": "herblore-010",
       "title": "Move your house to Pollnivneach if …",
-      "text": "Move your house to Pollnivneach if you plan to blackjack, otherwise put it in Hosidius",
+      "text": "Move your house to Pollnivneach if you plan to blackjack, otherwise put it in Hosidius.",
       "manual": true,
       "object": 28823,
       "world": [
@@ -120,7 +110,7 @@
     {
       "id": "herblore-011",
       "title": "Drop your water runes (They won't …",
-      "text": "Drop your water runes (They won't be needed since you have an Ardougne portal in your house)",
+      "text": "Drop your water runes (They won't be needed since you have an Ardougne portal in your house).",
       "manual": true,
       "world": [
         2624,
@@ -131,7 +121,7 @@
     {
       "id": "herblore-012",
       "title": "Go to the Farming Guild. — …",
-      "text": "Go to the Farming Guild. — Battlefront teleport in your house takes you nearby",
+      "text": "Go to the Farming Guild. — Battlefront teleport in your house takes you nearby.",
       "world": [
         1249,
         3737,
@@ -353,7 +343,7 @@
     {
       "id": "herblore-018",
       "title": "Farm limpwurt roots and white berries …",
-      "text": "Farm limpwurt roots and white berries to match your kwuarms and cadantines. Also get 20 extra limpwurt roots for Temple of Ikov",
+      "text": "Farm limpwurt roots and white berries to match your kwuarms and cadantines. Also get 20 extra limpwurt roots for Temple of Ikov.",
       "complete": {
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
@@ -560,18 +550,13 @@
     },
     {
       "id": "herblore-033",
-      "title": "Recipe for Disaster (20,000 experience)",
-      "text": "Recipe for Disaster (20,000 experience)",
+      "title": "Recipe for Disaster (20,000 experience).",
+      "text": "Recipe for Disaster (20,000 experience).",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
         "state": "FINISHED"
-      },
-      "world": [
-        3209,
-        3215,
-        0
-      ]
+      }
     },
     {
       "id": "herblore-034",
@@ -591,7 +576,7 @@
     {
       "id": "herblore-035",
       "title": "Sins of the Father (90,000 experience). …",
-      "text": "Sins of the Father (90,000 experience). This has rather high requirements though",
+      "text": "Sins of the Father (90,000 experience). This has rather high requirements though.",
       "complete": {
         "op": "quest",
         "quest": "SINS_OF_THE_FATHER",

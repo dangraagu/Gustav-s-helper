@@ -6,7 +6,7 @@
     {
       "id": "starting-on-farming-jump-001",
       "title": "Inspect the goblins to start their …",
-      "text": "Inspect the goblins to start their subsection of Recipe for Disaster",
+      "text": "Inspect the goblins to start their subsection of Recipe for Disaster.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -21,7 +21,7 @@
     {
       "id": "starting-on-farming-jump-002",
       "title": "Grab a knife from the Lumbridge …",
-      "text": "Grab a knife from the Lumbridge kitchen",
+      "text": "Grab a knife from the Lumbridge kitchen.",
       "complete": {
         "op": "or",
         "of": [
@@ -59,7 +59,7 @@
     {
       "id": "starting-on-farming-jump-003b",
       "title": "buy a spice from the Culinaromancer's …",
-      "text": "buy a spice from the Culinaromancer's Chest",
+      "text": "buy a spice from the Culinaromancer's Chest.",
       "complete": {
         "op": "or",
         "of": [
@@ -103,8 +103,8 @@
     },
     {
       "id": "starting-on-farming-jump-004b",
-      "title": "head to Catherby",
-      "text": "head to Catherby",
+      "title": "head to Catherby.",
+      "text": "head to Catherby.",
       "manual": true,
       "npc": 1520,
       "world": [
@@ -116,7 +116,7 @@
     {
       "id": "starting-on-farming-jump-005",
       "title": "Buy an orange from the charter …",
-      "text": "Buy an orange from the charter ships",
+      "text": "Buy an orange from the charter ships.",
       "complete": {
         "op": "or",
         "of": [
@@ -176,7 +176,7 @@
     {
       "id": "starting-on-farming-jump-007",
       "title": "Buy fishing bait and a fishing …",
-      "text": "Buy fishing bait and a fishing rod from the fishing shop",
+      "text": "Buy fishing bait and a fishing rod from the fishing shop.",
       "complete": {
         "op": "or",
         "of": [
@@ -203,7 +203,7 @@
     {
       "id": "starting-on-farming-jump-008",
       "title": "Buy a spade from the farming …",
-      "text": "Buy a spade from the farming shop",
+      "text": "Buy a spade from the farming shop.",
       "complete": {
         "op": "or",
         "of": [
@@ -230,7 +230,7 @@
     {
       "id": "starting-on-farming-jump-009",
       "title": "Complete the Fishing Contest quest while …",
-      "text": "Complete the Fishing Contest quest while in the area",
+      "text": "Complete the Fishing Contest quest while in the area.",
       "complete": {
         "op": "quest",
         "quest": "FISHING_CONTEST",
@@ -262,7 +262,7 @@
     {
       "id": "starting-on-farming-jump-010b",
       "title": "pick up the purple dye that …",
-      "text": "pick up the purple dye that spawns south of the castle",
+      "text": "pick up the purple dye that spawns south of the castle.",
       "complete": {
         "op": "or",
         "of": [
@@ -321,7 +321,7 @@
     {
       "id": "starting-on-farming-jump-012",
       "title": "Start the dwarf section of Recipe …",
-      "text": "Start the dwarf section of Recipe for Disaster by inspecting the dwarf",
+      "text": "Start the dwarf section of Recipe for Disaster by inspecting the dwarf.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -331,7 +331,7 @@
     {
       "id": "starting-on-farming-jump-013",
       "title": "Clean out your inventory to just …",
-      "text": "Clean out your inventory to just runes, coins, and a knife",
+      "text": "Clean out your inventory to just runes, coins, and a knife.",
       "manual": true
     },
     {
@@ -386,7 +386,7 @@
     {
       "id": "starting-on-farming-jump-015b",
       "title": "buy 1 bucket of milk, 1 …",
-      "text": "buy 1 bucket of milk, 1 pot of flour, and 1 egg",
+      "text": "buy 1 bucket of milk, 1 pot of flour, and 1 egg.",
       "complete": {
         "op": "or",
         "of": [
@@ -413,7 +413,7 @@
     {
       "id": "starting-on-farming-jump-016",
       "title": "Complete the dwarf section of Recipe …",
-      "text": "Complete the dwarf section of Recipe for Disaster",
+      "text": "Complete the dwarf section of Recipe for Disaster.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -439,8 +439,8 @@
     },
     {
       "id": "starting-on-farming-jump-017b",
-      "title": "Grab a pickaxe from the tower",
-      "text": "Grab a pickaxe from the tower",
+      "title": "Grab a pickaxe from the tower.",
+      "text": "Grab a pickaxe from the tower.",
       "manual": true,
       "world": [
         3227,
@@ -451,7 +451,7 @@
     {
       "id": "starting-on-farming-jump-018",
       "title": "Buy a hammer from the Lumbridge …",
-      "text": "Buy a hammer from the Lumbridge general store",
+      "text": "Buy a hammer from the Lumbridge general store.",
       "complete": {
         "op": "or",
         "of": [
@@ -495,7 +495,7 @@
     {
       "id": "starting-on-farming-jump-019b",
       "title": "buy a needle and 10 thread …",
-      "text": "buy a needle and 10 thread from the crafting store",
+      "text": "buy a needle and 10 thread from the crafting store.",
       "complete": {
         "op": "or",
         "of": [
@@ -539,7 +539,7 @@
     {
       "id": "starting-on-farming-jump-020b",
       "title": "run north all the way to …",
-      "text": "run north all the way to Keldagrim",
+      "text": "run north all the way to Keldagrim.",
       "manual": true,
       "object": 5008,
       "world": [
@@ -551,7 +551,7 @@
     {
       "id": "starting-on-farming-jump-021",
       "title": "Start the The Giant Dwarf so …",
-      "text": "Start the The Giant Dwarf so you get into Keldagrim (do only the first few steps of the quest)",
+      "text": "Start the The Giant Dwarf so you get into Keldagrim (do only the first few steps of the quest).",
       "complete": {
         "op": "quest",
         "quest": "THE_GIANT_DWARF",
@@ -582,8 +582,8 @@
     },
     {
       "id": "starting-on-farming-jump-022b",
-      "title": "buy 12 coal",
-      "text": "buy 12 coal",
+      "title": "buy 12 coal.",
+      "text": "buy 12 coal.",
       "complete": {
         "op": "or",
         "of": [
@@ -627,7 +627,7 @@
     {
       "id": "starting-on-farming-jump-023b",
       "title": "complete Elemental Workshop I. — Kill …",
-      "text": "complete Elemental Workshop I. — Kill the earth elemental by running into the main room and attacking it while it runs away",
+      "text": "complete Elemental Workshop I. — Kill the earth elemental by running into the main room and attacking it while it runs away.",
       "complete": {
         "op": "quest",
         "quest": "ELEMENTAL_WORKSHOP_I",
@@ -658,8 +658,8 @@
     },
     {
       "id": "starting-on-farming-jump-024b",
-      "title": "head to the Exam Center",
-      "text": "head to the Exam Center",
+      "title": "head to the Exam Center.",
+      "text": "head to the Exam Center.",
       "manual": true,
       "world": [
         3210,
@@ -668,24 +668,13 @@
       ]
     },
     {
-      "id": "starting-on-farming-jump-025a",
-      "title": "Start",
-      "text": "Start",
-      "manual": true,
-      "world": [
-        3367,
-        3335,
-        0
-      ]
-    },
-    {
-      "id": "starting-on-farming-jump-025b",
-      "title": "complete Elemental Workshop II",
-      "text": "complete Elemental Workshop II",
+      "id": "starting-on-farming-jump-025",
+      "title": "Start, then complete Elemental Workshop II.",
+      "text": "Start, then complete Elemental Workshop II.",
       "complete": {
         "op": "quest",
         "quest": "ELEMENTAL_WORKSHOP_II",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         3367,
@@ -696,7 +685,7 @@
     {
       "id": "starting-on-farming-jump-026",
       "title": "Minigame teleport to clan wars and …",
-      "text": "Minigame teleport to clan wars and restore your stats",
+      "text": "Minigame teleport to clan wars and restore your stats.",
       "manual": true,
       "world": [
         3130,
@@ -707,7 +696,7 @@
     {
       "id": "starting-on-farming-jump-027",
       "title": "Drop the pickaxe and knife, keep …",
-      "text": "Drop the pickaxe and knife, keep the hammer, needle, and thread",
+      "text": "Drop the pickaxe and knife, keep the hammer, needle, and thread.",
       "manual": true,
       "world": [
         3130,
@@ -717,8 +706,8 @@
     },
     {
       "id": "starting-on-farming-jump-028",
-      "title": "Teleport to Varrock",
-      "text": "Teleport to Varrock",
+      "title": "Teleport to Varrock.",
+      "text": "Teleport to Varrock.",
       "world": [
         3210,
         3448,
@@ -751,8 +740,8 @@
     },
     {
       "id": "starting-on-farming-jump-029b",
-      "title": "go down to the basement",
-      "text": "go down to the basement",
+      "title": "go down to the basement.",
+      "text": "go down to the basement.",
       "manual": true,
       "world": [
         3185,
@@ -762,8 +751,8 @@
     },
     {
       "id": "starting-on-farming-jump-030",
-      "title": "Telekinetic grab 1 gold bar",
-      "text": "Telekinetic grab 1 gold bar",
+      "title": "Telekinetic grab 1 gold bar.",
+      "text": "Telekinetic grab 1 gold bar.",
       "complete": {
         "op": "or",
         "of": [
@@ -802,7 +791,7 @@
     {
       "id": "starting-on-farming-jump-031b",
       "title": "buy 2 silver bars from the …",
-      "text": "buy 2 silver bars from the silver merchant",
+      "text": "buy 2 silver bars from the silver merchant.",
       "complete": {
         "op": "or",
         "of": [
@@ -830,7 +819,7 @@
     {
       "id": "starting-on-farming-jump-032",
       "title": "Buy/steal 4 cakes from the baker …",
-      "text": "Buy/steal 4 cakes from the baker for some food",
+      "text": "Buy/steal 4 cakes from the baker for some food.",
       "complete": {
         "op": "or",
         "of": [
@@ -856,8 +845,8 @@
     },
     {
       "id": "starting-on-farming-jump-033",
-      "title": "Teleport to Lumbridge",
-      "text": "Teleport to Lumbridge",
+      "title": "Teleport to Lumbridge.",
+      "text": "Teleport to Lumbridge.",
       "manual": true,
       "object": 24009,
       "world": [
@@ -869,7 +858,7 @@
     {
       "id": "starting-on-farming-jump-034",
       "title": "Buy a spade from the general …",
-      "text": "Buy a spade from the general store",
+      "text": "Buy a spade from the general store.",
       "complete": {
         "op": "or",
         "of": [
@@ -895,8 +884,8 @@
     },
     {
       "id": "starting-on-farming-jump-035",
-      "title": "Head to Al Kharid",
-      "text": "Head to Al Kharid",
+      "title": "Head to Al Kharid.",
+      "text": "Head to Al Kharid.",
       "world": [
         3290,
         3185,
@@ -913,7 +902,7 @@
     {
       "id": "starting-on-farming-jump-036",
       "title": "Buy 1 emerald from the gem …",
-      "text": "Buy 1 emerald from the gem shop",
+      "text": "Buy 1 emerald from the gem shop.",
       "complete": {
         "op": "or",
         "of": [
@@ -957,7 +946,7 @@
     {
       "id": "starting-on-farming-jump-037b",
       "title": "buy a ring mould, and a …",
-      "text": "buy a ring mould, and a sickle mould",
+      "text": "buy a ring mould, and a sickle mould.",
       "complete": {
         "op": "or",
         "of": [
@@ -976,15 +965,15 @@
       },
       "item": 2976,
       "world": [
-        3321,
-        3194,
+        3315,
+        3182,
         0
       ]
     },
     {
       "id": "starting-on-farming-jump-038",
-      "title": "Buy cosmic rune from Ali Morrisane",
-      "text": "Buy cosmic rune from Ali Morrisane",
+      "title": "Buy cosmic rune from Ali Morrisane.",
+      "text": "Buy cosmic rune from Ali Morrisane.",
       "complete": {
         "op": "or",
         "of": [
@@ -1029,7 +1018,7 @@
     {
       "id": "starting-on-farming-jump-039b",
       "title": "make a ring of dueling and …",
-      "text": "make a ring of dueling and a sickle",
+      "text": "make a ring of dueling and a sickle.",
       "manual": true,
       "world": [
         3273,
@@ -1040,7 +1029,7 @@
     {
       "id": "starting-on-farming-jump-040",
       "title": "Drop the ring mold and the …",
-      "text": "Drop the ring mold and the sickle mold",
+      "text": "Drop the ring mold and the sickle mold.",
       "manual": true,
       "world": [
         3273,
@@ -1072,8 +1061,8 @@
     },
     {
       "id": "starting-on-farming-jump-042b",
-      "title": "buy 3 bronze bars from Shantay",
-      "text": "buy 3 bronze bars from Shantay",
+      "title": "buy 3 bronze bars from Shantay.",
+      "text": "buy 3 bronze bars from Shantay.",
       "complete": {
         "op": "or",
         "of": [
@@ -1130,7 +1119,7 @@
     {
       "id": "starting-on-farming-jump-043c",
       "title": "buy a pot and a bucket …",
-      "text": "buy a pot and a bucket of slime",
+      "text": "buy a pot and a bucket of slime.",
       "complete": {
         "op": "or",
         "of": [
@@ -1174,25 +1163,20 @@
     {
       "id": "starting-on-farming-jump-044b",
       "title": "smith the 3 bronze bars into …",
-      "text": "smith the 3 bronze bars into bronze wires on the anvil",
+      "text": "smith the 3 bronze bars into bronze wires on the anvil.",
       "manual": true,
       "object": 2097,
       "world": [
-        3228,
-        3436,
+        2613,
+        3081,
         0
       ]
     },
     {
       "id": "starting-on-farming-jump-045",
       "title": "If you do not have your …",
-      "text": "If you do not have your ghostspeak amulet still, get a new one",
-      "manual": true,
-      "world": [
-        3197,
-        3166,
-        0
-      ]
+      "text": "If you do not have your ghostspeak amulet still, get a new one.",
+      "manual": true
     },
     {
       "id": "starting-on-farming-jump-046",
@@ -1217,8 +1201,8 @@
     },
     {
       "id": "starting-on-farming-jump-048",
-      "title": "Complete the Nature Spirit",
-      "text": "Complete the Nature Spirit",
+      "title": "Complete the Nature Spirit.",
+      "text": "Complete the Nature Spirit.",
       "complete": {
         "op": "quest",
         "quest": "NATURE_SPIRIT",

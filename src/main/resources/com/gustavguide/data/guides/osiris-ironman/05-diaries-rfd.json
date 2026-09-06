@@ -75,7 +75,7 @@
     {
       "id": "dr-005",
       "title": "Do these quests for QP and …",
-      "text": "Do these quests for QP and diaries: A soul's bane, Another slice of H.A.M, Ic\nLocation: Various",
+      "text": "Do these quests for QP and diaries: A soul's bane, Another slice of H.A.M, Ic...\nLocation: Various",
       "complete": {
         "op": "and",
         "of": [
@@ -100,7 +100,7 @@
     {
       "id": "dr-006",
       "title": "Complete Perilous Moons quest when you …",
-      "text": "Complete Perilous Moons quest when you reach 48 Slayer (requires Twilight's P\nLocation: Varlamore",
+      "text": "Complete Perilous Moons quest when you reach 48 Slayer (requires Twilight's P...\nLocation: Varlamore",
       "complete": {
         "op": "skill",
         "skill": "SLAYER",
@@ -147,7 +147,7 @@
     {
       "id": "dr-009",
       "title": "Complete At First Light quest (now …",
-      "text": "Complete At First Light quest (now that Eagles' Peak is done; also needs 46 H\nLocation: Varlamore",
+      "text": "Complete At First Light quest (now that Eagles' Peak is done; also needs 46 H...\nLocation: Varlamore",
       "complete": {
         "op": "and",
         "of": [
@@ -172,7 +172,7 @@
     {
       "id": "dr-010",
       "title": "Rum deal (Req 42 slayer, you …",
-      "text": "Rum deal (Req 42 slayer, you should be close to it, Get a task from Mazchna f\nLocation: Braindeath Island",
+      "text": "Rum deal (Req 42 slayer, you should be close to it. Get a task from Mazchna f...\nLocation: Braindeath Island",
       "complete": {
         "op": "quest",
         "quest": "RUM_DEAL",

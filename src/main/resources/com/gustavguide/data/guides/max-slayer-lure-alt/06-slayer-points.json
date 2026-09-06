@@ -105,7 +105,7 @@
     {
       "id": "slayer-points-009",
       "title": "If stopping at 85 slayer, do …",
-      "text": "If stopping at 85 slayer, do Priest in Peril to get a nechryael task on your alt. Luring with a trident with high mage level and gear while being on task really speeds up the task",
+      "text": "If stopping at 85 slayer, do Priest in Peril to get a nechryael task on your alt. Luring with a trident with high mage level and gear while being on task really speeds up the task.",
       "complete": {
         "op": "quest",
         "quest": "PRIEST_IN_PERIL",

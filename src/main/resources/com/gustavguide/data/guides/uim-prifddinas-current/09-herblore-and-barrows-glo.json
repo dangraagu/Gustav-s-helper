@@ -22,8 +22,8 @@
     },
     {
       "id": "herblore-and-barrows-glo-003",
-      "title": "Complete Shades of Morton",
-      "text": "Complete Shades of Morton",
+      "title": "Complete Shades of Morton.",
+      "text": "Complete Shades of Morton.",
       "complete": {
         "op": "quest",
         "quest": "SHADES_OF_MORTTON",
@@ -37,8 +37,8 @@
     },
     {
       "id": "herblore-and-barrows-glo-004",
-      "title": "Complete the easy Karamja Diary",
-      "text": "Complete the easy Karamja Diary",
+      "title": "Complete the easy Karamja Diary.",
+      "text": "Complete the easy Karamja Diary.",
       "manual": true,
       "world": [
         2843,
@@ -49,13 +49,13 @@
     {
       "id": "herblore-and-barrows-glo-005",
       "title": "You should have at least 30 …",
-      "text": "You should have at least 30 Herblore by now, if you don't you might need to make a few potions with your bagged herbs to get it",
+      "text": "You should have at least 30 Herblore by now, if you don't you might need to make a few potions with your bagged herbs to get it.",
       "manual": true
     },
     {
       "id": "herblore-and-barrows-glo-006",
-      "title": "Complete Shilo Village",
-      "text": "Complete Shilo Village",
+      "title": "Complete Shilo Village.",
+      "text": "Complete Shilo Village.",
       "complete": {
         "op": "quest",
         "quest": "SHILO_VILLAGE",
@@ -69,8 +69,8 @@
     },
     {
       "id": "herblore-and-barrows-glo-007",
-      "title": "Complete One Small Favor",
-      "text": "Complete One Small Favor",
+      "title": "Complete One Small Favor.",
+      "text": "Complete One Small Favor.",
       "complete": {
         "op": "quest",
         "quest": "ONE_SMALL_FAVOUR",
@@ -130,7 +130,7 @@
     {
       "id": "herblore-and-barrows-glo-011",
       "title": "You can collect your items from …",
-      "text": "You can collect your items from death bank now. — Don't forget to move your house back to Hosidius",
+      "text": "You can collect your items from death bank now. — Don't forget to move your house back to Hosidius.",
       "manual": true,
       "object": 28823,
       "world": [
@@ -142,13 +142,13 @@
     {
       "id": "herblore-and-barrows-glo-012",
       "title": "If you got fossils from Ammonite …",
-      "text": "If you got fossils from Ammonite crabs you can hand them in for lamps",
+      "text": "If you got fossils from Ammonite crabs you can hand them in for lamps.",
       "manual": true
     },
     {
       "id": "herblore-and-barrows-glo-013",
       "title": "Complete His Faithful Servants for a …",
-      "text": "Complete His Faithful Servants for a quick 20k Prayer xp",
+      "text": "Complete His Faithful Servants for a quick 20k Prayer xp.",
       "complete": {
         "op": "quest",
         "quest": "HIS_FAITHFUL_SERVANTS",
@@ -178,7 +178,7 @@
     {
       "id": "herblore-and-barrows-glo-014b",
       "title": "collect the grain and chicken during …",
-      "text": "collect the grain and chicken during the quest",
+      "text": "collect the grain and chicken during the quest.",
       "complete": {
         "op": "or",
         "of": [
@@ -205,7 +205,7 @@
     {
       "id": "herblore-and-barrows-glo-015",
       "title": "Complete My Arm's Big Adventure. — …",
-      "text": "Complete My Arm's Big Adventure. — Make sure to start the supercompost before starting the favor grind",
+      "text": "Complete My Arm's Big Adventure. — Make sure to start the supercompost before starting the favor grind.",
       "complete": {
         "op": "quest",
         "quest": "MY_ARMS_BIG_ADVENTURE",
@@ -259,8 +259,8 @@
     },
     {
       "id": "herblore-and-barrows-glo-017",
-      "title": "Complete Eagles' Peak",
-      "text": "Complete Eagles' Peak",
+      "title": "Complete Eagles' Peak.",
+      "text": "Complete Eagles' Peak.",
       "complete": {
         "op": "quest",
         "quest": "EAGLES_PEAK",
@@ -275,7 +275,7 @@
     {
       "id": "herblore-and-barrows-glo-018",
       "title": "Complete the Kourend and Kebos easy …",
-      "text": "Complete the Kourend and Kebos easy and medium diaries",
+      "text": "Complete the Kourend and Kebos easy and medium diaries.",
       "complete": {
         "op": "diary",
         "area": "kourend",
@@ -301,7 +301,7 @@
     {
       "id": "herblore-and-barrows-glo-020",
       "title": "You should have 45 Herblore by …",
-      "text": "You should have 45 Herblore by now",
+      "text": "You should have 45 Herblore by now.",
       "manual": true
     },
     {
@@ -345,8 +345,8 @@
     },
     {
       "id": "herblore-and-barrows-glo-023",
-      "title": "Complete Family Crest",
-      "text": "Complete Family Crest",
+      "title": "Complete Family Crest.",
+      "text": "Complete Family Crest.",
       "complete": {
         "op": "quest",
         "quest": "FAMILY_CREST",
@@ -362,7 +362,7 @@
     {
       "id": "herblore-and-barrows-glo-024",
       "title": "Complete Underground Pass. — Alch the …",
-      "text": "Complete Underground Pass. — Alch the staff after the quest. Don't upgrade it now, you will need the staff again later and you can upgrade it",
+      "text": "Complete Underground Pass. — Alch the staff after the quest. Don't upgrade it now, you will need the staff again later and you can upgrade it then.",
       "complete": {
         "op": "quest",
         "quest": "UNDERGROUND_PASS",
@@ -392,7 +392,7 @@
     {
       "id": "herblore-and-barrows-glo-026",
       "title": "Complete Recipe for Disaster/Freeing Sir Amik …",
-      "text": "Complete Recipe for Disaster/Freeing Sir Amik Varze. — Make sure to collect all the items up front, as the unfinished dishes are lost on death and you need to get to Entrana",
+      "text": "Complete Recipe for Disaster/Freeing Sir Amik Varze. — Make sure to collect all the items up front, as the unfinished dishes are lost on death and you need to get to Entrana.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE",
@@ -444,7 +444,7 @@
     {
       "id": "herblore-and-barrows-glo-029",
       "title": "Complete Temple of Ikov. — You …",
-      "text": "Complete Temple of Ikov. — You do not need a bow, just use steel knives from the Martin Thwait's Lost and Found with ice arrows in your ammo slot",
+      "text": "Complete Temple of Ikov. — You do not need a bow, just use steel knives from the Martin Thwait's Lost and Found with ice arrows in your ammo slot.",
       "complete": {
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
@@ -474,7 +474,7 @@
     {
       "id": "herblore-and-barrows-glo-031",
       "title": "Complete Curse of the Empty Lord. …",
-      "text": "Complete Curse of the Empty Lord. — Get your lamp from Historian Minas. — This might take you to Entrana",
+      "text": "Complete Curse of the Empty Lord. — Get your lamp from Historian Minas. — This might take you to Entrana.",
       "complete": {
         "op": "quest",
         "quest": "CURSE_OF_THE_EMPTY_LORD",
@@ -495,7 +495,7 @@
     {
       "id": "herblore-and-barrows-glo-033",
       "title": "Complete the Recipe for Disaster/Defeating the …",
-      "text": "Complete the Recipe for Disaster/Defeating the Culinaromancer. — The videos have a setup to use. — Buy some Barrows Gloves",
+      "text": "Complete the Recipe for Disaster/Defeating the Culinaromancer. — The videos have a setup to use. — Buy some Barrows Gloves.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__CULINAROMANCER",
@@ -505,7 +505,7 @@
     {
       "id": "herblore-and-barrows-glo-034",
       "title": "Complete Fairy Tale Part II. — …",
-      "text": "Complete Fairy Tale Part II. — You can now tea boost to put a fairy ring in your house. — Get the mushrooms from Sulliusceps",
+      "text": "Complete Fairy Tale Part II. — You can now tea boost to put a fairy ring in your house. — Get the mushrooms from Sulliusceps.",
       "manual": true
     }
   ]

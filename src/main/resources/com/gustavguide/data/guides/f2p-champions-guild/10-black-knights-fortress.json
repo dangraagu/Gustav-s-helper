@@ -4,9 +4,9 @@
   "section": "Black Knights' Fortress",
   "steps": [
     {
-      "id": "black-knights-fortress-001at",
-      "title": "Run, talk to Chancellor Hassan to …",
-      "text": "Run, talk to Chancellor Hassan to finish Prince Ali Rescue. — File:Minigame_icon.png Prepare a Clan wars teleport",
+      "id": "black-knights-fortress-001",
+      "title": "Run and talk to Chancellor Hassan …",
+      "text": "Run and talk to Chancellor Hassan to finish Prince Ali Rescue. — File:Minigame_icon.png Prepare a Clan wars teleport.",
       "complete": {
         "op": "quest",
         "quest": "PRINCE_ALI_RESCUE",
@@ -64,8 +64,8 @@
     },
     {
       "id": "black-knights-fortress-004",
-      "title": "Go to the Black Knights' Fortress",
-      "text": "Go to the Black Knights' Fortress",
+      "title": "Go to the Black Knights' Fortress.",
+      "text": "Go to the Black Knights' Fortress.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -80,7 +80,7 @@
     {
       "id": "black-knights-fortress-005",
       "title": "Drink the wine as needed in …",
-      "text": "Drink the wine as needed in the black knights' fortress. — Black Knights have a max hit of 4",
+      "text": "Drink the wine as needed in the black knights' fortress. — Black Knights have a max hit of 4.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -95,7 +95,7 @@
     {
       "id": "black-knights-fortress-006",
       "title": "Enter castle and follow hidden route …",
-      "text": "Enter castle and follow hidden route through the north wall to listen at the grate",
+      "text": "Enter castle and follow hidden route through the north wall to listen at the grate.",
       "manual": true,
       "world": [
         2955,
@@ -106,7 +106,7 @@
     {
       "id": "black-knights-fortress-007",
       "title": "Go back to the main entrance …",
-      "text": "Go back to the main entrance and follow the east path to drop the cabbage in the hole",
+      "text": "Go back to the main entrance and follow the east path to drop the cabbage in the hole.",
       "manual": true,
       "world": [
         2955,
@@ -117,7 +117,7 @@
     {
       "id": "black-knights-fortress-008",
       "title": "Exit the Black Knights' Fortress. — …",
-      "text": "Exit the Black Knights' Fortress. — File:Tap-to-drop_mode.png Drop File:Bronze_med_helm.png bronze med helm File:Iron_chainbody.png iron chainbody",
+      "text": "Exit the Black Knights' Fortress. — File:Tap-to-drop_mode.png Drop File:Bronze_med_helm.png bronze med helm File:Iron_chainbody.png iron chainbody.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -132,7 +132,7 @@
     {
       "id": "black-knights-fortress-009",
       "title": "Run directly west from the fortress …",
-      "text": "Run directly west from the fortress past the wilderness ditch and down the west side of the Goblin Village to get to the Goblin Village",
+      "text": "Run directly west from the fortress past the wilderness ditch and down the west side of the Goblin Village to get to the Goblin Village.",
       "manual": true,
       "object": 23,
       "world": [
@@ -144,7 +144,7 @@
     {
       "id": "black-knights-fortress-010",
       "title": "Pick up 3 goblin mail. Locations: …",
-      "text": "Pick up 3 goblin mail. Locations: Up ladder, in mid-left hut, behind generals' hut(right side)",
+      "text": "Pick up 3 goblin mail. Locations: Up ladder, in mid-left hut, behind generals' hut(right side).",
       "complete": {
         "op": "or",
         "of": [
@@ -171,13 +171,13 @@
     {
       "id": "black-knights-fortress-011",
       "title": "Dye 1 body blue and 1 …",
-      "text": "Dye 1 body blue and 1 body orange",
+      "text": "Dye 1 body blue and 1 body orange.",
       "manual": true
     },
     {
       "id": "black-knights-fortress-012",
       "title": "Start Goblin Diplomacy by talking to …",
-      "text": "Start Goblin Diplomacy by talking to generals",
+      "text": "Start Goblin Diplomacy by talking to generals.",
       "complete": {
         "op": "quest",
         "quest": "GOBLIN_DIPLOMACY",
@@ -202,8 +202,8 @@
     },
     {
       "id": "black-knights-fortress-014",
-      "title": "Run to Falador castle",
-      "text": "Run to Falador castle",
+      "title": "Run to Falador castle.",
+      "text": "Run to Falador castle.",
       "world": [
         3000,
         3360,
@@ -220,7 +220,7 @@
     {
       "id": "black-knights-fortress-015",
       "title": "Speak to Sir Amik Varze to …",
-      "text": "Speak to Sir Amik Varze to complete Black Knights' Fortress",
+      "text": "Speak to Sir Amik Varze to complete Black Knights' Fortress.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -236,7 +236,7 @@
     {
       "id": "black-knights-fortress-016",
       "title": "File:Skull_(status)_icon.png Deathwarp using the White knights …",
-      "text": "File:Skull_(status)_icon.png Deathwarp using the White knights on the top floor",
+      "text": "File:Skull_(status)_icon.png Deathwarp using the White knights on the top floor.",
       "manual": true
     }
   ]

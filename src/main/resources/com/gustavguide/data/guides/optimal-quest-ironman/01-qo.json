@@ -1383,8 +1383,8 @@
     },
     {
       "id": "qo-098",
-      "title": "Another Slice of H.A.M",
-      "text": "Another Slice of H.A.M\nLocation: Dorgesh-Kaan",
+      "title": "Another Slice of H.A.M.",
+      "text": "Another Slice of H.A.M.\nLocation: Dorgesh-Kaan",
       "complete": {
         "op": "quest",
         "quest": "ANOTHER_SLICE_OF_HAM",
@@ -1911,8 +1911,8 @@
     },
     {
       "id": "qo-135",
-      "title": "Forgettable Tale",
-      "text": "Forgettable Tale\nLocation: Keldagrim",
+      "title": "Forgettable Tale...",
+      "text": "Forgettable Tale...\nLocation: Keldagrim",
       "complete": {
         "op": "quest",
         "quest": "FORGETTABLE_TALE",
@@ -2567,8 +2567,8 @@
     },
     {
       "id": "qo-181",
-      "title": "Between a Rock",
-      "text": "Between a Rock\nLocation: Keldagrim",
+      "title": "Between a Rock...",
+      "text": "Between a Rock...\nLocation: Keldagrim",
       "complete": {
         "op": "quest",
         "quest": "BETWEEN_A_ROCK",

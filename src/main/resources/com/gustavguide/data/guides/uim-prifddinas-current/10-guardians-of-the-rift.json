@@ -5,8 +5,8 @@
   "steps": [
     {
       "id": "guardians-of-the-rift-001",
-      "title": "Complete Regicide",
-      "text": "Complete Regicide",
+      "title": "Complete Regicide.",
+      "text": "Complete Regicide.",
       "complete": {
         "op": "quest",
         "quest": "REGICIDE",
@@ -21,7 +21,7 @@
     {
       "id": "guardians-of-the-rift-002",
       "title": "Complete Roving Elves. — You can …",
-      "text": "Complete Roving Elves. — You can choose the crystal bow and store it in the stash unit in case you want it later. It is a good option for the Fight caves for example",
+      "text": "Complete Roving Elves. — You can choose the crystal bow and store it in the stash unit in case you want it later. It is a good option for the Fight caves for example.",
       "complete": {
         "op": "quest",
         "quest": "ROVING_ELVES",
@@ -35,8 +35,8 @@
     },
     {
       "id": "guardians-of-the-rift-003",
-      "title": "Complete Mourning's End Part I",
-      "text": "Complete Mourning's End Part I",
+      "title": "Complete Mourning's End Part I.",
+      "text": "Complete Mourning's End Part I.",
       "complete": {
         "op": "quest",
         "quest": "MOURNINGS_END_PART_I",
@@ -51,7 +51,7 @@
     {
       "id": "guardians-of-the-rift-004",
       "title": "Complete Mourning's End Part II until …",
-      "text": "Complete Mourning's End Part II until the end where you need the death talisman",
+      "text": "Complete Mourning's End Part II until the end where you need the death talisman.",
       "complete": {
         "op": "quest",
         "quest": "MOURNINGS_END_PART_II",
@@ -65,8 +65,8 @@
     },
     {
       "id": "guardians-of-the-rift-005",
-      "title": "Mine a few pure essence",
-      "text": "Mine a few pure essence",
+      "title": "Mine a few pure essence.",
+      "text": "Mine a few pure essence.",
       "manual": true
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "guardians-of-the-rift-006b",
       "title": "craft the essence for a diary …",
-      "text": "craft the essence for a diary step",
+      "text": "craft the essence for a diary step.",
       "manual": true,
       "world": [
         3285,
@@ -98,7 +98,7 @@
     {
       "id": "guardians-of-the-rift-007",
       "title": "Complete the easy Varrock diary. — …",
-      "text": "Complete the easy Varrock diary. — Keep the armor",
+      "text": "Complete the easy Varrock diary. — Keep the armor.",
       "complete": {
         "op": "diary",
         "area": "varrock",
@@ -124,7 +124,7 @@
     {
       "id": "guardians-of-the-rift-009",
       "title": "Loot your pulls and hope to …",
-      "text": "Loot your pulls and hope to get a Catalytic talisman. — If you don't get one, then just keep going until you do or just do the item list",
+      "text": "Loot your pulls and hope to get a Catalytic talisman. — If you don't get one, then just keep going until you do or just do the item list.",
       "complete": {
         "op": "or",
         "of": [
@@ -145,8 +145,8 @@
     },
     {
       "id": "guardians-of-the-rift-010",
-      "title": "Finish Mourning's End Part II",
-      "text": "Finish Mourning's End Part II",
+      "title": "Finish Mourning's End Part II.",
+      "text": "Finish Mourning's End Part II.",
       "complete": {
         "op": "quest",
         "quest": "MOURNINGS_END_PART_II",

@@ -1067,9 +1067,9 @@
       ]
     },
     {
-      "id": "e12-085",
+      "id": "e12-085a",
       "title": "Withdraw: Zenyte Shards, Chaos/Death Runes (29,000/14,500 …",
-      "text": "Withdraw: Zenyte Shards, Chaos/Death Runes (29,000/14,500 per Onyx) [You may need to buy more], Karamja Gloves, Teleport Runes, Dramen Staff, House tab, Banana, Zombie Monkey Greegree, Chisel, Wily Cat",
+      "text": "Withdraw: Zenyte Shards, Chaos/Death Runes (29,000/14,500 per Onyx) [You may need to buy more], Karamja Gloves",
       "complete": {
         "op": "or",
         "of": [
@@ -1090,6 +1090,18 @@
       "world": [
         2843,
         3070,
+        0
+      ]
+    },
+    {
+      "id": "e12-085b",
+      "title": "Teleport Runes, Dramen Staff, House tab, …",
+      "text": "Teleport Runes, Dramen Staff, House tab, Banana, Zombie Monkey Greegree, Chisel, Wily Cat",
+      "manual": true,
+      "object": 4788,
+      "world": [
+        2722,
+        2766,
         0
       ]
     },

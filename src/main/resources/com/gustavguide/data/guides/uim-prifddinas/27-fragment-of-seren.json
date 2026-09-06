@@ -6,7 +6,7 @@
     {
       "id": "fragment-of-seren-001",
       "title": "Buy a maple shortbow and some …",
-      "text": "Buy a maple shortbow and some arrows in Varrock. You could use knives instead but the shorter range makes it more difficult",
+      "text": "Buy a maple shortbow and some arrows in Varrock. You could use knives instead but the shorter range makes it more difficult.",
       "complete": {
         "op": "or",
         "of": [
@@ -33,19 +33,19 @@
     {
       "id": "fragment-of-seren-002",
       "title": "Get your noted super restores out …",
-      "text": "Get your noted super restores out of your bag if you don't have them",
+      "text": "Get your noted super restores out of your bag if you don't have them.",
       "manual": true
     },
     {
       "id": "fragment-of-seren-003",
       "title": "Bag anything that isn't needed for …",
-      "text": "Bag anything that isn't needed for the fight. — The crystal bow will need to be reverted into a seed",
+      "text": "Bag anything that isn't needed for the fight. — The crystal bow will need to be reverted into a seed.",
       "manual": true
     },
     {
       "id": "fragment-of-seren-004",
       "title": "wear a fire staff. — You …",
-      "text": "wear a fire staff. — You could go for a water staff, but it doesn't really matter since it won't save an inventory slot",
+      "text": "wear a fire staff. — You could go for a water staff, but it doesn't really matter since it won't save an inventory slot.",
       "manual": true,
       "item": 1379,
       "world": [
@@ -57,7 +57,7 @@
     {
       "id": "fragment-of-seren-005",
       "title": "Start out by making a Guthix …",
-      "text": "Start out by making a Guthix rest with the herbs you left planted from farming. If you forgot to do this, then you could farm them now, or just use a karambwan/pineapple pizza",
+      "text": "Start out by making a Guthix rest with the herbs you left planted from farming. If you forgot to do this, then you could farm them now, or just use a karambwan/pineapple pizza.",
       "manual": true
     },
     {
@@ -74,8 +74,8 @@
     },
     {
       "id": "fragment-of-seren-006b",
-      "title": "light it",
-      "text": "light it",
+      "title": "light it.",
+      "text": "light it.",
       "manual": true,
       "world": [
         2799,
@@ -85,8 +85,8 @@
     },
     {
       "id": "fragment-of-seren-007",
-      "title": "Buy a lockpick from Burthope",
-      "text": "Buy a lockpick from Burthope",
+      "title": "Buy a lockpick from Burthope.",
+      "text": "Buy a lockpick from Burthope.",
       "complete": {
         "op": "or",
         "of": [
@@ -105,30 +105,25 @@
       },
       "item": 1523,
       "world": [
-        2870,
-        3544,
+        2803,
+        3432,
         0
       ]
     },
     {
       "id": "fragment-of-seren-008",
       "title": "Thieve Dorgesh Kaan rich chests until …",
-      "text": "Thieve Dorgesh Kaan rich chests until you get 9 uncut diamonds and a sapphire",
-      "manual": true,
-      "world": [
-        2703,
-        5348,
-        1
-      ]
+      "text": "Thieve Dorgesh Kaan rich chests until you get 9 uncut diamonds and a sapphire.",
+      "manual": true
     },
     {
       "id": "fragment-of-seren-009",
-      "title": "Make 9 phoenix necklaces",
-      "text": "Make 9 phoenix necklaces",
+      "title": "Make 9 phoenix necklaces.",
+      "text": "Make 9 phoenix necklaces.",
       "manual": true,
       "world": [
-        3110,
-        3499,
+        2834,
+        3352,
         0
       ]
     },
@@ -145,8 +140,8 @@
     },
     {
       "id": "fragment-of-seren-010b",
-      "title": "equip it",
-      "text": "equip it",
+      "title": "equip it.",
+      "text": "equip it.",
       "manual": true,
       "world": [
         3108,
@@ -167,8 +162,8 @@
     },
     {
       "id": "fragment-of-seren-011b",
-      "title": "equip it",
-      "text": "equip it",
+      "title": "equip it.",
+      "text": "equip it.",
       "manual": true,
       "world": [
         2509,
@@ -178,8 +173,8 @@
     },
     {
       "id": "fragment-of-seren-012",
-      "title": "Put up your graceful outfit",
-      "text": "Put up your graceful outfit",
+      "title": "Put up your graceful outfit.",
+      "text": "Put up your graceful outfit.",
       "manual": true
     },
     {
@@ -190,14 +185,14 @@
     },
     {
       "id": "fragment-of-seren-013b",
-      "title": "equip it",
-      "text": "equip it",
+      "title": "equip it.",
+      "text": "equip it.",
       "manual": true
     },
     {
       "id": "fragment-of-seren-014",
       "title": "If you have a stored mystic …",
-      "text": "If you have a stored mystic robes set in your house, get those or buy a full set at the Wizards' Guild. — You could optionally go buy rune gloves for a slight upgrade",
+      "text": "If you have a stored mystic robes set in your house, get those or buy a full set at the Wizards' Guild. — You could optionally go buy rune gloves for a slight upgrade.",
       "manual": true,
       "world": [
         2591,
@@ -208,7 +203,7 @@
     {
       "id": "fragment-of-seren-015",
       "title": "Buy 700 blood, death, and water …",
-      "text": "Buy 700 blood, death, and water runes. This is more than you should need, but it is best to be safe",
+      "text": "Buy 700 blood, death, and water runes. This is more than you should need, but it is best to be safe.",
       "complete": {
         "op": "or",
         "of": [
@@ -230,7 +225,7 @@
     {
       "id": "fragment-of-seren-016",
       "title": "Clear out your rune pouch of …",
-      "text": "Clear out your rune pouch of other runes and put the deaths, bloods, and waters in it for space. If you have a lot of law runes, you can put most of them in your bag",
+      "text": "Clear out your rune pouch of other runes and put the deaths, bloods, and waters in it for space. If you have a lot of law runes, you can put most of them in your bag.",
       "manual": true
     },
     {
@@ -241,8 +236,8 @@
     },
     {
       "id": "fragment-of-seren-018",
-      "title": "Drop the candle",
-      "text": "Drop the candle",
+      "title": "Drop the candle.",
+      "text": "Drop the candle.",
       "manual": true,
       "world": [
         2591,
@@ -253,7 +248,7 @@
     {
       "id": "fragment-of-seren-019",
       "title": "Ring of dueling to the Emir's …",
-      "text": "Ring of dueling to the Emir's Arena, go south into the desert all the way to the ancients pyramid. You can take the boat to Tempoross to get there faster",
+      "text": "Ring of dueling to the Emir's Arena, go south into the desert all the way to the ancients pyramid. You can take the boat to Tempoross to get there faster.",
       "manual": true,
       "object": 26622,
       "world": [
@@ -264,8 +259,8 @@
     },
     {
       "id": "fragment-of-seren-020",
-      "title": "Change to the ancient spellbook",
-      "text": "Change to the ancient spellbook",
+      "title": "Change to the ancient spellbook.",
+      "text": "Change to the ancient spellbook.",
       "manual": true
     },
     {
@@ -299,7 +294,7 @@
     {
       "id": "fragment-of-seren-022",
       "title": "Ring of dueling to Clan Wars …",
-      "text": "Ring of dueling to Clan Wars and restore your stats, head to Edgeville",
+      "text": "Ring of dueling to Clan Wars and restore your stats. head to Edgeville.",
       "manual": true,
       "object": 1581,
       "world": [
@@ -311,7 +306,7 @@
     {
       "id": "fragment-of-seren-023",
       "title": "Unnote 3 super restores and bag …",
-      "text": "Unnote 3 super restores and bag any extra noted restores you have. — You will need to drop something on the ground, return for it after you bag them",
+      "text": "Unnote 3 super restores and bag any extra noted restores you have. — You will need to drop something on the ground, return for it after you bag them.",
       "manual": true,
       "world": [
         3095,
@@ -327,8 +322,8 @@
     },
     {
       "id": "fragment-of-seren-024b",
-      "title": "walk to the boss room",
-      "text": "walk to the boss room",
+      "title": "walk to the boss room.",
+      "text": "walk to the boss room.",
       "manual": true,
       "world": [
         3095,

@@ -6,13 +6,13 @@
     {
       "id": "falador-001",
       "title": "Run to Death's Domain to collect …",
-      "text": "Run to Death's Domain to collect your lost items for free",
+      "text": "Run to Death's Domain to collect your lost items for free.",
       "manual": true
     },
     {
       "id": "falador-002",
       "title": "Exit Death's Domain and spin your …",
-      "text": "Exit Death's Domain and spin your wool upstairs in Lumbridge castle",
+      "text": "Exit Death's Domain and spin your wool upstairs in Lumbridge castle.",
       "manual": true,
       "object": 14880,
       "world": [
@@ -40,8 +40,8 @@
     },
     {
       "id": "falador-003b",
-      "title": "complete Cook's Assistant",
-      "text": "complete Cook's Assistant",
+      "title": "complete Cook's Assistant. .",
+      "text": "complete Cook's Assistant. .",
       "complete": {
         "op": "quest",
         "quest": "COOKS_ASSISTANT",
@@ -83,7 +83,7 @@
     {
       "id": "falador-005",
       "title": "File:Spade.png Dig in the centre of …",
-      "text": "File:Spade.png Dig in the centre of the park to spawn the gardener for Pirate's Treasure",
+      "text": "File:Spade.png Dig in the centre of the park to spawn the gardener for Pirate's Treasure.",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -125,7 +125,7 @@
     {
       "id": "falador-007",
       "title": "File:Spade.png Dig in the centre of …",
-      "text": "File:Spade.png Dig in the centre of the park again to complete Pirate's Treasure",
+      "text": "File:Spade.png Dig in the centre of the park again to complete Pirate's Treasure.",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -140,7 +140,7 @@
     {
       "id": "falador-008",
       "title": "Go to Falador castle. — File:Tap-to-drop_mode.png …",
-      "text": "Go to Falador castle. — File:Tap-to-drop_mode.png Drop File:Spade.png Spade and the File:Casket (Pirate's Treasure).png Casket",
+      "text": "Go to Falador castle. — File:Tap-to-drop_mode.png Drop File:Spade.png Spade and the File:Casket (Pirate's Treasure).png Casket.",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -155,7 +155,7 @@
     {
       "id": "falador-009",
       "title": "Talk to Sir Amik Varze on …",
-      "text": "Talk to Sir Amik Varze on the of the eastern staircase in the castle",
+      "text": "Talk to Sir Amik Varze on the of the eastern staircase in the castle.",
       "manual": true,
       "npc": 4771,
       "world": [
@@ -167,7 +167,7 @@
     {
       "id": "falador-010",
       "title": "File:Skull_(status)_icon.png Die to the two knights …",
-      "text": "File:Skull_(status)_icon.png Die to the two knights on the top floor of the castle. — File:Tap-to-drop_mode.png Destroy File:Dossier (Black Knights' Fortress).png Dossier",
+      "text": "File:Skull_(status)_icon.png Die to the two knights on the top floor of the castle. — File:Tap-to-drop_mode.png Destroy File:Dossier (Black Knights' Fortress).png Dossier.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",

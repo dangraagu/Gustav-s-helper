@@ -48,13 +48,13 @@
     {
       "id": "draynor-manor-003",
       "title": "Shear 3 sheep for 3 File:Wool.png …",
-      "text": "Shear 3 sheep for 3 File:Wool.png Wool. — File:Tap-to-drop_mode.png Drop File:Shears.png shears",
+      "text": "Shear 3 sheep for 3 File:Wool.png Wool. — File:Tap-to-drop_mode.png Drop File:Shears.png shears.",
       "manual": true
     },
     {
       "id": "draynor-manor-004",
-      "title": "Exit by climbing over the stile",
-      "text": "Exit by climbing over the stile",
+      "title": "Exit by climbing over the stile.",
+      "text": "Exit by climbing over the stile.",
       "manual": true,
       "world": [
         3227,
@@ -70,8 +70,8 @@
     },
     {
       "id": "draynor-manor-005b",
-      "title": "grab an File:Egg.png egg",
-      "text": "grab an File:Egg.png egg",
+      "title": "grab an File:Egg.png egg.",
+      "text": "grab an File:Egg.png egg.",
       "manual": true,
       "world": [
         3227,
@@ -82,13 +82,13 @@
     {
       "id": "draynor-manor-006",
       "title": "Run north into the cow pen …",
-      "text": "Run north into the cow pen and milk a File:Bucket_of_milk.png Dairy cow",
+      "text": "Run north into the cow pen and milk a File:Bucket_of_milk.png Dairy cow.",
       "manual": true
     },
     {
       "id": "draynor-manor-007",
       "title": "Start Ernest the Chicken by talking …",
-      "text": "Start Ernest the Chicken by talking to Veronica",
+      "text": "Start Ernest the Chicken by talking to Veronica.",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",
@@ -102,8 +102,8 @@
     },
     {
       "id": "draynor-manor-008",
-      "title": "Enter the manor",
-      "text": "Enter the manor",
+      "title": "Enter the manor.",
+      "text": "Enter the manor.",
       "manual": true,
       "world": [
         3109,
@@ -114,7 +114,7 @@
     {
       "id": "draynor-manor-009",
       "title": "Pick up the File:Fish_food.png fish food …",
-      "text": "Pick up the File:Fish_food.png fish food from the",
+      "text": "Pick up the File:Fish_food.png fish food from the .",
       "complete": {
         "op": "or",
         "of": [
@@ -141,7 +141,7 @@
     {
       "id": "draynor-manor-010",
       "title": "Pick up the File:Poison_(item).png poison from …",
-      "text": "Pick up the File:Poison_(item).png poison from the kitchen",
+      "text": "Pick up the File:Poison_(item).png poison from the kitchen.",
       "manual": true,
       "world": [
         3109,
@@ -151,14 +151,14 @@
     },
     {
       "id": "draynor-manor-011",
-      "title": "Combine fish food and poison",
-      "text": "Combine fish food and poison",
+      "title": "Combine fish food and poison.",
+      "text": "Combine fish food and poison.",
       "manual": true
     },
     {
       "id": "draynor-manor-012",
       "title": "Go to the basement and File:Tinderbox.png …",
-      "text": "Go to the basement and File:Tinderbox.png light your logs to let them burn while you do the lever puzzle to get File:Ashes.png Ashes",
+      "text": "Go to the basement and File:Tinderbox.png light your logs to let them burn while you do the lever puzzle to get File:Ashes.png Ashes.",
       "manual": true,
       "object": 26761,
       "world": [
@@ -176,7 +176,7 @@
     {
       "id": "draynor-manor-014",
       "title": "Don't forget to pick up your …",
-      "text": "Don't forget to pick up your File:Ashes.png ashes as soon as your fire goes out",
+      "text": "Don't forget to pick up your File:Ashes.png ashes as soon as your fire goes out.",
       "complete": {
         "op": "or",
         "of": [
@@ -197,8 +197,8 @@
     },
     {
       "id": "draynor-manor-015",
-      "title": "Use the eastern manor stairs",
-      "text": "Use the eastern manor stairs",
+      "title": "Use the eastern manor stairs.",
+      "text": "Use the eastern manor stairs.",
       "manual": true,
       "world": [
         3090,
@@ -208,8 +208,8 @@
     },
     {
       "id": "draynor-manor-016",
-      "title": "Kill Count Draynor",
-      "text": "Kill Count Draynor",
+      "title": "Kill Count Draynor.",
+      "text": "Kill Count Draynor.",
       "manual": true,
       "world": [
         3103,
@@ -237,7 +237,7 @@
     {
       "id": "draynor-manor-019",
       "title": "Pick up a File:Spade.png spade and …",
-      "text": "Pick up a File:Spade.png spade and a File:Bronze_med_helm.png bronze med helm by the manor back door",
+      "text": "Pick up a File:Spade.png spade and a File:Bronze_med_helm.png bronze med helm by the manor back door.",
       "complete": {
         "op": "or",
         "of": [
@@ -264,7 +264,7 @@
     {
       "id": "draynor-manor-020",
       "title": "Exit the mansion, head around the …",
-      "text": "Exit the mansion, head around the north side. — File:Tap-to-drop_mode.png Drop File:Hammer.png hammer, File:Garlic.png garlic, File:Empty_jug.png wine/jug",
+      "text": "Exit the mansion, head around the north side. — File:Tap-to-drop_mode.png Drop File:Hammer.png hammer, File:Garlic.png garlic, File:Empty_jug.png wine/jug.",
       "manual": true,
       "world": [
         3103,
@@ -275,7 +275,7 @@
     {
       "id": "draynor-manor-021",
       "title": "Get the File:Key_(Ernest_the_Chicken).png key from the …",
-      "text": "Get the File:Key_(Ernest_the_Chicken).png key from the compost pile to the west of the manor",
+      "text": "Get the File:Key_(Ernest_the_Chicken).png key from the compost pile to the west of the manor.",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",
@@ -302,7 +302,7 @@
     {
       "id": "draynor-manor-022b",
       "title": "get the File:Pressure_gauge.png pressure gauge from …",
-      "text": "get the File:Pressure_gauge.png pressure gauge from it",
+      "text": "get the File:Pressure_gauge.png pressure gauge from it.",
       "manual": true,
       "world": [
         3088,
@@ -313,13 +313,13 @@
     {
       "id": "draynor-manor-023",
       "title": "Re-enter the mansion through the front …",
-      "text": "Re-enter the mansion through the front door",
+      "text": "Re-enter the mansion through the front door.",
       "manual": true
     },
     {
       "id": "draynor-manor-024",
       "title": "Pick up the File:Rubber_tube.png tube from …",
-      "text": "Pick up the File:Rubber_tube.png tube from the locked skeleton room behind the stairs",
+      "text": "Pick up the File:Rubber_tube.png tube from the locked skeleton room behind the stairs.",
       "manual": true,
       "world": [
         3088,
@@ -342,7 +342,7 @@
     {
       "id": "draynor-manor-026",
       "title": "Talk to him again to finish …",
-      "text": "Talk to him again to finish Ernest the Chicken",
+      "text": "Talk to him again to finish Ernest the Chicken.",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",
@@ -357,7 +357,7 @@
     {
       "id": "draynor-manor-027",
       "title": "File:Skull_(status)_icon.png Go back downstairs and die …",
-      "text": "File:Skull_(status)_icon.png Go back downstairs and die to the skeleton in the locked room. — File:Tap-to-drop_mode.png Drop the File:Key_(Ernest_the_Chicken).png key to the room",
+      "text": "File:Skull_(status)_icon.png Go back downstairs and die to the skeleton in the locked room. — File:Tap-to-drop_mode.png Drop the File:Key_(Ernest_the_Chicken).png key to the room.",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",

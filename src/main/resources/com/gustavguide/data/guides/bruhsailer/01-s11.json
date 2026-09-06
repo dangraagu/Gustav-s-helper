@@ -4,14 +4,77 @@
   "section": "Chapter 1: Get to da chopper earth staves — 1.1: Tutorial island up to and including Wintertodt",
   "steps": [
     {
-      "id": "s11-001",
+      "id": "s11-001a",
       "title": "Choose a swag look for your …",
-      "text": "Choose a swag look for your account (older guides will mention that you need to start as a female character - this is no longer required). Make sure you have two step authenticator enabled. For most of the guide it is assumed you carry your GP stack. All lamps, unless mentioned otherwise, go on Herblore until the end of Chapter 2 (Song Of The Elves completed). Grab a knife, jug and fill it with water, 2 buckets (hop once), cabbage, leather boots. Talk to Duke Horacio to start Rune Mysteries, burn logs to 15 firemaking, bank 5 ashes. Grab 110 logs and bank them.",
+      "text": "Choose a swag look for your account (older guides will mention that you need to start as a female character - this is no longer required). Make sure you have two step authenticator enabled. For most of the guide it is assumed you carry your GP stack. All lamps, unless mentioned otherwise",
+      "manual": true,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "s11-001b",
+      "title": "go on Herblore until the end …",
+      "text": "go on Herblore until the end of Chapter 2 (Song Of The Elves completed).",
       "complete": {
-        "op": "skill",
-        "skill": "FIREMAKING",
-        "level": 15,
-        "cmp": ">="
+        "op": "quest",
+        "quest": "SONG_OF_THE_ELVES",
+        "state": "FINISHED"
+      },
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "s11-001c",
+      "title": "Grab a knife, jug",
+      "text": "Grab a knife, jug",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 946,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 946,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 946,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "s11-001d",
+      "title": "fill it with water, 2 buckets …",
+      "text": "fill it with water, 2 buckets (hop once), cabbage, leather boots.",
+      "manual": true,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "s11-001e",
+      "title": "Talk to Duke Horacio to start …",
+      "text": "Talk to Duke Horacio to start Rune Mysteries",
+      "complete": {
+        "op": "quest",
+        "quest": "RUNE_MYSTERIES",
+        "state": "IN_PROGRESS"
       },
       "npc": 815,
       "world": [
@@ -21,23 +84,238 @@
       ]
     },
     {
-      "id": "s11-002",
-      "title": "Grab coins, a knife, 24 logs, …",
-      "text": "Grab coins, a knife, 24 logs, your mind and air runes. Pickpocket men to 235 gp total, suiciding if you die (HCIM can grab cabbages by world hopping in the cellar). Fletch the logs into arrow shafts as you move. Talk with Hans to check your age for the diary step. Talk to Veos in The Sheared Ram pub to start X Marks the Spot. Drop your mind and air runes, talk with the magic tutor to get a set of starter runes, pick up your mind and air runes. Buy a spade, hammer and a chisel in the general store. Talk to father Aereck to start Restless Ghost. Buy a steel axe from Bob. Dig in the tile north of the north-western window of his house for X Marks the Spot. Don’t throw away your bronze axe from Tutorial Island.",
+      "id": "s11-001f",
+      "title": "burn logs to 15 firemaking",
+      "text": "burn logs to 15 firemaking",
       "complete": {
-        "op": "and",
+        "op": "skill",
+        "skill": "FIREMAKING",
+        "level": 15,
+        "cmp": ">="
+      },
+      "note": "1-tick make redwood/rosewood pyre logs (needs Shades of Mort'ton) for fastest XP; else burn coloured/firelighter logs.",
+      "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Firemaking_training",
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "s11-001g",
+      "title": "bank 5 ashes.",
+      "text": "bank 5 ashes.",
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
+    },
+    {
+      "id": "s11-001h",
+      "title": "Grab 110 logs",
+      "text": "Grab 110 logs",
+      "complete": {
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "X_MARKS_THE_SPOT",
-            "state": "IN_PROGRESS"
+            "op": "itemAcquired",
+            "id": 1511,
+            "qty": 110
           },
           {
-            "op": "quest",
-            "quest": "THE_RESTLESS_GHOST",
-            "state": "IN_PROGRESS"
+            "op": "item",
+            "id": 1511,
+            "qty": 110,
+            "scope": "ANY"
           }
         ]
+      },
+      "item": 1511,
+      "world": [
+        2566,
+        3337,
+        0
+      ]
+    },
+    {
+      "id": "s11-001i",
+      "title": "bank them.",
+      "text": "bank them.",
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
+    },
+    {
+      "id": "s11-002a",
+      "title": "Grab coins, a knife, 24 logs, …",
+      "text": "Grab coins, a knife, 24 logs, your mind and air runes.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 556,
+            "qty": 24
+          },
+          {
+            "op": "item",
+            "id": 556,
+            "qty": 26,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 556,
+      "world": [
+        3215,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "s11-002b",
+      "title": "Pickpocket men to 235 gp total, …",
+      "text": "Pickpocket men to 235 gp total, suiciding if you die (HCIM can grab cabbages by world hopping in the cellar). Fletch the logs into arrow shafts as you move.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 52,
+            "qty": 235
+          },
+          {
+            "op": "item",
+            "id": 52,
+            "qty": 331,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 52,
+      "world": [
+        3215,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "s11-002c",
+      "title": "Talk with Hans to check your …",
+      "text": "Talk with Hans to check your age for the diary step.",
+      "manual": true,
+      "npc": 3105,
+      "world": [
+        3215,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "s11-002d",
+      "title": "Talk to Veos in The Sheared …",
+      "text": "Talk to Veos in The Sheared Ram pub to start X Marks the Spot.",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "s11-002e",
+      "title": "Drop your mind and air runes",
+      "text": "Drop your mind and air runes",
+      "manual": true,
+      "world": [
+        3215,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "s11-002f",
+      "title": "talk with the magic tutor to …",
+      "text": "talk with the magic tutor to get a set of starter runes",
+      "manual": true,
+      "world": [
+        3215,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "s11-002g",
+      "title": "pick up your mind and air …",
+      "text": "pick up your mind and air runes.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 556,
+            "qty": 25
+          },
+          {
+            "op": "item",
+            "id": 556,
+            "qty": 26,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 556,
+      "world": [
+        3215,
+        3219,
+        0
+      ]
+    },
+    {
+      "id": "s11-002h",
+      "title": "Buy a spade, hammer and a …",
+      "text": "Buy a spade, hammer and a chisel in the general store.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 952,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 952,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 952,
+      "world": [
+        1808,
+        3726,
+        0
+      ]
+    },
+    {
+      "id": "s11-002i",
+      "title": "Talk to father Aereck to start …",
+      "text": "Talk to father Aereck to start Restless Ghost.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "IN_PROGRESS"
       },
       "npc": 2812,
       "world": [
@@ -47,24 +325,259 @@
       ]
     },
     {
-      "id": "s11-003",
+      "id": "s11-002j",
+      "title": "Buy a steel axe from Bob.",
+      "text": "Buy a steel axe from Bob.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1353,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1353,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1353,
+      "world": [
+        3229,
+        3204,
+        0
+      ]
+    },
+    {
+      "id": "s11-002k",
+      "title": "Dig in the tile north of …",
+      "text": "Dig in the tile north of the north-western window of his house for X Marks the Spot. Don’t throw away your bronze axe from Tutorial Island.",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "s11-003a",
       "title": "Fletching the logs into arrow shafts …",
-      "text": "Fletching the logs into arrow shafts as you move, go south and do Misthalin Mystery. Head west to Father Urhney to get a ghostspeak amulet. Grab the leather gloves from his house. Run to Draynor village, grab and wear the forestry kit and buy 26 wines from Fortunato.",
+      "text": "Fletching the logs into arrow shafts as you move, go south and do Misthalin Mystery.",
       "complete": {
         "op": "quest",
         "quest": "MISTHALIN_MYSTERY",
         "state": "FINISHED"
       },
       "world": [
-        3078,
+        3237,
+        3155,
+        0
+      ]
+    },
+    {
+      "id": "s11-003b",
+      "title": "Head west to Father Urhney to …",
+      "text": "Head west to Father Urhney to get a ghostspeak amulet.",
+      "manual": true,
+      "npc": 923,
+      "world": [
+        3147,
+        3175,
+        0
+      ]
+    },
+    {
+      "id": "s11-003c",
+      "title": "Grab the leather gloves from his …",
+      "text": "Grab the leather gloves from his house.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1059,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1059,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1059,
+      "world": [
+        3237,
+        3155,
+        0
+      ]
+    },
+    {
+      "id": "s11-003d",
+      "title": "Run to Draynor village",
+      "text": "Run to Draynor village",
+      "world": [
+        3103,
+        3265,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3103,
+        "y": 3265,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s11-003e",
+      "title": "grab and wear the forestry kit",
+      "text": "grab and wear the forestry kit",
+      "manual": true,
+      "world": [
+        3237,
+        3155,
+        0
+      ]
+    },
+    {
+      "id": "s11-003f",
+      "title": "buy 26 wines from Fortunato.",
+      "text": "buy 26 wines from Fortunato.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1993,
+            "qty": 26
+          },
+          {
+            "op": "item",
+            "id": 1993,
+            "qty": 26,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1993,
+      "npc": 1260,
+      "world": [
+        3085,
         3251,
         0
       ]
     },
     {
-      "id": "s11-004",
+      "id": "s11-004a",
       "title": "Use the clan wars minigame teleport …",
-      "text": "Use the clan wars minigame teleport to go to Ferox’ enclave, restore your run energy if you wish (clan portal or northwest) and deposit all your items. Grab 7 iron bars (hop six times) and take the portal to Soul Wars (northeast, in the cave). Optional: only grab 2 iron bars and get the rest on Aldarin later. Bank your items, grab a knife, jug of water, bronze axe, steel axe, tinderbox, leather gloves, 5 wines and 18 logs, then exit the portal to Edgeville. Fletching arrow shafts as you move, head south and grab two nettles, then pull the lever to level 51 wilderness, then again to go to Ardougne, then again for the diary, then again to get back to Ardougne.",
+      "text": "Use the clan wars minigame teleport to go to Ferox’ enclave, restore your run energy if you wish (clan portal or northwest)",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-004b",
+      "title": "deposit all your items.",
+      "text": "deposit all your items.",
+      "manual": true,
+      "world": [
+        3130,
+        3629,
+        0
+      ]
+    },
+    {
+      "id": "s11-004c",
+      "title": "Grab 7 iron bars (hop six …",
+      "text": "Grab 7 iron bars (hop six times)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2351,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 2351,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2351,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-004d",
+      "title": "take the portal to Soul Wars …",
+      "text": "take the portal to Soul Wars (northeast, in the cave). Optional: only grab 2 iron bars",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2351,
+            "qty": 9
+          },
+          {
+            "op": "item",
+            "id": 2351,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2351,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-004e",
+      "title": "get the rest on Aldarin later.",
+      "text": "get the rest on Aldarin later.",
+      "manual": true,
+      "world": [
+        1391,
+        2935,
+        0
+      ]
+    },
+    {
+      "id": "s11-004f",
+      "title": "Bank your items",
+      "text": "Bank your items",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-004g",
+      "title": "grab a knife, jug of water, …",
+      "text": "grab a knife, jug of water, bronze axe, steel axe, tinderbox, leather gloves, 5 wines and 18 logs, then exit the portal to Edgeville. Fletching arrow shafts as you move",
       "complete": {
         "op": "or",
         "of": [
@@ -76,41 +589,119 @@
           {
             "op": "item",
             "id": 1059,
-            "qty": 2,
+            "qty": 4,
             "scope": "ANY"
           }
         ]
       },
       "item": 1059,
       "world": [
-        3087,
-        3522,
+        3094,
+        3493,
         0
       ]
     },
     {
-      "id": "s11-005",
+      "id": "s11-004h",
+      "title": "head south",
+      "text": "head south",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-004i",
+      "title": "grab two nettles, then pull the …",
+      "text": "grab two nettles, then pull the lever to level 51 wilderness, then again to go to Ardougne, then again for the diary, then again to get back to Ardougne.",
+      "manual": true,
+      "object": 26761,
+      "world": [
+        3090,
+        3475,
+        0
+      ]
+    },
+    {
+      "id": "s11-005a",
       "title": "Fletch all but one logs into …",
-      "text": "Fletch all but one logs into arrow shafts as you move south, talk to Ceril Carnillean to start Hazeel Cult. Grab two purple dyes (world hop to speed it up). Enter the cave east of the clocktower and talk to Clivet, side with Hazeel, exit the cave and run to the Monastery. Talk to Brother Omad to start Monk’s Friend.",
+      "text": "Fletch all but one logs into arrow shafts as you move south, talk to Ceril Carnillean to start Hazeel Cult.",
       "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "quest",
-            "quest": "HAZEEL_CULT",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "MONKS_FRIEND",
-            "state": "IN_PROGRESS"
-          }
-        ]
+        "op": "quest",
+        "quest": "HAZEEL_CULT",
+        "state": "IN_PROGRESS"
       },
       "npc": 12085,
       "world": [
         2569,
         3275,
+        0
+      ]
+    },
+    {
+      "id": "s11-005b",
+      "title": "Grab two purple dyes (world hop …",
+      "text": "Grab two purple dyes (world hop to speed it up).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1773,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1773,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1773,
+      "world": [
+        2569,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "s11-005c",
+      "title": "Enter the cave east of the …",
+      "text": "Enter the cave east of the clocktower",
+      "manual": true,
+      "world": [
+        2569,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "s11-005d",
+      "title": "talk to Clivet, side with Hazeel, …",
+      "text": "talk to Clivet, side with Hazeel, exit the cave",
+      "manual": true,
+      "world": [
+        2569,
+        3275,
+        0
+      ]
+    },
+    {
+      "id": "s11-005et",
+      "title": "run to the Monastery. Talk to …",
+      "text": "run to the Monastery. Talk to Brother Omad to start Monk’s Friend.",
+      "complete": {
+        "op": "quest",
+        "quest": "MONKS_FRIEND",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 4244,
+      "world": [
+        2607,
+        3211,
         0
       ]
     },
@@ -142,39 +733,133 @@
     {
       "id": "s11-006b",
       "title": "Eat your food if you take …",
-      "text": "Eat your food if you take damage",
+      "text": "Eat your food if you take damage.",
       "manual": true,
       "world": [
-        2569,
-        3275,
+        2607,
+        3211,
         0
       ]
     },
     {
-      "id": "s11-007",
+      "id": "s11-007a",
       "title": "Head to Ardougne general store (Aemad’s …",
-      "text": "Head to Ardougne general store (Aemad’s Adventuring Supplies), buy 3 ropes, 1 water-filled vial pack, 30 balls of wool, 7 papyrus. Restore your prayer at the East Ardougne church, check your insured pets at Probita, buy two silver bars from the Silver Merchant (hop worlds once). Steal cakes until you have at least 98 cakes and 14 bread (more cakes optional - this will get you to thieving thresholds and 90+ firemaking at wintertodt. If you want to go to level 99 collect 150 total instead), then steal 84 silk.",
+      "text": "Head to Ardougne general store (Aemad’s Adventuring Supplies)",
+      "manual": true,
+      "npc": 8682,
+      "world": [
+        2613,
+        3292,
+        0
+      ]
+    },
+    {
+      "id": "s11-007b",
+      "title": "buy 3 ropes, 1 water-filled vial …",
+      "text": "buy 3 ropes, 1 water-filled vial pack, 30 balls of wool, 7 papyrus. Restore your prayer at the East Ardougne church, check your insured pets at Probita",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 20742,
+            "id": 970,
+            "qty": 7
+          },
+          {
+            "op": "item",
+            "id": 970,
+            "qty": 7,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 970,
+      "npc": 5906,
+      "world": [
+        2621,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s11-007c",
+      "title": "buy two silver bars from the …",
+      "text": "buy two silver bars from the Silver Merchant (hop worlds once).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2355,
             "qty": 1
           },
           {
             "op": "item",
-            "id": 20742,
+            "id": 2355,
             "qty": 1,
             "scope": "ANY"
           }
         ]
       },
-      "item": 20742,
+      "item": 2355,
       "npc": 8722,
       "world": [
         2658,
         3316,
+        0
+      ]
+    },
+    {
+      "id": "s11-007d",
+      "title": "Steal cakes until you have at …",
+      "text": "Steal cakes until you have at least 98 cakes and 14 bread (more cakes optional - this will get you to thieving thresholds and 90+ firemaking at wintertodt. If you want to go to level 99 collect 150 total instead)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2309,
+            "qty": 14
+          },
+          {
+            "op": "item",
+            "id": 2309,
+            "qty": 15,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2309,
+      "world": [
+        1630,
+        3938,
+        0
+      ]
+    },
+    {
+      "id": "s11-007e",
+      "title": "steal 84 silk.",
+      "text": "steal 84 silk.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 950,
+            "qty": 84
+          },
+          {
+            "op": "item",
+            "id": 950,
+            "qty": 89,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 950,
+      "world": [
+        2613,
+        3292,
         0
       ]
     },
@@ -194,25 +879,143 @@
       ]
     },
     {
-      "id": "s11-009",
+      "id": "s11-009a",
       "title": "Take your gp, a small fishing …",
-      "text": "Take your gp, a small fishing net, knife and 5 more logs (if you are running low: make sure to leave 10 in the bank for future quests), fletch as you move and take the boat to Brimhaven, buy a swamp paste, 7 soda ash, 7 buckets of sand, a cake tin and a glassblowing pipe from Trader Stan. Head to Kangai Mau in the Shrimp and Parrot to start Tribal Totem. Return to Witchhaven and do the Sea Slug quest. Fish an anchovy or shrimp after the quest for Ardy diary. Buy a raw sardine, two fishing rods, a fly fishing rod, a harpoon, 10 fishing bait and a lobster pot from Lovecraft’s Tackle (Witchhaven). Continue Tribal Totem to the point where you collect the totem. Sell 73 silk back to the trader (leave 11 in the bank) for 60gp each and sell your oyster pearls to the general store.",
+      "text": "Take your gp, a small fishing net, knife and 5 more logs (if you are running low: make sure to leave 10 in the bank for future quests), fletch as you move",
+      "manual": true,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "s11-009b",
+      "title": "take the boat to Brimhaven",
+      "text": "take the boat to Brimhaven",
+      "manual": true,
+      "object": 10805,
+      "world": [
+        2789,
+        3174,
+        0
+      ]
+    },
+    {
+      "id": "s11-009c",
+      "title": "buy a swamp paste, 7 soda …",
+      "text": "buy a swamp paste, 7 soda ash, 7 buckets of sand, a cake tin and a glassblowing pipe from Trader Stan.",
       "complete": {
-        "op": "and",
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "TRIBAL_TOTEM",
-            "state": "IN_PROGRESS"
+            "op": "itemAcquired",
+            "id": 1785,
+            "qty": 7
           },
           {
-            "op": "quest",
-            "quest": "SEA_SLUG",
-            "state": "FINISHED"
+            "op": "item",
+            "id": 1785,
+            "qty": 7,
+            "scope": "ANY"
           }
         ]
       },
-      "npc": 5316,
+      "item": 1785,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "s11-009d",
+      "title": "Head to Kangai Mau in the …",
+      "text": "Head to Kangai Mau in the Shrimp and Parrot to start Tribal Totem.",
+      "complete": {
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2794,
+        3187,
+        0
+      ]
+    },
+    {
+      "id": "s11-009e",
+      "title": "Return to Witchhaven and do the …",
+      "text": "Return to Witchhaven and do the Sea Slug quest.",
+      "complete": {
+        "op": "quest",
+        "quest": "SEA_SLUG",
+        "state": "FINISHED"
+      },
+      "world": [
+        2717,
+        3303,
+        0
+      ]
+    },
+    {
+      "id": "s11-009f",
+      "title": "Fish an anchovy or shrimp after …",
+      "text": "Fish an anchovy or shrimp after the quest for Ardy diary.",
+      "manual": true,
+      "world": [
+        2924,
+        3181,
+        0
+      ]
+    },
+    {
+      "id": "s11-009g",
+      "title": "Buy a raw sardine, two fishing …",
+      "text": "Buy a raw sardine, two fishing rods, a fly fishing rod, a harpoon, 10 fishing bait and a lobster pot from Lovecraft’s Tackle (Witchhaven). Continue Tribal Totem to the point where you collect the totem.",
+      "complete": {
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2905,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "s11-009h",
+      "title": "Sell 73 silk back to the …",
+      "text": "Sell 73 silk back to the trader (leave 11 in the bank) for 60gp each",
+      "manual": true,
+      "world": [
+        2905,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "s11-009i",
+      "title": "sell your oyster pearls to the …",
+      "text": "sell your oyster pearls to the general store.",
+      "manual": true,
+      "world": [
+        2905,
+        3149,
+        0
+      ]
+    },
+    {
+      "id": "s11-010a",
+      "title": "Bring your coins, ghostspeak amulet, a …",
+      "text": "Bring your coins, ghostspeak amulet, a spade, 20 balls of wool, the tribal totem and treasure scroll. Head to Brimhaven",
+      "complete": {
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "FINISHED"
+      },
+      "item": 552,
       "world": [
         2794,
         3182,
@@ -220,35 +1023,200 @@
       ]
     },
     {
-      "id": "s11-010",
-      "title": "Bring your coins, ghostspeak amulet, a …",
-      "text": "Bring your coins, ghostspeak amulet, a spade, 20 balls of wool, the tribal totem and treasure scroll. Head to Brimhaven and complete Tribal Totem. Teleport to Lumbridge (optional: minigame teleport to clan wars first to restore run energy), talk to the restless ghost. Go to the back exit of Lumbridge Castle and dig to progress X Marks the Spot. Run north, and complete Sheep Shearer, grab seven onions. Run to Draynor and progress X Marks the Spot (twice). Buy a Chronicle, three teleport cards and a rainbow scarf from Diango. Put the cards in the chronicle. Grab the air talisman, a knife and logs (as before, make sure to leave 10 in the bank). Fletching as you move, head to the Wizards’ Tower with the air talisman, talk to Wizard Sedridor and trade the air talisman for a research package. Grab the ghost’s skull from the altar for Restless Ghost.",
+      "id": "s11-010b",
+      "title": "complete Tribal Totem.",
+      "text": "complete Tribal Totem.",
       "complete": {
-        "op": "and",
+        "op": "quest",
+        "quest": "TRIBAL_TOTEM",
+        "state": "FINISHED"
+      },
+      "world": [
+        2794,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "s11-010ct",
+      "title": "Teleport to Lumbridge (optional: minigame teleport …",
+      "text": "Teleport to Lumbridge (optional: minigame teleport to clan wars first to restore run energy), talk to the restless ghost.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3206,
+        0
+      ]
+    },
+    {
+      "id": "s11-010e",
+      "title": "Go to the back exit of …",
+      "text": "Go to the back exit of Lumbridge Castle",
+      "manual": true,
+      "object": 14880,
+      "world": [
+        3209,
+        3216,
+        0
+      ]
+    },
+    {
+      "id": "s11-010f",
+      "title": "dig to progress X Marks the …",
+      "text": "dig to progress X Marks the Spot.",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "s11-010g",
+      "title": "Run north",
+      "text": "Run north",
+      "manual": true,
+      "world": [
+        2794,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "s11-010h",
+      "title": "complete Sheep Shearer",
+      "text": "complete Sheep Shearer",
+      "complete": {
+        "op": "quest",
+        "quest": "SHEEP_SHEARER",
+        "state": "FINISHED"
+      },
+      "world": [
+        3190,
+        3273,
+        0
+      ]
+    },
+    {
+      "id": "s11-010i",
+      "title": "grab seven onions.",
+      "text": "grab seven onions.",
+      "complete": {
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "TRIBAL_TOTEM",
-            "state": "FINISHED"
+            "op": "itemAcquired",
+            "id": 1957,
+            "qty": 1
           },
           {
-            "op": "quest",
-            "quest": "THE_RESTLESS_GHOST",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "X_MARKS_THE_SPOT",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "SHEEP_SHEARER",
-            "state": "FINISHED"
+            "op": "item",
+            "id": 1957,
+            "qty": 1,
+            "scope": "ANY"
           }
         ]
       },
-      "item": 33138,
+      "item": 1957,
+      "world": [
+        2794,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "s11-010j",
+      "title": "Run to Draynor and progress X …",
+      "text": "Run to Draynor and progress X Marks the Spot (twice).",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3228,
+        3242,
+        0
+      ]
+    },
+    {
+      "id": "s11-010k",
+      "title": "Buy a Chronicle, three teleport cards …",
+      "text": "Buy a Chronicle, three teleport cards and a rainbow scarf from Diango. Put the cards in the chronicle.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 13658,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 13658,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 13658,
+      "world": [
+        3212,
+        3247,
+        0
+      ]
+    },
+    {
+      "id": "s11-010l",
+      "title": "Grab the air talisman, a knife …",
+      "text": "Grab the air talisman, a knife and logs (as before, make sure to leave 10 in the bank). Fletching as you move",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1438,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1438,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1438,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
+    },
+    {
+      "id": "s11-010mt",
+      "title": "head to the Wizards’ Tower with …",
+      "text": "head to the Wizards’ Tower with the air talisman, talk to Wizard Sedridor",
+      "manual": true,
+      "world": [
+        3209,
+        3219,
+        2
+      ]
+    },
+    {
+      "id": "s11-010o",
+      "title": "trade the air talisman for a …",
+      "text": "trade the air talisman for a research package.",
+      "manual": true,
       "npc": 11434,
       "world": [
         3253,
@@ -257,48 +1225,350 @@
       ]
     },
     {
-      "id": "s11-011",
-      "title": "Go back to Draynor bank. Read …",
-      "text": "Go back to Draynor bank. Read the notice board to start a Porcine of Interest, talk to Morgan to start Vampyre Slayer and take three garlic. Grab coins, a small fishing net and one empty bucket. Walk to Port Sarim and speak to Veos to complete X Marks the Spot (destroy the lamp and reclaim them later to put them on herblore). Start Pirate’s Treasure, and continue the quest. Fish at Musa point for the diary, then continue Pirate’s Treasure until you get the rum from the crate in Port Sarim. Buy a raw chicken, three raw beef, two cheese, eight redberries, one banana and three pots of flour, depositing items (not the raw meat!) in the deposit box near the Entrana monks if you need inventory space. Buy 16 feather packs from Gerrant one by one. Open the packs while running north to the range. Use your incredible skill to leave one beef raw (no action needed), cook one beef and burn one beef on the range (cook twice if needed). Buy an eye of newt from Betty. Talk to Frank to get the pirate’s key. Deposit all items except the bucket and coins in the deposit box. Head to Entrana and collect 10 planks (near the law altar) and two eggs (bank at deposit box). Speak with Captain Tock to start The Corsair Curse. Go to Sarah to progress A Porcine of Interest, buy 9 sacks, secateurs, seed dibber, rake, trowel, 3 plant pots, 1 watering can, 2 plant cures, then collect a bucket of milk from the dairy cow. Head to Falador, grab your coins, raw sardine and chronicle. Buy 2 woad leaves (offer 20gp to Wyson), start The Knight’s Sword and get told to talk to Reldo, start Black Knights’ Fortress.",
+      "id": "s11-010p",
+      "title": "Grab the ghost’s skull from the …",
+      "text": "Grab the ghost’s skull from the altar for Restless Ghost.",
       "complete": {
-        "op": "and",
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "s11-011a",
+      "title": "Go back to Draynor bank.",
+      "text": "Go back to Draynor bank.",
+      "world": [
+        3093,
+        3244,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3093,
+        "y": 3244,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s11-011b",
+      "title": "Read the notice board to start …",
+      "text": "Read the notice board to start a Porcine of Interest",
+      "complete": {
+        "op": "quest",
+        "quest": "A_PORCINE_OF_INTEREST",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3086,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "s11-011c",
+      "title": "talk to Morgan to start Vampyre …",
+      "text": "talk to Morgan to start Vampyre Slayer",
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 3479,
+      "world": [
+        3098,
+        3268,
+        0
+      ]
+    },
+    {
+      "id": "s11-011d",
+      "title": "take three garlic.",
+      "text": "take three garlic.",
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "s11-011e",
+      "title": "Grab coins, a small fishing net …",
+      "text": "Grab coins, a small fishing net and one empty bucket.",
+      "complete": {
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "A_PORCINE_OF_INTEREST",
-            "state": "IN_PROGRESS"
+            "op": "itemAcquired",
+            "id": 303,
+            "qty": 1
           },
           {
-            "op": "quest",
-            "quest": "VAMPYRE_SLAYER",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "X_MARKS_THE_SPOT",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "PIRATES_TREASURE",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "THE_CORSAIR_CURSE",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "THE_KNIGHTS_SWORD",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "BLACK_KNIGHTS_FORTRESS",
-            "state": "IN_PROGRESS"
+            "op": "item",
+            "id": 303,
+            "qty": 2,
+            "scope": "ANY"
           }
         ]
+      },
+      "item": 303,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "s11-011ft",
+      "title": "Walk to Port Sarim, speak to …",
+      "text": "Walk to Port Sarim, speak to Veos to complete X Marks the Spot (destroy the lamp and reclaim them later to put them on herblore).",
+      "complete": {
+        "op": "quest",
+        "quest": "X_MARKS_THE_SPOT",
+        "state": "FINISHED"
+      },
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "s11-011h",
+      "title": "Start Pirate’s Treasure, and continue the …",
+      "text": "Start Pirate’s Treasure, and continue the quest.",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "s11-011i",
+      "title": "Fish at Musa point for the …",
+      "text": "Fish at Musa point for the diary, then continue Pirate’s Treasure until you get the rum from the crate in Port Sarim.",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3053,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "s11-011j",
+      "title": "Buy a raw chicken, three raw …",
+      "text": "Buy a raw chicken, three raw beef, two cheese, eight redberries, one banana and three pots of flour, depositing items (not the raw meat!) in the deposit box near the Entrana monks if you need inventory space.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2138,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2138,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2138,
+      "npc": 4062,
+      "world": [
+        2851,
+        3350,
+        0
+      ]
+    },
+    {
+      "id": "s11-011k",
+      "title": "Buy 16 feather packs from Gerrant …",
+      "text": "Buy 16 feather packs from Gerrant one by one.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 314,
+            "qty": 16
+          },
+          {
+            "op": "item",
+            "id": 314,
+            "qty": 19,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 314,
+      "npc": 2891,
+      "world": [
+        3013,
+        3224,
+        0
+      ]
+    },
+    {
+      "id": "s11-011l",
+      "title": "Open the packs while running north …",
+      "text": "Open the packs while running north to the range.",
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "s11-011m",
+      "title": "Use your incredible skill to leave …",
+      "text": "Use your incredible skill to leave one beef raw (no action needed)",
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "s11-011n",
+      "title": "cook one beef",
+      "text": "cook one beef",
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "s11-011o",
+      "title": "burn one beef on the range …",
+      "text": "burn one beef on the range (cook twice if needed).",
+      "manual": true,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "s11-011p",
+      "title": "Buy an eye of newt from …",
+      "text": "Buy an eye of newt from Betty.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 221,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 221,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 221,
+      "npc": 5905,
+      "world": [
+        3014,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "s11-011q",
+      "title": "Talk to Frank to get the …",
+      "text": "Talk to Frank to get the pirate’s key.",
+      "manual": true,
+      "npc": 4225,
+      "world": [
+        2742,
+        3577,
+        0
+      ]
+    },
+    {
+      "id": "s11-011r",
+      "title": "Deposit all items except the bucket …",
+      "text": "Deposit all items except the bucket and coins in the deposit box.",
+      "manual": true,
+      "world": [
+        2725,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "s11-011s",
+      "title": "Head to Entrana",
+      "text": "Head to Entrana",
+      "manual": true,
+      "npc": 4062,
+      "world": [
+        2851,
+        3350,
+        0
+      ]
+    },
+    {
+      "id": "s11-011t",
+      "title": "collect 10 planks (near the law …",
+      "text": "collect 10 planks (near the law altar) and two eggs (bank at deposit box).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 960,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 960,
+            "qty": 24,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 960,
+      "world": [
+        2857,
+        3380,
+        0
+      ]
+    },
+    {
+      "id": "s11-011u",
+      "title": "Speak with Captain Tock to start …",
+      "text": "Speak with Captain Tock to start The Corsair Curse.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_CORSAIR_CURSE",
+        "state": "IN_PROGRESS"
       },
       "npc": 7956,
       "world": [
@@ -308,9 +1578,246 @@
       ]
     },
     {
-      "id": "s11-012",
+      "id": "s11-011v",
+      "title": "Go to Sarah to progress A …",
+      "text": "Go to Sarah to progress A Porcine of Interest",
+      "complete": {
+        "op": "quest",
+        "quest": "A_PORCINE_OF_INTEREST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3086,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "s11-011w",
+      "title": "buy 9 sacks, secateurs, seed dibber, …",
+      "text": "buy 9 sacks, secateurs, seed dibber, rake, trowel, 3 plant pots, 1 watering can, 2 plant cures",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 5331,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 5331,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 5331,
+      "world": [
+        3078,
+        3251,
+        0
+      ]
+    },
+    {
+      "id": "s11-011x",
+      "title": "collect a bucket of milk from …",
+      "text": "collect a bucket of milk from the dairy cow.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1927,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1927,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1927,
+      "object": 8689,
+      "world": [
+        3172,
+        3317,
+        0
+      ]
+    },
+    {
+      "id": "s11-011y",
+      "title": "Head to Falador",
+      "text": "Head to Falador",
+      "world": [
+        3000,
+        3360,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3000,
+        "y": 3360,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s11-011z",
+      "title": "grab your coins, raw sardine and …",
+      "text": "grab your coins, raw sardine and chronicle.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 327,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 327,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 327,
+      "world": [
+        3093,
+        3244,
+        0
+      ]
+    },
+    {
+      "id": "s11-01126",
+      "title": "Buy 2 woad leaves (offer 20gp …",
+      "text": "Buy 2 woad leaves (offer 20gp to Wyson)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1793,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1793,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1793,
+      "world": [
+        2957,
+        3388,
+        0
+      ]
+    },
+    {
+      "id": "s11-01127",
+      "title": "start The Knight’s Sword",
+      "text": "start The Knight’s Sword",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "s11-01128",
+      "title": "get told to talk to Reldo",
+      "text": "get told to talk to Reldo",
+      "manual": true,
+      "npc": 4243,
+      "world": [
+        3211,
+        3494,
+        0
+      ]
+    },
+    {
+      "id": "s11-01129",
+      "title": "start Black Knights’ Fortress.",
+      "text": "start Black Knights’ Fortress.",
+      "complete": {
+        "op": "quest",
+        "quest": "BLACK_KNIGHTS_FORTRESS",
+        "state": "IN_PROGRESS"
+      },
+      "object": 2337,
+      "world": [
+        3016,
+        3514,
+        0
+      ]
+    },
+    {
+      "id": "s11-012a",
       "title": "Use your chronicle to teleport to …",
-      "text": "Use your chronicle to teleport to Varrock (optional: clan wars teleport to restore run energy first). Start Gertrude's cat, pick up some doogle leaves, go to Varrock square. Talk to Aris Maye (formerly Gypsy Aris) to start Demon Slayer, Romeo to start Romeo and Juliet, Shilop and Wilough to progress Gertrude's Cat, Noah to start and complete Children of the Sun, Sir Prysin downstairs to progress Demon Slayer (and again), Captain Rovin to progress Demon Slayer, Reldo to progress The Knight's Sword and start Shield of Arrav (then check the book and speak with Reldo again), grab the pie dish in the kitchen, fill your bucket with water and use the bucket of water on the drain outside the kitchen to flush the Demon Slayer key, speak with King Roald to start Priest in Peril, head east down the manhole and collect the key, go back out and north to the estate agent and collect a saw, start Daddy’s Home.",
+      "text": "Use your chronicle to teleport to Varrock (optional: clan wars teleport to restore run energy first).",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-012b",
+      "title": "Start Gertrude's cat",
+      "text": "Start Gertrude's cat",
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3148,
+        3413,
+        0
+      ]
+    },
+    {
+      "id": "s11-012c",
+      "title": "pick up some doogle leaves",
+      "text": "pick up some doogle leaves",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1573,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1573,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1573,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-012dt",
+      "title": "go to Varrock square. Talk to …",
+      "text": "go to Varrock square. Talk to Aris Maye (formerly Gypsy Aris) to start Demon Slayer, Romeo to start Romeo and Juliet, Shilop and Wilough to progress Gertrude's Cat, Noah to start",
       "complete": {
         "op": "and",
         "of": [
@@ -328,7 +1835,23 @@
             "op": "quest",
             "quest": "GERTRUDES_CAT",
             "state": "FINISHED"
-          },
+          }
+        ]
+      },
+      "npc": 7723,
+      "world": [
+        3151,
+        3413,
+        0
+      ]
+    },
+    {
+      "id": "s11-012f",
+      "title": "complete Children of the Sun, Sir …",
+      "text": "complete Children of the Sun, Sir Prysin downstairs to progress Demon Slayer (and again), Captain Rovin to progress Demon Slayer, Reldo to progress The Knight's Sword",
+      "complete": {
+        "op": "and",
+        "of": [
           {
             "op": "quest",
             "quest": "CHILDREN_OF_THE_SUN",
@@ -336,23 +1859,13 @@
           },
           {
             "op": "quest",
-            "quest": "THE_KNIGHTS_SWORD",
+            "quest": "DEMON_SLAYER",
             "state": "FINISHED"
           },
           {
             "op": "quest",
-            "quest": "SHIELD_OF_ARRAV",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "PRIEST_IN_PERIL",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "DADDYS_HOME",
-            "state": "IN_PROGRESS"
+            "quest": "THE_KNIGHTS_SWORD",
+            "state": "FINISHED"
           }
         ]
       },
@@ -364,9 +1877,220 @@
       ]
     },
     {
-      "id": "s11-013",
+      "id": "s11-012g",
+      "title": "start Shield of Arrav (then check …",
+      "text": "start Shield of Arrav (then check the book and speak with Reldo again)",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 4243,
+      "world": [
+        3211,
+        3494,
+        0
+      ]
+    },
+    {
+      "id": "s11-012h",
+      "title": "grab the pie dish in the …",
+      "text": "grab the pie dish in the kitchen",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2313,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2313,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2313,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-012i",
+      "title": "fill your bucket with water",
+      "text": "fill your bucket with water",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-012j",
+      "title": "use the bucket of water on …",
+      "text": "use the bucket of water on the drain outside the kitchen to flush the Demon Slayer key",
+      "complete": {
+        "op": "quest",
+        "quest": "DEMON_SLAYER",
+        "state": "FINISHED"
+      },
+      "object": 17424,
+      "world": [
+        3225,
+        3496,
+        0
+      ]
+    },
+    {
+      "id": "s11-012k",
+      "title": "speak with King Roald to start …",
+      "text": "speak with King Roald to start Priest in Peril",
+      "complete": {
+        "op": "quest",
+        "quest": "PRIEST_IN_PERIL",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 5215,
+      "world": [
+        3222,
+        3473,
+        0
+      ]
+    },
+    {
+      "id": "s11-012l",
+      "title": "head east down the manhole",
+      "text": "head east down the manhole",
+      "manual": true,
+      "object": 882,
+      "world": [
+        3237,
+        3458,
+        0
+      ]
+    },
+    {
+      "id": "s11-012m",
+      "title": "collect the key",
+      "text": "collect the key",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-012n",
+      "title": "go back out and north to …",
+      "text": "go back out and north to the estate agent",
+      "manual": true,
+      "npc": 3097,
+      "world": [
+        2638,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s11-012o",
+      "title": "collect a saw",
+      "text": "collect a saw",
+      "manual": true,
+      "world": [
+        3130,
+        3622,
+        0
+      ]
+    },
+    {
+      "id": "s11-012p",
+      "title": "start Daddy’s Home.",
+      "text": "start Daddy’s Home.",
+      "complete": {
+        "op": "quest",
+        "quest": "DADDYS_HOME",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "s11-013a",
       "title": "Optional but recommended: slap the combat …",
-      "text": "Optional but recommended: slap the combat dummies to get 5 attack so you can equip your steel axe later at wintertodt. Go to the Varrock East bank, take the Pirates’ Treasure key, research package, hammer, saw, some runes for casting wind strike and coins. Note: if you want to join the Phoenix gang, follow the instructions to complete Shield of Arrav in this guide step (yellow, italicized). However, it is recommended to postpone the quest and join the Black Arm Gang later (red, underlined), since that is usually in higher demand. Go to the Varrock center, talk to Baraek and pay him 20gp to progress Shield of Arrav (Phoenix clan) make sure to check all dialogue options. Make sure you have at least 3704 gp left after the next Aubury shopping trip. Go to Aubury, give him the research notes and continue the dialogue to get offered a cup of tea - this restores your run energy. Buy 100 mind, 100 air, 50 water, 50 earth and 20 fire runes (no rune packs). Speak with Dimintheis in Varrock East to start Family Crest. Head to Old Man Yarlo for Daddy’s home and progress the miniquest to the point you collect the waxwood logs from the crates in the kitchen. Head south to the Phoenix hideout and talk to Straven to progress Shield of Arrav then head to the Blue Moon Inn, go upstairs and open the chest at the end of the hall, read the message (you can drop it after). Go back downstairs and kill Johnny the beard (with magic) and pick up the report. Talk to Dr Harlow to progress Vampyre Slayer, buy him a beer. Buy an extra beer for later. Go back to Straven, give him the report to get the Weapon store key. Grab half of the Shield of Arrav. From now on every time you are in Varrock you may complete Shield of Arrav with a partner, at your own convenience (sooner is better). Use clan chat “osrs soa” to find a partner. If you plan to join the Black Arm Gang: head southwest to Charlie the Tramp, speak with him, then enter the Black Arm Gang hideout to the west, speak with Katrine and progress the quest.",
+      "text": "Optional but recommended: slap the combat dummies to get 5 attack so you can equip your steel axe later at wintertodt. Go to the Varrock East bank",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013b",
+      "title": "take the Pirates’ Treasure key, research …",
+      "text": "take the Pirates’ Treasure key, research package, hammer, saw, some runes for casting wind strike and coins. Note: if you want to join the Phoenix gang, follow the instructions to complete Shield of Arrav in this guide step (yellow, italicized). However, it is recommended to postpone the quest and join the Black Arm Gang later (red, underlined), since that is usually in higher demand.",
+      "complete": {
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "PIRATES_TREASURE",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "SHIELD_OF_ARRAV",
+            "state": "FINISHED"
+          }
+        ]
+      },
+      "npc": 11434,
+      "world": [
+        3253,
+        3401,
+        0
+      ]
+    },
+    {
+      "id": "s11-013ct",
+      "title": "Go to the Varrock center, talk …",
+      "text": "Go to the Varrock center, talk to Baraek",
+      "manual": true,
+      "npc": 2881,
+      "world": [
+        3218,
+        3435,
+        0
+      ]
+    },
+    {
+      "id": "s11-013e",
+      "title": "pay him 20gp to progress Shield …",
+      "text": "pay him 20gp to progress Shield of Arrav (Phoenix clan) make sure to check all dialogue options.",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013f",
+      "title": "Make sure you have at least …",
+      "text": "Make sure you have at least 3704 gp left after the next Aubury shopping trip.",
       "manual": true,
       "npc": 11434,
       "world": [
@@ -376,45 +2100,718 @@
       ]
     },
     {
-      "id": "s11-014",
-      "title": "Go to the Varrock East bank. …",
-      "text": "Go to the Varrock East bank. Grab a bucket of milk, raw sardine, doogle leaves, steel axe, chronicle, 3650 gp, waxwood logs, knife and all but 10 of your logs (if you have more than that remaining). Fletch remaining logs (of the original 100, so 1500 arrow shafts) into arrow shafts as you run to the east and speak with Regulus Cento to take the quetzal to Varlamore. Travel back to Varrock via quetzal and run north to the sawmill. Enter the Lumber Yard, proceed with Gertrude's Cat until the cat goes home. Chop down a dying tree. Make the logs into a plank, buy 5 bolts of cloth and 100 steel nails, turn the waxwood logs into planks. Head east and start Rag and Bone Man I. Teleport using the chronicle, speak to Gertrude and complete the quest. Speak with Juliet. Go to the bank and grab a saw, hammer, 10 planks, 5 bolts of cloth, 3 waxwood logs, Julia’s letter and your steel nails. Give the letter to Romeo. Go to Old Man Yarlo and fix his house. Go to Marlo and complete Daddy’s Home, enter the church and speak with Father Lawrence to progress Romeo & Juliet.",
+      "id": "s11-013g",
+      "title": "Go to Aubury",
+      "text": "Go to Aubury",
+      "manual": true,
+      "npc": 11434,
+      "world": [
+        3253,
+        3401,
+        0
+      ]
+    },
+    {
+      "id": "s11-013h",
+      "title": "give him the research notes and …",
+      "text": "give him the research notes and continue the dialogue to get offered a cup of tea - this restores your run energy.",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013i",
+      "title": "Buy 100 mind, 100 air, 50 …",
+      "text": "Buy 100 mind, 100 air, 50 water, 50 earth and 20 fire runes (no rune packs).",
       "complete": {
-        "op": "and",
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "GERTRUDES_CAT",
-            "state": "FINISHED"
+            "op": "itemAcquired",
+            "id": 554,
+            "qty": 20
           },
           {
-            "op": "quest",
-            "quest": "RAG_AND_BONE_MAN_I",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "DADDYS_HOME",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "ROMEO__JULIET",
-            "state": "FINISHED"
+            "op": "item",
+            "id": 554,
+            "qty": 20,
+            "scope": "ANY"
           }
         ]
       },
-      "npc": 5038,
+      "item": 554,
       "world": [
-        3281,
+        3253,
+        3402,
+        0
+      ]
+    },
+    {
+      "id": "s11-013j",
+      "title": "Speak with Dimintheis in Varrock East …",
+      "text": "Speak with Dimintheis in Varrock East to start Family Crest.",
+      "complete": {
+        "op": "quest",
+        "quest": "FAMILY_CREST",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 4984,
+      "world": [
+        3280,
+        3404,
+        0
+      ]
+    },
+    {
+      "id": "s11-013k",
+      "title": "Head to Old Man Yarlo for …",
+      "text": "Head to Old Man Yarlo for Daddy’s home and progress the miniquest to the point you collect the waxwood logs from the crates in the kitchen.",
+      "complete": {
+        "op": "quest",
+        "quest": "DADDYS_HOME",
+        "state": "FINISHED"
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "s11-013lt",
+      "title": "Head south to the Phoenix hideout, …",
+      "text": "Head south to the Phoenix hideout, talk to Straven to progress Shield of Arrav",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      }
+    },
+    {
+      "id": "s11-013n",
+      "title": "head to the Blue Moon Inn",
+      "text": "head to the Blue Moon Inn",
+      "world": [
+        3224,
+        3398,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3224,
+        "y": 3398,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s11-013o",
+      "title": "go upstairs",
+      "text": "go upstairs",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013p",
+      "title": "open the chest at the end …",
+      "text": "open the chest at the end of the hall",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013q",
+      "title": "read the message (you can drop …",
+      "text": "read the message (you can drop it after).",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013r",
+      "title": "Go back downstairs",
+      "text": "Go back downstairs",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013s",
+      "title": "kill Johnny the beard (with magic)",
+      "text": "kill Johnny the beard (with magic)",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013t",
+      "title": "pick up the report.",
+      "text": "pick up the report.",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013u",
+      "title": "Talk to Dr Harlow to progress …",
+      "text": "Talk to Dr Harlow to progress Vampyre Slayer",
+      "complete": {
+        "op": "quest",
+        "quest": "VAMPYRE_SLAYER",
+        "state": "FINISHED"
+      },
+      "npc": 3480,
+      "world": [
+        3222,
+        3399,
+        0
+      ]
+    },
+    {
+      "id": "s11-013v",
+      "title": "buy him a beer.",
+      "text": "buy him a beer.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1917,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1917,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1917,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "s11-013w",
+      "title": "Buy an extra beer for later.",
+      "text": "Buy an extra beer for later.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1917,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1917,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1917,
+      "world": [
+        3216,
+        3416,
+        0
+      ]
+    },
+    {
+      "id": "s11-013x",
+      "title": "Go back to Straven",
+      "text": "Go back to Straven",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013y",
+      "title": "give him the report to get …",
+      "text": "give him the report to get the Weapon store key.",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-013z",
+      "title": "Grab half of the Shield of …",
+      "text": "Grab half of the Shield of Arrav. From now on every time you are in Varrock you may complete Shield of Arrav with a partner, at your own convenience (sooner is better).",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s11-01326",
+      "title": "Use clan chat “osrs soa” to …",
+      "text": "Use clan chat “osrs soa” to find a partner. If you plan to join the Black Arm Gang: head southwest to Charlie the Tramp",
+      "manual": true,
+      "npc": 1495,
+      "world": [
+        2607,
+        3264,
+        0
+      ]
+    },
+    {
+      "id": "s11-01327",
+      "title": "speak with him",
+      "text": "speak with him",
+      "manual": true,
+      "world": [
+        2607,
+        3264,
+        0
+      ]
+    },
+    {
+      "id": "s11-01328",
+      "title": "enter the Black Arm Gang hideout …",
+      "text": "enter the Black Arm Gang hideout to the west",
+      "manual": true,
+      "world": [
+        2607,
+        3264,
+        0
+      ]
+    },
+    {
+      "id": "s11-01329",
+      "title": "speak with Katrine and progress the …",
+      "text": "speak with Katrine and progress the quest.",
+      "manual": true,
+      "npc": 5210,
+      "world": [
+        3185,
+        3385,
+        0
+      ]
+    },
+    {
+      "id": "s11-014a",
+      "title": "Go to the Varrock East bank.",
+      "text": "Go to the Varrock East bank.",
+      "world": [
+        3254,
+        3420,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3254,
+        "y": 3420,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s11-014b",
+      "title": "Grab a bucket of milk, raw …",
+      "text": "Grab a bucket of milk, raw sardine, doogle leaves, steel axe, chronicle, 3650 gp, waxwood logs, knife and all but 10 of your logs (if you have more than that remaining). Fletch remaining logs (of the original 100, so 1500 arrow shafts) into arrow shafts as you run to the east",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1927,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 1927,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1927,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-014c",
+      "title": "speak with Regulus Cento to take …",
+      "text": "speak with Regulus Cento to take the quetzal to Varlamore.",
+      "manual": true,
+      "npc": 12885,
+      "world": [
+        1701,
+        3143,
+        0
+      ]
+    },
+    {
+      "id": "s11-014d",
+      "title": "Travel back to Varrock via quetzal",
+      "text": "Travel back to Varrock via quetzal",
+      "world": [
+        3210,
+        3448,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3210,
+        "y": 3448,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s11-014e",
+      "title": "run north to the sawmill.",
+      "text": "run north to the sawmill.",
+      "manual": true,
+      "npc": 3101,
+      "world": [
+        3302,
+        3492,
+        0
+      ]
+    },
+    {
+      "id": "s11-014f",
+      "title": "Enter the Lumber Yard, proceed with …",
+      "text": "Enter the Lumber Yard, proceed with Gertrude's Cat until the cat goes home.",
+      "complete": {
+        "op": "quest",
+        "quest": "GERTRUDES_CAT",
+        "state": "FINISHED"
+      },
+      "world": [
+        3148,
         3413,
         0
       ]
     },
     {
-      "id": "s11-015",
+      "id": "s11-014g",
+      "title": "Chop down a dying tree.",
+      "text": "Chop down a dying tree.",
+      "manual": true,
+      "object": 3648,
+      "world": [
+        3308,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s11-014h",
+      "title": "Make the logs into a plank",
+      "text": "Make the logs into a plank",
+      "manual": true,
+      "world": [
+        3308,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s11-014i",
+      "title": "buy 5 bolts of cloth and …",
+      "text": "buy 5 bolts of cloth and 100 steel nails",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1539,
+            "qty": 100
+          },
+          {
+            "op": "item",
+            "id": 1539,
+            "qty": 803,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1539,
+      "world": [
+        3207,
+        3415,
+        0
+      ]
+    },
+    {
+      "id": "s11-014j",
+      "title": "turn the waxwood logs into planks.",
+      "text": "turn the waxwood logs into planks.",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-014k",
+      "title": "Head east",
+      "text": "Head east",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-014l",
+      "title": "start Rag and Bone Man I",
+      "text": "start Rag and Bone Man I",
+      "complete": {
+        "op": "quest",
+        "quest": "RAG_AND_BONE_MAN_I",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3362,
+        3502,
+        0
+      ]
+    },
+    {
+      "id": "s11-014mt",
+      "title": "Teleport using the chronicle, speak to …",
+      "text": "Teleport using the chronicle, speak to Gertrude",
+      "manual": true,
+      "npc": 7723,
+      "world": [
+        3151,
+        3413,
+        0
+      ]
+    },
+    {
+      "id": "s11-014o",
+      "title": "complete the quest.",
+      "text": "complete the quest.",
+      "manual": true,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-014p",
+      "title": "Speak with Juliet.",
+      "text": "Speak with Juliet.",
+      "manual": true,
+      "npc": 5035,
+      "world": [
+        3158,
+        3427,
+        1
+      ]
+    },
+    {
+      "id": "s11-014q",
+      "title": "Go to the bank",
+      "text": "Go to the bank",
+      "world": [
+        3185,
+        3441,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3185,
+        "y": 3441,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s11-014r",
+      "title": "grab a saw, hammer, 10 planks, …",
+      "text": "grab a saw, hammer, 10 planks, 5 bolts of cloth, 3 waxwood logs, Julia’s letter and your steel nails.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1539,
+            "qty": 103
+          },
+          {
+            "op": "item",
+            "id": 1539,
+            "qty": 803,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1539,
+      "world": [
+        3254,
+        3420,
+        0
+      ]
+    },
+    {
+      "id": "s11-014s",
+      "title": "Give the letter to Romeo.",
+      "text": "Give the letter to Romeo.",
+      "manual": true,
+      "npc": 5037,
+      "world": [
+        3211,
+        3422,
+        0
+      ]
+    },
+    {
+      "id": "s11-014t",
+      "title": "Go to Old Man Yarlo and …",
+      "text": "Go to Old Man Yarlo and fix his house.",
+      "manual": true,
+      "npc": 10425,
+      "world": [
+        3240,
+        3395,
+        0
+      ]
+    },
+    {
+      "id": "s11-014u",
+      "title": "Go to Marlo",
+      "text": "Go to Marlo",
+      "manual": true,
+      "npc": 10408,
+      "world": [
+        3241,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "s11-014v",
+      "title": "complete Daddy’s Home",
+      "text": "complete Daddy’s Home",
+      "complete": {
+        "op": "quest",
+        "quest": "DADDYS_HOME",
+        "state": "FINISHED"
+      },
+      "world": [
+        3241,
+        3471,
+        0
+      ]
+    },
+    {
+      "id": "s11-014w",
+      "title": "enter the church",
+      "text": "enter the church",
+      "manual": true,
+      "world": [
+        3208,
+        3494,
+        1
+      ]
+    },
+    {
+      "id": "s11-014x",
+      "title": "speak with Father Lawrence to progress …",
+      "text": "speak with Father Lawrence to progress Romeo & Juliet.",
+      "complete": {
+        "op": "quest",
+        "quest": "ROMEO__JULIET",
+        "state": "FINISHED"
+      },
+      "npc": 5038,
+      "world": [
+        3254,
+        3483,
+        0
+      ]
+    },
+    {
+      "id": "s11-015a",
       "title": "Bank, grab your hammer, saw, steel …",
-      "text": "Bank, grab your hammer, saw, steel nails, one POH tab, GP, burnt meat, eye of newt, onion, 18 planks, 5 noted bolts of cloth and 5 noted planks (so there are 3 planks left in your bank). Break the POH tab and use your planks to train construction (6 wooden chairs, unnote your planks and cloth at Phials, 1 crude wooden chair, 1 brown rug and 1 torn curtains). Talk to Hetty to start Witch’s Potion, kill a rat, then return to Hetty complete Witch’s Potion.",
+      "text": "Bank, grab your hammer, saw, steel nails, one POH tab, GP, burnt meat, eye of newt, onion, 18 planks, 5 noted bolts of cloth and 5 noted planks (so there are 3 planks left in your bank). Break the POH tab",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 221,
+            "qty": 2
+          },
+          {
+            "op": "item",
+            "id": 221,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 221,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "s11-015b",
+      "title": "use your planks to train construction …",
+      "text": "use your planks to train construction (6 wooden chairs, unnote your planks and cloth at Phials, 1 crude wooden chair, 1 brown rug and 1 torn curtains).",
+      "manual": true,
+      "world": [
+        3185,
+        3441,
+        0
+      ]
+    },
+    {
+      "id": "s11-015c",
+      "title": "Talk to Hetty to start Witch’s …",
+      "text": "Talk to Hetty to start Witch’s Potion",
       "complete": {
         "op": "quest",
         "quest": "WITCHS_POTION",
@@ -428,41 +2825,199 @@
       ]
     },
     {
-      "id": "s11-016",
-      "title": "Minigame teleport to Soul Wars. Chop …",
-      "text": "Minigame teleport to Soul Wars. Chop teak logs on a forestry world - world 444 is recommended as it is usually the most popular - and burn them to level 50 firemaking (note: it would theoretically be faster to 2t, but the birds will actually just kill you at your current stats).",
+      "id": "s11-015d",
+      "title": "kill a rat",
+      "text": "kill a rat",
       "manual": true,
       "world": [
-        2185,
-        2988,
+        3185,
+        3441,
         0
       ]
     },
     {
-      "id": "s11-017",
-      "title": "Minigame teleport to Fishing Trawler, grab …",
-      "text": "Minigame teleport to Fishing Trawler, grab your gp, leather gloves, spade, hammer, saw, one beer, a house teleport, 1500 arrow shafts and 1501 feathers and head north. Complete the Tower of Life. Adding feathers to arrow shafts as you move, break another POH tab, walk to Port Sarim and talk to Veos to go to Zeah. Destroy the XP lamp again. Do the Client of Kourend quest up to and including the point where you activate the orb at the Dark Altar (use the mine cart system to move around). While visiting Jennifer, buy shears from her shop, then visit the Shayzien Styles directly west of her general store, buy a chef’s hat, grab an orange dye and a black wizard’s hat (spawn in the building), and do a lap of the Shayzien agility course for the diary. When leaving Shayzien dig up the Clue hunter garb along the way (just north of the bridge heading east, Clue hunter garb - OSRS Wiki). Continue the quest until visiting the Dark Altar (use the mine cart to get there), then head to Wintertodt (again, mine cart to Northern Tundras).",
+      "id": "s11-015e",
+      "title": "return to Hetty complete Witch’s Potion.",
+      "text": "return to Hetty complete Witch’s Potion.",
       "complete": {
-        "op": "and",
+        "op": "quest",
+        "quest": "WITCHS_POTION",
+        "state": "FINISHED"
+      },
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "s11-016a",
+      "title": "Minigame teleport to Soul Wars. Chop …",
+      "text": "Minigame teleport to Soul Wars. Chop teak logs on a forestry world - world 444 is recommended as it is usually the most popular -",
+      "manual": true
+    },
+    {
+      "id": "s11-016b",
+      "title": "burn them to level 50 firemaking …",
+      "text": "burn them to level 50 firemaking (note: it would theoretically be faster to 2t, but the birds will actually just kill you at your current stats).",
+      "manual": true,
+      "world": [
+        2968,
+        3205,
+        0
+      ]
+    },
+    {
+      "id": "s11-017a",
+      "title": "Minigame teleport to Fishing Trawler, grab …",
+      "text": "Minigame teleport to Fishing Trawler, grab your gp, leather gloves, spade, hammer, saw, one beer, a house teleport, 1500 arrow shafts and 1501 feathers",
+      "complete": {
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "TOWER_OF_LIFE",
-            "state": "FINISHED"
+            "op": "itemAcquired",
+            "id": 1059,
+            "qty": 3
           },
           {
-            "op": "quest",
-            "quest": "CLIENT_OF_KOUREND",
-            "state": "FINISHED"
+            "op": "item",
+            "id": 1059,
+            "qty": 4,
+            "scope": "ANY"
           }
         ]
       },
-      "npc": 3648,
+      "item": 1059,
       "world": [
-        2954,
-        3147,
+        2637,
+        3218,
         0
       ]
+    },
+    {
+      "id": "s11-017b",
+      "title": "head north.",
+      "text": "head north.",
+      "manual": true,
+      "world": [
+        2637,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "s11-017c",
+      "title": "Complete the Tower of Life. Adding …",
+      "text": "Complete the Tower of Life. Adding feathers to arrow shafts as you move, break another POH tab",
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2637,
+        3218,
+        0
+      ]
+    },
+    {
+      "id": "s11-017dt",
+      "title": "walk to Port Sarim, talk to …",
+      "text": "walk to Port Sarim, talk to Veos to go to Zeah. Destroy the XP lamp again. Do the Client of Kourend quest up to and including the point where you activate the orb at the Dark Altar (use the mine cart system to move around). While visiting Jennifer",
+      "complete": {
+        "op": "quest",
+        "quest": "CLIENT_OF_KOUREND",
+        "state": "FINISHED"
+      },
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "s11-017f",
+      "title": "buy shears from her shop, then …",
+      "text": "buy shears from her shop, then visit the Shayzien Styles directly west of her general store",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1735,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1735,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1735,
+      "world": [
+        1511,
+        3592,
+        0
+      ]
+    },
+    {
+      "id": "s11-017g",
+      "title": "buy a chef’s hat",
+      "text": "buy a chef’s hat",
+      "manual": true,
+      "world": [
+        1520,
+        3589,
+        0
+      ]
+    },
+    {
+      "id": "s11-017h",
+      "title": "grab an orange dye and a …",
+      "text": "grab an orange dye and a black wizard’s hat (spawn in the building), and do a lap of the Shayzien agility course for the diary. When leaving Shayzien dig up the Clue hunter garb along the way (just north of the bridge heading east, Clue hunter garb - OSRS Wiki). Continue the quest until visiting the Dark Altar (use the mine cart to get there)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1769,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1769,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1769,
+      "npc": 7753,
+      "world": [
+        2455,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "s11-017i",
+      "title": "head to Wintertodt (again, mine cart …",
+      "text": "head to Wintertodt (again, mine cart to Northern Tundras).",
+      "world": [
+        1630,
+        3938,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1630,
+        "y": 3938,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "s11-018",
@@ -479,7 +3034,7 @@
           {
             "op": "item",
             "id": 1891,
-            "qty": 99,
+            "qty": 100,
             "scope": "ANY"
           }
         ]

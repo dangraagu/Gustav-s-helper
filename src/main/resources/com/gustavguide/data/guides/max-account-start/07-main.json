@@ -49,22 +49,11 @@
       ]
     },
     {
-      "id": "main-005a",
+      "id": "main-005",
       "title": "Get Raiments of the eye outfit …",
-      "text": "Get Raiments of the eye outfit + abyssal needle (Quest up your alt during GOTR",
+      "text": "Get Raiments of the eye outfit + abyssal needle (Quest up your alt during GOTR, train/play the alt during mud rc)",
       "manual": true,
       "npc": 415,
-      "world": [
-        3420,
-        3569,
-        2
-      ]
-    },
-    {
-      "id": "main-005b",
-      "title": "train/play the alt during mud rc)",
-      "text": "train/play the alt during mud rc)",
-      "manual": true,
       "world": [
         3420,
         3569,
@@ -101,7 +90,7 @@
     {
       "id": "main-007",
       "title": "Start crafting Mud runes at the …",
-      "text": "Start crafting Mud runes at the Water altar (see the sheet for gp/hr figures)",
+      "text": "Start crafting Mud runes at the Water altar (see the sheet for gp/hr figures).",
       "manual": true,
       "world": [
         3184,

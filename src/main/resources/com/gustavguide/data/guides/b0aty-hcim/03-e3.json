@@ -88,7 +88,7 @@
     {
       "id": "e3-005",
       "title": "During the quest, collect a cowhide …",
-      "text": "During the quest, collect a cowhide in the Headless Beast's cave. Cowhides will not spawn in the cave after you kill the Headless Beast",
+      "text": "During the quest, collect a cowhide in the Headless Beast's cave. Cowhides will not spawn in the cave after you kill the Headless Beast.",
       "complete": {
         "op": "or",
         "of": [
@@ -1038,7 +1038,7 @@
     {
       "id": "e3-069",
       "title": "Start the Golem until you have …",
-      "text": "Start the Golem until you have strange implement",
+      "text": "Start the Golem until you have strange implement.",
       "complete": {
         "op": "quest",
         "quest": "THE_GOLEM",
@@ -1300,7 +1300,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -1843,7 +1843,7 @@
     {
       "id": "e3-116",
       "title": "OPTIONAL: Bring Sunbeam Ale as well …",
-      "text": "OPTIONAL: Bring Sunbeam Ale as well if 69 agility to use shortcut",
+      "text": "OPTIONAL: Bring Sunbeam Ale as well if 69 agility to use shortcut.",
       "manual": true
     },
     {
@@ -1998,20 +1998,9 @@
       "manual": true
     },
     {
-      "id": "e3-128a",
-      "title": "Chop",
-      "text": "Chop",
-      "manual": true,
-      "world": [
-        3059,
-        3253,
-        0
-      ]
-    },
-    {
-      "id": "e3-128b",
-      "title": "burn some oak logs [Fremennik Easy …",
-      "text": "burn some oak logs [Fremennik Easy Diary]",
+      "id": "e3-128",
+      "title": "Chop and burn some oak logs …",
+      "text": "Chop and burn some oak logs [Fremennik Easy Diary]",
       "manual": true,
       "object": 10819,
       "world": [
@@ -2055,7 +2044,7 @@
     {
       "id": "e3-132",
       "title": "Do the tasks in this order …",
-      "text": "Do the tasks in this order so you prevent walking back and fourth from Camelot multiple times",
+      "text": "Do the tasks in this order so you prevent walking back and fourth from Camelot multiple times.",
       "manual": true,
       "world": [
         2758,
@@ -2096,7 +2085,7 @@
     {
       "id": "e3-136",
       "title": "Do Olaf's and Manni's tasks together …",
-      "text": "Do Olaf's and Manni's tasks together but before going back to Camelot to spin the wool for Olaf's task, progress Manni's task until you get the strange object",
+      "text": "Do Olaf's and Manni's tasks together but before going back to Camelot to spin the wool for Olaf's task, progress Manni's task until you get the strange object.",
       "manual": true,
       "npc": 3920,
       "world": [
@@ -2108,7 +2097,7 @@
     {
       "id": "e3-137",
       "title": "When Spinnning the Wool and buying …",
-      "text": "When Spinnning the Wool and buying Alcofree beer Withdraw: Rings of Recoil, Dramen Branch, Knife & lots of food for Warrior Challenge",
+      "text": "When Spinnning the Wool and buying Alcofree beer Withdraw: Rings of Recoil, Dramen Branch, Knife & lots of food for Warrior Challenge.",
       "complete": {
         "op": "or",
         "of": [
@@ -2171,8 +2160,8 @@
     },
     {
       "id": "e3-141",
-      "title": "Do Peer the Seer's task last",
-      "text": "Do Peer the Seer's task last",
+      "title": "Do Peer the Seer's task last.",
+      "text": "Do Peer the Seer's task last.",
       "manual": true,
       "npc": 3895,
       "world": [
@@ -2536,7 +2525,7 @@
     {
       "id": "e3-164",
       "title": "Easy Giants Foundry plugin is helpful …",
-      "text": "Easy Giants Foundry plugin is helpful here",
+      "text": "Easy Giants Foundry plugin is helpful here.",
       "manual": true
     },
     {
@@ -2567,7 +2556,7 @@
     {
       "id": "e3-166",
       "title": "Use 14 Mithril Claws and 7 …",
-      "text": "Use 14 Mithril Claws and 7 B-Axes or War Hammers per inv",
+      "text": "Use 14 Mithril Claws and 7 B-Axes or War Hammers per inv.",
       "manual": true,
       "world": [
         2710,
@@ -2870,7 +2859,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -2942,7 +2931,7 @@
     {
       "id": "e3-189c",
       "title": "use the vial with black dye …",
-      "text": "use the vial with black dye on your desert clothes",
+      "text": "use the vial with black dye on your desert clothes.",
       "manual": true,
       "world": [
         3495,
@@ -2965,7 +2954,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -3405,7 +3394,7 @@
     {
       "id": "e3-216",
       "title": "Inventory should be: 1 Law, 5 …",
-      "text": "Inventory should be: 1 Law, 5 Air, Steel knives, Studded Chaps, Recoil Ring, 23 Karambwan, And knives you bought earlier in the guide",
+      "text": "Inventory should be: 1 Law, 5 Air, Steel knives, Studded Chaps, Recoil Ring, 23 Karambwan, And knives you bought earlier in the guide.",
       "manual": true
     },
     {
@@ -4271,7 +4260,7 @@
     {
       "id": "e3-276",
       "title": "WALK West to The Old Crone …",
-      "text": "WALK West to The Old Crone & go through every dialogue option. You should get a new ghost speak amulet and a toy ship",
+      "text": "WALK West to The Old Crone & go through every dialogue option. You should get a new ghost speak amulet and a toy ship.",
       "manual": true,
       "npc": 2996,
       "world": [
@@ -5025,7 +5014,7 @@
     {
       "id": "e3-329",
       "title": "Train Slayer to level 40 with …",
-      "text": "Train Slayer to level 40 with a Bone Crossbow. This is good to do now for extra Hitpoints for some harder quests coming up",
+      "text": "Train Slayer to level 40 with a Bone Crossbow. This is good to do now for extra Hitpoints for some harder quests coming up.",
       "manual": true
     },
     {
@@ -5141,9 +5130,9 @@
       ]
     },
     {
-      "id": "e3-339",
-      "title": "Withdraw: Shortbow, Small Fishing net, Teleport …",
-      "text": "Withdraw: Shortbow, Small Fishing net, Teleport Runes, Rune Spear, Needle, Coins, Grimy Herb, 2x Thread, Lit Candle, Knife, 2x Rope, Pickaxe, Bronze Arrows, Ardougne Cloak, 1x Ice Cooler, Dramen Staff, Potato Cactus (22 Inventory Slots) -> 6 Karamwbwans",
+      "id": "e3-339a",
+      "title": "Withdraw: Shortbow, Small Fishing net",
+      "text": "Withdraw: Shortbow, Small Fishing net",
       "complete": {
         "op": "or",
         "of": [
@@ -5166,6 +5155,23 @@
         3333,
         0
       ]
+    },
+    {
+      "id": "e3-339b",
+      "title": "Teleport Runes, Rune Spear, Needle, Coins, …",
+      "text": "Teleport Runes, Rune Spear, Needle, Coins, Grimy Herb, 2x Thread, Lit Candle, Knife, 2x Rope, Pickaxe, Bronze Arrows, Ardougne Cloak, 1x Ice Cooler, Dramen Staff, Potato Cactus (22 Inventory Slots) -> 6 Karamwbwans",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e3-340",
@@ -5446,8 +5452,8 @@
     },
     {
       "id": "e3-363",
-      "title": "Leave, trade this in at the …",
-      "text": "Leave, trade this in at the Agility Pyramid [Desert Easy Diary]",
+      "title": "Leave and trade this in at …",
+      "text": "Leave and trade this in at the Agility Pyramid [Desert Easy Diary]",
       "manual": true,
       "object": 11948,
       "world": [
@@ -5497,9 +5503,9 @@
       ]
     },
     {
-      "id": "e3-367",
+      "id": "e3-367a",
       "title": "Withdraw: 10 coins, Ardy Cloak, Dramen …",
-      "text": "Withdraw: 10 coins, Ardy Cloak, Dramen Staff, Steel warhammer, Steel Longsword, 2x Steel Swords, Steel Mace, Steel Dagger, 6x Planks, Holy Sickle (b), Druidic Pouch, Some food, Seed Dibber, Mushroom spore, Rake, teleport out",
+      "text": "Withdraw: 10 coins, Ardy Cloak, Dramen Staff, Steel warhammer, Steel Longsword, 2x Steel Swords, Steel Mace, Steel Dagger, 6x Planks, Holy Sickle (b), Druidic Pouch, Some food, Seed Dibber, Mushroom spore, Rake",
       "complete": {
         "op": "or",
         "of": [
@@ -5517,6 +5523,17 @@
         ]
       },
       "item": 1295,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e3-367b",
+      "title": "teleport out",
+      "text": "teleport out",
+      "manual": true,
       "world": [
         2624,
         3300,
@@ -5771,13 +5788,13 @@
     {
       "id": "e3-388",
       "title": "You want to trade 1:1 with …",
-      "text": "You want to trade 1:1 with Karil. He maxes 20 so heal everytime you are 20 or over Hitpoints from your maximum. This may use most or all of your food so teleport out when needed",
+      "text": "You want to trade 1:1 with Karil. He maxes 20 so heal everytime you are 20 or over Hitpoints from your maximum. This may use most or all of your food so teleport out when needed.",
       "manual": true
     },
     {
       "id": "e3-389",
       "title": "Kill Ahrim with protect from magic, …",
-      "text": "Kill Ahrim with protect from magic, bring jangerberries to restore 1 prayer point if you get drained and 1-tick/lazy flick",
+      "text": "Kill Ahrim with protect from magic, bring jangerberries to restore 1 prayer point if you get drained and 1-tick/lazy flick.",
       "manual": true,
       "world": [
         3604,
@@ -5788,13 +5805,13 @@
     {
       "id": "e3-390",
       "title": "Find your tunnel (Enter a Melee …",
-      "text": "Find your tunnel (Enter a Melee brother Mound, search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry",
+      "text": "Find your tunnel (Enter a Melee brother Mound, search the mound and click the stairs instantly. You won't get hit but you cent get 1 banged anyway so don't worry.",
       "manual": true
     },
     {
       "id": "e3-391",
       "title": "Once you find your Crypt we …",
-      "text": "Once you find your Crypt we are going to safespot them to avoid any mistakes. You can safespot them on the ladder, invisible ladders & on rocks",
+      "text": "Once you find your Crypt we are going to safespot them to avoid any mistakes. You can safespot them on the ladder, invisible ladders & on rocks.",
       "manual": true
     },
     {
@@ -5806,7 +5823,7 @@
     {
       "id": "e3-393",
       "title": "Open Crypt doors to force spawn …",
-      "text": "Open Crypt doors to force spawn the Melee brothers. Safespot approprietly until all 4 are dead",
+      "text": "Open Crypt doors to force spawn the Melee brothers. Safespot approprietly until all 4 are dead.",
       "manual": true,
       "world": [
         3604,

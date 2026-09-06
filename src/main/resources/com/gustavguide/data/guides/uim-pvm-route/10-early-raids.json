@@ -12,19 +12,19 @@
     {
       "id": "early-raids-002",
       "title": "(Optional) Kill Basilisk Knights for a …",
-      "text": "(Optional) Kill Basilisk Knights for a Basilisk jaw",
+      "text": "(Optional) Kill Basilisk Knights for a Basilisk jaw.",
       "manual": true
     },
     {
       "id": "early-raids-003",
       "title": "Kill Lizardman shamans for a Dragon …",
-      "text": "Kill Lizardman shamans for a Dragon warhammer",
+      "text": "Kill Lizardman shamans for a Dragon warhammer.",
       "manual": true
     },
     {
       "id": "early-raids-004",
       "title": "Kill Tormented Demons to get an …",
-      "text": "Kill Tormented Demons to get an Emberlight and Purging staff. The other items are optional",
+      "text": "Kill Tormented Demons to get an Emberlight and Purging staff. The other items are optional.",
       "manual": true,
       "npc": 13599,
       "world": [
@@ -36,19 +36,19 @@
     {
       "id": "early-raids-005",
       "title": "Kill Demonic Gorillas for a Necklace …",
-      "text": "Kill Demonic Gorillas for a Necklace of anguish, Amulet of Torture, and a Tormented Bracelet",
+      "text": "Kill Demonic Gorillas for a Necklace of anguish, Amulet of Torture, and a Tormented Bracelet.",
       "manual": true
     },
     {
       "id": "early-raids-006",
-      "title": "Kill Spiritual mages for Dragon boots",
-      "text": "Kill Spiritual mages for Dragon boots",
+      "title": "Kill Spiritual mages for Dragon boots.",
+      "text": "Kill Spiritual mages for Dragon boots.",
       "manual": true
     },
     {
       "id": "early-raids-007",
       "title": "Kill abyssal demons for an abyssal …",
-      "text": "Kill abyssal demons for an abyssal whip",
+      "text": "Kill abyssal demons for an abyssal whip.",
       "manual": true,
       "npc": 415,
       "world": [
@@ -66,25 +66,25 @@
     {
       "id": "early-raids-009",
       "title": "Kill Cerberus for the 3 crystals. …",
-      "text": "Kill Cerberus for the 3 crystals. — Optionally only go for Prims now and come back for the others once you have the Avernic treads",
+      "text": "Kill Cerberus for the 3 crystals. — Optionally only go for Prims now and come back for the others once you have the Avernic treads.",
       "manual": true
     },
     {
       "id": "early-raids-010",
       "title": "Kill Araxxor for the Amulet of …",
-      "text": "Kill Araxxor for the Amulet of rancour and a Noxious halberd",
+      "text": "Kill Araxxor for the Amulet of rancour and a Noxious halberd.",
       "manual": true
     },
     {
       "id": "early-raids-011",
       "title": "Kill the Thermonuclear smoke devil for …",
-      "text": "Kill the Thermonuclear smoke devil for an occult necklace",
+      "text": "Kill the Thermonuclear smoke devil for an occult necklace.",
       "manual": true
     },
     {
       "id": "early-raids-012",
       "title": "Kill the Alchemical hydra for Ferocious …",
-      "text": "Kill the Alchemical hydra for Ferocious gloves and a dragon hunter lance",
+      "text": "Kill the Alchemical hydra for Ferocious gloves and a dragon hunter lance.",
       "manual": true
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "early-raids-015",
       "title": "Bring whatever runes you would like …",
-      "text": "Bring whatever runes you would like for the spells you plan to use. Using teleport portals in your POH allows you to avoid carrying a lot of basic teleport runes",
+      "text": "Bring whatever runes you would like for the spells you plan to use. Using teleport portals in your POH allows you to avoid carrying a lot of basic teleport runes.",
       "manual": true
     },
     {
@@ -129,25 +129,25 @@
     {
       "id": "early-raids-017",
       "title": "Start out with a lot of …",
-      "text": "Start out with a lot of point boosting to get all the unlocks and blocks you want up front",
+      "text": "Start out with a lot of point boosting to get all the unlocks and blocks you want up front.",
       "manual": true
     },
     {
       "id": "early-raids-018",
       "title": "If you would like, it is …",
-      "text": "If you would like, it is easy to make a lot of combination runes using twisted extracts. This could be useful depending on which spells you decide to bring with you",
+      "text": "If you would like, it is easy to make a lot of combination runes using twisted extracts. This could be useful depending on which spells you decide to bring with you.",
       "manual": true
     },
     {
       "id": "early-raids-019",
       "title": "An Occult altar is really nice, …",
-      "text": "An Occult altar is really nice, as well as other house upgrades",
+      "text": "An Occult altar is really nice, as well as other house upgrades.",
       "manual": true
     },
     {
       "id": "early-raids-020",
       "title": "Make sure to have the landing …",
-      "text": "Make sure to have the landing site built to get to your Blue Moon storage quickly",
+      "text": "Make sure to have the landing site built to get to your Blue Moon storage quickly.",
       "manual": true,
       "world": [
         2884,
@@ -158,19 +158,19 @@
     {
       "id": "early-raids-021",
       "title": "Remember that Emberlight is really good …",
-      "text": "Remember that Emberlight is really good on demon tasks once you get it. It is actually viable to tailor a block/skip list with a focus on doing demon and burst tasks",
+      "text": "Remember that Emberlight is really good on demon tasks once you get it. It is actually viable to tailor a block/skip list with a focus on doing demon and burst tasks.",
       "manual": true
     },
     {
       "id": "early-raids-022",
       "title": "You should probably use Prayer potions …",
-      "text": "You should probably use Prayer potions for most tasks, but if you would like Bones to peaches is a good option for normal food during tasks",
+      "text": "You should probably use Prayer potions for most tasks, but if you would like Bones to peaches is a good option for normal food during tasks.",
       "manual": true
     },
     {
       "id": "early-raids-023",
       "title": "Optionally bring a dps special attack …",
-      "text": "Optionally bring a dps special attack weapon or other useful weapons such as your Toxic blowpipe",
+      "text": "Optionally bring a dps special attack weapon or other useful weapons such as your Toxic blowpipe.",
       "manual": true
     },
     {

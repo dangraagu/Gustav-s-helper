@@ -4,26 +4,32 @@
   "section": "Chapter 1: Get to da chopper earth staves — 1.2: Some fishing and thieving",
   "steps": [
     {
-      "id": "s12-001",
+      "id": "s12-001a",
       "title": "Grab your pickaxe and a POH …",
-      "text": "Grab your pickaxe and a POH tab, break it, mine 10 clay and 4 copper in the Rimmington mine. Run to Draynor, have Aggie make you 3 yellow dyes and 1 blue dye (you can use the ingredients on Aggie to skip the dialogue). Buy 10 chronicle cards. Grab your pie dish, a bucket, three pots of flour and three redberries.",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 1951,
-            "qty": 10
-          },
-          {
-            "op": "item",
-            "id": 1951,
-            "qty": 10,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 1951,
+      "text": "Grab your pickaxe and a POH tab, break it",
+      "manual": true,
+      "world": [
+        2907,
+        3361,
+        0
+      ]
+    },
+    {
+      "id": "s12-001b",
+      "title": "mine 10 clay and 4 copper …",
+      "text": "mine 10 clay and 4 copper in the Rimmington mine.",
+      "manual": true,
+      "world": [
+        2907,
+        3361,
+        0
+      ]
+    },
+    {
+      "id": "s12-001c",
+      "title": "Run to Draynor, have Aggie make …",
+      "text": "Run to Draynor, have Aggie make you 3 yellow dyes and 1 blue dye (you can use the ingredients on Aggie to skip the dialogue).",
+      "manual": true,
       "npc": 4284,
       "world": [
         3086,
@@ -32,89 +38,725 @@
       ]
     },
     {
-      "id": "s12-002",
-      "title": "Walk to Port Sarim, make 3 …",
-      "text": "Walk to Port Sarim, make 3 pastry doughs in the northern house with the water icon and one by one try to make them into a cooked redberry pie. Buy 16k feathers from Gerrant (for fly fishing later. If you do not have level 46 fletching yet, also buy feathers to get that level. You will gain 6.33 fletching xp per steel arrow made from scratch, or 6 xp per arrow made with the headless arrows already banked). Speak with Thurgo to progress The Knight’s Sword. Run to Betty and buy 1500 mind runes (pack), 500 air runes (pack), 1500 water runes (pack), 500 earth runes (pack), 500 fire runes (pack), 200 body runes (manual), 100 chaos runes (manual, 9396 gp vs 9950 gp), 150 death runes for Desert Treasure (manual). Talk to Veos to go to Zeah, talk to Veos again and complete the Client of Kourend (destroy the lamps and reclaim them later to put them on herblore), talk to Veos again to travel to Land’s End, grab 1-3 bird snares, five box traps and a butterfly net (https://imgur.com/a/bdU88Xo). Speak with Captain Magoro to return to Port Piscarilius.",
-      "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "quest",
-            "quest": "THE_KNIGHTS_SWORD",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "DESERT_TREASURE_I",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "CLIENT_OF_KOUREND",
-            "state": "FINISHED"
-          }
-        ]
-      },
-      "npc": 3648,
+      "id": "s12-001d",
+      "title": "Buy 10 chronicle cards.",
+      "text": "Buy 10 chronicle cards.",
+      "manual": true,
       "world": [
-        2954,
-        3147,
+        2907,
+        3361,
         0
       ]
     },
     {
-      "id": "s12-003",
-      "title": "Run to Piscarilius, grab wind strike …",
-      "text": "Run to Piscarilius, grab wind strike runes and your stew, start The Queen of Thieves and continue the quest until you are asked to search Councillor Hughes’ home (browse the Warrens General Store in between for the diary). Head south and kill a Giant Rat northeast of Hosidius square for its meat and the giant rat bone, talk to the Estate Agent (this is needed to be able to move your POH to Kourend later). Buy a compost pack from Vannah. Pickpocket from the fruit stalls in the house on the east of Hosidius square to level 36 thieving. Bank one jangerberry (optionally: bank two as it’s a possible Fairytale pt. 1 item), all the strange fruit and the golovanova tops (you will need at least 2 tops). Run west and dig up a saltpetre for the diary, then run to Land’s End and charter a ship to Aldarin. There thieve the upstairs chest in the western villa (Chest (Aldarin Villas) - OSRS Wiki) to a bit over level 42 thieving (46,512 xp!).",
+      "id": "s12-001e",
+      "title": "Grab your pie dish, a bucket, …",
+      "text": "Grab your pie dish, a bucket, three pots of flour and three redberries.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1951,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1951,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1951,
+      "world": [
+        2907,
+        3361,
+        0
+      ]
+    },
+    {
+      "id": "s12-002a",
+      "title": "Walk to Port Sarim",
+      "text": "Walk to Port Sarim",
+      "manual": true,
+      "npc": 3648,
+      "world": [
+        3045,
+        3234,
+        0
+      ]
+    },
+    {
+      "id": "s12-002b",
+      "title": "make 3 pastry doughs in the …",
+      "text": "make 3 pastry doughs in the northern house with the water icon and one by one try to make them into a cooked redberry pie.",
+      "manual": true,
+      "world": [
+        3212,
+        3215,
+        0
+      ]
+    },
+    {
+      "id": "s12-002c",
+      "title": "Buy 16k feathers from Gerrant (for …",
+      "text": "Buy 16k feathers from Gerrant (for fly fishing later. If you do not have level 46 fletching yet, also buy feathers to get that level. You will gain 6.33 fletching xp per steel arrow made from scratch, or 6 xp per arrow made with the headless arrows already banked).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 307,
+            "qty": 16
+          },
+          {
+            "op": "item",
+            "id": 307,
+            "qty": 16,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 307,
+      "npc": 2891,
+      "world": [
+        3013,
+        3224,
+        0
+      ]
+    },
+    {
+      "id": "s12-002d",
+      "title": "Speak with Thurgo to progress The …",
+      "text": "Speak with Thurgo to progress The Knight’s Sword.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "npc": 4733,
+      "world": [
+        3000,
+        3145,
+        0
+      ]
+    },
+    {
+      "id": "s12-002e",
+      "title": "Run to Betty",
+      "text": "Run to Betty",
+      "manual": true,
+      "npc": 5905,
+      "world": [
+        3014,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "s12-002f",
+      "title": "buy 1500 mind runes (pack), 500 …",
+      "text": "buy 1500 mind runes (pack), 500 air runes (pack), 1500 water runes (pack), 500 earth runes (pack), 500 fire runes (pack), 200 body runes (manual), 100 chaos runes (manual, 9396 gp vs 9950 gp), 150 death runes for Desert Treasure (manual).",
+      "complete": {
+        "op": "quest",
+        "quest": "DESERT_TREASURE_I",
+        "state": "FINISHED"
+      },
+      "world": [
+        3177,
+        3043,
+        0
+      ]
+    },
+    {
+      "id": "s12-002g",
+      "title": "Talk to Veos to go to …",
+      "text": "Talk to Veos to go to Zeah",
+      "manual": true,
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "s12-002h",
+      "title": "talk to Veos again",
+      "text": "talk to Veos again",
+      "manual": true,
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "s12-002i",
+      "title": "complete the Client of Kourend (destroy …",
+      "text": "complete the Client of Kourend (destroy the lamps and reclaim them later to put them on herblore)",
+      "complete": {
+        "op": "quest",
+        "quest": "CLIENT_OF_KOUREND",
+        "state": "FINISHED"
+      },
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "s12-002j",
+      "title": "talk to Veos again to travel …",
+      "text": "talk to Veos again to travel to Land’s End",
+      "manual": true,
+      "npc": 10727,
+      "world": [
+        1824,
+        3690,
+        0
+      ]
+    },
+    {
+      "id": "s12-002k",
+      "title": "grab 1-3 bird snares, five box …",
+      "text": "grab 1-3 bird snares, five box traps and a butterfly net (https://imgur.com/a/bdU88Xo).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10010,
+            "qty": 3
+          },
+          {
+            "op": "item",
+            "id": 10010,
+            "qty": 3,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 10010,
+      "world": [
+        3045,
+        3234,
+        0
+      ]
+    },
+    {
+      "id": "s12-002l",
+      "title": "Speak with Captain Magoro to return …",
+      "text": "Speak with Captain Magoro to return to Port Piscarilius.",
+      "manual": true,
+      "npc": 6649,
+      "world": [
+        2222,
+        3796,
+        2
+      ]
+    },
+    {
+      "id": "s12-003a",
+      "title": "Run to Piscarilius",
+      "text": "Run to Piscarilius",
+      "world": [
+        1803,
+        3752,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1803,
+        "y": 3752,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s12-003b",
+      "title": "grab wind strike runes and your …",
+      "text": "grab wind strike runes and your stew",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2003,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2003,
+            "qty": 11,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2003,
+      "world": [
+        1803,
+        3752,
+        0
+      ]
+    },
+    {
+      "id": "s12-003c",
+      "title": "start The Queen of Thieves and …",
+      "text": "start The Queen of Thieves and continue the quest until you are asked to search Councillor Hughes’ home (browse the Warrens General Store in between for the diary).",
       "complete": {
         "op": "quest",
         "quest": "THE_QUEEN_OF_THIEVES",
         "state": "IN_PROGRESS"
       },
-      "npc": 3097,
       "world": [
-        1781,
-        3628,
+        1808,
+        3726,
         0
       ]
     },
     {
-      "id": "s12-004",
+      "id": "s12-003d",
+      "title": "Head south",
+      "text": "Head south",
+      "manual": true,
+      "world": [
+        1803,
+        3752,
+        0
+      ]
+    },
+    {
+      "id": "s12-003e",
+      "title": "kill a Giant Rat northeast of …",
+      "text": "kill a Giant Rat northeast of Hosidius square for its meat and the giant rat bone",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "s12-003f",
+      "title": "talk to the Estate Agent (this …",
+      "text": "talk to the Estate Agent (this is needed to be able to move your POH to Kourend later).",
+      "manual": true,
+      "npc": 3097,
+      "world": [
+        2638,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s12-003g",
+      "title": "Buy a compost pack from Vannah.",
+      "text": "Buy a compost pack from Vannah.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6032,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 6032,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6032,
+      "world": [
+        2614,
+        3293,
+        0
+      ]
+    },
+    {
+      "id": "s12-003h",
+      "title": "Pickpocket from the fruit stalls in …",
+      "text": "Pickpocket from the fruit stalls in the house on the east of Hosidius square to level 36 thieving.",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "s12-003i",
+      "title": "Bank one jangerberry (optionally: bank two …",
+      "text": "Bank one jangerberry (optionally: bank two as it’s a possible Fairytale pt. 1 item), all the strange fruit and the golovanova tops (you will need at least 2 tops).",
+      "manual": true,
+      "world": [
+        1748,
+        3599,
+        0
+      ]
+    },
+    {
+      "id": "s12-003j",
+      "title": "Run west",
+      "text": "Run west",
+      "manual": true,
+      "world": [
+        1803,
+        3752,
+        0
+      ]
+    },
+    {
+      "id": "s12-003k",
+      "title": "dig up a saltpetre for the …",
+      "text": "dig up a saltpetre for the diary",
+      "manual": true,
+      "object": 27436,
+      "world": [
+        1703,
+        3526,
+        0
+      ]
+    },
+    {
+      "id": "s12-003l",
+      "title": "run to Land’s End and charter …",
+      "text": "run to Land’s End and charter a ship to Aldarin. There thieve the upstairs chest in the western villa (Chest (Aldarin Villas) - OSRS Wiki) to a bit over level 42 thieving (46,512 xp!).",
+      "world": [
+        1391,
+        2935,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 1391,
+        "y": 2935,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s12-004a",
       "title": "Use your chronicle to teleport to …",
-      "text": "Use your chronicle to teleport to Varrock, buy one of each elemental staff from Zaff. Use clan chat “osrs soa” to find a partner. Collect the weapon store key from your Shield of Arrav partner and kill the Weaponsmaster to grab two Phoenix crossbows for Shield of Arrav (this fight may be tough, use magic and bread or cakes), take them to Katrine and collect the half of the Shield of Arrav. Finish the Shield of Arrav at the Varrock Museum (optional: do this earlier so you don’t make your partner wait). Grab your soda ash, sand, spade, leather gloves, strike runes and Falador tab. Take the quetzal to Varlamore, start and continue Ethically Acquired Antiquities until the step where you have to visit Port Sarim. Break your Falador tab, collect the portrait for The Knight’s Sword, speak with Sir Renitee for the diary, turn the soda ash and sand into molten glass. Kill a duck (with magic), complete Pirate’s Treasure. Now bank, grab raw beef, chicken and rat meat, an orange and blue dye (make the orange dye with red + yellow if needed), 2 iron ore, 4 copper ore, 6 clay, 2 cheese, your gp stack and a couple of food (3+ cakes or wines). Optional: swap one cheese for one cake/wine for Witch’s House. Run north, do Doric’s Quest. Go back east and start Below Ice Mountain at Wilow, safespot a bear on the trees north of Falador for the meat, fur and ribs. Complete Goblin Diplomacy, Witch’s House (there are safespots for all the forms of the Witch’s experiment!) and Druidic Ritual. Buy an eye of newt pack, an empty vial (not a pack) and a pestle and mortar from Jatix. Start Fishing Contest. Minigame teleport to clan wars and restore run energy at Ferox, bank and grab two iron bars, a POH tab, the portrait, a few (3-5) cakes and a pickaxe.",
+      "text": "Use your chronicle to teleport to Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004b",
+      "title": "buy one of each elemental staff …",
+      "text": "buy one of each elemental staff from Zaff.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1379,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1379,
+            "qty": 71,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1379,
+      "npc": 2880,
+      "world": [
+        3202,
+        3434,
+        0
+      ]
+    },
+    {
+      "id": "s12-004c",
+      "title": "Use clan chat “osrs soa” to …",
+      "text": "Use clan chat “osrs soa” to find a partner.",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004d",
+      "title": "Collect the weapon store key from …",
+      "text": "Collect the weapon store key from your Shield of Arrav partner",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004e",
+      "title": "kill the Weaponsmaster to grab two …",
+      "text": "kill the Weaponsmaster to grab two Phoenix crossbows for Shield of Arrav (this fight may be tough, use magic and bread or cakes)",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004f",
+      "title": "take them to Katrine",
+      "text": "take them to Katrine",
+      "manual": true,
+      "npc": 5210,
+      "world": [
+        3185,
+        3385,
+        0
+      ]
+    },
+    {
+      "id": "s12-004g",
+      "title": "collect the half of the Shield …",
+      "text": "collect the half of the Shield of Arrav.",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004h",
+      "title": "Finish the Shield of Arrav at …",
+      "text": "Finish the Shield of Arrav at the Varrock Museum (optional: do this earlier so you don’t make your partner wait).",
+      "complete": {
+        "op": "quest",
+        "quest": "SHIELD_OF_ARRAV",
+        "state": "FINISHED"
+      },
+      "world": [
+        3260,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "s12-004i",
+      "title": "Grab your soda ash, sand, spade, …",
+      "text": "Grab your soda ash, sand, spade, leather gloves, strike runes and Falador tab.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1059,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 1059,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1059,
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "s12-004j",
+      "title": "Take the quetzal to Varlamore",
+      "text": "Take the quetzal to Varlamore",
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "s12-004k",
+      "title": "start and continue Ethically Acquired Antiquities …",
+      "text": "start and continue Ethically Acquired Antiquities until the step where you have to visit Port Sarim. Break your Falador tab",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        1721,
+        3165,
+        0
+      ]
+    },
+    {
+      "id": "s12-004l",
+      "title": "collect the portrait for The Knight’s …",
+      "text": "collect the portrait for The Knight’s Sword",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "s12-004m",
+      "title": "speak with Sir Renitee for the …",
+      "text": "speak with Sir Renitee for the diary",
+      "manual": true,
+      "npc": 3100,
+      "world": [
+        2982,
+        3341,
+        1
+      ]
+    },
+    {
+      "id": "s12-004n",
+      "title": "turn the soda ash and sand …",
+      "text": "turn the soda ash and sand into molten glass.",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004o",
+      "title": "Kill a duck (with magic)",
+      "text": "Kill a duck (with magic)",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004p",
+      "title": "complete Pirate’s Treasure. Now bank",
+      "text": "complete Pirate’s Treasure. Now bank",
+      "complete": {
+        "op": "quest",
+        "quest": "PIRATES_TREASURE",
+        "state": "FINISHED"
+      },
+      "world": [
+        3015,
+        3357,
+        0
+      ]
+    },
+    {
+      "id": "s12-004q",
+      "title": "grab raw beef, chicken and rat …",
+      "text": "grab raw beef, chicken and rat meat, an orange and blue dye (make the orange dye with red + yellow if needed), 2 iron ore, 4 copper ore, 6 clay, 2 cheese, your gp stack and a couple of food (3+ cakes or wines). Optional: swap one cheese for one cake/wine for Witch’s House.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 436,
+            "qty": 4
+          },
+          {
+            "op": "item",
+            "id": 436,
+            "qty": 4,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 436,
+      "world": [
+        2928,
+        3456,
+        0
+      ]
+    },
+    {
+      "id": "s12-004r",
+      "title": "Run north, do Doric’s Quest.",
+      "text": "Run north, do Doric’s Quest.",
+      "complete": {
+        "op": "quest",
+        "quest": "DORICS_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2951,
+        3451,
+        0
+      ]
+    },
+    {
+      "id": "s12-004s",
+      "title": "Go back east",
+      "text": "Go back east",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004t",
+      "title": "start Below Ice Mountain at Wilow, …",
+      "text": "start Below Ice Mountain at Wilow, safespot a bear on the trees north of Falador for the meat, fur and ribs.",
+      "complete": {
+        "op": "quest",
+        "quest": "BELOW_ICE_MOUNTAIN",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3003,
+        3435,
+        0
+      ]
+    },
+    {
+      "id": "s12-004u",
+      "title": "Complete Goblin Diplomacy, Witch’s House (there …",
+      "text": "Complete Goblin Diplomacy, Witch’s House (there are safespots for all the forms of the Witch’s experiment!) and Druidic Ritual.",
       "complete": {
         "op": "and",
         "of": [
-          {
-            "op": "quest",
-            "quest": "SHIELD_OF_ARRAV",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "THE_KNIGHTS_SWORD",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "PIRATES_TREASURE",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "DORICS_QUEST",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "BELOW_ICE_MOUNTAIN",
-            "state": "IN_PROGRESS"
-          },
           {
             "op": "quest",
             "quest": "GOBLIN_DIPLOMACY",
@@ -129,40 +771,180 @@
             "op": "quest",
             "quest": "DRUIDIC_RITUAL",
             "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "FISHING_CONTEST",
-            "state": "IN_PROGRESS"
           }
         ]
       },
-      "npc": 5214,
       "world": [
-        3257,
-        3449,
+        3210,
+        3448,
         0
       ]
     },
     {
-      "id": "s12-005",
-      "title": "Break another POH tab and return …",
-      "text": "Break another POH tab and return to Thurgo. Mine two blurite ore. Go back to Thurgo and make the sword. Run to a trader crewmember in Port Sarim for Ethically Acquired Antiquities, then talk to Betty to progress that quest. Run to Falador east bank. Grab your coins, ghostspeak amulet and skull. Pay to move your house to Pollnivneach at the estate agent. Complete The Knight’s Sword. Smelt the blurite ore into a bar.",
+      "id": "s12-004v",
+      "title": "Buy an eye of newt pack, …",
+      "text": "Buy an eye of newt pack, an empty vial (not a pack) and a pestle and mortar from Jatix.",
       "complete": {
-        "op": "and",
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
-            "state": "FINISHED"
+            "op": "itemAcquired",
+            "id": 229,
+            "qty": 1
           },
           {
-            "op": "quest",
-            "quest": "THE_KNIGHTS_SWORD",
-            "state": "FINISHED"
+            "op": "item",
+            "id": 229,
+            "qty": 26,
+            "scope": "ANY"
           }
         ]
       },
+      "item": 229,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "s12-004w",
+      "title": "Start Fishing Contest. Minigame teleport to …",
+      "text": "Start Fishing Contest. Minigame teleport to clan wars and restore run energy at Ferox",
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2821,
+        3486,
+        0
+      ]
+    },
+    {
+      "id": "s12-004x",
+      "title": "bank and grab two iron bars, …",
+      "text": "bank and grab two iron bars, a POH tab, the portrait, a few (3-5) cakes and a pickaxe.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2351,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 2351,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2351,
+      "world": [
+        2810,
+        3442,
+        0
+      ]
+    },
+    {
+      "id": "s12-005a",
+      "title": "Break another POH tab, return to …",
+      "text": "Break another POH tab, return to Thurgo.",
+      "manual": true,
+      "npc": 4733,
+      "world": [
+        3000,
+        3145,
+        0
+      ]
+    },
+    {
+      "id": "s12-005b",
+      "title": "Mine two blurite ore.",
+      "text": "Mine two blurite ore.",
+      "manual": true,
+      "object": 11378,
+      "world": [
+        3049,
+        9566,
+        0
+      ]
+    },
+    {
+      "id": "s12-005c",
+      "title": "Go back to Thurgo",
+      "text": "Go back to Thurgo",
+      "manual": true,
+      "npc": 4733,
+      "world": [
+        3000,
+        3145,
+        0
+      ]
+    },
+    {
+      "id": "s12-005d",
+      "title": "make the sword.",
+      "text": "make the sword.",
+      "manual": true,
+      "world": [
+        2710,
+        5273,
+        0
+      ]
+    },
+    {
+      "id": "s12-005et",
+      "title": "Run to a trader crewmember in …",
+      "text": "Run to a trader crewmember in Port Sarim for Ethically Acquired Antiquities, talk to Betty to progress that quest.",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "FINISHED"
+      },
+      "npc": 5905,
+      "world": [
+        3014,
+        3258,
+        0
+      ]
+    },
+    {
+      "id": "s12-005g",
+      "title": "Run to Falador east bank.",
+      "text": "Run to Falador east bank.",
+      "world": [
+        3013,
+        3356,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 3013,
+        "y": 3356,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s12-005h",
+      "title": "Grab your coins, ghostspeak amulet and …",
+      "text": "Grab your coins, ghostspeak amulet and skull.",
+      "manual": true,
+      "world": [
+        3000,
+        3145,
+        0
+      ]
+    },
+    {
+      "id": "s12-005i",
+      "title": "Pay to move your house to …",
+      "text": "Pay to move your house to Pollnivneach at the estate agent.",
+      "manual": true,
       "npc": 3097,
       "world": [
         2638,
@@ -171,38 +953,39 @@
       ]
     },
     {
-      "id": "s12-006",
-      "title": "Ferox teleporting for run energy if …",
-      "text": "Ferox teleporting for run energy if necessary, chronicle teleport to Varrock. Speak with Curator Haig Halen in the Varrock Museum and continue Ethically Acquired Antiquities until you have his confession, then take the quetzal to Varlamore and speak with Curator Herminius to complete Ethically Acquired Antiquities. Home teleport to Lumbridge, bank, grab items for the step below. Shear a sheep, complete the Restless Ghost. Cross the gate to Al-Kharid and start The Feud (buy the desert disguise). Run south and buy one of each mould in Dommik’s Crafting Store shop including tiara but not bolt, plus a second necklace mould, along with 3 needles and 10 thread, then some mithril platelegs. Go east, start and complete Sleeping Giants. Buy 9 bronze bars in the Shantay Pass, along with two sets of desert clothes (one pair of boots only), 5 Shantay passes, 16 bucket packs, 20 buckets of water, 4 bowls of water and 10 waterskins. Make 4 soft clay while you’re at the bank chest. Make sure to bring 5 buckets for Ugthanki dung and wear leather gloves during the following quests. Note: the following quests can be multiquested, but for the sake of inventory space and convenience it is fine to do Tourist Trap completely, then do The Feud after.",
+      "id": "s12-005j",
+      "title": "Complete The Knight’s Sword.",
+      "text": "Complete The Knight’s Sword.",
       "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "quest",
-            "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "THE_RESTLESS_GHOST",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "THE_FEUD",
-            "state": "IN_PROGRESS"
-          },
-          {
-            "op": "quest",
-            "quest": "SLEEPING_GIANTS",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "THE_TOURIST_TRAP",
-            "state": "FINISHED"
-          }
-        ]
+        "op": "quest",
+        "quest": "THE_KNIGHTS_SWORD",
+        "state": "FINISHED"
+      },
+      "world": [
+        2978,
+        3341,
+        0
+      ]
+    },
+    {
+      "id": "s12-005k",
+      "title": "Smelt the blurite ore into a …",
+      "text": "Smelt the blurite ore into a bar.",
+      "manual": true,
+      "world": [
+        2976,
+        3369,
+        0
+      ]
+    },
+    {
+      "id": "s12-006a",
+      "title": "Ferox teleporting for run energy if …",
+      "text": "Ferox teleporting for run energy if necessary, chronicle teleport to Varrock. Speak with Curator Haig Halen in the Varrock Museum and continue Ethically Acquired Antiquities until you have his confession",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "FINISHED"
       },
       "npc": 5214,
       "world": [
@@ -212,13 +995,281 @@
       ]
     },
     {
-      "id": "s12-007",
+      "id": "s12-006b",
+      "title": "take the quetzal to Varlamore",
+      "text": "take the quetzal to Varlamore",
+      "manual": true,
+      "world": [
+        1725,
+        3128,
+        0
+      ]
+    },
+    {
+      "id": "s12-006c",
+      "title": "speak with Curator Herminius to complete …",
+      "text": "speak with Curator Herminius to complete Ethically Acquired Antiquities. Home teleport to Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES",
+        "state": "FINISHED"
+      },
+      "npc": 13297,
+      "world": [
+        1712,
+        3163,
+        0
+      ]
+    },
+    {
+      "id": "s12-006d",
+      "title": "bank, grab items for the step …",
+      "text": "bank, grab items for the step below. Shear a sheep",
+      "manual": true,
+      "world": [
+        3258,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "s12-006e",
+      "title": "complete the Restless Ghost.",
+      "text": "complete the Restless Ghost.",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_RESTLESS_GHOST",
+        "state": "FINISHED"
+      },
+      "world": [
+        3243,
+        3206,
+        0
+      ]
+    },
+    {
+      "id": "s12-006f",
+      "title": "Cross the gate to Al-Kharid",
+      "text": "Cross the gate to Al-Kharid",
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
+    },
+    {
+      "id": "s12-006g",
+      "title": "start The Feud (buy the desert …",
+      "text": "start The Feud (buy the desert disguise).",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_FEUD",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3315,
+        3182,
+        0
+      ]
+    },
+    {
+      "id": "s12-006h",
+      "title": "Run south",
+      "text": "Run south",
+      "manual": true,
+      "world": [
+        3258,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "s12-006i",
+      "title": "buy one of each mould in …",
+      "text": "buy one of each mould in Dommik’s Crafting Store shop including tiara but not bolt, plus a second necklace mould, along with 3 needles and 10 thread, then some mithril platelegs.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1071,
+            "qty": 10
+          },
+          {
+            "op": "item",
+            "id": 1071,
+            "qty": 10,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1071,
+      "world": [
+        3321,
+        3194,
+        0
+      ]
+    },
+    {
+      "id": "s12-006j",
+      "title": "Go east",
+      "text": "Go east",
+      "manual": true,
+      "world": [
+        3258,
+        3449,
+        0
+      ]
+    },
+    {
+      "id": "s12-006k",
+      "title": "start and complete Sleeping Giants.",
+      "text": "start and complete Sleeping Giants.",
+      "complete": {
+        "op": "quest",
+        "quest": "SLEEPING_GIANTS",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        3362,
+        3148,
+        0
+      ]
+    },
+    {
+      "id": "s12-006l",
+      "title": "Buy 9 bronze bars in the …",
+      "text": "Buy 9 bronze bars in the Shantay Pass, along with two sets of desert clothes (one pair of boots only), 5 Shantay passes, 16 bucket packs, 20 buckets of water, 4 bowls of water and 10 waterskins.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2349,
+            "qty": 9
+          },
+          {
+            "op": "item",
+            "id": 2349,
+            "qty": 9,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2349,
+      "npc": 4642,
+      "world": [
+        3303,
+        3122,
+        0
+      ]
+    },
+    {
+      "id": "s12-006m",
+      "title": "Make 4 soft clay while you’re …",
+      "text": "Make 4 soft clay while you’re at the bank chest.",
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
+    },
+    {
+      "id": "s12-006n",
+      "title": "Make sure to bring 5 buckets …",
+      "text": "Make sure to bring 5 buckets for Ugthanki dung",
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
+    },
+    {
+      "id": "s12-006o",
+      "title": "wear leather gloves during the following …",
+      "text": "wear leather gloves during the following quests. Note: the following quests can be multiquested, but for the sake of inventory space and convenience it is fine to do Tourist Trap completely, then do The Feud after.",
+      "complete": {
+        "op": "and",
+        "of": [
+          {
+            "op": "quest",
+            "quest": "THE_TOURIST_TRAP",
+            "state": "FINISHED"
+          },
+          {
+            "op": "quest",
+            "quest": "THE_FEUD",
+            "state": "FINISHED"
+          }
+        ]
+      },
+      "item": 1059,
+      "world": [
+        3304,
+        3112,
+        0
+      ]
+    },
+    {
+      "id": "s12-007a",
       "title": "Castle Wars minigame teleport. Withdraw 3 …",
-      "text": "Castle Wars minigame teleport. Withdraw 3 planks, 1 bronze bar and one molten glass. Run north, grab an inventory of superantipoisons (84 doses - 21 pots (4)-dose) by hopping, then start and complete the Observatory quest.",
+      "text": "Castle Wars minigame teleport. Withdraw 3 planks, 1 bronze bar and one molten glass.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1775,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1775,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1775,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "s12-007b",
+      "title": "Run north",
+      "text": "Run north",
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "s12-007c",
+      "title": "grab an inventory of superantipoisons (84 …",
+      "text": "grab an inventory of superantipoisons (84 doses - 21 pots (4)-dose) by hopping",
+      "manual": true,
+      "world": [
+        2407,
+        3105,
+        0
+      ]
+    },
+    {
+      "id": "s12-007d",
+      "title": "start and complete the Observatory quest.",
+      "text": "start and complete the Observatory quest.",
       "complete": {
         "op": "quest",
         "quest": "OBSERVATORY_QUEST",
-        "state": "FINISHED"
+        "state": "IN_PROGRESS"
       },
       "world": [
         2442,
@@ -227,14 +1278,259 @@
       ]
     },
     {
-      "id": "s12-008",
+      "id": "s12-008a",
       "title": "Use the Fishing Trawler minigame to …",
-      "text": "Use the Fishing Trawler minigame to teleport to Port Khazard. Charter a ship Catherby (use the deposit box) or, if that shop is bought out, to Land’s end. Buy 1600 soda ash, 10/world at a time. Also at some point buy 10 buckets of slime (only 10 total). If you were at Land’s end, now charter a ship to Catherby. Buy steel arrowtips to round out 46 fletching (if you don’t have that level yet). We recommend buying 250 tips/world to save hopping but if you are low on gp you can buy 100/world instead to save some cash here. Take out a knife from the bank and a light source (grab a candle along the way and light it with a tinderbox if you don’t have any). Grab insect repellant, collect two buckets of wax and ten flax (five for the diary, but we need ten) and speak with Sherlock (diary). Enter the Temple of Ikov and grab some Boots of Lightness, then leave again. Start Merlin’s Crystal up to the step where you need to visit Arhein. Run to Seers, grab the fishing pass and other items for fishing contest from the bank. Spin the flax into ten linen yarn. Continue Fishing Contest to the step where you get the trophy. Fly fish north of Seers bank to 35 fishing, banking the fish. Complete Murder Mystery while training (start the quest, get all relevant clues in the mansion, fish an inv, bank, do the relevant steps in the village, resume the quest etc.). Home teleport to Lumbridge, cross the gate to Al-Kharid (costs 10gp), run south and speak with Hassan to start Prince Ali Rescue, then Osman to resume the quest. Run south and board Ferryman Sathwood’s ferry. Train fishing at mass world Tempoross to level 56. It is most efficient to cook the harpoonfish instead of using them raw. Make sure to only cash in the reward permits after you have hit level 50 fishing - this is a significant boost to your loot!",
+      "text": "Use the Fishing Trawler minigame to teleport to Port Khazard. Charter a ship Catherby (use the deposit box) or, if that shop is bought out, to Land’s end.",
+      "manual": true,
+      "npc": 1520,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008b",
+      "title": "Buy 1600 soda ash, 10/world at …",
+      "text": "Buy 1600 soda ash, 10/world at a time. Also at some point buy 10 buckets of slime (only 10 total). If you were at Land’s end, now charter a ship to Catherby.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1781,
+            "qty": 1600
+          },
+          {
+            "op": "item",
+            "id": 1781,
+            "qty": 1600,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1781,
+      "npc": 1520,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008c",
+      "title": "Buy steel arrowtips to round out …",
+      "text": "Buy steel arrowtips to round out 46 fletching (if you don’t have that level yet). We recommend buying 250 tips/world to save hopping but if you are low on gp you can buy 100/world instead to save some cash here.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 41,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 41,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 41,
+      "world": [
+        2803,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008d",
+      "title": "Take out a knife from the …",
+      "text": "Take out a knife from the bank and a light source (grab a candle along the way and light it with a tinderbox if you don’t have any).",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 590,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 590,
+            "qty": 2,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 590,
+      "world": [
+        2810,
+        3442,
+        0
+      ]
+    },
+    {
+      "id": "s12-008e",
+      "title": "Grab insect repellant",
+      "text": "Grab insect repellant",
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008f",
+      "title": "collect two buckets of wax and …",
+      "text": "collect two buckets of wax and ten flax (five for the diary, but we need ten)",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1925,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1925,
+            "qty": 1601,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1925,
+      "world": [
+        2742,
+        3446,
+        0
+      ]
+    },
+    {
+      "id": "s12-008g",
+      "title": "speak with Sherlock (diary).",
+      "text": "speak with Sherlock (diary).",
+      "manual": true,
+      "npc": 6586,
+      "world": [
+        2735,
+        3413,
+        0
+      ]
+    },
+    {
+      "id": "s12-008h",
+      "title": "Enter the Temple of Ikov",
+      "text": "Enter the Temple of Ikov",
+      "complete": {
+        "op": "quest",
+        "quest": "TEMPLE_OF_IKOV",
+        "state": "FINISHED"
+      },
+      "object": 17384,
+      "world": [
+        2677,
+        3405,
+        0
+      ]
+    },
+    {
+      "id": "s12-008i",
+      "title": "grab some Boots of Lightness, then …",
+      "text": "grab some Boots of Lightness, then leave again.",
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008j",
+      "title": "Start Merlin’s Crystal up to the …",
+      "text": "Start Merlin’s Crystal up to the step where you need to visit Arhein.",
+      "complete": {
+        "op": "quest",
+        "quest": "MERLINS_CRYSTAL",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2763,
+        3513,
+        0
+      ]
+    },
+    {
+      "id": "s12-008k",
+      "title": "Run to Seers",
+      "text": "Run to Seers",
+      "world": [
+        2710,
+        3485,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2710,
+        "y": 3485,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s12-008l",
+      "title": "grab the fishing pass and other …",
+      "text": "grab the fishing pass and other items for fishing contest from the bank. Spin the flax into ten linen yarn. Continue Fishing Contest to the step where you get the trophy. Fly fish north of Seers bank to 35 fishing, banking the fish.",
       "complete": {
         "op": "skill",
         "skill": "FISHING",
         "level": 35,
         "cmp": ">="
+      },
+      "object": 14896,
+      "world": [
+        2742,
+        3446,
+        0
+      ]
+    },
+    {
+      "id": "s12-008m",
+      "title": "Complete Murder Mystery while training (start …",
+      "text": "Complete Murder Mystery while training (start the quest, get all relevant clues in the mansion, fish an inv, bank, do the relevant steps in the village, resume the quest etc.). Home teleport to Lumbridge",
+      "complete": {
+        "op": "quest",
+        "quest": "MURDER_MYSTERY",
+        "state": "FINISHED"
+      },
+      "world": [
+        3209,
+        3219,
+        2
+      ]
+    },
+    {
+      "id": "s12-008n",
+      "title": "cross the gate to Al-Kharid (costs …",
+      "text": "cross the gate to Al-Kharid (costs 10gp)",
+      "manual": true,
+      "world": [
+        3293,
+        3184,
+        0
+      ]
+    },
+    {
+      "id": "s12-008ot",
+      "title": "run south, speak with Hassan to …",
+      "text": "run south, speak with Hassan to start Prince Ali Rescue, then Osman to resume the quest.",
+      "complete": {
+        "op": "quest",
+        "quest": "PRINCE_ALI_RESCUE",
+        "state": "IN_PROGRESS"
       },
       "npc": 11579,
       "world": [
@@ -244,9 +1540,108 @@
       ]
     },
     {
-      "id": "s12-009",
+      "id": "s12-008q",
+      "title": "Run south",
+      "text": "Run south",
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008r",
+      "title": "board Ferryman Sathwood’s ferry.",
+      "text": "board Ferryman Sathwood’s ferry.",
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008s",
+      "title": "Train fishing at mass world Tempoross …",
+      "text": "Train fishing at mass world Tempoross to level 56. It is most efficient to cook the harpoonfish instead of using them raw.",
+      "manual": true,
+      "world": [
+        2841,
+        3432,
+        0
+      ]
+    },
+    {
+      "id": "s12-008t",
+      "title": "Make sure to only cash in …",
+      "text": "Make sure to only cash in the reward permits after you have hit level 50 fishing - this is a significant boost to your loot!",
+      "manual": true,
+      "world": [
+        3123,
+        3240,
+        0
+      ]
+    },
+    {
+      "id": "s12-009a",
       "title": "Fishing trawler teleport, do the fishing …",
-      "text": "Fishing trawler teleport, do the fishing trawler minigame for a complete Angler’s outfit (48 games average, you can use an axe+hammer instead of needing swamp paste, bailing bucket optional for more activity. Chopping at tentacles/repairing railings is usually competitive so stay close to the railing and spam click). Make sure to collect a rusty sword along the way, and have the Tindel Marchant identify it. Also save polished buttons (if you get them). Note that once you hit 50 activity inside the minigame it will not go back down, so you can afk for the rest of the game and you will get the reward rolls. Buy two swamp paste, a hammer and four tinderboxes at the general store. Soul wars minigame teleport to get to Edgeville, speak with Marley for Below Ice Mountain. Cut 8 sapphires. Make a sapphire necklace and a silver sickle. Bring a knife and go to the Mage Arena, buy 200 cosmic runes (you won’t need these until later, so if it is very crowded you can stop at just 20). Enchant the sapphire necklace into a games necklace.",
+      "text": "Fishing trawler teleport, do the fishing trawler minigame for a complete Angler’s outfit (48 games average, you can use an axe+hammer instead of needing swamp paste, bailing bucket optional for more activity. Chopping at tentacles/repairing railings is usually competitive so stay close to the railing and spam click). Make sure to collect a rusty sword along the way, and have the Tindel Marchant identify it. Also save polished buttons (if you get them). Note that once you hit 50 activity inside the minigame it will not go back down, so you can afk for the rest of the game and you will get the reward rolls.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 10496,
+            "qty": 48
+          },
+          {
+            "op": "item",
+            "id": 10496,
+            "qty": 48,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 10496,
+      "npc": 1358,
+      "world": [
+        2676,
+        3152,
+        0
+      ]
+    },
+    {
+      "id": "s12-009b",
+      "title": "Buy two swamp paste, a hammer …",
+      "text": "Buy two swamp paste, a hammer and four tinderboxes at the general store. Soul wars minigame teleport to get to Edgeville",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2347,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 2347,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2347,
+      "world": [
+        3080,
+        3510,
+        0
+      ]
+    },
+    {
+      "id": "s12-009c",
+      "title": "speak with Marley for Below Ice …",
+      "text": "speak with Marley for Below Ice Mountain.",
       "complete": {
         "op": "quest",
         "quest": "BELOW_ICE_MOUNTAIN",
@@ -260,29 +1655,146 @@
       ]
     },
     {
-      "id": "s12-010",
-      "title": "Teleport to the barbarian outpost with …",
-      "text": "Teleport to the barbarian outpost with your games necklace. Unlock the minigame teleport (start the teleport animation to confirm it worked, then just click away to cancel it), start Alfred Grimhand’s Barcrawl, go south and do the Waterfall quest until the step where you need the pebble (bring your rope). Buy a greenman’s ale from Rasolo. Start Dwarf Cannon up to the step where you need to find Lollk.",
+      "id": "s12-009d",
+      "title": "Cut 8 sapphires.",
+      "text": "Cut 8 sapphires.",
+      "manual": true,
+      "world": [
+        2676,
+        3152,
+        0
+      ]
+    },
+    {
+      "id": "s12-009e",
+      "title": "Make a sapphire necklace and a …",
+      "text": "Make a sapphire necklace and a silver sickle. Bring a knife",
+      "manual": true,
+      "world": [
+        3110,
+        3499,
+        0
+      ]
+    },
+    {
+      "id": "s12-009f",
+      "title": "go to the Mage Arena",
+      "text": "go to the Mage Arena",
+      "world": [
+        3106,
+        3915,
+        0
+      ],
       "complete": {
-        "op": "and",
+        "op": "position",
+        "x": 3106,
+        "y": 3915,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "s12-009g",
+      "title": "buy 200 cosmic runes (you won’t …",
+      "text": "buy 200 cosmic runes (you won’t need these until later, so if it is very crowded you can stop at just 20). Enchant the sapphire necklace into a games necklace.",
+      "complete": {
+        "op": "or",
         "of": [
           {
-            "op": "quest",
-            "quest": "ALFRED_GRIMHANDS_BARCRAWL",
-            "state": "IN_PROGRESS"
+            "op": "itemAcquired",
+            "id": 1656,
+            "qty": 20
           },
           {
-            "op": "quest",
-            "quest": "WATERFALL_QUEST",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "DWARF_CANNON",
-            "state": "IN_PROGRESS"
+            "op": "item",
+            "id": 1656,
+            "qty": 20,
+            "scope": "ANY"
           }
         ]
       },
+      "item": 1656,
+      "world": [
+        2676,
+        3152,
+        0
+      ]
+    },
+    {
+      "id": "s12-010a",
+      "title": "Teleport to the barbarian outpost with …",
+      "text": "Teleport to the barbarian outpost with your games necklace.",
+      "manual": true,
+      "object": 2115,
+      "world": [
+        2545,
+        3570,
+        0
+      ]
+    },
+    {
+      "id": "s12-010b",
+      "title": "Unlock the minigame teleport (start the …",
+      "text": "Unlock the minigame teleport (start the teleport animation to confirm it worked, then just click away to cancel it)",
+      "manual": true,
+      "world": [
+        2545,
+        3570,
+        0
+      ]
+    },
+    {
+      "id": "s12-010c",
+      "title": "start Alfred Grimhand’s Barcrawl",
+      "text": "start Alfred Grimhand’s Barcrawl",
+      "complete": {
+        "op": "quest",
+        "quest": "ALFRED_GRIMHANDS_BARCRAWL",
+        "state": "IN_PROGRESS"
+      },
+      "npc": 7285,
+      "world": [
+        2544,
+        3568,
+        0
+      ]
+    },
+    {
+      "id": "s12-010d",
+      "title": "go south and do the Waterfall …",
+      "text": "go south and do the Waterfall quest until the step where you need the pebble (bring your rope).",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s12-010e",
+      "title": "Buy a greenman’s ale from Rasolo.",
+      "text": "Buy a greenman’s ale from Rasolo.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1909,
+            "qty": 1
+          },
+          {
+            "op": "item",
+            "id": 1909,
+            "qty": 1,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1909,
       "npc": 679,
       "world": [
         2531,
@@ -291,39 +1803,121 @@
       ]
     },
     {
-      "id": "s12-011",
-      "title": "Minigame teleport to Fishing Trawler, complete …",
-      "text": "Minigame teleport to Fishing Trawler, complete Fight Arena and enter the Tree Gnome Village maze. Collect Glarial’s pebble along the way (don’t drop it after the quest). Start and complete Tree Gnome village.",
+      "id": "s12-010f",
+      "title": "Start Dwarf Cannon up to the …",
+      "text": "Start Dwarf Cannon up to the step where you need to find Lollk.",
       "complete": {
-        "op": "and",
-        "of": [
-          {
-            "op": "quest",
-            "quest": "FIGHT_ARENA",
-            "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "TREE_GNOME_VILLAGE",
-            "state": "FINISHED"
-          }
-        ]
+        "op": "quest",
+        "quest": "DWARF_CANNON",
+        "state": "IN_PROGRESS"
       },
       "world": [
-        2455,
-        3301,
+        2567,
+        3460,
         0
       ]
     },
     {
-      "id": "s12-012",
+      "id": "s12-011a",
+      "title": "Minigame teleport to Fishing Trawler, complete …",
+      "text": "Minigame teleport to Fishing Trawler, complete Fight Arena",
+      "complete": {
+        "op": "quest",
+        "quest": "FIGHT_ARENA",
+        "state": "FINISHED"
+      },
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "s12-011b",
+      "title": "enter the Tree Gnome Village maze.",
+      "text": "enter the Tree Gnome Village maze.",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "FINISHED"
+      },
+      "object": 49620,
+      "world": [
+        2544,
+        9571,
+        0
+      ]
+    },
+    {
+      "id": "s12-011c",
+      "title": "Collect Glarial’s pebble along the way …",
+      "text": "Collect Glarial’s pebble along the way (don’t drop it after the quest).",
+      "manual": true,
+      "world": [
+        2565,
+        3199,
+        0
+      ]
+    },
+    {
+      "id": "s12-011d",
+      "title": "Start and complete Tree Gnome village.",
+      "text": "Start and complete Tree Gnome village.",
+      "complete": {
+        "op": "quest",
+        "quest": "TREE_GNOME_VILLAGE",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        2541,
+        3170,
+        0
+      ]
+    },
+    {
+      "id": "s12-012a",
       "title": "Take the spirit tree to the …",
-      "text": "Take the spirit tree to the Gnome Stronghold, start the Grand Tree. For the next shopping trip, make sure to leave 2586 GP. Grab your sacks from the bank and use them to reduce the amount of running. Buy dwellberries, 2 buckets of milk, 1 pineapple, 10 potatoes, 3 pots of flour, 4 cheese, 1 orange, 1 gnome spice and 120 produce items in any combination of the following (all of onion, potato, cabbage, tomato, cheese, lime, orange, lemon, pineapple and dwellberries work, cheapest in red) and 130 chocolate dust (2 for quests, 128 for energy potions) from the Grand Tree Groceries. Visit Blurberry’s bar for the barcrawl, buy a premade blurb’ sp. Collect two swamp toads and take off their legs.",
+      "text": "Take the spirit tree to the Gnome Stronghold",
+      "manual": true,
+      "object": 17209,
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "s12-012b",
+      "title": "start the Grand Tree. For the …",
+      "text": "start the Grand Tree. For the next shopping trip",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
         "state": "IN_PROGRESS"
       },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s12-012c",
+      "title": "make sure to leave 2586 GP.",
+      "text": "make sure to leave 2586 GP.",
+      "manual": true,
+      "npc": 1444,
+      "world": [
+        2482,
+        3486,
+        1
+      ]
+    },
+    {
+      "id": "s12-012d",
+      "title": "Grab your sacks from the bank",
+      "text": "Grab your sacks from the bank",
+      "manual": true,
       "world": [
         2444,
         3485,
@@ -331,15 +1925,106 @@
       ]
     },
     {
-      "id": "s12-013",
+      "id": "s12-012e",
+      "title": "use them to reduce the amount …",
+      "text": "use them to reduce the amount of running.",
+      "manual": true,
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "s12-012f",
+      "title": "Buy dwellberries, 2 buckets of milk, …",
+      "text": "Buy dwellberries, 2 buckets of milk, 1 pineapple, 10 potatoes, 3 pots of flour, 4 cheese, 1 orange, 1 gnome spice and 120 produce items in any combination of the following (all of onion, potato, cabbage, tomato, cheese, lime, orange, lemon, pineapple and dwellberries work, cheapest in red) and 130 chocolate dust (2 for quests, 128 for energy potions) from the Grand Tree Groceries. Visit Blurberry’s bar for the barcrawl",
+      "complete": {
+        "op": "quest",
+        "quest": "THE_GRAND_TREE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2466,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s12-012g",
+      "title": "buy a premade blurb’ sp.",
+      "text": "buy a premade blurb’ sp.",
+      "manual": true,
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "s12-012h",
+      "title": "Collect two swamp toads",
+      "text": "Collect two swamp toads",
+      "manual": true,
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "s12-012i",
+      "title": "take off their legs.",
+      "text": "take off their legs.",
+      "manual": true,
+      "world": [
+        2404,
+        3419,
+        0
+      ]
+    },
+    {
+      "id": "s12-013a",
       "title": "Minigame teleport to the barbarian outpost, …",
-      "text": "Minigame teleport to the barbarian outpost, grab a rope, Glarial’s pebble, some food, water strikes and the runes for Waterfall quest (optional: already bring your feathers). Complete Waterfall quest (you have to juggle some gear at Glarial’s Tomb) and kill a Fire Giant in the west room for the diary. Barb fish to 32 agility, keep your heavy fishing rod. Minigame teleport to Port Khazard, charter a ship to Aldarin, start and complete Death on the Isle. Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. If you only collected 2 iron bars earlier, collect 5 more upstairs in the Shields of Mistrock store. Minigame teleport back to Barbarian Assault and resume barbarian fishing to level 50 agility. Also start barbarian farming (if possible). Knife-log teak logs to tick manipulate.",
+      "text": "Minigame teleport to the barbarian outpost, grab a rope, Glarial’s pebble, some food, water strikes and the runes for Waterfall quest (optional: already bring your feathers).",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s12-013b",
+      "title": "Complete Waterfall quest (you have to …",
+      "text": "Complete Waterfall quest (you have to juggle some gear at Glarial’s Tomb)",
+      "complete": {
+        "op": "quest",
+        "quest": "WATERFALL_QUEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s12-013c",
+      "title": "kill a Fire Giant in the …",
+      "text": "kill a Fire Giant in the west room for the diary. Barb fish to 32 agility, keep your heavy fishing rod. Minigame teleport to Port Khazard, charter a ship to Aldarin",
       "complete": {
         "op": "skill",
         "skill": "AGILITY",
         "level": 32,
         "cmp": ">="
       },
+      "note": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful.",
+      "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
       "npc": 1209,
       "world": [
         2615,
@@ -348,17 +2033,162 @@
       ]
     },
     {
-      "id": "s12-014",
+      "id": "s12-013d",
+      "title": "start and complete Death on the …",
+      "text": "start and complete Death on the Isle.",
+      "complete": {
+        "op": "quest",
+        "quest": "DEATH_ON_THE_ISLE",
+        "state": "IN_PROGRESS"
+      },
+      "world": [
+        1426,
+        2919,
+        0
+      ]
+    },
+    {
+      "id": "s12-013e",
+      "title": "Collect the costume needle and the …",
+      "text": "Collect the costume needle and the icon after the quest, using the icon to unlock the teleport on the pendant of ates. If you only collected 2 iron bars earlier",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 2351,
+            "qty": 12
+          },
+          {
+            "op": "item",
+            "id": 2351,
+            "qty": 12,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 2351,
+      "world": [
+        2521,
+        3495,
+        0
+      ]
+    },
+    {
+      "id": "s12-013f",
+      "title": "collect 5 more upstairs in the …",
+      "text": "collect 5 more upstairs in the Shields of Mistrock store. Minigame teleport back to Barbarian Assault and resume barbarian fishing to level 50 agility. Also start barbarian farming (if possible). Knife-log teak logs to tick manipulate.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6333,
+            "qty": 50
+          },
+          {
+            "op": "item",
+            "id": 6333,
+            "qty": 51,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 6333,
+      "world": [
+        2533,
+        3571,
+        0
+      ]
+    },
+    {
+      "id": "s12-014a",
       "title": "Minigame teleport to Burthorpe, buy 5 …",
-      "text": "Minigame teleport to Burthorpe, buy 5 Asgarnian ale, 39 Wizard’s mind bombs and 12 Dwarven stouts. Collect the Rogues outfit and crack a wall safe in the main area for the diary. Buy 75 lockpicks and 25 ropes. Cook fish (salmon, trout and all raw fish from Tempoross, but save at least one raw swordfish for making a swordchick at the Tower of Life later for the Ardougne medium diary) between the games to replenish run energy (you can 2t cook it). Make sure you have at least 10 trout for Death Plateau and 15 salmon for In Aid of the Myreque, and got to at least level 43 cooking. Grab your GP, blackjack and a POH tab (equip full rogues), run south and complete Fishing Contest.",
+      "text": "Minigame teleport to Burthorpe, buy 5 Asgarnian ale, 39 Wizard’s mind bombs and 12 Dwarven stouts.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1905,
+            "qty": 5
+          },
+          {
+            "op": "item",
+            "id": 1905,
+            "qty": 5,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1905,
+      "npc": 1316,
+      "world": [
+        2954,
+        3368,
+        0
+      ]
+    },
+    {
+      "id": "s12-014b",
+      "title": "Collect the Rogues outfit and crack …",
+      "text": "Collect the Rogues outfit and crack a wall safe in the main area for the diary.",
+      "manual": true,
+      "world": [
+        2954,
+        3368,
+        0
+      ]
+    },
+    {
+      "id": "s12-014c",
+      "title": "Buy 75 lockpicks and 25 ropes.",
+      "text": "Buy 75 lockpicks and 25 ropes.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 1523,
+            "qty": 75
+          },
+          {
+            "op": "item",
+            "id": 1523,
+            "qty": 75,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 1523,
+      "world": [
+        2957,
+        3388,
+        0
+      ]
+    },
+    {
+      "id": "s12-014d",
+      "title": "Cook fish (salmon, trout and all …",
+      "text": "Cook fish (salmon, trout and all raw fish from Tempoross, but save at least one raw swordfish for making a swordchick at the Tower of Life later for the Ardougne medium diary) between the games to replenish run energy (you can 2t cook it).",
+      "complete": {
+        "op": "quest",
+        "quest": "TOWER_OF_LIFE",
+        "state": "FINISHED"
+      },
+      "world": [
+        2844,
+        3429,
+        0
+      ]
+    },
+    {
+      "id": "s12-014e",
+      "title": "Make sure you have at least …",
+      "text": "Make sure you have at least 10 trout for Death Plateau and 15 salmon for In Aid of the Myreque, and got to at least level 43 cooking.",
       "complete": {
         "op": "and",
         "of": [
-          {
-            "op": "quest",
-            "quest": "TOWER_OF_LIFE",
-            "state": "FINISHED"
-          },
           {
             "op": "quest",
             "quest": "DEATH_PLATEAU",
@@ -368,18 +2198,50 @@
             "op": "quest",
             "quest": "IN_AID_OF_THE_MYREQUE",
             "state": "FINISHED"
-          },
-          {
-            "op": "quest",
-            "quest": "FISHING_CONTEST",
-            "state": "FINISHED"
           }
         ]
       },
-      "npc": 1316,
+      "object": 3662,
       "world": [
-        2906,
-        3537,
+        2864,
+        3591,
+        0
+      ]
+    },
+    {
+      "id": "s12-014f",
+      "title": "Grab your GP, blackjack and a …",
+      "text": "Grab your GP, blackjack and a POH tab (equip full rogues)",
+      "manual": true,
+      "world": [
+        2954,
+        3368,
+        0
+      ]
+    },
+    {
+      "id": "s12-014g",
+      "title": "run south",
+      "text": "run south",
+      "manual": true,
+      "world": [
+        2954,
+        3368,
+        0
+      ]
+    },
+    {
+      "id": "s12-014h",
+      "title": "complete Fishing Contest.",
+      "text": "complete Fishing Contest.",
+      "complete": {
+        "op": "quest",
+        "quest": "FISHING_CONTEST",
+        "state": "FINISHED"
+      },
+      "world": [
+        2821,
+        3486,
         0
       ]
     },

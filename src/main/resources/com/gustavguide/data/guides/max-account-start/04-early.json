@@ -140,26 +140,10 @@
       "manual": true
     },
     {
-      "id": "early-008a",
+      "id": "early-008",
       "title": "15 - 30 (184 oak planks, …",
-      "text": "15 - 30 (184 oak planks, build workshop at lvl 15",
-      "manual": true,
-      "world": [
-        3087,
-        3522,
-        0
-      ]
-    },
-    {
-      "id": "early-008b",
-      "title": "make oak repair benches)",
-      "text": "make oak repair benches)",
-      "manual": true,
-      "world": [
-        3087,
-        3522,
-        0
-      ]
+      "text": "15 - 30 (184 oak planks, build workshop at lvl 15 and make oak repair benches)",
+      "manual": true
     },
     {
       "id": "early-009",
@@ -676,7 +660,7 @@
     {
       "id": "early-043b",
       "title": "Get atleast level 44 but more …",
-      "text": "Get atleast level 44 but more wont hurt",
+      "text": "Get atleast level 44 but more wont hurt.",
       "manual": true
     },
     {

@@ -6,13 +6,13 @@
     {
       "id": "ammonite-crabs-001",
       "title": "Put your graceful outfit in your …",
-      "text": "Put your graceful outfit in your costume room",
+      "text": "Put your graceful outfit in your costume room.",
       "manual": true
     },
     {
       "id": "ammonite-crabs-002",
       "title": "Buy a studded body and studded …",
-      "text": "Buy a studded body and studded chaps from Horvik",
+      "text": "Buy a studded body and studded chaps from Horvik.",
       "complete": {
         "op": "or",
         "of": [
@@ -40,7 +40,7 @@
     {
       "id": "ammonite-crabs-003",
       "title": "Buy a coif, green d'hide chaps, …",
-      "text": "Buy a coif, green d'hide chaps, and green d'hide vambs from the Champions' Guild shop",
+      "text": "Buy a coif, green d'hide chaps, and green d'hide vambs from the Champions' Guild shop.",
       "complete": {
         "op": "or",
         "of": [
@@ -67,7 +67,7 @@
     {
       "id": "ammonite-crabs-004",
       "title": "Get an Ava's Attractor from Ava …",
-      "text": "Get an Ava's Attractor from Ava if you don't still have it",
+      "text": "Get an Ava's Attractor from Ava if you don't still have it.",
       "manual": true
     },
     {
@@ -111,8 +111,8 @@
     },
     {
       "id": "ammonite-crabs-007",
-      "title": "Get a hammer and chisel",
-      "text": "Get a hammer and chisel",
+      "title": "Get a hammer and chisel.",
+      "text": "Get a hammer and chisel.",
       "manual": true
     },
     {
@@ -144,8 +144,8 @@
     },
     {
       "id": "ammonite-crabs-008b",
-      "title": "smith 4 steel bars",
-      "text": "smith 4 steel bars",
+      "title": "smith 4 steel bars.",
+      "text": "smith 4 steel bars.",
       "manual": true,
       "world": [
         2869,
@@ -161,20 +161,20 @@
     },
     {
       "id": "ammonite-crabs-009b",
-      "title": "make one now",
-      "text": "make one now",
+      "title": "make one now.",
+      "text": "make one now.",
       "manual": true
     },
     {
       "id": "ammonite-crabs-010",
       "title": "Buy an axe or get one …",
-      "text": "Buy an axe or get one from tree spirits",
+      "text": "Buy an axe or get one from tree spirits.",
       "manual": true
     },
     {
       "id": "ammonite-crabs-011",
       "title": "Chop some logs and oak logs …",
-      "text": "Chop some logs and oak logs for birdhouses",
+      "text": "Chop some logs and oak logs for birdhouses.",
       "manual": true,
       "object": 10820,
       "world": [

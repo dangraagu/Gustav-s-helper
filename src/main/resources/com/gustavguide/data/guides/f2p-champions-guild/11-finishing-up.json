@@ -5,14 +5,14 @@
   "steps": [
     {
       "id": "finishing-up-001",
-      "title": "File:Chronicle.png Chronicle teleport",
-      "text": "File:Chronicle.png Chronicle teleport",
+      "title": "File:Chronicle.png Chronicle teleport.",
+      "text": "File:Chronicle.png Chronicle teleport.",
       "manual": true
     },
     {
       "id": "finishing-up-002",
       "title": "Talk to the apothecary to get …",
-      "text": "Talk to the apothecary to get the File:Cadava_potion.png Cadava potion",
+      "text": "Talk to the apothecary to get the File:Cadava_potion.png Cadava potion.",
       "manual": true,
       "npc": 5036,
       "world": [
@@ -24,7 +24,7 @@
     {
       "id": "finishing-up-003",
       "title": "Talk to Juliet and watch the …",
-      "text": "Talk to Juliet and watch the cutscene",
+      "text": "Talk to Juliet and watch the cutscene.",
       "manual": true,
       "npc": 5035,
       "world": [
@@ -75,8 +75,8 @@
     },
     {
       "id": "finishing-up-005b",
-      "title": "complete Romeo & Juliet",
-      "text": "complete Romeo & Juliet",
+      "title": "complete Romeo & Juliet.",
+      "text": "complete Romeo & Juliet.",
       "complete": {
         "op": "quest",
         "quest": "ROMEO__JULIET",
@@ -91,7 +91,7 @@
     {
       "id": "finishing-up-006",
       "title": "Talk to Sir Prysin to get …",
-      "text": "Talk to Sir Prysin to get the Silverlight. — File:Chronicle.png Chronicle teleport as soon as the sword is automatically equipped",
+      "text": "Talk to Sir Prysin to get the Silverlight. — File:Chronicle.png Chronicle teleport as soon as the sword is automatically equipped.",
       "manual": true,
       "npc": 5083,
       "world": [
@@ -114,8 +114,8 @@
     },
     {
       "id": "finishing-up-008",
-      "title": "Enter the incantation",
-      "text": "Enter the incantation",
+      "title": "Enter the incantation.",
+      "text": "Enter the incantation.",
       "manual": true,
       "world": [
         3203,
@@ -125,8 +125,8 @@
     },
     {
       "id": "finishing-up-009",
-      "title": "File:Chronicle.png Chronicle teleport",
-      "text": "File:Chronicle.png Chronicle teleport",
+      "title": "File:Chronicle.png Chronicle teleport.",
+      "text": "File:Chronicle.png Chronicle teleport.",
       "manual": true
     },
     {

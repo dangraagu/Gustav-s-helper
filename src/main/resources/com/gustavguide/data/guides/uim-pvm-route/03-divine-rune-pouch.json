@@ -6,13 +6,13 @@
     {
       "id": "divine-rune-pouch-001",
       "title": "Make an amulet of fury. — …",
-      "text": "Make an amulet of fury. — You need high Crafting eventually, but just getting an amulet of glory is also fine for now",
+      "text": "Make an amulet of fury. — You need high Crafting eventually, but just getting an amulet of glory is also fine for now.",
       "manual": true
     },
     {
       "id": "divine-rune-pouch-002",
       "title": "Obtain a Hunters' sunlight crossbow. — …",
-      "text": "Obtain a Hunters' sunlight crossbow. — Either type of ammo works. — The Magic shortbow(i) is also fine",
+      "text": "Obtain a Hunters' sunlight crossbow. — Either type of ammo works. — The Magic shortbow(i) is also fine.",
       "manual": true
     },
     {
@@ -24,7 +24,7 @@
     {
       "id": "divine-rune-pouch-004",
       "title": "Complete the Fight Caves for a …",
-      "text": "Complete the Fight Caves for a Fire Cape. — Preferably do this on a Slayer task",
+      "text": "Complete the Fight Caves for a Fire Cape. — Preferably do this on a Slayer task.",
       "manual": true,
       "world": [
         2856,
@@ -35,7 +35,7 @@
     {
       "id": "divine-rune-pouch-005",
       "title": "Complete Mage arena 2. — Make …",
-      "text": "Complete Mage arena 2. — Make sure to get the Zamorak Cape",
+      "text": "Complete Mage arena 2. — Make sure to get the Zamorak Cape.",
       "complete": {
         "op": "quest",
         "quest": "MAGE_ARENA_II",
@@ -50,13 +50,13 @@
     {
       "id": "divine-rune-pouch-006",
       "title": "Obtain a Warped sceptre. — Preferably …",
-      "text": "Obtain a Warped sceptre. — Preferably do this on a Slayer task",
+      "text": "Obtain a Warped sceptre. — Preferably do this on a Slayer task.",
       "manual": true
     },
     {
       "id": "divine-rune-pouch-007",
       "title": "Kill Dagannoth Rex for a Berserker …",
-      "text": "Kill Dagannoth Rex for a Berserker Ring — Use iban blast or a warped scepter with blood spells to heal. — Preferably do this on a Slayer task",
+      "text": "Kill Dagannoth Rex for a Berserker Ring — Use iban blast or a warped scepter with blood spells to heal. — Preferably do this on a Slayer task.",
       "manual": true,
       "npc": 2267,
       "world": [
@@ -68,7 +68,7 @@
     {
       "id": "divine-rune-pouch-008",
       "title": "Complete The Final Dawn for the …",
-      "text": "Complete The Final Dawn for the Arkan blade",
+      "text": "Complete The Final Dawn for the Arkan blade.",
       "complete": {
         "op": "quest",
         "quest": "THE_FINAL_DAWN",

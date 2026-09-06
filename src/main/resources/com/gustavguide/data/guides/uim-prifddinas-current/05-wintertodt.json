@@ -6,7 +6,7 @@
     {
       "id": "wintertodt-001",
       "title": "Get your cash stack back from …",
-      "text": "Get your cash stack back from the Ferox Enclave",
+      "text": "Get your cash stack back from the Ferox Enclave.",
       "manual": true,
       "world": [
         3137,
@@ -17,7 +17,7 @@
     {
       "id": "wintertodt-002",
       "title": "Buy some of each elemental rune …",
-      "text": "Buy some of each elemental rune and law runes from Ali Morrisane. — You will be dropping all of these again eventually",
+      "text": "Buy some of each elemental rune and law runes from Ali Morrisane. — You will be dropping all of these again eventually.",
       "complete": {
         "op": "or",
         "of": [
@@ -45,7 +45,7 @@
     {
       "id": "wintertodt-003",
       "title": "Head to Auburnvale and purchase an …",
-      "text": "Head to Auburnvale and purchase an adamant axe",
+      "text": "Head to Auburnvale and purchase an adamant axe.",
       "complete": {
         "op": "or",
         "of": [
@@ -94,7 +94,7 @@
     {
       "id": "wintertodt-004b",
       "title": "dig up the Clue Hunter Gloves …",
-      "text": "dig up the Clue Hunter Gloves and Clue Hunter Boots. — Destroy the boots. — Wear the gloves",
+      "text": "dig up the Clue Hunter Gloves and Clue Hunter Boots. — Destroy the boots. — Wear the gloves.",
       "manual": true,
       "world": [
         1380,
@@ -104,8 +104,8 @@
     },
     {
       "id": "wintertodt-005",
-      "title": "Get a Tinderbox",
-      "text": "Get a Tinderbox",
+      "title": "Get a Tinderbox.",
+      "text": "Get a Tinderbox.",
       "manual": true
     },
     {
@@ -128,7 +128,7 @@
     {
       "id": "wintertodt-006b",
       "title": "get a Forestry kit from the …",
-      "text": "get a Forestry kit from the Forestry Shop. — You can drop the Ardounge Cloak now. — Hop to world 444 for all of your woodcutting",
+      "text": "get a Forestry kit from the Forestry Shop. — You can drop the Ardounge Cloak now. — Hop to world 444 for all of your woodcutting.",
       "manual": true,
       "world": [
         3103,
@@ -138,8 +138,8 @@
     },
     {
       "id": "wintertodt-007",
-      "title": "Buy a Rainbow Scarf from Diango",
-      "text": "Buy a Rainbow Scarf from Diango",
+      "title": "Buy a Rainbow Scarf from Diango.",
+      "text": "Buy a Rainbow Scarf from Diango.",
       "manual": true,
       "world": [
         3081,
@@ -150,7 +150,7 @@
     {
       "id": "wintertodt-008",
       "title": "Store your cash stack again at …",
-      "text": "Store your cash stack again at the Ferox Enclave",
+      "text": "Store your cash stack again at the Ferox Enclave.",
       "manual": true,
       "world": [
         3137,
@@ -173,8 +173,8 @@
     },
     {
       "id": "wintertodt-010",
-      "title": "Complete Death to the Dorgeshuun",
-      "text": "Complete Death to the Dorgeshuun",
+      "title": "Complete Death to the Dorgeshuun.",
+      "text": "Complete Death to the Dorgeshuun.",
       "complete": {
         "op": "quest",
         "quest": "DEATH_TO_THE_DORGESHUUN",

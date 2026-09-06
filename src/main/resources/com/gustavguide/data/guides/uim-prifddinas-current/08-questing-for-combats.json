@@ -30,7 +30,7 @@
     {
       "id": "questing-for-combats-003",
       "title": "Complete Recipe for Disaster/Freeing the Mountain …",
-      "text": "Complete Recipe for Disaster/Freeing the Mountain Dwarf",
+      "text": "Complete Recipe for Disaster/Freeing the Mountain Dwarf.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF",
@@ -45,7 +45,7 @@
     {
       "id": "questing-for-combats-004",
       "title": "Complete Death Plateau. — You might …",
-      "text": "Complete Death Plateau. — You might need to juggle items on the ground for a bit to clear enough space for the items",
+      "text": "Complete Death Plateau. — You might need to juggle items on the ground for a bit to clear enough space for the items.",
       "complete": {
         "op": "quest",
         "quest": "DEATH_PLATEAU",
@@ -59,8 +59,8 @@
     },
     {
       "id": "questing-for-combats-005",
-      "title": "Complete Troll Stronghold",
-      "text": "Complete Troll Stronghold",
+      "title": "Complete Troll Stronghold.",
+      "text": "Complete Troll Stronghold.",
       "complete": {
         "op": "quest",
         "quest": "TROLL_STRONGHOLD",
@@ -74,8 +74,8 @@
     },
     {
       "id": "questing-for-combats-006",
-      "title": "Complete Making History",
-      "text": "Complete Making History",
+      "title": "Complete Making History.",
+      "text": "Complete Making History.",
       "complete": {
         "op": "quest",
         "quest": "MAKING_HISTORY",
@@ -105,7 +105,7 @@
     {
       "id": "questing-for-combats-008",
       "title": "Unlock Barbarian Farming so you don't …",
-      "text": "Unlock Barbarian Farming so you don't need a Seed dibber anymore",
+      "text": "Unlock Barbarian Farming so you don't need a Seed dibber anymore.",
       "manual": true,
       "world": [
         2500,
@@ -115,8 +115,8 @@
     },
     {
       "id": "questing-for-combats-009",
-      "title": "Complete The Golem",
-      "text": "Complete The Golem",
+      "title": "Complete The Golem.",
+      "text": "Complete The Golem.",
       "complete": {
         "op": "quest",
         "quest": "THE_GOLEM",
@@ -131,7 +131,7 @@
     {
       "id": "questing-for-combats-010",
       "title": "Complete Shadow of the Storm. — …",
-      "text": "Complete Shadow of the Storm. — Watch the videos for some notes on the boss fight. — Put the experience on Ranged",
+      "text": "Complete Shadow of the Storm. — Watch the videos for some notes on the boss fight. — Put the experience on Ranged.",
       "complete": {
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
@@ -145,8 +145,8 @@
     },
     {
       "id": "questing-for-combats-011",
-      "title": "Complete Recipe for Disaster/Freeing Evil Dave",
-      "text": "Complete Recipe for Disaster/Freeing Evil Dave",
+      "title": "Complete Recipe for Disaster/Freeing Evil Dave.",
+      "text": "Complete Recipe for Disaster/Freeing Evil Dave.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE",
@@ -160,8 +160,8 @@
     },
     {
       "id": "questing-for-combats-012",
-      "title": "Complete Big Chompy Bird Hunting",
-      "text": "Complete Big Chompy Bird Hunting",
+      "title": "Complete Big Chompy Bird Hunting.",
+      "text": "Complete Big Chompy Bird Hunting.",
       "complete": {
         "op": "quest",
         "quest": "BIG_CHOMPY_BIRD_HUNTING",
@@ -175,8 +175,8 @@
     },
     {
       "id": "questing-for-combats-013",
-      "title": "Complete Recipe for Disaster/Freeing Skrach Uglogwee",
-      "text": "Complete Recipe for Disaster/Freeing Skrach Uglogwee",
+      "title": "Complete Recipe for Disaster/Freeing Skrach Uglogwee.",
+      "text": "Complete Recipe for Disaster/Freeing Skrach Uglogwee.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE",
@@ -185,8 +185,8 @@
     },
     {
       "id": "questing-for-combats-014",
-      "title": "Complete Recipe for Disaster/Freeing Pirate Pete",
-      "text": "Complete Recipe for Disaster/Freeing Pirate Pete",
+      "title": "Complete Recipe for Disaster/Freeing Pirate Pete.",
+      "text": "Complete Recipe for Disaster/Freeing Pirate Pete.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
@@ -196,7 +196,7 @@
     {
       "id": "questing-for-combats-015",
       "title": "Complete Recipe for Disaster/Freeing the Lumbridge …",
-      "text": "Complete Recipe for Disaster/Freeing the Lumbridge Guide",
+      "text": "Complete Recipe for Disaster/Freeing the Lumbridge Guide.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE",
@@ -210,8 +210,8 @@
     },
     {
       "id": "questing-for-combats-016",
-      "title": "Complete Wanted!",
-      "text": "Complete Wanted!",
+      "title": "Complete Wanted!.",
+      "text": "Complete Wanted!.",
       "complete": {
         "op": "quest",
         "quest": "WANTED",
@@ -225,8 +225,8 @@
     },
     {
       "id": "questing-for-combats-017",
-      "title": "Complete Animal Magnetism",
-      "text": "Complete Animal Magnetism",
+      "title": "Complete Animal Magnetism.",
+      "text": "Complete Animal Magnetism.",
       "complete": {
         "op": "quest",
         "quest": "ANIMAL_MAGNETISM",
@@ -241,7 +241,7 @@
     {
       "id": "questing-for-combats-018",
       "title": "At this point you could start …",
-      "text": "At this point you could start training Ranged in your downtime, but the guide is going to prepare for melee as well before settling in for the combat grind",
+      "text": "At this point you could start training Ranged in your downtime, but the guide is going to prepare for melee as well before settling in for the combat grind.",
       "manual": true
     },
     {
@@ -253,7 +253,7 @@
     {
       "id": "questing-for-combats-020",
       "title": "Complete Spirits of the Elid. — …",
-      "text": "Complete Spirits of the Elid. — You can boost to 37 Ranged with a Lizardkicker",
+      "text": "Complete Spirits of the Elid. — You can boost to 37 Ranged with a Lizardkicker.",
       "complete": {
         "op": "skill",
         "skill": "RANGED",
@@ -269,7 +269,7 @@
     {
       "id": "questing-for-combats-021",
       "title": "(Optional) Complete Meat and Greet. — …",
-      "text": "(Optional) Complete Meat and Greet. — The boss fight for this quest is rather challenging with these stats, but is possible. It is totally fine to skip it",
+      "text": "(Optional) Complete Meat and Greet. — The boss fight for this quest is rather challenging with these stats, but is possible. It is totally fine to skip it.",
       "manual": true
     },
     {
@@ -286,7 +286,7 @@
     {
       "id": "questing-for-combats-023",
       "title": "Complete Zogre Flesh Eaters. — Save …",
-      "text": "Complete Zogre Flesh Eaters. — Save the Super Restores to help during Monkey Madness 1",
+      "text": "Complete Zogre Flesh Eaters. — Save the Super Restores to help during Monkey Madness 1.",
       "complete": {
         "op": "and",
         "of": [
@@ -332,7 +332,7 @@
     {
       "id": "questing-for-combats-025",
       "title": "Complete Recipe for Disaster/Freeing King Awowogei. …",
-      "text": "Complete Recipe for Disaster/Freeing King Awowogei. — Purchase a Dragon Scimitar from Daga before dropping your M'speak amulet and greegrees",
+      "text": "Complete Recipe for Disaster/Freeing King Awowogei. — Purchase a Dragon Scimitar from Daga before dropping your M'speak amulet and greegrees.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__KING_AWOWOGEI",
@@ -342,7 +342,7 @@
     {
       "id": "questing-for-combats-026",
       "title": "Complete Dragon Slayer I. — You …",
-      "text": "Complete Dragon Slayer I. — You can buy a rune sword for the combat sections, you will want it for training later anyway",
+      "text": "Complete Dragon Slayer I. — You can buy a rune sword for the combat sections, you will want it for training later anyway.",
       "complete": {
         "op": "quest",
         "quest": "DRAGON_SLAYER_I",
@@ -357,7 +357,7 @@
     {
       "id": "questing-for-combats-027",
       "title": "Complete Heroes' Quest. — You will …",
-      "text": "Complete Heroes' Quest. — You will need to briefly visit Entrana",
+      "text": "Complete Heroes' Quest. — You will need to briefly visit Entrana.",
       "complete": {
         "op": "quest",
         "quest": "HEROES_QUEST",
@@ -371,8 +371,8 @@
     },
     {
       "id": "questing-for-combats-028",
-      "title": "Complete Icthlarin's Little Helper",
-      "text": "Complete Icthlarin's Little Helper",
+      "title": "Complete Icthlarin's Little Helper.",
+      "text": "Complete Icthlarin's Little Helper.",
       "complete": {
         "op": "quest",
         "quest": "ICTHLARINS_LITTLE_HELPER",
@@ -387,7 +387,7 @@
     {
       "id": "questing-for-combats-029",
       "title": "Complete Contact!. — Put the xp …",
-      "text": "Complete Contact!. — Put the xp on Ranged",
+      "text": "Complete Contact!. — Put the xp on Ranged.",
       "complete": {
         "op": "quest",
         "quest": "CONTACT",
@@ -470,7 +470,7 @@
     {
       "id": "questing-for-combats-034",
       "title": "After you finish with melee, buy …",
-      "text": "After you finish with melee, buy a bone crossbow and an ava's attractor then switch to range training until level 60 Ranged",
+      "text": "After you finish with melee, buy a bone crossbow and an ava's attractor then switch to range training until level 60 Ranged.",
       "complete": {
         "op": "or",
         "of": [

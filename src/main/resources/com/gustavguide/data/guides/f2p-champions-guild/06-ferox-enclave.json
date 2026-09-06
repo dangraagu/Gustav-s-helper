@@ -6,7 +6,7 @@
     {
       "id": "ferox-enclave-001",
       "title": "File:Bank_icon.png Deposit all items at the …",
-      "text": "File:Bank_icon.png Deposit all items at the Banker (Ferox Enclave)",
+      "text": "File:Bank_icon.png Deposit all items at the Banker (Ferox Enclave).",
       "manual": true,
       "world": [
         3130,
@@ -17,7 +17,7 @@
     {
       "id": "ferox-enclave-002",
       "title": "Run west until you are met …",
-      "text": "Run west until you are met with the white Clan Wars portal",
+      "text": "Run west until you are met with the white Clan Wars portal.",
       "world": [
         3130,
         3622,
@@ -34,7 +34,7 @@
     {
       "id": "ferox-enclave-003",
       "title": "Enter and exit the portal to …",
-      "text": "Enter and exit the portal to replenish all your stamina",
+      "text": "Enter and exit the portal to replenish all your stamina.",
       "manual": true,
       "world": [
         3130,
@@ -45,7 +45,7 @@
     {
       "id": "ferox-enclave-004",
       "title": "Run and exit the Ferox Enclave …",
-      "text": "Run and exit the Ferox Enclave south",
+      "text": "Run and exit the Ferox Enclave south.",
       "world": [
         3137,
         3623,
@@ -62,7 +62,7 @@
     {
       "id": "ferox-enclave-005",
       "title": "Run southeast to the field of …",
-      "text": "Run southeast to the field of File:Bones.png Bones. — Pick up 24 File:Bones.png Bones. Since there are 12 in the field, you must world hop once",
+      "text": "Run southeast to the field of File:Bones.png Bones. — Pick up 24 File:Bones.png Bones. Since there are 12 in the field, you must world hop once.",
       "complete": {
         "op": "or",
         "of": [
@@ -83,8 +83,8 @@
     },
     {
       "id": "ferox-enclave-006",
-      "title": "Run back into the Ferox Enclave",
-      "text": "Run back into the Ferox Enclave",
+      "title": "Run back into the Ferox Enclave.",
+      "text": "Run back into the Ferox Enclave.",
       "world": [
         3137,
         3623,
@@ -128,7 +128,7 @@
     {
       "id": "ferox-enclave-008",
       "title": "Enter (no exit necessary) the white …",
-      "text": "Enter (no exit necessary) the white portal to refresh your run energy",
+      "text": "Enter (no exit necessary) the white portal to refresh your run energy.",
       "manual": true,
       "world": [
         3130,
@@ -138,8 +138,8 @@
     },
     {
       "id": "ferox-enclave-009",
-      "title": "File:Lumbridge Home_Teleport.png Home teleport",
-      "text": "File:Lumbridge Home_Teleport.png Home teleport",
+      "title": "File:Lumbridge Home_Teleport.png Home teleport.",
+      "text": "File:Lumbridge Home_Teleport.png Home teleport.",
       "manual": true,
       "object": 24009,
       "world": [

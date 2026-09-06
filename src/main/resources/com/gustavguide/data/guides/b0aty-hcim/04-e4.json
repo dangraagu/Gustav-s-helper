@@ -4,31 +4,32 @@
   "section": "Episode 4 - Banks 105 through 150",
   "steps": [
     {
-      "id": "e4-001",
-      "title": "Withdraw: Coins, Teleport Runes, Dramen Staff, …",
-      "text": "Withdraw: Coins, Teleport Runes, Dramen Staff, Ardougne Cloak, Combat Runes, Coins, Kitten or Cat, Tinderbox, Willow Log, Bag of Salt, Bucket of Sap, 2x Tarromin Potion (unf), Axe, Hammer (16 Inventory Slots) + Food",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 4687,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 4687,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 4687,
+      "id": "e4-001a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
       "world": [
-        2617,
-        3333,
+        3602,
+        3366,
         0
       ]
+    },
+    {
+      "id": "e4-001b",
+      "title": "Teleport Runes, Dramen Staff, Ardougne Cloak, …",
+      "text": "Teleport Runes, Dramen Staff, Ardougne Cloak, Combat Runes, Coins, Kitten or Cat, Tinderbox, Willow Log, Bag of Salt, Bucket of Sap, 2x Tarromin Potion (unf), Axe, Hammer (16 Inventory Slots) + Food",
+      "world": [
+        2624,
+        3300,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-002",
@@ -719,25 +720,14 @@
       ]
     },
     {
-      "id": "e4-044a",
-      "title": "Return",
-      "text": "Return",
-      "manual": true
-    },
-    {
-      "id": "e4-044b",
-      "title": "pick 4x Red/Pink/White Roses [Garden of …",
-      "text": "pick 4x Red/Pink/White Roses [Garden of Tranquility]",
+      "id": "e4-044",
+      "title": "Return and pick 4x Red/Pink/White Roses …",
+      "text": "Return and pick 4x Red/Pink/White Roses [Garden of Tranquility]",
       "complete": {
         "op": "quest",
         "quest": "GARDEN_OF_TRANQUILLITY",
         "state": "FINISHED"
-      },
-      "world": [
-        3083,
-        3503,
-        0
-      ]
+      }
     },
     {
       "id": "e4-045",
@@ -1052,26 +1042,21 @@
       ]
     },
     {
-      "id": "e4-067",
-      "title": "Withdraw: Pickaxe, Coins, Teleport Runes, Ring …",
-      "text": "Withdraw: Pickaxe, Coins, Teleport Runes, Ring of Duelling, Shrimps, Swordfish, Tuna, Salmon, Bass, Magic Secateurs, Filled Plant Pot, Watering Can, Spade, Gardening Trowel, Seed Dibber, Rake, 4x Red/Pink/White Roses (23 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 5354,
-            "qty": 3
-          },
-          {
-            "op": "item",
-            "id": 5354,
-            "qty": 3,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 5354,
+      "id": "e4-067a",
+      "title": "Withdraw: Pickaxe, Coins",
+      "text": "Withdraw: Pickaxe, Coins",
+      "manual": true,
+      "world": [
+        2810,
+        3442,
+        0
+      ]
+    },
+    {
+      "id": "e4-067b",
+      "title": "Teleport Runes, Ring of Duelling, Shrimps, …",
+      "text": "Teleport Runes, Ring of Duelling, Shrimps, Swordfish, Tuna, Salmon, Bass, Magic Secateurs, Filled Plant Pot, Watering Can, Spade, Gardening Trowel, Seed Dibber, Rake, 4x Red/Pink/White Roses (23 Inventory Slots)",
+      "manual": true,
       "world": [
         2810,
         3442,
@@ -1334,7 +1319,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -1985,31 +1970,32 @@
       ]
     },
     {
-      "id": "e4-131",
-      "title": "Withdraw: Coins, Teleport Runes, Ardy Cloak, …",
-      "text": "Withdraw: Coins, Teleport Runes, Ardy Cloak, Dramen Staff, Spade, Pickaxe, Cannonball Mould, Scrying Orb, Gold Bar, Scroll, Yellow Dye, Swamp Tar, Rope, Butterfly Net, Bird Snare, 3x Crest Part, Teasing Stick, Axe, Knife (19 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 10010,
-            "qty": 2
-          },
-          {
-            "op": "item",
-            "id": 10010,
-            "qty": 4,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 10010,
+      "id": "e4-131a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
+      "world": [
+        2617,
+        3333,
+        0
+      ]
+    },
+    {
+      "id": "e4-131b",
+      "title": "Teleport Runes, Ardy Cloak, Dramen Staff, …",
+      "text": "Teleport Runes, Ardy Cloak, Dramen Staff, Spade, Pickaxe, Cannonball Mould, Scrying Orb, Gold Bar, Scroll, Yellow Dye, Swamp Tar, Rope, Butterfly Net, Bird Snare, 3x Crest Part, Teasing Stick, Axe, Knife (19 Inventory Slots)",
       "world": [
         2624,
         3300,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-132",
@@ -2971,7 +2957,7 @@
     {
       "id": "e4-199",
       "title": "Withdraw: Coins, Dueling Ring, a knife, …",
-      "text": "Withdraw: Coins, Dueling Ring, a knife, log or axe, ardy cloak, dramen staff",
+      "text": "Withdraw: Coins, Dueling Ring, a knife, log or axe, ardy cloak, dramen staff.",
       "complete": {
         "op": "or",
         "of": [
@@ -3007,9 +2993,9 @@
       ]
     },
     {
-      "id": "e4-201",
+      "id": "e4-201a",
       "title": "Grab a barb-tailed harpoon quickly before …",
-      "text": "Grab a barb-tailed harpoon quickly before heading to tempoross. Run south and set dead-fall trap. 100% chance to obtain a harpoon. Useful to have as it is equipable and doesn't burn incase you gargle during tempoross.",
+      "text": "Grab a barb-tailed harpoon quickly before heading to tempoross.",
       "complete": {
         "op": "or",
         "of": [
@@ -3021,7 +3007,40 @@
           {
             "op": "item",
             "id": 311,
-            "qty": 4,
+            "qty": 104,
+            "scope": "ANY"
+          }
+        ]
+      },
+      "item": 311,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e4-201b",
+      "title": "Run south",
+      "text": "Run south",
+      "manual": true
+    },
+    {
+      "id": "e4-201c",
+      "title": "set dead-fall trap. 100% chance to …",
+      "text": "set dead-fall trap. 100% chance to obtain a harpoon. Useful to have as it is equipable and doesn't burn incase you gargle during tempoross.",
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 311,
+            "qty": 101
+          },
+          {
+            "op": "item",
+            "id": 311,
+            "qty": 104,
             "scope": "ANY"
           }
         ]
@@ -3087,12 +3106,12 @@
           {
             "op": "itemAcquired",
             "id": 311,
-            "qty": 4
+            "qty": 104
           },
           {
             "op": "item",
             "id": 311,
-            "qty": 4,
+            "qty": 104,
             "scope": "ANY"
           }
         ]
@@ -3120,7 +3139,7 @@
     {
       "id": "e4-207",
       "title": "MANDATORY: Only loot points after 65 …",
-      "text": "MANDATORY: Only loot points after 65 Fishing. This will ensure you get the best fish to train cooking later",
+      "text": "MANDATORY: Only loot points after 65 Fishing. This will ensure you get the best fish to train cooking later.",
       "manual": true
     },
     {
@@ -3363,7 +3382,7 @@
     {
       "id": "e4-223",
       "title": "Create Molten glass + blow into …",
-      "text": "Create Molten glass + blow into best option until 50 Crafting. Optionally finish 55 Crafting here",
+      "text": "Create Molten glass + blow into best option until 50 Crafting. Optionally finish 55 Crafting here.",
       "complete": {
         "op": "skill",
         "skill": "CRAFTING",
@@ -4179,9 +4198,20 @@
       ]
     },
     {
-      "id": "e4-288",
-      "title": "Head west and make a raid …",
-      "text": "Head west and make a raid party on the Notice Board. Scout a raid and do some CA's at Chambers of Xeric while here. You want at least 4 Combat Achievement points. The following are the easiest:",
+      "id": "e4-288a",
+      "title": "Head west",
+      "text": "Head west",
+      "manual": true,
+      "world": [
+        1232,
+        3573,
+        0
+      ]
+    },
+    {
+      "id": "e4-288b",
+      "title": "make a raid party on the …",
+      "text": "make a raid party on the Notice Board. Scout a raid and do some CA's at Chambers of Xeric while here. You want at least 4 Combat Achievement points. The following are the easiest:",
       "manual": true,
       "object": 29777,
       "world": [
@@ -4211,7 +4241,7 @@
     {
       "id": "e4-292",
       "title": "You can do all these if …",
-      "text": "You can do all these if you'd like for medium CA's later but you only need 4 points here for now",
+      "text": "You can do all these if you'd like for medium CA's later but you only need 4 points here for now.",
       "manual": true
     },
     {
@@ -4515,7 +4545,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -4604,7 +4634,7 @@
     {
       "id": "e4-320b",
       "title": "Use both on Herblore. Clean herbs …",
-      "text": "Use both on Herblore. Clean herbs in bank for 25",
+      "text": "Use both on Herblore. Clean herbs in bank for 25.",
       "manual": true,
       "world": [
         3185,
@@ -6137,7 +6167,7 @@
     {
       "id": "e4-419",
       "title": "Depending on cash stack you will …",
-      "text": "Depending on cash stack you will need to maintain this occasionally using money makers mentioned before",
+      "text": "Depending on cash stack you will need to maintain this occasionally using money makers mentioned before.",
       "manual": true
     },
     {
@@ -6149,7 +6179,7 @@
     {
       "id": "e4-421",
       "title": "You will need GP to upkeep …",
-      "text": "You will need GP to upkeep Miscellania. An Alternative is to not use this post quest and cut your own teak trees for construction & bank them. Best place is Fossil Island with but you won't have 70 agility yet for the shortcut. The herbs from Miscellania aren't that good either.",
+      "text": "You will need GP to upkeep Miscellania. An Alternative is to not use this post quest, cut your own teak trees for construction & bank them. Best place is Fossil Island with but you won't have 70 agility yet for the shortcut. The herbs from Miscellania aren't that good either.",
       "manual": true,
       "world": [
         2511,
@@ -7072,8 +7102,8 @@
     },
     {
       "id": "e4-478a",
-      "title": "Bank",
-      "text": "Bank",
+      "title": "Bank and Deposit steel and black …",
+      "text": "Bank and Deposit steel and black platebody",
       "manual": true,
       "world": [
         3185,
@@ -7083,17 +7113,6 @@
     },
     {
       "id": "e4-478b",
-      "title": "Deposit steel and black platebody",
-      "text": "Deposit steel and black platebody",
-      "manual": true,
-      "world": [
-        3185,
-        3441,
-        0
-      ]
-    },
-    {
-      "id": "e4-478c",
       "title": "grab a fly fishing rod + …",
       "text": "grab a fly fishing rod + feathers",
       "complete": {
@@ -7391,8 +7410,8 @@
     },
     {
       "id": "e4-496c",
-      "title": "Use Banana on Rum",
-      "text": "Use Banana on Rum",
+      "title": "Use Banana on Rum.",
+      "text": "Use Banana on Rum.",
       "manual": true,
       "world": [
         2929,
@@ -7503,7 +7522,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -7953,7 +7972,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -8089,7 +8108,7 @@
     {
       "id": "e4-544",
       "title": "Return to Eadgar and continue until …",
-      "text": "Return to Eadgar and continue until you have hidden the parrot in the rack",
+      "text": "Return to Eadgar and continue until you have hidden the parrot in the rack.",
       "manual": true
     },
     {
@@ -8499,7 +8518,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -8647,9 +8666,9 @@
       "manual": true
     },
     {
-      "id": "e4-591",
+      "id": "e4-591a",
       "title": "Head South to Shantay Pass - …",
-      "text": "Head South to Shantay Pass - If you turned your desert robe top & bottoms black for Shadow of the Storm and don't have another normal set in the bank, buy another top & bottoms while you're here [A Tail of Two Cats]",
+      "text": "Head South to Shantay Pass - If you turned your desert robe top & bottoms black for Shadow of the Storm and don't have another normal set in the bank",
       "complete": {
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
@@ -8658,6 +8677,21 @@
       "world": [
         3270,
         3159,
+        0
+      ]
+    },
+    {
+      "id": "e4-591b",
+      "title": "buy another top & bottoms while …",
+      "text": "buy another top & bottoms while you're here [A Tail of Two Cats]",
+      "complete": {
+        "op": "quest",
+        "quest": "A_TAIL_OF_TWO_CATS",
+        "state": "FINISHED"
+      },
+      "world": [
+        3315,
+        3182,
         0
       ]
     },
@@ -8743,9 +8777,9 @@
       ]
     },
     {
-      "id": "e4-598a",
+      "id": "e4-598",
       "title": "Complete Ratcatchers (At this point grow …",
-      "text": "Complete Ratcatchers (At this point grow a cat to Overgrown",
+      "text": "Complete Ratcatchers (At this point grow a cat to Overgrown and train it to Wily cat in Port Sarim Rat pits)",
       "complete": {
         "op": "quest",
         "quest": "RATCATCHERS",
@@ -8754,18 +8788,6 @@
       "world": [
         3151,
         3413,
-        0
-      ]
-    },
-    {
-      "id": "e4-598b",
-      "title": "train it to Wily cat in …",
-      "text": "train it to Wily cat in Port Sarim Rat pits)",
-      "manual": true,
-      "npc": 3648,
-      "world": [
-        2954,
-        3147,
         0
       ]
     },
@@ -9386,8 +9408,8 @@
     },
     {
       "id": "e4-643",
-      "title": "Teleport to Varrock",
-      "text": "Teleport to Varrock",
+      "title": "Teleport to Varrock.",
+      "text": "Teleport to Varrock.",
       "world": [
         3210,
         3448,
@@ -9613,29 +9635,25 @@
       ]
     },
     {
-      "id": "e4-657",
-      "title": "Withdraw: Coins, Teleport Runes, games necklace, …",
-      "text": "Withdraw: Coins, Teleport Runes, games necklace, Death Runes, Adamant Sword, Bronze Arrow, Molten Glass, Tinderbox, Hammer, 60 Steel Nails, 2 Planks, Swamp Tar (16 Inventory Slots) + Food",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 1287,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 1287,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 1287,
+      "id": "e4-657a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
       "world": [
         3015,
         3357,
+        0
+      ]
+    },
+    {
+      "id": "e4-657b",
+      "title": "Teleport Runes, games necklace, Death Runes, …",
+      "text": "Teleport Runes, games necklace, Death Runes, Adamant Sword, Bronze Arrow, Molten Glass, Tinderbox, Hammer, 60 Steel Nails, 2 Planks, Swamp Tar (16 Inventory Slots) + Food",
+      "manual": true,
+      "object": 2097,
+      "world": [
+        3190,
+        3938,
         0
       ]
     },
@@ -9692,7 +9710,7 @@
     {
       "id": "e4-662",
       "title": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara …",
-      "text": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara Mould, 5x Rune Thrownaxe, Ardy Cloak + Dramen Staff (11 Inventory Slots) + Food & Armour",
+      "text": "Withdraw: Teleport Runes, Coins, Pickaxe, Tiara Mould, 5x Rune Thrownaxe, Ardy Cloak + Dramen Staff (11 Inventory Slots) + Food & Armour.",
       "complete": {
         "op": "or",
         "of": [
@@ -9895,31 +9913,32 @@
       "manual": true
     },
     {
-      "id": "e4-678",
-      "title": "Withdraw: Coins, Teleport Runes, Watermelon, Hay …",
-      "text": "Withdraw: Coins, Teleport Runes, Watermelon, Hay Sack, Ectophial, Steak Sandwich, 2x Jangerberry, Pure Essenece, Pickaxe, Earmuffs, Ardy Cloak, Dramen Staff, Silver Tiara, Hammer and combat gear (Preferably range or magic) (16 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 5982,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 5982,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 5982,
+      "id": "e4-678a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
+      "world": [
+        2634,
+        3668,
+        0
+      ]
+    },
+    {
+      "id": "e4-678b",
+      "title": "Teleport Runes, Watermelon, Hay Sack, Ectophial, …",
+      "text": "Teleport Runes, Watermelon, Hay Sack, Ectophial, Steak Sandwich, 2x Jangerberry, Pure Essenece, Pickaxe, Earmuffs, Ardy Cloak, Dramen Staff, Silver Tiara, Hammer and combat gear (Preferably range or magic) (16 Inventory Slots)",
       "world": [
         2624,
         3300,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e4-679a",
@@ -10014,7 +10033,7 @@
     {
       "id": "e4-684",
       "title": "OPTIONAL: If you got the 4 …",
-      "text": "OPTIONAL: If you got the 4 beads you can go to DIS first to turn in the beads for Imp Catcher",
+      "text": "OPTIONAL: If you got the 4 beads you can go to DIS first to turn in the beads for Imp Catcher.",
       "manual": true,
       "world": [
         3103,
@@ -10447,7 +10466,7 @@
     {
       "id": "e4-713",
       "title": "Attack Kalrag while standing in the …",
-      "text": "Attack Kalrag while standing in the square between the 2 corpses on the east wall. If a spider hits you it is very easy to corner trap them on the corpses",
+      "text": "Attack Kalrag while standing in the square between the 2 corpses on the east wall. If a spider hits you it is very easy to corner trap them on the corpses.",
       "manual": true
     },
     {
@@ -10494,8 +10513,8 @@
     },
     {
       "id": "e4-717",
-      "title": "Leave, take the Spirit Tree to …",
-      "text": "Leave, take the Spirit Tree to Gnome Stronghold(2)",
+      "title": "Leave and take the Spirit Tree …",
+      "text": "Leave and take the Spirit Tree to Gnome Stronghold(2)",
       "manual": true,
       "npc": 1444,
       "world": [
@@ -10564,7 +10583,7 @@
     {
       "id": "e4-721",
       "title": "Ardy Cloak & collect the Monkey, …",
-      "text": "Ardy Cloak & collect the Monkey, Head back to the Grand Tree",
+      "text": "Ardy Cloak & collect the Monkey, Head back to the Grand Tree.",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -10877,7 +10896,7 @@
     {
       "id": "e4-748",
       "title": "NOTE: Chop a Teak and Mahogany …",
-      "text": "NOTE: Chop a Teak and Mahogany log while here for the Karamja Medium Diary to save 100 trading sticks",
+      "text": "NOTE: Chop a Teak and Mahogany log while here for the Karamja Medium Diary to save 100 trading sticks.",
       "manual": true,
       "world": [
         2843,
@@ -10949,7 +10968,7 @@
     {
       "id": "e4-756",
       "title": "NOTE: You can go get your …",
-      "text": "NOTE: You can go get your herb sack now from Tithe Farm reward shop",
+      "text": "NOTE: You can go get your herb sack now from Tithe Farm reward shop.",
       "manual": true,
       "world": [
         2729,

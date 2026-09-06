@@ -6,7 +6,7 @@
     {
       "id": "magic-001",
       "title": "Clean out the waterskins and wines …",
-      "text": "Clean out the waterskins and wines from your inventory. You should just have coins now, wearing your graceful",
+      "text": "Clean out the waterskins and wines from your inventory. You should just have coins now, wearing your graceful.",
       "manual": true
     },
     {
@@ -24,7 +24,7 @@
     {
       "id": "magic-002b",
       "title": "Take the boat to Kourend by …",
-      "text": "Take the boat to Kourend by speaking to Veos",
+      "text": "Take the boat to Kourend by speaking to Veos.",
       "manual": true,
       "npc": 10727,
       "world": [
@@ -35,8 +35,8 @@
     },
     {
       "id": "magic-003",
-      "title": "Go to Hosidius",
-      "text": "Go to Hosidius",
+      "title": "Go to Hosidius.",
+      "text": "Go to Hosidius.",
       "manual": true,
       "object": 28823,
       "world": [
@@ -66,7 +66,7 @@
     {
       "id": "magic-005",
       "title": "Chronicle teleport to Varrock, buy a …",
-      "text": "Chronicle teleport to Varrock, buy a fire staff, 200 mind and 400 air runes",
+      "text": "Chronicle teleport to Varrock, buy a fire staff, 200 mind and 400 air runes.",
       "complete": {
         "op": "or",
         "of": [
@@ -92,8 +92,8 @@
     },
     {
       "id": "magic-006",
-      "title": "Home teleport",
-      "text": "Home teleport",
+      "title": "Home teleport.",
+      "text": "Home teleport.",
       "manual": true
     },
     {
@@ -114,7 +114,7 @@
     {
       "id": "magic-007b",
       "title": "Buy wine for food from the …",
-      "text": "Buy wine for food from the bar. Look in the Discussion tab of this page if you don't know how to safespot the fights",
+      "text": "Buy wine for food from the bar. Look in the Discussion tab of this page if you don't know how to safespot the fights.",
       "complete": {
         "op": "or",
         "of": [
@@ -133,25 +133,25 @@
       },
       "item": 1993,
       "world": [
-        3359,
-        2957,
+        3315,
+        3182,
         0
       ]
     },
     {
       "id": "magic-008",
       "title": "Complete the rune section of Rogue …",
-      "text": "Complete the rune section of Rogue Trader. — Use the Runedoku plugin on Runelite for the puzzle (Plugin hub)",
+      "text": "Complete the rune section of Rogue Trader. — Use the Runedoku plugin on Runelite for the puzzle (Plugin hub).",
       "manual": true
     },
     {
       "id": "magic-009",
       "title": "Drop your mind runes for some …",
-      "text": "Drop your mind runes for some space",
+      "text": "Drop your mind runes for some space.",
       "manual": true,
       "world": [
-        3358,
-        2974,
+        3315,
+        3182,
         0
       ]
     },

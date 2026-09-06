@@ -5,8 +5,8 @@
   "steps": [
     {
       "id": "finishing-the-knight-s-s-001",
-      "title": "Minigame teleport to Clan Wars",
-      "text": "Minigame teleport to Clan Wars",
+      "title": "Minigame teleport to Clan Wars.",
+      "text": "Minigame teleport to Clan Wars.",
       "manual": true,
       "world": [
         3130,
@@ -44,7 +44,7 @@
     {
       "id": "finishing-the-knight-s-s-003",
       "title": "Return to Ferox Enclave when you …",
-      "text": "Return to Ferox Enclave when you have the bars",
+      "text": "Return to Ferox Enclave when you have the bars.",
       "manual": true,
       "world": [
         3137,
@@ -55,7 +55,7 @@
     {
       "id": "finishing-the-knight-s-s-004",
       "title": "Switch back to a pay-to-play world …",
-      "text": "Switch back to a pay-to-play world and home teleport",
+      "text": "Switch back to a pay-to-play world and home teleport.",
       "manual": true
     },
     {
@@ -72,8 +72,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-005b",
-      "title": "pick up a cabbage",
-      "text": "pick up a cabbage",
+      "title": "pick up a cabbage.",
+      "text": "pick up a cabbage.",
       "complete": {
         "op": "or",
         "of": [
@@ -111,7 +111,7 @@
     {
       "id": "finishing-the-knight-s-s-006b",
       "title": "pick up the bronze pickaxe spawn …",
-      "text": "pick up the bronze pickaxe spawn in the nearby building",
+      "text": "pick up the bronze pickaxe spawn in the nearby building.",
       "complete": {
         "op": "or",
         "of": [
@@ -138,26 +138,14 @@
     {
       "id": "finishing-the-knight-s-s-007",
       "title": "Head south to the Asgarnian Ice …",
-      "text": "Head south to the Asgarnian Ice Dungeon",
-      "world": [
-        3008,
-        3150,
-        0
-      ],
-      "complete": {
-        "op": "position",
-        "x": 3008,
-        "y": 3150,
-        "z": 0,
-        "radius": 8
-      }
+      "text": "Head south to the Asgarnian Ice Dungeon.",
+      "manual": true
     },
     {
       "id": "finishing-the-knight-s-s-008a",
       "title": "Travel through the dungeon",
       "text": "Travel through the dungeon",
       "manual": true,
-      "npc": 300,
       "world": [
         3049,
         9566,
@@ -178,19 +166,19 @@
     {
       "id": "finishing-the-knight-s-s-008c",
       "title": "buy some from Wydin's Food Store …",
-      "text": "buy some from Wydin's Food Store in Port Sarim",
+      "text": "buy some from Wydin's Food Store in Port Sarim.",
       "manual": true,
       "npc": 3648,
       "world": [
-        3013,
-        3207,
+        2954,
+        3147,
         0
       ]
     },
     {
       "id": "finishing-the-knight-s-s-009",
       "title": "Speak with Thurgo west of the …",
-      "text": "Speak with Thurgo west of the dungeon to get the blurite sword",
+      "text": "Speak with Thurgo west of the dungeon to get the blurite sword.",
       "manual": true,
       "npc": 4733,
       "world": [
@@ -201,8 +189,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-010",
-      "title": "Drop the bronze pickaxe",
-      "text": "Drop the bronze pickaxe",
+      "title": "Drop the bronze pickaxe.",
+      "text": "Drop the bronze pickaxe.",
       "manual": true,
       "world": [
         3000,
@@ -212,8 +200,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-011",
-      "title": "Head north to Falador",
-      "text": "Head north to Falador",
+      "title": "Head north to Falador.",
+      "text": "Head north to Falador.",
       "world": [
         3000,
         3360,
@@ -230,7 +218,7 @@
     {
       "id": "finishing-the-knight-s-s-012at",
       "title": "Head to the castle, speak to …",
-      "text": "Head to the castle, speak to the squire to complete The Knight's Sword",
+      "text": "Head to the castle, speak to the squire to complete The Knight's Sword.",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
@@ -257,7 +245,7 @@
     {
       "id": "finishing-the-knight-s-s-013b",
       "title": "speak to Sir Amik Varze to …",
-      "text": "speak to Sir Amik Varze to start Black Knights' Fortress",
+      "text": "speak to Sir Amik Varze to start Black Knights' Fortress.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -272,8 +260,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-014",
-      "title": "Chronicle teleport to the Champions' Guild",
-      "text": "Chronicle teleport to the Champions' Guild",
+      "title": "Chronicle teleport to the Champions' Guild.",
+      "text": "Chronicle teleport to the Champions' Guild.",
       "manual": true,
       "world": [
         3191,
@@ -295,8 +283,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-015b",
-      "title": "buy an iron chainbody from Horvik",
-      "text": "buy an iron chainbody from Horvik",
+      "title": "buy an iron chainbody from Horvik.",
+      "text": "buy an iron chainbody from Horvik.",
       "complete": {
         "op": "or",
         "of": [
@@ -323,8 +311,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-016",
-      "title": "Run west to Barbarian Village",
-      "text": "Run west to Barbarian Village",
+      "title": "Run west to Barbarian Village.",
+      "text": "Run west to Barbarian Village.",
       "manual": true,
       "object": 20790,
       "world": [
@@ -363,7 +351,7 @@
     {
       "id": "finishing-the-knight-s-s-017b",
       "title": "Equip it, along with the iron …",
-      "text": "Equip it, along with the iron chainbody",
+      "text": "Equip it, along with the iron chainbody.",
       "manual": true,
       "item": 1101,
       "world": [
@@ -375,16 +363,16 @@
     {
       "id": "finishing-the-knight-s-s-018",
       "title": "Head north then west to the …",
-      "text": "Head north then west to the dwarf base",
+      "text": "Head north then west to the dwarf base.",
       "world": [
-        3012,
-        3453,
+        3213,
+        3221,
         0
       ],
       "complete": {
         "op": "position",
-        "x": 3012,
-        "y": 3453,
+        "x": 3213,
+        "y": 3221,
         "z": 0,
         "radius": 8
       }
@@ -392,7 +380,7 @@
     {
       "id": "finishing-the-knight-s-s-019",
       "title": "Speak to Nulodion to continue Dwarf …",
-      "text": "Speak to Nulodion to continue Dwarf Cannon",
+      "text": "Speak to Nulodion to continue Dwarf Cannon.",
       "complete": {
         "op": "quest",
         "quest": "DWARF_CANNON",
@@ -419,7 +407,7 @@
     {
       "id": "finishing-the-knight-s-s-020b",
       "title": "complete Black Knights' Fortress until you …",
-      "text": "complete Black Knights' Fortress until you must return to Falador",
+      "text": "complete Black Knights' Fortress until you must return to Falador.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -434,7 +422,7 @@
     {
       "id": "finishing-the-knight-s-s-021",
       "title": "Drop the bronze med helm and …",
-      "text": "Drop the bronze med helm and the iron chainbody",
+      "text": "Drop the bronze med helm and the iron chainbody.",
       "manual": true,
       "object": 2337,
       "world": [
@@ -445,14 +433,14 @@
     },
     {
       "id": "finishing-the-knight-s-s-022",
-      "title": "Minigame teleport to Soul Wars",
-      "text": "Minigame teleport to Soul Wars",
+      "title": "Minigame teleport to Soul Wars.",
+      "text": "Minigame teleport to Soul Wars.",
       "manual": true
     },
     {
       "id": "finishing-the-knight-s-s-023",
-      "title": "Exit the portal to Edgeville",
-      "text": "Exit the portal to Edgeville",
+      "title": "Exit the portal to Edgeville.",
+      "text": "Exit the portal to Edgeville.",
       "manual": true,
       "object": 1581,
       "world": [
@@ -464,7 +452,7 @@
     {
       "id": "finishing-the-knight-s-s-024",
       "title": "Pull the wilderness lever twice to …",
-      "text": "Pull the wilderness lever twice to get to Ardougne",
+      "text": "Pull the wilderness lever twice to get to Ardougne.",
       "manual": true,
       "object": 26761,
       "world": [
@@ -476,7 +464,7 @@
     {
       "id": "finishing-the-knight-s-s-025",
       "title": "Pull the lever again, then back …",
-      "text": "Pull the lever again, then back to Ardougne (lock in the diary task)",
+      "text": "Pull the lever again, then back to Ardougne (lock in the diary task).",
       "manual": true,
       "object": 26761,
       "world": [
@@ -487,8 +475,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-026",
-      "title": "Run north across the river",
-      "text": "Run north across the river",
+      "title": "Run north across the river.",
+      "text": "Run north across the river.",
       "manual": true,
       "npc": 1351,
       "world": [
@@ -500,11 +488,11 @@
     {
       "id": "finishing-the-knight-s-s-027",
       "title": "Climb the stairs to the top …",
-      "text": "Climb the stairs to the top of the Tourist Information Centre",
+      "text": "Climb the stairs to the top of the Tourist Information Centre.",
       "manual": true,
       "world": [
-        2559,
-        3445,
+        2500,
+        3305,
         0
       ]
     },
@@ -522,8 +510,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-029",
-      "title": "Exit the building, run north east",
-      "text": "Exit the building, run north east",
+      "title": "Exit the building, run north east.",
+      "text": "Exit the building, run north east.",
       "manual": true,
       "world": [
         2559,
@@ -534,7 +522,7 @@
     {
       "id": "finishing-the-knight-s-s-030",
       "title": "Retrieve Glarial's urn and Glarial's amulet …",
-      "text": "Retrieve Glarial's urn and Glarial's amulet from Glarial's tomb",
+      "text": "Retrieve Glarial's urn and Glarial's amulet from Glarial's tomb.",
       "manual": true,
       "object": 1993,
       "world": [
@@ -549,19 +537,19 @@
       "text": "Go back",
       "manual": true,
       "world": [
-        2559,
-        3445,
+        2542,
+        9812,
         0
       ]
     },
     {
       "id": "finishing-the-knight-s-s-031b",
       "title": "pick up your items from the …",
-      "text": "pick up your items from the table",
+      "text": "pick up your items from the table.",
       "manual": true,
       "world": [
-        2559,
-        3445,
+        2542,
+        9812,
         0
       ]
     },
@@ -578,8 +566,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-032b",
-      "title": "finish Dwarf Cannon",
-      "text": "finish Dwarf Cannon",
+      "title": "finish Dwarf Cannon.",
+      "text": "finish Dwarf Cannon.",
       "complete": {
         "op": "quest",
         "quest": "DWARF_CANNON",
@@ -604,8 +592,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-033b",
-      "title": "complete Waterfall",
-      "text": "complete Waterfall",
+      "title": "complete Waterfall.",
+      "text": "complete Waterfall.",
       "manual": true,
       "world": [
         2521,
@@ -616,7 +604,7 @@
     {
       "id": "finishing-the-knight-s-s-034",
       "title": "Drop the key, urn, rope, and …",
-      "text": "Drop the key, urn, rope, and pebble",
+      "text": "Drop the key, urn, rope, and pebble.",
       "manual": true,
       "world": [
         2521,
@@ -627,7 +615,7 @@
     {
       "id": "finishing-the-knight-s-s-035a",
       "title": "Home teleport to Lumbridge. — If …",
-      "text": "Home teleport to Lumbridge. — If your teleport cooldown has not yet finished, chop",
+      "text": "Home teleport to Lumbridge. — If your teleport cooldown has not yet finished, chop and burn logs until it is. Alternatively",
       "manual": true,
       "object": 24009,
       "world": [
@@ -638,17 +626,6 @@
     },
     {
       "id": "finishing-the-knight-s-s-035b",
-      "title": "burn logs until it is. Alternatively",
-      "text": "burn logs until it is. Alternatively",
-      "manual": true,
-      "world": [
-        3227,
-        3257,
-        0
-      ]
-    },
-    {
-      "id": "finishing-the-knight-s-s-035c",
       "title": "teleport with the Chronicle",
       "text": "teleport with the Chronicle",
       "manual": true,
@@ -659,9 +636,9 @@
       ]
     },
     {
-      "id": "finishing-the-knight-s-s-035d",
-      "title": "walk to Lumbridge",
-      "text": "walk to Lumbridge",
+      "id": "finishing-the-knight-s-s-035c",
+      "title": "walk to Lumbridge.",
+      "text": "walk to Lumbridge.",
       "manual": true,
       "object": 24009,
       "world": [
@@ -672,8 +649,8 @@
     },
     {
       "id": "finishing-the-knight-s-s-036",
-      "title": "Drop your tinderbox",
-      "text": "Drop your tinderbox",
+      "title": "Drop your tinderbox.",
+      "text": "Drop your tinderbox.",
       "manual": true,
       "world": [
         3227,
@@ -684,7 +661,7 @@
     {
       "id": "finishing-the-knight-s-s-037",
       "title": "Sell the diamonds and gold bars …",
-      "text": "Sell the diamonds and gold bars to the general store, as well as the mithril seeds",
+      "text": "Sell the diamonds and gold bars to the general store, as well as the mithril seeds.",
       "manual": true,
       "world": [
         3212,

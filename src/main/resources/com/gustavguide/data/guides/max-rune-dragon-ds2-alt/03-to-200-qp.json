@@ -68,7 +68,7 @@
     {
       "id": "to-200-qp-006",
       "title": "Also able to kill vyrewatches now …",
-      "text": "Also able to kill vyrewatches now for GP (need to do recruitment drive, wanted!, slug manace, finish frem isles for bis prayer gear)",
+      "text": "Also able to kill vyrewatches now for GP (need to do recruitment drive, wanted!, slug manace and finish frem isles for bis prayer gear)",
       "complete": {
         "op": "and",
         "of": [
@@ -178,7 +178,7 @@
     {
       "id": "to-200-qp-013",
       "title": "Eagles Peak (dont bother if you …",
-      "text": "Eagles Peak (dont bother if you did recruitment drive, wanted!, slug manace, finish frem isles",
+      "text": "Eagles Peak (dont bother if you did recruitment drive, wanted!, slug manace and finish frem isles",
       "complete": {
         "op": "quest",
         "quest": "EAGLES_PEAK",
@@ -238,7 +238,7 @@
     {
       "id": "to-200-qp-017",
       "title": "Observatory Quest (dont bother if you …",
-      "text": "Observatory Quest (dont bother if you did recruitment drive, wanted!, slug manace, finish frem isles",
+      "text": "Observatory Quest (dont bother if you did recruitment drive, wanted!, slug manace and finish frem isles",
       "complete": {
         "op": "quest",
         "quest": "OBSERVATORY_QUEST",

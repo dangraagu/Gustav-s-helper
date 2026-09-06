@@ -33,7 +33,7 @@
     {
       "id": "kourend-upgrading-the-me-001b",
       "title": "mine until 42 Mining. — You …",
-      "text": "mine until 42 Mining. — You can do your preferred method of mining, Motherlode Mine is right there. Keep the pickaxe afterwards",
+      "text": "mine until 42 Mining. — You can do your preferred method of mining, Motherlode Mine is right there. Keep the pickaxe afterwards.",
       "complete": {
         "op": "skill",
         "skill": "MINING",
@@ -51,7 +51,7 @@
     {
       "id": "kourend-upgrading-the-me-002",
       "title": "Buy a normal bow and some …",
-      "text": "Buy a normal bow and some bronze arrows from the range shop in Varrock",
+      "text": "Buy a normal bow and some bronze arrows from the range shop in Varrock.",
       "complete": {
         "op": "or",
         "of": [
@@ -78,7 +78,7 @@
     {
       "id": "kourend-upgrading-the-me-003",
       "title": "Get a rope from Ned in …",
-      "text": "Get a rope from Ned in Draynor Village",
+      "text": "Get a rope from Ned in Draynor Village.",
       "manual": true,
       "npc": 4280,
       "world": [
@@ -119,8 +119,8 @@
     },
     {
       "id": "kourend-upgrading-the-me-006",
-      "title": "Complete Depths of Despair",
-      "text": "Complete Depths of Despair",
+      "title": "Complete Depths of Despair.",
+      "text": "Complete Depths of Despair.",
       "complete": {
         "op": "quest",
         "quest": "THE_DEPTHS_OF_DESPAIR",
@@ -134,8 +134,8 @@
     },
     {
       "id": "kourend-upgrading-the-me-007",
-      "title": "Complete Ascent of Arceuus",
-      "text": "Complete Ascent of Arceuus",
+      "title": "Complete Ascent of Arceuus.",
+      "text": "Complete Ascent of Arceuus.",
       "complete": {
         "op": "quest",
         "quest": "THE_ASCENT_OF_ARCEUUS",
@@ -179,8 +179,8 @@
     },
     {
       "id": "kourend-upgrading-the-me-009b",
-      "title": "buy yourself a facemask",
-      "text": "buy yourself a facemask",
+      "title": "buy yourself a facemask.",
+      "text": "buy yourself a facemask.",
       "complete": {
         "op": "or",
         "of": [
@@ -207,13 +207,13 @@
     {
       "id": "kourend-upgrading-the-me-010",
       "title": "Add all the pages to the …",
-      "text": "Add all the pages to the Kharedst's memoirs so the book has extra charges",
+      "text": "Add all the pages to the Kharedst's memoirs so the book has extra charges.",
       "manual": true
     },
     {
       "id": "kourend-upgrading-the-me-011",
       "title": "Fletch a dramen branch if you …",
-      "text": "Fletch a dramen branch if you don't have a staff already",
+      "text": "Fletch a dramen branch if you don't have a staff already.",
       "manual": true,
       "world": [
         1520,
@@ -224,7 +224,7 @@
     {
       "id": "kourend-upgrading-the-me-012",
       "title": "Get some cakes for food. 10 …",
-      "text": "Get some cakes for food. 10 cakes should be enough",
+      "text": "Get some cakes for food. 10 cakes should be enough.",
       "manual": true
     },
     {
@@ -244,8 +244,8 @@
     },
     {
       "id": "kourend-upgrading-the-me-014",
-      "title": "Move your house to Taverley",
-      "text": "Move your house to Taverley",
+      "title": "Move your house to Taverley.",
+      "text": "Move your house to Taverley.",
       "manual": true,
       "object": 16680,
       "world": [

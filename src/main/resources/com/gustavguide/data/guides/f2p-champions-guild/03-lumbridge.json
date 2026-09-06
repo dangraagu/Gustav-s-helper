@@ -33,7 +33,7 @@
     {
       "id": "lumbridge-002",
       "title": "Run to Veos in The Sheared …",
-      "text": "Run to Veos in The Sheared Ram to start X Marks the Spot",
+      "text": "Run to Veos in The Sheared Ram to start X Marks the Spot.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -48,7 +48,7 @@
     {
       "id": "lumbridge-003",
       "title": "Pass through the Gate into Al …",
-      "text": "Pass through the Gate into Al Kharid, run to Chancellor Hassan to start Prince Ali Rescue",
+      "text": "Pass through the Gate into Al Kharid, run to Chancellor Hassan to start Prince Ali Rescue.",
       "complete": {
         "op": "quest",
         "quest": "PRINCE_ALI_RESCUE",
@@ -63,7 +63,7 @@
     {
       "id": "lumbridge-004at",
       "title": "Run out of the palace, talk …",
-      "text": "Run out of the palace, talk to Osman",
+      "text": "Run out of the palace, talk to Osman.",
       "manual": true,
       "npc": 4286,
       "world": [
@@ -75,7 +75,7 @@
     {
       "id": "lumbridge-005",
       "title": "File:Spade.png Dig north of the house …",
-      "text": "File:Spade.png Dig north of the house connected to Bob's Axes for X Marks the Spot (north of the west window)",
+      "text": "File:Spade.png Dig north of the house connected to Bob's Axes for X Marks the Spot (north of the west window).",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -90,7 +90,7 @@
     {
       "id": "lumbridge-006",
       "title": "File:Transportation_icon.png Talk to Count Check in …",
-      "text": "File:Transportation_icon.png Talk to Count Check in the graveyard to teleport to the Stronghold of Security",
+      "text": "File:Transportation_icon.png Talk to Count Check in the graveyard to teleport to the Stronghold of Security.",
       "manual": true,
       "npc": 7414,
       "world": [
@@ -114,7 +114,7 @@
     {
       "id": "lumbridge-008",
       "title": "File:Bank_icon.png Deposit all items except for …",
-      "text": "File:Bank_icon.png Deposit all items except for your spade at the Varrock west bank deposit box",
+      "text": "File:Bank_icon.png Deposit all items except for your spade at the Varrock west bank deposit box.",
       "manual": true,
       "world": [
         3185,
@@ -125,7 +125,7 @@
     {
       "id": "lumbridge-009",
       "title": "Talk to Romeo to start Romeo …",
-      "text": "Talk to Romeo to start Romeo & Juliet",
+      "text": "Talk to Romeo to start Romeo & Juliet.",
       "complete": {
         "op": "quest",
         "quest": "ROMEO__JULIET",
@@ -141,7 +141,7 @@
     {
       "id": "lumbridge-010",
       "title": "Talk to Juliet upstairs after running …",
-      "text": "Talk to Juliet upstairs after running west",
+      "text": "Talk to Juliet upstairs after running west.",
       "manual": true,
       "npc": 5035,
       "world": [
@@ -152,8 +152,8 @@
     },
     {
       "id": "lumbridge-011",
-      "title": "File:Skull_(status)_icon.png Die to a Guard",
-      "text": "File:Skull_(status)_icon.png Die to a Guard",
+      "title": "File:Skull_(status)_icon.png Die to a Guard.",
+      "text": "File:Skull_(status)_icon.png Die to a Guard.",
       "manual": true
     }
   ]

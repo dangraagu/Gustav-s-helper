@@ -23,7 +23,7 @@
     {
       "id": "early-blue-dragons-001b",
       "title": "pick up a pair of Leather …",
-      "text": "pick up a pair of Leather gloves from Father Urhneys house",
+      "text": "pick up a pair of Leather gloves from Father Urhneys house.",
       "complete": {
         "op": "or",
         "of": [
@@ -42,8 +42,8 @@
       },
       "item": 1059,
       "world": [
-        3147,
-        3175,
+        3197,
+        3166,
         0
       ]
     },
@@ -67,7 +67,7 @@
     {
       "id": "early-blue-dragons-002b",
       "title": "pick up a few Cheese from …",
-      "text": "pick up a few Cheese from the spawn near Aggie",
+      "text": "pick up a few Cheese from the spawn near Aggie.",
       "complete": {
         "op": "or",
         "of": [
@@ -112,7 +112,7 @@
     {
       "id": "early-blue-dragons-004",
       "title": "Hop worlds, collect a mostly full …",
-      "text": "Hop worlds, collect a mostly full inventory of cooked meat from the north building. leave a few slots open",
+      "text": "Hop worlds, collect a mostly full inventory of cooked meat from the north building. leave a few slots open.",
       "complete": {
         "op": "or",
         "of": [
@@ -145,8 +145,8 @@
     },
     {
       "id": "early-blue-dragons-005b",
-      "title": "get 10,000 coins",
-      "text": "get 10,000 coins",
+      "title": "get 10,000 coins.",
+      "text": "get 10,000 coins.",
       "manual": true,
       "world": [
         3081,
@@ -174,7 +174,7 @@
     {
       "id": "early-blue-dragons-006b",
       "title": "buy a staff of fire from …",
-      "text": "buy a staff of fire from zaff",
+      "text": "buy a staff of fire from zaff.",
       "complete": {
         "op": "or",
         "of": [
@@ -214,7 +214,7 @@
     {
       "id": "early-blue-dragons-007b",
       "title": "buy 300 mind runes, 700 air …",
-      "text": "buy 300 mind runes, 700 air runes, 100 water runes, 150 earth runes",
+      "text": "buy 300 mind runes, 700 air runes, 100 water runes, 150 earth runes.",
       "complete": {
         "op": "or",
         "of": [
@@ -267,8 +267,8 @@
     },
     {
       "id": "early-blue-dragons-009",
-      "title": "Minigame teleport to Clan Wars",
-      "text": "Minigame teleport to Clan Wars",
+      "title": "Minigame teleport to Clan Wars.",
+      "text": "Minigame teleport to Clan Wars.",
       "manual": true,
       "world": [
         3130,
@@ -285,7 +285,7 @@
     {
       "id": "early-blue-dragons-010b",
       "title": "kill some rats with magic until …",
-      "text": "kill some rats with magic until you get a Looting Bag",
+      "text": "kill some rats with magic until you get a Looting Bag.",
       "manual": true,
       "world": [
         3130,
@@ -302,7 +302,7 @@
     {
       "id": "early-blue-dragons-011b",
       "title": "pick up an iron scimitar from …",
-      "text": "pick up an iron scimitar from the spawn there",
+      "text": "pick up an iron scimitar from the spawn there.",
       "complete": {
         "op": "or",
         "of": [
@@ -341,7 +341,7 @@
     {
       "id": "early-blue-dragons-012b",
       "title": "collect a full inventory and looting …",
-      "text": "collect a full inventory and looting bag full of steel platebodys from the spawn there. Be careful not to die to the Lesser Demon",
+      "text": "collect a full inventory and looting bag full of steel platebodys from the spawn there. Be careful not to die to the Lesser Demon.",
       "complete": {
         "op": "or",
         "of": [
@@ -411,8 +411,8 @@
     },
     {
       "id": "early-blue-dragons-014c",
-      "title": "Sell 2 per world",
-      "text": "Sell 2 per world",
+      "title": "Sell 2 per world.",
+      "text": "Sell 2 per world.",
       "manual": true,
       "world": [
         3216,
@@ -450,8 +450,8 @@
     },
     {
       "id": "early-blue-dragons-015c",
-      "title": "sell those to Horvik",
-      "text": "sell those to Horvik",
+      "title": "sell those to Horvik.",
+      "text": "sell those to Horvik.",
       "manual": true,
       "npc": 2882,
       "world": [
@@ -502,7 +502,7 @@
     {
       "id": "early-blue-dragons-017b",
       "title": "Make sure to have high run …",
-      "text": "Make sure to have high run energy when you enter the dungeon so you can run past everything",
+      "text": "Make sure to have high run energy when you enter the dungeon so you can run past everything.",
       "manual": true,
       "world": [
         3253,
@@ -513,7 +513,7 @@
     {
       "id": "early-blue-dragons-018",
       "title": "Once you have a full inventory …",
-      "text": "Once you have a full inventory of Dragon Bones, minigame teleport to clan wars",
+      "text": "Once you have a full inventory of Dragon Bones, minigame teleport to clan wars.",
       "manual": true,
       "world": [
         3130,
@@ -524,12 +524,12 @@
     {
       "id": "early-blue-dragons-019",
       "title": "Deposit all extra coins there. This …",
-      "text": "Deposit all extra coins there. This is a reserve to replace the money used in the rest of the guide normally obtained from the stronghold of security",
+      "text": "Deposit all extra coins there. This is a reserve to replace the money used in the rest of the guide normally obtained from the stronghold of security.",
       "manual": true,
       "object": 20790,
       "world": [
-        3130,
-        3622,
+        3081,
+        3420,
         0
       ]
     },
@@ -565,8 +565,8 @@
     },
     {
       "id": "early-blue-dragons-021b",
-      "title": "get more bones, and repeat",
-      "text": "get more bones, and repeat",
+      "title": "get more bones, and repeat.",
+      "text": "get more bones, and repeat.",
       "manual": true,
       "world": [
         3137,
@@ -588,7 +588,7 @@
     {
       "id": "early-blue-dragons-023",
       "title": "If you do this method, then …",
-      "text": "If you do this method, then you will likely want to keep the law rune reward from Monk's Friend, get a few extra teleports early on",
+      "text": "If you do this method, then you will likely want to keep the law rune reward from Monk's Friend, get a few extra teleports early on.",
       "complete": {
         "op": "quest",
         "quest": "MONKS_FRIEND",

@@ -4,26 +4,37 @@
   "section": "Episode 5 - Banks 151 through 175",
   "steps": [
     {
-      "id": "e5-001",
-      "title": "Withdraw: Ardy Cloak, Rune Sword, Teleport …",
-      "text": "Withdraw: Ardy Cloak, Rune Sword, Teleport Runes, Dramen Staff, Maple Log, Bucket of Sap, Mud Runes, Oak Logs, Hammer, Saw, Pestle & Mortar, Bowstring, Axe, Knife (18 Inventory Slots)",
+      "id": "e5-001a",
+      "title": "Withdraw: Ardy Cloak, Rune Sword",
+      "text": "Withdraw: Ardy Cloak, Rune Sword",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 233,
-            "qty": 85
+            "id": 1289,
+            "qty": 2
           },
           {
             "op": "item",
-            "id": 233,
-            "qty": 312,
+            "id": 1289,
+            "qty": 2,
             "scope": "ANY"
           }
         ]
       },
-      "item": 233,
+      "item": 1289,
+      "world": [
+        2624,
+        3300,
+        0
+      ]
+    },
+    {
+      "id": "e5-001b",
+      "title": "Teleport Runes, Dramen Staff, Maple Log, …",
+      "text": "Teleport Runes, Dramen Staff, Maple Log, Bucket of Sap, Mud Runes, Oak Logs, Hammer, Saw, Pestle & Mortar, Bowstring, Axe, Knife (18 Inventory Slots)",
+      "manual": true,
       "world": [
         2624,
         3300,
@@ -393,8 +404,8 @@
     },
     {
       "id": "e5-026b",
-      "title": "Take the bones",
-      "text": "Take the bones",
+      "title": "Take the bones.",
+      "text": "Take the bones.",
       "manual": true,
       "world": [
         2556,
@@ -975,12 +986,12 @@
           {
             "op": "itemAcquired",
             "id": 233,
-            "qty": 86
+            "qty": 85
           },
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -1832,9 +1843,9 @@
       ]
     },
     {
-      "id": "e5-119",
+      "id": "e5-119a",
       "title": "Withdraw: Teleport Runes, Coins, Bear Fur, …",
-      "text": "Withdraw: Teleport Runes, Coins, Bear Fur, 2x Silk, Bucket of Water, Teleport Crystal, Feather, t'd Crunchies, Magic Logs, Leather, Ogre Bellows, Duelling Ring, Silver Bar, Jade, Cosmic Rune, Necklace Mould(21 Inventory Slots) + Bone Crossbow & bolts",
+      "text": "Withdraw: Teleport Runes, Coins, Bear Fur, 2x Silk, Bucket of Water",
       "complete": {
         "op": "or",
         "of": [
@@ -1852,6 +1863,17 @@
         ]
       },
       "item": 1929,
+      "world": [
+        2613,
+        3093,
+        0
+      ]
+    },
+    {
+      "id": "e5-119b",
+      "title": "Teleport Crystal, Feather, t'd Crunchies, Magic …",
+      "text": "Teleport Crystal, Feather, t'd Crunchies, Magic Logs, Leather, Ogre Bellows, Duelling Ring, Silver Bar, Jade, Cosmic Rune, Necklace Mould(21 Inventory Slots) + Bone Crossbow & bolts",
+      "manual": true,
       "npc": 2095,
       "world": [
         2570,
@@ -2115,20 +2137,9 @@
       ]
     },
     {
-      "id": "e5-140a",
-      "title": "Catch",
-      "text": "Catch",
-      "manual": true,
-      "world": [
-        2631,
-        2990,
-        0
-      ]
-    },
-    {
-      "id": "e5-140b",
-      "title": "cook a Raw Jubbly [Recipe for …",
-      "text": "cook a Raw Jubbly [Recipe for Disaster]",
+      "id": "e5-140",
+      "title": "Catch and cook a Raw Jubbly …",
+      "text": "Catch and cook a Raw Jubbly [Recipe for Disaster]",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -2369,7 +2380,7 @@
     {
       "id": "e5-156",
       "title": "OPTIONAL: If you planted 3 teak …",
-      "text": "OPTIONAL: If you planted 3 teak trees at Fossil Island & aren't using Miscellania for passive logs you can cut here (AFK/1.5T/3T) and bank via POH Butler (50 Con required; Oak logs in bank & some oak planks from Tempoross) & return via Ruby Necklaces (Rubies in Gem shops)",
+      "text": "OPTIONAL: If you planted 3 teak trees at Fossil Island & aren't using Miscellania for passive logs you can cut here (AFK/1.5T/3T), bank via POH Butler (50 Con required; Oak logs in bank & some oak planks from Tempoross) & return via Ruby Necklaces (Rubies in Gem shops)",
       "manual": true,
       "npc": 13833,
       "world": [
@@ -2653,7 +2664,7 @@
     {
       "id": "e5-175",
       "title": "Weekly Tears of Guthix will give …",
-      "text": "Weekly Tears of Guthix will give you passive sailing xp",
+      "text": "Weekly Tears of Guthix will give you passive sailing xp.",
       "complete": {
         "op": "quest",
         "quest": "TEARS_OF_GUTHIX",
@@ -2666,31 +2677,32 @@
       ]
     },
     {
-      "id": "e5-176",
-      "title": "Withdraw: Coins, Teleport Runes, Nature Runes, …",
-      "text": "Withdraw: Coins, Teleport Runes, Nature Runes, Death Runes, Facemask, Tinderbox, 1 Blood Rune, NOTED: Ashes, 12 Magic Logs, 6 Molten Glass, 6 Steel Bars, Charcoal, Bones, Ardy Cloak, Dramen Staff, 5 Strange Fruit, 5 Karambwans (27 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 464,
-            "qty": 5
-          },
-          {
-            "op": "item",
-            "id": 464,
-            "qty": 5,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 464,
+      "id": "e5-176a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
+      "world": [
+        2702,
+        5350,
+        0
+      ]
+    },
+    {
+      "id": "e5-176b",
+      "title": "Teleport Runes, Nature Runes, Death Runes, …",
+      "text": "Teleport Runes, Nature Runes, Death Runes, Facemask, Tinderbox, 1 Blood Rune, NOTED: Ashes, 12 Magic Logs, 6 Molten Glass, 6 Steel Bars, Charcoal, Bones, Ardy Cloak, Dramen Staff, 5 Strange Fruit, 5 Karambwans (27 Inventory Slots)",
       "world": [
         2624,
         3300,
         0
-      ]
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2624,
+        "y": 3300,
+        "z": 0,
+        "radius": 8
+      }
     },
     {
       "id": "e5-177",
@@ -3114,26 +3126,21 @@
       ]
     },
     {
-      "id": "e5-208",
-      "title": "Withdraw: Coins, Teleport Runes, Death Runes, …",
-      "text": "Withdraw: Coins, Teleport Runes, Death Runes, 3 Planks, 225 Steel Nails, Hammer, Spice, Garlic, Pestle & Mortar, Blessed Pot, 2x Steel Sword, Steel Longsword, Steel Dagger, Steel Mace, Steel Warhammer, Rope, Small Fishing net, (22 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 233,
-            "qty": 311
-          },
-          {
-            "op": "item",
-            "id": 233,
-            "qty": 312,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 233,
+      "id": "e5-208a",
+      "title": "Withdraw: Coins",
+      "text": "Withdraw: Coins",
+      "manual": true,
+      "world": [
+        2444,
+        3485,
+        1
+      ]
+    },
+    {
+      "id": "e5-208b",
+      "title": "Teleport Runes, Death Runes, 3 Planks, …",
+      "text": "Teleport Runes, Death Runes, 3 Planks, 225 Steel Nails, Hammer, Spice, Garlic, Pestle & Mortar, Blessed Pot, 2x Steel Sword, Steel Longsword, Steel Dagger, Steel Mace, Steel Warhammer, Rope, Small Fishing net, (22 Inventory Slots)",
+      "manual": true,
       "world": [
         2444,
         3485,
@@ -4108,12 +4115,12 @@
           {
             "op": "itemAcquired",
             "id": 10010,
-            "qty": 3
+            "qty": 2
           },
           {
             "op": "item",
             "id": 10010,
-            "qty": 4,
+            "qty": 3,
             "scope": "ANY"
           }
         ]
@@ -4178,26 +4185,14 @@
       ]
     },
     {
-      "id": "e5-286a",
+      "id": "e5-286",
       "title": "(Check Western Province Hard Diary: If …",
-      "text": "(Check Western Province Hard Diary: If you failed the Ape Atoll lap during the quest, complete it now",
+      "text": "(Check Western Province Hard Diary: If you failed the Ape Atoll lap during the quest, complete it now. WITHDRAW NINJA GREEGREE)",
       "manual": true,
       "npc": 1454,
       "world": [
         2892,
         2723,
-        0
-      ]
-    },
-    {
-      "id": "e5-286b",
-      "title": "WITHDRAW NINJA GREEGREE)",
-      "text": "WITHDRAW NINJA GREEGREE)",
-      "manual": true,
-      "object": 4788,
-      "world": [
-        2722,
-        2766,
         0
       ]
     },

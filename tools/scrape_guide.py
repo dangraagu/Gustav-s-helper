@@ -1429,12 +1429,20 @@ ACTION_VERBS = TRAVEL_VERBS | {
 # NPC Y is the real target (highlight + arrow + completes on the interaction), so a preceding pure-travel
 # atom is merged into it rather than shipped as a separate "walk there" waypoint.
 INTERACT_VERBS = {"talk", "speak", "tell", "ask"}
-# Steps longer than this are prose/notes (multi-sentence paragraphs with conditionals), not a clean
-# imperative action list — atomising them produces noise, so they're left whole.
+# Steps longer than this get SENTENCE-first atomisation (the guide-wall case: "Teleport to X. Buy Y.
+# Do quest Z. ..."); shorter steps split directly at action boundaries. Em-dash note style
+# ("Do X. — advisory note — another note") is never split: the notes are advice, not checkboxes.
 MAX_SPLIT_LEN = 180
 _BOUNDARY_RE = re.compile(r"\s*(?:;|,|\.|\bthen\b|\band\b)\s+", re.IGNORECASE)
 _FIRST_WORD_RE = re.compile(r"\s*([a-zA-Z]+)")
-_TRAIL_CONN_RE = re.compile(r"(?:[\s,;.]+|\s+(?:and|then))+$", re.IGNORECASE)
+# Strips dangling connectors from a fragment's tail. Deliberately does NOT strip a trailing '.':
+# sentence-split pieces keep their full stop, so prose sentences that merge back into one step
+# rejoin as "...want. They will..." instead of the mangled "...want They will...".
+_TRAIL_CONN_RE = re.compile(r"(?:[\s,;]+|\s+(?:and|then))+$|(?<=[.!?])[\s,;]+$", re.IGNORECASE)
+# Words whose trailing dot is an abbreviation, not a sentence end.
+_ABBREVS = {"e", "g", "i", "vs", "approx", "etc", "st", "no", "lv", "lvl", "min", "max", "inv",
+            "dr", "mr", "mrs", "ms", "jr", "sr"}  # "talk to Dr. Harlow" must not split
+_LAST_WORD_RE = re.compile(r"([A-Za-z]+)$")
 
 
 def _starts_with_action(fragment):
@@ -1442,27 +1450,92 @@ def _starts_with_action(fragment):
     return bool(m) and m.group(1).lower() in ACTION_VERBS
 
 
+def _depth_at(s):
+    """Parenthesis/bracket depth at each index — splits only happen at depth 0, so a
+    parenthetical aside ("(destroy the lamps, talk to X later)") always stays in one piece."""
+    depths, d = [], 0
+    for ch in s:
+        if ch in "([":
+            d += 1
+        elif ch in ")]":
+            d = max(0, d - 1)
+        depths.append(d)
+    return depths
+
+
+def _split_sentences(s):
+    """Sentence pieces of a long step: boundaries at '.'/'!'/'?' followed by whitespace and a
+    capital (or open-paren), at paren depth 0 only, guarding abbreviations ("e.g.") and decimals
+    ("6.33"). Returns >=1 piece."""
+    depths = _depth_at(s)
+    out, start, i, n = [], 0, 0, len(s)
+    while i < n:
+        if s[i] in ".!?" and depths[i] == 0:
+            j = i + 1
+            while j < n and s[j] in "\"'’”)":
+                j += 1
+            k = j
+            while k < n and s[k].isspace():
+                k += 1
+            if k > j and k < n and (s[k].isupper() or s[k] == "("):
+                prev = _LAST_WORD_RE.search(s[:i])
+                if not (prev and prev.group(1).lower() in _ABBREVS):
+                    piece = s[start:i + 1].strip()
+                    if piece:
+                        out.append(piece)
+                    start = k
+                    i = k
+                    continue
+        i += 1
+    tail = s[start:].strip()
+    if tail:
+        out.append(tail)
+    return out
+
+
+def _boundary_fragments(s):
+    """Raw action-boundary fragments of one piece of text (no merging yet), splitting only at
+    paren depth 0."""
+    depths = _depth_at(s)
+    frags, start = [], 0
+    for m in _BOUNDARY_RE.finditer(s):
+        if depths[m.start()] == 0 and _starts_with_action(s[m.end():]):
+            seg = _TRAIL_CONN_RE.sub("", s[start:m.start()]).strip()
+            # A would-be one-word fragment is a stub, not a task ("start" carved off
+            # "start and complete the miniquest") — skip this boundary and let it extend.
+            if seg and len(seg.split()) < 2:
+                continue
+            if seg:
+                frags.append(seg)
+            start = m.end()
+    tail = _TRAIL_CONN_RE.sub("", s[start:]).strip()
+    if tail:
+        frags.append(tail)
+    return frags
+
+
+def _join(a, b):
+    """Rejoin two fragments: ', ' normally, plain ' ' when the left half already ends a sentence
+    (avoids the '...miniquest., Pick...' double-punctuation wart)."""
+    return (a + " " + b).strip() if a.rstrip().endswith((".", "!", "?")) else (a + ", " + b).strip()
+
+
 def split_atoms_indexed(name):
     """Split a step into (atom, original_index, merged) triples at action boundaries, preserving the original wording.
     A separator only splits when the text after it begins with an action verb; trailing 'and'/'then'
-    fragments merge back so 'buy a bucket and a rope' stays one task. Returns >=1 atom; a step with no
-    internal boundary is returned unchanged."""
+    fragments merge back so 'buy a bucket and a rope' stays one task. Steps over MAX_SPLIT_LEN are
+    split sentence-first (guide walls like bruhsailer's), each sentence then splitting at action
+    boundaries like any short step — EXCEPT em-dash note style, which stays whole (the notes are
+    advisory). Returns >=1 atom; a step with no internal boundary is returned unchanged."""
     s = (name or "").strip()
     if not s:
         return []
     if len(s) > MAX_SPLIT_LEN:
-        return [(s, 0, False)]  # long prose isn't a clean action list — don't shred it into noise
-    atoms = []
-    start = 0
-    for m in _BOUNDARY_RE.finditer(s):
-        if _starts_with_action(s[m.end():]):
-            seg = _TRAIL_CONN_RE.sub("", s[start:m.start()]).strip()
-            if seg:
-                atoms.append(seg)
-            start = m.end()
-    tail = _TRAIL_CONN_RE.sub("", s[start:]).strip()
-    if tail:
-        atoms.append(tail)
+        if "—" in s:
+            return [(s, 0, False)]  # em-dash note style: one action + advisory notes
+        atoms = [f for piece in _split_sentences(s) for f in _boundary_fragments(piece)]
+    else:
+        atoms = _boundary_fragments(s)
     # A fragment that doesn't itself start with an action is a continuation, not a new task: merge back.
     merged = []
     for a in atoms:
@@ -1473,7 +1546,7 @@ def split_atoms_indexed(name):
     # A leading non-action fragment ("In Lumbridge, talk to Hans") has no previous atom to merge into,
     # so fold it forward into the first real action rather than shipping it as a junk step.
     if len(merged) >= 2 and not _starts_with_action(merged[0]):
-        merged[1] = (merged[0] + ", " + merged[1]).strip()
+        merged[1] = _join(merged[0], merged[1])
         merged.pop(0)
     # Merge "travel to X" + "<interact> Y" into one step — the NPC/target Y is what the player clicks,
     # not a separate arrival waypoint. Only a pure-travel atom directly before a talk/speak atom.
@@ -1487,7 +1560,7 @@ def split_atoms_indexed(name):
         nxt = merged[i + 1] if i + 1 < len(merged) else None
         nm = _FIRST_WORD_RE.match(nxt) if nxt else None
         if nxt is not None and is_travel(cur) and nm and nm.group(1).lower() in INTERACT_VERBS:
-            combined.append(((cur + ", " + nxt).strip(), i, True))
+            combined.append((_join(cur, nxt), i, True))
             i += 2
         else:
             combined.append((cur, i, False))

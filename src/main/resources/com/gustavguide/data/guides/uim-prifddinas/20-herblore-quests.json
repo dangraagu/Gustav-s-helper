@@ -6,19 +6,19 @@
     {
       "id": "herblore-quests-001",
       "title": "Drop or table all your ranging …",
-      "text": "Drop or table all your ranging gear",
+      "text": "Drop or table all your ranging gear.",
       "manual": true
     },
     {
       "id": "herblore-quests-002",
-      "title": "Get a dramen staff again",
-      "text": "Get a dramen staff again",
+      "title": "Get a dramen staff again.",
+      "text": "Get a dramen staff again.",
       "manual": true
     },
     {
       "id": "herblore-quests-003",
       "title": "Get your graceful outfit, staff of …",
-      "text": "Get your graceful outfit, staff of fire, mind and water runes back",
+      "text": "Get your graceful outfit, staff of fire, mind and water runes back.",
       "manual": true
     },
     {
@@ -30,7 +30,7 @@
     {
       "id": "herblore-quests-005",
       "title": "You can go back to alchemzing …",
-      "text": "You can go back to alchemzing if you want. Inventory is tight for Death Plateau though so maybe wait until after that",
+      "text": "You can go back to alchemzing if you want. Inventory is tight for Death Plateau though so maybe wait until after that.",
       "manual": true,
       "object": 3662,
       "world": [
@@ -42,33 +42,55 @@
     {
       "id": "herblore-quests-006",
       "title": "The guide assumes you restore your …",
-      "text": "The guide assumes you restore your prayer after every quest",
+      "text": "The guide assumes you restore your prayer after every quest.",
       "manual": true
     },
     {
-      "id": "herblore-quests-007",
+      "id": "herblore-quests-007a",
       "title": "Get a fly fishing rod and …",
-      "text": "Get a fly fishing rod and some bait/feathers. Fly fish in Barbarian Village and cook the trout until you have 10 trout. Drop the rod and feathers. Alternatively, if you have access to Warriors' Guild, you can buy 10 cooked trouts there.",
+      "text": "Get a fly fishing rod and some bait/feathers. Fly fish in Barbarian Village",
+      "manual": true,
+      "world": [
+        2500,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-007b",
+      "title": "cook the trout until you have …",
+      "text": "cook the trout until you have 10 trout.",
+      "manual": true,
+      "world": [
+        2500,
+        3488,
+        0
+      ]
+    },
+    {
+      "id": "herblore-quests-007c",
+      "title": "Drop the rod and feathers. Alternatively, …",
+      "text": "Drop the rod and feathers. Alternatively, if you have access to Warriors' Guild, you can buy 10 cooked trouts there.",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 309,
-            "qty": 1
+            "id": 314,
+            "qty": 1001
           },
           {
             "op": "item",
-            "id": 309,
-            "qty": 2,
+            "id": 314,
+            "qty": 1001,
             "scope": "ANY"
           }
         ]
       },
-      "item": 309,
+      "item": 314,
       "world": [
-        3104,
-        3424,
+        2864,
+        3544,
         0
       ]
     },
@@ -86,7 +108,7 @@
     {
       "id": "herblore-quests-008b",
       "title": "make an iron bar. Superheat if …",
-      "text": "make an iron bar. Superheat if you have nature runes",
+      "text": "make an iron bar. Superheat if you have nature runes.",
       "manual": true,
       "world": [
         2930,
@@ -97,7 +119,7 @@
     {
       "id": "herblore-quests-009",
       "title": "Buy 10 bread from the baker …",
-      "text": "Buy 10 bread from the baker in Ardougne",
+      "text": "Buy 10 bread from the baker in Ardougne.",
       "complete": {
         "op": "or",
         "of": [
@@ -124,7 +146,7 @@
     {
       "id": "herblore-quests-010",
       "title": "Buy a Premade blurb' sp from …",
-      "text": "Buy a Premade blurb' sp from the Gnome Stronghold",
+      "text": "Buy a Premade blurb' sp from the Gnome Stronghold.",
       "manual": true,
       "world": [
         2440,
@@ -135,7 +157,7 @@
     {
       "id": "herblore-quests-011",
       "title": "Complete Death Plateau. — Drop your …",
-      "text": "Complete Death Plateau. — Drop your mind and water runes for a bit when you need the extra space",
+      "text": "Complete Death Plateau. — Drop your mind and water runes for a bit when you need the extra space.",
       "complete": {
         "op": "quest",
         "quest": "DEATH_PLATEAU",
@@ -150,13 +172,13 @@
     {
       "id": "herblore-quests-012",
       "title": "Get a few cakes for food …",
-      "text": "Get a few cakes for food to be safe for the next quest",
+      "text": "Get a few cakes for food to be safe for the next quest.",
       "manual": true
     },
     {
       "id": "herblore-quests-013",
-      "title": "Complete Troll Stronghold",
-      "text": "Complete Troll Stronghold",
+      "title": "Complete Troll Stronghold.",
+      "text": "Complete Troll Stronghold.",
       "complete": {
         "op": "quest",
         "quest": "TROLL_STRONGHOLD",
@@ -171,7 +193,7 @@
     {
       "id": "herblore-quests-014",
       "title": "Get: — 50 death runes so …",
-      "text": "Get: — 50 death runes so you can use some blast spells. — Some extra cakes if you are low on food. — A tinderbox. — An axe. — A hammer. — 2 ashes",
+      "text": "Get: — 50 death runes so you can use some blast spells. — Some extra cakes if you are low on food. — A tinderbox. — An axe. — A hammer. — 2 ashes.",
       "manual": true
     },
     {
@@ -192,13 +214,13 @@
     {
       "id": "herblore-quests-016",
       "title": "Clean up your inventory again, get …",
-      "text": "Clean up your inventory again, get a few more cakes if needed",
+      "text": "Clean up your inventory again, get a few more cakes if needed.",
       "manual": true
     },
     {
       "id": "herblore-quests-017",
       "title": "Do Jungle Potion. (Fairy ring code …",
-      "text": "Do Jungle Potion. (Fairy ring code CKR.) — Safespot a jogre while you are there for the diary",
+      "text": "Do Jungle Potion. (Fairy ring code CKR.) — Safespot a jogre while you are there for the diary.",
       "complete": {
         "op": "quest",
         "quest": "JUNGLE_POTION",
@@ -218,8 +240,8 @@
     },
     {
       "id": "herblore-quests-018b",
-      "title": "buy 100 chaos runes",
-      "text": "buy 100 chaos runes",
+      "title": "buy 100 chaos runes.",
+      "text": "buy 100 chaos runes.",
       "complete": {
         "op": "or",
         "of": [
@@ -271,8 +293,8 @@
     },
     {
       "id": "herblore-quests-020b",
-      "title": "Use the lamp on Herblore",
-      "text": "Use the lamp on Herblore",
+      "title": "Use the lamp on Herblore.",
+      "text": "Use the lamp on Herblore.",
       "manual": true,
       "world": [
         2810,
@@ -303,8 +325,8 @@
     },
     {
       "id": "herblore-quests-022b",
-      "title": "use the lamp on Herblore",
-      "text": "use the lamp on Herblore",
+      "title": "use the lamp on Herblore.",
+      "text": "use the lamp on Herblore.",
       "manual": true,
       "world": [
         2624,
@@ -314,8 +336,8 @@
     },
     {
       "id": "herblore-quests-023",
-      "title": "Complete Shilo Village",
-      "text": "Complete Shilo Village",
+      "title": "Complete Shilo Village.",
+      "text": "Complete Shilo Village.",
       "complete": {
         "op": "quest",
         "quest": "SHILO_VILLAGE",
@@ -344,8 +366,8 @@
     },
     {
       "id": "herblore-quests-025",
-      "title": "Complete Eadgar's Ruse",
-      "text": "Complete Eadgar's Ruse",
+      "title": "Complete Eadgar's Ruse.",
+      "text": "Complete Eadgar's Ruse.",
       "complete": {
         "op": "quest",
         "quest": "EADGARS_RUSE",
@@ -359,8 +381,8 @@
     },
     {
       "id": "herblore-quests-026",
-      "title": "Complete My Arm's Big Adventure",
-      "text": "Complete My Arm's Big Adventure",
+      "title": "Complete My Arm's Big Adventure.",
+      "text": "Complete My Arm's Big Adventure.",
       "complete": {
         "op": "quest",
         "quest": "MY_ARMS_BIG_ADVENTURE",
@@ -386,7 +408,7 @@
     {
       "id": "herblore-quests-028",
       "title": "(Optional), If you want to thieve …",
-      "text": "(Optional), If you want to thieve Ardougne knights rather than blackjack, you can go out of your way to complete the Ardougne medium diary now",
+      "text": "(Optional), If you want to thieve Ardougne knights rather than blackjack, you can go out of your way to complete the Ardougne medium diary now.",
       "manual": true,
       "world": [
         2624,

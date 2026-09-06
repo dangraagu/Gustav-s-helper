@@ -6,13 +6,13 @@
     {
       "id": "mta-and-protect-melee-001",
       "title": "Keep all of your blighted supplies …",
-      "text": "Keep all of your blighted supplies in your inventory for now. They will be turned into Bounty Hunter Crates later",
+      "text": "Keep all of your blighted supplies in your inventory for now. They will be turned into Bounty Hunter Crates later.",
       "manual": true
     },
     {
       "id": "mta-and-protect-melee-002",
-      "title": "Head to the Grand Exchange",
-      "text": "Head to the Grand Exchange",
+      "title": "Head to the Grand Exchange.",
+      "text": "Head to the Grand Exchange.",
       "world": [
         3165,
         3490,
@@ -29,7 +29,7 @@
     {
       "id": "mta-and-protect-melee-003",
       "title": "Put up a purchase order for …",
-      "text": "Put up a purchase order for a bond for 2m, then cancel the offer. Leave the money there",
+      "text": "Put up a purchase order for a bond for 2m, then cancel the offer. Leave the money there.",
       "manual": true,
       "world": [
         3216,
@@ -40,7 +40,7 @@
     {
       "id": "mta-and-protect-melee-004",
       "title": "Go to the Ferox Enclave. Don't …",
-      "text": "Go to the Ferox Enclave. Don't use your minigame teleport",
+      "text": "Go to the Ferox Enclave. Don't use your minigame teleport.",
       "world": [
         3137,
         3623,
@@ -57,13 +57,13 @@
     {
       "id": "mta-and-protect-melee-005",
       "title": "Put all of your remaining money …",
-      "text": "Put all of your remaining money in the coffer there",
+      "text": "Put all of your remaining money in the coffer there.",
       "manual": true
     },
     {
       "id": "mta-and-protect-melee-006",
       "title": "Unnote some food in case you …",
-      "text": "Unnote some food in case you are attacked on the way to mage bank",
+      "text": "Unnote some food in case you are attacked on the way to mage bank.",
       "manual": true,
       "world": [
         3090,
@@ -74,7 +74,7 @@
     {
       "id": "mta-and-protect-melee-007",
       "title": "Grab an iron dagger from the …",
-      "text": "Grab an iron dagger from the spawn north of the enclave in the graveyard",
+      "text": "Grab an iron dagger from the spawn north of the enclave in the graveyard.",
       "complete": {
         "op": "or",
         "of": [
@@ -101,7 +101,7 @@
     {
       "id": "mta-and-protect-melee-008",
       "title": "Go to the Mage Arena bank. …",
-      "text": "Go to the Mage Arena bank. — Use the wilderness lever to get there faster",
+      "text": "Go to the Mage Arena bank. — Use the wilderness lever to get there faster.",
       "manual": true,
       "object": 26761,
       "world": [
@@ -113,7 +113,7 @@
     {
       "id": "mta-and-protect-melee-009",
       "title": "Collect your money from the bond …",
-      "text": "Collect your money from the bond at the banker",
+      "text": "Collect your money from the bond at the banker.",
       "manual": true,
       "world": [
         3095,
@@ -151,7 +151,7 @@
     {
       "id": "mta-and-protect-melee-011",
       "title": "Return to Ferox Enclave with your …",
-      "text": "Return to Ferox Enclave with your minigame teleport and put all but 4000 coins into the coffer",
+      "text": "Return to Ferox Enclave with your minigame teleport and put all but 4000 coins into the coffer.",
       "manual": true,
       "world": [
         3137,
@@ -162,7 +162,7 @@
     {
       "id": "mta-and-protect-melee-012",
       "title": "Chronicle teleport or home teleport, walk/canoe …",
-      "text": "Chronicle teleport or home teleport, walk/canoe to Varrock",
+      "text": "Chronicle teleport or home teleport, walk/canoe to Varrock.",
       "manual": true,
       "world": [
         3210,
@@ -190,7 +190,7 @@
     {
       "id": "mta-and-protect-melee-013b",
       "title": "buy a staff of air and …",
-      "text": "buy a staff of air and a staff of fire",
+      "text": "buy a staff of air and a staff of fire.",
       "complete": {
         "op": "or",
         "of": [
@@ -235,8 +235,8 @@
     },
     {
       "id": "mta-and-protect-melee-015",
-      "title": "Drop the mind runes after",
-      "text": "Drop the mind runes after",
+      "title": "Drop the mind runes after.",
+      "text": "Drop the mind runes after.",
       "manual": true,
       "world": [
         3097,
@@ -273,8 +273,8 @@
     },
     {
       "id": "mta-and-protect-melee-017",
-      "title": "Buy Bones to Peaches",
-      "text": "Buy Bones to Peaches",
+      "title": "Buy Bones to Peaches.",
+      "text": "Buy Bones to Peaches.",
       "complete": {
         "op": "or",
         "of": [
@@ -295,14 +295,14 @@
     },
     {
       "id": "mta-and-protect-melee-018",
-      "title": "Keep the staff of air",
-      "text": "Keep the staff of air",
+      "title": "Keep the staff of air.",
+      "text": "Keep the staff of air.",
       "manual": true
     },
     {
       "id": "mta-and-protect-melee-019",
-      "title": "Drop the staff of fire",
-      "text": "Drop the staff of fire",
+      "title": "Drop the staff of fire.",
+      "text": "Drop the staff of fire.",
       "manual": true,
       "world": [
         3364,
@@ -313,7 +313,7 @@
     {
       "id": "mta-and-protect-melee-020",
       "title": "Minigame teleport to Clan Wars to …",
-      "text": "Minigame teleport to Clan Wars to get your cash stack back out",
+      "text": "Minigame teleport to Clan Wars to get your cash stack back out.",
       "manual": true,
       "world": [
         3130,
@@ -366,7 +366,7 @@
     {
       "id": "mta-and-protect-melee-023",
       "title": "Re-obtain your Ardougne cloak 1 for …",
-      "text": "Re-obtain your Ardougne cloak 1 for the teleport. — Don't forget it is relatively close to a Spirit Tree",
+      "text": "Re-obtain your Ardougne cloak 1 for the teleport. — Don't forget it is relatively close to a Spirit Tree.",
       "manual": true,
       "world": [
         2624,
@@ -377,13 +377,13 @@
     {
       "id": "mta-and-protect-melee-024",
       "title": "Get a Banana hat to improve …",
-      "text": "Get a Banana hat to improve your fashion",
+      "text": "Get a Banana hat to improve your fashion.",
       "manual": true
     },
     {
       "id": "mta-and-protect-melee-025",
       "title": "Go pick up some Boots of …",
-      "text": "Go pick up some Boots of lightness from the Temple of Ikov (dungeon). — You will need a light source and a knife/slash weapon",
+      "text": "Go pick up some Boots of lightness from the Temple of Ikov (dungeon). — You will need a light source and a knife/slash weapon.",
       "complete": {
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
@@ -398,7 +398,7 @@
     {
       "id": "mta-and-protect-melee-026",
       "title": "For the next sections, you can …",
-      "text": "For the next sections, you can get some cakes in Ardougne for food. — You can also buy rope and iron axe in the general store for the quests",
+      "text": "For the next sections, you can get some cakes in Ardougne for food. — You can also buy rope and iron axe in the general store for the quests.",
       "complete": {
         "op": "or",
         "of": [
@@ -425,7 +425,7 @@
     {
       "id": "mta-and-protect-melee-027",
       "title": "Head to Barbarian Assault and skip …",
-      "text": "Head to Barbarian Assault and skip the tutorial to unlock the minigame teleport",
+      "text": "Head to Barbarian Assault and skip the tutorial to unlock the minigame teleport.",
       "world": [
         2533,
         3571,
@@ -442,7 +442,7 @@
     {
       "id": "mta-and-protect-melee-028",
       "title": "While there, start Alfred Grimhand's Barcrawl. …",
-      "text": "While there, start Alfred Grimhand's Barcrawl. — The guide will take you near several of the bars in the next few steps, you can complete them as you go if you would like",
+      "text": "While there, start Alfred Grimhand's Barcrawl. — The guide will take you near several of the bars in the next few steps, you can complete them as you go if you would like.",
       "complete": {
         "op": "quest",
         "quest": "ALFRED_GRIMHANDS_BARCRAWL",
@@ -472,7 +472,7 @@
     {
       "id": "mta-and-protect-melee-029b",
       "title": "get the pebble. — Just partially …",
-      "text": "get the pebble. — Just partially complete it for now, you will need to clear up your bagged items before going in the tomb",
+      "text": "get the pebble. — Just partially complete it for now, you will need to clear up your bagged items before going in the tomb.",
       "manual": true,
       "world": [
         2521,
@@ -483,7 +483,7 @@
     {
       "id": "mta-and-protect-melee-030",
       "title": "Complete Tree Gnome Village and Fight …",
-      "text": "Complete Tree Gnome Village and Fight Arena while in the area",
+      "text": "Complete Tree Gnome Village and Fight Arena while in the area.",
       "complete": {
         "op": "and",
         "of": [
@@ -525,7 +525,7 @@
     {
       "id": "mta-and-protect-melee-032",
       "title": "Head to Bounty Hunter and create …",
-      "text": "Head to Bounty Hunter and create as many Bounty supply crates as you can",
+      "text": "Head to Bounty Hunter and create as many Bounty supply crates as you can.",
       "manual": true
     },
     {
@@ -543,7 +543,7 @@
     {
       "id": "mta-and-protect-melee-033b",
       "title": "sell the crates. — 2 per …",
-      "text": "sell the crates. — 2 per world is good, but it is up to you",
+      "text": "sell the crates. — 2 per world is good, but it is up to you.",
       "manual": true,
       "world": [
         2927,
@@ -553,8 +553,8 @@
     },
     {
       "id": "mta-and-protect-melee-034",
-      "title": "Drop the leftover blighted supplies",
-      "text": "Drop the leftover blighted supplies",
+      "title": "Drop the leftover blighted supplies.",
+      "text": "Drop the leftover blighted supplies.",
       "manual": true,
       "world": [
         2927,
@@ -580,7 +580,7 @@
     {
       "id": "mta-and-protect-melee-035b",
       "title": "kill a Fire Giant for a …",
-      "text": "kill a Fire Giant for a combat achievement",
+      "text": "kill a Fire Giant for a combat achievement.",
       "manual": true,
       "npc": 2080,
       "world": [
@@ -591,14 +591,14 @@
     },
     {
       "id": "mta-and-protect-melee-036",
-      "title": "Complete the Natural History Quiz",
-      "text": "Complete the Natural History Quiz",
+      "title": "Complete the Natural History Quiz.",
+      "text": "Complete the Natural History Quiz.",
       "manual": true
     },
     {
       "id": "mta-and-protect-melee-037",
       "title": "Minigame teleport to Fishing Trawler, buy …",
-      "text": "Minigame teleport to Fishing Trawler, buy a Noose wand at the Hunter shop in Yanille",
+      "text": "Minigame teleport to Fishing Trawler, buy a Noose wand at the Hunter shop in Yanille.",
       "complete": {
         "op": "or",
         "of": [
@@ -625,7 +625,7 @@
     {
       "id": "mta-and-protect-melee-038",
       "title": "Take a Spirit Tree to Feldip …",
-      "text": "Take a Spirit Tree to Feldip Hills",
+      "text": "Take a Spirit Tree to Feldip Hills.",
       "manual": true,
       "world": [
         2515,
@@ -636,7 +636,7 @@
     {
       "id": "mta-and-protect-melee-039",
       "title": "Hunt Feldip Weasels for 4 feldip …",
-      "text": "Hunt Feldip Weasels for 4 feldip weasel fur",
+      "text": "Hunt Feldip Weasels for 4 feldip weasel fur.",
       "manual": true
     },
     {
@@ -659,7 +659,7 @@
     {
       "id": "mta-and-protect-melee-040b",
       "title": "make a Jungle camo top and …",
-      "text": "make a Jungle camo top and Jungle camo legs. — These are storable weight reducing clothing",
+      "text": "make a Jungle camo top and Jungle camo legs. — These are storable weight reducing clothing.",
       "manual": true,
       "world": [
         3280,
@@ -670,7 +670,7 @@
     {
       "id": "mta-and-protect-melee-041",
       "title": "Complete Priest in Peril. — Buy …",
-      "text": "Complete Priest in Peril. — Buy an adamant sword in Varrock. — Just make 3 trips. It isn't that big of a deal. — Briefly walk into Morytania",
+      "text": "Complete Priest in Peril. — Buy an adamant sword in Varrock. — Just make 3 trips. It isn't that big of a deal. — Briefly walk into Morytania.",
       "complete": {
         "op": "quest",
         "quest": "PRIEST_IN_PERIL",
@@ -684,8 +684,8 @@
     },
     {
       "id": "mta-and-protect-melee-042",
-      "title": "Complete Alfred Grimhand's Barcrawl",
-      "text": "Complete Alfred Grimhand's Barcrawl",
+      "title": "Complete Alfred Grimhand's Barcrawl.",
+      "text": "Complete Alfred Grimhand's Barcrawl.",
       "complete": {
         "op": "quest",
         "quest": "ALFRED_GRIMHANDS_BARCRAWL",
@@ -715,7 +715,7 @@
     {
       "id": "mta-and-protect-melee-043b",
       "title": "kill a Hellhound in the Taverly …",
-      "text": "kill a Hellhound in the Taverly Dungeon for a combat achievement",
+      "text": "kill a Hellhound in the Taverly Dungeon for a combat achievement.",
       "manual": true,
       "world": [
         2884,
@@ -726,7 +726,7 @@
     {
       "id": "mta-and-protect-melee-044",
       "title": "Complete Merlin's Crystal if you have …",
-      "text": "Complete Merlin's Crystal if you have not already",
+      "text": "Complete Merlin's Crystal if you have not already.",
       "complete": {
         "op": "quest",
         "quest": "MERLINS_CRYSTAL",
@@ -740,8 +740,8 @@
     },
     {
       "id": "mta-and-protect-melee-045",
-      "title": "Complete Vampyre Slayer",
-      "text": "Complete Vampyre Slayer",
+      "title": "Complete Vampyre Slayer.",
+      "text": "Complete Vampyre Slayer.",
       "complete": {
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
@@ -755,8 +755,8 @@
     },
     {
       "id": "mta-and-protect-melee-046",
-      "title": "Complete Ernest the Chicken",
-      "text": "Complete Ernest the Chicken",
+      "title": "Complete Ernest the Chicken.",
+      "text": "Complete Ernest the Chicken.",
       "complete": {
         "op": "quest",
         "quest": "ERNEST_THE_CHICKEN",
@@ -786,7 +786,7 @@
     {
       "id": "mta-and-protect-melee-048",
       "title": "You should now have 43 Prayer …",
-      "text": "You should now have 43 Prayer for Protect from melee",
+      "text": "You should now have 43 Prayer for Protect from melee.",
       "manual": true,
       "world": [
         2694,
@@ -796,8 +796,8 @@
     },
     {
       "id": "mta-and-protect-melee-049",
-      "title": "Complete The Feud",
-      "text": "Complete The Feud",
+      "title": "Complete The Feud.",
+      "text": "Complete The Feud.",
       "complete": {
         "op": "quest",
         "quest": "THE_FEUD",

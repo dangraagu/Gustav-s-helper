@@ -6,7 +6,7 @@
     {
       "id": "smithing-and-renovations-001",
       "title": "Retrieve your cash, buy a few …",
-      "text": "Retrieve your cash, buy a few teleport runes. Again, not too many",
+      "text": "Retrieve your cash, buy a few teleport runes. Again, not too many.",
       "manual": true
     },
     {
@@ -18,13 +18,13 @@
     {
       "id": "smithing-and-renovations-002b",
       "title": "finish getting your 5000 Anima-infused bark …",
-      "text": "finish getting your 5000 Anima-infused bark if you have not gotten both of those already",
+      "text": "finish getting your 5000 Anima-infused bark if you have not gotten both of those already.",
       "manual": true
     },
     {
       "id": "smithing-and-renovations-003",
       "title": "Buy a log basket if you …",
-      "text": "Buy a log basket if you have not already done so",
+      "text": "Buy a log basket if you have not already done so.",
       "complete": {
         "op": "or",
         "of": [
@@ -58,7 +58,7 @@
     {
       "id": "smithing-and-renovations-005",
       "title": "Store your Log basket, Forestry kit, …",
-      "text": "Store your Log basket, Forestry kit, and jungle camo outfit (and Fletching knife if you got it)",
+      "text": "Store your Log basket, Forestry kit, and jungle camo outfit (and Fletching knife if you got it).",
       "manual": true
     },
     {
@@ -74,8 +74,8 @@
     },
     {
       "id": "smithing-and-renovations-006b",
-      "title": "make sure to have some charges",
-      "text": "make sure to have some charges",
+      "title": "make sure to have some charges.",
+      "text": "make sure to have some charges.",
       "manual": true,
       "world": [
         3081,
@@ -98,7 +98,7 @@
     {
       "id": "smithing-and-renovations-007b",
       "title": "buy pickaxes up to rune from …",
-      "text": "buy pickaxes up to rune from Nurmof's Pickaxe Shop to train with",
+      "text": "buy pickaxes up to rune from Nurmof's Pickaxe Shop to train with.",
       "manual": true,
       "world": [
         3058,
@@ -109,7 +109,7 @@
     {
       "id": "smithing-and-renovations-008",
       "title": "Train Mining until level 52. — …",
-      "text": "Train Mining until level 52. — The guide doesn't care how you train, but power-mining iron is pretty solid",
+      "text": "Train Mining until level 52. — The guide doesn't care how you train, but power-mining iron is pretty solid.",
       "manual": true,
       "world": [
         3039,
@@ -120,13 +120,13 @@
     {
       "id": "smithing-and-renovations-009",
       "title": "Obtain some Ice gloves from the …",
-      "text": "Obtain some Ice gloves from the Ice Queen. — Bring some casts of fire blast to kill her",
+      "text": "Obtain some Ice gloves from the Ice Queen. — Bring some casts of fire blast to kill her.",
       "manual": true
     },
     {
       "id": "smithing-and-renovations-010",
       "title": "Clear out your inventory and gear. …",
-      "text": "Clear out your inventory and gear. You can sell or alch the rune pickaxe: — Wearing Ice gloves. — Wearing the Chronicle. — Coins in your inventory and nothing else",
+      "text": "Clear out your inventory and gear. You can sell or alch the rune pickaxe: — Wearing Ice gloves. — Wearing the Chronicle. — Coins in your inventory and nothing else.",
       "manual": true,
       "world": [
         2957,
@@ -149,19 +149,19 @@
     {
       "id": "smithing-and-renovations-012",
       "title": "Store your cash stack and the …",
-      "text": "Store your cash stack and the outfit if you got it",
+      "text": "Store your cash stack and the outfit if you got it.",
       "manual": true
     },
     {
       "id": "smithing-and-renovations-013",
       "title": "Clear out ALL of your items …",
-      "text": "Clear out ALL of your items and equipment",
+      "text": "Clear out ALL of your items and equipment.",
       "manual": true
     },
     {
       "id": "smithing-and-renovations-014",
-      "title": "Complete Recruitment Drive",
-      "text": "Complete Recruitment Drive",
+      "title": "Complete Recruitment Drive.",
+      "text": "Complete Recruitment Drive.",
       "complete": {
         "op": "quest",
         "quest": "RECRUITMENT_DRIVE",
@@ -176,7 +176,7 @@
     {
       "id": "smithing-and-renovations-015",
       "title": "You may now finally buy your …",
-      "text": "You may now finally buy your Rune Pouch from Mage Training Arena",
+      "text": "You may now finally buy your Rune Pouch from Mage Training Arena.",
       "manual": true,
       "world": [
         3364,
@@ -213,8 +213,8 @@
     },
     {
       "id": "smithing-and-renovations-017",
-      "title": "Complete The Grand Tree",
-      "text": "Complete The Grand Tree",
+      "title": "Complete The Grand Tree.",
+      "text": "Complete The Grand Tree.",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -229,7 +229,7 @@
     {
       "id": "smithing-and-renovations-018",
       "title": "Complete The Eyes of Glouphrie. — …",
-      "text": "Complete The Eyes of Glouphrie. — Get the mud rune from your extra Mage Training Arena points. — Make the Crystal saw once you are finished",
+      "text": "Complete The Eyes of Glouphrie. — Get the mud rune from your extra Mage Training Arena points. — Make the Crystal saw once you are finished.",
       "complete": {
         "op": "quest",
         "quest": "THE_EYES_OF_GLOUPHRIE",
@@ -244,7 +244,7 @@
     {
       "id": "smithing-and-renovations-019",
       "title": "(Optional) Complete Watchtower. — Read the …",
-      "text": "(Optional) Complete Watchtower. — Read the teleport scroll",
+      "text": "(Optional) Complete Watchtower. — Read the teleport scroll.",
       "manual": true,
       "world": [
         2548,
@@ -255,7 +255,7 @@
     {
       "id": "smithing-and-renovations-020",
       "title": "Change to the Arceuus spellbook and …",
-      "text": "Change to the Arceuus spellbook and back if you have never done so. — You should have done this during Client of Kourend at the start of the guide",
+      "text": "Change to the Arceuus spellbook and back if you have never done so. — You should have done this during Client of Kourend at the start of the guide.",
       "manual": true,
       "world": [
         1700,
@@ -266,7 +266,7 @@
     {
       "id": "smithing-and-renovations-021",
       "title": "It is now time to renovate …",
-      "text": "It is now time to renovate your house! You can lay it out however you want. — Buy another adamant axe, get out your log basket",
+      "text": "It is now time to renovate your house! You can lay it out however you want. — Buy another adamant axe, get out your log basket.",
       "complete": {
         "op": "or",
         "of": [
@@ -310,7 +310,7 @@
     {
       "id": "smithing-and-renovations-024",
       "title": "Make 7 steel bars from the …",
-      "text": "Make 7 steel bars from the Blast Furnace. — Remember the minigame teleport, but you can also take the minecart from the Grand Exchange",
+      "text": "Make 7 steel bars from the Blast Furnace. — Remember the minigame teleport, but you can also take the minecart from the Grand Exchange.",
       "manual": true,
       "world": [
         2930,
@@ -333,7 +333,7 @@
     {
       "id": "smithing-and-renovations-025b",
       "title": "mine 8 clay from south of …",
-      "text": "mine 8 clay from south of Varrock. — Use buckets of water on the clay to make 8 soft clay",
+      "text": "mine 8 clay from south of Varrock. — Use buckets of water on the clay to make 8 soft clay.",
       "manual": true,
       "world": [
         3180,
@@ -343,8 +343,8 @@
     },
     {
       "id": "smithing-and-renovations-026",
-      "title": "Make 3 more oak planks",
-      "text": "Make 3 more oak planks",
+      "title": "Make 3 more oak planks.",
+      "text": "Make 3 more oak planks.",
       "manual": true,
       "world": [
         3180,
@@ -400,8 +400,8 @@
     },
     {
       "id": "smithing-and-renovations-028c",
-      "title": "buy 10 limestone bricks",
-      "text": "buy 10 limestone bricks",
+      "title": "buy 10 limestone bricks.",
+      "text": "buy 10 limestone bricks.",
       "complete": {
         "op": "or",
         "of": [
@@ -427,8 +427,8 @@
     },
     {
       "id": "smithing-and-renovations-029",
-      "title": "Make a molten glass",
-      "text": "Make a molten glass",
+      "title": "Make a molten glass.",
+      "text": "Make a molten glass.",
       "manual": true,
       "world": [
         2602,
@@ -439,7 +439,7 @@
     {
       "id": "smithing-and-renovations-030",
       "title": "Make a teleport focus in each …",
-      "text": "Make a teleport focus in each portal chamber",
+      "text": "Make a teleport focus in each portal chamber.",
       "manual": true,
       "world": [
         2602,
@@ -449,8 +449,8 @@
     },
     {
       "id": "smithing-and-renovations-031",
-      "title": "Make a clockmakers bench 2",
-      "text": "Make a clockmakers bench 2",
+      "title": "Make a clockmakers bench 2.",
+      "text": "Make a clockmakers bench 2.",
       "manual": true,
       "world": [
         2602,
@@ -467,7 +467,7 @@
     {
       "id": "smithing-and-renovations-033",
       "title": "Make some tea in your house. …",
-      "text": "Make some tea in your house. — Make an oak cape rack. — Make a tool store 5",
+      "text": "Make some tea in your house. — Make an oak cape rack. — Make a tool store 5.",
       "manual": true,
       "world": [
         2602,
@@ -489,7 +489,7 @@
     {
       "id": "smithing-and-renovations-034b",
       "title": "use them to make teak planks. …",
-      "text": "use them to make teak planks. — Remember your log basket",
+      "text": "use them to make teak planks. — Remember your log basket.",
       "manual": true,
       "world": [
         1725,
@@ -500,7 +500,7 @@
     {
       "id": "smithing-and-renovations-035",
       "title": "Make teak portal frames for all …",
-      "text": "Make teak portal frames for all of the portals",
+      "text": "Make teak portal frames for all of the portals.",
       "manual": true,
       "world": [
         1725,

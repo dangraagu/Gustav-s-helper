@@ -255,12 +255,12 @@
           {
             "op": "itemAcquired",
             "id": 10010,
-            "qty": 4
+            "qty": 3
           },
           {
             "op": "item",
             "id": 10010,
-            "qty": 4,
+            "qty": 3,
             "scope": "ANY"
           }
         ]
@@ -408,7 +408,7 @@
     {
       "id": "e9-026",
       "title": "This is now a comfortable point …",
-      "text": "This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted Gauntlet with Tier 3 Preparation",
+      "text": "This is now a comfortable point to get your Enhanced Weapon Seed from Corrupted Gauntlet with Tier 3 Preparation.",
       "manual": true
     },
     {

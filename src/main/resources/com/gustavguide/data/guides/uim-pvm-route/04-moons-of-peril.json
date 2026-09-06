@@ -6,13 +6,13 @@
     {
       "id": "moons-of-peril-001",
       "title": "If you want to do all …",
-      "text": "If you want to do all 3 moons, you will need some barrows tank gear and a zombie axe",
+      "text": "If you want to do all 3 moons, you will need some barrows tank gear and a zombie axe.",
       "manual": true
     },
     {
       "id": "moons-of-peril-002",
       "title": "Kill Amoxliatl or Frost Nagua for …",
-      "text": "Kill Amoxliatl or Frost Nagua for some Glacial temotli. — These can be stored in the Nest (nice) if you would like",
+      "text": "Kill Amoxliatl or Frost Nagua for some Glacial temotli. — These can be stored in the Nest (nice) if you would like.",
       "manual": true,
       "npc": 13685,
       "world": [
@@ -24,7 +24,7 @@
     {
       "id": "moons-of-peril-003",
       "title": "Kill the Blue Moon for the …",
-      "text": "Kill the Blue Moon for the full Blue moon armour",
+      "text": "Kill the Blue Moon for the full Blue moon armour.",
       "manual": true
     },
     {

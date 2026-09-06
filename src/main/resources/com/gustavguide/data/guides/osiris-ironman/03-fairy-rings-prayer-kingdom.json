@@ -74,7 +74,7 @@
     {
       "id": "frp-005",
       "title": "Buy 400 steel nails at the …",
-      "text": "Buy 400 steel nails at the sawmill, if every world is bought out then don't b\nLocation: Varrock",
+      "text": "Buy 400 steel nails at the sawmill, if every world is bought out then don't b...\nLocation: Varrock",
       "complete": {
         "op": "or",
         "of": [
@@ -314,11 +314,11 @@
     {
       "id": "frp-020",
       "title": "Get big frog leg (you need …",
-      "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r\nLocation: Lumbridge Swamp",
+      "text": "Get big frog leg (you need to go in to the caves), giant rat bone (both for r...\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
-        3244,
-        9570,
+        3197,
+        3166,
         0
       ]
     },
@@ -377,11 +377,11 @@
     {
       "id": "frp-024",
       "title": "Dig up the skull for fairytale …",
-      "text": "Dig up the skull for fairytale part 1 while you're in the area to save some t\nLocation: Draynor Manor",
+      "text": "Dig up the skull for fairytale part 1 while you're in the area to save some t...\nLocation: Draynor Manor",
       "manual": true,
       "world": [
-        3106,
-        3384,
+        3078,
+        3256,
         0
       ]
     },
@@ -867,7 +867,7 @@
     {
       "id": "frp-056b",
       "title": "use it on a range (This …",
-      "text": "use it on a range (This is for\nLocation: Lumbridge",
+      "text": "use it on a range (This is for ...\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3212,
@@ -889,7 +889,7 @@
     {
       "id": "frp-058",
       "title": "Do Death to the Dorgeshuun. While …",
-      "text": "Do Death to the Dorgeshuun. While getting the robes, keep buttons (If you did\nLocation: Dorgesh-Kaan",
+      "text": "Do Death to the Dorgeshuun. While getting the robes, keep buttons (If you did...\nLocation: Dorgesh-Kaan",
       "complete": {
         "op": "quest",
         "quest": "DEATH_TO_THE_DORGESHUUN",
@@ -971,16 +971,13 @@
     },
     {
       "id": "frp-061b",
-      "title": "use your empty lantern on the",
-      "text": "use your empty lantern on the\nLocation: Dorgesh-Kaan",
+      "title": "use your empty lantern on the...",
+      "text": "use your empty lantern on the...\nLocation: Dorgesh-Kaan",
       "manual": true,
       "world": [
-        2721,
-        5322,
+        3169,
+        3172,
         0
-      ],
-      "npcs": [
-        2297
       ]
     },
     {
@@ -1035,7 +1032,7 @@
     {
       "id": "frp-065",
       "title": "Complete Twilight's Promise quest (requires Children …",
-      "text": "Complete Twilight's Promise quest (requires Children of the Sun; ~40 combat r\nLocation: Varlamore",
+      "text": "Complete Twilight's Promise quest (requires Children of the Sun; ~40 combat r...\nLocation: Varlamore",
       "complete": {
         "op": "and",
         "of": [
@@ -1060,7 +1057,7 @@
     {
       "id": "frp-066",
       "title": "Try Calcified Rocks for Mining XP …",
-      "text": "Try Calcified Rocks for Mining XP plus bankable Prayer shards (41 Mining, Var\nLocation: Varlamore",
+      "text": "Try Calcified Rocks for Mining XP plus bankable Prayer shards (41 Mining, Var...\nLocation: Varlamore",
       "manual": true,
       "world": [
         1725,
@@ -1071,7 +1068,7 @@
     {
       "id": "frp-067",
       "title": "Kill tree spirits with fire strike …",
-      "text": "Kill tree spirits with fire strike for a mithril axe AND either another mith\nLocation: Enchanted Valley",
+      "text": "Kill tree spirits with fire strike for a mithril axe AND either another mith ...\nLocation: Enchanted Valley",
       "manual": true,
       "world": [
         3040,
@@ -1193,7 +1190,7 @@
     {
       "id": "frp-074",
       "title": "Get 50 attack doing more Turael …",
-      "text": "Get 50 attack doing more Turael slayer, remember to get every 10th task from\nLocation: Burthorpe",
+      "text": "Get 50 attack doing more Turael slayer, remember to get every 10th task from ...\nLocation: Burthorpe",
       "complete": {
         "op": "skill",
         "skill": "ATTACK",
@@ -1536,7 +1533,7 @@
     {
       "id": "frp-097",
       "title": "Go back to blackjacking for a …",
-      "text": "Go back to blackjacking for a few hours and put more money to kingdom so that\nLocation: Pollnivneach",
+      "text": "Go back to blackjacking for a few hours and put more money to kingdom so that...\nLocation: Pollnivneach",
       "world": [
         3358,
         2974,
@@ -1553,7 +1550,7 @@
     {
       "id": "frp-098",
       "title": "Clean finds at the museum until …",
-      "text": "Clean finds at the museum until you've found all 5 of the items you can get f\nLocation: Varrock Museum",
+      "text": "Clean finds at the museum until you've found all 5 of the items you can get f...\nLocation: Varrock Museum",
       "manual": true,
       "world": [
         3260,
@@ -1601,7 +1598,7 @@
     {
       "id": "frp-102",
       "title": "AFTER your first hunter levels from …",
-      "text": "AFTER your first hunter levels from a birdhouse run, RC should be your lowest\nLocation: Lumbridge Swamp",
+      "text": "AFTER your first hunter levels from a birdhouse run, RC should be your lowest...\nLocation: Lumbridge Swamp",
       "manual": true,
       "world": [
         3197,
@@ -1706,7 +1703,7 @@
     {
       "id": "frp-107b",
       "title": "cut gems until 45 crafting. You'll …",
-      "text": "cut gems until 45 crafting. You'll need 45 for maple bi\nLocation: Various",
+      "text": "cut gems until 45 crafting. You'll need 45 for maple bi...\nLocation: Various",
       "complete": {
         "op": "skill",
         "skill": "CRAFTING",
@@ -1735,7 +1732,7 @@
     {
       "id": "frp-109",
       "title": "Move your house to Pollnivneach so …",
-      "text": "Move your house to Pollnivneach so you can do a birdhouse run every 50 mins a\nLocation: Pollnivneach",
+      "text": "Move your house to Pollnivneach so you can do a birdhouse run every 50 mins a...\nLocation: Pollnivneach",
       "manual": true,
       "world": [
         3358,
@@ -1764,7 +1761,7 @@
     {
       "id": "frp-111",
       "title": "REMINDER to take out GP from …",
-      "text": "REMINDER to take out GP from kingdom after the 7th day. This thieving grind c\nLocation: Miscellania",
+      "text": "REMINDER to take out GP from kingdom after the 7th day. This thieving grind c...\nLocation: Miscellania",
       "manual": true,
       "world": [
         2560,

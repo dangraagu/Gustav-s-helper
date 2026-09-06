@@ -6,7 +6,7 @@
     {
       "id": "smithing-001",
       "title": "Do the Giants' Foundry minigame until …",
-      "text": "Do the Giants' Foundry minigame until level 60. You will need to death storage somewhere",
+      "text": "Do the Giants' Foundry minigame until level 60. You will need to death storage somewhere.",
       "manual": true,
       "world": [
         3360,
@@ -17,7 +17,7 @@
     {
       "id": "smithing-002",
       "title": "At 60 Smithing, you can do …",
-      "text": "At 60 Smithing, you can do Blast Furnace without the extra fee, make platebodies until 70 Smithing, or continue doing Giants' Foundry to 70",
+      "text": "At 60 Smithing, you can do Blast Furnace without the extra fee, make platebodies until 70 Smithing, or continue doing Giants' Foundry to 70.",
       "complete": {
         "op": "skill",
         "skill": "SMITHING",

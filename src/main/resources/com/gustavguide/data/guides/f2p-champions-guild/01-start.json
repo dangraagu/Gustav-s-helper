@@ -18,25 +18,25 @@
     {
       "id": "start-003",
       "title": "Fill out the rest of your …",
-      "text": "Fill out the rest of your account details and press Play Now",
+      "text": "Fill out the rest of your account details and press Play Now.",
       "manual": true
     },
     {
       "id": "start-004",
       "title": "Wait for the verification email to …",
-      "text": "Wait for the verification email to arrive, then click to verify your email. Do this before logging in to the website",
+      "text": "Wait for the verification email to arrive, then click to verify your email. Do this before logging in to the website.",
       "manual": true
     },
     {
       "id": "start-005",
       "title": "Click 'Account' on runescape.com or 'Account …",
-      "text": "Click 'Account' on runescape.com or 'Account Settings' on oldschool.runescape.com and log in to the new account",
+      "text": "Click 'Account' on runescape.com or 'Account Settings' on oldschool.runescape.com and log in to the new account.",
       "manual": true
     },
     {
       "id": "start-006",
-      "title": "Set a display name first",
-      "text": "Set a display name first",
+      "title": "Set a display name first.",
+      "text": "Set a display name first.",
       "manual": true
     },
     {
@@ -48,13 +48,13 @@
     {
       "id": "start-008",
       "title": "Log in to the Oldschool Runescape …",
-      "text": "Log in to the Oldschool Runescape client, enter your authentication code. Press \"remember me for 30 days\" and you will not have to type it again",
+      "text": "Log in to the Oldschool Runescape client, enter your authentication code. Press \"remember me for 30 days\" and you will not have to type it again.",
       "manual": true
     },
     {
       "id": "start-009",
       "title": "Timer starts when you press accept …",
-      "text": "Timer starts when you press accept on the character creation screen",
+      "text": "Timer starts when you press accept on the character creation screen.",
       "manual": true
     }
   ]

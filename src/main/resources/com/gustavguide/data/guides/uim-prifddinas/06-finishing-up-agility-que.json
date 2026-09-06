@@ -6,7 +6,7 @@
     {
       "id": "finishing-up-agility-que-001",
       "title": "Head west to the jail east …",
-      "text": "Head west to the jail east of Draynor Village",
+      "text": "Head west to the jail east of Draynor Village.",
       "world": [
         3103,
         3265,
@@ -23,7 +23,7 @@
     {
       "id": "finishing-up-agility-que-002",
       "title": "Pull up a timer, Set it …",
-      "text": "Pull up a timer, Set it for 60 minutes",
+      "text": "Pull up a timer, Set it for 60 minutes.",
       "manual": true
     },
     {
@@ -49,8 +49,8 @@
     },
     {
       "id": "finishing-up-agility-que-004b",
-      "title": "pick up your last house tablet",
-      "text": "pick up your last house tablet",
+      "title": "pick up your last house tablet.",
+      "text": "pick up your last house tablet.",
       "manual": true,
       "world": [
         3103,
@@ -60,8 +60,8 @@
     },
     {
       "id": "finishing-up-agility-que-005",
-      "title": "Use the teleport to house tab",
-      "text": "Use the teleport to house tab",
+      "title": "Use the teleport to house tab.",
+      "text": "Use the teleport to house tab.",
       "manual": true,
       "world": [
         3103,
@@ -72,7 +72,7 @@
     {
       "id": "finishing-up-agility-que-006at",
       "title": "Go to Falador Castle, speak to …",
-      "text": "Go to Falador Castle, speak to Sir Amike Varze to finish Black Knights' Fortress",
+      "text": "Go to Falador Castle, speak to Sir Amike Varze to finish Black Knights' Fortress.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -87,7 +87,7 @@
     {
       "id": "finishing-up-agility-que-007",
       "title": "Speak with him again to start …",
-      "text": "Speak with him again to start Recruitment Drive",
+      "text": "Speak with him again to start Recruitment Drive.",
       "complete": {
         "op": "quest",
         "quest": "RECRUITMENT_DRIVE",
@@ -101,8 +101,8 @@
     },
     {
       "id": "finishing-up-agility-que-008",
-      "title": "Drop the coins",
-      "text": "Drop the coins",
+      "title": "Drop the coins.",
+      "text": "Drop the coins.",
       "manual": true,
       "world": [
         2955,
@@ -145,7 +145,7 @@
     {
       "id": "finishing-up-agility-que-009c",
       "title": "sell the Initiate Sallet next time …",
-      "text": "sell the Initiate Sallet next time you're near a General Store",
+      "text": "sell the Initiate Sallet next time you're near a General Store.",
       "manual": true,
       "object": 410,
       "world": [
@@ -156,14 +156,14 @@
     },
     {
       "id": "finishing-up-agility-que-010",
-      "title": "Head east from the park",
-      "text": "Head east from the park",
+      "title": "Head east from the park.",
+      "text": "Head east from the park.",
       "manual": true
     },
     {
       "id": "finishing-up-agility-que-011",
-      "title": "Head north-east to the Dwarven Mine",
-      "text": "Head north-east to the Dwarven Mine",
+      "title": "Head north-east to the Dwarven Mine.",
+      "text": "Head north-east to the Dwarven Mine.",
       "manual": true,
       "object": 11867,
       "world": [
@@ -175,13 +175,13 @@
     {
       "id": "finishing-up-agility-que-012",
       "title": "In the mine, go north, west, …",
-      "text": "In the mine, go north, west, south, then back up north to Nurmof's Pickaxe Shop",
+      "text": "In the mine, go north, west, south, then back up north to Nurmof's Pickaxe Shop.",
       "manual": true
     },
     {
       "id": "finishing-up-agility-que-013",
-      "title": "Buy a steel pickaxe from Nurmof",
-      "text": "Buy a steel pickaxe from Nurmof",
+      "title": "Buy a steel pickaxe from Nurmof.",
+      "text": "Buy a steel pickaxe from Nurmof.",
       "complete": {
         "op": "or",
         "of": [
@@ -203,7 +203,7 @@
     {
       "id": "finishing-up-agility-que-014",
       "title": "Mine 6 clay, 4 copper, and …",
-      "text": "Mine 6 clay, 4 copper, and 2 iron ore. Rocks of each type can be found south-east of the shop",
+      "text": "Mine 6 clay, 4 copper, and 2 iron ore. Rocks of each type can be found south-east of the shop.",
       "manual": true,
       "world": [
         3027,
@@ -214,7 +214,7 @@
     {
       "id": "finishing-up-agility-que-015",
       "title": "Exit the Dwarven Mine and north-west …",
-      "text": "Exit the Dwarven Mine and north-west of Falador",
+      "text": "Exit the Dwarven Mine and north-west of Falador.",
       "manual": true,
       "object": 11867,
       "world": [
@@ -237,8 +237,8 @@
     },
     {
       "id": "finishing-up-agility-que-016b",
-      "title": "complete Doric's Quest",
-      "text": "complete Doric's Quest",
+      "title": "complete Doric's Quest.",
+      "text": "complete Doric's Quest.",
       "complete": {
         "op": "quest",
         "quest": "DORICS_QUEST",
@@ -265,7 +265,7 @@
     {
       "id": "finishing-up-agility-que-018",
       "title": "Pick up the knife in the …",
-      "text": "Pick up the knife in the kitchen",
+      "text": "Pick up the knife in the kitchen.",
       "complete": {
         "op": "or",
         "of": [
@@ -292,19 +292,19 @@
     {
       "id": "finishing-up-agility-que-019",
       "title": "Collect your items from the death …",
-      "text": "Collect your items from the death pile",
+      "text": "Collect your items from the death pile.",
       "manual": true
     },
     {
       "id": "finishing-up-agility-que-020",
       "title": "Restock on wines if you are …",
-      "text": "Restock on wines if you are low on food. Leave 8 slots open",
+      "text": "Restock on wines if you are low on food. Leave 8 slots open.",
       "manual": true
     },
     {
       "id": "finishing-up-agility-que-021",
       "title": "Buy a new Chronicle and a …",
-      "text": "Buy a new Chronicle and a few charges. 3 should be fine",
+      "text": "Buy a new Chronicle and a few charges. 3 should be fine.",
       "manual": true,
       "world": [
         3212,
@@ -314,8 +314,8 @@
     },
     {
       "id": "finishing-up-agility-que-022",
-      "title": "Head east to Lumbridge Castle",
-      "text": "Head east to Lumbridge Castle",
+      "title": "Head east to Lumbridge Castle.",
+      "text": "Head east to Lumbridge Castle.",
       "manual": true,
       "object": 14880,
       "world": [
@@ -327,13 +327,13 @@
     {
       "id": "finishing-up-agility-que-023",
       "title": "Cut trees and fletch the logs …",
-      "text": "Cut trees and fletch the logs into 900 arrow shafts",
+      "text": "Cut trees and fletch the logs into 900 arrow shafts.",
       "manual": true
     },
     {
       "id": "finishing-up-agility-que-024",
-      "title": "Drop the knife and steel axe",
-      "text": "Drop the knife and steel axe",
+      "title": "Drop the knife and steel axe.",
+      "text": "Drop the knife and steel axe.",
       "manual": true,
       "world": [
         3209,
@@ -344,7 +344,7 @@
     {
       "id": "finishing-up-agility-que-025",
       "title": "Head east into Al Kharid, then …",
-      "text": "Head east into Al Kharid, then south to Shantay Pass",
+      "text": "Head east into Al Kharid, then south to Shantay Pass.",
       "manual": true,
       "npc": 4642,
       "world": [
@@ -355,8 +355,8 @@
     },
     {
       "id": "finishing-up-agility-que-026",
-      "title": "Buy 900 feathers from Shantay",
-      "text": "Buy 900 feathers from Shantay",
+      "title": "Buy 900 feathers from Shantay.",
+      "text": "Buy 900 feathers from Shantay.",
       "complete": {
         "op": "or",
         "of": [
@@ -368,7 +368,7 @@
           {
             "op": "item",
             "id": 314,
-            "qty": 1000,
+            "qty": 1001,
             "scope": "ANY"
           }
         ]
@@ -384,7 +384,7 @@
     {
       "id": "finishing-up-agility-que-027",
       "title": "Fletch 900 headless arrows to reach …",
-      "text": "Fletch 900 headless arrows to reach level 10 Fletching, Drop them afterwards",
+      "text": "Fletch 900 headless arrows to reach level 10 Fletching, Drop them afterwards.",
       "manual": true,
       "world": [
         3303,
@@ -409,14 +409,14 @@
     },
     {
       "id": "finishing-up-agility-que-029",
-      "title": "Chronicle teleport",
-      "text": "Chronicle teleport",
+      "title": "Chronicle teleport.",
+      "text": "Chronicle teleport.",
       "manual": true
     },
     {
       "id": "finishing-up-agility-que-030",
-      "title": "Head north to the Grand Exchange",
-      "text": "Head north to the Grand Exchange",
+      "title": "Head north to the Grand Exchange.",
+      "text": "Head north to the Grand Exchange.",
       "world": [
         3165,
         3490,
@@ -433,7 +433,7 @@
     {
       "id": "finishing-up-agility-que-031",
       "title": "Take the spirit tree in the …",
-      "text": "Take the spirit tree in the north-east corner to the Gnome Stronghold",
+      "text": "Take the spirit tree in the north-east corner to the Gnome Stronghold.",
       "manual": true,
       "world": [
         2440,
@@ -442,9 +442,9 @@
       ]
     },
     {
-      "id": "finishing-up-agility-que-032",
-      "title": "Head north and speak to King …",
-      "text": "Head north and speak to King Narnode. Continue and complete The Grand Tree. Use a chronicle teleport to Varrock, then use the Grand Exchange Spirit tree again to get back from Karamja.",
+      "id": "finishing-up-agility-que-032at",
+      "title": "Head north, speak to King Narnode. …",
+      "text": "Head north, speak to King Narnode. Continue and complete The Grand Tree.",
       "complete": {
         "op": "quest",
         "quest": "THE_GRAND_TREE",
@@ -458,6 +458,29 @@
       ]
     },
     {
+      "id": "finishing-up-agility-que-032c",
+      "title": "Use a chronicle teleport to Varrock",
+      "text": "Use a chronicle teleport to Varrock",
+      "manual": true,
+      "world": [
+        3210,
+        3448,
+        0
+      ]
+    },
+    {
+      "id": "finishing-up-agility-que-032d",
+      "title": "use the Grand Exchange Spirit tree …",
+      "text": "use the Grand Exchange Spirit tree again to get back from Karamja.",
+      "manual": true,
+      "object": 1295,
+      "world": [
+        3185,
+        3510,
+        0
+      ]
+    },
+    {
       "id": "finishing-up-agility-que-033",
       "title": "Clean up your inventory:",
       "text": "Clean up your inventory:",
@@ -466,7 +489,7 @@
     {
       "id": "finishing-up-agility-que-034",
       "title": "Getting Started Section final status check. …",
-      "text": "Getting Started Section final status check. — If you did not start the guide from the beginning, this will let you know what is expected to have been completed",
+      "text": "Getting Started Section final status check. — If you did not start the guide from the beginning, this will let you know what is expected to have been completed.",
       "manual": true
     },
     {
@@ -522,7 +545,7 @@
     {
       "id": "finishing-up-agility-que-036",
       "title": "Quick check: 27 Quests completed, 51 …",
-      "text": "Quick check: 27 Quests completed, 51 quest points",
+      "text": "Quick check: 27 Quests completed, 51 quest points.",
       "manual": true
     },
     {

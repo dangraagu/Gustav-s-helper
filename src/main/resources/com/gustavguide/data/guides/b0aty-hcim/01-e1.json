@@ -45,8 +45,8 @@
     },
     {
       "id": "e1-004b",
-      "title": "claim more",
-      "text": "claim more",
+      "title": "claim more.",
+      "text": "claim more.",
       "manual": true,
       "world": [
         3227,
@@ -214,7 +214,7 @@
     {
       "id": "e1-012",
       "title": "Move Coins into first bank slot …",
-      "text": "Move Coins into first bank slot & Runes to the top slots. Click the lock to Always set Placeholders, Set Bank pin for Count Check randoms or delete the pin from Tutorial Island",
+      "text": "Move Coins into first bank slot & Runes to the top slots. Click the lock to Always set Placeholders, Set Bank pin for Count Check randoms or delete the pin from Tutorial Island.",
       "manual": true,
       "npc": 7414,
       "world": [
@@ -376,7 +376,7 @@
     {
       "id": "e1-020",
       "title": "Talk to Father Urhney in the …",
-      "text": "Talk to Father Urhney in the lumbridge swamp for Ghost Speak Amulet. (2,1) Wield this",
+      "text": "Talk to Father Urhney in the lumbridge swamp for Ghost Speak Amulet. (2,1) Wield this.",
       "manual": true,
       "npc": 923,
       "world": [
@@ -530,24 +530,13 @@
       ]
     },
     {
-      "id": "e1-028a",
+      "id": "e1-028",
       "title": "Head north to Draynor & talk …",
-      "text": "Head north to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop",
+      "text": "Head north to Draynor & talk to Friendly Forester and obtain Forestry kit (right click shop and buy 1)",
       "manual": true,
       "world": [
-        3103,
-        3265,
-        0
-      ]
-    },
-    {
-      "id": "e1-028b",
-      "title": "buy 1)",
-      "text": "buy 1)",
-      "manual": true,
-      "world": [
-        3103,
-        3265,
+        3078,
+        3251,
         0
       ]
     },
@@ -794,8 +783,8 @@
     },
     {
       "id": "e1-038b",
-      "title": "buy 10 in total",
-      "text": "buy 10 in total",
+      "title": "buy 10 in total.",
+      "text": "buy 10 in total.",
       "manual": true,
       "world": [
         3085,
@@ -836,7 +825,7 @@
     {
       "id": "e1-041at",
       "title": "Head West to Port Sarim, talk …",
-      "text": "Head West to Port Sarim, talk to Veos to complete X Marks The Spot",
+      "text": "Head West to Port Sarim, talk to Veos to complete X Marks The Spot.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -852,7 +841,7 @@
     {
       "id": "e1-042",
       "title": "Destroy the lamp. You can collect …",
-      "text": "Destroy the lamp. You can collect this later as you can't bank it",
+      "text": "Destroy the lamp. You can collect this later as you can't bank it.",
       "manual": true,
       "world": [
         3045,
@@ -1118,8 +1107,8 @@
     },
     {
       "id": "e1-058b",
-      "title": "Take the east doors",
-      "text": "Take the east doors",
+      "title": "Take the east doors.",
+      "text": "Take the east doors.",
       "manual": true,
       "world": [
         3081,
@@ -1130,7 +1119,7 @@
     {
       "id": "e1-059",
       "title": "Catablepon Max is 9 so drink …",
-      "text": "Catablepon Max is 9 so drink on any damage",
+      "text": "Catablepon Max is 9 so drink on any damage.",
       "manual": true
     },
     {
@@ -1301,8 +1290,8 @@
     },
     {
       "id": "e1-068c",
-      "title": "Equip it",
-      "text": "Equip it",
+      "title": "Equip it.",
+      "text": "Equip it.",
       "manual": true,
       "world": [
         3202,
@@ -1324,8 +1313,8 @@
     },
     {
       "id": "e1-069b",
-      "title": "start Demon Slayer (1,2,3,4)",
-      "text": "start Demon Slayer (1,2,3,4)",
+      "title": "start Demon Slayer (1,2,3,4).",
+      "text": "start Demon Slayer (1,2,3,4).",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -1407,8 +1396,8 @@
     },
     {
       "id": "e1-072c",
-      "title": "Loot the lit candle",
-      "text": "Loot the lit candle",
+      "title": "Loot the lit candle.",
+      "text": "Loot the lit candle.",
       "complete": {
         "op": "or",
         "of": [
@@ -1430,24 +1419,13 @@
     {
       "id": "e1-073at",
       "title": "Head East, talk to Dr Harlow …",
-      "text": "Head East, talk to Dr Harlow (2",
-      "manual": true,
-      "npc": 3480,
-      "world": [
-        3222,
-        3399,
-        0
-      ]
-    },
-    {
-      "id": "e1-073c",
-      "title": "talk again)[Vampyre Slayer]",
-      "text": "talk again)[Vampyre Slayer]",
+      "text": "Head East, talk to Dr Harlow (2, talk again)[Vampyre Slayer]",
       "complete": {
         "op": "quest",
         "quest": "VAMPYRE_SLAYER",
         "state": "FINISHED"
       },
+      "npc": 3480,
       "world": [
         3222,
         3399,
@@ -1612,8 +1590,8 @@
     },
     {
       "id": "e1-082c",
-      "title": "start Shield of Arrav (1,1)",
-      "text": "start Shield of Arrav (1,1)",
+      "title": "start Shield of Arrav (1,1).",
+      "text": "start Shield of Arrav (1,1).",
       "complete": {
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
@@ -1651,7 +1629,7 @@
     {
       "id": "e1-084",
       "title": "Head East and up the stairs …",
-      "text": "Head East and up the stairs in the Kitchen",
+      "text": "Head East and up the stairs in the Kitchen.",
       "manual": true
     },
     {
@@ -1695,7 +1673,7 @@
     {
       "id": "e1-085c",
       "title": "Use Bucket of Water on drain …",
-      "text": "Use Bucket of Water on drain outside then refill it",
+      "text": "Use Bucket of Water on drain outside then refill it.",
       "manual": true,
       "object": 17424,
       "world": [
@@ -1799,7 +1777,7 @@
     {
       "id": "e1-090b",
       "title": "take the North-West path to collect …",
-      "text": "take the North-West path to collect the Demon Slayer Key - Giant rat is aggressive, max hit is 1",
+      "text": "take the North-West path to collect the Demon Slayer Key - Giant rat is aggressive, max hit is 1.",
       "complete": {
         "op": "quest",
         "quest": "DEMON_SLAYER",
@@ -1837,7 +1815,7 @@
     {
       "id": "e1-091d",
       "title": "complete the Natural History Quiz for …",
-      "text": "complete the Natural History Quiz for 9 slayer and hunter and 28 kudos",
+      "text": "complete the Natural History Quiz for 9 slayer and hunter and 28 kudos.",
       "complete": {
         "op": "skill",
         "skill": "SLAYER",
@@ -1921,7 +1899,7 @@
     {
       "id": "e1-095",
       "title": "Light both logs in the house …",
-      "text": "Light both logs in the house right next to the rune shop",
+      "text": "Light both logs in the house right next to the rune shop.",
       "manual": true,
       "npc": 1788,
       "world": [
@@ -2060,8 +2038,8 @@
     },
     {
       "id": "e1-104b",
-      "title": "Make the 3 Waxwood Planks",
-      "text": "Make the 3 Waxwood Planks",
+      "title": "Make the 3 Waxwood Planks.",
+      "text": "Make the 3 Waxwood Planks.",
       "manual": true,
       "npc": 3101,
       "world": [
@@ -2450,8 +2428,8 @@
     },
     {
       "id": "e1-125",
-      "title": "Deposit all",
-      "text": "Deposit all",
+      "title": "Deposit all.",
+      "text": "Deposit all.",
       "manual": true,
       "world": [
         1554,
@@ -2461,8 +2439,8 @@
     },
     {
       "id": "e1-126",
-      "title": "Withdraw: Coins",
-      "text": "Withdraw: Coins",
+      "title": "Withdraw: Coins.",
+      "text": "Withdraw: Coins.",
       "manual": true
     },
     {
@@ -2490,7 +2468,7 @@
     {
       "id": "e1-128",
       "title": "Head South-West to Sunset Coast. Be …",
-      "text": "Head South-West to Sunset Coast. Be careful of the aggressive NPC's along the way as they can kill you if you do not pay attention",
+      "text": "Head South-West to Sunset Coast. Be careful of the aggressive NPC's along the way as they can kill you if you do not pay attention.",
       "world": [
         1530,
         2983,
@@ -2643,8 +2621,8 @@
     },
     {
       "id": "e1-136c",
-      "title": "sell all 28 at once",
-      "text": "sell all 28 at once",
+      "title": "sell all 28 at once.",
+      "text": "sell all 28 at once.",
       "manual": true,
       "world": [
         1413,
@@ -2672,7 +2650,7 @@
     {
       "id": "e1-137b",
       "title": "buy 3 Sunbeam ales from the …",
-      "text": "buy 3 Sunbeam ales from the Bartender in the pub. These give you a +1 agility boost to use the Taverley Dungeon shortcut later",
+      "text": "buy 3 Sunbeam ales from the Bartender in the pub. These give you a +1 agility boost to use the Taverley Dungeon shortcut later.",
       "complete": {
         "op": "or",
         "of": [
@@ -2764,8 +2742,8 @@
     },
     {
       "id": "e1-141b",
-      "title": "deposit all",
-      "text": "deposit all",
+      "title": "deposit all.",
+      "text": "deposit all.",
       "manual": true,
       "world": [
         1413,
@@ -2848,8 +2826,8 @@
     },
     {
       "id": "e1-146b",
-      "title": "Run from the level 13 skeleton",
-      "text": "Run from the level 13 skeleton",
+      "title": "Run from the level 13 skeleton.",
+      "text": "Run from the level 13 skeleton.",
       "manual": true,
       "object": 2146,
       "world": [
@@ -3052,7 +3030,7 @@
     {
       "id": "e1-155c",
       "title": "Take Apron from the wall & …",
-      "text": "Take Apron from the wall & wear",
+      "text": "Take Apron from the wall & wear.",
       "manual": true,
       "world": [
         3053,
@@ -3215,7 +3193,7 @@
     {
       "id": "e1-166",
       "title": "Continue Pirate's Treasure by talking to …",
-      "text": "Continue Pirate's Treasure by talking to Wydin to get employed, collect the rum from the crate",
+      "text": "Continue Pirate's Treasure by talking to Wydin to get employed, collect the rum from the crate.",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -3659,7 +3637,7 @@
     {
       "id": "e1-188c",
       "title": "Collect the Raw Bear Meat, Bones …",
-      "text": "Collect the Raw Bear Meat, Bones & fur",
+      "text": "Collect the Raw Bear Meat, Bones & fur.",
       "complete": {
         "op": "or",
         "of": [
@@ -3770,8 +3748,8 @@
     },
     {
       "id": "e1-194",
-      "title": "Talk with Sanfew upstairs",
-      "text": "Talk with Sanfew upstairs",
+      "title": "Talk with Sanfew upstairs.",
+      "text": "Talk with Sanfew upstairs.",
       "manual": true,
       "npc": 5044,
       "world": [
@@ -3910,8 +3888,8 @@
     },
     {
       "id": "e1-203",
-      "title": "Chronicle, complete Gertrude's Cat",
-      "text": "Chronicle, complete Gertrude's Cat",
+      "title": "Chronicle and complete Gertrude's Cat",
+      "text": "Chronicle and complete Gertrude's Cat",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -3987,7 +3965,7 @@
     {
       "id": "e1-207",
       "title": "Here I would recommend Private off …",
-      "text": "Here I would recommend Private off and hop to avoid being bagged up",
+      "text": "Here I would recommend Private off and hop to avoid being bagged up.",
       "manual": true
     },
     {
@@ -4007,14 +3985,26 @@
       ]
     },
     {
-      "id": "e1-209",
-      "title": "Go back to Edgeville and take …",
-      "text": "Go back to Edgeville and take the Lever to the Wilderness, then to Ardougne, then back to the Wilderness, and then back to Ardougne for the Wilderness & Ardougne Diary (use the lever 4 times)",
+      "id": "e1-209a",
+      "title": "Go back to Edgeville",
+      "text": "Go back to Edgeville",
       "manual": true,
       "object": 1581,
       "world": [
         3097,
         3468,
+        0
+      ]
+    },
+    {
+      "id": "e1-209b",
+      "title": "take the Lever to the Wilderness, …",
+      "text": "take the Lever to the Wilderness, then to Ardougne, then back to the Wilderness, and then back to Ardougne for the Wilderness & Ardougne Diary (use the lever 4 times)",
+      "manual": true,
+      "object": 26761,
+      "world": [
+        3090,
+        3475,
         0
       ]
     },
@@ -4391,7 +4381,7 @@
     {
       "id": "e1-234",
       "title": "Walk back to Falador after you …",
-      "text": "Walk back to Falador after you get the sword",
+      "text": "Walk back to Falador after you get the sword.",
       "world": [
         3000,
         3360,
@@ -4693,7 +4683,7 @@
     {
       "id": "e1-251",
       "title": "You need to safespot the Mercenary …",
-      "text": "You need to safespot the Mercenary Captain on his soldiers, Talk to the soldier to hold him in place after you body block him. Max hit is 5",
+      "text": "You need to safespot the Mercenary Captain on his soldiers, Talk to the soldier to hold him in place after you body block him. Max hit is 5.",
       "manual": true,
       "npc": 4635,
       "world": [
@@ -4807,7 +4797,7 @@
     {
       "id": "e1-258",
       "title": "Minigame teleport to Last Man Standing/Clan …",
-      "text": "Minigame teleport to Last Man Standing/Clan Wars. Recharge Run Energy in the Free to Play portal by entering and leaving",
+      "text": "Minigame teleport to Last Man Standing/Clan Wars. Recharge Run Energy in the Free to Play portal by entering and leaving.",
       "manual": true,
       "world": [
         3130,
@@ -4890,7 +4880,7 @@
           {
             "op": "item",
             "id": 10010,
-            "qty": 4,
+            "qty": 3,
             "scope": "ANY"
           }
         ]
@@ -5184,7 +5174,7 @@
     {
       "id": "e1-278",
       "title": "Safe spot everything over the closest …",
-      "text": "Safe spot everything over the closest Corpse",
+      "text": "Safe spot everything over the closest Corpse.",
       "manual": true
     },
     {
@@ -5323,8 +5313,8 @@
     },
     {
       "id": "e1-286b",
-      "title": "Deposit all",
-      "text": "Deposit all",
+      "title": "Deposit all.",
+      "text": "Deposit all.",
       "manual": true,
       "world": [
         2617,
@@ -5377,7 +5367,7 @@
     {
       "id": "e1-289",
       "title": "Drop Poisoned Sheep feed, Plague robes …",
-      "text": "Drop Poisoned Sheep feed, Plague robes & cattleprod once done",
+      "text": "Drop Poisoned Sheep feed, Plague robes & cattleprod once done.",
       "manual": true,
       "world": [
         2615,
@@ -6498,7 +6488,7 @@
     {
       "id": "e1-360",
       "title": "Somebody will get Rune Scimitar on …",
-      "text": "Somebody will get Rune Scimitar on this kill. I hope that's you",
+      "text": "Somebody will get Rune Scimitar on this kill. I hope that's you.",
       "manual": true
     },
     {

@@ -27,14 +27,14 @@
     },
     {
       "id": "getting-a-house-and-doin-001b",
-      "title": "buy more",
-      "text": "buy more",
+      "title": "buy more.",
+      "text": "buy more.",
       "manual": true
     },
     {
       "id": "getting-a-house-and-doin-002",
-      "title": "Buy a bronze bar from Shantay",
-      "text": "Buy a bronze bar from Shantay",
+      "title": "Buy a bronze bar from Shantay.",
+      "text": "Buy a bronze bar from Shantay.",
       "complete": {
         "op": "or",
         "of": [
@@ -61,8 +61,8 @@
     },
     {
       "id": "getting-a-house-and-doin-003",
-      "title": "Teleport to Camelot",
-      "text": "Teleport to Camelot",
+      "title": "Teleport to Camelot.",
+      "text": "Teleport to Camelot.",
       "world": [
         2758,
         3507,
@@ -79,7 +79,7 @@
     {
       "id": "getting-a-house-and-doin-004",
       "title": "Buy a pot from the general …",
-      "text": "Buy a pot from the general store in Catherby. Also buy a bucket of sand and soda ash from the charter ships",
+      "text": "Buy a pot from the general store in Catherby. Also buy a bucket of sand and soda ash from the charter ships.",
       "complete": {
         "op": "or",
         "of": [
@@ -99,7 +99,7 @@
       "item": 1931,
       "npc": 1520,
       "world": [
-        2803,
+        2841,
         3432,
         0
       ]
@@ -121,8 +121,8 @@
     },
     {
       "id": "getting-a-house-and-doin-005b",
-      "title": "Drop the pot afterwards",
-      "text": "Drop the pot afterwards",
+      "title": "Drop the pot afterwards.",
+      "text": "Drop the pot afterwards.",
       "manual": true,
       "world": [
         2741,
@@ -149,8 +149,8 @@
     },
     {
       "id": "getting-a-house-and-doin-006b",
-      "title": "smith a molten glass",
-      "text": "smith a molten glass",
+      "title": "smith a molten glass.",
+      "text": "smith a molten glass.",
       "manual": true,
       "world": [
         2975,
@@ -161,7 +161,7 @@
     {
       "id": "getting-a-house-and-doin-007",
       "title": "Minigame teleport to Fishing Trawler, pick …",
-      "text": "Minigame teleport to Fishing Trawler, pick up 3 planks at the spawns. (hop worlds)",
+      "text": "Minigame teleport to Fishing Trawler, pick up 3 planks at the spawns. (hop worlds).",
       "complete": {
         "op": "or",
         "of": [
@@ -208,8 +208,8 @@
     },
     {
       "id": "getting-a-house-and-doin-009",
-      "title": "Complete Biohazard",
-      "text": "Complete Biohazard",
+      "title": "Complete Biohazard.",
+      "text": "Complete Biohazard.",
       "complete": {
         "op": "quest",
         "quest": "BIOHAZARD",
@@ -262,8 +262,8 @@
     },
     {
       "id": "getting-a-house-and-doin-010c",
-      "title": "Light the candle",
-      "text": "Light the candle",
+      "title": "Light the candle.",
+      "text": "Light the candle.",
       "manual": true,
       "world": [
         2841,
@@ -286,7 +286,7 @@
     {
       "id": "getting-a-house-and-doin-011b",
       "title": "get a pickaxe from the spawn …",
-      "text": "get a pickaxe from the spawn in the tower",
+      "text": "get a pickaxe from the spawn in the tower.",
       "manual": true,
       "world": [
         3227,
@@ -296,8 +296,8 @@
     },
     {
       "id": "getting-a-house-and-doin-012",
-      "title": "Complete the Lost Tribe",
-      "text": "Complete the Lost Tribe",
+      "title": "Complete the Lost Tribe.",
+      "text": "Complete the Lost Tribe.",
       "complete": {
         "op": "quest",
         "quest": "THE_LOST_TRIBE",
@@ -327,7 +327,7 @@
     {
       "id": "getting-a-house-and-doin-013b",
       "title": "Buy some wine in Draynor if …",
-      "text": "Buy some wine in Draynor if needed. — If you get an uncut opal while getting the ham cloths, keep it",
+      "text": "Buy some wine in Draynor if needed. — If you get an uncut opal while getting the ham cloths, keep it.",
       "complete": {
         "op": "or",
         "of": [
@@ -354,7 +354,7 @@
     {
       "id": "getting-a-house-and-doin-014",
       "title": "Pickpocket ham members for an uncut …",
-      "text": "Pickpocket ham members for an uncut opal if you didn't get one during the quest",
+      "text": "Pickpocket ham members for an uncut opal if you didn't get one during the quest.",
       "manual": true
     },
     {
@@ -377,7 +377,7 @@
     {
       "id": "getting-a-house-and-doin-015b",
       "title": "take the boat to the west …",
-      "text": "take the boat to the west to Brimhaven",
+      "text": "take the boat to the west to Brimhaven.",
       "manual": true,
       "object": 10805,
       "world": [
@@ -406,7 +406,7 @@
     {
       "id": "getting-a-house-and-doin-016b",
       "title": "buy 2 charcoal, 1 leather gloves, …",
-      "text": "buy 2 charcoal, 1 leather gloves, 1 leather boots, 2 ropes, 1 vial, 1 pestle and mortar, 1 tinderbox, and 1 bread",
+      "text": "buy 2 charcoal, 1 leather gloves, 1 leather boots, 2 ropes, 1 vial, 1 pestle and mortar, 1 tinderbox, and 1 bread.",
       "complete": {
         "op": "or",
         "of": [
@@ -433,7 +433,7 @@
     {
       "id": "getting-a-house-and-doin-017",
       "title": "Grind 1 of the charcoal with …",
-      "text": "Grind 1 of the charcoal with the pestle and mortar, Make sure you don't grind both, if you do buy another",
+      "text": "Grind 1 of the charcoal with the pestle and mortar, Make sure you don't grind both, if you do buy another.",
       "complete": {
         "op": "or",
         "of": [
@@ -454,8 +454,8 @@
     },
     {
       "id": "getting-a-house-and-doin-018",
-      "title": "Teleport to Varrock",
-      "text": "Teleport to Varrock",
+      "title": "Teleport to Varrock.",
+      "text": "Teleport to Varrock.",
       "world": [
         3210,
         3448,
@@ -483,7 +483,7 @@
     {
       "id": "getting-a-house-and-doin-019b",
       "title": "buy a cup of tea from …",
-      "text": "buy a cup of tea from the tea stall",
+      "text": "buy a cup of tea from the tea stall.",
       "complete": {
         "op": "or",
         "of": [
@@ -525,7 +525,7 @@
     {
       "id": "getting-a-house-and-doin-021",
       "title": "Clean out your inventory to only …",
-      "text": "Clean out your inventory to only the runes, coins, extra charcoal, certificates, tinderbox, and bread",
+      "text": "Clean out your inventory to only the runes, coins, extra charcoal, certificates, tinderbox, and bread.",
       "manual": true
     },
     {
@@ -547,8 +547,8 @@
     },
     {
       "id": "getting-a-house-and-doin-022b",
-      "title": "go to the Varrock Museum",
-      "text": "go to the Varrock Museum",
+      "title": "go to the Varrock Museum.",
+      "text": "go to the Varrock Museum.",
       "manual": true,
       "npc": 5214,
       "world": [
@@ -560,7 +560,7 @@
     {
       "id": "getting-a-house-and-doin-023",
       "title": "Use the level 3 Certificate on …",
-      "text": "Use the level 3 Certificate on the Curator and choose a drink to get a Fruit Blast",
+      "text": "Use the level 3 Certificate on the Curator and choose a drink to get a Fruit Blast.",
       "manual": true,
       "npc": 5214,
       "world": [
@@ -588,8 +588,8 @@
     },
     {
       "id": "getting-a-house-and-doin-024b",
-      "title": "run north then west into Taverley",
-      "text": "run north then west into Taverley",
+      "title": "run north then west into Taverley.",
+      "text": "run north then west into Taverley.",
       "manual": true,
       "object": 16680,
       "world": [
@@ -601,7 +601,7 @@
     {
       "id": "getting-a-house-and-doin-025",
       "title": "Buy an eye of newt from …",
-      "text": "Buy an eye of newt from Jatix",
+      "text": "Buy an eye of newt from Jatix.",
       "complete": {
         "op": "or",
         "of": [
@@ -618,17 +618,12 @@
           }
         ]
       },
-      "item": 221,
-      "world": [
-        2898,
-        3428,
-        0
-      ]
+      "item": 221
     },
     {
       "id": "getting-a-house-and-doin-026",
-      "title": "Minigame teleport to Nightmare Zone",
-      "text": "Minigame teleport to Nightmare Zone",
+      "title": "Minigame teleport to Nightmare Zone.",
+      "text": "Minigame teleport to Nightmare Zone.",
       "manual": true,
       "world": [
         2605,
@@ -650,8 +645,8 @@
     },
     {
       "id": "getting-a-house-and-doin-027b",
-      "title": "buy a greenman's ale",
-      "text": "buy a greenman's ale",
+      "title": "buy a greenman's ale.",
+      "text": "buy a greenman's ale.",
       "manual": true,
       "world": [
         2556,
@@ -661,8 +656,8 @@
     },
     {
       "id": "getting-a-house-and-doin-028",
-      "title": "Teleport to Lumbridge",
-      "text": "Teleport to Lumbridge",
+      "title": "Teleport to Lumbridge.",
+      "text": "Teleport to Lumbridge.",
       "manual": true,
       "object": 24009,
       "world": [
@@ -673,8 +668,8 @@
     },
     {
       "id": "getting-a-house-and-doin-029",
-      "title": "Buy a bronze axe at bobs",
-      "text": "Buy a bronze axe at bobs",
+      "title": "Buy a bronze axe at bobs.",
+      "text": "Buy a bronze axe at bobs.",
       "complete": {
         "op": "or",
         "of": [
@@ -701,7 +696,7 @@
     {
       "id": "getting-a-house-and-doin-030",
       "title": "Head east across the bridge by …",
-      "text": "Head east across the bridge by the goblins",
+      "text": "Head east across the bridge by the goblins.",
       "manual": true
     },
     {
@@ -712,8 +707,8 @@
     },
     {
       "id": "getting-a-house-and-doin-031b",
-      "title": "burn them with your tinderbox",
-      "text": "burn them with your tinderbox",
+      "title": "burn them with your tinderbox.",
+      "text": "burn them with your tinderbox.",
       "manual": true,
       "world": [
         3229,
@@ -734,8 +729,8 @@
     },
     {
       "id": "getting-a-house-and-doin-032b",
-      "title": "buy a rotten tomato",
-      "text": "buy a rotten tomato",
+      "title": "buy a rotten tomato.",
+      "text": "buy a rotten tomato.",
       "complete": {
         "op": "or",
         "of": [
@@ -767,8 +762,8 @@
     },
     {
       "id": "getting-a-house-and-doin-033b",
-      "title": "collect your ashes",
-      "text": "collect your ashes",
+      "title": "collect your ashes.",
+      "text": "collect your ashes.",
       "complete": {
         "op": "or",
         "of": [
@@ -807,7 +802,7 @@
     {
       "id": "getting-a-house-and-doin-034c",
       "title": "complete the Recipe for Disaster cook …",
-      "text": "complete the Recipe for Disaster cook segment",
+      "text": "complete the Recipe for Disaster cook segment.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",
@@ -822,7 +817,7 @@
     {
       "id": "getting-a-house-and-doin-035",
       "title": "Enter the door to start the …",
-      "text": "Enter the door to start the Recipe for Disaster cutscene",
+      "text": "Enter the door to start the Recipe for Disaster cutscene.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER",

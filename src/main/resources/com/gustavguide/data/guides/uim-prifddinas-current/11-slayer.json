@@ -12,7 +12,7 @@
     {
       "id": "slayer-002",
       "title": "Complete Ghosts Ahoy. — The Ectophial …",
-      "text": "Complete Ghosts Ahoy. — The Ectophial is close to the undead farm, where you can complete several of the tasks for Tureal",
+      "text": "Complete Ghosts Ahoy. — The Ectophial is close to the undead farm, where you can complete several of the tasks for Tureal.",
       "complete": {
         "op": "quest",
         "quest": "GHOSTS_AHOY",
@@ -42,7 +42,7 @@
     {
       "id": "slayer-004",
       "title": "If you have 85 Combat, complete …",
-      "text": "If you have 85 Combat, complete Dream Mentor",
+      "text": "If you have 85 Combat, complete Dream Mentor.",
       "manual": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "slayer-006",
       "title": "Create a Mahogany eagle lectern in …",
-      "text": "Create a Mahogany eagle lectern in your house. — (Optional) Create a Marble lectern instead, but it costs a lot more",
+      "text": "Create a Mahogany eagle lectern in your house. — (Optional) Create a Marble lectern instead, but it costs a lot more.",
       "manual": true,
       "object": 19922
     },
@@ -72,7 +72,7 @@
     {
       "id": "slayer-008",
       "title": "Make Super attack potions if you …",
-      "text": "Make Super attack potions if you have not already. — Remember your Dragon Battleaxe will cover Strength",
+      "text": "Make Super attack potions if you have not already. — Remember your Dragon Battleaxe will cover Strength.",
       "manual": true
     },
     {
@@ -108,8 +108,8 @@
     },
     {
       "id": "slayer-012",
-      "title": "Complete Rum Deal",
-      "text": "Complete Rum Deal",
+      "title": "Complete Rum Deal.",
+      "text": "Complete Rum Deal.",
       "complete": {
         "op": "quest",
         "quest": "RUM_DEAL",
@@ -123,8 +123,8 @@
     },
     {
       "id": "slayer-013",
-      "title": "Complete Cabin Fever",
-      "text": "Complete Cabin Fever",
+      "title": "Complete Cabin Fever.",
+      "text": "Complete Cabin Fever.",
       "complete": {
         "op": "quest",
         "quest": "CABIN_FEVER",
@@ -139,13 +139,13 @@
     {
       "id": "slayer-014",
       "title": "Kill Cave Horrors for a Black …",
-      "text": "Kill Cave Horrors for a Black mask",
+      "text": "Kill Cave Horrors for a Black mask.",
       "manual": true
     },
     {
       "id": "slayer-015",
       "title": "Make a Slayer Helmet. — Imbue …",
-      "text": "Make a Slayer Helmet. — Imbue it. The method you use to imbue doesn't matter to the guide",
+      "text": "Make a Slayer Helmet. — Imbue it. The method you use to imbue doesn't matter to the guide.",
       "manual": true,
       "world": [
         3678,
@@ -156,7 +156,7 @@
     {
       "id": "slayer-016",
       "title": "Obtain a Dragon Defender if you …",
-      "text": "Obtain a Dragon Defender if you have not done so yet",
+      "text": "Obtain a Dragon Defender if you have not done so yet.",
       "manual": true,
       "world": [
         2864,
@@ -167,7 +167,7 @@
     {
       "id": "slayer-017",
       "title": "Build the Master Stash unit in …",
-      "text": "Build the Master Stash unit in the Warriors Guild to to store your Slayer Helm, Battleaxe, and Defender",
+      "text": "Build the Master Stash unit in the Warriors Guild to to store your Slayer Helm, Battleaxe, and Defender.",
       "manual": true,
       "object": 24318,
       "world": [

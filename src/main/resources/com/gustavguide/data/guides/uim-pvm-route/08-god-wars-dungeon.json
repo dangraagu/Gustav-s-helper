@@ -6,7 +6,7 @@
     {
       "id": "god-wars-dungeon-001",
       "title": "Obtain a Chugging barrel if you …",
-      "text": "Obtain a Chugging barrel if you have not yet already to save space. — You could optional try to add some Prayer regeneration potions to your setup for longer trips",
+      "text": "Obtain a Chugging barrel if you have not yet already to save space. — You could optional try to add some Prayer regeneration potions to your setup for longer trips.",
       "world": [
         3246,
         6116,
@@ -17,7 +17,7 @@
     {
       "id": "god-wars-dungeon-002",
       "title": "Make sure to have a troll …",
-      "text": "Make sure to have a troll stronghold teleport in your house",
+      "text": "Make sure to have a troll stronghold teleport in your house.",
       "complete": {
         "op": "quest",
         "quest": "TROLL_STRONGHOLD",
@@ -54,13 +54,8 @@
     {
       "id": "god-wars-dungeon-005",
       "title": "(Optional but not recommended) Kill General …",
-      "text": "(Optional but not recommended) Kill General Graardor until you get Bandos tassets, a Bandos chestplate, and a Bandos hilt. — Use some variation of the 6:0 range method",
-      "manual": true,
-      "world": [
-        2918,
-        3745,
-        0
-      ]
+      "text": "(Optional but not recommended) Kill General Graardor until you get Bandos tassets, a Bandos chestplate, and a Bandos hilt. — Use some variation of the 6:0 range method.",
+      "manual": true
     },
     {
       "id": "god-wars-dungeon-006",
@@ -76,7 +71,7 @@
     {
       "id": "god-wars-dungeon-007",
       "title": "Do not kill Kree'arra at this …",
-      "text": "Do not kill Kree'arra at this time",
+      "text": "Do not kill Kree'arra at this time.",
       "manual": true
     }
   ]

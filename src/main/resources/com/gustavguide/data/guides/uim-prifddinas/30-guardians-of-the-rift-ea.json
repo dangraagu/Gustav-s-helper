@@ -6,7 +6,7 @@
     {
       "id": "guardians-of-the-rift-ea-001",
       "title": "Do Varrock Rooftop Course course until …",
-      "text": "Do Varrock Rooftop Course course until 40 Agility",
+      "text": "Do Varrock Rooftop Course course until 40 Agility.",
       "complete": {
         "op": "skill",
         "skill": "AGILITY",
@@ -15,16 +15,17 @@
       },
       "note": "Brimhaven Agility Arena for fastest XP (floor-spike trap from 20, tag the pillars); rooftop courses if you want graceful.",
       "wiki": "https://oldschool.runescape.wiki/w/Agility_training",
+      "object": 15608,
       "world": [
-        3221,
-        3414,
+        2673,
+        3298,
         0
       ]
     },
     {
       "id": "guardians-of-the-rift-ea-002",
       "title": "Buy a mithril sword from the …",
-      "text": "Buy a mithril sword from the Varrock Swordshop",
+      "text": "Buy a mithril sword from the Varrock Swordshop.",
       "complete": {
         "op": "or",
         "of": [
@@ -67,14 +68,9 @@
     },
     {
       "id": "guardians-of-the-rift-ea-005",
-      "title": "Get a knife from the kitchen",
-      "text": "Get a knife from the kitchen",
-      "manual": true,
-      "world": [
-        3188,
-        3220,
-        0
-      ]
+      "title": "Get a knife from the kitchen.",
+      "text": "Get a knife from the kitchen.",
+      "manual": true
     },
     {
       "id": "guardians-of-the-rift-ea-006",
@@ -95,8 +91,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-007",
-      "title": "Buy a rope from Ned",
-      "text": "Buy a rope from Ned",
+      "title": "Buy a rope from Ned.",
+      "text": "Buy a rope from Ned.",
       "complete": {
         "op": "or",
         "of": [
@@ -124,7 +120,7 @@
     {
       "id": "guardians-of-the-rift-ea-008",
       "title": "Complete A Porcine of Interest. — …",
-      "text": "Complete A Porcine of Interest. — Use wine for the fight, bring a lot with you",
+      "text": "Complete A Porcine of Interest. — Use wine for the fight, bring a lot with you.",
       "complete": {
         "op": "quest",
         "quest": "A_PORCINE_OF_INTEREST",
@@ -139,7 +135,7 @@
     {
       "id": "guardians-of-the-rift-ea-009",
       "title": "Buy some more wine, 10 should …",
-      "text": "Buy some more wine, 10 should be enough",
+      "text": "Buy some more wine, 10 should be enough.",
       "complete": {
         "op": "or",
         "of": [
@@ -166,7 +162,7 @@
     {
       "id": "guardians-of-the-rift-ea-010",
       "title": "Buy 5 more charges for your …",
-      "text": "Buy 5 more charges for your Chronicle from Diango",
+      "text": "Buy 5 more charges for your Chronicle from Diango.",
       "manual": true,
       "world": [
         3081,
@@ -176,8 +172,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-011",
-      "title": "Chronicle teleport",
-      "text": "Chronicle teleport",
+      "title": "Chronicle teleport.",
+      "text": "Chronicle teleport.",
       "manual": true
     },
     {
@@ -198,7 +194,7 @@
     {
       "id": "guardians-of-the-rift-ea-012b",
       "title": "Mine your own rune essence, — …",
-      "text": "Mine your own rune essence, — Just do 3 trips for the essence. — Don't forget to grab a bucket during the quest",
+      "text": "Mine your own rune essence, — Just do 3 trips for the essence. — Don't forget to grab a bucket during the quest.",
       "complete": {
         "op": "or",
         "of": [
@@ -226,7 +222,7 @@
     {
       "id": "guardians-of-the-rift-ea-013",
       "title": "Drop you fire staff, mithril sword, …",
-      "text": "Drop you fire staff, mithril sword, and extra food for weight",
+      "text": "Drop you fire staff, mithril sword, and extra food for weight.",
       "manual": true,
       "world": [
         3253,
@@ -275,7 +271,7 @@
     {
       "id": "guardians-of-the-rift-ea-016",
       "title": "Sell them to Horvik, 2 per …",
-      "text": "Sell them to Horvik, 2 per world",
+      "text": "Sell them to Horvik, 2 per world.",
       "manual": true,
       "npc": 2882,
       "world": [
@@ -319,7 +315,7 @@
     {
       "id": "guardians-of-the-rift-ea-018b",
       "title": "pick up some monk robes from …",
-      "text": "pick up some monk robes from the monastery",
+      "text": "pick up some monk robes from the monastery.",
       "manual": true,
       "world": [
         3052,
@@ -355,8 +351,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-020",
-      "title": "Finish Enter the Abyss",
-      "text": "Finish Enter the Abyss",
+      "title": "Finish Enter the Abyss.",
+      "text": "Finish Enter the Abyss.",
       "complete": {
         "op": "quest",
         "quest": "ENTER_THE_ABYSS",
@@ -370,8 +366,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-021",
-      "title": "Head to the Dwarven Mines",
-      "text": "Head to the Dwarven Mines",
+      "title": "Head to the Dwarven Mines.",
+      "text": "Head to the Dwarven Mines.",
       "manual": true,
       "object": 16664,
       "world": [
@@ -383,7 +379,7 @@
     {
       "id": "guardians-of-the-rift-ea-022",
       "title": "Purchase a steel, mithril, adamant, and …",
-      "text": "Purchase a steel, mithril, adamant, and rune pickaxe from Nurmof's Pickaxe Shop",
+      "text": "Purchase a steel, mithril, adamant, and rune pickaxe from Nurmof's Pickaxe Shop.",
       "complete": {
         "op": "or",
         "of": [
@@ -415,8 +411,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-024",
-      "title": "Mine an inventory of pure essence",
-      "text": "Mine an inventory of pure essence",
+      "title": "Mine an inventory of pure essence.",
+      "text": "Mine an inventory of pure essence.",
       "manual": true
     },
     {
@@ -433,7 +429,7 @@
     {
       "id": "guardians-of-the-rift-ea-025b",
       "title": "use most of your essence to …",
-      "text": "use most of your essence to get level 10 Runecraft. — Save 3 essence in your small pouch for later",
+      "text": "use most of your essence to get level 10 Runecraft. — Save 3 essence in your small pouch for later.",
       "manual": true,
       "world": [
         2452,
@@ -443,8 +439,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-026",
-      "title": "Obtain a bucket of water",
-      "text": "Obtain a bucket of water",
+      "title": "Obtain a bucket of water.",
+      "text": "Obtain a bucket of water.",
       "complete": {
         "op": "or",
         "of": [
@@ -480,8 +476,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-028",
-      "title": "Wear the varrock armour 1",
-      "text": "Wear the varrock armour 1",
+      "title": "Wear the varrock armour 1.",
+      "text": "Wear the varrock armour 1.",
       "manual": true,
       "world": [
         3210,
@@ -491,8 +487,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-029",
-      "title": "Finish Temple of the eye",
-      "text": "Finish Temple of the eye",
+      "title": "Finish Temple of the eye.",
+      "text": "Finish Temple of the eye.",
       "complete": {
         "op": "quest",
         "quest": "TEMPLE_OF_THE_EYE",
@@ -518,8 +514,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-031",
-      "title": "Home teleport",
-      "text": "Home teleport",
+      "title": "Home teleport.",
+      "text": "Home teleport.",
       "manual": true
     },
     {
@@ -552,8 +548,8 @@
     },
     {
       "id": "guardians-of-the-rift-ea-032b",
-      "title": "get 36 woodcutting",
-      "text": "get 36 woodcutting",
+      "title": "get 36 woodcutting.",
+      "text": "get 36 woodcutting.",
       "complete": {
         "op": "skill",
         "skill": "WOODCUTTING",
@@ -586,18 +582,13 @@
     {
       "id": "guardians-of-the-rift-ea-034",
       "title": "Start playing Guardians of the Rift. …",
-      "text": "Start playing Guardians of the Rift. The first goal is to get to level 50 Runecraft",
-      "manual": true,
-      "world": [
-        3109,
-        3160,
-        0
-      ]
+      "text": "Start playing Guardians of the Rift. The first goal is to get to level 50 Runecraft.",
+      "manual": true
     },
     {
       "id": "guardians-of-the-rift-ea-035",
       "title": "Keep Cosmic, Chaos, and Nature runes. …",
-      "text": "Keep Cosmic, Chaos, and Nature runes. — Do not do any searches until at least level 50, so that you can get the large pouch. Your medium pouch will degrade, but that is alright",
+      "text": "Keep Cosmic, Chaos, and Nature runes. — Do not do any searches until at least level 50, so that you can get the large pouch. Your medium pouch will degrade, but that is alright.",
       "manual": true
     },
     {
@@ -625,11 +616,22 @@
       ]
     },
     {
-      "id": "guardians-of-the-rift-ea-038",
+      "id": "guardians-of-the-rift-ea-038a",
       "title": "Once finished with this Magic training, …",
-      "text": "Once finished with this Magic training, retrieve any runes you need from the bag and set yourself up for some questing. You should have hopefully gotten a supply of law runes from the searches to teleport around. If you did not, then you can complete Death Plateau and Troll Stronghold then return to Guardians of the Rift until you can craft some law runes to use.",
+      "text": "Once finished with this Magic training, retrieve any runes you need from the bag, set yourself up for some questing. You should have hopefully gotten a supply of law runes from the searches to teleport around. If you did not, then you can complete Death Plateau and Troll Stronghold",
       "manual": true,
       "object": 3762,
+      "world": [
+        2828,
+        3647,
+        0
+      ]
+    },
+    {
+      "id": "guardians-of-the-rift-ea-038b",
+      "title": "return to Guardians of the Rift …",
+      "text": "return to Guardians of the Rift until you can craft some law runes to use.",
+      "manual": true,
       "world": [
         2828,
         3647,

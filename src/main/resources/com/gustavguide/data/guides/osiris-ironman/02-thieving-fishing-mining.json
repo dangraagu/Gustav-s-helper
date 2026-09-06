@@ -107,7 +107,7 @@
     {
       "id": "tfm-007",
       "title": "IF you're planning on 3-tick fishing …",
-      "text": "IF you're planning on 3-tick fishing then home tele to lumby, pick up 15+\nLocation: Lumbridge",
+      "text": "IF you're planning on 3-tick fishing then home tele to lumby, pick up 15+ ...\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3222,
@@ -240,7 +240,7 @@
     {
       "id": "tfm-017",
       "title": "Now that you're 74 Fishing, do …",
-      "text": "Now that you're 74 Fishing, do a few Tempoross kills for the Fish Barrel\nLocation: Tempoross Cove",
+      "text": "Now that you're 74 Fishing, do a few Tempoross kills for the Fish Barrel and ...\nLocation: Tempoross Cove",
       "manual": true,
       "world": [
         3165,
@@ -284,7 +284,7 @@
     {
       "id": "tfm-020b",
       "title": "go back to blackjacking until you …",
-      "text": "go back to blackjacking until you have 2.4m GP (around 83 t\nLocation: Pollnivneach",
+      "text": "go back to blackjacking until you have 2.4m GP (around 83 t...\nLocation: Pollnivneach",
       "world": [
         3358,
         2974,
@@ -313,7 +313,7 @@
     {
       "id": "tfm-022",
       "title": "If you got any cosmic runes …",
-      "text": "If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the\nLocation: Al Kharid",
+      "text": "If you got any cosmic runes from moss giants, or unlocked Ali's rune shop the...\nLocation: Al Kharid",
       "manual": true,
       "world": [
         3290,
@@ -366,7 +366,7 @@
     {
       "id": "tfm-025",
       "title": "Do Shadow of the storm (should …",
-      "text": "Do Shadow of the storm (should have priest gown and black wizard hat in bank\nLocation: Uzer",
+      "text": "Do Shadow of the storm (should have priest gown and black wizard hat in bank ...\nLocation: Uzer",
       "complete": {
         "op": "quest",
         "quest": "SHADOW_OF_THE_STORM",
@@ -414,15 +414,12 @@
     {
       "id": "tfm-027b",
       "title": "buy 6k nats, all of the …",
-      "text": "buy 6k nats, all of the cosmics you can get while buying\nLocation: Mage Bank",
+      "text": "buy 6k nats, all of the cosmics you can get while buying ...\nLocation: Mage Bank",
       "manual": true,
       "world": [
-        3109,
-        10357,
+        3090,
+        3956,
         0
-      ],
-      "npcs": [
-        1601
       ]
     },
     {
@@ -482,7 +479,7 @@
     {
       "id": "tfm-032",
       "title": "Buy a Celestial Ring from Dusuri's …",
-      "text": "Buy a Celestial Ring from Dusuri's Star Shop in Falador (2,000 stardust) for\nLocation: Various",
+      "text": "Buy a Celestial Ring from Dusuri's Star Shop in Falador (2,000 stardust) for ...\nLocation: Various",
       "manual": true,
       "world": [
         3022,
@@ -493,11 +490,11 @@
     {
       "id": "tfm-033",
       "title": "Mine 2300 iron ore at ardy …",
-      "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba\nLocation: Ardougne Monastery",
+      "text": "Mine 2300 iron ore at ardy monastery, superheat them while walking to Ardy ba...\nLocation: Ardougne Monastery",
       "manual": true,
       "world": [
-        2606,
-        3212,
+        3033,
+        9737,
         0
       ]
     }

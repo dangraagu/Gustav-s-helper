@@ -59,7 +59,7 @@
     {
       "id": "e11-002c",
       "title": "Talk to Demon Butler when there …",
-      "text": "Talk to Demon Butler when there are 3 clay left in your inventory for correct timing",
+      "text": "Talk to Demon Butler when there are 3 clay left in your inventory for correct timing.",
       "manual": true,
       "npc": 13833,
       "world": [
@@ -126,7 +126,7 @@
     {
       "id": "e11-009",
       "title": "Withdraw: Bow of Faerdhinen, Crystal Armour …",
-      "text": "Withdraw: Bow of Faerdhinen, Crystal Armour & combat gear",
+      "text": "Withdraw: Bow of Faerdhinen, Crystal Armour & combat gear.",
       "manual": true,
       "world": [
         2843,
@@ -566,30 +566,25 @@
     {
       "id": "e11-044",
       "title": "You can now turn all herbs …",
-      "text": "You can now turn all herbs into unfinished potions which is always worth the cost",
+      "text": "You can now turn all herbs into unfinished potions which is always worth the cost.",
       "manual": true
     },
     {
-      "id": "e11-045",
-      "title": "Withdraw: Combat Gear, Coins, Teleport Runes, …",
-      "text": "Withdraw: Combat Gear, Coins, Teleport Runes, 1 Astral Rune, 1 Mind Rune, 1 Cosmic Rune, Sapphire Lantern, Dramen Staff, Adamantite Ore, 6x Coal, Book of the dead, Pickaxe, Seed Dibber, Lockpick, Rada’s Blessing (2), House Teleport (22 Inventory Slots)",
-      "complete": {
-        "op": "or",
-        "of": [
-          {
-            "op": "itemAcquired",
-            "id": 449,
-            "qty": 1
-          },
-          {
-            "op": "item",
-            "id": 449,
-            "qty": 1,
-            "scope": "ANY"
-          }
-        ]
-      },
-      "item": 449,
+      "id": "e11-045a",
+      "title": "Withdraw: Combat Gear, Coins",
+      "text": "Withdraw: Combat Gear, Coins",
+      "manual": true,
+      "world": [
+        3269,
+        3167,
+        0
+      ]
+    },
+    {
+      "id": "e11-045b",
+      "title": "Teleport Runes, 1 Astral Rune, 1 …",
+      "text": "Teleport Runes, 1 Astral Rune, 1 Mind Rune, 1 Cosmic Rune, Sapphire Lantern, Dramen Staff, Adamantite Ore, 6x Coal, Book of the dead, Pickaxe, Seed Dibber, Lockpick, Rada’s Blessing (2), House Teleport (22 Inventory Slots)",
+      "manual": true,
       "world": [
         3269,
         3167,
@@ -1134,9 +1129,20 @@
       "manual": true
     },
     {
-      "id": "e11-094",
+      "id": "e11-094a",
       "title": "You will need 74 Fletching for …",
-      "text": "You will need 74 Fletching for Scorching Bow. If you bought Broader Fletching you can make Broad Arrows until 74 which are very fast. Cut Maple Logs while farming Seaweed Spores and then make them Headless + Broad while doing Fishing Trawler for Angler Outfit (Tempoross Combat Achievement).",
+      "text": "You will need 74 Fletching for Scorching Bow. If you bought Broader Fletching you can make Broad Arrows until 74 which are very fast. Cut Maple Logs while farming Seaweed Spores",
+      "manual": true,
+      "world": [
+        2729,
+        3481,
+        0
+      ]
+    },
+    {
+      "id": "e11-094b",
+      "title": "make them Headless + Broad while …",
+      "text": "make them Headless + Broad while doing Fishing Trawler for Angler Outfit (Tempoross Combat Achievement).",
       "manual": true,
       "world": [
         2729,
@@ -1158,7 +1164,7 @@
     {
       "id": "e11-096",
       "title": "If you skipped Blade of Saeldor …",
-      "text": "If you skipped Blade of Saeldor you can get Kraken Whip which is decent before Nox Hally",
+      "text": "If you skipped Blade of Saeldor you can get Kraken Whip which is decent before Nox Hally.",
       "manual": true
     }
   ]

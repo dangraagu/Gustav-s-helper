@@ -6,7 +6,7 @@
     {
       "id": "port-sarim-001",
       "title": "File:Spade.png Dig outside of the back …",
-      "text": "File:Spade.png Dig outside of the back Lumbridge castle door for X Marks the Spot (west of the crate)",
+      "text": "File:Spade.png Dig outside of the back Lumbridge castle door for X Marks the Spot (west of the crate).",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -36,7 +36,7 @@
     {
       "id": "port-sarim-002b",
       "title": "Pick File:Onion.png 5 onions from behind …",
-      "text": "Pick File:Onion.png 5 onions from behind Farmer Fred's house",
+      "text": "Pick File:Onion.png 5 onions from behind Farmer Fred's house.",
       "manual": true,
       "npc": 732,
       "world": [
@@ -91,7 +91,7 @@
     {
       "id": "port-sarim-005b",
       "title": "take a File:Garlic.png garlic from his …",
-      "text": "take a File:Garlic.png garlic from his cabinet",
+      "text": "take a File:Garlic.png garlic from his cabinet.",
       "manual": true,
       "world": [
         3098,
@@ -158,7 +158,7 @@
     {
       "id": "port-sarim-008",
       "title": "File:Spade.png Dig in the Draynor pig …",
-      "text": "File:Spade.png Dig in the Draynor pig pen for X Marks the Spot",
+      "text": "File:Spade.png Dig in the Draynor pig pen for X Marks the Spot.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -173,7 +173,7 @@
     {
       "id": "port-sarim-009",
       "title": "Grab a File:Cabbage.png Cabbage from the …",
-      "text": "Grab a File:Cabbage.png Cabbage from the field northwest of the pig pen",
+      "text": "Grab a File:Cabbage.png Cabbage from the field northwest of the pig pen.",
       "complete": {
         "op": "or",
         "of": [
@@ -200,7 +200,7 @@
     {
       "id": "port-sarim-010at",
       "title": "Run south to the Port Sarim …",
-      "text": "Run south to the Port Sarim docks, Talk to Redbeard Frank to start Pirate's Treasure",
+      "text": "Run south to the Port Sarim docks, Talk to Redbeard Frank to start Pirate's Treasure.",
       "complete": {
         "op": "quest",
         "quest": "PIRATES_TREASURE",
@@ -231,8 +231,8 @@
     },
     {
       "id": "port-sarim-011b",
-      "title": "use the rewarded lamp on Magic",
-      "text": "use the rewarded lamp on Magic",
+      "title": "use the rewarded lamp on Magic.",
+      "text": "use the rewarded lamp on Magic.",
       "manual": true,
       "world": [
         1824,
@@ -255,7 +255,7 @@
     {
       "id": "port-sarim-013",
       "title": "Go to Zembo. — Buy: File:Beer.png …",
-      "text": "Go to Zembo. — Buy: File:Beer.png 3 Beer, File:Karamjan_rum.png 1 Rum, File:Jug_of_wine.png Wine (Wine is optional for safety)",
+      "text": "Go to Zembo. — Buy: File:Beer.png 3 Beer, File:Karamjan_rum.png 1 Rum, File:Jug_of_wine.png Wine (Wine is optional for safety).",
       "complete": {
         "op": "or",
         "of": [
@@ -282,8 +282,8 @@
     },
     {
       "id": "port-sarim-014",
-      "title": "Pick 10 bananas from the plantation",
-      "text": "Pick 10 bananas from the plantation",
+      "title": "Pick 10 bananas from the plantation.",
+      "text": "Pick 10 bananas from the plantation.",
       "manual": true,
       "object": 2073,
       "world": [
@@ -294,8 +294,8 @@
     },
     {
       "id": "port-sarim-015",
-      "title": "Talk to Luthas",
-      "text": "Talk to Luthas",
+      "title": "Talk to Luthas.",
+      "text": "Talk to Luthas.",
       "manual": true,
       "world": [
         2916,
@@ -306,7 +306,7 @@
     {
       "id": "port-sarim-016",
       "title": "Right click and \"Fill\" the crate …",
-      "text": "Right click and \"Fill\" the crate with bananas",
+      "text": "Right click and \"Fill\" the crate with bananas.",
       "manual": true,
       "object": 2072,
       "world": [
@@ -317,8 +317,8 @@
     },
     {
       "id": "port-sarim-017",
-      "title": "Put the rum in the crate",
-      "text": "Put the rum in the crate",
+      "title": "Put the rum in the crate.",
+      "text": "Put the rum in the crate.",
       "manual": true,
       "object": 2072,
       "world": [
@@ -330,7 +330,7 @@
     {
       "id": "port-sarim-018",
       "title": "Talk to Luthas again to get …",
-      "text": "Talk to Luthas again to get your payment and send the crate",
+      "text": "Talk to Luthas again to get your payment and send the crate.",
       "manual": true,
       "world": [
         2939,
@@ -341,7 +341,7 @@
     {
       "id": "port-sarim-019",
       "title": "File:Transportation_icon.png Take the boat back to …",
-      "text": "File:Transportation_icon.png Take the boat back to Port Sarim",
+      "text": "File:Transportation_icon.png Take the boat back to Port Sarim.",
       "manual": true,
       "npc": 3648,
       "world": [
@@ -363,8 +363,8 @@
     },
     {
       "id": "port-sarim-020b",
-      "title": "equip it",
-      "text": "equip it",
+      "title": "equip it.",
+      "text": "equip it.",
       "manual": true,
       "world": [
         2954,
@@ -375,7 +375,7 @@
     {
       "id": "port-sarim-021",
       "title": "Go to Wydin's Food Store. — …",
-      "text": "Go to Wydin's Food Store. — Buy: File:Pot_of_flour.png 2 pots of flour, File:Raw_beef.png 1 raw beef. — Hop worlds if the flour is out of stock due to bots",
+      "text": "Go to Wydin's Food Store. — Buy: File:Pot_of_flour.png 2 pots of flour, File:Raw_beef.png 1 raw beef. — Hop worlds if the flour is out of stock due to bots.",
       "complete": {
         "op": "or",
         "of": [
@@ -402,13 +402,13 @@
     {
       "id": "port-sarim-022",
       "title": "Click the door to the back …",
-      "text": "Click the door to the back room to get in",
+      "text": "Click the door to the back room to get in.",
       "manual": true
     },
     {
       "id": "port-sarim-023",
       "title": "Take your File:Karamjan_rum.png rum from the …",
-      "text": "Take your File:Karamjan_rum.png rum from the banana crate",
+      "text": "Take your File:Karamjan_rum.png rum from the banana crate.",
       "manual": true,
       "world": [
         2905,
@@ -442,8 +442,8 @@
     },
     {
       "id": "port-sarim-025b",
-      "title": "trade your rum for a key",
-      "text": "trade your rum for a key",
+      "title": "trade your rum for a key.",
+      "text": "trade your rum for a key.",
       "manual": true,
       "world": [
         3053,
@@ -482,7 +482,7 @@
     {
       "id": "port-sarim-027",
       "title": "Enter Rimmington mine from the north. …",
-      "text": "Enter Rimmington mine from the north. — Mine File:Copper_ore.png copper, File:Clay.png clay, and File:Tin_ore.png tin",
+      "text": "Enter Rimmington mine from the north. — Mine File:Copper_ore.png copper, File:Clay.png clay, and File:Tin_ore.png tin.",
       "manual": true,
       "world": [
         2977,
@@ -493,7 +493,7 @@
     {
       "id": "port-sarim-028",
       "title": "Go to Rimmington. — File:Tap-to-drop_mode.png Drop …",
-      "text": "Go to Rimmington. — File:Tap-to-drop_mode.png Drop the File:Bronze_pickaxe.png bronze pickaxe",
+      "text": "Go to Rimmington. — File:Tap-to-drop_mode.png Drop the File:Bronze_pickaxe.png bronze pickaxe.",
       "world": [
         2956,
         3232,
@@ -510,7 +510,7 @@
     {
       "id": "port-sarim-029",
       "title": "Burn your File:Burnt_meat.png meat on the …",
-      "text": "Burn your File:Burnt_meat.png meat on the range in the north-eastern house (cook it again if it cooks successfully)",
+      "text": "Burn your File:Burnt_meat.png meat on the range in the north-eastern house (cook it again if it cooks successfully).",
       "manual": true,
       "world": [
         2956,
@@ -521,7 +521,7 @@
     {
       "id": "port-sarim-030",
       "title": "Fill your File:Bucket_of_water.png bucket in the …",
-      "text": "Fill your File:Bucket_of_water.png bucket in the sink. — Use it to File:soft_clay.png wet your clay",
+      "text": "Fill your File:Bucket_of_water.png bucket in the sink. — Use it to File:soft_clay.png wet your clay.",
       "manual": true,
       "world": [
         2956,
@@ -532,7 +532,7 @@
     {
       "id": "port-sarim-031",
       "title": "Talk to Hetty to start Witch's …",
-      "text": "Talk to Hetty to start Witch's Potion",
+      "text": "Talk to Hetty to start Witch's Potion.",
       "complete": {
         "op": "quest",
         "quest": "WITCHS_POTION",
@@ -553,8 +553,8 @@
     },
     {
       "id": "port-sarim-032b",
-      "title": "pick up its File:Rat%27s_tail.png tail",
-      "text": "pick up its File:Rat%27s_tail.png tail",
+      "title": "pick up its File:Rat%27s_tail.png tail.",
+      "text": "pick up its File:Rat%27s_tail.png tail.",
       "manual": true,
       "world": [
         2968,
@@ -565,7 +565,7 @@
     {
       "id": "port-sarim-033",
       "title": "Pick up a File:Logs.png log in …",
-      "text": "Pick up a File:Logs.png log in the ranging shop",
+      "text": "Pick up a File:Logs.png log in the ranging shop.",
       "complete": {
         "op": "or",
         "of": [
@@ -604,7 +604,7 @@
     {
       "id": "port-sarim-034b",
       "title": "complete Witch's Potion by talking to …",
-      "text": "complete Witch's Potion by talking to her then clicking the cauldron",
+      "text": "complete Witch's Potion by talking to her then clicking the cauldron.",
       "complete": {
         "op": "quest",
         "quest": "WITCHS_POTION",
@@ -618,8 +618,8 @@
     },
     {
       "id": "port-sarim-035",
-      "title": "File:Chronicle.png Chronicle teleport",
-      "text": "File:Chronicle.png Chronicle teleport",
+      "title": "File:Chronicle.png Chronicle teleport.",
+      "text": "File:Chronicle.png Chronicle teleport.",
       "manual": true
     },
     {

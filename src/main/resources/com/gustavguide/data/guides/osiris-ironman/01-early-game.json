@@ -6,13 +6,13 @@
     {
       "id": "eg-001",
       "title": "Start as a female character, don't …",
-      "text": "Start as a female character, don't forget to make yourself an ironman before",
+      "text": "Start as a female character, don't forget to make yourself an ironman before ...",
       "manual": true
     },
     {
       "id": "eg-002",
       "title": "Use every book and lamp on …",
-      "text": "Use every book and lamp on Herblore UNTIL 77 herb, after that they should be",
+      "text": "Use every book and lamp on Herblore UNTIL 77 herb, after that they should be ...",
       "complete": {
         "op": "skill",
         "skill": "HERBLORE",
@@ -31,7 +31,7 @@
     {
       "id": "eg-004",
       "title": "As soon as you spawn, sell …",
-      "text": "As soon as you spawn, sell bronze dagger, sword, axe, wooden shield and short\nLocation: Lumbridge",
+      "text": "As soon as you spawn, sell bronze dagger, sword, axe, wooden shield and short...\nLocation: Lumbridge",
       "manual": true,
       "world": [
         3229,
@@ -109,11 +109,11 @@
     {
       "id": "eg-007",
       "title": "Pick up every item spawn in …",
-      "text": "Pick up every item spawn in the castle, including the ones in cellar, don't f\nLocation: Lumbridge Castle",
+      "text": "Pick up every item spawn in the castle, including the ones in cellar, don't f...\nLocation: Lumbridge Castle",
       "manual": true,
       "world": [
-        3209,
-        3214,
+        3216,
+        3219,
         0
       ]
     },
@@ -225,7 +225,7 @@
     {
       "id": "eg-015",
       "title": "Take out GP, Clue (x marks …",
-      "text": "Take out GP, Clue (x marks the spot), air talisman, spade, mind/air runes, br\nLocation: Lumbridge",
+      "text": "Take out GP, Clue (x marks the spot), air talisman, spade, mind/air runes, br...\nLocation: Lumbridge",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -356,7 +356,7 @@
     {
       "id": "eg-022b",
       "title": "make sure you always have at …",
-      "text": "make sure you always have at least 15 energy to g\nLocation: West of Lumbridge",
+      "text": "make sure you always have at least 15 energy to g...\nLocation: West of Lumbridge",
       "manual": true,
       "world": [
         3188,
@@ -667,7 +667,7 @@
     {
       "id": "eg-037",
       "title": "Recharge run energy using the pool …",
-      "text": "Recharge run energy using the pool of refreshment, use the green portal\nLocation: Ferox Enclave",
+      "text": "Recharge run energy using the pool of refreshment, use the green portal ...\nLocation: Ferox Enclave",
       "manual": true,
       "world": [
         3137,
@@ -866,7 +866,7 @@
     {
       "id": "eg-047",
       "title": "After the quest, buy however many …",
-      "text": "After the quest, buy however many sardine you can fit in your inventory from\nLocation: Witchaven",
+      "text": "After the quest, buy however many sardine you can fit in your inventory from ...\nLocation: Witchaven",
       "complete": {
         "op": "or",
         "of": [
@@ -885,8 +885,8 @@
       },
       "item": 325,
       "world": [
-        2734,
-        3292,
+        2720,
+        3287,
         0
       ]
     },
@@ -1060,7 +1060,7 @@
     {
       "id": "eg-058",
       "title": "Do Waterfall quest until the part …",
-      "text": "Do Waterfall quest until the part where you have to go to the gnome maze, rem\nLocation: Baxtorian Falls",
+      "text": "Do Waterfall quest until the part where you have to go to the gnome maze, rem...\nLocation: Baxtorian Falls",
       "complete": {
         "op": "quest",
         "quest": "WATERFALL_QUEST",
@@ -1104,7 +1104,7 @@
     {
       "id": "eg-061",
       "title": "Buy these items from Heckel Funch …",
-      "text": "Buy these items from Heckel Funch (east of Blurberry): 1 pineapple, 1 orange\nLocation: Gnome Stronghold",
+      "text": "Buy these items from Heckel Funch (east of Blurberry): 1 pineapple, 1 orange,...\nLocation: Gnome Stronghold",
       "complete": {
         "op": "or",
         "of": [
@@ -1122,13 +1122,11 @@
         ]
       },
       "item": 2108,
+      "npc": 6531,
       "world": [
-        2493,
-        3488,
+        2482,
+        3491,
         1
-      ],
-      "npcs": [
-        16
       ]
     },
     {
@@ -1258,7 +1256,7 @@
     {
       "id": "eg-070",
       "title": "Minigame teleport to Clan wars, recharge …",
-      "text": "Minigame teleport to Clan wars, recharge energy, use the portal to Castle\nLocation: Castle Wars",
+      "text": "Minigame teleport to Clan wars, recharge energy, use the portal to Castle ...\nLocation: Castle Wars",
       "manual": true,
       "world": [
         2407,
@@ -1383,7 +1381,7 @@
     {
       "id": "eg-077",
       "title": "While at Diango, buy a Rainbow …",
-      "text": "While at Diango, buy a Rainbow scarf (120gp) as a warm-clothing item for Wint\nLocation: Draynor Village",
+      "text": "While at Diango, buy a Rainbow scarf (120gp) as a warm-clothing item for Wint...\nLocation: Draynor Village",
       "manual": true,
       "world": [
         3081,
@@ -1415,8 +1413,8 @@
     },
     {
       "id": "eg-078c",
-      "title": "make bookcases unti",
-      "text": "make bookcases unti\nLocation: Rimmington",
+      "title": "make bookcases unti...",
+      "text": "make bookcases unti...\nLocation: Rimmington",
       "manual": true,
       "world": [
         2956,
@@ -1466,7 +1464,7 @@
     {
       "id": "eg-080",
       "title": "While at Port Sarim, complete the …",
-      "text": "While at Port Sarim, complete the Pandemonium quest (start with Will & Anne o\nLocation: Port Sarim",
+      "text": "While at Port Sarim, complete the Pandemonium quest (start with Will & Anne o...\nLocation: Port Sarim",
       "complete": {
         "op": "quest",
         "quest": "PANDEMONIUM",
@@ -1510,7 +1508,7 @@
     {
       "id": "eg-083",
       "title": "Should now have 15 fletching and …",
-      "text": "Should now have 15 fletching and 20 construction as well, this will increase\nLocation: Wintertodt",
+      "text": "Should now have 15 fletching and 20 construction as well, this will increase ...\nLocation: Wintertodt",
       "manual": true,
       "world": [
         1630,
@@ -1653,7 +1651,7 @@
     {
       "id": "eg-093",
       "title": "Walk to Barbarian village (you can …",
-      "text": "Walk to Barbarian village (you can walk east of draynor manor by the river, d\nLocation: Barbarian Village",
+      "text": "Walk to Barbarian village (you can walk east of draynor manor by the river, d...\nLocation: Barbarian Village",
       "manual": true,
       "object": 134,
       "world": [
@@ -1665,7 +1663,7 @@
     {
       "id": "eg-094",
       "title": "Get ammo mould and the notes …",
-      "text": "Get ammo mould and the notes for Dwarf cannon (Ice mountain northwest of Barb\nLocation: Ice Mountain",
+      "text": "Get ammo mould and the notes for Dwarf cannon (Ice mountain northwest of Barb...\nLocation: Ice Mountain",
       "complete": {
         "op": "quest",
         "quest": "DWARF_CANNON",
@@ -2517,7 +2515,7 @@
     {
       "id": "eg-140",
       "title": "Get a security book from the …",
-      "text": "Get a security book from the Security guard upstairs in port sarim jail for a\nLocation: Port Sarim",
+      "text": "Get a security book from the Security guard upstairs in port sarim jail for a...\nLocation: Port Sarim",
       "manual": true,
       "npc": 820,
       "world": [
@@ -2595,16 +2593,13 @@
     },
     {
       "id": "eg-143c",
-      "title": "get the portrait from sir Vyv",
-      "text": "get the portrait from sir Vyv\nLocation: Falador",
+      "title": "get the portrait from sir Vyv...",
+      "text": "get the portrait from sir Vyv...\nLocation: Falador",
       "manual": true,
       "world": [
-        2984,
-        3339,
-        2
-      ],
-      "npcs": [
-        4736
+        3000,
+        3360,
+        0
       ]
     },
     {
@@ -2810,7 +2805,7 @@
     {
       "id": "eg-154",
       "title": "Cook whatever low level raw food …",
-      "text": "Cook whatever low level raw food you got from wintertodt for 15 cooking on th\nLocation: Port Khazard",
+      "text": "Cook whatever low level raw food you got from wintertodt for 15 cooking on th...\nLocation: Port Khazard",
       "complete": {
         "op": "skill",
         "skill": "COOKING",
@@ -3182,7 +3177,7 @@
     {
       "id": "eg-176",
       "title": "While in the Kourend/Zeah region, complete …",
-      "text": "While in the Kourend/Zeah region, complete Children of the Sun to unlock Varl\nLocation: Varlamore",
+      "text": "While in the Kourend/Zeah region, complete Children of the Sun to unlock Varl...\nLocation: Varlamore",
       "complete": {
         "op": "quest",
         "quest": "CHILDREN_OF_THE_SUN",
@@ -3197,7 +3192,7 @@
     {
       "id": "eg-177",
       "title": "Train 42 thieving at the fruit …",
-      "text": "Train 42 thieving at the fruit stall in a house east of the hosidius marketpl\nLocation: Hosidius",
+      "text": "Train 42 thieving at the fruit stall in a house east of the hosidius marketpl...\nLocation: Hosidius",
       "manual": true,
       "object": 28823,
       "world": [
@@ -3416,7 +3411,7 @@
     {
       "id": "eg-190b",
       "title": "get as many as you can …",
-      "text": "get as many as you can be bothered for now\nLocation: Draynor Village",
+      "text": "get as many as you can be bothered for now, ...\nLocation: Draynor Village",
       "manual": true,
       "world": [
         3103,
@@ -3562,7 +3557,7 @@
     {
       "id": "eg-199",
       "title": "Walk north from Varrock to the …",
-      "text": "Walk north from Varrock to the Wilderness (level 4-7), talk to the Mage of\nLocation: Wilderness",
+      "text": "Walk north from Varrock to the Wilderness (level 4-7), talk to the Mage of...\nLocation: Wilderness",
       "manual": true,
       "world": [
         3087,
@@ -3584,7 +3579,7 @@
     {
       "id": "eg-200b",
       "title": "talk to the Mage of Zamorak …",
-      "text": "talk to the Mage of Zamorak at the Chaos Temple to get the\nLocation: Varrock",
+      "text": "talk to the Mage of Zamorak at the Chaos Temple to get the...\nLocation: Varrock",
       "manual": true,
       "npc": 2582,
       "world": [
@@ -3651,28 +3646,13 @@
       ]
     },
     {
-      "id": "eg-205a",
+      "id": "eg-205",
       "title": "Use Brimstails to go to ess …",
-      "text": "Use Brimstails to go to ess mines (scrying orb 2/3\nLocation: Gnome Stronghold",
+      "text": "Use Brimstails to go to ess mines (scrying orb 2/3, make sure you have it wit...\nLocation: Gnome Stronghold",
       "manual": true,
       "world": [
-        2409,
-        9817,
-        0
-      ],
-      "npcs": [
-        11430
-      ]
-    },
-    {
-      "id": "eg-205b",
-      "title": "make sure you have it wit",
-      "text": "make sure you have it wit\nLocation: Gnome Stronghold",
-      "manual": true,
-      "npc": 8019,
-      "world": [
-        2466,
-        3495,
+        2440,
+        3460,
         0
       ]
     },
@@ -3870,7 +3850,7 @@
     {
       "id": "eg-220",
       "title": "Get pirate's message from Blue moon …",
-      "text": "Get pirate's message from Blue moon inn, you can drop it AFTER reading the me\nLocation: Varrock",
+      "text": "Get pirate's message from Blue moon inn, you can drop it AFTER reading the me...\nLocation: Varrock",
       "manual": true,
       "world": [
         3224,
@@ -4148,7 +4128,7 @@
     {
       "id": "eg-236",
       "title": "Buy 1 pack of normal compost …",
-      "text": "Buy 1 pack of normal compost and all farming tools, store everything in lepre\nLocation: Catherby",
+      "text": "Buy 1 pack of normal compost and all farming tools, store everything in lepre...\nLocation: Catherby",
       "complete": {
         "op": "or",
         "of": [
@@ -4554,7 +4534,7 @@
     {
       "id": "eg-262b",
       "title": "complete Temple of the Eye quest …",
-      "text": "complete Temple of the Eye quest to unlock Guardi\nLocation: Wizard Tower",
+      "text": "complete Temple of the Eye quest to unlock Guardi...\nLocation: Wizard Tower",
       "complete": {
         "op": "quest",
         "quest": "TEMPLE_OF_THE_EYE",

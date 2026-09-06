@@ -58,13 +58,13 @@
     {
       "id": "wilderness-agility-004",
       "title": "Work towards one of the other …",
-      "text": "Work towards one of the other build options. — Remember simply cleaning finds for more lamps is always a chill option as well",
+      "text": "Work towards one of the other build options. — Remember simply cleaning finds for more lamps is always a chill option as well.",
       "manual": true
     },
     {
       "id": "wilderness-agility-005",
-      "title": "Fishing to level 53+",
-      "text": "Fishing to level 53+",
+      "title": "Fishing to level 53+.",
+      "text": "Fishing to level 53+.",
       "manual": true
     },
     {
@@ -95,7 +95,7 @@
     {
       "id": "wilderness-agility-007",
       "title": "Vale Totems for the Fletching knife. …",
-      "text": "Vale Totems for the Fletching knife. — Make sure to have a Magic wardrobe first. Doing solo Wintertodt can help get this",
+      "text": "Vale Totems for the Fletching knife. — Make sure to have a Magic wardrobe first. Doing solo Wintertodt can help get this.",
       "complete": {
         "op": "quest",
         "quest": "VALE_TOTEMS",
@@ -109,20 +109,20 @@
     },
     {
       "id": "wilderness-agility-008",
-      "title": "Cooking to level 70",
-      "text": "Cooking to level 70",
+      "title": "Cooking to level 70.",
+      "text": "Cooking to level 70.",
       "manual": true
     },
     {
       "id": "wilderness-agility-009",
-      "title": "Mining to level 52",
-      "text": "Mining to level 52",
+      "title": "Mining to level 52.",
+      "text": "Mining to level 52.",
       "manual": true
     },
     {
       "id": "wilderness-agility-010",
       "title": "Giant's Foundry for the Smith's outfit. …",
-      "text": "Giant's Foundry for the Smith's outfit. — Just use the bucket of water rather than ice gloves",
+      "text": "Giant's Foundry for the Smith's outfit. — Just use the bucket of water rather than ice gloves.",
       "manual": true
     },
     {
@@ -145,7 +145,7 @@
     {
       "id": "wilderness-agility-013",
       "title": "Read the next section first and …",
-      "text": "Read the next section first and decide if you want to go for Watchtower with your limited remaining combat xp before spending it here",
+      "text": "Read the next section first and decide if you want to go for Watchtower with your limited remaining combat xp before spending it here.",
       "manual": true,
       "world": [
         1365,
@@ -230,7 +230,7 @@
     {
       "id": "wilderness-agility-020",
       "title": "Use the kp spear to kill …",
-      "text": "Use the kp spear to kill a Green dragon in the far east wilderness for the Dragon bones",
+      "text": "Use the kp spear to kill a Green dragon in the far east wilderness for the Dragon bones.",
       "manual": true,
       "world": [
         3087,
@@ -241,19 +241,19 @@
     {
       "id": "wilderness-agility-021",
       "title": "Partially complete Watchtower until you get …",
-      "text": "Partially complete Watchtower until you get the Skavid map. — There is another npc to poison in the quest",
+      "text": "Partially complete Watchtower until you get the Skavid map. — There is another npc to poison in the quest.",
       "manual": true
     },
     {
       "id": "wilderness-agility-022",
       "title": "Get the Firemaking level for the …",
-      "text": "Get the Firemaking level for the dynamite and look up guides on how to do quests as a skiller",
+      "text": "Get the Firemaking level for the dynamite and look up guides on how to do quests as a skiller.",
       "manual": true
     },
     {
       "id": "wilderness-agility-023",
       "title": "Complete quests like One Small Favor, …",
-      "text": "Complete quests like One Small Favor, A Tail of Two Cats or more diaries for extra Hitpoints",
+      "text": "Complete quests like One Small Favor, A Tail of Two Cats or more diaries for extra Hitpoints.",
       "complete": {
         "op": "and",
         "of": [

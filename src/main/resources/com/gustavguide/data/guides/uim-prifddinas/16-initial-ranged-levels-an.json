@@ -38,7 +38,7 @@
     {
       "id": "initial-ranged-levels-an-003",
       "title": "Move your house to Taverley, if …",
-      "text": "Move your house to Taverley, if you didn't move it for construction earlier",
+      "text": "Move your house to Taverley, if you didn't move it for construction earlier.",
       "manual": true,
       "object": 16680,
       "world": [
@@ -49,8 +49,8 @@
     },
     {
       "id": "initial-ranged-levels-an-004",
-      "title": "Get a dwarven rock cake",
-      "text": "Get a dwarven rock cake",
+      "title": "Get a dwarven rock cake.",
+      "text": "Get a dwarven rock cake.",
       "manual": true
     },
     {
@@ -68,7 +68,7 @@
     {
       "id": "initial-ranged-levels-an-006",
       "title": "Move your house to Yanille when …",
-      "text": "Move your house to Yanille when you have the full set",
+      "text": "Move your house to Yanille when you have the full set.",
       "manual": true,
       "object": 17047,
       "world": [
@@ -80,7 +80,7 @@
     {
       "id": "initial-ranged-levels-an-007",
       "title": "If for any reason you run …",
-      "text": "If for any reason you run out of gold during the guide, blackjack or thieve knights for the money you need",
+      "text": "If for any reason you run out of gold during the guide, blackjack or thieve knights for the money you need.",
       "manual": true
     },
     {
@@ -97,14 +97,14 @@
     },
     {
       "id": "initial-ranged-levels-an-009",
-      "title": "Get a tinderbox",
-      "text": "Get a tinderbox",
+      "title": "Get a tinderbox.",
+      "text": "Get a tinderbox.",
       "manual": true
     },
     {
       "id": "initial-ranged-levels-an-010",
       "title": "Buy 300 mind runes, 600 air …",
-      "text": "Buy 300 mind runes, 600 air runes, and 200 fire runes",
+      "text": "Buy 300 mind runes, 600 air runes, and 200 fire runes.",
       "complete": {
         "op": "or",
         "of": [
@@ -148,7 +148,7 @@
     {
       "id": "initial-ranged-levels-an-011b",
       "title": "steal from the bakery stall until …",
-      "text": "steal from the bakery stall until you get a bread and 10 cakes. Do not eat the bread for food, it is a quest item",
+      "text": "steal from the bakery stall until you get a bread and 10 cakes. Do not eat the bread for food, it is a quest item.",
       "complete": {
         "op": "or",
         "of": [
@@ -167,15 +167,15 @@
       },
       "item": 2309,
       "world": [
-        2668,
-        3310,
+        2624,
+        3300,
         0
       ]
     },
     {
       "id": "initial-ranged-levels-an-012",
       "title": "Complete Merlin's Crystal. — Pest Control …",
-      "text": "Complete Merlin's Crystal. — Pest Control minigame teleport gets you to the Port Sarim area",
+      "text": "Complete Merlin's Crystal. — Pest Control minigame teleport gets you to the Port Sarim area.",
       "complete": {
         "op": "quest",
         "quest": "MERLINS_CRYSTAL",
@@ -204,14 +204,14 @@
     },
     {
       "id": "initial-ranged-levels-an-014",
-      "title": "Get a bucket of water",
-      "text": "Get a bucket of water",
+      "title": "Get a bucket of water.",
+      "text": "Get a bucket of water.",
       "manual": true
     },
     {
       "id": "initial-ranged-levels-an-015",
       "title": "Collect 10 bones from killing anything. …",
-      "text": "Collect 10 bones from killing anything. Killing chickens in Lumbridge is pretty fast",
+      "text": "Collect 10 bones from killing anything. Killing chickens in Lumbridge is pretty fast.",
       "complete": {
         "op": "or",
         "of": [
@@ -274,8 +274,8 @@
     },
     {
       "id": "initial-ranged-levels-an-018",
-      "title": "Complete The Golem",
-      "text": "Complete The Golem",
+      "title": "Complete The Golem.",
+      "text": "Complete The Golem.",
       "complete": {
         "op": "quest",
         "quest": "THE_GOLEM",
@@ -317,7 +317,7 @@
     {
       "id": "initial-ranged-levels-an-021",
       "title": "Clean out your inventory of the …",
-      "text": "Clean out your inventory of the quest items. Alch/sell the rune longsword",
+      "text": "Clean out your inventory of the quest items. Alch/sell the rune longsword.",
       "manual": true,
       "world": [
         3315,
@@ -366,7 +366,7 @@
     {
       "id": "initial-ranged-levels-an-024",
       "title": "Minigame teleport to Fishing Trawler. — …",
-      "text": "Minigame teleport to Fishing Trawler. — Pick up 2 planks from the spawn in the area. — Buy a bucket of sand and soda ash from the charter ship",
+      "text": "Minigame teleport to Fishing Trawler. — Pick up 2 planks from the spawn in the area. — Buy a bucket of sand and soda ash from the charter ship.",
       "complete": {
         "op": "or",
         "of": [
@@ -385,15 +385,15 @@
       },
       "item": 1783,
       "world": [
-        2653,
-        3159,
+        3216,
+        3416,
         0
       ]
     },
     {
       "id": "initial-ranged-levels-an-025",
       "title": "Get some swamp tar from Lumbridge …",
-      "text": "Get some swamp tar from Lumbridge swamp",
+      "text": "Get some swamp tar from Lumbridge swamp.",
       "manual": true,
       "world": [
         3197,
@@ -414,8 +414,8 @@
     },
     {
       "id": "initial-ranged-levels-an-026b",
-      "title": "Drop the bucket",
-      "text": "Drop the bucket",
+      "title": "Drop the bucket.",
+      "text": "Drop the bucket.",
       "manual": true,
       "world": [
         2400,
@@ -425,8 +425,8 @@
     },
     {
       "id": "initial-ranged-levels-an-027",
-      "title": "Complete the Alfred Grimhand's Barcrawl miniquest",
-      "text": "Complete the Alfred Grimhand's Barcrawl miniquest",
+      "title": "Complete the Alfred Grimhand's Barcrawl miniquest.",
+      "text": "Complete the Alfred Grimhand's Barcrawl miniquest.",
       "complete": {
         "op": "quest",
         "quest": "ALFRED_GRIMHANDS_BARCRAWL",
@@ -440,8 +440,8 @@
     },
     {
       "id": "initial-ranged-levels-an-028",
-      "title": "Fill your inventory with cakes",
-      "text": "Fill your inventory with cakes",
+      "title": "Fill your inventory with cakes.",
+      "text": "Fill your inventory with cakes.",
       "manual": true,
       "world": [
         2544,

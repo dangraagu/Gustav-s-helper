@@ -6,13 +6,13 @@
     {
       "id": "finishing-up-001",
       "title": "(Optional) Go out of your way …",
-      "text": "(Optional) Go out of your way a bit to complete all the Recipe for Disaster subquests except Sir Amik Varze and King Awowogei",
+      "text": "(Optional) Go out of your way a bit to complete all the Recipe for Disaster subquests except Sir Amik Varze and King Awowogei.",
       "manual": true,
       "npc": 4771,
       "world": [
-        3209,
-        3215,
-        0
+        2959,
+        3339,
+        2
       ]
     },
     {
@@ -29,7 +29,7 @@
     {
       "id": "finishing-up-003",
       "title": "Complete Temple of Ikov. — You …",
-      "text": "Complete Temple of Ikov. — You can use knives bought from Martin Thwait's Lost and Found to kill the boss if you have ice arrows equipped",
+      "text": "Complete Temple of Ikov. — You can use knives bought from Martin Thwait's Lost and Found to kill the boss if you have ice arrows equipped.",
       "complete": {
         "op": "quest",
         "quest": "TEMPLE_OF_IKOV",
@@ -73,8 +73,8 @@
     },
     {
       "id": "finishing-up-006",
-      "title": "Complete Regicide",
-      "text": "Complete Regicide",
+      "title": "Complete Regicide.",
+      "text": "Complete Regicide.",
       "complete": {
         "op": "quest",
         "quest": "REGICIDE",
@@ -88,8 +88,8 @@
     },
     {
       "id": "finishing-up-007",
-      "title": "Complete Watchtower",
-      "text": "Complete Watchtower",
+      "title": "Complete Watchtower.",
+      "text": "Complete Watchtower.",
       "complete": {
         "op": "quest",
         "quest": "WATCHTOWER",
@@ -120,22 +120,22 @@
     {
       "id": "finishing-up-009",
       "title": "Complete Mourning's End Part I. — …",
-      "text": "Complete Mourning's End Part I. — Chop your own magic logs if you got 75 woodcutting, otherwise do Wintertodt for them",
+      "text": "Complete Mourning's End Part I. — Chop your own magic logs if you got 75 woodcutting, otherwise do Wintertodt for them.",
       "complete": {
         "op": "quest",
         "quest": "MOURNINGS_END_PART_I",
         "state": "FINISHED"
       },
       "world": [
-        2207,
-        3159,
+        2433,
+        3410,
         0
       ]
     },
     {
       "id": "finishing-up-010",
-      "title": "Complete Mourning's End Part II",
-      "text": "Complete Mourning's End Part II",
+      "title": "Complete Mourning's End Part II.",
+      "text": "Complete Mourning's End Part II.",
       "complete": {
         "op": "quest",
         "quest": "MOURNINGS_END_PART_II",
@@ -150,7 +150,7 @@
     {
       "id": "finishing-up-011",
       "title": "If you are planning to use …",
-      "text": "If you are planning to use ranged for the quest, you need at least level 70 and a crystal bow. If you plan to use melee, you will need to train stats for that at ammonite crabs and use a dragon scimitar.",
+      "text": "If you are planning to use ranged for the quest, you need at least level 70 and a crystal bow. If you plan to use melee, you will need to train stats for that at ammonite crabs, use a dragon scimitar.",
       "manual": true
     },
     {

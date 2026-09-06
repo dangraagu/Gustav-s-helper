@@ -6,16 +6,8 @@
     {
       "id": "prayer-001",
       "title": "Get a dwarven rock cake and …",
-      "text": "Get a dwarven rock cake and cool it",
-      "manual": true,
-      "world": [
-        3008,
-        3471,
-        0
-      ],
-      "npcs": [
-        3140
-      ]
+      "text": "Get a dwarven rock cake and cool it.",
+      "manual": true
     },
     {
       "id": "prayer-002a",
@@ -42,30 +34,20 @@
     {
       "id": "prayer-002b",
       "title": "drop the fire staff (Not technically …",
-      "text": "drop the fire staff (Not technically needed, but makes things a bit simpler)",
-      "manual": true,
-      "world": [
-        3008,
-        3471,
-        0
-      ]
+      "text": "drop the fire staff (Not technically needed, but makes things a bit simpler).",
+      "manual": true
     },
     {
       "id": "prayer-003",
       "title": "Do Last Man Standing until you …",
-      "text": "Do Last Man Standing until you have a stockpile of points. 20 points should be fine for now and you can do more as needed",
+      "text": "Do Last Man Standing until you have a stockpile of points. 20 points should be fine for now and you can do more as needed.",
       "manual": true
     },
     {
       "id": "prayer-004",
       "title": "Store all but 200,000 coins coins …",
-      "text": "Store all but 200,000 coins coins in the coffer by Last Man Standing. This prevents you from losing all your money to a disconnection, Get more money out as needed",
-      "manual": true,
-      "world": [
-        3137,
-        3623,
-        0
-      ]
+      "text": "Store all but 200,000 coins coins in the coffer by Last Man Standing. This prevents you from losing all your money to a disconnection, Get more money out as needed.",
+      "manual": true
     },
     {
       "id": "prayer-005",
@@ -116,12 +98,7 @@
           }
         ]
       },
-      "item": 8880,
-      "world": [
-        3126,
-        3635,
-        0
-      ]
+      "item": 8880
     }
   ]
 }

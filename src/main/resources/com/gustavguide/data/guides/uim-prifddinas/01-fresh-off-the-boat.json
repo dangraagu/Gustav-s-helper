@@ -5,8 +5,8 @@
   "steps": [
     {
       "id": "fresh-off-the-boat-001",
-      "title": "Complete Tutorial Island",
-      "text": "Complete Tutorial Island",
+      "title": "Complete Tutorial Island.",
+      "text": "Complete Tutorial Island.",
       "manual": true
     },
     {
@@ -18,7 +18,7 @@
     {
       "id": "fresh-off-the-boat-003",
       "title": "Speak with Father Aereck at the …",
-      "text": "Speak with Father Aereck at the church in Lumbridge to start The Restless Ghost",
+      "text": "Speak with Father Aereck at the church in Lumbridge to start The Restless Ghost.",
       "complete": {
         "op": "quest",
         "quest": "THE_RESTLESS_GHOST",
@@ -46,7 +46,7 @@
     {
       "id": "fresh-off-the-boat-005",
       "title": "Buy a bucket and spade from …",
-      "text": "Buy a bucket and spade from the general store. You should have 2 buckets total",
+      "text": "Buy a bucket and spade from the general store. You should have 2 buckets total.",
       "complete": {
         "op": "and",
         "of": [
@@ -66,8 +66,8 @@
       },
       "item": 1925,
       "world": [
-        3227,
-        3257,
+        3212,
+        3247,
         0
       ]
     },
@@ -86,7 +86,7 @@
     {
       "id": "fresh-off-the-boat-006b",
       "title": "pick up an egg from one …",
-      "text": "pick up an egg from one of the spawn locations",
+      "text": "pick up an egg from one of the spawn locations.",
       "manual": true,
       "world": [
         3189,
@@ -102,8 +102,8 @@
     },
     {
       "id": "fresh-off-the-boat-007b",
-      "title": "pick some wheat from the field",
-      "text": "pick some wheat from the field",
+      "title": "pick some wheat from the field.",
+      "text": "pick some wheat from the field.",
       "manual": true,
       "world": [
         3189,
@@ -114,13 +114,13 @@
     {
       "id": "fresh-off-the-boat-008",
       "title": "Grind the wheat into a pot …",
-      "text": "Grind the wheat into a pot of flour at the mill north-east",
+      "text": "Grind the wheat into a pot of flour at the mill north-east.",
       "manual": true
     },
     {
       "id": "fresh-off-the-boat-009",
       "title": "Fill your buckets with milk from …",
-      "text": "Fill your buckets with milk from the dairy cow north of the mill",
+      "text": "Fill your buckets with milk from the dairy cow north of the mill.",
       "manual": true,
       "world": [
         3189,
@@ -142,7 +142,7 @@
     {
       "id": "fresh-off-the-boat-010b",
       "title": "start X Marks the Spot by …",
-      "text": "start X Marks the Spot by speaking with Veos in the pub",
+      "text": "start X Marks the Spot by speaking with Veos in the pub.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -174,7 +174,7 @@
     {
       "id": "fresh-off-the-boat-011b",
       "title": "complete the first 2 clues for …",
-      "text": "complete the first 2 clues for the X Marks the Spot quest",
+      "text": "complete the first 2 clues for the X Marks the Spot quest.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -201,7 +201,7 @@
     {
       "id": "fresh-off-the-boat-012b",
       "title": "speak with the cook to complete …",
-      "text": "speak with the cook to complete the Cook's Assistant quest",
+      "text": "speak with the cook to complete the Cook's Assistant quest.",
       "complete": {
         "op": "quest",
         "quest": "COOKS_ASSISTANT",
@@ -216,7 +216,7 @@
     {
       "id": "fresh-off-the-boat-013",
       "title": "Speak with Duke Horacio to start …",
-      "text": "Speak with Duke Horacio to start Rune Mysteries and receive an air talisman",
+      "text": "Speak with Duke Horacio to start Rune Mysteries and receive an air talisman.",
       "complete": {
         "op": "quest",
         "quest": "RUNE_MYSTERIES",
@@ -232,7 +232,7 @@
     {
       "id": "fresh-off-the-boat-014",
       "title": "Continue south-west to Lumbridge Swamp, speak …",
-      "text": "Continue south-west to Lumbridge Swamp, speak with Father Urhney to continue The Restless Ghost and receive the ghostspeak amulet",
+      "text": "Continue south-west to Lumbridge Swamp, speak with Father Urhney to continue The Restless Ghost and receive the ghostspeak amulet.",
       "complete": {
         "op": "quest",
         "quest": "THE_RESTLESS_GHOST",
@@ -276,7 +276,7 @@
     {
       "id": "fresh-off-the-boat-015b",
       "title": "Equip the gloves and the ghostspeak …",
-      "text": "Equip the gloves and the ghostspeak amulet",
+      "text": "Equip the gloves and the ghostspeak amulet.",
       "manual": true,
       "item": 552,
       "world": [
@@ -299,8 +299,8 @@
     },
     {
       "id": "fresh-off-the-boat-016b",
-      "title": "complete Misthalin Mystery",
-      "text": "complete Misthalin Mystery",
+      "title": "complete Misthalin Mystery.",
+      "text": "complete Misthalin Mystery.",
       "complete": {
         "op": "quest",
         "quest": "MISTHALIN_MYSTERY",
@@ -315,13 +315,8 @@
     {
       "id": "fresh-off-the-boat-017",
       "title": "Destroy the notes, Drop the knife …",
-      "text": "Destroy the notes, Drop the knife and tinderbox. Keep the bucket of water, and gems",
-      "manual": true,
-      "world": [
-        3237,
-        3155,
-        0
-      ]
+      "text": "Destroy the notes, Drop the knife and tinderbox. Keep the bucket of water, and gems.",
+      "manual": true
     },
     {
       "id": "fresh-off-the-boat-018a",
@@ -349,7 +344,7 @@
     {
       "id": "fresh-off-the-boat-018c",
       "title": "speak with the ghost to continue …",
-      "text": "speak with the ghost to continue The Restless Ghost",
+      "text": "speak with the ghost to continue The Restless Ghost.",
       "complete": {
         "op": "quest",
         "quest": "THE_RESTLESS_GHOST",
@@ -364,12 +359,12 @@
     {
       "id": "fresh-off-the-boat-019",
       "title": "Sell the uncut gems to Lumbridge …",
-      "text": "Sell the uncut gems to Lumbridge General Store",
+      "text": "Sell the uncut gems to Lumbridge General Store.",
       "manual": true,
       "object": 24009,
       "world": [
-        3212,
-        3247,
+        3227,
+        3257,
         0
       ]
     },

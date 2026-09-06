@@ -23,7 +23,7 @@
     {
       "id": "fairy-rings-and-more-far-001b",
       "title": "sell your staff to Zaff, then …",
-      "text": "sell your staff to Zaff, then purchase 500 fire runes from Aubury",
+      "text": "sell your staff to Zaff, then purchase 500 fire runes from Aubury.",
       "complete": {
         "op": "or",
         "of": [
@@ -110,7 +110,7 @@
     {
       "id": "fairy-rings-and-more-far-003c",
       "title": "drop your fire runes. — You …",
-      "text": "drop your fire runes. — You may also need to buy some more air/law runes so pay attention to that",
+      "text": "drop your fire runes. — You may also need to buy some more air/law runes so pay attention to that.",
       "complete": {
         "op": "or",
         "of": [
@@ -154,7 +154,7 @@
     {
       "id": "fairy-rings-and-more-far-004b",
       "title": "buy/steal from the baker until you …",
-      "text": "buy/steal from the baker until you have 10 cakes",
+      "text": "buy/steal from the baker until you have 10 cakes.",
       "complete": {
         "op": "or",
         "of": [
@@ -181,7 +181,7 @@
     {
       "id": "fairy-rings-and-more-far-005",
       "title": "Drop the knife and axe from …",
-      "text": "Drop the knife and axe from Lost City, keep the dramen staff",
+      "text": "Drop the knife and axe from Lost City, keep the dramen staff.",
       "complete": {
         "op": "quest",
         "quest": "LOST_CITY",
@@ -213,7 +213,7 @@
     {
       "id": "fairy-rings-and-more-far-007",
       "title": "Start Fairytale II - Cure a …",
-      "text": "Start Fairytale II - Cure a Queen",
+      "text": "Start Fairytale II - Cure a Queen.",
       "complete": {
         "op": "quest",
         "quest": "FAIRYTALE_II__CURE_A_QUEEN",
@@ -270,8 +270,8 @@
     },
     {
       "id": "fairy-rings-and-more-far-010",
-      "title": "Take the fairy ring to DKS",
-      "text": "Take the fairy ring to DKS",
+      "title": "Take the fairy ring to DKS.",
+      "text": "Take the fairy ring to DKS.",
       "manual": true,
       "world": [
         3077,
@@ -282,7 +282,7 @@
     {
       "id": "fairy-rings-and-more-far-011",
       "title": "Complete The Giant Dwarf. — Buy …",
-      "text": "Complete The Giant Dwarf. — Buy the ore needed from the blast furnace. — Remember your house is in Rimmington for teleports",
+      "text": "Complete The Giant Dwarf. — Buy the ore needed from the blast furnace. — Remember your house is in Rimmington for teleports.",
       "complete": {
         "op": "quest",
         "quest": "THE_GIANT_DWARF",
@@ -325,7 +325,7 @@
     {
       "id": "fairy-rings-and-more-far-013b",
       "title": "go to Lumbridge. If both of …",
-      "text": "go to Lumbridge. If both of them died, replant and woodcut while watching it grow",
+      "text": "go to Lumbridge. If both of them died, replant and woodcut while watching it grow.",
       "manual": true,
       "object": 24009,
       "world": [
@@ -349,7 +349,7 @@
     {
       "id": "fairy-rings-and-more-far-014b",
       "title": "cook the barley into barley malt …",
-      "text": "cook the barley into barley malt on the range",
+      "text": "cook the barley into barley malt on the range.",
       "manual": true,
       "world": [
         3212,
@@ -385,8 +385,8 @@
     },
     {
       "id": "fairy-rings-and-more-far-015c",
-      "title": "Fill the buckets with water",
-      "text": "Fill the buckets with water",
+      "title": "Fill the buckets with water.",
+      "text": "Fill the buckets with water.",
       "manual": true,
       "world": [
         3209,
@@ -414,7 +414,7 @@
     {
       "id": "fairy-rings-and-more-far-017",
       "title": "Once Forgettable Tale is complete, drop …",
-      "text": "Once Forgettable Tale is complete, drop the beer, glass, stouts, and pot",
+      "text": "Once Forgettable Tale is complete, drop the beer, glass, stouts, and pot.",
       "complete": {
         "op": "quest",
         "quest": "FORGETTABLE_TALE",
@@ -444,7 +444,7 @@
     {
       "id": "fairy-rings-and-more-far-019",
       "title": "Destroy the ring of charos(a). Do …",
-      "text": "Destroy the ring of charos(a). Do this AFTER you finish the quest, otherwise you'll have to pickpocket Dr Fenkenstrain for another one",
+      "text": "Destroy the ring of charos(a). Do this AFTER you finish the quest, otherwise you'll have to pickpocket Dr Fenkenstrain for another one.",
       "manual": true,
       "npc": 1270,
       "world": [
@@ -466,8 +466,8 @@
     },
     {
       "id": "fairy-rings-and-more-far-020b",
-      "title": "buy some fire runes",
-      "text": "buy some fire runes",
+      "title": "buy some fire runes.",
+      "text": "buy some fire runes.",
       "complete": {
         "op": "or",
         "of": [
@@ -493,8 +493,8 @@
     },
     {
       "id": "fairy-rings-and-more-far-021",
-      "title": "Drop your dramen staff",
-      "text": "Drop your dramen staff",
+      "title": "Drop your dramen staff.",
+      "text": "Drop your dramen staff.",
       "manual": true,
       "world": [
         3477,
@@ -520,7 +520,7 @@
     {
       "id": "fairy-rings-and-more-far-023",
       "title": "Get another dramen branch while on …",
-      "text": "Get another dramen branch while on Entrana. You can safespot the zombies on a mushroom way to the south. — Get a few extra Dramen branches. 2 should be fine",
+      "text": "Get another dramen branch while on Entrana. You can safespot the zombies on a mushroom way to the south. — Get a few extra Dramen branches. 2 should be fine.",
       "manual": true,
       "npc": 4062,
       "world": [
@@ -532,7 +532,7 @@
     {
       "id": "fairy-rings-and-more-far-024",
       "title": "Teleport to Varrock fletch your dramen …",
-      "text": "Teleport to Varrock fletch your dramen staff with a knife from upstairs in the general store",
+      "text": "Teleport to Varrock fletch your dramen staff with a knife from upstairs in the general store.",
       "world": [
         3216,
         3416,
@@ -576,20 +576,8 @@
     {
       "id": "fairy-rings-and-more-far-025b",
       "title": "drop the fire runes (Or just …",
-      "text": "drop the fire runes (Or just keep the fire runes",
+      "text": "drop the fire runes (Or just keep the fire runes and wear the dramen staff, but you will have to manual cast fire strike when needed).",
       "manual": true,
-      "world": [
-        3203,
-        3434,
-        0
-      ]
-    },
-    {
-      "id": "fairy-rings-and-more-far-025c",
-      "title": "wear the dramen staff, but you …",
-      "text": "wear the dramen staff, but you will have to manual cast fire strike when needed)",
-      "manual": true,
-      "item": 772,
       "world": [
         3203,
         3434,
@@ -599,7 +587,7 @@
     {
       "id": "fairy-rings-and-more-far-026",
       "title": "Plant your willow sapling. Protect it …",
-      "text": "Plant your willow sapling. Protect it with the apples. It is smart to plant it at Taverley for future willow log supply",
+      "text": "Plant your willow sapling. Protect it with the apples. It is smart to plant it at Taverley for future willow log supply.",
       "manual": true,
       "world": [
         2910,
@@ -610,7 +598,7 @@
     {
       "id": "fairy-rings-and-more-far-027",
       "title": "Clean out your inventory if you …",
-      "text": "Clean out your inventory if you have anything. It should just be runes, coins, and the dramen staff",
+      "text": "Clean out your inventory if you have anything. It should just be runes, coins, and the dramen staff.",
       "manual": true
     },
     {

@@ -262,20 +262,9 @@
       ]
     },
     {
-      "id": "e2-017a",
-      "title": "Bank",
-      "text": "Bank",
-      "manual": true,
-      "world": [
-        2444,
-        3485,
-        1
-      ]
-    },
-    {
-      "id": "e2-017b",
-      "title": "deposit inventory",
-      "text": "deposit inventory",
+      "id": "e2-017",
+      "title": "Bank and deposit inventory",
+      "text": "Bank and deposit inventory",
       "manual": true,
       "world": [
         2444,
@@ -749,9 +738,21 @@
       ]
     },
     {
-      "id": "e2-048",
+      "id": "e2-048a",
       "title": "Head East & thieve from the …",
-      "text": "Head East & thieve from the Hosidius fruit stall until 34512 Thieving Experience. Bank 5x Redberries, all Golovanova's + Strange fruit and 1x Jangerberries [Fairytale Part I, possible item for Malignius Mortifer]",
+      "text": "Head East & thieve from the Hosidius fruit stall until 34512 Thieving Experience.",
+      "manual": true,
+      "object": 28823,
+      "world": [
+        1767,
+        3597,
+        0
+      ]
+    },
+    {
+      "id": "e2-048b",
+      "title": "Bank 5x Redberries, all Golovanova's + …",
+      "text": "Bank 5x Redberries, all Golovanova's + Strange fruit and 1x Jangerberries [Fairytale Part I, possible item for Malignius Mortifer]",
       "manual": true,
       "npc": 1783,
       "world": [
@@ -763,7 +764,7 @@
     {
       "id": "e2-049",
       "title": "Run between both stalls as it …",
-      "text": "Run between both stalls as it is faster. Once you are 0 energy, recharge at 1 stall",
+      "text": "Run between both stalls as it is faster. Once you are 0 energy, recharge at 1 stall.",
       "manual": true
     },
     {
@@ -1089,8 +1090,8 @@
     },
     {
       "id": "e2-071",
-      "title": "Bank all but axe and coins",
-      "text": "Bank all but axe and coins",
+      "title": "Bank all but axe and coins.",
+      "text": "Bank all but axe and coins.",
       "manual": true
     },
     {
@@ -1228,13 +1229,8 @@
     {
       "id": "e2-080",
       "title": "Pickpocket Constantinius in the main house …",
-      "text": "Pickpocket Constantinius in the main house for Chest Key",
-      "manual": true,
-      "world": [
-        1449,
-        2932,
-        0
-      ]
+      "text": "Pickpocket Constantinius in the main house for Chest Key.",
+      "manual": true
     },
     {
       "id": "e2-081at",
@@ -1248,8 +1244,8 @@
       "text": "Open the Fancy Chest hidden in the Southwest corner of the cellar",
       "manual": true,
       "world": [
-        1449,
-        2932,
+        1426,
+        2919,
         0
       ]
     },
@@ -1259,8 +1255,8 @@
       "text": "Search the South-western Fountain outside",
       "manual": true,
       "world": [
-        1449,
-        2932,
+        1426,
+        2919,
         0
       ]
     },
@@ -1270,8 +1266,8 @@
       "text": "Use the Icon on the Statue (Ates) on the North-East coast to unlock Pendant of ates teleport",
       "manual": true,
       "world": [
-        1449,
-        2932,
+        1426,
+        2919,
         0
       ]
     },
@@ -1298,20 +1294,9 @@
       ]
     },
     {
-      "id": "e2-087a",
-      "title": "Bank",
-      "text": "Bank",
-      "manual": true,
-      "world": [
-        2543,
-        5144,
-        0
-      ]
-    },
-    {
-      "id": "e2-087b",
-      "title": "deposit all",
-      "text": "deposit all",
+      "id": "e2-087",
+      "title": "Bank and deposit all",
+      "text": "Bank and deposit all",
       "manual": true,
       "world": [
         2543,
@@ -1408,7 +1393,7 @@
     {
       "id": "e2-096",
       "title": "NOTE: If no arrow is showing …",
-      "text": "NOTE: If no arrow is showing up hop worlds",
+      "text": "NOTE: If no arrow is showing up hop worlds.",
       "manual": true,
       "world": [
         2809,
@@ -1593,7 +1578,7 @@
     {
       "id": "e2-109",
       "title": "Deposit 15 Pineapples into the Compost …",
-      "text": "Deposit 15 Pineapples into the Compost Bin North and close Compost Bin",
+      "text": "Deposit 15 Pineapples into the Compost Bin North and close Compost Bin.",
       "manual": true,
       "world": [
         2810,
@@ -1616,7 +1601,7 @@
           {
             "op": "item",
             "id": 5354,
-            "qty": 3,
+            "qty": 2,
             "scope": "ANY"
           }
         ]
@@ -1923,9 +1908,15 @@
       ]
     },
     {
-      "id": "e2-127",
+      "id": "e2-127a",
       "title": "OPTIONAL: Hop to Foresty World with …",
-      "text": "OPTIONAL: Hop to Foresty World with Forestry kit. Cut a regular tree every 3 laps to qualify for Forestry events. Complete any that spawn that are worth. (You will also get more MoG doing this)",
+      "text": "OPTIONAL: Hop to Foresty World with Forestry kit. Cut a regular tree every 3 laps to qualify for Forestry events.",
+      "manual": true
+    },
+    {
+      "id": "e2-127b",
+      "title": "Complete any that spawn that are …",
+      "text": "Complete any that spawn that are worth. (You will also get more MoG doing this)",
       "manual": true
     },
     {
@@ -2113,7 +2104,7 @@
           {
             "op": "item",
             "id": 6034,
-            "qty": 40,
+            "qty": 15,
             "scope": "ANY"
           }
         ]
@@ -2193,7 +2184,7 @@
     {
       "id": "e2-142",
       "title": "OPTIONAL: Use Minigames teleport to Burthorpe …",
-      "text": "OPTIONAL: Use Minigames teleport to Burthorpe Games Room, go upstairs, then to Rogues' Den to buy Graceful legs (or the guide will tell you to buy them later)",
+      "text": "OPTIONAL: Use Minigames teleport to Burthorpe Games Room, go upstairs, then to Rogues' Den to buy Graceful legs (or the guide will tell you to buy them later).",
       "manual": true,
       "object": 7257,
       "world": [
@@ -2475,7 +2466,7 @@
     {
       "id": "e2-158",
       "title": "This should net you over 1,000,000GP …",
-      "text": "This should net you over 1,000,000GP which we are now going to use to fly through the rest of the guide. The final Agility levels are obtained passively through quests later",
+      "text": "This should net you over 1,000,000GP which we are now going to use to fly through the rest of the guide. The final Agility levels are obtained passively through quests later.",
       "manual": true
     },
     {
@@ -2876,7 +2867,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -3001,21 +2992,10 @@
       ]
     },
     {
-      "id": "e2-193a",
+      "id": "e2-193",
       "title": "Unlock both Rune Stores completing Sodoku …",
-      "text": "Unlock both Rune Stores completing Sodoku (To make it easier",
+      "text": "Unlock both Rune Stores completing Sodoku (To make it easier, use the Runedoku Helper plugin on Runelite or a Google solver if you wish)",
       "manual": true
-    },
-    {
-      "id": "e2-193b",
-      "title": "use the Runedoku Helper plugin on …",
-      "text": "use the Runedoku Helper plugin on Runelite or a Google solver if you wish)",
-      "manual": true,
-      "world": [
-        3304,
-        3211,
-        0
-      ]
     },
     {
       "id": "e2-194",
@@ -3032,7 +3012,7 @@
           {
             "op": "item",
             "id": 564,
-            "qty": 101,
+            "qty": 102,
             "scope": "ANY"
           }
         ]
@@ -3072,9 +3052,20 @@
       ]
     },
     {
-      "id": "e2-196",
+      "id": "e2-196a",
       "title": "Bank at Emir's Arena before heading …",
-      "text": "Bank at Emir's Arena before heading to the Mage Training Arena. Withdraw Air staff, Fire staff, Nature runes, Cosmic runes, Law runes, Water runes, and Earth runes as shown in the screenshot. (Place runes + air staff at the bottom of your inventory)",
+      "text": "Bank at Emir's Arena before heading to the Mage Training Arena.",
+      "manual": true,
+      "world": [
+        3364,
+        3312,
+        0
+      ]
+    },
+    {
+      "id": "e2-196b",
+      "title": "Withdraw Air staff, Fire staff, Nature …",
+      "text": "Withdraw Air staff, Fire staff, Nature runes, Cosmic runes, Law runes, Water runes, and Earth runes as shown in the screenshot. (Place runes + air staff at the bottom of your inventory)",
       "complete": {
         "op": "or",
         "of": [
@@ -3086,7 +3077,7 @@
           {
             "op": "item",
             "id": 564,
-            "qty": 101,
+            "qty": 102,
             "scope": "ANY"
           }
         ]
@@ -3233,7 +3224,7 @@
     {
       "id": "e2-206",
       "title": "Buy wines from the bar to …",
-      "text": "Buy wines from the bar to heal. Don’t die here, it’s possible, but only if you’re not paying attention",
+      "text": "Buy wines from the bar to heal. Don’t die here, it’s possible, but only if you’re not paying attention.",
       "complete": {
         "op": "or",
         "of": [
@@ -3538,7 +3529,7 @@
     {
       "id": "e2-224",
       "title": "Be a bit careful with low …",
-      "text": "Be a bit careful with low defence & fairly low HP here. Boss can be safe spotted",
+      "text": "Be a bit careful with low defence & fairly low HP here. Boss can be safe spotted.",
       "manual": true
     },
     {
@@ -4301,7 +4292,7 @@
     {
       "id": "e2-268",
       "title": "At this point in the guide, …",
-      "text": "At this point in the guide, Complete Shield of Arrav whenever convenient",
+      "text": "At this point in the guide, Complete Shield of Arrav whenever convenient.",
       "complete": {
         "op": "quest",
         "quest": "SHIELD_OF_ARRAV",
@@ -4426,7 +4417,7 @@
     {
       "id": "e2-276",
       "title": "Kill the Temple Guardian and then …",
-      "text": "Kill the Temple Guardian and then Minigame teleport to Barbarian Assault & hand in the Barcrawl",
+      "text": "Kill the Temple Guardian and then Minigame teleport to Barbarian Assault & hand in the Barcrawl.",
       "manual": true,
       "world": [
         3225,
@@ -4959,7 +4950,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -4974,7 +4965,7 @@
     {
       "id": "e2-312",
       "title": "Train Woodcutting to 36 and firemake …",
-      "text": "Train Woodcutting to 36 and firemake the logs you get. You should have at least 30 firemaking",
+      "text": "Train Woodcutting to 36 and firemake the logs you get. You should have at least 30 firemaking.",
       "complete": {
         "op": "skill",
         "skill": "WOODCUTTING",
@@ -4985,20 +4976,9 @@
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Woodcutting_training"
     },
     {
-      "id": "e2-313a",
-      "title": "Cut",
-      "text": "Cut",
-      "manual": true,
-      "world": [
-        3227,
-        3257,
-        0
-      ]
-    },
-    {
-      "id": "e2-313b",
-      "title": "burn Oak logs [Lumbridge Easy Diary]",
-      "text": "burn Oak logs [Lumbridge Easy Diary]",
+      "id": "e2-313",
+      "title": "Cut and burn Oak logs [Lumbridge …",
+      "text": "Cut and burn Oak logs [Lumbridge Easy Diary]",
       "manual": true,
       "object": 24009,
       "world": [
@@ -5770,7 +5750,7 @@
     {
       "id": "e2-359",
       "title": "Thieve HAM members until Buttons & …",
-      "text": "Thieve HAM members until Buttons & Rusty Sword. OPTIONAL: Keep Opal & any other items you feel may be useful later",
+      "text": "Thieve HAM members until Buttons & Rusty Sword. OPTIONAL: Keep Opal & any other items you feel may be useful later.",
       "manual": true
     },
     {
@@ -6112,8 +6092,8 @@
     },
     {
       "id": "e2-380c",
-      "title": "Take everything",
-      "text": "Take everything",
+      "title": "Take everything.",
+      "text": "Take everything.",
       "manual": true,
       "world": [
         3078,
@@ -6371,7 +6351,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -6542,7 +6522,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -7007,7 +6987,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -7369,8 +7349,8 @@
     },
     {
       "id": "e2-462b",
-      "title": "deposit all",
-      "text": "deposit all",
+      "title": "deposit all.",
+      "text": "deposit all.",
       "manual": true,
       "world": [
         1487,
@@ -7423,9 +7403,9 @@
       ]
     },
     {
-      "id": "e2-465",
+      "id": "e2-465a",
       "title": "Teleport to Falador & get Beginner …",
-      "text": "Teleport to Falador & get Beginner Mahogany Home contracts until 26 Construction. Train to 10,163 XP, if you plan on soloing Tempoross, as you won't get enough Construction XP for a future step. These might be bad locations but best ways if no direct teleport. Doesn't take long anyway. Mahogany Homes plugin is helpful.",
+      "text": "Teleport to Falador & get Beginner Mahogany Home contracts until 26 Construction.",
       "complete": {
         "op": "skill",
         "skill": "CONSTRUCTION",
@@ -7434,6 +7414,17 @@
       },
       "note": "Build crude chairs -> bookcases -> oak larders in your POH (bring saw, hammer, steel nails); Mahogany Homes is a cheaper alternative.",
       "wiki": "https://oldschool.runescape.wiki/w/Construction_training",
+      "world": [
+        3000,
+        3360,
+        0
+      ]
+    },
+    {
+      "id": "e2-465b",
+      "title": "Train to 10,163 XP, if you …",
+      "text": "Train to 10,163 XP, if you plan on soloing Tempoross, as you won't get enough Construction XP for a future step. These might be bad locations but best ways if no direct teleport. Doesn't take long anyway. Mahogany Homes plugin is helpful.",
+      "manual": true,
       "world": [
         3000,
         3360,
@@ -7683,7 +7674,7 @@
     {
       "id": "e2-486",
       "title": "Use the Magic Mushtree from House …",
-      "text": "Use the Magic Mushtree from House on the Hill to get back to Mushroom Meadow",
+      "text": "Use the Magic Mushtree from House on the Hill to get back to Mushroom Meadow.",
       "manual": true,
       "world": [
         3284,
@@ -8191,7 +8182,7 @@
     {
       "id": "e2-518",
       "title": "Easy Giants Foundry plugin is helpful …",
-      "text": "Easy Giants Foundry plugin is helpful here",
+      "text": "Easy Giants Foundry plugin is helpful here.",
       "manual": true
     },
     {
@@ -8209,7 +8200,7 @@
           {
             "op": "item",
             "id": 1289,
-            "qty": 1,
+            "qty": 2,
             "scope": "ANY"
           }
         ]
@@ -8600,7 +8591,7 @@
           {
             "op": "item",
             "id": 233,
-            "qty": 312,
+            "qty": 85,
             "scope": "ANY"
           }
         ]
@@ -8850,26 +8841,76 @@
       "item": 1523
     },
     {
-      "id": "e2-562",
+      "id": "e2-562a",
       "title": "NOTE: You should be out of …",
-      "text": "NOTE: You should be out of ultra compost in the storage by now. Grab 15 pineapples out the bank and 25 volcanic ash and teleport to Camelot to make more. Use the 25 volcanic ash on the bin of supercompost and refill with pineapples. Use empty buckets in tool leprechaun. Bank at catherby.",
+      "text": "NOTE: You should be out of ultra compost in the storage by now. Grab 15 pineapples out the bank and 25 volcanic ash",
       "complete": {
         "op": "or",
         "of": [
           {
             "op": "itemAcquired",
-            "id": 6034,
-            "qty": 40
+            "id": 21622,
+            "qty": 25
           },
           {
             "op": "item",
-            "id": 6034,
-            "qty": 40,
+            "id": 21622,
+            "qty": 25,
             "scope": "ANY"
           }
         ]
       },
-      "item": 6034,
+      "item": 21622,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "e2-562b",
+      "title": "teleport to Camelot to make more.",
+      "text": "teleport to Camelot to make more.",
+      "world": [
+        2758,
+        3507,
+        0
+      ],
+      "complete": {
+        "op": "position",
+        "x": 2758,
+        "y": 3507,
+        "z": 0,
+        "radius": 8
+      }
+    },
+    {
+      "id": "e2-562c",
+      "title": "Use the 25 volcanic ash on …",
+      "text": "Use the 25 volcanic ash on the bin of supercompost and refill with pineapples.",
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "e2-562d",
+      "title": "Use empty buckets in tool leprechaun.",
+      "text": "Use empty buckets in tool leprechaun.",
+      "manual": true,
+      "world": [
+        2758,
+        3507,
+        0
+      ]
+    },
+    {
+      "id": "e2-562e",
+      "title": "Bank at catherby.",
+      "text": "Bank at catherby.",
+      "manual": true,
       "npc": 1520,
       "world": [
         2841,
@@ -8973,7 +9014,7 @@
     {
       "id": "e2-569",
       "title": "Do Tithe Farm until 62 Farming …",
-      "text": "Do Tithe Farm until 62 Farming (34-54 sucks, 54-62 cozy) [Do Birdhouse runs & Seaweed runs during, plant any good trees from birdhouses]",
+      "text": "Do Tithe Farm until 62 Farming (34-54 sucks, 54-62 cozy) [Do Birdhouse runs & Seaweed runs during; plant any good trees from birdhouses]",
       "complete": {
         "op": "skill",
         "skill": "FARMING",
@@ -9033,21 +9074,10 @@
       ]
     },
     {
-      "id": "e2-573a",
-      "title": "Buy Autoweed (Come back",
-      "text": "Buy Autoweed (Come back",
+      "id": "e2-573",
+      "title": "Buy Autoweed (Come back and buy …",
+      "text": "Buy Autoweed (Come back and buy herb sack from here after legends)",
       "manual": true
-    },
-    {
-      "id": "e2-573b",
-      "title": "buy herb sack from here after …",
-      "text": "buy herb sack from here after legends)",
-      "manual": true,
-      "world": [
-        3354,
-        3420,
-        0
-      ]
     },
     {
       "id": "e2-574",
@@ -9113,8 +9143,8 @@
     },
     {
       "id": "e2-578b",
-      "title": "Use both Nettles on bowls",
-      "text": "Use both Nettles on bowls",
+      "title": "Use both Nettles on bowls.",
+      "text": "Use both Nettles on bowls.",
       "manual": true,
       "world": [
         3210,
@@ -9201,8 +9231,8 @@
     },
     {
       "id": "e2-583b",
-      "title": "pick nettles next to yew tree",
-      "text": "pick nettles next to yew tree",
+      "title": "pick nettles next to yew tree.",
+      "text": "pick nettles next to yew tree.",
       "manual": true,
       "world": [
         3097,
@@ -9293,9 +9323,42 @@
       ]
     },
     {
-      "id": "e2-591",
+      "id": "e2-591a",
       "title": "Plant Hespori asap with Garden Pie. …",
-      "text": "Plant Hespori asap with Garden Pie. When this is fully grown the next day come in, pray magic (You may not have protect magic prayer unlocked yet by the time its grown. If so wait until you get the prayer level), and start the fight with your bronze/iron/steel knives and kill all 4 flowers for a hard CA. You will not be ready to actually kill the hespori so just get the CA and quick-escape on the cave exit. Hespori is VERY dangerous at this stage so be careful.",
+      "text": "Plant Hespori asap with Garden Pie. When this is fully grown the next day come in",
+      "manual": true,
+      "world": [
+        2617,
+        3309,
+        0
+      ]
+    },
+    {
+      "id": "e2-591b",
+      "title": "pray magic (You may not have …",
+      "text": "pray magic (You may not have protect magic prayer unlocked yet by the time its grown. If so wait until you get the prayer level)",
+      "manual": true,
+      "world": [
+        2617,
+        3309,
+        0
+      ]
+    },
+    {
+      "id": "e2-591c",
+      "title": "start the fight with your bronze/iron/steel …",
+      "text": "start the fight with your bronze/iron/steel knives",
+      "manual": true,
+      "world": [
+        2617,
+        3309,
+        0
+      ]
+    },
+    {
+      "id": "e2-591d",
+      "title": "kill all 4 flowers for a …",
+      "text": "kill all 4 flowers for a hard CA. You will not be ready to actually kill the hespori so just get the CA and quick-escape on the cave exit. Hespori is VERY dangerous at this stage so be careful.",
       "manual": true,
       "world": [
         2617,

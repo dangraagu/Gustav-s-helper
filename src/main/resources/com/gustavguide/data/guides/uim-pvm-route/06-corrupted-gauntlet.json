@@ -17,11 +17,11 @@
     {
       "id": "corrupted-gauntlet-002",
       "title": "Make the Bow of faerdhinen, and …",
-      "text": "Make the Bow of faerdhinen, and crystal armour",
+      "text": "Make the Bow of faerdhinen, and crystal armour.",
       "manual": true,
       "world": [
-        3228,
-        6116,
+        3285,
+        6054,
         0
       ]
     }

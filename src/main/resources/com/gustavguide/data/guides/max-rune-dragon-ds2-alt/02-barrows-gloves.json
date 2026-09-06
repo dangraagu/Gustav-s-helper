@@ -311,9 +311,9 @@
       "manual": true
     },
     {
-      "id": "barrows-gloves-023a",
-      "title": "Get 60 thieving (artefacts no teleport",
-      "text": "Get 60 thieving (artefacts no teleport",
+      "id": "barrows-gloves-023",
+      "title": "Get 60 thieving (artefacts no teleport, …",
+      "text": "Get 60 thieving (artefacts no teleport, make use of the bridge safespot) https://i.imgur.com/x0e3te6.png",
       "complete": {
         "op": "skill",
         "skill": "THIEVING",
@@ -321,23 +321,7 @@
         "cmp": ">="
       },
       "note": "Steal artefacts in Port Piscarilius for the fastest XP from 49 to 65.",
-      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training",
-      "world": [
-        1796,
-        3781,
-        0
-      ]
-    },
-    {
-      "id": "barrows-gloves-023b",
-      "title": "make use of the bridge safespot) …",
-      "text": "make use of the bridge safespot) https://i.imgur.com/x0e3te6.png",
-      "manual": true,
-      "world": [
-        1796,
-        3781,
-        0
-      ]
+      "wiki": "https://oldschool.runescape.wiki/w/Thieving_training"
     },
     {
       "id": "barrows-gloves-024",

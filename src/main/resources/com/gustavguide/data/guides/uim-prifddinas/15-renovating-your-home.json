@@ -36,7 +36,7 @@
     {
       "id": "renovating-your-home-004",
       "title": "Make 7 Steel bars from the …",
-      "text": "Make 7 Steel bars from the Blast Furnace like before",
+      "text": "Make 7 Steel bars from the Blast Furnace like before.",
       "manual": true,
       "world": [
         2930,
@@ -61,8 +61,8 @@
     },
     {
       "id": "renovating-your-home-006",
-      "title": "Make 7 more oak planks",
-      "text": "Make 7 more oak planks",
+      "title": "Make 7 more oak planks.",
+      "text": "Make 7 more oak planks.",
       "manual": true,
       "world": [
         3176,
@@ -89,8 +89,8 @@
     },
     {
       "id": "renovating-your-home-008",
-      "title": "Make some tea in your house",
-      "text": "Make some tea in your house",
+      "title": "Make some tea in your house.",
+      "text": "Make some tea in your house.",
       "manual": true,
       "world": [
         3176,
@@ -111,8 +111,8 @@
     },
     {
       "id": "renovating-your-home-009b",
-      "title": "make an oak cape rack",
-      "text": "make an oak cape rack",
+      "title": "make an oak cape rack.",
+      "text": "make an oak cape rack.",
       "manual": true,
       "world": [
         3176,
@@ -140,7 +140,7 @@
     {
       "id": "renovating-your-home-010b",
       "title": "Head south and then west to …",
-      "text": "Head south and then west to the teak tree",
+      "text": "Head south and then west to the teak tree.",
       "manual": true,
       "world": [
         2407,
@@ -150,8 +150,8 @@
     },
     {
       "id": "renovating-your-home-011",
-      "title": "Chop 18 teak logs",
-      "text": "Chop 18 teak logs",
+      "title": "Chop 18 teak logs.",
+      "text": "Chop 18 teak logs.",
       "manual": true,
       "object": 9036,
       "world": [
@@ -191,8 +191,8 @@
     },
     {
       "id": "renovating-your-home-012c",
-      "title": "buy 4 limestone bricks",
-      "text": "buy 4 limestone bricks",
+      "title": "buy 4 limestone bricks.",
+      "text": "buy 4 limestone bricks.",
       "complete": {
         "op": "or",
         "of": [
@@ -219,7 +219,7 @@
     {
       "id": "renovating-your-home-013",
       "title": "Make the logs into teak planks …",
-      "text": "Make the logs into teak planks at the sawmil",
+      "text": "Make the logs into teak planks at the sawmil.",
       "manual": true,
       "world": [
         3302,
@@ -241,7 +241,7 @@
     {
       "id": "renovating-your-home-014b",
       "title": "make the 6 teak portal frames …",
-      "text": "make the 6 teak portal frames and 2 teleport focus in the portal chambers",
+      "text": "make the 6 teak portal frames and 2 teleport focus in the portal chambers.",
       "manual": true,
       "world": [
         3302,
@@ -252,7 +252,7 @@
     {
       "id": "renovating-your-home-015",
       "title": "Get 6 more oak planks, 9 …",
-      "text": "Get 6 more oak planks, 9 more teak planks, and 2 more limestone bricks",
+      "text": "Get 6 more oak planks, 9 more teak planks, and 2 more limestone bricks.",
       "manual": true
     },
     {
@@ -269,7 +269,7 @@
     {
       "id": "renovating-your-home-016b",
       "title": "make an oak house in the …",
-      "text": "make an oak house in the menagerie",
+      "text": "make an oak house in the menagerie.",
       "manual": true,
       "world": [
         3302,
@@ -280,7 +280,7 @@
     {
       "id": "renovating-your-home-017",
       "title": "Make another portal focus and 3 …",
-      "text": "Make another portal focus and 3 teak portal frames",
+      "text": "Make another portal focus and 3 teak portal frames.",
       "manual": true,
       "world": [
         3302,
@@ -291,19 +291,19 @@
     {
       "id": "renovating-your-home-018",
       "title": "(Optional) Go out of your way …",
-      "text": "(Optional) Go out of your way to make any other items you want in your house",
+      "text": "(Optional) Go out of your way to make any other items you want in your house.",
       "manual": true
     },
     {
       "id": "renovating-your-home-019",
-      "title": "Get a bucket of water",
-      "text": "Get a bucket of water",
+      "title": "Get a bucket of water.",
+      "text": "Get a bucket of water.",
       "manual": true
     },
     {
       "id": "renovating-your-home-020",
-      "title": "Complete the Enter the Abyss miniquest",
-      "text": "Complete the Enter the Abyss miniquest",
+      "title": "Complete the Enter the Abyss miniquest.",
+      "text": "Complete the Enter the Abyss miniquest.",
       "complete": {
         "op": "quest",
         "quest": "ENTER_THE_ABYSS",
@@ -318,7 +318,7 @@
     {
       "id": "renovating-your-home-021",
       "title": "Complete Temple of the Eye. — …",
-      "text": "Complete Temple of the Eye. — These quests may have already been completed if you had to hunt for a nature talisman back in Fairytale I - Growing Pains",
+      "text": "Complete Temple of the Eye. — These quests may have already been completed if you had to hunt for a nature talisman back in Fairytale I - Growing Pains.",
       "complete": {
         "op": "and",
         "of": [
@@ -350,7 +350,7 @@
     {
       "id": "renovating-your-home-022b",
       "title": "buy: 1,100 law runes, 300 soul …",
-      "text": "buy: 1,100 law runes, 300 soul runes, 500 earth runes, 500 water runes, 300 fire runes, and 600 air runes",
+      "text": "buy: 1,100 law runes, 300 soul runes, 500 earth runes, 500 water runes, 300 fire runes, and 600 air runes.",
       "complete": {
         "op": "or",
         "of": [
@@ -377,7 +377,7 @@
     {
       "id": "renovating-your-home-023",
       "title": "Empty your rune pouch into your …",
-      "text": "Empty your rune pouch into your inventory (You should have some extra runes there too)",
+      "text": "Empty your rune pouch into your inventory (You should have some extra runes there too).",
       "manual": true,
       "world": [
         3315,
@@ -400,7 +400,7 @@
     {
       "id": "renovating-your-home-025",
       "title": "You should now be able to …",
-      "text": "You should now be able to drop your water runes since the teleports that use them are in your house",
+      "text": "You should now be able to drop your water runes since the teleports that use them are in your house.",
       "manual": true
     }
   ]

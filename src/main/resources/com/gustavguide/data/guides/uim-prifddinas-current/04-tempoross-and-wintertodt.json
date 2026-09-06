@@ -5,8 +5,8 @@
   "steps": [
     {
       "id": "tempoross-and-wintertodt-001",
-      "title": "Complete Tower of Life",
-      "text": "Complete Tower of Life",
+      "title": "Complete Tower of Life.",
+      "text": "Complete Tower of Life.",
       "complete": {
         "op": "quest",
         "quest": "TOWER_OF_LIFE",
@@ -21,7 +21,7 @@
     {
       "id": "tempoross-and-wintertodt-002",
       "title": "Complete Cook's Assistant. — The items …",
-      "text": "Complete Cook's Assistant. — The items can all be obtained in the farm area north of Lumbridge Castle. — Get an extra bucket of milk when milking the cow for Gertrude's Cat",
+      "text": "Complete Cook's Assistant. — The items can all be obtained in the farm area north of Lumbridge Castle. — Get an extra bucket of milk when milking the cow for Gertrude's Cat.",
       "complete": {
         "op": "and",
         "of": [
@@ -46,8 +46,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-003",
-      "title": "Complete Gertrude's Cat",
-      "text": "Complete Gertrude's Cat",
+      "title": "Complete Gertrude's Cat.",
+      "text": "Complete Gertrude's Cat.",
       "complete": {
         "op": "quest",
         "quest": "GERTRUDES_CAT",
@@ -61,8 +61,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-004",
-      "title": "Complete Murder Mystery",
-      "text": "Complete Murder Mystery",
+      "title": "Complete Murder Mystery.",
+      "text": "Complete Murder Mystery.",
       "complete": {
         "op": "quest",
         "quest": "MURDER_MYSTERY",
@@ -76,8 +76,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-005",
-      "title": "Complete Fishing Contest",
-      "text": "Complete Fishing Contest",
+      "title": "Complete Fishing Contest.",
+      "text": "Complete Fishing Contest.",
       "complete": {
         "op": "quest",
         "quest": "FISHING_CONTEST",
@@ -91,8 +91,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-006",
-      "title": "Complete Twilight's Promise",
-      "text": "Complete Twilight's Promise",
+      "title": "Complete Twilight's Promise.",
+      "text": "Complete Twilight's Promise.",
       "complete": {
         "op": "quest",
         "quest": "TWILIGHTS_PROMISE",
@@ -107,7 +107,7 @@
     {
       "id": "tempoross-and-wintertodt-007",
       "title": "Complete The Ribbiting Tale of a …",
-      "text": "Complete The Ribbiting Tale of a Lily Pad Labour Dispute",
+      "text": "Complete The Ribbiting Tale of a Lily Pad Labour Dispute.",
       "complete": {
         "op": "quest",
         "quest": "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE",
@@ -122,7 +122,7 @@
     {
       "id": "tempoross-and-wintertodt-008",
       "title": "Complete The Knight's Sword. — A …",
-      "text": "Complete The Knight's Sword. — A pie dish can be obtained in the Varrock Kitchen during the quest after speaking to Reldo. — Get the Iron bars from the spawn in Sunset Coast docks",
+      "text": "Complete The Knight's Sword. — A pie dish can be obtained in the Varrock Kitchen during the quest after speaking to Reldo. — Get the Iron bars from the spawn in Sunset Coast docks.",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
@@ -136,8 +136,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-009",
-      "title": "Complete Black Knights Fortress",
-      "text": "Complete Black Knights Fortress",
+      "title": "Complete Black Knights Fortress.",
+      "text": "Complete Black Knights Fortress.",
       "complete": {
         "op": "quest",
         "quest": "BLACK_KNIGHTS_FORTRESS",
@@ -151,8 +151,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-010",
-      "title": "Complete Sleeping Giants",
-      "text": "Complete Sleeping Giants",
+      "title": "Complete Sleeping Giants.",
+      "text": "Complete Sleeping Giants.",
       "complete": {
         "op": "quest",
         "quest": "SLEEPING_GIANTS",
@@ -167,13 +167,13 @@
     {
       "id": "tempoross-and-wintertodt-011",
       "title": "Get a Forestry kit. — Go …",
-      "text": "Get a Forestry kit. — Go to the Forestry world 444 and do events during all of the upcoming Woodcutting segments. — Keep any leaves you get in the kit",
+      "text": "Get a Forestry kit. — Go to the Forestry world 444 and do events during all of the upcoming Woodcutting segments. — Keep any leaves you get in the kit.",
       "manual": true
     },
     {
       "id": "tempoross-and-wintertodt-012",
       "title": "Start The Giant Dwarf for access …",
-      "text": "Start The Giant Dwarf for access to Keldagrim. — Remember you can get to the Blast Furnace with the minigame teleport or the GE minecart",
+      "text": "Start The Giant Dwarf for access to Keldagrim. — Remember you can get to the Blast Furnace with the minigame teleport or the GE minecart.",
       "complete": {
         "op": "quest",
         "quest": "THE_GIANT_DWARF",
@@ -188,7 +188,7 @@
     {
       "id": "tempoross-and-wintertodt-013",
       "title": "Smith an inventory of Steel bars …",
-      "text": "Smith an inventory of Steel bars at the Blast Furnace. — Just pay the fee. — Withdraw 5 with the withdraw X option. — Use the nearby bucket spawn and water source to cool the bars",
+      "text": "Smith an inventory of Steel bars at the Blast Furnace. — Just pay the fee. — Withdraw 5 with the withdraw X option. — Use the nearby bucket spawn and water source to cool the bars.",
       "complete": {
         "op": "or",
         "of": [
@@ -243,13 +243,13 @@
     {
       "id": "tempoross-and-wintertodt-015",
       "title": "Chop Logs and fletch them into …",
-      "text": "Chop Logs and fletch them into 900 arrow shafts",
+      "text": "Chop Logs and fletch them into 900 arrow shafts.",
       "manual": true
     },
     {
       "id": "tempoross-and-wintertodt-016",
       "title": "Complete The Tourist Trap. — Buy …",
-      "text": "Complete The Tourist Trap. — Buy 15000 feathers from Shantay. Fletch 900 headless arrows for the 10 Fletching. — Put the xp reward on Fletching",
+      "text": "Complete The Tourist Trap. — Buy 15000 feathers from Shantay. Fletch 900 headless arrows for the 10 Fletching. — Put the xp reward on Fletching.",
       "complete": {
         "op": "quest",
         "quest": "THE_TOURIST_TRAP",
@@ -291,7 +291,7 @@
     {
       "id": "tempoross-and-wintertodt-018",
       "title": "Continue with the guide questing and …",
-      "text": "Continue with the guide questing and fletch your 15000 headless arrows as you walk around",
+      "text": "Continue with the guide questing and fletch your 15000 headless arrows as you walk around.",
       "manual": true,
       "world": [
         3167,
@@ -302,7 +302,7 @@
     {
       "id": "tempoross-and-wintertodt-019",
       "title": "Once you have finished making those, …",
-      "text": "Once you have finished making those, head to Hickton's Archery Emporium and purchase 15000 Steel arrowtips. — Purchase 250 per world. This will only cost about 200k total",
+      "text": "Once you have finished making those, head to Hickton's Archery Emporium and purchase 15000 Steel arrowtips. — Purchase 250 per world. This will only cost about 200k total.",
       "complete": {
         "op": "or",
         "of": [
@@ -329,13 +329,13 @@
     {
       "id": "tempoross-and-wintertodt-020",
       "title": "Then you will continue questing as …",
-      "text": "Then you will continue questing as before and fletch 15000 Steel arrows. — You should end with at least 50 Fletching. — Drop the arrows once finished, they are just for the xp",
+      "text": "Then you will continue questing as before and fletch 15000 Steel arrows. — You should end with at least 50 Fletching. — Drop the arrows once finished, they are just for the xp.",
       "manual": true
     },
     {
       "id": "tempoross-and-wintertodt-021",
-      "title": "Complete Elemental Workshop I",
-      "text": "Complete Elemental Workshop I",
+      "title": "Complete Elemental Workshop I.",
+      "text": "Complete Elemental Workshop I.",
       "complete": {
         "op": "quest",
         "quest": "ELEMENTAL_WORKSHOP_I",
@@ -349,8 +349,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-022",
-      "title": "Complete Elemental Workshop II",
-      "text": "Complete Elemental Workshop II",
+      "title": "Complete Elemental Workshop II.",
+      "text": "Complete Elemental Workshop II.",
       "complete": {
         "op": "quest",
         "quest": "ELEMENTAL_WORKSHOP_II",
@@ -391,8 +391,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-024",
-      "title": "Complete Horror from the Deep",
-      "text": "Complete Horror from the Deep",
+      "title": "Complete Horror from the Deep.",
+      "text": "Complete Horror from the Deep.",
       "complete": {
         "op": "quest",
         "quest": "HORROR_FROM_THE_DEEP",
@@ -406,8 +406,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-025",
-      "title": "Complete Pandemonium",
-      "text": "Complete Pandemonium",
+      "title": "Complete Pandemonium.",
+      "text": "Complete Pandemonium.",
       "complete": {
         "op": "quest",
         "quest": "PANDEMONIUM",
@@ -421,8 +421,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-026",
-      "title": "Complete Enter the abyss",
-      "text": "Complete Enter the abyss",
+      "title": "Complete Enter the abyss.",
+      "text": "Complete Enter the abyss.",
       "complete": {
         "op": "quest",
         "quest": "ENTER_THE_ABYSS",
@@ -436,8 +436,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-027",
-      "title": "Complete Goblin Diplomacy",
-      "text": "Complete Goblin Diplomacy",
+      "title": "Complete Goblin Diplomacy.",
+      "text": "Complete Goblin Diplomacy.",
       "complete": {
         "op": "quest",
         "quest": "GOBLIN_DIPLOMACY",
@@ -451,8 +451,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-028",
-      "title": "Complete Recipe for Disaster/Another Cook's Quest",
-      "text": "Complete Recipe for Disaster/Another Cook's Quest",
+      "title": "Complete Recipe for Disaster/Another Cook's Quest.",
+      "text": "Complete Recipe for Disaster/Another Cook's Quest.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST",
@@ -462,7 +462,7 @@
     {
       "id": "tempoross-and-wintertodt-029",
       "title": "Complete Recipe for Disaster/Freeing the Goblin …",
-      "text": "Complete Recipe for Disaster/Freeing the Goblin generals",
+      "text": "Complete Recipe for Disaster/Freeing the Goblin generals.",
       "complete": {
         "op": "quest",
         "quest": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE",
@@ -491,8 +491,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-031",
-      "title": "Complete Getting Ahead",
-      "text": "Complete Getting Ahead",
+      "title": "Complete Getting Ahead.",
+      "text": "Complete Getting Ahead.",
       "complete": {
         "op": "quest",
         "quest": "GETTING_AHEAD",
@@ -532,7 +532,7 @@
     {
       "id": "tempoross-and-wintertodt-033",
       "title": "Complete Dwarf Cannon. — Remember your …",
-      "text": "Complete Dwarf Cannon. — Remember your Soul Wars minigame tele",
+      "text": "Complete Dwarf Cannon. — Remember your Soul Wars minigame tele.",
       "complete": {
         "op": "quest",
         "quest": "DWARF_CANNON",
@@ -546,8 +546,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-034",
-      "title": "Complete A Porcine of Interest",
-      "text": "Complete A Porcine of Interest",
+      "title": "Complete A Porcine of Interest.",
+      "text": "Complete A Porcine of Interest.",
       "complete": {
         "op": "quest",
         "quest": "A_PORCINE_OF_INTEREST",
@@ -561,8 +561,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-035",
-      "title": "Complete Sheep Herder",
-      "text": "Complete Sheep Herder",
+      "title": "Complete Sheep Herder.",
+      "text": "Complete Sheep Herder.",
       "complete": {
         "op": "quest",
         "quest": "SHEEP_HERDER",
@@ -576,8 +576,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-036",
-      "title": "Complete Observatory Quest",
-      "text": "Complete Observatory Quest",
+      "title": "Complete Observatory Quest.",
+      "text": "Complete Observatory Quest.",
       "complete": {
         "op": "quest",
         "quest": "OBSERVATORY_QUEST",
@@ -591,8 +591,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-037",
-      "title": "Complete Clock Tower",
-      "text": "Complete Clock Tower",
+      "title": "Complete Clock Tower.",
+      "text": "Complete Clock Tower.",
       "complete": {
         "op": "quest",
         "quest": "CLOCK_TOWER",
@@ -607,7 +607,7 @@
     {
       "id": "tempoross-and-wintertodt-038",
       "title": "Head to Gerrant's Fishy Business in …",
-      "text": "Head to Gerrant's Fishy Business in Port Sarim",
+      "text": "Head to Gerrant's Fishy Business in Port Sarim.",
       "manual": true,
       "npc": 3648,
       "world": [
@@ -619,7 +619,7 @@
     {
       "id": "tempoross-and-wintertodt-039",
       "title": "Purchase raw sardiness, cook them on …",
-      "text": "Purchase raw sardiness, cook them on the nearby range until 15 Cooking",
+      "text": "Purchase raw sardiness, cook them on the nearby range until 15 Cooking.",
       "complete": {
         "op": "skill",
         "skill": "COOKING",
@@ -637,7 +637,7 @@
     {
       "id": "tempoross-and-wintertodt-040",
       "title": "Purchase a fly fishing rod and …",
-      "text": "Purchase a fly fishing rod and 500 feathers",
+      "text": "Purchase a fly fishing rod and 500 feathers.",
       "complete": {
         "op": "or",
         "of": [
@@ -663,8 +663,8 @@
     },
     {
       "id": "tempoross-and-wintertodt-041",
-      "title": "Head to Barbarian Village",
-      "text": "Head to Barbarian Village",
+      "title": "Head to Barbarian Village.",
+      "text": "Head to Barbarian Village.",
       "world": [
         3080,
         3427,
@@ -679,20 +679,9 @@
       }
     },
     {
-      "id": "tempoross-and-wintertodt-042a",
-      "title": "Fish",
-      "text": "Fish",
-      "manual": true,
-      "world": [
-        3106,
-        3428,
-        0
-      ]
-    },
-    {
-      "id": "tempoross-and-wintertodt-042b",
-      "title": "cook there until you reach 35 …",
-      "text": "cook there until you reach 35 Fishing",
+      "id": "tempoross-and-wintertodt-042",
+      "title": "Fish and cook there until you …",
+      "text": "Fish and cook there until you reach 35 Fishing.",
       "complete": {
         "op": "skill",
         "skill": "FISHING",
@@ -702,15 +691,15 @@
       "note": "3-tick fly fish trout/salmon at a static spot (e.g. SE of Prifddinas) for fastest XP; Tempoross is a good no-tick option from 35.",
       "wiki": "https://oldschool.runescape.wiki/w/Pay-to-play_Fishing_training",
       "world": [
-        3212,
-        3215,
+        3106,
+        3428,
         0
       ]
     },
     {
       "id": "tempoross-and-wintertodt-043",
       "title": "Put all of your coins in …",
-      "text": "Put all of your coins in the coffer at the Ferox Enclave",
+      "text": "Put all of your coins in the coffer at the Ferox Enclave.",
       "manual": true,
       "world": [
         3137,
@@ -721,7 +710,7 @@
     {
       "id": "tempoross-and-wintertodt-044",
       "title": "Drop any runes and items you …",
-      "text": "Drop any runes and items you have on you for a clean inventory. — Keep your Ardougne Cloak, boots of lightness, staff of air, and jungle camo",
+      "text": "Drop any runes and items you have on you for a clean inventory. — Keep your Ardougne Cloak, boots of lightness, staff of air, and jungle camo.",
       "manual": true,
       "world": [
         2624,

@@ -33,13 +33,28 @@ CASES = [
     ("Head to Varrock; buy a sword", ["Head to Varrock", "buy a sword"]),
     # empty
     ("", []),
-    # long prose (>180 chars) is left whole, never shredded into noise
+    # BEHAVIOUR CHANGE 2026-09-06 (blob atomisation): long steps now split too — sentence-first,
+    # then at action boundaries like any short step. This single-sentence action chain used to be
+    # pinned as "left whole"; it now atomises cleanly (the leading non-action clause folds forward).
     (("You should be level 51 slayer and make sure you have finished the Curse of the Empty Lord "
       "miniquest, then teleport to Varrock and grab the history book and pray at the altar and buy "
       "supplies before heading north to the dungeon entrance."),
-     [("You should be level 51 slayer and make sure you have finished the Curse of the Empty Lord "
-       "miniquest, then teleport to Varrock and grab the history book and pray at the altar and buy "
-       "supplies before heading north to the dungeon entrance.")]),
+     ["You should be level 51 slayer, make sure you have finished the Curse of the Empty Lord miniquest",
+      "teleport to Varrock",
+      "grab the history book",
+      "pray at the altar",
+      "buy supplies before heading north to the dungeon entrance."]),
+    # a parenthetical aside never splits, even when it contains ", talk" (depth guard)
+    ("Buy the supplies (destroy the lamps, talk to Bob later) and run to the bank",
+     ["Buy the supplies (destroy the lamps, talk to Bob later)", "run to the bank"]),
+    # a title abbreviation's dot is not a sentence end ("Dr. Harlow" appears in shipped raws) —
+    # this long two-sentence step must split at the real boundary only
+    (("Head over to the Blue Moon Inn on the south side of Varrock and talk to Dr. Harlow about "
+      "his old vampyre hunting days, buying him a beer if he asks for one during the chat. "
+      "Buy 3 beers from the bartender before you leave the inn for the road ahead."),
+     [("Head over to the Blue Moon Inn on the south side of Varrock, talk to Dr. Harlow about "
+       "his old vampyre hunting days, buying him a beer if he asks for one during the chat."),
+      "Buy 3 beers from the bartender before you leave the inn for the road ahead."]),
 ]
 
 TRAVEL_CASES = [
@@ -76,8 +91,45 @@ INDEXED_CASES = [
 ]
 
 
-def main():
+def fixture_checks():
+    """Real-source fixtures (never hand-invented): properties of atomised shipped-guide blobs."""
+    import json
     fails = 0
+
+    def check(desc, cond):
+        nonlocal fails
+        if not cond:
+            fails += 1
+            print("FAIL fixture: " + desc)
+
+    raw = json.loads((Path(__file__).parent / "data" / "raw" / "bruhsailer.json")
+                     .read_text(encoding="utf-8"))
+    blob = next(st["name"] for sec in raw["sections"] for st in sec["steps"]
+                if st.get("name", "").startswith("Walk to Port Sarim, make 3 pastry doughs"))
+    atoms = sg.split_atoms(blob)
+    check("Port Sarim wall atomises into 10+ atoms", len(atoms) >= 10)
+    check("every atom has balanced parentheses",
+          all(a.count("(") == a.count(")") for a in atoms))
+    check("Thurgo sentence is its own atom",
+          any(a.startswith("Speak with Thurgo") for a in atoms))
+    check("the fly-fishing parenthetical stays inside its buy atom",
+          any("16k feathers" in a and "fly fishing later" in a for a in atoms))
+    check("no atom is a bare conjunction fragment",
+          all(len(a) > 3 and not a.lower().startswith(("and ", "then ", "also ")) for a in atoms))
+
+    cur = json.loads((Path(__file__).parent / "data" / "raw" / "uim-prifddinas-current.json")
+                     .read_text(encoding="utf-8"))
+    emdash = next((st["name"] for sec in cur["sections"] for st in sec["steps"]
+                   if len(st.get("name", "")) > sg.MAX_SPLIT_LEN and "—" in st.get("name", "")), None)
+    check("an em-dash long step exists to pin against", emdash is not None)
+    if emdash is not None:
+        check("em-dash note style stays ONE step (notes are advice, not checkboxes)",
+              sg.split_atoms(emdash) == [emdash.strip()])
+    return fails
+
+
+def main():
+    fails = fixture_checks()
     for src, want in INDEXED_CASES:
         got = sg.split_atoms_indexed(src)
         if got != want:

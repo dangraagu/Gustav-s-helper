@@ -5,8 +5,8 @@
   "steps": [
     {
       "id": "back-around-the-loop-aga-001",
-      "title": "Home teleport to Lumbridge",
-      "text": "Home teleport to Lumbridge",
+      "title": "Home teleport to Lumbridge.",
+      "text": "Home teleport to Lumbridge.",
       "manual": true,
       "object": 24009,
       "world": [
@@ -30,7 +30,7 @@
     {
       "id": "back-around-the-loop-aga-002b",
       "title": "complete The Restless Ghost. Keep the …",
-      "text": "complete The Restless Ghost. Keep the ghostspeak amulet",
+      "text": "complete The Restless Ghost. Keep the ghostspeak amulet.",
       "complete": {
         "op": "quest",
         "quest": "THE_RESTLESS_GHOST",
@@ -61,8 +61,8 @@
     },
     {
       "id": "back-around-the-loop-aga-003b",
-      "title": "buy a steel axe from Bob",
-      "text": "buy a steel axe from Bob",
+      "title": "buy a steel axe from Bob.",
+      "text": "buy a steel axe from Bob.",
       "complete": {
         "op": "or",
         "of": [
@@ -120,8 +120,8 @@
     },
     {
       "id": "back-around-the-loop-aga-004c",
-      "title": "Drop the air talisman",
-      "text": "Drop the air talisman",
+      "title": "Drop the air talisman.",
+      "text": "Drop the air talisman.",
       "manual": true,
       "world": [
         3109,
@@ -131,8 +131,8 @@
     },
     {
       "id": "back-around-the-loop-aga-005",
-      "title": "Go north into Draynor Village",
-      "text": "Go north into Draynor Village",
+      "title": "Go north into Draynor Village.",
+      "text": "Go north into Draynor Village.",
       "world": [
         3103,
         3265,
@@ -149,7 +149,7 @@
     {
       "id": "back-around-the-loop-aga-006",
       "title": "Have Aggie make you a yellow …",
-      "text": "Have Aggie make you a yellow dye, a red dye, and a blue dye, Use the ingredients on her to make them faster. — Use the red and yellow dye together to make orange dye",
+      "text": "Have Aggie make you a yellow dye, a red dye, and a blue dye, Use the ingredients on her to make them faster. — Use the red and yellow dye together to make orange dye.",
       "manual": true,
       "npc": 4284,
       "world": [
@@ -215,8 +215,8 @@
     },
     {
       "id": "back-around-the-loop-aga-008b",
-      "title": "Equip the Chronicle",
-      "text": "Equip the Chronicle",
+      "title": "Equip the Chronicle.",
+      "text": "Equip the Chronicle.",
       "manual": true,
       "item": 13660,
       "world": [
@@ -239,8 +239,8 @@
     },
     {
       "id": "back-around-the-loop-aga-009b",
-      "title": "search the cupboards upstairs for garlic",
-      "text": "search the cupboards upstairs for garlic",
+      "title": "search the cupboards upstairs for garlic.",
+      "text": "search the cupboards upstairs for garlic.",
       "manual": true,
       "world": [
         3098,
@@ -250,8 +250,8 @@
     },
     {
       "id": "back-around-the-loop-aga-010",
-      "title": "Run north to Draynor Manor",
-      "text": "Run north to Draynor Manor",
+      "title": "Run north to Draynor Manor.",
+      "text": "Run north to Draynor Manor.",
       "manual": true,
       "object": 134,
       "world": [
@@ -274,7 +274,7 @@
     {
       "id": "back-around-the-loop-aga-011b",
       "title": "go down the stairs to the …",
-      "text": "go down the stairs to the east",
+      "text": "go down the stairs to the east.",
       "manual": true,
       "world": [
         3108,
@@ -295,8 +295,8 @@
     },
     {
       "id": "back-around-the-loop-aga-013",
-      "title": "Drop the garlic",
-      "text": "Drop the garlic",
+      "title": "Drop the garlic.",
+      "text": "Drop the garlic.",
       "manual": true,
       "world": [
         3108,
@@ -307,7 +307,7 @@
     {
       "id": "back-around-the-loop-aga-014",
       "title": "Use a teleport to house tab, …",
-      "text": "Use a teleport to house tab, then exit your house",
+      "text": "Use a teleport to house tab, then exit your house.",
       "manual": true,
       "world": [
         3108,
@@ -329,7 +329,7 @@
     {
       "id": "back-around-the-loop-aga-016",
       "title": "Exit your house, drop the extra …",
-      "text": "Exit your house, drop the extra nails, hammer, and saw",
+      "text": "Exit your house, drop the extra nails, hammer, and saw.",
       "manual": true,
       "world": [
         2949,
@@ -339,20 +339,20 @@
     },
     {
       "id": "back-around-the-loop-aga-017",
-      "title": "Head east to Port Sarim",
-      "text": "Head east to Port Sarim",
+      "title": "Head east to Port Sarim.",
+      "text": "Head east to Port Sarim.",
       "manual": true,
       "npc": 3648,
       "world": [
-        3029,
-        3221,
+        2954,
+        3147,
         0
       ]
     },
     {
       "id": "back-around-the-loop-aga-018",
       "title": "Buy one redberries and a pot …",
-      "text": "Buy one redberries and a pot of flour from Wydin's Food Store",
+      "text": "Buy one redberries and a pot of flour from Wydin's Food Store.",
       "complete": {
         "op": "or",
         "of": [
@@ -371,8 +371,8 @@
       },
       "item": 1933,
       "world": [
-        3013,
-        3207,
+        2905,
+        3149,
         0
       ]
     },
@@ -390,7 +390,7 @@
     {
       "id": "back-around-the-loop-aga-020",
       "title": "Drop the pot(s) and empty bucket …",
-      "text": "Drop the pot(s) and empty bucket once you have the redberry pie",
+      "text": "Drop the pot(s) and empty bucket once you have the redberry pie.",
       "manual": true,
       "world": [
         3212,
@@ -418,7 +418,7 @@
     {
       "id": "back-around-the-loop-aga-021b",
       "title": "buy one raw beef. — (Optional) …",
-      "text": "buy one raw beef. — (Optional) Buy 1-2 extra cheese in case you make a mistake during Witch's House",
+      "text": "buy one raw beef. — (Optional) Buy 1-2 extra cheese in case you make a mistake during Witch's House.",
       "complete": {
         "op": "or",
         "of": [
@@ -437,8 +437,8 @@
       },
       "item": 2132,
       "world": [
-        3013,
-        3207,
+        2928,
+        3456,
         0
       ]
     },
@@ -448,19 +448,19 @@
       "text": "Kill a giant rat to the west",
       "manual": true,
       "world": [
-        3200,
-        3174,
+        3117,
+        9889,
         0
       ]
     },
     {
       "id": "back-around-the-loop-aga-022b",
-      "title": "Take the raw rat meat",
-      "text": "Take the raw rat meat",
+      "title": "Take the raw rat meat.",
+      "text": "Take the raw rat meat.",
       "manual": true,
       "world": [
-        3200,
-        3174,
+        3117,
+        9889,
         0
       ]
     },
@@ -491,33 +491,33 @@
     {
       "id": "back-around-the-loop-aga-023c",
       "title": "speak with him to continue The …",
-      "text": "speak with him to continue The Knight's Sword",
+      "text": "speak with him to continue The Knight's Sword.",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
         "state": "FINISHED"
       },
       "world": [
-        3000,
-        3145,
+        2978,
+        3341,
         0
       ]
     },
     {
       "id": "back-around-the-loop-aga-024",
       "title": "Use a teleport to house tab …",
-      "text": "Use a teleport to house tab and exit your house",
+      "text": "Use a teleport to house tab and exit your house.",
       "manual": true,
       "world": [
-        3000,
-        3145,
+        2978,
+        3341,
         0
       ]
     },
     {
       "id": "back-around-the-loop-aga-025",
       "title": "Take a boat to Ardougne from …",
-      "text": "Take a boat to Ardougne from Captain Barnaby in Rimmington (not the charter ships in Port Sarim) for 30 coins",
+      "text": "Take a boat to Ardougne from Captain Barnaby in Rimmington (not the charter ships in Port Sarim) for 30 coins.",
       "manual": true,
       "npc": 754,
       "world": [
@@ -539,8 +539,8 @@
     },
     {
       "id": "back-around-the-loop-aga-026b",
-      "title": "take the raw chicken",
-      "text": "take the raw chicken",
+      "title": "take the raw chicken.",
+      "text": "take the raw chicken.",
       "manual": true,
       "world": [
         2700,
@@ -552,17 +552,12 @@
       "id": "back-around-the-loop-aga-027a",
       "title": "Head north and safespot a bear",
       "text": "Head north and safespot a bear",
-      "manual": true,
-      "world": [
-        2700,
-        3300,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "back-around-the-loop-aga-027b",
-      "title": "Take the raw bear meat",
-      "text": "Take the raw bear meat",
+      "title": "Take the raw bear meat.",
+      "text": "Take the raw bear meat.",
       "manual": true,
       "world": [
         2700,
@@ -599,8 +594,8 @@
     },
     {
       "id": "back-around-the-loop-aga-029",
-      "title": "Use the Falador teleport tab",
-      "text": "Use the Falador teleport tab",
+      "title": "Use the Falador teleport tab.",
+      "text": "Use the Falador teleport tab.",
       "manual": true,
       "world": [
         3000,
@@ -622,7 +617,7 @@
     {
       "id": "back-around-the-loop-aga-030b",
       "title": "Talk to the squire to continue …",
-      "text": "Talk to the squire to continue The Knight's Sword",
+      "text": "Talk to the squire to continue The Knight's Sword.",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
@@ -649,7 +644,7 @@
     {
       "id": "back-around-the-loop-aga-031b",
       "title": "take the portrait for The Knight's …",
-      "text": "take the portrait for The Knight's Sword",
+      "text": "take the portrait for The Knight's Sword.",
       "complete": {
         "op": "quest",
         "quest": "THE_KNIGHTS_SWORD",
@@ -676,7 +671,7 @@
     {
       "id": "back-around-the-loop-aga-032b",
       "title": "complete Goblin Diplomacy. 3 crates in …",
-      "text": "complete Goblin Diplomacy. 3 crates in the area have the goblin mail needed",
+      "text": "complete Goblin Diplomacy. 3 crates in the area have the goblin mail needed.",
       "complete": {
         "op": "quest",
         "quest": "GOBLIN_DIPLOMACY",
@@ -690,8 +685,8 @@
     },
     {
       "id": "back-around-the-loop-aga-033",
-      "title": "Drop the gold bar",
-      "text": "Drop the gold bar",
+      "title": "Drop the gold bar.",
+      "text": "Drop the gold bar.",
       "manual": true,
       "world": [
         2954,
@@ -717,7 +712,7 @@
     {
       "id": "back-around-the-loop-aga-035",
       "title": "Complete Druidic Ritual. — Use all …",
-      "text": "Complete Druidic Ritual. — Use all random event lamps on Herblore from now on",
+      "text": "Complete Druidic Ritual. — Use all random event lamps on Herblore from now on.",
       "complete": {
         "op": "quest",
         "quest": "DRUIDIC_RITUAL",
@@ -732,7 +727,7 @@
     {
       "id": "back-around-the-loop-aga-036",
       "title": "Use the antique lamp from X …",
-      "text": "Use the antique lamp from X Marks the Spot on Herblore",
+      "text": "Use the antique lamp from X Marks the Spot on Herblore.",
       "complete": {
         "op": "quest",
         "quest": "X_MARKS_THE_SPOT",
@@ -747,7 +742,7 @@
     {
       "id": "back-around-the-loop-aga-037",
       "title": "Use a teleport to house tab, …",
-      "text": "Use a teleport to house tab, then exit your house",
+      "text": "Use a teleport to house tab, then exit your house.",
       "manual": true,
       "world": [
         3228,
@@ -769,8 +764,8 @@
     },
     {
       "id": "back-around-the-loop-aga-038b",
-      "title": "Pick up one snape grass",
-      "text": "Pick up one snape grass",
+      "title": "Pick up one snape grass.",
+      "text": "Pick up one snape grass.",
       "complete": {
         "op": "or",
         "of": [
@@ -814,7 +809,7 @@
     {
       "id": "back-around-the-loop-aga-039b",
       "title": "take a boat to Ardougne from …",
-      "text": "take a boat to Ardougne from Captain Barnaby",
+      "text": "take a boat to Ardougne from Captain Barnaby.",
       "manual": true,
       "npc": 754,
       "world": [
