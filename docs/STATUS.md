@@ -1,6 +1,6 @@
 # Status — what's real vs. what's next
 
-*Last updated: 2026-09-05. Honest accounting, not a wishlist.*
+*Last updated: 2026-09-06. Honest accounting, not a wishlist.*
 
 ## ✅ Live on the RuneLite Plugin Hub
 
@@ -20,7 +20,7 @@ the waypoint pattern behind the old mass-fold bug ever reappears.
 | BRUHsailer | bruhsailer |
 | heboxjonge | 6 alt/max routes |
 
-- **45% of steps auto-complete** (quest / skill / item-ledger / arrival / diary conditions); the rest
+- **47% of steps auto-complete** (quest / skill / item-ledger / arrival / diary conditions); the rest
   are manual-advance. Coverage grows only where a condition is safe by construction — a wrong
   auto-complete is treated as worse than a manual click.
 - Coordinates are matched whole-word against wiki-grounded gazetteers, amenities, and Quest Helper
@@ -47,15 +47,16 @@ the waypoint pattern behind the old mass-fold bug ever reappears.
 
 ## ⚠️ Known limitations (the honest part)
 
-1. **~55% of steps are manual-advance.** The guides' steps are granular and often expose no
+1. **~53% of steps are manual-advance.** The guides' steps are granular and often expose no
    machine-checkable state; coverage grows only through safe-by-construction conditions and
    human-verified overrides.
 2. **Not verified in-game by the maintainer.** Automating the game client is bannable, so in-game
    behaviour rests on human spot-checks and player reports. A clean build + green tests is not a
    functional in-game test.
-3. **Long multi-action steps** in some guides remain single steps; splitting them further is a
-   judgment call deferred until someone reads them in-game.
-4. **9 known duplicate-arrival waypoints** are accepted deliberately (revisit-a-town steps complete
+3. **Sentence-level atomization is new** (2026-09-06): multi-action guide walls are now split into
+   single-task steps. Splitting is sentence-first, so a sentence chaining two actions can remain one
+   step; finer splitting is deferred until someone reads the results in-game.
+4. **7 known duplicate-arrival waypoints** are accepted deliberately (revisit-a-town steps complete
    on the revisit); the lint pins the list so no new ones slip in.
 
 ## Enrichment path
