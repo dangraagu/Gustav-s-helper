@@ -61,12 +61,7 @@
       "title": "Create a Mahogany eagle lectern in …",
       "text": "Create a Mahogany eagle lectern in your house. — (Optional) Create a Marble lectern instead, but it costs a lot more",
       "manual": true,
-      "object": 19922,
-      "world": [
-        2005,
-        4972,
-        3
-      ]
+      "object": 19922
     },
     {
       "id": "slayer-007",
@@ -78,23 +73,13 @@
       "id": "slayer-008",
       "title": "Make Super attack potions if you …",
       "text": "Make Super attack potions if you have not already. — Remember your Dragon Battleaxe will cover Strength",
-      "manual": true,
-      "world": [
-        2005,
-        4972,
-        3
-      ]
+      "manual": true
     },
     {
       "id": "slayer-009",
       "title": "Make about ~250 Teleport to house …",
       "text": "Make about ~250 Teleport to house (tablet)s. — This Video shows an easy method. — If you don't have Humidify you can make some Bracelets of Clay instead. — Make ~500 tablets if you plan to go for a 500 Task streak rather than 250.",
-      "manual": true,
-      "world": [
-        2528,
-        5160,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "slayer-010",

@@ -8495,12 +8495,7 @@
       "title": "(Feel free to make a bank …",
       "text": "(Feel free to make a bank tab that is build for farm runs; Logs, Hammer, Chisel, Potato Seeds, Hop Seeds, Digsite Pendants, Seaweed Spores, 1x Spare clockwork)",
       "manual": true,
-      "object": 7348,
-      "world": [
-        2476,
-        4937,
-        0
-      ]
+      "object": 7348
     },
     {
       "id": "e2-541",

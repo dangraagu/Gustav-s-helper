@@ -29,6 +29,9 @@
         "qty": 1
       },
       "item": 21295
+    },
+    "divine-rune-pouch-001": {
+      "world": null
     }
   },
   "uim-prifddinas": {
@@ -826,6 +829,24 @@
     },
     "e11-004": {
       "world": null
+    },
+    "e2-540": {
+      "world": null
+    },
+    "e10-076": {
+      "world": null
+    },
+    "e10-094": {
+      "world": null
+    },
+    "e10-097": {
+      "world": null
+    },
+    "e10-133": {
+      "world": null
+    },
+    "e10-095": {
+      "world": null
     }
   },
   "uim-prifddinas-current": {
@@ -1011,6 +1032,15 @@
         "level": 50,
         "cmp": ">="
       }
+    },
+    "slayer-006": {
+      "world": null
+    },
+    "slayer-008": {
+      "world": null
+    },
+    "slayer-009": {
+      "world": null
     }
   },
   "max-vyrewatch-alt": {

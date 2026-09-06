@@ -7,12 +7,7 @@
       "id": "divine-rune-pouch-001",
       "title": "Make an amulet of fury. — …",
       "text": "Make an amulet of fury. — You need high Crafting eventually, but just getting an amulet of glory is also fine for now",
-      "manual": true,
-      "world": [
-        2528,
-        5160,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "divine-rune-pouch-002",

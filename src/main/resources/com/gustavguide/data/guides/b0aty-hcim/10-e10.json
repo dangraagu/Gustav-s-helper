@@ -1087,12 +1087,7 @@
       "title": "Build a Mahogany EAGLE Lecturn in …",
       "text": "Build a Mahogany EAGLE Lecturn in the Study",
       "manual": true,
-      "object": 19922,
-      "world": [
-        2005,
-        4972,
-        3
-      ]
+      "object": 19922
     },
     {
       "id": "e10-077",
@@ -1391,12 +1386,7 @@
       "id": "e10-094",
       "title": "Bank all",
       "text": "Bank all",
-      "manual": true,
-      "world": [
-        2543,
-        5144,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-095",
@@ -1430,12 +1420,7 @@
       "id": "e10-097",
       "title": "Make a Restoration Pool then upgrade …",
       "text": "Make a Restoration Pool then upgrade it to a Revitalisation Pool",
-      "manual": true,
-      "world": [
-        2543,
-        5144,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-098",
@@ -1955,12 +1940,7 @@
       "id": "e10-133",
       "title": "Make sure your amulet of glory …",
       "text": "Make sure your amulet of glory has 1 charge minimum",
-      "manual": true,
-      "world": [
-        2528,
-        5160,
-        0
-      ]
+      "manual": true
     },
     {
       "id": "e10-134",
