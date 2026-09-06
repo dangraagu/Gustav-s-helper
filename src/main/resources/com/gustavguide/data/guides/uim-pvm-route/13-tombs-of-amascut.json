@@ -7,12 +7,17 @@
       "id": "tombs-of-amascut-001",
       "title": "Complete the Tombs of Amascut until …",
       "text": "Complete the Tombs of Amascut until you receive an Osmumten's fang",
-      "manual": true,
       "world": [
         3345,
         2725,
         0
-      ]
+      ],
+      "complete": {
+        "op": "itemAcquired",
+        "id": 26219,
+        "qty": 1
+      },
+      "item": 26219
     },
     {
       "id": "tombs-of-amascut-002",

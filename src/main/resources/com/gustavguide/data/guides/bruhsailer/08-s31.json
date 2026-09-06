@@ -35,12 +35,27 @@
       "id": "s31-002",
       "title": "Optional but recommended: go to the …",
       "text": "Optional but recommended: go to the Mage Training Arena, collect the Mage’s book and the infinity boots",
-      "manual": true,
       "world": [
         3364,
         3312,
         0
-      ]
+      ],
+      "complete": {
+        "op": "and",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6889,
+            "qty": 1
+          },
+          {
+            "op": "itemAcquired",
+            "id": 6920,
+            "qty": 1
+          }
+        ]
+      },
+      "item": 6889
     },
     {
       "id": "s31-003",

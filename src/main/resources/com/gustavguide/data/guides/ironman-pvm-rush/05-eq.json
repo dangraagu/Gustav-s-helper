@@ -7,71 +7,152 @@
       "id": "eq-001",
       "title": "Equip Void melee helm",
       "text": "Equip Void melee helm",
-      "manual": true,
-      "item": 11665
+      "item": 11665,
+      "complete": {
+        "op": "itemEquipped",
+        "id": 11665
+      }
     },
     {
       "id": "eq-002",
       "title": "Equip Fire cape",
       "text": "Equip Fire cape",
-      "manual": true,
-      "item": 6570
+      "item": 6570,
+      "complete": {
+        "op": "itemEquipped",
+        "id": 6570
+      }
     },
     {
       "id": "eq-003",
       "title": "Equip Amulet of glory",
       "text": "Equip Amulet of glory",
-      "manual": true,
-      "item": 1704
+      "item": 1712,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemEquipped",
+            "id": 1704
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1706
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1708
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1710
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1712
+          },
+          {
+            "op": "itemEquipped",
+            "id": 11976
+          },
+          {
+            "op": "itemEquipped",
+            "id": 11978
+          },
+          {
+            "op": "itemEquipped",
+            "id": 19707
+          }
+        ]
+      }
     },
     {
       "id": "eq-004",
       "title": "Wield rune arrows",
       "text": "Wield rune arrows",
-      "manual": true,
-      "item": 892
+      "item": 892,
+      "complete": {
+        "op": "itemEquipped",
+        "id": 892
+      }
     },
     {
       "id": "eq-005",
       "title": "Equip Dragon scimitar",
       "text": "Equip Dragon scimitar",
-      "manual": true,
-      "item": 4587
+      "item": 4587,
+      "complete": {
+        "op": "itemEquipped",
+        "id": 4587
+      }
     },
     {
       "id": "eq-006",
       "title": "Equip Void knight top",
       "text": "Equip Void knight top",
-      "manual": true,
-      "item": 8839
+      "item": 8839,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemEquipped",
+            "id": 8839
+          },
+          {
+            "op": "itemEquipped",
+            "id": 13072
+          }
+        ]
+      }
     },
     {
       "id": "eq-007",
       "title": "Equip Void knight robe",
       "text": "Equip Void knight robe",
-      "manual": true,
-      "item": 8840
+      "item": 8840,
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemEquipped",
+            "id": 8840
+          },
+          {
+            "op": "itemEquipped",
+            "id": 13073
+          }
+        ]
+      }
     },
     {
       "id": "eq-008",
       "title": "Equip Dragon defender",
       "text": "Equip Dragon defender",
-      "manual": true,
-      "item": 12954
+      "item": 12954,
+      "complete": {
+        "op": "itemEquipped",
+        "id": 12954
+      }
     },
     {
       "id": "eq-009",
       "title": "Equip Void knight gloves",
       "text": "Equip Void knight gloves",
-      "manual": true,
-      "item": 8842
+      "item": 8842,
+      "complete": {
+        "op": "itemEquipped",
+        "id": 8842
+      }
     },
     {
       "id": "eq-010",
       "title": "Equip Climbing boots",
       "text": "Equip Climbing boots",
-      "manual": true,
-      "item": 3105
+      "item": 3105,
+      "complete": {
+        "op": "itemEquipped",
+        "id": 3105
+      }
     },
     {
       "id": "eq-011",

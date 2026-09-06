@@ -13,6 +13,22 @@
         0
       ],
       "npc": 2267
+    },
+    "tombs-of-amascut-001": {
+      "complete": {
+        "op": "itemAcquired",
+        "id": 26219,
+        "qty": 1
+      },
+      "item": 26219
+    },
+    "inferno-004": {
+      "complete": {
+        "op": "itemAcquired",
+        "id": 21295,
+        "qty": 1
+      },
+      "item": 21295
     }
   },
   "uim-prifddinas": {
@@ -987,6 +1003,14 @@
         3402,
         0
       ]
+    },
+    "setting-up-for-agility-021": {
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 50,
+        "cmp": ">="
+      }
     }
   },
   "max-vyrewatch-alt": {
@@ -1026,6 +1050,24 @@
         3232,
         0
       ]
+    },
+    "s31-002": {
+      "complete": {
+        "op": "and",
+        "of": [
+          {
+            "op": "itemAcquired",
+            "id": 6889,
+            "qty": 1
+          },
+          {
+            "op": "itemAcquired",
+            "id": 6920,
+            "qty": 1
+          }
+        ]
+      },
+      "item": 6889
     }
   },
   "max-account-start": {
@@ -1035,6 +1077,139 @@
         3360,
         0
       ]
+    }
+  },
+  "ironman-pvm-rush": {
+    "eq-001": {
+      "complete": {
+        "op": "itemEquipped",
+        "id": 11665
+      },
+      "item": 11665
+    },
+    "eq-002": {
+      "complete": {
+        "op": "itemEquipped",
+        "id": 6570
+      },
+      "item": 6570
+    },
+    "eq-003": {
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemEquipped",
+            "id": 1704
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1706
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1708
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1710
+          },
+          {
+            "op": "itemEquipped",
+            "id": 1712
+          },
+          {
+            "op": "itemEquipped",
+            "id": 11976
+          },
+          {
+            "op": "itemEquipped",
+            "id": 11978
+          },
+          {
+            "op": "itemEquipped",
+            "id": 19707
+          }
+        ]
+      },
+      "item": 1712
+    },
+    "eq-004": {
+      "complete": {
+        "op": "itemEquipped",
+        "id": 892
+      },
+      "item": 892
+    },
+    "eq-005": {
+      "complete": {
+        "op": "itemEquipped",
+        "id": 4587
+      },
+      "item": 4587
+    },
+    "eq-006": {
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemEquipped",
+            "id": 8839
+          },
+          {
+            "op": "itemEquipped",
+            "id": 13072
+          }
+        ]
+      },
+      "item": 8839
+    },
+    "eq-007": {
+      "complete": {
+        "op": "or",
+        "of": [
+          {
+            "op": "itemEquipped",
+            "id": 8840
+          },
+          {
+            "op": "itemEquipped",
+            "id": 13073
+          }
+        ]
+      },
+      "item": 8840
+    },
+    "eq-008": {
+      "complete": {
+        "op": "itemEquipped",
+        "id": 12954
+      },
+      "item": 12954
+    },
+    "eq-009": {
+      "complete": {
+        "op": "itemEquipped",
+        "id": 8842
+      },
+      "item": 8842
+    },
+    "eq-010": {
+      "complete": {
+        "op": "itemEquipped",
+        "id": 3105
+      },
+      "item": 3105
+    }
+  },
+  "optimal-quest-ironman": {
+    "qo-051": {
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1540,
+        "qty": 1
+      },
+      "item": 1540
     }
   }
 }

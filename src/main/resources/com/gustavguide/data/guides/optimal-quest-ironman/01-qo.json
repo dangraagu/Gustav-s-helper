@@ -717,12 +717,17 @@
       "id": "qo-051",
       "title": "Unlock: Anti-dragon shield",
       "text": "Unlock: Anti-dragon shield\nLocation: Champions' Guild",
-      "manual": true,
       "world": [
         3191,
         3357,
         0
-      ]
+      ],
+      "complete": {
+        "op": "itemAcquired",
+        "id": 1540,
+        "qty": 1
+      },
+      "item": 1540
     },
     {
       "id": "qo-052",

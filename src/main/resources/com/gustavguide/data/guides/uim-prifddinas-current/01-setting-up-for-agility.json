@@ -343,13 +343,18 @@
       "id": "setting-up-for-agility-021",
       "title": "Train there until level 50 Agility. …",
       "text": "Train there until level 50 Agility. — Start by jumping over the Floor spikes (Brimhaven Agility Arena) until you can start collecting tickets consistently. You will need 30 agility to do most, and 40 agility to do all the obstacles.",
-      "manual": true,
       "object": 10805,
       "world": [
         2789,
         3174,
         0
-      ]
+      ],
+      "complete": {
+        "op": "skill",
+        "skill": "AGILITY",
+        "level": 50,
+        "cmp": ">="
+      }
     },
     {
       "id": "setting-up-for-agility-022",

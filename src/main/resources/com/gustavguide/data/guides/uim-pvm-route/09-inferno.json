@@ -31,7 +31,12 @@
       "id": "inferno-004",
       "title": "Complete the Inferno. — Inferno is …",
       "text": "Complete the Inferno. — Inferno is a safe death, so you can keep your other items in death storage. — Adjust the setup to your preference",
-      "manual": true
+      "complete": {
+        "op": "itemAcquired",
+        "id": 21295,
+        "qty": 1
+      },
+      "item": 21295
     },
     {
       "id": "inferno-005",
